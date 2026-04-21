@@ -1,0 +1,31 @@
+university:
+  name: "University of Zurich"
+  short_names:
+    - "UZH"
+    - "University of Zurich"
+    - "Universität Zürich"
+    - "uzh.ch"
+
+official_accounts:
+  - handle: "UZH_en"
+    language: "english"
+  - handle: "UZH_Science"
+    language: "german"
+
+time_window:
+  start: "2021-01-01"
+  end: "2021-12-31"
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  coded: "data/coded"
+
+scraping:
+  followers_limit: null
+  tweets_per_account_limit: 3200
+  request_sleep_seconds: 1.5
+
+network:
+  louvain_resolution: 1.0
+  min_mentions_for_edge: 1

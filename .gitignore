@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+
+# large scraped data — keep folders via .gitkeep
+data/raw/*
+data/processed/*
+data/coded/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/coded/.gitkeep
+
+# twscrape account DB
+accounts.db
