@@ -3,6 +3,8 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .venv/
+.vscode/
+
 
 # large scraped data — keep folders via .gitkeep
 data/raw/*
