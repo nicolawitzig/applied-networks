@@ -14,9 +14,51 @@ from __future__ import annotations
 from datetime import datetime
 from typing import AsyncIterator
 
+import re
+
 from twscrape import API, gather
+import twscrape.xclid as _xclid
 
 from .base import AccountRecord, TweetRecord
+
+
+# Patch: twscrape 0.17's get_scripts_list splits x.com's JS on 'e=>e+"."+', which
+# no longer exists — current x.com emits '[e]||e)+"."+'. Without this patch,
+# XClIdGen.create() raises IndexError, which twscrape mis-diagnoses as a rate
+# limit and locks the account for 15 minutes. We parse the two relevant JS
+# object literals (script-id -> name, script-id -> hash) with a regex instead.
+def _patched_get_scripts_list(text: str):
+    hash_end = text.find('[e]+"a.js"')
+    name_end = text.find('[e]||e)+"."+')
+    if hash_end < 0 or name_end < 0:
+        raise RuntimeError("x.com JS format changed again — update the parser")
+
+    def _brace_start(end: int, stop: int = -1) -> int:
+        depth = 0
+        for i in range(end - 1, stop, -1):
+            c = text[i]
+            if c == "}":
+                depth += 1
+            elif c == "{":
+                depth -= 1
+                if depth == 0:
+                    return i
+        raise RuntimeError("unmatched brace walking back from JS dict")
+
+    name_start = _brace_start(name_end)
+    hash_start = _brace_start(hash_end, stop=name_end)
+
+    pair_re = re.compile(r'(\d+):"([^"]+)"')
+    name_dict = dict(pair_re.findall(text[name_start:name_end]))
+    hash_dict = dict(pair_re.findall(text[hash_start:hash_end]))
+    for k, name in name_dict.items():
+        h = hash_dict.get(k)
+        if h is None:
+            continue
+        yield _xclid.script_url(name, f"{h}a")
+
+
+_xclid.get_scripts_list = _patched_get_scripts_list
 
 
 def _to_account(u) -> AccountRecord:
