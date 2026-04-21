@@ -9,8 +9,6 @@ university:
 official_accounts:
   - handle: "UZH_en"
     language: "english"
-  - handle: "UZH_Science"
-    language: "german"
 
 time_window:
   start: "2021-01-01"
@@ -22,7 +20,7 @@ paths:
   coded: "data/coded"
 
 scraping:
-  followers_limit: null
+  followers_limit: 10
   tweets_per_account_limit: 3200
   request_sleep_seconds: 1.5
 
