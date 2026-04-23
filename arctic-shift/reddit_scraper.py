@@ -46,6 +46,35 @@ class RedditPost:
         )
 
 
+@dataclass
+class RedditComment:
+    """Data class representing a Reddit comment from Arctic Shift API"""
+    id: str
+    body: str
+    author: str
+    subreddit: str
+    created_utc: int
+    score: int
+    link_id: str
+    parent_id: str
+    retrieved_on: int
+    
+    @classmethod
+    def from_api_data(cls, data: Dict[str, Any]) -> 'RedditComment':
+        """Create RedditComment from API response data"""
+        return cls(
+            id=data.get('id', ''),
+            body=data.get('body', ''),
+            author=data.get('author', ''),
+            subreddit=data.get('subreddit', ''),
+            created_utc=data.get('created_utc', 0),
+            score=data.get('score', 0),
+            link_id=data.get('link_id', ''),
+            parent_id=data.get('parent_id', ''),
+            retrieved_on=data.get('retrieved_on', 0)
+        )
+
+
 class ArcticShiftScraper:
     """Client for querying Reddit data from Arctic Shift API"""
     
@@ -116,6 +145,60 @@ class ArcticShiftScraper:
             
         except requests.exceptions.RequestException as e:
             print(f"API request failed: {e}")
+            if hasattr(e.response, 'status_code'):
+                print(f"Status code: {e.response.status_code}")
+                if e.response.status_code == 429:
+                    print("Rate limited - waiting 60 seconds")
+                    time.sleep(60)
+            return []
+    
+    def search_comments(self, subreddit: str, limit: int = 100,
+                       after: Optional[str] = None,
+                       before: Optional[str] = None,
+                       sort: str = 'desc') -> List[RedditComment]:
+        """
+        Search for comments in a subreddit using Arctic Shift API
+        
+        Args:
+            subreddit: Subreddit name (without r/)
+            limit: Number of comments to retrieve (1-100)
+            after: Start date (ISO format or epoch)
+            before: End date (ISO format or epoch)
+            sort: Sort order ('asc' or 'desc')
+        
+        Returns:
+            List of RedditComment objects
+        """
+        endpoint = f"{self.BASE_URL}/api/comments/search"
+        
+        params = {
+            'subreddit': subreddit,
+            'limit': min(limit, 100),
+            'sort': sort
+        }
+        
+        if after:
+            params['after'] = after
+        if before:
+            params['before'] = before
+        
+        self._rate_limit()
+        
+        try:
+            response = self.session.get(endpoint, params=params, timeout=30)
+            response.raise_for_status()
+            
+            data = response.json()
+            comments = [RedditComment.from_api_data(c) for c in data.get('data', [])]
+            
+            remaining = response.headers.get('X-RateLimit-Remaining')
+            if remaining:
+                print(f"Rate limit remaining: {remaining}")
+            
+            return comments
+            
+        except requests.exceptions.RequestException as e:
+            print(f"API comment request failed: {e}")
             if hasattr(e.response, 'status_code'):
                 print(f"Status code: {e.response.status_code}")
                 if e.response.status_code == 429:
