@@ -1,286 +1,47 @@
-# Reddit Scraper Guide for Arctic Shift API
+## Analysis Method
 
-This guide explains how to use the Reddit scraping scripts to analyze subreddit users and their cross-subreddit activity.
+The analysis pipeline adapts the network approach from Blondel et al. (2008) and follows a three-stage design:
 
-## Scripts Overview
+### Stage 1: User Discovery (Exhaustive Pagination)
 
-1. **`reddit_scraper.py`** - Scrape posts from a subreddit with pagination and date ranges
-2. **`scrape_users.py`** - Extract unique users from a subreddit (with date range support)
-3. **`extract_users_from_posts.py`** - Extract users from existing post files (CSV/JSON)
-4. **`scrape_user_subreddits.py`** - Analyze what other subreddits users post in
-5. **`analyze_overlap.py`** - Analyze subreddit overlap patterns from collected data
+**Input:** target subreddit name + date range (e.g., `--subreddit ethz --after 2024-01-01 --before 2026-01-01`).  
+**Process:** `scrape_user_subreddits_crossref.py` exhaustively paginates all posts and comments in the target subreddit using the Arctic Shift API (100 items per request, cursor-based via the `before` parameter). Every unique author with a non-deleted username is collected.  
+**Output:** a set of all users who posted or commented in the target subreddit within the date range.
 
-## Prerequisites
+### Stage 2: Cross-Referencing
 
-```bash
-# Install required packages
-pip install requests
-```
+**Input:** the set of discovered users from Stage 1.  
+**Process:** for each user, the script paginates all of their posts and comments across *all* subreddits within the same date range. Each user's activity is aggregated into a `UserActivity` record: which subreddits they participate in, how many posts/comments per subreddit, and their first/last activity timestamps.  
+**Output:** a CSV with columns `username`, `total_posts`, `total_comments`, `total_items`, `subreddit_count`, `first_date`, `last_date`, and `subreddits` (packed `sub:count` pairs).
 
-## Basic Usage
+### Stage 3: Overlap + Network Analysis
 
-### 1. Scrape Posts from a Subreddit
+**Input:** the CSV from Stage 2.  
+**Process (two parallel analyses):**
 
-```bash
-# Get 50 posts from r/ethz (default)
-python reddit_scraper.py ethz
+1. **Overlap analysis** — counts how many users share a given subreddit (excluding the target subreddit) and computes pairwise subreddit overlap (number of users active in both subreddits). Results are saved as CSV tables.
 
-# Get 100 posts and save to JSON
-python reddit_scraper.py ethz --limit 100 --output ethz_posts.json
+2. **Network analysis (Louvain community detection)** — builds a weighted undirected graph where:
+   - **Nodes** = subreddits (excluding the target)
+   - **Edge weights** = number of shared users between two subreddits
+   - **Community detection** via the Louvain algorithm (Blondel et al., *J. Stat. Mech.*, 2008), implemented in pure Python (no external dependencies)
+   - **Modularity** computed to measure community structure quality
+   - **Network density** calculated as realized edges / max possible edges
 
-# Get posts from a date range
-python reddit_scraper.py ethz --after 2024-01-01 --before 2024-12-31
+**Outputs:**
 
-# Get more than 100 posts using pagination
-python reddit_scraper.py ethz --max-posts 500 --output ethz_posts_large.json
+| File | Description |
+|---|---|
+| `{prefix}_subreddit_overlap.csv` | Per-subreddit user counts and percentage of total users |
+| `{prefix}_pairwise_overlap.csv` | Pairwise subreddit overlap counts and percentages |
+| `{prefix}_communities.csv` | Louvain community assignments for each subreddit |
+| `{prefix}_network.gexf` | GEXF graph file importable into **Gephi** for visualization |
 
-# Get 1000 posts with date range
-python reddit_scraper.py ethz --max-posts 1000 --after 2024-01-01 --before 2026-01-01
+Console output at Stage 3 includes: number of nodes, edges, network density, modularity score, number of detected communities, and representative (highest-degree) subreddits per community.
 
-# Save in multiple formats
-python reddit_scraper.py ethz --output data --format both
-```
+### Relationship to Prior Work
 
-### 2. Extract Unique Users from a Subreddit
-
-```bash
-# Get users from r/ethz (scrapes up to 1000 posts)
-python scrape_users.py ethz --max-posts 1000
-
-# Get users with date range
-python scrape_users.py ethz --after 2024-01-01 --before 2026-01-01 --max-posts 2000
-
-# Save users to files
-python scrape_users.py ethz --max-posts 1000 --output ethz_users --format both
-
-# Display top 30 users
-python scrape_users.py ethz --max-posts 500 --display 30
-```
-
-### 2b. Extract Users from Existing Post Files
-
-```bash
-# Extract users from JSON post file
-python extract_users_from_posts.py ethz_posts.json --output ethz_users.json
-
-# Extract users from CSV post file
-python extract_users_from_posts.py ethz_posts.csv --format csv --display 30
-
-# Filter users by date range
-python extract_users_from_posts.py ethz_posts.json --after 2024-01-01 --before 2025-01-01 --output filtered_users.json
-```
-
-### 3. Analyze Cross-Subreddit Activity
-
-```bash
-# Analyze all users from r/ethz
-python scrape_user_subreddits.py --subreddit ethz --posts-per-user 100
-
-# Analyze limited users from r/ethz
-python scrape_user_subreddits.py --subreddit ethz --user-limit 50 --posts-per-user 100
-
-# Save comprehensive analysis
-python scrape_user_subreddits.py --subreddit ethz --user-limit 100 --posts-per-user 100 --output ethz_cross_analysis --format both
-
-# Analyze users within a specific date range
-python scrape_user_subreddits.py --subreddit ethz --after 2024-01-01 --before 2025-01-01 --user-limit 100
-
-# Analyze recent activity only
-python scrape_user_subreddits.py --subreddit ethz --after 2024-06-01 --before 2024-12-31 --posts-per-user 200
-
-# Analyze all users from a CSV file (output of scrape_users.py)
-python scrape_user_subreddits.py --input ethz_users_2024-2026.csv --posts-per-user 200
-
-# Analyze users from a JSON file with date range
-python scrape_user_subreddits.py --input ethz_users.json --after 2024-01-01 --before 2025-01-01
-
-# Analyze specific users
-python scrape_user_subreddits.py --users user1,user2,user3 --posts-per-user 50
-```
-
-### 4. Analyze Subreddit Overlap
-
-```bash
-# Analyze overlap from saved analysis
-python analyze_overlap.py ethz_cross_subreddit_analysis.json ethz_overlap
-```
-
-## Output Files
-
-### From `scrape_users.py` or `extract_users_from_posts.py`:
-- `ethz_users.json` - JSON with user statistics (post count, activity dates, etc.)
-- `ethz_users.csv` - CSV version of user data
-
-### From `scrape_user_subreddits.py`:
-- `ethz_cross_subreddit_analysis.json` - Detailed JSON with user activity across subreddits
-- `ethz_cross_subreddit_analysis.csv` - CSV summary of user-subreddit relationships
-
-### From `analyze_overlap.py`:
-- `ethz_overlap_subreddit_overlap.csv` - Subreddit overlap counts
-- `ethz_overlap_pairwise_overlap.csv` - Pairwise overlap between subreddits
-
-## Command Line Arguments
-
-### `reddit_scraper.py`
-```
-positional arguments:
-  subreddit            Subreddit name (without r/)
-
-optional arguments:
-  --limit LIMIT        Number of posts to retrieve (default: 50, max 100 per request)
-  --max-posts MAX_POSTS Maximum posts to retrieve with pagination (overrides --limit)
-  --after AFTER        Start date (YYYY-MM-DD or epoch)
-  --before BEFORE      End date (YYYY-MM-DD or epoch)
-  --output OUTPUT      Output filename
-  --format {json,csv,both} Output format (default: json)
-  --stats              Show subreddit statistics
-  --display DISPLAY    Number of posts to display in console (default: 10)
-```
-
-### `scrape_users.py`
-```
-positional arguments:
-  subreddit            Subreddit name (without r/)
-
-optional arguments:
-  --max-posts MAX_POSTS Maximum number of posts to scrape (default: 500)
-  --after AFTER        Start date (YYYY-MM-DD or epoch)
-  --before BEFORE      End date (YYYY-MM-DD or epoch)
-  --output OUTPUT      Output filename
-  --format {json,csv,both} Output format (default: json)
-  --display DISPLAY    Number of users to display in console (default: 20)
-```
-
-### `extract_users_from_posts.py`
-```
-positional arguments:
-  input_file           Input file with posts (JSON or CSV)
-
-optional arguments:
-  --output OUTPUT      Output filename for users
-  --format {json,csv,both} Output format (default: json)
-  --display DISPLAY    Number of users to display in console (default: 20)
-  --after AFTER        Filter users active after this date (YYYY-MM-DD or epoch)
-  --before BEFORE      Filter users active before this date (YYYY-MM-DD or epoch)
-```
-
-### `scrape_user_subreddits.py`
-```
-options:
-  --subreddit SUBREDDIT  Target subreddit name (without r/)
-  --input INPUT         Input file with users (CSV or JSON from scrape_users.py)
-  --users USERS         Comma-separated list of usernames
-  --user-limit USER_LIMIT Maximum number of users to analyze (only with --subreddit, default: all users)
-  --posts-per-user POSTS_PER_USER Maximum posts to fetch per user (default: 100)
-  --after AFTER        Start date (YYYY-MM-DD or epoch) for filtering posts
-  --before BEFORE      End date (YYYY-MM-DD or epoch) for filtering posts
-  --output OUTPUT      Output filename
-  --format {json,csv,both} Output format (default: json)
-  --display DISPLAY    Number of users to display in console (default: 20)
-```
-
-### `analyze_overlap.py`
-```
-usage: python analyze_overlap.py <analysis_file.json> [output_prefix]
-
-Example: python analyze_overlap.py ethz_cross_subreddit_analysis.json ethz_overlap
-```
-
-## Example Workflow
-
-### Complete Analysis of r/ethz Users
-
-```bash
-# Step 1: Extract users from r/ethz (with pagination)
-python scrape_users.py ethz --max-posts 1000 --output ethz_users --format both
-
-# Alternative: Use updated reddit_scraper.py with pagination
-python reddit_scraper.py ethz --max-posts 1000 --output ethz_posts_large.json
-
-# Step 2: Analyze cross-subreddit activity (from subreddit, all users)
-python scrape_user_subreddits.py --subreddit ethz --posts-per-user 100 --output ethz_cross_analysis --format both
-
-# Alternative: Analyze limited users from subreddit
-python scrape_user_subreddits.py --subreddit ethz --user-limit 100 --posts-per-user 100 --output ethz_cross_analysis --format both
-
-# Alternative: Analyze all users from saved file
-python scrape_user_subreddits.py --input ethz_users.csv --posts-per-user 200 --output ethz_cross_analysis
-
-# Step 3: Analyze overlap patterns
-python analyze_overlap.py ethz_cross_subreddit_analysis.json ethz_overlap
-
-# Alternative: Analyze specific time period
-python scrape_user_subreddits.py --subreddit ethz --after 2024-01-01 --before 2025-01-01 --user-limit 100 --posts-per-user 200 --output ethz_2024_analysis
-```
-
-### Large-Scale Data Collection
-
-```bash
-# Collect 5000 posts for comprehensive analysis
-python reddit_scraper.py ethz --max-posts 5000 --output ethz_5k_posts.json
-
-# Analyze users from large dataset
-python scrape_users.py ethz --max-posts 5000 --output ethz_users_large --format both
-```
-
-### Quick Analysis
-
-```bash
-# Quick analysis of top 30 users from subreddit
-python scrape_user_subreddits.py --subreddit ethz --user-limit 30 --posts-per-user 50 --display 20
-
-# Quick analysis of users from file
-python scrape_user_subreddits.py --input ethz_users.csv --posts-per-user 50 --display 20
-```
-
-## Data Structure
-
-### User Data (`scrape_users.py` output)
-```json
-{
-  "username": "Visible-Design4180",
-  "post_count": 12,
-  "first_post_date": 1776563865,
-  "last_post_date": 1776693493,
-  "total_score": 47,
-  "total_comments": 70
-}
-```
-
-### Cross-Subreddit Analysis (`scrape_user_subreddits.py` output)
-```json
-{
-  "username": "Visible-Design4180",
-  "total_posts": 65,
-  "first_post_date": 1705337715,
-  "last_post_date": 1776693493,
-  "subreddits": {
-    "ethz": 12,
-    "gradadmissions": 8,
-    "Physics": 5,
-    "EPFL": 4,
-    // ... other subreddits
-  },
-  "subreddit_count": 18
-}
-```
-
-### Overlap Analysis (`analyze_overlap.py` output)
-
-**Subreddit Overlap CSV:**
-```
-Subreddit,User Count,Percentage of Total Users
-r/EPFL,15,16.9%
-r/Switzerland,15,16.9%
-r/askswitzerland,14,15.7%
-```
-
-**Pairwise Overlap CSV:**
-```
-Subreddit 1,Subreddit 2,Overlap Count,Overlap Percentage
-r/Switzerland,r/askswitzerland,10,71.4%
-r/askswitzerland,r/zurich,7,53.8%
-```
+This method mirrors the approach used by Fürst et al. (2022) and Sörensen et al. (2023) in their analysis of university-affiliated Twitter accounts. Where they used @mention networks and Louvain community detection on Twitter, we substitute subreddit co-occurrence as the relational tie — two subreddits are connected if they share a critical mass of users. The Louvain algorithm is identical, and the GEXF output enables identical visualization workflows in Gephi.
 
 ## Key Findings from r/ethz Analysis
 
