@@ -3,8 +3,8 @@
 Scrape ALL posts, comments, and replies from a subreddit and assemble into threads.
 
 Outputs:
-  results/{sub}_threads.jsonl  — one JSON thread per line, nested structure (for LLM training)
-  results/{sub}_flat.csv       — flat table, one row per post/comment (for classification)
+  results/{sub}_{after}_{before}_threads.jsonl  — one JSON thread per line, nested (for LLM training)
+  results/{sub}_{after}_{before}_flat.csv       — flat table, one row per post/comment (for classification)
 
 Usage:
   python scrape_subreddit_content.py --subreddit ethz --after 2024-01-01 --before 2026-01-01
@@ -17,19 +17,148 @@ import json
 import os
 import sys
 import time
+from dataclasses import dataclass
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
-from reddit_scraper import ArcticShiftScraper, RedditComment, RedditPost
+import requests
 
 BATCH_DELAY = 1.2    # seconds between pagination requests — stays within API rate limits
-BATCH_SIZE = 100     # Arctic Shift API maximum per request
+BATCH_SIZE  = 100    # Arctic Shift API maximum per request
 
 
-def _ts_to_date(ts: int) -> str:
-    """Unix timestamp → ISO date string used in all output rows."""
-    return datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d")
+# ---------------------------------------------------------------------------
+# Arctic Shift API client
+# ---------------------------------------------------------------------------
 
+@dataclass
+class RedditPost:
+    """One post record returned by the Arctic Shift posts/search endpoint."""
+    id: str
+    title: str
+    author: str
+    subreddit: str
+    created_utc: int
+    score: int
+    num_comments: int
+    selftext: str
+    url: str
+    retrieved_on: int
+
+    @classmethod
+    def from_api_data(cls, data: Dict[str, Any]) -> "RedditPost":
+        """Construct from raw API response dict."""
+        return cls(
+            id=data.get("id", ""),
+            title=data.get("title", ""),
+            author=data.get("author", ""),
+            subreddit=data.get("subreddit", ""),
+            created_utc=data.get("created_utc", 0),
+            score=data.get("score", 0),
+            num_comments=data.get("num_comments", 0),
+            selftext=data.get("selftext", ""),
+            url=data.get("url", ""),
+            retrieved_on=data.get("retrieved_on", 0),
+        )
+
+
+@dataclass
+class RedditComment:
+    """One comment record returned by the Arctic Shift comments/search endpoint."""
+    id: str
+    body: str
+    author: str
+    subreddit: str
+    created_utc: int
+    score: int
+    link_id: str      # t3_<post_id> — the thread this comment belongs to
+    parent_id: str    # t3_<post_id> for top-level, t1_<comment_id> for replies
+    retrieved_on: int
+
+    @classmethod
+    def from_api_data(cls, data: Dict[str, Any]) -> "RedditComment":
+        """Construct from raw API response dict."""
+        return cls(
+            id=data.get("id", ""),
+            body=data.get("body", ""),
+            author=data.get("author", ""),
+            subreddit=data.get("subreddit", ""),
+            created_utc=data.get("created_utc", 0),
+            score=data.get("score", 0),
+            link_id=data.get("link_id", ""),
+            parent_id=data.get("parent_id", ""),
+            retrieved_on=data.get("retrieved_on", 0),
+        )
+
+
+class ArcticShiftScraper:
+    """HTTP client for the Arctic Shift Reddit archive API."""
+
+    BASE_URL         = "https://arctic-shift.photon-reddit.com"
+    RATE_LIMIT_DELAY = 1.0    # minimum seconds between any two requests
+
+    def __init__(self) -> None:
+        self.session = requests.Session()
+        self.session.headers.update({"User-Agent": "AcademicResearchBot/1.0", "Accept": "application/json"})
+        self.last_request_time: float = 0.0
+
+    def _rate_limit(self) -> None:
+        """Block until at least RATE_LIMIT_DELAY seconds have passed since the last request."""
+        elapsed = time.time() - self.last_request_time
+        if elapsed < self.RATE_LIMIT_DELAY:
+            time.sleep(self.RATE_LIMIT_DELAY - elapsed)
+        self.last_request_time = time.time()
+
+    def search_posts(
+        self,
+        subreddit: str,
+        limit: int = 100,
+        after: Optional[str] = None,
+        before: Optional[str] = None,
+        sort: str = "desc",
+    ) -> List[RedditPost]:
+        """Return up to limit posts from subreddit in the given date window."""
+        params: Dict[str, Any] = {"subreddit": subreddit, "limit": min(limit, 100), "sort": sort}
+        if after:
+            params["after"] = after
+        if before:
+            params["before"] = before
+        self._rate_limit()
+        resp = self.session.get(f"{self.BASE_URL}/api/posts/search", params=params, timeout=30)
+        if resp.status_code == 429:
+            print("Rate limited — waiting 60 s")
+            time.sleep(60)
+            return self.search_posts(subreddit, limit, after, before, sort)
+        resp.raise_for_status()
+        return [RedditPost.from_api_data(p) for p in resp.json().get("data", [])]
+
+    def search_comments(
+        self,
+        subreddit: str,
+        limit: int = 100,
+        after: Optional[str] = None,
+        before: Optional[str] = None,
+        sort: str = "desc",
+    ) -> List[RedditComment]:
+        """Return up to limit comments from subreddit in the given date window."""
+        params: Dict[str, Any] = {"subreddit": subreddit, "limit": min(limit, 100), "sort": sort}
+        if after:
+            params["after"] = after
+        if before:
+            params["before"] = before
+        self._rate_limit()
+        resp = self.session.get(f"{self.BASE_URL}/api/comments/search", params=params, timeout=30)
+        if resp.status_code == 429:
+            print("Rate limited — waiting 60 s")
+            time.sleep(60)
+            return self.search_comments(subreddit, limit, after, before, sort)
+        resp.raise_for_status()
+        return [RedditComment.from_api_data(c) for c in resp.json().get("data", [])]
+
+
+# ---------------------------------------------------------------------------
+# Pagination
+# ---------------------------------------------------------------------------
 
 def _paginate_posts(
     scraper: ArcticShiftScraper,
@@ -43,9 +172,7 @@ def _paginate_posts(
     before_cursor = before
 
     while True:
-        batch = scraper.search_posts(
-            subreddit, limit=BATCH_SIZE, after=after, before=before_cursor, sort="desc"
-        )
+        batch = scraper.search_posts(subreddit, limit=BATCH_SIZE, after=after, before=before_cursor, sort="desc")
         if not batch:
             break
         new = [p for p in batch if p.id not in seen]
@@ -73,9 +200,7 @@ def _paginate_comments(
     before_cursor = before
 
     while True:
-        batch = scraper.search_comments(
-            subreddit, limit=BATCH_SIZE, after=after, before=before_cursor, sort="desc"
-        )
+        batch = scraper.search_comments(subreddit, limit=BATCH_SIZE, after=after, before=before_cursor, sort="desc")
         if not batch:
             break
         new = [c for c in batch if c.id not in seen]
@@ -91,6 +216,15 @@ def _paginate_comments(
     return all_comments
 
 
+# ---------------------------------------------------------------------------
+# Thread assembly
+# ---------------------------------------------------------------------------
+
+def _ts_to_date(ts: int) -> str:
+    """Unix timestamp → ISO date string used in all output rows."""
+    return datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d")
+
+
 def _build_comment_node(
     comment: RedditComment,
     children_map: Dict[str, List[str]],   # bare parent ID → list of child comment IDs
@@ -100,7 +234,7 @@ def _build_comment_node(
     """Recursively build a nested comment dict; depth tracks nesting level for the flat CSV."""
     node = {
         "id": comment.id,
-        "parent_id": comment.parent_id,    # original Reddit parent_id (t3_/t1_ prefixed)
+        "parent_id": comment.parent_id,
         "author": comment.author,
         "created_utc": comment.created_utc,
         "date": _ts_to_date(comment.created_utc),
@@ -123,20 +257,20 @@ def _assemble_threads(
 ) -> List[dict]:
     """
     Join posts and comments into nested thread objects.
-    Comments outside the scraped post set are attached to a synthetic thread so no text is lost.
+    Comments whose parent post falls outside the date window are grouped into a
+    synthetic _orphaned thread so no text is lost.
     """
     comments_by_id: Dict[str, RedditComment] = {c.id: c for c in comments}
     post_ids: set = {p.id for p in posts}
 
-    # bare parent ID (strip t3_/t1_ prefix) → child comment IDs
-    children_map: Dict[str, List[str]] = {}
+    children_map: Dict[str, List[str]] = {}    # bare parent ID → child comment IDs
     for c in comments:
         bare_parent = c.parent_id.split("_", 1)[1] if "_" in c.parent_id else c.parent_id
         children_map.setdefault(bare_parent, []).append(c.id)
 
     threads: List[dict] = []
     for post in sorted(posts, key=lambda p: p.created_utc):
-        top_level = [    # direct children of the post — depth=0
+        top_level = [
             c for c in comments
             if c.link_id == f"t3_{post.id}" and c.parent_id == f"t3_{post.id}"
         ]
@@ -156,7 +290,6 @@ def _assemble_threads(
             ],
         })
 
-    # Orphaned comments (their parent post is outside the date window) → synthetic thread
     orphaned = [c for c in comments if c.link_id.split("_", 1)[1] not in post_ids]
     if orphaned:
         print(f"  note: {len(orphaned)} comments link to posts outside date range — grouped in _orphaned thread")
@@ -178,6 +311,10 @@ def _assemble_threads(
 
     return threads
 
+
+# ---------------------------------------------------------------------------
+# Output
+# ---------------------------------------------------------------------------
 
 def _flatten_comments(comments: list, post_id: str, rows: list) -> None:
     """Recursively walk comment nodes and append one flat CSV row per comment."""
@@ -228,10 +365,14 @@ def _write_flat_csv(threads: List[dict], path: str) -> None:
         w.writeheader()
         w.writerows(rows)
 
-    n_posts = sum(1 for r in rows if r["type"] == "post")
+    n_posts    = sum(1 for r in rows if r["type"] == "post")
     n_comments = sum(1 for r in rows if r["type"] == "comment")
     print(f"Saved {n_posts} posts + {n_comments} comments → {path}")
 
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -243,14 +384,14 @@ Examples:
   %(prog)s --subreddit ethz --after 2024-01-01 --before 2026-01-01 --output-dir results/
         """,
     )
-    parser.add_argument("--subreddit", required=True, help="Target subreddit (without r/)")
-    parser.add_argument("--after",     required=True, help="Start date YYYY-MM-DD (inclusive)")
-    parser.add_argument("--before",    required=True, help="End date YYYY-MM-DD (exclusive)")
+    parser.add_argument("--subreddit",  required=True, help="Target subreddit (without r/)")
+    parser.add_argument("--after",      required=True, help="Start date YYYY-MM-DD (inclusive)")
+    parser.add_argument("--before",     required=True, help="End date YYYY-MM-DD (exclusive)")
     parser.add_argument("--output-dir", default="results", help="Output directory (default: results/)")
     args = parser.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)
-    sub = args.subreddit
+    sub     = args.subreddit
     scraper = ArcticShiftScraper()
 
     print(f"Fetching all posts from r/{sub}  ({args.after} → {args.before})...")
