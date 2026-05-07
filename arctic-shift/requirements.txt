@@ -1,4 +1,16 @@
-requests>=2.31.0
-python-dateutil>=2.8.2
+# network analysis
 networkx>=3.0
-pyvis>=0.3.2
+pyvis
+
+# reddit scraping + ollama API
+requests
+
+# clustering pipeline
+sentence-transformers
+umap-learn
+hdbscan
+scikit-learn
+numpy
+
+# visualisation
+plotly

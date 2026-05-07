@@ -14,6 +14,7 @@ Usage:
 """
 
 import argparse
+import colorsys
 import csv
 import os
 import sys
@@ -278,6 +279,16 @@ def save_gephi_gexf(
     print(f"Saved GEXF ({G.number_of_nodes()} nodes, {G.number_of_edges()} edges) → {path}")
 
 
+def _generate_colors(n: int) -> List[str]:
+    """Generate n perceptually distinct hex colors by spacing hues evenly around the HSV wheel."""
+    colors = []
+    for i in range(n):
+        h = i / n                           # evenly spaced hue
+        r, g, b = colorsys.hsv_to_rgb(h, 0.75, 0.88)   # fixed saturation/brightness for readability
+        colors.append(f"#{int(r*255):02x}{int(g*255):02x}{int(b*255):02x}")
+    return colors
+
+
 def _filter_by_community_size(partition: Dict[str, int], min_community_size: int) -> Set[str]:
     """Return nodes whose community has at least min_community_size members."""
     community_sizes: Dict[int, int] = defaultdict(int)   # cid → member count
@@ -286,20 +297,14 @@ def _filter_by_community_size(partition: Dict[str, int], min_community_size: int
     return {n for n, cid in partition.items() if community_sizes[cid] >= min_community_size}
 
 
-def _filter_by_visible_degree(
-    G: nx.Graph,
-    candidates: Set[str],
-    min_edge_weight: int,
-    min_neighbors: int,
-) -> Set[str]:
-    """Drop nodes from candidates that have fewer than min_neighbors edges
-    (among candidates only, with weight >= min_edge_weight) after rendering."""
-    visible_degree: Dict[str, int] = defaultdict(int)   # node → count of qualifying edges
-    for a, b, data in G.edges(data=True):
-        if a in candidates and b in candidates and data.get("weight", 1) >= min_edge_weight:
-            visible_degree[a] += 1
-            visible_degree[b] += 1
-    return {n for n in candidates if visible_degree[n] >= min_neighbors}
+def _filter_by_degree(G: nx.Graph, candidates: Set[str], min_neighbors: int) -> Set[str]:
+    """Drop nodes from candidates that have fewer than min_neighbors neighbors among candidates."""
+    degree: Dict[str, int] = defaultdict(int)   # node → neighbor count within candidates
+    for a, b in G.edges():
+        if a in candidates and b in candidates:
+            degree[a] += 1
+            degree[b] += 1
+    return {n for n in candidates if degree[n] >= min_neighbors}
 
 
 def save_pyvis_html(
@@ -323,10 +328,13 @@ def save_pyvis_html(
     """
     from pyvis.network import Network
 
-    COLORS = ["#e63946", "#457b9d", "#2a9d8f", "#e9c46a", "#f4a261", "#6a4c93", "#8ecae6"]
-
     candidates = _filter_by_community_size(partition, min_community_size)
-    visible = _filter_by_visible_degree(G, candidates, min_edge_weight, min_neighbors)
+    visible = _filter_by_degree(G, candidates, min_neighbors)
+
+    # map only the visible communities to evenly-spaced hues — avoids red-clustering
+    # when few communities survive filtering
+    visible_cids = sorted({partition[n] for n in visible if n != target_sub})
+    cid_color: Dict[int, str] = dict(zip(visible_cids, _generate_colors(len(visible_cids))))
 
     eigvec = stats["eigvec"]
     sub_users: Dict[str, int] = defaultdict(int)    # users per subreddit for node sizing
@@ -351,7 +359,7 @@ def save_pyvis_html(
         user_count = sub_users[node]
         size = 10 + 50 * (user_count / max_users)
         centrality = round(eigvec.get(node, 0.0), 4)
-        color = "#ffffff" if node == target_sub else COLORS[cid % len(COLORS)]
+        color = "#ffffff" if node == target_sub else cid_color.get(cid, "#888888")
         net.add_node(
             node,
             label=node,
