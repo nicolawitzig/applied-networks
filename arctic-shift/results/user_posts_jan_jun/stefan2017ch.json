@@ -1,0 +1,26 @@
+{
+  "username": "stefan2017ch",
+  "posts": [],
+  "comments": [
+    {
+      "id": "kiaz38m",
+      "body": "I am wondering if Google Colab is often used in classes at ETH Zurich. Does anyone have insights?",
+      "author": "stefan2017ch",
+      "subreddit": "ethz",
+      "created_utc": 1705511624,
+      "score": 1,
+      "link_id": "t3_18nkb0q",
+      "parent_id": "t1_kiayvoy"
+    },
+    {
+      "id": "kiayvoy",
+      "body": "Interesting question. I just tried it out with a file that I made publicly availabe, without password. [Here is the Google Colab](https://colab.research.google.com/drive/1XK14JIT7MMVnpg67GpiEzMp6oC5OWaoP#scrollTo=dXPyBC6iPZW2).  \n\nPython code:\n\n`zip_path = tf.keras.utils.get_file(`  \n`origin='https://polybox.ethz.ch/index.php/s/n7blZFlzRSAiEN5/download',`  \n`fname='frompolybox.csv.zip',`  \n`extract=True)`  \n`csv_path, _ = os.path.splitext(zip_path)`  \n`data_from_polybox = pd.read_csv(csv_path)`  \n`data_from_polybox.head()`",
+      "author": "stefan2017ch",
+      "subreddit": "ethz",
+      "created_utc": 1705511555,
+      "score": 2,
+      "link_id": "t3_18nkb0q",
+      "parent_id": "t3_18nkb0q"
+    }
+  ]
+}

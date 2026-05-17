@@ -1,0 +1,36 @@
+{
+  "username": "Syvisaur",
+  "posts": [],
+  "comments": [
+    {
+      "id": "l7227bs",
+      "body": "Nein",
+      "author": "Syvisaur",
+      "subreddit": "ethz",
+      "created_utc": 1717505485,
+      "score": 2,
+      "link_id": "t3_1d7v6yf",
+      "parent_id": "t3_1d7v6yf"
+    },
+    {
+      "id": "l5ldsv4",
+      "body": "Given that you don’t have much time, « fully understanding the theory » is something that builds up over a longer period of practice. I think you should focus on the main points and make sure you understand those; identify which topics the professors seem to have insisted on, and you can also ask your TAs what they think would pop out. Since it’s a new prof, the exam has a good chance of being different than the last years, so learning the structure of the old exams is perhaps not very advantageous. But since the topics usually don’t change you can make a list for those and see which you understand and which you don’t?\niirc it’s mostly\n* limits\n* some sequences / sequences of functions with different types of convergence (uniform, punctual..)\n* series and power series\n* continuous/differentiable « glueing » of two functions\n* the main analysis theorems (Rolle’s, IVT, MVT..) and their direct applications\n* some integration, typically an improper integral or a mix of integration and differentiation\n* one or two ODE questions (typically 1st order or linear n-th order)\nFor Analysis 2:\n* chain rule can come up\n* maybe Taylor but it seems to be unpopular in recent years\n* Hessian and Lagrange-multipliers, often with change of coordinates\n* Green and Gauss theorems for vector calc\n* multi-dim integration (back when I did it there was always something like x-einfach, y-einfach, maybe they changed that) \n* conservative vector fields was very popular back then too (since you’re doing it with RW and they might have a lot of that, it doesn’t sound impossible to have that on the exam)\n\nSo yeah I’d check how good I am at those topics, which parts are obscure and which are less so and make sure I get a good understanding there. Then the rest is old exam grind and having a good useful summary (where you know where each part is). Generally analysis is an exam where you have a lot of time, so I’d also spend some of that checking the solutions which is often doable",
+      "author": "Syvisaur",
+      "subreddit": "ethz",
+      "created_utc": 1716631250,
+      "score": 3,
+      "link_id": "t3_1d0830i",
+      "parent_id": "t1_l5lcvbt"
+    },
+    {
+      "id": "l5lbccq",
+      "body": "Hi there. On amiv there are many old exams that you can practice; you can also buy two very good practice books (not for theory but for having lots of exercises) which are « Analysis I: eine praxisorientierte Einführung für Mathematiker und Physiker » by Michaels (ex TA at ETH, there is also a volume 2 for Analysis II), or the exam collection books (they are dark green / light green, findable at the ETH book stores). \nFrom my understanding the focus of basisprüfung exams has shifted from practice problems to Multiple Choice, so you can use the recent year exams from Rivière to practice the MC part..\nDon’t neglect your summary and good luck!",
+      "author": "Syvisaur",
+      "subreddit": "ethz",
+      "created_utc": 1716629312,
+      "score": 12,
+      "link_id": "t3_1d0830i",
+      "parent_id": "t3_1d0830i"
+    }
+  ]
+}

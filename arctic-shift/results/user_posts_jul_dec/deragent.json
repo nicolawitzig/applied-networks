@@ -1,0 +1,26 @@
+{
+  "username": "deragent",
+  "posts": [],
+  "comments": [
+    {
+      "id": "ludfm1b",
+      "body": "My money is also on this.\n\nThe link has an unique identifier, probably to track who clicked the link.\n\nThe domain is registered by [hostpoint.ch](http://hostpoint.ch) (which i doubt a real phisher would use).  \nThe IP of the domain is inside the ETH network (with a host in INFK).\n\nAnd the E-Mail headers kind of show that the E-Mail seems to originate from a server in INFK…\n\nSo….",
+      "author": "deragent",
+      "subreddit": "ethz",
+      "created_utc": 1730219795,
+      "score": 11,
+      "link_id": "t3_1gewxcs",
+      "parent_id": "t1_luda5ty"
+    },
+    {
+      "id": "ludeau8",
+      "body": "You need to check the link better!\n\nOnly the display test shows [ethz.ch](http://ethz.ch)\n\nBut the actual link goes to fake website.",
+      "author": "deragent",
+      "subreddit": "ethz",
+      "created_utc": 1730219395,
+      "score": 7,
+      "link_id": "t3_1gewxcs",
+      "parent_id": "t1_lud97n7"
+    }
+  ]
+}

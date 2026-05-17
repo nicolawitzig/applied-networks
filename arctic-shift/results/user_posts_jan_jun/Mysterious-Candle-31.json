@@ -1,0 +1,58 @@
+{
+  "username": "Mysterious-Candle-31",
+  "posts": [
+    {
+      "id": "1cj3d7l",
+      "title": "How to become member of ETH Alumni",
+      "author": "Mysterious-Candle-31",
+      "subreddit": "ethz",
+      "created_utc": 1714723969,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "I am in the first year of my masters now and a friend told me that they were invited to become ETH alumni member automatically after the bachelors degree. I didn't get an invitation. How can I get a member?",
+      "url": "https://www.reddit.com/r/ethz/comments/1cj3d7l/how_to_become_member_of_eth_alumni/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "l6agysp",
+      "body": "Asked the same question in the ETH Alumni Knowledge Network and received this link: [https://video.ethz.ch/speakers/lecture/8f881c6a-93c1-48e5-8119-f0d6ed75ace6.html](https://video.ethz.ch/speakers/lecture/8f881c6a-93c1-48e5-8119-f0d6ed75ace6.html)",
+      "author": "Mysterious-Candle-31",
+      "subreddit": "ethz",
+      "created_utc": 1717050945,
+      "score": 1,
+      "link_id": "t3_1d2f43i",
+      "parent_id": "t3_1d2f43i"
+    },
+    {
+      "id": "l392es0",
+      "body": "I didn't ask the LLM. I parsed the content of each wikipedia article and used the LLM to extract the universities.",
+      "author": "Mysterious-Candle-31",
+      "subreddit": "ethz",
+      "created_utc": 1715240095,
+      "score": 1,
+      "link_id": "t3_1cmf9wj",
+      "parent_id": "t1_l36p44q"
+    },
+    {
+      "id": "l34ijl3",
+      "body": "Ernst Specker - see above",
+      "author": "Mysterious-Candle-31",
+      "subreddit": "ethz",
+      "created_utc": 1715173575,
+      "score": 1,
+      "link_id": "t3_1cmf9wj",
+      "parent_id": "t1_l2zw7yl"
+    },
+    {
+      "id": "l34ihs1",
+      "body": "**Ernst Specker** \n\nI created a Python script that went through all Wikipedia Articles of Erdős 1 people and Ernst Specker is the only one that came back with an ETH Background. That was the answer I got through my LLM: Yes, Ernst Specker worked at ETH Zürich. He received his Ph.D. from the institution in 1949 and remained there for his professional career, although his specific role or roles are not specified in the text.",
+      "author": "Mysterious-Candle-31",
+      "subreddit": "ethz",
+      "created_utc": 1715173553,
+      "score": 2,
+      "link_id": "t3_1cmf9wj",
+      "parent_id": "t3_1cmf9wj"
+    }
+  ]
+}

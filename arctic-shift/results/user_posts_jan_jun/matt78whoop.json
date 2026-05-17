@@ -1,0 +1,38 @@
+{
+  "username": "matt78whoop",
+  "posts": [
+    {
+      "id": "18yl59t",
+      "title": "Home Server: VGA monitor",
+      "author": "matt78whoop",
+      "subreddit": "ethz",
+      "created_utc": 1704395495,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Hi Guys, \nI bought a HP 350p Gen8 server off Richardo to practice having a home Kubernetes cluster and I'm having no luck connecting the VGA to my HDMI Samsung monitor. I was wondering if someone has any suggestions on where I could borrow a VGA monitor & VGA cable to test the server is booting correctly. \n\nCheers! from an inexperienced computer scientist",
+      "url": "https://www.reddit.com/r/ethz/comments/18yl59t/home_server_vga_monitor/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "kgn1jky",
+      "body": "I agree, I sent the seller an email saying it doesn't work, I'll keep you posted on the response haha  \n\n\nI was able to find an old Asus screen for 5 Francs so I think that will be the easiest solution for now and I'll follow your recommendation of installing HP iLO! Thanks for your help!",
+      "author": "matt78whoop",
+      "subreddit": "ethz",
+      "created_utc": 1704577164,
+      "score": 1,
+      "link_id": "t3_18yl59t",
+      "parent_id": "t1_kgem3nq"
+    },
+    {
+      "id": "kgbqjzr",
+      "body": "Yeah I thought asking for VGA might be a long shot 😅 thanks for the great reply! \n\nI tried with this cable (https://www.ricardo.ch/de/a/1248523640/) to try and connect to my Samsung s34j55x & TV but it doesn't seem to want to work. \n\nI think I need to set HP iLO up once before I can connect remotely which was why I was hoping I could borrow an old monitor for a little while instead of buying more old junk haha \n\nI agree it's super loud and weighs a tonne but I thought it would be a good start while I have a limited budget.",
+      "author": "matt78whoop",
+      "subreddit": "ethz",
+      "created_utc": 1704398648,
+      "score": 1,
+      "link_id": "t3_18yl59t",
+      "parent_id": "t1_kgbpal0"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "username": "njalo",
+  "posts": [
+    {
+      "id": "1b31b3b",
+      "title": "I made a Linux Script to automatically connect to the ETHZ VPN upon command",
+      "author": "njalo",
+      "subreddit": "ethz",
+      "created_utc": 1709216114,
+      "score": 27,
+      "num_comments": 1,
+      "selftext": "basically so you can use `ethz-vpn connect` and `ethz-vpn disconnect`  to easily manage your VPN connection without having to install any proprietary software, or type all the VPN info all the time.\n\nYou can find it here:\n\n[https://github.com/njalooo/ethz-vpn-connect](https://github.com/njalooo/ethz-vpn-connect)\n\nHave fun",
+      "url": "https://www.reddit.com/r/ethz/comments/1b31b3b/i_made_a_linux_script_to_automatically_connect_to/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "ksp2u2t",
+      "body": "I made a small script to automate it for Linux: [https://github.com/njalooo/ethz-vpn-connect](https://github.com/njalooo/ethz-vpn-connect)",
+      "author": "njalo",
+      "subreddit": "ethz",
+      "created_utc": 1709215826,
+      "score": 1,
+      "link_id": "t3_i2lbyu",
+      "parent_id": "t3_i2lbyu"
+    }
+  ]
+}
