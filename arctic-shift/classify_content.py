@@ -18,7 +18,7 @@ import time
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 import ollama
 from tqdm import tqdm
@@ -31,37 +31,79 @@ VOICE_TYPES = {  # all valid top-level voice type labels
     "central_institutional",
     "decentral_individual",
     "decentral_institutional",
-    "former_individual",
-    "former_institutional",
     "external_individual",  # affiliated with a university other than ETH
+    "former_individual",  # formerly affiliated with ETH (alumni, ex-staff)
+    "former_institutional",  # formerly an ETH unit
     "unknown",
 }
 
 VALID_COMBOS: frozenset = frozenset(
     {  # (voice_type, subtype) pairs from Volk et al.
         ("central_institutional", "administrative_body"),
+        ("decentral_individual", "applicant"),
         ("decentral_individual", "phd"),
         ("decentral_individual", "postdoc"),
         ("decentral_individual", "professor"),
         ("decentral_individual", "researcher"),
         ("decentral_individual", "student"),
         ("decentral_institutional", "department_or_lab"),
-        ("former_individual", "employee_or_alumni"),
-        ("former_individual", "postdoc"),
-        ("former_individual", "phd"),
-        ("former_individual", "professor"),
-        ("former_individual", "researcher"),
-        ("former_individual", "student"),
-        ("former_institutional", "unit"),
         ("external_individual", "student"),
         ("external_individual", "phd"),
         ("external_individual", "postdoc"),
         ("external_individual", "professor"),
         ("external_individual", "researcher"),
         ("external_individual", "other"),
+        ("former_individual", "professor"),
+        ("former_individual", "postdoc"),
+        ("former_individual", "phd"),
+        ("former_individual", "researcher"),
+        ("former_individual", "student"),
+        ("former_individual", "employee_or_alumni"),
+        ("former_institutional", "unit"),
         ("unknown", ""),
     }
 )
+
+# Maps common LLM subtype variations to canonical VALID_COMBOS labels.
+_SUBTYPE_ALIASES: Dict[str, str] = {
+    "master": "student",
+    "masters": "student",
+    "master_student": "student",
+    "master student": "student",
+    "msc": "student",
+    "bsc": "student",
+    "undergraduate": "student",
+    "bachelor": "student",
+    "bachelors": "student",
+    "doctoral": "phd",
+    "doctorate": "phd",
+    "phd_student": "phd",
+    "phd candidate": "phd",
+    "phd_candidate": "phd",
+    "doctoral_student": "phd",
+    "associate_professor": "professor",
+    "assistant_professor": "professor",
+    "full_professor": "professor",
+    "lecturer": "professor",
+    "postdoctoral": "postdoc",
+    "post_doc": "postdoc",
+    "post-doc": "postdoc",
+    "research_associate": "researcher",
+    "scientist": "researcher",
+    "alumni": "employee_or_alumni",
+    "alumnus": "employee_or_alumni",
+    "alumna": "employee_or_alumni",
+    "graduate": "employee_or_alumni",
+    "employee": "employee_or_alumni",
+    "lab": "department_or_lab",
+    "laboratory": "department_or_lab",
+    "institute": "department_or_lab",
+    "department": "department_or_lab",
+    "research_group": "department_or_lab",
+    "centre": "department_or_lab",
+    "admin": "administrative_body",
+    "administration": "administrative_body",
+}
 
 # ---------------------------------------------------------------------------
 # Data types
@@ -91,131 +133,122 @@ class Classification:
 
 
 # ---------------------------------------------------------------------------
-# Ollama inference config  (mirrors LLM_categorization.py)
+# Ollama inference config
 # ---------------------------------------------------------------------------
 
 MAX_RETRIES = 3  # attempts per user before giving up and returning unknown
 RETRY_DELAY = 5  # seconds between retries on transient Ollama errors
 
-OLLAMA_OPTIONS = {  # classify call: needs room for CoT think-block + five output lines
+EXTRACTION_OPTIONS: Dict = {  # stage 1 — short JSON array; 128 tokens is sufficient
     "temperature": 0,
-    "num_predict": 2048,
-    "num_ctx": 4096,
+    "num_predict": 128,
+    "num_ctx": 2048,
 }
 
-EXTRACTION_OPTIONS = {  # extract call: output is a short bullet list
+OLLAMA_OPTIONS: Dict = {  # stage 2 — JSON object with 5 fields
     "temperature": 0,
-    "num_predict": 512,
-    "num_ctx": 4096,
+    "num_predict": 256,
+    "num_ctx": 2048,
+}
+
+# JSON schemas passed as format= to Ollama for grammar-constrained structured output.
+EXTRACTION_SCHEMA: Dict = {
+    "type": "object",
+    "properties": {"statements": {"type": "array", "items": {"type": "string"}}},
+    "required": ["statements"],
+    "additionalProperties": False,
+}
+
+CLASSIFICATION_SCHEMA: Dict = {
+    "type": "object",
+    "properties": {
+        "voice_type": {"type": "string"},
+        "subtype":    {"type": "string"},
+        "confidence": {"type": "number"},
+        "evidence":   {"type": "string"},
+        "reasoning":  {"type": "string"},
+    },
+    "required": ["voice_type", "subtype", "confidence", "evidence", "reasoning"],
+    "additionalProperties": False,
 }
 
 # ---------------------------------------------------------------------------
 # Prompts
 # ---------------------------------------------------------------------------
 
-EXTRACTION_SYSTEM = """You extract self-identification statements from Reddit posts.
-Find every sentence where THIS USER describes their own current or former university
-affiliation, role, or academic status. Copy each statement verbatim, one per line,
-prefixed with "- ".
+EXTRACTION_SYSTEM = """Extract verbatim first-person statements from Reddit posts/comments
+where the user describes their OWN current or past university affiliation or role.
 
-Rules:
-  - Only include statements about THIS USER's own situation (first person).
-  - Do NOT include questions, general facts about universities, or statements about others.
-  - Do NOT include the username as evidence.
-  - If no such statements exist, output exactly: NONE
-"""
+Include ONLY direct first-person claims:
+  "I study at ...", "I'm a PhD at ...", "I graduated from ...",
+  "I'm doing my master's here", "I work as a researcher at ..."
 
-EXTRACTION_TEMPLATE = """Extract self-identification statements from the posts and comments below.
+Exclude ALL of:
+- Advice or recommendations to others ("you should go to ETH", "consider EPFL")
+- Second-person text ("You're gonna pay more at Cambridge")
+- Questions ("which program should I apply to?")
+- Preferences or hypotheticals ("maybe I should go to ZHAW", "viellicht doch lieber zhaw")
+- Third-party statements — about flatmates, friends, supervisors, colleagues
+- General institutional discussion with no personal claim attached
+- Joke or non-literal text ("Step 1: apply, Step 2: ???, Step 4: profit")
 
-## Username
-{username}
+If no qualifying statement exists, return an empty array.
+Return ONLY valid JSON: {"statements": ["<verbatim quote>", ...]}"""
 
-## Posts and comments
+EXTRACTION_TEMPLATE = """Posts and comments by u/{username} in r/ethz:
+
 {text_sample}
 
-Output each verbatim statement on its own line prefixed with "- ", or output NONE."""
+Extract all first-person affiliation statements as JSON."""
 
-SYSTEM_PROMPT = """You are an expert coder for a communication science study on Reddit accounts.
-You will receive pre-extracted self-identification statements from a Reddit user in r/ethz.
-Classify the account using the voice typology from "The Plurivocal University" (Volk et al., 2024).
+CLASSIFICATION_SYSTEM = """Classify a Reddit user's university affiliation from the
+self-identifying statements provided. ETH Zurich is the HOME institution — it is NOT external.
+These statements were pre-extracted from r/ethz posts.
 
-## Step 1 — Decision tree (follow in order, stop at first match)
+Subreddit default: if a statement mentions studying, doing a PhD/master/bachelor/Basisjahr/
+thesis, or working as a researcher WITHOUT naming a specific other university → assume ETH Zurich.
 
-CHECK A — Does any statement mention a university OTHER than ETH (e.g. TU Munich, EPFL,
-ZHAW, UZH, MIT, any other institution) as the user's own affiliation?
-  → YES: voice_type = "external_individual", subtype = their role there. STOP.
+Decision tree (stop at first match — CURRENT affiliation wins):
+A) User explicitly names a non-ETH institution as their OWN current role, with no current or
+   upcoming ETH connection → external_individual
+   Examples: "I study at EPFL" / "I'm a lecturer at ZHAW"
+B) User states a CURRENT or UPCOMING ETH affiliation — enrolled, accepted, starting soon —
+   even if a prior non-ETH degree is mentioned → decentral_individual | central_institutional | decentral_institutional
+   Examples: "I got accepted to ETH MSc" / "starting ETH this fall" / "I'm in my 2nd semester"
+             "did my bachelor's at TUM, doing my master's here" → decentral_individual/student
+   Note: being accepted to ETH supersedes a prior/concurrent external institution.
+B2) User has APPLIED to ETH but has NOT yet confirmed acceptance → decentral_individual/applicant
+    Examples: "I applied to ETH's CS MSc" / "I submitted my application"
+C) User mentions ETH only in the past (graduated, alumni, left) → former_individual | former_institutional
+D) No clear affiliation → unknown
 
-CHECK B — Does any statement show a current or past connection to ETH Zurich?
-  → YES: assign the appropriate ETH voice type from Step 2. STOP.
+TENSE AND ROLE MATTERS:
+- "ZHAW grad here, ten years in tech" → graduated (past) + industry (present) → external_individual/other
+- "I study at EPFL" → current student → external_individual/student
 
-CHECK C — No university affiliation can be determined from the statements.
-  → voice_type = "unknown".
+external_individual requires POSITIVE evidence of a named non-ETH institution.
+"No ETH affiliation visible" alone → use unknown.
 
-## Step 2 — Voice type (only for ETH-affiliated accounts)
+Voice types and subtypes:
+  decentral_individual:    applicant | student | phd | postdoc | researcher | professor
+  central_institutional:   administrative_body
+  decentral_institutional: department_or_lab
+  former_individual:       student | phd | postdoc | researcher | professor | employee_or_alumni
+  former_institutional:    unit
+  external_individual:     student | phd | postdoc | researcher | professor | other
+  unknown:                 (no subtype — use empty string "")
 
-### central_institutional / administrative_body
-Official ETH-wide administrative or service units: central admin, registrar, press office,
-career centre, international office, student services, library.
+Confidence: 0.8-1.0 explicit first-person statement, 0.5-0.7 strong implicit signal,
+0.2-0.4 weak signal.
 
-### decentral_individual
-Individual academics or students currently affiliated with ETH.
-Subtypes:
-  professor  — full/associate/assistant professor or lecturer at ETH
-  postdoc    — postdoctoral researcher at ETH
-  phd        — PhD candidate / doctoral student at ETH
-  researcher — research associate, scientist, non-faculty researcher at ETH
-  student    — undergraduate or master's student at ETH
+Return ONLY valid JSON:
+{"voice_type": "...", "subtype": "...", "confidence": 0.0, "evidence": "...", "reasoning": "..."}"""
 
-### decentral_institutional / department_or_lab
-Official ETH departments, institutes, labs, research groups, or centres.
+CLASSIFICATION_TEMPLATE = """Self-identifying statements by u/{username}:
 
-### former_individual
-Former ETH employees, alumni, or researchers no longer at ETH.
-Subtypes: professor | postdoc | phd | researcher | student | employee_or_alumni
+{statements_text}
 
-### former_institutional / unit
-Former ETH units or organisations that used to be part of ETH.
-
-### external_individual
-Individual explicitly affiliated with a non-ETH university (EPFL, ZHAW, UZH, etc.).
-Subtypes: professor | postdoc | phd | researcher | student | other
-
-### unknown
-No university affiliation can be determined from the text.
-
-## Step 3 — Evidence
-
-Pick the single strongest statement and copy it verbatim into "evidence".
-If no statement supports affiliation, set evidence to "" and voice_type to "unknown".
-
-## Output format
-
-Respond with ONLY these five lines — no explanation, no markdown, no extra text:
-VOICE_TYPE: <voice_type>
-SUBTYPE: <subtype or blank>
-CONFIDENCE: <float 0.0–1.0>
-EVIDENCE: <verbatim quote from the statements, or blank>
-REASONING: <one short sentence citing the evidence>
-
-Confidence scale:
-  0.8–1.0 — explicit self-identification ("I am a PhD student at ETH")
-  0.5–0.7 — strong contextual signal (own courses, exams, lab work)
-  0.2–0.4 — weak signal, plausible but uncertain
-  0.0     — no evidence; voice_type must be "unknown"
-"""
-
-CLASSIFICATION_TEMPLATE = """Classify the following Reddit account using the extracted statements below.
-
-## Account
-Username: {username}
-
-## Self-identification statements
-{statements}
-
-CHECK A — non-ETH university? → external_individual
-CHECK B — ETH affiliation? → appropriate ETH voice type
-CHECK C — no affiliation? → unknown
-Respond ONLY with the five KEY: value lines."""
+Classify their university affiliation as JSON."""
 
 # ---------------------------------------------------------------------------
 # I/O helpers
@@ -251,11 +284,6 @@ def build_text_sample(user: UserData, max_chars: int) -> str:
             parts.append(f"{prefix} {body}")
     combined = "\n\n".join(parts)
     return combined[:max_chars]
-
-
-def build_prompt(username: str, statements: str) -> str:
-    """Fill the classification template with pre-extracted affiliation statements."""
-    return CLASSIFICATION_TEMPLATE.format(username=username, statements=statements)
 
 
 def load_existing_results(path: Path) -> Dict[str, Classification]:
@@ -331,7 +359,9 @@ def save_distribution(rows: List[Dict], path: Path) -> None:
 # ---------------------------------------------------------------------------
 
 
-def _call_ollama(model: str, system: str, user_msg: str, options: Dict) -> str:
+def _call_ollama(
+    model: str, system: str, user_msg: str, options: Dict, fmt: Optional[Dict] = None
+) -> str:
     """Shared Ollama call with retries on transient errors; returns stripped content."""
     kwargs: Dict = {
         "model": model,
@@ -341,8 +371,10 @@ def _call_ollama(model: str, system: str, user_msg: str, options: Dict) -> str:
         ],
         "options": options,
     }
-    if "qwen3" in model:  # CoT thinking mode improves ambiguous cases
-        kwargs["think"] = True
+    if fmt is not None:  # grammar-constrained structured output
+        kwargs["format"] = fmt
+    if "qwen3" in model:  # thinking=False avoids ~900-token CoT preamble per call
+        kwargs["think"] = False
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             return ollama.chat(**kwargs).message.content.strip()
@@ -353,58 +385,102 @@ def _call_ollama(model: str, system: str, user_msg: str, options: Dict) -> str:
             time.sleep(RETRY_DELAY)
 
 
-def _parse_extraction(raw: str) -> str:
-    """Return bullet lines from extraction output, or 'NONE' if none found."""
-    bullets = [l.strip() for l in raw.splitlines() if l.strip().startswith("-")]
-    return "\n".join(bullets) if bullets else "NONE"
-
-
-def _parse_classify(raw: str) -> Tuple[str, str, float, str, str]:
-    """Parse KEY: value lines into (voice_type, subtype, confidence, evidence, reasoning)."""
-    fields: Dict[str, str] = {}  # uppercase key → value
-    for line in raw.splitlines():
-        if ": " in line:
-            key, _, val = line.partition(": ")
-            fields[key.strip().upper()] = val.strip()
-
-    voice_type = fields.get("VOICE_TYPE", "unknown").lower()
-    subtype = fields.get("SUBTYPE", "").lower()
-    evidence = fields.get("EVIDENCE", "")
-    reasoning = fields.get("REASONING", "")
+def _parse_extraction(raw: str, debug: bool = False) -> List[str]:
+    """Parse stage-1 JSON output into a list of self-identifying statement strings."""
+    if debug:
+        print(f"\n[DEBUG extraction raw]\n{raw}\n")
     try:
-        confidence = float(fields.get("CONFIDENCE", "0.0"))
-    except ValueError:
+        data = json.loads(raw)
+        stmts = data["statements"]
+        assert isinstance(stmts, list), f"expected list, got {type(stmts)}"
+        return [s for s in stmts if isinstance(s, str) and s.strip()]
+    except (json.JSONDecodeError, KeyError, AssertionError) as exc:
+        if debug:
+            print(f"[DEBUG] extraction parse failed: {exc}")
+        return []
+
+
+def _extract_statements(
+    username: str, text_sample: str, model: str, debug: bool = False
+) -> List[str]:
+    """Stage 1: extract verbatim self-identifying statements from raw user text."""
+    msg = EXTRACTION_TEMPLATE.format(username=username, text_sample=text_sample)
+    raw = _call_ollama(model, EXTRACTION_SYSTEM, msg, EXTRACTION_OPTIONS, fmt=EXTRACTION_SCHEMA)
+    return _parse_extraction(raw, debug=debug)
+
+
+def _parse_classify(raw: str, debug: bool = False) -> Tuple[str, str, float, str, str]:
+    """Parse stage-2 JSON output into (voice_type, subtype, confidence, evidence, reasoning)."""
+    if debug:
+        print(f"\n[DEBUG classify raw]\n{raw}\n")
+    try:
+        fields = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        if debug:
+            print(f"[DEBUG] classify parse failed: {exc}")
+        return "unknown", "", 0.0, "", "json parse error"
+
+    voice_type = str(fields.get("voice_type", "unknown")).lower()
+    raw_sub = str(fields.get("subtype", "")).lower()
+    subtype = _SUBTYPE_ALIASES.get(raw_sub, raw_sub)
+    evidence = str(fields.get("evidence", ""))
+    reasoning = str(fields.get("reasoning", ""))
+    try:
+        confidence = float(fields.get("confidence", 0.0))
+    except (ValueError, TypeError):
         confidence = 0.0
 
     if voice_type not in VOICE_TYPES:
-        voice_type, subtype, confidence = "unknown", "", 0.0
+        if debug:
+            print(f"[DEBUG] invalid voice_type={voice_type!r}, falling back to unknown")
+        return "unknown", "", 0.0, evidence, reasoning
+
     if (voice_type, subtype) not in VALID_COMBOS:
+        valid_subtypes = {s for (vt, s) in VALID_COMBOS if vt == voice_type}
+        if debug:
+            print(f"[DEBUG] subtype={subtype!r} not valid for {voice_type!r}, clearing (valid: {valid_subtypes})")
         subtype = ""
-        if (voice_type, subtype) not in VALID_COMBOS:
-            voice_type, subtype, confidence = "unknown", "", 0.0
+        confidence = min(confidence, 0.5)  # penalise lost subtype
+
+    if voice_type == "external_individual" and confidence < 0.5:  # enforce threshold in code
+        if debug:
+            print(f"[DEBUG] external_individual conf={confidence:.2f} < 0.5, downgrading to unknown")
+        return "unknown", "", 0.0, evidence, f"downgraded: external_individual confidence {confidence:.2f} below threshold"
+
+    if not evidence.strip() and voice_type != "unknown":  # unsupported classification → weaken
+        confidence = min(confidence, 0.3)
 
     return voice_type, subtype, confidence, evidence, reasoning
 
 
-def extract_statements(username: str, text_sample: str, model: str) -> str:
-    """Pass 1 — extract verbatim self-identification statements; returns bullets or 'NONE'."""
-    msg = EXTRACTION_TEMPLATE.format(username=username, text_sample=text_sample)
-    raw = _call_ollama(model, EXTRACTION_SYSTEM, msg, EXTRACTION_OPTIONS)
-    return _parse_extraction(raw)
-
-
-def classify_user(username: str, text_sample: str, model: str, n_posts: int) -> Classification:
-    """Pass 2 — classify based on extracted statements; returns unknown if none found."""
-    statements = extract_statements(username, text_sample, model)
-    if statements == "NONE":
-        return Classification(username=username, voice_type="unknown", subtype="",
-                              confidence=0.0, n_posts=n_posts, evidence="",
-                              reasoning="no affiliation statements found")
-    raw = _call_ollama(model, SYSTEM_PROMPT, build_prompt(username, statements), OLLAMA_OPTIONS)
-    voice_type, subtype, confidence, evidence, reasoning = _parse_classify(raw)
-    return Classification(username=username, voice_type=voice_type, subtype=subtype,
-                          confidence=confidence, n_posts=n_posts, evidence=evidence,
-                          reasoning=reasoning)
+def classify_user(
+    username: str, text_sample: str, model: str, n_posts: int, debug: bool = False
+) -> Classification:
+    """Two-stage classification: extract self-identifying statements then classify."""
+    statements = _extract_statements(username, text_sample, model, debug=debug)
+    if not statements:
+        return Classification(
+            username=username,
+            voice_type="unknown",
+            subtype="",
+            confidence=0.0,
+            n_posts=n_posts,
+            evidence="",
+            reasoning="no self-identifying statements found",
+        )
+    statements_text = "\n".join(f"{i}. {s}" for i, s in enumerate(statements, 1))
+    msg = CLASSIFICATION_TEMPLATE.format(username=username, statements_text=statements_text)
+    raw = _call_ollama(model, CLASSIFICATION_SYSTEM, msg, OLLAMA_OPTIONS, fmt=CLASSIFICATION_SCHEMA)
+    voice_type, subtype, confidence, evidence, reasoning = _parse_classify(raw, debug=debug)
+    return Classification(
+        username=username,
+        voice_type=voice_type,
+        subtype=subtype,
+        confidence=confidence,
+        n_posts=n_posts,
+        evidence=evidence,
+        reasoning=reasoning,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -458,7 +534,7 @@ def main() -> int:
         "--output-dir", default="results", help="Output directory (default: results/)"
     )
     parser.add_argument(
-        "--model", default="llama3.2", help="Ollama model name (default: llama3.2)"
+        "--model", default="qwen3:14b", help="Ollama model name (default: qwen3)"
     )
     parser.add_argument(
         "--max-chars",
@@ -470,6 +546,11 @@ def main() -> int:
         "--resume",
         action="store_true",
         help="Skip users already present in the output CSV",
+    )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Print raw LLM output and parse decisions for each user",
     )
     args = parser.parse_args()
 
@@ -495,7 +576,7 @@ def main() -> int:
     )  # seed with prior run if resuming
     to_process = [f for f in user_files if f.stem not in existing]
 
-    for fpath in tqdm(to_process, desc="Classifying users", unit="user"):
+    for i, fpath in enumerate(tqdm(to_process, desc="Classifying users", unit="user"), 1):
         user = load_user_data(fpath)
         text_sample = build_text_sample(user, args.max_chars)
         n_posts = len(user.posts) + len(user.comments)
@@ -512,10 +593,14 @@ def main() -> int:
                     reasoning="no text content available",
                 )
             )
-            continue
+        else:
+            clf = classify_user(
+                user.username, text_sample, args.model, n_posts, debug=args.debug
+            )
+            results.append(clf)
 
-        clf = classify_user(user.username, text_sample, args.model, n_posts)
-        results.append(clf)
+        if i % 50 == 0:  # checkpoint every 50 users to guard against mid-run crashes
+            save_classifications(results, classifications_path)
 
     save_classifications(results, classifications_path)
     dist_rows = aggregate_distribution(results)
