@@ -11,6 +11,39 @@
       "num_comments": 2,
       "selftext": "Hi everyone. From the website, I can see the requirement for IB as following:\n\nAdmission without entrance examination if the following requirements are\nfulfilled:\n- 38 out of 42 points (without bonus points);\n- At Higher Level (HL): a) Mathematics: applications and interpretation or\nMathematics: analysis and approaches, b) physics or chemistry or\nbiology, c) 1 language A;\n- At Standard Level (SL): three additional subjects of the following:\nphysics, chemistry, biology, geography, history, economics or business\nmanagement, 1 further language only, computer science.\n\nThe requirement looks clear but I’m wondering if anyone knows if there are any additional conditions or details I should be aware of. If there’s any, thank you so much for letting me know",
       "url": "https://www.reddit.com/r/ethz/comments/1gbo9ea/bsc_admission_requirement_for_international/"
+    },
+    {
+      "id": "1gmfrhd",
+      "title": "[D] iPINNs vs. SBI for Parameter Estimation: Which is Better?",
+      "author": "thoangzr",
+      "subreddit": "MachineLearning",
+      "created_utc": 1731062799,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I’m comparing inverse Physics-Informed Neural Nets (iPINNs) and Simulation-Based Inference (SBI) for estimating parameters and want to hear others' thoughts. \n\nWith SBI, we get amortized inference and posterior distributions, which helps with uncertainty. However, SBI is trained on simulated data, which can be different from real-world data, which might lead to lower accuracy. \n\niPINNs, on the other hand, are trained on real data and use physical laws, so they often give more accurate estimates. However, they don’t provide full posterior distributions like SBI. \n\nI wanted to use SBI and convince others that SBI was way better than iPINN, but actually, I feel it was not.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1gmfrhd/d_ipinns_vs_sbi_for_parameter_estimation_which_is/"
+    },
+    {
+      "id": "1fag8ru",
+      "title": "Requirements for Math teachers in Switzerland",
+      "author": "thoangzr",
+      "subreddit": "askswitzerland",
+      "created_utc": 1725632094,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "What are the requirements for non-EU citizens to teach math in Switzerland? My girlfriend is non-EU, holds a bachelor’s degree, and has a few years of experience teaching math. How likely is it for her to secure a position?\n\nAny insights would be appreciated!",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1fag8ru/requirements_for_math_teachers_in_switzerland/"
+    },
+    {
+      "id": "1fag7lx",
+      "title": "Requirements for Math teachers in Switzerland",
+      "author": "thoangzr",
+      "subreddit": "Switzerland",
+      "created_utc": 1725632006,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1fag7lx/requirements_for_math_teachers_in_switzerland/"
     }
   ],
   "comments": [

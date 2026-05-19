@@ -1,6 +1,18 @@
 {
   "username": "Kaushik2002",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1bv2c1z",
+      "title": "Can I generate a uniformly distributed random variable using two other randomly generated variable?",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712173836,
+      "score": 2,
+      "num_comments": 27,
+      "selftext": "I just learned that if the randomly generated number R1 and R2 are uniformly distributed, then R1 + R2 is not uniform. Was surprised at first but made sense when I considered an example of R1,R2 belongs {1, 2} and is uniform in that. For R1 + R2, 3 is more likely than 2. \n\nBut is there any way to combine two random variables, of any distribution in such a way that the resulting number is uniform?",
+      "url": "https://www.reddit.com/r/learnmath/comments/1bv2c1z/can_i_generate_a_uniformly_distributed_random/"
+    }
+  ],
   "comments": [
     {
       "id": "l98f5dy",
@@ -31,6 +43,146 @@
       "score": 2,
       "link_id": "t3_1cvhntn",
       "parent_id": "t1_l4pi96a"
+    },
+    {
+      "id": "l58med9",
+      "body": "Is it old? Yes. Did I feel like it? No. I think the place is great, especially given the price.",
+      "author": "Kaushik2002",
+      "subreddit": "TUDelft",
+      "created_utc": 1716416730,
+      "score": 1,
+      "link_id": "t3_1cxz88v",
+      "parent_id": "t3_1cxz88v"
+    },
+    {
+      "id": "kxxd396",
+      "body": "And this POV gives the intuition, cheers!",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712183540,
+      "score": 2,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxxclqm"
+    },
+    {
+      "id": "kxxd1jz",
+      "body": "That makes total sense, thanks for your help!",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712183523,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxxb88l"
+    },
+    {
+      "id": "kxxaypj",
+      "body": "running some code, it seems to be uniform. hmm it doesn't make intuitive sense to me",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712182784,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxx8nxc"
+    },
+    {
+      "id": "kxx8nxc",
+      "body": "hmm is X3 uniformly distributed tho? because say X1 + X2 is a triangular distribution, then taking mod 6 of all those numbers cannot be uniform, can it?",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712181984,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxx7t78"
+    },
+    {
+      "id": "kxx3n64",
+      "body": "ahh could you please elaborate a bit",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712180280,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxx08dj"
+    },
+    {
+      "id": "kxwxaa6",
+      "body": "I mean, it is a hypothetical problem. Single machine -> that person can cheat and the other person wouldn't know. And that is the reason why I need two sources of randomness so one person cannot individually dictate the result",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712178161,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxwwgqw"
+    },
+    {
+      "id": "kxwtst0",
+      "body": "In my scenario, X1 and X2 are generated in different machines. So, independent and non-constant. Basically, I am trying to simulate a die roll without a die. So, two players generate random number X1 and X2. Then I compute (X1 + X2)%6 + 1. But turns out, this is not uniformly distributed in {1,2,3,4,5,6}",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712177045,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxwsw51"
+    },
+    {
+      "id": "kxwsehz",
+      "body": "ah but I need two different sources of randomness, so would need something like X1 + X2, which is not uniformly distributed even if X1 and X2 are uniform.",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712176600,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxws2vp"
+    },
+    {
+      "id": "kxwqpjr",
+      "body": "But ideally I would want to sources of randomness.",
+      "author": "Kaushik2002",
+      "subreddit": "learnmath",
+      "created_utc": 1712176059,
+      "score": 1,
+      "link_id": "t3_1bv2c1z",
+      "parent_id": "t1_kxwq0rf"
+    },
+    {
+      "id": "konnh68",
+      "body": "They regret sumn apparently not sure what",
+      "author": "Kaushik2002",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706913407,
+      "score": 1,
+      "link_id": "t3_1ahe8ok",
+      "parent_id": "t1_kones31"
+    },
+    {
+      "id": "konauq4",
+      "body": "Yes",
+      "author": "Kaushik2002",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706909186,
+      "score": 1,
+      "link_id": "t3_1ahe8ok",
+      "parent_id": "t3_1ahe8ok"
+    },
+    {
+      "id": "kk3knc5",
+      "body": "Congratulations!! Did you get an email or did you have to manually check the portal?",
+      "author": "Kaushik2002",
+      "subreddit": "MSCS",
+      "created_utc": 1706533368,
+      "score": 1,
+      "link_id": "t3_199s0si",
+      "parent_id": "t3_199s0si"
+    },
+    {
+      "id": "kk3kkpz",
+      "body": "Congrats!! Did you get an email or did you have to manually check the portal?",
+      "author": "Kaushik2002",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706533330,
+      "score": 1,
+      "link_id": "t3_sg3jgd",
+      "parent_id": "t3_sg3jgd"
     }
   ]
 }

@@ -11,6 +11,86 @@
       "score": 24,
       "link_id": "t3_1dygdy2",
       "parent_id": "t3_1dygdy2"
+    },
+    {
+      "id": "lzjym7o",
+      "body": "Only way you can get issues is if there are problems with an update. But in NixOS is super easy to just reboot, select the configuration before the update, and that’s it. The moment you have one stable configuration you can always revert to it in case of problems (however unlikely they will be)",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1732885623,
+      "score": 1,
+      "link_id": "t3_1h2jren",
+      "parent_id": "t1_lzjoiry"
+    },
+    {
+      "id": "ly02q9y",
+      "body": "Just to mention it for the people that won’t look at the Readme: it also has a configuration for evil bindings",
+      "author": "thetta-reddast",
+      "subreddit": "emacs",
+      "created_utc": 1732054467,
+      "score": 6,
+      "link_id": "t3_1guzbv7",
+      "parent_id": "t3_1guzbv7"
+    },
+    {
+      "id": "lx5tufz",
+      "body": "No, just needs the op CLI",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1731623029,
+      "score": 2,
+      "link_id": "t3_1gozxkg",
+      "parent_id": "t1_lwp1vy3"
+    },
+    {
+      "id": "lx5tr37",
+      "body": "Possibly quite easy, I extended this to google secret manager and it took a couple hours at most",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1731623000,
+      "score": 2,
+      "link_id": "t3_1gozxkg",
+      "parent_id": "t1_lwpjxxy"
+    },
+    {
+      "id": "lfpezdk",
+      "body": "Poi c’è la Svezia dove acqua e caffe sono gratis e illimitati…",
+      "author": "thetta-reddast",
+      "subreddit": "Italia",
+      "created_utc": 1722370839,
+      "score": 4,
+      "link_id": "t3_1efolo8",
+      "parent_id": "t1_lfn2vqk"
+    },
+    {
+      "id": "lf34rwj",
+      "body": "How did you solve it in the end? I guess chroot is also an option then",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1722024422,
+      "score": 1,
+      "link_id": "t3_1ecqiq7",
+      "parent_id": "t1_lf2h7di"
+    },
+    {
+      "id": "lexq6hy",
+      "body": "I’ve been using kanata for a while, I can post my config in a bit",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1721942606,
+      "score": 3,
+      "link_id": "t3_1ec2onr",
+      "parent_id": "t3_1ec2onr"
+    },
+    {
+      "id": "lcjl9ch",
+      "body": "Is there a iOS alternative, besides using the browser?",
+      "author": "thetta-reddast",
+      "subreddit": "Piracy",
+      "created_utc": 1720633505,
+      "score": 5,
+      "link_id": "t3_1e00whd",
+      "parent_id": "t1_lcjg5yy"
     }
   ]
 }

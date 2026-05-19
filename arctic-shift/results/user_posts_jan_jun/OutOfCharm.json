@@ -1,6 +1,73 @@
 {
   "username": "OutOfCharm",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dr60en",
+      "title": "Is scaling law really a law?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719647298,
+      "score": 7,
+      "num_comments": 19,
+      "selftext": "First off, it narrows down to the Transformer but not other architectures. One question raises, is its current empirical findings applicable to MLPs? Secondly, more evidence have shown that when model size gets larger, there indeed has a turning point after which the loss begins to go up. So, what's the point to believe it can scale indefinitely? What I can see is that the data side really hits a limit. And the improvement of LLM comes much more from other aspects like data cleaning etc.",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1dr60en/is_scaling_law_really_a_law/"
+    },
+    {
+      "id": "1dr5ts6",
+      "title": "Why can't transformer work with small data size?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719646468,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "Is attention module inherently difficult to model relationships among words or experiences when their number is small? What might be the bottleneck, small update ratio or insufficient data to reveal true **word (or data) frequency?**",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1dr5ts6/why_cant_transformer_work_with_small_data_size/"
+    },
+    {
+      "id": "1d9kfp0",
+      "title": "What's the point of \"explore using sampled commands\" in RL upside down?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1717686404,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "After the behavior function is updated, RL upside down selects best top k recent episodes and aggregates the information from them to propose target commands being the mean of the sum of rewards and horizon of those elite episodes. Then those commands are used for generating more episodes to be added into the replay buffer. But I noticed when generating the episode, the initial state is the reset state, which means the trajectory onward may be totally irrelevant to those commands because those newly-seen states may not lead to those proposed commands, resulting the random sampled actions. In this regard, does RL upside down count on the generalization of the neural network to get a higher reward trajectory? Otherwise I don't understand how it works.",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1d9kfp0/whats_the_point_of_explore_using_sampled_commands/"
+    },
+    {
+      "id": "1cghtpj",
+      "title": "NUS or UCL, for CS PhD",
+      "author": "OutOfCharm",
+      "subreddit": "nus",
+      "created_utc": 1714444265,
+      "score": 1,
+      "num_comments": 9,
+      "selftext": "Greetings to all! I am an international student. And I have received PhD offers from both NUS and UCL in CS, specifically dedicating in machine learning. They are both great universities and also fully-funded. However, I still have some concerns. For NUS, my research interest aligns well to my POI. But if my future career aspiration is being a research scientist in big companies, i.e. DeepMind, will choosing UCL a go?  ",
+      "url": "https://www.reddit.com/r/nus/comments/1cghtpj/nus_or_ucl_for_cs_phd/"
+    },
+    {
+      "id": "1c8wkt5",
+      "title": "How to render math in eww (especially on wiki)",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1713637002,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "There is nothing more than what tells from the title.",
+      "url": "https://www.reddit.com/r/emacs/comments/1c8wkt5/how_to_render_math_in_eww_especially_on_wiki/"
+    },
+    {
+      "id": "1buzk64",
+      "title": "Alternatives to expand-region.el for more bounds",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1712167572,
+      "score": 4,
+      "num_comments": 4,
+      "selftext": "[https://github.com/magnars/expand-region.el](expand-region) supports parenthesis ```()```, squares ```[]``` and double quotes ```\"\"``` for inside and outside selection. But it seems that it doesn't support ```{}, <>, ''```. Is there any package making some improvement on this aspect?",
+      "url": "https://www.reddit.com/r/emacs/comments/1buzk64/alternatives_to_expandregionel_for_more_bounds/"
+    }
+  ],
   "comments": [
     {
       "id": "khstvc5",
@@ -21,6 +88,396 @@
       "score": 2,
       "link_id": "t3_1969x0p",
       "parent_id": "t3_1969x0p"
+    },
+    {
+      "id": "laufy2t",
+      "body": "That's a fair comparison. Let's see what's the limit of scaling.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719675338,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lau71wr"
+    },
+    {
+      "id": "latdmk5",
+      "body": "FYI, paredit suffices because it can automatically identify what bounds you are in or nearest.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1719658851,
+      "score": 1,
+      "link_id": "t3_1dq852m",
+      "parent_id": "t1_latbue0"
+    },
+    {
+      "id": "lat99r8",
+      "body": "The statement of \"the more data the deeper understanding\" is true, because for your gravitational force example, children need to input the real world example to get a sense of it. However, in the same low-data regime, the transformer is incomparably inefficient at utilizing the data. But from another perspective, the human brain is incapable of handling massive data. So I believe there should be a trade-off and interpolation.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719656188,
+      "score": 1,
+      "link_id": "t3_1dr5ts6",
+      "parent_id": "t1_lat4kjd"
+    },
+    {
+      "id": "lat8bzu",
+      "body": "I am also afraid that any improvements from other aspects would be accounted to the \"scaling\", which is hugely misleading.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719655579,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lat4evj"
+    },
+    {
+      "id": "lat83bv",
+      "body": "I agree. The scaling claim is too fragile to be true as long as there are enough computes to falsify it. But the contrary thing is that no one has that many computes, so the hype will continue to raise more funding.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719655423,
+      "score": 2,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lat4evj"
+    },
+    {
+      "id": "lat1dp0",
+      "body": "I'm not sure where I have encountered one paper in which it depicts a U curve in terms of model loss w.r.t. the parameter size. Unfortunately I have not bookmarked. There might be some recall bias.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719650946,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_laszxtm"
+    },
+    {
+      "id": "lana0j9",
+      "body": "I think it doesn't make sense. REINFORCE indeed has a parametrized policy network, while DQN doesn't. In you case, DDPG would be more related because it maintains a delayed policy target network. But the problem is, DDPG uses both the policy target and Q target to produce a stabler TD target for TD learning, rather than policy learning. In contrast, REINFORCE doesn't perform TD learning at all so it is meaningless to have a policy target.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719558492,
+      "score": 2,
+      "link_id": "t3_1dpqokh",
+      "parent_id": "t1_lajml5i"
+    },
+    {
+      "id": "lan8yu1",
+      "body": "One straightforward question is that can LLM judge novelty beyond the grid game?  Like for continuous state space, how could it \"know\" whether it is a surprise? So I think this renders its application limited.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719557823,
+      "score": 1,
+      "link_id": "t3_1dq6hq9",
+      "parent_id": "t3_1dq6hq9"
+    },
+    {
+      "id": "lan8jfk",
+      "body": "I think you can try paredit. Specifically go out of the bounds using ```paredit-backward-up``` and ```paredit-forward-up```, or move inside the expression with ```paredit-backward-down``` and ```paredit-forward-down```.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1719557553,
+      "score": 1,
+      "link_id": "t3_1dq852m",
+      "parent_id": "t3_1dq852m"
+    },
+    {
+      "id": "lajdrpg",
+      "body": "So you want to turn REINFORCE into an actor-critic algorithm?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719503466,
+      "score": 1,
+      "link_id": "t3_1dpqokh",
+      "parent_id": "t3_1dpqokh"
+    },
+    {
+      "id": "l9lk82u",
+      "body": "For your purpose, you could either make a delete map then bind it to a key in the normal mode; or you create another layer but should be care about the back-and-forth between the normal mode and your customized mode, which usually requires a key to exit from the customized mode to normal mode. Since I once tried to develop a new keybindings that fit my need on top of meow, the same procedures could be useful for you, please refer to [scamx-convert.el](https://github.com/MagiFeeney/scamx/blob/main/scamx-convert.el) and [scamx-anchor.el](https://github.com/MagiFeeney/scamx/blob/main/scamx-anchor.el) for example.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1718967857,
+      "score": 2,
+      "link_id": "t3_1dkwugw",
+      "parent_id": "t3_1dkwugw"
+    },
+    {
+      "id": "l8v34i5",
+      "body": "You are legend!",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1718547744,
+      "score": 3,
+      "link_id": "t3_1dgonk9",
+      "parent_id": "t1_l8v2vqd"
+    },
+    {
+      "id": "l8uzqum",
+      "body": "Interesting work! I wonder how the reward function is designed, out of some reference or based on your knowledge?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1718546338,
+      "score": 4,
+      "link_id": "t3_1dgonk9",
+      "parent_id": "t1_l8r8xme"
+    },
+    {
+      "id": "l7ry1ou",
+      "body": "You can bind some keys in meow to built-in functions ```up-list``` and ```backward-up-list``` for jumping lists.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1717909770,
+      "score": 1,
+      "link_id": "t3_1dbj69n",
+      "parent_id": "t3_1dbj69n"
+    },
+    {
+      "id": "l6rd6af",
+      "body": "Gumbel max is related to argmax whereas Gumbel softmax to softmax.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1717332306,
+      "score": 1,
+      "link_id": "t3_1d3hadp",
+      "parent_id": "t1_l67b4e4"
+    },
+    {
+      "id": "l6kxbi1",
+      "body": "Isn't magit default to motion? What's the point here as long as you don't override too much of magit's keybindings?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1717216637,
+      "score": 1,
+      "link_id": "t3_1d4zh8m",
+      "parent_id": "t1_l6km3wu"
+    },
+    {
+      "id": "l2o1ke0",
+      "body": "I simply found there is a room for improvement over vim's modal editing. If you want to do this inside vim, it won't be easy. However, emacs allows you to build from ground up with its capacity of customization.\n\nThe core problems of emacs regarding popularity IMO are that, on one hand, it doesn't take serious consideration of selling itself; on the other hand, it lacks a user friendly template at the starting point that everyone can build upon. I really want the developers of the emacs can take off the historical legacy, and be bold to prune unnecessary aspects.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1714902683,
+      "score": 3,
+      "link_id": "t3_1ckm3yu",
+      "parent_id": "t3_1ckm3yu"
+    },
+    {
+      "id": "l27vg6e",
+      "body": "Let's seeee.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714639721,
+      "score": 1,
+      "link_id": "t3_1cia0r3",
+      "parent_id": "t1_l27tds9"
+    },
+    {
+      "id": "l27spc8",
+      "body": "What is the advantages over MLPs have you observed?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714637601,
+      "score": 3,
+      "link_id": "t3_1cia0r3",
+      "parent_id": "t3_1cia0r3"
+    },
+    {
+      "id": "l1xa1yz",
+      "body": "Hopefully this [paper](https://arxiv.org/pdf/2303.01240) can give you some insights where you can refer to the \"conservative Bellman operator\" as defined in the paper. For discrete case, the uniform distribution $\\\\frac{1}{n}$ will vanish from both sides, then you recover to the maximum entropy framework.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714476101,
+      "score": 1,
+      "link_id": "t3_1cglgra",
+      "parent_id": "t1_l1x9cs5"
+    },
+    {
+      "id": "l1x9cs5",
+      "body": "I think it will reduce to the maximum entropy case similar to SAC, but only accounts for the immediate reward. You can have a equivalent expression to what the code called \"reference free\" by applying the KL divergence with a uniform distribution. So, it encourages exploration.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714475723,
+      "score": 1,
+      "link_id": "t3_1cglgra",
+      "parent_id": "t3_1cglgra"
+    },
+    {
+      "id": "l1wp5t1",
+      "body": "For privacy sake, I am afraid that I am unable to reveal the sub-field as it is easier to narrow down the professors' name.",
+      "author": "OutOfCharm",
+      "subreddit": "nus",
+      "created_utc": 1714461483,
+      "score": 1,
+      "link_id": "t3_1cghtpj",
+      "parent_id": "t1_l1wd9pe"
+    },
+    {
+      "id": "l1w8s86",
+      "body": "I haven't chatted with my POI since there needs a rotation at year 1 (but planning to do so early), but consulted few current students in the lab, knowing that the atmosphere is pretty good and I would have more freedom on my side.  Regarding UCL, though sharing the overall research direction, it is not as tightly related to the research questions that I want to answer in the future as NUS. So yes, there has to be a trade-off.",
+      "author": "OutOfCharm",
+      "subreddit": "nus",
+      "created_utc": 1714451445,
+      "score": 1,
+      "link_id": "t3_1cghtpj",
+      "parent_id": "t1_l1w4z5w"
+    },
+    {
+      "id": "l1vpc1r",
+      "body": "what if you want to keep connection on ssh?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1714442920,
+      "score": 1,
+      "link_id": "t3_1cfw5zq",
+      "parent_id": "t1_l1t39r9"
+    },
+    {
+      "id": "l0x0get",
+      "body": "Only ```x``` with my cusomized modal editing.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1713892588,
+      "score": 1,
+      "link_id": "t3_1cav5n7",
+      "parent_id": "t3_1cav5n7"
+    },
+    {
+      "id": "kymkef6",
+      "body": "magit for sure.",
+      "author": "OutOfCharm",
+      "subreddit": "linux",
+      "created_utc": 1712588252,
+      "score": 57,
+      "link_id": "t3_1byzigk",
+      "parent_id": "t3_1byzigk"
+    },
+    {
+      "id": "kxia8gq",
+      "body": "But this is a sampling-based approach without knowing the dynamics, right?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711951025,
+      "score": 1,
+      "link_id": "t3_1bs9hsm",
+      "parent_id": "t1_kxgvar7"
+    },
+    {
+      "id": "kxf3zrv",
+      "body": "Thank you!",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711904141,
+      "score": 1,
+      "link_id": "t3_1bs9hsm",
+      "parent_id": "t1_kxf2s2f"
+    },
+    {
+      "id": "kxezolt",
+      "body": "Interesting idea of \"goal\\_distance\" variable. Do you have any reference for this approach?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711902599,
+      "score": 1,
+      "link_id": "t3_1bs9hsm",
+      "parent_id": "t1_kxerozn"
+    },
+    {
+      "id": "kuuxctj",
+      "body": "Turning emacs into a magit-like program. Emacs allows me to rebind everything I like.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1710435083,
+      "score": 2,
+      "link_id": "t3_1benj4g",
+      "parent_id": "t3_1benj4g"
+    },
+    {
+      "id": "kuctcqk",
+      "body": "Alright, so how to choose the desired return?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1710158536,
+      "score": 1,
+      "link_id": "t3_1bbavui",
+      "parent_id": "t1_ku9ms83"
+    },
+    {
+      "id": "ku0yv0q",
+      "body": "I use \\[scamx\\](https://github.com/MagiFeeney/scamx) built on top of meow, but in a different philosophy.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1709959071,
+      "score": 1,
+      "link_id": "t3_1b9vqxp",
+      "parent_id": "t3_1b9vqxp"
+    },
+    {
+      "id": "kp78dfp",
+      "body": "Dreamer-v3 official repo supports vector input...",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1707239009,
+      "score": 3,
+      "link_id": "t3_1akcyjs",
+      "parent_id": "t3_1akcyjs"
+    },
+    {
+      "id": "kp0weon",
+      "body": "I believe temporal difference learning with linear function approximation is a good topic which gives you a quick feedback when conducting experiments.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1707141344,
+      "score": 1,
+      "link_id": "t3_1ajgagr",
+      "parent_id": "t3_1ajgagr"
+    },
+    {
+      "id": "kovtq9w",
+      "body": "As an emacs user, I suggest you trying it. Especially [meow](https://github.com/meow-edit/meow) package.",
+      "author": "OutOfCharm",
+      "subreddit": "neovim",
+      "created_utc": 1707058540,
+      "score": 1,
+      "link_id": "t3_1aim16u",
+      "parent_id": "t3_1aim16u"
+    },
+    {
+      "id": "kjo5a88",
+      "body": "Thanks for your attention. I actually haven't tried general.el out yet. And I am pretty satisfied with my current setup.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1706284002,
+      "score": 2,
+      "link_id": "t3_164b371",
+      "parent_id": "t1_kjo1lsi"
+    },
+    {
+      "id": "kjcg80r",
+      "body": "Did you hear anything back?",
+      "author": "OutOfCharm",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706102342,
+      "score": 1,
+      "link_id": "t3_19dnv0v",
+      "parent_id": "t1_kj749mr"
+    },
+    {
+      "id": "ki526ui",
+      "body": "Isn't there an \\`emacs-mode\\` in evil if I remember correctly, binded by \\`C-z\\`?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1705421709,
+      "score": 2,
+      "link_id": "t3_1985v89",
+      "parent_id": "t3_1985v89"
+    },
+    {
+      "id": "khbi3sq",
+      "body": "Did you receive an interview before the decision release?",
+      "author": "OutOfCharm",
+      "subreddit": "EPFL",
+      "created_utc": 1704947685,
+      "score": 2,
+      "link_id": "t3_18z1pfe",
+      "parent_id": "t1_kgj4uku"
     }
   ]
 }

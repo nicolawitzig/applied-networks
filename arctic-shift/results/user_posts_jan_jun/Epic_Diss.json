@@ -11,6 +11,16 @@
       "score": 29,
       "link_id": "t3_1c85972",
       "parent_id": "t1_l0cjoe9"
+    },
+    {
+      "id": "kplxau9",
+      "body": "What you can also do is try Superslicer. I use it on my E3D Toolchanger and I can make different nozzle sizes and layer heights work. In Superslicer you can set extrusion width as a percentage of your nozzle diameter, so the profile natively supports different nozzle sizes without having to make any charges. Since Superslicer is a fork of Prusaslicer you should feel right at home in it. It also gives you a ton of other extra options and low-level control. It is a bit behind the current release of Prusaslicer but I use for research purposes at the university and it works great for all kinds of custom things you want to achieve.",
+      "author": "Epic_Diss",
+      "subreddit": "prusa3d",
+      "created_utc": 1707465655,
+      "score": 1,
+      "link_id": "t3_1am6z9a",
+      "parent_id": "t3_1am6z9a"
     }
   ]
 }

@@ -1,6 +1,51 @@
 {
   "username": "Bottom-CH",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hkni6z",
+      "title": "CS2 jitter caused by steam game recording (fixed)",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1734959680,
+      "score": 21,
+      "num_comments": 1,
+      "selftext": "Just wanted to share this here as I spent multiple hours troubleshooting and it might help someone in the future. \n\nYesterday, seemingly randomly, I started to get extreme jittering. Big clusters of red spikes in the telemetry graph every few seconds. A few hours earlier everything was fine. So I verified game files, updated network drivers, reinstalled cs, tried both wifi and ethernet. And finally I switched to a different steam account and there the problem was gone, even though it used the exact same game, drivers, network etc. \n\nI remembered that I turned on steam recording that day (to switch from nvidia shadow play), but never thought that could cause the issue, since recording should have nothing to do with networking. I still don't understand it but turning that feature off again got rid of the jitter for me.",
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1hkni6z/cs2_jitter_caused_by_steam_game_recording_fixed/"
+    },
+    {
+      "id": "1ftz0sj",
+      "title": "Software to store dream diary entries",
+      "author": "Bottom-CH",
+      "subreddit": "software",
+      "created_utc": 1727816516,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "I've been writing down my dreams for the last 8+ years. It's mostly small notes with individual keywords, short sentences, names, places, feelings... just things I still remember after waking up. These notes are all over the place (phone, paper slips, notebook, etc) and I would like to save them long-term in a systematic way: \n\n* All entries are annotated with a date\n* There's a few hundred of them\n* The entries themselves are short and purely text, 50-150 words.\n* I'd like to assign categories or labels to entries, e.g. people that appeared in that dream (or specific places or feelings). \n* Ideally, I could then filter by these labels, e.g. to see how frequent certain people reappear. Or filter by feeling and date to find out I always have nightmares on Tuesdays...\n\nIs there any software that works in such a way? Or am I best off just creating an SQL database instead?",
+      "url": "https://www.reddit.com/r/software/comments/1ftz0sj/software_to_store_dream_diary_entries/"
+    },
+    {
+      "id": "1eezn5d",
+      "title": "Babe wake up, new coach-starplayer hybrid meta just dropped",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1722259999,
+      "score": 20,
+      "num_comments": 2,
+      "selftext": "",
+      "url": "https://i.redd.it/r8wq8440ngfd1.png"
+    },
+    {
+      "id": "1eezl49",
+      "title": "Babe wake up, new coach-starplayer hybrid meta just dropped",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1722259849,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "https://preview.redd.it/3e6kttmzlgfd1.png?width=493&format=png&auto=webp&s=93c4948eb5e93e0242bf0d89bea2894796dd3256\n\nsAw casually on 4 K/D vs Complexity (+4 flash assists)",
+      "url": "https://www.reddit.com/r/csgo/comments/1eezl49/babe_wake_up_new_coachstarplayer_hybrid_meta_just/"
+    }
+  ],
   "comments": [
     {
       "id": "m2o3usm",
@@ -291,6 +336,506 @@
       "score": 2,
       "link_id": "t3_1e0ptlb",
       "parent_id": "t1_lcop9gb"
+    },
+    {
+      "id": "m4ly4kb",
+      "body": "The funny thing is even in that top level of professional CS the story repeats itself to some degree. You'll have days worth of prep, counter plays and game plans and then comes donk and wide swings you and there's nothing you can do. You could therefore add another Aim after your 0.001% Game sense. \n\nObviously this is a simplification and I completely agree with what you said about CS being chess with guns.",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1735603157,
+      "score": 1,
+      "link_id": "t3_1hpq4ds",
+      "parent_id": "t1_m4johew"
+    },
+    {
+      "id": "m4ckd1c",
+      "body": "Fuck it. Buy kyousuke with some of that 10m earned. Get jambo too instead of sunpayus. Win next major.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1735477652,
+      "score": 2,
+      "link_id": "t3_1hot07l",
+      "parent_id": "t1_m4c4xwe"
+    },
+    {
+      "id": "m2eni97",
+      "body": "Anubis middle seems to become the meta IGL position though (karrigan, chopper, boombl4, apex, kyxsan). \n\nBut Mirage is tough because there is no natural \"supportive rotator\" spot for the IGL to play. Most other maps have those central areas with lots of information, utility usage and midround rotations involved while you can often avoid 50/50 duels. See ancient cave, nuke vents/door, inf banana support, and A rotation on dust & vertigo.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1734390226,
+      "score": 1,
+      "link_id": "t3_1hfmb0u",
+      "parent_id": "t1_m2crriv"
+    },
+    {
+      "id": "m1i7gqz",
+      "body": "Ah yes the 8x snowball anti-meta deck",
+      "author": "Bottom-CH",
+      "subreddit": "ClashRoyale",
+      "created_utc": 1733913394,
+      "score": 3,
+      "link_id": "t3_1hbjd9x",
+      "parent_id": "t1_m1he1vb"
+    },
+    {
+      "id": "m1dmdmx",
+      "body": "Someone came up with the funny explanation that this is Gil-Galads way of mocking Galadriel. \"Commander of the northern armies\" when she's running around with 4 people behind her. He doesn't like her hunt for Sauron and this is his way of expressing his disapproval.",
+      "author": "Bottom-CH",
+      "subreddit": "Rings_Of_Power",
+      "created_utc": 1733847789,
+      "score": 32,
+      "link_id": "t3_1hb50en",
+      "parent_id": "t3_1hb50en"
+    },
+    {
+      "id": "m1d7y27",
+      "body": "Thanks. I searched \"Andor\" in that sub and after some scrolling there were definitely some posts saying that it's boring. But for every negative post there are 10 posts highly praising the show. The overall like/dislike ratio on those posts/comments tell the same story. I've never seen an Andor hate post getting past 1k+ likes while the positive ones crack 10k easily.",
+      "author": "Bottom-CH",
+      "subreddit": "andor",
+      "created_utc": 1733843008,
+      "score": 1,
+      "link_id": "t3_1hawp3y",
+      "parent_id": "t1_m1d0aur"
+    },
+    {
+      "id": "m1cmp10",
+      "body": "Honest question: Who exactly says this? I've seen dozens of posts claiming exactly this but personally I never saw a single person actually saying that Andor didn't feel like star wars. But I'm aware that this is probably due to my own bubble. Feel free to link me some posts, threads, comments, etc",
+      "author": "Bottom-CH",
+      "subreddit": "andor",
+      "created_utc": 1733834542,
+      "score": 1,
+      "link_id": "t3_1hawp3y",
+      "parent_id": "t3_1hawp3y"
+    },
+    {
+      "id": "m0dvifn",
+      "body": "You could almost copy-paste the concept of Andor into the Harry Potter universe. \n\nA series focusing on the fight between the original Order of the Phoenix against the Death Eaters of Voldemort with the ministry inbetween. Again not focusing on a chosen one but the struggle of ordinary people against fascism. The parallels would be very strong with this one.",
+      "author": "Bottom-CH",
+      "subreddit": "andor",
+      "created_utc": 1733328131,
+      "score": 2,
+      "link_id": "t3_1h6d3vy",
+      "parent_id": "t3_1h6d3vy"
+    },
+    {
+      "id": "lxbiw43",
+      "body": "I say we fight!",
+      "author": "Bottom-CH",
+      "subreddit": "andor",
+      "created_utc": 1731701121,
+      "score": 7,
+      "link_id": "t3_1grzqf8",
+      "parent_id": "t1_lxao4vr"
+    },
+    {
+      "id": "lwsh5s3",
+      "body": "Current exchange student, found my accommodation here: https://bostad.blocket.se/",
+      "author": "Bottom-CH",
+      "subreddit": "kth",
+      "created_utc": 1731437468,
+      "score": 1,
+      "link_id": "t3_1gopn7o",
+      "parent_id": "t3_1gopn7o"
+    },
+    {
+      "id": "lvi41jp",
+      "body": "In case anyone comes across this in the future: This conversion is bullshit. Someone just carelessly copied GPT hallucinations. Both D and C are passing grades while 2 and 3 are not.",
+      "author": "Bottom-CH",
+      "subreddit": "EPFL",
+      "created_utc": 1730803794,
+      "score": 1,
+      "link_id": "t3_16lsiv8",
+      "parent_id": "t1_k148x9q"
+    },
+    {
+      "id": "lven2w8",
+      "body": "I mean... that's cobblestone pavement",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1730751888,
+      "score": -3,
+      "link_id": "t3_1gjnr1o",
+      "parent_id": "t3_1gjnr1o"
+    },
+    {
+      "id": "lu25tmp",
+      "body": "I doubt that eth students can afford 1660 CHF a month",
+      "author": "Bottom-CH",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730058160,
+      "score": 0,
+      "link_id": "t3_1gc3msr",
+      "parent_id": "t1_ltz5ebi"
+    },
+    {
+      "id": "lscbc9x",
+      "body": "Overall I think microsoft ToDo is pretty good. Sync devices, folders to organize lists, reminders & deadlines, not too much distraction. I don't like it for things like grocery lists though because each item takes up too much space, so longer lists become confusing. Maybe different classes of lists would improve that. But need to be careful not to overload a ToDo app, remaining simple and distraction-free is the top priority.",
+      "author": "Bottom-CH",
+      "subreddit": "software",
+      "created_utc": 1729160479,
+      "score": 2,
+      "link_id": "t3_1g5mknx",
+      "parent_id": "t3_1g5mknx"
+    },
+    {
+      "id": "ls92xha",
+      "body": "Next goat coach in the making",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1729107986,
+      "score": 6,
+      "link_id": "t3_1g57af0",
+      "parent_id": "t1_ls91ui0"
+    },
+    {
+      "id": "ls92jqk",
+      "body": "And frozen. 3 naturally passive lurks",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1729107866,
+      "score": 116,
+      "link_id": "t3_1g57af0",
+      "parent_id": "t1_ls920sd"
+    },
+    {
+      "id": "lrsk5kr",
+      "body": "They should honestly bring back Mahone with his weatherman segment. That stuff was fire. And the guy was actually working as an analyst for a T1 team before.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1728859548,
+      "score": 3,
+      "link_id": "t3_1g302j1",
+      "parent_id": "t1_lrsf26x"
+    },
+    {
+      "id": "lrsgxyw",
+      "body": "The analyst squad in general could definitely use some fresh names. Compared to the quality in casters, hosts, etc they seem a bit behind. Lots of repetitive and overused takes/storylines, same framing over and over again. That's why I liked Styko or Bubzkji on the desk. \n\nBut we're also spoiled in that regard, they're still doing 100% better job than people in traditional sports.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1728858368,
+      "score": 30,
+      "link_id": "t3_1g302j1",
+      "parent_id": "t1_lrsds7o"
+    },
+    {
+      "id": "lrsezer",
+      "body": "NAF, Zywoo, rain, jame",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1728857660,
+      "score": 22,
+      "link_id": "t3_1g2yzmk",
+      "parent_id": "t3_1g2yzmk"
+    },
+    {
+      "id": "lnvw0e6",
+      "body": "This is criminal but tbh I don't feel bad for you either. Stay away from gambling mate, especially unregulated sites, and do something better with that money.",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1726748208,
+      "score": -1,
+      "link_id": "t3_1fki2z7",
+      "parent_id": "t3_1fki2z7"
+    },
+    {
+      "id": "lntdpjf",
+      "body": "Really love the word paperwork for this. Gonna steal that",
+      "author": "Bottom-CH",
+      "subreddit": "AskReddit",
+      "created_utc": 1726702157,
+      "score": 5,
+      "link_id": "t3_1fjyqv3",
+      "parent_id": "t1_lns1rvm"
+    },
+    {
+      "id": "ln56iyr",
+      "body": "I'd hope so. But I wouldn't blame him if it's his retirement plan.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1726347044,
+      "score": 7,
+      "link_id": "t3_1fgn3rj",
+      "parent_id": "t1_ln47jdk"
+    },
+    {
+      "id": "ln567i1",
+      "body": "I don't disagree with your analysis. But I think this is true for any team and any IGL, they thrive when the chemistry is on point. That's why Falcons might actually never fully work with their superteam approach. \n\nWhat I meant was just that something like a niko+s1mple combo only works if there is an IGL who is highly respected by everyone and clearly in charge of the whole team. And I don't see many other people who could demand that type of respect from these strong personalities. Karrigan has the age, experience and accomplishments for it. Imagine e.g. siuhy, undoubtedly a great igl, telling s1mple to shut up. Maybe a coach like zonic is enough but I doubt it. And I don't see any other obvious options, except maybe Boombl4.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1726346951,
+      "score": 5,
+      "link_id": "t3_1fgn3rj",
+      "parent_id": "t1_ln4usvg"
+    },
+    {
+      "id": "ln3w9oz",
+      "body": "Karrigan is probably the only igl who could make the niko+s1mple combo work though",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1726332706,
+      "score": 66,
+      "link_id": "t3_1fgn3rj",
+      "parent_id": "t1_ln3qox6"
+    },
+    {
+      "id": "ln3vwqe",
+      "body": "Snappi and Maden are quite toxic already I think. Or at least heavy tilters",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1726332590,
+      "score": 16,
+      "link_id": "t3_1fgn3rj",
+      "parent_id": "t1_ln36een"
+    },
+    {
+      "id": "ljzbcyi",
+      "body": "What region is BBQ? Haven't heard that in EU servers for a long time.",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1724658123,
+      "score": 1,
+      "link_id": "t3_1f0p97c",
+      "parent_id": "t1_ljzb67h"
+    },
+    {
+      "id": "ljzb1a9",
+      "body": "Don't expect randos to know your keywords. Call astralis stack and then explain it further with \"5 man stack on B. Everyone go pool\" and when you run there use ping to tell people where to stand. SoloQ is like a field trip in primary school, gotta make sure even the slowest one can follow.",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1724657897,
+      "score": 1,
+      "link_id": "t3_1f0p97c",
+      "parent_id": "t1_ljtywbf"
+    },
+    {
+      "id": "ljfbo9c",
+      "body": "Fuck showmatches. NiP vs AMKAL el clasico before every grand finale!",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724353782,
+      "score": 1,
+      "link_id": "t3_1ey29w6",
+      "parent_id": "t3_1ey29w6"
+    },
+    {
+      "id": "liut9zo",
+      "body": "Fair point. But Astralis was really bad at that stage, dev1ce being an upgrade over Farlig (I think...? I don't even remember) is not that big of a risk.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724065360,
+      "score": 1,
+      "link_id": "t3_1evvct5",
+      "parent_id": "t1_lius3yr"
+    },
+    {
+      "id": "liuk29b",
+      "body": "Obviously not. But which top athlete in any sport instantly joins the main roster of a top 5 team after a long time away just like that? And cs moves so much faster than traditional sports. I just have a strong feeling that s1mple will never claim the no1 spot ever again, only time will tell tho.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724059744,
+      "score": 0,
+      "link_id": "t3_1evvct5",
+      "parent_id": "t1_liuj9n8"
+    },
+    {
+      "id": "liuh3ih",
+      "body": "That's actually a great comparison as Jordan is 61yo and also couldn't compete in a top team today.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724057754,
+      "score": 20,
+      "link_id": "t3_1evvct5",
+      "parent_id": "t1_liugicd"
+    },
+    {
+      "id": "liueu8d",
+      "body": "Idk B1ad3 seems to agree with me https://www.hltv.org/news/39391/short-news-week-29#f20",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724056225,
+      "score": 38,
+      "link_id": "t3_1evvct5",
+      "parent_id": "t1_liueah8"
+    },
+    {
+      "id": "liue3zd",
+      "body": "Yea I know. But it's funny as this is the only cs2 data we have on s1mple. He should play in lower ranked teams (T2,3) to prove that he still has it. Directly joining back into NaVi or another top5 team doesn't make any sense.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724055736,
+      "score": 75,
+      "link_id": "t3_1evvct5",
+      "parent_id": "t1_liudub6"
+    },
+    {
+      "id": "liudmhi",
+      "body": "0.94 against Metizport",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1724055412,
+      "score": 141,
+      "link_id": "t3_1evvct5",
+      "parent_id": "t1_liucqg8"
+    },
+    {
+      "id": "ligkcib",
+      "body": "I've got news for you buddy",
+      "author": "Bottom-CH",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1723838607,
+      "score": 3,
+      "link_id": "t3_1etn1ea",
+      "parent_id": "t1_lifhwjs"
+    },
+    {
+      "id": "li9wfn9",
+      "body": "Devilwalk apparently ¯⁠\\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1723744298,
+      "score": 1,
+      "link_id": "t3_1espmt6",
+      "parent_id": "t1_li7ymke"
+    },
+    {
+      "id": "li86u2f",
+      "body": "He's probably the most IGL of all IGLs out there. I was just mocking the wording of \"he's kinda more of a support/igl type player\". C'mon, if he won a fkn major you're gonna know if he's an IGL or not. There's not really an in-between.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1723723615,
+      "score": 1,
+      "link_id": "t3_1espmt6",
+      "parent_id": "t1_li8660q"
+    },
+    {
+      "id": "li860wq",
+      "body": "If you are friends and regularly play with Devilwalk then why not write that? If I played football with Messi in the schoolyard I'm not gonna say I played \"with a Ballon D'Or winner\". It just makes people assume that you're making shit up when you don't name them.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1723723256,
+      "score": 0,
+      "link_id": "t3_1espmt6",
+      "parent_id": "t1_li8346t"
+    },
+    {
+      "id": "li7ust8",
+      "body": "Who doesn't know that famous major winner who was \"more of an igl player\"",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1723717678,
+      "score": 8,
+      "link_id": "t3_1espmt6",
+      "parent_id": "t1_li7p6qv"
+    },
+    {
+      "id": "lggmebp",
+      "body": "\"Tyranny requires constant effort. It breaks, it leaks. Authority is brittle. Oppression is the mask of fear.\"",
+      "author": "Bottom-CH",
+      "subreddit": "lotr",
+      "created_utc": 1722784105,
+      "score": 18,
+      "link_id": "t3_1ejlnx5",
+      "parent_id": "t1_lgeu20z"
+    },
+    {
+      "id": "lg0gbzt",
+      "body": "Was thinking more like 2000. Didn't mean to correct you though lol. Just commenting on how long it took myself. Average hours of cs players are just on another level",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1722535572,
+      "score": 3,
+      "link_id": "t3_1eh783o",
+      "parent_id": "t1_lfzy436"
+    },
+    {
+      "id": "lfymhb8",
+      "body": "There's two 0's missing there",
+      "author": "Bottom-CH",
+      "subreddit": "csgo",
+      "created_utc": 1722512758,
+      "score": 13,
+      "link_id": "t3_1eh783o",
+      "parent_id": "t1_lfyivkw"
+    },
+    {
+      "id": "leua96m",
+      "body": "GUI control software for experiment setups to interface with multiple devices, sensors, FPGAs, etc. and process their data in real time.",
+      "author": "Bottom-CH",
+      "subreddit": "cpp",
+      "created_utc": 1721895558,
+      "score": 5,
+      "link_id": "t3_1ebngmo",
+      "parent_id": "t3_1ebngmo"
+    },
+    {
+      "id": "leiy2ii",
+      "body": "Depends on the position you want to fill. If you're looking for a leader (igl) it's worth to dig deep and consider multiple candidates. Focus on previous experience. To find a real star AWPer on LinkedIn you gotta do some digging, the young talents are more on other social media platforms.\n\nJk, you're on the wrong sub mate. This one's about counter strike.",
+      "author": "Bottom-CH",
+      "subreddit": "RecruitCS",
+      "created_utc": 1721732863,
+      "score": 1,
+      "link_id": "t3_1e9w2nw",
+      "parent_id": "t3_1e9w2nw"
+    },
+    {
+      "id": "ldzpyfx",
+      "body": "I've seen more people in 6pm lectures",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1721424231,
+      "score": 146,
+      "link_id": "t3_1e7dpvg",
+      "parent_id": "t1_ldzp15o"
+    },
+    {
+      "id": "ldo28js",
+      "body": "I mean it's invites straight to playoff bracket with a second chance in the first round (and only the first round) for one out of the 7 losers through a BO1 stage which is played out in a single day. Oh and it's 15 teams. But one of them skips first round and is straight down to last chance. There's no group stage, no play-ins. Only a single spot through european qualifiers (idk if there was even an open one at all). Even Blast's format looks great next to this",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1721248553,
+      "score": 6,
+      "link_id": "t3_1e5ge7s",
+      "parent_id": "t1_ldmebv7"
+    },
+    {
+      "id": "ldm567e",
+      "body": "Have a look at the format. It really is a joke tournament, saudis or not.",
+      "author": "Bottom-CH",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1721226420,
+      "score": 23,
+      "link_id": "t3_1e5ge7s",
+      "parent_id": "t1_ldlw7sm"
+    },
+    {
+      "id": "lc2omrf",
+      "body": "ha. good one",
+      "author": "Bottom-CH",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1720376471,
+      "score": 7,
+      "link_id": "t3_1dxkz96",
+      "parent_id": "t1_lc2of63"
+    },
+    {
+      "id": "lb60dp7",
+      "body": "That one elf at helms deep who thinks he could fight a battle but then just runs straight into the pike",
+      "author": "Bottom-CH",
+      "subreddit": "lordoftherings",
+      "created_utc": 1719859261,
+      "score": 31,
+      "link_id": "t3_1dsy8gh",
+      "parent_id": "t3_1dsy8gh"
+    },
+    {
+      "id": "lb3nibx",
+      "body": "In Switzerland we have an executive made up of 7 people from 4 different parties, more or less proportional to their seats in parliament. The \"Bundespräsident\" rotates every year between the 7. So there are alternative systems even when electing presidents.",
+      "author": "Bottom-CH",
+      "subreddit": "dankmemes",
+      "created_utc": 1719824181,
+      "score": 1,
+      "link_id": "t3_1dr82xt",
+      "parent_id": "t1_layf7ga"
     }
   ]
 }

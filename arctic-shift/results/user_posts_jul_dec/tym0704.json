@@ -33,6 +33,61 @@
       "num_comments": 3,
       "selftext": "If anyone has applied for a student visa to Switzerland as a non-EU citizen, please tell me if there were any problems with getting a bank statement on Evidence of sufficient financial means. It says that I must show that I have 21,000 Francs/other currency “available”. My questions: \n1. How far in advance should I open a bank account? \n2. How long should the money be in the account for me to be able to get a statement on its presence?\n3. Are there any hidden fees or pitfalls in this process? \n \nThanks in advance!",
       "url": "https://www.reddit.com/r/ethz/comments/1ezw2r9/bank_statement_for_swiss_student_visa/"
+    },
+    {
+      "id": "1h98pyd",
+      "title": "Choosing CERN experiments for Summer Student Programme",
+      "author": "tym0704",
+      "subreddit": "CERN",
+      "created_utc": 1733624887,
+      "score": 2,
+      "num_comments": 5,
+      "selftext": "Hello,  \n  \nI am applying for a CERN Summer Student Programme 2025 and am at the stage of *\"Giving details of any interest in specific topics or CERN experiments.\"* A brief background about me: I study machine/deep learning and math, although I have a basic understanding of nuclear physics.   \n  \nI am considering two options: the LHC-ATLAS experiment (well-established with a large team and extensive research) and the newer SPS-SHiP project (smaller scale and less established). Both have recent studies related to my field.  \n  \nWhat advice can you provide on choosing a project or experiment that could enhance my chances of being accepted into the program? Few example questions to think:\n\n* Should I prioritize well-established projects over newer ones?\n* Should I focus more on how closely my skills match the project?\n* Any tricks to choose a suitable paper to work with?\n\nThanks in advance, and if clarification is needed, feel free to ask questions.",
+      "url": "https://www.reddit.com/r/CERN/comments/1h98pyd/choosing_cern_experiments_for_summer_student/"
+    },
+    {
+      "id": "1h6tvyw",
+      "title": "Motivation Letter Review",
+      "author": "tym0704",
+      "subreddit": "EPFL",
+      "created_utc": 1733353050,
+      "score": 5,
+      "num_comments": 4,
+      "selftext": "Hello, I am applying to MSc in Computer Science and Data Science. I would like to ask you to review my motivation letter and CV if anyone has the opportunity. I would be very grateful!   \n\\* I can dm you and send link to the drive where my CV and motivation letter are stored, just lmk \\*",
+      "url": "https://www.reddit.com/r/EPFL/comments/1h6tvyw/motivation_letter_review/"
+    },
+    {
+      "id": "1fu41y3",
+      "title": "Chances of admission to MSc Computer Science from Europe",
+      "author": "tym0704",
+      "subreddit": "UofT",
+      "created_utc": 1727830425,
+      "score": 0,
+      "num_comments": 1,
+      "selftext": "Hi everyone! \nI am finishing my studies at Charles University in Prague this year and want to apply to MSc Computer Science at UofT. Some info about me: \n- GPA: 3.95/4.0 (one non-perfect grade; translated from Czech system). \n- Research Experience: Rutgers University in New Jersey, working on a research project for my thesis. \n- Teaching assistantship in ML course (biggest AI-related course in our university, taking 300 students each year). First bachelor taking this role. \n- Will have at least two great LoRs from my supervisor and teacher that invited me to become a TA. \n- Main research interest: DL/LLMs (particularly knowledge editing and general DL) \n \nMy questions are the following: How could you estimate my chances to get admitted? What could discourage the commission from admitting me? How to improve/what to add to my application profile? Any general advice? \n \nThanks in advance!",
+      "url": "https://www.reddit.com/r/UofT/comments/1fu41y3/chances_of_admission_to_msc_computer_science_from/"
+    },
+    {
+      "id": "1f1g2fq",
+      "title": "Eligibility for M.Sc. Informatics (discrepancy in courses taken) ",
+      "author": "tym0704",
+      "subreddit": "tumunich",
+      "created_utc": 1724647972,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "I have a question about a section of the M.Sc. in Informatics application procedure called \"Qualification Requirements and Assessment Process.\" \nThe eligibility requirements said that I needed at least 50 ECTS from the Foundation of Informatics. However, when I apply, I will have completed just 39-45 of them because my university curriculum does not offer some of these courses (such as software engineering, IT security, or much less credits for computer architecture and theory of computation). \nWill it be a major issue throughout the application process if I do not meet some of these requirements? Can some of them be obtained after enrolling? ",
+      "url": "https://www.reddit.com/r/tumunich/comments/1f1g2fq/eligibility_for_msc_informatics_discrepancy_in/"
+    },
+    {
+      "id": "1f1e9yy",
+      "title": "Fine-tune a 7B parameter LLM efficiently and affordably?",
+      "author": "tym0704",
+      "subreddit": "deeplearning",
+      "created_utc": 1724641654,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "I need to run about 5 different fine-tuning methods across 4 datasets, each with 1000-1500 samples. The model I need to fine-tune is Mistral7B.\n\nI have a basic Google Colab subscription, but it doesn't allow access to an A100 GPU, and the T4 GPU available lacks enough memory to fine-tune a 7B parameter model—it quickly runs out of memory. And even with optimizations like quantization and mixed precision, I'm still hitting memory limits.\n\nI'm looking for cost-effective platforms or services with sufficient GPU memory to handle these tasks efficiently. Any recommendations?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1f1e9yy/finetune_a_7b_parameter_llm_efficiently_and/"
     }
   ],
   "comments": [
@@ -45,6 +100,16 @@
       "score": 1,
       "link_id": "t3_1ezw2r9",
       "parent_id": "t1_ljnza6z"
+    },
+    {
+      "id": "m0z8wk0",
+      "body": "Thanks! Does CERN have a list of countries that choose their own representatives? Btw, I am Ukrainian, finishing last year at Charles University in Prague, and as I know, Ukraine has some quotas as an associate member state, so I believe it won’t be a problem. ",
+      "author": "tym0704",
+      "subreddit": "CERN",
+      "created_utc": 1733629237,
+      "score": 1,
+      "link_id": "t3_1h98pyd",
+      "parent_id": "t1_m0yzq04"
     }
   ]
 }

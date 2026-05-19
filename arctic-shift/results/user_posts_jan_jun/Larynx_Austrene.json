@@ -1,6 +1,18 @@
 {
   "username": "Larynx_Austrene",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1daeizn",
+      "title": "Fight Recorder - Automatically start / stop OBS Recordings based on Eve Logs",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1717776492,
+      "score": 42,
+      "num_comments": 8,
+      "selftext": "Recently I came up with a solution to the typical \"I wish I recorded that\" moments, and thought I would post about it outside of my usual circle as other people might find it useful.  \n  \n\"Fight Recorder\" is a small utility that reads your eve logs and automatically starts / stops / downloads OBS recordings / replays based on if you are in combat with (configurable) timout. In order to ensure it also captures the start of the fight, it additionally uses the replay buffer from OBS to look back in the past (and automatically stitches these two videos together with ffmpeg if you want and have enough resources for it while playing). \n\nYou can find this project on Github:  \n[https://github.com/14rynx/fight-recorder/](https://github.com/14rynx/fight-recorder/)\n\nA detailed explanation how it works and how to set it up can be found in the following video:  \n[Automatic Fight Recording for Eve Online](https://youtu.be/nKUF6oge0og?si=8m-ioedEG3TdNdRh)\n\nFly dangerously!",
+      "url": "https://www.reddit.com/r/Eve/comments/1daeizn/fight_recorder_automatically_start_stop_obs/"
+    }
+  ],
   "comments": [
     {
       "id": "kvgzdnv",
@@ -21,6 +33,326 @@
       "score": 1,
       "link_id": "t3_1b31b3b",
       "parent_id": "t3_1b31b3b"
+    },
+    {
+      "id": "laujdyf",
+      "body": "I am not quite sure if is wac planned out or not. Some of the things definitely look adhoc. For example the Pontifex as a Command Destroyer has a special amount of points for balance: 12. Meanwhile all the other Command Destroyers only have 12 points also.\n\nOr in the the Faction BS category it is possible to have the same points for ships with a few less exceptions than at the moment, but somehow nobody normalized it.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1719676519,
+      "score": 1,
+      "link_id": "t3_1dqwr78",
+      "parent_id": "t3_1dqwr78"
+    },
+    {
+      "id": "l9fac2t",
+      "body": "Quick Terminology:\n- Set bonus: Stuff that makes other implants stronger\n- Stat bonus: Stuff that makesmyour ship strlnger\n\nIf I am not mistaken this is because all implants in sets have some small set bonus. The HG Talisman Alpha has a statjbonus of 1% but then increases that by 1.15x with it's own set bonus.\n\nMost of the time the only difference in between LG, MG, HG is this set bonus.\n\nThis also explains why there is more than 15% neut cycle time reduction without Omega - you forgot the set bonuses.\n\nFor the calculation with the omega 26.9% * (1 + 50%) = 40.35%.\n\nFor general calc, multiply together all the set bonuses while factoring the base 100% effectiveness, add together all the stat bonuses and finally apply the total set bonus to the stat bonus.\n\nE.g. talisman cycle time:\n1 + (1 + a_set_bonus) * (1 + b_set_bonus) ... * (1 + o_set_bonus) * (a_stats_bonus + b_stat_bouns ... e_stat_bonus)\n\nKeep in mind cycle time stat bonuses are negative because it is cycle time reduction.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1718863246,
+      "score": 1,
+      "link_id": "t3_1dixsc3",
+      "parent_id": "t3_1dixsc3"
+    },
+    {
+      "id": "l8je1zi",
+      "body": "Always has been, kinda hilarious that the many players in horde took so long to figure it out.\n\nI wonder how long it will take them to figure out the other cool stuff you can do...",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1718341944,
+      "score": 0,
+      "link_id": "t3_1df5pua",
+      "parent_id": "t3_1df5pua"
+    },
+    {
+      "id": "l8e059v",
+      "body": "Correct",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1718259515,
+      "score": 2,
+      "link_id": "t3_1ddlgul",
+      "parent_id": "t1_l86c1t9"
+    },
+    {
+      "id": "l8dxlpx",
+      "body": "How long is the reinforcement?",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1718257905,
+      "score": 1,
+      "link_id": "t3_1degvs1",
+      "parent_id": "t3_1degvs1"
+    },
+    {
+      "id": "l8dv6fz",
+      "body": "Yes",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1718256418,
+      "score": 1,
+      "link_id": "t3_1daeizn",
+      "parent_id": "t1_l88scqd"
+    },
+    {
+      "id": "l7onzo7",
+      "body": "You had me at semiboolean xD",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1717859594,
+      "score": 2,
+      "link_id": "t3_1daokcz",
+      "parent_id": "t1_l7mpdnx"
+    },
+    {
+      "id": "l7mzkkl",
+      "body": "One option you might have is to get a C4 with a C5 static and just farm the C5. The newest patchnotes say that there will be no more cap escalation or drifters without caps, so in a sense that is a good change for the setup because you can not getjbonus waved anymore while mitigating the lower payout per WH without caps.\n\nYou will find such a hole quite easily and as long as you don't majorly offend someone you won't get evicted. You could even have a lowclass static to keep doing what you are currently doing and just use highsecs from that chain.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1717824346,
+      "score": 3,
+      "link_id": "t3_1dap1rs",
+      "parent_id": "t3_1dap1rs"
+    },
+    {
+      "id": "l7mvlvp",
+      "body": "As long as it has th OBS Websocket still built in it should work.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1717821960,
+      "score": 1,
+      "link_id": "t3_1daeizn",
+      "parent_id": "t1_l7lyvb7"
+    },
+    {
+      "id": "l7k7lf0",
+      "body": "I am not quite sure if there are logs for undocking, if there are you could probably adjust the logreader for it.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1717782733,
+      "score": 1,
+      "link_id": "t3_1daeizn",
+      "parent_id": "t1_l7k4i7x"
+    },
+    {
+      "id": "l5si3ur",
+      "body": "If you just want to live in WH space there is a community that provides structures where you can just live: [Wormlife Freeports](https://discord.com/invite/fFPj5Pdq5x) -  provided you don't shoot other locals. Safety of your assets from third parties evicting them can not be guaranteed, but quite a few WH Corps defended these Structures at some time or another and the holding groups has never screwes anyone over as far as I know.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1716755000,
+      "score": 25,
+      "link_id": "t3_1d14wg0",
+      "parent_id": "t1_l5rnd5l"
+    },
+    {
+      "id": "l5sg1m3",
+      "body": "Frankly I have a hard time thinking about a group-playstyle where there is an overarching objective and not at least some form of comitment, often times the objectives sadly just don't wait for you.\n\nYou can fight groups that only have their daily goals and then leave you be, like NPSI for organized fleets, roamers for honing individual piloting, Incursions to make ISK (and probably 100 others).",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1716754189,
+      "score": 1,
+      "link_id": "t3_1d14wg0",
+      "parent_id": "t3_1d14wg0"
+    },
+    {
+      "id": "l5huyuv",
+      "body": "Using the ominous third inversion operator, I see...",
+      "author": "Larynx_Austrene",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1716570139,
+      "score": 3,
+      "link_id": "t3_1cz1gcz",
+      "parent_id": "t1_l5hf715"
+    },
+    {
+      "id": "l4u7whf",
+      "body": "I had some fun with ships that just tank them when this happens. Defnitely can do it if it is one, depending on mitigation also 2 or 3.\n\nThe other way to do it is to escalate into the ESS and bring something cheap first and hope people show their hand, then come up with a counter. LR them back and bubble their likely warpout, damp them and steal it anyway. \n\nOf course there are situations where it is just to much, but this is not unique to ESS.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1716183975,
+      "score": 2,
+      "link_id": "t3_1cvxskx",
+      "parent_id": "t1_l4smzkw"
+    },
+    {
+      "id": "l2lplcf",
+      "body": "Wrong question xD",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1714858416,
+      "score": 1,
+      "link_id": "t3_1ck5pfi",
+      "parent_id": "t1_l2l2pkb"
+    },
+    {
+      "id": "l2l2dy9",
+      "body": "Short Answer: No",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1714849860,
+      "score": 3,
+      "link_id": "t3_1ck5pfi",
+      "parent_id": "t3_1ck5pfi"
+    },
+    {
+      "id": "l2izjpe",
+      "body": "I didn't read all of your stuff, but I think there is a guy that did something similar to this called J0hn Drees. \n\nhttps://m.youtube.com/@JohnDrees\n\nIIRC ha also did an EVE Uni talk about it that you might still find somewhere.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1714820951,
+      "score": 2,
+      "link_id": "t3_1cjh3zg",
+      "parent_id": "t3_1cjh3zg"
+    },
+    {
+      "id": "l044f9t",
+      "body": "More things to fight over would be nice. I am not sure if it always has been like it is atm tho?",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1713427531,
+      "score": 7,
+      "link_id": "t3_1c6vrvy",
+      "parent_id": "t3_1c6vrvy"
+    },
+    {
+      "id": "kz3rkqw",
+      "body": "Ornn builds good relationships, go see Ornn!",
+      "author": "Larynx_Austrene",
+      "subreddit": "leagueoflegends",
+      "created_utc": 1712855695,
+      "score": 12,
+      "link_id": "t3_1c1impr",
+      "parent_id": "t3_1c1impr"
+    },
+    {
+      "id": "kwor76i",
+      "body": "Wrecking shots have a 1% chance to happen with each turret on a ship if your hit chance (thing you get with the tracking formula) is greater than 1%.\n\nAs such there is not always a 1% chance of them happening, if your hit chance is low enough it will happen almost never. E.g. an arty Nag with 3 Turrets does not need 33 cycles on average to volley a Stiletto, it needs way more. \n\nHow ''RNG'' it is also depends on the number of turrets quite a bit as wrecking shot is independent for each turret. E.g. a Vedmak has (given 1% hit chance) a 1% chance to hit for 3x nominal damage, while a Sleipnir (5 Guns, same else) only has a 0.00000001% of doing actual 3x nominal damage (but quite a bit of chance of hitting higher than 1.5x smashing multiplier overall).",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1711481126,
+      "score": 13,
+      "link_id": "t3_1boebhh",
+      "parent_id": "t3_1boebhh"
+    },
+    {
+      "id": "kwgel62",
+      "body": "Stellt euch mal vor die Radwege wären durchgend, mit Mindestkurvenradius und genauso übersichtlich wie die Landstrasse, mit ähnlich viel Orten wo man keinen Vortritt hat.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Fahrrad",
+      "created_utc": 1711351364,
+      "score": 39,
+      "link_id": "t3_1bn76ec",
+      "parent_id": "t3_1bn76ec"
+    },
+    {
+      "id": "kuw0app",
+      "body": "I think the one going like ''you have to little hull hp to undock'' is pretty rare.\n\nAlso when you messed with the passive targeter to much and try to shoot a guy you have locked just to be met by ''the target is not locked'' message.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1710447830,
+      "score": 17,
+      "link_id": "t3_1besljs",
+      "parent_id": "t3_1besljs"
+    },
+    {
+      "id": "kto8e62",
+      "body": "Rylian is my pick",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1709761526,
+      "score": 2,
+      "link_id": "t3_1b85fsf",
+      "parent_id": "t3_1b85fsf"
+    },
+    {
+      "id": "kt4clmj",
+      "body": "I see you started making small random eve programs too, very nice!",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1709451543,
+      "score": 4,
+      "link_id": "t3_1b53utl",
+      "parent_id": "t3_1b53utl"
+    },
+    {
+      "id": "ksws418",
+      "body": "This is like two years behind the meta lol. Nowadays you can give a [public discord bot](https://github.com/14rynx/friendly-splash-bot/tree/main) your requirements in terms of ISK that you want to spend and it will find the best set for you with current market prices.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1709327839,
+      "score": 5,
+      "link_id": "t3_1b422z4",
+      "parent_id": "t3_1b422z4"
+    },
+    {
+      "id": "kqif3lq",
+      "body": "You want to hit cloak on the next tick after align. How do you know when the next tick happens on the server? No way to tell - but we do know that one happens roughly every second. So you just hit them precisely one second appart and it works really reliably.\n\nYou can hit MWD at the same time or up to 5 ticks later, depending on the situation one or the other might be better.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1707988196,
+      "score": 4,
+      "link_id": "t3_1arb39o",
+      "parent_id": "t3_1arb39o"
+    },
+    {
+      "id": "kjyoacl",
+      "body": "I ended up actually building it, and the tree idea for the notation was pretty good, ended up with this https://pastebin.com/fVVFTNND . That was actually suprisingly hard.",
+      "author": "Larynx_Austrene",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1706457027,
+      "score": 3,
+      "link_id": "t3_1aco6fp",
+      "parent_id": "t1_kjy89eb"
+    },
+    {
+      "id": "kjxixz1",
+      "body": "I am kina interested what other solutions exist.\n\nI guess you could bruteforce it by writing some code that gives you all the ways you can order your four cards (24 possibilities), and then try all operation orders you can find. In postfix notation something like a b _ c _ _ d _ _ _ where you fill in 3 operators for _ so that the number of operators for any substring from the left is smaller than the number of cards. (64 operator possibilities and 4 options where to place them each). \n\nSo total 6144 possibilities with this method, if it even is correct.\n\nAny better solutions?",
+      "author": "Larynx_Austrene",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1706434013,
+      "score": 6,
+      "link_id": "t3_1aco6fp",
+      "parent_id": "t3_1aco6fp"
+    },
+    {
+      "id": "kjp9hib",
+      "body": "Perkele!",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1706297692,
+      "score": 3,
+      "link_id": "t3_1abmx89",
+      "parent_id": "t3_1abmx89"
+    },
+    {
+      "id": "kinnhug",
+      "body": "Pretty cool to have some baseline fits to start from, can't comment on specifics.",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1705703397,
+      "score": 1,
+      "link_id": "t3_19av5k5",
+      "parent_id": "t3_19av5k5"
+    },
+    {
+      "id": "ki3psus",
+      "body": "I can MWD + Cloak to a safespot on grid that I create with core probes during the cloak trick, in whatever direction I want.\nhttps://youtu.be/Ad4XhC3cq9E?si=buCUlGjVU8jHSSAo",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1705397538,
+      "score": 43,
+      "link_id": "t3_197y80a",
+      "parent_id": "t3_197y80a"
+    },
+    {
+      "id": "kfuekqm",
+      "body": ">Elder",
+      "author": "Larynx_Austrene",
+      "subreddit": "Eve",
+      "created_utc": 1704124786,
+      "score": 3,
+      "link_id": "t3_18vy5hn",
+      "parent_id": "t1_kfu8roj"
     }
   ]
 }

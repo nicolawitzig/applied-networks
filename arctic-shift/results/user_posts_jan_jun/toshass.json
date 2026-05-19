@@ -1,6 +1,29 @@
 {
   "username": "toshass",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1bnm53z",
+      "title": "[TIP] Marigold-LCM - a faster Marigold depth estimation",
+      "author": "toshass",
+      "subreddit": "comfyui",
+      "created_utc": 1711394107,
+      "score": 28,
+      "num_comments": 10,
+      "selftext": "Our lab just released a massive speed-up of our depth estimation model (Marigold-LCM). It is now on par with the fastest text-to-image generation pipelines and produces high-quality crisp depth maps one order of magnitude faster than the original Marigold. Check it out here: [https://huggingface.co/spaces/prs-eth/marigold-lcm](https://huggingface.co/spaces/prs-eth/marigold-lcm)",
+      "url": "https://www.reddit.com/r/comfyui/comments/1bnm53z/tip_marigoldlcm_a_faster_marigold_depth_estimation/"
+    },
+    {
+      "id": "1bnlvcw",
+      "title": "[P] Marigold-LCM: fast monocular depth estimation based on Stable Diffusion",
+      "author": "toshass",
+      "subreddit": "MachineLearning",
+      "created_utc": 1711393463,
+      "score": 17,
+      "num_comments": 2,
+      "selftext": "Marigold is a universal monocular depth estimator, delivering incredibly sharp predictions in the wild. Based on Stable Diffusion, it is trained with synthetic depth data only and excels in zero-shot adaptation to real-world imagery. The original method required tens of seconds to process the original image, which was justified given the boost in depth map quality. Following in the footsteps of text-to-image research, we performed latent consistency distillation of the original model, giving an order of magnitude speed-up. Check it out!\n\nDemo: [https://huggingface.co/spaces/prs-eth/marigold-lcm](https://huggingface.co/spaces/prs-eth/marigold-lcm)\n\nPaper: [https://arxiv.org/abs/2312.02145](https://arxiv.org/abs/2312.02145)\n\nCode: [https://github.com/prs-eth/marigold](https://github.com/prs-eth/marigold)\n\nWebsite: [https://marigoldmonodepth.github.io/](https://marigoldmonodepth.github.io/)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1bnlvcw/p_marigoldlcm_fast_monocular_depth_estimation/"
+    }
+  ],
   "comments": [
     {
       "id": "laqjyev",
@@ -11,6 +34,86 @@
       "score": 2,
       "link_id": "t3_1dqkat4",
       "parent_id": "t3_1dqkat4"
+    },
+    {
+      "id": "l7xosc2",
+      "body": "Warum nicht \"sie heisst\"?",
+      "author": "toshass",
+      "subreddit": "German",
+      "created_utc": 1718008298,
+      "score": 2,
+      "link_id": "t3_1dbrw7h",
+      "parent_id": "t1_l7tbvfw"
+    },
+    {
+      "id": "l6dexqy",
+      "body": "Check this out, an update for that use case in this new tutorial: https://huggingface.co/docs/diffusers/using-diffusers/marigold_usage#frame-by-frame-video-processing-with-temporal-consistency",
+      "author": "toshass",
+      "subreddit": "comfyui",
+      "created_utc": 1717099444,
+      "score": 1,
+      "link_id": "t3_1ctbbqe",
+      "parent_id": "t1_l4eia78"
+    },
+    {
+      "id": "l6dep75",
+      "body": "With this code snippet in the recently released diffusers, Marigold (85ms) is faster than Depth Anything Large: https://huggingface.co/docs/diffusers/using-diffusers/marigold_usage#qualitative-comparison-with-depth-anything",
+      "author": "toshass",
+      "subreddit": "comfyui",
+      "created_utc": 1717099361,
+      "score": 1,
+      "link_id": "t3_1ctbbqe",
+      "parent_id": "t1_l4bnvkz"
+    },
+    {
+      "id": "l6de6f3",
+      "body": "Marigold coauthor here. You can make a 3d printable mesh in our demo https://huggingface.co/spaces/prs-eth/marigold-lcm (bas relief tab). The pipeline in diffusers is more memory efficient and has major speedup gains. For example, this snippet works at 85ms per frame and leads to higher quality results than Depth Anything Large: https://huggingface.co/docs/diffusers/using-diffusers/marigold_usage#qualitative-comparison-with-depth-anything. There is also a dedicated section on ControlNet at the end!",
+      "author": "toshass",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1717099180,
+      "score": 2,
+      "link_id": "t3_1d1u9ma",
+      "parent_id": "t1_l5z3nl6"
+    },
+    {
+      "id": "kx8qv73",
+      "body": "Corado",
+      "author": "toshass",
+      "subreddit": "zurich",
+      "created_utc": 1711800254,
+      "score": 1,
+      "link_id": "t3_1br9n55",
+      "parent_id": "t1_kx8b6dv"
+    },
+    {
+      "id": "kx8ie2o",
+      "body": "To spin up the marigold-lcm demo locally, you'd first have to install Docker: [https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)\n\nThen you can run the demo locally and use all available GPUs using the command below. Note that the video function is quite trimmed in the demo as is, it only allows processing up to \\~6 seconds to not hog the public resources and just give a feel of what the code is capable of. You might want to lift this limitation as a first step by cloning the demo (note that the  part following [registry.hf.space](http://registry.hf.space) will change to the address of the demo in your profile), and then remove the following two if checks from the process\\_video loop: (1) if not (frame\\_id % frame\\_interval == 0): it limits the output fps to \\~10 and (2) if out\\_frame\\_id > out\\_max\\_frames: it limits the processing of output to consider the first \\~6 seconds.\n\n    docker run -it -p 7860:7860 --platform=linux/amd64 --gpus all \\\n    registry.hf.space/prs-eth-marigold-lcm:latest python app.py",
+      "author": "toshass",
+      "subreddit": "comfyui",
+      "created_utc": 1711794708,
+      "score": 1,
+      "link_id": "t3_1bnm53z",
+      "parent_id": "t1_kwj8we4"
+    },
+    {
+      "id": "kx8hhks",
+      "body": "We are adding readme instuctions atm, subscribe to our github repo to check it out once merged. With diffusers it will be even simpler, just instead of \\`prs-eth/marigold-v1-0\\` you'd have to use \\`prs-eth/marigold-lcv-v1-0\\`, and then you can lower the number of steps and ensemble size.",
+      "author": "toshass",
+      "subreddit": "MachineLearning",
+      "created_utc": 1711794044,
+      "score": 1,
+      "link_id": "t3_1bnlvcw",
+      "parent_id": "t1_kwn19po"
+    },
+    {
+      "id": "kwj3o2q",
+      "body": "Batch processing requires a bit of coding, but it is possible. We just released a massive speed-up of Marigold, check out this post: [https://www.reddit.com/r/comfyui/comments/1bnm53z/tip\\_marigoldlcm\\_a\\_faster\\_marigold\\_depth\\_estimation/](https://www.reddit.com/r/comfyui/comments/1bnm53z/tip_marigoldlcm_a_faster_marigold_depth_estimation/)",
+      "author": "toshass",
+      "subreddit": "comfyui",
+      "created_utc": 1711394172,
+      "score": 1,
+      "link_id": "t3_18i5o7w",
+      "parent_id": "t1_kwaxq1m"
     }
   ]
 }

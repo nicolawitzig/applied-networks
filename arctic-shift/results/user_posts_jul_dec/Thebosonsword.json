@@ -1,6 +1,62 @@
 {
   "username": "Thebosonsword",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hmbcf9",
+      "title": "One week in Lapland",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1735168363,
+      "score": 7,
+      "num_comments": 5,
+      "selftext": "Dear community,\n\nI went to Lapland (Sweden & Finland) for a very short Interrail trip with a friend 2 years ago and absolutely loved it. We departed from Stockholm, went to Kiruna, spent one night there (even managed to see some northern lights!), then went down to Lulea, took a bus to Haparanda, walked accross the border and to Tornio from where we took the night train down to Helsinki and back to Stockholm by ferry.\n\nNow that I have a bit more time and money on my hands, I'd like to bring my girlfriend (that I ironically met on this subreddit...) to Lapland for our 4 years.\n\nThis excursion to Lapland is part of a larger Interrail trip, but essentially, we have about one week to depart from Switzerland (12.02.2025), visit a few key places in Lapland and end up in Warsaw one wrrk later for the rest of the trip. What would be your suggestions for a \\~one week itinerary of the sort (departing from Lausanne on 12.02.2025 and ending in Warsaw on 18-20.05.2025)?\n\nHere is a list of destinations I have on my radar so far, but I unfortunately don't know which ones are 100% worth and which ones could be skipped (time constraints...):\n\n* Bodo (Norway)\n* Kiruna (Sweden)\n* Abisko (Sweden)\n* Narvik (Norway)\n* Tromso (Norway)\n* Kemi (Finland)\n* Kemijarvi (Finland)\n* Rovaniemi (Finland)\n* Kolari (Finland)\n\nAlthough I'd love to do most of the trip by train, I understand that the time constraints make this difficult with the sparse train network in this area. For this reason, I am completely okay with using trains, buses, ferries, planes and rental cars. We are avid Interrail travelers and absolutely do not mind an intense pace. We'd rather visit as much as we can in a week, than just spend 4-5 days in one place.\n\nI'm open to any suggestions, advice and recommendations about places to visit and even potential itinerary ideas.\n\nMerry Christmas and Happy New Year!",
+      "url": "https://www.reddit.com/r/Interrail/comments/1hmbcf9/one_week_in_lapland/"
+    },
+    {
+      "id": "1gc69eq",
+      "title": "ThinkPad guard",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1729894511,
+      "score": 100,
+      "num_comments": 12,
+      "selftext": "(it’s a P1 Gen 3 for those wondering)",
+      "url": "https://i.redd.it/yu1wm4ni8zwd1.jpeg"
+    },
+    {
+      "id": "1fy5rut",
+      "title": "How will this new change affect the sub?",
+      "author": "Thebosonsword",
+      "subreddit": "Transnistria",
+      "created_utc": 1728302104,
+      "score": 3,
+      "num_comments": 4,
+      "selftext": "The term “Transnistria” has now been banned officially according to the PMR https://en.vspmr.org/news/supreme-council/zapret-naimenovaniya-transnistriya-.html. How will this affect this subreddit?",
+      "url": "https://www.reddit.com/r/Transnistria/comments/1fy5rut/how_will_this_new_change_affect_the_sub/"
+    },
+    {
+      "id": "1fmuicc",
+      "title": "NVIDIA PRIME - Using the scripts from XPS 9570 wiki for ThinkPad P1 Gen 3",
+      "author": "Thebosonsword",
+      "subreddit": "archlinux",
+      "created_utc": 1727015158,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey everybody,\n\nI just purchased a ThinkPad P1 G3 to replace my XPS 9570 that was having some hardware issues. When installing Arch on the XPS 9570, I followed the very precious advice on the wiki on point 5.3.1 of the following page : [https://wiki.archlinux.org/title/Dell\\_XPS\\_15\\_(9570)](https://wiki.archlinux.org/title/Dell_XPS_15_(9570)).\n\n  \nThis was absolutely perfect as it let me turn on the GPU manually using the enableGPU.sh script and turn it off with disableGPU.sh. This way, I could benefit from Prime and not have the GPU constantly on draining my battery.\n\n  \nI want to setup the same thing on my ThinkPad P1 Gen 3 with the Nvidia Quadro T2000 Max-Q. Since the aforementioned scripts are not Dell or XPS specific, I decided to follow the same guide on my ThinkPad, only to discover that it doesn't seem to work...\n\n  \nWhen running enableGPU.sh, nvidia-smi displays \"No devices were found\" instead of my GPU info. After running the script, the nvidia kernel module is loaded according to lsmod and the GPU displays in lspci.\n\n  \nHere is a recap of the output of this command on both machines\n\n    cat /sys/bus/pci/devices/0000:01:00.0/power/runtime_status\n\nBefore running enableGPU.sh (or after running disableGPU.sh):  \n- XPS : \"suspended\"  \n- ThinkPad: \"suspended\"\n\nAfter running enableGPU.sh:  \n- XPS : \"active\"  \n- ThinkPad: \"suspended\"\n\nClearly, it seems like these scripts are unable to activate the GPU. Is this something specific to the T2000 GPU? Both machines have the same kernel and the same version of the nvidia driver...",
+      "url": "https://www.reddit.com/r/archlinux/comments/1fmuicc/nvidia_prime_using_the_scripts_from_xps_9570_wiki/"
+    },
+    {
+      "id": "1ffruqj",
+      "title": "Financial compensation on GA for business trips",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726225073,
+      "score": 8,
+      "num_comments": 41,
+      "selftext": "Dear community,\n\nI have been travelling from my home to customers in the context of my job. Since I own a GA, I was using this for covering the trips and did not purchase an extra ticket. I'd like to know if I'm entitled to request a refund/compensation from my employer in this case and how I would calculate it.\n\nIn the employee regulations of the company, it says that transport fees are refunded based on real expenses (with copy of proof of payment/ticket). Obviously this wouldn't work in my case, but I can't possibly imagine that my employer can profit from my GA to make me travel for free for work. I tried googling but didn't really find anything conclusive.\n\nThanks for your help and input!",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1ffruqj/financial_compensation_on_ga_for_business_trips/"
+    }
+  ],
   "comments": [
     {
       "id": "lq3uhgv",
@@ -11,6 +67,1466 @@
       "score": 1,
       "link_id": "t3_1fse35f",
       "parent_id": "t3_1fse35f"
+    },
+    {
+      "id": "m47ck41",
+      "body": "Si je ne me trompe pas, tu devras payer la TVA française si la somme des achats dépasse 300€. Si tu es en-dessous de 300€ d’achats, alors la TVA suisse devrait être autour de 20-25.- maximum, donc tu perdras pas grand chose au pire!\n\nIl n’y a malheureusement pas de borne PABLO à Lausanne mais il y en a à Genève (en panne malheureusement).",
+      "author": "Thebosonsword",
+      "subreddit": "Lausanne",
+      "created_utc": 1735400197,
+      "score": 1,
+      "link_id": "t3_1ho3o7o",
+      "parent_id": "t3_1ho3o7o"
+    },
+    {
+      "id": "m46sfh6",
+      "body": "This also used to be the case in the trains… now you take the IC1 and the Zugchef makes constant announcements about how many thefts were reported in the train since its departure. Absolutely insane.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1735391823,
+      "score": 1,
+      "link_id": "t3_1hmmnsh",
+      "parent_id": "t3_1hmmnsh"
+    },
+    {
+      "id": "m3uaub7",
+      "body": "Awww thanks! Don’t worry, no pressure at all! I’m extremely thankful to this subreddit for existing x)",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1735193719,
+      "score": 1,
+      "link_id": "t3_1hmbcf9",
+      "parent_id": "t1_m3t3tzx"
+    },
+    {
+      "id": "m3uarmc",
+      "body": "Huge thanks for your input! I don’t really care about the Santa Claus, but maybe my gf wants to see it, idk. I’m kind of glad to know that there isn’t anything “interesting” to see by train in the Finnish Lapland, because that makes my trip easier :’). Although I must say my walk across the border to Tornio train station was one of the most unforgettable experiences I’ve done in my life. Tornio isn’t anything beautiful, but the apocalyptic atmosphere at -25° was definitely something!! Also I thought stores and restaurants in Switzerland close early, but Lapland was something else lol. At 17 on a weekday the mall in Tornio was already closed x).\n\nAbout how we met and became a couple, I didn’t know we had meet up threads on this subreddit, but I’d gladly know one, especially because our story is full of very odd and specific coincidences. I’m currently writing this from the plane to go and join her and I couldn’t thank this subreddit enough for what it has brought me!!",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1735193674,
+      "score": 1,
+      "link_id": "t3_1hmbcf9",
+      "parent_id": "t1_m3t2dcu"
+    },
+    {
+      "id": "m319xzq",
+      "body": "Pour moi la question ne se pose même pas, ayant vécu en France et vivant maintenant à Lausanne. Go pour la Suisse direct! Même à coût de la vie équivalent, la Suisse reste une bien meilleure option financièrement parlant.\n\nPar contre bon courage en postant ce genre de post ici… ça vous donnera un avant-goût du chaleureux accueil de ce joli pays!",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1734726696,
+      "score": 3,
+      "link_id": "t3_1hirnfh",
+      "parent_id": "t3_1hirnfh"
+    },
+    {
+      "id": "m1m6vaz",
+      "body": "If you think this is the most expensive leg so far (especially so much in advance), you’re not ready for Switzerland!",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1733963342,
+      "score": 2,
+      "link_id": "t3_1hc56zg",
+      "parent_id": "t3_1hc56zg"
+    },
+    {
+      "id": "m1m65u1",
+      "body": "Plenty of places in Pays de Gex where you’ll have 100% chance success rate of leaving your car parked there… :’). Look around some of the private parkings of chemin de la planche brûlée or Route de Meyrin in Ferney. You won’t be the only one without license plates there.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1733963089,
+      "score": 2,
+      "link_id": "t3_1hc5emv",
+      "parent_id": "t3_1hc5emv"
+    },
+    {
+      "id": "m1iih39",
+      "body": "You have a filter activated in the Rail Planner",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1733919760,
+      "score": 1,
+      "link_id": "t3_1hb5w8i",
+      "parent_id": "t3_1hb5w8i"
+    },
+    {
+      "id": "lz27446",
+      "body": "What country are you in? This is hella overpriced.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1732621458,
+      "score": 2,
+      "link_id": "t3_1gztwr3",
+      "parent_id": "t3_1gztwr3"
+    },
+    {
+      "id": "lz26s23",
+      "body": "Out of context, but how do you feel morally working for a company like Philip Morris? I’ve always wondered if I get an opportunity there how I’d manage with this problem. I’m afraid I’d end up resigning or refusing the offer simply due to morals.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1732621274,
+      "score": 1,
+      "link_id": "t3_1gzi5x3",
+      "parent_id": "t1_lyxs8xb"
+    },
+    {
+      "id": "lz26et5",
+      "body": "Wow they really freak out the foreigners on this subreddit!! You are allowed to throw cosmetics in your normal household bin lol.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732621068,
+      "score": 7,
+      "link_id": "t3_1h08nry",
+      "parent_id": "t1_lz2274s"
+    },
+    {
+      "id": "lz25z9t",
+      "body": "Quelles sont ces caisses ?",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1732620826,
+      "score": 1,
+      "link_id": "t3_1gzc5zh",
+      "parent_id": "t3_1gzc5zh"
+    },
+    {
+      "id": "lwrs90b",
+      "body": "Where did you read on their website that you are entitled to compensation from them for hotels? This is not obligatory per EU passenger rights, if they respected the notice period of 14 days.",
+      "author": "Thebosonsword",
+      "subreddit": "WizzAir",
+      "created_utc": 1731429858,
+      "score": 2,
+      "link_id": "t3_1gplas8",
+      "parent_id": "t3_1gplas8"
+    },
+    {
+      "id": "lw4n0j4",
+      "body": "You can get much better new laptops for these prices!! I have never seen something so overpriced before!!",
+      "author": "Thebosonsword",
+      "subreddit": "laptops",
+      "created_utc": 1731093591,
+      "score": 1,
+      "link_id": "t3_1gmg996",
+      "parent_id": "t3_1gmg996"
+    },
+    {
+      "id": "lw1panm",
+      "body": "Yeah because Monop’ is crazy expensive!!",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1731053051,
+      "score": 3,
+      "link_id": "t3_1glyiqo",
+      "parent_id": "t1_lvyni1k"
+    },
+    {
+      "id": "lvffvif",
+      "body": "I have the same one! Great little machine, sadly didn’t get it for the same price (EU…).",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1730760702,
+      "score": 1,
+      "link_id": "t3_1gje34y",
+      "parent_id": "t3_1gje34y"
+    },
+    {
+      "id": "luqshoz",
+      "body": "Yes you’ll be very much fine with this money.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730402401,
+      "score": 1,
+      "link_id": "t3_1ggkz5r",
+      "parent_id": "t3_1ggkz5r"
+    },
+    {
+      "id": "luociyd",
+      "body": "Click on the two arrows at the top and enjoy paying 202.- for your trip or simply select the Saver Day Pass for 52.- and enjoy unlimited travel on all public transport in Switzerland for the selected date until the next morning 5 am.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730372037,
+      "score": 14,
+      "link_id": "t3_1ggbf98",
+      "parent_id": "t3_1ggbf98"
+    },
+    {
+      "id": "luobzil",
+      "body": "I have done it before and it’s theoretically possible, but very unrealistic. You can definitely try it! But you should be prepared for a backup plan because your chances of failure are high.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1730371742,
+      "score": 1,
+      "link_id": "t3_1gfw7jc",
+      "parent_id": "t3_1gfw7jc"
+    },
+    {
+      "id": "lu6bwv9",
+      "body": "Out of curiosity, why did you cancel the tickets? Can’t you just not show up?",
+      "author": "Thebosonsword",
+      "subreddit": "WizzAir",
+      "created_utc": 1730123480,
+      "score": 1,
+      "link_id": "t3_1g1y29g",
+      "parent_id": "t3_1g1y29g"
+    },
+    {
+      "id": "lu0rtng",
+      "body": "Écoute, mes sentiments pour l’ASLOCA sont un peu mitigés notamment pour ce que tu mentionnes. Ils sont globalement injoignables et très peu transparents sur le traitement des dossiers. Par exemple, ils n’ont tout simplement jamais répondu à mon courrier de demande d’aide pour ma hausse de loyer (alors que j’ai bien suivi la procédure, qui est de ne leur écrire que par courrier, à une adresse spécifique pour les hausses de loyer et seulement après avoir demandé une audience en commission de conciliation).\n\nD’un autre côté, ils m’ont fourni des conseils en or et m’ont vraiment rassuré sur mes droits.\n\nEst-ce que j’ai l’impression d’en avoir pour mon argent? Absolument pas. Leur standard téléphonique est inexistant. J’ai testé d’appeler en leur présence sur place dans leurs bureaux et nous avons constaté ensemble avec la standardiste que même si ça dit que tout le monde est en ligne et qu’il faut rappeler plus tard, ils n’étaient pas en ligne et ça ne sonnait juste pas…\n\nPour autant, je considère que cette association est ESSENTIELLE en Suisse et je continuerai de payer. Au moins j’espère que mon argent aide les autres qui ont de bien plus gros soucis que les miens.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1730043088,
+      "score": 3,
+      "link_id": "t3_1gd82aj",
+      "parent_id": "t3_1gd82aj"
+    },
+    {
+      "id": "lt0w1kx",
+      "body": "I’ve got a T490s Intel (worse thermals than T490) that I use everyday and I have absolutely never experienced this. There’s definitely something wrong with the laptop.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1729526766,
+      "score": 3,
+      "link_id": "t3_1g8oxts",
+      "parent_id": "t3_1g8oxts"
+    },
+    {
+      "id": "lszbc8a",
+      "body": "Wow that’s really awesome! I am very happy they are so helpful and that they make exceptions when the situation allows it.",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1729503101,
+      "score": 2,
+      "link_id": "t3_1g86a02",
+      "parent_id": "t1_lsxfb5g"
+    },
+    {
+      "id": "lsx6ctj",
+      "body": "That’s not how travel days work, which technically means that this situation is “your fault” (according to the rules). I’m curious though, what did interrail say about this?",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1729465721,
+      "score": 3,
+      "link_id": "t3_1g86a02",
+      "parent_id": "t3_1g86a02"
+    },
+    {
+      "id": "lsx5k48",
+      "body": "Exactly, this will very surely work out, they won’t even check!",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1729465431,
+      "score": 2,
+      "link_id": "t3_1g7youf",
+      "parent_id": "t1_lsv2shm"
+    },
+    {
+      "id": "lsfjcbt",
+      "body": "Yess! I have a P1 G3 that replaced my XPS 9570 (also with nvidia gpu) and the P1 G3 is just so much worse with Linux than the XPS because of the way the GPU is wired with the external outputs. It’s total crap for Linux and Wayland.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1729201409,
+      "score": 2,
+      "link_id": "t3_1g5rt7b",
+      "parent_id": "t1_lsepm96"
+    },
+    {
+      "id": "lsfhihr",
+      "body": "Proud owner of a Gen 3 with the Xeon, 32GB of RAM, T2000 and 4K IPS that I bought last month for 580CHF (~600€).\n\nIt’s extremely premium and I love it, but it’s also got so many flaws and things that really really annoy me compared to my previous XPS 9570.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1729200780,
+      "score": 2,
+      "link_id": "t3_1g5rt7b",
+      "parent_id": "t3_1g5rt7b"
+    },
+    {
+      "id": "lsequeo",
+      "body": "This is literally my girlfriend’s cutlery drawer. Drives me nuts.",
+      "author": "Thebosonsword",
+      "subreddit": "Wellthatsucks",
+      "created_utc": 1729192201,
+      "score": 1,
+      "link_id": "t3_1g5bciz",
+      "parent_id": "t3_1g5bciz"
+    },
+    {
+      "id": "ls7fr5i",
+      "body": "You need to use the Eurail/Interrail app as the error message tells you to do.",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1729089188,
+      "score": 1,
+      "link_id": "t3_1g4v642",
+      "parent_id": "t3_1g4v642"
+    },
+    {
+      "id": "lrpmoie",
+      "body": "Premièrement, je suggère un test simple: couper le disjoncteur de son appartement et aller voir si le compteur continue de tourner. S’il continue de tourner, alors c’est qu’il y a un problème…\n\nDeuxièmement: attendre le décompte pour voir si les choses vont s’équilibrer. Moi j’ai eu le cas complètement inverse, les SIL ont repris la conso de l’ancienne locataire qui visiblement n’utilisait rien dans son appartement. J’habite dans un studio mais c’est une passoire énergétique et chauffé entièrement à l’électricité (air et eau). Je paye environ 1500.- d’électricité par an, mais la première année le décompte de 1000 balles a fait mal au cul. Je pensais aussi qu’il y avait tout un tas de théories du complot, que je payais pour la conso des voisins ou autre, mais au final, il s’avère juste que je consomme beaucoup à cause du chauffage.\n\nJe sais que la gérance de ton ami confirme que le chauffage et l’eau chaude ne sont pas électriques et raccordés à son compteur, mais c’est tout à fait possible qu’ils racontent n’importe quoi. Ma régie continue de croire encore aujourd’hui que j’ai une chaudière à gaz dans mon appartement comme mes voisins. Alors je conseille à ton ami de bien vérifier tout ça!",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1728823541,
+      "score": 14,
+      "link_id": "t3_1g2mjbk",
+      "parent_id": "t3_1g2mjbk"
+    },
+    {
+      "id": "lrlfsfr",
+      "body": "Hi, it seems to be the same for GVA-SOF. I guess they’re just not going to fly to GVA anymore… which is a shame",
+      "author": "Thebosonsword",
+      "subreddit": "WizzAir",
+      "created_utc": 1728754436,
+      "score": 1,
+      "link_id": "t3_1f9jjfp",
+      "parent_id": "t3_1f9jjfp"
+    },
+    {
+      "id": "lrg5ibh",
+      "body": "It’s a NightJet",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1728670270,
+      "score": 1,
+      "link_id": "t3_1g0ugte",
+      "parent_id": "t1_lrdodfv"
+    },
+    {
+      "id": "lr87noh",
+      "body": "Fair point. I would have like Ryzen as well, but that seems like it doesn’t exist on the second hand market in Switzerland.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1728553242,
+      "score": 2,
+      "link_id": "t3_1g0eti8",
+      "parent_id": "t1_lr87izp"
+    },
+    {
+      "id": "lr87cpd",
+      "body": "If you live near Switzerland, you could have a look at firesales.ch (ReCare AG). They sell T14s cheaper than this.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1728553032,
+      "score": 1,
+      "link_id": "t3_1g0eti8",
+      "parent_id": "t3_1g0eti8"
+    },
+    {
+      "id": "lqv4r2p",
+      "body": "Prends mon vote!!!\n\nFaits: 100%\nRacisme: 0%\n\nÇa c’est le genre de commentaire que j’aime voir sur cette terrible situation.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1728346740,
+      "score": 2,
+      "link_id": "t3_1fycpel",
+      "parent_id": "t1_lqumd17"
+    },
+    {
+      "id": "lq9kv03",
+      "body": "Are you sure because I had a Moldovan SIM card from Orange and let’s say that in Tiraspol if you’d get 2G, you’d be lucky… maybe in Bender it’s better since it’s closer to Moldova.",
+      "author": "Thebosonsword",
+      "subreddit": "Transnistria",
+      "created_utc": 1728025500,
+      "score": 1,
+      "link_id": "t3_1fv5jfx",
+      "parent_id": "t1_lq9gafa"
+    },
+    {
+      "id": "lq447bw",
+      "body": "Yeah but they don’t have special cheap keyboards for students unfortunately :’)",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727950116,
+      "score": 3,
+      "link_id": "t3_1fv32d1",
+      "parent_id": "t1_lq444cb"
+    },
+    {
+      "id": "lq3x2iv",
+      "body": "I don’t think what you’re looking for even exists. I have personally never heard of it. All I can tell you is that you can look on toppreise.ch to compare prices of keyboards on all online retailers and find the cheapest option.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727945090,
+      "score": 5,
+      "link_id": "t3_1fv32d1",
+      "parent_id": "t3_1fv32d1"
+    },
+    {
+      "id": "lpxxrrc",
+      "body": "I’d say max 20-30 hours outside of lectures should be enough.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727853595,
+      "score": 7,
+      "link_id": "t3_1ftyjod",
+      "parent_id": "t3_1ftyjod"
+    },
+    {
+      "id": "lpp4kas",
+      "body": "Your advice can be very very dangerous with soldered RAM. OP, make sure you’re buying a laptop with ram slots and not soldered ram.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1727724635,
+      "score": 2,
+      "link_id": "t3_1fswm8j",
+      "parent_id": "t1_lpnkekg"
+    },
+    {
+      "id": "lpp4cer",
+      "body": "In Switzerland they also ask for some money for Ubuntu and Fedora, I think it’s 20 or 30 CHF. Which is clearly overpriced for a free OS.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1727724566,
+      "score": 1,
+      "link_id": "t3_1fswm8j",
+      "parent_id": "t1_lpnn5q8"
+    },
+    {
+      "id": "lpgfc7q",
+      "body": "Malheureusement rien là-bas… Intermarché à la limite, mais c’est cher. Il faut vraiment aller à Ferney (Leclerc et Grand Frais de très très loin).",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1727590982,
+      "score": 2,
+      "link_id": "t3_1frdthp",
+      "parent_id": "t1_lpgev23"
+    },
+    {
+      "id": "lpewor7",
+      "body": "Netto is a German chain btw.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1727565819,
+      "score": 3,
+      "link_id": "t3_1frdthp",
+      "parent_id": "t1_lpec3xx"
+    },
+    {
+      "id": "lpewi2z",
+      "body": "Migros Val Thoiry c’est encore pire. C’est de très loin le supermarché le plus cher du Pays de Gex.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1727565747,
+      "score": 2,
+      "link_id": "t3_1frdthp",
+      "parent_id": "t1_lpcdhen"
+    },
+    {
+      "id": "lp6viz1",
+      "body": "What do you mean “not just like any other country”? I’ve lived in a few European countries and every one of them (France, Germany, Italy, Eastern Europe, etc.) has its fair share of discrimination against various groups. Switzerland is no different than its neighbours.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727447788,
+      "score": 1,
+      "link_id": "t3_1fqixa8",
+      "parent_id": "t1_lp6uul3"
+    },
+    {
+      "id": "lp6uqbm",
+      "body": "In what way is that “Swiss culture”? Yes, Switzerland has a problem with racism and sexism, just like any other country, but I wouldn’t say that it’s something cultural… it’s more of a systemic issue, than simply a “culture”.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727447524,
+      "score": 1,
+      "link_id": "t3_1fqixa8",
+      "parent_id": "t1_lp6ubc6"
+    },
+    {
+      "id": "lp6ufjo",
+      "body": "Based on other people’s experience and mine, it seems like it really doesn’t matter. I have a picture on my CV and I have gotten extremely good and rare positions for a CS BSc student (ie, actually in the field and with high pay). It seems like other people don’t have a picture and also got good accepted at good jobs. Personally, I put one because I think it’s more culturally appropriate, but ultimately your skill-set matters much more of course.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727447424,
+      "score": 2,
+      "link_id": "t3_1fqixa8",
+      "parent_id": "t3_1fqixa8"
+    },
+    {
+      "id": "lp6txip",
+      "body": "You are in Switzerland and complaining that a company has a Swiss culture behind the doors??",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727447256,
+      "score": 0,
+      "link_id": "t3_1fqixa8",
+      "parent_id": "t1_lp6g1o1"
+    },
+    {
+      "id": "lowt3qb",
+      "body": "Hehe got the same one used last week as well! So far pretty happy with it, but there’s some really dumb stuff about this laptop.\n\n1. The fans: that thing could be sitting on a table doing nothing, and the fans will be full blast (and not uselessly because the machine would actually be hot!!)\n\n2. The video outputs are hard-wired to the GPU, which absolutely sucks if you want to disable the GPU to save battery life. This essentially makes Prime completely useless because you must have the display server running on the GPU to be able to use the video outputs. Essentially the battery life is then quite crappy. Why couldn’t they map the outputs to the iGPU like on the XPS 9570??\n\n3. The battery life is absolutely abysmal.\n\nOther than this the build quality, feel, weight, keyboard and display are incredibly good and it’s a great laptop in general.",
+      "author": "Thebosonsword",
+      "subreddit": "thinkpad",
+      "created_utc": 1727295139,
+      "score": 1,
+      "link_id": "t3_1foj6ts",
+      "parent_id": "t3_1foj6ts"
+    },
+    {
+      "id": "lokcf51",
+      "body": "Sorry but I really don’t know tbh. You should send them an email and arrange it early on. Maybe unite with other exchange students to make a common request.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727116081,
+      "score": 1,
+      "link_id": "t3_1fni4vj",
+      "parent_id": "t1_lok7oy6"
+    },
+    {
+      "id": "lojxhqd",
+      "body": "Hey, I don’t know about the first question, but about extramural exams, you must ask you profs.\n\nI have one prof this semester, who, due to popular demand from students, will do an extramural exam for exchange students",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1727111447,
+      "score": 1,
+      "link_id": "t3_1fni4vj",
+      "parent_id": "t3_1fni4vj"
+    },
+    {
+      "id": "lo6wcrb",
+      "body": "I already have a flat in Lausanne, I just want to move because it sucks.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1726917323,
+      "score": 1,
+      "link_id": "t3_1flh5si",
+      "parent_id": "t1_lo6w6rb"
+    },
+    {
+      "id": "lo40hnc",
+      "body": "I’m glad they finally included CH and UK on these machines! I wanted to grab one from the machine in Rome FCO, but it was for EU residents only last time I was there :/",
+      "author": "Thebosonsword",
+      "subreddit": "Revolut",
+      "created_utc": 1726865693,
+      "score": 1,
+      "link_id": "t3_1fkpb3h",
+      "parent_id": "t1_lnxoagv"
+    },
+    {
+      "id": "lo371l1",
+      "body": "Don’t worry, you’re in a completely normal situation. I’ve been looking to move out of my apartment since January and have been rejected at over 30+ applications. Swiss guarantor and income are not even an issue in my situation.\n\nYou’ve just hit the reality in Switzerland : there is a massive housing crisis and Lausanne is very strongly affected by it. Keep looking and hopefully you’ll find something!",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1726856020,
+      "score": 6,
+      "link_id": "t3_1flh5si",
+      "parent_id": "t3_1flh5si"
+    },
+    {
+      "id": "lnx7ihq",
+      "body": "Obviously I imagine for this price you don’t go out at all, but how do you manage to only spend 700.- a month as a student?? I managed 2 years with 1500.- as a budget and I was so fed up of counting every cent. Just LAMAL costs 350.-/month…",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1726764804,
+      "score": 2,
+      "link_id": "t3_1fjl9jn",
+      "parent_id": "t1_lnsbtlz"
+    },
+    {
+      "id": "lnk3uny",
+      "body": "essaye prodimex à Genève, je crois qu’ils ont un service montage PC. Sinon pour avoir les pièces les moins chères, il faut chercher sur toppreise.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1726574772,
+      "score": 2,
+      "link_id": "t3_1fiqdn3",
+      "parent_id": "t3_1fiqdn3"
+    },
+    {
+      "id": "lnjpkfr",
+      "body": "As long as you can understand what the teacher is saying, take whatever suits you better in terms of professor and timetable (and exam!!).\n\nMost professors will be able to give you the translation of a mathematical term if you’re not able to understand something specific.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1726566983,
+      "score": 1,
+      "link_id": "t3_1fi9lly",
+      "parent_id": "t3_1fi9lly"
+    },
+    {
+      "id": "lnjpe3y",
+      "body": "Honestly I never face this issue. I’d recommend checking your DNS settings. Try and use 1.1.1.1 or 8.8.8.8, which are famous and fast DNS providers.\n\nAnother thing you could try is if running on the EPFL VPN solves the issue. Or try also a different browser, ideally Firefox, which isn’t Chromium-based.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1726566863,
+      "score": 1,
+      "link_id": "t3_1ficqf4",
+      "parent_id": "t3_1ficqf4"
+    },
+    {
+      "id": "ln2719o",
+      "body": "Exactly! Thank you…",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726306365,
+      "score": 2,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_ln25ufk"
+    },
+    {
+      "id": "ln05lpi",
+      "body": "Yup. You’re right, it essentially comes down to this. I won’t ask HR to refund my business trips, because this is my supervisor’s decision. I’ll ask HR about sponsoring the GA, if my supervisor refuses to refund the trips.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726268293,
+      "score": 1,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmzmm0w"
+    },
+    {
+      "id": "ln05eke",
+      "body": "Yes, this is essentially probably what it will come down to. And I’ll enjoy billing the company for full fare tickets because they don’t want to sponsor my private GA.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726268217,
+      "score": 1,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmzn308"
+    },
+    {
+      "id": "lmzls4e",
+      "body": "Finally. I’m glad somebody understands my point. Were you buying the tickets online, on the app, or at the machine?",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726261090,
+      "score": -1,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmzlhv2"
+    },
+    {
+      "id": "lmzj659",
+      "body": "Ok that’s very useful information! Thank you! Did they refund you half-fare in both jobs? What was the procedure at the employer who had one?",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726260227,
+      "score": 1,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmzikw8"
+    },
+    {
+      "id": "lmziwzl",
+      "body": "It’s not a question of expenses, it’s a question of using what’s mine to save on money. It’s similar to the company not paying you for accommodation in a certain city because they know your family is from there and you can therefore sleep there at their place. The company shouldn’t benefit from your personal situation and what you own. It’s none of their business if I have a GA or not, they should, imo, refund me as if I was paying for tickets.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726260143,
+      "score": 0,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmyhkau"
+    },
+    {
+      "id": "lmzig10",
+      "body": "Haha awesome! I thought of doing that. Just wondering how I could potentially get caught… I believe my employer is not entitled to profiting from my GA, so this would definitely solve the situation.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726259987,
+      "score": -1,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmzgoac"
+    },
+    {
+      "id": "lmzhzbz",
+      "body": "I will just send the form requesting the reimbursement with the amount calculated on it. I just want to know under what potential right/policy I could be entitled to this refund. HR is not here to help me, they’re here to defend the company and will obviously advise me against sending the form.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726259835,
+      "score": 0,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmzhdde"
+    },
+    {
+      "id": "lmxr3g0",
+      "body": "Thanks this is really helpful! Although it doesn't give a \"legal\" answer per se, it gives me the arguments I need to make my case.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726239317,
+      "score": 1,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmxoh9z"
+    },
+    {
+      "id": "lmxqkfb",
+      "body": "I get your point, but if I was using my personal vehicle for company trips, then the company would have to pay me some conpensation per km because I am using my personal vehicle for them. Wouldn't it be the same if we consider my GA as my personal vehicle? I mean how can they possibly be \"saving\" money on my business trips, just because they're lucky enough I have a GA (that I did not even buy for to go to work, because I work home-office...)",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726239147,
+      "score": 2,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmxpbd8"
+    },
+    {
+      "id": "lmxpm4e",
+      "body": "Thanks for your reply. Based on the structure of the company and the proximity of the supervisor with HR, this really wouldn’t get me anywhere. I can’t go further into details about this, but basically that option is a big no.\n\nAfaik, getting the GA deducted from the taxes is to cover your trip to work, not for business trips. I’m not looking into my employer sponsoring my GA, but more like refunding me the price of the ticket, that I would have bought if I hadn’t made the investment for a GA.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1726238838,
+      "score": 0,
+      "link_id": "t3_1ffruqj",
+      "parent_id": "t1_lmxonie"
+    },
+    {
+      "id": "lm3sml5",
+      "body": "2 jobs:\n\nSmall IT company: 100% home office.\n\nPublic hospital, IT department: 50% home office.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1725799364,
+      "score": 1,
+      "link_id": "t3_1fbsaa5",
+      "parent_id": "t3_1fbsaa5"
+    },
+    {
+      "id": "lkqofpe",
+      "body": "Contact both SNCF and Interrail. This way, you’ll get simultaneously the explanations from both sides, which will help you then decide how to pursue this further. If SNCF cancel your fine, then it’s all good. But if they don’t, then you can follow up to Interrail with this piece of information and they’ll step in.",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1725054580,
+      "score": 3,
+      "link_id": "t3_1f4ze5q",
+      "parent_id": "t3_1f4ze5q"
+    },
+    {
+      "id": "lkql7vl",
+      "body": "The best would be to ask the immigration office at which you applied for your visa. Or directly ask the State Secretariat for Migration. Nobody on this subreddit is an immigration expert and I strongly recommend you do not play around with immigration laws based on random advice on the internet.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1725053481,
+      "score": 1,
+      "link_id": "t3_1f55y50",
+      "parent_id": "t3_1f55y50"
+    },
+    {
+      "id": "lkqjc91",
+      "body": "Appelle-les ?",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1725052843,
+      "score": 2,
+      "link_id": "t3_1f4zpjt",
+      "parent_id": "t3_1f4zpjt"
+    },
+    {
+      "id": "lk8y1ec",
+      "body": "Nothing shameful with asking for help!! I unfortunately don’t live in Zurich so I don’t know much about your options. It seems like other redditors have mentioned a few and sincerely hope they can sort you out.\n\nI am just replying to ask you if you went to the Sozialamt in person or not. Normally, in emergencies like this, you can expect them to help you out somehow, outside of the regular « long term » procedure.",
+      "author": "Thebosonsword",
+      "subreddit": "zurich",
+      "created_utc": 1724797099,
+      "score": 7,
+      "link_id": "t3_1f2t38e",
+      "parent_id": "t3_1f2t38e"
+    },
+    {
+      "id": "lk6rvbt",
+      "body": "Basel or Lausanne, maybe?",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1724772219,
+      "score": 0,
+      "link_id": "t3_1f2ivya",
+      "parent_id": "t3_1f2ivya"
+    },
+    {
+      "id": "ljwm6tp",
+      "body": "They open the bags and search them. Very common in CH.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1724615403,
+      "score": 1,
+      "link_id": "t3_1ezasxd",
+      "parent_id": "t1_ljvw7i2"
+    },
+    {
+      "id": "ljty64v",
+      "body": "As much as the fine could be « justified », afaik the Ville de Genève has no competence regarding private buildings (no matter if it’s in the corridor or not). The building is private property and it’s up to the landlord to prosecute you if they believe you should be.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1724575974,
+      "score": 1,
+      "link_id": "t3_1ezasxd",
+      "parent_id": "t3_1ezasxd"
+    },
+    {
+      "id": "ljtxx00",
+      "body": "Oui mais c’est au bailleur d’aller porter l’amende devant le juge compétent, pas à la ville de Genève de distribuer des amendes pour les espaces « privés » (au sens que les parties communes n’appartiennent pas à la ville mais au bailleur) d’un immeuble.",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1724575793,
+      "score": 1,
+      "link_id": "t3_1ezasxd",
+      "parent_id": "t1_ljojiet"
+    },
+    {
+      "id": "lj6vgrk",
+      "body": "Yeah I’ve noticed this difference between Romandie and German-speaking Switzerland : when a Romand would work 9-18, their German-speaking counterpart would work 7-16. I’d die if I had to be at the office at 7.",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1724237977,
+      "score": 2,
+      "link_id": "t3_1exj78b",
+      "parent_id": "t1_lj6h9fa"
+    },
+    {
+      "id": "lj06vub",
+      "body": "I feel like planes used to be always freezing and now the past year or two it became the opposite. It’s always so hot now.",
+      "author": "Thebosonsword",
+      "subreddit": "travel",
+      "created_utc": 1724137428,
+      "score": 1,
+      "link_id": "t3_1evz9wz",
+      "parent_id": "t3_1evz9wz"
+    },
+    {
+      "id": "liuwdv7",
+      "body": "It’s in case you’re riding with a friend, so you can buy them a ticket :)",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1724066989,
+      "score": 1,
+      "link_id": "t3_1euj9lg",
+      "parent_id": "t1_lil2y1l"
+    },
+    {
+      "id": "liuw5sw",
+      "body": "Ah ouais toujours plus à l’UDC… Déjà que les locataires ne sont pas assez protégés au vu de la dynamique complètement déséquilibrée du marché, mais en plus ils veulent que la petite part de propriétaires puisse avoir un contrôle quasi-absolu sur la vie et les portefeuilles de millions de locataires….",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1724066878,
+      "score": 7,
+      "link_id": "t3_1evw7xw",
+      "parent_id": "t3_1evw7xw"
+    },
+    {
+      "id": "lituua4",
+      "body": "À l’époque j’aurais dit de très loin Crédit Suisse car leur offre pour étudiants offrait énormément d’avantages que les autres banques n’avaient pas forcément. Surtout les retraits cash gratuits à tous les bancomats de Suisse, même des autres banques et les paiements à l’étranger sans commissions.\n\nTu peux toujours tenter de souscrire chez eux en tant qu’étudiant, mais je ne sais même pas s’ils acceptent de nouveaux clients en vue de la fusion avec UBS.\n\nSinon je peux recommander UBS également qui est très répandue en Suisse et gratuite pour les étudiants, seulement avec moins d’avantages et plus de frais pour certaines opérations.\n\nJ’ai aussi vu que la Raiffeisen proposait des offres pour étudiants avec le demi tarif CFF à moitié prix, ce qui est une offre très intéressante.\n\nJ’ai aussi souvent entendu du bien de la banque Migros, également gratuite pour étudiants.\n\nPostfinance et BCV perso, je ne prendrai pas forcément, ce sont des banques encore au siècle dernier avec des employés qui ont un peu l’esprit de fonctionnaires et dont la volonté ou l’efficacité laissent à désirer (je sais de quoi je parle, je travaille à l’état).",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1724043527,
+      "score": 1,
+      "link_id": "t3_1evnrjl",
+      "parent_id": "t3_1evnrjl"
+    },
+    {
+      "id": "lig0qqb",
+      "body": "Have you contacted customer support about this? Maybe try getting a doctor’s confirmation about the source of the bites to send to OEBB and request a full refund of course.",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1723832273,
+      "score": 15,
+      "link_id": "t3_1etss1o",
+      "parent_id": "t3_1etss1o"
+    },
+    {
+      "id": "lieq27f",
+      "body": "Well then I’m glad you finally found out! I very much understand what you’re talking about, my gf has a similar problem. Good luck with everything!",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1723817476,
+      "score": 4,
+      "link_id": "t3_1etje1x",
+      "parent_id": "t1_lie85k2"
+    },
+    {
+      "id": "lie7kp7",
+      "body": "You’ve got to be kidding lol. Completely changing stores rather than just asking an employee was easier?!",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1723810577,
+      "score": 3,
+      "link_id": "t3_1etje1x",
+      "parent_id": "t1_lie6lrf"
+    },
+    {
+      "id": "li91n3a",
+      "body": "And how do you book that? I thought that Blablabus, just like FlixBus, falls into the cabotage category and is therefore forbidden to sell trips within Switzerland, because they’re a foreign company using foreign resources (thus being unfair competition to SBB).",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1723734655,
+      "score": 4,
+      "link_id": "t3_1esrjn3",
+      "parent_id": "t1_li7v85a"
+    },
+    {
+      "id": "li32q48",
+      "body": "Mais Freesurf n’est pas un accès wifi. C’est une application qui permet par Bluetooth, de détecter que vous êtes dans un train et qui vous permet donc de transformer votre abonnement limité en data en abonnement illimité. Mais vous continuez de surfer en 5G/4G. Donc complètement inutile si vous avez un abonnement illimité. D’ailleurs, grâce à Freesurf, vous bénéficiez de répéteurs réseau dans les trains qui permettent de bénéficier d’une excellente couverture mobile dans le train, même si vous n’utilisez pas Freesurf. Au final Freesurf profite donc même à ceux qui ne l’utilisent pas, car les CFF ont du installer des répéteurs de réseau que tout le monde peut utiliser dans leurs trains (ils servent à Freesurf, mais sont en réalité utilisés par tous les passagers, même sans Freesurf).",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1723648420,
+      "score": 5,
+      "link_id": "t3_1es1gqs",
+      "parent_id": "t3_1es1gqs"
+    },
+    {
+      "id": "lh9lkeh",
+      "body": "I’m going to tell you the sad truth of the collaboration between SBB and SNCF. They basically always throw the ball at each other when it comes to their responsibilities of helping out passengers in the moment of disruptions that affect international travel. SNCF will tell you that it’s not their fault that the Swiss train was late/cancelled. The only issue is that if you have one ticket for the full trip, then it bloody is their responsibility to figure it out. It’s not SBB who lied to you when they told you that you can take the next TER for free, because that’s exactly what should’ve happened. Blame SNCF for their tendency to never do what they’re supposed to and always letting the passenger having to do their job. They were supposed to offer you free travel on your further connections. You should contact them for a refund, SBB are not responsible for this, as they did not emit the fine.",
+      "author": "Thebosonsword",
+      "subreddit": "SBB",
+      "created_utc": 1723207078,
+      "score": 1,
+      "link_id": "t3_1emit1t",
+      "parent_id": "t3_1emit1t"
+    },
+    {
+      "id": "lgxwl9r",
+      "body": "I pay 34.90 CHF ≈ 40$ a month for 10gbps symmetrical (in Switzerland).",
+      "author": "Thebosonsword",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1723039913,
+      "score": 1,
+      "link_id": "t3_1elow1e",
+      "parent_id": "t1_lgwlsav"
+    },
+    {
+      "id": "lgwlihb",
+      "body": "Very well spotted. I didn’t see I made the mistake myself in my answer. It’s edited now!",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1723016137,
+      "score": 2,
+      "link_id": "t3_1eljek7",
+      "parent_id": "t1_lgugle8"
+    },
+    {
+      "id": "lgs1kaf",
+      "body": "Integrated graphics cards are, imo, completely useless for a uni laptop. Virtually no software or application you’ll be using will need this graphics card and you will just spend some extra $$ for no reason.\n\nOn top of that, dedicated GPUs tend to really drain your battery life, which is the most crucial thing you need to watch out for when buying a laptop for studying.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722955392,
+      "score": 5,
+      "link_id": "t3_1eljek7",
+      "parent_id": "t3_1eljek7"
+    },
+    {
+      "id": "lgs14iq",
+      "body": "And they provided you with a tracking number from the post?",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722955250,
+      "score": 1,
+      "link_id": "t3_1elhtkh",
+      "parent_id": "t1_lgrsgz7"
+    },
+    {
+      "id": "lgrqeeh",
+      "body": "Which telecom provider is it?",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722951631,
+      "score": 1,
+      "link_id": "t3_1elhtkh",
+      "parent_id": "t3_1elhtkh"
+    },
+    {
+      "id": "lgrpm2y",
+      "body": "They used to be free at all banks, but now they all started charging 100CHF. UBS seem to have waived that fee, so that’s a nice bonus.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722951353,
+      "score": 1,
+      "link_id": "t3_1ele7yr",
+      "parent_id": "t3_1ele7yr"
+    },
+    {
+      "id": "lglbyoh",
+      "body": "Hi! Lausanne (and Switzerland more in general) is facing a monumental housing crisis for the past 10+ years. It just keeps getting worse and believe me, even the most Swiss person (passport and everything) can’t find an apartment in Lausanne.\n\nThe only thing I can advise you to do is applying for student-oriented housing, because without a permit or a Swiss guarantor, you’re wasting your time for the “normal” market.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722857629,
+      "score": 5,
+      "link_id": "t3_1ekkd3g",
+      "parent_id": "t3_1ekkd3g"
+    },
+    {
+      "id": "lgeob2f",
+      "body": "I call my Verwaltung every summer and they come to put powder everywhere to protect me from wasps who infiltrate my apartment (with windows closed). Maybe you could try the same?",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1722745930,
+      "score": 1,
+      "link_id": "t3_1ej7gzj",
+      "parent_id": "t3_1ej7gzj"
+    },
+    {
+      "id": "lga7adx",
+      "body": "It depends on the station, but in general I’d avoid staying there as stations are usually the sketchy people’s favorite place at night!",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1722683320,
+      "score": 1,
+      "link_id": "t3_1eiijbs",
+      "parent_id": "t3_1eiijbs"
+    },
+    {
+      "id": "lg62kmv",
+      "body": "I work for the public sector and I am not Swiss.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722618460,
+      "score": 3,
+      "link_id": "t3_1eib0fw",
+      "parent_id": "t3_1eib0fw"
+    },
+    {
+      "id": "lg5iwhz",
+      "body": "You can never be sure where you’ll be selected. Getting a flat here is extremely complicated and there’s no “easy” way (except if you indefinitely rent an Airbnb, but you need the money for this). The chances of scoring something at FMEL are extremely slim, and I’m afraid you will have to take the “exhausting” path to house yourself.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722612240,
+      "score": 2,
+      "link_id": "t3_1ei1o6y",
+      "parent_id": "t1_lg5h3oa"
+    },
+    {
+      "id": "lg3jotz",
+      "body": "I’d start searching for other flats outside of FMEL. Lausanne is going through a monumental housing crisis and FMEL is only providing a small portion of students with housing.\n\nI’d also get ready to rent an Airbnb during the first weeks/months in case you can’t find anything in advance.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722577419,
+      "score": 3,
+      "link_id": "t3_1ei1o6y",
+      "parent_id": "t3_1ei1o6y"
+    },
+    {
+      "id": "lg1iqe4",
+      "body": "At some point you start wondering if they have special inflated prices for tourists or something!\n\n“I bought a salad at the supermarket for 20chf” “how do Swiss people survive with these prices??”\n\nWe just don’t grab the first item we see on the supermarket shelf lol.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722547566,
+      "score": 1,
+      "link_id": "t3_1egpg1b",
+      "parent_id": "t1_lg1hg9z"
+    },
+    {
+      "id": "lg1em6d",
+      "body": "It’s not possible to use the outlook mobile app for the EPFL email for security reasons. This is because the mobile outlook app makes all emails transit through Microsoft’s servers and EPFL don’t want that.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722546201,
+      "score": 1,
+      "link_id": "t3_1ef00h0",
+      "parent_id": "t3_1ef00h0"
+    },
+    {
+      "id": "lfy94nu",
+      "body": "The tomatoes in Aldi and Lidl are all somewhere between 2.-/kg and 5.-/kg. Yesterday, I bought the most expensive they had and they were 4.50/kg. Of course, we are talking normal tomatoes, not cherry tomatoes, which oscillate somewhere between 8.-/kg and 13.-/kg.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722505311,
+      "score": 1,
+      "link_id": "t3_1egpg1b",
+      "parent_id": "t1_lfy8y62"
+    },
+    {
+      "id": "lfy7j21",
+      "body": "I’m hearing the same in Lausanne. I am hoping it’s just some historical cannons being fired. It’s being going on since earlier this morning.",
+      "author": "Thebosonsword",
+      "subreddit": "zurich",
+      "created_utc": 1722504222,
+      "score": 1,
+      "link_id": "t3_1eh8qzr",
+      "parent_id": "t3_1eh8qzr"
+    },
+    {
+      "id": "lfv7dx6",
+      "body": "No no my recommendation is Aldi and Lidl by far. They are truly affordable and very comparable to other EU supermarket prices.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722456171,
+      "score": 6,
+      "link_id": "t3_1egpg1b",
+      "parent_id": "t1_lfv77v5"
+    },
+    {
+      "id": "lfv6t9o",
+      "body": "Migros is quite significantly cheaper than coop. I cannot possibly understand how you find the supermarket prices expensive in Switzerland, especially compared to the median wage. Swiss families have the highest purchasing power of Europe and that’s mainly because while salaries are 2-3 times higher than in neighbouring western countries, the prices are definitely not 2-3 times higher (except for services).",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722455988,
+      "score": 4,
+      "link_id": "t3_1egpg1b",
+      "parent_id": "t1_lfv65mc"
+    },
+    {
+      "id": "lfv5r0m",
+      "body": "I don’t know where you go grocery shopping, but except meat and some dairy products, the rest is very similarly priced to most western (and some eastern) European countries.\n\nMaybe try to avoid Manor Foods and Coop and you’ll see how a single person can eat generously for 500.-/month. This represents only 25-30% of the lowest wages you can get in the country. Try to find me any other European country where grocery shopping only represents 25-30% of a person’s monthly income.\n\n10CHF/kg for tomatoes?? Where do you even find that? The most expensive tomatoes are around 4.5/kg. And brand products being 4-6 times more expensive?? Except for (para-)pharmaceuticals, I cannot think of anything that has such a huge price difference compared to France or Germany.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722455653,
+      "score": 15,
+      "link_id": "t3_1egpg1b",
+      "parent_id": "t1_lfv45sk"
+    },
+    {
+      "id": "lfuwdlj",
+      "body": "I guess we don’t hear them very well from inside the building ^^",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722452661,
+      "score": 1,
+      "link_id": "t3_1egrpxq",
+      "parent_id": "t1_lfujzab"
+    },
+    {
+      "id": "lfua5zq",
+      "body": "Hey I don’t know the answers to all questions, but I work at CHUV and I just wanna let you know that helicopters from REGA land there several times per week. But I wouldn’t say it’s more than once or twice per day.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722445743,
+      "score": 3,
+      "link_id": "t3_1egrpxq",
+      "parent_id": "t3_1egrpxq"
+    },
+    {
+      "id": "lfu9vbg",
+      "body": "I was in Greece and had to make 3 copies of a pretty basic zig zag key. I paid like 4€ for all of them.\n\nThere’s absolutely no fucking way that life in Switzerland is 10 times more expensive than Greece. Insane markup. I’d honestly consider contacting a store abroad to do it for you through mail. Even with paying postage both ways, you still will pay probably 3 times less.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722445649,
+      "score": 30,
+      "link_id": "t3_1egpg1b",
+      "parent_id": "t3_1egpg1b"
+    },
+    {
+      "id": "lfu2ros",
+      "body": "2FA became mandatory for all Microsoft and Google services on your Gaspar account. This means that you need to set up 2FA on Gaspar in order to pass the Tequila auth when going to EWA to consult your email.\n\nIf this doesn’t work and you’re having trouble setting it up, I’d recommend giving a call to 1234 (the EPFL service desk) or creating a ticket on the EPFL IT support page.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722443411,
+      "score": 3,
+      "link_id": "t3_1egqn9t",
+      "parent_id": "t3_1egqn9t"
+    },
+    {
+      "id": "lfu10ev",
+      "body": "There are legal obligations that could make your plan of taking out insurance in your home country illegal (from Switzerland’s point of view) if you are staying long term for studies.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722442852,
+      "score": 1,
+      "link_id": "t3_1egnqud",
+      "parent_id": "t3_1egnqud"
+    },
+    {
+      "id": "lfoaves",
+      "body": "Pas tous. Mes parents seraient très contents que le Pays de Gex passe en Suisse. Parfois on préfère payer plus cher mais avoir un service digne plutôt qu’économiser et se faire tout dicter par Paris. Et non “déménager” n’est pas forcément si simple.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722358379,
+      "score": 2,
+      "link_id": "t3_1efv56x",
+      "parent_id": "t1_lfo089q"
+    },
+    {
+      "id": "lfoadb7",
+      "body": "Bien sûr! Je te laisse mettre ça en forme proprement et éventuellement trouver 2-3 liens si le cœur t’en dit :). C’est sur que vu les économies qu’on peut réaliser, c’est important de le préciser!",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722358224,
+      "score": 1,
+      "link_id": "t3_1efr8eg",
+      "parent_id": "t1_lfnil2v"
+    },
+    {
+      "id": "lfngrxh",
+      "body": "Le guide est excellent mais je rajoute un point très important qui permet d’économiser beaucoup d’argent sur l’assurance quand on est étudiant non-UE.\n\nLes étudiants non-UE ne doivent pas forcément souscrire à la lamal et débourser un rein chaque mois pour être dans les règles. Ils peuvent souscrire à un des multiples assureurs privés internationaux qui offrent des polices pour les étudiants non-UE qui viennent étudier en Suisse. Ils sont de l’ordre de 80-120CHF/mois et offrent une bien meilleure couverture. Le mieux serait de souscrire à une compagnie qui fonctionne avec le CHUV,  comme ça on peut s’économiser le dépôt de garantie pour les consultations aux urgences. Ensuite, il suffit d’envoyer cela à la commune pour obtenir sa dispense d’affiliation à la lamal.\n\nPoint important: ces polices privées ne sont probablement plus valables (à confirmer) dès le moment où vous commencez un emploi en Suisse, car on doit obligatoirement être affilié au régime de sécurité sociale du pays dans lequel on travaille. Il faut donc bien faire attention à ce point!",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722348705,
+      "score": 6,
+      "link_id": "t3_1efr8eg",
+      "parent_id": "t3_1efr8eg"
+    },
+    {
+      "id": "lfellh1",
+      "body": "On a reçu un mail il y a quelques semaines.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722206653,
+      "score": 1,
+      "link_id": "t3_1ee5eu0",
+      "parent_id": "t1_lfdtg9f"
+    },
+    {
+      "id": "lf9ttct",
+      "body": "I mean it’s supposed to be standard TARMED costs. The bill sent to my insurance was 98CHF for a 20-25-ish minutes consultation",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1722129443,
+      "score": 1,
+      "link_id": "t3_1edkiny",
+      "parent_id": "t1_lf968t6"
+    },
+    {
+      "id": "lf963a9",
+      "body": "Antonio Pires in Vevey. He’s exceptionally taking new patients during the summer as everybody is on holidays. He’s great!",
+      "author": "Thebosonsword",
+      "subreddit": "geneva",
+      "created_utc": 1722119722,
+      "score": 1,
+      "link_id": "t3_1edkiny",
+      "parent_id": "t3_1edkiny"
+    },
+    {
+      "id": "lf6n76h",
+      "body": "https://preview.redd.it/24e7jtvy92fd1.png?width=3024&format=png&auto=webp&s=a35c6c6a0cdd8f9e4f3aa038e97254b4ba054b85\n\nI beg to differ ;)",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722086056,
+      "score": 12,
+      "link_id": "t3_1eddflh",
+      "parent_id": "t1_lf6mwlb"
+    },
+    {
+      "id": "lf6mh0o",
+      "body": "The campus is free to roam around, but I’d recommend coming on a week day during “office hours” as weekends and evenings have more limited access without an access card.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1722085736,
+      "score": 2,
+      "link_id": "t3_1edao5g",
+      "parent_id": "t3_1edao5g"
+    },
+    {
+      "id": "lf6m8g3",
+      "body": "Yes! Please!!! Why is it not like this???",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722085633,
+      "score": 3,
+      "link_id": "t3_1eddflh",
+      "parent_id": "t1_lf6h4w2"
+    },
+    {
+      "id": "lf6lu2z",
+      "body": "Je suis tout à fait d’accord. En choisissant cette option, j’ai évidemment pris le risque d’un énorme conflit d’intérêts qui pourrait se répercuter directement sur moi. Sauf que j’ai décidé de tester, pour le côté pratique et économique et je t’avoue que je suis pour l’instant hyper content. Tous les “désavantages” qu’on pourrait imaginer ne m’ont absolument pas affecté en 3 ans, par contre j’ai pu avoir un service que je trouve plus pratique que si je devais me rendre systématiquement en cabinet pour consulter. J’avais au début évidemment peur de devoir dépendre d’un organisme qui serait potentiellement plus “au service” de l’assurance que de moi. Jusque là, ils ont autorisé toutes les demandes de consultation, même pour des trucs qu’on pourrait juger comme superficiels ou pas graves, sans absolument jamais remettre en question ou broncher.\n\nChacun son délire : moi je suis très satisfait du modèle Telmed.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722085459,
+      "score": 2,
+      "link_id": "t3_1edcrxi",
+      "parent_id": "t1_lf6g9fk"
+    },
+    {
+      "id": "lf6fk61",
+      "body": "L’assureur ne connaît rien aux détails sur ta santé, car tu n’appelles pas l’assureur directement (mais un mandataire comme medgate/medi24 qui sont soumis au secret médical et qui travaillent avec plein d’assureurs à la fois.\n\nChez le spécialiste généralement dans une délégation d’un généraliste, on peut attendre bien longtemps pour trouver un RDV.\n\nEt dernier point: je suis étudiant, donc même si mes deux employeurs m’autorisent jusqu’à 3 jours sans certificat, l’université par contre non. Donc j’ai déjà eu besoin de ce service fort pratique quand j’avais 40° de fièvre la veille d’un examen et que j’ai appelé à 23h pour obtenir mon certificat médical.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722082546,
+      "score": 2,
+      "link_id": "t3_1edcrxi",
+      "parent_id": "t1_lf6f4l6"
+    },
+    {
+      "id": "lf6elun",
+      "body": "Oui ça c’est le plus WTF. Le site est par défaut en italien!\n\nC’est comme les produits à Aldi, beaucoup ne contiennent des instructions/indications/ingredients qu’en allemand et italien, mais pas de français!",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722082064,
+      "score": 1,
+      "link_id": "t3_1ecyaw9",
+      "parent_id": "t1_lf4ai6k"
+    },
+    {
+      "id": "lf6dzn8",
+      "body": "Ça a l’air WTF, mais je te jure que c’est le truc le plus pratique que j’ai jamais vu. Tu peux en un coup de fil obtenir un arrêt de travail ou une ordonnance. Voire même en coup de chat/visio dans l’application. Tu peux aussi aller directement chez un spécialiste après seulement un coup de fil au lieu de devoir attendre d’abord un rdv chez un médecin de famille",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1722081739,
+      "score": 5,
+      "link_id": "t3_1edcrxi",
+      "parent_id": "t1_lf63h2a"
+    },
+    {
+      "id": "lewhuwv",
+      "body": "Ummm, afaik no? EPFL has transparent entry conditions for Bachelor’s programs",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1721928534,
+      "score": 4,
+      "link_id": "t3_1ebxnwz",
+      "parent_id": "t1_levydd2"
+    },
+    {
+      "id": "lewgcq1",
+      "body": "Contact them! You’ll see how things can change when you actually talk to a human.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1721928069,
+      "score": 3,
+      "link_id": "t3_1ebwm0g",
+      "parent_id": "t3_1ebwm0g"
+    },
+    {
+      "id": "leim7pt",
+      "body": "Unfortunately, this is Switzerland and deceptive advertising is “normal”.\n\nMy newest discovery on the subject is this (amazing) [offer from TalkTalk](https://docs.talktalk.ch/public/TTM/TTM.2024.ALLIN.25.ONL.EN.pdf) that states unlimited data in Switzerland and UE+US+CA. Except that it says in the fine print that the roaming data is blocked after 40Gb of usage. Yes, BLOCKED. How is it even legal to call this unlimited? I can understand the loophole with the throttling, but blocking the usage after a certain threshold surely can’t be legally called unlimited…\n\nOther than that, the price is absolutely unbeatable for what it offers. Never seen such an attractive price in Switzerland (even includes calls from CH to EU+US+CA!!).",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1721725463,
+      "score": 1,
+      "link_id": "t3_1e9vhue",
+      "parent_id": "t1_leiir5h"
+    },
+    {
+      "id": "leigo3o",
+      "body": "Try go-mo or Swype, which give you unlimited data for probably much cheaper that what any “foreign” eSIM provider can do.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1721721686,
+      "score": 1,
+      "link_id": "t3_1e9vhue",
+      "parent_id": "t3_1e9vhue"
+    },
+    {
+      "id": "lecswmq",
+      "body": "Yes what I didn’t mention in my comment was that the marshrutkas run every 15-30 mins from the central bus station. They’re cheap, reliable, fun and the most common mode of “public” transportation to the PMR. I wanted to go with the train, but the timing was so terrible that I decided to opt for the marshrutka instead and don’t regret one bit!",
+      "author": "Thebosonsword",
+      "subreddit": "Transnistria",
+      "created_utc": 1721639500,
+      "score": 3,
+      "link_id": "t3_1e8xrze",
+      "parent_id": "t1_leazvys"
+    },
+    {
+      "id": "leaus9q",
+      "body": "No train running to Tiraspol from Chisinău. AFAIK, the train Chisinău-Bender III is running (once per day, in the evening I think). This station is actually located outside the PMR, but a 3-5 mins walk to the border where you can cross inside the PMR and then enter Bender. From there you can take public transport to Tiraspol.\n\nIf you don’t particularly insist on taking the train, then please do yourself a favour and take a marshrutka from Chisinau to Tiraspol for an unforgettable cultural experience.",
+      "author": "Thebosonsword",
+      "subreddit": "Transnistria",
+      "created_utc": 1721604080,
+      "score": 6,
+      "link_id": "t3_1e8xrze",
+      "parent_id": "t3_1e8xrze"
+    },
+    {
+      "id": "lduqbh2",
+      "body": "Quelle est donc cette technique secrète qui ne peut pas être partagée ici ?\nJe crois que tu peux rien faire dans ce cas car les tous les cas “limites” sont vérifiés deux fois au cas où",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1721347460,
+      "score": 0,
+      "link_id": "t3_1e6cvl5",
+      "parent_id": "t1_lds43vb"
+    },
+    {
+      "id": "ldr3uc4",
+      "body": "Working full time, working on some personal projects I didn’t have the time to do during the semester and resting (trying to).",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1721299749,
+      "score": 1,
+      "link_id": "t3_1e62icf",
+      "parent_id": "t3_1e62icf"
+    },
+    {
+      "id": "ld9dkxz",
+      "body": "C’est vrai que le fait que la Suisse utilise une app et non le cell broadcasting est absolument lunaire. Je m’imagine les touristes qui se sont faits dessus ce matin.",
+      "author": "Thebosonsword",
+      "subreddit": "suisse",
+      "created_utc": 1721029393,
+      "score": 2,
+      "link_id": "t3_1e3noe7",
+      "parent_id": "t1_ld9ctix"
+    },
+    {
+      "id": "ld7ggg2",
+      "body": "Nope sadly. It’s below 4.00 so you don’t validate the block.",
+      "author": "Thebosonsword",
+      "subreddit": "EPFL",
+      "created_utc": 1720996661,
+      "score": 5,
+      "link_id": "t3_1e3bm7l",
+      "parent_id": "t3_1e3bm7l"
+    },
+    {
+      "id": "lcldl7z",
+      "body": "A friend of mine passed his “deuxième phase” with a mobility car and nobody said anything. How would they know anyways?",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1720654267,
+      "score": 1,
+      "link_id": "t3_1dzvzth",
+      "parent_id": "t1_lcifrxn"
+    },
+    {
+      "id": "lclawh0",
+      "body": "Oh wow that’s the car that was parked near Renens for almost a year! I knew it looked familiar!",
+      "author": "Thebosonsword",
+      "subreddit": "Switzerland",
+      "created_utc": 1720653295,
+      "score": 4,
+      "link_id": "t3_1e06zh2",
+      "parent_id": "t3_1e06zh2"
+    },
+    {
+      "id": "lc4chhj",
+      "body": "Nothing and I even earn money through interest rates on accounts and cashback on credit cards.",
+      "author": "Thebosonsword",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720398326,
+      "score": 0,
+      "link_id": "t3_1dxlb0a",
+      "parent_id": "t3_1dxlb0a"
+    },
+    {
+      "id": "lbq75kr",
+      "body": "wtf a colleague of mine parks at St Louis station every day for years and he’s absolutely never complained about anyone getting their car broken into.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1720177716,
+      "score": 3,
+      "link_id": "t3_1dvud8t",
+      "parent_id": "t1_lbq26ya"
+    },
+    {
+      "id": "lbq6qhq",
+      "body": "Night Shift at a hardware store? Who needs that?\n\n“Lemme buy a nightstand and a drill at 3am”.",
+      "author": "Thebosonsword",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1720177470,
+      "score": -2,
+      "link_id": "t3_1dvnbcd",
+      "parent_id": "t3_1dvnbcd"
+    },
+    {
+      "id": "lbiwbnt",
+      "body": "C’est au conducteur de prendre le temps de lire les panneaux qui indiquent les conditions de stationnement. Tu lui as bien dit que c’était payant, maintenant tu peux pas lui courir après pour lui rappeler de faire son job de conductrice…\n\nÀ ta place j’aurais même pas proposé 50/50, elle a fait l’erreur toute seule, que ce soit ta rue ou pas (en plus tu n’es pas conductrice, donc c’est normal que tu n’a pas eu le réflexe de la rappeler).",
+      "author": "Thebosonsword",
+      "subreddit": "AskFrance",
+      "created_utc": 1720051516,
+      "score": 2,
+      "link_id": "t3_1dunsf5",
+      "parent_id": "t3_1dunsf5"
+    },
+    {
+      "id": "lbi1450",
+      "body": "Everywhere, except some secluded villages. Maybe count 20-30CHF of parking per day, depending on where and how you park. If you decide to go with convenience, that amount is about right but could even go up. If you park “like a local”, so by knowing the various tips and tricks on where to find the cheapest or free option around the area you want to park in, then you can reduce this amount.",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1720039788,
+      "score": 2,
+      "link_id": "t3_1dunwgu",
+      "parent_id": "t1_lbi0hmn"
+    },
+    {
+      "id": "lbhyox3",
+      "body": "Hahahaha I’m pretty sure you are not taking into account the ludicrous cost of parking and the various discounts/offers that you can get on trains. How did you make your calculation?",
+      "author": "Thebosonsword",
+      "subreddit": "askswitzerland",
+      "created_utc": 1720038979,
+      "score": 2,
+      "link_id": "t3_1dunwgu",
+      "parent_id": "t1_lbhx0am"
+    },
+    {
+      "id": "lbgrase",
+      "body": "No worries! Have a relaxing night train ride and enjoy your trip :)",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1720024651,
+      "score": 1,
+      "link_id": "t3_1duakga",
+      "parent_id": "t1_lbg7cbl"
+    },
+    {
+      "id": "lbg2tuf",
+      "body": "What the website says concerns ÖBB NightJet and not MÁV EuroNight, which is what you are on. Lower on the same page (or somewhere else on the website I can’t remember), it says that the service may vary on EuroNight trains operated by other railway companies.",
+      "author": "Thebosonsword",
+      "subreddit": "Interrail",
+      "created_utc": 1720016550,
+      "score": 3,
+      "link_id": "t3_1duakga",
+      "parent_id": "t3_1duakga"
     }
   ]
 }

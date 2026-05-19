@@ -1,6 +1,18 @@
 {
   "username": "mlx11",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cg3zl2",
+      "title": "Move running docker containers inside cluster",
+      "author": "mlx11",
+      "subreddit": "docker",
+      "created_utc": 1714409414,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "I have two raspberry pis that work together in a cluster and run both multiple docker containers. In order to do load balancing, I want to be able to move running docker containers from one pi to the other in a way that's invisible to the applications (e.g. a database) inside the container. \n\nI looked at docker commit to implement this but I am unsure whether this is the best solution as it seems not to be designed for host changing.\n\nDoes somebody know of a better solution for moving running docker containers or does somebody have experience with docker commit?",
+      "url": "https://www.reddit.com/r/docker/comments/1cg3zl2/move_running_docker_containers_inside_cluster/"
+    }
+  ],
   "comments": [
     {
       "id": "l8gbmhz",
@@ -11,6 +23,206 @@
       "score": 1,
       "link_id": "t3_1dd5e7w",
       "parent_id": "t3_1dd5e7w"
+    },
+    {
+      "id": "l5l92y9",
+      "body": "not even close. A factor of 2 over 3 funding rounds. More is possible if the company fused with an other one.",
+      "author": "mlx11",
+      "subreddit": "startups",
+      "created_utc": 1716627528,
+      "score": 2,
+      "link_id": "t3_1d037bc",
+      "parent_id": "t1_l5kz8fr"
+    },
+    {
+      "id": "l3rtmah",
+      "body": "The answer to your question depends on the level at which we are looking at them.\n\nOn higher abstraction level, they are the same thing and they use the same physical phenomena. Some are just bigger which allows them to e.g. conduct more current. \n\nOn a low level, the two implementations drastically differ in how they are actually implemented in silicon. Big transistors are not just scaled-up smaller transistors. However, we don't care about this difference for most practical applications.",
+      "author": "mlx11",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1715553494,
+      "score": 5,
+      "link_id": "t3_1cqjid1",
+      "parent_id": "t3_1cqjid1"
+    },
+    {
+      "id": "l2gfpzu",
+      "body": "you can build an antenna, connect it to a SDR (software defined radio, can be bought for 50$) and receive satellite images for free",
+      "author": "mlx11",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714772096,
+      "score": 3,
+      "link_id": "t3_1cj8yq8",
+      "parent_id": "t3_1cj8yq8"
+    },
+    {
+      "id": "l2gd7oy",
+      "body": "Take away the leasing part and you basically described how the system works in Switzerland. \n\nEverybody can have solar cells on their roof and simultaneously be connected to the grid. You then pay/get paid the difference between the used and produced energy (it is slightly more complex than this phrase in reality due to different prices for buy/sell at different times).",
+      "author": "mlx11",
+      "subreddit": "startups",
+      "created_utc": 1714771150,
+      "score": 1,
+      "link_id": "t3_1cfyq7q",
+      "parent_id": "t3_1cfyq7q"
+    },
+    {
+      "id": "l1by3s0",
+      "body": "I'd look at how to optimise the code. Music samples are basically time series -> they can be loaded partially (maybe you need to change format for this). \n\nIf you request your data early enough, this should run on less (maybe 1/100 for an order of magnitude) RAM that the filesize of the samples.",
+      "author": "mlx11",
+      "subreddit": "embedded",
+      "created_utc": 1714127507,
+      "score": 1,
+      "link_id": "t3_1cbcomr",
+      "parent_id": "t1_l1blu8k"
+    },
+    {
+      "id": "l1bl3w8",
+      "body": "may I ask where the 32GB RAM requirement is coming from? there is a correlation between RAM and compitational power but there might be 16GB computers that outperforms a 32GB RAM one depending on the application.",
+      "author": "mlx11",
+      "subreddit": "embedded",
+      "created_utc": 1714118196,
+      "score": 1,
+      "link_id": "t3_1cbcomr",
+      "parent_id": "t1_l1bewv2"
+    },
+    {
+      "id": "l1bdu3d",
+      "body": "You can easily add a 32GB RAM module to them, you just don't have any improvement over 16GB because that's the maximum the processor can support. \nSo AliExpress has a N100 with 32GB of RAM in it. It's just not particularly useful",
+      "author": "mlx11",
+      "subreddit": "embedded",
+      "created_utc": 1714113080,
+      "score": 1,
+      "link_id": "t3_1cbcomr",
+      "parent_id": "t1_l1296zo"
+    },
+    {
+      "id": "l16whs7",
+      "body": "Just FYI because I think noone mentioned it in this thread: Zürich is the city with the most English activities in Switzerland. Escape rooms, theaters, ..., most can be found in English. It's an hour from Luzern so it ahould ve in reach.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1714048400,
+      "score": 3,
+      "link_id": "t3_1ccmydu",
+      "parent_id": "t3_1ccmydu"
+    },
+    {
+      "id": "kzsh3c6",
+      "body": "Most bachelor courses are in French. However, in the end it's always math.\n\nI am swiss german myself, got a 3.5 in my French matura, and then attended epfl. The first couple of weeks of the semester are always hard because there's a lot of new vocabulary to learn, but afterwards you'll be fine.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1713245435,
+      "score": 1,
+      "link_id": "t3_1c4skx9",
+      "parent_id": "t3_1c4skx9"
+    },
+    {
+      "id": "kzdbf5e",
+      "body": "ETHZ teaches those things pretty nicely. Plus students can do chip design for projects and thesis.",
+      "author": "mlx11",
+      "subreddit": "FPGA",
+      "created_utc": 1713007914,
+      "score": 9,
+      "link_id": "t3_1c2ywtd",
+      "parent_id": "t3_1c2ywtd"
+    },
+    {
+      "id": "kycn1kv",
+      "body": "Mouser is able to ship from texas to Switzerland in 2 days. So I would assume they are super fast in the US as well. Most likely, mouser has all your components as well.",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712425214,
+      "score": 1,
+      "link_id": "t3_1bwkh1f",
+      "parent_id": "t1_ky6mjvk"
+    },
+    {
+      "id": "kycmra2",
+      "body": "I think they are talking about the stencil.",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712425113,
+      "score": 2,
+      "link_id": "t3_1bwkh1f",
+      "parent_id": "t1_kybyv49"
+    },
+    {
+      "id": "ky2qgse",
+      "body": "I wouldn't replace those capacitors if there is no clear indication that they are the reason of your problems. Most likely, the GPU works fine with one of them not attached. \n\nCan you somehow further characterice the problem? Is the power stable? Does the error appear instantly, or after a certain part of the chip is powered up?",
+      "author": "mlx11",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712265574,
+      "score": 7,
+      "link_id": "t3_1bvwe6d",
+      "parent_id": "t3_1bvwe6d"
+    },
+    {
+      "id": "kttizo8",
+      "body": "All those posting that cameras have a 3-7km/h tolerance. Be aware that those tolerances aren't there because they are nice. They are there because the camera might measure 3-7km/h more than you're actually going (with a certain low probability, most likely 3 or 6 sigma). \n\nYou will be fine most of the time assuming that the camera is accurate and the tolerance is in your favor. However, if you want to be 100% safe, don't do that.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1709845150,
+      "score": 29,
+      "link_id": "t3_1b92z8k",
+      "parent_id": "t3_1b92z8k"
+    },
+    {
+      "id": "krd7hqw",
+      "body": "There is a program called \"swiss universities\" in the army. If you are a sgt or lt, you can leave 4 (I think) weeks earlier and you get 5 additional holidays. This results in you missing 2 weeks of the semester which is manageable.",
+      "author": "mlx11",
+      "subreddit": "askswitzerland",
+      "created_utc": 1708470419,
+      "score": 1,
+      "link_id": "t3_1avnk65",
+      "parent_id": "t3_1avnk65"
+    },
+    {
+      "id": "kpwscb2",
+      "body": "I know that the spacecraft team has a program specifically designed for younger students (cansat). Rocket team jas a similar.thing I think. \nJust write to the associations, they are usually quite nice.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1707646340,
+      "score": 2,
+      "link_id": "t3_1ancm5j",
+      "parent_id": "t3_1ancm5j"
+    },
+    {
+      "id": "kos03gm",
+      "body": "I once had a fake compinent with pcbway. But otherwise they are fine",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1706989295,
+      "score": 1,
+      "link_id": "t3_1aharlh",
+      "parent_id": "t1_koo2c1b"
+    },
+    {
+      "id": "khd6yxz",
+      "body": "If I remember correctly tou're not allowed to sublet. But I know many people who did it and noone got any problems.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1704983635,
+      "score": 1,
+      "link_id": "t3_193y072",
+      "parent_id": "t1_khd020t"
+    },
+    {
+      "id": "khcz7od",
+      "body": "as far as I know you can not cancel the fmel room over summer and then get a new one for the next semester. \n\nBut you can keep it even if you're not in Switzerland. It still costs rent then though.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1704980435,
+      "score": 3,
+      "link_id": "t3_193y072",
+      "parent_id": "t1_khcw2bn"
+    },
+    {
+      "id": "khcqdgj",
+      "body": "if you live in an fmel room with a shared kitchen you pay around CHF 600 (I paid 530) for rent per month. You should add around CHF 300 for food and 300 for other stuff like e.g. public transport. This results in around 1200 per month (the calculation is rather generous, 1k might be enough). \n\nYou are allowed to work for 15 hours per week. If you do this as a student assistent, you'll earn CHF 25 per hour. This results in up to around CHF 1600 per month which is sufficuent to live in Lausanne. However, be aware that \n\n1. you might not find 15 hours of work at that rate\n2. most people strugle to work 15 hours a week next to full-time studies.\n3. I don't recommmend you to work during the first year. Most people have enough with studying. \n\nKeep in mind that there is a long summer break of around 2 months. You'll be able to work more during that time or to leave Switzerland (which might save you some money).",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1704976237,
+      "score": 3,
+      "link_id": "t3_193y072",
+      "parent_id": "t3_193y072"
     }
   ]
 }

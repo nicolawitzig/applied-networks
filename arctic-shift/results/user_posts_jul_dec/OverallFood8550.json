@@ -1,6 +1,51 @@
 {
   "username": "OverallFood8550",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1h3gqzu",
+      "title": "Should I apply for MSc in CS or DS?",
+      "author": "OverallFood8550",
+      "subreddit": "EPFL",
+      "created_utc": 1732985517,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "title \\^ - I realized most of the courses you can take are very similar, so I am wondering whether it would be a better idea to apply for the MSc in Computer Science or Data Science.\n\nThe idea is very simply to maximize the chances of getting in, since the courses are quite similar. My background is a BSc in Artificial Intelligence in Italy (not polimi or polito), with a 29.2 / 30 unweighted GPA.\n\nWhere is it generally easier to get in? Which would be a better choice?",
+      "url": "https://www.reddit.com/r/EPFL/comments/1h3gqzu/should_i_apply_for_msc_in_cs_or_ds/"
+    },
+    {
+      "id": "1gss0ik",
+      "title": "Stripe Onsite Interview Bug Squash + Integration Round",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1731777452,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I have an interview with Stripe for a New Grad Position coming up, and am not completely sure about how to prepare for the Stripe Bug Squash and Integration Rounds. I would love to talk to somebody about it to try and understand the process better.",
+      "url": "https://www.reddit.com/r/cscareerquestionsEU/comments/1gss0ik/stripe_onsite_interview_bug_squash_integration/"
+    },
+    {
+      "id": "1gk5kde",
+      "title": "Used skateboard decks in Berlin, where do I get it?",
+      "author": "OverallFood8550",
+      "subreddit": "berlin",
+      "created_utc": 1730809896,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "Hello, I will be in Berlin for a month and a half more and I got my hands on some trucks and wheels and I wanted to skate a bit in the city.\nSince I will be here for only one more month, it feels a bit wasteful to buy a new deck that I will have to throw in a couple months, so I was wondering if anybody had an used skateboard deck that is still usable (i.e. not completely destroyed) that I could buy or borrow or if anybody knew a place where I could get one.\n\nThanks in advance for any tip!",
+      "url": "https://www.reddit.com/r/berlin/comments/1gk5kde/used_skateboard_decks_in_berlin_where_do_i_get_it/"
+    },
+    {
+      "id": "1dv2cg8",
+      "title": "New Spring 2025 CS Exchange Student - Any Undergraduate Research Assistant positions?",
+      "author": "OverallFood8550",
+      "subreddit": "UIUC",
+      "created_utc": 1720083392,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "Hello,\n\nI am a 2nd year student in a BSc in AI program in Italy, and I will come to UIUC in Spring 2025 as a 3rd year exchange student. \n\nI was wondering if there is any opportunity to work as a Research Assistant at UIUC as an undergraduate student. I do not really care about the money (even though it is always useful, I would even work for free), I simply want to maximize how much I learn and the skills I'll develop while I am at UIUC.\n\nI think I will have a pretty strong CV (2 internships, 1 at noname and 1 at very big known company + very high GPA at my home institution) and technical skills, and I am wondering how feasible is it to become a research assistant so it could be useful if you knew the answer to the following questions:\n\n* Is there any restrictions for me as an exchange student to work at UIUC?\n* Are there a lot of positions open? Is it really competitive to get in?\n* As an alternative, I may also consider being a TA / Course Assistant. Is there any restrictions about that with me being an exchange student?\n\nThank you in advance, any advice / comment is appreciated!",
+      "url": "https://www.reddit.com/r/UIUC/comments/1dv2cg8/new_spring_2025_cs_exchange_student_any/"
+    }
+  ],
   "comments": [
     {
       "id": "lbwyvr5",
@@ -11,6 +56,426 @@
       "score": 1,
       "link_id": "t3_1dwowb0",
       "parent_id": "t1_lbwnhak"
+    },
+    {
+      "id": "m2hjeg6",
+      "body": "for me it was 5 days (for intern position), couldn't tell you for ng",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1734439904,
+      "score": 2,
+      "link_id": "t3_1hg8gja",
+      "parent_id": "t3_1hg8gja"
+    },
+    {
+      "id": "m1l7tdl",
+      "body": "Damn, that's some tough luck, I hope you'll get some good news soon.",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1733951736,
+      "score": 2,
+      "link_id": "t3_1hc41f2",
+      "parent_id": "t3_1hc41f2"
+    },
+    {
+      "id": "m0pljjx",
+      "body": "just test it by importing it and trying to run some code, you'll know whether you can use it or not",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1733495139,
+      "score": 1,
+      "link_id": "t3_1h81pkv",
+      "parent_id": "t1_m0pk5la"
+    },
+    {
+      "id": "m0pjy8r",
+      "body": "You are allowed to use whatever works, especially for OAs, you should just make the code pass all test cases, and I would not go crazy about complexity or using one thing over the other, just whatever works.",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1733494549,
+      "score": 2,
+      "link_id": "t3_1h81pkv",
+      "parent_id": "t3_1h81pkv"
+    },
+    {
+      "id": "m0cmyt6",
+      "body": "[adventofcode.com](http://adventofcode.com)",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1733309874,
+      "score": 2,
+      "link_id": "t3_1h6d8hl",
+      "parent_id": "t3_1h6d8hl"
+    },
+    {
+      "id": "m07cjar",
+      "body": "Send another follow-up and chill",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1733236037,
+      "score": 2,
+      "link_id": "t3_1h5mjz0",
+      "parent_id": "t3_1h5mjz0"
+    },
+    {
+      "id": "lzvs4ql",
+      "body": "says invite not valid",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1733067500,
+      "score": 1,
+      "link_id": "t3_1h1kpos",
+      "parent_id": "t1_lzddqt2"
+    },
+    {
+      "id": "lzuuoj4",
+      "body": "Just apply to a ton of jobs - worst salary in Berlin most likely gives you a better quality of life than best salary in Milan as a junior swe",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1733052173,
+      "score": 1,
+      "link_id": "t3_1h3lz81",
+      "parent_id": "t1_lzs1yu7"
+    },
+    {
+      "id": "lzkfwuw",
+      "body": "In the same boat... I am in my final year in a bsc in ai with a few internships under my belt, and I feel like I am ready for the job market, but unsure if I should pursue a Master's degree in CS / DS.\n\nRight now the market does not seem to be great for junior roles, so I am not sure what I should do.\n\nFollowing the post!",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1732892905,
+      "score": 1,
+      "link_id": "t3_1h2nc2i",
+      "parent_id": "t3_1h2nc2i"
+    },
+    {
+      "id": "lzhb6m5",
+      "body": "Right now, this is not a reality. Code generation is consistently shitty on a complex codebase and won't help you unless it is boilerplate code.\n\nIn most scenarios, you are dealing with complex dynamics inside of a codebase, and ways to do things that are unique to that project. The notion that a general AI can take a codebase and, for example, fix bugs or generate new features is preposterous.\n\nTo conclude, the metric you mentioned is uninformative. I can copy and paste GPT code changing 2 or 3 lines as needed, and that will make a 20-line function written for about 90% of its entirety by AI. But the 3 lines changed are crucial as bug fixes or whatever the case may be.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1732835736,
+      "score": 2,
+      "link_id": "t3_1h26qfc",
+      "parent_id": "t1_lzh9upd"
+    },
+    {
+      "id": "lzh3e0j",
+      "body": "it's an internship, you are supposed to be learning. Even if it does not go your way, it won't be your last chance. Also, now you know to try and dig a bit deeper in the topics (especially if you have some sort of interview coming up). In an API role, it would feel natural to go and look at what an API is and how to implement it at its very basic idea. Don't worry, interviews are hard, and interviewers tend to be quite understanding.\n\nI once had an interview for a Data Scientist Intern role where I did good in the general ML knowledge part, but completely bombed the NLP-related part, but still passed. Do not worry, this shit is completely random.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1732832632,
+      "score": 1,
+      "link_id": "t3_1h0retf",
+      "parent_id": "t1_lz6dj41"
+    },
+    {
+      "id": "lzh2in2",
+      "body": "It's bs, the guy sells GPUs... Don't believe everything you hear, software engineers are here to stay, AI doing all the job is very farfetched, to say the least.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1732832298,
+      "score": 6,
+      "link_id": "t3_1h26qfc",
+      "parent_id": "t3_1h26qfc"
+    },
+    {
+      "id": "lzb9ssn",
+      "body": "I disagree. Most ML Engineer roles are basically an hybrid between Data Engineering and DevOps and further studies are useless. If you want to go towards a research-oriented Applied Science / Data Science role, then it is another story. I still think a Masters is not completely needed, and work experience in an adjacent role should be preferred, but then it has some meaning. If you end up doing Data Eng and DevOps no reason to study 2 more years for that.",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1732745027,
+      "score": -1,
+      "link_id": "t3_1h14shu",
+      "parent_id": "t1_lzag5e1"
+    },
+    {
+      "id": "lxlzf4x",
+      "body": "can I dm you?",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1731860319,
+      "score": 1,
+      "link_id": "t3_1g0lntf",
+      "parent_id": "t3_1g0lntf"
+    },
+    {
+      "id": "lx9prya",
+      "body": "US or EU?",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1731681491,
+      "score": 1,
+      "link_id": "t3_1gqoqmf",
+      "parent_id": "t3_1gqoqmf"
+    },
+    {
+      "id": "lvv7zkd",
+      "body": "Leadership Principles, Amazon is big on creating stories that align with their company values",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1730968018,
+      "score": 6,
+      "link_id": "t3_1glgxxp",
+      "parent_id": "t1_lvv2f9e"
+    },
+    {
+      "id": "lvs7na0",
+      "body": "happened to me aswell but the runtime feature is worthless unless your solution is the worst possible one",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1730927176,
+      "score": 3,
+      "link_id": "t3_1gl8y6c",
+      "parent_id": "t3_1gl8y6c"
+    },
+    {
+      "id": "lvizm2p",
+      "body": "I’ll drop you a dm!",
+      "author": "OverallFood8550",
+      "subreddit": "berlin",
+      "created_utc": 1730817278,
+      "score": 1,
+      "link_id": "t3_1gk5kde",
+      "parent_id": "t1_lvixfx9"
+    },
+    {
+      "id": "lvizfbu",
+      "body": "I just need a deck, I have my own trucks that I am very loyal to🙃",
+      "author": "OverallFood8550",
+      "subreddit": "berlin",
+      "created_utc": 1730817215,
+      "score": 1,
+      "link_id": "t3_1gk5kde",
+      "parent_id": "t1_lviikjf"
+    },
+    {
+      "id": "lvizbbs",
+      "body": "I’ll dm you 8.25 is what I usually use",
+      "author": "OverallFood8550",
+      "subreddit": "berlin",
+      "created_utc": 1730817177,
+      "score": 1,
+      "link_id": "t3_1gk5kde",
+      "parent_id": "t1_lvimzbb"
+    },
+    {
+      "id": "lvbj9v8",
+      "body": "Try to look at the explanation, then implement the solution yourself based on the explanation he gives.\n\nThat's how I do it and it helps you retain much more information than just looking at the code and rewriting it.",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1730709938,
+      "score": 6,
+      "link_id": "t3_1gj9d78",
+      "parent_id": "t3_1gj9d78"
+    },
+    {
+      "id": "luxi01k",
+      "body": "[tryexponent.com](http://tryexponent.com)",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1730499541,
+      "score": 1,
+      "link_id": "t3_1ggs7x2",
+      "parent_id": "t1_lus4rfw"
+    },
+    {
+      "id": "lu2tqet",
+      "body": "If that is all you can find, then I would take it if I were you, and maybe keep looking elsewhere if the role does not fulfill you. I still do not understand what automation engineering means, can you provide more details on that?",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1730065436,
+      "score": 1,
+      "link_id": "t3_1gdkh2e",
+      "parent_id": "t3_1gdkh2e"
+    },
+    {
+      "id": "ltiffc2",
+      "body": "You can create a graph and handle your sets manually and build the solution incrementally... If you get the correct logic for the first time, perfect, otherwise you're right, debugging that made me go fing crazy",
+      "author": "OverallFood8550",
+      "subreddit": "leetcode",
+      "created_utc": 1729777622,
+      "score": 2,
+      "link_id": "t3_1gasc5e",
+      "parent_id": "t1_ltgi5ra"
+    },
+    {
+      "id": "lr2uio4",
+      "body": "you won't have much success with bigger companies, but maybe dming people from small / medium-sized startups can be a good idea",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1728475365,
+      "score": 1,
+      "link_id": "t3_1fzowvr",
+      "parent_id": "t3_1fzowvr"
+    },
+    {
+      "id": "lqxq0b0",
+      "body": "London",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1728394204,
+      "score": 1,
+      "link_id": "t3_1f7xbh6",
+      "parent_id": "t1_lqxpnq3"
+    },
+    {
+      "id": "lqxpgpe",
+      "body": "Neetcode 150 for most important topics + OOP basics - when's your interview and for which city did you apply?",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1728393998,
+      "score": 1,
+      "link_id": "t3_1f7xbh6",
+      "parent_id": "t1_lqxabm9"
+    },
+    {
+      "id": "lqu0pql",
+      "body": "same, lmk if you already went through with the interview - i may have a couple of questions",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1728332841,
+      "score": 1,
+      "link_id": "t3_1f7xbh6",
+      "parent_id": "t1_lq9o2l1"
+    },
+    {
+      "id": "lf08lfc",
+      "body": "Congrats, just out of curiosity, where is the job located?",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721984351,
+      "score": 167,
+      "link_id": "t3_1ecjc9a",
+      "parent_id": "t3_1ecjc9a"
+    },
+    {
+      "id": "levedvc",
+      "body": "I can't seem to understand what the problem is. You can apply to both FT and internships and see what you get, the two things are not mutually exclusive. Since I am assuming you do not have much to do that is more important than looking for a job, why not look for any internship or FT possibilities?\n\nI do not know about companies hiring for non-summer sessions but the safest bet is probably trying to work with startups since they do not necessarily adhere to the classic corporate hiring cycles.\n\nRegarding the resume, just write whatever you think is best, it does not really matter, just make sure the job description you write down reflects what the title is in some way.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721915914,
+      "score": 3,
+      "link_id": "t3_1ebsf5h",
+      "parent_id": "t3_1ebsf5h"
+    },
+    {
+      "id": "lev8ij3",
+      "body": "Honestly not sure, I have never considered it.\n\nCopenaghen has a high COL, so it is probably not the cheapest option. The Uni should have an AI center but I do not think it is ranked very highly on most rankings, but do not take my information for good, better to double check.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721913787,
+      "score": 1,
+      "link_id": "t3_1eazjc8",
+      "parent_id": "t1_leuxesr"
+    },
+    {
+      "id": "lep46cg",
+      "body": "I have heard very good things about University van Amsterdam (UvA) for their AI Masters. It should be very research-oriented and give you lots of opportunities to do research in AI if you want. It should also be quite easy to get in, but the COL in Amsterdam is quite high (if you are in Padova, it is probably going to be 2-3x more expensive, you could mitigate it by working as a research assistant in one of the university's labs or any other random student job).\n\nOther nice alternatives are:\n\n* ETH / EPFL have MSc in Computer Science or Data Science that let you choose lots of courses and make it as much AI-oriented as you want (with very little constraints).\n* TUDelft has good MSc in AI programs.\n* TUM also\n\nThe COL is quite high for all these cities but universities may offer some financial help / research assistant / teaching assistant or other jobs of that nature that could help you sustain yourself in case you are not able to do that yourself.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721823782,
+      "score": 1,
+      "link_id": "t3_1eazjc8",
+      "parent_id": "t3_1eazjc8"
+    },
+    {
+      "id": "lee6ims",
+      "body": "There's thousands of companies, I would just keep looking for something else and I am sure you'll find something. The worst thing that can happen is that you find something else and drop this.\n\nYou need to do what is best for you, this is not the only company in the world, and even if you leave a bad impression, there are thousands of other companies you can apply to, probably better than this one.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721661991,
+      "score": 2,
+      "link_id": "t3_1e94qqt",
+      "parent_id": "t1_ledmbwq"
+    },
+    {
+      "id": "led02q5",
+      "body": "No reason to decline it if you do not have anything else. Anything is better than nothing and can give you some sort of meaningful experience (even if it is maybe not the internship you dreamed of, you can still spin it in a way that makes your job look way more technical than it is). \n\nThat said, you can accept and keep looking for something different, I assume you are looking for an internship in Summer 2025, and it is still July 2024, so there is absolutely no reason to panick, I (am in EU, and yes, it may be a bit different, but) got my offer in May for this summer (ended up declining it but still got it).\n\nYou have lots of time, it is nice that you already got something, just keep looking and maybe you'll manage to find something better!\n\nAlso, if the worst-case scenario happen and you end up doing business major's bs, just remember your role could change depending on necessity and how much you insist lol, so no need to worry now.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721644232,
+      "score": 5,
+      "link_id": "t3_1e94qqt",
+      "parent_id": "t3_1e94qqt"
+    },
+    {
+      "id": "lecyvf6",
+      "body": "I am pretty sure the cooldown period only applies if you get to the interview stage and you are then rejected, or at least that was what my recruiter told me. I applied for an SDE Intern position back in October, got an interview in November and did not pass, and had to wait till May to reapply to any role.\n\nStill, if you only get the assessment and nothing else, there is no cooldown, hence no reason to not apply",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1721643478,
+      "score": 8,
+      "link_id": "t3_1e9a1rb",
+      "parent_id": "t1_lecw7xw"
+    },
+    {
+      "id": "ldkuwaf",
+      "body": "Honestly, my first internship was amazing. I worked part-time during the semester (16 hours) which is tough but very manageable in my opinion, you'll simply not have much free time, and I was still able to keep my averages pretty high (29ish/30).\n\nI worked in Milan, somewhat close to my university, and I was going to the office once or twice a week. It was a very small startup, about 14 people, and only 5 developers (me included). I really enjoyed this because, with such a small team, you can really make an impact on the product / how you work internally right away. I mainly worked on a Python-driven AWS-Lambda API, on a CLI interface to interact with it, and integration in the codebase with 3rd party services.\n\nHardest part was honestly just learning how things really work in the real-world. Since the team was so small, we did not have a test-dedicated team or anything like that, so for each function you wrote you needed to write some tests and run them to ensure everything was working as you expected.  \nI promise it is harder than it sounds lol. Then you are also working with a pretty big codebase, which you need to get to know and understand how it works in handling different things.\n\nAs I said, it'll be a bit of a learning curve, and you'll feel like you was not prepared for all that, but it's all right, it gets over quick.",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1721203206,
+      "score": 2,
+      "link_id": "t3_1e4isao",
+      "parent_id": "t1_ldi7bdt"
+    },
+    {
+      "id": "ldhhjr8",
+      "body": "Ciao, also a student from Northern Italy majoring in AI. \n\nFinding an internship is hard, especially with no experience. For me, it took a LOT of time before I got any significant response for a while as I only had a small remote internship project at a random startup. So do not worry as it is naturally going to be very hard.\n\nWhat helped me was applying to smaller, local companies (you get a much better callback rate with companies based in Italy in my experience) to build up your resume and skills. I did that myself working part time in a startup in Milan along with my studies. With that added experience on top of my resume, I was able to pass the initial CV screening more often and, when you actually get interviewed by a larger, more important company, you’ll have a LOT more to talk about and some actual skills that are useful in the industry.\n\nWorking at the startup was a very positive experience, and I developed skills that helped me get in at a very big finance company.\n\nHope this was helpful!\n\nNothing specific about the resume, maybe simply try to milk the experience you have a bit more",
+      "author": "OverallFood8550",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1721153213,
+      "score": 3,
+      "link_id": "t3_1e4isao",
+      "parent_id": "t3_1e4isao"
+    },
+    {
+      "id": "ldbqkyw",
+      "body": "Fair enough",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721066760,
+      "score": 1,
+      "link_id": "t3_1e3xfnt",
+      "parent_id": "t1_ldbfm2z"
+    },
+    {
+      "id": "ldbegsg",
+      "body": "which industry? Which size company? Is it an early-stage or late-stage startup? You won't get any good questions without any detail",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1721062876,
+      "score": 1,
+      "link_id": "t3_1e3xfnt",
+      "parent_id": "t3_1e3xfnt"
+    },
+    {
+      "id": "lcnhsde",
+      "body": "It's all good, your first experience is going to suck, you have no experience working in the real world.\n\nI had the same experience at my first  internship, working on a real-world project is much different than working on your little side project. If that is what you are worried about, do not worry, you'll get the hang of it, it is a skillset that you develop as time goes on.\n\nIf the problem is you absolutely hate what you are doing, then it is a different thing and you should consider pivoting.\n\nHope this was helpful, good luck!",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1720692318,
+      "score": 1,
+      "link_id": "t3_1e0csmn",
+      "parent_id": "t3_1e0csmn"
+    },
+    {
+      "id": "lbvrsxw",
+      "body": "I'll be interning at Deutsche Bank in Berlin starting from September and I was asked no leetcode. Mainly experience about previous internships, API design, drilling down on HTTP Protocol and DB interactions when designing an API endpoint + theory about endpoints... Also, lots of questions about OOP basics like inheritance, polymorphism, SQL vs NoSQL DBs and what I would use for each scenario.\n\nAlso, before final interview I had to go through application, logic + numerical reasoning round and behavioral with SSH.  \n\n\nJust for reference I applied to their Technology, Data, and Innovation (TDI) Internship position.\n\nHope this was helpful.",
+      "author": "OverallFood8550",
+      "subreddit": "csMajors",
+      "created_utc": 1720267184,
+      "score": 1,
+      "link_id": "t3_1dvfjdc",
+      "parent_id": "t3_1dvfjdc"
+    },
+    {
+      "id": "lbl98sq",
+      "body": "I was worried about that... we'll see how it turns out. I would love to experience working in a research lab because in Italy we don't really have that possibility as an undergrad, so it'd be nice to gain some research experience",
+      "author": "OverallFood8550",
+      "subreddit": "UIUC",
+      "created_utc": 1720097340,
+      "score": 0,
+      "link_id": "t3_1dv2cg8",
+      "parent_id": "t1_lbl65k2"
     }
   ]
 }

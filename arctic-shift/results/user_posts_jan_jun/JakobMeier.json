@@ -1,6 +1,51 @@
 {
   "username": "JakobMeier",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dlaxai",
+      "title": "Running Rust in a Wasm Sandbox, the How and the Why",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1718994321,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "",
+      "url": "https://www.jakobmeier.ch/wasm-road-2"
+    },
+    {
+      "id": "1df7bd4",
+      "title": "Why WebAssembly Came to the Browser (Wasm in the Wild, Part 2)",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1718306594,
+      "score": 4,
+      "num_comments": 4,
+      "selftext": "",
+      "url": "https://www.jakobmeier.ch/wasm-road-1"
+    },
+    {
+      "id": "1ckxjjq",
+      "title": "Fundamentals of WebAssembly (Wasm in the wild series, part 1)",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1714932912,
+      "score": 11,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://www.jakobmeier.ch/wasm-road-0"
+    },
+    {
+      "id": "1bjdl1y",
+      "title": "Teaser video for my little side-project",
+      "author": "JakobMeier",
+      "subreddit": "shuffle",
+      "created_utc": 1710941706,
+      "score": 15,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://v.redd.it/3buh7a9crhpc1"
+    }
+  ],
   "comments": [
     {
       "id": "kh1s4xv",
@@ -21,6 +66,96 @@
       "score": 9,
       "link_id": "t3_192colp",
       "parent_id": "t3_192colp"
+    },
+    {
+      "id": "l9vw8i5",
+      "body": "No worries, it doesn't strike me as hostile. Your feedback is appreciated! And I'm happy to elaborate further where things are unclear.\n\nFirst, maybe I can help clear up some of the confusion about Docker.\n\nDocker is an abstraction layer to make the Linux isolation tools that you mentioned easier to use. You are right, many devs use it to create a standardized development environment. It makes sense, in this sandbox they can install whatever they want and other devs can trust it won't destroy their system. But that specific use case was not the reason Docker was created. It was about cheaper-than-VM isolation. Which just happens to be useful for the \"works on my machine\" problem.\n\nSecond, I think you misunderstood what I meant by isolation of endpoints. What I meant is that requests by user X and user Y should run in isolation. Look up Heartbleed for the kind of problem you have when a bug let's you read not only arbitrary memory regarding your request, but even memory from requests of other users. If you put all requests separate sandboxes, you can guarantee this is impossible without even looking at the code. Memory corruption bugs may happen but their impact is limited due to the sandbox. This is about security in depth, not about trusting some parts of your code more than another. Sorry if I went over it too quickly in the article and didn't explain it properly. I know memory bugs is not something we have to deal with often in this subreddit. :P\n\nFinally, Doom. It's understandable that people only remember or understand this part of Wasm. Portability of non-browser code to run in the browser make for great demos. Maybe I didn't do a great job at describing the motivation for Wasm on the backend, I'll try to put more effort in the motivation next time.\n\nBut if you want to understand one more Wasm use case, maybe revisit the section regarding backend frameworks in my article. Maybe also look up one or two of the linked projects. They essentially created a new cloud hosting paradigm on top of Wasm, only possible because it lets them cheaply sandbox any (Rust) code that needs to run on the backend.",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1719138790,
+      "score": 1,
+      "link_id": "t3_1dlaxai",
+      "parent_id": "t1_l9t11tq"
+    },
+    {
+      "id": "l9nif9w",
+      "body": "Hi!\n\nThis is the next post in the \"Wasm in the Wild\" series. In the series, it's called \"Why WebAssembly came to the Backend\" following \"Why WebAssembly Came to the Browser\". Next will be \"Why WebAssembly Came to Web3\".\n\nI post it here under a slightly different title that describes it better as a standalone post. The original title puts too much emphasis on the \"why\". The post it mostly about  how to run Rust on any machine, in a sandbox, using Wasm. With some insights into how the sandboxing works under the hood.\n\nI hope you enjoy it and learn something!",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1718994743,
+      "score": 2,
+      "link_id": "t3_1dlaxai",
+      "parent_id": "t3_1dlaxai"
+    },
+    {
+      "id": "l8kbiog",
+      "body": "Maybe some context on the submission, as the title can make it seem it's in the wrong subreddit.\n\nThis particular post indeed only has maybe 10% Rust content, just to let you know upfront. But the series overall will be much more Rust heavy, once the WebAssembly concepts are explained.\n\nI started this series with inspiration from a few Rust-only and sometimes Rust+JS projects I worked on over the last \\~5 years, all involving Wasm in one way or another. I think several unique concepts arise from using Rust compiled to Wasm. I wanted to share them in a blog for a while. But as always, I got carried away while writing, as I want to establish enough context for readers to understand.\n\nFor example, to understand what borrowing or moving a Rust object to JS means, one needs to understand how memory management works in Wasm. And for that to make sense, one has to understand sanboxing and it's particularities in the browser world. This also come with history, which is relevant to understand the broader picture. I rather establish this context than glance over it and assume readers to know it all.\n\nI hope this helps to set expectations right and I hope most people agree with me that it makes sense to post in this subreddit. Otherwise, let me know and I will be more conservative with my posts in the future.",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1718363941,
+      "score": 2,
+      "link_id": "t3_1df7bd4",
+      "parent_id": "t3_1df7bd4"
+    },
+    {
+      "id": "l8k8ii4",
+      "body": "Thanks for the feedback, glad to hear you learned something!",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1718362269,
+      "score": 2,
+      "link_id": "t3_1df7bd4",
+      "parent_id": "t1_l8k1hnc"
+    },
+    {
+      "id": "kuc5b0a",
+      "body": "The good news is the funds are probably not destroyed. If you send tokens to an invalid address on the Near Protocol network, it will simply return the funds to the sender. And since [NEP492](https://github.com/near/NEPs/blob/master/neps/nep-0492.md) all ethereum addresses are invalid on Near. Hence I would guess your funds have been returned.\n\nThe bad news is, since you used the coinbase app, you probably have to go through their support to find out what exactly happened to your funds and maybe recover it for you.\nThe only thing you might do on your own is check on nearblocks.io if you see any transactions on the ethereum address or your near address if you know it. But even if you find the transaction, that still won't make the funds reappear in the coinbase app.\n\nI hope that helps and you will get the funds back 🤞",
+      "author": "JakobMeier",
+      "subreddit": "nearprotocol",
+      "created_utc": 1710141539,
+      "score": 6,
+      "link_id": "t3_1bbvy9a",
+      "parent_id": "t3_1bbvy9a"
+    },
+    {
+      "id": "krqcujt",
+      "body": "Today sweat has only 160k daily active wallets. Kai-ching almost 800k.",
+      "author": "JakobMeier",
+      "subreddit": "u_dappsnear",
+      "created_utc": 1708671002,
+      "score": 1,
+      "link_id": "t3_1axaqfw",
+      "parent_id": "t1_krmrmoi"
+    },
+    {
+      "id": "kqny8il",
+      "body": "Looks interesting but I couldn't find much beyond the language syntax description in the readme.\n\nWhat is the goal / main advantage of Void over existing tools?\nWhat does first class wasm support mean to you?\nIs JS interoperability possible in the browser? In node?\nAre there any example full stack app implemenations in Void to look at?\n\nWould love to learn more about those questions.",
+      "author": "JakobMeier",
+      "subreddit": "WebAssemblyDev",
+      "created_utc": 1708075970,
+      "score": 1,
+      "link_id": "t3_1anullj",
+      "parent_id": "t3_1anullj"
+    },
+    {
+      "id": "kga033r",
+      "body": "Yeah Error is the one example you are bound to hit very quickly. :)\n\nBut there are more examples. Like `Value` in serde_json vs serde_toml for example, if you want to parse different formats.\nOr `Iter`, the struct you get when calling `something.iter()`. Same name but a completely different struct for different collections. Here you have name collisions within std itself. But you rarely need to pull the actual types in so you wouldn't  need to know in most circumstances.\n\nThe deeper your Rust journey goes, the more often you see this. Perhaps for this reason, but also other reasons, I found myself gradually using globs less and less. Maybe after 3 years I mostly stopped using them. But I don't hate it if I review code with globs, it's not worth the bikeshedding IMO.",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1704376267,
+      "score": 3,
+      "link_id": "t3_18xuluv",
+      "parent_id": "t1_kg9wlmj"
+    },
+    {
+      "id": "kg9tsyd",
+      "body": "Type name collisions in Rust are also more common than in C#, purely based on conventions. The type `Error` is defined and exported in many crates whereas in C#, I think, naming it `MyCrateError` would be more common.\n\nType name collisions can lead to compilation errors but are also generally confusing when looking at a function signature and it's not clear in which crate a type is defined.\nExplicit imports like `use my_crate::Error` at least let me resolve my confusion with one look at the top of the file. Globs will make me guess.\n\nHowever, personally, I often like to write `my_crate::Error` over `Error` in my code and only import as `use my_crate`. Then globs would be redundant anyway.",
+      "author": "JakobMeier",
+      "subreddit": "rust",
+      "created_utc": 1704373257,
+      "score": 2,
+      "link_id": "t3_18xuluv",
+      "parent_id": "t3_18xuluv"
     }
   ]
 }

@@ -21,6 +21,146 @@
       "score": 3,
       "link_id": "t3_18vae49",
       "parent_id": "t1_kfppqfu"
+    },
+    {
+      "id": "l4akshj",
+      "body": "Elo for GPT-4o is out: [https://chat.lmsys.org/](https://chat.lmsys.org/)\n\nThe gap in Chatbot Elo vs Turbo was totally inflated. The gap in coding vs Turbo is now merely 40 Elo (though with sizeable uncertainty).\n\nEquating the coding category with difficulty is silly anyways (cf. \"closed as duplicate\"). Probably more impacted by the speed & length of the response, especially the latter. In my experience, GPT-4o is much more verbose than GPT-4Turbo (unsurprisingly, given the cost difference).\n\nDuring hype like gpt2-chatbot, there will be a huge shift in the distrubtion of users (thus also the distribution of questions being asked), which makes Elo comparisons misleading.",
+      "author": "randomperson212351",
+      "subreddit": "mlscaling",
+      "created_utc": 1715860210,
+      "score": 1,
+      "link_id": "t3_1cr5sk0",
+      "parent_id": "t1_l3vtgcj"
+    },
+    {
+      "id": "kvq36tv",
+      "body": ">Do you have a source for that?\n\n[- We’re still committed to leading open-weight models! We ask for a little patience, 1.5k H100s only got us that far.](https://twitter.com/arthurmensch/status/1762818733016322168)\n\n>Same question here, I would be interested to see what people from these companies are saying on this topic. Do you have any links on that?\n\nWell, the recent Altman podcast, the two podcasts with Dario Amodei, the podcast with Hassabis, lots and lots of tweets by employees ([e.g.](https://twitter.com/leopoldasch/status/1758311033595363793)), and also simply their actions: they're buying many billions worth of hardware. The messaging is as clear as it gets: they believe in scaling.",
+      "author": "randomperson212351",
+      "subreddit": "slatestarcodex",
+      "created_utc": 1710938621,
+      "score": 1,
+      "link_id": "t3_1bizztx",
+      "parent_id": "t1_kvq1x5e"
+    },
+    {
+      "id": "kvpmeaj",
+      "body": "So you're making a forward looking statement, that GPT-4 -> \\[next-gen model\\] will not make much progress. That may be true, but I don't think the evidence you've cited is much of an indication in favour of that.\n\n* Mistral-Large used 1500 H100s, thus definitely did not match GPT-4 in the amount of compute used and therefore isn't evidence for or against your thesis. It does however suggest that the industry continues to be bottlenecked by GPU supply constraints, which has slowed down progress by a lot. (Saying that Mistral-Medium is more or less the same as GPT-4 in competency is a huge stretch.)\n* Gemini Ultra used roughly as much compute as GPT-4, and was slightly worse. Given the existence of Gemini 1.5 Pro, the architecture of Gemini Ultra must have been pretty bad. Again, not really indicating much IMO.\n* Claude 3 is a black box, we have no clue how much compute they used. However, we do know that Anthropic does not want to 'meaningfully' advance the frontier, and Claude 3 Opus is consistent with that. Note also that Claude 3 Opus is \\_not\\_ the rumored $1 Billion 'Claude-Next' model. That one will be finished towards the end of the year. I don't think it would even be physically possible for Anthropic to have trained a $1Billion model by now, there simply wasn't enough compute available.\n\n>We're also reaching limits in terms of training material.\n\nThere are promising ways to get around that, e.g. synthetic data. Both Dario Amodei and Demis Hassabis seem pretty confident that lack of data will not be a bottleneck.\n\n>Those marginal returns are visible if you play around with local OSS models. The difference between a 3 billion parameters model and a 7 billion parameters model is huge, but less so between 7b and 34b, and even less than between 34b and 70b models.\n\nI thought we were in agreement that GPT-4 is way more useful than GPT-3.5? The difference between the two being the scale.  \n\nNote that people have been saying for a long time now that scaling would stop working any moment now. It happened in 2022 too, when people were speculating why GPT-4 was taking so long. Meanwhile, all the people working at OpenAI, Anthropic and DeepMind continue to be extremely bullish on scaling.",
+      "author": "randomperson212351",
+      "subreddit": "slatestarcodex",
+      "created_utc": 1710929445,
+      "score": 1,
+      "link_id": "t3_1bizztx",
+      "parent_id": "t1_kvpgj7l"
+    },
+    {
+      "id": "kvpdgzo",
+      "body": "All I was saying is that we don't know the full picture as to how much more economically useful GPT-4 is compared to GPT-3.5 because it takes time to integrate these models into the economy. However, I claim that GPT-4 is a lot more useful than GPT-3.5. That's it.\n\nSince IMO GPT-4 is a lot more useful than GPT-3.5, it does not suggest that \"the marginal returns from increasing model size or improving the training dataset look depleted for LLM\". Did I misinterpret that sentence?",
+      "author": "randomperson212351",
+      "subreddit": "slatestarcodex",
+      "created_utc": 1710922629,
+      "score": 3,
+      "link_id": "t3_1bizztx",
+      "parent_id": "t1_kvpc2zm"
+    },
+    {
+      "id": "kvpb9ca",
+      "body": "Not sure what your point is. ChatGPT has lots of users, yes, but that is not at all the only use case for LLMs, just the most obvious one.",
+      "author": "randomperson212351",
+      "subreddit": "slatestarcodex",
+      "created_utc": 1710920875,
+      "score": 3,
+      "link_id": "t3_1bizztx",
+      "parent_id": "t1_kvpag4q"
+    },
+    {
+      "id": "kvpabkw",
+      "body": ">the marginal returns from increasing model size or improving the training dataset look depleted for LLM.\n\nI don't think that's true at all. I think -- if given enough time -- GPT-4 would be at least an order of magnitude more economically useful than GPT-3 (it probably already is). Of course it takes time to properly integrate these (weak) models into the economy, so adoption will never reach its full potential before the next generation of models is released.",
+      "author": "randomperson212351",
+      "subreddit": "slatestarcodex",
+      "created_utc": 1710920139,
+      "score": 7,
+      "link_id": "t3_1bizztx",
+      "parent_id": "t1_kvo7qcz"
+    },
+    {
+      "id": "kujqk63",
+      "body": "Why would they already start writing a blog post about the model when it's still months away from being finished? Maybe the date is just a placeholder, and the release is soon.",
+      "author": "randomperson212351",
+      "subreddit": "singularity",
+      "created_utc": 1710263745,
+      "score": 13,
+      "link_id": "t3_1bd1xya",
+      "parent_id": "t1_kujnnns"
+    },
+    {
+      "id": "ktx8oe6",
+      "body": ">It's like they're all hitting the same speed hump in the road.\n\nThe speed bump being H100 supply issues, maybe?\\*\n\nMistral Large was trained with merely 1.5k H100s.\n\nInflection 2 was trained on 5k H100s (despite announcing a 22k H100 cluster earlier).\n\nDemis Hassabis says Gemini Ultra was trained on roughly as much compute as GPT-4 (and, given Gemini 1.5 Pro, the architecture of Gemini Ultra could very well have been worse than GPT-4's architecture).\n\n>Another explanation is that scaling is simply borked, and nobody wants to admit it.\n\nWe don't know of a single model that has significantly surpassed GPT-4's FLOP count. The really big H100 clusters have only recently come onlie. We'll see the results soon enough.\n\n\n\n\\*Also interesting [tweet by Dan Hendrycks](https://twitter.com/DanHendrycks/status/1729589936968409237) on the supply issues:\n\n>Things that have most slowed down AI timelines/development:\n\n>\\[...\\]\n\n>- NVIDIA, by distributing GPUs widely rather than to buyers most willing to pay\n\n>\\[...\\]",
+      "author": "randomperson212351",
+      "subreddit": "mlscaling",
+      "created_utc": 1709909800,
+      "score": 1,
+      "link_id": "t3_1b91ota",
+      "parent_id": "t1_ktut40s"
+    },
+    {
+      "id": "ktskrtk",
+      "body": "I think this can mostly be explained by the higher refusal rates of Claude. I've still been refused rather innocuous prompts by Claude, which GPT-4 would always answer.\n\nWe already know that refusal rates matter a lot -- Claude 2.1 is technically a better model than Claude 1, but it nevertheless has 30 Elo less due to the higher refusal rates.",
+      "author": "randomperson212351",
+      "subreddit": "singularity",
+      "created_utc": 1709832667,
+      "score": 27,
+      "link_id": "t3_1b8yucm",
+      "parent_id": "t3_1b8yucm"
+    },
+    {
+      "id": "ks735qu",
+      "body": ">Aus Ernährungssicht ist Cola oder Sprite Zero aber 1000x besser als Apfelsaft, weil keine Kalorien.\n\nKalorien sind aber auch ziemlich wichtig, Zucker auch. Es macht halt wenig Sinn einen \"Nutri-Score\" pro Lebensmittel anzugeben wenn es bei der Qualität deiner Ernährung auf alle Lebensmittel gleichzeitig darauf ankommt, die du zu dir nimmst.",
+      "author": "randomperson212351",
+      "subreddit": "de",
+      "created_utc": 1708940100,
+      "score": 1,
+      "link_id": "t3_1b0bcaj",
+      "parent_id": "t1_ks710ni"
+    },
+    {
+      "id": "kqqpgdl",
+      "body": ">No is better, because building longer runways would mean sealing off even more land and habitat loss for animals and plants\n\nThat's just silly. Are you opposed to pretty much any construction? The few hundred meters aren't going to do anything to animals or plants.",
+      "author": "randomperson212351",
+      "subreddit": "zurich",
+      "created_utc": 1708116873,
+      "score": 1,
+      "link_id": "t3_1as8eib",
+      "parent_id": "t3_1as8eib"
+    },
+    {
+      "id": "kpwosla",
+      "body": "The data you've cited refers to income poverty. Obviously people who don't work anymore will have less income. They've also had 40 years saving up for their retirement, and their expenses drop too when they're older. So this statistic is meaningless.\n\nMeanwhile surveys of pensioners show they've never felt better. [https://twitter.com/Marius\\_Brulhart/status/17498112566626513](https://twitter.com/Marius_Brulhart/status/17498112566626513)",
+      "author": "randomperson212351",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707644202,
+      "score": 1,
+      "link_id": "t3_1acikxp",
+      "parent_id": "t1_kjwvrhu"
+    },
+    {
+      "id": "kphbc7k",
+      "body": "Somehow it's only 17 CHF in Switzerland, usually it's more expensive than all other countries",
+      "author": "randomperson212351",
+      "subreddit": "singularity",
+      "created_utc": 1707398844,
+      "score": 1,
+      "link_id": "t3_1alstf8",
+      "parent_id": "t1_kpgut7y"
+    },
+    {
+      "id": "kippe8x",
+      "body": "In the coming years big tech companies will invest tens of billions. GPT-4 will be outdated by the end of this year.",
+      "author": "randomperson212351",
+      "subreddit": "Switzerland",
+      "created_utc": 1705737964,
+      "score": 2,
+      "link_id": "t3_19alno3",
+      "parent_id": "t1_kipelax"
     }
   ]
 }

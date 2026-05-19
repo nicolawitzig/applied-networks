@@ -1,6 +1,7 @@
 # network analysis
 networkx>=3.0
 pyvis
+python-louvain
 
 # reddit scraping + ollama API
 requests

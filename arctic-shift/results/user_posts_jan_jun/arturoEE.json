@@ -11,6 +11,166 @@
       "score": 6,
       "link_id": "t3_198024d",
       "parent_id": "t1_ki3ydop"
+    },
+    {
+      "id": "l8x75xj",
+      "body": "If they want to give the city shit tons of money for free, I'm all for it.",
+      "author": "arturoEE",
+      "subreddit": "sanfrancisco",
+      "created_utc": 1718576893,
+      "score": 2,
+      "link_id": "t3_1dhbeuw",
+      "parent_id": "t1_l8vvq3g"
+    },
+    {
+      "id": "l7uqbhr",
+      "body": "Look just like the ones we have here in Zürich :)",
+      "author": "arturoEE",
+      "subreddit": "transit",
+      "created_utc": 1717959325,
+      "score": 1,
+      "link_id": "t3_1dbfjn5",
+      "parent_id": "t3_1dbfjn5"
+    },
+    {
+      "id": "l61g2se",
+      "body": "Normally in addition to the technical interviews in the 4-5 loop, there will be a team/culture fit soft interview.",
+      "author": "arturoEE",
+      "subreddit": "chipdesign",
+      "created_utc": 1716911798,
+      "score": 1,
+      "link_id": "t3_1d2d9us",
+      "parent_id": "t3_1d2d9us"
+    },
+    {
+      "id": "l1utx0p",
+      "body": "Fair enough haha :) and yes, I absolutely agree -- it's more or less meaningless to attribute inventions to countries, only people and maybe systems (e.x. Bell Labs). And yeah, even if you attribute it to a specific person, whatever the invention, it was certainly built off the work of many others.",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1714430430,
+      "score": 1,
+      "link_id": "t3_1cej7y1",
+      "parent_id": "t1_l1urupe"
+    },
+    {
+      "id": "l1umisg",
+      "body": "His citizenship was Polish at the time he „invented the FET,“ and yes, born in Lviv, so I am not sure why you seem to think that he should be considered German, or the FET a „German invention.“",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1714427616,
+      "score": 2,
+      "link_id": "t3_1cej7y1",
+      "parent_id": "t1_l1ujayv"
+    },
+    {
+      "id": "l1m7m0k",
+      "body": "Saying the transistor is a German invention is a crazy stretch. The MOSFET, which is the basis of modern computers, was proposed by Lilienfeld in 1926 (polish-american). Welker simultaneously developed a point contact transistor at the same time as Bell Labs (Bardeen and Britain were first but to the public it was around the same time), but Bell labs invented and scaled the BJT (Shockley) which was actually useful unlike the point contact transistor.",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1714293846,
+      "score": 1,
+      "link_id": "t3_1cej7y1",
+      "parent_id": "t1_l1k8fdy"
+    },
+    {
+      "id": "kwm9qki",
+      "body": "130k bachelors 2022",
+      "author": "arturoEE",
+      "subreddit": "ECE",
+      "created_utc": 1711445567,
+      "score": 3,
+      "link_id": "t3_1bo1aix",
+      "parent_id": "t3_1bo1aix"
+    },
+    {
+      "id": "ku76x8s",
+      "body": "Or V = I/G for all you conductance fans out there.",
+      "author": "arturoEE",
+      "subreddit": "learnmath",
+      "created_utc": 1710063201,
+      "score": 3,
+      "link_id": "t3_1bawkd5",
+      "parent_id": "t1_ku5qqwa"
+    },
+    {
+      "id": "ktrh9r0",
+      "body": "Yes it takes a little practice.\n\nThere is a good series called Signal flow graphs in 12 short lessons, if you're curious.\n\n[https://tube.switch.ch/channels/d206c96c](https://tube.switch.ch/channels/d206c96c)",
+      "author": "arturoEE",
+      "subreddit": "chipdesign",
+      "created_utc": 1709818121,
+      "score": 6,
+      "link_id": "t3_1b8r2qt",
+      "parent_id": "t1_ktrgyc1"
+    },
+    {
+      "id": "ktrfqld",
+      "body": "Not sure if it qualifies as intuitively, but I find signal flow graphs intuitive.\n\n[https://imgur.com/a/pL1ZFkq](https://imgur.com/a/pL1ZFkq)\n\nAfter you draw the SFG as above, you can simply use Mason's Gain rule and then swap conductances for resistances to find:\n\nAv = -(R2\\*R2\\*gm\\*ro) / (R1\\*R2\\*gm\\*ro + (R1+R2)\\*(R2+ro))\n\nIf you take your gm\\*ro terms to dominate, you get the familiar -R2/R1.",
+      "author": "arturoEE",
+      "subreddit": "chipdesign",
+      "created_utc": 1709817450,
+      "score": 3,
+      "link_id": "t3_1b8r2qt",
+      "parent_id": "t3_1b8r2qt"
+    },
+    {
+      "id": "kr0jox2",
+      "body": "Right. The M series was created by many engineers of many nationalities working in Germany, the US, Israel, etc. Based on many decades of advancements and research.",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1708277555,
+      "score": 3,
+      "link_id": "t3_1atc5ea",
+      "parent_id": "t1_kqzwug2"
+    },
+    {
+      "id": "kqzmc8d",
+      "body": "Let's be real here, often the designs are not by the British, only the ISA (ARM), which is not the design of the CPU. For example, Apple's M series chips all have their own custom PCPU/ECPU design, which run the instructions from the ARM ISA.",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1708264676,
+      "score": 1,
+      "link_id": "t3_1atc5ea",
+      "parent_id": "t1_kqz08hv"
+    },
+    {
+      "id": "kqz0p0h",
+      "body": ">GPS? That relies on radar to work, who invented radar? You guessed it, the British.\n\nGPS does not rely on radar to work, EM wave propagation, sure, but not radar. Even when we do talk about radar, German scientists had more to do with it than the British...",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1708251119,
+      "score": 5,
+      "link_id": "t3_1atc5ea",
+      "parent_id": "t1_kqyb85i"
+    },
+    {
+      "id": "kqpavjd",
+      "body": "SBB's wayfinding was designed by the iconic Swiss graphic designer Josef Müller Brockmann. You can even buy the original design manual as a book!",
+      "author": "arturoEE",
+      "subreddit": "transit",
+      "created_utc": 1708099711,
+      "score": 1,
+      "link_id": "t3_1ardo3o",
+      "parent_id": "t1_kqjb07r"
+    },
+    {
+      "id": "kqda1ff",
+      "body": "I'm a US-American, and I specifically went to a great Uni outside the US - even if we have some good universities in the US, the cost is totally mental, you'd be crazy to go into debt for any of these schools.",
+      "author": "arturoEE",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1707907570,
+      "score": 1,
+      "link_id": "t3_1ao2xyx",
+      "parent_id": "t1_kpwxrjt"
+    },
+    {
+      "id": "kqd75cj",
+      "body": "You can even measure some of the aging effects: https://spectrum.ieee.org/transistor-aging",
+      "author": "arturoEE",
+      "subreddit": "FPGA",
+      "created_utc": 1707905403,
+      "score": 4,
+      "link_id": "t3_1aqgi9d",
+      "parent_id": "t3_1aqgi9d"
     }
   ]
 }

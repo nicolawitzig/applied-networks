@@ -21,6 +21,246 @@
       "score": 5,
       "link_id": "t3_1glz2nh",
       "parent_id": "t1_lvzajxj"
+    },
+    {
+      "id": "m2aulmh",
+      "body": "You have a lot of different choices on Transfering EUR to CHF. WISE, Revolut, WiLLbe etc.\n\nBut you say you want to invest in S&P500... why not get a  broker that deals in CHF and EUR?  \nIBKR springs to mind, the exchange rate there is also stellar BUT they expect you to invest first (using them as Exchange only gets you kicked I heard).    \nIf you are looking to invest in Crypto then Kraken is the place to go. But they only deal in EUR.",
+      "author": "asozzi",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734336673,
+      "score": 1,
+      "link_id": "t3_1hejnbc",
+      "parent_id": "t3_1hejnbc"
+    },
+    {
+      "id": "m2asm6c",
+      "body": "I mostly disagree with your take based on experience. Note: I co-founded an IoT company (in the dark days of the middle ages in internet time... 2011 ;-) and now help entrepreneurial researchers getting started commercializing their ideas.\n\nThe idea in 2011 was exactly what you describe, \"simple\" and obvious in hindsight Replacing the then still ubiquitous mechanical machine hour meters with a wireless electronic hour meter. Basically IoT BEFORE IoT was a thing!   \nWe shopped the idea around got feedback tried multiple different industries until we found 3: Golf Carts, Rental Equipment (Boats, LanwMowers etc.) and Electric Forklifts. Note: We built an SMD electronics manufacturing company (beacause my partner had the background) with the idea of making a product along the way.  \nOne of our customers had built the basic IoT device (for other purposes), we teamed up and added the hour meter part. Within a year we had sold several hunderd units (mostly rental equipment), before we finally broke into the Forklift business. We thought we had it made once (a huge US company with 10k+ units in warehouses) paid us for a trial in a single location and told us they had been looking for such a solution for a long time, even worked with a big company to develop something similar!  \n\\--> Then our engineer (the former customer) who sounded a bit like you from the get go: We shouldn't share the idea etc...   had a psycotic break. In a a big meeting with execs he started accusing them of stealing our idea... to the point they kicked us out!  After that he locked us out of the code and started suing us for \"stealing his idea\"...all the while we lost the buisness, he got so bad that we decided to divest ourself of everything. Luckily we managed to sell the electronics manufacturing side a few years later and made money on the factory location as land prices had almost trippled during that time.\n\n  \nMoral:  We shared the idea until finally we found a worthwhile market. Unfortunately the break was with the person we trusted on our team: Keeping things so secret nobody could use it...\n\n\\--> NOW TURN IT AROUND: Do you have a good story where an \"idea\" was stolen? Like you I would stipulate the following: the Idea person would have needed to be well on the way to make money from it otherwise he is like all the other \"bright idea\"  people: All talk no execution.",
+      "author": "asozzi",
+      "subreddit": "startup",
+      "created_utc": 1734335370,
+      "score": 1,
+      "link_id": "t3_1heugej",
+      "parent_id": "t3_1heugej"
+    },
+    {
+      "id": "m1dcd3v",
+      "body": "The main reason AI is being pushed so much in the USA and Asia (mainly China and Korea) is the following:  \nEurope is mainly looking at AI as a \"normal technology\" the needs to stand on its own merits and generate ROI on fairly short term.  \n\\--> Viewed from this angle the absurd amount of money flowing into AI makes little economic sense. \n\nUSA/China on the other hand ALSO view AI as a strategic investment in an arms race to create the tools of \"world domination\".  Without sliding into hyperbole: all the economic goals remain: AI will increase productivity and give the industry using it an edge etc.  \nBUT ALSO: whoever provides \"the best\" AI solutions will have their fingers in all the worlds digital pies... and much like google before: network effects favor the biggest player, so they are running now to corner a future market that is currently being built.\n\nIt helps that the US government (Military and Agencies) see this as a viable way to directly gather intel and influence people \"weaponizing\" AI in the next 10 years and also push large contracts to the major players. Which emboldens further investments as the Governement is clearly establishing itself a large and paying customer (some 4.3Billion in 2023 up from 0.5Billion the year before. Which pushes investment companies like Blackrock etc to put invest 30Billion (potentially 100Billion this year).\n\nEurope knows it is late to the AI race and only recently started investing heavily into sectors they can still play in, such as the chip market (some 40Billion) which includes AI chip capabilities.\n\n  \nTL/DR: USA and China pour private and Government money on AI since they see it as a strategic asset. Europe realized this late but doesn't have the centralized coffers to burn money as they like.",
+      "author": "asozzi",
+      "subreddit": "ChatGPT",
+      "created_utc": 1733844515,
+      "score": 1,
+      "link_id": "t3_1hb2m8g",
+      "parent_id": "t3_1hb2m8g"
+    },
+    {
+      "id": "m0pqupi",
+      "body": "First impression (eyeballing only)  \nLooks like you didn't fully balance to neutral first. \n\nPic2: Looks like you use footage from a compressed color scale (t and didn't convert into the correct color space first.  \nPic1: Looks like you tried to manually push an image from the semi log scale\n\nSo first make sure you bring the image into the coorect color space.  \nSet to a neutral baseline  \nThen apply the \"look\"\n\nTarget image 2 pushes a teal look, Target1 a more magenta look. Both Target 1 and 2 are slighly desaturated and have added film grain and/or Film Stock look added.\n\nCheck out:https://www.youtube.com/watch?v=XO3xoDo-u9g  for a first overview of different grading workflows.",
+      "author": "asozzi",
+      "subreddit": "davinciresolve",
+      "created_utc": 1733497028,
+      "score": 2,
+      "link_id": "t3_1h81qa7",
+      "parent_id": "t3_1h81qa7"
+    },
+    {
+      "id": "m0cmb0z",
+      "body": "I support Entrepreneurship at a Research Institute. As you can imagine there is Technology available in spades, albeit most often on an \"Laboratory Bench Level\"  (TRL 2-4).  \nI spend most of my time convincing Scientist to:  \n1) Have a \"paper prototype\"  (i.e a Specsheet and some good stories of what types of problems it solves)  \n2) Go out and get Feedback. Find out what seems to work and adapt/simplify their \"technology\" until it becomes a solution to problems that you can articulate and people are willing to pay for (aka. Product Market Fit).  \n  \nEvery Scientist/Engineer or Technology driven person always gravitates to the Build it and they will come approach. While that MAY work, it loads so much costs up front until you finally find out IF you even have some interest.\n\nSo in our case, if we'd just hand people some money I'd say 8 out of 10 would spend months in the lab to build a prototype (Most likely a fully functional overdesigned lab prototype). \n\nI'll try the platform to see if it can also help in these cases.",
+      "author": "asozzi",
+      "subreddit": "startup",
+      "created_utc": 1733309470,
+      "score": 1,
+      "link_id": "t3_1h5p84i",
+      "parent_id": "t3_1h5p84i"
+    },
+    {
+      "id": "m06s66r",
+      "body": "Flying into the picture works quite nicely:  \n1) Add white rim  \n2) Blur the image a bit so it looks more like a print. Maybe keep it as a still until you fly in.  \n3) When you transition into the image add some effect to \"punch into\" the new world\n\n  \nSome ideas are shown here: [https://www.youtube.com/watch?v=je1ml0tCOK4](https://www.youtube.com/watch?v=je1ml0tCOK4)\n\nI really like this one: [https://www.youtube.com/watch?v=239Nsl7jWuk](https://www.youtube.com/watch?v=239Nsl7jWuk)\n\n  \nCheers",
+      "author": "asozzi",
+      "subreddit": "davinciresolve",
+      "created_utc": 1733227281,
+      "score": 1,
+      "link_id": "t3_1h1sgcr",
+      "parent_id": "t3_1h1sgcr"
+    },
+    {
+      "id": "lzeqn8z",
+      "body": "Hello,  \nMight be easier to look at the video where he shows the effects in use: [MrAlextech Youtube](https://youtu.be/mN1cEZIkdnU?si=vgWgReUiX1YjbE_x&t=1152). The Link shows smooth paning, tilting (your 3D effect) and the zooming. You may need to paid pro version (29.95) for the tilt effect. I can't remember anymore.",
+      "author": "asozzi",
+      "subreddit": "davinciresolve",
+      "created_utc": 1732803681,
+      "score": 2,
+      "link_id": "t3_1h1bki7",
+      "parent_id": "t1_lzbxnpe"
+    },
+    {
+      "id": "lxqu8yn",
+      "body": "I would agree if you phrase it like that. But turn around your perspective: You are a professor and have a small (6-12 ppl) group. You are looking to be (or to stay) among the worlds leaders within a certain field (in many fields that would be covered by about 20-50 ppl in total!).  \nYou have a kickass lab, some good people and a SET budget for Phd/Postdoc positions. This means you can add about 1 Postodc and about 0-2 PhDs a year to your team.  \nThe person should be world class, fit intyo your team and ideally have some cool ideas in peto.  \n  \nSo there: that is a hard decision that merrits pulling a whole panel togheter for the 1-2 times a year it happens. Especially since group fit can make a big difference.  \n  \nFinances in Research and Higher Academy are really weird on the level of single professors...",
+      "author": "asozzi",
+      "subreddit": "postdoc",
+      "created_utc": 1731932246,
+      "score": 2,
+      "link_id": "t3_1gtpvz2",
+      "parent_id": "t1_lxphpj6"
+    },
+    {
+      "id": "lwr0guw",
+      "body": "The original article gives you excel files to download across age groups, Household sizes etc.   \n[https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/einkommen-verbrauch-vermoegen/haushaltsbudget.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/einkommen-verbrauch-vermoegen/haushaltsbudget.html)\n\nThe article in Swissinfo sounds like a badly mangled AI summary of the original. This being the internet I don't expect anyone to go looking for the source though...",
+      "author": "asozzi",
+      "subreddit": "Switzerland",
+      "created_utc": 1731420643,
+      "score": 6,
+      "link_id": "t3_1gpirvc",
+      "parent_id": "t1_lwqxyit"
+    },
+    {
+      "id": "lwqw4e0",
+      "body": "Classic example of statistics are NOT the (expected) \"truth\". Sleuthing a bit I found:\n\n==> Original Article (in English) is here: [Bundesamt fuer Statistik Article (en)](https://www.bfs.admin.ch/bfs/en/home/statistics/economic-social-situation-population/income-consumption-wealth/household-budget.html)  (there is an excel to be downloaded there as well)\n\nObservations:\n\n1. Clear example on how Average numbers may be comparable, but in no way close to a \"real\" family:\n2. **Gross** Income **9900CHF**. After Taxes and Basic Medical Insurance **NET: 6902**CHF    \n3. How is this Possible you ask?  Well the Average Household consist of:\n   1. **2.08People per Family** of which: \n   2. 0.43 PPL are >65  So not working, earning only Pensions etc.\n   3. 0.51 PPL are<25   So mostly not earning but costing.\n   4. 1.16 PPl are between 25 and 65 and LIKELY earning\n\nScroll down in the article and you see a slight more understandable graph where they show how this breaks down along the age groups.   \n==> Numbers above makes mre sense when you see that the \"Average household\" Put 2100CHF into Old Age Funding AND takes out 2800CHF at the SAME TIME (on average of course).  \n  \nSlightly **more relatabl**e are the downloadable samples showing eg. **Average Family of 2 Adults and 2 Kids**:  \n\\- Gross Income:  14'433CHF  \n\\- NET Income:     10'264CHF  (Minus Social Insurance, Tax and Medicare basic)  \n\\- Spend about       7'300:  \n650 Addl Insurance; 1'650 Food; 1'000 Transport; 2'200 HouseCloth; 1200 Pers./Com/Fun; 600 Other  \n\\- Discressionary:     3'000    \n\nThis seems a lot closer to someting understandable. But the same here this is an average and the spread is from family incomes between 4k to 20k.\n\nSo read the numbers with a lot of care. Understand that Switzerland has a lot of older people and smaller families. I'm sure that a real journalist should be able to tease out a lot more applicable information.",
+      "author": "asozzi",
+      "subreddit": "Switzerland",
+      "created_utc": 1731418986,
+      "score": 38,
+      "link_id": "t3_1gpirvc",
+      "parent_id": "t3_1gpirvc"
+    },
+    {
+      "id": "lti3nru",
+      "body": "If you need the \"Absolute-Cheapest™\" domain (0.85$/y N: increases to \"Retail price\" later)  then:  \n1) Go to [namecheap.com](http://namecheap.com)  \n2) Buy a 6-9number xyz domain  NOTE: ONLY 6-9 numbers will be AND stay cheap  \n   e.g [223344.xyz](http://223344.xyz) = 0.85$/y \"forever\"  \nWhere 2233445566.zyx (10 digits) will be 2$ first year then 13.98$ Retail!",
+      "author": "asozzi",
+      "subreddit": "selfhosted",
+      "created_utc": 1729773277,
+      "score": 7,
+      "link_id": "t3_1galuf8",
+      "parent_id": "t1_ltfnwbd"
+    },
+    {
+      "id": "lthf31y",
+      "body": "I went through the entire setup process with them before finally going ahead and managing things by myself.   \nImpression is: They are try to be as independent and scam free as possible while still charging for their services. But they clearly point out where they make the money.   \n If you go with their mixed EFT/(auto)managed portfolio that they \"lightly\" push: about 0.5%  (of course more if you start using them like a broker).  \nYou can tell them to go to their lowest EFT only, fixed price model you end up at about 0.25%. And they don't push back too hard when you say you want the \"best price\" model.\n\nSo as many others say: If you are uncomfortable with handling a portfolio yourself and prefer talking to real people, this looks like a decent solution.",
+      "author": "asozzi",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1729760211,
+      "score": 2,
+      "link_id": "t3_1g8ump6",
+      "parent_id": "t3_1g8ump6"
+    },
+    {
+      "id": "ltbhyjn",
+      "body": "YES, click on the \"Timeline View Options\" (bottom left on your picture) - Viewer Background - Checkered  \nHandy Youtube short showing it: [https://www.youtube.com/shorts/DjZV0V2xupM](https://www.youtube.com/shorts/DjZV0V2xupM)",
+      "author": "asozzi",
+      "subreddit": "davinciresolve",
+      "created_utc": 1729678840,
+      "score": 2,
+      "link_id": "t3_1g9e84q",
+      "parent_id": "t3_1g9e84q"
+    },
+    {
+      "id": "loo4j1a",
+      "body": "Free has everything (noice!).  \n**Premium** adds: Bunch of **Presets** (some 60 or so), **Saver Tool**  --> Create your own presets, save them (you can deactivate all unused elements so they end up being lightweight. Helped a cool dude.\n\nIn his own words here: [Youtube link](https://youtu.be/xuoHLyWymz0?si=5HOEJ9kGtRfSYXRb&t=633)",
+      "author": "asozzi",
+      "subreddit": "davinciresolve",
+      "created_utc": 1727174471,
+      "score": 2,
+      "link_id": "t3_1fnx9ga",
+      "parent_id": "t1_loo0x4w"
+    },
+    {
+      "id": "lmepyu2",
+      "body": "This is the best \"academic\" description. I'd rate you a bit higher 5.2.\n\nYou're young so many of the \"issues/blemishes\" will likely still adjust once you pass out of teenagedom.   \nNice large eyes, bit widely set. Best asset, definitely keep working on keeping focus on your eyes (so maybe less bangs?)  \n  \n Lips are interesting (positive) but a strong feature, so makeup makes big difference. I would not accentuate the asian \"cherry\" doll lips. Closest reference: Lips Mikhaila Peterson she looks a lot more wholesome where makeup makes the lips a bit wider.\n\nNose:  As others point out a bit large but nice shape. --> Absolutely loose the nosering. Draws eyes to the wrong place (ppl shoule focus on your smile and your eyes.  \nReference: Brett Cooper on how to deal with a larger nose in a positive way (yours is much less an issue, but similar direction).\n\nYou have a face that will look better if you keep a more wholesome look rather than vampy, but that is personal.  Good base, lots of room to \"improve\" things with subtle changes.  \nCongrats",
+      "author": "asozzi",
+      "subreddit": "truerateme",
+      "created_utc": 1725956479,
+      "score": 2,
+      "link_id": "t3_1fce3v6",
+      "parent_id": "t1_lmb2bo0"
+    },
+    {
+      "id": "lie10ox",
+      "body": "Follow the comments given if you want to learn Resolve in depth.   \nIf you need quick results try MrAlextech [MagicAnimate](https://www.mralextech.com/magicanimatev2-free) plugin.  The free Version should do most of what I see here.",
+      "author": "asozzi",
+      "subreddit": "davinciresolve",
+      "created_utc": 1723807652,
+      "score": 1,
+      "link_id": "t3_1eticu2",
+      "parent_id": "t3_1eticu2"
+    },
+    {
+      "id": "lidwuj5",
+      "body": "Windows 11 CAN be a nice system to work with. As long as you don't have to install the fully bloated HOME version. If you're able to do a fresh install:\n\n**Create a Autounattend.xml windows** USB install key: ([Youtube for simple](https://www.youtube.com/watch?v=pDEZDD_gEbo), [Create your own file](https://schneegans.de/windows/unattend-generator/)). Basically create a Rufus bootabe USB, copy ISO from Microsoft, place Autounattend.xml and install from USB.  \nThis will let you completely debloat windows: no  ( LOCAL accounts (no MSlogin required!)\n\nMake sure to **install powershell 7**  \nRun (Admin mode):  ([WinUtil](https://christitus.com/windows-utility-improved/)) \n\n    irm christitus.com/win | iex       \n\n1) Run recommend Tweaks (turns off a bunch services) they are still there just dont automatically run on boot.  \n2) Use the tool to install your most used programs ( uses CLI winget)  \nPro: just start Winutil again, \"Get Install\" then \"update Installed\" to update all your programs from CLI.\n\nSet up your Powershell:  \n1) Install [WinTerminal](https://github.com/RyzinRiley/WinTerminal)  as your main console (set it to Powershell 7 at start for most cases)  \n2) Install NerdFont ([Fira Mono](https://www.nerdfonts.com/font-downloads) is good one)  \n3) Install [OhMyPosh](https://ohmyposh.dev/docs/) to pimp your console prompt  \n4) Go down the rabbit hole of setting up your [custom](https://ohmyposh.dev/docs/) Powershell profile. profile.ps1   \nYou can get lost... win versions of zoxide, fzf, bat, fd, less etc exist....  \n`notepad $profile` to get started...\n\nMuch luck!",
+      "author": "asozzi",
+      "subreddit": "sysadmin",
+      "created_utc": 1723805560,
+      "score": 1,
+      "link_id": "t3_1et7q97",
+      "parent_id": "t3_1et7q97"
+    },
+    {
+      "id": "lidlsdn",
+      "body": "[ Removed by Reddit ]",
+      "author": "asozzi",
+      "subreddit": "Switzerland",
+      "created_utc": 1723798759,
+      "score": 1,
+      "link_id": "t3_1et7l7z",
+      "parent_id": "t3_1et7l7z"
+    },
+    {
+      "id": "lidbywm",
+      "body": "[ Removed by Reddit ]",
+      "author": "asozzi",
+      "subreddit": "Switzerland",
+      "created_utc": 1723792236,
+      "score": 1,
+      "link_id": "t3_1et7l7z",
+      "parent_id": "t3_1et7l7z"
+    },
+    {
+      "id": "ldqhtar",
+      "body": "You know that things are totaly F-ed in the USAwhen:  \n- US Taylor Swift Fans flod into Switzerland (and Germany etc.) to watch her in Europe. Because tickets here are between 100-300US  (average 150 retail and 250 street)....instead of 1600 and up in the US.\n\nSame for Billy Eilish although her prices are estimated to be between 160-600 in Germany. She won't even come to Switzerland...\n\nI think  these prices are already way on the high end of things and I'm earning Swiss wages!",
+      "author": "asozzi",
+      "subreddit": "popculturechat",
+      "created_utc": 1721285155,
+      "score": 1,
+      "link_id": "t3_1e5p9fm",
+      "parent_id": "t3_1e5p9fm"
+    },
+    {
+      "id": "lbpomcr",
+      "body": "Depends on how risk averse you are: I pesonally pay into two 3a each year. One is Highest Risk one medium Risk.  \nOnce they reach about >30k (so after 12 years or so) start 2 new same strategy.  \nI would say 4-5 would be enough (depending on when you started). Go Round robin after that.   \n(4-5)\\*60k is pretty much maxed out anyway (assuming 40 years of paying full 6.9k/y)",
+      "author": "asozzi",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720165046,
+      "score": 1,
+      "link_id": "t3_1dvrza7",
+      "parent_id": "t3_1dvrza7"
+    },
+    {
+      "id": "lbpn75x",
+      "body": "Depending on where you are located (Uni or research Institute wise try the following things:\n\n1) Find out if there is a career office at your place of work. Get an appointment and discuss exactly the things above.  \n2) Try to find a mentor, professor/PI that values you for the work you do. Set up a time with him and discuss your situation. Write it down if that helps.   \nFor these \"Coffee Exchanges\": Remember that you are trying to get the advice of these people. Do not bring up \"I need a job\" as topic of discussion. Rather ask for his feedback on your work and his thoughts on where you would best fit in (knowing your or having just discussed your \"drawbacks).    \nTry to leave with the contacts of at least 2-3 other people from such exchanges. Keep them to 15-20 min. unless the other party continues the conversation.\n\nIn general--> Try to keep to topics you are good at and enthusiastic. Frame the issues you see as things to solve and get input on how others have overcome this.  \n--> Turn this into a research project if that helps you get organized. Each exchange you have is a well prepared experiment. It helps if  you can be objective about your issues and thus overcome some of your introversion, talk about yourself and the issue with some detachment.   \n--> There are LOTS of people out there in the world of physics with autism etc. that find their place.   \n--> Mentaly shift and reframe the issue(s) you describe to a clearly described set of facts that you will need expert input on to solve and progress in order to reach your goals. Start with your collegues and then progress to your PI's etc. and branch out from there. Get some help/coaching from anywhere you can (career offices are a good place to start, but entrepreneurhsip clubs etc are also good to meet other geeks trying to getting business savy and meeting some industry contact.) \n\n(NOTE: I work at a Large Research Facility Institute and have facilitated many industry contracts and administer our entrepreneurship program). \n\nI hope this can give you a starting point!",
+      "author": "asozzi",
+      "subreddit": "postdoc",
+      "created_utc": 1720164076,
+      "score": 3,
+      "link_id": "t3_1dvr2al",
+      "parent_id": "t3_1dvr2al"
+    },
+    {
+      "id": "lb3hvip",
+      "body": "https://preview.redd.it/4i4lygup3v9d1.png?width=842&format=png&auto=webp&s=23752cc6bd2c7b5556983101956b07d1089ef4c1\n\nA bit of Color correction will set you right. Nothing is blown out.  \nNo Davinci Resolve at work but a quick adjustmen to the curves (essentially increase contrast in this case) gives a good starting point.",
+      "author": "asozzi",
+      "subreddit": "fpv",
+      "created_utc": 1719820062,
+      "score": 1,
+      "link_id": "t3_1dsa1h0",
+      "parent_id": "t3_1dsa1h0"
+    },
+    {
+      "id": "lb3f7b9",
+      "body": "Interesting to see the discussions here. I can only comment from a specifice point of view:  \n1. Swiss Research Institute (large research facilties): So only \"Hard Sciences\"  \n2. I'm in admin (engineer/MBA background) with supporing   \n\n\nPostdocs here are capped at 2y (hard!) max 2 postdocs (so max 4y) min. 1 of which must be abroad.  \nClear expectations to build: Network, Publications, Grants and specialized knowledge.  \nClear that this is a step toward an academic path of which less than 30% of Postdocs will get a chance to proceed.  \n--> Strong push to collaborate with industry (implied as a stepping stone for industry job)\n\nAll in all: PosDocs look like a free range chaotic proving ground where dedicated and goal oriented people have a lot of chances to excell. I've seen people raise up to more than a million in grants and boost their path toward tenure/professorship, others collaborating with industry and finding their path there. And all of those came from their own initiatives.  \nBut  as everywhere many push out a few papers with no clear plans and wait for \"good things (tm)\" to happen.... they would likely have done better getting a job. It's not useless by any means, but in those cases they were exactly the cheap labor described by many.\n\nAdvice: If academia is not at least one of your strong goals: its not for you. If you prefer a more guided environment with handrails, this is not it! All universities etc. I have personally attended/worked at or visited have some form of career office --> Use it!   \nSecondly Postdocs are expected to take ownership, push for their research (well argued and generally be taking on leadership qualities). Nobody will hold your hand and tell you that though and the PI will push back of course as most of your ideas will required some of their resources. Like any good project your will have to convice them that it is a good idea and that you are the person to deliver!\n\nThe Postdocs I have interacted with have all found good jobs (or started their own company. And often the experiences (especially abroad) is what differentiated them.",
+      "author": "asozzi",
+      "subreddit": "postdoc",
+      "created_utc": 1719818152,
+      "score": 2,
+      "link_id": "t3_1dru3n2",
+      "parent_id": "t3_1dru3n2"
     }
   ]
 }

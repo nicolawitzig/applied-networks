@@ -1,6 +1,40 @@
 {
   "username": "Peace_and_Joy",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1d6z0of",
+      "title": "Training up a LLM on my data and then processing a lot of data with it?",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717400910,
+      "score": 0,
+      "num_comments": 7,
+      "selftext": " \n\nHi everyone, apologies if this is a silly question I did a search but couldn't find the answer I was looking for.\n\nI am currently trying to solve a problem which involves a vast amount of data and before I go off the deep end and waste 6 months trying to open a square hole with a circle I thought I would ask.\n\nSo the problem I am trying to solve involves a very large amount of structured data (around 50,000 lines of data with 20 columns each day) in several different databases (with one database containing the rules and logic) that the language learning model would be finetuned on.\n\nThere are two components of what I am looking to do\n\n1. the data is checked against three databases to make sure the data is \"correct\" and that logic has been applied. Is this a use-case for a LLM or is this something that can be done \"conventionally\"?\n2. Users will get questions about specific lines of data via email which should then prompt the LLM to be able to retrieve the data in question, format it and then reply to the other user.\n\nI was going to base this off Llama 3 INSTRUCT model, and fine tune it with example databases at home using my gaming computer (i9 14900k, 32gb ddr5, RTX 4070 SUPER) before trying to expand it out into something more scalable.\n\nDoes this make sense? Does anyone have any resources or opinions they could share as to learn best practices or how to get started on this properly? :)\n\nThanks again for your time! :)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1d6z0of/training_up_a_llm_on_my_data_and_then_processing/"
+    },
+    {
+      "id": "1d4roxo",
+      "title": "Training up a LLM on my data and then processing a lot of data with it?",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717148342,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1d4roxo/training_up_a_llm_on_my_data_and_then_processing/"
+    },
+    {
+      "id": "1d1oog8",
+      "title": "Which LLM for database comparison and questioning usage?",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1716806593,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1d1oog8/which_llm_for_database_comparison_and_questioning/"
+    }
+  ],
   "comments": [
     {
       "id": "l9lntj1",
@@ -31,6 +65,1166 @@
       "score": 3,
       "link_id": "t3_1db2yp3",
       "parent_id": "t1_l7suv3z"
+    },
+    {
+      "id": "lacitq5",
+      "body": "It is sold by Amazon directly, so you should be fine.",
+      "author": "Peace_and_Joy",
+      "subreddit": "OLED_Gaming",
+      "created_utc": 1719401072,
+      "score": 29,
+      "link_id": "t3_1dovxhx",
+      "parent_id": "t1_lachqkk"
+    },
+    {
+      "id": "lacc92r",
+      "body": "I mean having been the manager that would often get approached by companies offering such products, I would first off be surprised it got through the spam filter. And yes I certainly would have credibility issues with a personal domain not a company domain. I mean you're:\n\n1) Taking my time to read the email (and now be frustrated at having to respond negatively and waste my time)\n\n2) Want me to engage with you\n\n3) Negotiate with you\n\n4) Trust my data with you\n\n5) Pay you.\n\nAll of this from someone who can't be bothered to set up an email address properly? Not being harsh but I probably wouldn't even have bothered responding. Sort out your administration and stop handicapping yourself.",
+      "author": "Peace_and_Joy",
+      "subreddit": "ycombinator",
+      "created_utc": 1719397289,
+      "score": 18,
+      "link_id": "t3_1doup1p",
+      "parent_id": "t3_1doup1p"
+    },
+    {
+      "id": "lac5x44",
+      "body": "That seems pretty reasonable to me! :)",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719392907,
+      "score": 1,
+      "link_id": "t3_1dosvvw",
+      "parent_id": "t1_lac5jo7"
+    },
+    {
+      "id": "lac359o",
+      "body": "Never done it before myself so potentially could chip in. How many people you need?",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719390885,
+      "score": 1,
+      "link_id": "t3_1dosvvw",
+      "parent_id": "t3_1dosvvw"
+    },
+    {
+      "id": "lac30ci",
+      "body": "Depends if you mean legally or not? I know they definitely are scaling back a lot of operations due to redundant headcount and also at the same time using it as a chance to streamline. Everyone knows if you have 2 operations analysts doing same thing you can get rid of one, but they are using it to also cut costs on their own side and outsource a lot. \n\nSo I would argue that yes they are, and this is only tip of the iceberg. Switzerland made one of the stupidest decisions in its history with this merger, and for me in the future will be seen as a key feature of the decline of the country.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719390786,
+      "score": 4,
+      "link_id": "t3_1dot4qi",
+      "parent_id": "t3_1dot4qi"
+    },
+    {
+      "id": "lac1rnt",
+      "body": "Because downscaling typically looks far worse.",
+      "author": "Peace_and_Joy",
+      "subreddit": "LenovoLegion",
+      "created_utc": 1719389886,
+      "score": 0,
+      "link_id": "t3_1dodli0",
+      "parent_id": "t1_labl5l8"
+    },
+    {
+      "id": "la9yvh4",
+      "body": "It will be fine, in fact slower charging = less wear.",
+      "author": "Peace_and_Joy",
+      "subreddit": "LenovoLegion",
+      "created_utc": 1719354268,
+      "score": 1,
+      "link_id": "t3_1doajrl",
+      "parent_id": "t1_la9q53l"
+    },
+    {
+      "id": "la9nfiv",
+      "body": "Are you being sexist in assuming all women are the same? ;)",
+      "author": "Peace_and_Joy",
+      "subreddit": "ask",
+      "created_utc": 1719350221,
+      "score": 3,
+      "link_id": "t3_1dogpt3",
+      "parent_id": "t3_1dogpt3"
+    },
+    {
+      "id": "la9f7v7",
+      "body": "100% first one without doubt. Why on Earth do you want 56% more pixels? It will age your laptop massively as games will quickly run like shit with that resolution and if you scale it will look worse! \n\n2nd one would only be for productivity at a push....",
+      "author": "Peace_and_Joy",
+      "subreddit": "LenovoLegion",
+      "created_utc": 1719347560,
+      "score": 1,
+      "link_id": "t3_1dodli0",
+      "parent_id": "t3_1dodli0"
+    },
+    {
+      "id": "la8our4",
+      "body": "Not my opinion, just relaying what I heard from people I know very well.\n\nPlenty have said they feel less and less emotional bonds with Germany as the country has changed a lot over the past 5-10-20 years and it feels less rewarding to be \"invested\" in the country as it used to be. Probably nostalgia but interesting.",
+      "author": "Peace_and_Joy",
+      "subreddit": "germany",
+      "created_utc": 1719338954,
+      "score": 1,
+      "link_id": "t3_1do769x",
+      "parent_id": "t3_1do769x"
+    },
+    {
+      "id": "la8mc40",
+      "body": "But how many comments are that versus every other comment? The cynic in me would say that it's a pretty easy way to shut down arguments about any topic then. Ah I don't like FCZ being discussed about something they did, lets make some stupid comments, thread closed, mission succeeded.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719338132,
+      "score": 4,
+      "link_id": "t3_1do75gm",
+      "parent_id": "t1_la8cp66"
+    },
+    {
+      "id": "la7pcpm",
+      "body": "No offensive but if you can't be bothered to moderate a discourse, surely it's better to just let the conversation happen?",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719327178,
+      "score": 19,
+      "link_id": "t3_1do75gm",
+      "parent_id": "t1_la7p06t"
+    },
+    {
+      "id": "la7cmn0",
+      "body": "Yes I noticed this. Presuming Christmas party is even more expensive than usual?\n\nThough if you were doing 15 and flashed, then I presume calibration error, happened a few times to me and never ever arrived.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719322539,
+      "score": -4,
+      "link_id": "t3_1do5xwu",
+      "parent_id": "t3_1do5xwu"
+    },
+    {
+      "id": "la6e5w1",
+      "body": "Yeah if they near end of life anyway then not that big a loss. Certainly for me if they had a decent amount of tread on them I wouldn't get rid of, as you should always change tyres in pairs and therefore would be a complete and utter waste.\n\nLooking at it again it seems super shallow from what I can see in the picture so wouldn't sweat it. :)",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719303179,
+      "score": 1,
+      "link_id": "t3_1dng21z",
+      "parent_id": "t1_la6bmm9"
+    },
+    {
+      "id": "la4y15s",
+      "body": "I think I would rather listen to the mortar sound in real life than be subjected to that noise called \"music\" again.",
+      "author": "Peace_and_Joy",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1719276818,
+      "score": 4,
+      "link_id": "t3_1dnmd25",
+      "parent_id": "t3_1dnmd25"
+    },
+    {
+      "id": "la4i275",
+      "body": "That is some cancerous \"music\"",
+      "author": "Peace_and_Joy",
+      "subreddit": "tennis",
+      "created_utc": 1719270694,
+      "score": 3,
+      "link_id": "t3_1dnlh97",
+      "parent_id": "t3_1dnlh97"
+    },
+    {
+      "id": "la42yyo",
+      "body": "Why on Earth would you live in your own studio as a student? Go and join a WG, find some nice people and come out of your shell. Got the rest of your life to play video games.\n\nDon't mean to be blunt, but university is the \"last frontier\" for shedding your shy self. Go and live a little, make the mistakes you can laugh off now rather than when you're older.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719265077,
+      "score": 1,
+      "link_id": "t3_1dlgl9f",
+      "parent_id": "t3_1dlgl9f"
+    },
+    {
+      "id": "la42hhd",
+      "body": "No one owes you a second look. Sorry if that sounds harsh but it's the way of the world. Typically Dutch girls are surrounded by \"foreigners\" day and night, (not to be meant pejoratively) and not always the nice kind. Seen it myself and can see why they would be a cautious. \n\nNightclubs are a place of attraction and often unwanted attention. For a middle eastern guy, black guy, white guy whatever, it's always going to be a challenge to be a \"hit\" with every person when chances are they have had some bad experiences. \n\nI would focus on meeting other ways in their culture to be honest.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Netherlands",
+      "created_utc": 1719264907,
+      "score": 23,
+      "link_id": "t3_1dnoq3j",
+      "parent_id": "t3_1dnoq3j"
+    },
+    {
+      "id": "la41dph",
+      "body": "I would just say be smart about it. If you want a proper meal then yeah plan ahead at least in the general area for options. But for just grabbing a bite, just check reviews and make sure the score is reasonable and not known for being a scam.\n\nBest idea is to go somewhere casual, get a cold beer which is universally tasty in a warm place and plan where you're going to eat properly! \n\nAnd also ignore most people. I would rather get an \"okay\" pizza in an area I want to be in, than travel for 30 mins in hot weather on shitty transport to go to some \"authentic\" place to either save money or get some possibly higher quality food. \n\nIf you know the rough location where you'll be, then do your research a little bit, but don't overthink it. Just make sure you check the prices out of anywhere you go so there is no shock.",
+      "author": "Peace_and_Joy",
+      "subreddit": "ItalyTravel",
+      "created_utc": 1719264523,
+      "score": 2,
+      "link_id": "t3_1dnlk40",
+      "parent_id": "t3_1dnlk40"
+    },
+    {
+      "id": "la3uwad",
+      "body": "No, it is never too late or we'd all still be using Myspace and Bebo. But it is more difficult (read substantially more difficult) and gaining traction will be hard. But not impossible.",
+      "author": "Peace_and_Joy",
+      "subreddit": "startups",
+      "created_utc": 1719262336,
+      "score": 2,
+      "link_id": "t3_1dnnftm",
+      "parent_id": "t3_1dnnftm"
+    },
+    {
+      "id": "la35cm4",
+      "body": "This is correct!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719253879,
+      "score": 5,
+      "link_id": "t3_1dng21z",
+      "parent_id": "t1_la2nu4t"
+    },
+    {
+      "id": "la35bvw",
+      "body": "This can cause issues though cars do not like it when the tyres are uneven wear. Can cause more problems by far as its hard to gauge the depth being the same most time.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719253872,
+      "score": 1,
+      "link_id": "t3_1dng21z",
+      "parent_id": "t1_la2ms0w"
+    },
+    {
+      "id": "la2mahh",
+      "body": "I know people don't like the English........but c'mon this is unfair. Frankfurt is a shithole at the best of times can't blame the English for everything.",
+      "author": "Peace_and_Joy",
+      "subreddit": "pics",
+      "created_utc": 1719247628,
+      "score": 1,
+      "link_id": "t3_1dnav3a",
+      "parent_id": "t3_1dnav3a"
+    },
+    {
+      "id": "la2jmhm",
+      "body": "You really gave it a good bashing eh! For me it looks fine as doesn't seem to be that deep and usually there is a lip on a tyre for this precise reason. Personally it looks fine and I would carry on driving. But don't take my word for it. Go to garage, but know they are kind of incentivised to sell you something....",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719246742,
+      "score": 1,
+      "link_id": "t3_1dng21z",
+      "parent_id": "t3_1dng21z"
+    },
+    {
+      "id": "la2j3qo",
+      "body": "Let the Police know. They are just as frustrated by the crime and if they get a chance to pin someone with it, I can't see them missing the chance.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719246570,
+      "score": 13,
+      "link_id": "t3_1dngn6b",
+      "parent_id": "t3_1dngn6b"
+    },
+    {
+      "id": "la1913x",
+      "body": "Hey I'd be the first to sign up for that experience. I'm sure Julie Delpy would love to hang out (just as friends naturally........but maybe).\n\n:D",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719228434,
+      "score": 1,
+      "link_id": "t3_1dn974j",
+      "parent_id": "t1_la10ow2"
+    },
+    {
+      "id": "la122vf",
+      "body": "Is this even a question? haha",
+      "author": "Peace_and_Joy",
+      "subreddit": "Funnymemes",
+      "created_utc": 1719224149,
+      "score": 1,
+      "link_id": "t3_1dmce8u",
+      "parent_id": "t3_1dmce8u"
+    },
+    {
+      "id": "la11xrj",
+      "body": "Could give the usual platitudes about being nice blah blah blah....\n\n  \nBut to be honest.......be nice, be genuine have a good heart, better yourself where possible. Ambition is attractive no matter the dose. Be healthy (for yourself as much as anything, but decent body won't hurt confidence!), work hard and above all, be the kind of guy that someone would want to be around.\n\nTook me far long to understand that. People want to hang around people they want to be with. Be that person and it will click into place. Yes we all have things we would like to have different and we all have our crosses to bear in one form or the other. But someone being a good companion is universally attractive to the people you want to be with.",
+      "author": "Peace_and_Joy",
+      "subreddit": "ask",
+      "created_utc": 1719224053,
+      "score": 3,
+      "link_id": "t3_1dn6ywh",
+      "parent_id": "t3_1dn6ywh"
+    },
+    {
+      "id": "la0yrmh",
+      "body": "Because you're not being honest. If your intentions were to have a friend or indeed just to get a sofa for the night (which in one of the most expensive cities in the world isn't bad) that is fine. You're openly saying later that its not actually what you want. Most people would find that creepy. \n\nIf you want a one night stand or whatever, at least be upfront about it and go to an app or something.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719221823,
+      "score": 6,
+      "link_id": "t3_1dn974j",
+      "parent_id": "t1_la0ydqa"
+    },
+    {
+      "id": "la0y8cf",
+      "body": "So you're not looking for a friend, you're looking for a woman that will be your tour guide for the day, give you free accommodation and if she's really lucky gets to be your wife?\n\n  \nlol.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719221426,
+      "score": 10,
+      "link_id": "t3_1dn974j",
+      "parent_id": "t1_la0xq3z"
+    },
+    {
+      "id": "la0y4e9",
+      "body": "Hmm, is cash an issue? Where are you staying at Zurich that it takes double time with public transport than with car? \n\nI would go against trend and say having a car to visit outside the city makes sense. In the city it can be very expensive with parking. \n\nI would take the car myself for outside , but that's because I love driving and I would like the flexibility of being able to drive around. But the public transport is really excellent.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719221346,
+      "score": 1,
+      "link_id": "t3_1dm1085",
+      "parent_id": "t3_1dm1085"
+    },
+    {
+      "id": "la0xkcw",
+      "body": " I just want to make a local friend (preferably a single woman around my age) that will be a friend.\n\n  \nPress X for doubt.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719220934,
+      "score": 25,
+      "link_id": "t3_1dn974j",
+      "parent_id": "t3_1dn974j"
+    },
+    {
+      "id": "l9z1ftf",
+      "body": "If you're Italian you have the right anyway to work here and be eligible for a B permit. So not sure its an issue? (happy to be proved wrong)",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719184397,
+      "score": 6,
+      "link_id": "t3_1dmyo3u",
+      "parent_id": "t3_1dmyo3u"
+    },
+    {
+      "id": "l9y3hr3",
+      "body": "I think Migroschule offers cheap courses.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719171825,
+      "score": 3,
+      "link_id": "t3_1dmtzru",
+      "parent_id": "t3_1dmtzru"
+    },
+    {
+      "id": "l9wut3r",
+      "body": "You will be fine. Put your mind at ease tomorrow and go on the live chat to confirm and to make sure all is in order but should be good! Good work on sorting out before it got serious!",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719155546,
+      "score": 2,
+      "link_id": "t3_1dmh08v",
+      "parent_id": "t1_l9wtsh3"
+    },
+    {
+      "id": "l9wsibu",
+      "body": "\"NO THANKS\"\n\nCarry on walking.\n\n  \nHasn't failed me yet.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1719154674,
+      "score": 1,
+      "link_id": "t3_1dl6902",
+      "parent_id": "t3_1dl6902"
+    },
+    {
+      "id": "l9wrs2u",
+      "body": "You should be fine if its paid. Go on live chat and confirm with them.\n\nI know it's beating a dead horse and you don't need a lecture, but for your own protection really really really stay on top of debt in Switzerland. Galaxus are probably going to be fine about it, but some companies are complete and utter arseholes about it. They will put extremely heavy Mahnungs on you and make your live miserable and expensive. Consumers have very little rights and it can be extremely punitive.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719154396,
+      "score": 2,
+      "link_id": "t3_1dmh08v",
+      "parent_id": "t3_1dmh08v"
+    },
+    {
+      "id": "l9woe4s",
+      "body": "Supporting Germany? Jump in the lake please! \n\n(just kidding). I know a few places that are good, but not any rooftops, sorry.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719153105,
+      "score": 4,
+      "link_id": "t3_1dmmvh5",
+      "parent_id": "t3_1dmmvh5"
+    },
+    {
+      "id": "l9pg1f4",
+      "body": "Sounds like (no offense if I misinterpet) you need to get over the guy. No your legal insurance is not going to cover it unless you covered before. No the police won't give a shit and you're opening up a legal can of worms.  \nFact is the dude is probably a dick and you should probably live your live best spent on things that mean something not chasing a deadbeat.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1719021492,
+      "score": 0,
+      "link_id": "t3_1dl2vq5",
+      "parent_id": "t3_1dl2vq5"
+    },
+    {
+      "id": "l9j5hcz",
+      "body": "At least she speaks German I guess?",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1718921942,
+      "score": 16,
+      "link_id": "t3_1dko4og",
+      "parent_id": "t3_1dko4og"
+    },
+    {
+      "id": "l9j1mk3",
+      "body": "What happened to this world where everyone is up in everyone's shit? Someone 25x round the sun vs someone 40x run the sun is..............absolutely none of my business I could not care less.\n\nReally, I feel we are turning into puritans again.",
+      "author": "Peace_and_Joy",
+      "subreddit": "ask",
+      "created_utc": 1718920514,
+      "score": 7,
+      "link_id": "t3_1dkk707",
+      "parent_id": "t3_1dkk707"
+    },
+    {
+      "id": "l9gk8ve",
+      "body": "Report to the Police and hope you have insurance...  \nIt's becoming ridiculous how much crime has gone up in past couple years.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718890422,
+      "score": 1,
+      "link_id": "t3_1djtis6",
+      "parent_id": "t3_1djtis6"
+    },
+    {
+      "id": "l9fss1i",
+      "body": "What job are you looking for here? Realistically you're not going to double your salary I am afraid. Typically finance roles (and I am talking about entry management/decent experience no show star stuff) realistically 140k-160k with bonus on top. And yes it is super expensive and the tax in Geneva is also super high (compared to Zurich/Zug). \n\nAlso to be honest......I would visit Geneva a few more times first before jumping to anything. It gets small pretty quickly, isn't anywhere as nice or vibrant (opinion) as places like Zurich.\n\nAlso do you speak French? If not your difficulty just went up 50x....\n\nHope this doesn't come across as negative just more realistic. For 250k you need to be senior management and adding value. It's not impossible to do and higher, its just not an easy first route and networks place a huge part. This is a country with excellent lower salaries but it dries up very quickly. With your lifestyle in London and salary.....you'll really REALLY want to live here than doing it to get rich or to have an easy life.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718876125,
+      "score": 6,
+      "link_id": "t3_1dk71zz",
+      "parent_id": "t3_1dk71zz"
+    },
+    {
+      "id": "l9frt4u",
+      "body": "Per my original comment, an industry maturing and having guiderails is fine, all markets and places do it. But there is a time and a place. The US will regulate AI......but eventually once they have won the market. The EU are doing so at the start and thus ensuring it won't get off the ground.\n\nNothing new, look at their MIFID II regulation and the sheer reluctance post Brexit to make it more attractive. Flows went out of London to Frankfurt/Amsterdam/Paris etc and then promptly went straight to the US.",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718875428,
+      "score": 2,
+      "link_id": "t3_1dk5lbo",
+      "parent_id": "t1_l9fr2kl"
+    },
+    {
+      "id": "l9fqa6b",
+      "body": "Because of the way it will fold up multiple industries the better and better it gets, the more anti-competition laws will be needed or we're going to end up with huge barriers to entry for 99.999% of people/companies.\n\nI don't mean regulation in terms of \"thought crimes\", that isn't a concern to me.",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718874317,
+      "score": 2,
+      "link_id": "t3_1dk5lbo",
+      "parent_id": "t1_l9fpu5c"
+    },
+    {
+      "id": "l9fpdzh",
+      "body": "The problem with the EU (not Europe where we have some of the most talented people in the world) is that they have an insatiable thirst for control which manifests itself in regulation. \n\nDoes AI need to be regulated, 1000000000000% this is not up for debate. But whilst everyone else turned their head to let businesses flourish, the EU has already put up huge barriers. I know of multiple people who didn't even bother trying to start here and went straight to America.\n\nThe EU will struggle hugely going into the future. Just like their incredibly expensive energy which is killing the competitiveness (eg Germany etc), they saw it coming but were just not agile enough to pivot.",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718873667,
+      "score": 16,
+      "link_id": "t3_1dk5lbo",
+      "parent_id": "t3_1dk5lbo"
+    },
+    {
+      "id": "l9fp54b",
+      "body": "If people knew, people would do.\n\nUnfortunately this is not an efficient world, and luck plays a large part. Why did VHS beat Betamax? Sure there were reasons in hindsight, but doesn't change the fact lots of people didn't get rich whereas they could have.",
+      "author": "Peace_and_Joy",
+      "subreddit": "startups",
+      "created_utc": 1718873488,
+      "score": 2,
+      "link_id": "t3_1dk36t5",
+      "parent_id": "t3_1dk36t5"
+    },
+    {
+      "id": "l9dqxj5",
+      "body": "Stocks are custodised separately from cash, so whilst annoying it's not like you've lost your money.",
+      "author": "Peace_and_Joy",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1718838149,
+      "score": 2,
+      "link_id": "t3_1dile70",
+      "parent_id": "t3_1dile70"
+    },
+    {
+      "id": "l9dpr1q",
+      "body": "It is because there is a distinct disadvantage if your competitor ends up with a use case and you don't. Most economies are now service heavy meaning human. If your competitor can reduce the human element they will have a substantial advantage over you, and realistically you will go out of business.\n\nSo you are forced to tag along.\n\n  \n(that and the overpaid consultants say its a great idea!)",
+      "author": "Peace_and_Joy",
+      "subreddit": "artificial",
+      "created_utc": 1718837684,
+      "score": 7,
+      "link_id": "t3_1djvt7z",
+      "parent_id": "t3_1djvt7z"
+    },
+    {
+      "id": "l95dyyr",
+      "body": "Because most cyclists in spite of their holier than thou attitude are just a big a pack of cunts as car drivers. Human beings are all the same. ;)",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1718716200,
+      "score": 1,
+      "link_id": "t3_1dikf5f",
+      "parent_id": "t3_1dikf5f"
+    },
+    {
+      "id": "l92i9co",
+      "body": "If you speak German you have a better chance. But still not a high one currently, everyone is ignoring the fact it's not a great market. Presuming you'd be Basel based?",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718663185,
+      "score": 3,
+      "link_id": "t3_1diajm4",
+      "parent_id": "t3_1diajm4"
+    },
+    {
+      "id": "l927z5n",
+      "body": "Nice car, if it's your dream go for it. Personally I lean back on what I said before, if I were you I would probably give it another year or two. But that's just me and I am becoming increasingly cautious about the wider economy. :)",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718659394,
+      "score": 1,
+      "link_id": "t3_1di8jnz",
+      "parent_id": "t1_l926bi7"
+    },
+    {
+      "id": "l925o8v",
+      "body": "Oh I also got more than 2 people in mine. But had there been police it might have been looked at negatively haha.",
+      "author": "Peace_and_Joy",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1718658587,
+      "score": 3,
+      "link_id": "t3_1di8e5b",
+      "parent_id": "t1_l92567e"
+    },
+    {
+      "id": "l9250xm",
+      "body": "Yeah the mid engine are the sweet sweet ones, 911 just too full fat for me. Problem is 2 seats gets old quickly, at least the 911 you can squeeze more people in on a trip down the lake!",
+      "author": "Peace_and_Joy",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1718658362,
+      "score": 2,
+      "link_id": "t3_1di8e5b",
+      "parent_id": "t1_l923ft5"
+    },
+    {
+      "id": "l9246oe",
+      "body": "1st class is a complete waste of money. You're easily going to get seats. Unless money is of no concern to yourself, but then I guess you wouldn't have asked. Put in your train rides for cost of 1st vs 2nd class and you'll quickly take the risk!",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718658074,
+      "score": 1,
+      "link_id": "t3_1di58ff",
+      "parent_id": "t3_1di58ff"
+    },
+    {
+      "id": "l923wof",
+      "body": "I mean, are you talking about a year 2000 porsche or a 2024 brand new turbo s? Kind of depends? If your income is stable, then I don't see why you wouldn't consider one to buy? I wouldn't do it myself in your position if you've only just started saving cash in the past two years as you're spending 7.5k a month before food etc. If you're bonus is around 15k usually or 40k makes quite a big difference.....\n\nPersonally if you really want one I'd consider a 991.1 maybe 991.2 , certainly not new. But at the age of 28, honestly I'd just focus on saving and investing in your future a lot more than such an expensive car right now. Buy a Boxster, Mustang, BMW or some other stuff instead. 100k on your future is going to look a lot more attractive in 10 years especially in this climate.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718657981,
+      "score": 2,
+      "link_id": "t3_1di8jnz",
+      "parent_id": "t3_1di8jnz"
+    },
+    {
+      "id": "l8q7q9h",
+      "body": "Start learning language immediately. \n\nStart your integration from day one, don't get caught in expat hell.\n\nTake VERY special care of contracts, you don't have the same rights here as you do in EU for withdrawal etc.\n\n  \nTake care of yourself, It's going to be a long hard challenge in a difficult country. It is a marathon and not a sprint. But find your people and develop a happy life. If you do not I 100% guarantee you that you will leave and sooner than you'd like. Seen it so many times. Find your place here and be happy.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Lausanne",
+      "created_utc": 1718461619,
+      "score": 2,
+      "link_id": "t3_1dfx6vm",
+      "parent_id": "t3_1dfx6vm"
+    },
+    {
+      "id": "l8q3gj3",
+      "body": "Honestly I would just write the ticket off and do something you actually want to do with your time rather than feeling obliged to do this. I liked Oslo but honestly a day or two would be enough. Other places yeah sure whatever, but it's a super expensive country (and I am in Switzerland!) so it's somewhere you'd really want to go. \n\nJust my 0.02",
+      "author": "Peace_and_Joy",
+      "subreddit": "Norway",
+      "created_utc": 1718459612,
+      "score": 1,
+      "link_id": "t3_1dgdxhe",
+      "parent_id": "t3_1dgdxhe"
+    },
+    {
+      "id": "l8p2qul",
+      "body": "Depends on what you're selling no? Is it electronics, random bits and bobs?",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718435636,
+      "score": 3,
+      "link_id": "t3_1dgbo4i",
+      "parent_id": "t3_1dgbo4i"
+    },
+    {
+      "id": "l8l6m1v",
+      "body": "Can't see why it would to be honest. There is no impediment to the air coming in or out.",
+      "author": "Peace_and_Joy",
+      "subreddit": "PcBuild",
+      "created_utc": 1718376764,
+      "score": 1,
+      "link_id": "t3_1dfsm9o",
+      "parent_id": "t3_1dfsm9o"
+    },
+    {
+      "id": "l8kuew3",
+      "body": "Realistically people will hear you long before they see you. :D",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1718372376,
+      "score": 12,
+      "link_id": "t3_1dfq18x",
+      "parent_id": "t3_1dfq18x"
+    },
+    {
+      "id": "l8k6uft",
+      "body": "Be super super careful with this. Lawyer up and realise for the love of God what you say in your \"casual\" interview will be used against you. \n\nThey do not always show the evidence at the beginning either so don't get lured into a trap. Follow your lawyers advice all the way.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1718361266,
+      "score": 1,
+      "link_id": "t3_1df14x8",
+      "parent_id": "t3_1df14x8"
+    },
+    {
+      "id": "l8k4jx3",
+      "body": "I would definitely be interested! :) I am in Zurich if you're around the area? :)",
+      "author": "Peace_and_Joy",
+      "subreddit": "Handhelds",
+      "created_utc": 1718359800,
+      "score": 2,
+      "link_id": "t3_1dfmvjn",
+      "parent_id": "t3_1dfmvjn"
+    },
+    {
+      "id": "l8ef1x6",
+      "body": "Keep it as plenty of places run promotions where they give a trade in discount for a working laptop. I did this recently.",
+      "author": "Peace_and_Joy",
+      "subreddit": "computers",
+      "created_utc": 1718270074,
+      "score": 1,
+      "link_id": "t3_1de86xb",
+      "parent_id": "t3_1de86xb"
+    },
+    {
+      "id": "l83f7dp",
+      "body": "Honestly, sounds like you've met some complete pricks........but I would also be doing some review/seeking feedback to make make sure you're not making any obvious mistakes/giving wrong vibe. Once I can understand but several times would make me pause. (I know the market is shit so that's 99% likely the reason, but even so its good to reflect)",
+      "author": "Peace_and_Joy",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1718100722,
+      "score": 9,
+      "link_id": "t3_1dd5zml",
+      "parent_id": "t1_l833ruh"
+    },
+    {
+      "id": "l806kl3",
+      "body": "In the case of Galaxus and their constant price gouging, I don't think its unfair that someone would like a share of their pie.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1718046260,
+      "score": 3,
+      "link_id": "t3_1dcnyuf",
+      "parent_id": "t1_l7zpat5"
+    },
+    {
+      "id": "l806485",
+      "body": "I literally went on their website to check. Not saying UBS the bastion of truth but the point still stands that a 1.5m house is out of the league for most on a 250k income unless they have insane levels of savings.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1718046105,
+      "score": 1,
+      "link_id": "t3_1dchz0l",
+      "parent_id": "t1_l7y30sf"
+    },
+    {
+      "id": "l7xzxry",
+      "body": "Is it actually that reasonable a price? Is it something exotic or generic? If its a 911 with good options then you'll have a lot more interest irrespective of the price than something like a 2.0 Audi Diesel with several hundred options. If it's something super generic you'll be fighting against garages that will offer warranties etc. People are usually quite worried about buying something that might need work as it becomes so expensive so quickly!\n\nFeel free to message me the advert and I will take a look as I've sold a few cars already and the write up makes a big difference.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1718016215,
+      "score": 0,
+      "link_id": "t3_1dcie6v",
+      "parent_id": "t3_1dcie6v"
+    },
+    {
+      "id": "l7xzfkc",
+      "body": "With 300,000 chf saved, and a househound income of around quarter of a million...........UBS calculator says you cannot afford a 1,500,000 house",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1718015902,
+      "score": 5,
+      "link_id": "t3_1dchz0l",
+      "parent_id": "t1_l7xyzja"
+    },
+    {
+      "id": "l7xxvnj",
+      "body": "No kids yet, buy a fancy car and the universe will shake things up for you haha.\n\n  \nJK. Not sure what a 718 though, surely a nice 911 would be better from depreciation viewpoint?",
+      "author": "Peace_and_Joy",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1718014891,
+      "score": 1,
+      "link_id": "t3_1dbf47n",
+      "parent_id": "t1_l7s9n6o"
+    },
+    {
+      "id": "l7xxc13",
+      "body": "I don't think she is crying about her salary, probably just a frustration that even though it's okay, it feels hard to make progress when you pay so much for a juice and a sandwich!",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1718014534,
+      "score": 11,
+      "link_id": "t3_1dchz0l",
+      "parent_id": "t1_l7xx6ja"
+    },
+    {
+      "id": "l7xx6p0",
+      "body": "I earn more than you but I share your sentiment completely (early-mid 30s guy here). Feels like I am just spinning my wheels even though I earn 100k more than when first moved here. I'm earning enough to buy all I want (which is very little), but not enough to have the life I want (house, family). So I am just saving up heavily and figuring it out with my also cheap rent. After all you only get one life and I already feel I wasted a lot of my late twenties and thirties. I don't want to be having this conversation when I hit 40!",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1718014435,
+      "score": -8,
+      "link_id": "t3_1dchz0l",
+      "parent_id": "t3_1dchz0l"
+    },
+    {
+      "id": "l7df1ax",
+      "body": "How much do you have left?",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717681963,
+      "score": 1,
+      "link_id": "t3_1d86b92",
+      "parent_id": "t3_1d86b92"
+    },
+    {
+      "id": "l7dcqze",
+      "body": "Honestly.......don't just look at the salary. 110k is fine for getting by, you're not going to be rich or even well off, but I guess 55k where you are isn't that impressive anyway so probably not a lot of difference.\n\nThe real question is why you want to live in Lucerne. Its an okay place but I'd still WANT to live there rather than just for salary or whatever. Integrating to a meaningful level (living in expat circle of constantly rotating people doesnt count) is very tricky, very easy to spend a long time here without making actual life progress. It's not impossible just be aware it's not as easy as moving to most other EU countries.\n\nIf your spouse doesn't speak German now and needs to learn you're going to be supporting for a long time til she is business ready.....there are English speaking jobs but they are like hens teeth and Zurich would be better for that.\n\nSo in summary, sure it's possible but really think about why you want to do it and where you see yourself in X amount of years time. I've seen too many people come to Switzerland earning vastly disparate salaries and eventually leave because life is too short and they didn't integrate enough to stay.",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1717681094,
+      "score": 2,
+      "link_id": "t3_1d9fz7l",
+      "parent_id": "t3_1d9fz7l"
+    },
+    {
+      "id": "l7cv7gb",
+      "body": "When you get to a certain age, time is important, and pissing around is a waste of time if you have responsibilities. However I think it's good for people, it builds character, can be fun and is a break away.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717673334,
+      "score": 1,
+      "link_id": "t3_1d8tpbb",
+      "parent_id": "t1_l78wf58"
+    },
+    {
+      "id": "l7cutk9",
+      "body": "Honestly.......don't just look at the salary. 110k is fine for getting by, you're not going to be rich or even well off, but I guess 55k where you are isn't that impressive anyway so probably not a lot of difference. \n\nThe real question is why you want to live in Lucerne. Its an okay place but I'd still WANT to live there rather than just for salary or whatever. Integrating to a meaningful level (living in expat circle of constantly rotating people doesnt count) is very tricky, very easy to spend a long time here without making actual life progress. It's not impossible just be aware it's not as easy as moving to most other EU countries. \n\nIf your spouse doesn't speak German now and needs to learn you're going to be supporting for a long time til she is business ready.....there are English speaking jobs but they are like hens teeth and Zurich would be better for that.\n\nSo in summary, sure it's possible but really think about why you want to do it and where you see yourself in X amount of years time. I've seen too many people come to Switzerland earning vastly disparate salaries and eventually leave because life is too short and they didn't integrate enough to stay.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717673128,
+      "score": 2,
+      "link_id": "t3_1d9fpey",
+      "parent_id": "t3_1d9fpey"
+    },
+    {
+      "id": "l7ct850",
+      "body": "Your comment: *Public transport pricing is foreign to you.* \n\nCan you not read your own words?\n\n  \nAnd your other points are just grasping at straws. Made even more hilarious by your own admission of driving a combustion car hahaha.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717672273,
+      "score": 0,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l7cl9fw"
+    },
+    {
+      "id": "l7csxf6",
+      "body": "Ah so you are a full blown hypocrite. Got it. I couldn't give a shit about you, I just find it hilarious listening to sanctimonious people hang themselves on their own rope. Good luck out there polluting more than me. ;)",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717672109,
+      "score": 0,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l7cl0qc"
+    },
+    {
+      "id": "l7csr1j",
+      "body": "Just don't got to Kronenhalle. Okay I've been there quite a few times because of work etc, but really its exceptionally overrated and the high prices do not reflect the quality. Service last couple times was terrible as well.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717672009,
+      "score": 2,
+      "link_id": "t3_1d95l5g",
+      "parent_id": "t3_1d95l5g"
+    },
+    {
+      "id": "l7csmti",
+      "body": "Agreed",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717671944,
+      "score": 1,
+      "link_id": "t3_1d95l5g",
+      "parent_id": "t1_l7c312u"
+    },
+    {
+      "id": "l78o8ei",
+      "body": "Also looking at your history, not only pathetic and vindictive, but also a hypocrite?\n\n*I bought a five year old Volvo V40 with 50k km. It still has free services for another five years. I haven‘t had any repairs so far and I don‘t expect that I will have any for a while. It came fresh from the MFK. I paid way less than 20k.* \n\n*Ask a mechanic or TCS to check the car with you before you buy.* ",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717605554,
+      "score": 0,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l77gz6w"
+    },
+    {
+      "id": "l78nmv2",
+      "body": "You just sounds quite pathetic and vindictive to be honest. And you can make it as bothersome as you like, it will never be expensive enough for me to give up. But you will price out all the poor and normal people contributing to make society even unfairer. Good job.\n\nAnd how is pricing of public transport foreign to me when I use the public transport like I said in my previous posts?\n\nAnd not sure how my electric car produces noice (noise?) and air pollution? It's pretty silent and pretty green especially with the energy source.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717605352,
+      "score": -1,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l77gz6w"
+    },
+    {
+      "id": "l770pee",
+      "body": "Lots of the /fuckcars people would crucify you for suggesting that buses are not acceptable and should be put up with. ;) \n\nI certainly don't miss that bus myself!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717580308,
+      "score": 2,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l770bz3"
+    },
+    {
+      "id": "l770k9k",
+      "body": "But all your opinions (and I respect them) are just your opinion. For everyone of your points I have a personal objection. Yes when my friends visit they can all pay 40 CHF just to get from Basel to Zurich each, and then probably a few hundred more if we go to a couple places. Or they can hop in my car and 5 of us could drive around for essentially nothing.\n\nSure I can do my groceries piecemeal in Coop and pay a fortune more. Or I can load up on the heavy items I want, promos I want and frankly not have the stress of carting it all back. And that's just me, let alone if I had a large family! \n\nIf you dream of having your own vehicle, be part of your own destiny and give it a try or not. But I strongly disagree it's futile or costly (in my opinion). But again it's just my opinion, I love driving, I'm still young enough to love travelling and I've a lot of experience in finance so money isn't a problem.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717580205,
+      "score": 1,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l76zute"
+    },
+    {
+      "id": "l77050i",
+      "body": "Taking the number 31/33 bus alone would convince most people to get a car haha, some absolute scoundrels on those lines. The Frequency of trains is a problem sometimes, carrying the stuff is a problem and having to revolve your day around the different timings. Again it's not for everyone and if you live and work near the Zürich HB etc then I could see how its not needed. But for me it ticks every box of picking and choosing what I need.! :)",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717579895,
+      "score": 2,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l76z5m3"
+    },
+    {
+      "id": "l76zuxt",
+      "body": "Never said it was! I enjoy my creature comforts in life. Also, I enjoy spontaneity. I like jumping in the car and going somewhere at the drop of a hat. I also know in Wintertime when we go skiing, everyone including myself certainly enjoys heated seats, 4 wheel drive, all ski equipment in the boot door to door!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717579692,
+      "score": 2,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l76zb00"
+    },
+    {
+      "id": "l76y92k",
+      "body": "No, I wouldn't sell my car as I have tremendous utility from it. I pay my taxes and work hard so I can afford something which makes my live easier and gives me pleasure. I don't need any lectures about public transport, I use it when I want to use it and use my car when I want to use it.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717578505,
+      "score": 2,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l76wr3e"
+    },
+    {
+      "id": "l76y251",
+      "body": "I'm quite a relaxed person, and if someone needs help I don't mind helping. But the sheer arrogance (to be blunt) of my peer group of 20s/30s aged hipsters that genuinely think a car free world is feasible for everyone....gets a bit insufferable. People have commutes, they don't all get to live in trendy Kreis 4 or 5. People have families and have to transport family shops which is hard to do on your fixie bike. Transport for friends and visitors is horrendously expensive. Going to visit other nearby countries is difficult. Having a disability and being able to drive is incredibly freeing.\n\nAnd yes I have made myself a lot less available for a lot of people now in general. And not to be too insufferable myself I drive an electric car so it's not like I am sat at the lights like the assholes in their Lamborghini's!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717578362,
+      "score": 1,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t1_l76x4ne"
+    },
+    {
+      "id": "l76u7ce",
+      "body": "Yikes!",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1717575475,
+      "score": 1,
+      "link_id": "t3_1d5hziz",
+      "parent_id": "t3_1d5hziz"
+    },
+    {
+      "id": "l76tn0m",
+      "body": "I heard a lot of mention from people who would like to get rid of cars around Zürich.....and yet these same people have no shame asking me to help move stuff for them, give a lift when its inconvenient etc. \n\nCars have their place and the freedom it offers is unparalleled. I use my bonuspass where possible, but I certainly know when I go visit a friend tomorrow that hopping in my car for 30 mins sure as hell beats the insane connections I need to take!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717575054,
+      "score": 3,
+      "link_id": "t3_1d8i6u5",
+      "parent_id": "t3_1d8i6u5"
+    },
+    {
+      "id": "l745a4r",
+      "body": "Would also be interested in hearing about this. I'm in Zürich Switzerland so a literally world away from you but similar situation in terms of dealing with less than ideal circumstances.",
+      "author": "Peace_and_Joy",
+      "subreddit": "startups",
+      "created_utc": 1717531475,
+      "score": 1,
+      "link_id": "t3_1d4lsin",
+      "parent_id": "t1_l6g1tq3"
+    },
+    {
+      "id": "l740gfj",
+      "body": "HAHAHAHAHAHAHAHA.\n\n(Not laughing at you, but I assure you it's most definitely done here. Even better when you have to sign the form when you join saying its included in your salary/bonus so no overtime..)",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717529874,
+      "score": 0,
+      "link_id": "t3_1d6904u",
+      "parent_id": "t1_l6qslkd"
+    },
+    {
+      "id": "l740475",
+      "body": "wtf?! You should definitely have called the police and I am astounded no one else did! I have never heard of something like this happening before!",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717529761,
+      "score": 0,
+      "link_id": "t3_1d84vle",
+      "parent_id": "t3_1d84vle"
+    },
+    {
+      "id": "l73rzs5",
+      "body": "You're not going to get anything apart from self righteous people here who have never made a mistake in their lives.....\n\nIf you have legal insurance great, if not I would still consider getting one to see if there are any mitigations that they can help with (or potential loop holes if you were directly stopped by the police in terms of procedure etc). \n\nAre you a resident here or just visting?",
+      "author": "Peace_and_Joy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1717527086,
+      "score": 1,
+      "link_id": "t3_1d4yicw",
+      "parent_id": "t3_1d4yicw"
+    },
+    {
+      "id": "l72fa5m",
+      "body": "Are you currently on drugs or am I having a stroke? Reading this makes me feel either or both.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717510617,
+      "score": 19,
+      "link_id": "t3_1d7y2j4",
+      "parent_id": "t3_1d7y2j4"
+    },
+    {
+      "id": "l727o5s",
+      "body": "Think of it as a maths formula.\n\nHouse repair x 2.5 = Denkmalschutz.\n\n  \nLess flippantly, it doesn't have to be the end of the world and there are various levels of what is covered eg is it just the general shape to preserve the fabric of the building, or is it complete down to the old fire burner inside! If its just for living in its less of a problem but as soon as work needs to be done, you are into a difficult world, especially if you have difficult people in the geminde. \n\nDefinitely get advice and be super super careful of what you get into.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717507742,
+      "score": 2,
+      "link_id": "t3_1d52u3k",
+      "parent_id": "t3_1d52u3k"
+    },
+    {
+      "id": "l726y8v",
+      "body": "Check if the main tenant has insurance coverage and go that route. It looks like the floor has lost its seal as the washing up liquid will have stripped it, could possibly try and re-oil it and blend it in. Hopefully you can fix in time!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717507455,
+      "score": 3,
+      "link_id": "t3_1d7w16r",
+      "parent_id": "t3_1d7w16r"
+    },
+    {
+      "id": "l6w6pzd",
+      "body": "disposable account name + todays date. Not really that peculiar?",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717412460,
+      "score": 4,
+      "link_id": "t3_1d71f9g",
+      "parent_id": "t1_l6w6ds8"
+    },
+    {
+      "id": "l6w170n",
+      "body": "Would be happy to bug test for you :)",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717408936,
+      "score": 1,
+      "link_id": "t3_1d53hc2",
+      "parent_id": "t1_l6japd9"
+    },
+    {
+      "id": "l6w10wg",
+      "body": "lol",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717408820,
+      "score": 1,
+      "link_id": "t3_1d4uw75",
+      "parent_id": "t1_l6hsj9p"
+    },
+    {
+      "id": "l6w0kho",
+      "body": "I checked out the RAG system before and it looked quite interesting, but I guess the \"LLM\" will still need to be able to query the data in the databases to know its answer for specific rows?",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717408498,
+      "score": 1,
+      "link_id": "t3_1d6z0of",
+      "parent_id": "t1_l6w0i47"
+    },
+    {
+      "id": "l6w0i47",
+      "body": "Thanks for input much appreciated. So I need to take a step back and look at this architecturally differently?",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717408452,
+      "score": 1,
+      "link_id": "t3_1d6z0of",
+      "parent_id": "t1_l6vwgsh"
+    },
+    {
+      "id": "l6w0g5o",
+      "body": "Thanks for your opinion, so I am \"solving this problem\" the wrong way?",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717408413,
+      "score": 0,
+      "link_id": "t3_1d6z0of",
+      "parent_id": "t1_l6vy1xa"
+    },
+    {
+      "id": "l6vq8ac",
+      "body": "Yeah sorry didn't mean to come across as preachy, probably was more food for thought for myself as well!",
+      "author": "Peace_and_Joy",
+      "subreddit": "GamingLaptops",
+      "created_utc": 1717400683,
+      "score": 1,
+      "link_id": "t3_1d4pb7g",
+      "parent_id": "t1_l6j14vn"
+    },
+    {
+      "id": "l6vq1yc",
+      "body": "so even in your reply you can see how it happens, so why would you be caustic and suggest someone doesn't drive? I mean this is exactly what life is like, its not perfect and people don't always act perfectly.\n\nI personally am hyper aware as a colleague I worked with got 6 figure fine related to driving so I have always been paranoid.",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717400553,
+      "score": 1,
+      "link_id": "t3_1d4s2bq",
+      "parent_id": "t1_l6gpmow"
+    },
+    {
+      "id": "l6gng5u",
+      "body": "Lets say you are doing 15km over the limit per your example for the 120ch fine on the motorway. Unfortunately as is common the speed limit drops to 80km/hr. You miss it because life happens. Suddenly you're 55km/hr over the speed limit. Hello criminal charge and driving ban. Easy as pie.\n\nNot condoning it, but there is a reason its not that uncommon. \n\nPeople doing 200km/hr in an 80km/hr zone, sure, they're just fucking morons, but the line gets blurred quite quickly. Near where I live in Zurich, there is a place that very quickly goes from an 80km/hr zone to a 30km/hr residential (was 50km/hr until recently). This would incurr along with insane fines\n\n*Prison sentence of* ***one to four years.*** *Probation is possible for up to two years.*\n\n* *Withdrawal of your driving licence* ***for at least two years.*** *To get it back, you will need to pass an assessment by a psychologist specializing in traffic.*\n* *If you repeat the offence, you will lose your licence* ***for at least ten years.***",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717155400,
+      "score": 1,
+      "link_id": "t3_1d4s2bq",
+      "parent_id": "t1_l6gmcie"
+    },
+    {
+      "id": "l6gg6lf",
+      "body": "Sounds stupid have you actually tested the power cable in another monitor or something so you know it works (and that the plug socket works!). Reseat the cable there once you know it works. \n\nAfter this, check your GPU, CPU and motherboard cables by reseating them all. Try one stick of ram. After this you're in the realm of chance, but if this is a new build completely etc, use the minimum amount of wires. Make sure above all else you actually connected the power switch button the right way round. ;) \n\nThen after that you need to check for shorts eg maybe there is a spacer under the motherboard touching or something.",
+      "author": "Peace_and_Joy",
+      "subreddit": "PcBuildHelp",
+      "created_utc": 1717151268,
+      "score": 0,
+      "link_id": "t3_1d4nlvq",
+      "parent_id": "t3_1d4nlvq"
+    },
+    {
+      "id": "l6gf26a",
+      "body": "This is good advice, did it myself a few years ago, because why not!",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717150541,
+      "score": 7,
+      "link_id": "t3_1d4s2bq",
+      "parent_id": "t1_l6geqsh"
+    },
+    {
+      "id": "l6gf196",
+      "body": "Not living in fear of the Blitzers would be a dream. I'm pretty responsible when it comes to driving, but one second of lapse and could be life changing. urgh (I'm not referring to the ones where its clearly marked, but the ones where the blitzer is right after a speed change).",
+      "author": "Peace_and_Joy",
+      "subreddit": "Switzerland",
+      "created_utc": 1717150524,
+      "score": -2,
+      "link_id": "t3_1d4s2bq",
+      "parent_id": "t3_1d4s2bq"
+    },
+    {
+      "id": "l6geu2a",
+      "body": "Glad to hear there is a fellow harmless degenerate in the house! Realistically I'm now in the mood to go out, go to some underwhelming bars, maybe redeem it a bit with Total bar as I have some physical money needing burning, recognise I should go home when it closes criminally early and I really just needed one or two more negroni's for the road.......go to Rositas, get annoyed by the price increase and general stinginess but enjoy some cheap berlinerluft whilst telling myself I should have remembered my loyalty card yet again, this could have been the trip of the free sandwich!!!!!!..........then go to Grabli Bar because in one of the most famous cities in the world there are no dive bars to just chill out with normal people not weird bastards. \n\nSo yeah if you see me in there later feel free to have a good laugh at me!",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717150393,
+      "score": 1,
+      "link_id": "t3_1d3jd7h",
+      "parent_id": "t1_l6gdzgy"
+    },
+    {
+      "id": "l6ge5cc",
+      "body": "The 4080 sounds like a good idea.........but honestly I think you also need to look at yourself (downvotes incoming I am sure!), is your behaviour being reasonable? Are you spending enough time with her? If so then fine, but if there is something that is niggling away a bit deeper might be worth a reflection on. Simply having a headphone and laptop to literally just be \"physically there\" might not the magic bullet you're looking for!",
+      "author": "Peace_and_Joy",
+      "subreddit": "GamingLaptops",
+      "created_utc": 1717149941,
+      "score": 2,
+      "link_id": "t3_1d4pb7g",
+      "parent_id": "t3_1d4pb7g"
+    },
+    {
+      "id": "l6gbwpk",
+      "body": "Interesting, I wonder how many watch lists you go on haha",
+      "author": "Peace_and_Joy",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717148391,
+      "score": 5,
+      "link_id": "t3_1d4m61o",
+      "parent_id": "t3_1d4m61o"
+    },
+    {
+      "id": "l6g97j4",
+      "body": "Give me the fucking toastie at 4am please whilst I get increasingly drunk and depressed at the stage of myself and the characters around me!",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717146428,
+      "score": 2,
+      "link_id": "t3_1d3jd7h",
+      "parent_id": "t1_l6ci0s5"
+    },
+    {
+      "id": "l6avntz",
+      "body": "I would never buy ASUS again, I had the worst experience ever with them two times and after that decided never again!",
+      "author": "Peace_and_Joy",
+      "subreddit": "nvidia",
+      "created_utc": 1717061858,
+      "score": 0,
+      "link_id": "t3_1d3uo6v",
+      "parent_id": "t3_1d3uo6v"
+    },
+    {
+      "id": "l6avi3s",
+      "body": "One of the stupidiest road designs in Switzerland and that is saying a lot. Lets not forget the blitzer 100 metres behind this that allows for like 3 cars through before everyone gets nervous before it turns.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717061745,
+      "score": 2,
+      "link_id": "t3_1d3e19i",
+      "parent_id": "t3_1d3e19i"
+    },
+    {
+      "id": "l6av0t8",
+      "body": "Gräbli-Bar or Olé-Olé-Bar. The first is more \"chilled\" if you can call it that, Olé-Olé is usually rammed at night time.",
+      "author": "Peace_and_Joy",
+      "subreddit": "zurich",
+      "created_utc": 1717061393,
+      "score": 1,
+      "link_id": "t3_1d3jd7h",
+      "parent_id": "t3_1d3jd7h"
     }
   ]
 }

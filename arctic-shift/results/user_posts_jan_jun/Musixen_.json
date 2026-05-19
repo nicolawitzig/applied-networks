@@ -21,6 +21,86 @@
       "score": 5,
       "link_id": "t3_1bzopek",
       "parent_id": "t1_kyrvan5"
+    },
+    {
+      "id": "l92oop7",
+      "body": "Fucking Beautiful",
+      "author": "Musixen_",
+      "subreddit": "ratemyboobs",
+      "created_utc": 1718665670,
+      "score": 2,
+      "link_id": "t3_1dibqnt",
+      "parent_id": "t3_1dibqnt"
+    },
+    {
+      "id": "kys9kvd",
+      "body": "1. **Customize the Backend Response:**  \nEnsure that your backend returns an appropriate response when the user doesn't exist. For example, if the user doesn't exist, return a 404 status code along with a JSON response indicating the error.\n\n2. **Handle Errors in Nuxt.js Middleware:**  \nCreate a middleware in your Nuxt.js application to intercept the response from the `/api/auth/google/callback` endpoint.\n\n\\`\\`\\`  \n// middleware/checkUserExists.js\n\nexport default function ({ $axios, redirect }) {\n\n$axios.onError(error => {\n\nconst code = parseInt(error.response && error.response.status)\n\nif (code === 404) {\n\n// User doesn't exist, redirect to registration page\n\nredirect('/register')\n\n}\n\n})\n\n}\n\n\\`\\`\\`\\`\n\n3.  **Register the Middleware:**  \nRegister the middleware globally or for specific routes in your Nuxt.js application.\n\n\\`\\`\\`\n\n// nuxt.config.js\n\nexport default {\n\n...\n\nrouter: {\n\nmiddleware: \\['checkUserExists'\\]\n\n},\n\n...\n\n}\n\n\\`\\`\\`\n\n  \nWith this setup, when the backend returns a 404 response indicating that the user doesn't exist, the middleware intercepts the response and redirects the user to the registration page (`/register`). You can customize this behavior further based on your requirements, such as displaying a popup/modal instead of a redirect.",
+      "author": "Musixen_",
+      "subreddit": "Nuxt",
+      "created_utc": 1712678110,
+      "score": 1,
+      "link_id": "t3_1bzkg6t",
+      "parent_id": "t3_1bzkg6t"
+    },
+    {
+      "id": "kys8t1p",
+      "body": "I understand your concerns about renewing your work permit in Switzerland. It's important to ensure that you meet all the necessary requirements to maintain your permit status. Here are some points to consider based on your situation:\n\n1. **Work Contract:** Typically, when renewing a work permit, you will need to provide a valid work contract from your employer. This contract should specify the terms of your employment, including job title, salary, and other relevant details.\n2. **Job Market Restrictions:** Since you have confirmed with the AWA (Arbeitsmarktbehörde) that you have no restrictions in the job market, this means you have an open B work permit, allowing you to work for any employer in Switzerland without needing approval from the authorities.\n3. **Job Change:** If you find yourself without a job before applying for the renewal of your work permit, it could potentially complicate the renewal process. However, as long as you secure a new job before your current permit expires, you should be able to apply for the renewal with the new work contract.\n4. **Domain of Job:** Generally, the migration office is primarily concerned with ensuring that you have a valid job offer from a Swiss employer. The specific domain or workload of the job may not be a significant factor in the renewal process, as long as the job meets the requirements for a work permit.\n5. **Consultation:** Since your situation involves specific timing and potential changes in employment status, it may be helpful to consult with an immigration lawyer or advisor who can provide personalized guidance based on your circumstances and assist you in navigating the renewal process.\n\nUltimately, while changes in employment status can add complexity to the renewal process, as long as you can secure a new job before your permit expires and provide a valid work contract, you should be able to proceed with the renewal application. Keep in mind that staying proactive and seeking assistance when needed can help alleviate any potential challenges you may encounter.",
+      "author": "Musixen_",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712677843,
+      "score": 0,
+      "link_id": "t3_1bzu6xw",
+      "parent_id": "t3_1bzu6xw"
+    },
+    {
+      "id": "kys7p5t",
+      "body": "Afaik the financial situation is important but there is not a specific amount you need to have.  Therefore I would look at the requirements in general\n\n1. **Work Permit:** Non-EU citizens need a valid work permit to work in Switzerland. The employer typically applies for the work permit on behalf of the employee. The issuance of work permits depends on various factors, including the availability of local labor and the qualifications/skills of the individual.\n2. **Labor Market Test:** Before a work permit is issued to a non-EU citizen, Swiss authorities may conduct a labor market test to ensure that no Swiss or EU/EFTA (European Free Trade Association) citizens are available for the position. This test involves advertising the job vacancy locally and proving that no suitable candidates were found.\n3. **Quotas:** Switzerland has quotas for the number of work permits issued to non-EU citizens. These quotas can vary depending on the type of work, industry, and other factors. Once the quota is reached, no more work permits will be issued until the next quota period.\n4. **Employer Sponsorship:** Usually, a job offer from a Swiss employer is required to apply for a work permit. The employer must demonstrate the need for hiring a non-EU citizen over a Swiss or EU/EFTA national.\n5. **Residence Permit:** In addition to the work permit, non-EU citizens need a residence permit to live in Switzerland. This permit is usually obtained after the work permit is granted and is tied to the employment status.\n6. **Language Requirements:** Depending on the region and the nature of the job, proficiency in one or more of Switzerland's official languages (German, French, Italian, or Romansh) may be required.\n7. **Financial Requirements:** Non-EU citizens may need to demonstrate that they have sufficient financial means to support themselves and any dependents while living in Switzerland.\n8. **Health Insurance:** Health insurance is mandatory for all residents in Switzerland, including non-EU citizens. Proof of health insurance coverage is usually required when applying for a residence permit.\n9. **Background Checks:** Swiss authorities may conduct background checks as part of the visa and permit application process.\n10. **Tax Considerations:** Non-EU citizens working in Switzerland are subject to Swiss taxation laws. Understanding the tax implications is important before relocating.",
+      "author": "Musixen_",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712677463,
+      "score": 0,
+      "link_id": "t3_1bzudbl",
+      "parent_id": "t1_kys43p9"
+    },
+    {
+      "id": "kys6925",
+      "body": "Tbh you got no chance getting a visa without a degree which is needed in Switzerland. If you got one its possible but hard. Alone the fact if you can speak swiss german or just german is still a huge factor in Switzerland. There was a study that showed there a difference in earnings up to 25k a year",
+      "author": "Musixen_",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712676963,
+      "score": 1,
+      "link_id": "t3_1byzsj7",
+      "parent_id": "t3_1byzsj7"
+    },
+    {
+      "id": "kys397i",
+      "body": "Believe me.. you don't need that Sekundarstufezeugnis. It says exactly nothing about your qualifications. Try to show them your skills which could bring value to the company.",
+      "author": "Musixen_",
+      "subreddit": "Switzerland",
+      "created_utc": 1712675926,
+      "score": 2,
+      "link_id": "t3_1bybd6y",
+      "parent_id": "t3_1bybd6y"
+    },
+    {
+      "id": "kys2h5k",
+      "body": "He can fine you but it has to be an acceptable amount. There was a company in Zurich that fined 120.- for a similar case and it got dismissed. I would let that be checked.  \n  \nDer Eigentümer darf seine Umtriebe (z.B. Aufwand für Beweisfotos, Adressnachforschung, Buchhaltung, Porto und Kopien) in Rechnung stellen. Das Bundesgericht erachtete im Jahr 2014 eine Umtriebsentschädigung **zwischen CHF 30.00 und 52.00** (BGer 6B\\_192/2014) als angemessen\n\nhttps://www.konsumentenschutz.ch/online-ratgeber/muss-ich-eine-private-parkbusse-bezahlen/#:\\~:text=H%C3%B6he%20der%20Umtriebsentsch%C3%A4digung,6B\\_192%2F2014)%20als%20angemessen.",
+      "author": "Musixen_",
+      "subreddit": "Switzerland",
+      "created_utc": 1712675653,
+      "score": 1,
+      "link_id": "t3_1byyqev",
+      "parent_id": "t3_1byyqev"
+    },
+    {
+      "id": "kujh6g4",
+      "body": "Get at least 16 GB on an Apple Silicon(!) but better would be 32 GB. My company gave me a 16 GB one first and the building times made me cry. CPU is less important.",
+      "author": "Musixen_",
+      "subreddit": "FlutterDev",
+      "created_utc": 1710260667,
+      "score": 2,
+      "link_id": "t3_1bcubsw",
+      "parent_id": "t3_1bcubsw"
     }
   ]
 }

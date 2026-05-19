@@ -11,6 +11,39 @@
       "num_comments": 4,
       "selftext": "I'm wondering what the best pizza places near HG are. I've been to Domino's but not a big fan, La Piadina at HB seems to have great reviews.\nWhat are your experiences?",
       "url": "https://www.reddit.com/r/ethz/comments/1ale9a8/best_pizza_takeaway_or_restaurant_near_hg/"
+    },
+    {
+      "id": "1d36up6",
+      "title": "Intermittent/Complete RAM failure?",
+      "author": "Christiandus",
+      "subreddit": "buildapc",
+      "created_utc": 1716969655,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "I'm at a loss for words honestly, I'm using the following components:\n4080 super Pro Art (connected with the original 12V adapter and 3 seperate PCIE power connectors)\n7800x3D (connected with 8 pin)\nMSI X670E Gaming plus Wifi\nCorsair Vengeance 6000Mhz/CL30\nPSU 850W\n\nWhen I first booted everything was fine, however as soon as I enabled X-AMP (using the preset profile) everything turned to shit it seems.\nRAM only worked intermittently and only with 1 slot. Now it ceased to work.\n2nd RAM kit (Gskill 6000Mhz/CL30) worked (also with X-AMP) until I slotted the second stick. Now it doesn't even boot with the 1 stick (even when I switch back to the first kit).\nAdditionally I had issues where the graphics card would spin to 100% and the screen would go black. It seems this can be caused by RAM problems as well?\nEZ debug LED goes red/orange (cpu/ram) with the first kit.\nEZ debug LED goes blank with the second kit.\nWith both kits EZ debug sometimes gets stuck on green (boot device)\nTemperatures seemed fine in the range of 50-70 for the CPU and 40s for the GPU.\n\nSteps I tried so far:\nClear CMOS (remove battery and power for 10s+)\nObviously a lot of RAM reseating\n\nWhere to go from here?\nShould I try reseating the CPU? \nI will try booting with the iGPU when I get back home.\nWhat else could I do for a structured troubleshooting or should I return some parts?\n\nThank you :)",
+      "url": "https://www.reddit.com/r/buildapc/comments/1d36up6/intermittentcomplete_ram_failure/"
+    },
+    {
+      "id": "1bkb80v",
+      "title": "Mis eestis juhtub? oO",
+      "author": "Christiandus",
+      "subreddit": "Eesti",
+      "created_utc": 1711039896,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://i.redd.it/hx03oyqidm091.png"
+    },
+    {
+      "id": "1aqpiht",
+      "title": "How many pints of beer before I beat you?",
+      "author": "Christiandus",
+      "subreddit": "chess",
+      "created_utc": 1707924442,
+      "score": 86,
+      "num_comments": 50,
+      "selftext": "At one of the recent tournaments there was a bit where I think David (Howell) asked different grandmasters (I remember at least Caruana and Magnus) how many beers they'd need to drink before they would lose to him. Does anyone know the event or has the link to the video?",
+      "url": "https://www.reddit.com/r/chess/comments/1aqpiht/how_many_pints_of_beer_before_i_beat_you/"
     }
   ],
   "comments": [
@@ -33,6 +66,686 @@
       "score": 2,
       "link_id": "t3_1apozp7",
       "parent_id": "t1_kq7mej5"
+    },
+    {
+      "id": "lawcxt4",
+      "body": "You can disable NPU offloading per tunnel so no issue",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1719700762,
+      "score": 1,
+      "link_id": "t3_1driho6",
+      "parent_id": "t1_law5wh2"
+    },
+    {
+      "id": "la852wc",
+      "body": "If you aggregate your packets, the tick rate becomes useless. Ever thought about that?  \nI don't know why you're trying to throw layer information in here, when they're clearly irrelevant.",
+      "author": "Christiandus",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1719332471,
+      "score": 0,
+      "link_id": "t3_1dne7hg",
+      "parent_id": "t1_la5z36s"
+    },
+    {
+      "id": "la84h82",
+      "body": "MTU is the maximum transmission unit. The *maximum* packet size before a packet gets fragmented. A packet can be smaller which is the case with the comment above...",
+      "author": "Christiandus",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1719332271,
+      "score": 1,
+      "link_id": "t3_1dne7hg",
+      "parent_id": "t1_la7fb3b"
+    },
+    {
+      "id": "la5xprh",
+      "body": "I didn't say it was a measurement but an indicator... Are you familiar with CS at all? Your comment seems extremely displaced.",
+      "author": "Christiandus",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1719292301,
+      "score": 4,
+      "link_id": "t3_1dne7hg",
+      "parent_id": "t1_la5xl4j"
+    },
+    {
+      "id": "la5v43p",
+      "body": "Wireless is half-duplex but most modern routers are working with multiple antenna which (of course depending on placement and interference) can basically eliminate this problem.",
+      "author": "Christiandus",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1719290886,
+      "score": 2,
+      "link_id": "t3_1dne7hg",
+      "parent_id": "t1_la32e81"
+    },
+    {
+      "id": "la5uw1q",
+      "body": "Yeah but you should receive packets in the same frequency as CSGO (64 tick) so packet size *is* a good indicator for bandwidth when compared to CSGO.  \nAlso don't know why you're suddenly speaking of MTU when the previous commenter was talking about packet size, two very different things.",
+      "author": "Christiandus",
+      "subreddit": "GlobalOffensive",
+      "created_utc": 1719290768,
+      "score": 4,
+      "link_id": "t3_1dne7hg",
+      "parent_id": "t1_la2wrpt"
+    },
+    {
+      "id": "l9aa5k1",
+      "body": "That's wrong for all banks I know. They have sending limit aswell. You can usually adjust it a bit but not to limitless.",
+      "author": "Christiandus",
+      "subreddit": "Switzerland",
+      "created_utc": 1718789800,
+      "score": 6,
+      "link_id": "t3_1dj19zn",
+      "parent_id": "t1_l9a9g03"
+    },
+    {
+      "id": "l8lngo8",
+      "body": "It seems weird but if you can't find any other explanation, it might be worth to open a ticket with your ISP.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1718382470,
+      "score": 1,
+      "link_id": "t3_1dfgwux",
+      "parent_id": "t1_l8lmzwm"
+    },
+    {
+      "id": "l8jh7sj",
+      "body": "Is it possible you have a router with an ACL blocking the traffic?  \nMaybe your ISP is dropping the packets for some reason?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1718343823,
+      "score": 2,
+      "link_id": "t3_1dfgwux",
+      "parent_id": "t3_1dfgwux"
+    },
+    {
+      "id": "l72yj4f",
+      "body": "Sorry my comment was confusing. I wanted to imply to have add-route disabled not enabled :) So looks like you've got that covered.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1717517218,
+      "score": 1,
+      "link_id": "t3_1d7vy4e",
+      "parent_id": "t1_l72ubfz"
+    },
+    {
+      "id": "l72lu3y",
+      "body": "Have you disabled add-route on the tunnels? This caused a similar issue for me...",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1717512946,
+      "score": 1,
+      "link_id": "t3_1d7vy4e",
+      "parent_id": "t3_1d7vy4e"
+    },
+    {
+      "id": "l6o5ox6",
+      "body": "Ja genau",
+      "author": "Christiandus",
+      "subreddit": "de",
+      "created_utc": 1717271978,
+      "score": 2,
+      "link_id": "t3_1d5kdsa",
+      "parent_id": "t1_l6nyt5o"
+    },
+    {
+      "id": "l6mglg2",
+      "body": "Ich finds überzogen aber er ist deutlich näher an 50% als an dopplt so viel...",
+      "author": "Christiandus",
+      "subreddit": "de",
+      "created_utc": 1717249062,
+      "score": 8,
+      "link_id": "t3_1d5kdsa",
+      "parent_id": "t1_l6mdwm6"
+    },
+    {
+      "id": "l5y2hu4",
+      "body": "German, English, Estonian, French",
+      "author": "Christiandus",
+      "subreddit": "AskReddit",
+      "created_utc": 1716849332,
+      "score": 1,
+      "link_id": "t3_1d1xa0t",
+      "parent_id": "t3_1d1xa0t"
+    },
+    {
+      "id": "l5kyv23",
+      "body": "AC revelations on the computer of my older brother and then AC 3. Oh the memories :)",
+      "author": "Christiandus",
+      "subreddit": "assassinscreed",
+      "created_utc": 1716619704,
+      "score": 1,
+      "link_id": "t3_1czr1vm",
+      "parent_id": "t3_1czr1vm"
+    },
+    {
+      "id": "l4zvytr",
+      "body": "Flow trace too with the new FOS versions, doesn't have all the same filtering available atm though",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1716282878,
+      "score": 1,
+      "link_id": "t3_1cx1ilq",
+      "parent_id": "t1_l4zmx2e"
+    },
+    {
+      "id": "l4x5ltz",
+      "body": "Oops I'm blind",
+      "author": "Christiandus",
+      "subreddit": "AskReddit",
+      "created_utc": 1716234597,
+      "score": 3,
+      "link_id": "t3_1cwh86c",
+      "parent_id": "t1_l4x4smw"
+    },
+    {
+      "id": "l4wxprn",
+      "body": "Have you posted this story before? Seems awfully familiar lol",
+      "author": "Christiandus",
+      "subreddit": "AskReddit",
+      "created_utc": 1716231785,
+      "score": 0,
+      "link_id": "t3_1cwh86c",
+      "parent_id": "t1_l4w1urt"
+    },
+    {
+      "id": "l4kvakn",
+      "body": "Debug the traffic on Forti to check if it actually reaches.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1716025665,
+      "score": 1,
+      "link_id": "t3_1ctw0ex",
+      "parent_id": "t1_l4kv7rq"
+    },
+    {
+      "id": "l4kuxas",
+      "body": "this seems like a connectivity issue, have you checked that the traffic actually enters the FortiGate? Have you ever received a reply in the first place?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1716025407,
+      "score": 1,
+      "link_id": "t3_1ctw0ex",
+      "parent_id": "t1_l4kiyib"
+    },
+    {
+      "id": "l4g9t9c",
+      "body": "That's not a timeout though. This is indicative of you using a wrong URL. Are you sure you are actually sending the requests to the FortiGate? And are you sure whatever you're using is not truncating anything?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1715951953,
+      "score": 1,
+      "link_id": "t3_1ctw0ex",
+      "parent_id": "t1_l4g73q6"
+    },
+    {
+      "id": "l4fyowo",
+      "body": "Are you able to get a response at all? What's the response code?  \n429 would indicate an invalid token. I think it would be faster if we discuss it in DMs.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1715947162,
+      "score": 1,
+      "link_id": "t3_1ctw0ex",
+      "parent_id": "t1_l4fk9lh"
+    },
+    {
+      "id": "l4eybgn",
+      "body": "Which URL are you requesting?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1715922901,
+      "score": 1,
+      "link_id": "t3_1ctw0ex",
+      "parent_id": "t3_1ctw0ex"
+    },
+    {
+      "id": "l31po4q",
+      "body": "Can you use normal formatting? xD  \nEFW 7.0 study guide page 136\n\n>FortiGate remembers the interface to source for the return packets.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1715120648,
+      "score": 1,
+      "link_id": "t3_1clynif",
+      "parent_id": "t1_l306bxu"
+    },
+    {
+      "id": "l2xeh7q",
+      "body": "Others have answered the question but FCSS EFW training material has some good information about it.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1715050458,
+      "score": 2,
+      "link_id": "t3_1clynif",
+      "parent_id": "t3_1clynif"
+    },
+    {
+      "id": "l2829la",
+      "body": "100% It punished you for your mistakes and executed what you input. Later games tried to assume way too much or tried to prevent you from doing \"wrong\" stuff.",
+      "author": "Christiandus",
+      "subreddit": "assassinscreed",
+      "created_utc": 1714644749,
+      "score": 22,
+      "link_id": "t3_1ci51xq",
+      "parent_id": "t1_l27j12q"
+    },
+    {
+      "id": "l1x62xp",
+      "body": "Could you attach a network diagram? with ip addresses (anonymised where needed). Your description is incredibly confusing.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1714473808,
+      "score": 1,
+      "link_id": "t3_1cfwh6z",
+      "parent_id": "t3_1cfwh6z"
+    },
+    {
+      "id": "l0r2y6k",
+      "body": "If you have the policy route still active, it takes priority.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1713798827,
+      "score": 4,
+      "link_id": "t3_1ca6n3w",
+      "parent_id": "t1_l0qii31"
+    },
+    {
+      "id": "l0995u6",
+      "body": "Leider haben viele Superreiche Abmachungen, sodass sie nur verhältnismässig kleine Summen bezahlen müssen. Quasi ne Flatrate. Komisch, dass das nicht erwähnt wird.",
+      "author": "Christiandus",
+      "subreddit": "de",
+      "created_utc": 1713503788,
+      "score": 5,
+      "link_id": "t3_1c7439h",
+      "parent_id": "t1_l0587h5"
+    },
+    {
+      "id": "kzq76cj",
+      "body": "o7 thank you for your service",
+      "author": "Christiandus",
+      "subreddit": "Switzerland",
+      "created_utc": 1713210721,
+      "score": 3,
+      "link_id": "t3_1c4ky1u",
+      "parent_id": "t1_kzpoglj"
+    },
+    {
+      "id": "kzifg6j",
+      "body": "Just do some debugging, much easier than to try and guess the cause. Don't know web profile commands from the top of my head but debug flow should give you some first indicators.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1713087625,
+      "score": 1,
+      "link_id": "t3_1c2vjin",
+      "parent_id": "t3_1c2vjin"
+    },
+    {
+      "id": "kyw4i73",
+      "body": "It might be weird but he's not weird for that. What else are you supposed to do in that case?",
+      "author": "Christiandus",
+      "subreddit": "tifu",
+      "created_utc": 1712735271,
+      "score": 0,
+      "link_id": "t3_1bzs34p",
+      "parent_id": "t1_kys376y"
+    },
+    {
+      "id": "ky5mtbg",
+      "body": "Something something the office",
+      "author": "Christiandus",
+      "subreddit": "notinteresting",
+      "created_utc": 1712317006,
+      "score": 3,
+      "link_id": "t3_1bvzv2e",
+      "parent_id": "t1_ky333a2"
+    },
+    {
+      "id": "ky1ffyl",
+      "body": "that's not even the problem in this clip though lmao",
+      "author": "Christiandus",
+      "subreddit": "Rainbow6",
+      "created_utc": 1712250553,
+      "score": 2,
+      "link_id": "t3_1bvh6d2",
+      "parent_id": "t1_kxzq1vh"
+    },
+    {
+      "id": "kxpdnlv",
+      "body": "Bei Pferden spricht man heutzutage afaik von ca. 10% des Gewichts, also werden Ritter den Pferden nicht allzugut getan haben. Kenne mich aber nicht aus mit Elefanten Ü",
+      "author": "Christiandus",
+      "subreddit": "de",
+      "created_utc": 1712069335,
+      "score": 8,
+      "link_id": "t3_1btwmy2",
+      "parent_id": "t1_kxpbzqn"
+    },
+    {
+      "id": "kxo160h",
+      "body": "Too tall for that :(",
+      "author": "Christiandus",
+      "subreddit": "meirl",
+      "created_utc": 1712043525,
+      "score": 1,
+      "link_id": "t3_1bteux8",
+      "parent_id": "t3_1bteux8"
+    },
+    {
+      "id": "kx8g4e5",
+      "body": "You need to import the relevant 1. FortiGate certificate into the trusted certificate store of the container",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1711793025,
+      "score": 3,
+      "link_id": "t3_1brbpix",
+      "parent_id": "t3_1brbpix"
+    },
+    {
+      "id": "kx1npo9",
+      "body": "I was one of the people saying it's not that bad and people are just calling better players cheaters. However in the last 2 weeks it's been insane, probably 30% of the games have spinbotters, I've even had HvH in my lobbies... I've probably seen 2-3 times the amount of spinbotters in the last 2 weeks that I have in 6-7 years (2.5k hours) of CSGO",
+      "author": "Christiandus",
+      "subreddit": "csgo",
+      "created_utc": 1711674930,
+      "score": 3,
+      "link_id": "t3_1bq9h38",
+      "parent_id": "t3_1bq9h38"
+    },
+    {
+      "id": "kwy90oz",
+      "body": "TBF those bombings have been somewhat heavily critized (as they should be). Imo they are as bad as what russia does. I think this is a the winners write the history books moment.",
+      "author": "Christiandus",
+      "subreddit": "europe",
+      "created_utc": 1711632345,
+      "score": 2,
+      "link_id": "t3_1bpqih4",
+      "parent_id": "t1_kwy6od1"
+    },
+    {
+      "id": "kwl04j2",
+      "body": "Confused about what?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1711418430,
+      "score": 2,
+      "link_id": "t3_1bnric6",
+      "parent_id": "t3_1bnric6"
+    },
+    {
+      "id": "kw7xn8z",
+      "body": "well then read up on debug flow instead of setting helpful tips aside.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1711213904,
+      "score": 2,
+      "link_id": "t3_1bl6kkn",
+      "parent_id": "t1_kw7xcu6"
+    },
+    {
+      "id": "kw6qm0v",
+      "body": "That literally is troubleshooting. If you want to find your problem go ahead and do this.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1711196561,
+      "score": 3,
+      "link_id": "t3_1bl6kkn",
+      "parent_id": "t1_kw3wq4y"
+    },
+    {
+      "id": "kw3qcnk",
+      "body": "If you are using fqdn objects be aware that the Forti needs to see corresponding DNS traffic for wildcard fqdns.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1711140687,
+      "score": 6,
+      "link_id": "t3_1bl6kkn",
+      "parent_id": "t3_1bl6kkn"
+    },
+    {
+      "id": "kvponqu",
+      "body": "Wow that sucks, any reason to it?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710930939,
+      "score": 1,
+      "link_id": "t3_1bip87p",
+      "parent_id": "t1_kvp7tth"
+    },
+    {
+      "id": "kvooxl2",
+      "body": "Most likely the user group is matched instead of the user itself or something similar. Had that happen some time ago.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710906354,
+      "score": 1,
+      "link_id": "t3_1bj11ta",
+      "parent_id": "t3_1bj11ta"
+    },
+    {
+      "id": "kvlw7k7",
+      "body": "You can literally download them in the course for free",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710869703,
+      "score": 1,
+      "link_id": "t3_1bip87p",
+      "parent_id": "t1_kvlrkyi"
+    },
+    {
+      "id": "kvfunpi",
+      "body": "Oh I misunderstood their communication. I thought those were two different core exams. What a weird transition.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710776570,
+      "score": 1,
+      "link_id": "t3_1bhk0r8",
+      "parent_id": "t1_kvfqxv3"
+    },
+    {
+      "id": "kvenqod",
+      "body": "or the FortiOS exam",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710756909,
+      "score": 2,
+      "link_id": "t3_1bhk0r8",
+      "parent_id": "t1_kvemcip"
+    },
+    {
+      "id": "kvdk5mz",
+      "body": "I still enjoy it but yeah this last week has been wild. While previously I may have encountered single digit obvious cheaters in a year, in CS2 very few (honestly can't remember) this last week I had two obvious wall+aim hackers :(",
+      "author": "Christiandus",
+      "subreddit": "csgo",
+      "created_utc": 1710730492,
+      "score": 1,
+      "link_id": "t3_1bh7ckg",
+      "parent_id": "t3_1bh7ckg"
+    },
+    {
+      "id": "kv9pnoc",
+      "body": "I suppose you already set the cert again? Had an issue once where the cert was unset after an upgrade.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710677046,
+      "score": 1,
+      "link_id": "t3_1bgue2p",
+      "parent_id": "t1_kv9jbz4"
+    },
+    {
+      "id": "kv8zgbg",
+      "body": "Are you using FortiGate firewalls with FortiGuard licenses and policies to block traffic to malware IPs? Because if you don't I don't know why you'd expect your traffic to be blocked.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710657942,
+      "score": 2,
+      "link_id": "t3_1bgq3gh",
+      "parent_id": "t3_1bgq3gh"
+    },
+    {
+      "id": "kusz7a0",
+      "body": "Well I didn't know you checked for it already :D If it drops with different MTUs that is likely not the issue.",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710401996,
+      "score": 1,
+      "link_id": "t3_1bdzfim",
+      "parent_id": "t1_kurzu8h"
+    },
+    {
+      "id": "kurjnxc",
+      "body": "Reduce packet size? Are you forcing NAT traversal?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1710376753,
+      "score": 1,
+      "link_id": "t3_1bdzfim",
+      "parent_id": "t3_1bdzfim"
+    },
+    {
+      "id": "kup9l43",
+      "body": "The bugs and glitches are seldom. \nMy brother in christ what have you been smoking. AC III is my second favorite after Relevations but the bugs and glitches are not seldom.",
+      "author": "Christiandus",
+      "subreddit": "assassinscreed",
+      "created_utc": 1710349062,
+      "score": 1,
+      "link_id": "t3_1bcy0r5",
+      "parent_id": "t3_1bcy0r5"
+    },
+    {
+      "id": "ktfs69w",
+      "body": "Es ist der **Post**illon Ü",
+      "author": "Christiandus",
+      "subreddit": "de",
+      "created_utc": 1709639072,
+      "score": 3,
+      "link_id": "t3_1b6yyfi",
+      "parent_id": "t1_ktfchdz"
+    },
+    {
+      "id": "kqff9in",
+      "body": "Yes I was not sure in the first place and mistaken :D",
+      "author": "Christiandus",
+      "subreddit": "chess",
+      "created_utc": 1707939632,
+      "score": 5,
+      "link_id": "t3_1aqpiht",
+      "parent_id": "t1_kqexoy3"
+    },
+    {
+      "id": "kqfex3b",
+      "body": "[u/clavain](https://www.reddit.com/u/clavain) provided the link down below (this one with a timestamp to the magnus interview)\n[https://www.youtube.com/watch?v=fsFquXqeDKI&t=10709s](https://www.youtube.com/watch?v=fsFquXqeDKI&t=10709s)",
+      "author": "Christiandus",
+      "subreddit": "chess",
+      "created_utc": 1707939518,
+      "score": 13,
+      "link_id": "t3_1aqpiht",
+      "parent_id": "t1_kqf3f83"
+    },
+    {
+      "id": "kqetqoy",
+      "body": "Hahaha I'm sorry most of the streams I've watched were with David so that's probably why I misremembered. I loved the bits <3",
+      "author": "Christiandus",
+      "subreddit": "chess",
+      "created_utc": 1707931921,
+      "score": 79,
+      "link_id": "t3_1aqpiht",
+      "parent_id": "t1_kqepwv3"
+    },
+    {
+      "id": "kqetk4z",
+      "body": "One of the interviewees actually suggested that  IIRC hahaha",
+      "author": "Christiandus",
+      "subreddit": "chess",
+      "created_utc": 1707931859,
+      "score": 17,
+      "link_id": "t3_1aqpiht",
+      "parent_id": "t1_kqeicgl"
+    },
+    {
+      "id": "kqefl9p",
+      "body": "Thank you, this was exactly what I was looking for :)",
+      "author": "Christiandus",
+      "subreddit": "chess",
+      "created_utc": 1707926981,
+      "score": 3,
+      "link_id": "t3_1aqpiht",
+      "parent_id": "t1_kqee0se"
+    },
+    {
+      "id": "kpoajg8",
+      "body": "How did you get that flair? Mina tahan kaa :(",
+      "author": "Christiandus",
+      "subreddit": "2westerneurope4u",
+      "created_utc": 1707505358,
+      "score": 1,
+      "link_id": "t3_1alwyrf",
+      "parent_id": "t1_kphlypl"
+    },
+    {
+      "id": "kofmecc",
+      "body": "* BSc computer science in summer 2024\n* Network Security Engineer\n* Zurich\n* 4 years (as an intern for the whole duration)\n* 100k/year",
+      "author": "Christiandus",
+      "subreddit": "Switzerland",
+      "created_utc": 1706795275,
+      "score": 1,
+      "link_id": "t3_1aft92z",
+      "parent_id": "t3_1aft92z"
+    },
+    {
+      "id": "kjsj8iq",
+      "body": "You could just check which API the GUI uses (with the browser dev tools)",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1706353001,
+      "score": 2,
+      "link_id": "t3_1ac32ci",
+      "parent_id": "t3_1ac32ci"
+    },
+    {
+      "id": "kj6afs8",
+      "body": "Yes of course. How else did you think you could accomplish this?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1706003073,
+      "score": 5,
+      "link_id": "t3_19dgxc9",
+      "parent_id": "t1_kj5uljc"
+    },
+    {
+      "id": "kifthwe",
+      "body": "I mean 1ms is very optimistic. What's the distance between the locations?",
+      "author": "Christiandus",
+      "subreddit": "fortinet",
+      "created_utc": 1705588579,
+      "score": 1,
+      "link_id": "t3_199qsqo",
+      "parent_id": "t3_199qsqo"
+    },
+    {
+      "id": "kh6vk5f",
+      "body": "Wrong resolution in display settings? Ot the screen itself running a non-native resolution?",
+      "author": "Christiandus",
+      "subreddit": "Rainbow6",
+      "created_utc": 1704883825,
+      "score": 5,
+      "link_id": "t3_19345y1",
+      "parent_id": "t3_19345y1"
+    },
+    {
+      "id": "kgijmk2",
+      "body": "Oh sweet summer child....",
+      "author": "Christiandus",
+      "subreddit": "LivestreamFail",
+      "created_utc": 1704500834,
+      "score": 11,
+      "link_id": "t3_18zaysw",
+      "parent_id": "t1_kgicok4"
+    },
+    {
+      "id": "kgfm5do",
+      "body": "The song makes it much better as it is from a German action police series which usually involves a lot of high speed pursuits and crashes :D",
+      "author": "Christiandus",
+      "subreddit": "AccidentalTerrorism",
+      "created_utc": 1704463726,
+      "score": 6,
+      "link_id": "t3_18yojkg",
+      "parent_id": "t3_18yojkg"
     }
   ]
 }

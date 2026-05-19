@@ -11,6 +11,50 @@
       "num_comments": 2,
       "selftext": "Hi everyone!\n\nI'm about to apply for a MSc at ETH. If I took IELTS' exam with 7 band score (which should be okay) in May 2023, would it be valid for application for Fall 2025.\n\nIt will expire in May 2025 but I'll apply in November 2024. Do you know if this could be okay?",
       "url": "https://www.reddit.com/r/ethz/comments/1flknxu/english_certification/"
+    },
+    {
+      "id": "1fmwyod",
+      "title": "Fourier Transform",
+      "author": "Albi_Sup",
+      "subreddit": "math",
+      "created_utc": 1727021685,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/math/comments/1fmwyod/fourier_transform/"
+    },
+    {
+      "id": "1fjsub6",
+      "title": " Sampling rate and LPF",
+      "author": "Albi_Sup",
+      "subreddit": "DSP",
+      "created_utc": 1726666175,
+      "score": 4,
+      "num_comments": 15,
+      "selftext": "Hi!\n\nDoes anyone can explain me in simply words why if we reduce the sampling rate, this is similar to low-pass filtering? Is it because down-sampling removes high frequency content of the signal?",
+      "url": "https://www.reddit.com/r/DSP/comments/1fjsub6/sampling_rate_and_lpf/"
+    },
+    {
+      "id": "1dy6ice",
+      "title": "ECE 410",
+      "author": "Albi_Sup",
+      "subreddit": "UIUC",
+      "created_utc": 1720438027,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi!\n\nDo you have feedback on ECE 410? I'm an exchange student and I'm figuring out what course I should take.",
+      "url": "https://www.reddit.com/r/UIUC/comments/1dy6ice/ece_410/"
+    },
+    {
+      "id": "1dxc5an",
+      "title": "ECE 380 Online?",
+      "author": "Albi_Sup",
+      "subreddit": "UIUC",
+      "created_utc": 1720342647,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "Hi!\n\nI'm an exchange student, so I'm not well-informed about classes at UIUC. I've seen on the course explorer that ECE 380 will be online (\"type\" ONL), while in all previous years it was in person. Do you know if this could be an error, or do you know why it would be online?",
+      "url": "https://www.reddit.com/r/UIUC/comments/1dxc5an/ece_380_online/"
     }
   ],
   "comments": [
@@ -23,6 +67,36 @@
       "score": 1,
       "link_id": "t3_1flknxu",
       "parent_id": "t1_lo498v2"
+    },
+    {
+      "id": "lnskzgz",
+      "body": "It just refers to the process without low pass filtering. Should I consider now true or false?",
+      "author": "Albi_Sup",
+      "subreddit": "DSP",
+      "created_utc": 1726692229,
+      "score": 0,
+      "link_id": "t3_1fjsub6",
+      "parent_id": "t1_lnrwta1"
+    },
+    {
+      "id": "lnrocyp",
+      "body": "The exact statement is: \"Reducing the sampling rate is similar to low-pass filtering because down-sampling removes high frequency content of the signal.\" Do you think is false?",
+      "author": "Albi_Sup",
+      "subreddit": "DSP",
+      "created_utc": 1726682062,
+      "score": 1,
+      "link_id": "t3_1fjsub6",
+      "parent_id": "t1_lnqliml"
+    },
+    {
+      "id": "lnro6j3",
+      "body": "This is a true/false question at the end of a chapter, I thought it was true, am I wrong?\n\nI think here is asking a conceptual thing, not in real life. The phrase is: \"Reducing the sampling rate is similar to low-pass filtering because down-sampling removes high frequency content of the signal.\" Do you think is false?",
+      "author": "Albi_Sup",
+      "subreddit": "DSP",
+      "created_utc": 1726682005,
+      "score": 0,
+      "link_id": "t3_1fjsub6",
+      "parent_id": "t1_lnrllrp"
     }
   ]
 }

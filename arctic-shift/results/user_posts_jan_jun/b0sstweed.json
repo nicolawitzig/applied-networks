@@ -21,6 +21,46 @@
       "score": 10,
       "link_id": "t3_1c23mxf",
       "parent_id": "t3_1c23mxf"
+    },
+    {
+      "id": "l401clo",
+      "body": "Ya these ones specifically: \n\nParade retimer\nhttps://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/Driver/USB/35968/Parade_Retimer_ROG_Parade_B_V1.0.012.00_35968_1.exe?model=ROG%20Zephyrus%20G14%20(2024)%20GA403\n\nAMD chipset:\nhttps://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/Driver/Chipset/36624/AMD_Chipset_DriverOnly_ROG_AMD_B_V1.2.0.124Sub2_36624_1.exe?model=ROG%20Zephyrus%20G14%20(2024)%20GA403\n\nMine is a thunderbolt 3 doc specifically. I will say, it kinda goes janky if I hibernate now?? But just regular sleep it never seems to have any problems anymore.\n\nI'll update if there are any more voodoo fixes..",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1715694167,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t1_l3ed4i9"
+    },
+    {
+      "id": "l39d9wj",
+      "body": "Reviving this after a minute, but after having some (I think) unrelated issues with my video card driver, I went back and DDU'd the amd drivers then fresh installed the amd graphics drivers, amd chipset drivers, and \"parade retimer\" usb drivers. \n\nSomewhere in that mess my TB3 issues cleared up. I can now use two displays and connected peripherals with the dock. This might be specific to my itec dock, but I thought I'd drop a note just in case!",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1715248518,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t1_l2oe375"
+    },
+    {
+      "id": "l0gluqj",
+      "body": "It is supposed to work. To quote intel's thunderbolt architecture docs: \"USB4 Specification Compliant\n\nBoth Thunderbolt™ 4 and Thunderbolt™ 3 technologies are compatible with the USB4 specification, allowing users to use Thunderbolt™ 4 and Thunderbolt™ 3 products with USB4 ports.\"\n\nhttps://www.intel.com/content/www/us/en/architecture-and-technology/thunderbolt/thunderbolt-3-vs-4.html\n\nHowever it's a bit finicky from what I've found, specifically with displays. I use an itec thunderbolt 3 dock w/ my 2024 g14, and I get the same error pop up but the dock itself more or less works. From time to time I need to reboot w/ the dock plugged in for it to work correctly. I also had less errors after I updated the amd chipset drivers from Asus' site. They did not auto install w/ windows update like i expected.\n\nI have the same laptop and it's been a little finicky for me. I can get the thunderbolt 3 dock I have (iTec?",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1713626587,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t3_1c8nklf"
+    },
+    {
+      "id": "ktu8wa4",
+      "body": "Yep! This is what I do.",
+      "author": "b0sstweed",
+      "subreddit": "ROGAlly",
+      "created_utc": 1709854367,
+      "score": 1,
+      "link_id": "t3_1b8c2tj",
+      "parent_id": "t1_ktoxyiu"
     }
   ]
 }

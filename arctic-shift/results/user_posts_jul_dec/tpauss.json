@@ -11,6 +11,127 @@
       "num_comments": 3,
       "selftext": "I have a bachelor’s degree in computer engineering with a score of 110/110 from Politecnico di Milano and an average grade of 28.3/30.But I’m finishing another MSc at Bocconi University in a different field (with 29.7/30)while simultaneously doing two research internships in two well-known Italian laboratories in Machine learning (particularly Federated learning). \nDo I have a chance of getting in (ETH Zurich) already having another MSc degree? Is it a disadvantage at ETH to already have one?\nThanks in advance.",
       "url": "https://www.reddit.com/r/ethz/comments/1foj1rx/cs_master_admission/"
+    },
+    {
+      "id": "1fansab",
+      "title": "Data augmentation Fraud det",
+      "author": "tpauss",
+      "subreddit": "datascience",
+      "created_utc": 1725651125,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/datascience/comments/1fansab/data_augmentation_fraud_det/"
+    },
+    {
+      "id": "1fanqkv",
+      "title": "Data Augmentation ",
+      "author": "tpauss",
+      "subreddit": "MachineLearning",
+      "created_utc": 1725651004,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1fanqkv/data_augmentation/"
+    },
+    {
+      "id": "1fanosc",
+      "title": "Dataset Augmentation ",
+      "author": "tpauss",
+      "subreddit": "MachineLearning",
+      "created_utc": 1725650873,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1fanosc/dataset_augmentation/"
+    },
+    {
+      "id": "1f961kw",
+      "title": "Pandas groupby + rolling operation to create a new col",
+      "author": "tpauss",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1725487546,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I have a dataset of transactions with for example the columns:UserID,IBAN,Timestamp,Amount. I want to consider a rolling window of 24h for each user taking into account one single IBAN, so for example I want to count the number of transactions towards the same IBAN from the same user in the past 24h with respect of the actual transaction.\n\nI've done it with a single element in the group by,considering only the UserID column like that:\n\ndef sort_and_reset(df_to_sort, by: Union[List[str], str] = \"Timestamp\", inplace: bool = True):\n    \"\"\"\n    Sorts a DataFrame by Timestamp (unless otherwise specified), and then resets its indexes (both operations are performed inplace)\n    \"\"\"\n    if inplace:\n        df_to_sort.sort_values(by=by, inplace=True)\n        df_to_sort.reset_index(drop=True, inplace=True)\n    else:\n        df = df_to_sort.sort_values(by=by)\n        df = df.reset_index(drop=True)\n        return df\n\n\n\ndef add_rolling_count_feature(df: pd.DataFrame, time_column_name: str, groupby_on: str, agg_on: str, agg_period: str) -> pd.DataFrame:\n    \"\"\"\n    Adds a new column to the DataFrame that represents the rolling count of occurrences and the sum of the amounts given a specified feature \n    within a given time period for each group.\n\n    Parameters:\n    - df: pd.DataFrame\n        The original DataFrame containing the data.\n    - time_column_name: str\n        The name of the column containing the time or datetime values.\n    - groupby_on: str\n        The name of the column to group the data by (e.g., user ID, card number).\n    - agg_on: str\n        The name of the column for which the rolling count is calculated e.g \"Amount\"\n    - agg_period: str\n        The rolling window period as a string (e.g., '30D' for 30 days, '24h' for 24 hours).\n\n    Returns:\n    - pd.DataFrame\n       The original DataFrame with an additional column containing the rolling count of the specified feature.\n\n    re(df, time_column_name='Time', groupby_on='UserID', agg_on='Amount', agg_period='30D')\n    \"\"\"\n    # Ensure the time column is in datetime format.Check maybe not needed\n    df[time_column_name] = pd.to_datetime(df[time_column_name])\n    #sort and reset basically sort and then reset the indexes\n    df = sort_and_reset(df, by=[\"UserID\",\"Timestamp\"], inplace=False)\n \n\n\n    # Set the time column as the index\n    df = df.set_index(time_column_name)\n\n    #groupby_on is a single column here\n\n    # Compute the rolling count of the specified feature \n    df[\"Xa1\"] = df.groupby(groupby_on)[agg_on] \\\n                  .rolling(agg_period, min_periods=0, closed=\"left\") \\\n                  .count() \\\n                  .reset_index(level=0, drop=True)\n    \n    # Compute the rolling sum and add it as a new column\n    df['Xa2'] = df.groupby(groupby_on)[agg_on] \\\n                  .rolling(agg_period, min_periods=0, closed='left') \\\n                  .sum() \\\n                  .reset_index(level=0, drop=True)  # Drop the groupby index level\n\n\n    # Reset the index to bring the time column back as a regular column\n    df = df.reset_index()\n    return df\nBut then, when I try with 2 columns in the group, it doesn't work,or better said, it returns all NAN values ( the window is right, and it should return something).I also changed the .reset_index(drop=True) to consider all the levels. I think there are some problems with the multi-index or something like that.\n\nI would appreciate any help, thanks\n\nAn example of the input df:\n\ndf_x = {\n    'UserID': [1, 1, 1, 2, 2, 3, 3, 3],\n    'Timestamp': [\n        '2024-09-01 10:00:00',\n        '2024-09-01 11:00:00',\n        '2024-09-01 12:00:00',\n        '2024-09-01 10:00:00',\n        '2024-09-01 12:00:00',\n        '2024-09-01 09:00:00',\n        '2024-09-01 10:00:00',\n        '2024-09-01 11:00:00'\n    ],\n    'IBAN': ['A', 'B', 'A', 'A', 'B', 'A', 'A', 'B'],\n    'Amount': [100, 200, 150, 300, 250, 120, 180, 220]\n}\n\ndf_x = add_rolling_count_feature(df_x,\"Timestamp\",\"UserID\",\"Amount\",\"24h\")\n",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1f961kw/pandas_groupby_rolling_operation_to_create_a_new/"
+    },
+    {
+      "id": "1euhaqt",
+      "title": "early career choice ",
+      "author": "tpauss",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723900047,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Early career choice \n\nI will briefly explain my situation.\n\nI got a degree in computer engineering from a very good university in Italy with top marks.\n\nNot knowing what to do next I decided to undertake a two-year dual degree between the same university and a very good business school. The master's degree has both technical exams of CS (not too complex and basic ones) and exams regarding management, business and regulations side.\n\nInitially I thought it was a good opportunity to open as many working doors as possible, but over time I realized that what I really like is the technical side (that is, quantitative things in general). In the meantime, I am also a graduate researcher in the ML laboratory on some topics such as FL.\n\nHere comes the doubt: I lack a few exams plus the thesis (with the possibility of doing one in the CS department) to finish it with, probably, the highest grades. However, I am afraid that achieving it and having it will close me purely technical work doors (data science, sde etc).\n\nDoes it make sense to stop and maybe start a master's degree of only one year after working a little or not? Or is it worth to finish it?\n\nTo be precise except research I have 0 work experience and I'm going to get an internship this year. I have many offers for consulting positions but I would like something more quantitative so I'm grinding leetcode and building projects.",
+      "url": "https://www.reddit.com/r/cscareerquestionsEU/comments/1euhaqt/early_career_choice/"
+    },
+    {
+      "id": "1euh6x9",
+      "title": "Early career choice ",
+      "author": "tpauss",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1723899734,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/cscareerquestions/comments/1euh6x9/early_career_choice/"
+    },
+    {
+      "id": "1euh6ao",
+      "title": "Early career choice ",
+      "author": "tpauss",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1723899687,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/cscareerquestions/comments/1euh6ao/early_career_choice/"
+    },
+    {
+      "id": "1edyojk",
+      "title": "Feeling a bit lost ",
+      "author": "tpauss",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1722139105,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi,\n\nAs the title suggests, I’m feeling a bit lost since I don’t really know what to do with my career path. I graduated from Politecnico di Milano (the top university in Italy) with a degree in computer engineering, achieving the highest possible marks. However, due to some personal issues and self-doubt about my ability to succeed in a pure computer science career, I decided to pursue an MSc in a field that combines cybersecurity and governance—areas that are not strictly technical or CS-related. \n\nThe course includes some CS subjects, and I took all of them. While doing a basic course in machine learning, I discovered a strong interest in the field and decided to study it independently using course books and notes. With a solid foundation in algebra, calculus, and statistics, I’m able to grasp most of the material in depth. Additionally, I will be undertaking two research internships in Federated Learning (FL) and potentially a significant thesis in the field.\n\nI’m uncertain about my next steps. I feel I might need to pursue another MSc, but I’m not entirely convinced. I’m 23 and will be finishing my current MSc in the summer of 2025. Should I pursue a one-year or two-year master’s program (I personally believe a two-year program is better)? It seems everyone in the field has at least one master’s degree, so it appears necessary. I could also choose to graduate six months later and focus on a substantial thesis in FL, but that would mean starting the new MSc a year later (at 26/27 years old instead of 25/26).\n\nDo you have any suggestions? Should I continue on my current path, which could lead to good salary prospects, or am I still in time to change?\n\nThank you for your advice.",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1edyojk/feeling_a_bit_lost/"
+    },
+    {
+      "id": "1edyo2f",
+      "title": "Feeling lost ",
+      "author": "tpauss",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1722139056,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi,\n\nAs the title suggests, I’m feeling a bit lost since I don’t really know what to do with my career path. I graduated from Politecnico di Milano (the top university in Italy) with a degree in computer engineering, achieving the highest possible marks. However, due to some personal issues and self-doubt about my ability to succeed in a pure computer science career, I decided to pursue an MSc in a field that combines cybersecurity and governance—areas that are not strictly technical or CS-related. \n\nThe course includes some CS subjects, and I took all of them. While doing a basic course in machine learning, I discovered a strong interest in the field and decided to study it independently using course books and notes. With a solid foundation in algebra, calculus, and statistics, I’m able to grasp most of the material in depth. Additionally, I will be undertaking two research internships in Federated Learning (FL) and potentially a significant thesis in the field.\n\nI’m uncertain about my next steps. I feel I might need to pursue another MSc, but I’m not entirely convinced. I’m 23 and will be finishing my current MSc in the summer of 2025. Should I pursue a one-year or two-year master’s program (I personally believe a two-year program is better)? It seems everyone in the field has at least one master’s degree, so it appears necessary. I could also choose to graduate six months later and focus on a substantial thesis in FL, but that would mean starting the new MSc a year later (at 26/27 years old instead of 25/26).\n\nDo you have any suggestions? Should I continue on my current path, which could lead to good salary prospects, or am I still in time to change?\n\nThank you for your advice.",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1edyo2f/feeling_lost/"
+    },
+    {
+      "id": "1dxcweh",
+      "title": "Any Italian student attending the MSc Compunting (ML & AI)",
+      "author": "tpauss",
+      "subreddit": "Imperial",
+      "created_utc": 1720345737,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "I just want to ask some indication regarding your italian bachelor’s background",
+      "url": "https://www.reddit.com/r/Imperial/comments/1dxcweh/any_italian_student_attending_the_msc_compunting/"
+    },
+    {
+      "id": "1dxcv8r",
+      "title": "Any Italian students in the MSc computing (ml & ai)",
+      "author": "tpauss",
+      "subreddit": "Imperial",
+      "created_utc": 1720345597,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I want to ask some indications to italian students who are attending the course and hold an Italian Bachelor/Master degree :)",
+      "url": "https://www.reddit.com/r/Imperial/comments/1dxcv8r/any_italian_students_in_the_msc_computing_ml_ai/"
     }
   ],
   "comments": [
@@ -23,6 +144,16 @@
       "score": 1,
       "link_id": "t3_1foj1rx",
       "parent_id": "t1_loqeta8"
+    },
+    {
+      "id": "lh2s3vl",
+      "body": "I have additional questions:\n-does anyone of you know if it’s possibile to get admitted while holding another MSc?\n-then regarding the requirements I hold a BSc in computer engineering from Politecnico di Milano,do you think it is enough to fulfill all the requirements?\n(it’s difficult to match all the courses requirements since the names and structure are verified different and some arguments may be mixed in more courses)",
+      "author": "tpauss",
+      "subreddit": "tumunich",
+      "created_utc": 1723105584,
+      "score": 1,
+      "link_id": "t3_11biamc",
+      "parent_id": "t3_11biamc"
     }
   ]
 }

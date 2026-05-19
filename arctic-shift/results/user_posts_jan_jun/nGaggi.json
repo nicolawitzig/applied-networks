@@ -1,6 +1,62 @@
 {
   "username": "nGaggi",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dnign7",
+      "title": "Recreating the „image scatter effect“ in AE",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1719248357,
+      "score": 62,
+      "num_comments": 10,
+      "selftext": "Today u/EffortOk1556 asked in this subreddit about how to recreate an effect, which turned out to have been made in Cinema 4D. I was thinking a bit about how to do this in AE (a lot of people suggested particles) but I found a different method (maybe not as elegant but it works).\n\nI‘m unfortunately don’t have the time to get too much into the details of how I did it, but if you‘d like a more in depth tutorial, I‘ll be happy to make one.\n\nI basically just animated the images along a circle and used expressions to detect the proximity of each picture to a null, which then triggers the scale and position offset. Each image has the same expression with a time offset for the position based on the layer index.\n\nI used sliders animate the affected range and the offset amount.\n\nFeel free to ask any questions. ",
+      "url": "https://v.redd.it/e205ujw1wj8d1"
+    },
+    {
+      "id": "1dnajyh",
+      "title": "What‘s the Font in this logo?",
+      "author": "nGaggi",
+      "subreddit": "identifythisfont",
+      "created_utc": 1719226121,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Unfortunately both WhatTheFont and Adobe Photoshop Font Match did not produce the correct font.",
+      "url": "https://i.redd.it/8fwi8ntx1i8d1.jpeg"
+    },
+    {
+      "id": "1d1ycay",
+      "title": "I would love some help identifying this font",
+      "author": "nGaggi",
+      "subreddit": "identifythisfont",
+      "created_utc": 1716834522,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "It‘s from a grocery store wrapping paper from the 90s (could‘ve been designed earlier though, the store existed from 1965 until 2002). The consistency in the lettering makes me think it‘s not custom, but it very well might be.\n\nSecond slide is the full design. The other two fonts are clearly helevetica (bold) for the logo and futura condensed (book oblique) for the text ubderneath it.",
+      "url": "https://www.reddit.com/gallery/1d1ycay"
+    },
+    {
+      "id": "1cr30kv",
+      "title": "I tried recreating the Eurovision trophy",
+      "author": "nGaggi",
+      "subreddit": "blender",
+      "created_utc": 1715616346,
+      "score": 10,
+      "num_comments": 3,
+      "selftext": "Even though I‘ve been using Blender on and off for quite some years now, I would still very much consider myself a noob. So feedback is appreciated :)",
+      "url": "https://i.redd.it/06qz1y28w70d1.jpeg"
+    },
+    {
+      "id": "1azs58n",
+      "title": "Fun little animation I made. Feel free to critique.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1708878927,
+      "score": 39,
+      "num_comments": 9,
+      "selftext": "",
+      "url": "https://v.redd.it/5rhfyba3erkc1"
+    }
+  ],
   "comments": [
     {
       "id": "l2ixgsr",
@@ -11,6 +67,1006 @@
       "score": 3,
       "link_id": "t3_1cjii8f",
       "parent_id": "t3_1cjii8f"
+    },
+    {
+      "id": "lahueyl",
+      "body": "Here is how to fix it:\n- Learn how to draw and do it yourself from scratch\n- Pay someone to draw it for you from scratch\n- Learn Photoshop and fix it yourself\n- Pay someone to fix it for you\n\nNo one in this sub will touch your lazy AI generated bs.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1719478527,
+      "score": 1,
+      "link_id": "t3_1dpm84q",
+      "parent_id": "t3_1dpm84q"
+    },
+    {
+      "id": "lahlp7k",
+      "body": "What‘s the point of it? People who want to use AI generated content will just generate it themselves. There is literally zero need for an AI stock photo site. The reason why stock photo sites exist, is because most of the time it‘s too much effort to go and shoot the images yourself (camera, lighting, location, object/model, etc. are all expensive plus it‘s extremely time consuming) But with AI all of that falls away and people can just do it themselves.\n\nWhy would anyone pay for AI stock photos when they can just generate them for free/cheaper?",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1719472329,
+      "score": 9,
+      "link_id": "t3_1dpl3as",
+      "parent_id": "t3_1dpl3as"
+    },
+    {
+      "id": "la3mj39",
+      "body": "thanks for the kind words!",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1719259589,
+      "score": 12,
+      "link_id": "t3_1dnign7",
+      "parent_id": "t1_la39r2n"
+    },
+    {
+      "id": "la3mgx3",
+      "body": "yeah the [original](https://www.reddit.com/r/AfterEffects/s/OHm2oVjygu) was made in C4D. I wanted to do it completely in AE and that‘s the result. Of course it‘s not identical but I just wanted a proof of concept not a perfect replica :)",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1719259570,
+      "score": 3,
+      "link_id": "t3_1dnign7",
+      "parent_id": "t1_la3k6e9"
+    },
+    {
+      "id": "la35es8",
+      "body": "Oh I made the video I posted. But I‘ll check out your project once I‘m back at a computer :)",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1719253900,
+      "score": 9,
+      "link_id": "t3_1dnign7",
+      "parent_id": "t1_la31jl7"
+    },
+    {
+      "id": "la1sa02",
+      "body": "That‘s it! With some horizontal distortion it matches perfectly. Thanks!",
+      "author": "nGaggi",
+      "subreddit": "identifythisfont",
+      "created_utc": 1719237236,
+      "score": 1,
+      "link_id": "t3_1dnajyh",
+      "parent_id": "t1_la17zwy"
+    },
+    {
+      "id": "l9aa7sd",
+      "body": "I think it stems from the term „fan edit“ which have become more and more elaborate (sometimes, not always) and so people just call it editing, even though a lot of it has become motion graphics at this point.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1718789846,
+      "score": 2,
+      "link_id": "t3_1diuw59",
+      "parent_id": "t1_l97q1k1"
+    },
+    {
+      "id": "l940eeq",
+      "body": "They might not bring it up much, because it‘s not a core issue for them. But many left leaning politicians (including women) are against mandatory military service, as you can see when looking at any vote about the military and checking the positions of SP and the Green party.\n\nJust because they don‘t talk about it a lot, doesn‘t mean they aren‘t against it. Politicians have core issues where they have high political credibility (SVP: immigration, Greens: climate change, etc.) and they‘ll talk about those the most. That doesn’t‘t mean they don‘t have an opinion on it.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718685906,
+      "score": 0,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l929u0v"
+    },
+    {
+      "id": "l93zhtm",
+      "body": "Not true: https://swissvotes.ch/attachments/d4d127966cfae01a9fb235f46bae0f371452f01173f100ba41dd87a3f1f4094c (page 16)",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718685410,
+      "score": -6,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l928hm9"
+    },
+    {
+      "id": "l93zcwp",
+      "body": "Well that‘s just not true at all. Men and women voted very much the same on the issue in 2013. Source: the official vote analysis from vox\n\nhttps://swissvotes.ch/attachments/d4d127966cfae01a9fb235f46bae0f371452f01173f100ba41dd87a3f1f4094c (page 16, second paragraph)",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718685335,
+      "score": 0,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l925qoa"
+    },
+    {
+      "id": "l93yll4",
+      "body": "also: these studies have been done on people who have been diagnosed with depression. This still doesn‘t refute my argument, that many men will not be diagnosed because they won’t see a therapist based on the societal stigma.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718684923,
+      "score": 0,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l923qk7"
+    },
+    {
+      "id": "l93y1lk",
+      "body": "I never asked for a source? what are you on about?",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718684621,
+      "score": 0,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l923qk7"
+    },
+    {
+      "id": "l93xyw3",
+      "body": "then start collecting signatures and get a vote going so you can change that, if you’re so mad about it.\n\nDoesn‘t change the fact that women are at a disadvantage in the job market because of the fact that they have the potential to bear children. Doesn‘t change the fact that every 2 weeks a woman is killed by a man just because of she is a woman. Doesn‘t change the fact that most sexual assaults that are reported don’t lead to a conviction, because our justice system can’t handle them. And most of them still remain unreported because women who do report them are usually being attacked (verbally) for it, because „they‘re trying to ruin someone‘s life“ or „if she wears these outfits she shouldn‘t be surprised“ or „she flirted with someone so she wanted it“ (literally what a judge said in a rape caee).\n\nWomen have the right to protest like anyone else. If you‘re so angry about men having to serve in the military, then you can protest too. You can get politically active. But no, you‘d rather just complain that „women are privileged“ because they don‘t have to serve in the military. It‘s ridiculous.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718684582,
+      "score": 0,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l9232uy"
+    },
+    {
+      "id": "l92364x",
+      "body": "Das gaht natürlich au. Oder en Ufnäher falls er mit Nadle und Fade fixiert worde isch.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718657736,
+      "score": 1,
+      "link_id": "t3_1di31bh",
+      "parent_id": "t1_l9224ss"
+    },
+    {
+      "id": "l91v2dp",
+      "body": "it‘s fine if you don‘t understand what the patriarchy is, but just know that it‘s also damaging for us men not just women.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718655032,
+      "score": -5,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l91pk7e"
+    },
+    {
+      "id": "l91ja26",
+      "body": "wüsst jetzt niemert wo so eine direkt abüütet. Aber für individuelli stickarbeite chan ich rhystick empfehle. Isch zwar ned grad super günstig, will sie halt d‘gstaltig individuell müend mache (au wenn e vektor datei lieferisch, müend sie‘s für d‘stickmaschine neu gstalte). Aber falls grad no de eint oder ander Kolleg oder Kollegin hesch, wo au so eine wett, chunsch relativ günstig (will je grösser d‘mengi, desto günstiger pro stuck).\n\nP.S.: Das heisst sicher ned Patch gopferdori nonemal! Simmer denn da in Angelsachse? Das isch en Flicke oder vo mir uus no es Abzeiche.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718651063,
+      "score": 3,
+      "link_id": "t3_1di31bh",
+      "parent_id": "t3_1di31bh"
+    },
+    {
+      "id": "l91huc0",
+      "body": "Look, the debate about mandatory conscription is a whole different story. So I‘m not getting into that.\n\nBut the fact that ONLY men are forced to do military service is a result of patriarchy, where men are viewed as the strong protectors and providers. The reason women don‘t need to serve is because they‘re seen as weak and they belong to the group that needs to be protected and provided for because they can‘t defend themselves (they‘re basically put on the same level as children and the elderly).\n\nSo even if the end result might seem like a privilege, it stems from an inherently misogynistic world view and system.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718650577,
+      "score": 1,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l91fiz6"
+    },
+    {
+      "id": "l90md28",
+      "body": "No the patriarchy wants men to be the strong protectors and providers of society. That leads to men who show vulnerability or weakness to be viewed as „lesser men“. And this results in men not talking about the mental issues out of fear of looking „weak“, which then leads to those issues getting worse and in the worst case to men committing suicide. It‘s really quite simple and doesn‘t require any mental gymnastics.\n\nHere is a more detailed explanation for you:\nhttps://www.priorygroup.com/blog/why-are-suicides-so-high-amongst-men\n\nAnd btw: the patriarchal system also hurts men, because of the societal pressure put on them to be the providers.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718640035,
+      "score": 1,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l901kb1"
+    },
+    {
+      "id": "l90l7cr",
+      "body": "If you don‘t understand that the high suicide rate among men results from a world view, where men have to be strong and the protectors and providers of society without showing weakness (emotionally and physically) without having empirical proof, I really can‘t help you. But I‘ll provide you some reading material anyways:\nhttps://www.priorygroup.com/blog/why-are-suicides-so-high-amongst-men\n\nAnd yes that‘s literally how patriarchy views society. But sure, I‘m making bold claims.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718639639,
+      "score": -3,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l903les"
+    },
+    {
+      "id": "l900rl9",
+      "body": "yeah Idk how that‘s relevant to my comment in any way.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718632264,
+      "score": 4,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l8zznw2"
+    },
+    {
+      "id": "l8zzz49",
+      "body": "Literally a result of the patriarchy. If you really care about those numbers going down, you should work with feminists to destroy the patriarchy, not against them.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718631952,
+      "score": -4,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l8zroel"
+    },
+    {
+      "id": "l8zzi3b",
+      "body": "How do men not understand that mandatory military service for men is a product of the patriarchy? It literally results from an outdated view of gender roles.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1718631764,
+      "score": 50,
+      "link_id": "t3_1dhv3g2",
+      "parent_id": "t1_l8zhoaq"
+    },
+    {
+      "id": "l8wjqjy",
+      "body": "I’m pretty sure in most live or death situations people don‘t have a laptop or desktop computer handy but are most likely searching on their phones.",
+      "author": "nGaggi",
+      "subreddit": "LateStageCapitalism",
+      "created_utc": 1718567784,
+      "score": 83,
+      "link_id": "t3_1dhdnc7",
+      "parent_id": "t1_l8wgn44"
+    },
+    {
+      "id": "l7va1bt",
+      "body": "Ich bin mer ziemlich sicher, dass SRF scho voreme wiili uf 1080i umgstellt het und irgendwenn letzt Jahr mal aakündet het, dass sie werded uf 1080p umstiige (ob das mittlerwiile passiert isch weiss ich ned, zumindest kenn ich kei einzigi Produktion wo ihri Sendige ned Full HD produziered) und DVB-C seit übrigens nüt über d‘Uflösig uus. Mer chan sehr wohl 1080p über DVB-C verbreite, susch wär das ned de Standard i de allermeiste Europäische länder.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1717966342,
+      "score": 2,
+      "link_id": "t3_1dc0joo",
+      "parent_id": "t1_l7v5w28"
+    },
+    {
+      "id": "l7nsfx4",
+      "body": "no it doesn‘t. When you zoom in, you‘re „closer“ to the picture and therefore the pixels get bigger on screen.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1717844673,
+      "score": 6,
+      "link_id": "t3_1daz0nc",
+      "parent_id": "t1_l7np5u7"
+    },
+    {
+      "id": "l7hus6t",
+      "body": "you design them with shape layers. Just make two circles, one a bit bigger than the other one. Make the smaller one have a white fill & no stroke and the bigger one no fill & white stroke. Then parent one to the other so you only need to adjust the position of the parent circle (or you could technically also create both circles on the same shape layer).",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1717744846,
+      "score": 1,
+      "link_id": "t3_1da2l7e",
+      "parent_id": "t3_1da2l7e"
+    },
+    {
+      "id": "l79vkco",
+      "body": "Wieso hend‘s das gfaked, wenn‘s echti bilder vo de vignette a de kampfjets git?",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1717620022,
+      "score": 49,
+      "link_id": "t3_1d8zr2g",
+      "parent_id": "t3_1d8zr2g"
+    },
+    {
+      "id": "l79uha3",
+      "body": "I found this thread on Adobe Community: https://community.adobe.com/t5/after-effects-discussions/looking-for-after-effects-expression-that-lets-me-loop-numbers-counting-up-for-day-month-year/m-p/10814417\n\nI think that‘s what you‘re looking for",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1717619663,
+      "score": 2,
+      "link_id": "t3_1d8zjh6",
+      "parent_id": "t3_1d8zjh6"
+    },
+    {
+      "id": "l6wsapd",
+      "body": "if it‘s normal when you open it, it‘ll be normal when you export it with artboards",
+      "author": "nGaggi",
+      "subreddit": "AdobeIllustrator",
+      "created_utc": 1717422571,
+      "score": 5,
+      "link_id": "t3_1d746nu",
+      "parent_id": "t1_l6wqwil"
+    },
+    {
+      "id": "l6wowns",
+      "body": "that‘s just the preview on the Ai „homescreen“ how does it look when you open it?",
+      "author": "nGaggi",
+      "subreddit": "AdobeIllustrator",
+      "created_utc": 1717421221,
+      "score": 6,
+      "link_id": "t3_1d746nu",
+      "parent_id": "t3_1d746nu"
+    },
+    {
+      "id": "l6g5oyd",
+      "body": "The font one doesn‘t bother me too much either. But there is a dedicated subreddit for that, so it would make sense to redirect these questions to that place. r/identifythisfont",
+      "author": "nGaggi",
+      "subreddit": "AdobeIllustrator",
+      "created_utc": 1717143807,
+      "score": 39,
+      "link_id": "t3_1d4ohjr",
+      "parent_id": "t1_l6fsqo5"
+    },
+    {
+      "id": "l6adqz9",
+      "body": "Clipping Masks will be your biggest friend in this project. I linked you a site where you can read all about how they work and how to use them.\n\nhttps://www.photoshopessentials.com/basics/clipping-masks-essentials/",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1717048747,
+      "score": 2,
+      "link_id": "t3_1d3ttz2",
+      "parent_id": "t3_1d3ttz2"
+    },
+    {
+      "id": "l5xgfps",
+      "body": "Why do you want to make it in photoshop instead of illustrator? it‘s probably easiest to do it in illustrator and then import it to photoshop as a smart object if you want to use it in a design",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1716840646,
+      "score": 1,
+      "link_id": "t3_1d1xw8r",
+      "parent_id": "t3_1d1xw8r"
+    },
+    {
+      "id": "l5xb84x",
+      "body": "That‘s it! Incredible. Thank you so much for the help. What an amazing community",
+      "author": "nGaggi",
+      "subreddit": "identifythisfont",
+      "created_utc": 1716838659,
+      "score": 2,
+      "link_id": "t3_1d1ycay",
+      "parent_id": "t1_l5x8kpr"
+    },
+    {
+      "id": "l5q8mgc",
+      "body": "No requests (please read the rules before posting). You‘re looking for r/photoshoprequest . Also Stalin would be proud of you!",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1716720285,
+      "score": 1,
+      "link_id": "t3_1d0ygsh",
+      "parent_id": "t3_1d0ygsh"
+    },
+    {
+      "id": "l5ag7h1",
+      "body": "I de Schwiiz ned. Det sind‘s froh wenn‘s 30 lüüt findet wo‘s jedes Jahr uf die Liste chönd packe. Aber grad darum isch‘s umso peinlicher wenn nacher no so prominent demit „flexisch“.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1716447533,
+      "score": 36,
+      "link_id": "t3_1cyls96",
+      "parent_id": "t1_l5afpxf"
+    },
+    {
+      "id": "l4aa0f8",
+      "body": "srf",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1715853865,
+      "score": 0,
+      "link_id": "t3_1ct4ekh",
+      "parent_id": "t1_l49uong"
+    },
+    {
+      "id": "l46ogb8",
+      "body": "Look, I agree with this point. The problem is, that communicating this sentiment will alienate a lot of people which could be won over. People are so brainwashed against socialism/communism (let‘s be honest most people don‘t even understand the difference) that they‘d disagree with something labeled „socialist/communist“ even if they agree with the issue.\n\nSo equating capitalism with fascism will very much hurt the cause, because people think they are pro capitalism even if they aren‘t. The process of convincing them otherwise is very tedious and long, but it can‘t happen if they feel they get labeled as a fascist. You can see that this is a big problem in Europe where far-right parties are very much on the rise. Not because people are actually fascist but because the red scare propaganda combined with the fear mongering from right wing parties makes them do it.",
+      "author": "nGaggi",
+      "subreddit": "LateStageCapitalism",
+      "created_utc": 1715793994,
+      "score": -17,
+      "link_id": "t3_1cskjwe",
+      "parent_id": "t1_l46d8ov"
+    },
+    {
+      "id": "l46mfo1",
+      "body": "Chamer öpper de Bezug zwüsche Xi Jinping/Putin und NAF erchläre? Putin verstahni irgendwie no, aber isch China ned de „bös kommunistisch Feind“?",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1715793308,
+      "score": 1,
+      "link_id": "t3_1cshtfw",
+      "parent_id": "t3_1cshtfw"
+    },
+    {
+      "id": "l46dvwb",
+      "body": "Also chances of meeting a polar bear in the woods are pretty slim, so even if polar bears were in the mix, you‘d still be far better off choosing the bear.",
+      "author": "nGaggi",
+      "subreddit": "MurderedByWords",
+      "created_utc": 1715790418,
+      "score": 55,
+      "link_id": "t3_1csasz9",
+      "parent_id": "t1_l4672qv"
+    },
+    {
+      "id": "l3wzi4k",
+      "body": "thanks :) appreciate it!",
+      "author": "nGaggi",
+      "subreddit": "blender",
+      "created_utc": 1715638076,
+      "score": 1,
+      "link_id": "t3_1cr30kv",
+      "parent_id": "t1_l3wlxed"
+    },
+    {
+      "id": "l3tcun5",
+      "body": "Eini oder halt 3 spillt ned so e Rolle. Hauptsach mer chan öppis hate.",
+      "author": "nGaggi",
+      "subreddit": "schwiiz",
+      "created_utc": 1715580424,
+      "score": 3,
+      "link_id": "t3_1cpqtg2",
+      "parent_id": "t1_l3pelhu"
+    },
+    {
+      "id": "l3q5m8m",
+      "body": "Nei isch‘s ned. En grossteil wird vo EBU (wo all Mitglieder inkl. SRG finanziered) & SRG (wird dur d‘Serafe-Gebühre finanziert) übernoh. Zuesätzlich wird sicher au de Uusträgigsort (Stadt) Geld müesse id Hand neh (Stüürgelder). Natürlich sind au no Sponsoregelder involviert aber en Grossteil wird durch Gebühre oder Stüürgelder finanziert.\n\nTrotzdem wird‘s kei Abstimmig zu dem Thema geh, will vill z‘churzfristig. S‘einzig wo chönnt passiere isch, dass d‘SRG seit sie heged z‘wenig Geld zum de durefüehre und denn öpper anderem würed abgeh, was aber super peinlich für d‘Schwiiz wär.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1715530225,
+      "score": 1,
+      "link_id": "t3_1cpt0aa",
+      "parent_id": "t1_l3odakt"
+    },
+    {
+      "id": "l3q526w",
+      "body": "d‘halbierigsinitative betrifft de esc ned, will die erst spöter wird vors Volk cho. Anderersiits het de Ölbert scho Sparmassnahme aakündet wo scho ab nächst Jahr chönnted in Chraft trette. Aber au ohni dene Sparmassnahme het d‘SRG ned efach s‘Geld locker zum efach en esc uf d‘bei stelle. Da werded wohl einigi Sendige drunder liide",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1715530017,
+      "score": 2,
+      "link_id": "t3_1cpt0aa",
+      "parent_id": "t1_l3phbkj"
+    },
+    {
+      "id": "l3kfmsm",
+      "body": "coop git‘s in sehr villne länder. z.B. au in Italie, Dänemark, Norwege und vermuetlich no einigi meh. D‘logos gsehnd all sehr ähnlich uus sind aber ned identisch.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1715431014,
+      "score": 3,
+      "link_id": "t3_1colx6x",
+      "parent_id": "t1_l3hm8qb"
+    },
+    {
+      "id": "l0r2fhh",
+      "body": "Was isch s‘Problem? Es gitt lüüt wo gern Fleisch hend aber us ethische/moralische Gründ uf Fleisch verzichted. Ersatzprodukt wo im Name beschriibed, was sie gnau ersetzed sind doch denn perfekt.\n\nIch als Fleischkonsument fühl mich uf jedefall ned verarscht wenn es vegans Steak uf de Menucharte isch. Meistens sind die ja eh separat ufglisted und au wenn ned, chani zum glück ja lese.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1713798648,
+      "score": 21,
+      "link_id": "t3_1cactbc",
+      "parent_id": "t3_1cactbc"
+    },
+    {
+      "id": "kyyvu97",
+      "body": "chliine tip: bim Haarwäsche muesch ned so lang riibe bis d‘Hirnhuut erreichsch. Tuet em Chopf ned so guet.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1712778261,
+      "score": 34,
+      "link_id": "t3_1c0ssy8",
+      "parent_id": "t1_kyyv9vq"
+    },
+    {
+      "id": "kyc6rsb",
+      "body": "I feel like hierarchy is all over the place on this one.  It takes too long to understand what this infographic is about. \n\nIn addition the titles lack consistency. „The Beef“, „The Brawl“, „The Venom“ and „The Verdict“ should all be kept in the same style and size.",
+      "author": "nGaggi",
+      "subreddit": "graphic_design",
+      "created_utc": 1712419393,
+      "score": 52,
+      "link_id": "t3_1bxedy0",
+      "parent_id": "t3_1bxedy0"
+    },
+    {
+      "id": "ky4z4et",
+      "body": "Pixel Stretch (there are hundreds of tutorials online) and then either go in with a soft brush and erase some parts manually or use a gradient as a mask",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1712301145,
+      "score": 5,
+      "link_id": "t3_1bwbci5",
+      "parent_id": "t3_1bwbci5"
+    },
+    {
+      "id": "kxwsose",
+      "body": "I must be terrible at being Swiss then. Cause I don‘t know anyone who owns an RV, a Smart or a Porsche. (I don‘t even have a garage)",
+      "author": "nGaggi",
+      "subreddit": "europe",
+      "created_utc": 1712176692,
+      "score": 2,
+      "link_id": "t3_1buliik",
+      "parent_id": "t1_kxu0rk8"
+    },
+    {
+      "id": "kxqvg4h",
+      "body": "Early November for DH is very ambitious in pretty much all places (Zermatt has snow but it‘s usually very windy there in November). But end of March shouldn‘t be an issue in many places. The US, Scandinavia and also many places in the Alpes usually have plenty of snow until easter (which usually is sometime in April).",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1712087170,
+      "score": 3,
+      "link_id": "t3_1btyidg",
+      "parent_id": "t1_kxqtxad"
+    },
+    {
+      "id": "kxqi7c3",
+      "body": "huh? Women‘s GS, SG & DH all came down to the last race. So did Men‘s SG & DH (which was cancelled). That‘s 5 out of 8 disciplines that came down to the last race. I‘m pretty sure last season only 2 disciplines (men‘s slalom & women‘s SG) came down to the finals. So not really sure how it was less exciting this year.\n\nI do agree about the injuries and cancelled races though. (unfortunately cancelled races will very much be part of ski racing in the future)",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1712082830,
+      "score": 5,
+      "link_id": "t3_1btyidg",
+      "parent_id": "t1_kxpunt1"
+    },
+    {
+      "id": "kxl7tty",
+      "body": "I disagree. Because stealing $10 from a millionaire is different from stealing $10 from a homeless person (ofc these are extreme examples but I hope you get the point).\n\nBut I guess that‘s a topic where opinions are very much shaped by ideology and we most likely won‘t come to an agreement.",
+      "author": "nGaggi",
+      "subreddit": "iOSsetups",
+      "created_utc": 1711999919,
+      "score": 0,
+      "link_id": "t3_1bt49e9",
+      "parent_id": "t1_kxknr3v"
+    },
+    {
+      "id": "kxjq9ou",
+      "body": "Look, I have no issue with piracy as a concept. If you pirate games from AAA Studios it‘s not hurting anyone. Those companies make enough money already.\n\nBut I don’t support pirating wallpapers from artists who make a living off selling their art. These people aren‘t millionaires, they‘re working people like you and I.",
+      "author": "nGaggi",
+      "subreddit": "iOSsetups",
+      "created_utc": 1711981773,
+      "score": 14,
+      "link_id": "t3_1bt49e9",
+      "parent_id": "t1_kxjnzps"
+    },
+    {
+      "id": "kxjpgfy",
+      "body": "you can‘t set keyframes for an essential graphic in premiere. If you want this to be animated from a value to another one with both values being editable in premiere you‘d need a slider for each value and have the animation be performed by an expression.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1711981477,
+      "score": 5,
+      "link_id": "t3_1bt4toq",
+      "parent_id": "t3_1bt4toq"
+    },
+    {
+      "id": "kxjnrxx",
+      "body": "I can buy it for myself.",
+      "author": "nGaggi",
+      "subreddit": "iOSsetups",
+      "created_utc": 1711980859,
+      "score": 10,
+      "link_id": "t3_1bt49e9",
+      "parent_id": "t1_kxjnhre"
+    },
+    {
+      "id": "kxjmy0i",
+      "body": "if you don‘t want to pay for it, you don‘t deserve to have it. Artists have to make a living too.",
+      "author": "nGaggi",
+      "subreddit": "iOSsetups",
+      "created_utc": 1711980547,
+      "score": 7,
+      "link_id": "t3_1bt49e9",
+      "parent_id": "t3_1bt49e9"
+    },
+    {
+      "id": "kx5kjw1",
+      "body": "Lindt does have its largest production in Germany. So that might even add to the German export numbers even though it‘s „swiss chocolate“",
+      "author": "nGaggi",
+      "subreddit": "europe",
+      "created_utc": 1711741653,
+      "score": 2,
+      "link_id": "t3_1bqjej0",
+      "parent_id": "t1_kx3ih7g"
+    },
+    {
+      "id": "kx3c9t9",
+      "body": "the tutorial is using the old 3d tool. Use the legacy 3d effect instead of the new one. Then you should be able to get the option.",
+      "author": "nGaggi",
+      "subreddit": "AdobeIllustrator",
+      "created_utc": 1711709935,
+      "score": 11,
+      "link_id": "t3_1bqm6j5",
+      "parent_id": "t3_1bqm6j5"
+    },
+    {
+      "id": "kwucwzm",
+      "body": "with what exactly?",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1711567056,
+      "score": 5,
+      "link_id": "t3_1bp9zx7",
+      "parent_id": "t3_1bp9zx7"
+    },
+    {
+      "id": "kwlu5fr",
+      "body": "so you learned what the bevel & emboss layer style does?",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1711433608,
+      "score": 8,
+      "link_id": "t3_1bnwnm8",
+      "parent_id": "t3_1bnwnm8"
+    },
+    {
+      "id": "kw9g9dl",
+      "body": "high speed rail is also electric",
+      "author": "nGaggi",
+      "subreddit": "InfrastructurePorn",
+      "created_utc": 1711234226,
+      "score": 3,
+      "link_id": "t3_1blox71",
+      "parent_id": "t1_kw97izl"
+    },
+    {
+      "id": "kw9eiip",
+      "body": "they even have a message on there warning people about hiring scams",
+      "author": "nGaggi",
+      "subreddit": "graphic_design",
+      "created_utc": 1711233526,
+      "score": 49,
+      "link_id": "t3_1bm4lq7",
+      "parent_id": "t1_kw9dkbu"
+    },
+    {
+      "id": "kw10wzx",
+      "body": "that‘s your mac os telling you, you have caps lock enabled when being in a text field",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1711105487,
+      "score": 78,
+      "link_id": "t3_1bkwc6m",
+      "parent_id": "t3_1bkwc6m"
+    },
+    {
+      "id": "kvlzosw",
+      "body": "They‘re using the curvature tool and not the pen tool. That‘s why the anchor points look so different. But as Degenrt_Gamblr said, you can adjust the anchor points size in the settings.",
+      "author": "nGaggi",
+      "subreddit": "AdobeIllustrator",
+      "created_utc": 1710870857,
+      "score": 1,
+      "link_id": "t3_1bidxrd",
+      "parent_id": "t1_kvjqh8b"
+    },
+    {
+      "id": "kvjoods",
+      "body": "yeah blame me for trying to keep this subreddit about photoshop…",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1710831636,
+      "score": 1,
+      "link_id": "t3_1bgqbve",
+      "parent_id": "t1_kviddo5"
+    },
+    {
+      "id": "kvga1wn",
+      "body": "All I take from your comment is that we provide way too many tax loopholes for the rich. Maybe if somebody cared to close those, we wouldn‘t have to have these conversations.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1710781847,
+      "score": 1,
+      "link_id": "t3_1bh4j8k",
+      "parent_id": "t1_kvey8er"
+    },
+    {
+      "id": "kve4p48",
+      "body": "I don‘t frequent AI subreddits. But this one is clearly not about AI. I‘m pretty sure a simple search would bring up quite a few subreddits that are much more suitable.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1710742260,
+      "score": 1,
+      "link_id": "t3_1bgqbve",
+      "parent_id": "t1_kvcn0z9"
+    },
+    {
+      "id": "kvc9gt0",
+      "body": "Things are looking bad. Especially since the forecast is calling for rain the next days.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1710711705,
+      "score": 1,
+      "link_id": "t3_1bh9e6r",
+      "parent_id": "t3_1bh9e6r"
+    },
+    {
+      "id": "kvbz2m3",
+      "body": "That‘s unfortunately not how photoshop works. If the data is not in the picture, there‘s no way of creating it out of thin air.\n\nI‘m sorry for your friend, but unless you have a better picture where the license plate is readable, you‘re out of luck.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1710707973,
+      "score": 2,
+      "link_id": "t3_1bh7opw",
+      "parent_id": "t3_1bh7opw"
+    },
+    {
+      "id": "kvbq6b4",
+      "body": "Huh? Both the inheritance tax and the tax on financial transactions is a tax on the rich and not on „us“. Or maybe you‘re not one of „us“ and are expecting to inherit multiple millions or are doing multi-million trading deals on the stock exchange.",
+      "author": "nGaggi",
+      "subreddit": "Switzerland",
+      "created_utc": 1710704802,
+      "score": 19,
+      "link_id": "t3_1bh4j8k",
+      "parent_id": "t1_kvbicku"
+    },
+    {
+      "id": "kv9q86x",
+      "body": "Maybe ask in an appropriate subreddit…",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1710677372,
+      "score": 1,
+      "link_id": "t3_1bgqbve",
+      "parent_id": "t3_1bgqbve"
+    },
+    {
+      "id": "kv9ky6t",
+      "body": "changing the size will NOT add a uniform 5 mm border.\n\nThe stroke would give you a uniform border, but as you said it‘s only available in px. So you‘d have to do some calculations.\n\nThe easiest would be to do this in Illustrator using offset paths.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1710674041,
+      "score": 2,
+      "link_id": "t3_1bgk4j7",
+      "parent_id": "t1_kv8cz34"
+    },
+    {
+      "id": "ku3djdr",
+      "body": "ofc you never know. But GS has literally the least close standings right now (yes Slalom has a bigger point difference but there‘s still a race before the finals) so by that logic it‘s the least exciting event at the finals. \n\nNot saying it‘s already decided but just looking from a statistical standpoint, the GS final isn‘t very exciting.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1710003615,
+      "score": 3,
+      "link_id": "t3_1bahss6",
+      "parent_id": "t1_ku3bs20"
+    },
+    {
+      "id": "ku3b23u",
+      "body": "ah true! I forgot about that. Still a very unlikely scenario considering she always placed in the top 6 this season.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1710002787,
+      "score": 3,
+      "link_id": "t3_1bahss6",
+      "parent_id": "t1_ku39yh4"
+    },
+    {
+      "id": "ku379e7",
+      "body": "How does that make any sense? Lara has a 95 point lead, won one more race and has the same amount of second and third place finishes. Also no DNFs for Lara in GS.\n\nPlus that 95 point lead means Brignone would have to win and Lara would have to finish 26 or worse (in a race with 27 racers -> Top 25 GS ranking + Junior WSC winner + Michelle Gisin who scored 500+ points overall). Really slim odds if you ask me.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1710001483,
+      "score": 11,
+      "link_id": "t3_1bahss6",
+      "parent_id": "t3_1bahss6"
+    },
+    {
+      "id": "ksw2rkq",
+      "body": "Wenn sich öpper anderi Pronome gitt macht mir das ziemlich wenig. Wenn öpper aber Geld vo Tabakfirme und andere Grosskonzern aanimmt zum dene ihri Interesse, anstatt d‘Interesse vo de Bevölkerig, z‘vertrette, macht mir das aber einiges.",
+      "author": "nGaggi",
+      "subreddit": "schwiiz",
+      "created_utc": 1709319208,
+      "score": 44,
+      "link_id": "t3_1b406u8",
+      "parent_id": "t1_ksw1rq5"
+    },
+    {
+      "id": "kspk4ms",
+      "body": "Yeah the company I work is still using 2023. They‘ll most likely let us upgrade to 2024 once 2025 is out. Sometimes it sucks because you have to wait for some cool new features but at least it runs smoothly.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1709222119,
+      "score": 1,
+      "link_id": "t3_1b2l4r5",
+      "parent_id": "t1_kspj9f6"
+    },
+    {
+      "id": "kspf0f7",
+      "body": "that‘s good to hear but very disappointing considering each patch/update should make the version more stable",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1709220360,
+      "score": 2,
+      "link_id": "t3_1b2l4r5",
+      "parent_id": "t1_ksohnjn"
+    },
+    {
+      "id": "kspeqod",
+      "body": "So the liquid are 2 shape layers with the Wave Warp Effect in opposite directions. Both layers have their rotation parented to the rotation of the bottles and then inverted (using expressions). To give the illusion of inertia in the liquid I just increased the wave height and decreased the wave width when everything halts and then slowly returning it to normal. It was mainly trial and error to get it looking good.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1709220268,
+      "score": 2,
+      "link_id": "t3_1azs58n",
+      "parent_id": "t1_ksngnph"
+    },
+    {
+      "id": "ksnxex3",
+      "body": "earlier 24 versions will be even worse. You‘d have to downgrade to 23 or wait for more patches for 24",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1709190938,
+      "score": 3,
+      "link_id": "t3_1b2l4r5",
+      "parent_id": "t1_ksmijt0"
+    },
+    {
+      "id": "ks3vo2v",
+      "body": "Thanks! Yeah you're definitely right. I was too focused on the liquid animation and didn't pay enough attention to the \"entry\" animation. Will fix that.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1708888635,
+      "score": 1,
+      "link_id": "t3_1azs58n",
+      "parent_id": "t1_ks3swin"
+    },
+    {
+      "id": "ks3vhti",
+      "body": "yeah you're right. the snapping doesn't seem natural. I'll definitely have to change that. Thanks for the feedback!",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1708888575,
+      "score": 2,
+      "link_id": "t3_1azs58n",
+      "parent_id": "t1_ks36lkh"
+    },
+    {
+      "id": "ks33v2r",
+      "body": "This is a short animation I made in my free time. I usually don't get to do these types of things at my job, so I wanted to get some practice. I'm looking forward to hear your thoughts on it.\n\nDesigned in Illustrator & animated in After Effects",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1708879144,
+      "score": 5,
+      "link_id": "t3_1azs58n",
+      "parent_id": "t3_1azs58n"
+    },
+    {
+      "id": "ks2qf4g",
+      "body": "Maybe I‘m forgetting something, but iirc last year you could only see the unlocked milestones during the year. You can still do that and it still updates weekly (I see milestones unlocked in February when clicking on „show all milestones“).",
+      "author": "nGaggi",
+      "subreddit": "AppleMusic",
+      "created_utc": 1708874341,
+      "score": 6,
+      "link_id": "t3_1azoh52",
+      "parent_id": "t3_1azoh52"
+    },
+    {
+      "id": "krrtmxx",
+      "body": "Use textanimators. There are a tons of tutorials and guides online on how to achieve this exact thing.",
+      "author": "nGaggi",
+      "subreddit": "AfterEffects",
+      "created_utc": 1708700370,
+      "score": 2,
+      "link_id": "t3_1ay1m7k",
+      "parent_id": "t3_1ay1m7k"
+    },
+    {
+      "id": "kqyx8o3",
+      "body": "You won‘t find that anywhere in the northern hemisphere . Even on glacier resorts like Zermatt (Switzerland) summer training will only be in the morning. The only way to get a full day of skiing would be to find a camp in Argentina or Chile.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1708248533,
+      "score": 2,
+      "link_id": "t3_1athkfu",
+      "parent_id": "t3_1athkfu"
+    },
+    {
+      "id": "kqx2azr",
+      "body": "Austria and Switzerland definitely have great programs. But they also expect a big commitment. I‘m not aware of anything similar to what you described (practice whenever you‘re able to), here if you join a program they expect you to attend all the trainings (usually also on weekdays, since weekends are very busy with tourists). You also have to deal with either the Austrian accent or Swiss German, which are pretty different from regular German. \n\nDepending on how serious your kids are about racing/free-skiing and how much of a commitment (also time wise) you‘re willing to make, it‘s worth taking these 4h drives every week. Otherwise I‘d recommend looking into a smaller program at one of the smaller resorts on the list I linked to. They might not be as professional and high stakes, but they won‘t take up that much time.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1708214250,
+      "score": 4,
+      "link_id": "t3_1atbonp",
+      "parent_id": "t1_kqwnv81"
+    },
+    {
+      "id": "kqwlgyp",
+      "body": "yeah routine cleaning is definitely a thing. But usually on check-out days they wait until you‘ve checked out until they clean your rooms. That‘s why I was surprised in situations where they didn‘t.",
+      "author": "nGaggi",
+      "subreddit": "facepalm",
+      "created_utc": 1708208110,
+      "score": 1,
+      "link_id": "t3_1ao2rp8",
+      "parent_id": "t1_kpxsbop"
+    },
+    {
+      "id": "kqwkmca",
+      "body": "I‘m not too familiar with the German youth programs (I‘m from Switzerland but I think Germany won‘t be too different to here), but usually it‘s easier to find a club with a youth program directly at resorts.  The drawback there is, that the commitment is usually quite high with weekly trainings, etc. \n\nHere‘s a list of ski resorts close to Stuttgart:\n\nhttps://www.skiresort.info/ski-resorts/stuttgart/\n\nThey‘re all pretty small of course, but I did some random checks and you‘ll definitely find some ski clubs that provide youth programs. The club websites are pretty terrible but you‘ll definitely find an e-mail address to contact. You do have a better chance of getting an answer if you reach out in German. Because these clubs are usually run by older people who either don‘t speak English at all or just can‘t be bothered. (Being able to communicate in English will definitely be crucial. Also for your kids because I doubt you‘ll find any english speaking program near Stuttgart)\n\nThat‘s at least for alpine skiing (racing). You‘ll probably have a harder time finding a freestyle program, since these require a park at the resort and you‘ll usually only find those in larger resorts (at least here in Switzerland. But I doubt it‘s different in Germany considering snow is even less reliable there).",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1708207813,
+      "score": 1,
+      "link_id": "t3_1atbonp",
+      "parent_id": "t3_1atbonp"
+    },
+    {
+      "id": "kpxqqq5",
+      "body": "honestly that‘s why I do it too. But then again house keeping has entered my room before check out day a couple of times already (big and small hotels). Not complaining just surprised they didn‘t know I was checking out on that day.",
+      "author": "nGaggi",
+      "subreddit": "facepalm",
+      "created_utc": 1707663812,
+      "score": 2,
+      "link_id": "t3_1ao2rp8",
+      "parent_id": "t1_kpwzypo"
+    },
+    {
+      "id": "koc7atp",
+      "body": "hey, that‘s the same place!",
+      "author": "nGaggi",
+      "subreddit": "skiing",
+      "created_utc": 1706735463,
+      "score": 2,
+      "link_id": "t3_1afb94j",
+      "parent_id": "t1_koaqsoh"
+    },
+    {
+      "id": "ko95xe6",
+      "body": "THIS! The S9 FIS version is the one to choose, any consumer ski will not hold up during races.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1706687529,
+      "score": 1,
+      "link_id": "t3_1aewcwu",
+      "parent_id": "t1_ko86y0w"
+    },
+    {
+      "id": "kj82c52",
+      "body": "World Cup broadcasting rights are a huge mess, because they aren‘t sold by FIS but by the national ski federation organizing the race. So getting the footage from a race is already pretty difficult. But you might be in luck, since you aren‘t looking for race footage, but rather a specific broadcast from a specific channel. Find out what channel the race was on and contact them. It probably won‘t be free, but it might be easier to get than the actual race footage.",
+      "author": "nGaggi",
+      "subreddit": "SkiRacing",
+      "created_utc": 1706031948,
+      "score": 2,
+      "link_id": "t3_19df69n",
+      "parent_id": "t3_19df69n"
+    },
+    {
+      "id": "khcsnw7",
+      "body": "no requests in this sub. Read the rules please.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1704977410,
+      "score": 12,
+      "link_id": "t3_1940hrf",
+      "parent_id": "t3_1940hrf"
+    },
+    {
+      "id": "kha3pqx",
+      "body": "Idek what the arrow is supposed to be pointing at.",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1704927785,
+      "score": 6,
+      "link_id": "t3_193ldg3",
+      "parent_id": "t3_193ldg3"
+    },
+    {
+      "id": "kh6lvst",
+      "body": "de post isch en joke. uf dem unter werded immer irgendwelchi statistischi charte gnoh und miteme andere Titel versehe oder sogar ganz neu erfunde. Es isch unterhaltig und alles andere als informativ. Das het nüt mit Propaganda oder so z‘tue, es isch eifach nur en Witz.",
+      "author": "nGaggi",
+      "subreddit": "BUENZLI",
+      "created_utc": 1704876550,
+      "score": 1,
+      "link_id": "t3_192sloe",
+      "parent_id": "t1_kh4m6ok"
+    },
+    {
+      "id": "kgvwqzs",
+      "body": "no.",
+      "author": "nGaggi",
+      "subreddit": "DoctorWhumour",
+      "created_utc": 1704717186,
+      "score": 1,
+      "link_id": "t3_191jqpa",
+      "parent_id": "t3_191jqpa"
+    },
+    {
+      "id": "kgq325c",
+      "body": "I mean it‘s nice. But this could‘ve been a 20-30 second ad. 2 minutes just feels waaaaay too long imo.",
+      "author": "nGaggi",
+      "subreddit": "blender",
+      "created_utc": 1704631697,
+      "score": 557,
+      "link_id": "t3_190qkja",
+      "parent_id": "t3_190qkja"
+    },
+    {
+      "id": "kfymh1w",
+      "body": "do you … do you know what photoshop is?",
+      "author": "nGaggi",
+      "subreddit": "photoshop",
+      "created_utc": 1704191906,
+      "score": 1,
+      "link_id": "t3_18wlza5",
+      "parent_id": "t3_18wlza5"
     }
   ]
 }

@@ -1,6 +1,18 @@
 {
   "username": "jeffxxxxx",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1g6n1pm",
+      "title": "Would anyone be interested in a game where you design a microbe?",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729270761,
+      "score": 6,
+      "num_comments": 30,
+      "selftext": "So for background, I’m in computational biology and bioinformatics, and there’s tonnes of cool things / models that people use to simulate evolution. Making something like this into a game sounds good in my head, but I have no clue if non biology people would like it. Any thoughts?\n\nStill thinking about how the games going to look like; but will probably involve a bunch of biological mechanisms where a cell can digest specific resources or attack other cells, and ultimately prevail in like somebody’s fridge. Thoughts appreciated!",
+      "url": "https://www.reddit.com/r/gamedev/comments/1g6n1pm/would_anyone_be_interested_in_a_game_where_you/"
+    }
+  ],
   "comments": [
     {
       "id": "ltwv2jr",
@@ -61,6 +73,146 @@
       "score": 6,
       "link_id": "t3_1gclygo",
       "parent_id": "t3_1gclygo"
+    },
+    {
+      "id": "m2aku0s",
+      "body": "Hi, Beijing, China",
+      "author": "jeffxxxxx",
+      "subreddit": "geography",
+      "created_utc": 1734330498,
+      "score": 1,
+      "link_id": "t3_1hexepx",
+      "parent_id": "t3_1hexepx"
+    },
+    {
+      "id": "lso5w0t",
+      "body": "Fingers crossed that my friends will give some good feedback in this regard, too. It’s hard to find the balance",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729337695,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lso3gvo"
+    },
+    {
+      "id": "lso5p84",
+      "body": "Fascinating!",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729337593,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsnyayh"
+    },
+    {
+      "id": "lsnfgmn",
+      "body": "Bit more like spore",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729320413,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsmrakb"
+    },
+    {
+      "id": "lsnffmz",
+      "body": "Any reasons in particular? Or just like it’s probably not interesting",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729320395,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lslkauh"
+    },
+    {
+      "id": "lsnfemt",
+      "body": "Thx! Haven’t heard of that one before",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729320376,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsl4gj8"
+    },
+    {
+      "id": "lsnfc5z",
+      "body": "Better learning would be the ultimate prize",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729320331,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lskod64"
+    },
+    {
+      "id": "lsk835q",
+      "body": "Thx a lot for the advice! I’ve never came across cellcraft, good to know. \n\nPlayer choices should definitely play a role. Thinking something like if there’s no antioxidants in the cell then the cells that acquired a mitochondria will have a great stats boost in the beginning but die off quicker. Then again you could just have no mitochondria and be a prokaryotic cell the whole time and still colonise the environment",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729273933,
+      "score": 2,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsk4imu"
+    },
+    {
+      "id": "lsk71vv",
+      "body": "Didn’t realise that actually, I thought most people were in it for the whole cell to galaxy thing",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729273603,
+      "score": 2,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsk1cm5"
+    },
+    {
+      "id": "lsk6xic",
+      "body": "Thx for the reminder! I’m just thinking of another mechanism to implement it; maybe as free floating dna pieces that users can drop to direct evolution",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729273565,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsk6kw3"
+    },
+    {
+      "id": "lsk156a",
+      "body": "Yes! That was the original inspiration, but I’m thinking about making it more specific/accurate. Kinda like kerbal space program but fore bioengineering",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729271749,
+      "score": 8,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsk0m37"
+    },
+    {
+      "id": "lsk0xrz",
+      "body": "Personally not a big fan of the mutational points system that they use, but definitely to that level of detailed molecular biology at least",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729271683,
+      "score": 3,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t1_lsk01by"
+    },
+    {
+      "id": "lsjy5fs",
+      "body": "Interested in playing* sorry if it was unclear",
+      "author": "jeffxxxxx",
+      "subreddit": "gamedev",
+      "created_utc": 1729270801,
+      "score": 1,
+      "link_id": "t3_1g6n1pm",
+      "parent_id": "t3_1g6n1pm"
+    },
+    {
+      "id": "lqr1q2f",
+      "body": "One big biological reason is vitamin D. Seasonal depression hits all around Europe right about now",
+      "author": "jeffxxxxx",
+      "subreddit": "Switzerland",
+      "created_utc": 1728292122,
+      "score": 1,
+      "link_id": "t3_1fxpnue",
+      "parent_id": "t3_1fxpnue"
     }
   ]
 }

@@ -96,19 +96,32 @@ This document describes a four-stage pipeline for identifying, profiling, and cl
 
 ---
 
-## Stage 4 — Community & Social Network Analysis *(planned)*
+## Stage 4 — Interaction Graph & Community Detection
 
-**Status:** Not yet implemented.
+**Script:** `build_interaction_graph.py`
 
-**Planned inputs:**
-- Stage 1 crossref CSVs → bipartite user–subreddit co-activity graph
-- Stage 3 voice classifications → node attributes (type, subtype, confidence)
+**Purpose:** Build a directed weighted interaction graph from Reddit reply chains, detect communities via Louvain clustering, and produce per-subreddit subgraphs for downstream analysis.
 
-**Expected analyses:**
-- Community detection on the user–subreddit bipartite graph (e.g. modularity-based clustering)
-- Cross-community bridging: which voice types link the ETH community to external Reddit communities?
-- Influence / centrality measures per voice type
-- Temporal activity patterns across the user cohort
+**Method:**
+- Scans all Stage 2 JSON files to build a `post_id / comment_id → author` lookup index.
+- Extracts edges by resolving each comment's `parent_id` (prefix `t1_` = comment reply, `t3_` = post reply) to the parent author — only edges where at least one endpoint is a classified user are kept.
+- Aggregates edges into a weighted `DiGraph`: edge weight = interaction count, edge attribute `subreddits` = comma-joined set of subreddits where interactions occurred.
+- Runs Louvain community detection on the undirected projection of the full graph; community IDs are written back as node attributes.
+- Builds per-subreddit subgraphs for the top-N subreddits (by raw interaction count), each with its own Louvain partition.
+
+**Input:**
+- `results/final/user_voice_classification_jan_jun.csv` — Stage 3 classifications (node attributes)
+- `results/user_posts_jan_jun/*.json` — Stage 2 per-user content (edge extraction)
+
+**Output:**
+| File | Description |
+|---|---|
+| `results/final/interaction_graph_nodes.csv` | Per-node attributes: voice type, subtype, confidence, community, in/out-degree, eigenvector centrality |
+| `results/final/interaction_graph.html` | Interactive Pyvis visualization — nodes sized by in-degree, coloured by community, directed edges |
+
+**Key design choices:**
+- Edges only require *one* classified endpoint, so unclassified users appear as nodes when they interact with classified ones — preserving bridging structure without inflating the classified cohort.
+- `--min-weight` filters low-frequency edges from the graph; `--min-edge-weight` separately controls which edges are rendered in the HTML (useful for de-cluttering dense graphs).
 
 ---
 
@@ -131,8 +144,8 @@ r/ethz + date range
         │  user_voice_distribution.csv
         │  (voice type, subtype, confidence, evidence)
         ▼
-[Stage 4] community_network_analysis.py  ← to be built
-           (graph construction, community detection, bridging analysis)
+[Stage 4] build_interaction_graph.py
+           (reply-chain graph, Louvain communities, per-subreddit subgraphs)
 ```
 
 ---

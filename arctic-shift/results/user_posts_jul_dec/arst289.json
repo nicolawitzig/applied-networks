@@ -22,7 +22,62 @@
       "num_comments": 4,
       "selftext": "I was planning on going to the Elektrotechnik Pre-Study event today but was not able to do so due to a personal situation, if someone did attend could you share any keynotes or important information shared today that I might have missed? thanks in advanced.",
       "url": "https://www.reddit.com/r/ethz/comments/1fag97t/prestudy_event_elektrotechnik/"
+    },
+    {
+      "id": "1fgk7l3",
+      "title": "Help with serial bus servos",
+      "author": "arst289",
+      "subreddit": "arduino",
+      "created_utc": 1726314378,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I recently jumped into serial bus servos after trying to build a robot arm using normal PWM servos, and I had mixed results. I bought 2 waveshare ST3215 Servos and this \"[Servo Driver with ESP32](https://www.waveshare.com/wiki/Servo_Driver_with_ESP32)\" board. I followed all the steps that Waveshare provides to flash the board, installed the libraries, and had some trouble getting the first script to work, but I still can't get the webserver to move the servos no matter what I change. I can't find any YouTube tutorials/Reddit posts or other documentation apart from what Waveshare themselves provide. maybe I'm looking wrong but if someone has more experience using these type of servos, boards or other alternative UART communication methods can you point me in the right direction? apologies for the naivety, I'm still in high school but willing to learn! thanks in advanced.",
+      "url": "https://www.reddit.com/r/arduino/comments/1fgk7l3/help_with_serial_bus_servos/"
+    },
+    {
+      "id": "1fgk72b",
+      "title": "Help with serial bus servos",
+      "author": "arst289",
+      "subreddit": "esp32",
+      "created_utc": 1726314327,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I recently jumped into serial bus servos after trying to build a robot arm using normal PWM servos, and I had mixed results. I bought 2 waveshare ST3215 Servos and this \"[Servo Driver with ESP32](https://www.waveshare.com/wiki/Servo_Driver_with_ESP32)\" board. I followed all the steps that Waveshare provides to flash the board, installed the libraries, and had some trouble getting the first script to work, but I still can't get the webserver to move the servos no matter what I change. I can't find any YouTube tutorials/Reddit posts or other documentation apart from what Waveshare themselves provide. maybe I'm looking wrong but if someone has more experience using these type of servos, boards or other alternative UART communication methods can you point me in the right direction? apologies for the naivety, I'm still in high school but willing to learn! thanks in advanced.",
+      "url": "https://www.reddit.com/r/esp32/comments/1fgk72b/help_with_serial_bus_servos/"
+    },
+    {
+      "id": "1fgk6ly",
+      "title": "Help with Serial Bus Servos",
+      "author": "arst289",
+      "subreddit": "robotics",
+      "created_utc": 1726314284,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "I recently jumped into serial bus servos after trying to build a robot arm using normal PWM servos, and I had mixed results. I bought 2 waveshare ST3215 Servos and this \"[Servo Driver with ESP32](https://www.waveshare.com/wiki/Servo_Driver_with_ESP32)\" board. I followed all the steps that Waveshare provides to flash the board, installed the libraries, and had some trouble getting the first script to work, but I still can't get the webserver to move the servos no matter what I change. I can't find any YouTube tutorials/Reddit posts or other documentation apart from what Waveshare themselves provide. maybe I'm looking wrong but if someone has more experience using these type of servos, boards or other alternative UART communication methods can you point me in the right direction? apologies for the naivety, I'm still in high school but willing to learn! thanks in advanced.",
+      "url": "https://www.reddit.com/r/robotics/comments/1fgk6ly/help_with_serial_bus_servos/"
+    },
+    {
+      "id": "1ek3bo4",
+      "title": "Help! Filament gets stuck and when I pull it out it comes out like this (Ender 3 Neo V2)",
+      "author": "arst289",
+      "subreddit": "FixMyPrint",
+      "created_utc": 1722798992,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "My filament keeps getting stuck after some time at the nozzle or at the heating element and cannot extrude anymore, i thought it was a problem with the extruder gear, but after pulling the stuck filament out, it always comes out like the pictures, so I don't know if there is a clog or what I can do to fix it. Any help appreciated!\n\nhttps://preview.redd.it/r54wdzhshogd1.jpg?width=3024&format=pjpg&auto=webp&s=e13a362cd98e7db5f052b7b4418acb9b988b83da\n\nhttps://preview.redd.it/9xhkc0ishogd1.jpg?width=3024&format=pjpg&auto=webp&s=1511f6178c6437ad543a6c20c8ba1629e5c9920e\n\nhttps://preview.redd.it/v7mj7zhshogd1.jpg?width=3024&format=pjpg&auto=webp&s=45e27b874431421634ab5ef15d357bdb06fe647b\n\n  \nprinter: creality ender 3 neo v2\n\nslicer: cura\n\nfilament brand: PLA 3dkordo\n\nnozzle temp: 200 / bed temp: 60\n\nprint speed: 50.0mm/s\n\nretraction distance: 6.0mm\n\nretraction speed: 25.0mm/s",
+      "url": "https://www.reddit.com/r/FixMyPrint/comments/1ek3bo4/help_filament_gets_stuck_and_when_i_pull_it_out/"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": "ljojra4",
+      "body": "Hey, checking up after 3 years because I'm also thinking of getting these Hiwonder servos, how do they hold up? thanks.",
+      "author": "arst289",
+      "subreddit": "robotics",
+      "created_utc": 1724492362,
+      "score": 1,
+      "link_id": "t3_seaiau",
+      "parent_id": "t1_hujxi3e"
+    }
+  ]
 }

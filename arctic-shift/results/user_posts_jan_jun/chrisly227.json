@@ -41,6 +41,46 @@
       "score": 3,
       "link_id": "t3_1acqynd",
       "parent_id": "t3_1acqynd"
+    },
+    {
+      "id": "la3p11k",
+      "body": "Biggest advantage of the Zebralight for me is the superior regulation. I like my Skilhunt h04r as much as you, but the timed stepdown for turbo really annoys me when cycling through the night in winter, having to double press every other minute. Zebralight stays nearly full brightness without getting hot.",
+      "author": "chrisly227",
+      "subreddit": "flashlight",
+      "created_utc": 1719260403,
+      "score": 1,
+      "link_id": "t3_1dn418e",
+      "parent_id": "t3_1dn418e"
+    },
+    {
+      "id": "kpzebhm",
+      "body": "Both are correct. Let me try to explain:\n- LEDs allow a certain amount of current (Amperage) to flow, the higher the voltage V, the higher the current A. Exact ratio depends on the LED. See for example this chart: \nhttps://www.reddit.com/r/flashlight/s/X3RuLJAkp4\n- Batteries on the other hand provide a certain voltage depending on state of charge and amount of current (Amperage) that is flowing. Higher current -> lower voltage. The ratio again depends on the battery. See for example chart here: https://lygte-info.dk/review/batteries2012/Molicel%20INR21700-P42A%204200mAh%20%28Gray%29%20UK.html\n- If you have a light with FET driver like the TS10, battery and LED are directly connected when using full Turbo. The amount of current flowing can hence be concluded by comparing battery and LED charts. When not considering resistance of springs etc. \n- Finally there‘s a certain threshold current (Amperage) that damages your LED when it is exceeded. The same can be said about batteries, they are rated for a certain max current, but they generally can take a short burst above their rating better than LEDs. They just tend to heat up fast which can damage them. \n- How it all comes together: Batteries with lower current rating generally also drop more in Voltage and hence in current when high Amperage is requested. This leads to a lower current flowing compared to a higher rated battery. In a FET setup this can help not exceeding the current still safe for the LED. \n\nHope that was not too complex an explanation :)",
+      "author": "chrisly227",
+      "subreddit": "flashlight",
+      "created_utc": 1707683607,
+      "score": 5,
+      "link_id": "t3_1aofh82",
+      "parent_id": "t3_1aofh82"
+    },
+    {
+      "id": "kk2x9wq",
+      "body": "So I guess you consider reddit to be anti-social media :D",
+      "author": "chrisly227",
+      "subreddit": "selfimprovement",
+      "created_utc": 1706517635,
+      "score": 1,
+      "link_id": "t3_1ad2wgh",
+      "parent_id": "t1_kk12wh2"
+    },
+    {
+      "id": "kk2x7e7",
+      "body": "So how did you post this after deactivating your reddit :P",
+      "author": "chrisly227",
+      "subreddit": "selfimprovement",
+      "created_utc": 1706517583,
+      "score": 1,
+      "link_id": "t3_1ad2wgh",
+      "parent_id": "t1_kk12wh2"
     }
   ]
 }

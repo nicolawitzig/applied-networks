@@ -1,6 +1,73 @@
 {
   "username": "felixcra",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dhvbw7",
+      "title": "How to deal with enormous number of objects",
+      "author": "felixcra",
+      "subreddit": "blenderhelp",
+      "created_utc": 1718622023,
+      "score": 2,
+      "num_comments": 7,
+      "selftext": "Hi everyone,\n\nWe are using Blender in an industrial setting. We are not in the gaming or movie industry and don't have experience with it really. We built a pipeline to set up complex scenes that we use to render images or videos of our products. The problem is that it has become very difficult to work with Blender as it the program reacts so slowly. We have a pretty good workstation, not a NASA PC, but what you'd consider a mid-high end gaming PC if you were to go and buy one today. For sure, one problem is that our meshes still have too many polygons. Nonetheless, we have tens of thousands of objects in the scene and this just makes it slow.\n\nDoes someone have experience with scenes containing thousands or tens of thousands of objects and can share some advice on how to deal with them?\n\n  \nMany thanks in advance!",
+      "url": "https://www.reddit.com/r/blenderhelp/comments/1dhvbw7/how_to_deal_with_enormous_number_of_objects/"
+    },
+    {
+      "id": "1de184n",
+      "title": "Persistent storage",
+      "author": "felixcra",
+      "subreddit": "apachekafka",
+      "created_utc": 1718178978,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hi everyone,\n\nI am currently evaluating different options for our application. We have a moderate amount of messages, let's say 500MB/day, that we want to store persistently, but also continously read with different consumers. There are not that many consumers, let's say on the order of 10. Rarely, but for debugging purposes we want to access old logs. Logs should be stored indefinitely. I seems to me that Kafka tiered storage may be a possible solution for us. Does someone have experience with it and can share his opinon on it please?",
+      "url": "https://www.reddit.com/r/apachekafka/comments/1de184n/persistent_storage/"
+    },
+    {
+      "id": "1b5q8ev",
+      "title": "Zero to somewhat hero book series in modern setting",
+      "author": "felixcra",
+      "subreddit": "suggestmeabook",
+      "created_utc": 1709495653,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "A common theme in fantasy book series is that the main character goes from zero to hero. I am looking for such a kind of book series in a modern/urban setting. The main character doesn't have to become super successful/strong though and the series could well have a bittersweet ending.\n\nI guess I am looking for something like Jack Reacher/Mitch Rapp/Orphan X or the like, but without the part of the main character being unrealistically talented super assassin/soldier. At most it should be like Batman in Batman Begins. Bruce succeeds through ingenious ideas, but more than once gets his ass kicked as should be expected when you mess with top-of-the-foodchain gangs in the city.\n\ncharacter growth, action, some romance and maybe revenge should be the dominant book themes.",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1b5q8ev/zero_to_somewhat_hero_book_series_in_modern/"
+    },
+    {
+      "id": "1aimril",
+      "title": "Which Tefen nozzles do you use and why?",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1707049486,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "I would like to get into HPA (high pressure aeroponics). I am currently doing some research on which components I should buy.\n\nI learned already that Tefen nozzles seem to be very popular as they create <60um droplets. According to [this report](https://aeroponicsdiy.com/high-pressure-aeroponics-nozzle-report/) from 'The Hightech Gardener', the Tefen 21105 nozzles are the best ones, he tested. I found [this product](https://tefentech.com/wp-content/uploads/2020/12/Nozzles-Catalog-Web.pdf) catalog by Tefen and saw that most of their nozzles only differ, at least according to the metrics in the datasheet, in their flow rates at different pressure levels.\n\nI am now wondering one thing. 'The High Gardener' tested the cream-colored ones. Do the others also create <60um droplets, but more or less? Or are nozzles the best in general, when it comes to droplet size?\n\nWhat nozzles are you using and why?\n\nOn a related note, if it was true the different Tefen nozzles all produce the same droplet size, wouldn't it make sense to user multiple smaller ones instead of fewer bigger ones such as to make the system more robutst if one cloggs? Does this make sense?\n\nThank you for all your tipps and comments!!\n\nCheers,\n\nFelix\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/aeroponics/comments/1aimril/which_tefen_nozzles_do_you_use_and_why/"
+    },
+    {
+      "id": "19c98p6",
+      "title": "Vigilante/revenge book series",
+      "author": "felixcra",
+      "subreddit": "booksuggestions",
+      "created_utc": 1705859838,
+      "score": 4,
+      "num_comments": 1,
+      "selftext": "I am looking for a good vigilante book series maybe with some elements of revenge/romance. I'd love the books to reflect the vibe of the Christopher Nolan Batman series. For reference, I just read the first Jack Reacher book and liked it a lot. Preferrably, the main character should not be as powerful though. I also started Orphan X and liked it, but I am rather looking for something, where the MC doesn't succeed at everything he tries at first.\n\nIf it wasn't clear already, the general theme of the book series should be detective/crime/thriller/action.",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/19c98p6/vigilanterevenge_book_series/"
+    },
+    {
+      "id": "1954qn0",
+      "title": "Tuning the misting frequency",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705090864,
+      "score": 7,
+      "num_comments": 18,
+      "selftext": "Hi everyone,\n\nI am new to aeroponics and currently trying to learn more about the intricacies of it. For what cues do look out when tuning the misting cycle parameters, i.e. on and off time?",
+      "url": "https://www.reddit.com/r/aeroponics/comments/1954qn0/tuning_the_misting_frequency/"
+    }
+  ],
   "comments": [
     {
       "id": "l9g795z",
@@ -31,6 +98,116 @@
       "score": 1,
       "link_id": "t3_1df4bjo",
       "parent_id": "t1_l8h793f"
+    },
+    {
+      "id": "lahlr02",
+      "body": "Seems like the holy grail of computer vision, I highly doubt that there is any model out there, that can do this reliably for a broad set of classes that are not the standard dog, cat, etc. classes.",
+      "author": "felixcra",
+      "subreddit": "computervision",
+      "created_utc": 1719472363,
+      "score": 2,
+      "link_id": "t3_1doth7j",
+      "parent_id": "t3_1doth7j"
+    },
+    {
+      "id": "l8yntoc",
+      "body": "Saw that article before and skimmed over it. Will have another read. Didn't seem like a gamebreaker to me though.",
+      "author": "felixcra",
+      "subreddit": "apachekafka",
+      "created_utc": 1718602305,
+      "score": 1,
+      "link_id": "t3_1de184n",
+      "parent_id": "t1_l8bjeip"
+    },
+    {
+      "id": "l8ynqvt",
+      "body": "Thank you for your comment. So, you basically make two points:  \n1.) I shouldn't use such a novel feature in a production environment.  \n2.) 4TB of data is not that much? Didn't quite understand that point?",
+      "author": "felixcra",
+      "subreddit": "apachekafka",
+      "created_utc": 1718602254,
+      "score": 1,
+      "link_id": "t3_1de184n",
+      "parent_id": "t1_l8bb8y8"
+    },
+    {
+      "id": "kttziot",
+      "body": "I'm also co-owner of Migros :) Fully agree with your last statements. Still, I think your prior statement was a bit harsh.",
+      "author": "felixcra",
+      "subreddit": "zurich",
+      "created_utc": 1709850724,
+      "score": 2,
+      "link_id": "t3_1b95xuy",
+      "parent_id": "t1_kttyqm7"
+    },
+    {
+      "id": "kttxwiz",
+      "body": "She didn't even really steal something. On top of some paperwork, she even made Migros make 200.-.\n\nWhat's your problem? Lost your job? Didn't find housing? Too many people in the bus? Hearing to many people talk in foreign languages? Now trying to project your problems on others...",
+      "author": "felixcra",
+      "subreddit": "zurich",
+      "created_utc": 1709850170,
+      "score": 4,
+      "link_id": "t3_1b95xuy",
+      "parent_id": "t1_kttpxap"
+    },
+    {
+      "id": "khop0av",
+      "body": "Ok, makes sense. May I ask instead what nozzles you use? That was what I wanted to understand anyway at least, flow rate <=> what nozzles @ specific pressure.",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705163999,
+      "score": 1,
+      "link_id": "t3_1954qn0",
+      "parent_id": "t1_khompij"
+    },
+    {
+      "id": "khoopqc",
+      "body": "The system that I had in mind, is pump+nozzles to create mist. I thought if using a high system pressure, this is referred to as HPA (high pressure aeroponics), no? Maybe I got the terms wrong.",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705163895,
+      "score": 2,
+      "link_id": "t3_1954qn0",
+      "parent_id": "t1_khoncu7"
+    },
+    {
+      "id": "khon807",
+      "body": "May I ask what crops you're growing?",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705163347,
+      "score": 1,
+      "link_id": "t3_pigjv7",
+      "parent_id": "t1_hbz3tl8"
+    },
+    {
+      "id": "khol0bv",
+      "body": "Thank you for the advice. I hope you don't mind me asking. How much mist/flow do you have per plant? So if you had 10 plants, with the cycle you described and you use 100ml for the 10s on-time, I'd be 100ml/10pl/(10s+15m)=1.098\\*10-2ml/pl/s, is what I mean.",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705162526,
+      "score": 1,
+      "link_id": "t3_1954qn0",
+      "parent_id": "t1_khn5g65"
+    },
+    {
+      "id": "khokiwd",
+      "body": "I was thinking of growing them over the complete cycle. Are you using a low or high pressure system?\n\nI was thinking of building an HPA system.\n\nThank you for the advice regarding mold!",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705162342,
+      "score": 1,
+      "link_id": "t3_1954qn0",
+      "parent_id": "t1_khmwinc"
+    },
+    {
+      "id": "khokdy4",
+      "body": "Is it correct that the roots \"breathe\" more the dryer they get, but it hurts them to become completely dry? So keeping them always very wet doesn't allow them to get oxygen.",
+      "author": "felixcra",
+      "subreddit": "aeroponics",
+      "created_utc": 1705162290,
+      "score": 2,
+      "link_id": "t3_1954qn0",
+      "parent_id": "t1_khkn5ih"
     }
   ]
 }

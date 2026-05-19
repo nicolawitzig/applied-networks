@@ -1,6 +1,150 @@
 {
   "username": "rakk109",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1f53mgc",
+      "title": "Some resources to learn Geometric calculus and statistics (intermediate to advance level)",
+      "author": "rakk109",
+      "subreddit": "learnmath",
+      "created_utc": 1725045536,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "I am looking for some some good resources to come up to the level of a UG or PG in these areas. I haven't done my UG in math but have some basics cleared out (I am from ECE background)\n\nI want to learn these concepts as they would likely help me understand math in areas of vision and related stuff. I feel people with math background would be the best people who would understand this area, hence was looking for ways to make myself capable to that level\n\nSo yea, what would you suggest be the best course of action to learn these topics also some resources to learn them (books/YT video, other stuff)?\n\nThanks.",
+      "url": "https://www.reddit.com/r/learnmath/comments/1f53mgc/some_resources_to_learn_geometric_calculus_and/"
+    },
+    {
+      "id": "1f0qfno",
+      "title": "Possible legal action that could be taken against me for quitting?",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1724569051,
+      "score": 8,
+      "num_comments": 9,
+      "selftext": "I am going to quit my RA position at this lab, because a new and better position is offered in another lab (different uni)\n\nAre there any legal actions which I should be concerned about? Since it was mentioned in the offer letter which I had signed that the duration of the position would be valid for 1 year (typical duration for an RA in my country and if people want they could extend it based on the performance)\n\nI only worked for like about a month (less than a month), and now I want to quit this position? Should I be concerned about some legal actions from this my current UNI?\n\n(My country is India)",
+      "url": "https://www.reddit.com/r/academia/comments/1f0qfno/possible_legal_action_that_could_be_taken_against/"
+    },
+    {
+      "id": "1exm744",
+      "title": "What are the consequences of declining an offer which I had previously accepted?",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1724236383,
+      "score": 3,
+      "num_comments": 9,
+      "selftext": "I had applied for the position of RA in various institutes, got called from one and have started working with the PI of that place on a project which isn't my strong suit and I'm not much interested in (I know I shouldn't have joined in the 1st place, but it's too late for that now). I mean I think that I can still get by with this project and learn everything along the way (I have some background with this area)\n\n  \nNow recently I got a call from a better place and they are in an area which I am deeply interested in (would likely want to pursue Masters or Phd in this area). So I want to tell my current PI I want to quit and move to a different institute. I am a bit hesitant and don't know how to approach him related to this matter (It's not even a month since I joined him). He's also a very nice person and I don't want to spoil my image with him. But I have a feeling if I stick with him on his project my own growth which could have been better in a different area, might be hindered.\n\n  \nI guess I know the answer to my question but would like to hear your perspective on this matter.",
+      "url": "https://www.reddit.com/r/academia/comments/1exm744/what_are_the_consequences_of_declining_an_offer/"
+    },
+    {
+      "id": "1euc1k1",
+      "title": "What is the easiest way to setup colmap?",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723879616,
+      "score": 3,
+      "num_comments": 11,
+      "selftext": "I am trying to setup colmap on my system (ubuntu 22.04 with gpu support)\n\nI have tried following the cmake method given in the [docs](https://colmap.github.io/install.html#linux), and I am facing some issues with this as created [here](https://github.com/colmap/colmap/issues/2716).\n\n  \nThere is also a conda install option but it's not mentioned in the docs and Idk if that comes with gpu support (I'm not even sure if it's official )\n\nSo how did you setup colmap? or could you help me with the issue which I'm facing? [https://github.com/colmap/colmap/issues/2716](https://github.com/colmap/colmap/issues/2716)\n\n  \nThank you",
+      "url": "https://www.reddit.com/r/computervision/comments/1euc1k1/what_is_the_easiest_way_to_setup_colmap/"
+    },
+    {
+      "id": "1etukhd",
+      "title": "What are the different stereotypes that people have here?",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1723828839,
+      "score": 0,
+      "num_comments": 3,
+      "selftext": "Like a lot of people ik think very highly of chinese academics and say they are the most hardworking people (Which I sort of agree, considering the amount of chinese authors I regularly see while doing literature survey)\n\n  \nWhat are the other stereotypes that people have? does this have some affect while applying for grad schools (like chinese be given extra preference?)\n\n  \nWhat the opinions on Indians? (I'm Indian)\n\nPS: ik I shouldn't waste time on this sort of bs argument and should focus on improving my resume (it's just that I was tired after a long day and trying to kill some time, while still getting some views of people)",
+      "url": "https://www.reddit.com/r/academia/comments/1etukhd/what_are_the_different_stereotypes_that_people/"
+    },
+    {
+      "id": "1etlh8z",
+      "title": "How to setup colmap?",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723804899,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "I am having some trouble while setting up colmap on my system (Ubuntu 22.04 with cuda support)\n\nI have followed the docs for installation given [here](https://colmap.github.io/install.html#linux) \n\nafter I did the\n\n    cmake .. -GNinja\n\nafter this when I try \n\n    ninja\n\nthe entire system starts to lag and this is displayed\n\n`[9/217] Building CXX object src/colmap...ors.dir/generalized_absolute_pose.cc.o`\n\nthen after a few minutes the terminal is killed and the system crashes.\n\n\n\nWhat should I do? how can I fix this?",
+      "url": "https://www.reddit.com/r/computervision/comments/1etlh8z/how_to_setup_colmap/"
+    },
+    {
+      "id": "1esb67p",
+      "title": "What are some great libraries for Structure from motion (SFM)?",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723665696,
+      "score": 6,
+      "num_comments": 3,
+      "selftext": "Hi, so recently I am trying to learn about SFM and want to try out some project with it. I came to the conclusion that the two most used libraries are \n\n1. OpenSfM\n2. Colmap\n\n  \nwhich according to you would be the best (both in terms of usage and result quality)?\n\nDo you recommend some other library?\n\nAre there some other more modern approaches to SFM? (newly researched ones which might not be popular yet)",
+      "url": "https://www.reddit.com/r/computervision/comments/1esb67p/what_are_some_great_libraries_for_structure_from/"
+    },
+    {
+      "id": "1epqflf",
+      "title": "Should I not be in the research space? (STEM)",
+      "author": "rakk109",
+      "subreddit": "PhD",
+      "created_utc": 1723397469,
+      "score": 5,
+      "num_comments": 4,
+      "selftext": "I am really demotivated (might get over it sometime later). I just got another rejection for my paper (rejected more than once) and I have not yet even got my 1st publication. I was hoping to get it published this time, but alas.\n\nNow I'm doubting myself, am really suited for this stuff? Why did I step into this you may ask, well truth being told it's because I liked learning new things in this field, every time I learnt something new it added to my knowledge, so I thought why not contribute to the area and be a researcher. \n\n  \nNow I'm questioning myself, what if I was only good at learning and not coming up with some real novel ideas? should a person like me be in this space?",
+      "url": "https://www.reddit.com/r/PhD/comments/1epqflf/should_i_not_be_in_the_research_space_stem/"
+    },
+    {
+      "id": "1e84aib",
+      "title": "How do you read and comprehend the papers and vast literature? (STEM, CS)?",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1721505826,
+      "score": 4,
+      "num_comments": 12,
+      "selftext": "How do you read the papers? like how to decide which papers are worth the time? do you just read the abstract and gain insights? (doesn't work for me, cause maybe I just dumb)\n\nWhat is your reading style, like which sections do you jump to? (or do you just read the paper in the top down fashion)?\n\n  \nThank you",
+      "url": "https://www.reddit.com/r/academia/comments/1e84aib/how_do_you_read_and_comprehend_the_papers_and/"
+    },
+    {
+      "id": "1e5p8id",
+      "title": "Which are some good doctoral programs for robotic perception?",
+      "author": "rakk109",
+      "subreddit": "robotics",
+      "created_utc": 1721240225,
+      "score": 4,
+      "num_comments": 1,
+      "selftext": "Hi,\n\nI am searching for some labs which are doing work in robotic perception and might consider students for phd. I am looking to work with drones and other works related to perception. I want to pursue directly after bachelors and don't have a masters degree. \n\nAny good suggestions?\n\n  \nThank you",
+      "url": "https://www.reddit.com/r/robotics/comments/1e5p8id/which_are_some_good_doctoral_programs_for_robotic/"
+    },
+    {
+      "id": "1e2x0y6",
+      "title": "How do you come up with new ideas? (STEM related)",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1720944573,
+      "score": 10,
+      "num_comments": 24,
+      "selftext": "Hi, \n\nso I want to know how do you come up with a new ideas while doing research? I hear from a lot of people on this sub that doing a phd is just 90% hard work and 10% brilliance. Well but a phd is suppose to be where you come up with new idea right? \n\nI get that we have to read a lot of literature and then come up with a new method or something. But the thing is when I come up with a cool new idea then do more research I find that someone has already implemented that, not exactly what I had in mind but almost like 95% of the idea has been taken. The top venues want innovative ideas and doing this literature just sort of gives small tinkering which can be made.",
+      "url": "https://www.reddit.com/r/academia/comments/1e2x0y6/how_do_you_come_up_with_new_ideas_stem_related/"
+    },
+    {
+      "id": "1dxn2ck",
+      "title": "Which GRE score do the universities need?",
+      "author": "rakk109",
+      "subreddit": "gradadmissions",
+      "created_utc": 1720376373,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Hi\n\nThis might sound like a dumb question but here we go,\n\nWhich GRE score does the University want when they ask for GRE score? is it the general GRE or the subject GRE?\n\nfor context I am trying for computer science and seems like I might have a better score if I answer the GRE mathematics rather than the general GRE test.\n\nThank you",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1dxn2ck/which_gre_score_do_the_universities_need/"
+    },
+    {
+      "id": "1dxctci",
+      "title": "Is the GRE requirement for admission the subject test or general test?",
+      "author": "rakk109",
+      "subreddit": "nus",
+      "created_utc": 1720345388,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi,\n\nThe requirements for Masters or Phd have GRE in them, so my question is which GRE are they referring to? the general one or the subject one?\n\nI am gonna try for computer science (but I have a feeling that I can score better in the subject GRE of math better than the general GRE)\n\nThank you ( I am extremely sorry if this is a stupid question )",
+      "url": "https://www.reddit.com/r/nus/comments/1dxctci/is_the_gre_requirement_for_admission_the_subject/"
+    }
+  ],
   "comments": [
     {
       "id": "le8t4jj",
@@ -21,6 +165,186 @@
       "score": 1,
       "link_id": "t3_1e7vbqq",
       "parent_id": "t3_1e7vbqq"
+    },
+    {
+      "id": "m06512e",
+      "body": "Hi, were you able to figure this out?",
+      "author": "rakk109",
+      "subreddit": "MachineLearning",
+      "created_utc": 1733212188,
+      "score": 1,
+      "link_id": "t3_1gl3wto",
+      "parent_id": "t3_1gl3wto"
+    },
+    {
+      "id": "lj8gkj9",
+      "body": "Yes, thank you. I will be firm while informing the situation, it's just my conscience which is making me a bit uncomfortable.\n\n  \nBut in life we do have to make certain choices and hope for a better future.\n\nas spider-man said - \"**It's a leap of faith.** **That's all it is**\"",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1724258469,
+      "score": 1,
+      "link_id": "t3_1exm744",
+      "parent_id": "t1_lj75wwy"
+    },
+    {
+      "id": "lj8fkgr",
+      "body": "Good point. Thanks",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1724258159,
+      "score": 1,
+      "link_id": "t3_1exm744",
+      "parent_id": "t1_lj7p6au"
+    },
+    {
+      "id": "lj6v7kc",
+      "body": "I don't think it would be possible to work on the project until he finds a replacement.(since both the places are in different places) I could just share all the work I did for them.\n\nYea I totally feel the guilt of doing this to him (the very fact that I was hoping this would happen cause even though I joined here. I kept on having conversation with the other institute for the potential joining)\n\nI guess I was pretty much able to convince him I would be interested in doing this project (that's the reason he asked me to join, sad that I was just a phony)",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1724237844,
+      "score": 2,
+      "link_id": "t3_1exm744",
+      "parent_id": "t1_lj6tdg7"
+    },
+    {
+      "id": "liowe43",
+      "body": "No issues, thanks for the info and all, yea lol I'm also considering an upgrade. Also I am guessing I'll try to use conda-forge to get colmap on my system (might be easier)\n\n  \nThanks",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723971750,
+      "score": 1,
+      "link_id": "t3_1euc1k1",
+      "parent_id": "t1_liovx9p"
+    },
+    {
+      "id": "liou51f",
+      "body": "lol 2-3 hours is sick (yea won't be prolly bearable by me). what was the memory usage though?",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723970207,
+      "score": 1,
+      "link_id": "t3_1euc1k1",
+      "parent_id": "t1_liotwwy"
+    },
+    {
+      "id": "liosr74",
+      "body": "doesn't the pycolmap ship with pip? did that also cause issues? I was planning to give up on installing the c++ and just go with the python bindings, I was confused whether the python bindings supported GPU usage (Thanks for confirming it does)\n\n  \nAlso I want I ask another question, How powerful does the system has to be to run colmap? I don't have a super system (laptop with 8gb ram, gtx 1650, i5 11 gen)",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723969264,
+      "score": 1,
+      "link_id": "t3_1euc1k1",
+      "parent_id": "t1_limv7q4"
+    },
+    {
+      "id": "lijn8p3",
+      "body": "I am not sure how colmap relates to the GMT thing, but yea this could be due to a conflict with anaconda. Any ways there is a new error which popped up (updated on the issue). the previous behavior seemed due to some memory issues. \n\n  \nThe new error, well I have no clue what is the issue and how to go about solving it.",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723890576,
+      "score": 1,
+      "link_id": "t3_1euc1k1",
+      "parent_id": "t1_lijkxqm"
+    },
+    {
+      "id": "ligecgp",
+      "body": "I tried to compile it with cuda and there was this error, which I just updated the above post",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723836658,
+      "score": 1,
+      "link_id": "t3_1etlh8z",
+      "parent_id": "t1_lidxkjp"
+    },
+    {
+      "id": "lifc01a",
+      "body": "there is no output... the terminal just kills itself after a few minutes. \n\nmaybe this issue will provide more details\n\n[https://github.com/colmap/colmap/issues/2716](https://github.com/colmap/colmap/issues/2716)",
+      "author": "rakk109",
+      "subreddit": "computervision",
+      "created_utc": 1723824484,
+      "score": 1,
+      "link_id": "t3_1etlh8z",
+      "parent_id": "t1_lidxkjp"
+    },
+    {
+      "id": "lgqo1ni",
+      "body": "What type of computer does IIIT-H have? any DGX servers? GPUs me kya rehta hai udar? (masters karne ke lia info nikal raha tha ki IIIT kaisa hai)",
+      "author": "rakk109",
+      "subreddit": "iiit",
+      "created_utc": 1722931913,
+      "score": 1,
+      "link_id": "t3_1e7oc3d",
+      "parent_id": "t3_1e7oc3d"
+    },
+    {
+      "id": "ld4it08",
+      "body": "got it. Thanks",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1720956728,
+      "score": 2,
+      "link_id": "t3_1e2x0y6",
+      "parent_id": "t1_ld4ij7b"
+    },
+    {
+      "id": "ld4hz0v",
+      "body": "There are people who have tier 1 publications who then go to get a phd in top unis (some of the uni have requirements as to have good publications)\n\nWhat do this people even learn there (I believe these are people who are already somewhat independent researcher)? \n\nis it just the degree?",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1720956236,
+      "score": 0,
+      "link_id": "t3_1e2x0y6",
+      "parent_id": "t1_ld4h1f3"
+    },
+    {
+      "id": "ld4gkm0",
+      "body": "Truth being said, I will soon complete my undergrad and want to pursue phd directly without masters, I want to get up to speed.\n\nI get how important reading current papers is in order to build on the knowledge I have. \n\nAlso if I may, I assume you are a phd advisor (since you said you teach your phd students). What is exactly taught in a phd? I read pretty vague answers related to this question. Some say it's your phd and you have to learn everything and do your own research find out the ropes with your own ability, others say phd is a place where you learn how to do research (by this do they mean we learn the habit and correct way of reading papers or is it more than this?)",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1720955398,
+      "score": 1,
+      "link_id": "t3_1e2x0y6",
+      "parent_id": "t1_ld49mql"
+    },
+    {
+      "id": "ld4foug",
+      "body": "I get the idea of doing something which hasn't been done while reading a paper, then when I try to look at the idea turns out someone has already done something similar. So this is like a loop\n\nI read --> get an idea--> check if it's implemented--> find that it's implemented--> I read (something else but in the same area).\n\n  \nI feel that it's this trail and error loop that I have to keep doing until I actually find something which hasn't been done and then work on that.\n\nIs this common and does everyone face this? Or is this method not correct and I should be doing it in some other efficient manner (which I am not aware of)",
+      "author": "rakk109",
+      "subreddit": "academia",
+      "created_utc": 1720954846,
+      "score": 0,
+      "link_id": "t3_1e2x0y6",
+      "parent_id": "t1_ld41p4a"
+    },
+    {
+      "id": "lcyqw12",
+      "body": "Can you suggest what I should learn and some sources which I should refer to learn it?",
+      "author": "rakk109",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1720860165,
+      "score": 1,
+      "link_id": "t3_1e1jwad",
+      "parent_id": "t1_lcx017v"
+    },
+    {
+      "id": "lc5rtnx",
+      "body": "understood. thanks.",
+      "author": "rakk109",
+      "subreddit": "gradadmissions",
+      "created_utc": 1720423673,
+      "score": 1,
+      "link_id": "t3_1dxn2ck",
+      "parent_id": "t1_lc5pwmk"
+    },
+    {
+      "id": "lc5rsjk",
+      "body": "got it thanks",
+      "author": "rakk109",
+      "subreddit": "gradadmissions",
+      "created_utc": 1720423652,
+      "score": 2,
+      "link_id": "t3_1dxn2ck",
+      "parent_id": "t1_lc2qonx"
     }
   ]
 }

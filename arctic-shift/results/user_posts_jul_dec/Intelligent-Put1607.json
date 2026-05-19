@@ -1,6 +1,106 @@
 {
   "username": "Intelligent-Put1607",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hkn2xn",
+      "title": "Use cases of Monte Carlo Control (or MC-based RL algorithms in general)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734958217,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "Question is in the topic. Are there (still) any popular use cases for MC based RL algorithms today where they outperform SOTA RL methods which are based on TD learning? Where is the research going for this category? ",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1hkn2xn/use_cases_of_monte_carlo_control_or_mcbased_rl/"
+    },
+    {
+      "id": "1hfi9x1",
+      "title": "Need Endorsement for q-fin",
+      "author": "Intelligent-Put1607",
+      "subreddit": "arxiv",
+      "created_utc": 1734353086,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi,\n\nI want to upload my MSc Dissertation on ArXiv, unfortunately my supervisor did never use ArXiv so he cannot endorse. I therefore would highly appreciate if one from the community could do so :) \n\nIf you somehow have any doubts on my qualification or other concerns, PLEASE contact me an I will send through required credentials and/or the paper itself. \n\n  \nEndorsement Code: G9MG63\n\nLink: [https://arxiv.org/auth/endorse?x=G9MG63](https://arxiv.org/auth/endorse?x=G9MG63)",
+      "url": "https://www.reddit.com/r/arxiv/comments/1hfi9x1/need_endorsement_for_qfin/"
+    },
+    {
+      "id": "1g77fs3",
+      "title": "HELP - TD3 only returns extreme values (i.e., bounding values of action space)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1729339636,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "Hi,   \nI am new to continuous control problems in general and due to my background understand the theory rather than the practical aspects. So I am training a TD3 based agent on a continuous control problem (trading several assets w/ sentiment scores in the observation space). \n\nThe continuous action space (as follows) looks like this:\n\n`Box([-1. -1. -1. -1. -1. -1. -1. -1.  0.  0.  0.  0.  0.  0.  0.  0.], 1.0, (16,), float32)`\n\nFor explanation: I trade 8 assets in the environment, the first 8 entries of the action space (ranging from -1 to 1) indicate the position (sell, hold, buy -> translated from continuous to discrete decision within the environment), while the last 8 entires, ranging from 0 to 1, indicate the percentage amount of the action (% of selling the position or % of cash to use for buy action). \n\nMy model currently is trained on 100 episodes (one episode is roughly 1250 trading days/observations with a size of 81, just to give a brief idea here about the project). Currently, the agent is only and without exception returning actions going into extreme positions (using the bounding values from the action space). Example:  \n`[ 1. -1.  1. -1.  1. -1. -1. -1.  0.  0.  0.  1.  1.  0.  0.  0.]`\n\nMy question now is just if this is normal at this early stage of training, or does this indicate a problem with the model, the environment or something else? As training such an environment is computationally intensive (= cost intensive), I just want to be clarify if this might  be a problem with the code/algorithm itself before training (and potentially paying) for a vast timely amount of training.",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1g77fs3/help_td3_only_returns_extreme_values_ie_bounding/"
+    },
+    {
+      "id": "1g1yi0c",
+      "title": "Gymnasium - terminated vs truncated state for stock trading environment",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1728734209,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "Hey,\n\nSo I've read a bit about the difference between terminated and truncated in a gym.Env. From my understanding:\n\nterminated = True -> indicates that a terminal state under the MDP definition is reached (so depending on how you define the underlying MDP)\n\ntruncated = True -> the episode ends due to a condition which is NOT specifically defined within the MDP. As an example (from Gym Docu), the agent physically goes out of bounds or a time limit is reached. \n\n  \nWhile this makes sense for, say, a robotics task, I am missing some pieces when it comes to the problem I am working on (agent for trading/managing financial assets). I mainly have two questions:\n\n  \n1. The agent is trained on a series of states (one per day)  of given length T per episode, in form of a dataframe. Once the end of the episode is reached, I would set done = True (under gym versions before 0.26). Now I have to either set terminate = True or truncated = True. What would make sense here? Keep in mind that the agents goal is to maximise a profit, so there is no \"clear goal condition\" which indicated that the agent either succeeded or failed a specific task (as it might be in robotics).\n\n2. Say I am using a framework such as StableBaselines. Does the agent interpret terminated = True and truncated = True differently? ",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1g1yi0c/gymnasium_terminated_vs_truncated_state_for_stock/"
+    },
+    {
+      "id": "1fwmtcg",
+      "title": "Where to train RL agents (computing resources)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1728121574,
+      "score": 11,
+      "num_comments": 9,
+      "selftext": "Hi,\n\nI am somehow new to training (larger) RL applications. I need to train like 12-15 agents for comparing their performance on a POMDP problem (in the financial realm -> plain tabular data) with varying representation of a specific feature in the state space. \n\nI did not yet start the training and want to know if it makes sense to train on e.g., an on-premise cloud architecture. The alternative would be a Laptop with an NVIDIA GeForce *RTX 3060*, 4GB. \n\nI try give as much information about potential computational cost:\n\n- State Space consists of 10N+1 dimensions per t, where N is the number of assets (I will mostly use between 5-9 assets, if this gives a rough idea about the dimensions in the state) -> all dimensions are on a continuous scale. One epoch consists of \\~ 1250 observations\n\n- Action space consists of 2N dimensions  -> N dimensions are in a range \\[-1,1\\] and the other N dimensions are in a range \\[0,1\\].\n\n- I will probably use some sort of TD3 algorithm\n\n\n\nIDK if this is enough information for a calculated opinion, however as I am pretty new to applying RL to \"larger\" problems and to managing computational constraints, every tip/idea/discussion would be highly appreciated. ",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1fwmtcg/where_to_train_rl_agents_computing_resources/"
+    },
+    {
+      "id": "1e9ofo8",
+      "title": "Spending time abroad during your PhD",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1721679920,
+      "score": 2,
+      "num_comments": 11,
+      "selftext": "Hi,\n\nI am an international student thinking about doing his PhD in the UK. I was wondering if it is generally possible (and maybe done by some internationals in here?) to occasionally visit their home country (Germany in my case) for a while during their studies - given your supervisor approves it?\n\nI did a bit of web research on this already, but barely found anything on the topic… ",
+      "url": "https://www.reddit.com/r/AskAcademiaUK/comments/1e9ofo8/spending_time_abroad_during_your_phd/"
+    },
+    {
+      "id": "1e65796",
+      "title": "Doing a PhD in an a subject not (directly) related to your B.A.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1721286356,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Hi everybody,\n\nI plan on applying for PhD positions in Statistics or ML/Data Science. I hold a Masters degree in Applied Statistics from a top UK University and also graduated best of my class - however, I did my Bachelors in Business and Management (I did a statistical analysis in my Bachelors dissertation which far far exceeded what we learned in the course, hence I got admitted to the MSc).  \n  \nI now want to do a PhD in a subject heavily relying on statistics, but am afraid that my missing maths/stats/CS undergrad will be a big downer when applying. I would probably be able to land a PhD position at my Master's Uni, but would prefer studying at another institution due to personal reasons (i.e., not liking the city tbh). \n\n  \nDoes anyone have heard of similar cases or do you guys think that it will be a big down side, even with graduation top of class in the MSc? I maybe have to mention here, I am not from the UK and outside of the Anglo-Saxon educational system, switching subject even between bachelors and masters is pretty rare.\n\n  \nThanks in advance",
+      "url": "https://www.reddit.com/r/AskAcademiaUK/comments/1e65796/doing_a_phd_in_an_a_subject_not_directly_related/"
+    },
+    {
+      "id": "1e5r5yd",
+      "title": "Master britannique pour l'accès au doctorat",
+      "author": "Intelligent-Put1607",
+      "subreddit": "etudiants",
+      "created_utc": 1721244915,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Bonjour,\n\n \n\nJ'envisage de faire un doctorat en France. J'ai fait mon master au Royaume-Uni et j'aimerais savoir si le master britannique (programme d'un an avec un mémoire scientifique écrit, composé de 90 ECTS) est considéré comme équivalent à votre M2 - donc si je peux directement postuler à des programmes de doctorat ou si je dois postuler à un M2 (ou même à un master entier ?).\n\n\n\nMerci d'avance.\n\n",
+      "url": "https://www.reddit.com/r/etudiants/comments/1e5r5yd/master_britannique_pour_laccès_au_doctorat/"
+    },
+    {
+      "id": "1e5ek34",
+      "title": "Asking for advice - good universities for Statistics/Data Science",
+      "author": "Intelligent-Put1607",
+      "subreddit": "france",
+      "created_utc": 1721211077,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/france/comments/1e5ek34/asking_for_advice_good_universities_for/"
+    }
+  ],
   "comments": [
     {
       "id": "lftj4j0",
@@ -41,6 +141,446 @@
       "score": 2,
       "link_id": "t3_1e8lls4",
       "parent_id": "t3_1e8lls4"
+    },
+    {
+      "id": "m4i2mnz",
+      "body": "St. Andrews (UK) - its ranked in the top 5 in all major national league tables.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1735552406,
+      "score": 1,
+      "link_id": "t3_1hoqdac",
+      "parent_id": "t1_m4f6j1a"
+    },
+    {
+      "id": "m4i25mu",
+      "body": "I am/was not a US student myself but classmates who went back to the US all got decent jobs (speaking for mathematics degrees). \nI assume it is well regarded in the US. Can only ensure you that it‘s the case for EU.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1735552102,
+      "score": 3,
+      "link_id": "t3_1hp54yx",
+      "parent_id": "t3_1hp54yx"
+    },
+    {
+      "id": "m4c28e3",
+      "body": "I basically did exactly that (non-STEM to Stats MSc) at a higher ranked institution. Had to catch up a lot but if your institution admits you to the course, just trust them in their ability to select appropriate candidates.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1735466720,
+      "score": 1,
+      "link_id": "t3_1hoqdac",
+      "parent_id": "t3_1hoqdac"
+    },
+    {
+      "id": "m3fgz65",
+      "body": "It is indeed nicely written and an interesting problem to solve via RL. I think with some time invested and maybe proposing some tweaks in the RL algorithms (which might lead to some sort of measurable progress) you can definitely aim for a publication, given you add some more content on methodology and notation.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734957919,
+      "score": 1,
+      "link_id": "t3_1hkib91",
+      "parent_id": "t3_1hkib91"
+    },
+    {
+      "id": "m3aj7o0",
+      "body": "Never heard of it, also nothing found via google search…",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734881097,
+      "score": 1,
+      "link_id": "t3_1hiqmdu",
+      "parent_id": "t3_1hiqmdu"
+    },
+    {
+      "id": "m3ahs66",
+      "body": "If you are interested in the theory (with practical implications) then I can recommend the book from Sutton & Barto, which explain everything from bandit problems to SOTA algorithms.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734880567,
+      "score": 4,
+      "link_id": "t3_1hk03kn",
+      "parent_id": "t3_1hk03kn"
+    },
+    {
+      "id": "m2tcs3x",
+      "body": "I have the same issue currently. And as u/Coconut_island  said: You need far more than 5 samples, also for bootsrapped CIs (which is the method proposed in Googles RLiable). \n\nDid you get any feedback from peer review regarding this topic? In my domain (Finance&RL), it is actually common to train on 5 different seeds and evaluate the performance on the test set/test period. I mostly see two methods: \n\n\\- Either just mentioning that 5 different agents are trained, solely reporting the results from the best performing one (I dislike this a lot as it can be pretty misleading when variance is high)\n\n\\- Show results on a way like Avg. Reward: 100000 +/- 200 (where 10000 is the performance from the best model)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734612508,
+      "score": 1,
+      "link_id": "t3_1hg9062",
+      "parent_id": "t3_1hg9062"
+    },
+    {
+      "id": "m2o27oc",
+      "body": "Why shouldn‘t it?",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1734534930,
+      "score": 2,
+      "link_id": "t3_1hgokhu",
+      "parent_id": "t3_1hgokhu"
+    },
+    {
+      "id": "m2cirjd",
+      "body": "1. The function has to lead the robot in front of people. This can be done via distance minimisation.\n\n2. Until the robot is in its place, taking a photo is disabled (can be incorporated as a binary variable in the state space). If in position, enable the agent to take a photo, which will then result in a big reward.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734365962,
+      "score": 1,
+      "link_id": "t3_1hfmcbf",
+      "parent_id": "t3_1hfmcbf"
+    },
+    {
+      "id": "m2b2qs5",
+      "body": "What you can basically do is building a wrapper for your environment which computes a rolling mean and variance and then uses these two moments for normalization. There is a wrapper from Gymnasium available which does exactly that ([gymnasium.wrappers.normalize - Gymnasium Documentation](https://gymnasium.farama.org/v0.29.0/_modules/gymnasium/wrappers/normalize/)).",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734342358,
+      "score": 1,
+      "link_id": "t3_1hbdgqq",
+      "parent_id": "t1_m2awjf9"
+    },
+    {
+      "id": "m277jhp",
+      "body": "I had a similar problem with my TD3. I implemented a state normalization and things went alright afterwards.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734285989,
+      "score": 1,
+      "link_id": "t3_1hbdgqq",
+      "parent_id": "t3_1hbdgqq"
+    },
+    {
+      "id": "m1u7rlx",
+      "body": "So your general idea/plan is to transfer from Philosophy UG to CS/AI PGT and then find a PhD in CS, if I get this right. \n\nRight now I would try to get into coding and grasp the basics of AI/ML (especially the math, namely linear algebra, calculus and probability/stats). If you show good motivation, you can definitely make it into a decent MSc in CompSci/AI. A 2.1 should be okay for joning the MSc.\n\nGetting a (funded) PhD from there is another thing. From now on, your MSc grades matter way more (especially as these now reflect your \"knowledge\" in the corresponding area).  Now comes the important part: networking and research. You definitely have to build your network in the new area, which will then open some doors for research collaboration. This is the most important aspect as getting a funded PhD from a good/top university (which is required for joining the ballpark of Deepmind et al.) will require you to show not only top performance in your MSc but also research experience. Try to become the person you would give a bunch of money to do PhD research work. As a 1-year MSc is a short time frame, I would advise to proactively try to collaborate with your advisors/PhD students/other researchers. \n\nBottom line the most important thing for you is to build a network in your area during your PGT and ideally get your name on one or two papers, besides excelling in the MSc. If you can pull that off, I do not see any problems in reaching your goals. \n\nBest of luck!",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1734085210,
+      "score": 5,
+      "link_id": "t3_1hd3mqf",
+      "parent_id": "t3_1hd3mqf"
+    },
+    {
+      "id": "m1ovwgj",
+      "body": "I am working on a paper on the usage of RL in portfolio management and trading. The problem itself is a so called partially observable markov decision problem (*POMDP*), meaning that the agent must make decisions on incomplete or uncertain state information (as not all market information are available to the agent). \n\nFrom my experience, the fascinating aspect about the trading problem is which information you include in the state space to enable the agent to make informed decisions. If you have some knowledge about general portfolio management, think about what information might be valuable for a PM/trader to make decisions (again, remeber your agent will do the job of the trader or PM). The keyword here is experimentation, but trading signals or key metrices from modern portfolio theory might be a good starting point ;). You can also include some forecasts or AI-informed features in the state, e.g., returns prediction or sentiment scores. \n\nIn terms of the frequence (time steps), I would go with daily observations, as this frequency is most common in papers and also the most common to obtain from open sources. \n\nOn training regimen: What you often see in the literature is a common time-series approach, meaning you train on a train-period, evaluate on an evaluation period (used for fine-tuning) and then backtest using a continuous retraining approach (e.g., forecast 5 days, then retrain on them and forecast the next 5 days and so on).  \n\n A word to model selection: Due to the stochastic training nature of NNets, most papers train 3-5 models with the same parameters using differend seeds and then picking the best performing one for evaluation.\n\nI generally recommend reading some papers before diving into coding.\n\nHTH",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1734011251,
+      "score": 3,
+      "link_id": "t3_1hb4hsy",
+      "parent_id": "t3_1hb4hsy"
+    },
+    {
+      "id": "lz9xnwg",
+      "body": "Unfortunately it was the overall AR I guess",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1732729962,
+      "score": 1,
+      "link_id": "t3_1h18sua",
+      "parent_id": "t1_lz9w9bi"
+    },
+    {
+      "id": "lz9vr2f",
+      "body": "Went there two years ago and my thesis advisor was part of the admissions committee. He told me it generally lies somewhere between 5-15% depending on some factors like course/program or intake. \nObviously not too many people are flexing with a rejection here in the forum lol",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1732729376,
+      "score": 7,
+      "link_id": "t3_1h18sua",
+      "parent_id": "t3_1h18sua"
+    },
+    {
+      "id": "lz3ando",
+      "body": "Its like with every hype AI topic - same for computer vision some years ago. Go for RL if you like it.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1732636729,
+      "score": 1,
+      "link_id": "t3_1gxudhp",
+      "parent_id": "t1_lyptb49"
+    },
+    {
+      "id": "lx25pcc",
+      "body": "I would argue that gymnasium is the current gold standard for environments.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731573890,
+      "score": 2,
+      "link_id": "t3_1goqd15",
+      "parent_id": "t3_1goqd15"
+    },
+    {
+      "id": "lsq1t2k",
+      "body": "Thank you so much for the response first of all! \nYour first point (overerstimated values at the bounding values and the algorithm therefore stops exploring) makes sense from my understanding. However I thought this why the usage of action noise (which I do) is important as well? I will definitely take a look at your suggestions :)\n\nFor action clipping, I did not include any further clipping at all (besides defining the action space obviously) - actions seem to be in the given range at least so it did not seem necessary until now (as said, I barely trained the model until now), or am I missing something here?",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1729362848,
+      "score": 1,
+      "link_id": "t3_1g77fs3",
+      "parent_id": "t1_lspmhjv"
+    },
+    {
+      "id": "lsicgyc",
+      "body": "The RG is basically a self-selected group of research-heavy universities. Thats it. I highly doubt that anyone will perceive a university as prestigious just because it is a member of the RG. So to your question under EDIT: no, I would say most people would (overall) rate St. Andrews or Bath higher or en par with  most RG unis (apart from the four obvious ones mentioned by you)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1729250061,
+      "score": 5,
+      "link_id": "t3_1g5z7b3",
+      "parent_id": "t3_1g5z7b3"
+    },
+    {
+      "id": "lr29s8n",
+      "body": "I am working as an ML Eng/ DS in a more R&D driven role (meaning I mostly build prototypes for defined problems) which is not domain-specific. Even in such a role where you can experiment a lot, maybe 1 in 20 problems are suitable for RL. \n\nThat being said, a basic knowledge of RL is definitely valuable as not too many people know the algorithms and how to build an environment with or without given frameworks. If you love the domain, I would suggest to explore it an learn, however if you look at it solely from a job/monetary perspective (excluding shops like DeepMind etc.), GenAI & LLMs are your better focus. Truth is, RL is still a research topic rather than a business one.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1728462451,
+      "score": 1,
+      "link_id": "t3_1fyu4fg",
+      "parent_id": "t3_1fyu4fg"
+    },
+    {
+      "id": "lmqj0q8",
+      "body": "The book by Sutton and Barto gives you a good theoretical understanding of RL.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1726129873,
+      "score": 1,
+      "link_id": "t3_1fd9r00",
+      "parent_id": "t3_1fd9r00"
+    },
+    {
+      "id": "lmkn6cj",
+      "body": "University of St Andrews (UK)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1726041206,
+      "score": 1,
+      "link_id": "t3_1eclytj",
+      "parent_id": "t1_lmg9plk"
+    },
+    {
+      "id": "liezgxx",
+      "body": "Same",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1723820531,
+      "score": 1,
+      "link_id": "t3_1es3pfi",
+      "parent_id": "t1_li73a6k"
+    },
+    {
+      "id": "li19nzf",
+      "body": "Mostly groceries, some traveling. I was there in 2022/23",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1723617264,
+      "score": 3,
+      "link_id": "t3_1eqqbw7",
+      "parent_id": "t1_lhyaciw"
+    },
+    {
+      "id": "lhvu95x",
+      "body": "Sorry to hear about your situation, especially with your father.\nAssuming you showed your capabilities in your Masters degree (i.e., grades or similar), what I would do is contact potential supervisors directly, show interest in their research and offer support for their research (if possible in your field). \nJust do not forget that Profs are human, too - and they also know that life happens sometimes…",
+      "author": "Intelligent-Put1607",
+      "subreddit": "PhD",
+      "created_utc": 1723541059,
+      "score": 18,
+      "link_id": "t3_1er2w79",
+      "parent_id": "t3_1er2w79"
+    },
+    {
+      "id": "lhvnurq",
+      "body": "Around 700 per month, but you can defo live cheaper..",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1723536714,
+      "score": 2,
+      "link_id": "t3_1eqqbw7",
+      "parent_id": "t3_1eqqbw7"
+    },
+    {
+      "id": "lh3qel1",
+      "body": "I did a BS in Business Administration (focussed on statistics) and did my MSc in Applied Statistics.\nI switched subjects as I fell in love with stats during UG - although most business students will hate their stats modules (most business students do not like quant courses).\n\nIf you think you can handle a stats, go for it. Job prospects are far better, too.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1723123253,
+      "score": 1,
+      "link_id": "t3_1en1muh",
+      "parent_id": "t3_1en1muh"
+    },
+    {
+      "id": "lh2gyjx",
+      "body": "Some tips which helped me increase productivity and being able to concentrate for longer times: \n\n- routines, fixed sleeping schedule (7-8h)\n- plan your week and PRIORITIZE \n- have hobbies not related to your work\n- sports (especially those challenging your cardiovascular system)\n- healthy diet (super underrated)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "PhD",
+      "created_utc": 1723098411,
+      "score": 177,
+      "link_id": "t3_1emxdez",
+      "parent_id": "t3_1emxdez"
+    },
+    {
+      "id": "lg3wyp4",
+      "body": "Bc world rankings (think the only ranking where St Andrews is ranked around 300 is USNews lol) mainly focus on research publications. Being a university with 10.000 students and most of them being UG, the uni just does not publish as much of research as larger counterparts. National rankings, focussing more on acceptance rate, grad prospects etc place St Andrews pretty well, regularly around top 5 in the UK.\n\n\nIf you come from the US, just look up QS rankings of Dartmouth or Brown and compare their reputation with some top 30 unis.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1722585718,
+      "score": 1,
+      "link_id": "t3_1e33gy8",
+      "parent_id": "t1_lf1g2l2"
+    },
+    {
+      "id": "lfnlch4",
+      "body": "Assuming you are speaking about a quant finance related role, it definitely helps to get exposure to QFin during your PhD. So aim for either one in a related role (e.g, MLE in QFin or some quant roles) or aim at some prestigious tech companies (speaking FAANG or similar).",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1722350231,
+      "score": 2,
+      "link_id": "t3_1efq0wc",
+      "parent_id": "t1_lfnkgoo"
+    },
+    {
+      "id": "lfnif0r",
+      "body": "Would say it depends on what you want to do after the PhD. All I can tell you is that graduating with a PhD without ANY industry experience and then aiming for an industry job (SE/DS/MLE or so) is not the best idea. If the internship matches your skill level (speaking about internships aiming at PhD/postgrad students), I doubt any downside will come with it on your CV.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1722349258,
+      "score": 2,
+      "link_id": "t3_1efq0wc",
+      "parent_id": "t3_1efq0wc"
+    },
+    {
+      "id": "lfbywb1",
+      "body": "Can totally understand your struggle. Looking on these things from a perspective on\n- probably live a comfortable life with your love\nOr\n- grind 4years with barely any money to receive a title which also won‘t give you a larger pay boost than 4 years of work experience \n\nIf I were you and would like to play it safe: stay with your gf now and if you STILL feel the urge to do a PhD (bc you figured out that this is what yoz deeply desire), go for it. You can still gain some accolades for PhD apps during this year to increase your chances on a good place. Just want to say I would not give up the „safer and more comfortable“ route for a PhD if you are nor 100% certain that rhis is what you want to do mate…",
+      "author": "Intelligent-Put1607",
+      "subreddit": "PhD",
+      "created_utc": 1722172482,
+      "score": 5,
+      "link_id": "t3_1ee5bpf",
+      "parent_id": "t3_1ee5bpf"
+    },
+    {
+      "id": "lfbxd4h",
+      "body": "If you can make some time to work into it on the go, it should be fine. Engineering itself as a job is a constant flow of learning new stuff - so just don’t be afraid.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1722171785,
+      "score": 1,
+      "link_id": "t3_1edexqd",
+      "parent_id": "t3_1edexqd"
+    },
+    {
+      "id": "lf1dj84",
+      "body": "I did a Masters in Applied Statistics, at the Maths Department. The „Applied“ aspect gives you enough freedom to explore different application areas (e.g., biostatistics) while you will also enough „pure“ stats to understand the theory behind everything. Most statistics MSc give you enough flexibility in terms of electives.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1722003850,
+      "score": 2,
+      "link_id": "t3_1eclytj",
+      "parent_id": "t3_1eclytj"
+    },
+    {
+      "id": "lev2fjq",
+      "body": "Former St Andrews student (STEM, not Econ): I know a bunch of people who went into IB or other high finance roles right after graduating from St A. That being said, imo Warwick Econ > St A Econ. You guys have a larger network in finance in general and a far more established BSchool.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "UniversityOfWarwick",
+      "created_utc": 1721911404,
+      "score": 1,
+      "link_id": "t3_1eb9lis",
+      "parent_id": "t3_1eb9lis"
+    },
+    {
+      "id": "lev2egx",
+      "body": "Former St Andrews student (STEM, not Econ): I know a bunch of people who went into IB or other high finance roles right after graduating from St A. That being said, imo Warwick Econ > St A Econ. You guys have a larger network in finance in general and a far more established BSchool.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "UniversityOfWarwick",
+      "created_utc": 1721911392,
+      "score": 1,
+      "link_id": "t3_1eb9lis",
+      "parent_id": "t3_1eb9lis"
+    },
+    {
+      "id": "leo4wq8",
+      "body": "Thank you - indeed helpful. \nFrom a visa perspective, I never had any issues during my Masters (in the Uk ) when leaving, even for 6-8 weeks during dissertation term. I looked up the regulations and from my understanding there is no fixed limit.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1721802578,
+      "score": 1,
+      "link_id": "t3_1e9ofo8",
+      "parent_id": "t1_lejuxka"
+    },
+    {
+      "id": "leo4cpu",
+      "body": "In terms of a degree? Both will open you many many doors, with an overlap of say 80%.\n\nIn terms of maths? Different. ML maths is a lot of matrices and optimization. Stats is.. you know, mostly statistics and probability :)",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1721802232,
+      "score": 3,
+      "link_id": "t3_1ea7rou",
+      "parent_id": "t3_1ea7rou"
+    },
+    {
+      "id": "leg4xkm",
+      "body": "From my understanding the visa allows travels and does not enforce a hard or specifically defined limit. My question aims more on if it is (somehow) common that an international student occasioanlly travels home for say a month to e.g. see his family or so, given he still proceeds with working/researching.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1721684443,
+      "score": 1,
+      "link_id": "t3_1e9ofo8",
+      "parent_id": "t1_leg3rf2"
+    },
+    {
+      "id": "leg1ymz",
+      "body": "I assume I would get a student Visa if studying for a PhD in the UK.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1721683442,
+      "score": 3,
+      "link_id": "t3_1e9ofo8",
+      "parent_id": "t1_lefy91r"
+    },
+    {
+      "id": "le96v2s",
+      "body": "I would say Maths/Stats is by far the better base for a DS Job than CS. Change my mind but learning the maths/stats fundamentals on your own is FAR more difficult than learning how to code and some DS&A.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskStatistics",
+      "created_utc": 1721583457,
+      "score": 1,
+      "link_id": "t3_1e79qzx",
+      "parent_id": "t3_1e79qzx"
+    },
+    {
+      "id": "ldxnpue",
+      "body": "Thank you. Grades are good so this should not be an issue - it’s networking into some departments now I guess..",
+      "author": "Intelligent-Put1607",
+      "subreddit": "AskAcademiaUK",
+      "created_utc": 1721399458,
+      "score": 1,
+      "link_id": "t3_1e65796",
+      "parent_id": "t1_ldqmjrl"
+    },
+    {
+      "id": "ldr2q42",
+      "body": "I did my masters at St A. It really depends on the subject (i.e., how many tutorials&lectures you have to attend). I had a classmate who lived in Dundee and he did regret not moving to St Andrews after a while. As the town is so small, living there is also pretty beneficial as you can meet up with mates in 10 minutes regardless if they live at rhe other end of town. \n\nThat said, it should not be impossible but a pain in the a** for sure.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "standrews",
+      "created_utc": 1721299099,
+      "score": 1,
+      "link_id": "t3_1e5ebzx",
+      "parent_id": "t3_1e5ebzx"
+    },
+    {
+      "id": "lcte98f",
+      "body": "Common thing in academia (assuming it is the same with UK schools). If you did well, send a reminder and even explain the necessity of getting the LOR - just show you care.",
+      "author": "Intelligent-Put1607",
+      "subreddit": "6thForm",
+      "created_utc": 1720781465,
+      "score": 1,
+      "link_id": "t3_1e1ekkr",
+      "parent_id": "t3_1e1ekkr"
     }
   ]
 }

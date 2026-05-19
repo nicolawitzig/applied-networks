@@ -11,6 +11,39 @@
       "num_comments": 0,
       "selftext": "Hey! I am looking for a subtenant in a double room apartment at Living Science. The room is provided with a mattress and is not furnished with anything else than the standard items provided by Living Science.\n\nYou are eligible if:\n\n- You are an ETH student \n\nAND\n\n   -   You need a cozy place to stay for the remaining days of November OR you are on the top of the Living Science waiting list and you want to take over the contract starting from December. \n\n\nIn the first case (short stay) DM me.\nIn the second case please contact first the agent from MiBag to verify if you are eligible to take over the contract. I can give you the number in private if you are sure you are on the waiting list. \n",
       "url": "https://www.reddit.com/r/ethz/comments/1gv77cg/living_science_room/"
+    },
+    {
+      "id": "1hd6svp",
+      "title": "Profiling Multi Modal Models",
+      "author": "Deet98",
+      "subreddit": "LLMDevs",
+      "created_utc": 1734073461,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey devs!\n\nI am working on profiling some multi modal models and I am currently using PyTorch profiler to do so. I am not sure I’m getting the right results when it comes to memory allocation of the model’s operations. Some of them output negative numbers which I assume they are deallocating tensors from previous operators that are not needed anymore. Instead, I would like to get the peak memory consumptions of those operations. Is there a way using PyTorch to do so? In the worst case scenario I was thinking about profiling the operations individually using random inputs and then infer the memory consumption of those models based on the inputs’ tensor shapes. I’m open to discuss since I haven’t found any useful resources online. \nThank you in advance for the help :)",
+      "url": "https://www.reddit.com/r/LLMDevs/comments/1hd6svp/profiling_multi_modal_models/"
+    },
+    {
+      "id": "1f4tne3",
+      "title": "ENTER THE HEAT VA",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1725019802,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Dear Gabbers,\n\nMe and other artists released a VA on Heatcore Sonic, a new german label that I discussed in a previous post.   \nEvery track has its unique style and I’m hoping everyone of you will find whatever interests you the most.   \nWould be nice to listen to some of the tracks, leave a feedback on SC and share! \nThanks in advance for listening :)\n\n",
+      "url": "https://on.soundcloud.com/wesi6xULJss5ELA68"
+    },
+    {
+      "id": "1elcrex",
+      "title": "Alternative Gabber scene",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722934129,
+      "score": 27,
+      "num_comments": 16,
+      "selftext": "Hey Gabbers,\n\nI’d like to know your take on the alternative gabber scene that’s currently growing in Germany and Switzerland. I’m talking about labels like Gabber Industries Berlin, Vacance, Heatcore Sonic and the now inactive Hardcode.  You can find these names on SoundCloud mostly and throughout the years they gave space to many talented artists from Germany, Italy, France or Switzerland (but not only).  \nI’m an artist that released on those labels and I don’t want to advertise myself, so I won’t mention my artist name. I’m just asking out of curiosity :)",
+      "url": "https://www.reddit.com/r/gabber/comments/1elcrex/alternative_gabber_scene/"
     }
   ],
   "comments": [
@@ -513,6 +546,886 @@
       "score": 5,
       "link_id": "t3_1dwowb0",
       "parent_id": "t3_1dwowb0"
+    },
+    {
+      "id": "m28g857",
+      "body": "I had a great time! I agree, the venue was better last year because there was no space to relax properly. Outside was too cold to chill, inside around shops instead was too crowded and loud. What I enjoyed the most is the fact that all the genres got represented equally. I listened to lots of industrial, old school, french core and a bit of uptempo and mainstream in the last sets of Saturday which was expected.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1734300134,
+      "score": 5,
+      "link_id": "t3_1hf03yp",
+      "parent_id": "t3_1hf03yp"
+    },
+    {
+      "id": "m200u12",
+      "body": "look up for parallel computing models. There exists many, but the PRAM and BSP come to mind.",
+      "author": "Deet98",
+      "subreddit": "compsci",
+      "created_utc": 1734173734,
+      "score": 1,
+      "link_id": "t3_1he0bm6",
+      "parent_id": "t3_1he0bm6"
+    },
+    {
+      "id": "lz2a1rr",
+      "body": "Yes I agree, there’s plenty of industrial compared to 3-4 years ago. It will never die even if the main festivals don’t support it like they used to.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1732622988,
+      "score": 3,
+      "link_id": "t3_1gzvnos",
+      "parent_id": "t1_lz27hs9"
+    },
+    {
+      "id": "lu0qivm",
+      "body": "Oh yeah liking the music makes me wrong suddenly 😂",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1730042666,
+      "score": 3,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltzxiij"
+    },
+    {
+      "id": "ltxa5i8",
+      "body": "Ok but still, I have fun without the downsides so what?",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1729983020,
+      "score": 4,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltx8mz8"
+    },
+    {
+      "id": "ltwyeu0",
+      "body": "Right, doesn’t work for YOU.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1729978749,
+      "score": 2,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltwtqt8"
+    },
+    {
+      "id": "ltw9gfx",
+      "body": "Did you know that you can go clubbing without getting wasted?",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1729970564,
+      "score": -29,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltvol5c"
+    },
+    {
+      "id": "lsfi8zs",
+      "body": "All’ospedale per intossicazione alimentare",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1729201035,
+      "score": 67,
+      "link_id": "t3_1g5yy98",
+      "parent_id": "t1_lsfg3qt"
+    },
+    {
+      "id": "lrw8gb6",
+      "body": "Scarica il file dei sottotitoli in inglese, fatti tradurre da chatgpt il tutto e usa il file tradotto. In italiano doppiato probabilmente non uscirà mai.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1728922365,
+      "score": 1,
+      "link_id": "t3_1g3c2gd",
+      "parent_id": "t3_1g3c2gd"
+    },
+    {
+      "id": "lp7xgfc",
+      "body": "Increase diversity in the company",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1727460001,
+      "score": 22,
+      "link_id": "t3_1fqss7z",
+      "parent_id": "t3_1fqss7z"
+    },
+    {
+      "id": "lp1alx7",
+      "body": "Since 3.11 it uses Powersort",
+      "author": "Deet98",
+      "subreddit": "computerscience",
+      "created_utc": 1727365335,
+      "score": 3,
+      "link_id": "t3_1fpdxlq",
+      "parent_id": "t1_lozt3ie"
+    },
+    {
+      "id": "lnleas3",
+      "body": "Yes, logic usually precedes a theoretical CS course in european universities.",
+      "author": "Deet98",
+      "subreddit": "computerscience",
+      "created_utc": 1726591046,
+      "score": 1,
+      "link_id": "t3_1fj1qaf",
+      "parent_id": "t3_1fj1qaf"
+    },
+    {
+      "id": "lmyy60y",
+      "body": "310 at 92% but I feel like I run out of battery more frequently in the last months compared to the beginning… I’m switching to 16 pro next week and can’t wait to have a 45W battery finally.",
+      "author": "Deet98",
+      "subreddit": "iphone",
+      "created_utc": 1726253276,
+      "score": 1,
+      "link_id": "t3_1fg0w8p",
+      "parent_id": "t1_lmyq6qe"
+    },
+    {
+      "id": "lmyxoek",
+      "body": "Grain delay is pure magic sometimes, I use it on percussions too when I like the groove but not the tone.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1726253115,
+      "score": 2,
+      "link_id": "t3_1ffwj4k",
+      "parent_id": "t1_lmxyvbk"
+    },
+    {
+      "id": "lmyxanj",
+      "body": "I graduated from computer engineering in Italy without any internship. Then Masters in Switzerland and again no mandatory internship.",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726252991,
+      "score": 1,
+      "link_id": "t3_1ffyew4",
+      "parent_id": "t1_lmyffuf"
+    },
+    {
+      "id": "lmsoqv2",
+      "body": "I have a friend working there in the ML team, I don’t know exactly what’s he’s doing but yeah. Just wait until they open some positions…",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726162107,
+      "score": 2,
+      "link_id": "t3_1ff1sjn",
+      "parent_id": "t3_1ff1sjn"
+    },
+    {
+      "id": "ll1zyh0",
+      "body": "sidechain with a multi band compressor, you can tame all the other elements or just the drums when the vocal is playing. This works for every genre where vocals are important. So my chain is eq + compression + sidechain and send this to another chain for reverb or/and echo, there you also use eq, saturation, eq again for example.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1725227897,
+      "score": 2,
+      "link_id": "t3_1f6mjuq",
+      "parent_id": "t3_1f6mjuq"
+    },
+    {
+      "id": "lktwank",
+      "body": "Avevo letto Raffaella Fico inizialmente 🫠",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1725111346,
+      "score": 7,
+      "link_id": "t3_1f5jbax",
+      "parent_id": "t3_1f5jbax"
+    },
+    {
+      "id": "lkntpbx",
+      "body": "Yeah it’s a good meal with Fentanyl on the side.",
+      "author": "Deet98",
+      "subreddit": "europe",
+      "created_utc": 1725020830,
+      "score": 0,
+      "link_id": "t3_1f4s7my",
+      "parent_id": "t1_lkni834"
+    },
+    {
+      "id": "lkeggdm",
+      "body": "Meritare è un concetto arbitrario, non esiste una quantificazione dell’impegno che determina cosa meriti. Impegnarsi su qualcosa in cui si crede, si ha passione e anche talento porta a risultati. Poi dipende dall’ambiente, ovvio che anche chi ti sta intorno conta. Ho mille esempi in cui chi si è impegnato è stato ripagato, ma non devo convincere voi visto che avete avuto esperienze diverse.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724880466,
+      "score": 0,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lke75fl"
+    },
+    {
+      "id": "lkdw9z6",
+      "body": "Dite tutti non è vero ma poi non argomentate. Magari non raggiungete il sogno x + 10 ma comunque essendovi impegnati avete raggiunto x + 3 che è meglio di x + 0 o peggio x - 3. Ragionare diversamente è il preludio del fallimento.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724871127,
+      "score": -1,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lkdu4t8"
+    },
+    {
+      "id": "lkcmn89",
+      "body": "Cool idea! screeches and vocals clash too much, consider doing two separate drops where each element plays alone or with call and response. Also free up some space for the vocals because they are hard to understand otherwise…",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1724857093,
+      "score": 3,
+      "link_id": "t3_1f38yp3",
+      "parent_id": "t3_1f38yp3"
+    },
+    {
+      "id": "lkbej7i",
+      "body": "How is it possible that it’s seen as a skill? It’s not like we design garbage collection ourselves, it’s a feature that we implicitly use by using languages like Java. It would be better to write memory management or sth like that if you know those concepts in C/C++.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724839193,
+      "score": 5,
+      "link_id": "t3_1f33kpw",
+      "parent_id": "t1_lkb5r5w"
+    },
+    {
+      "id": "lk6p7wk",
+      "body": "La differenza è che 3.5-4 per una pizza al sud ti mangi comunque qualcosa che al nord verrebbe tranquillamente venduto a 6-7. Mentre 3.5-4 a Milano te lo offrono tipicamente i kebab in zone non centrali. Quindi nessuna allucinazione, per la gente normale mangiare fuori è più accessibile al sud che al nord. I ristoranti di classe e con una certa clientela sono leggermente più economici, ma comunque trascurabile per chi non ha problemi di soldi.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724771370,
+      "score": 3,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lk5jobm"
+    },
+    {
+      "id": "lk6isan",
+      "body": "Milano peggio di Londra ho dei seri dubbi. I quartieri malfamati di Londra fanno paura per davvero, rischi di essere accoltellato o peggio sparato. Mentre Milano sicuramente ha zone da non frequentare, ma non è paragonabile. In più la qualità del cibo e degli ospedali è 10 spanne sopra a Londra.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724769275,
+      "score": 2,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lk5ikke"
+    },
+    {
+      "id": "lk6ho0u",
+      "body": "Non ho capito la prima parte, se uno si impegna i risultati arrivano. Poi ovvio possono capitare sfortune come malattie e problemi economici che non dipendono da te, ma non provarci significa vivere una vita mediocre e da perdenti. Conosco molte persone provenienti da famiglie povere che hanno studiato, sicuramente con più sforzi di chi non aveva difficoltà esterne, ma alla fine ce l’ha fatta.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724768903,
+      "score": -1,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lk5gzq0"
+    },
+    {
+      "id": "lju8o9s",
+      "body": "It should be regulated by laws… if they can find workforce for free there’s nothing you can do about it. In EU we have a minimum salary for interns, is the screenshot taken from a US based job advertisement?",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724583122,
+      "score": 1,
+      "link_id": "t3_1f0sy9m",
+      "parent_id": "t1_lju7vvo"
+    },
+    {
+      "id": "lju78kj",
+      "body": "If you sign a contract that states that you don’t get a salary, how can you suddenly ask for the salary? Honestly I don’t think it’s a clever advice, it’s a waste of time for both parties.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724582207,
+      "score": 116,
+      "link_id": "t3_1f0sy9m",
+      "parent_id": "t1_lju4wbp"
+    },
+    {
+      "id": "ljczn6v",
+      "body": "Building a startup without any experience at all is a huge risk a lot of people are not going to take. Personally, I’d prefer to work my ass up in a big tech corporation, save enough and then found my own startup. This is the safest strategy if you don’t have a family that can pay you the bill after colleges.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724325415,
+      "score": 5,
+      "link_id": "t3_1eygeq0",
+      "parent_id": "t3_1eygeq0"
+    },
+    {
+      "id": "ljcxwb4",
+      "body": "Il link tra early trauma e grandiose narcissism è ancora in discussione: https://www.sciencedirect.com/science/article/abs/pii/S0145213422000643\n\nDal tuo commento sembra invece che ci sia sempre una diretta correlazione.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724324538,
+      "score": 25,
+      "link_id": "t3_1ey5bco",
+      "parent_id": "t1_ljcwqwt"
+    },
+    {
+      "id": "ljcpvwn",
+      "body": "La parola discoteca non è nel tuo vocabolario a quanto pare…",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724319827,
+      "score": 1,
+      "link_id": "t3_1eye9fb",
+      "parent_id": "t1_ljcmxkk"
+    },
+    {
+      "id": "likl240",
+      "body": "In un’epoca dove qualsiasi persona è sui social 2/3 ore al giorno, vedo solo come positivo il fatto che un TG nazionale utilizzi fonti prese dai social. In questo modo le persone lo vedono come qualcosa di familiare e svecchiato…\nPoi come dicevano in altri commenti, ti aspetti che per una notizia simile paghino qualcuno per andare sul posto?\nRispondo anche al tuo commento “ma dovrebbero mettere foto ufficiali delle autorità croate”, secondo te un paese che campa con il turismo mette a disposizione delle foto dove il mare è tutto tranne che invitante?",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723906161,
+      "score": 2,
+      "link_id": "t3_1euhcr6",
+      "parent_id": "t3_1euhcr6"
+    },
+    {
+      "id": "likk4wc",
+      "body": "Poi giocando troppo sei diventato brutto?",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723905831,
+      "score": 2,
+      "link_id": "t3_1eufoso",
+      "parent_id": "t1_lijwh72"
+    },
+    {
+      "id": "lia8y4i",
+      "body": "get a real job",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1723748227,
+      "score": -1,
+      "link_id": "t3_1et36ky",
+      "parent_id": "t3_1et36ky"
+    },
+    {
+      "id": "li7ko4a",
+      "body": "I’m applying to jobs in Berlin and I’m having hard time… is it because of the lack of german knowledge on my side or because the market there is just over saturated?",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723711227,
+      "score": 1,
+      "link_id": "t3_1esfaw6",
+      "parent_id": "t1_li7jh8p"
+    },
+    {
+      "id": "li4b4bb",
+      "body": "then iOS, iphone 15 pro is bugged 🤷🏼‍♂️",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723662341,
+      "score": 1,
+      "link_id": "t3_1es5kii",
+      "parent_id": "t1_li43qqh"
+    },
+    {
+      "id": "li43bs4",
+      "body": "iOS or android?",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723659904,
+      "score": 1,
+      "link_id": "t3_1es5kii",
+      "parent_id": "t1_li40qjc"
+    },
+    {
+      "id": "li40op0",
+      "body": "is it only my phone or the game has for real no sound? who thought that having no music in a game that represents a genre was a good idea?",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723659078,
+      "score": 1,
+      "link_id": "t3_1es5kii",
+      "parent_id": "t3_1es5kii"
+    },
+    {
+      "id": "li3v8do",
+      "body": "Hairdressers",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1723657381,
+      "score": 2,
+      "link_id": "t3_1es6rri",
+      "parent_id": "t3_1es6rri"
+    },
+    {
+      "id": "lhvwl97",
+      "body": "Just english",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1723542610,
+      "score": 1,
+      "link_id": "t3_1eqd8ar",
+      "parent_id": "t1_lhvvy78"
+    },
+    {
+      "id": "lhvvj0g",
+      "body": "Indiscreta sì, maleducata ho i miei dubbi.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723541914,
+      "score": 4,
+      "link_id": "t3_1er10wx",
+      "parent_id": "t1_lhvvdw5"
+    },
+    {
+      "id": "lhvuvx5",
+      "body": "La mia tattica è sempre esagerare. “Hai la ragazza?”, rispondo “le ragazze semmai” e il 99% delle volte finisce in caciara e non devo rivelare nulla di personale…",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723541481,
+      "score": 202,
+      "link_id": "t3_1er10wx",
+      "parent_id": "t3_1er10wx"
+    },
+    {
+      "id": "lhvuos3",
+      "body": "Rispondere in modo educato “è una questione privata” oppure far finta di aver sentito è così difficile?\nTra l’altro a ogni risposta che hai dato sono sicuro che qualcuno continuerebbe comunque la discussione e saresti punto e da capo…",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723541349,
+      "score": 11,
+      "link_id": "t3_1er10wx",
+      "parent_id": "t1_lhvsyoa"
+    },
+    {
+      "id": "lhs1y4u",
+      "body": "You described correctly, I lived it differently since I could meet other artists that I know but I danced from 1/2 to 10 and had fun…",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723484903,
+      "score": 2,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t1_lhs10li"
+    },
+    {
+      "id": "lhrw8gt",
+      "body": "Thanks man! I’m planning to relocate to Poland and work from there remotely for the future.",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1723483144,
+      "score": 1,
+      "link_id": "t3_1eqd8ar",
+      "parent_id": "t1_lhrhszp"
+    },
+    {
+      "id": "lhrw1h8",
+      "body": "I have nothing against tourists, but the day after I went to Tresor and there were lots of people that clearly didn’t fit the vibe and/or never been to a club with that type of music. If you are passionate enough and you act respectfully you are more than welcomed.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723483084,
+      "score": 1,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t1_lhru8ht"
+    },
+    {
+      "id": "lhrf2dd",
+      "body": "I 100% agree, I got a Masters in CS ETH and I am still struggling to even get the first interview…",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1723477739,
+      "score": 3,
+      "link_id": "t3_1eqd8ar",
+      "parent_id": "t1_lhqorft"
+    },
+    {
+      "id": "lhrcr78",
+      "body": "I miei sono arrivati a Milano ormai quasi 40 anni fa, si sono integrati talmente tanto che hanno perso l’accento dei loro dialetti. Io non ho mai avuto nessun problema a integrarmi e mi sono sempre sentito milanese, ma ora lavoro all’estero e torno al massimo una volta al mese a casa.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723477004,
+      "score": 3,
+      "link_id": "t3_1eqdh6p",
+      "parent_id": "t3_1eqdh6p"
+    },
+    {
+      "id": "lhq5y2h",
+      "body": "Hard techno for real? Maybe mad dog went a bit hard techno but Anime, Ophidian and the artists that played later didn’t play any hard techno. I haven’t been to the second room but yeah I get the sound system there wasn’t the best, even though it was meant to give a spot to emerging djs. Also, I haven’t seen many tourists, most people chilling outside were speaking german. Anyway, there’s always room to do better, thanks for the feedback!",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723460127,
+      "score": 5,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t1_lhq5ih4"
+    },
+    {
+      "id": "lhq516o",
+      "body": "Can you elaborate on why it was awful?",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723459611,
+      "score": 4,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t3_1eqabz5"
+    },
+    {
+      "id": "lhkozcd",
+      "body": "Ho studiato molto l’argomento perché temevo di avere tratti narcisistici. Il punto è che per come la vedo io peccare un minimo in arroganza è meglio di avere 0 confidence nelle proprie capacità. Le persone che ti stanno attorno annusano subito in quale estremo stai. Inoltre, l’invidia è un’emozione naturale che tutti gli umani hanno, ma c’è chi la sfrutta per migliorarsi e chi invece cerca di sabotare gli altri a causa di essa.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723375901,
+      "score": 2,
+      "link_id": "t3_1epf0pa",
+      "parent_id": "t3_1epf0pa"
+    },
+    {
+      "id": "lhko82u",
+      "body": "I can’t stand the idea that you can self learn machine learning with you tube videos. The math behind it is taught in a graduate level program. Either you put the effort to enroll in a university and pass or at the very least use the same books and resources…",
+      "author": "Deet98",
+      "subreddit": "MachineLearning",
+      "created_utc": 1723375469,
+      "score": 3,
+      "link_id": "t3_1eph0z7",
+      "parent_id": "t3_1eph0z7"
+    },
+    {
+      "id": "lhhj7fq",
+      "body": "Noisekick - Ik Haat Trance",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723320792,
+      "score": 2,
+      "link_id": "t3_1eoy338",
+      "parent_id": "t1_lhh1z9w"
+    },
+    {
+      "id": "lha01ks",
+      "body": "Ok but if the kick is already stereo it makes the mixing even more difficult. I only use this technique on Kick FXs if I feel like the little break needs some additional filling. Thanks for explaining though :)",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723212401,
+      "score": 1,
+      "link_id": "t3_1enx0z2",
+      "parent_id": "t1_lh9zpbb"
+    },
+    {
+      "id": "lh9rvyv",
+      "body": "I can understand the share language, but shared culture and understanding is not something I would consider. There are german speakers that are lazy and unproductive as well…",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723209522,
+      "score": 28,
+      "link_id": "t3_1enykox",
+      "parent_id": "t1_lh9qrfw"
+    },
+    {
+      "id": "lh9jjly",
+      "body": "In my opinion the kick is missing the real low end, it sounds boomy in the low mids and also stereo in that area. I’d remove the unnecessary stereo and fix the low end. Also some parts of the vocals are not on beat which is barely unnoticeable but when you apply sidechain you can tell.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723206248,
+      "score": 2,
+      "link_id": "t3_1enx0z2",
+      "parent_id": "t3_1enx0z2"
+    },
+    {
+      "id": "lh9j6u4",
+      "body": "Could you expand on the white noise sidechain effect, never heard of it before…",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723206098,
+      "score": 2,
+      "link_id": "t3_1enx0z2",
+      "parent_id": "t1_lh9h8b2"
+    },
+    {
+      "id": "lgukeew",
+      "body": "Thanks to people like you that support us 🫶🏻\nI’ll be there, it will be a great night :)",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722983922,
+      "score": 1,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgu8ack"
+    },
+    {
+      "id": "lgu3fzr",
+      "body": "Yes, I fully agree. Hopefully we can attract more people and organize more parties with this sound.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722978291,
+      "score": 1,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgs7jcx"
+    },
+    {
+      "id": "lgu34xs",
+      "body": "it’s underground though… we have small parties with this sound where almost everyone knows each other in Switzerland. Same in Berlin, it’s a bigger community but still underground in a way.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722978195,
+      "score": 2,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgu20mu"
+    },
+    {
+      "id": "lgropdy",
+      "body": "Sure! do you have specific questions? I’ve been following since the birth all the mentioned labels (there are more but less famous) and I released on them, which means that I know their owners personally.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722951027,
+      "score": 1,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgrkr1c"
+    },
+    {
+      "id": "lgrj2yq",
+      "body": "No",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1722948946,
+      "score": 1,
+      "link_id": "t3_1el7o5y",
+      "parent_id": "t1_lgrhq9h"
+    },
+    {
+      "id": "lgr7sfs",
+      "body": "Especially in Europe, candidates that know the local language are prioritized. I didn’t have work experience 6 months ago and no one was interviewing me outside of Switzerland and Italy. I found an internship in robotics where I had the chance to apply some data science and now I have several startups in germany and switzerland interested in getting to know me. As others said take what you get, you will find the job you love while you learn unrelated stuff.",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1722944001,
+      "score": 3,
+      "link_id": "t3_1el7o5y",
+      "parent_id": "t3_1el7o5y"
+    },
+    {
+      "id": "lgqrze8",
+      "body": "The fact that most of these productions cannot be categorized into the historical subgenres. It’s always a blend of industrial, frenchcore, uptempo and old school. Moreover, these tracks are not designed to be played at festivals and they rely more on melodies and synths that are not used in the mainstream wave. I agree alternative isn’t the best word to describe it but you get the idea :)",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722934573,
+      "score": 5,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgqrqju"
+    },
+    {
+      "id": "lgmd4tp",
+      "body": "I agree, I also would add that either you render the result and shape the rumble yourself (this is what I do now for hardcore kicks) or you use shaperbox to design the side chaining. It’s way better than trying to do it with the compressor, since it’s difficult to set and there is no proper visualization…",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1722871761,
+      "score": 1,
+      "link_id": "t3_1ekh9nk",
+      "parent_id": "t1_lglu26a"
+    },
+    {
+      "id": "lgle128",
+      "body": "This will get you not that far. You need at least two layers, one for the low end and one for high end where you play with distortion, fxs or percussions. I also would use a clipper to get a really dirty sound rather than compressor, but this is what I did when I was producing industrial hard techno. A rumble for other types of techno requires less processing since it’s not necessarily the main element of the track.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1722858626,
+      "score": 0,
+      "link_id": "t3_1ekh9nk",
+      "parent_id": "t1_lgl9pcn"
+    },
+    {
+      "id": "lg7lz4e",
+      "body": "As a software engineer and producer, while reading this post I lost the ability to be both.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1722636557,
+      "score": 14,
+      "link_id": "t3_1eif5v7",
+      "parent_id": "t3_1eif5v7"
+    },
+    {
+      "id": "lg0pf88",
+      "body": "You have to push with your music regardless of other people’s approval. Making music is about feeling the natural instinct of expressing themselves creatively. Don’t get me wrong, it’s a good feeling when your work is appreciated, but when it doesn’t, it’s just how the game works and it doesn’t mean you should stop.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722538387,
+      "score": 11,
+      "link_id": "t3_1ehnnoo",
+      "parent_id": "t3_1ehnnoo"
+    },
+    {
+      "id": "lfgtcak",
+      "body": "Quite simplistic idea of deep learning. Understanding how the ELBO works in Variational Autoencoders requires also a bit of knowledge of Information Theory for example. If we even go into Geometric Deep Learning then you need to know groups and graphs to name only few topics.",
+      "author": "Deet98",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1722248318,
+      "score": -2,
+      "link_id": "t3_1eendj5",
+      "parent_id": "t1_lffjh1e"
+    },
+    {
+      "id": "lfgsu21",
+      "body": "As many terror and industrial artists as possible. Detest, Ophidian, Drokz, Tripped and Akira to name few.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722247987,
+      "score": 1,
+      "link_id": "t3_1eeduym",
+      "parent_id": "t3_1eeduym"
+    },
+    {
+      "id": "leixjoi",
+      "body": "Vabbè continua con le tue convinzioni che non rispecchiano minimamente come funziona la società. Linki delle pagine cretine in cui uomini fanno cose stupide e da qui deduci che le donne ragionino in maniera più logica.   \nRiconosco che il mio discorso è poco strutturato e confuso, dato anche dal fatto che non voglio perdere tempo a quotare ogni frase presa fuori contesto e a buttarci dentro fonti targettate.  \n\nUltima cosa, i canoni estetici sono gli stessi da secoli perché una donna con una bella pelle, seno grande e curve indica all’uomo prosperità. Idem l’uomo muscoloso è l’altro canone che esiste dai tempi degli antichi greci. Se vuoi confutare anche questo continua pure non ti darò più corda.   \nNon volevo indirizzare il discorso sul sesso, ma farti capire che una donna o un uomo attraente hanno vita più facile anche nella vita lavorativa.  \nDa qui mi ricollego al fatto che ciò non implica che non ci siano donne di non bellissimo aspetto che hanno carriere invidiabili. Cosa su cui tu insistevi visto che due meme sui peli di una parlamentare ti hanno fatto scattare.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721732582,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_legufwh"
+    },
+    {
+      "id": "lefstfe",
+      "body": "Vabbè stai cambiando argomentazione ogni 3x2. Prima parlavamo dei canoni estetici nei due sessi e di come influiscono sulle relazioni o su come vengono trattati nella società. Ora dici che non è più l’argomento del discorso. La verità è che come molti altri vuoi rendere uguali uomini e donne, ed è per me sbagliato. Da qui deriva la mia considerazione che i due sessi hanno problemi diversi e nessuno qui sta sminuendo una delle due parti.  \n\nIn più sulla depressione intendevo dire che se ho un amico o un’amica che iniziano ad avere tali problemi, molto probabilmente me ne accorgerei vedendo in loro un cambiamento. Tra l’altro su quell’argomento mi hai dato ragione sul fatto che l’uomo tende a non prendere sul serio problemi alla sua psiche in quanto verrebbe visto come debole.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721680518,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_lefqpqd"
+    },
+    {
+      "id": "lef0zpq",
+      "body": "There’s no tutorial out there that can really help you. You just need to try many times until you get the sound you want. I used to follow tutorials and never had good results, now that I made my own way everyone says that my kicks are unique.   \nIf your aim is to release, the second option is the best.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1721671706,
+      "score": 2,
+      "link_id": "t3_1e9eglx",
+      "parent_id": "t3_1e9eglx"
+    },
+    {
+      "id": "leerk1p",
+      "body": "Ma che cristo di sito mi hai linkato per la roba dei single ahaha quando nel primo link ho trovato research gate ci avevo quasi creduto che sapessi un minimo informarti.\nComunque continua pure a darmi dell’incel o tutte le minchiate che ti vengono in mente. Non ho mai avuto problemi con l’altro sesso proprio perché conosco le differenze e agisco di conseguenza.\nL’unico che qui sta continuando a insultare e a ignorare che le coppie vengono formate (nella maggior parte dei casi) da persone che sono fisicamente e mentalmente simili sei tu. \nIn ogni caso la convinzione che le ragazze che hanno peli, non hanno tette e altre cavolate che hai scritto forse esiste in qualche ambiente retrogrado, ma non è la normalità. Ho vissuto in diversi stati europei e ho incontrato manager donne che del loro aspetto se ne fregavano molto più della commessa del supermercato.  \nComunque per oggi mi sono stufato del solito discorso vittimista, in base al sesso hai un set di problemi che l’altro sesso non vorrebbe avere.  \nSminuire un sesso in base a questo è da persone con poca onestà intellettuale.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721668742,
+      "score": 0,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_leeizrq"
+    },
+    {
+      "id": "ledspm8",
+      "body": "Ridicolo che stai facendo tutto sto casino per i peli sulle gambe e per il trucco. \nIo sono un laureato STEM e guardo i dati, non ascolto Giuseppa e Totò in strada o guardo i meme per informarmi. \nStatistiche dicono che, in qualsiasi parte del mondo, la maggior parte dei single è di sesso maschile.   \nRagazzi con problemi di obesità, depressione e altri mille problemi sono fantasmi per la società. Mentre una ragazza con gli stessi problemi viene incoraggiata e supportata.  \nSei davvero sicuro che una ragazza trasandata non riesca a trovare un partner? Lo trova eccome, ma si deve accontentare di qualcuno del suo livello.  \nI canoni di bellezza sono sempre gli stessi da secoli, se a te o ad altri non vanno bene chi se ne frega… attirerai qualcuno che la pensa come te. Agli uomini non piacciono le ragazze che hanno le caratteristiche che hai detto, quindi cosa facciamo? Li obblighiamo a cambiare idea?",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721657297,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_ledqi4a"
+    },
+    {
+      "id": "ledn6l0",
+      "body": "Ignorare completamente come funzionano le dinamiche uomo donna nella società attuale ti rende completamente delusional. \nSe uno/una non si cura verrà trattato/a nel modo in cui descrivi. Non c’entra nulla il sesso in quel contesto.\nQuello che intendo dire è che uomini che non ricevono molte attenzioni in quanto non hanno molto da offrire andrebbero con qualsiasi tipa. Mentre per una ragazza, truccarsi e sapersi comportare la rende già attraente agli occhi della maggior parte degli uomini. Un esempio sono le influencers che non hanno nulla da dire ma hanno comunque una schiera di uomini che sbava per loro. Il contrario è molto più raro.\nPossiamo continuare a parlarne per ore, ma se abbiamo due visioni diverse di come funziona il mondo non serve a nulla questa discussione.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721655250,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_ledkpun"
+    },
+    {
+      "id": "ledh9ai",
+      "body": "Non possono permettersi? c’è qualche legge che impedisce di andare in giro struccate?\nSe una donna ambisce all’uomo con risorse e che è desiderato da molte altre donne, allora è ovvio che curi il proprio aspetto. \nLegge domanda offerta, ci sono tanti uomini che andrebbero con la prima che capita, mentre il contrario non avviene perché è la biologia che detta queste regole.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721652880,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_ledg5q4"
+    },
+    {
+      "id": "lede092",
+      "body": "Risposte davvero poco pensate. \nLe automobili e scarpe sono necessità per entrambi i sessi, mentre non mi risulta che la maggior parte degli uomini curi il proprio aspetto tanto quanto le donne.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721651479,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_led4hvu"
+    },
+    {
+      "id": "le6xk5b",
+      "body": "Cringe",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1721543345,
+      "score": 1,
+      "link_id": "t3_1e7txst",
+      "parent_id": "t1_le38nyf"
+    },
+    {
+      "id": "le1of42",
+      "body": "Thanks ChatGPT",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1721455798,
+      "score": 2,
+      "link_id": "t3_1e6z0fe",
+      "parent_id": "t1_ldwou0w"
+    },
+    {
+      "id": "ldreyqi",
+      "body": "What’s difficult about using grammar, punctuation and spelling rules we were taught in schools?   \nIt took me 2 times to figure out what OP was asking, and reddit or not, people writing like that look uneducated and lazy. \nYou can be all against this belief, but I’m 100% confident that having good texting habits will make you look more competent in any situation.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721305326,
+      "score": 0,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldr7kt6"
+    },
+    {
+      "id": "ldqf7fa",
+      "body": "Being informal is different than unstructured text. We value our time and we are not gonna help someone who doesn’t even put the effort. Anyway, nice that you are aware.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721283517,
+      "score": -2,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldqem9s"
+    },
+    {
+      "id": "ldqcxb2",
+      "body": "I see, but clear communication is the first thing the hirer notices.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721282126,
+      "score": 0,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldqc5rl"
+    },
+    {
+      "id": "ldqc0r0",
+      "body": "Especially when you are not able to use punctuation.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721281594,
+      "score": 1,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldq4xcl"
+    },
+    {
+      "id": "ldnquhr",
+      "body": "Italy 🇮🇹",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1721244937,
+      "score": 2,
+      "link_id": "t3_1e5ljp6",
+      "parent_id": "t3_1e5ljp6"
+    },
+    {
+      "id": "ld9oakt",
+      "body": "Text baddies",
+      "author": "Deet98",
+      "subreddit": "iphone",
+      "created_utc": 1721037135,
+      "score": 1,
+      "link_id": "t3_1e30rdm",
+      "parent_id": "t3_1e30rdm"
+    },
+    {
+      "id": "lbkwgh2",
+      "body": "If I could go back I’d go into Math or a heavy math CS degree. Engineering is cool but you learn some stuff that you probably will never use.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1720090640,
+      "score": 1,
+      "link_id": "t3_1dusrlv",
+      "parent_id": "t1_lbkoxye"
+    },
+    {
+      "id": "lbkncul",
+      "body": "That’s exactly what I did",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1720084515,
+      "score": 1,
+      "link_id": "t3_1dusrlv",
+      "parent_id": "t3_1dusrlv"
     }
   ]
 }

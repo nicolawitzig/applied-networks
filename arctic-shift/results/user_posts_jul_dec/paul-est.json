@@ -1,6 +1,73 @@
 {
   "username": "paul-est",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hhtxcv",
+      "title": "Now with the pc",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734618075,
+      "score": 220,
+      "num_comments": 31,
+      "selftext": "",
+      "url": "https://i.redd.it/kwo1sswfdt7e1.jpeg"
+    },
+    {
+      "id": "1h8ptcr",
+      "title": "Remove Screen Capture Restriction crashes Spotify",
+      "author": "paul-est",
+      "subreddit": "revancedapp",
+      "created_utc": 1733567632,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "Hi, first of all thanks fo the great work, using it on youtube for years without an issue! Unfortunately, on spotify I can use the \"Remove Screen Capture Restriction\" mod and it will install the app without problems, but when I run the app it will crash as soon as I want to interact with it. Has anyone experienced this or any clue what I'm doing wrong?",
+      "url": "https://www.reddit.com/r/revancedapp/comments/1h8ptcr/remove_screen_capture_restriction_crashes_spotify/"
+    },
+    {
+      "id": "1ffssoe",
+      "title": "Via broken for Keychron V3",
+      "author": "paul-est",
+      "subreddit": "Keychron",
+      "created_utc": 1726228339,
+      "score": 1,
+      "num_comments": 11,
+      "selftext": "Via doesn't work for me. I wanted to change mappings, but when I connect the keyboard (authorize device) it throws 282 errors and loads forever. I tried resetting the keyboard and loading the v3 ansi with knob json from the website - both didn't help. Now my keyboard is flashing in unicorn vomit and I can't do anything about it. Please help, it has always worked for me before.",
+      "url": "https://www.reddit.com/r/Keychron/comments/1ffssoe/via_broken_for_keychron_v3/"
+    },
+    {
+      "id": "1e5g186",
+      "title": "Web Interface Bug",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721216400,
+      "score": 1,
+      "num_comments": 11,
+      "selftext": "So when I go to mutual fund scanner and click on download xls I get a html that is saved with a .csv extension. I cannot believe that this is one of the highest rated online traders out there. Probably will switch to Degiro, this is insane",
+      "url": "https://www.reddit.com/r/interactivebrokers/comments/1e5g186/web_interface_bug/"
+    },
+    {
+      "id": "1e45hk3",
+      "title": "Soundbar Video Pass Through",
+      "author": "paul-est",
+      "subreddit": "Soundbars",
+      "created_utc": 1721075817,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "So I have a screen, a soundbar and two input devices... and I can't get it to work.\n\nI'm trying to connect my pc and Apple TV to my Canton DM 90.3 and my Aorus fv43u. I've got 3 hdmi cables that work with 4k 60hz when connected directly between pc/apple tv and display. I assumed I could just connect them both to the soundbar (hdmi input) and pass the video to the Aorus using the soundbars hdmi output. Is that not how it works? Or do you need arc for that?\n\nWhat do I get? Full hd video on the display and no audio output device on my pc... What?\n\nWhat works: Connecting my pc with one hdmi cable to the display and with one to one of the soundbar's hdmi in. But then I cant do that with the Apple TV bc it only has one output...\n\nPlease somebody explain this to me like I'm five?",
+      "url": "https://www.reddit.com/r/Soundbars/comments/1e45hk3/soundbar_video_pass_through/"
+    },
+    {
+      "id": "1dzr4cz",
+      "title": "Browser that synchronizes cookie deletion exceptions",
+      "author": "paul-est",
+      "subreddit": "browsers",
+      "created_utc": 1720602197,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "I'm trying out brave for the first time. I want to throw away cookies of most sites (i.e. \"forget me when I close this site\") but keep them for some web apps and stuff. Seems like the sites that I want to keep my cookies on are not synchronized. This is so dumb, is there any browser that can synchronize this setting? Firefox doesn't synchronize cookie exceptions either",
+      "url": "https://www.reddit.com/r/browsers/comments/1dzr4cz/browser_that_synchronizes_cookie_deletion/"
+    }
+  ],
   "comments": [
     {
       "id": "lirtw8z",
@@ -11,6 +78,396 @@
       "score": 2,
       "link_id": "t3_1euv9zf",
       "parent_id": "t3_1euv9zf"
+    },
+    {
+      "id": "m2v8ht0",
+      "body": "looked for it, but apparently it's not for sale any more. It was a still from [this video](https://www.vecteezy.com/video/21926388-top-view-of-winter-mountain-river-surrounded-by-trees-and-banks-of-snow-covered)",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734636365,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2ugp1d"
+    },
+    {
+      "id": "m2ut8ps",
+      "body": "Hey, sure",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734631473,
+      "score": 2,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2uisyh"
+    },
+    {
+      "id": "m2uae9p",
+      "body": "Hmm yeah but at that size theres no way it wouldnt look super messy inside...",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734624810,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2u6yi6"
+    },
+    {
+      "id": "m2u9vfg",
+      "body": "Diy, led strip with microcontroller, works great though and you can even have it sync to the screen content with hyperhdr",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734624643,
+      "score": 2,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2u7uik"
+    },
+    {
+      "id": "m2u3vg4",
+      "body": "jup, for some reason I have to plug in random stuff (charger, soldering iron, ...) more often than one would think",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734622696,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2u0ym7"
+    },
+    {
+      "id": "m2u3p0q",
+      "body": "Ah, I didn't know there was a white edition, that's amazing! Still mesh side panel unfortunately (front looks nicer imo) but I guess needed for the thermals.",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734622637,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2tzty2"
+    },
+    {
+      "id": "m2tyydo",
+      "body": "No, though I did try that with a samsung tv, but it was too annoying and too low pixel density for the distance that my desk can provide. It's an aorus fv43u. I only use about the lower 2/3 for work, the rest is only for gaming and movies \\^\\^",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734621075,
+      "score": 3,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2tyhrn"
+    },
+    {
+      "id": "m2tymcd",
+      "body": "It's an old Be Quiet Pure Rock with a Corsair LL120 slapped on for them rgbs. Also I ordered an extra pair of brackets to sandwich it with an arctic fan, really cool that they sell those brackets on their own",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734620961,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2twn96"
+    },
+    {
+      "id": "m2ty6w9",
+      "body": "Where I bought it (central europe) it's called Mars Gaming MC-View white. They're not really helping with the names \\^\\^",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734620816,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2ttx1k"
+    },
+    {
+      "id": "m2ty1mq",
+      "body": "Fractal Torrent Nano is itx, Lian Li A3 is mesh and I imo the wood looks a little out of place, Asus Ap201 is probably the next best, but it's actually even bigger (35 vs 32 liters) - not really worth it, since I don't think it looks better (it's probably better to build in though)",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734620764,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t1_m2tt2e5"
+    },
+    {
+      "id": "m2tr7ms",
+      "body": "Does anyone have a recommendation for a matx case that fits a proper air cooler but doesn't additionally leave room for two radiators and an r2d2? I like the current case a lot but it leaves so much space. I don't like the mesh side panel look though, so either one with good cable management and glass or one with a solid side panel. I wanted to go for the NR200 but it's juust not big enough for my components unfortunately",
+      "author": "paul-est",
+      "subreddit": "battlestations",
+      "created_utc": 1734618340,
+      "score": 1,
+      "link_id": "t3_1hhtxcv",
+      "parent_id": "t3_1hhtxcv"
+    },
+    {
+      "id": "m2hfiyw",
+      "body": "I ordered (or 'backed the kickstarter') from Switzerland on 19.11, received shipping notice on 2.12., package got into customs on 13.12. Shipping cost HK234, swiss customs will add another 7.7% I guess. So probably even if you are in the eu, better calculate with a month of total time",
+      "author": "paul-est",
+      "subreddit": "Lofree",
+      "created_utc": 1734438048,
+      "score": 1,
+      "link_id": "t3_1fd0ko8",
+      "parent_id": "t3_1fd0ko8"
+    },
+    {
+      "id": "m0xn75p",
+      "body": "can't find it :/",
+      "author": "paul-est",
+      "subreddit": "revancedapp",
+      "created_utc": 1733607849,
+      "score": 1,
+      "link_id": "t3_1h8ptcr",
+      "parent_id": "t1_m0x750l"
+    },
+    {
+      "id": "m0x17dh",
+      "body": "Thanks for the info! Is there a git issue or some other thread that I could follow?",
+      "author": "paul-est",
+      "subreddit": "revancedapp",
+      "created_utc": 1733600617,
+      "score": 1,
+      "link_id": "t3_1h8ptcr",
+      "parent_id": "t1_m0wdlqi"
+    },
+    {
+      "id": "lzw894e",
+      "body": "Same issue, has anyone found a fix? Gets really annoying...",
+      "author": "paul-est",
+      "subreddit": "gigabyte",
+      "created_utc": 1733072788,
+      "score": 1,
+      "link_id": "t3_vzn66g",
+      "parent_id": "t3_vzn66g"
+    },
+    {
+      "id": "ln9irrx",
+      "body": "By pure luck just found out that it actually works in Vivaldi Browser. The process of creating the exception is still kind of tedius: Press shield icon left of url > Manage Default Settings > Scroll down to Website Permissions > Add Global Permission Exception with the plus icon > Paste url > Scroll down on left pane to cookies > Set to allow.  \nBut once you've done that for all your 'trusted' sites it syncs - at least to all desktop devices. On mobile the setting doesn't seem to be supported yet",
+      "author": "paul-est",
+      "subreddit": "browsers",
+      "created_utc": 1726415593,
+      "score": 1,
+      "link_id": "t3_1dzr4cz",
+      "parent_id": "t3_1dzr4cz"
+    },
+    {
+      "id": "ln83xgw",
+      "body": "I'm pretty sure I found the problem now, it's Signal RGB - I use it to control the rgb on the rest of my system and forgot that it also tries to integrate with keychron keyboards although it doesn't work for me. Simply closing the software or even just disabling the keyboard in the Signal RGB settings prevents the interference.",
+      "author": "paul-est",
+      "subreddit": "Keychron",
+      "created_utc": 1726395616,
+      "score": 1,
+      "link_id": "t3_1ffssoe",
+      "parent_id": "t3_1ffssoe"
+    },
+    {
+      "id": "lmzfylm",
+      "body": "I know this sounds incredibly stupid, but a restart of my pc just fixed it. Don't know why I hadn't tried that before. Thank you for the suggestions!",
+      "author": "paul-est",
+      "subreddit": "Keychron",
+      "created_utc": 1726259168,
+      "score": 2,
+      "link_id": "t3_1ffssoe",
+      "parent_id": "t1_lmzf4d3"
+    },
+    {
+      "id": "lmzf83x",
+      "body": "I guess not applicable, since I'm on windows? Should've included that",
+      "author": "paul-est",
+      "subreddit": "Keychron",
+      "created_utc": 1726258923,
+      "score": 1,
+      "link_id": "t3_1ffssoe",
+      "parent_id": "t1_lmz9yjm"
+    },
+    {
+      "id": "lmzesb9",
+      "body": "Windows 11, chrome",
+      "author": "paul-est",
+      "subreddit": "Keychron",
+      "created_utc": 1726258780,
+      "score": 1,
+      "link_id": "t3_1ffssoe",
+      "parent_id": "t1_lmz86tv"
+    },
+    {
+      "id": "ldnh8o5",
+      "body": "Ok yeah not that much I'm mainly interested in finding etfs that align with some requirements for buy and hold. Thanks for the insights though",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721241848,
+      "score": 1,
+      "link_id": "t3_1e5g186",
+      "parent_id": "t1_ldnaqup"
+    },
+    {
+      "id": "ldmkzca",
+      "body": "What brokers would you recommend for nicer apis?",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721231609,
+      "score": 1,
+      "link_id": "t3_1e5g186",
+      "parent_id": "t1_ldm8eje"
+    },
+    {
+      "id": "ldmkga6",
+      "body": "Jup what a situation. I gave up on making the ibkr api work and instead scraped their products website. Then I did some fuzzy string matching with data from justetf. Not a perfect result but I do get a pretty nice list of etfs that way that include a lot of information, and like 80% seem to be matched up correctly. I feel like one could make money just by serving that list on a website but I guess that would be illegal since one doesn't own the data or smth \\^\\^",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721231440,
+      "score": 0,
+      "link_id": "t3_1e5g186",
+      "parent_id": "t1_ldm8eje"
+    },
+    {
+      "id": "ldm5vtv",
+      "body": "Yes, I'm currently setting up IB Gateway if that's enough legwork. The page you mention does not have ISINs so it's really hard to match up with information I care about. Any tips on that?",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721226662,
+      "score": 0,
+      "link_id": "t3_1e5g186",
+      "parent_id": "t1_ldm1vme"
+    },
+    {
+      "id": "ldlwwek",
+      "body": "I'm good enough with data such that I could filter my way through any .csv that just has all the info I need. Currently it seems to me that the only way to get that though is through the api, which is an unnecessary amount of work to set up. I'd be very grateful for easier sources of that 'flat list'",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721223469,
+      "score": 0,
+      "link_id": "t3_1e5g186",
+      "parent_id": "t1_ldlvc9l"
+    },
+    {
+      "id": "ldlrktt",
+      "body": "I've used it for a year and didn't have something like this. I just started using IBKR 10 minutes ago and get this. Also, how do you filter such that the download works? If I filter for more stuff I get \"Error 404\" inside my csv. Also, do you know any other way to get all the etfs that ibkr offers? Any api I could get the data from? Since the public list doesn't list isins it unfortunately doesn't help",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721221417,
+      "score": 0,
+      "link_id": "t3_1e5g186",
+      "parent_id": "t1_ldlpv6g"
+    },
+    {
+      "id": "ldlf661",
+      "body": "Hi, how did you solve this? Can you filter by broker on justetf? I can't find it",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721215953,
+      "score": 1,
+      "link_id": "t3_1cz1vda",
+      "parent_id": "t3_1cz1vda"
+    },
+    {
+      "id": "ldlf0my",
+      "body": "Hey, how did you find good ETFs in the end?",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721215874,
+      "score": 1,
+      "link_id": "t3_15mmopb",
+      "parent_id": "t3_15mmopb"
+    },
+    {
+      "id": "ldl8uem",
+      "body": "Damn I did not know that my display has an optical out - it looks just like a 3.5mm line ouot... you're good! :D Gonna try that",
+      "author": "paul-est",
+      "subreddit": "Soundbars",
+      "created_utc": 1721212533,
+      "score": 1,
+      "link_id": "t3_1e45hk3",
+      "parent_id": "t1_ldl7xlx"
+    },
+    {
+      "id": "ldl5137",
+      "body": "Yes I think you're right. I thought you only need ARC for \\`source > TV > Soundbar\\`, seems you also need it for \\`source > Soundbar > TV\\`. Also the Canton soundbar is a weird device, I could only set the 4k 30hz that are advertised by going into nvidia control panel and manually creating the resolution profile. I'll resell it I guess. Thanks for the help",
+      "author": "paul-est",
+      "subreddit": "Soundbars",
+      "created_utc": 1721210156,
+      "score": 1,
+      "link_id": "t3_1e45hk3",
+      "parent_id": "t1_ldl4po8"
+    },
+    {
+      "id": "ldhlca9",
+      "body": "Where do I set it to bitstream? And psss through? I don't think the dm 90.3 has any of those settings\n\n\nThe display doesn't have arc so I can't do that",
+      "author": "paul-est",
+      "subreddit": "Soundbars",
+      "created_utc": 1721154443,
+      "score": 1,
+      "link_id": "t3_1e45hk3",
+      "parent_id": "t1_ldctxlq"
+    },
+    {
+      "id": "ldb3eqw",
+      "body": "Thanks for answering, so weird might switch to another broker",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721059294,
+      "score": 1,
+      "link_id": "t3_kj22s6",
+      "parent_id": "t1_ldb1536"
+    },
+    {
+      "id": "ldag4p2",
+      "body": "Did you find any way to do this?",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721051291,
+      "score": 1,
+      "link_id": "t3_1ch3k3c",
+      "parent_id": "t3_1ch3k3c"
+    },
+    {
+      "id": "ldablq4",
+      "body": "Hey, I know i'm late but did you find a way to get all tradeable products? I'd need that too",
+      "author": "paul-est",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1721049480,
+      "score": 1,
+      "link_id": "t3_kj22s6",
+      "parent_id": "t3_kj22s6"
+    },
+    {
+      "id": "lcn0o1r",
+      "body": "Profiles isnt the way since I want to use them at tge same time and different browsers means I have to set up everything twice for all devices... so rather not. But seems like the dev gods only guve me those options",
+      "author": "paul-est",
+      "subreddit": "browsers",
+      "created_utc": 1720680598,
+      "score": 1,
+      "link_id": "t3_1dzr4cz",
+      "parent_id": "t1_lci3lz0"
+    },
+    {
+      "id": "lbg7mxx",
+      "body": "Hmm, have you ever been wakeboarding? You're going back and forth for a reason, if you'd fall you certainly don't want to swim kilometers back. So I'd think any cable wouldn't be large enough to be a problem",
+      "author": "paul-est",
+      "subreddit": "zurich",
+      "created_utc": 1720018191,
+      "score": 1,
+      "link_id": "t3_1dtq6n9",
+      "parent_id": "t1_lbfzoq1"
+    },
+    {
+      "id": "lbch6gi",
+      "body": "I honestly dont get why Zürich doesnt have a cable. The lake even has public transport boats. It would be so nice",
+      "author": "paul-est",
+      "subreddit": "zurich",
+      "created_utc": 1719954804,
+      "score": 2,
+      "link_id": "t3_1dtq6n9",
+      "parent_id": "t3_1dtq6n9"
+    },
+    {
+      "id": "lbcgxxy",
+      "body": "I honestly dont get why Zürich doesnt have a cable. The lake even has public transport boats. It would be so nice",
+      "author": "paul-est",
+      "subreddit": "zurich",
+      "created_utc": 1719954726,
+      "score": 3,
+      "link_id": "t3_1dtq6n9",
+      "parent_id": "t3_1dtq6n9"
+    },
+    {
+      "id": "lbcgpkj",
+      "body": "Noisy? Tf?",
+      "author": "paul-est",
+      "subreddit": "zurich",
+      "created_utc": 1719954649,
+      "score": 0,
+      "link_id": "t3_1dtq6n9",
+      "parent_id": "t1_lbc0qxd"
     }
   ]
 }

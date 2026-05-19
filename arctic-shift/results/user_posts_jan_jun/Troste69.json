@@ -11,6 +11,17 @@
       "num_comments": 8,
       "selftext": "I need to find a good intern for my team, I need to fish in the right pond.\nOther than paper posting in ML and CLA buildings, and the official MAVT job posting platform, where do you guys look for internships?\nPlease don’t tell me LinkedIn, I’m targeting specifically ETH (MAVT mostly) students and I have no time to sort a million cv from people with other backgrounds.",
       "url": "https://www.reddit.com/r/ethz/comments/1b5cw3a/where_do_mavt_students_look_for_internships/"
+    },
+    {
+      "id": "1babvp0",
+      "title": "Total beginner 8g after a month",
+      "author": "Troste69",
+      "subreddit": "PlantedTank",
+      "created_utc": 1709968182,
+      "score": 11,
+      "num_comments": 1,
+      "selftext": "Totally in love with my new aquarium! After studying for a few months, I set it up one month ago. During this month some plants exploded and I had to trim them, is it normal?\n\nI find that ph is a bit low (somewhere between 6 and 7), so I’m refraining to add shrimps for now.\nAn expert friend of mine told me that probably the soil prevents the pH to increase, so adding crushed coral or shells won’t have much effect.\n\nThe snail population also exploded, I don’t even know if and how they can grow healthy shells with such pH, but they seem happy and they clean up a lot.\n\nI experienced an algae bloom but after cutting the lighting time a bit they stopped growing, and the snails mow them.\n\nSome plants have leaves that melt, but other leaves thriving and growing, so I have no idea how happy they actually are.\n\nI think everything is going well but I don’t understand how delicate this equilibrium is, and if everything will fall apart once I add shrimps and a couple of fish.",
+      "url": "https://i.redd.it/d82fuyybd9nc1.jpeg"
     }
   ],
   "comments": [
@@ -43,6 +54,156 @@
       "score": 1,
       "link_id": "t3_1b5cw3a",
       "parent_id": "t1_kt4kv3b"
+    },
+    {
+      "id": "l292hx5",
+      "body": "This whole situation was handled like shit from the beginning.\nVerbal agreements 🚩\nBusiness with family 🚩\nNegotiating the netto 🚩\nI’m sorry about your situation but you just postponed a whole bunch of issues until it exploded in your face.\nI don’t think there is much to do other than learning how to not get fucked next time",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1714661197,
+      "score": 3,
+      "link_id": "t3_1cibl98",
+      "parent_id": "t3_1cibl98"
+    },
+    {
+      "id": "kwlpwua",
+      "body": "He literally went on to produce a propaganda interview for a dictator",
+      "author": "Troste69",
+      "subreddit": "Anarcho_Capitalism",
+      "created_utc": 1711430751,
+      "score": 3,
+      "link_id": "t3_1bnv3zt",
+      "parent_id": "t3_1bnv3zt"
+    },
+    {
+      "id": "kusy8ce",
+      "body": "Connect the sound transducer to the 5V GND and AnIn on the arduino, get the arduino to read the sound value and print it on serial monitor, so you know that works.\nGet a led, wire it to a PWM pin and make it dim.\n\nNow in the code connect the two things, make the led dim based on the signal from the sound transducer.\n\nYou might even be able to use the AnOut of the transducer as a voltage source for the led, then you probably won’t even need an arduino.\n\nOne more thing, do you mean that the led is RGB and you want to change color with the sound? Or is it a single color and you want to change the light intensity with the sound?",
+      "author": "Troste69",
+      "subreddit": "arduino",
+      "created_utc": 1710401274,
+      "score": 1,
+      "link_id": "t3_1bdxkzw",
+      "parent_id": "t3_1bdxkzw"
+    },
+    {
+      "id": "ku78e4u",
+      "body": "To be fair, if you start working early, in 42 years you give X amount of money to AHV.\nIf you retire at 58 or 68 it means that to make the system sustainable one has to receive a lower amount of money, for a longer period of time.\nI’m basically okay with the fact that you can retire at an earlier age, but then with a lower monthly sum",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1710064279,
+      "score": 4,
+      "link_id": "t3_1bb5s9b",
+      "parent_id": "t3_1bb5s9b"
+    },
+    {
+      "id": "ku57v6n",
+      "body": "Thank you for the great inputs, I’ll try with the corals with the “can’t hurt” mindset!\nYea it’s my first tank I made a mistake with the lack of sand and with the soil depth distribution, it’s not very 3D, but I’m also happy with the result so thanks for the compliment 😃",
+      "author": "Troste69",
+      "subreddit": "PlantedTank",
+      "created_utc": 1710026693,
+      "score": 2,
+      "link_id": "t3_1babvp0",
+      "parent_id": "t1_ku3v8af"
+    },
+    {
+      "id": "ku57cf7",
+      "body": "To me “being rich” means “being able to make decisions as if money didn’t matter”.\nSo there are people that make decisions as if money didn’t matter, even though they aren’t able to because they can’t afford it, but then they don’t fall in this definition.\nI’m more talking about not having to care about the bill if you want to send your kids to some private university abroad, or book a month vacation on the other side of the world and not feeling the economic pressure, or having any unexpected big expense and pay cash for it without a sweat.\nAt this level of wealth, having 20M or 20B is the same. But below some serious millions, you are not rich",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1710026478,
+      "score": 13,
+      "link_id": "t3_1bar5o9",
+      "parent_id": "t3_1bar5o9"
+    },
+    {
+      "id": "ktq9ei5",
+      "body": "I’ve never had a cleaning crew, but that’s also because I was living in small apartments.\nIf I had a 5 room apartment I’d probably hire someone because it’s a hard and long job",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1709790783,
+      "score": 1,
+      "link_id": "t3_1b850jm",
+      "parent_id": "t3_1b850jm"
+    },
+    {
+      "id": "ksv4pxq",
+      "body": "Why do I have the feeling your cousin wants your D",
+      "author": "Troste69",
+      "subreddit": "UnethicalLifeProTips",
+      "created_utc": 1709307770,
+      "score": 1,
+      "link_id": "t3_1b3tpc2",
+      "parent_id": "t3_1b3tpc2"
+    },
+    {
+      "id": "kjxf77o",
+      "body": "400 bucks of Costs in home country? Where you go 2x per year? How do you spend 5K for a couple of weeks of holiday?\nExtra room for home office? Can’t you work from ine of your 4 rooms and save that?",
+      "author": "Troste69",
+      "subreddit": "FrugalSwitzerland",
+      "created_utc": 1706431291,
+      "score": 1,
+      "link_id": "t3_1ackk0e",
+      "parent_id": "t3_1ackk0e"
+    },
+    {
+      "id": "kjgstyg",
+      "body": "Thank you for the super useful comment, I contacted the ombudsman e got reason!",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1706161804,
+      "score": 1,
+      "link_id": "t3_18klwb1",
+      "parent_id": "t1_kdrzgd7"
+    },
+    {
+      "id": "kjgsnk4",
+      "body": "Thanks but the one from this insurance is not public. When I asked to see such list they didn’t answer lol",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1706161708,
+      "score": 1,
+      "link_id": "t3_18klwb1",
+      "parent_id": "t1_kdsgbt6"
+    },
+    {
+      "id": "kjgsjpg",
+      "body": "Actually I won now. They count on people giving up to make money. Never let them walk on you",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1706161649,
+      "score": 2,
+      "link_id": "t3_18klwb1",
+      "parent_id": "t1_kduu4w7"
+    },
+    {
+      "id": "kjgserg",
+      "body": "EXACTLY. SINCE ITS NOT RECOMMENDED FOR ME ITS NOT COVERED BY BASIC INSURANCE. HENCE AND THEREFORE IT MUST BE COVERED BY COMPLEMENTARY. How fucking hard is it to understand? In fact after getting a lawyer involved they agreed with me",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1706161573,
+      "score": 1,
+      "link_id": "t3_18klwb1",
+      "parent_id": "t1_kdv1jiv"
+    },
+    {
+      "id": "kjgs513",
+      "body": "I hope you fuck right off",
+      "author": "Troste69",
+      "subreddit": "Switzerland",
+      "created_utc": 1706161427,
+      "score": 1,
+      "link_id": "t3_18klwb1",
+      "parent_id": "t1_kdv25gt"
+    },
+    {
+      "id": "kg3n5mw",
+      "body": "Se hai un disturbo della sudorazione potrebbe anche essere di carattere medico.\nLa sudorazione è un meccanismo del corpo per dissipare calore, se sudi tanto vuol dire che fatichi a dissipare e devi vestirti meno.",
+      "author": "Troste69",
+      "subreddit": "TrekkingItaly",
+      "created_utc": 1704269274,
+      "score": 1,
+      "link_id": "t3_18wzygh",
+      "parent_id": "t3_18wzygh"
     }
   ]
 }

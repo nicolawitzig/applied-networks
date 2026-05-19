@@ -1,6 +1,95 @@
 {
   "username": "Hungry-Finding2360",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1djwte0",
+      "title": "[Q] [R] Bayesian Nonparametrics Resources",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1718838355,
+      "score": 6,
+      "num_comments": 2,
+      "selftext": "Hey everyone,  \n  \nI'm currently working on my graduate thesis about Bayesian Nonparametrics and I'm in need of resources that balance both theory and practical applications, particularly in machine learning. I'm still getting a grip on the theoretical aspects, so I’m looking for something that’s accessible but thorough.  \n  \nI have already finished the first introductory chapter as well as a second chapter on the theory of DPMMs, but would like to include an application as well. I am still figuring out the structure of the thesis so I'm not sure what chapter should naturally be the next.  \n  \nIf anyone has self-studied Bayesian Nonparametrics or used it in projects, I’d love to hear your recommendations for:  \n  \n1. Books or papers that provide a good mix of theory and practical examples.  \n2. Case studies or examples of Bayesian Nonparametrics applied in machine learning.  \n3. Tutorials that include hands-on coding.  \n4. Any personal experiences or insights you might have that could help, especially if you have worked with such methods?  \n  \nThanks in advance.",
+      "url": "https://www.reddit.com/r/statistics/comments/1djwte0/q_r_bayesian_nonparametrics_resources/"
+    },
+    {
+      "id": "1djwql7",
+      "title": "Resources on Bayesian Nonparametrics ",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1718838145,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/statistics/comments/1djwql7/resources_on_bayesian_nonparametrics/"
+    },
+    {
+      "id": "1d396gv",
+      "title": "Μαμαδό-vloggers",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716979477,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Τι γίνεται ρε παιδιά-καινούριο είναι αυτό με όλες τις \"μανούλες\" που εκθέτουν τα ανήλικα παιδιά τους στο youtube για λίγο clout; Παλαιότερα ήταν 2-3 στην ελλάδα αλλά πια κάθε κοπέλα της διπλανής πόρτας ανοίγει κανάλι και μοστράρει τα μούλικα της. ",
+      "url": "https://www.reddit.com/r/greece/comments/1d396gv/μαμαδόvloggers/"
+    },
+    {
+      "id": "1cyfuut",
+      "title": "Υποτροφίες για μεταπτυχιακό από ιδρύματα - Συνέντευξη",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716424275,
+      "score": 4,
+      "num_comments": 3,
+      "selftext": "Έχει κάποιος εμπειρία από συνεντέυξεις για υποτροφία μεταπτυχιακού από ελληνικά ιδρύματα; Αναφέρομαι π.χ στο Μποδοσάκη/Λάτση κλπ και όχι στο ΙΚΥ. Ψάχνουν να ακούσουν κάτι συγκεκριμένο, ή είναι απλά για να σε \"κόψουν\"; ",
+      "url": "https://www.reddit.com/r/greece/comments/1cyfuut/υποτροφίες_για_μεταπτυχιακό_από_ιδρύματα/"
+    },
+    {
+      "id": "1cxx8pw",
+      "title": "Υποτροφίες Ιδρυμάτων για μεταπτυχιακά - Συνεντεύξεις",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716374772,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/greece/comments/1cxx8pw/υποτροφίες_ιδρυμάτων_για_μεταπτυχιακά_συνεντεύξεις/"
+    },
+    {
+      "id": "1b91zcc",
+      "title": "Estimating mixture model group proportions by minimization of KL divergence",
+      "author": "Hungry-Finding2360",
+      "subreddit": "AskStatistics",
+      "created_utc": 1709836497,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": " Hi everyone,\n\nI'm working on a project where I need to minimize the relative entropy (Kullback-Leibler divergence) between an empirical distribution derived from synthetic data and a theoretical distribution determined by a set of parameters (group proportions in a mixture model). The goal is to estimate the group proportions that best match the observed data. This is a constrained optimization problem, as the proportions sum to 1 and each proportion must be within \\[0, 1\\]. The number of groups in my specific set up is 12, but could be larger as well.\n\nI've been using Python for this task, specifically the minimize function from scipy.optimize with the SLSQP method. However, I'm facing issues with properly handling the constraints and ensuring that the solution respects the probabilistic nature of the proportions. Some optimization runs result in one or more proportions being pushed to the boundary values (0 or 1), which is suboptimal and potentially indicative of not exploring the solution space effectively. By the way, I have already implemented EM and have got satisfactory results with that (as expected), but the nature of my project requires me to explore more methods.\n\nI'm looking for advice on alternative optimization methods or techniques that could be more suitable for this kind of problem, especially those that can handle the simplex constraint (proportions summing to 1) more naturally or provide a more robust exploration of the solution space. Any suggestions or insights into handling this type of optimization problem would be greatly appreciated!\n\nThank you!",
+      "url": "https://www.reddit.com/r/AskStatistics/comments/1b91zcc/estimating_mixture_model_group_proportions_by/"
+    },
+    {
+      "id": "1b91xs9",
+      "title": "[Q] [S] Estimating mixture model group proportions by minimization of KL divergence",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1709836393,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/statistics/comments/1b91xs9/q_s_estimating_mixture_model_group_proportions_by/"
+    },
+    {
+      "id": "1b44dic",
+      "title": "ETH Zurich - Data Science / Statistics MSc",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709324406,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Has anyone heard back from ETHZ, specifically DS or Statistics? I was hoping for an email today (had a strange feeling...) but I guess we have to wait until Monday now.",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1b44dic/eth_zurich_data_science_statistics_msc/"
+    }
+  ],
   "comments": [
     {
       "id": "kuoi6i7",
@@ -311,6 +400,76 @@
       "score": 1,
       "link_id": "t3_1aunxgd",
       "parent_id": "t1_krorak6"
+    },
+    {
+      "id": "l5br6h9",
+      "body": "Να σε \"κόψουν\", εννοούσα να δούνε φάτσα/ομιλία κλπ ότι δεν είσαι κανένας τρελός! Δηλαδή αν είναι λίγο πολύ προκαθορισμένο πριν την συνέντευξη και είναι πιο πολύ για το τυπικό.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716473916,
+      "score": 1,
+      "link_id": "t3_1cyfuut",
+      "parent_id": "t1_l5bnz2y"
+    },
+    {
+      "id": "kw7t4ph",
+      "body": "Don't forget that anyone can submit anything on gradcafe, so take what you see there with a grain of salt. Besides, EPFL usually releases all results at once (unlike ETH for example).",
+      "author": "Hungry-Finding2360",
+      "subreddit": "EPFL",
+      "created_utc": 1711212275,
+      "score": 7,
+      "link_id": "t3_1blrbpe",
+      "parent_id": "t3_1blrbpe"
+    },
+    {
+      "id": "kvrfb8p",
+      "body": "Thanks for the reply, I understand! I study in Greece and we are also allowed to retake an exam (only once, in the September of the year we first passed it) but at NTUA (similar to polimi in Greek national ranking), almost no one has grades like 29/30=9.6/10 in our scale. This is why I am always surprised to see so many Italians reporting having a 29+ average! I would never think that having 28.6 instead of 29 makes such a huge difference, honestly.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "EPFL",
+      "created_utc": 1710955473,
+      "score": 3,
+      "link_id": "t3_1bjfrit",
+      "parent_id": "t1_kvregy3"
+    },
+    {
+      "id": "kvra3kv",
+      "body": "If I may ask, what's up with the grading system in Italy? How could a 0.4/30=1% difference be such a big deal? Are Italian universities notorious for inflating students' grades?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "EPFL",
+      "created_utc": 1710953786,
+      "score": 1,
+      "link_id": "t3_1bjfrit",
+      "parent_id": "t1_kvr1shl"
+    },
+    {
+      "id": "kt1ar5y",
+      "body": "Good luck! Maybe Monday is our lucky day :)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709404735,
+      "score": 2,
+      "link_id": "t3_1b44dic",
+      "parent_id": "t1_kt0df0v"
+    },
+    {
+      "id": "kswij36",
+      "body": "Also waiting for DS and Stats. Good luck!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709324575,
+      "score": 2,
+      "link_id": "t3_1b43pdc",
+      "parent_id": "t3_1b43pdc"
+    },
+    {
+      "id": "kswicvk",
+      "body": "Deadline for application was 15/12. As per ETHZ's email, decisions should be out by April at the latest, but the past years some decisions came out late Feb-early March.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709324514,
+      "score": 1,
+      "link_id": "t3_1b44dic",
+      "parent_id": "t1_kswi54p"
     }
   ]
 }

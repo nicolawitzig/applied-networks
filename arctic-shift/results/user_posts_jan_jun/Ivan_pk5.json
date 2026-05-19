@@ -1,6 +1,249 @@
 {
   "username": "Ivan_pk5",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dpnail",
+      "title": "Fuji 8mm 3.5f for a beginner ? ATM xt5 + viltrox 13mm 1.4f",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719481216,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hello,\nNew here coming from iphon , I'm stunned by the night pictures with the viltrox , it will allow me many pictures I couldn't take with iphone.\n\nHowever I'm wondering how difficult is the fuji 8mm 3.5. I'm a beginner amateur, If taking pictures require special angles on the 8mm, it's definitely not for me, with viltrox I don't have to think, and for the moment I like this, maybe I LL want more freedom once I gain experience with the xt5.\n\nBut I heard the 8mm Fuji is not a fish eye, so the distorsion is very low. Does it mean I could easily take landscapes pictures ?\n\nI looked for 8mm examples here and Im not convinced it's ok for an amateur.\n\nThanks for tips, on pic viltrox 13, really easy to start with, I'm amazed by the details , I'm discovering a new world. Had a lx 100 long time ago and I could do night pictures not that easily , it was 2.8 f I think.",
+      "url": "https://i.redd.it/fifhn2rg439d1.jpeg"
+    },
+    {
+      "id": "1dgf1mw",
+      "title": "Am i the only one seeing PBIR changing our workflow for a perfect world ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1718447508,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "Finish timeless UI/UX manually done by hands, am i dreaming or PBIR is really a life saver ? We can do the design directly in code, using chatgpt to reproduce what he did in other reporting, adapting it. Pinch me, or is it true ? Some months ago i was disappointed that IA couldn't dramatically reduce time spend on making a pbix design. \n\nFor those not familiar  : in PBIR, all the report artefact (bookmarks, slicer, etc) are available in a text format through visual studio. (is it json, not sure i didnt try)\n\n",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1dgf1mw/am_i_the_only_one_seeing_pbir_changing_our/"
+    },
+    {
+      "id": "1de2x02",
+      "title": "opensource on-prem Datawarehouse alternative to Sql Server ?",
+      "author": "Ivan_pk5",
+      "subreddit": "BusinessIntelligence",
+      "created_utc": 1718186382,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hi,\n\nEveryday i cross by articles about modern data stack.\n\nHowever regarding on prem Datawarehousing, it's less easy to find articles, everything i see is about Big Query, Power Bi, Fabric, Snowflake, Databricks.\n\nI have a small client that want to stay on prem, so i can't propose my ususal solutions.\n\nAfter spending time searching about it, my conclusion -> Postgresql or Duckdb.\n\nBut my client data will be between 100gb-1Tb so i'll have issues with Postgre for big analytic queries, and duck db i have no enough experience with it to see what i can do with it, i see people warning here that concurrency is not good, and the best is to use it with mother duck, so serverless dw.\n\nThe client wants doesn't want Sql Server / Excel,  he wants to use Apache Superset for the Viz, and a cheap DW on prem. I'm a bit lost if it's realistic, or if don't understand something, i'm still junior.\n\nshould i still go with Postgresql, warning client about huge query performance impact ?\n\nI read about Starrocks, but not convinced since it's not popular.\n\nThanks for nay feedback.",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1de2x02/opensource_onprem_datawarehouse_alternative_to/"
+    },
+    {
+      "id": "1de2tnf",
+      "title": "opensource on-prem Datawarehouse alternative to Sql Server ?",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1718185982,
+      "score": 5,
+      "num_comments": 10,
+      "selftext": "Hi,\n\nEveryday i cross by articles about modern data stack.\n\nHowever regarding on prem Datawarehousing, it's less easy to find articles, everything i see is about Big Query, Power Bi, Fabric, Snowflake, Databricks.\n\nI have a small client that want to stay on prem, so i can't propose my ususal solutions.\n\nAfter spending time searching about it, my conclusion -> Postgresql or Duckdb.\n\nBut my client data will be between 100gb-1Tb so i'll have issues with Postgre for big analytic queries, and duck db i have no enough experience with it to see what i can do with it, i see people warning here that concurrency is not good, and the best is to use it with mother duck, so serverless dw.\n\nThe client wants doesn't want Sql Server / Excel,  he wants to use Apache Superset for the Viz, and a cheap DW on prem. I'm a bit lost if it's realistic, or if don't understand something, i'm still junior.\n\nshould i still go with Postgre, warning client about big query performance ?\n\nThanks for nay feedback.",
+      "url": "https://www.reddit.com/r/dataengineering/comments/1de2tnf/opensource_onprem_datawarehouse_alternative_to/"
+    },
+    {
+      "id": "1d2h4pj",
+      "title": "Which next Cert for current market ? cleared dp 203/600 & pl300",
+      "author": "Ivan_pk5",
+      "subreddit": "AzureCertification",
+      "created_utc": 1716895513,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hello,\n\nI'm bored with low work workload (europe summer coming), i'm looking for a new microsoft cert to do.\n\nI'm not here to discuss if its useful or no to do certs, that certs < work exp. I'm in consulting, certs are mandatory to get new clients. I'm aware it doesn't prove i'm a good engineer, nothing replace leading end to end projects. But i won't get a new mission by the end of the summer. I also practice on my own spark, databricks etc. \n\nMy company doesn't impose me a new one, so i have to found which one to do (open to do 2, or 3 during summer).\n\nI did the azure data engineer, fabric analytics engineer, power bi analyst. before that i did the dp 500 that is now discontinued.\n\nim hesitating with ai 102, az 204, dp 300, dp 100. I'm not interested that much by power platform certs, but open to suggestion.\n\nObviously AI might be useful to get new jobs to build big RAG, but i'm also thinking regular db/sql/ azure are  useful, since ai is a lot of marketing, and Microsoft is already draining a lot of AI usage with its Copilot (imo)\n\nDP 300  Microsoft Certified: Azure Database Administrator Associate\n\nAI 102  Microsoft Certified: Azure AI Engineer Associate\n\nDP 100 Microsoft Certified: Azure Data Scientist Associate\n\nAZ 204 Microsoft Certified: Azure Developer Associate\n\nThanks for any tips.\n\n",
+      "url": "https://www.reddit.com/r/AzureCertification/comments/1d2h4pj/which_next_cert_for_current_market_cleared_dp/"
+    },
+    {
+      "id": "1ct8efo",
+      "title": "Tool to design BI data model ? like dbdiagram.io for sql db",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1715849350,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "Hello,\n\nI'm looking for a tool to graphically design BI data model. So i could build my data model before starting the development.  I want to be able to add tables, add relations etc, kind of the data model tab in power bi desktop.\n\n[https://dbdiagram.io/](https://dbdiagram.io/) doesn't have the ability to display \\* \\* or  1 \\* relation. Thanks",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1ct8efo/tool_to_design_bi_data_model_like_dbdiagramio_for/"
+    },
+    {
+      "id": "1ckpkec",
+      "title": "Coup de gueule - Casting des dernières saisons",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1714910061,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hello les auto stoppeurs,\n\nCette saison m'a vraiment gavé sur un aspect, le casting...\n\nLa finale d'hier c'est la cerise sur le gateau, Romain qui arrive pas à controler ses émotions, qui fait une erreur vraiment évitable sur le taquin, et pourtant ils remportent la victoire. Ca montre le très faible niveau de cette saison, dans aucun scénario ce type de binome serait allé en finale dans les premièers saisons.\n\nEgalement du au duel final, ridicule qui ne sert qu'à maintenir l'audimat jusqu'à la fin de l'épisode. Des binomes nul en autostop peuvent se maintenir jusqu'à la dernière moitié de la saison comme Louison et Riad, ou le doyen de pekin express et son fils qui ont éliminé plusieurs binomes saison 11, ou axel et son grand pere saison 15.\n\nJe retrouve plus ces binomes \"guerriers\" des anciennes saisons, et ce depuis 3/4 saisons.\n\nEst ce aussi un changement de personnalité/mentalité dans les adultes aptes à participer, changement générationnel ?\n\nJe me souviens de binomes qui avait la niaque, qui donnait des frissons, même dans la difficulté.\n\nIl y a eu  3 abandons cette saison, je suis quasi sur que c'est le record en 1 saison.\n\nComment est il possible de prendre des gens qui ont 80% de chance de ne pas tenir physiquement et mentalement ?\n\nLes frères belges du début, les 2 compères dont celui en surpoids, Myriam. Il se passe quoi ???\n\nOn peut rajouer Etienne de la saison 15 dans ces abandons prévisibles par un casting intelligent.\n\nC'est pékin express, c'est pas road trip tranquille en france avec BBQ. \n\nJ'ai également l'impression d'avoir assisté cette saison à plus de sessions de récits des candidats qui racontent ce qu'il s'est passé à la caméra, plutot qu'a des vrais sessions intenses d'aventure, comme les premières saisons.\n\nEvidemment c'est mon avis personnel, je ne cherche pas à imposer mon avis, mais à recueillir vos opnions, avis, remarques. \n\nLa prod a changé depuis la saison 10 je crois, avec l'apparition du duel final et du vol d'argent en finale. En terme de casting les 11 et 12 étaient moyennes, avec seulement quelques binomes pour redresser la moyenne comme Fabrice et Briac, la 13 était une all star donc pas dans mon viseur, c'est depuis la saison 14 que j'éprouve nettement moins de plaisir à regarder pékin express.\n\nLa 17 était la moins pire même si les alliances ont ternies cette saison.",
+      "url": "https://www.reddit.com/r/PekinExpress/comments/1ckpkec/coup_de_gueule_casting_des_dernières_saisons/"
+    },
+    {
+      "id": "1ciahm2",
+      "title": "Template for Notebook ? Software dev",
+      "author": "Ivan_pk5",
+      "subreddit": "kobo",
+      "created_utc": 1714638492,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hello,\n\nI had Elipsa 2E, now Libra Color that i intend to use for note taking & architecture schema, i work in IT. Some people already started using notebooks and have some tips to share ? I saw it is possible to draw a schema. but how convenient and modulable is it for IT notes taking ? Is it possible to create a new notebook from a template ? import template schema with icons of Microsoft Aamazon etc ? Thanks",
+      "url": "https://www.reddit.com/r/kobo/comments/1ciahm2/template_for_notebook_software_dev/"
+    },
+    {
+      "id": "1cdmytt",
+      "title": "Best long context model? Llama 3 / Phi 3 ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714141999,
+      "score": 5,
+      "num_comments": 7,
+      "selftext": "Hi,\n\nAs expected everyday new exciting versions of Llama 3 are released on huggingface.\n\nHowever i'm new here, not sure to be able to test those models efficiently by my own.\n\nI need a long context model, above 32k. Did you guys try some of them?\n\nI found those 2 but there are several of them, not sure what to try first\n\nI need a instruct model since i create json with specific requirements (using function calling)\n\n[https://huggingface.co/professorf/phi-3-mini-128k-f16-gguf](https://huggingface.co/professorf/phi-3-mini-128k-f16-gguf) (not instruct i know)\n\nand this one  [https://huggingface.co/gradientai/Llama-3-8B-Instruct-262k](https://huggingface.co/gradientai/Llama-3-8B-Instruct-262k) looks nice but not sure i need that long context\n\n&#x200B;\n\nalso another question, llama cpp lm studio etc includes the right prompt format ? because so far when i use a model i just do this \n\n>description\\_prompt = f\"\"\"Generate a Main JSON, with label = Nom\"\"\"  \n>  \n>response = llm(description\\_prompt, grammar=grammar, max\\_tokens=-1)  \n>  \n>return json.loads(response\\['choices'\\]\\[0\\]\\['text'\\])\n\nIs it ok or i need to use the specific prompt template ?   \n\n\nhttps://preview.redd.it/g09hzev44uwc1.png?width=1204&format=png&auto=webp&s=10b14737af6bb9937d599263fad8057dc87d2e4b\n\n&#x200B;\n\nhttps://preview.redd.it/9oiwujwm3uwc1.png?width=1092&format=png&auto=webp&s=0be9600f99a3b6a583bce7ec37fc9016820d5b9e\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1cdmytt/best_long_context_model_llama_3_phi_3/"
+    },
+    {
+      "id": "1c842ma",
+      "title": "CPU or GPU for llama 3 ? GGUF or full ? 12gb vram",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713551167,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hello,\nI'm new to lmm, I used llama cpp to run mistral with my CPU so far.\n\nNow I want to understand what is the best practice I can do with my laptop - 12 gb vram 64gb ram, ultra core 9.\n\nShould I use GPU or cpu ? Are there different scenario according to the usage ?\n\nAlso about the format, should I use GGUF or the full model ?\n\nI plan to try fine tuning llama 3 8B for a company project to generate Json with outlines or llama cpp 's grammar.\n\nThanks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1c842ma/cpu_or_gpu_for_llama_3_gguf_or_full_12gb_vram/"
+    },
+    {
+      "id": "1c759ru",
+      "title": "Best scenario to generate JSON with fine tuning ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLM",
+      "created_utc": 1713451882,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Hello guys,\n\nI know it's a topic often discussed, i'v been reading a lot.\n\nBut still i don't understand everything.\n\nProblem : to generate the json, i not only need a fix output structure to be generated, i also need the components that will be generated in the json to be decided by the model, giving him as input a list of all available components.\n\nfor example if i ask the model to generate a contract, i ll give him a list of all available components for the node i need a contract json (i m on neo4j). then i expect him to select the components in the list of available component to be used to generate the contract json, according to the example i trained him\n\n  \ni tried to fine tune 3.5 turbo with 50 examples of json, in user prompt each one with all available components possible, in assistant prompt (so the output expected) the actual json. results are interesting but with mistakes, sometimes empty components, even when asking him the exact same user prompt as training, he can't output precisely the same output i fed him\n\nso my issue is that not only i need a structure json (i guess it's not the hardest part), but also there is a logic when creating the json. \n\ni read about lorax, outlines, jsonformer, but i'm absolutely not sure if i'm on the right path.\n\ni tried 4 turbo giving him a mapping of the 50 training example in context, but it can't output in the right format. my next try is to give in context 10 examples to 4 turbo, but it will force me to have 5-10 different prompts, with generic list thematic (contract, invoice etc), while my data is really diverse, \n\nalso another question, when using lorax outlines etc, it uses local llm, so i need a good computer right ? i can't use a mistral on a google collab notebook ? so the generation might be slow ? i tried some months ago a local mistral and it was very slow. moreover, i don't know how i can implement the logic of selecting the right components with a local llma.\n\na bit lost and a big headache, any feedback welcome...\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/LocalLLM/comments/1c759ru/best_scenario_to_generate_json_with_fine_tuning/"
+    },
+    {
+      "id": "1by543h",
+      "title": "Right stick for Chinatown Wars ?",
+      "author": "Ivan_pk5",
+      "subreddit": "VitaPiracy",
+      "created_utc": 1712498240,
+      "score": 0,
+      "num_comments": 10,
+      "selftext": "Hi,\n\nI am looking to make the right stick works for Chinatown wars, the flow's version (android portage).\n\nI can't find anything, control remaster patch doesnt mention chinatown wars. it's working for san andreas android version. Do i need to use psp version of chinatown wars instead ? Thanks for any tips",
+      "url": "https://www.reddit.com/r/VitaPiracy/comments/1by543h/right_stick_for_chinatown_wars/"
+    },
+    {
+      "id": "1bs7u0z",
+      "title": "Bornes Pablo a cornavin ",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1711883209,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Bonjour,\nOu est la borne Pablo de détaxe a cornavin ? Je dois attendre de revenir de paris pour scanner ou je peux scanner en allant a cornavin sans voyager ? Mon prochain voyage est dans 1 mois mais j'ai oublié de scanner un code la dernière fois, merci ",
+      "url": "https://www.reddit.com/r/geneva/comments/1bs7u0z/bornes_pablo_a_cornavin/"
+    },
+    {
+      "id": "1bs7psi",
+      "title": "J'ai trouvé des saisons",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711882812,
+      "score": 4,
+      "num_comments": 0,
+      "selftext": "Salut,\nJ'ai trouvé les saisons 1 2 4 5 6 10 11 12 13 14 15 16 17 (18 en cours sur canal)\nPas envie de mettre les liens public, envoyez moi un mp je vous ajoute a une conversation privée sur reddit, si d'autres ont des saisons notamment 3 8 9 ",
+      "url": "https://www.reddit.com/r/PekinExpress/comments/1bs7psi/jai_trouvé_des_saisons/"
+    },
+    {
+      "id": "1bhcvwg",
+      "title": "Dataflows for Excel on Sharepoint for instant refresh?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1710720043,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hello,\n\nI have a small projects and not sure what is the best practice. I search the forum and found some similar posts about Excel on Sharepoint, saying to use dataflows.\n\nI still don't understand if i should use dataflows insteading of connecting directly a pbix to Sharepoint then publish the semantic model, since Sharepoint is a cloud source allowing refresh on PBService.\n\nI do small transformation on the 10 xlsx to append them in a single table with a fix format that i will then use in a report.\n\nMy goal is to put a refresh button on the datashboard so the user can update the excel on the sharepoint and then go on the dashboard to  click on a refresh button so he can see immediatly the new rows he added in the excel. The dataflow refresh is 1 or 2 minutes. \n\nMy manager doesn't allow me to do it directly in a pbix so I didn't try yet, waiting to validate with him the project. I will then try alone to see if it's faster to directly do it in a pbix. Thanks for any tips\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1bhcvwg/dataflows_for_excel_on_sharepoint_for_instant/"
+    },
+    {
+      "id": "1bh2r6s",
+      "title": "I said no to my norway dream - 1 year later introspection",
+      "author": "Ivan_pk5",
+      "subreddit": "Norway",
+      "created_utc": 1710695424,
+      "score": 2,
+      "num_comments": 5,
+      "selftext": "Hello, \n\n&#x200B;\n\nI want to share my little story, not that interesting but putting words on it will be helpful for me, maybe it will interest at least 1 person :) \n\n&#x200B;\n\n**Warning before reading** \n\nI acknowledge that I might overestimate the difficulty of working in Norway as a foreigner. My judgment is based on the difficulty I had to get only 1 job, while in Switzerland where I am now, it was convenient, quick, and I got a good salary. Therefore, I extrapolate and imagine myself having to apply again to jobs in Norway if something went wrong with the job I rejected. Extrapolating is not good science, but it is the only thing I can do 1 year later. I often read reddit Norway, and acknowledge that it is absolutely possible to work as a foreigner in Norway. \n\nI also acknowledge that Norwegians are very good English speakers and not xenophobic towards immigrants based on the amount of positive feedback from foreign people settling in Norway. I also acknowledge that I made a mistake by not becoming fluent in Norwegian during the 4 years that I wanted to emigrate. My objective is to give feedback as a foreigner who was looking for a better place to live, and had to make a choice on his future. I chose the convenient way and said no to a more difficult adventure. \n\n**I'm not implying hidden thoughts about Norway towards immigrants, and acknowledge again that being more experienced in my job + fluent in norwegian, I will have less difficulties find a job.**\n\n**Luxembourg background - not used to daily stress** \n\nI'm French but was raised in Luxembourg. Luxembourg is a small country/city, even if for 20 years it has been developing itself outside of the main city with new office districts (Skype HQ when I was in high school, now Amazon - maybe not the tax company in Ireland but it is still a big HQ for Amazon Europe). It has the biggest GDP per capita in Europe (a fiscal paradise for companies & European institutions). Salaries are better than in France, and people are happy to work in Luxembourg. \n\nI would say that the mentality is between Southern Europe and Northern Europe. When I was young, I had friends from Sweden, Finland, and the Netherlands. Their parents were either mixed couples (French/Northern European partner or full Northern parents). Those parents had nice houses; one Danish couple had a sauna and jacuzzi. Obviously, my social circle was biased by my school and parents' jobs, but I'm not from a rich family; those well-settled families are everywhere in Luxembourg. There are also many Southern European families (Portugal is a huge, successful community there). \n\nI was shocked when I went back to France/Paris after high school. I was shocked by the stress of daily life, the crowd of people, and the crowded and poorly equipped public transportation. The Luxembourg lifestyle is much more balanced, except for rush hour traffic, and 10 years later, it has increased due to the influx of French/Belgian/German people moving here or working at the border.\n\n**My discovery of Northern Europe in 2019 - Oslo** \n\nLiving in Luxembourg, I only traveled to Southern Europe and Asian countries with my parents. I never visited my Luxembourg friends with Northern European backgrounds. During college, I went to Oslo randomly after my first year of work to enjoy my yearly bonus (not that much, 2/3k euros). I was astonished by everything, absolutely, since my arrival at the airport, and the tram/train driver saying hello to me - I am mixed race, so I have white skin with Eurasian/Middle Eastern features, not the most common there I guess. \n\nI didn't feel at home, but I felt good. I visited Oslo, took the boat in front of the Nobel Prize to the small fjords. I didn't feel stress at rush hours, didn't feel crowded in public transport, didn't feel stress walking back to my Airbnb at 2 am at night (it is not recommended to do this in Paris). Cars were letting me cross streets, nobody was staring at me even though I'm a bit exotic. \n\nI saw clean streets, I saw some ethnic minorities doing a small protest with their flag in the city center (maybe Armenian), but I didn't see pickpockets or beggars anywhere. I saw the modern offices, the new library next to the opera being under construction. I saw the city center, very close to the sea. I've been to the lake of marriage upside Oslo, I felt in nature. I saw an old lady there telling me \"Jesus bless you.\" . I didn't feel overwhelmed by a stressed and rushed city where you can easily get into an argument for nothing, where people will harass you for a cigarette. I smelled nice air inside a city. \n\nI've traveled in America, Asia, Europe, the Middle East, and Africa. I didn't expect to see all of this in an unknown country, 3 hours by plane from Paris. I had never heard of Norway anywhere, even for cruise trips; I'm not old, so I had never looked into this kind of trip. In my mind, Luxembourg was the richest country in Europe with our GDP per capita. I had heard about Sweden, Denmark, Finland, but never a story about Norway. Not saying it is an unknown country, but at 20 years old, it was the case for me. Since the Ukraine war, European TV has been talking about Norway's oil/gas and the advanced EV car fleet. \n\n**Difficult job search in Norway** \n\nWhen I went back to Paris where I was working, my only goal was to move there to work. I struggled during 4 years, fighting with my family who didn't understand me, telling me I was crazy. I worked hard on my IT career, was working in big French companies, did data portfolio, Microsoft certification. I started learning the language, but not enough to do a job interview. In 2022, I started becoming more experienced in my jobs, so I decided to start applying to Norway. I've been to 1 energy event in Hamburg with Norwegian companies, got 2 HR contacts. Got French contacts on Facebook that got me a job interview. After 8 months of applying, getting contacts, I got nowhere. My family told me I was ridiculous. Sad, I randomly applied to 10 jobs in Switzerland on LinkedIn. I got 2 jobs with 100k annual salary in less than a month of job search. So I moved to Switzerland, more stable than France, better job opportunities. \n\n&#x200B;\n\n**Job offer in Norway rejection - 1 year later introspection** \n\n1 month after starting my job in Switzerland, a consulting firm called me. At first call, the HR said my experience was nice, that I could have the job if I was willing to move to Oslo ASAP. I went to the next interview, without stress or envy. 2 days later, the HR called me and said it was ok. The salary would be 550k NOK/year, then it would increase. I did something I didn't expect to do during 4 years of desire to come to Norway. I said no without hesitation. During the week, he called back 4 times, the manager at the second interview emailed me. I answered a last time by email, and my job search stopped here. At the moment, it felt normal to say no. One year later (today), I'm thinking about where I would be if I had said yes.\n\n&#x200B;\n\n* I would live in a city with less stress than the one I am currently in. I could go for a walk near the sea every night. I would have shown my family that I'm not crazy. I would be living the way I feel is the best for me. But I would have less money than I currently get, without as many opportunities as I could get in Switzerland. The mentality in Switzerland is \"work and don't speak.\" I work until 8/10 pm every day and have extra work during the weekend. If I want to take a quiet walk, there will be more people than in Oslo, everywhere, every street there are restaurants/bars. I don't feel like I'm living in the city I want to be in.\n* But seeing how hard it was to get 1 job, I don't think I would have had many options if something went wrong in Norway. My low Norwegian skills would have limited me from interacting with people. I would have been seen as a foreigner. I don't believe English is enough to settle properly; English for work in IT perhaps, but many job offers are in Norwegian. I would have struggled during -20 degrees Celsius in January, even though Luxembourg winters are dark and cold, but not as much as Norway. I would have questioned myself 1 year later if I wasn't making a mistake. I saw how it was to find housing on finn.no; many people answered in Norwegian. I would not have felt at home; I would have felt good but with insecurities. My exotic face and poor Norwegian would have been a barrier to interacting with Norwegian people, one day or another.\n*  In my current job, I can do new cloud/big data  projects easily since communication is in French. My diploma is well recognized by Switzerland. I can switch jobs in 1 month if something goes wrong. I am not a foreigner; I am a French person working in Switzerland like many others. A French ID card is enough to do many things. Housing searches are not difficult. Winter is chill, with daylight every day from 9 am to 5 pm minimum. I can easily meet new people; I have some friends there too. It feels like home, without being as peaceful and stress-free to live in as Norway seems to be.\n\n**Conclusion**\n\nToday I am sure I made the right choice. I am sure that taking the job wouldn't have been the safest choice. I should have learned good Norwegian during those 4 years, but working in IT is already time-consuming. My life today is not perfect; I have much more work stress, but feeling like a local helps a lot to face unexpected work situations. \n\nMy objective is to take 2 months every summer for living in Norway. 1 month remote, 1 month on vacation. I will enjoy the good weather of Norway, without any stress of immigration/work/language barrier/cultural barrier. I will do this for the first time this summer. Waiting summer i'm reading [The Almost Nearly Perfect People](https://en.wikipedia.org/wiki/The_Almost_Nearly_Perfect_People) book.\n\n**That's all for me, I acknowledge that it is more self-therapy than an interesting story, but I had to put words on it. Again, I don't want to offend anyone. If you disagree I'll be happy to talk, my objective is not to create stigma, stress or tension.** ",
+      "url": "https://www.reddit.com/r/Norway/comments/1bh2r6s/i_said_no_to_my_norway_dream_1_year_later/"
+    },
+    {
+      "id": "1bfp48t",
+      "title": "Go through the border with new laptop from france ?",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1710538323,
+      "score": 5,
+      "num_comments": 11,
+      "selftext": "Hello, I bought a laptop in France, actually more expensive than in ch but I need AZERTY. Will I get trouble going back in Switzerland with the laptop in it's box unopened ? Do I need to declare something or pay tax ? I guess it s better if I open it before but I prefer to do it home",
+      "url": "https://www.reddit.com/r/geneva/comments/1bfp48t/go_through_the_border_with_new_laptop_from_france/"
+    },
+    {
+      "id": "1anthe1",
+      "title": "can i do the driving exam in an easier city ?",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1707607434,
+      "score": 7,
+      "num_comments": 12,
+      "selftext": "Hi,\n\nI will start theory soon, but a bit scared to learn driving in geneva. can i register to a driving school in another city like  Nyon ? Might be a bad idea not to learn in the city i live, but i won't use my future car in my daily life since i do everything with tramway/walking. I feel i will be too stress to learn and do the exam in geneva... it is psychological, but also my feeling seeing how people drive here, so many scooters, trucks, i feel overwhelm just looking at this ",
+      "url": "https://www.reddit.com/r/geneva/comments/1anthe1/can_i_do_the_driving_exam_in_an_easier_city/"
+    },
+    {
+      "id": "1al03zm",
+      "title": "aLors cette finale ?",
+      "author": "Ivan_pk5",
+      "subreddit": "DestinationX",
+      "created_utc": 1707302421,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "sur twitter beaucoup de gens décus, moi j'ai pas compris pourquoi ils ont repris des anciens jeux, c'est quoi l'interet, surtout à athènes , il aurait pu faire un vrai jeu de piste et amener visiter d'autres monuments de la ville, là cest resté basique, visite d'antiquaire dans une rue commercante, je comprends pas, car la saison était vraiment bien, c'est monté crescendo jusqu'au chateau avec les proches des invités, là c'était bouillant, et c'est redescendu tout en bas pour la finale. sur twitter les gens se plaignet que le lieu soit connu dès le debut, ca me derange pas tant que cas.\n\nma théorie, j'en ai une quand meme, serait que la production et les candidats étaient cramés à la fin, surtout la prod, et qu'ils ont fait un truc vite fait à athènes, en plus ils ont du déplacé la prod en avion...\n\net dernier point, je trouve qu'ils sont trop restés dans le meme coin pendant la moitié de la saison, a part la slovenie/allemagne/croatie, le reste c'etait italie/autriche.\n\nla finale aurait pu etre a venise, j'aurais préféré, et ca aurait pu etre aussi très interessant,  le jeu des masques qui etait originale, la vue sur l'eau, ",
+      "url": "https://www.reddit.com/r/DestinationX/comments/1al03zm/alors_cette_finale/"
+    },
+    {
+      "id": "1afhfoz",
+      "title": "ETL to query CSV on a Azure data lake ?",
+      "author": "Ivan_pk5",
+      "subreddit": "AZURE",
+      "created_utc": 1706706434,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/AZURE/comments/1afhfoz/etl_to_query_csv_on_a_azure_data_lake/"
+    },
+    {
+      "id": "1abgcoj",
+      "title": "Use 4turbo in custom gpt ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ChatGPT",
+      "created_utc": 1706268998,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi,\nI'm new in gpt api. I understand that 4turbo is only available on playground and the api, not in custom gpt. How can I use 4turbo (I understand I LL have to pay) in a custom gpt, for example to code a project, that I LL have input in knowledge the code. Sorry if it's stupid question",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1abgcoj/use_4turbo_in_custom_gpt/"
+    },
+    {
+      "id": "198wp5p",
+      "title": "ADLS CSV in dynamic datestamp folder",
+      "author": "Ivan_pk5",
+      "subreddit": "AZURE",
+      "created_utc": 1705498580,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi eveyrone,\n\nI am new in cloud engineering, sorry if my question is stupid.\n\nI use Synapse Link to extract csv from Dynamics.  The CSV are pushed to new datestamp folder when new data is created.\n\nI don't understand how to create a table i can query that will automatically have the new data in the new datestamp folders.\n\nI did this in tsql but with parquet files, the parquet were in the same folder, so i used open rowset. \n\nHere the new folder with partioned csv will eveyrtime have a new name. I'm trying to do it with wildcards.\n\nThanks for any support.\n\n&#x200B;\n\nhttps://preview.redd.it/uuck9gz060dc1.png?width=902&format=png&auto=webp&s=d58bf53c2115b7306f2f6be44556db314614bd19\n\n||\n|:-|\n\n\nhttps://preview.redd.it/vz650h6560dc1.png?width=887&format=png&auto=webp&s=9b0bac50bf2ced8c0699e9d838d6d688409b7cb9\n\n||||\n|:-|:-|:-|\n|||\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/AZURE/comments/198wp5p/adls_csv_in_dynamic_datestamp_folder/"
+    }
+  ],
   "comments": [
     {
       "id": "kzk4nhj",
@@ -21,6 +264,3076 @@
       "score": 9,
       "link_id": "t3_1c3t54h",
       "parent_id": "t3_1c3t54h"
+    },
+    {
+      "id": "law4dos",
+      "body": "rolex is a huge sponsor, can see it logo on a lot of tracks ahah",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1719697344,
+      "score": 1,
+      "link_id": "t3_1drgwib",
+      "parent_id": "t1_lav9ayr"
+    },
+    {
+      "id": "law47w1",
+      "body": "thanks for your answer, so you don't recommend it for a beginner like me, unless i'm ready to study and practice. atm i ll stick with the viltrox then",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719697283,
+      "score": 1,
+      "link_id": "t3_1d1h67b",
+      "parent_id": "t1_lavj118"
+    },
+    {
+      "id": "laval6l",
+      "body": "Nice pictures, I also have the lens kit , glad to see nice landscapes pictures with it. As I told you I have viltrox 13mm 1.4 but I don't think I will take it if I go to do landscapes during the day. If it's low light yes I guess , am I right ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719686386,
+      "score": 1,
+      "link_id": "t3_1caosvw",
+      "parent_id": "t3_1caosvw"
+    },
+    {
+      "id": "lav9o8z",
+      "body": "Seriously, thank you for your answer ! I really appreciate the details. Knowing myself, I feel I could like to play with the 8, but ATM I need first to know my camera better so I LL stick to the viltrox. I really like the plug and play ATM, I guess I will want to try the 8 but in 1 year or 2. Thanks again for the answer",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719686040,
+      "score": 1,
+      "link_id": "t3_1dpnail",
+      "parent_id": "t1_lauhztd"
+    },
+    {
+      "id": "latkf08",
+      "body": "Thanks a lot for your answer, I'm desperately trying to find feedbacks. I'm a beginner, not noob, , I understand basics, but definitely not advanced . For landscapes pictures, 8mm can be better than 13mm right ? I'm afraid I'll be disappointed because 13mm allows me to quickly take pictures, 8mm might make me struggle a bit ? Or I am over exaggerating and this lens is a banger since rectiligne, not fish eye ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719662522,
+      "score": 1,
+      "link_id": "t3_18zfpl2",
+      "parent_id": "t1_latgswb"
+    },
+    {
+      "id": "lateq1k",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659492,
+      "score": 1,
+      "link_id": "t3_14w7b53",
+      "parent_id": "t3_14w7b53"
+    },
+    {
+      "id": "latep8o",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659478,
+      "score": 1,
+      "link_id": "t3_yp3a55",
+      "parent_id": "t3_yp3a55"
+    },
+    {
+      "id": "lateo55",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659460,
+      "score": 1,
+      "link_id": "t3_1bi7o5u",
+      "parent_id": "t3_1bi7o5u"
+    },
+    {
+      "id": "lateng0",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659448,
+      "score": 1,
+      "link_id": "t3_160g7dr",
+      "parent_id": "t3_160g7dr"
+    },
+    {
+      "id": "latem18",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659426,
+      "score": 1,
+      "link_id": "t3_18w32sl",
+      "parent_id": "t3_18w32sl"
+    },
+    {
+      "id": "latekz9",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659410,
+      "score": 1,
+      "link_id": "t3_13s6ohq",
+      "parent_id": "t3_13s6ohq"
+    },
+    {
+      "id": "lateiyi",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659376,
+      "score": 1,
+      "link_id": "t3_14sfwcm",
+      "parent_id": "t3_14sfwcm"
+    },
+    {
+      "id": "latefh6",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapesn? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719659324,
+      "score": 1,
+      "link_id": "t3_1acpojq",
+      "parent_id": "t3_1acpojq"
+    },
+    {
+      "id": "latdjil",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658801,
+      "score": 2,
+      "link_id": "t3_15iz61f",
+      "parent_id": "t1_jv3gnn5"
+    },
+    {
+      "id": "latdiw6",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658790,
+      "score": 2,
+      "link_id": "t3_15iz61f",
+      "parent_id": "t1_juxfib3"
+    },
+    {
+      "id": "latdhmz",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658770,
+      "score": 2,
+      "link_id": "t3_15kilk7",
+      "parent_id": "t3_15kilk7"
+    },
+    {
+      "id": "latdexw",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658724,
+      "score": 1,
+      "link_id": "t3_18zfpl2",
+      "parent_id": "t3_18zfpl2"
+    },
+    {
+      "id": "latdbct",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658665,
+      "score": 1,
+      "link_id": "t3_19d97jv",
+      "parent_id": "t1_kj4gusw"
+    },
+    {
+      "id": "latd8ki",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658619,
+      "score": 1,
+      "link_id": "t3_19d97jv",
+      "parent_id": "t3_19d97jv"
+    },
+    {
+      "id": "latd63t",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658579,
+      "score": 1,
+      "link_id": "t3_1bbuzck",
+      "parent_id": "t3_1bbuzck"
+    },
+    {
+      "id": "latd56c",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658563,
+      "score": 1,
+      "link_id": "t3_1bi7o5u",
+      "parent_id": "t3_1bi7o5u"
+    },
+    {
+      "id": "latd3wb",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658541,
+      "score": 1,
+      "link_id": "t3_1d1h67b",
+      "parent_id": "t3_1d1h67b"
+    },
+    {
+      "id": "latd3hf",
+      "body": "How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner for landscapes pictures ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658534,
+      "score": 1,
+      "link_id": "t3_1d1h67b",
+      "parent_id": "t1_l5vf7fd"
+    },
+    {
+      "id": "latd18k",
+      "body": "Up please. How hard is the 8mm 3.5f fuji to use with a xt5 for a beginner ? Will I miss shots if I'm not careful when taking the picture ? ATM I have viltrox 13 1.4f, it's a no brainier and I like it . Maybe Fuji 8mm can help me to improve ? I like ultra wide, but If I only use it 20% because require special composition, i shouldn't take it",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719658498,
+      "score": 1,
+      "link_id": "t3_1dpnail",
+      "parent_id": "t3_1dpnail"
+    },
+    {
+      "id": "lapohcd",
+      "body": "J'allais dire d'utiliser chrome . firefox tu en as vraiment besoin ? Ça consomme moins de ram c'est ça ?",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1719597248,
+      "score": 1,
+      "link_id": "t3_1dqokcr",
+      "parent_id": "t1_lapnjzh"
+    },
+    {
+      "id": "lal763f",
+      "body": "Tape dans Google et prends le lien .re, parfois quand je lance depuis mon historique ça marche pas, ce soir ça marche chez moi",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1719524775,
+      "score": 2,
+      "link_id": "t3_1dpybt8",
+      "parent_id": "t3_1dpybt8"
+    },
+    {
+      "id": "lak0zwz",
+      "body": "Because u saw the important of wr ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719510986,
+      "score": 1,
+      "link_id": "t3_1dpptgn",
+      "parent_id": "t1_lajsxax"
+    },
+    {
+      "id": "lajgr0g",
+      "body": "Yes sorry I meant non wr lens",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719504432,
+      "score": 1,
+      "link_id": "t3_1dpptgn",
+      "parent_id": "t1_lajg03q"
+    },
+    {
+      "id": "lajds2v",
+      "body": "So wr camera and no wr camera still have some benefits ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719503470,
+      "score": 1,
+      "link_id": "t3_1dpptgn",
+      "parent_id": "t1_laj907f"
+    },
+    {
+      "id": "lajdmkt",
+      "body": "So it's useless to have wr camera but no wr lens?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719503421,
+      "score": 2,
+      "link_id": "t3_1dpptgn",
+      "parent_id": "t1_laih6fe"
+    },
+    {
+      "id": "lajdkta",
+      "body": "Did u use non tropical lens on the XT 2?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719503405,
+      "score": 1,
+      "link_id": "t3_1dpptgn",
+      "parent_id": "t1_lairzpb"
+    },
+    {
+      "id": "lai5fan",
+      "body": "tu es allé en suisse au final ? j'y suis depuis 1 ans",
+      "author": "Ivan_pk5",
+      "subreddit": "vosfinances",
+      "created_utc": 1719485807,
+      "score": 1,
+      "link_id": "t3_otgp9v",
+      "parent_id": "t1_h6z3nee"
+    },
+    {
+      "id": "lai0qti",
+      "body": "so you won't recommend it for a beginner that wants to take landscape pictures without thinking too much ?so far i have viltrox 13 1.4f and its a no brainer. with fuji 8mm, i can miss a lot of pictures if i dont think ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719482896,
+      "score": 2,
+      "link_id": "t3_1733ylh",
+      "parent_id": "t1_k40oquk"
+    },
+    {
+      "id": "lai0opb",
+      "body": "is it easy to take picture as a beginner ? so far i have viltrox 13 1.4f and its a no brainer. with fuji 8mm 3.5, i will have to be careful of the angles when taking the picture to not fail ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719482856,
+      "score": 1,
+      "link_id": "t3_1733ylh",
+      "parent_id": "t3_1733ylh"
+    },
+    {
+      "id": "lai0iog",
+      "body": "is it easy to take picture as a beginner ? so far i have viltrox 13 1.4f and its a no brainer. with fuji 8mm 3.5, i will have to be careful of the angles when taking the picture to not fail ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719482742,
+      "score": 1,
+      "link_id": "t3_13s6ohq",
+      "parent_id": "t3_13s6ohq"
+    },
+    {
+      "id": "lai0i6k",
+      "body": "is it easy to take picture as a beginner ? so far i have viltrox 13 1.4f and its a no brainer. with fuji 8mm 3.5, i will have to be careful of the angles when taking the picture to not fail ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719482733,
+      "score": 1,
+      "link_id": "t3_14sfwcm",
+      "parent_id": "t3_14sfwcm"
+    },
+    {
+      "id": "lai0h08",
+      "body": "is it easy to take picture as a beginner ? so far i have viltrox 13 1.4f and its a no brainer. with fuji 8mm 3.5, i will have to be careful of the angles when taking the picture to not fail ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719482711,
+      "score": 1,
+      "link_id": "t3_18tmx6m",
+      "parent_id": "t3_18tmx6m"
+    },
+    {
+      "id": "lac6wf6",
+      "body": "interested by the data if its not too late :)",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1719393620,
+      "score": 1,
+      "link_id": "t3_x69um9",
+      "parent_id": "t1_inac7nq"
+    },
+    {
+      "id": "la91glz",
+      "body": "how were the interviews ? did u always have technical interviews ? for me it was 3months, mainly because i speak french and 5 years exp. do u speak the local language ?are u swiss maybe ?",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719343079,
+      "score": 1,
+      "link_id": "t3_176xgql",
+      "parent_id": "t1_la8tzwn"
+    },
+    {
+      "id": "la8iuic",
+      "body": "did u take the viltrox ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719337000,
+      "score": 1,
+      "link_id": "t3_yp3a55",
+      "parent_id": "t3_yp3a55"
+    },
+    {
+      "id": "la8dhtw",
+      "body": "How long did it take you to get the job ? Was it hard ?",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719335247,
+      "score": 1,
+      "link_id": "t3_176xgql",
+      "parent_id": "t1_la87c05"
+    },
+    {
+      "id": "la8dbw1",
+      "body": "Ordered my xt5, will get it tomorrow. I was going to take the silver but then checked the wheels, and then reddit. I intend to take pictures at night so it's more important than design for me, thanks. Actually I have pretty bad eyesight 🤣 minus 10",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719335192,
+      "score": 1,
+      "link_id": "t3_1535he9",
+      "parent_id": "t1_la7iix3"
+    },
+    {
+      "id": "la7nvfl",
+      "body": "it is exactly my feeling after 1year here (from luxembourg), people sit all day, talk, take time having lunch and break)",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1719326667,
+      "score": 1,
+      "link_id": "t3_1bozdck",
+      "parent_id": "t1_kwsy3dc"
+    },
+    {
+      "id": "la7dyk2",
+      "body": "nice, congrats\n\nare u swiss ?",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1719323056,
+      "score": 1,
+      "link_id": "t3_1bbbbhz",
+      "parent_id": "t1_la7cogb"
+    },
+    {
+      "id": "la6mtjs",
+      "body": "the difference during night is huge ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719309449,
+      "score": 1,
+      "link_id": "t3_1535he9",
+      "parent_id": "t1_jshnwob"
+    },
+    {
+      "id": "la6mpl5",
+      "body": "nice, how many iso for first pic ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719309372,
+      "score": 1,
+      "link_id": "t3_1bfw7iw",
+      "parent_id": "t3_1bfw7iw"
+    },
+    {
+      "id": "la6c0ld",
+      "body": "full stack ? in geneva / zurich ? did u see improvement on swiss it job market these past few months ? might get laid off during autumn, so i need to start preparing...",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719301606,
+      "score": 2,
+      "link_id": "t3_176xgql",
+      "parent_id": "t1_la6biwc"
+    },
+    {
+      "id": "la6bif3",
+      "body": "did u find a job ?",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719301241,
+      "score": 1,
+      "link_id": "t3_176xgql",
+      "parent_id": "t1_k4pppky"
+    },
+    {
+      "id": "la6bgna",
+      "body": "did u find a job ?",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719301204,
+      "score": 1,
+      "link_id": "t3_176xgql",
+      "parent_id": "t1_k4ps1ng"
+    },
+    {
+      "id": "la6ba07",
+      "body": "interesting, what do u think now , summer 24 ? will it be better or worse ?",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719301072,
+      "score": 1,
+      "link_id": "t3_176xgql",
+      "parent_id": "t1_k6nyjja"
+    },
+    {
+      "id": "la6b4iz",
+      "body": "en IT ?",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1719300962,
+      "score": 1,
+      "link_id": "t3_1bbbbhz",
+      "parent_id": "t1_kucw5e3"
+    },
+    {
+      "id": "la6axz0",
+      "body": "which language / skills do u have?",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1719300831,
+      "score": 1,
+      "link_id": "t3_1bbbbhz",
+      "parent_id": "t1_kve6a0c"
+    },
+    {
+      "id": "la6ar4e",
+      "body": "which skills does it require ? i'm cs master, now cloud / big data but looking for other environmnent than consulting",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1719300694,
+      "score": 1,
+      "link_id": "t3_1bbbbhz",
+      "parent_id": "t1_kucmq94"
+    },
+    {
+      "id": "la3r6hp",
+      "body": "is it possible to put a xt5 in a jacket pocket ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719261109,
+      "score": 1,
+      "link_id": "t3_10afryo",
+      "parent_id": "t1_j4543rd"
+    },
+    {
+      "id": "la0skb6",
+      "body": "op is not lying, he also never used internet before discovering sonnet 3.5",
+      "author": "Ivan_pk5",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1719217202,
+      "score": 1,
+      "link_id": "t3_1dl43bs",
+      "parent_id": "t1_l9xatob"
+    },
+    {
+      "id": "l9yxctw",
+      "body": "which filter do u recommand for landscape",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719182766,
+      "score": 1,
+      "link_id": "t3_10dht2e",
+      "parent_id": "t1_j4m0ynu"
+    },
+    {
+      "id": "l9ywywu",
+      "body": "which filter did u choose ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujix",
+      "created_utc": 1719182612,
+      "score": 1,
+      "link_id": "t3_ykzq3f",
+      "parent_id": "t1_jvu9fr8"
+    },
+    {
+      "id": "l9ysoi5",
+      "body": "do will i soon , thank",
+      "author": "Ivan_pk5",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1719180919,
+      "score": 1,
+      "link_id": "t3_1dmpkz4",
+      "parent_id": "t1_l9ysiwa"
+    },
+    {
+      "id": "l9ynl1u",
+      "body": "very useful thanks. after 8 months do u have more feedback ?",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719178956,
+      "score": 1,
+      "link_id": "t3_17j3rs0",
+      "parent_id": "t1_k6zcnm8"
+    },
+    {
+      "id": "l9yg4k9",
+      "body": "after 2 months, are u still thinking xt 5 is beating pro max ? currently hesitating, i like portabilty of iphone... is xt5 not that big and still convenient ? how many lens do u have",
+      "author": "Ivan_pk5",
+      "subreddit": "FujifilmX",
+      "created_utc": 1719176245,
+      "score": 1,
+      "link_id": "t3_1c4co6p",
+      "parent_id": "t1_kznctzc"
+    },
+    {
+      "id": "l9y8v3c",
+      "body": "sorry, wrote this right after sauna, was still fuzzy",
+      "author": "Ivan_pk5",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1719173726,
+      "score": -1,
+      "link_id": "t3_1dmpkz4",
+      "parent_id": "t1_l9y8ld9"
+    },
+    {
+      "id": "l9xtox0",
+      "body": "Thumbs up for the jokers, I'm a bi / cloud so I'm not coding expert, gpt to couldn't deliver properly simple small projects without me needing to clearly looks at the code, will try 3.5 sonnet this week",
+      "author": "Ivan_pk5",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1719168290,
+      "score": -1,
+      "link_id": "t3_1dmpkz4",
+      "parent_id": "t3_1dmpkz4"
+    },
+    {
+      "id": "l9wplmu",
+      "body": "Good remark, iso shutter makes me hesitant, more than wr, still not sure",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719153568,
+      "score": 1,
+      "link_id": "t3_1dj2y53",
+      "parent_id": "t1_l99cu84"
+    },
+    {
+      "id": "l9wpdxa",
+      "body": "Which small lens do u recommend ? I want to take a xt5 but don't want to carry it around my neck all day, if I go to a hill to do drone for eg",
+      "author": "Ivan_pk5",
+      "subreddit": "fujifilm",
+      "created_utc": 1719153486,
+      "score": 1,
+      "link_id": "t3_1dj2y53",
+      "parent_id": "t1_l99s4fl"
+    },
+    {
+      "id": "l9wlqqa",
+      "body": "Can you explain how to get the best usage of artefacts ? How to be productive with it ? Does it handle react ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1719152061,
+      "score": 2,
+      "link_id": "t3_1dmc6n7",
+      "parent_id": "t3_1dmc6n7"
+    },
+    {
+      "id": "l9wkves",
+      "body": "Ok ... I work out 2 times a week, I need to do more. Any specific workout ? Also I have struggle to leave bed before 8am, any tips ? I don't drink alcohol before sleeping, no meat fish etc, just rice with tomato carotte avocado",
+      "author": "Ivan_pk5",
+      "subreddit": "ChineseMedicine",
+      "created_utc": 1719151708,
+      "score": 1,
+      "link_id": "t3_1dkyn9m",
+      "parent_id": "t1_l9sagna"
+    },
+    {
+      "id": "l9qslg1",
+      "body": "can we use it for react ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1719050887,
+      "score": 1,
+      "link_id": "t3_1dkdzgi",
+      "parent_id": "t1_l9jnqbc"
+    },
+    {
+      "id": "l9qe1g8",
+      "body": "inspiration from my exchange semester in chongqing, near sichuan, also visited chengdu",
+      "author": "Ivan_pk5",
+      "subreddit": "ChineseMedicine",
+      "created_utc": 1719040103,
+      "score": 2,
+      "link_id": "t3_1dkyn9m",
+      "parent_id": "t1_l9ok81o"
+    },
+    {
+      "id": "l9nfox4",
+      "body": "I also have yang issues , coffee not good with too much caffeine, I even tried cold brew coffee\n\nWhen I wake up I do black tea with Sichuan pepper. Then ginger cinnamon liquorice . I blend everything and put hot water,same for Sichuan pepper. Try this op",
+      "author": "Ivan_pk5",
+      "subreddit": "ChineseMedicine",
+      "created_utc": 1718993795,
+      "score": 1,
+      "link_id": "t3_1dkyn9m",
+      "parent_id": "t3_1dkyn9m"
+    },
+    {
+      "id": "l9nfku3",
+      "body": "When I wake up I do black tea with Sichuan pepper. Then ginger cinnamon liquorice . I blend everything and put hot water,same for Sichuan pepper. Try this op",
+      "author": "Ivan_pk5",
+      "subreddit": "ChineseMedicine",
+      "created_utc": 1718993756,
+      "score": 1,
+      "link_id": "t3_1dkyn9m",
+      "parent_id": "t1_l9l5w3k"
+    },
+    {
+      "id": "l9h40av",
+      "body": "Excel, Access, Snowflake\nPython, Sql, Power Bi\nData bricks, Fabric, Spark\nSQL Server , Posture \nAirflow Airbyte Meltano\nBig Query, Docker, Linux",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1718897376,
+      "score": 1,
+      "link_id": "t3_1dkebh5",
+      "parent_id": "t3_1dkebh5"
+    },
+    {
+      "id": "l9cwp4d",
+      "body": "what about battery ? did u consome a lot of media while on plane ? do u have nanotexture ?",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1718827254,
+      "score": 1,
+      "link_id": "t3_1djlail",
+      "parent_id": "t3_1djlail"
+    },
+    {
+      "id": "l95k33c",
+      "body": "What made you decide ? Are u satisfied ? Did u try several scenario before going for it ? Do u use cloud hosting or on prem ? Is it expensive ? Sorry for all the questions, currently deciding an architecture",
+      "author": "Ivan_pk5",
+      "subreddit": "bigdata",
+      "created_utc": 1718718618,
+      "score": 1,
+      "link_id": "t3_pse4gb",
+      "parent_id": "t1_l9526sc"
+    },
+    {
+      "id": "l8zr80b",
+      "body": "did you find alternative ? i could'nt even install superset so i stopped this scenario",
+      "author": "Ivan_pk5",
+      "subreddit": "BusinessIntelligence",
+      "created_utc": 1718628198,
+      "score": 1,
+      "link_id": "t3_s80coi",
+      "parent_id": "t1_hzy89uo"
+    },
+    {
+      "id": "l8zamt5",
+      "body": "ahah, nice joke for a monday morning",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1718618784,
+      "score": 3,
+      "link_id": "t3_1dhsqim",
+      "parent_id": "t3_1dhsqim"
+    },
+    {
+      "id": "l8uungo",
+      "body": "Ok thanks for your feedback. Being doing cloud project for 1 year so I stepped back from power bi , getting back now  to it for a new project",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1718544077,
+      "score": 1,
+      "link_id": "t3_1dgf1mw",
+      "parent_id": "t1_l8u5feh"
+    },
+    {
+      "id": "l8u4guq",
+      "body": "Yes I understood the same, I will try it this week. But it might be better than clickhouse for cloud architecture ?",
+      "author": "Ivan_pk5",
+      "subreddit": "BusinessIntelligence",
+      "created_utc": 1718527627,
+      "score": 1,
+      "link_id": "t3_1de2x02",
+      "parent_id": "t1_l8rs5jl"
+    },
+    {
+      "id": "l8u4cgc",
+      "body": "Thanks for your feedback. Im surprised no other feedback, I'm indeed not sure how this will work in real life. But I'm sure for multiple reports for a company using the same template for navigation , filter, the work of bookmark will be greatly improved, while before I had to do all manually since bookmark copy paste doesn't work.",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1718527537,
+      "score": 1,
+      "link_id": "t3_1dgf1mw",
+      "parent_id": "t1_l8s8kmf"
+    },
+    {
+      "id": "l8pb4mb",
+      "body": "i have another question, do you think motherduck + duckdb can be an alternative to clickhouse ?",
+      "author": "Ivan_pk5",
+      "subreddit": "BusinessIntelligence",
+      "created_utc": 1718441987,
+      "score": 1,
+      "link_id": "t3_1de2x02",
+      "parent_id": "t1_l8jn7jb"
+    },
+    {
+      "id": "l8jqrh2",
+      "body": "Thanks a lot really. I LL say to my colleague pinot is too complex to install compared to clickhouse",
+      "author": "Ivan_pk5",
+      "subreddit": "BusinessIntelligence",
+      "created_utc": 1718350014,
+      "score": 1,
+      "link_id": "t3_1de2x02",
+      "parent_id": "t1_l8jn7jb"
+    },
+    {
+      "id": "l8jm206",
+      "body": "thanks a lot for your feedback",
+      "author": "Ivan_pk5",
+      "subreddit": "BusinessIntelligence",
+      "created_utc": 1718346861,
+      "score": 1,
+      "link_id": "t3_1de2x02",
+      "parent_id": "t1_l8ig5z7"
+    },
+    {
+      "id": "l8jlwof",
+      "body": "what did you choose ?",
+      "author": "Ivan_pk5",
+      "subreddit": "bigdata",
+      "created_utc": 1718346764,
+      "score": 1,
+      "link_id": "t3_pse4gb",
+      "parent_id": "t1_hdqvl0q"
+    },
+    {
+      "id": "l8bn93k",
+      "body": "Exactly",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1718223679,
+      "score": 1,
+      "link_id": "t3_1debl7r",
+      "parent_id": "t1_l8b4c8d"
+    },
+    {
+      "id": "l8bn7up",
+      "body": "No it's only my phone camera",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1718223667,
+      "score": 1,
+      "link_id": "t3_1debl7r",
+      "parent_id": "t1_l8b3hz4"
+    },
+    {
+      "id": "l8axayh",
+      "body": "Man, the m4 13' nanotexture is a blessing.just buy it . I have no scratch or whatever people say.  Look for yourself mine \nhttps://ibb.co/PwJkQxd",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1718215136,
+      "score": 9,
+      "link_id": "t3_1debl7r",
+      "parent_id": "t3_1debl7r"
+    },
+    {
+      "id": "l890ko4",
+      "body": "i personally don't have issues, except the pricing for my client. this is a small client, so i'm not used to this",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1718188579,
+      "score": 2,
+      "link_id": "t3_1de2tnf",
+      "parent_id": "t1_l88zr8s"
+    },
+    {
+      "id": "l8358a7",
+      "body": "https://preview.redd.it/c5jsi2u0iw5d1.png?width=1996&format=png&auto=webp&s=88b170b2a14515537a8d35cd7aac8d4f0753cf1c",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1718093484,
+      "score": 1,
+      "link_id": "t3_1dd52nb",
+      "parent_id": "t1_l8354f1"
+    },
+    {
+      "id": "l8354f1",
+      "body": "il y a pas les premières saisons ! 7 saisons sur 18 cest pas beaucoup. et quand j'ai essayé y a 1 mois y en avait que 2 ou 3. Pour le paraguay ahah bien joué, mais la communauté espagnole doit etre plus grande que la francaise alors",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1718093404,
+      "score": 1,
+      "link_id": "t3_1dd52nb",
+      "parent_id": "t1_l8343uf"
+    },
+    {
+      "id": "l83203y",
+      "body": "Ça me démoralise cette mentalite de petit bras, si c'était si simple de faire un ygg, ca se saurait, les gens oublient qu'on est pas au states avec une communauté anglophone gigantesque et des pays qui doublent pas les films et livres dans leur langue locale, car pas d'industrie locale assez grosse (tu crois qu'au Paraguay ils traduisent les films en paraguyens ? C'est un truc vraiment nombriliste français , on oublie que la grande majorité  de pays se réfèrent a l'anglais , et je pense aussi a des pays asiatiques qui vont consomment le contenu directement en anglais.\n\nEt je sais de quoi je parle, j'ai habité en chine pendant les études. Ygg remonte le niveau d'accessibilité du contenu français pour les français. J'ai perdu mon weekend de Pâques a chercher Pékin express en streaming, j'ai même chercher des DVD a achetée, j'étais prêt a mettre 200 €, sur ygg j'ai tout a disposition sans me casser la tête. Résultat des courses je regarde plus souvent m6 et leur pub de merdew grâce a ygg qui me permet d'avoir un m6 Replay qui n'existe pas dans la vraie vie alors que m6 a des équipes énormes et les moyens de faire une malheureuse plateforme de streaming .\n\nTu prends tous les francophones du monde, tu peux en enlever la moitié (je dis ça a la louche) qui peuvent pas faire de p2p avec leur réseau internet nul d'un pays du tiers monde / maghreb /afrique. Tenleves tous les bobos qui ont leur du lactose et de l'eau du robinet, il reste pas grand monde pour le P2P ! Allez coup de gueule du matin, ça fait du bien.",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1718091098,
+      "score": 1,
+      "link_id": "t3_1dd52nb",
+      "parent_id": "t3_1dd52nb"
+    },
+    {
+      "id": "l831f7q",
+      "body": "Oui mais pourquoi tu poses les bonnes questions ? Laisse les gens pleurnicher pour 20€ alors qu'ils économisent plusieurs k€ a l'année, si ce n'est plus (logiciel chers).\nÇa me démoralisé cette mentalite de petit bras, si c'était si simple de faire un ygg, ca se saurait, les gens oublient qu'on est pas au states/anglophone. Tu prends tous les francophones du monde, tu peux en enlever la moitié (je dis ça a la louche) qui peuvent pas faire de p2p avec leur réseau internet nul d'un pays du tiers monde / maghreb /afrique. Tenleves tous les bobos qui ont leur du lactose et de l'eau du robinet, il reste pas grand monde pour le P2P ! Allez coup de gueule du matin, ça fait du bien",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1718090675,
+      "score": -5,
+      "link_id": "t3_1dd52nb",
+      "parent_id": "t1_l82xgpu"
+    },
+    {
+      "id": "l7yj72s",
+      "body": "do u have a feedback regarding your use cases and the choice of vs code / fleet / webstorm ?",
+      "author": "Ivan_pk5",
+      "subreddit": "Jetbrains",
+      "created_utc": 1718025773,
+      "score": 1,
+      "link_id": "t3_1c3bbwh",
+      "parent_id": "t1_kzhgkih"
+    },
+    {
+      "id": "l7yizif",
+      "body": "what are ur different use case ? me it will be for react and d3 js , and some typescript node js",
+      "author": "Ivan_pk5",
+      "subreddit": "Jetbrains",
+      "created_utc": 1718025688,
+      "score": 1,
+      "link_id": "t3_1c3bbwh",
+      "parent_id": "t1_kzfu857"
+    },
+    {
+      "id": "l7xs2kt",
+      "body": "thanks a lot for the great tips. do you mind sharing a pbix example ? thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1718010779,
+      "score": 1,
+      "link_id": "t3_m30db1",
+      "parent_id": "t1_grxx504"
+    },
+    {
+      "id": "l7xlvuv",
+      "body": "Really interested if you could share a pbix example for your p&l technique, you'd make me happy",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1718006142,
+      "score": 1,
+      "link_id": "t3_1cm7u6r",
+      "parent_id": "t1_l3ajybp"
+    },
+    {
+      "id": "l7ieu5p",
+      "body": "are you on meds my guy ? if no you should get some , asap",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717758532,
+      "score": 0,
+      "link_id": "t3_1d9nmkn",
+      "parent_id": "t1_l7i3r0g"
+    },
+    {
+      "id": "l7hqgtq",
+      "body": "It's not as explicit as laptop configuration",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717741972,
+      "score": 2,
+      "link_id": "t3_1d9nmkn",
+      "parent_id": "t1_l7haj2v"
+    },
+    {
+      "id": "l7hqfqy",
+      "body": "Not fair",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717741952,
+      "score": 1,
+      "link_id": "t3_1d9nmkn",
+      "parent_id": "t1_l7giofc"
+    },
+    {
+      "id": "l7hqcls",
+      "body": "Thank you, I didn't plan to launch a small debate. I'm a tech guy, but I don't use ipad for working, but movies and reading newspaper so I don't need good ram, I didn't check . Also as you mentioned it is not on the website page. Didn't like the comment about \"people who buy things\", you can't judge someone on a small example. For working I chose carefully my laptop, I know exactly what is inside and I personally upgraded it. But for tablets I don't care about power, I care about the screen quality, and ability to be used outside in sun light (hence nanotexture)",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717741896,
+      "score": 2,
+      "link_id": "t3_1d9nmkn",
+      "parent_id": "t1_l7g5w0v"
+    },
+    {
+      "id": "l7er2lc",
+      "body": "i have m4 pro 1tb nanotexture, do i have 16gb ram ?",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717698052,
+      "score": 5,
+      "link_id": "t3_1d9nmkn",
+      "parent_id": "t1_l7eipr1"
+    },
+    {
+      "id": "l7dizwp",
+      "body": "Je crois que c'est normal, j'ai vu plusieurs personnes se plaindre de pas trouver des contenus qui sont pourtant sur la plateforme. Je test quelques mots clefs différent pour voir ce qui me donne des résultats.\n\nA confirmer par d'autres personnes, je suis nouveau sur ygg",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1717683399,
+      "score": 1,
+      "link_id": "t3_1d9gnv8",
+      "parent_id": "t3_1d9gnv8"
+    },
+    {
+      "id": "l7ck1gl",
+      "body": "Where did u go to find no one ? Weekends are less crowded but still during spring/summer I feel the city is not that empty, especially around the lake. I'd be glad to have tips where to be find not crowded area",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1717666418,
+      "score": 7,
+      "link_id": "t3_1d9dvtd",
+      "parent_id": "t3_1d9dvtd"
+    },
+    {
+      "id": "l7cftun",
+      "body": "Hi, i'm interested to know more about your tool :)",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1717663325,
+      "score": 1,
+      "link_id": "t3_18sqack",
+      "parent_id": "t1_kf8zvx3"
+    },
+    {
+      "id": "l79675x",
+      "body": "I never used it, is it power bi report running on prem ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1717611583,
+      "score": 1,
+      "link_id": "t3_1d8qn0o",
+      "parent_id": "t3_1d8qn0o"
+    },
+    {
+      "id": "l78c86r",
+      "body": "Oui en ebook français je me suis arraché les cheveux pour trouver par ex le dernier livre de Thomas pesquet. En contenu fr il y a pas d'alternatives, et il y a toute la presse chaque semaine, le jour de sortie de le point, challenges etc. je connaissais pas Anna archive, a voir s'il y a aussi du contenu français, mais je suis deja très satisfait de ygg",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1717601539,
+      "score": 1,
+      "link_id": "t3_1d8m4z1",
+      "parent_id": "t3_1d8m4z1"
+    },
+    {
+      "id": "l6vviir",
+      "body": "ok c'est revenu aussi chez moi, langoisse lol",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1717404688,
+      "score": 1,
+      "link_id": "t3_1d6k97f",
+      "parent_id": "t1_l6tu6c5"
+    },
+    {
+      "id": "l6ts681",
+      "body": "down chez moi, ca marchait tout a l'heure. il se fait ddos  ?",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1717366072,
+      "score": 1,
+      "link_id": "t3_1d6k97f",
+      "parent_id": "t1_l6te8p2"
+    },
+    {
+      "id": "l6o4x4x",
+      "body": "I took the 1tb, it's the minimum to get nanotexture screen. Not sure about price conversion I'm in Switzerland. I also have movies and tv show like James bond , so 1tb can be full quickly",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717271691,
+      "score": 1,
+      "link_id": "t3_1d5an64",
+      "parent_id": "t1_l6n8oba"
+    },
+    {
+      "id": "l6n4c4y",
+      "body": "I don't know, my pdf are between 50-100mb, I have between 10 to 20 at the same time on my Google drive . The nanotexture screen is a game changer to read in my bright living room, and in the sunny park",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717258237,
+      "score": 1,
+      "link_id": "t3_1d5an64",
+      "parent_id": "t1_l6ms2bl"
+    },
+    {
+      "id": "l6lp56k",
+      "body": "I spent the same amount just to read pdf in the park",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717234839,
+      "score": 1,
+      "link_id": "t3_1d5an64",
+      "parent_id": "t3_1d5an64"
+    },
+    {
+      "id": "l6gckrq",
+      "body": "did u try ur nano & matte under the sun ? my usage is 80% reading under the sun so i' don't have protection so far",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717148867,
+      "score": 0,
+      "link_id": "t3_1d4jovr",
+      "parent_id": "t1_l6f50hi"
+    },
+    {
+      "id": "l6djf59",
+      "body": "what do u mean by 20$ cloth ? i cant use normal cloth ?",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717101000,
+      "score": 1,
+      "link_id": "t3_1d4764k",
+      "parent_id": "t1_l6dddnm"
+    },
+    {
+      "id": "l6d95xs",
+      "body": "Reading magazine in a park near my home, so I took the m4 nanotextured, it s 10 times more confortable \nA bit expensive but worth it for me",
+      "author": "Ivan_pk5",
+      "subreddit": "iPadPro",
+      "created_utc": 1717097454,
+      "score": 1,
+      "link_id": "t3_1d46qbw",
+      "parent_id": "t3_1d46qbw"
+    },
+    {
+      "id": "l6c8cs1",
+      "body": "Can we run spark cluster on it ? Is it worth it compared to free data bricks cluster ?",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1717084006,
+      "score": 2,
+      "link_id": "t3_1d43xt2",
+      "parent_id": "t1_l6btdx0"
+    },
+    {
+      "id": "l6badpd",
+      "body": "There are very different, 600 is fabric while 203 is azure engineering. For me 203 was harder, and I was not sure to get it when validating the last question, while 600 I was sure to score high",
+      "author": "Ivan_pk5",
+      "subreddit": "AzureCertification",
+      "created_utc": 1717070638,
+      "score": 1,
+      "link_id": "t3_1d2h4pj",
+      "parent_id": "t1_l62m2o2"
+    },
+    {
+      "id": "l60xl5r",
+      "body": "yes i already do this, including python, sql , spark. but for consulting i need certs. i read medium a lot",
+      "author": "Ivan_pk5",
+      "subreddit": "AzureCertification",
+      "created_utc": 1716904906,
+      "score": 1,
+      "link_id": "t3_1d2h4pj",
+      "parent_id": "t1_l60hv60"
+    },
+    {
+      "id": "l5ftztm",
+      "body": "Same on Xiaomi, several times a day did u find a solution ?",
+      "author": "Ivan_pk5",
+      "subreddit": "GalaxyS8",
+      "created_utc": 1716535017,
+      "score": 1,
+      "link_id": "t3_7szyqb",
+      "parent_id": "t1_dt9gdwe"
+    },
+    {
+      "id": "l562voc",
+      "body": "i also find out this  \ndo u have the same feeling with gpt 4o ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ChatGPTPro",
+      "created_utc": 1716385098,
+      "score": 1,
+      "link_id": "t3_1bzgpws",
+      "parent_id": "t1_kyqeswj"
+    },
+    {
+      "id": "l526ns2",
+      "body": "i noticed the exact same thing with vit D. before i was drinking ginger tea, it helps but didn't change my life habits. vit D make me go out of my home more often, and reduce stress. do u have more tips ? thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "ChineseMedicine",
+      "created_utc": 1716317687,
+      "score": 1,
+      "link_id": "t3_gt7w5m",
+      "parent_id": "t1_fsavt74"
+    },
+    {
+      "id": "l4rquet",
+      "body": "Great ! What if my database has a weird architecture, should I put some tips and examples in the prompt to help your model understand my database ? Or the only choice is to retrain the model with example of my db ? I remember in some tutorials of txt2cypher we had to give some examples",
+      "author": "Ivan_pk5",
+      "subreddit": "Neo4j",
+      "created_utc": 1716144390,
+      "score": 1,
+      "link_id": "t3_1cubuv0",
+      "parent_id": "t3_1cubuv0"
+    },
+    {
+      "id": "l4d1v7z",
+      "body": "thanks for the tips, how did u find out ?",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1715893039,
+      "score": 1,
+      "link_id": "t3_1cr8r8w",
+      "parent_id": "t1_l4d0iir"
+    },
+    {
+      "id": "l4b5ior",
+      "body": "What is the mission on the picture with Eiffel tower ?",
+      "author": "Ivan_pk5",
+      "subreddit": "CallOfDuty",
+      "created_utc": 1715869049,
+      "score": 1,
+      "link_id": "t3_1ct274s",
+      "parent_id": "t3_1ct274s"
+    },
+    {
+      "id": "l4asv2m",
+      "body": "thanks for the answer. did u find useful template for power bi data modeling that i could use ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1715864008,
+      "score": 1,
+      "link_id": "t3_1ct8efo",
+      "parent_id": "t1_l4aikzv"
+    },
+    {
+      "id": "l465bo2",
+      "body": "like ginger ? before sauna i drink some red wine to open more meridians and handle cold showers",
+      "author": "Ivan_pk5",
+      "subreddit": "TCM",
+      "created_utc": 1715787497,
+      "score": 1,
+      "link_id": "t3_18rhpak",
+      "parent_id": "t1_kf1u82d"
+    },
+    {
+      "id": "l44ems1",
+      "body": "j'hesite aussi a prendre un abonnement mais ca parait trop bau pour etre vrai ...",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1715755220,
+      "score": 1,
+      "link_id": "t3_1cn2o7a",
+      "parent_id": "t1_l39hd6f"
+    },
+    {
+      "id": "l3zi4zr",
+      "body": "damn, its a bad news for me, i like to use custom gpt, but gpt 4o has better results for my tasks",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1715685626,
+      "score": 1,
+      "link_id": "t3_1cr8r8w",
+      "parent_id": "t1_l3wuvyy"
+    },
+    {
+      "id": "l3uvrr6",
+      "body": "c'est toujours le sujet",
+      "author": "Ivan_pk5",
+      "subreddit": "france",
+      "created_utc": 1715611793,
+      "score": 26,
+      "link_id": "t3_1cqvh8f",
+      "parent_id": "t1_l3uq2n0"
+    },
+    {
+      "id": "l3uvlkt",
+      "body": "oui",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1715611730,
+      "score": 1,
+      "link_id": "t3_1cqxrd1",
+      "parent_id": "t1_l3um40z"
+    },
+    {
+      "id": "l3uakkz",
+      "body": "Salut, en VF je connais que cpasbien mais il y a moins de choix que ygg, tu as essayé ?\n\nje regarde les séries en vo donc j'utilise ygg pour les contenus pour les émissions de télé divertissement FR (pékin express etc), et ebook francais, et il n'y a pas d'alternatives, j'ai cherché des heures un bouquin francais assez connu et il n'était que sur ygg",
+      "author": "Ivan_pk5",
+      "subreddit": "yggTorrents",
+      "created_utc": 1715603240,
+      "score": 3,
+      "link_id": "t3_1cqxrd1",
+      "parent_id": "t3_1cqxrd1"
+    },
+    {
+      "id": "l3rk2kr",
+      "body": "please share more info, we are all curious :)",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1715549537,
+      "score": 2,
+      "link_id": "t3_1cqgt6f",
+      "parent_id": "t3_1cqgt6f"
+    },
+    {
+      "id": "l3qcgaz",
+      "body": "Interesting, how do you use python ? For etl ? Gui ? Database management ?",
+      "author": "Ivan_pk5",
+      "subreddit": "learnpython",
+      "created_utc": 1715532839,
+      "score": 1,
+      "link_id": "t3_1cq985x",
+      "parent_id": "t1_l3qcak1"
+    },
+    {
+      "id": "l3qc7x3",
+      "body": "What do you develop ?",
+      "author": "Ivan_pk5",
+      "subreddit": "learnpython",
+      "created_utc": 1715532752,
+      "score": 1,
+      "link_id": "t3_1cq985x",
+      "parent_id": "t1_l3q48xq"
+    },
+    {
+      "id": "l3ouo2j",
+      "body": "nice, do you mind sharing the github ? thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "datavisualization",
+      "created_utc": 1715506600,
+      "score": 1,
+      "link_id": "t3_zh7uz5",
+      "parent_id": "t3_zh7uz5"
+    },
+    {
+      "id": "l3k0yfb",
+      "body": "germany has 1 month delay sorry",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1715421980,
+      "score": 1,
+      "link_id": "t3_1coviqa",
+      "parent_id": "t1_l3hrggu"
+    },
+    {
+      "id": "l3k0x57",
+      "body": "my god ai is really making us dependant on tech ahah, can't even process a time operation, or is he trolling",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1715421954,
+      "score": 2,
+      "link_id": "t3_1coviqa",
+      "parent_id": "t1_l3hxiia"
+    },
+    {
+      "id": "l3jqest",
+      "body": "thank a lot !!!",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715413794,
+      "score": 3,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t1_l3i92r9"
+    },
+    {
+      "id": "l3hzp2k",
+      "body": "well i have the same question... my personal opinion : all models based on llama 3 needs to be updated, i saw on a thread that all gguf quants will have to be redone when the bug will be corrected...",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715381346,
+      "score": 3,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t1_l3hz9tg"
+    },
+    {
+      "id": "l3hz48n",
+      "body": "thanks a lot !! rtx 4080 here",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715381105,
+      "score": 2,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t1_l3hu0lr"
+    },
+    {
+      "id": "l3hyzpm",
+      "body": "sorry, i meant : do you mean that you also expect a corrected version of hermes 2 pro, as this post shows a correction on llama 3, which is the model hermes 2 uses. so i was asking where  / if there is is a corrected version of hermes , sorry for being unclear",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715381053,
+      "score": 3,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t1_l3huwio"
+    },
+    {
+      "id": "l3ht3r3",
+      "body": "where is it ? or r u waiting for one ? currently working with function calling",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715378630,
+      "score": 2,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t1_l3h6ug5"
+    },
+    {
+      "id": "l3hsawp",
+      "body": "nice, can we have q8 ? thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715378311,
+      "score": 5,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t3_1cot7kx"
+    },
+    {
+      "id": "l3hs76w",
+      "body": "how should i use it with llama cpp python ? i need to respect the prompt format and manually put eot id as end right , it is not handled automatically ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715378270,
+      "score": 5,
+      "link_id": "t3_1cot7kx",
+      "parent_id": "t1_l3g73sz"
+    },
+    {
+      "id": "l3ejhpg",
+      "body": "homeoffice, as usual working day, no difference",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1715328924,
+      "score": 2,
+      "link_id": "t3_1coidgm",
+      "parent_id": "t3_1coidgm"
+    },
+    {
+      "id": "l3b837c",
+      "body": "do you some weed ahah ?",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1715276456,
+      "score": 1,
+      "link_id": "t3_1co0g4w",
+      "parent_id": "t1_l3avau1"
+    },
+    {
+      "id": "l39hnt6",
+      "body": "i have rtx 4080, will i also have improvement ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715251465,
+      "score": 2,
+      "link_id": "t3_1cnfkl3",
+      "parent_id": "t1_l372oh3"
+    },
+    {
+      "id": "l31kddo",
+      "body": "i'm also having issues to generate json, tried gorilla open function, grammar from llama cpp, function calling model... starting to loose hope. did u make new discoveries since that post ? now going to try lmql",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715118660,
+      "score": 1,
+      "link_id": "t3_197mnt5",
+      "parent_id": "t1_kid2594"
+    },
+    {
+      "id": "l31fem1",
+      "body": "imo, on top spin 5, i feel the timing for perfect shooting is different if it's grass clay or hard. is it just placebo ? if it was in my mind,  i want to ask refund but playstation doesnt accept easily...",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1715116876,
+      "score": 2,
+      "link_id": "t3_1cmlhxg",
+      "parent_id": "t1_l31c4jf"
+    },
+    {
+      "id": "l317yke",
+      "body": "how is it possible in 2024 ? is it a joke ? tennis world tour has this feature",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1715114309,
+      "score": 3,
+      "link_id": "t3_1cmlhxg",
+      "parent_id": "t1_l317p59"
+    },
+    {
+      "id": "l310flw",
+      "body": "thanks for your 2 answers. i am familiar with the size of model, but i expected the fine tuning to be useful, and allowing the fine tuned model here to be compared to gpt 4, at least on a scale. otherwise, if its less powerful for coding than free gpt 3.5 whats the point of doing this model ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715111738,
+      "score": 2,
+      "link_id": "t3_1cmgbv9",
+      "parent_id": "t1_l30rlbl"
+    },
+    {
+      "id": "l30dwb5",
+      "body": "thanks a lot !! i'm gonna try coding model for the first time. how does it compare to gpt 4 ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715103900,
+      "score": 4,
+      "link_id": "t3_1cmgbv9",
+      "parent_id": "t3_1cmgbv9"
+    },
+    {
+      "id": "l2yl8kl",
+      "body": "i have an idea of project regarding a traveling french tv show called pekine express; each season they travel in a continent, can be south america, africa, india/china. i think d3 can be very nice to highlights the trips they do everyday, the cities they visit, the monument they see (they have been to taj mahal). are u interested to help me think about this project ? long time i didn't do d3 so i'd like some advices before starting :)",
+      "author": "Ivan_pk5",
+      "subreddit": "d3js",
+      "created_utc": 1715077675,
+      "score": 1,
+      "link_id": "t3_1ck6jbb",
+      "parent_id": "t1_l2qc5f2"
+    },
+    {
+      "id": "l2yiojw",
+      "body": "did u get malwerebytes vpn ? feedback ? thanks :)",
+      "author": "Ivan_pk5",
+      "subreddit": "VPNAdvice",
+      "created_utc": 1715075918,
+      "score": 1,
+      "link_id": "t3_uuz48v",
+      "parent_id": "t1_khrif66"
+    },
+    {
+      "id": "l2ydbsc",
+      "body": "very interesting and useful for me, analytics engineer noob in c# that need to improve\n\ni'm interested by more tutorials like this, even more advanced in c# :) do you have a github ? followed u on medium, wish u good growth since its ur first article if im correct",
+      "author": "Ivan_pk5",
+      "subreddit": "csharp",
+      "created_utc": 1715071806,
+      "score": 2,
+      "link_id": "t3_1ck02fq",
+      "parent_id": "t3_1ck02fq"
+    },
+    {
+      "id": "l2v81z1",
+      "body": "did you try gorilla ? i don't have good results so far",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715020733,
+      "score": 1,
+      "link_id": "t3_16bik9d",
+      "parent_id": "t1_l0nkay7"
+    },
+    {
+      "id": "l2u2fa4",
+      "body": "up, anyone has more info ? i'm really sad about the current roaster",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1715005998,
+      "score": 1,
+      "link_id": "t3_1c9j190",
+      "parent_id": "t3_1c9j190"
+    },
+    {
+      "id": "l2to0yz",
+      "body": "tu as eu du nouveau depuis ? je suis en train de tester gorilla v2, j'ai ete decu par gpt 3.5 et 4 pour function calling",
+      "author": "Ivan_pk5",
+      "subreddit": "redditenfrancais",
+      "created_utc": 1715000208,
+      "score": 1,
+      "link_id": "t3_1855is0",
+      "parent_id": "t3_1855is0"
+    },
+    {
+      "id": "l2qbjln",
+      "body": "nice. during my master i did on thesis on railway data in paris. here s one of the inspiration i used [https://www.datavis.fr/tutorials/playing/metro/fullscreen.html](https://www.datavis.fr/tutorials/playing/metro/fullscreen.html)\n\n[https://www.datavis.fr/playing/metro](https://www.datavis.fr/playing/metro)\n\n  \nBtw do you recommand vue or react to use d3 js ?",
+      "author": "Ivan_pk5",
+      "subreddit": "d3js",
+      "created_utc": 1714938404,
+      "score": 1,
+      "link_id": "t3_1ck6jbb",
+      "parent_id": "t1_l2qb2tw"
+    },
+    {
+      "id": "l2qa358",
+      "body": "nice job. r u a student or its a side project ?",
+      "author": "Ivan_pk5",
+      "subreddit": "d3js",
+      "created_utc": 1714937867,
+      "score": 1,
+      "link_id": "t3_1ck6jbb",
+      "parent_id": "t3_1ck6jbb"
+    },
+    {
+      "id": "l2oclr5",
+      "body": "Pour moi également c'était impensable que Romain et Laura gagne, pas par le montage mais par leur manque de controle d'émotions. J'ai mis un poste coup de gueule sur le forum, hésite pas à lire et à faire un commentaire",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1714910128,
+      "score": 1,
+      "link_id": "t3_1c0lv1n",
+      "parent_id": "t1_l2obse8"
+    },
+    {
+      "id": "l2ob2mi",
+      "body": "tu avais raison pour romain et laura, je les voyais pas en final",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1714909247,
+      "score": 1,
+      "link_id": "t3_1c0lv1n",
+      "parent_id": "t1_kyxudep"
+    },
+    {
+      "id": "l2illd5",
+      "body": "How many books are there about Tokyo vive ? First one , a second one in 2023, and now the Tokyo noir releasing in may ? Is it a trilogy ? The last yakuza is not in this trilogy right ?",
+      "author": "Ivan_pk5",
+      "subreddit": "TokyoVice",
+      "created_utc": 1714811449,
+      "score": 1,
+      "link_id": "t3_1civfvf",
+      "parent_id": "t3_1civfvf"
+    },
+    {
+      "id": "l2g7gjc",
+      "body": "Interesse, il y a un GitHub ? Tu utilises neo4j?",
+      "author": "Ivan_pk5",
+      "subreddit": "france",
+      "created_utc": 1714769019,
+      "score": 2,
+      "link_id": "t3_1cja6c4",
+      "parent_id": "t1_l2f5o2k"
+    },
+    {
+      "id": "l2agrjj",
+      "body": "very nice, thanks for sharing. which version of d3 do u use ?",
+      "author": "Ivan_pk5",
+      "subreddit": "visualization",
+      "created_utc": 1714678137,
+      "score": 1,
+      "link_id": "t3_1cem9ea",
+      "parent_id": "t1_l1jf7fn"
+    },
+    {
+      "id": "l27wpyy",
+      "body": "would u mind sharing an example of your way on github ? i'm very interested, to go through documents of documentation",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714640694,
+      "score": 1,
+      "link_id": "t3_1ci8868",
+      "parent_id": "t1_l27vjat"
+    },
+    {
+      "id": "l27tx1r",
+      "body": "is it possible to do this quickly with langchain / rag framework ? which one did u use ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714638544,
+      "score": 1,
+      "link_id": "t3_1ci8868",
+      "parent_id": "t1_l27run9"
+    },
+    {
+      "id": "l24kbkz",
+      "body": "je t'ai envoyé un mp",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1714586850,
+      "score": 1,
+      "link_id": "t3_1ap4hra",
+      "parent_id": "t1_l243jjf"
+    },
+    {
+      "id": "l23x02c",
+      "body": "also started very young, i started cod gta at 1yo, also played esport tournament. sorry man u r just too old school",
+      "author": "Ivan_pk5",
+      "subreddit": "CallOfDuty",
+      "created_utc": 1714578958,
+      "score": 10,
+      "link_id": "t3_1chi45i",
+      "parent_id": "t1_l22tqdx"
+    },
+    {
+      "id": "l230igz",
+      "body": "interested",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1714566619,
+      "score": 2,
+      "link_id": "t3_1chfz0q",
+      "parent_id": "t3_1chfz0q"
+    },
+    {
+      "id": "l1jagi8",
+      "body": "Crazy all of this underground work. Thanks for keeping us updated",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714243172,
+      "score": 2,
+      "link_id": "t3_1cdmfoz",
+      "parent_id": "t1_l1ibjoa"
+    },
+    {
+      "id": "l1hn4f7",
+      "body": "yes sure man... is it a joke ? as if i was going to canada with a random european bachelor, with poor english, no working experience, what are my odds ? maybe u could get something in uk, but switzerland is not uk, its not american dream. learn french and get some good working experience, otherwise people will laugh at you, unless u r really lucky, 5% odds, even less",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1714219290,
+      "score": 10,
+      "link_id": "t3_1ceapgh",
+      "parent_id": "t1_l1hbgd7"
+    },
+    {
+      "id": "l1hmxvi",
+      "body": "yes sure man... is it a joke ? its like im going to canada with a random european bachelor, with poor english, what are my odds ? in uk u can get something, but switzerland is not uk",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1714219193,
+      "score": 1,
+      "link_id": "t3_1ceapgh",
+      "parent_id": "t3_1ceapgh"
+    },
+    {
+      "id": "l1hmr1u",
+      "body": "i dont know man, its a jungle out there",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714219090,
+      "score": 1,
+      "link_id": "t3_1cdmfoz",
+      "parent_id": "t1_l1f5bv9"
+    },
+    {
+      "id": "l1h6eax",
+      "body": "As of 27/04, which model can we use with llama cpp and are working perfectly ? On the GitHub it seems that more works need to be done to make llama 3 perfect ...",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714207969,
+      "score": 2,
+      "link_id": "t3_1cdmfoz",
+      "parent_id": "t3_1cdmfoz"
+    },
+    {
+      "id": "l1d6k5b",
+      "body": "Mine got stolen in the mailbox, be careful...",
+      "author": "Ivan_pk5",
+      "subreddit": "PlaystationPortal",
+      "created_utc": 1714145850,
+      "score": -1,
+      "link_id": "t3_1cdjvm3",
+      "parent_id": "t3_1cdjvm3"
+    },
+    {
+      "id": "l1d5daj",
+      "body": "thanks a lot, you'r right its for my usage. however, what is the difference by just using open ai api on llama cpp ? functionary will have better performance to understand when to use which functions ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714145445,
+      "score": 1,
+      "link_id": "t3_1cdmytt",
+      "parent_id": "t1_l1d4k3c"
+    },
+    {
+      "id": "l1d470u",
+      "body": "thanks for update. what about token end bug ? is it still a thing or was fixed, have been sleeping for a week",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714145046,
+      "score": 2,
+      "link_id": "t3_1cdmfoz",
+      "parent_id": "t3_1cdmfoz"
+    },
+    {
+      "id": "l1d341z",
+      "body": "i tried grammar from llama cpp but struggle to make the proper grammar format since i have constant value in the json, got lost in the syntax even using the typescript grammarbuild and the built in grammar from llama cpp server. \n\nyou can't add a description that explaines deeply which value you expect in each fields, correct if im wrong, unless you use enum, but me i need the model to understand which values to be passed in which fields, not sure grammar is the best option\n\ni m surprised by the accuracy of calling functions of open ai (can u se another model with llama cpp server, with the open ai api)\n\nyou say i should also inforce the output of function calling ?\n\ni tried outlines briefly but switch to fonction calling, but the pyndatic syntax looks nice\n\ni read that outlines is slower than grammar of llama cpp\n\nalso, i read that grammar doesn't mean the values output in the json will be correct, contraty to function calling where the results are good since you can describe precisely what you need in the description\n\nmy project is simple : i give some information to user prompt, i expect the model to output a json on a specified format with many constant, and some fields to be completed by the model using info in user promt. so far i feel function calling serves better this usage, if the function is called, the json format will be correct , at least its what i have so far\n\nany tips to enlighten my cave welcome ahah. i have rtx 4080 12 gbvram",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714144675,
+      "score": 1,
+      "link_id": "t3_1cdmytt",
+      "parent_id": "t1_l1d218t"
+    },
+    {
+      "id": "l1d1byd",
+      "body": "i'v been in a cave for longer than you, i was using open ai api so far, just start using local llm. thanks for the tips",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714144058,
+      "score": 1,
+      "link_id": "t3_1cdmytt",
+      "parent_id": "t1_l1cyffj"
+    },
+    {
+      "id": "l19whoe",
+      "body": "same feedback, the game is nice but too hard",
+      "author": "Ivan_pk5",
+      "subreddit": "react",
+      "created_utc": 1714089205,
+      "score": 2,
+      "link_id": "t3_1ccrfwb",
+      "parent_id": "t1_l17qfc6"
+    },
+    {
+      "id": "l19lz09",
+      "body": "yeah man, i played so much games on the 3",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1714085081,
+      "score": 1,
+      "link_id": "t3_1bma2df",
+      "parent_id": "t1_kwed2cp"
+    },
+    {
+      "id": "l19lov3",
+      "body": "even more than 10 years old virtua tennis 3 on psp and 4 on vita (djoko nadal federer) have more players...",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1714084973,
+      "score": 2,
+      "link_id": "t3_1cd3t4g",
+      "parent_id": "t1_l19l9mx"
+    },
+    {
+      "id": "l19l564",
+      "body": "worst roaster in the history of all tennis games...",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1714084763,
+      "score": 5,
+      "link_id": "t3_1cd3t4g",
+      "parent_id": "t3_1cd3t4g"
+    },
+    {
+      "id": "l19idr5",
+      "body": "really ? still at expert",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1714083697,
+      "score": 2,
+      "link_id": "t3_1cd0q3w",
+      "parent_id": "t1_l19gmys"
+    },
+    {
+      "id": "l1915fu",
+      "body": "can u share a pbix with ur button? i looked for a similar on, yours is nice",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1714077265,
+      "score": 2,
+      "link_id": "t3_1ccue7l",
+      "parent_id": "t3_1ccue7l"
+    },
+    {
+      "id": "l190i8v",
+      "body": "there is expert and legend ​... u have to unlock it",
+      "author": "Ivan_pk5",
+      "subreddit": "TopSpin2K",
+      "created_utc": 1714077052,
+      "score": 9,
+      "link_id": "t3_1cd0q3w",
+      "parent_id": "t1_l190amt"
+    },
+    {
+      "id": "l16v3y2",
+      "body": "s\\*\\*\\*\\*.. sorry to hear that. did u get some money back with insurance ? was it in us ?",
+      "author": "Ivan_pk5",
+      "subreddit": "VitaPiracy",
+      "created_utc": 1714047781,
+      "score": 1,
+      "link_id": "t3_1cc1t7i",
+      "parent_id": "t1_l16s4t3"
+    },
+    {
+      "id": "l16fhxq",
+      "body": "no but you can run llama 3 with maximum quant q8, i have rtx 4080 and between 20-50 token/sec. with 70b u ll get maybe 1 token sec",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714039202,
+      "score": 6,
+      "link_id": "t3_1cclmjk",
+      "parent_id": "t1_l16c46o"
+    },
+    {
+      "id": "l14f4m3",
+      "body": "nice ! but i'm not sure what 32k context means ? 32k for input prompt, and locally i can use unlimited token using -1",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714001387,
+      "score": -14,
+      "link_id": "t3_1ccbhjb",
+      "parent_id": "t3_1ccbhjb"
+    },
+    {
+      "id": "l12fxva",
+      "body": "how were u stolen ?",
+      "author": "Ivan_pk5",
+      "subreddit": "VitaPiracy",
+      "created_utc": 1713976947,
+      "score": 1,
+      "link_id": "t3_1cc1t7i",
+      "parent_id": "t1_l129j9k"
+    },
+    {
+      "id": "l10tow4",
+      "body": "[Can't load a local model with llama.cpp \"repo id must be a string\" \"model path does not exist\" · Issue #834 · outlines-dev/outlines (github.com)](https://github.com/outlines-dev/outlines/issues/834)\n\n  \nhi, i want to try outlines but i can't make it work with a local model :/ i put a github bug",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713953011,
+      "score": 1,
+      "link_id": "t3_191mseu",
+      "parent_id": "t3_191mseu"
+    },
+    {
+      "id": "l10mfhj",
+      "body": "can you explain how i should do, i'm not sure if i should use grammar or kor  \ni have json that have constant information but variable information that i'll pass to user prompt, i expect the model to fill the json by writing the information at the right position.\n\ni dont understand what you said   \nLlama CPP grammars. You can use them for having textual placeholders between sections, them parade the output with a regex. If the placeholder are descriptive, it won't affect the model generation. Llama doesn't like the repetitive quote pattern of will skip a beat or put one too many or lose track of start generating gibberish\n\ncan we put description of the field in grammar ? i understand that with kor it is possible but with grammar no. a bit lost here ... :)",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713947599,
+      "score": 1,
+      "link_id": "t3_16yrivb",
+      "parent_id": "t1_k3yg21p"
+    },
+    {
+      "id": "l10gdku",
+      "body": "But the bloke is not 1 person doing this on his free time right ? Imo it's a group of person working in ai, but I might be wrong",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713943001,
+      "score": 1,
+      "link_id": "t3_1cb7ewn",
+      "parent_id": "t1_l0yg1kr"
+    },
+    {
+      "id": "l10d4mf",
+      "body": "i wake up at 4am, run 10km, take cold shower, eat superbowl, start learning from 5am to 8am, start working in the uber to office, take 5minute break every 5 hours, eat lunch in 10 minute watching data youtube tutorials, work until 9pm. then i do 1 hour gym listening to data podcast. then i do leetcode grinding until 1am and sleep until 4 am, stil listening to latest ai news podcast. i do the same every weekend.\n\nall my coworkers have same kind of routine. if somebody leaves before 8pm, everyone is laughing in the office and the ceo is notified by email that the person took his afternoon off, halft of the day pay is deducted from salary unless the person arrives next morning at 6am.\n\ni make 80 000$ a month (+10k$ for food and uber) but still living on a student budget and feeling embarassed on a tinder date about my low tech salary. i'm also applying to 100+ jobs everyday, and having 10 daily coding interview.\n\ni drink 2 liters coffee everyday, 1 liter redbull for dinner.\n\ni am afraid i'm not doing enough, any tips to improve my daily routine ?",
+      "author": "Ivan_pk5",
+      "subreddit": "devops",
+      "created_utc": 1713940706,
+      "score": 142,
+      "link_id": "t3_1cbqh1b",
+      "parent_id": "t3_1cbqh1b"
+    },
+    {
+      "id": "l0x5kqh",
+      "body": "[microsoft/Phi-3-mini-128k-instruct · Quantization conversion error with LlamaCpp (huggingface.co)](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/discussions/11#6627e40809826aaa2509a53d)\n\n  \napparently they won't do it",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713894301,
+      "score": 2,
+      "link_id": "t3_1cb7ewn",
+      "parent_id": "t1_l0wxl36"
+    },
+    {
+      "id": "l0wtbv3",
+      "body": "nice, will they release gguf version ? there is gguf for 4k",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713890218,
+      "score": 16,
+      "link_id": "t3_1cb7ewn",
+      "parent_id": "t3_1cb7ewn"
+    },
+    {
+      "id": "l0w7luy",
+      "body": "ok thanks... its not working for the moment.. in the json some attributes are constant, but some other will depend by the user input in the prompt, i'm lost how to implement this logic in the grammar.",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713882768,
+      "score": 1,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_l0rhovo"
+    },
+    {
+      "id": "l0vbw6f",
+      "body": "Sounds nice, how can I launch the project , can u add a small part in the readme ? Nice job for a 17yo. Did you use ai /gpt  to be more efficient ? Do you plan to implement ai in the app ? Like suggesting to the user tasks or for example adding automatically studying session in the calendar before an exam",
+      "author": "Ivan_pk5",
+      "subreddit": "csharp",
+      "created_utc": 1713868700,
+      "score": 1,
+      "link_id": "t3_1caoe3n",
+      "parent_id": "t3_1caoe3n"
+    },
+    {
+      "id": "l0v63h1",
+      "body": "i wake up at 4am, run 10km, take cold shower, eat superbowl, start learning from 5am to 8am, start working in the uber to office, take 5minute break every 5 hours, eat lunch in 10 minute watching data youtube tutorials, work until 9pm. then i do 1 hour gym listening to data podcast. then i do leetcode grinding until 1am and sleep until 4 am, stil listening to latest ai news podcast. i do the same every weekend.\n\nall my coworkers have same kind of routine. if somebody leaves before 6pm, everyone is laughing in the office and the ceo is notified by email that the person took his afternoon off, halft of the day pay is deducted from salary unless the person arrives next morning at 6am.\n\ni make 80 000$ a month (+10k$ for food and uber) but still living on a student budget and feeling embarassed on a tinder date about my low tech salary. i'm also applying to 100+ jobs everyday, and having 10 daily coding interview.\n\ni drink 2 liters coffee everyday, 1 liter redbull for dinner. i am afraid i'm not doing enough, any tips to improve my daily routine ?",
+      "author": "Ivan_pk5",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1713864612,
+      "score": 19,
+      "link_id": "t3_1camu6k",
+      "parent_id": "t1_l0symb3"
+    },
+    {
+      "id": "l0v57za",
+      "body": "i wake up at 4am, run 10km, take cold shower, eat superbowl, start learning from 5am to 8am, start working in the uber to office, take 5minute break every 5 hours, eat lunch in 10 minute watching data youtube tutorials, work until 9pm. then i do 1 hour gym listening to data podcast. continue learning until 1am and sleep until 4 am. i do the same every weekend.\n\ni am afraid i'm not doing enough, any tips to improve my daily routine ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1713863939,
+      "score": 0,
+      "link_id": "t3_1c9t469",
+      "parent_id": "t3_1c9t469"
+    },
+    {
+      "id": "l0uyabh",
+      "body": "wow that's nice, thanks. did u try it ? will the instruct model have the same treatment ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713858581,
+      "score": 1,
+      "link_id": "t3_1caw9mh",
+      "parent_id": "t3_1caw9mh"
+    },
+    {
+      "id": "l0rdwrz",
+      "body": "it works thanks, now i have a shema. but sometimes the result is empty when i use particular prompt, i use llama 3 7B 8Q. what is best practice for prompt when using grammar ? \n\nalso can you confirm that i am on the right path for my project ? i will input in prompt user some values, that need to be put in the json at some place, but some fiels of the expected json structure will always have the same value; i'm not sure to implement correctly this variation\n\ni m not sure if grammar is the right way, is it ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713802591,
+      "score": 1,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_l0r55nu"
+    },
+    {
+      "id": "l0qfmai",
+      "body": "thanks for your quick answer!\n\ni want to restrain llm to output json on the following format but i get a message error when clicking on \"convert json schema\". I tried different format but i always have a mistake. (also in screencapture)\n\n  \nhere the format [jsontest/test.json at main · julian-passebecq/jsontest (github.com)](https://github.com/julian-passebecq/jsontest/blob/main/test.json)\n\nhttps://preview.redd.it/wb3cl9dh01wc1.png?width=783&format=png&auto=webp&s=e17201caf40a9d9fcade0972f029497ed2b6ab54\n\n>Convert failed: Expected ',' or '\\]' after array element in JSON at position 3827 (line 93 column 1)\n\nam i on the right path to do this with llm ? i tried function calling of gpt 3.5 turbo but it didn't work because this following format has some fields that need to be filled manually by the prompt, using information given in the initial prompt. a bit lost here, i am trying llama cpp grammar, next is outlines and lmql, if you have a tips i d be glad :)",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713789885,
+      "score": 1,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_l0q9ad3"
+    },
+    {
+      "id": "l0q90ks",
+      "body": "where do you launch this code please ? in w64 after using \"make\" ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713786713,
+      "score": 1,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjgv2xv"
+    },
+    {
+      "id": "l0g6uhw",
+      "body": "What is groq ? Elon musk gpt ? Requires x premium ?",
+      "author": "Ivan_pk5",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1713620937,
+      "score": -7,
+      "link_id": "t3_1c8nufp",
+      "parent_id": "t1_l0g5hjg"
+    },
+    {
+      "id": "l05hg1z",
+      "body": "pour plus de contexte tu es dans quel pays ? uk ou suisse ?",
+      "author": "Ivan_pk5",
+      "subreddit": "france",
+      "created_utc": 1713452174,
+      "score": 1,
+      "link_id": "t3_1c703sf",
+      "parent_id": "t3_1c703sf"
+    },
+    {
+      "id": "kzv81lc",
+      "body": "No German and no french says everything",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1713291896,
+      "score": 1,
+      "link_id": "t3_1c5mwp4",
+      "parent_id": "t3_1c5mwp4"
+    },
+    {
+      "id": "kzp8kfn",
+      "body": "I v been working all weekend on a 3.5 fine tuning to output Json in a specified format depending on input given by the user. However 50% of the output are empty. I tried 10 models with different prompt, retraining, nothing works. \n\nI read that rag should be preferred , I want to first try using Gpt 4 turbo and a big prompt to see if it does better than 3.5 fine tuning. \n\nAny Tip's welcome about rag",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1713199153,
+      "score": 2,
+      "link_id": "t3_1c4j6n7",
+      "parent_id": "t3_1c4j6n7"
+    },
+    {
+      "id": "kzcxlrk",
+      "body": "Je t'ai envoyé un mp",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1712998051,
+      "score": 1,
+      "link_id": "t3_1bs7psi",
+      "parent_id": "t1_kzawyek"
+    },
+    {
+      "id": "kz4917z",
+      "body": "Yes, I have elipsa 2e for reading and taking notes at the office but it's a bit too big, I will take color Libra to the office and I LL be able to make nice colored shema and annote documents with colors, seems interesting, might be really useful but I'm waiting to try it",
+      "author": "Ivan_pk5",
+      "subreddit": "kobo",
+      "created_utc": 1712861381,
+      "score": 1,
+      "link_id": "t3_1c1brqe",
+      "parent_id": "t3_1c1brqe"
+    },
+    {
+      "id": "kz48klw",
+      "body": "If it's same as on elipsa 2e then you won't be disappointed",
+      "author": "Ivan_pk5",
+      "subreddit": "kobo",
+      "created_utc": 1712861230,
+      "score": 3,
+      "link_id": "t3_1c1brqe",
+      "parent_id": "t1_kz36hx7"
+    },
+    {
+      "id": "kz28b57",
+      "body": "je mise sur finale corses / suisse, victoire des corses, pari risqué car les corses ont souvent des bas",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1712835505,
+      "score": 2,
+      "link_id": "t3_1c0lv1n",
+      "parent_id": "t1_kyxudep"
+    },
+    {
+      "id": "kz263ed",
+      "body": "thanks, i just ordered it",
+      "author": "Ivan_pk5",
+      "subreddit": "kobo",
+      "created_utc": 1712834367,
+      "score": 1,
+      "link_id": "t3_1c198fa",
+      "parent_id": "t1_kz21y6x"
+    },
+    {
+      "id": "kz2067m",
+      "body": "I'm also in switz, did you order it on Kobo or fnac website ?",
+      "author": "Ivan_pk5",
+      "subreddit": "kobo",
+      "created_utc": 1712830869,
+      "score": 2,
+      "link_id": "t3_1c198fa",
+      "parent_id": "t1_kz1qwsk"
+    },
+    {
+      "id": "kyse2g3",
+      "body": "ok i see, the tips is to to put sick leave to delay the last day of work ? however since i am on B permit, i will never be renewed if during 5 years i did 2 year of work and 3 year of rav right ? im not planning to get fired but i'm curious ahah",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1712679674,
+      "score": 1,
+      "link_id": "t3_1bzo6kc",
+      "parent_id": "t1_kys2rhz"
+    },
+    {
+      "id": "kyrawr1",
+      "body": "Hi, can you give more insights about this ? Interested to learn the swiss way ahah (I'm from Luxembourg)",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1712664773,
+      "score": 2,
+      "link_id": "t3_1bzo6kc",
+      "parent_id": "t1_kyr2sz5"
+    },
+    {
+      "id": "kyheg87",
+      "body": "Thanks a lot for your quick help on a Sunday, it works fine :) was the occasion to also get old PSP games I used to play, virtual tennis 3 and ssx tour :)",
+      "author": "Ivan_pk5",
+      "subreddit": "VitaPiracy",
+      "created_utc": 1712504815,
+      "score": 1,
+      "link_id": "t3_1by543h",
+      "parent_id": "t1_kyh0frv"
+    },
+    {
+      "id": "kygzv6o",
+      "body": "Thank for your quick answer . Alright I LL do the psp versions . Any tips for control remapping , do I need plugin ? I don't play PSP games for the moment, but I have of course the adrenaline PSP menu (not sure the name is correct, but I can launch a PSP emulator and launch PSP games )",
+      "author": "Ivan_pk5",
+      "subreddit": "VitaPiracy",
+      "created_utc": 1712499371,
+      "score": 0,
+      "link_id": "t3_1by543h",
+      "parent_id": "t1_kygxm1l"
+    },
+    {
+      "id": "kygw7ob",
+      "body": "je t'ai envoye un mp, reponds moi dessus",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1712497871,
+      "score": 1,
+      "link_id": "t3_1bs7psi",
+      "parent_id": "t1_kygk7s9"
+    },
+    {
+      "id": "kygw6zx",
+      "body": "je t'ai envoye un mp, reponds moi dessus",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1712497863,
+      "score": 1,
+      "link_id": "t3_1bs7psi",
+      "parent_id": "t1_kyejja5"
+    },
+    {
+      "id": "kxzltya",
+      "body": "are you serious ? it took them that many months to figure it out ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PlaystationPortal",
+      "created_utc": 1712223355,
+      "score": 1,
+      "link_id": "t3_1bty991",
+      "parent_id": "t1_kxumuvr"
+    },
+    {
+      "id": "kxvzr9p",
+      "body": "Definitely interested by screenshots, thanks a lot",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1712167586,
+      "score": 2,
+      "link_id": "t3_1bund5b",
+      "parent_id": "t1_kxv5lxp"
+    },
+    {
+      "id": "kxjfp7l",
+      "body": "1 year is not enough. i had 5 years exp, master, french native , and still i only got 2 jobs in 3 months in IT",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1711977652,
+      "score": 1,
+      "link_id": "t3_1bswwhm",
+      "parent_id": "t1_kxisuhs"
+    },
+    {
+      "id": "kxish2s",
+      "body": "C1 in french, otherwise u LL be disappointed. And u only have a bachelor",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1711964705,
+      "score": 2,
+      "link_id": "t3_1bswwhm",
+      "parent_id": "t3_1bswwhm"
+    },
+    {
+      "id": "kxis8kq",
+      "body": "It does, it has been changing for a few years. I have friends there, for ex 1 PhD have to take swiss  German class , his boss not happy with his fluent German. Check reddit, LinkedIn, you LL see that German is now a added filter , since jobs market is tough",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1711964539,
+      "score": 1,
+      "link_id": "t3_1bsdlf3",
+      "parent_id": "t1_kxidhdv"
+    },
+    {
+      "id": "kxis2bn",
+      "body": "Ahahah nice April fish :) yeah just read wikipedia to manage 100 people, don't develop your own tools",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1711964415,
+      "score": 3,
+      "link_id": "t3_1bsz6an",
+      "parent_id": "t3_1bsz6an"
+    },
+    {
+      "id": "kxiqjkk",
+      "body": "April fish ?",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1711963279,
+      "score": 1,
+      "link_id": "t3_1bssntv",
+      "parent_id": "t3_1bssntv"
+    },
+    {
+      "id": "kxglcpr",
+      "body": "Developers are in demand, more than project manager so it could explain your problem. It is also true that Zurich has more it jobs but a lot requires fluent German",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1711923513,
+      "score": 1,
+      "link_id": "t3_1bsdlf3",
+      "parent_id": "t1_kxgksjd"
+    },
+    {
+      "id": "kxgjt4w",
+      "body": "Do you speak french ? Which it skills do you have ? How many years exp ? Do you have cs master ?",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1711922922,
+      "score": 1,
+      "link_id": "t3_1bsdlf3",
+      "parent_id": "t3_1bsdlf3"
+    },
+    {
+      "id": "kxe6oj6",
+      "body": "j'ai la saison 13 envoie un mp",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711891444,
+      "score": 1,
+      "link_id": "t3_1bdlai9",
+      "parent_id": "t3_1bdlai9"
+    },
+    {
+      "id": "kxe2v17",
+      "body": "ca marche merci, tu penses que je peux y aller sans billet donc ?",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1711889649,
+      "score": 1,
+      "link_id": "t3_1bs7u0z",
+      "parent_id": "t1_kxdti05"
+    },
+    {
+      "id": "kxdqqo0",
+      "body": "Yes envoie un mp j'ai trouvé des saisons",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711882614,
+      "score": 1,
+      "link_id": "t3_1bdlai9",
+      "parent_id": "t1_kxdn7cj"
+    },
+    {
+      "id": "kxb80p2",
+      "body": "hi, what is your situation now, did u find a job ?",
+      "author": "Ivan_pk5",
+      "subreddit": "askswitzerland",
+      "created_utc": 1711835109,
+      "score": 1,
+      "link_id": "t3_16mmexy",
+      "parent_id": "t1_k1dxhgr"
+    },
+    {
+      "id": "kxav2f6",
+      "body": "intéressé si quelqu'un a un lien svp j'ai les saisons 11 12 13 14 15",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711830340,
+      "score": 1,
+      "link_id": "t3_1ap4hra",
+      "parent_id": "t1_kx4mymf"
+    },
+    {
+      "id": "kxav1y5",
+      "body": "intéressé si quelqu'un a un lien svp j'ai les saisons 11 12 13 14 15",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711830335,
+      "score": 1,
+      "link_id": "t3_1ap4hra",
+      "parent_id": "t1_kujwa43"
+    },
+    {
+      "id": "kxav10r",
+      "body": "intéressé si quelqu'un a un lien svp j'ai les saisons 11 12 13 14 15",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711830325,
+      "score": 1,
+      "link_id": "t3_1ap4hra",
+      "parent_id": "t3_1ap4hra"
+    },
+    {
+      "id": "kx8xzp7",
+      "body": "j'ai trouvé d'autres saisons sur le web, envoie un MP je t'envoie les liens, il y a la 12",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711803945,
+      "score": 2,
+      "link_id": "t3_1bdlai9",
+      "parent_id": "t1_kwh1l94"
+    },
+    {
+      "id": "kx8p1wg",
+      "body": "It's not a hard winter I find it quiet nice here",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1711799194,
+      "score": 2,
+      "link_id": "t3_1brei13",
+      "parent_id": "t1_kx8nln7"
+    },
+    {
+      "id": "kx8m6id",
+      "body": "I m from Luxembourg, I disagree, Geneva winter is quiet nice, a lot of daylight everyday",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1711797371,
+      "score": 9,
+      "link_id": "t3_1brei13",
+      "parent_id": "t1_kx8ltvt"
+    },
+    {
+      "id": "kx6s5ld",
+      "body": "Oh the official repo thanks. Do you have some tips to start ? I'm advanced in Dax but never used te",
+      "author": "Ivan_pk5",
+      "subreddit": "datascience",
+      "created_utc": 1711758931,
+      "score": 1,
+      "link_id": "t3_171jptd",
+      "parent_id": "t1_kx6mvjo"
+    },
+    {
+      "id": "kx6e9v1",
+      "body": "do you have ressources to recommand about this ? i know about power automate scripts, but no about c#",
+      "author": "Ivan_pk5",
+      "subreddit": "datascience",
+      "created_utc": 1711753439,
+      "score": 1,
+      "link_id": "t3_171jptd",
+      "parent_id": "t1_k3rx14m"
+    },
+    {
+      "id": "kx6e4as",
+      "body": "hi, i'm interested by the repo, i'm learning c# and do power bi :)",
+      "author": "Ivan_pk5",
+      "subreddit": "datascience",
+      "created_utc": 1711753377,
+      "score": 1,
+      "link_id": "t3_171jptd",
+      "parent_id": "t1_k3sr0yd"
+    },
+    {
+      "id": "kwvio4g",
+      "body": "Dataflows are terrible for etl, only use for power query when your data source is a mess SQL can't handle. I only use Power query to work with messy excel",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1711581290,
+      "score": 1,
+      "link_id": "t3_1bpa1uy",
+      "parent_id": "t1_kwuopx0"
+    },
+    {
+      "id": "kwhhh9s",
+      "body": "[https://www.youtube.com/@tvshowonline9135](https://www.youtube.com/@tvshowonline9135)\n\nj'ai regardé la 1,2,4,6,10. je vais re regarder la  qui part de pekin jusqu'à bombay. (je crois). la 6 et 10 sont biens,  1 inmanquable, 4 moyen, 5 commence mal, binomes ennuyeux",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711374609,
+      "score": 1,
+      "link_id": "t3_1bdlai9",
+      "parent_id": "t1_kwh1l94"
+    },
+    {
+      "id": "kwbtsi7",
+      "body": "pareil ... je ne trouve rien a part sur youtube",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711281727,
+      "score": 1,
+      "link_id": "t3_1av1iqt",
+      "parent_id": "t3_1av1iqt"
+    },
+    {
+      "id": "kwbtngi",
+      "body": "je suis aussi triste, je ne trouve rien. je suis ok pour payer chaque saison, j'ai regardé si c'était dispo en dvd je ne trouve RIEN a part quelques saisons sur youtube. comment est ce possible ??",
+      "author": "Ivan_pk5",
+      "subreddit": "PekinExpress",
+      "created_utc": 1711281646,
+      "score": 1,
+      "link_id": "t3_1bdlai9",
+      "parent_id": "t3_1bdlai9"
+    },
+    {
+      "id": "kwbru4e",
+      "body": "i am also euroepan dev bi/big data/ml since 2018. it is not possible to know in advance. you will evolve with new opportunies, companies, jobs, projects, managers. i started as analyst, then bi, now cloud. i did full wfh, full office, 3 days office. i had to move from comfort zone and present in front of boards, clients. you will have to make career path choice and learn to adapt. regarding your current job offer, both are nice, and will give you a good starting point. a benefits of it is that u won't stay blocked in 1 techno",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1711280561,
+      "score": 13,
+      "link_id": "t3_1bmi65g",
+      "parent_id": "t3_1bmi65g"
+    },
+    {
+      "id": "kw1uo4j",
+      "body": "do you want to share it with us :) ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1711118146,
+      "score": 5,
+      "link_id": "t3_1bkwdyy",
+      "parent_id": "t1_kw1b1jm"
+    },
+    {
+      "id": "kw1unog",
+      "body": "do you want to share it with us :) ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1711118142,
+      "score": 12,
+      "link_id": "t3_1bkwdyy",
+      "parent_id": "t1_kw12tq4"
+    },
+    {
+      "id": "kveh6fx",
+      "body": "no, but to a premium workspace, me and the user have ppu license",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1710751974,
+      "score": 1,
+      "link_id": "t3_1bhcvwg",
+      "parent_id": "t1_kvczefr"
+    },
+    {
+      "id": "kvebioi",
+      "body": "Mine got bricked the first week in 2021. Luckily a guy at the client service didn't let me loose my money, he repaired it on its own time, client service didn't want to take it back. Later SSD burned with no reason, I have to replace it. Also had to change ram to 32gb even if not apparently needed for my work ATM. Now battery is dead, just replaced it. And I'm not even gaming on that laptop, was well inspirion 17 inch i7 11. Now I'm going to msi",
+      "author": "Ivan_pk5",
+      "subreddit": "GamingLaptops",
+      "created_utc": 1710747418,
+      "score": 4,
+      "link_id": "t3_1bhkkoh",
+      "parent_id": "t1_kveauy4"
+    },
+    {
+      "id": "kvba44n",
+      "body": "ok so you downloaded all subtiles ?",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1710699141,
+      "score": 2,
+      "link_id": "t3_1bfy2sq",
+      "parent_id": "t1_kvb83by"
+    },
+    {
+      "id": "kvazecc",
+      "body": "Nice, i'm curious how you did it ? Any tips or github? Thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1710695474,
+      "score": 1,
+      "link_id": "t3_1bfy2sq",
+      "parent_id": "t3_1bfy2sq"
+    },
+    {
+      "id": "kvainx1",
+      "body": "good to know i will come for 2 months this summer, 1 month holiday + 1 month remote work (nothing to do with norway, only swiss clients)",
+      "author": "Ivan_pk5",
+      "subreddit": "oslo",
+      "created_utc": 1710689558,
+      "score": 2,
+      "link_id": "t3_1bggfaj",
+      "parent_id": "t1_kv9lxb1"
+    },
+    {
+      "id": "kv9lhq6",
+      "body": "I see sorry. Since I'm Eu passport but working and living in switzerland I'm in the same situation of OP ?",
+      "author": "Ivan_pk5",
+      "subreddit": "oslo",
+      "created_utc": 1710674412,
+      "score": 1,
+      "link_id": "t3_1bggfaj",
+      "parent_id": "t1_kv9balu"
+    },
+    {
+      "id": "kv7ugu0",
+      "body": "It seems that it s ok for him ?\n\nIf you are visiting in Norway, you can still carry out some remote work for your employer abroad or in connection with your own business activities abroad. For example, you can check and answer e-mails, make telephone calls and participate in digital meetings. It is a prerequisite that the remote work is not the main purpose of your stay, and that the remote work does not create value in Norway or is connected to Norway. You cannot perform remote work for an employer or client in Norway, nor can you perform remote work as part of running a business in Norway. ",
+      "author": "Ivan_pk5",
+      "subreddit": "oslo",
+      "created_utc": 1710637005,
+      "score": 1,
+      "link_id": "t3_1bggfaj",
+      "parent_id": "t1_kv7luji"
+    },
+    {
+      "id": "kv436b5",
+      "body": "What did u choose ?",
+      "author": "Ivan_pk5",
+      "subreddit": "MSILaptops",
+      "created_utc": 1710576397,
+      "score": 1,
+      "link_id": "t3_18paaeq",
+      "parent_id": "t1_kjgtyde"
+    },
+    {
+      "id": "kv202mf",
+      "body": "A tax refund really ? Ok I'll ask thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1710539514,
+      "score": 4,
+      "link_id": "t3_1bfp48t",
+      "parent_id": "t1_kv1yasx"
+    },
+    {
+      "id": "kut67uy",
+      "body": "it is not that hard. prepare well, do ms free assesment and find mock exam. yes you can read ms documentation during the exam, it won't save the exam if you didn't prepare well, i used it at the end for questions i was not sure, and i don't think it always helped me cleared those questions",
+      "author": "Ivan_pk5",
+      "subreddit": "microsoft",
+      "created_utc": 1710407367,
+      "score": 1,
+      "link_id": "t3_1bdtv3q",
+      "parent_id": "t3_1bdtv3q"
+    },
+    {
+      "id": "kut61rq",
+      "body": "same here, 897. also got pl 300 dp 500 and dp 203. \n\ndifficulty order for me : 203, 300/600, 500\n\ni don't feel 300 is hard, but it is not as easy as it looks like. a former colleague missed it recently because it requires preparation. whille 500 and 600, felt more easy. 203 scope is wide, not that difficult, but still needs more preparation than 300",
+      "author": "Ivan_pk5",
+      "subreddit": "u_Zeshiba",
+      "created_utc": 1710407236,
+      "score": 1,
+      "link_id": "t3_1begden",
+      "parent_id": "t3_1begden"
+    },
+    {
+      "id": "kut61cv",
+      "body": "same here, 897. also got pl 300 dp 500 and dp 203. \n\ndifficulty order for me : 203, 300/600, 500\n\ni don't feel 300 is hard, but it is not as easy as it looks like. a former colleague missed it recently because it requires preparation. whille 500 and 600, felt more easy. 203 scope is wide, not that difficult, but still needs more preparation than 300",
+      "author": "Ivan_pk5",
+      "subreddit": "u_Zeshiba",
+      "created_utc": 1710407227,
+      "score": 1,
+      "link_id": "t3_1begden",
+      "parent_id": "t3_1begden"
+    },
+    {
+      "id": "kudk2h4",
+      "body": "would you share a pbix template for us ? :)",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1710169994,
+      "score": 1,
+      "link_id": "t3_1bbtr4a",
+      "parent_id": "t1_kucltxx"
+    },
+    {
+      "id": "ktw3j18",
+      "body": "I'm the president secretary, I confirm 100%",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1709885952,
+      "score": 2,
+      "link_id": "t3_1b8y0gg",
+      "parent_id": "t1_ktt3u0o"
+    },
+    {
+      "id": "ktr64mx",
+      "body": "Thanks four your reply ! How do you export data to databricks ? Do you use azure synapse link to parquet data lake and then use databricks ? Do you only use views or also recreate table on databricks and store data somewhere else than azure data lake ? Currently playing with community edition. Thanks :)",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1709812695,
+      "score": 1,
+      "link_id": "t3_16sxi9c",
+      "parent_id": "t1_ktr04s1"
+    },
+    {
+      "id": "ktqv2nl",
+      "body": "But in Dataverse you don't find all D365 F&O Tables right ? When i directly connect to Dataverse i don't see all the tables i need, so i have to use azure synapse link, did i miss something ?",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1709805418,
+      "score": 1,
+      "link_id": "t3_132sgub",
+      "parent_id": "t1_jicry29"
+    },
+    {
+      "id": "ktququn",
+      "body": "Did you advance on your project ? I m also on D365/BI, i understand that synapse will be killed by ms fabric. i did some machine learning with custtrans on fabric, nothing fancy but working",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1709805175,
+      "score": 2,
+      "link_id": "t3_16sxi9c",
+      "parent_id": "t3_16sxi9c"
+    },
+    {
+      "id": "kswyxxh",
+      "body": "Which tool should we use to do that ?",
+      "author": "Ivan_pk5",
+      "subreddit": "GPTStore",
+      "created_utc": 1709330197,
+      "score": 1,
+      "link_id": "t3_1b3uves",
+      "parent_id": "t1_ksv3omd"
+    },
+    {
+      "id": "ksv1j0m",
+      "body": "Dbt is not an etl, it is only the T, am I wrong ?",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1709306652,
+      "score": 18,
+      "link_id": "t3_1b3vdae",
+      "parent_id": "t1_ksuw6bl"
+    },
+    {
+      "id": "ksohchc",
+      "body": "je t'ai envoyé un MP avec des questions :)",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1709205278,
+      "score": 1,
+      "link_id": "t3_114xppf",
+      "parent_id": "t1_j90sf4j"
+    },
+    {
+      "id": "ksoh8z5",
+      "body": "I lack context to give an opinion, Which techno do you use ? How is your SQL ?",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1709205210,
+      "score": 1,
+      "link_id": "t3_1b2xftn",
+      "parent_id": "t3_1b2xftn"
+    },
+    {
+      "id": "kqo6gr2",
+      "body": "Very interested. I'm a former DA/DS, now also doing DE with Synapse / Fabric. Will you talk about Fabric ? I'm wondering if it will replace Azure, and if big companies are already using it in Production. Thanks",
+      "author": "Ivan_pk5",
+      "subreddit": "dataengineering",
+      "created_utc": 1708081923,
+      "score": 1,
+      "link_id": "t3_1arpamc",
+      "parent_id": "t3_1arpamc"
+    },
+    {
+      "id": "kpx0d7u",
+      "body": "I'm afraid you didn't read correctly, I asked if it was possible to do it in another city",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1707651511,
+      "score": 1,
+      "link_id": "t3_1anthe1",
+      "parent_id": "t1_kpwpybl"
+    },
+    {
+      "id": "kpuif3t",
+      "body": "Nice thank you.I'm coming from luxembourg ahah, now working in switzerland",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1707606362,
+      "score": 2,
+      "link_id": "t3_15dnfc9",
+      "parent_id": "t1_kpudzlr"
+    },
+    {
+      "id": "kptz8lr",
+      "body": "I agree but the companies will request experiences in typescript, which the op doesn't have. Since competition is harsh, I can understand his disappointment. Since typescript is more organized and strict than js , it might fit better swiss German culture (second degree)",
+      "author": "Ivan_pk5",
+      "subreddit": "zurich",
+      "created_utc": 1707598853,
+      "score": -9,
+      "link_id": "t3_1anq04l",
+      "parent_id": "t1_kptyv1t"
+    },
+    {
+      "id": "kprpdi7",
+      "body": "Do you see yourself ? You say having kids worth more than money, but you want more money ? Lol",
+      "author": "Ivan_pk5",
+      "subreddit": "Norway",
+      "created_utc": 1707564175,
+      "score": 1,
+      "link_id": "t3_1ancrj7",
+      "parent_id": "t1_kprnn6a"
+    },
+    {
+      "id": "kprkc9i",
+      "body": "Can you give more details, I never used actions and feel stupid now",
+      "author": "Ivan_pk5",
+      "subreddit": "ChatGPTPro",
+      "created_utc": 1707560348,
+      "score": 1,
+      "link_id": "t3_1akz298",
+      "parent_id": "t1_kpca5m5"
+    },
+    {
+      "id": "kprk9wd",
+      "body": "My god, if everyone was speaking like you it would be terrible...I'm your age, I also have good grades, study hard, work hard, and I can't start a family yet because I need more savings.\n\n4 kids at your age is a huge load, it will be worse when they LL be teenager. Will you come again on reddit to complain that you can't buy smartphones and computers to your 4 kids because your salary is too low ?\n\nyes it is your fault, either you accept it or not, belong to you but don't expect people on reddit feeling sorry for you",
+      "author": "Ivan_pk5",
+      "subreddit": "Norway",
+      "created_utc": 1707560299,
+      "score": 8,
+      "link_id": "t3_1ancrj7",
+      "parent_id": "t1_kprjcaf"
+    },
+    {
+      "id": "kpos1c3",
+      "body": "I got it in 1.5 month yes",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1707511438,
+      "score": 1,
+      "link_id": "t3_1amayxg",
+      "parent_id": "t1_kpo4uln"
+    },
+    {
+      "id": "kpj6gg8",
+      "body": "how come so few comments ? i tried the interface it's nice. don't know if it will beat streamlit, but in today world, the competition is hard, and streamlit was already well bought by snowflake",
+      "author": "Ivan_pk5",
+      "subreddit": "Streamlit",
+      "created_utc": 1707422481,
+      "score": 2,
+      "link_id": "t3_1aeofoo",
+      "parent_id": "t3_1aeofoo"
+    },
+    {
+      "id": "kpj3w7m",
+      "body": "thanks for ur feedback. yes i was going to move there. what made me say no is that it is the only job i found in 6 months, while i do on demand data software development, with experience in big companies. i felt i would struggle to find other jobs if it goes wrong with this one. in french speaking country in data you can find  several jobs in 1/2 months.\n\nmay i ask, where r u coming from, why did u move to norway, and do u have some regrets, or things u would have prefer to know before arriving in norway ? do u speak the language ? which industry ? sorry i ask a lot, u don't have too answer if its too personal",
+      "author": "Ivan_pk5",
+      "subreddit": "Norway",
+      "created_utc": 1707421638,
+      "score": 1,
+      "link_id": "t3_1alznn8",
+      "parent_id": "t1_kpidihz"
+    },
+    {
+      "id": "kpj33yh",
+      "body": "oh sorry for speaking french. thanks for the episode im watching from semi finals. funny they also did the same track, pula venice etc, maybe it was more convenient for the bus organization",
+      "author": "Ivan_pk5",
+      "subreddit": "DestinationX",
+      "created_utc": 1707421375,
+      "score": 2,
+      "link_id": "t3_13li4hy",
+      "parent_id": "t1_kpbdsca"
+    },
+    {
+      "id": "kpib6du",
+      "body": "I declined a 550k year data job last year. Do u think I was right ? I'm from Luxembourg",
+      "author": "Ivan_pk5",
+      "subreddit": "Norway",
+      "created_utc": 1707412121,
+      "score": 1,
+      "link_id": "t3_1alznn8",
+      "parent_id": "t1_kpi6q8j"
+    },
+    {
+      "id": "kpgw8j1",
+      "body": "Not it is not enough, the enough depends on your geographical job market",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1707390545,
+      "score": 3,
+      "link_id": "t3_1alm12u",
+      "parent_id": "t3_1alm12u"
+    },
+    {
+      "id": "kpbav0a",
+      "body": "what did u think of the finale ? actually helene was one of my favorite, i like her style",
+      "author": "Ivan_pk5",
+      "subreddit": "DestinationX",
+      "created_utc": 1707302102,
+      "score": 2,
+      "link_id": "t3_13li4hy",
+      "parent_id": "t1_koqdl3t"
+    },
+    {
+      "id": "kpbasqt",
+      "body": "no way, ur a genius man, merci. je telecharge ca dans la journée. ahah oui, mais j'ai trouvé la serie francaise (qui s'est terminée hier) pas évidente, certains indices sont tirés par les cheveux, sans parler des faux indices pour induire en erreur. hier c'était la finale fr, tu as regardé ? j'ai moyennement aimé qu'ils recyclent des jeux déjà réalisés dans la saison",
+      "author": "Ivan_pk5",
+      "subreddit": "DestinationX",
+      "created_utc": 1707302057,
+      "score": 1,
+      "link_id": "t3_13li4hy",
+      "parent_id": "t1_kpas6an"
+    },
+    {
+      "id": "kp5wd3v",
+      "body": "Where can I watch the Belgian ?",
+      "author": "Ivan_pk5",
+      "subreddit": "DestinationX",
+      "created_utc": 1707218456,
+      "score": 1,
+      "link_id": "t3_13li4hy",
+      "parent_id": "t3_13li4hy"
+    },
+    {
+      "id": "koxy49u",
+      "body": "do you have any new feedbacks/insights ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ChatGPTPro",
+      "created_utc": 1707086076,
+      "score": 1,
+      "link_id": "t3_17zrxpu",
+      "parent_id": "t3_17zrxpu"
+    },
+    {
+      "id": "koetevs",
+      "body": "its not easy but its possible. however this year swiss economy doesnt seem good so not sure it will be easy",
+      "author": "Ivan_pk5",
+      "subreddit": "Switzerland",
+      "created_utc": 1706777327,
+      "score": 1,
+      "link_id": "t3_1ag6c25",
+      "parent_id": "t1_koesz7z"
+    },
+    {
+      "id": "koat86b",
+      "body": "Thanks for your quick answer. Actually i created the synapse link without spark pool / synapse workspace. later i created a virgin synapse workspace, connected to the data lake populated by the csv, but it doesn't handle it. I tested the synapse workspace delta/parquet, where synapse handles everything directly. \n\nApparently, using this csv scenario, without spark pool, everything has to be done manually, creating the view, and handling the updated data. so i'm a bit lost so far. \n\ni looked on ms yammer, some people discuss this topic\n\nhttps://www.yammer.com/dynamicsaxfeedbackprograms/threads/2546328391884800",
+      "author": "Ivan_pk5",
+      "subreddit": "Dynamics365",
+      "created_utc": 1706718766,
+      "score": 1,
+      "link_id": "t3_1182mjt",
+      "parent_id": "t1_koaophv"
+    },
+    {
+      "id": "koah963",
+      "body": "i am using this scenario, but lost about what to do when the csv are in the data lake, what are the best ETL practices ? i used a synapse analytics workspace with spark pool for the parquet scenario, it creates automatically external table. while with csv only scenario, the tables are splitted among the different timestamped folders on the data lake, so i tried this syntax on azure data explorer '[https://container.blob.core.windows.net/env/\\*/custtrans/\\*.csv;{your-sas-token}](https://container.blob.core.windows.net/env/*/custtrans/*.csv;{your-sas-token})' but i'm stuck here",
+      "author": "Ivan_pk5",
+      "subreddit": "Dynamics365",
+      "created_utc": 1706714490,
+      "score": 1,
+      "link_id": "t3_1182mjt",
+      "parent_id": "t1_j9pn33l"
+    },
+    {
+      "id": "kk9piqs",
+      "body": "thanks a lot for your answer, i ll read your blog. have a good day",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1706628845,
+      "score": 1,
+      "link_id": "t3_1aeoglg",
+      "parent_id": "t1_kk9npmq"
+    },
+    {
+      "id": "kk9k8ut",
+      "body": "Nice to meet u, i followed u on linkedin and youtube, hope to get nice content. i m a bi/cloud/python(automation/ml) consultant.  here are some questions \n\n&#x200B;\n\n1. do you already see some companies implementing microsoft fabric ? \n2. do u have to shift to ms fabric to engage new clients, or do u still see urself doing business focusing on sql / power bi ? \n3. do you think fabric will lower the technical gap for data citizen (ie normal worker in a company) to be able to create ther own reporting, thus less work for consultants (i see the comment of jcsroc on this topic, mine has the fabric component\n4. have u worked or heard about dynamics 365 finance op (or other) implementation with azure synapse ? now there is a fabric link that will reduce the need to develop on d365 side, all tables are available with 2 clicks on ms fabric\n5. is it still possible to be a power bi consultant without doing python, synapse, fabric ? i already shifted to cloud in 2023 because i struggled to find power bi jobs, while before 2020 when applying to jobs, saying power bi was like a magical word, it was easy to find interviews\n6. i struggle to undersand the premium capacity advanced management, with powershell, premium capacity monitor portal, on premises/ cloud data gateway, which content do u recommand me to learn ?\n7. which certifications do u recommand ? i already have pl 300, dp 203 500, and soon dp 600. hesitating to get more azure and power platform certifications ?\n\ni ll check your content, good continuation for 2024",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1706626904,
+      "score": 1,
+      "link_id": "t3_1aeoglg",
+      "parent_id": "t3_1aeoglg"
+    },
+    {
+      "id": "kk9bl4e",
+      "body": "what if u ask normal gpt all the instructions instead of chaining gpt ? i dont always manage to get him to do what i want, my custom gpt have network error when too much knowledge uploaded so im sceptikal (not about ur example) but abour real life chaining of gpts",
+      "author": "Ivan_pk5",
+      "subreddit": "OpenAI",
+      "created_utc": 1706623443,
+      "score": 1,
+      "link_id": "t3_1abtcsm",
+      "parent_id": "t1_kjvmrid"
+    },
+    {
+      "id": "kjv5o4q",
+      "body": "You seem to be a very rational person since you are asking for scientific proof. I prefer to take 1hour and relax myself, making my body active, rather than staying in the couch with tv. Moreover there are many articles that that sauna is good for the skin. Personally I see a positive impact of this habit on my life, so try it yourself. During winter I barely have a flu or something, have no problem with cold weather , while my colleagues struggle with cold and are tired during winter (I live in Switzerland)",
+      "author": "Ivan_pk5",
+      "subreddit": "helsinki",
+      "created_utc": 1706393352,
+      "score": 1,
+      "link_id": "t3_1ack5nl",
+      "parent_id": "t3_1ack5nl"
+    },
+    {
+      "id": "kjn6xu9",
+      "body": "Guys how to use gpt 4 turbo in custom gpt ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ChatGPT",
+      "created_utc": 1706268861,
+      "score": 1,
+      "link_id": "t3_19fhb6h",
+      "parent_id": "t3_19fhb6h"
+    },
+    {
+      "id": "kjemfdw",
+      "body": "visual query in spark, it is possible on synapse analytics, its like visual query on sql endpoint but it generates spark code",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1706131363,
+      "score": 1,
+      "link_id": "t3_19drpe2",
+      "parent_id": "t1_kjdufnh"
+    },
+    {
+      "id": "kjcau15",
+      "body": "i m planning to buy a small appartment in st julien, how is it ? also tramway will be connected to geneva soon so i was thinking it is a good place",
+      "author": "Ivan_pk5",
+      "subreddit": "geneva",
+      "created_utc": 1706099719,
+      "score": 2,
+      "link_id": "t3_19ef00i",
+      "parent_id": "t3_19ef00i"
+    },
+    {
+      "id": "kj8ym5x",
+      "body": "i am having the same issue with 10 json of 1mb each. do you have any more tips ? thanks a lot :) i should convert them into text ?",
+      "author": "Ivan_pk5",
+      "subreddit": "ChatGPTPro",
+      "created_utc": 1706042561,
+      "score": 1,
+      "link_id": "t3_17tnari",
+      "parent_id": "t1_k9k2ert"
+    },
+    {
+      "id": "ki9fuva",
+      "body": "keep us updated, good luck",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1705487301,
+      "score": 2,
+      "link_id": "t3_197z95c",
+      "parent_id": "t1_ki6rqv7"
+    },
+    {
+      "id": "ki9fu8q",
+      "body": "did you find a free official mock exam from microsoft ? usually you can find it on the certif page, like pl 300 or dp 203. there is no such small test for dp 500 and dp 600",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1705487288,
+      "score": 1,
+      "link_id": "t3_197z95c",
+      "parent_id": "t1_ki65nsi"
+    },
+    {
+      "id": "ki9fijz",
+      "body": "the question should be when there will be the mock exam on microsoft website, and how long it will stay in beta",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1705487046,
+      "score": 1,
+      "link_id": "t3_197z95c",
+      "parent_id": "t3_197z95c"
+    },
+    {
+      "id": "ki9fgd1",
+      "body": "do you know when you ll have your results ? when it will be GA ? there is no mock exam on ms learn right ?",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1705487000,
+      "score": 1,
+      "link_id": "t3_197z95c",
+      "parent_id": "t1_ki7xo16"
+    },
+    {
+      "id": "ki3zbfk",
+      "body": "https://data-mozart.com/dp-600-fabric-analytics-engineer-exam-first-impressions-and-learning-tips/",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1705404423,
+      "score": 8,
+      "link_id": "t3_197z95c",
+      "parent_id": "t3_197z95c"
+    },
+    {
+      "id": "khducj9",
+      "body": "It was supposed to be available 11 January, I can't book the exam yet",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1704991918,
+      "score": 2,
+      "link_id": "t3_19451bb",
+      "parent_id": "t3_19451bb"
+    },
+    {
+      "id": "khchj4d",
+      "body": "Any news ? Still nothing on the website",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1704970832,
+      "score": 1,
+      "link_id": "t3_18ai0pj",
+      "parent_id": "t3_18ai0pj"
+    },
+    {
+      "id": "kh3u39u",
+      "body": "beginner answer (beginner both in cloud & fabric so don't bite me) :\n\ni didn't watch expresso, i saw another architecture on a french podcast but they didn't explain it : bronze & silver : lakehouse, gold : warehouse.\n\ni guess because of spark efficiency / low cost on fabric bronze and silver makes sens. \n\n  \nregarding warehouse for gold, i thought a bit, and it would also make sens because tsql in sql endpoint of a lakehouse can't modify data inside the lakehouse, only for reading, while warehouse tsql could modify the data inside the gold layer. at least it is what i understood.  \n\n\nregarding the espresso i am not sure 1 lakehouse for 3 layers is recommanded, do you mean 1 lakehouse by layer ?",
+      "author": "Ivan_pk5",
+      "subreddit": "MicrosoftFabric",
+      "created_utc": 1704833241,
+      "score": 1,
+      "link_id": "t3_192n9r7",
+      "parent_id": "t3_192n9r7"
+    },
+    {
+      "id": "kh1r5n3",
+      "body": "hi, sorry for late answer, did u find the error ?",
+      "author": "Ivan_pk5",
+      "subreddit": "Dynamics365",
+      "created_utc": 1704807156,
+      "score": 1,
+      "link_id": "t3_18gwmrh",
+      "parent_id": "t1_kd70i02"
+    },
+    {
+      "id": "kh1qpqr",
+      "body": "si tu penses qu'avoir un numéro suisse te donnera plus de chances d'avoir un travail, tu te trompes de combat. j'habitais ni en france ni proche de la suisse, et pourtant j'ai été embauché rapidement car je répondais à un besoin et j'avais fais des démarches pour prendre des contacts en passant par des forum / salon pro. je ne savais meme pas ce qu'était un permis B\n\nil faut que tu réfléchisses à ta valeur ajoutée par rapport au marché, il y a beaucoup de concurrences en suisse. par ex dans ton secteur, as tu une certification récente en anglais ? envisages tu d'apprendre l'allemand, le marche de l'emploi est plus dynamqiue en suisse allemande qu'ici. vas tu a des forums d'embauche, fais tu du reseau. as tu envisager de te reconvertir dans l'horlogerie, santé, IT ? (je connais personnelement plusieurs personnes ayant fait une reconversion dans le but de travailler en suisse, parfois il n'y a pas le choix.  \n\n\nles gens qui te conseillent de passer par un job alimentaire pour le permis B ne sont surement pas passés par là, c'est épuisant et démotivant pour avoir connu des gens l'ayant fait, ta qualité de vie sera pire qu'en france. bon courage, j'espere ne pas avoir ete negatif, mais objectif par rapport a mon exp ici",
+      "author": "Ivan_pk5",
+      "subreddit": "suisse",
+      "created_utc": 1704806954,
+      "score": 10,
+      "link_id": "t3_192e7pq",
+      "parent_id": "t3_192e7pq"
+    },
+    {
+      "id": "kgk78bm",
+      "body": "Also interested :)",
+      "author": "Ivan_pk5",
+      "subreddit": "PowerBI",
+      "created_utc": 1704530030,
+      "score": 2,
+      "link_id": "t3_18ywlxd",
+      "parent_id": "t1_kgf2wap"
     }
   ]
 }

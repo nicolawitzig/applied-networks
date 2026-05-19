@@ -1,6 +1,51 @@
 {
   "username": "vantheman0",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cy26wc",
+      "title": "Will it be problematic to backport code after reformatting entire code base?",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716389645,
+      "score": 33,
+      "num_comments": 36,
+      "selftext": "Hi, \n\nI'm working on a relatively big open source project that doesn't have a formatter / code style guide. I think that's pretty bad. Recently, I opened a discussion about introducing one and am facing quite a lot of resistance.\n\nObviously there are various benefits of having a unified code style in a big project as this will vastly reduce mental friction when reading others code (or even your own), make it more maintainable etc. \n\nMy colleagues are strongly against introducing it, with the main argument that it will make backporting (and thus cherry picking) \"very difficult\". And backporting happens pretty regularly.\n\nI haven't had to deal with this situation before where I had to argue so much **for** a formatter. What I do know is that dealing with a 300k line code base with inconsistent formatting from various developers is a pain in the ass and therefore I'm also pretty adamant about introducing one. \n\nDo the benefits outweigh the costs or do my colleagues have a valid point about \\*not\\* introducing a code formatter? I would appreciate arguments for both sides!",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1cy26wc/will_it_be_problematic_to_backport_code_after/"
+    },
+    {
+      "id": "198wi64",
+      "title": "Need help with building a basic SvelteKit application with Adobe Spectrum's Web Components",
+      "author": "vantheman0",
+      "subreddit": "sveltejs",
+      "created_utc": 1705497985,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi, I'm currently trying to build a basic SvelteKit application that uses the web components from [Adobe Spectrum](https://opensource.adobe.com/spectrum-web-components/getting-started/)\n\nAfter running the basic setup as suggested here [https://github.com/adobe/spectrum-web-components/issues/2675:](https://github.com/adobe/spectrum-web-components/issues/2675:)\n\n    npm create svelte@latest my-app\n    cd my-app\n    npm install\n    npm install @spectrum-web-components/bundle\n    npm run dev\n\nI have disabled SSR with `export const ssr = false;` in `src/routes/+layout.ts`\n\nand added a default layout in `src/routes/+layout.svelte`\n\n    <!-- src/routes/+layout.svelte -->\n    <script>\n        import '@spectrum-web-components/theme/scale-medium.js'\n        import '@spectrum-web-components/theme/sp-theme.js'\n        import '@spectrum-web-components/theme/theme-lightest.js'\n    </script>\n    \n    <sp-theme theme=\"spectrum\" color=\"lightest\" scale=\"medium\">\n    <slot />\n    </sp-theme>\n\nThen I've tried to add a basic [button](https://opensource.adobe.com/spectrum-web-components/components/button/) in `src/routes/+page.svelte`\n\n    <!-- src/routes/+page.svelte -->\n    <script>\n        import '@spectrum-web-components/button/sp-button.js';\n    </script> \n    \n    <sp-button onclick=\"alert('I was clicked');\">Click me!</sp-button>\n\nWhen I run the server, the button does show up, but when I try to click it nothing happens.\n\nSince this doesn't work, I suspect that I must have set something up and/or imported things incorrectly. And therefore that other things in the library won't work. Does anyone have experience with using Adobe Spectrum (or importing web components) in Svelte/SvelteKit who can provide some tips?",
+      "url": "https://www.reddit.com/r/sveltejs/comments/198wi64/need_help_with_building_a_basic_sveltekit/"
+    },
+    {
+      "id": "198wf6q",
+      "title": "Need help with using SvelteKit and Adobe Spectrum's Web Components",
+      "author": "vantheman0",
+      "subreddit": "sveltejs",
+      "created_utc": 1705497729,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi, I'm currently trying to build a basic SvelteKit application that uses the web components from [Adobe Spectrum](https://opensource.adobe.com/spectrum-web-components/getting-started/)\n\nAfter running the basic setup as suggested here https://github.com/adobe/spectrum-web-components/issues/2675:\n\n    npm create svelte@latest my-app\ncd my-app\nnpm install\nnpm install u/spectrum-web-components/bundle\nnpm run dev\n\nI have disabled SSR with `export const ssr = false;` in `src/routes/+layout.ts`\n\nand added a default layout in `src/routes/+layout.svelte`\n\n    <!-- src/routes/+layout.svelte -->\n<script>\n  import '@spectrum-web-components/theme/scale-medium.js'\n  import '@spectrum-web-components/theme/sp-theme.js'\n  import '@spectrum-web-components/theme/theme-lightest.js'\n</script>\n\n    <sp-theme theme=\"spectrum\" color=\"lightest\" scale=\"medium\">\n  <slot></slot>\n</sp-theme>\n\nThen I've tried to add a basic [button](https://opensource.adobe.com/spectrum-web-components/components/button/) in src/routes/+page.svelte\n\n    <!-- src/routes/+page.svelte -->\n<script>\n    import '@spectrum-web-components/button/sp-button.js';\n</script>\n\n    <sp-button onclick=\"alert('I was clicked');\">Click me!</sp-button>\n\nWhen I run the server, the button does show up. But when I try to click the button nothing happens.\n\nSince this doesn't work, I suspect that I must have set something up and/or imported things incorrectly. And therefore that other things in the library won't work. Does anyone have experience with using Adobe Spectrum (or importing web components) in Svelte/SvelteKit who can provide some tips?",
+      "url": "https://www.reddit.com/r/sveltejs/comments/198wf6q/need_help_with_using_sveltekit_and_adobe/"
+    },
+    {
+      "id": "198waj2",
+      "title": "Build a basic SvelteKit application using Adobe Spectrum's Web Components",
+      "author": "vantheman0",
+      "subreddit": "sveltejs",
+      "created_utc": 1705497328,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi, I'm currently trying to build a basic SvelteKit application that uses the web components from [Adobe Spectrum](https://opensource.adobe.com/spectrum-web-components/getting-started/)\n\nAfter running the basic setup as suggested here [https://github.com/adobe/spectrum-web-components/issues/2675](https://github.com/adobe/spectrum-web-components/issues/2675):  \n\n\n    npm create svelte@latest my-app\n    cd my-app\n    npm install\n    npm install @spectrum-web-components/bundle\n    npm run dev\n\nI have disabled SSR with `export const ssr = false;`  in `src/routes/+layout.ts` \n\nand added a default layout in `src/routes/+layout.svelte`\n\n    <!-- src/routes/+layout.svelte -->\n    <script>\n      import '@spectrum-web-components/theme/scale-medium.js'\n      import '@spectrum-web-components/theme/sp-theme.js'\n      import '@spectrum-web-components/theme/theme-lightest.js'\n    </script>\n    \n    <sp-theme theme=\"spectrum\" color=\"lightest\" scale=\"medium\">\n      <slot></slot>\n    </sp-theme>\n\nThen I've tried to add a basic [button](https://opensource.adobe.com/spectrum-web-components/components/button/) in `src/routes/+page.svelte`\n\n    <!-- src/routes/+page.svelte -->\n    <script>\n        import '@spectrum-web-components/button/sp-button.js';\n    </script>\n    \n    <sp-button onclick=\"alert('I was clicked');\">Click me!</sp-button>\n    \n\nWhen I run the server, the button does show up. But when I try to click the button nothing happens. \n\nSince this doesn't work, I suspect that I must have set something up wrongly or imported things incorrectly. And therefore that other things in the library won't work. Does anyone have experience with using Adobe Spectrum (or importing web components) in Svelte/SvelteKit who can provide some tips? ",
+      "url": "https://www.reddit.com/r/sveltejs/comments/198waj2/build_a_basic_sveltekit_application_using_adobe/"
+    }
+  ],
   "comments": [
     {
       "id": "kz7c16k",
@@ -91,6 +136,126 @@
       "score": 4,
       "link_id": "t3_192colp",
       "parent_id": "t3_192colp"
+    },
+    {
+      "id": "l9fgcko",
+      "body": "Did support every reply to why this is the case? I'm in the same situation with the same stock.",
+      "author": "vantheman0",
+      "subreddit": "DEGIRO",
+      "created_utc": 1718867184,
+      "score": 1,
+      "link_id": "t3_1aki5q3",
+      "parent_id": "t1_kpb8msk"
+    },
+    {
+      "id": "l5agmn1",
+      "body": "That's the next thing I will find out. I wasn't aware before one of the seniors told me when I opened this discussion.",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716447827,
+      "score": 0,
+      "link_id": "t3_1cy26wc",
+      "parent_id": "t1_l59i60w"
+    },
+    {
+      "id": "l58a7v3",
+      "body": "Thanks for sharing that! May I ask why (or how) it was worth it for you? Did you see an increase in developer productivity, faster PR reviews, decrease in bugs, better developer experience or something else?",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716412279,
+      "score": 3,
+      "link_id": "t3_1cy26wc",
+      "parent_id": "t1_l56wcue"
+    },
+    {
+      "id": "l5813b7",
+      "body": ">If you're not making a solid case that not reformatting the code is costing the business money, they should be.\n\nThat's a good point. Indirectly I meant that it translates to an increase in developer productivity, but I understand that it needs to be quantifiable before it can become a priority.",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716409130,
+      "score": 1,
+      "link_id": "t3_1cy26wc",
+      "parent_id": "t1_l57fxze"
+    },
+    {
+      "id": "l57cnku",
+      "body": "Yeah I'm actively trying to push for it now.   \n> Even show them this thread, since it's full of senior engineers saying that it's a must-have for collaborative projects.  \nDefinitely - people have given some very valuable answers! I will link to this thread for reference.",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716400891,
+      "score": 1,
+      "link_id": "t3_1cy26wc",
+      "parent_id": "t1_l578dgg"
+    },
+    {
+      "id": "l56yf3j",
+      "body": "Yeah those arguments make a lot of sense, thanks for clarifying that!",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716396151,
+      "score": 1,
+      "link_id": "t3_1cy26wc",
+      "parent_id": "t1_l56lcvb"
+    },
+    {
+      "id": "l56iiz1",
+      "body": "Thanks for the quick response!\n\nYes I forgot to mention that I would introduce a \\`.git-blame-ignore-revs\\` and add the formatting commit(s) to that file. But they say that the backport diffs still will be painful.\n\nI think there is a general resistance to make a change in general. My arguments with mental friction and maintainability are kinda ignored. \n\nMay I ask you to elaborate on why you think that the benefits outweigh the costs?",
+      "author": "vantheman0",
+      "subreddit": "ExperiencedDevs",
+      "created_utc": 1716390795,
+      "score": 7,
+      "link_id": "t3_1cy26wc",
+      "parent_id": "t1_l56gkpd"
+    },
+    {
+      "id": "kyzcwbc",
+      "body": "Interested as well!",
+      "author": "vantheman0",
+      "subreddit": "Kotlin",
+      "created_utc": 1712783898,
+      "score": 1,
+      "link_id": "t3_1c0lacd",
+      "parent_id": "t3_1c0lacd"
+    },
+    {
+      "id": "ktn3hcy",
+      "body": "That would be super great thank you! I’ve not been able to find more detailed information about this so really appreciate it. If you also have any pointers I’d be more than happy to look at that as well.",
+      "author": "vantheman0",
+      "subreddit": "programming",
+      "created_utc": 1709748197,
+      "score": 2,
+      "link_id": "t3_1b7yzm9",
+      "parent_id": "t1_ktn2x2u"
+    },
+    {
+      "id": "ktn0o1v",
+      "body": "> we’re killing Jenkins in the next month or two. I did a big presentation to the company when I joined two years ago extolling the benefits\n\nIs that something you could share? I’m basically in a pretty similar situation and want to migrate away from Jenkins. But it’s hard to move an old, big org that is allergic to change.",
+      "author": "vantheman0",
+      "subreddit": "programming",
+      "created_utc": 1709747292,
+      "score": 7,
+      "link_id": "t3_1b7yzm9",
+      "parent_id": "t1_ktlxfoz"
+    },
+    {
+      "id": "kqdc5ua",
+      "body": "interested!",
+      "author": "vantheman0",
+      "subreddit": "rust",
+      "created_utc": 1707909077,
+      "score": 1,
+      "link_id": "t3_1aqem9c",
+      "parent_id": "t3_1aqem9c"
+    },
+    {
+      "id": "kifac6v",
+      "body": "Answering my own question. Even though we use web components, we still have to use Svelte specific functionality. That means we have to use Svelte's `on:click` directive instead. So `src/routes/+page.svelte` should be: \n\n    <!-- src/routes/+page.svelte -->\n    <script>\n        import '@spectrum-web-components/button/sp-button.js';\n        function spAlert() {\n            alert('I was clicked');\n        }\n    </script> \n    \n    <sp-button on:click={spAlert}>Click me!</sp-button>",
+      "author": "vantheman0",
+      "subreddit": "sveltejs",
+      "created_utc": 1705579638,
+      "score": 1,
+      "link_id": "t3_198wi64",
+      "parent_id": "t3_198wi64"
     }
   ]
 }

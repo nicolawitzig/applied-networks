@@ -22,6 +22,50 @@
       "num_comments": 3,
       "selftext": "I’m currently a Biochem student at a UK uni and applied for the MSc Biology at ETHZ (no have not heard back yet). Anyways, obviously since I haven’t gotten in yet you could say it’s a waste of time to think about this, but…I’m wondering if I did get in, whether it would be subjecting myself to failure to accept to study at this uni.\n\nMainly I am quite worried as I have heard terrible things about the difficulty at ETH, and how many students fail. After doing really well in my bachelor’s, I’m scared that if I do a master’s here I won’t be able to keep up (especially with all the students who have ETH bachelor’s) and I’ll fail or go depressed. I am just unsure (assuming by some low low chance I got in) if I’d be capable enough to get through such a uni. \n\nSo for current Biology MSc student, what’s the difficulty like? How exactly are you examined? Especially if you came from another uni, did you struggle a lot?",
       "url": "https://www.reddit.com/r/ethz/comments/1bg0k0o/master_in_biology_difficulty/"
+    },
+    {
+      "id": "1bg4pf7",
+      "title": "Results from abundance testing but insignificant beta diversity (metagenomics)?",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "bioinformatics",
+      "created_utc": 1710591225,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "Hi, I'm doing a metagenomics analysis project and a little bit confused. I get no significant differences between my treatment groups in terms of beta diversity (weighted unifrac and bray-curtis) as assessed by pairwise PERMANOVA, but my abundance testing (with LDA) shows significantly different features between certain groups. Is this possible?",
+      "url": "https://www.reddit.com/r/bioinformatics/comments/1bg4pf7/results_from_abundance_testing_but_insignificant/"
+    },
+    {
+      "id": "1be38jm",
+      "title": "Struggling with fasting vs productivity",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "progressive_islam",
+      "created_utc": 1710364946,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/progressive_islam/comments/1be38jm/struggling_with_fasting_vs_productivity/"
+    },
+    {
+      "id": "1b4sgds",
+      "title": "Will pauses in my laser treatments make them completely ineffective?",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "beauty",
+      "created_utc": 1709397621,
+      "score": 4,
+      "num_comments": 1,
+      "selftext": "I've been receiving laser treatments at Therapie Clinic (UK) for bikini, legs and underarms. I'll be having my 4th session soon, but as I will be out of the country I can only have my 5th session 10 weeks later. As all my sessions have been spaced 6 weeks so far, I am wondering whether this will completely destroy all the progress I have made?\n\nIn the same line, I am travelling and visiting family at points over the summer, all in sunny hot countries. The treatment centre says to stop any sessions 2 weeks before sun exposure, and to only continue 6 WEEKS after sun exposure. This means I will have to pause my sessions for 3-4 months (after my 6th session)?? Again I'm concerned about whether this big pause will lead to all my hair growing back and thickening, and essentially the money I've spent becoming wasted...please tell me it will be fine ",
+      "url": "https://www.reddit.com/r/beauty/comments/1b4sgds/will_pauses_in_my_laser_treatments_make_them/"
+    },
+    {
+      "id": "1b4seyw",
+      "title": "Gaps in treatments and pausing treatments over summer....",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "LaserHairRemoval",
+      "created_utc": 1709397526,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "I've been receiving laser treatments at Therapie Clinic (UK) for bikini, legs and underarms. I'll be having my 4th session soon, but as I will be out of the country I can only have my 5th session 10 weeks later. As all my sessions have been spaced 6 weeks so far, I am wondering whether this will completely destroy all the progress I have made? \n\nIn the same line, I am travelling and visiting family at points over the summer, all in sunny hot countries. The treatment centre says to stop any sessions 2 weeks before sun exposure, and to only continue 6 WEEKS after sun exposure. This means I will have to pause my sessions for 3-4 months (after my 6th session)?? Again I'm concerned about whether this big pause will lead to all my hair growing back and thickening, and essentially the money I've spent becoming wasted...",
+      "url": "https://www.reddit.com/r/LaserHairRemoval/comments/1b4seyw/gaps_in_treatments_and_pausing_treatments_over/"
     }
   ],
   "comments": [
@@ -44,6 +88,36 @@
       "score": 5,
       "link_id": "t3_1b5ipan",
       "parent_id": "t1_ku1ownn"
+    },
+    {
+      "id": "kv9954n",
+      "body": "Wow that makes so much sense thank you!",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "bioinformatics",
+      "created_utc": 1710665352,
+      "score": 1,
+      "link_id": "t3_1bg4pf7",
+      "parent_id": "t1_kv8h8id"
+    },
+    {
+      "id": "kv5qzcr",
+      "body": "no worries thanks for taking the time either way!",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "bioinformatics",
+      "created_utc": 1710607731,
+      "score": 1,
+      "link_id": "t3_1bg4pf7",
+      "parent_id": "t1_kv5l7d9"
+    },
+    {
+      "id": "kv5bkye",
+      "body": "Sorry for my lack of understanding, but does beta diversity not compare the microbial composition of different groups? So if there is not a statistically significant distance between the composition of the 2 groups, how can there be features that differ significantly?",
+      "author": "Automatic-Tax-7414",
+      "subreddit": "bioinformatics",
+      "created_utc": 1710601944,
+      "score": 1,
+      "link_id": "t3_1bg4pf7",
+      "parent_id": "t1_kv4rhm7"
     }
   ]
 }

@@ -11,6 +11,50 @@
       "num_comments": 3,
       "selftext": "Hi Guys, \nI bought a HP 350p Gen8 server off Richardo to practice having a home Kubernetes cluster and I'm having no luck connecting the VGA to my HDMI Samsung monitor. I was wondering if someone has any suggestions on where I could borrow a VGA monitor & VGA cable to test the server is booting correctly. \n\nCheers! from an inexperienced computer scientist",
       "url": "https://www.reddit.com/r/ethz/comments/18yl59t/home_server_vga_monitor/"
+    },
+    {
+      "id": "1axugw5",
+      "title": "How fast can we process a CSV file",
+      "author": "matt78whoop",
+      "subreddit": "dataengineering",
+      "created_utc": 1708672377,
+      "score": 8,
+      "num_comments": 1,
+      "selftext": "Great article by Marc Garcia outlining how you can speed up your CSV processing with Polars & Rust",
+      "url": "https://datapythonista.me/blog/how-fast-can-we-process-a-csv-file"
+    },
+    {
+      "id": "191esj8",
+      "title": "1 Billion Rows Challenge: Snowflake vs Databend",
+      "author": "matt78whoop",
+      "subreddit": "dataengineering",
+      "created_utc": 1704695978,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": " I thought this article was super interesting on how Cloud Data Warehouses fare with the challenge: https://www.morling.dev/blog/one-billion-row-challenge/",
+      "url": "https://www.databend.com/blog/2024-01-05-1brows/"
+    },
+    {
+      "id": "18x2214",
+      "title": "Optimizing a One Billion Row Challenge in with Rust and Python with Polars",
+      "author": "matt78whoop",
+      "subreddit": "dataengineering",
+      "created_utc": 1704233622,
+      "score": 1,
+      "num_comments": 26,
+      "selftext": "I posted this on /rust and I thought /dataengineering might find it interesting! \n\nI saw this [Blog Post](https://www.morling.dev/blog/one-billion-row-challenge/) on a Billion Row challenge for Java so naturally I tried implementing a solution in Rust using mainly polars.[Code/Gist here](https://gist.github.com/Butch78/702944427d78da6727a277e1f54d65c8)\n\nRunning the code on my laptop, which is equipped with an i7-1185G7 @ 3.00GHz and 32GB of RAM, but it is limited to 16GB of RAM because I developed in a Dev Container.  Using Polars I was able to get a solution that only takes around 39 seconds.\n\n\n|Implementation|Time|Code/Gist Link|\n|:-|:-|:-|\n|Rust + Polars|39s|[https://gist.github.com/Butch78/702944427d78da6727a277e1f54d65c8](https://gist.github.com/Butch78/702944427d78da6727a277e1f54d65c8)|\n|Rust STD Libray|149.69s|[https://gist.github.com/Butch78/893561f77de456a096ed6d1e672c4bed](https://gist.github.com/Butch78/893561f77de456a096ed6d1e672c4bed)|\n|Python + Polars|61.41 sec|[https://github.com/Butch78/1BillionRowChallenge/blob/main/python\\_1brc/main.py](https://github.com/Butch78/1BillionRowChallenge/blob/main/python_1brc/main.py)|\n|Java [royvanrijn](https://github.com/gunnarmorling/1brc/blob/main/calculate_average_royvanrijn.sh)'s Solution | 23.366sec on the (8 core, 32 GB RAM) |[https://github.com/gunnarmorling/1brc/blob/main/calculate\\_average\\_royvanrijn.sh](https://github.com/gunnarmorling/1brc/blob/main/calculate_average_royvanrijn.sh)|\n\nThanks to @[Immortaly007](https://www.reddit.com/user/immortaly007/) and his code, I was able to get a better implementation with the Rust STD library implementation.  Also thanks to @[ritchie46](https://www.reddit.com/user/ritchie46/) for the Polars recommendations and the great library!",
+      "url": "https://www.reddit.com/r/dataengineering/comments/18x2214/optimizing_a_one_billion_row_challenge_in_with/"
+    },
+    {
+      "id": "18ws370",
+      "title": "Optimizing a One Billion Row Challenge in Rust with Polars",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704209552,
+      "score": 1,
+      "num_comments": 54,
+      "selftext": "I saw this [Blog Post](https://www.morling.dev/blog/one-billion-row-challenge/) on a Billion Row challenge for Java so naturally I tried implementing a solution in Rust using mainly polars.  \n[Code/Gist here](https://gist.github.com/Butch78/702944427d78da6727a277e1f54d65c8)\n\nRunning the code on my laptop, which is equipped with an i7-1185G7 @ 3.00GHz and 32GB of RAM, I achieved a runtime of approximately 4.5 seconds within a Dev Container. \n\nAny suggestions for further optimizing the solution?",
+      "url": "https://www.reddit.com/r/rust/comments/18ws370/optimizing_a_one_billion_row_challenge_in_rust/"
     }
   ],
   "comments": [
@@ -33,6 +77,106 @@
       "score": 1,
       "link_id": "t3_18yl59t",
       "parent_id": "t1_kgbpal0"
+    },
+    {
+      "id": "khhv1nm",
+      "body": "Also my bank suggested I change my cards pin number from 6 to 4 digits as they said some American machine's won't accept that many.\n\nSo for example I went from 123456 to 1234",
+      "author": "matt78whoop",
+      "subreddit": "askswitzerland",
+      "created_utc": 1705051938,
+      "score": 1,
+      "link_id": "t3_194c6rx",
+      "parent_id": "t3_194c6rx"
+    },
+    {
+      "id": "kglxgrp",
+      "body": "Wow 10K columns wide is crazy! You might be better loading that into an embeddings database because they are great at handling high dimensional data :)",
+      "author": "matt78whoop",
+      "subreddit": "Python",
+      "created_utc": 1704562743,
+      "score": 2,
+      "link_id": "t3_18zi0o5",
+      "parent_id": "t1_kglx1pg"
+    },
+    {
+      "id": "kglqwqd",
+      "body": "It can load into memory which caused a crash for me but it also has a lazy evaluation mode that worked great for me!  \n\n\nhttps://towardsdatascience.com/understanding-lazy-evaluation-in-polars-b85ccb864d0c",
+      "author": "matt78whoop",
+      "subreddit": "Python",
+      "created_utc": 1704560379,
+      "score": 2,
+      "link_id": "t3_18zi0o5",
+      "parent_id": "t1_kgkyv9y"
+    },
+    {
+      "id": "kgawwj3",
+      "body": "This Rust implementation creates the data for you!\n\nhttps://github.com/coriolinus/1brc",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704388651,
+      "score": 1,
+      "link_id": "t3_18ws370",
+      "parent_id": "t1_kgavoow"
+    },
+    {
+      "id": "kg46407",
+      "body": ">pl.Config.set\\_streaming\\_chunk\\_size(4000000)\n\nI was using:  \npython 3.12   \npolars 20.3   \n&  polars 0.36.2 rust nightlybuild  \n\n\nThanks for the tip on using \\`\\`\\`pl.Config.set\\_streaming\\_chunk\\_size(4000000)\\`\\`\\` It only takes 33 seconds on Python + Polars now :)",
+      "author": "matt78whoop",
+      "subreddit": "dataengineering",
+      "created_utc": 1704283091,
+      "score": 3,
+      "link_id": "t3_18x2214",
+      "parent_id": "t1_kg42uvm"
+    },
+    {
+      "id": "kg213o2",
+      "body": "Amazing this looks awesome, great Job!",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704241555,
+      "score": 2,
+      "link_id": "t3_18ws370",
+      "parent_id": "t1_kg1zkbp"
+    },
+    {
+      "id": "kg0yitk",
+      "body": "Yeah sorry, I made a mistake when creating the test data. I've updated the Post now.   \n\n\nWow, it's incredible that were able to get it \\~5 seconds, maybe someone with a MacBook Pro m2 could test a better implementation to see if rust can get a similar result.",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704227667,
+      "score": 3,
+      "link_id": "t3_18ws370",
+      "parent_id": "t1_kg0llfe"
+    },
+    {
+      "id": "kg0p4sk",
+      "body": "Yeah my mistake, I created the measurement.txt file incorrectly.  \n\n\nI'll update it now with the proper timings for the larger file :)",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704224460,
+      "score": 4,
+      "link_id": "t3_18ws370",
+      "parent_id": "t1_kg0my7g"
+    },
+    {
+      "id": "kg0k9ai",
+      "body": "Interesting my measurements.txt is only 1.3G from what I remember? Maybe the creation of text file went wrong 😅",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704222793,
+      "score": 1,
+      "link_id": "t3_18ws370",
+      "parent_id": "t1_kg0h8ql"
+    },
+    {
+      "id": "kfzohnx",
+      "body": "Good catch! Sorry I missed that requirement, I created a solution using the standard library:  \n[https://gist.github.com/Butch78/702944427d78da6727a277e1f54d65c8](https://gist.github.com/Butch78/702944427d78da6727a277e1f54d65c8)  \n\n\nIt averages around 18.5s, I don't have the Rust ability to get close to the polars implementation haha",
+      "author": "matt78whoop",
+      "subreddit": "rust",
+      "created_utc": 1704211602,
+      "score": 26,
+      "link_id": "t3_18ws370",
+      "parent_id": "t1_kfzkrov"
     }
   ]
 }

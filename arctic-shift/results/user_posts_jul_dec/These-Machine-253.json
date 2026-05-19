@@ -1,6 +1,40 @@
 {
   "username": "These-Machine-253",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1gozssp",
+      "title": "Platinum electrode potential",
+      "author": "These-Machine-253",
+      "subreddit": "electrochemistry",
+      "created_utc": 1731350987,
+      "score": 4,
+      "num_comments": 6,
+      "selftext": "Hi! I'm starting to study polarizable electrodes and am having some trouble intuitively understanding the following scenario:\n\nSuppose we have an electrolyte, like PBS (or any similar electrolyte without platinum), and we immerse a platinum wire into it. What would be the voltage difference between the electrode and the electrolyte? Specifically, how large would the voltage drop be across the double-layer capacitor? What factors (like temperature, pH, concentration of species, electrolyte composition, etc.) influence this voltage difference?\n\nI am failing to find the keywords I need to google and the fundamental concepts I need to understand. So far I couldn't find them in my electrochemistry crash courses. Thanks!\n\n\n\n",
+      "url": "https://www.reddit.com/r/electrochemistry/comments/1gozssp/platinum_electrode_potential/"
+    },
+    {
+      "id": "1f4q5bq",
+      "title": "Objectives for Minolta x300s and Canon EOS M200",
+      "author": "These-Machine-253",
+      "subreddit": "Cameras",
+      "created_utc": 1725006498,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hello all,\n\nI just got these 2 cameras from a friend:\n- The Canon EOS M200 with the default 15-45mm\n- The Minolta x300s without any objective.\n\nWithout much budget, I would like to \n1. get a basic objective for the Minolta, to start playing with my first analog camera\n2. potentially get a second objective for the M200\n\nIs it feasible to buy an old objective for the Minolta, with an adapter to make it a good option for the M200 as well? Or would you rather just buy two (second hand) objectives? Any advice is welcome.\n\nThanks!",
+      "url": "https://www.reddit.com/r/Cameras/comments/1f4q5bq/objectives_for_minolta_x300s_and_canon_eos_m200/"
+    },
+    {
+      "id": "1e33ntr",
+      "title": "Modelling for embedded systems",
+      "author": "These-Machine-253",
+      "subreddit": "systems_engineering",
+      "created_utc": 1720967395,
+      "score": 5,
+      "num_comments": 6,
+      "selftext": "Hi, I am an embedded systems engineer trying to transition to (general) systems engineering. For my next project, I need to study a complex embedded system (including multiple hardware and different languages, poorly documented) works. I was thinking of using this project to gain some practical experience, taking this as a systems engineering exercise.\n\nDo you think is there any \"simplified\" methods from systems engineering, that I could apply for this small project? I would like to learn methods scalable fornmy future areer, but without compromising my performance in my actual job? For example, I was thinking of modelling my system on UML.\n\nThanks!",
+      "url": "https://www.reddit.com/r/systems_engineering/comments/1e33ntr/modelling_for_embedded_systems/"
+    }
+  ],
   "comments": [
     {
       "id": "ld5dv3x",
@@ -11,6 +45,76 @@
       "score": 1,
       "link_id": "t3_1e2b3p3",
       "parent_id": "t3_1e2b3p3"
+    },
+    {
+      "id": "lxbn3g6",
+      "body": "Many thanks for the detailed explanation! I definitely have a lot to study.\n\nActually I was just about to post a question regarding the very topic you clarify in the Quora post, amazing work! Regarding that explanation about the battery: If the only reason why \"water\" doesnt disolve the metal electrode is electric field...:\n- couldn't just the excessive negatice charge move to water (e.g., by electrolysis), decreasing electric field, and alloeing corrosion to continue? Water electrolysis or, in the case of many electrolytes, the redox of any of the available species.\n- why does electric field exactly prevent water from dissolving the metal? Water is still in contact with the metal, no?",
+      "author": "These-Machine-253",
+      "subreddit": "electrochemistry",
+      "created_utc": 1731702408,
+      "score": 1,
+      "link_id": "t3_1gozssp",
+      "parent_id": "t1_lwnophr"
+    },
+    {
+      "id": "lx68036",
+      "body": "Good link, thanks!",
+      "author": "These-Machine-253",
+      "subreddit": "electrochemistry",
+      "created_utc": 1731627557,
+      "score": 1,
+      "link_id": "t3_1gozssp",
+      "parent_id": "t1_lwmpafk"
+    },
+    {
+      "id": "lx674k8",
+      "body": "I just got it. A very good read indeed, thanks!",
+      "author": "These-Machine-253",
+      "subreddit": "electrochemistry",
+      "created_utc": 1731627264,
+      "score": 1,
+      "link_id": "t3_1gozssp",
+      "parent_id": "t1_lwmwl2r"
+    },
+    {
+      "id": "lu8zy8o",
+      "body": "Yo intenté buscar asesores independientes, pero fracasé. Contacté 2 y ambos me asesoraban en la dirección que a ellos les convenia. Casi me la cuelan, venden muy bien... es complicado, no te fíes.",
+      "author": "These-Machine-253",
+      "subreddit": "inversionESP",
+      "created_utc": 1730152751,
+      "score": 2,
+      "link_id": "t3_1ge142p",
+      "parent_id": "t3_1ge142p"
+    },
+    {
+      "id": "ldcazwg",
+      "body": "Thanks a lot!",
+      "author": "These-Machine-253",
+      "subreddit": "systems_engineering",
+      "created_utc": 1721073303,
+      "score": 1,
+      "link_id": "t3_1e33ntr",
+      "parent_id": "t1_ld5dwx2"
+    },
+    {
+      "id": "ldcayvk",
+      "body": "Will look into that, thanks!",
+      "author": "These-Machine-253",
+      "subreddit": "systems_engineering",
+      "created_utc": 1721073294,
+      "score": 1,
+      "link_id": "t3_1e33ntr",
+      "parent_id": "t1_ld5cy1u"
+    },
+    {
+      "id": "ld5c8no",
+      "body": "Fair point! Thanks.\n\nLet me reformulate the question: Which skills valuable for the systems engineer could I develope in my current job? In addition to soft skills, of course.\n\nModelling is one of them (it is not a must for systems engineers, but knowing modelling is one of valuable tools many systems engineers posses).",
+      "author": "These-Machine-253",
+      "subreddit": "systems_engineering",
+      "created_utc": 1720969699,
+      "score": 2,
+      "link_id": "t3_1e33ntr",
+      "parent_id": "t1_ld5bhzn"
     }
   ]
 }

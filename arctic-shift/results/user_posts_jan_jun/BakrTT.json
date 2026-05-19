@@ -11,6 +11,186 @@
       "score": 1,
       "link_id": "t3_18wzucv",
       "parent_id": "t3_18wzucv"
+    },
+    {
+      "id": "kvbcl9w",
+      "body": "I think you are confusing something. The topology of a systolic array is determined by the algorithm and the data flow you hope to achieve, not the other way around.",
+      "author": "BakrTT",
+      "subreddit": "computerarchitecture",
+      "created_utc": 1710699977,
+      "score": 2,
+      "link_id": "t3_1bh2sc4",
+      "parent_id": "t3_1bh2sc4"
+    },
+    {
+      "id": "ktgbrg3",
+      "body": "Sure! PM me with more details if you'd like.",
+      "author": "BakrTT",
+      "subreddit": "computerarchitecture",
+      "created_utc": 1709648483,
+      "score": 1,
+      "link_id": "t3_1b6wzw6",
+      "parent_id": "t3_1b6wzw6"
+    },
+    {
+      "id": "kq8mz9d",
+      "body": "You should probably research a bit more on what a career in chip design actually entails. With a CS background, you can probably still work on computer architecture and maybe early RTL prototyping",
+      "author": "BakrTT",
+      "subreddit": "chipdesign",
+      "created_utc": 1707836303,
+      "score": 4,
+      "link_id": "t3_1aponcc",
+      "parent_id": "t3_1aponcc"
+    },
+    {
+      "id": "kifcrod",
+      "body": "An accelerator won't support all types of operations. It might not be worth it to have a \"padding unit\" as it could not offer enough of a performance boost, especially considering that it's a very small part of a CNN. Why not just let the CPU take care of it?",
+      "author": "BakrTT",
+      "subreddit": "chipdesign",
+      "created_utc": 1705580987,
+      "score": 1,
+      "link_id": "t3_199nd7b",
+      "parent_id": "t3_199nd7b"
+    },
+    {
+      "id": "kgmdwli",
+      "body": "ChatGPT",
+      "author": "BakrTT",
+      "subreddit": "chipdesign",
+      "created_utc": 1704568595,
+      "score": 6,
+      "link_id": "t3_1907b9t",
+      "parent_id": "t3_1907b9t"
+    },
+    {
+      "id": "kgenih9",
+      "body": "Some things off the top of my head: \n\n  \n\\- The SIMT programming model and what does it entail (threadblocks, warps, threads, etc...)\n\n\\- Memory hierarchy inside the GPU\n\n\\- Basic general knowledge about the GPU pipeline. (fetch, decode, schedule, issue, dispatch, execute, writeback)",
+      "author": "BakrTT",
+      "subreddit": "chipdesign",
+      "created_utc": 1704442711,
+      "score": 2,
+      "link_id": "t3_18yvtuy",
+      "parent_id": "t3_18yvtuy"
+    },
+    {
+      "id": "kg1pqjo",
+      "body": "Thank you for sharing. If it is true what is said in the article, I agree with you that it is indeed reprehensible and shouldn't happen. Corrupt governments use fake laws in their favor all the time. However, the term \"morality police\" insinuates to me a 24/7 hour patrol where police are monitoring your every action and you'll be punished if your \"morals\" aren't up to standard.",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704237232,
+      "score": 3,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kg1m0ol"
+    },
+    {
+      "id": "kg1e4zt",
+      "body": "No. But I was giving my own view on the matter.",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704233026,
+      "score": 5,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kg1db57"
+    },
+    {
+      "id": "kg1d7di",
+      "body": "I am Egyptian",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704232699,
+      "score": 8,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kg1czrv"
+    },
+    {
+      "id": "kg145le",
+      "body": "Since you're interested in the both the analog and digital world, why not try to fuse them together? There is a lot of work on FPGAs to control power electronics. You could also maybe go with implementing DSP filters for audio or other sensors on an FPGA.",
+      "author": "BakrTT",
+      "subreddit": "chipdesign",
+      "created_utc": 1704229588,
+      "score": 1,
+      "link_id": "t3_18wgxei",
+      "parent_id": "t3_18wgxei"
+    },
+    {
+      "id": "kg13d3g",
+      "body": "You're also wrong about the oh so spooky \"religious\" police.",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704229318,
+      "score": 3,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kfzs2wn"
+    },
+    {
+      "id": "kg0yxnu",
+      "body": "I lived all my life in a muslim country. Which countries have the religious police you're talking about? Also, which countries restrict women's eduction (because I know this is also coming: Afghanistan is a very special situation. It's recovering from a catstrophic war with widespread povery and famine. And even though I don't agree with them keeping girls from schools, they don't cite islam as the reason for keeping them from going. They say it is because of safety concerns and that they will reopen schools for them soon. Even though I don't agree with the way taliban are doing things) And can you also tell me how women have less rights in islam (and not anecdotal evidence based on the behaviour of some morons in some muslim countries but based on actual instructions of the religion)? When you do, can you also check where women have more rights than men. For the clothes part, I'm sure you also have standards for clothing, no? If you don't, why is public nudity an offence in most countries? In Islam, there is a also clothing standard for both women and men. Doesn't mean if I saw someone not practicing I'll go screaming at them or whatever. It's not my  place at all and it's not anyone's place to do so.....\n\nOf course, it's only natural you would feel more comfortable in a place with a similar culture to yours especially if you're in an alien place. Can say the same thing if you were to for example go to China.",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704227808,
+      "score": 1,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kg0wp0x"
+    },
+    {
+      "id": "kg0w1z1",
+      "body": "To be honest, I don't exactly know but my guess is that the mother would probably be in an even stronger position if she has a strong passport (like the US)",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704226827,
+      "score": -11,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kg0sdx8"
+    },
+    {
+      "id": "kg0v6p7",
+      "body": "I find it funny that you're telling me this when you never lived in the place you speak of and have no knowledge of the actual way stuff is run. First of all, what religious police force are you talking about? Which part of the religion says women have no rights (and don't give me the so many times debunked 1 liners)? And can you also point me to the how these \"muslim\" governments you speak of apply religious laws and which ones they apply? If they do apply these religious laws, do they apply them selectively to gain an upper hand, and if they do, why do they not apply all laws if they are actually following a strict religious dogma?",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704226529,
+      "score": 1,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kg0tuut"
+    },
+    {
+      "id": "kg0swy7",
+      "body": "This is not true at all.",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704225752,
+      "score": -4,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kfyxm9u"
+    },
+    {
+      "id": "kg0srfv",
+      "body": "I wish people would actually experience living there to understand that most of the actions they think of as \"muslim\" or \"islam\" is actually not religious-baded but the result of extreme poverty, illiteracy and ignorance caused by decades upon decades of corruption and wars. But I guess nobody actually wants to dig into the issue...",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704225699,
+      "score": -3,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kfyrg67"
+    },
+    {
+      "id": "kg0rkdb",
+      "body": ">entitled to move the children back to the US with you? And you do you know if there's a deadline, for ex\n\nThe mother is always entitled to the children until they become adults....",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704225291,
+      "score": -16,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kfyutu1"
+    },
+    {
+      "id": "kg0qubm",
+      "body": "Not true. It's horrible for everyone who's not upper class equally",
+      "author": "BakrTT",
+      "subreddit": "expats",
+      "created_utc": 1704225042,
+      "score": 22,
+      "link_id": "t3_18wn7d7",
+      "parent_id": "t1_kfziq6l"
     }
   ]
 }

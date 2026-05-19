@@ -1,6 +1,73 @@
 {
   "username": "peaceradiant",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cueeqd",
+      "title": "Addressing the Young Sheldon finale",
+      "author": "peaceradiant",
+      "subreddit": "YoungSheldon",
+      "created_utc": 1715975192,
+      "score": 9,
+      "num_comments": 3,
+      "selftext": "First of all, this contains SPOILERS of the last Young Sheldon episodes who aired yesterday and also mentions TBBT. So watch at your own risk if you aren't up to date with both of them.\n\nThe very first posts I saw this morning when I opened Reddit were complaints addressing the finale (more exactly, the last episode). My reaction was \"Oh, was it that bad?\", but I started reading them anyway and immediately realized they weren't very good arguments on their own even for someone who didn't watch the episodes yet.\n\nI want to start by stating some obvious but fundamentals facts about the story:\n\n1. This whole show is a actually a memoir, confirmed by the last episode of the show. We knew from the beginning Sheldon is narrating the story, so I don't think this was a surprise for anyone. However, this has consequences: we only get to see things that happened in Sheldon's proximity (even if we had scenes where Sheldon wasn't present and we got to observe some more detailed stuff, all of them happened in places he was nearby). So by the time he moves out of the state completely, the narrating point-of-view also changes to suit his proximity. I don't think I explained this very well but keep it in mind.\n2. The show is literally \"Young Sheldon\". I know everyone loves the family as a whole, but this show revolves around...you guess it, Sheldon. The fact that you came to like another character more that does not mean said character should get a happy ending. I may argue that the show never intended to have a happy ending anyway. We are here just to observe Sheldon growing up and his environment. It was hinted multiple times that a final moment will be him departing for Caltech.\n\nThe main complaints were:\n\na) The characters did not have any closure with each other/ with Sheldon in the end, he leaves to Caltech just like that.\n\nb) George maybe died too late, so that affects a).\n\nc) Adult Sheldon scenes were pointless.\n\nd) Some characters, like Georgie, showed little to no emotion.\n\ne) That's for TBBT fans: Sheldon erased all the emotional growth he gained in TBBT for refusing to come to his son's hockey match.\n\nI think there are more, maybe I'll add them later.\n\nSo...now let's explain.\n\na) The whole point of the ending was to show the family never fully recovered, and as expected to be honest. George was a central character and him missing led to a (more) chaotic environment than already was. We never get to see any closure because Sheldon himself never had one, as much as he tried. The others never had one because he never got to see it (see fundamental point 1). He had absolutely no idea about the mess his family truly became until adulthood when he argued a little with Georgie see [TBBT Season 11, Episode 23 - The Sibling Realignment](https://www.youtube.com/watch?v=-zO0gN2_QyI), all of that on top of his under-the-sea level of emotional intelligence. For me it made complete sense to end the show with a more devastating environment because it aligns with what was presented until now. It's a different thing to want a continuation of the characters, but the story for the family ended exactly where it should have. It's up to the viewers to get their closure from somewhere else, I guess.\n\nb) I don't think George dying earlier would have solved anything, we could have gotten more depressing episodes leading to the exactly same conclusion: the environment wasn't the same anyway. Again, see above.\n\nc) Adult Sheldon was there to give confirmation that the whole thing is a memoir and seeing him tour the house one last time was beautiful. I didn't find the scenes to be that long? The narrating truly fits his point of view. The story ending with him arriving at Caltech is just the way it should be. He's not that \"young\" anymore and Caltech Sheldon is shown in TBBT, so his childhood ended right there.\n\nd) It was sad. It was really sad what happened. But not everyone needs to be hysterical. Georgie also felt the new responsibility on his shoulders. I always perceived Georgie as a strong character throughout the show.\n\ne) Uh...where do I start. Well, it was just one scene. To categorize him as a crappy father just \"after all the nice things he acknowledged about his own father\" is nonsense. Not to mention that just because you acknowledge that someone did great that does not automatically make you great, even if that someone was your father. But that is not the case. Sheldon was/is/will forever be Sheldon, with his quirks and different vision of the world. Just because he gave a touching final speech at the end of TBBT that does not mean he'll make a 180 degrees rotation on his personality, just that he is grateful for the people in his life that put up with him. Also, Amy is his mediator with the outside \"emotional\" world because she learned how to \"translate\" it to him. At least in my opinion. Now, everyone finds some things annoying (Sheldon being the champion at that) so I don't think refusing to go somewhere == him being rude. Yes, for us from the outside perspective, we may find it weird that he considered standing at his desk more important that getting ready quicker for going outside, but it was his own memoir, his own family and in the end he accepted to leave for the match so I don't see what's the point. Again, he's being portrait just as expected, as a father who (obviously) loves his children but still has to battle his own prejudices.\n\nWell, that was a lot to say, sorry for second hand English. I hope this post clarified some things. If you disagree with what I said or wants to add more to the arguments, I really want to hear your opinion and talk about the finale/ show with someone. I love this show and I found the last two episodes to be enjoyable. I cried (a lot), I smiled, I laughed. Regardless of the opinion, young Sheldon Cooper will forever be our mighty little man.",
+      "url": "https://www.reddit.com/r/YoungSheldon/comments/1cueeqd/addressing_the_young_sheldon_finale/"
+    },
+    {
+      "id": "1cjzshs",
+      "title": "What to choose for the frontend?",
+      "author": "peaceradiant",
+      "subreddit": "dotnet",
+      "created_utc": 1714827634,
+      "score": 0,
+      "num_comments": 18,
+      "selftext": "Hello everyone!\n\nI am building a university project using the [ASP](https://ASP.NET) .NET Core Web App MVC template. I am fairly new in the .NET world so I am still confused about many things and I'm sorry if the question is trivial but I did not find a consensus.\n\nThe question I want to make is what frontend framework is compatible with this kind of template? To explain the app a bit: It's a quiz app for students that can have both singleplayer and multiplayer options. For example you can choose a singleplayer mode where you get a quiz based on what pdf you uploaded (which goes to a server with Gemini 1.5 that returns a json with the quiz) or go to multiplayer mode and play a game in a ConQUIZtador-like fashion.\n\nThe back-end is working well and there are already a lot of .cshtml files but I feel like I need something more powerful for the frontend besided the razor syntax, as I want to make beautiful UI/UX.\n\nI saw some opinions that integrating a js framework is basically doing the same work twice, others saying Blazor is a better choice so I wanted to ask for my specific situation to make things clear. I don't mind learning something new, as a complex project will be beneficial for my grade as well. \n\nWhat do you all think? Thank you in advance!",
+      "url": "https://www.reddit.com/r/dotnet/comments/1cjzshs/what_to_choose_for_the_frontend/"
+    },
+    {
+      "id": "1cbyhyp",
+      "title": "I think I broke my system?",
+      "author": "peaceradiant",
+      "subreddit": "linuxmint",
+      "created_utc": 1713966101,
+      "score": 4,
+      "num_comments": 3,
+      "selftext": "I tried installing .NET and sql server on my Linux Mint \"Virginia\". Last time I tried on Ubuntu it worked and I thought that installing on Mint will be a walk in the park, however I did not succeed. \n\nSo I uninstalled all instances of .net, mssql and so on in the terminal but now sudo apt update returns some errors. Could you help me please because I am losing my mind.  \n\n\nsudo apt update\n\nHit:1 [https://deb.nodesource.com/node\\_16.x](https://deb.nodesource.com/node_16.x) nodistro InRelease\n\nIgn:2 [https://mirrors.hosterion.ro/linuxmint/packages](https://mirrors.hosterion.ro/linuxmint/packages) virginia InRelease       \n\nHit:3 [https://mirrors.hosterion.ro/ubuntu](https://mirrors.hosterion.ro/ubuntu) jammy InRelease                      \n\nHit:4 [https://mirrors.hosterion.ro/ubuntu](https://mirrors.hosterion.ro/ubuntu) jammy-updates InRelease              \n\nHit:5 [http://repository.spotify.com](http://repository.spotify.com) stable InRelease                           \n\nHit:6 [https://mirrors.hosterion.ro/ubuntu](https://mirrors.hosterion.ro/ubuntu) jammy-backports InRelease            \n\nHit:7 [https://mirrors.hosterion.ro/linuxmint/packages](https://mirrors.hosterion.ro/linuxmint/packages) virginia Release         \n\nHit:8 [http://security.ubuntu.com/ubuntu](http://security.ubuntu.com/ubuntu) jammy-security InRelease               \n\nHit:9 [https://packages.cloud.google.com/apt](https://packages.cloud.google.com/apt) cloud-sdk InRelease                \n\nHit:10 [https://dl.google.com/linux/chrome/deb](https://dl.google.com/linux/chrome/deb) stable InRelease      \n\nIgn:12 [https://packages.microsoft.com/ubuntu/18.04/prod](https://packages.microsoft.com/ubuntu/18.04/prod) jammy InRelease\n\nHit:13 [https://packages.microsoft.com/repos/code](https://packages.microsoft.com/repos/code) stable InRelease\n\nErr:14 [https://packages.microsoft.com/ubuntu/18.04/prod](https://packages.microsoft.com/ubuntu/18.04/prod) jammy Release\n\n  404  Not Found \\[IP: [13.107.213.44](https://13.107.213.44) 443\\]\n\nReading package lists... Done\n\nW: [https://packages.microsoft.com/repos/code/dists/stable/InRelease:](https://packages.microsoft.com/repos/code/dists/stable/InRelease:) Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.\n\nE: The repository '[https://packages.microsoft.com/ubuntu/18.04/prod](https://packages.microsoft.com/ubuntu/18.04/prod) jammy Release' does not have a Release file.\n\nN: Updating from such a repository can't be done securely, and is therefore disabled by default.\n\nN: See apt-secure(8) manpage for repository creation and user configuration details.\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/linuxmint/comments/1cbyhyp/i_think_i_broke_my_system/"
+    },
+    {
+      "id": "1c2734u",
+      "title": "How can I save him?",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712922387,
+      "score": 48,
+      "num_comments": 23,
+      "selftext": "Hello! I am a returning player after 2 years and obviously all of my units are completely destroyed by the new meta at the point the game is literally unplayable on hard mode T17 Arena, including my fav right here (+10 Brave Ephraim). He’s my only 5-star exclusive +10 character and my favorite one overall so I’m quite sad I can’t use him as much as before. \nSo, any suggestions on how can I improve his skill set? \nPS: any suggestions on how I can survive in this game would also be useful haha ",
+      "url": "https://i.redd.it/5ec0g47pd1uc1.jpeg"
+    },
+    {
+      "id": "1c1q98t",
+      "title": "Educația fizică intră la medie?",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1712869415,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "Întrebare întrebătoare, dar la Unibuc intră Educația fizică la media anuală? Unii zic da, alții zic nu, am zis să întreb pe un grup cu mai multe persoane poate aflu și eu.\n",
+      "url": "https://www.reddit.com/r/UniRO/comments/1c1q98t/educația_fizică_intră_la_medie/"
+    },
+    {
+      "id": "1byi9cj",
+      "title": "Vigarde rerun ",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712531046,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Hello! I returned to FEH after 2 years of absence. I’m planning to build Vigarde for Arena (hopefully not a bad decision, I already +3 him). I can manage 3 more copies and considering 3 more from rerun I could manage to +10 him really fast. \nSo the question is…when is the next rerun? :)) \n\nAlso, what happened to the meta goddamn this game is unplayable with old units. ",
+      "url": "https://www.reddit.com/r/FireEmblemHeroes/comments/1byi9cj/vigarde_rerun/"
+    }
+  ],
   "comments": [
     {
       "id": "l721s7m",
@@ -21,6 +88,1106 @@
       "score": 1,
       "link_id": "t3_1d7gcmq",
       "parent_id": "t3_1d7gcmq"
+    },
+    {
+      "id": "lawcdx0",
+      "body": "It’s 5:32 minutes into the episode and the clock is 5:32 am",
+      "author": "peaceradiant",
+      "subreddit": "TheBear",
+      "created_utc": 1719700537,
+      "score": 5,
+      "link_id": "t3_1dr7hey",
+      "parent_id": "t1_lawa9ko"
+    },
+    {
+      "id": "lat4l9t",
+      "body": "It’s nice but that font almost made me believe the whole thing is AI generated :))",
+      "author": "peaceradiant",
+      "subreddit": "unixporn",
+      "created_utc": 1719653093,
+      "score": 9,
+      "link_id": "t3_1dr63u3",
+      "parent_id": "t3_1dr63u3"
+    },
+    {
+      "id": "laczbfj",
+      "body": "How is his phone like not on 3% battery in that environment lol",
+      "author": "peaceradiant",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1719408444,
+      "score": 1,
+      "link_id": "t3_1dosth0",
+      "parent_id": "t3_1dosth0"
+    },
+    {
+      "id": "la7xdx1",
+      "body": "Singura certitudine e ca o sa pice fața",
+      "author": "peaceradiant",
+      "subreddit": "robac",
+      "created_utc": 1719329904,
+      "score": 3,
+      "link_id": "t3_1dnyv0y",
+      "parent_id": "t3_1dnyv0y"
+    },
+    {
+      "id": "la4662g",
+      "body": "Finally a KDE I actually like 👍",
+      "author": "peaceradiant",
+      "subreddit": "unixporn",
+      "created_utc": 1719266225,
+      "score": 2,
+      "link_id": "t3_1dnadw5",
+      "parent_id": "t3_1dnadw5"
+    },
+    {
+      "id": "l94rvoh",
+      "body": "What are the icons?",
+      "author": "peaceradiant",
+      "subreddit": "pop_os",
+      "created_utc": 1718704640,
+      "score": 3,
+      "link_id": "t3_1dih1ll",
+      "parent_id": "t3_1dih1ll"
+    },
+    {
+      "id": "l92nsdl",
+      "body": "What is your sxhkdrc?",
+      "author": "peaceradiant",
+      "subreddit": "unixporn",
+      "created_utc": 1718665318,
+      "score": 1,
+      "link_id": "t3_1dhu3pq",
+      "parent_id": "t1_l8z8ec0"
+    },
+    {
+      "id": "l8zvk3k",
+      "body": "This is very elegant!",
+      "author": "peaceradiant",
+      "subreddit": "unixporn",
+      "created_utc": 1718630128,
+      "score": 2,
+      "link_id": "t3_1dh09dh",
+      "parent_id": "t3_1dh09dh"
+    },
+    {
+      "id": "l8zveqx",
+      "body": "The first rice I truly want to try. Hopefully I’ll get it right. Dope wallpapers btw!",
+      "author": "peaceradiant",
+      "subreddit": "unixporn",
+      "created_utc": 1718630063,
+      "score": 1,
+      "link_id": "t3_1dhu3pq",
+      "parent_id": "t1_l8zdol5"
+    },
+    {
+      "id": "l8u1smv",
+      "body": "Isn’t it like this tho?\n\nhttps://preview.redd.it/98qtxto37w6d1.jpeg?width=1190&format=pjpg&auto=webp&s=f38e8959a5fb058f69995341dd0aa6a4fd422e11",
+      "author": "peaceradiant",
+      "subreddit": "calculus",
+      "created_utc": 1718525661,
+      "score": 1,
+      "link_id": "t3_1dgvxd7",
+      "parent_id": "t3_1dgvxd7"
+    },
+    {
+      "id": "l8sqg19",
+      "body": "No one likes France",
+      "author": "peaceradiant",
+      "subreddit": "Israel",
+      "created_utc": 1718499146,
+      "score": 29,
+      "link_id": "t3_1dgqw83",
+      "parent_id": "t1_l8rthct"
+    },
+    {
+      "id": "l8rfu6t",
+      "body": "Are you going to just downvote or actually give an answer, dear sir?",
+      "author": "peaceradiant",
+      "subreddit": "DebateReligion",
+      "created_utc": 1718479802,
+      "score": 3,
+      "link_id": "t3_1dgotb4",
+      "parent_id": "t1_l8renhz"
+    },
+    {
+      "id": "l8rergy",
+      "body": "Enlighten me, what exactly did I miss?",
+      "author": "peaceradiant",
+      "subreddit": "DebateReligion",
+      "created_utc": 1718479374,
+      "score": 3,
+      "link_id": "t3_1dgotb4",
+      "parent_id": "t1_l8renhz"
+    },
+    {
+      "id": "l8reaff",
+      "body": "You have to make a decision tho. The title is “proving that god does not exist”, now you’re saying “impossible to prove god does not exist”. Which is it after all?",
+      "author": "peaceradiant",
+      "subreddit": "DebateReligion",
+      "created_utc": 1718479189,
+      "score": 3,
+      "link_id": "t3_1dgotb4",
+      "parent_id": "t1_l8rdx46"
+    },
+    {
+      "id": "l8rdjvi",
+      "body": "Sorry, the thread didn’t refresh in time. No need to downvote me tho it’s chill",
+      "author": "peaceradiant",
+      "subreddit": "DebateReligion",
+      "created_utc": 1718478901,
+      "score": 0,
+      "link_id": "t3_1dgotb4",
+      "parent_id": "t1_l8rctvt"
+    },
+    {
+      "id": "l8rd7m8",
+      "body": "It’s impossible to prove something doesn’t exist because the parameters that need to be checked are too many and too large for it to be a final proof. \n\n“If something doesn’t exist, it simply doesn’t exist”. I don’t think it kinda works that way. Just because you failed to provide a full and closed proof that allow questions to be made it doesn’t mean people need to believe you. Some people will simply believe that a dog was there for 43 minutes, in an interval you failed to take a photo of. Unless you provide step by step, frame by frame photos of dog less rooms then people will have all the right to claim a dog was in the house. \n\nSo the incompleteness you tried to provide is not the greatest argument against the existence of a god, because it can work very well for both ways: “You failed to give me a picture in a specific interval, so I specifically think in a period of time EVERYTHING can be in the room.”, or “I gave you 876000 photos so I can generalize that NOTHING was in the room.”\n\nPS: I am an atheist, but I simply don’t think this is the best argument ever. Also, I’m bad at explaining things so this may sound like gibberish so I’m sorry in advance.",
+      "author": "peaceradiant",
+      "subreddit": "DebateReligion",
+      "created_utc": 1718478768,
+      "score": 4,
+      "link_id": "t3_1dgotb4",
+      "parent_id": "t3_1dgotb4"
+    },
+    {
+      "id": "l8rbs85",
+      "body": "Could you elaborate the second statement?",
+      "author": "peaceradiant",
+      "subreddit": "DebateReligion",
+      "created_utc": 1718478214,
+      "score": 0,
+      "link_id": "t3_1dgotb4",
+      "parent_id": "t1_l8rb6y5"
+    },
+    {
+      "id": "l8qmsf4",
+      "body": "What the hell did I just read",
+      "author": "peaceradiant",
+      "subreddit": "code",
+      "created_utc": 1718468166,
+      "score": 3,
+      "link_id": "t3_1dgijtj",
+      "parent_id": "t3_1dgijtj"
+    },
+    {
+      "id": "l8pxsgn",
+      "body": "I think that’s Poland but I’m not very sure",
+      "author": "peaceradiant",
+      "subreddit": "europe",
+      "created_utc": 1718456727,
+      "score": 1,
+      "link_id": "t3_1dgfv1a",
+      "parent_id": "t3_1dgfv1a"
+    },
+    {
+      "id": "l8ponka",
+      "body": "North Sea all the way",
+      "author": "peaceradiant",
+      "subreddit": "MapPorn",
+      "created_utc": 1718451743,
+      "score": 1,
+      "link_id": "t3_1dfrtco",
+      "parent_id": "t3_1dfrtco"
+    },
+    {
+      "id": "l8gaz9r",
+      "body": "Absolutely NTA. If I’m not mistaken Pit bulls are one of the most agresive dogs out there. If it got to the point it may attack your kids, then you absolutely did the right thing. The internet is full of people disfigured because of pit bulls, and I’m talking about absolute animal lovers with experience who did not manage to escape. A quick search is enough…please make sure that dog either gets supervised or make sure you or your kids never get around it anymore. There is no joke. \nPS: I know maybe I made a generalization, I know dogs can be lovable no matter their breed but when a dog shows this type of behavior there is no point in ignoring this.",
+      "author": "peaceradiant",
+      "subreddit": "AITAH",
+      "created_utc": 1718298641,
+      "score": 8,
+      "link_id": "t3_1df0wq5",
+      "parent_id": "t3_1df0wq5"
+    },
+    {
+      "id": "l8c9cqw",
+      "body": "Nu uita de dosarul cu șină!",
+      "author": "peaceradiant",
+      "subreddit": "bucuresti",
+      "created_utc": 1718231451,
+      "score": 5,
+      "link_id": "t3_1deh7kg",
+      "parent_id": "t1_l8bwad0"
+    },
+    {
+      "id": "l6z20zr",
+      "body": "Când văd un meme cretin știu sigur ca e postat de r/Prazf",
+      "author": "peaceradiant",
+      "subreddit": "romemes",
+      "created_utc": 1717450398,
+      "score": 2,
+      "link_id": "t3_1d72fmq",
+      "parent_id": "t3_1d72fmq"
+    },
+    {
+      "id": "l6t2sa5",
+      "body": "Well Sheldon said in the show that he adopted a different accent on purpose and in the case of Missy it was the actress that struggled with the accent so they went on without one.",
+      "author": "peaceradiant",
+      "subreddit": "YoungSheldon",
+      "created_utc": 1717356421,
+      "score": 6,
+      "link_id": "t3_1d6gx76",
+      "parent_id": "t3_1d6gx76"
+    },
+    {
+      "id": "l6lgs13",
+      "body": "RemindMe! 3 hours",
+      "author": "peaceradiant",
+      "subreddit": "math",
+      "created_utc": 1717228939,
+      "score": 0,
+      "link_id": "t3_1d5fr9r",
+      "parent_id": "t3_1d5fr9r"
+    },
+    {
+      "id": "l65z3n3",
+      "body": "Fiind anul 1 o sa fie exmatriculat. Singura șansă mai este să dea admiterea la anul următor. Dacă era în anul 2 sau 3 putea să repete anul după ce era exmatriculat la toamnă.",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1716985894,
+      "score": 9,
+      "link_id": "t3_1d37la1",
+      "parent_id": "t1_l65fr8n"
+    },
+    {
+      "id": "l65yxg6",
+      "body": "Dacă nu ai minim 30 de credite (fără sport), atunci vei fi exmatriculat fără drept de reînmatriculare. Ce înseamnă asta? Dezavantajul este ca exmatricularea se realizează la toamnă, deci nu te poți înscrie din nou în anul 1. Deci practic dacă vrei să reiei facultatea respectivă, la vara anului viitor te mai poți înscrie după ce dai admiterea. \nDacă erai în anul 2 sau 3 atunci era exmatriculare cu drept de reînmatriculare, deci în toamnă puteai să depui cererea de repetare a anului respectiv.\nAșa ca dacă vrei să continui cu facultatea la care ești acum, trage tare la toamnă sau în restanțe acum să faci numărul de credite. \nDe asemenea, cel mai bine intri pe site ul facultății tare sau sună la secretariat, dar și eu sunt la Unibuc și din câte știu lucrurile astea se discută la nivel de universitate deci posibil să îți zică același lucru.",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1716985814,
+      "score": 8,
+      "link_id": "t3_1d37la1",
+      "parent_id": "t3_1d37la1"
+    },
+    {
+      "id": "l5vjvi0",
+      "body": "Plătești pentru fiecare facultate în parte.",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1716814151,
+      "score": 6,
+      "link_id": "t3_1d1ovqk",
+      "parent_id": "t3_1d1ovqk"
+    },
+    {
+      "id": "l5v0b6h",
+      "body": "Salut! Uită-te cu atenție în regulamentul universității tale. La UB de exemplu precizează ca daca profesorul anunță sistemul de notare în primele 2 săptămâni, prioritate este cel dat de profesor oricât de ciudat ar fi el. Baftă!",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1716801789,
+      "score": 2,
+      "link_id": "t3_1d1kjo7",
+      "parent_id": "t3_1d1kjo7"
+    },
+    {
+      "id": "l5s39e1",
+      "body": "Hi! Thank for your comment.\nI can see where the “nagging” comes from, but I recently rewatched a TBBT episode and I feel that Amy expressed this kind of vibe sometimes even back then (although it was a little more subtle or dismissed because of the laughing track). Also, this was a big deal for their son so I’ll also give credit to her wanting to support Leonard as a loving mother.\nNow on the part of Sheldon being selfish in the end I don’t know what to say. It’s canonically known Sheldon joins Caltech after his father’s death so there wasn’t much liberty from the authors to do otherwise, and his family was changed forever anyway. Sheldon never was the emotional intelligent one so his contribution to the wellbeing of the family would have been close to nothing. \nAlso, the decision of going to Caltech was made alongside his father and I don’t think George would have wanted Sheldon to stay in Texas, but those are my 2 cents.",
+      "author": "peaceradiant",
+      "subreddit": "YoungSheldon",
+      "created_utc": 1716749224,
+      "score": 1,
+      "link_id": "t3_1cueeqd",
+      "parent_id": "t1_l5s1cmv"
+    },
+    {
+      "id": "l5lfqqi",
+      "body": "The last 2 paragraphs are very smart tips, I’ll use them next time. Thanks!",
+      "author": "peaceradiant",
+      "subreddit": "ck3",
+      "created_utc": 1716632734,
+      "score": 2,
+      "link_id": "t3_1d02vp5",
+      "parent_id": "t1_l5l9qty"
+    },
+    {
+      "id": "l5lfkdl",
+      "body": "Well what I usually do is:\n1. Disinherit but if you’re low on renown, it’s not always worth it\n2. Send them as knights leading armies in war but for me it doesn’t always work very well\n3. If they’re not married yet and are at least 10 years old, force them to take vows but you’ll need a lot of piety. Also the primary heir costs a lot of piety, then the second in line etc so calculate accordingly. \n4. Let them inherit then press claim in war. Make sure the first in line gets really good army and go attack them.",
+      "author": "peaceradiant",
+      "subreddit": "ck3",
+      "created_utc": 1716632597,
+      "score": 1,
+      "link_id": "t3_1d02vp5",
+      "parent_id": "t3_1d02vp5"
+    },
+    {
+      "id": "l52cyw2",
+      "body": "“oamenii aveau experiențe similare indiferent de cultura sau religie”\nNu este cumva datorită faptului ca reacțiile chimice din creier o să fie la fel în stadiu terminal pentru toată lumea? Asta ca argument la ce a zis tipul de mai sus. Crazy…",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1716319863,
+      "score": 2,
+      "link_id": "t3_1cx3iww",
+      "parent_id": "t1_l51xx49"
+    },
+    {
+      "id": "l4rk31r",
+      "body": "I had no idea gnome looked this cute on Linux Mint. Have a good time!",
+      "author": "peaceradiant",
+      "subreddit": "linuxmint",
+      "created_utc": 1716141825,
+      "score": 2,
+      "link_id": "t3_1cvrccb",
+      "parent_id": "t3_1cvrccb"
+    },
+    {
+      "id": "l4i9ats",
+      "body": "Hello and thank you for the reply! Yes, it is a shame we had a shorter season because of the strikes. I agree that probably we were robbed of some moments, but with more episodes the plot would have been structured differently anyway. I will make a call to the fan fiction writers to write what probably happened between the announcement of George's death and the funeral itself in more detail...or leave it to my imagination. I just saw your post and I think you explained the Sheldon still being Sheldon part better. I also like your theory of not knowing their daughter's name as a homage to Penny!",
+      "author": "peaceradiant",
+      "subreddit": "YoungSheldon",
+      "created_utc": 1715977439,
+      "score": 2,
+      "link_id": "t3_1cueeqd",
+      "parent_id": "t1_l4i76vi"
+    },
+    {
+      "id": "l46a6m0",
+      "body": "Completely agree with you. Computer science at its most theoretical level is actually a subset of mathematics. Whoever made this chart either has no idea or has the wrong ideas about the concepts.",
+      "author": "peaceradiant",
+      "subreddit": "mathematics",
+      "created_utc": 1715789152,
+      "score": 7,
+      "link_id": "t3_1csa9h0",
+      "parent_id": "t1_l466hbj"
+    },
+    {
+      "id": "l44moot",
+      "body": "Data viitoare să zic pe “românește”, nu? Nu știu de ce te agiți atât. De asemenea, dacă din atât de puțin tu ai dedus ca vreau să îl fac imbecil și ce ai mai zis tu acolo, cred ca tu ești ăla cu prejudecățile nu eu. Când postezi ceva pe internet îți asumi ce și cum primești ca răspuns. Cazul lui e de discutat cu un consilier școlar/ director pentru transfer, nu cu gigel de pe internet care să îi zică la ce să dea bacul.",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1715761201,
+      "score": 1,
+      "link_id": "t3_1crzrrf",
+      "parent_id": "t1_l44m1dm"
+    },
+    {
+      "id": "l44lqky",
+      "body": "Văd ca astăzi ai chef de apărat oameni pe net. Cat te-ai certat cu mine, îi dădeai omului un sfat dacă îți păsa atât de mult. Și da, e un sfat să îi zici cuiva să scrie corect în limba română mai ales după ce a petrecut timp într-o țară străină. Dar dacă și dexonline e greu de deschis, asta e.",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1715760461,
+      "score": 1,
+      "link_id": "t3_1crzrrf",
+      "parent_id": "t1_l44linx"
+    },
+    {
+      "id": "l44lfbm",
+      "body": "Tu știi definiția la “a înjura”? Caută pe dexonline dacă nu, iar apoi dă prin Google translate și ce am zis eu. Baftă!",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1715760218,
+      "score": 1,
+      "link_id": "t3_1crzrrf",
+      "parent_id": "t1_l44l7pf"
+    },
+    {
+      "id": "l4218nc",
+      "body": "Ich sage: Wechseln Sie zuerst auf Rumänisch, weil Sie nicht schreiben können",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1715718759,
+      "score": 1,
+      "link_id": "t3_1crzrrf",
+      "parent_id": "t3_1crzrrf"
+    },
+    {
+      "id": "l411vt0",
+      "body": "r/woosh",
+      "author": "peaceradiant",
+      "subreddit": "medicalschoolRomania",
+      "created_utc": 1715706773,
+      "score": 1,
+      "link_id": "t3_1crur8e",
+      "parent_id": "t1_l40oll2"
+    },
+    {
+      "id": "l3ghl0s",
+      "body": "Mulțumesc pentru răspunsul elaborat! Cum ai procedat ca student să fii implicat în cercetare?\nDe asemenea, cum e la chimie? Sunt oportunități mai multe în străinătate? Am vrut și eu pe chimie, dar am ales Informatică în locul ei deoarece am auzit ca în RO locurile de muncă sunt spre 0… nu trece o zi să nu mă gândesc la cum ar fi fost dacă aș fi ales-o, dar asta este. Mă bucur să văd ca se poate. Felicitări încă o dată!",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1715361017,
+      "score": 1,
+      "link_id": "t3_1comig9",
+      "parent_id": "t1_l3ggtkh"
+    },
+    {
+      "id": "l3g9zhh",
+      "body": "Bună! Felicitări pentru reușită! Care a fost media generală? Trebuie 10 pe linie? Pe ce profil ești? Scuze pt atâtea întrebări :))",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1715358376,
+      "score": 1,
+      "link_id": "t3_1comig9",
+      "parent_id": "t1_l3ezb30"
+    },
+    {
+      "id": "l3b3jdi",
+      "body": "Ăștia de filmați și postați sunteți niște animale. Drogat sau nu, omul e într-o situație nașpa. De acord ca și-a făcut-o cu mâna lui, dar consider ca nu ține de empatie să ai puțin de bun simț în ziua de azi",
+      "author": "peaceradiant",
+      "subreddit": "bucuresti",
+      "created_utc": 1715274883,
+      "score": 8,
+      "link_id": "t3_1cnyxny",
+      "parent_id": "t3_1cnyxny"
+    },
+    {
+      "id": "l3a5abe",
+      "body": "Try a dual boot first if unsure. Or a virtual machine although it doesn’t give the same experience. \n\nAlso, it depends on what apps do you usually use on Windows. Are you a casual user? Then both will work just fine. Are you a gamer? PopOS has the best support for this as far as I know. Programming? Linux all the way. Etc you get the point \nPersonally I tried many Linux distros after Windows and I had little to no problems but I have to say I didn’t depend on some specific apps (like Adobe suite). Right now I am giving PopOS a chance and I like it very much",
+      "author": "peaceradiant",
+      "subreddit": "pop_os",
+      "created_utc": 1715262637,
+      "score": 3,
+      "link_id": "t3_1cnetnh",
+      "parent_id": "t1_l3a4686"
+    },
+    {
+      "id": "l30qajo",
+      "body": "Not him having Percy Jackson artwork as his pfp lmfao",
+      "author": "peaceradiant",
+      "subreddit": "Funnymemes",
+      "created_utc": 1715108219,
+      "score": 1,
+      "link_id": "t3_1cm0vvi",
+      "parent_id": "t3_1cm0vvi"
+    },
+    {
+      "id": "l2jtv6a",
+      "body": "I thought I always saw Michael Jackson on my wall, and yes it’s brown as well",
+      "author": "peaceradiant",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1714834311,
+      "score": 1,
+      "link_id": "t3_1cjpfqx",
+      "parent_id": "t1_l2how0b"
+    },
+    {
+      "id": "l281ucs",
+      "body": "Te înscrii doar la Mate -> poți doar 2 subiecte de mate. Baftă!",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1714644461,
+      "score": 3,
+      "link_id": "t3_1ci00vb",
+      "parent_id": "t3_1ci00vb"
+    },
+    {
+      "id": "l1wxuel",
+      "body": "Ție ți se pare ca asta e atitudine de medic care vrea oameni la cabinet?",
+      "author": "peaceradiant",
+      "subreddit": "medicalschoolRomania",
+      "created_utc": 1714468008,
+      "score": 6,
+      "link_id": "t3_1cgkf04",
+      "parent_id": "t1_l1wx9vr"
+    },
+    {
+      "id": "l1ulm38",
+      "body": "Gisele slays",
+      "author": "peaceradiant",
+      "subreddit": "CrusaderKings",
+      "created_utc": 1714427285,
+      "score": 5,
+      "link_id": "t3_1cg5qgy",
+      "parent_id": "t3_1cg5qgy"
+    },
+    {
+      "id": "l1mroji",
+      "body": "Another thing to my list of potential nightmare ideas",
+      "author": "peaceradiant",
+      "subreddit": "facepalm",
+      "created_utc": 1714307261,
+      "score": 1,
+      "link_id": "t3_1cext71",
+      "parent_id": "t3_1cext71"
+    },
+    {
+      "id": "l1j3s1d",
+      "body": "Thanks for the tip! Luckily, I managed to fix all the errors and warnings without reinstalling the system. The very next thing I did was to activate time shift :))",
+      "author": "peaceradiant",
+      "subreddit": "linuxmint",
+      "created_utc": 1714240649,
+      "score": 2,
+      "link_id": "t3_1cbyhyp",
+      "parent_id": "t1_l1izzd3"
+    },
+    {
+      "id": "l1bip7i",
+      "body": "I like how one of them is “holy”, the other is “sacred” and the third one is just the “eastern” one",
+      "author": "peaceradiant",
+      "subreddit": "CrusaderKings",
+      "created_utc": 1714116412,
+      "score": 1,
+      "link_id": "t3_1cd6lx0",
+      "parent_id": "t3_1cd6lx0"
+    },
+    {
+      "id": "l1bijc7",
+      "body": "De curiozitate, dar până acum nu ți-ai dat seama de “pasiunea” ta pentru mate/info/fizica?",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1714116293,
+      "score": 5,
+      "link_id": "t3_1cd08uz",
+      "parent_id": "t3_1cd08uz"
+    },
+    {
+      "id": "l11mlld",
+      "body": "How do I do that? Can you elaborate please?",
+      "author": "peaceradiant",
+      "subreddit": "linuxmint",
+      "created_utc": 1713966886,
+      "score": 1,
+      "link_id": "t3_1cbyhyp",
+      "parent_id": "t1_l11m8cy"
+    },
+    {
+      "id": "l0vso8k",
+      "body": "Se poate transfer, dar trebuie să dea la anul din nou admitere și să ia medie mai mare ca a ultimului intrat la CTI. Apoi se echivalează anul I care e oricum aproape la fel și o să recupereze niște diferențe.",
+      "author": "peaceradiant",
+      "subreddit": "Polytehnica",
+      "created_utc": 1713877032,
+      "score": 3,
+      "link_id": "t3_1cb1gd1",
+      "parent_id": "t1_l0vhnkx"
+    },
+    {
+      "id": "l0sods5",
+      "body": "Sincer câteodată chiar mă întreb oare cum se simte Nicușor Dan, care e un om mai educat față de cel puțin 50% din politicieni și care a făcut ceva pentru București, când vede ca populimea stă și îi cântă în struna lui pițifrichi asta.",
+      "author": "peaceradiant",
+      "subreddit": "Romania",
+      "created_utc": 1713820837,
+      "score": 5,
+      "link_id": "t3_1cacmqk",
+      "parent_id": "t3_1cacmqk"
+    },
+    {
+      "id": "l0rspj5",
+      "body": "Y’all sims are making rugs, my sims are peeing themselves every 2 minutes",
+      "author": "peaceradiant",
+      "subreddit": "thesims",
+      "created_utc": 1713807642,
+      "score": 1,
+      "link_id": "t3_1ca6srb",
+      "parent_id": "t3_1ca6srb"
+    },
+    {
+      "id": "l0rsaf9",
+      "body": "Bro zicea de tine ca nu știi să scrii",
+      "author": "peaceradiant",
+      "subreddit": "robac",
+      "created_utc": 1713807500,
+      "score": 2,
+      "link_id": "t3_1cafzd5",
+      "parent_id": "t1_l0rp4p9"
+    },
+    {
+      "id": "l02p2my",
+      "body": "Merg de Formula 1",
+      "author": "peaceradiant",
+      "subreddit": "AutomobileRO",
+      "created_utc": 1713400837,
+      "score": 0,
+      "link_id": "t3_1c6ks9j",
+      "parent_id": "t3_1c6ks9j"
+    },
+    {
+      "id": "kzv8467",
+      "body": "Întâmplare de azi din troleibuz :))\nStăteam normal pe scaun și dintr-o dată se urca o femeie în vârstă după un tânăr în timp ce tipa la el “Te-ai urcat repede să prinzi loc!”. Zic ok, o fi împins-o pe femeie mai ales ca avea și o sacoșă, dar mai erau destule locuri libere în mașină, așa ca evident a găsit să se așeze. Dar ce să vezi ca nu termină și tot îl bălăcărește pe tipul ăla “ia uite ce s-a tolenit acolo, e nesimțirea acum de la grădiniță”. \n\nEfectiv nu înțelegeam ce mai tot comentează din moment ce a găsit loc, probabil voia acolo la scăunel moale din stofă cu priveliște supraetajată la geam. Serios acum oameni buni, ce naiba?",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1713291919,
+      "score": 3,
+      "link_id": "t3_1c5d380",
+      "parent_id": "t3_1c5d380"
+    },
+    {
+      "id": "kzv6pq6",
+      "body": "Nu iar despre postarea aia :))",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1713291454,
+      "score": 3,
+      "link_id": "t3_1c5d380",
+      "parent_id": "t1_kzun0vc"
+    },
+    {
+      "id": "kz8s6xn",
+      "body": "How does Binding Worlds forma work?",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712934506,
+      "score": 1,
+      "link_id": "t3_1c2734u",
+      "parent_id": "t1_kz8rfwc"
+    },
+    {
+      "id": "kz8ei6s",
+      "body": "That’s bonkers. He’s a true tank",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712929723,
+      "score": 2,
+      "link_id": "t3_1c2734u",
+      "parent_id": "t1_kz8edon"
+    },
+    {
+      "id": "kz8d8iu",
+      "body": "Oh, interesting! Is that the only thing you changed? :0",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712929254,
+      "score": 3,
+      "link_id": "t3_1c2734u",
+      "parent_id": "t1_kz8d4nl"
+    },
+    {
+      "id": "kz8c4al",
+      "body": "Lmaooo",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1712928832,
+      "score": 1,
+      "link_id": "t3_1c25o35",
+      "parent_id": "t1_kz8a4k7"
+    },
+    {
+      "id": "kz86h6o",
+      "body": "Thanks a lot, he’s great. Time to save orbs for the fodder, I guess XD",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712926602,
+      "score": 2,
+      "link_id": "t3_1c2734u",
+      "parent_id": "t1_kz7yyj2"
+    },
+    {
+      "id": "kz7rn40",
+      "body": "You had us in the first half, not gonna lie",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1712919523,
+      "score": 11,
+      "link_id": "t3_1c247x6",
+      "parent_id": "t1_kz7p4w3"
+    },
+    {
+      "id": "kz7rh8m",
+      "body": "Noroc ca am citit comentariul asta inainte sa scriu eu :))",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1712919431,
+      "score": 7,
+      "link_id": "t3_1c247x6",
+      "parent_id": "t1_kz7jdzg"
+    },
+    {
+      "id": "kz56u0b",
+      "body": "Păi așa de ce mai am puncte credite la ea :)) sau mai bine pusă întrebarea, care e faza cu materia. Ca văd ca se acordă 20 de puncte deci cumva admis = 10",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1712872530,
+      "score": 0,
+      "link_id": "t3_1c1q98t",
+      "parent_id": "t1_kz55pj5"
+    },
+    {
+      "id": "kz55hes",
+      "body": "E calificativ",
+      "author": "peaceradiant",
+      "subreddit": "UniRO",
+      "created_utc": 1712872061,
+      "score": 1,
+      "link_id": "t3_1c1q98t",
+      "parent_id": "t1_kz55344"
+    },
+    {
+      "id": "kytxbxm",
+      "body": "Oamenii sunt bătuți în cap deja, fără supărare…Piedone a ieșit la 3 mici și postează pe TikTok cum ajută babe, deja are 30%…Sper ca DigiCacao24 să se însele, altfel ne merităm soarta!",
+      "author": "peaceradiant",
+      "subreddit": "bucuresti",
+      "created_utc": 1712698381,
+      "score": 6,
+      "link_id": "t3_1bzyzgy",
+      "parent_id": "t3_1bzyzgy"
+    },
+    {
+      "id": "kytwskl",
+      "body": "Atunci ca bucureșteni suntem oficial handicapati si ne merităm soarta",
+      "author": "peaceradiant",
+      "subreddit": "bucuresti",
+      "created_utc": 1712698187,
+      "score": 17,
+      "link_id": "t3_1bzyzgy",
+      "parent_id": "t1_kytr1ex"
+    },
+    {
+      "id": "kys86mw",
+      "body": "That guy sounds like he’s ready to eat your cat 💀",
+      "author": "peaceradiant",
+      "subreddit": "Apartmentliving",
+      "created_utc": 1712677628,
+      "score": 1,
+      "link_id": "t3_1bzfzvr",
+      "parent_id": "t3_1bzfzvr"
+    },
+    {
+      "id": "kyl57kz",
+      "body": "E prost cine dă :x",
+      "author": "peaceradiant",
+      "subreddit": "romemes",
+      "created_utc": 1712560330,
+      "score": 3,
+      "link_id": "t3_1by5dfy",
+      "parent_id": "t1_kyl4fon"
+    },
+    {
+      "id": "kyjo32c",
+      "body": "Thanks a lot, it will be a lesson for me to make more thoughtful decisions in the future",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712534313,
+      "score": 1,
+      "link_id": "t3_1byi9cj",
+      "parent_id": "t1_kyjnwrt"
+    },
+    {
+      "id": "kyjnmas",
+      "body": "Oh damn. Not even in the summer ? :(( I feel really bad because I spent all my heroic grails…at this point is easier to summon 4-stars from a limited banner than to +10 a heroic grails unit",
+      "author": "peaceradiant",
+      "subreddit": "FireEmblemHeroes",
+      "created_utc": 1712534132,
+      "score": 1,
+      "link_id": "t3_1byi9cj",
+      "parent_id": "t1_kyjnd2f"
+    },
+    {
+      "id": "kyg1njc",
+      "body": "Hi! I lost my streak a couple days ago and I had the option to do 6 lessons to get it back (it must be a new thing, look for some dumbbells on fire). Maybe you’ll get it too!",
+      "author": "peaceradiant",
+      "subreddit": "duolingo",
+      "created_utc": 1712480196,
+      "score": 2,
+      "link_id": "t3_1bxvc83",
+      "parent_id": "t3_1bxvc83"
+    },
+    {
+      "id": "kyebi6z",
+      "body": "HEY THAT’S MY WIFE \nJk, this happened to me as well with the exactly same character but I was the king of Ireland. My son inherited both titles, then had enough land to legally declare the empire. (Spoiler: don’t mess up with the succession law in England otherwise you’ll have family war if you have more than one son).",
+      "author": "peaceradiant",
+      "subreddit": "CrusaderKings",
+      "created_utc": 1712447982,
+      "score": 3,
+      "link_id": "t3_1bxh44c",
+      "parent_id": "t3_1bxh44c"
+    },
+    {
+      "id": "kydtap0",
+      "body": "(In Vera’s voice) AMEN",
+      "author": "peaceradiant",
+      "subreddit": "MrRobot",
+      "created_utc": 1712440832,
+      "score": 8,
+      "link_id": "t3_1bxgwmr",
+      "parent_id": "t3_1bxgwmr"
+    },
+    {
+      "id": "ky6rlhb",
+      "body": "În poza aia cu “familia”, tipul zici ca e Măruță. Poate doar mie mi se pare de la depărtare :))",
+      "author": "peaceradiant",
+      "subreddit": "Romania",
+      "created_utc": 1712332577,
+      "score": 1,
+      "link_id": "t3_1bweh2r",
+      "parent_id": "t3_1bweh2r"
+    },
+    {
+      "id": "kxzyeae",
+      "body": "Hai să mă lase ăștia de la STB. Eram în troleibuz, se urcă frumos controlorul, se duce la unii să îi întrebe de călătorie. Ei dau din umeri, da și controlorul din umeri, apoi se întoarce la mine și îmi citește SMS ul 2 minute de ziceai ca depinde de viața lui. Păi e corect așa? Ori ierți pe toată lumea, ori dai mereu amendă, ori te lași de meserie. Bag de seamă ca dacă faci pe șmecherul cu căști în urechi nu se mai ia nimeni de tine.",
+      "author": "peaceradiant",
+      "subreddit": "bucuresti",
+      "created_utc": 1712230863,
+      "score": 9,
+      "link_id": "t3_1bvf1vt",
+      "parent_id": "t3_1bvf1vt"
+    },
+    {
+      "id": "kxxc14w",
+      "body": "Therapist: sims aren’t real they can’t take revenge on you for drowning them\nThe sims:",
+      "author": "peaceradiant",
+      "subreddit": "thesims",
+      "created_utc": 1712183165,
+      "score": 2,
+      "link_id": "t3_1buznvc",
+      "parent_id": "t3_1buznvc"
+    },
+    {
+      "id": "kxwpo8c",
+      "body": "I just watched a horror movie but damn I think that’s what will haunt me tonight",
+      "author": "peaceradiant",
+      "subreddit": "thesims",
+      "created_utc": 1712175732,
+      "score": 2,
+      "link_id": "t3_1bupja3",
+      "parent_id": "t3_1bupja3"
+    },
+    {
+      "id": "kxtb7c8",
+      "body": "I just had the spoiler of my life and I’m heartbroken \nI don’t even want to continue the show",
+      "author": "peaceradiant",
+      "subreddit": "thegooddoctor",
+      "created_utc": 1712122388,
+      "score": 10,
+      "link_id": "t3_1buiw4c",
+      "parent_id": "t3_1buiw4c"
+    },
+    {
+      "id": "kxntzyv",
+      "body": "Why does he look like he’s homeless",
+      "author": "peaceradiant",
+      "subreddit": "thesims",
+      "created_utc": 1712038279,
+      "score": 1,
+      "link_id": "t3_1btacaz",
+      "parent_id": "t3_1btacaz"
+    },
+    {
+      "id": "kxkfux4",
+      "body": "Ba este foarte de așteptat :)) \nASE pe vremuri avea cele mai grele admiteri pe matematică, eu mă întreb ce au pățit de au băgat dosar. Cibernetica et al sunt programe de studii populare de ani de zile",
+      "author": "peaceradiant",
+      "subreddit": "robac",
+      "created_utc": 1711990616,
+      "score": 3,
+      "link_id": "t3_1bt206e",
+      "parent_id": "t1_kxk3q0q"
+    },
+    {
+      "id": "kxj5z3e",
+      "body": "I think there’s a higher chance that an AI generated movie/show will be more accurate than the show directed by the author of the series.",
+      "author": "peaceradiant",
+      "subreddit": "PercyJacksonTV",
+      "created_utc": 1711973083,
+      "score": 1,
+      "link_id": "t3_1bsi76e",
+      "parent_id": "t3_1bsi76e"
+    },
+    {
+      "id": "kxfqujt",
+      "body": "This would have been r/eyeblech worthy",
+      "author": "peaceradiant",
+      "subreddit": "CrusaderKings",
+      "created_utc": 1711912302,
+      "score": 1,
+      "link_id": "t3_1bsg2ow",
+      "parent_id": "t3_1bsg2ow"
+    },
+    {
+      "id": "kxetcjo",
+      "body": "Eu am dat bac profil real, deci nu te pot ajuta foarte mult, dar pe parte de română sigur se poate și fără meditații. Învață eseurile bine, lucrează toate testele puse de minister pe site (foarte important, mai întâi alea și după cărțile expirate de pe site-uri), lucrează multe eseuri de opinie, mai caută niște șabloane pentru subiectul II și cam aia e.\nȘi nu uita să stresezi proful/profa de română de la clasa ca să îți corecteze ce faci. Fără feedback nu  faci prea multe. Baftă!",
+      "author": "peaceradiant",
+      "subreddit": "robac",
+      "created_utc": 1711900312,
+      "score": 6,
+      "link_id": "t3_1bscpnw",
+      "parent_id": "t1_kxesf05"
+    },
+    {
+      "id": "kxeshje",
+      "body": "Don’t be shy give us the wallpaper :)) \nAnyway, good job, it looks really cool",
+      "author": "peaceradiant",
+      "subreddit": "unixporn",
+      "created_utc": 1711900000,
+      "score": 1,
+      "link_id": "t3_1brz4m9",
+      "parent_id": "t3_1brz4m9"
+    },
+    {
+      "id": "kxerwb6",
+      "body": "La ce materii dai bacul? \nPentru română eu am învățat din cartea verde de eseuri scrisă de Lascăr, sunt mai lungi într-adevăr, dar ținând cont ca la examen 100% nu o să poți să îți aduci aminte tot ce scrie pe acolo, o să îți iasă exact numărul de cuvinte.",
+      "author": "peaceradiant",
+      "subreddit": "robac",
+      "created_utc": 1711899786,
+      "score": 9,
+      "link_id": "t3_1bscpnw",
+      "parent_id": "t1_kxeq6fm"
+    },
+    {
+      "id": "kxepzz0",
+      "body": "1. Eseuri, nu esee.\n2. Cărțile alea sunt jaf pe fața",
+      "author": "peaceradiant",
+      "subreddit": "robac",
+      "created_utc": 1711899093,
+      "score": 46,
+      "link_id": "t3_1bscpnw",
+      "parent_id": "t3_1bscpnw"
+    },
+    {
+      "id": "kxe9syr",
+      "body": "Coaie ce dracu",
+      "author": "peaceradiant",
+      "subreddit": "okprietenretardat",
+      "created_utc": 1711892811,
+      "score": 2,
+      "link_id": "t3_1bs8fhp",
+      "parent_id": "t3_1bs8fhp"
+    },
+    {
+      "id": "kxbccft",
+      "body": "I think even the game got scared",
+      "author": "peaceradiant",
+      "subreddit": "CrusaderKings",
+      "created_utc": 1711836695,
+      "score": 1,
+      "link_id": "t3_1brr3u3",
+      "parent_id": "t3_1brr3u3"
+    },
+    {
+      "id": "kx6pyes",
+      "body": "That’s Duolingo after Chernobyl",
+      "author": "peaceradiant",
+      "subreddit": "duolingo",
+      "created_utc": 1711758063,
+      "score": 6,
+      "link_id": "t3_1br0677",
+      "parent_id": "t3_1br0677"
+    },
+    {
+      "id": "kx42amu",
+      "body": "This car was absolutely beautiful",
+      "author": "peaceradiant",
+      "subreddit": "formula1",
+      "created_utc": 1711722053,
+      "score": 3,
+      "link_id": "t3_1bqmt8r",
+      "parent_id": "t3_1bqmt8r"
+    },
+    {
+      "id": "kwf2xde",
+      "body": "Cutia Pandorei",
+      "author": "peaceradiant",
+      "subreddit": "bucuresti",
+      "created_utc": 1711326687,
+      "score": -2,
+      "link_id": "t3_1bmtra8",
+      "parent_id": "t3_1bmtra8"
+    },
+    {
+      "id": "kv3h3ql",
+      "body": "Bro a făcut și el 3 împărțiri la chimie și zice ca a făcut matematică 😭",
+      "author": "peaceradiant",
+      "subreddit": "medicalschoolRomania",
+      "created_utc": 1710561640,
+      "score": 6,
+      "link_id": "t3_1bffof0",
+      "parent_id": "t3_1bffof0"
+    },
+    {
+      "id": "kv3gl5r",
+      "body": "Exact…știu foarte multe persoane care au luat și bursa învățând foarte, foarte (și insist pe foarte) bine teoria. La probleme au făcut cat au putut pe loc și aia a fost. Baza la admitere nu e deloc pe probleme ca altfel se numea Olimpiada",
+      "author": "peaceradiant",
+      "subreddit": "medicalschoolRomania",
+      "created_utc": 1710561373,
+      "score": 1,
+      "link_id": "t3_1bffof0",
+      "parent_id": "t1_kv1rmnd"
+    },
+    {
+      "id": "kudvb9d",
+      "body": "Now that explains a lot",
+      "author": "peaceradiant",
+      "subreddit": "Sims4",
+      "created_utc": 1710173937,
+      "score": 1,
+      "link_id": "t3_1bbk4j8",
+      "parent_id": "t1_ku9r562"
+    },
+    {
+      "id": "ksqacg4",
+      "body": "I see now thanks. Clearly the situation is more messed up now internally than ever was before. I just hope it won’t backfire regarding the team’s performance.",
+      "author": "peaceradiant",
+      "subreddit": "formula1",
+      "created_utc": 1709230787,
+      "score": 1,
+      "link_id": "t3_1b32wd5",
+      "parent_id": "t1_ksq9sf0"
+    },
+    {
+      "id": "ksq87z1",
+      "body": "Wow that’s a thorough explanation. As a new fan I didn’t know all this, but from what I’ve seen I thought Max was closer to Horner. Maybe that’s because I still don’t quite understand what exactly is Marko’s role in the team, all the news I know of him are his racist comments lmao",
+      "author": "peaceradiant",
+      "subreddit": "formula1",
+      "created_utc": 1709230085,
+      "score": 2,
+      "link_id": "t3_1b32wd5",
+      "parent_id": "t1_kspjsah"
+    },
+    {
+      "id": "ks04uns",
+      "body": "azorel privire de oțel",
+      "author": "peaceradiant",
+      "subreddit": "CasualRO",
+      "created_utc": 1708823883,
+      "score": 3,
+      "link_id": "t3_1az4y4m",
+      "parent_id": "t3_1az4y4m"
+    },
+    {
+      "id": "krfut9c",
+      "body": "THAT’S HIS GRANDPA???",
+      "author": "peaceradiant",
+      "subreddit": "Sims4",
+      "created_utc": 1708518668,
+      "score": 17,
+      "link_id": "t3_1aw39nu",
+      "parent_id": "t3_1aw39nu"
+    },
+    {
+      "id": "kqz45yr",
+      "body": "This guy was fighting duo irl during the lesson",
+      "author": "peaceradiant",
+      "subreddit": "duolingo",
+      "created_utc": 1708253709,
+      "score": 1,
+      "link_id": "t3_1asznau",
+      "parent_id": "t3_1asznau"
+    },
+    {
+      "id": "kq2d6xm",
+      "body": "Try to wave, see what happens",
+      "author": "peaceradiant",
+      "subreddit": "Sims4",
+      "created_utc": 1707733721,
+      "score": 1,
+      "link_id": "t3_1aom1pk",
+      "parent_id": "t3_1aom1pk"
+    },
+    {
+      "id": "kpbd81c",
+      "body": "Yep, happened to me in Diamond.\n\nhttps://preview.redd.it/uwyj2i9sa5hc1.jpeg?width=1170&format=pjpg&auto=webp&s=6166f0a3b0b84f72be4bde7c8cae425572ffb6d6",
+      "author": "peaceradiant",
+      "subreddit": "duolingo",
+      "created_utc": 1707303813,
+      "score": 3,
+      "link_id": "t3_1akby5f",
+      "parent_id": "t3_1akby5f"
+    },
+    {
+      "id": "kp03uk4",
+      "body": "Bro that’s a crazy zoo you have there",
+      "author": "peaceradiant",
+      "subreddit": "Sims4",
+      "created_utc": 1707123606,
+      "score": 7,
+      "link_id": "t3_1aisg45",
+      "parent_id": "t3_1aisg45"
+    },
+    {
+      "id": "kotny4w",
+      "body": "Idk what art revolution you try to do in that basement but the last pic with the mini football area, fake sun and clouds wallpaper got me wheezing. 🤣",
+      "author": "peaceradiant",
+      "subreddit": "Sims4",
+      "created_utc": 1707013193,
+      "score": 17,
+      "link_id": "t3_1aia4en",
+      "parent_id": "t3_1aia4en"
     }
   ]
 }

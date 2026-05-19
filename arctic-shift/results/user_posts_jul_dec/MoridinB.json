@@ -1,6 +1,62 @@
 {
   "username": "MoridinB",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hd690u",
+      "title": "Did everyone gloss over this part or is it old news?",
+      "author": "MoridinB",
+      "subreddit": "witcher",
+      "created_utc": 1734071136,
+      "score": 0,
+      "num_comments": 6,
+      "selftext": "Do devs already have 5000 series GPUs?",
+      "url": "https://i.redd.it/ot03unfs7k6e1.jpeg"
+    },
+    {
+      "id": "1h3fw9x",
+      "title": "Need help with linking references",
+      "author": "MoridinB",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1732983248,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "So I've created a database of academic papers filled with tags and notes for each paper. There's about 30-40 papers in there right now. I'd really like to come up with a way to put in links inside the papers according to the references in the paper. That is, a paper should link to the reference in my notes only if it's in my database. \n\nAnyone have any resources to do this?",
+      "url": "https://www.reddit.com/r/ObsidianMD/comments/1h3fw9x/need_help_with_linking_references/"
+    },
+    {
+      "id": "1gtqk41",
+      "title": "3D Surface Reconstruction for Sparse Points",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1731885344,
+      "score": 18,
+      "num_comments": 10,
+      "selftext": "I'm not sure if this is the right place for this. I need some help on how to get a rough surface for a sparse point cloud in 3D space. I'm looking for a learning based approach rather than optimization as it needs to be fairly fast and also differentiable. Most methods I've looked at either don't provide good results for my purposes ([Points as Shapes](https://arxiv.org/pdf/2106.03452)) or are optimization based ([DMesh](https://arxiv.org/pdf/2404.13445), [DeepSDF](https://arxiv.org/abs/1901.05103)). One of the datasets I'm working with is TartanAir, and the goal is to get rough surfaces given keypoints generated from a keypoint detector unprojected via depth. Any ideas or suggestions would be welcome!",
+      "url": "https://www.reddit.com/r/computervision/comments/1gtqk41/3d_surface_reconstruction_for_sparse_points/"
+    },
+    {
+      "id": "1gmnfh7",
+      "title": "Problems with TartanAir",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1731085504,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I'm attempting to create a TartanAir dataset in \\[glue-factor\\](https://github.com/cvg/glue-factory). For my purposes, just importing the stereo images provides little information, so I attempted to create pairs between the frames as well. Doing this provides some pose inconsistencies that results in ground truth correspondences being slightly off. Here's an image of the dense warp to show what's wrong:\n\nhttps://preview.redd.it/agzed7lkkpzd1.png?width=1854&format=png&auto=webp&s=118265e2e553f715cb433aa693aa058a6efaace8\n\nWhat am I doing wrong? I've taken most of my information from \\[this repository\\](https://github.com/castacks/tartanair\\_tools/tree/master), specifically \\[this file showing the conventions and format of the dataset\\](https://github.com/castacks/tartanair\\_tools/blob/master/data\\_type.md). I've tried a lot of things including changing conventions from NED to EDN, accounting for baseline in the camera intrinsics, manually converting the quaternions to pose matrix and using libraries. I'm at my wits end, hence coming here for suggestions.",
+      "url": "https://www.reddit.com/r/computervision/comments/1gmnfh7/problems_with_tartanair/"
+    },
+    {
+      "id": "1fcw3qw",
+      "title": "Baldur is blessed with invulnerability to all threats, physical or magical",
+      "author": "MoridinB",
+      "subreddit": "GodofWar",
+      "created_utc": 1725905350,
+      "score": 73,
+      "num_comments": 8,
+      "selftext": "",
+      "url": "https://v.redd.it/az2yphv3psnd1"
+    }
+  ],
   "comments": [
     {
       "id": "liqy2es",
@@ -21,6 +77,1626 @@
       "score": 1,
       "link_id": "t3_z3c7ad",
       "parent_id": "t1_ldylq67"
+    },
+    {
+      "id": "m4h33wq",
+      "body": "Not for allergies, but the number of times I've had to specify chicken is not vegetarian is, well, two times, which isn't a lot, but considering it's somewhat obvious it's kinda embarassing.",
+      "author": "MoridinB",
+      "subreddit": "Unexpected",
+      "created_utc": 1735532986,
+      "score": 1,
+      "link_id": "t3_1hoqrdh",
+      "parent_id": "t1_m4d47i9"
+    },
+    {
+      "id": "m43gl8k",
+      "body": "Reminds me of the language in Arrival",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1735335329,
+      "score": 20,
+      "link_id": "t3_1hno8f4",
+      "parent_id": "t1_m437bxr"
+    },
+    {
+      "id": "m3hy3ah",
+      "body": "I'm not familiar with FNOs, and I'm a little confused with the specifics, but your 3rd idea reminded me a little about this paper, https://3d-avatar-diffusion.microsoft.com/, which uses modified 3d aware convolutions. Perhaps you can be inspired from thus?",
+      "author": "MoridinB",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734989502,
+      "score": 2,
+      "link_id": "t3_1hksw79",
+      "parent_id": "t3_1hksw79"
+    },
+    {
+      "id": "m3bkqlo",
+      "body": "Like the OOP wasn't reductive. It was supposed to be a sarcastic statement...",
+      "author": "MoridinB",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1734893838,
+      "score": 1,
+      "link_id": "t3_1hjxvis",
+      "parent_id": "t1_m3bca04"
+    },
+    {
+      "id": "m3b2pyx",
+      "body": "This is really insensitive, but I can see the point in his statement if it were switched to:\n\n\"...if he and his buddies weren't sent to Afghanistan...\"\n\nNo one is at war on their own free will, but rather by instigation of some politician sitting on their comfy chairs.",
+      "author": "MoridinB",
+      "subreddit": "technicallythetruth",
+      "created_utc": 1734887922,
+      "score": 13,
+      "link_id": "t3_1hk2b65",
+      "parent_id": "t3_1hk2b65"
+    },
+    {
+      "id": "m3avq7a",
+      "body": "Haha, our brain is a bunch of if-statements:\n\nIf (accumulate(synapse_signal) > self.threshold):\n    self.send_spike",
+      "author": "MoridinB",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1734885543,
+      "score": 4,
+      "link_id": "t3_1hjxvis",
+      "parent_id": "t1_m39zbs8"
+    },
+    {
+      "id": "m35e0px",
+      "body": "Trust me... this isn't anywhere close.",
+      "author": "MoridinB",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1734796196,
+      "score": 6,
+      "link_id": "t3_1hj9lbr",
+      "parent_id": "t1_m35143c"
+    },
+    {
+      "id": "m2qu1t0",
+      "body": "Dr. Strawbotnik",
+      "author": "MoridinB",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1734567122,
+      "score": 1,
+      "link_id": "t3_1hfrjq2",
+      "parent_id": "t1_m2doz07"
+    },
+    {
+      "id": "m2i010n",
+      "body": "You know what? You're right. I don't remember much from Valhalla since it's been a while, but Origins was a much more memorable game. I remember when you climbed the pyramid, the camera pans out, making your character much smaller and showing the scale of the pyramids. Now imagine that with mountains. \n\nIt also reminds me of a shot in the trailer for Horizon Forbidden West in Yosemite Valley.",
+      "author": "MoridinB",
+      "subreddit": "assassinscreed",
+      "created_utc": 1734446588,
+      "score": 2,
+      "link_id": "t3_1hefye6",
+      "parent_id": "t1_m24esp0"
+    },
+    {
+      "id": "m2hjm2x",
+      "body": "Except for that small time in between where Italy liked the Germans more...",
+      "author": "MoridinB",
+      "subreddit": "MurderedByWords",
+      "created_utc": 1734439999,
+      "score": 1,
+      "link_id": "t3_1hg7ir2",
+      "parent_id": "t1_m2h36ph"
+    },
+    {
+      "id": "m28s5cx",
+      "body": "Why would you use efficiency nodes and not use the hires script that comes with it?",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1734304150,
+      "score": 0,
+      "link_id": "t3_1hezja6",
+      "parent_id": "t1_m27tqqe"
+    },
+    {
+      "id": "m23c3lc",
+      "body": "It would be interesting to see if you can make it work with the same model. For example, most DiT models have a framework with repeated DiT blocks. If the primary model is the first DiT block and the second is just the same model with only the first k blocks, then you only need to finetune once. \n\nOf course, I haven't worked with DiT models enough to know this would work, but it's just an idea.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1734220421,
+      "score": 2,
+      "link_id": "t3_1hebcri",
+      "parent_id": "t1_m22fjf4"
+    },
+    {
+      "id": "m1y5ggx",
+      "body": "Yeah, it was that one. And I think there's another instance in Season 8 Episode 9 entitled \"The Last Day Pt. 1\" where Jake picks names with teeth. Holt is picked with Norm Scully when Rosa says, \"His name is Norm?\"\n\nAnd Scully replies: \"My name is Norm?\"",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1734137436,
+      "score": 3,
+      "link_id": "t3_1hddo96",
+      "parent_id": "t1_m1wclk5"
+    },
+    {
+      "id": "m1vgstt",
+      "body": "I messed up. I got confused and thought Charles was Scully's first name and not Boyle's. It's Scully who forgets his name is Norm in an episode (I don't remember which).",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1734105034,
+      "score": 12,
+      "link_id": "t3_1hddo96",
+      "parent_id": "t1_m1vg0ec"
+    },
+    {
+      "id": "m1vfwqk",
+      "body": "Yeah, I was trying to reference him forgetting his own name....",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1734104745,
+      "score": 7,
+      "link_id": "t3_1hddo96",
+      "parent_id": "t1_m1vfrqk"
+    },
+    {
+      "id": "m1vflwn",
+      "body": "Wait, who's Charles?",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1734104648,
+      "score": 7,
+      "link_id": "t3_1hddo96",
+      "parent_id": "t1_m1v6ow9"
+    },
+    {
+      "id": "m1tqfzw",
+      "body": "Yeah, but I've been writing a report the entire day, and my brain's melted...",
+      "author": "MoridinB",
+      "subreddit": "witcher",
+      "created_utc": 1734073619,
+      "score": 1,
+      "link_id": "t3_1hd690u",
+      "parent_id": "t1_m1tpv70"
+    },
+    {
+      "id": "m1tqbhb",
+      "body": "I didn't know they released versions to devs before. I guess I always assumed they got the GPUs the same day we the consumers got them.",
+      "author": "MoridinB",
+      "subreddit": "witcher",
+      "created_utc": 1734073543,
+      "score": 1,
+      "link_id": "t3_1hd690u",
+      "parent_id": "t1_m1tp1vm"
+    },
+    {
+      "id": "m1tot1u",
+      "body": "Your profile was created in 2022... just saying",
+      "author": "MoridinB",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1734072639,
+      "score": 2,
+      "link_id": "t3_1hd5567",
+      "parent_id": "t1_m1tn420"
+    },
+    {
+      "id": "m1n9z1w",
+      "body": "AND SUCKING ON SOME FROZEN FROGS CAN CURE YOUR FRIENDS OF SICKNESS AFTER A STORM.\n\nSorry, I just watched Avatar again and had to get it out.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1733978419,
+      "score": 31,
+      "link_id": "t3_1hc9f6c",
+      "parent_id": "t1_m1mqxww"
+    },
+    {
+      "id": "m0zatxe",
+      "body": "I do this... I'm 24...",
+      "author": "MoridinB",
+      "subreddit": "nothingeverhappens",
+      "created_utc": 1733630045,
+      "score": 1,
+      "link_id": "t3_1h7bvo9",
+      "parent_id": "t1_m0npno5"
+    },
+    {
+      "id": "m0no5rv",
+      "body": "Sounds great! Keep up the good work and keep practicing!",
+      "author": "MoridinB",
+      "subreddit": "TwoStepsFromHell",
+      "created_utc": 1733458357,
+      "score": 2,
+      "link_id": "t3_1h7lkjt",
+      "parent_id": "t3_1h7lkjt"
+    },
+    {
+      "id": "m0937bc",
+      "body": "Hey same! Also any chance you're a cuban ex-detective and have a daughter who's also a detective in New York?",
+      "author": "MoridinB",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1733255947,
+      "score": 2,
+      "link_id": "t3_1h5i9mm",
+      "parent_id": "t1_m07t6tt"
+    },
+    {
+      "id": "m027diu",
+      "body": "Verily so, hmhmmm *adjusts monocle*",
+      "author": "MoridinB",
+      "subreddit": "oddlyspecific",
+      "created_utc": 1733159256,
+      "score": 82,
+      "link_id": "t3_1h4uofz",
+      "parent_id": "t1_m026ch0"
+    },
+    {
+      "id": "lzr3oou",
+      "body": "I don't see a while-loop... do you?",
+      "author": "MoridinB",
+      "subreddit": "programminghumor",
+      "created_utc": 1732993236,
+      "score": 2,
+      "link_id": "t3_1h2gsvl",
+      "parent_id": "t1_lzk990n"
+    },
+    {
+      "id": "lzqvxeb",
+      "body": "Basically, I want to use Obsidian's graph more effectively to connect my papers. The way I thought to do this is connecting via mentions in the papers themselves. I only want to see which of the papers I've put in my database are connected like this. \n\nThe basic step would be: get citations from a paper, check which ones exist in the database, and then link to the notes associated with the citation in selected paper.",
+      "author": "MoridinB",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1732990737,
+      "score": 1,
+      "link_id": "t3_1h3fw9x",
+      "parent_id": "t1_lzqj3oz"
+    },
+    {
+      "id": "lyxbc1m",
+      "body": "We'd have two Kratos....",
+      "author": "MoridinB",
+      "subreddit": "GodofWar",
+      "created_utc": 1732551562,
+      "score": 1,
+      "link_id": "t3_1gzd1t6",
+      "parent_id": "t3_1gzd1t6"
+    },
+    {
+      "id": "lyx8w5a",
+      "body": "All I'm saying is there's a reason there's a simplified Chinese",
+      "author": "MoridinB",
+      "subreddit": "todayilearned",
+      "created_utc": 1732550788,
+      "score": 17,
+      "link_id": "t3_1gzcuzb",
+      "parent_id": "t1_lywy80h"
+    },
+    {
+      "id": "lywxhy9",
+      "body": "For some reason, I don't like this definition. While for some, the will to presere their belief does lead to a denial of observation, I don't think it should be baked into the definition. In my opinion, faith is \"preserving a belief despite a lack of observation.\" Any God or gods has shown no proof they exist, but we believe in them.",
+      "author": "MoridinB",
+      "subreddit": "sciencememes",
+      "created_utc": 1732547075,
+      "score": 5,
+      "link_id": "t3_1gzav2b",
+      "parent_id": "t1_lywjce0"
+    },
+    {
+      "id": "lylgz38",
+      "body": "Good point. Things that seem obvious to us may not be to others.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1732378660,
+      "score": 2,
+      "link_id": "t3_1gxshdi",
+      "parent_id": "t1_lyk7e49"
+    },
+    {
+      "id": "lyc8yp7",
+      "body": "I think it was [this post](https://www.reddit.com/r/blender/s/VBPKXimggV) by u/dolfijntje.",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1732236836,
+      "score": 313,
+      "link_id": "t3_1gwu38a",
+      "parent_id": "t1_lyc1i5g"
+    },
+    {
+      "id": "lxrm96k",
+      "body": "I looked at Delauney Triangulation, but couldn't find a implementation that was differentiable. After seeing your comment, I looked again, and there is a implementation in torch\\_geometric. Perhaps I can try that. Also I found [this paper](https://arxiv.org/pdf/2109.10695) which looks promising as well.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1731943313,
+      "score": 1,
+      "link_id": "t3_1gtqk41",
+      "parent_id": "t1_lxpssh0"
+    },
+    {
+      "id": "lxrfsl4",
+      "body": "Where can I download it? I'm curious how you did it.",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1731941090,
+      "score": 3,
+      "link_id": "t3_1gu4y3u",
+      "parent_id": "t1_lxrdxgl"
+    },
+    {
+      "id": "lxo8sir",
+      "body": "Right, of course. I can't say I understand all the capabilities of DinoV2, but I realize it's a feature detector and matcher. But you see, I don't want a dense feature detector since I'm trying to train a sparse one. My goal is to generate a 3D surface and train keypoints that can best fit a coarse surface to the ground truth depth.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1731887018,
+      "score": 3,
+      "link_id": "t3_1gtqk41",
+      "parent_id": "t1_lxo7nx7"
+    },
+    {
+      "id": "lxo66yi",
+      "body": "I'm not sure I understand? DinoV2 can only provide the depth, yes? I'm not necessarily sure I want to predict depth. Rather I'm trying to get a coarse surface/mesh to then compare with the ground truth depth and learn keypoints that can then best describe the geometry.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1731886100,
+      "score": 2,
+      "link_id": "t3_1gtqk41",
+      "parent_id": "t1_lxo4vzv"
+    },
+    {
+      "id": "lxdh3ca",
+      "body": "Nah. I'm a young adult who just got into it (the politics, I mean).",
+      "author": "MoridinB",
+      "subreddit": "funnyvideos",
+      "created_utc": 1731725557,
+      "score": 1,
+      "link_id": "t3_1grrxkd",
+      "parent_id": "t1_lx90o9q"
+    },
+    {
+      "id": "lxdfbnr",
+      "body": "When I first started playing games, I was really attached to this one game on the PSP called Gladiator Begins. While the original game was split into many days, the demo only had like 4 or 5, I don't remember exactly. But the point was, at the end of the demo, there was a very difficult gladiator (no difficulty modifiers, btw). This boss, who wore some skimpy clothes that *may* have added some replayability ;), was extremely difficult and wasn't in the main game. I kept going to that boss trying to defeat them, and only after I was done with them did I actually get the main game. That might be a down side, or an upside. I don't know. But I certainly played the heck out of that demo.",
+      "author": "MoridinB",
+      "subreddit": "gamedesign",
+      "created_utc": 1731724839,
+      "score": 1,
+      "link_id": "t3_1gscmfq",
+      "parent_id": "t3_1gscmfq"
+    },
+    {
+      "id": "lwxln7v",
+      "body": "So you are increasing training set size? Are you taking from the validation set or just adding more data?\n\nSomeone correct me if I'm wrong, but if you're adding more data, then it's not overfitting. You're providing a larger sample size of the population, which should provide a better validation score. Overfitting occurs when training on too many iterations/parameters so that the data fits the training. The validation score should be decreasing. But as I mentioned, increasing data should not lead to a decreasing validation, only an increase in iterations/parameters.",
+      "author": "MoridinB",
+      "subreddit": "MachineLearning",
+      "created_utc": 1731513357,
+      "score": 1,
+      "link_id": "t3_1gqezuk",
+      "parent_id": "t3_1gqezuk"
+    },
+    {
+      "id": "lwxi7ad",
+      "body": "If you're just experimenting, try with PyTorch. If you're developing, PyTorch Lightning",
+      "author": "MoridinB",
+      "subreddit": "MachineLearning",
+      "created_utc": 1731512278,
+      "score": 3,
+      "link_id": "t3_1gqfg82",
+      "parent_id": "t3_1gqfg82"
+    },
+    {
+      "id": "lwvl48q",
+      "body": "Thank you for replying. For now, it's only a single project that's essentially a library training and inference code with the only interface being example scripts and no entry point into code itself (I cannot exactly do from package.subpackage import Model). I'd like to use the utilities, but the author has not provided any packaging around it to do so. And I don't have any control over it. Your solution is feasible and probably the best way to approach it. I was just curious as to the best practice in this case, as I found nothing on this online.",
+      "author": "MoridinB",
+      "subreddit": "Python",
+      "created_utc": 1731477285,
+      "score": 1,
+      "link_id": "t3_1gphzn2",
+      "parent_id": "t1_lwvhzad"
+    },
+    {
+      "id": "lwu14c0",
+      "body": "I had a questionkinda about this and kinda not, but this is a good a time as any. So, for dependencies that aren't packaged together but provided only as a bunch of scripts (mainly repos for research projects), how do you properly import and use the code? Should I just fork the repo and create a pyproject? For experimentation, I use sys.path.append, but I know that's not good practice in code.",
+      "author": "MoridinB",
+      "subreddit": "Python",
+      "created_utc": 1731455487,
+      "score": 1,
+      "link_id": "t3_1gphzn2",
+      "parent_id": "t3_1gphzn2"
+    },
+    {
+      "id": "lwp70py",
+      "body": "More like \"Oh lewd Jesus\"... I'll show myself out now",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1731384877,
+      "score": 11,
+      "link_id": "t3_1gpa65w",
+      "parent_id": "t1_lwp103n"
+    },
+    {
+      "id": "lwp623j",
+      "body": "Did you know 4 would be a prime number if not for 2?",
+      "author": "MoridinB",
+      "subreddit": "mathmemes",
+      "created_utc": 1731384464,
+      "score": 3,
+      "link_id": "t3_1goprqr",
+      "parent_id": "t1_lwlg4kx"
+    },
+    {
+      "id": "lwnf7oq",
+      "body": "One use case. I wanted to change the skin color of a character, but I wanted to keep the face of the character. So, I set the start percentage to 40% to get the color in before it returned the image back to the face. I was inpainting, so it didn't change the background or composition too much. It kinda worked, but that wasn't the solution I went with at the end though.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1731362134,
+      "score": 2,
+      "link_id": "t3_1gp0zcm",
+      "parent_id": "t1_lwmv2al"
+    },
+    {
+      "id": "lwijzuq",
+      "body": "Cool! I haven't played Sifu yet. I think when Sifu released, it kinda went under my personal radar because, well, life happened.",
+      "author": "MoridinB",
+      "subreddit": "gamedesign",
+      "created_utc": 1731290767,
+      "score": 1,
+      "link_id": "t3_1gnzfi8",
+      "parent_id": "t1_lwifoqd"
+    },
+    {
+      "id": "lwgiwmx",
+      "body": "Just saying the spoiler tag didn't work. But yeah, we do kinda see that, but I'm arguing that the tutorial could also serve as the villains origin story. How they become a villain...",
+      "author": "MoridinB",
+      "subreddit": "gamedesign",
+      "created_utc": 1731266939,
+      "score": 2,
+      "link_id": "t3_1gnzfi8",
+      "parent_id": "t1_lwfzsi1"
+    },
+    {
+      "id": "lwffx8d",
+      "body": "Okay. Hear me I out. You know how some games you play as another, more powerful character, usually in the past, as a tutorial? Off the top of my head, I can only think of AC Odyssey. \n\nBut the idea is, what if, for the tutorial, you play as the villain? The advantage of this is, if your villain isn't inherently evil but becomes so, you can show his better side and how he becomes bad. Perhaps he suffered some injustice, loss of a loved one, etc. \n\nIn this way, the player doesn't have to be defeated by the villain because they are the villain.",
+      "author": "MoridinB",
+      "subreddit": "gamedesign",
+      "created_utc": 1731255106,
+      "score": 2,
+      "link_id": "t3_1gnzfi8",
+      "parent_id": "t3_1gnzfi8"
+    },
+    {
+      "id": "lw6yapr",
+      "body": "The issue is fixed. I just needed to invert the rotation matrix to change from camera-to-world to world-to-camera convention.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1731121419,
+      "score": 1,
+      "link_id": "t3_1gmnfh7",
+      "parent_id": "t3_1gmnfh7"
+    },
+    {
+      "id": "lvxsrq7",
+      "body": "That is some convoluted reasoning, and I'm not analyzing reddit comments to figure that out. In my head, retraining is not feasible because you have insufficient resources. But the fact that you're here and doing what you're doing and posting about it means that if you had the resources, you would do it. Heck, if I had the resources and the idea, I would as well, and more.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1731003921,
+      "score": -7,
+      "link_id": "t3_1glv1i3",
+      "parent_id": "t1_lvxr4au"
+    },
+    {
+      "id": "lvxpafw",
+      "body": "I do take answers and criticism well. I've learned to do so after my years in university doing research. But a plain \"because that would require complete retraining\" would have sufficed. \"I don't have 10,000 H100s\" was not needed. It provided no additional insight nor any details.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1731002946,
+      "score": -10,
+      "link_id": "t3_1glv1i3",
+      "parent_id": "t1_lvxnuk8"
+    },
+    {
+      "id": "lvxn5wv",
+      "body": "Not necessarily, right? Very naively, you only need to train a few adapter layers. I may be wrong. I'm not an expert in this by any means",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1731002351,
+      "score": 0,
+      "link_id": "t3_1glv1i3",
+      "parent_id": "t1_lvxmec7"
+    },
+    {
+      "id": "lvxluqv",
+      "body": "I'm curious why you didn't go for the purported better 16 channel sd3 vae?",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1731001991,
+      "score": 8,
+      "link_id": "t3_1glv1i3",
+      "parent_id": "t3_1glv1i3"
+    },
+    {
+      "id": "lvuconv",
+      "body": "This is a really cool sculpt of Mbappe. Can you do Mike Tyson next?",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1730951879,
+      "score": 2,
+      "link_id": "t3_1gld3b1",
+      "parent_id": "t3_1gld3b1"
+    },
+    {
+      "id": "lvd8qhd",
+      "body": "I don't have any resources, but what's stopping you from freezing the weights? Just iterate through the parameters and turn requires_grad off.",
+      "author": "MoridinB",
+      "subreddit": "MachineLearning",
+      "created_utc": 1730737066,
+      "score": 2,
+      "link_id": "t3_1gjhsuj",
+      "parent_id": "t3_1gjhsuj"
+    },
+    {
+      "id": "lvd1f37",
+      "body": "How is it slow? Take an off-the-shelf lora. Doesn't have to be flux. Could be SD1.5 or XL. Run a face swap workflow on the dataset with lora. Then train on that dataset.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1730734811,
+      "score": 1,
+      "link_id": "t3_1gfuxgx",
+      "parent_id": "t1_luqjkko"
+    },
+    {
+      "id": "lval2g0",
+      "body": "Hey, I was wondering what it would take to apply this to pdf files linked inside the notes? So, I use Obsidian as a database of papers that I've read or haven't gotten to. Currently, they're all kind of there, with sparse notes from when I read them to inconsistent and frankly not very descriptive tags on the subject matter. If the script could tag the notes based on the contents of the pdf file (most of them are arxiv files), then it would save me a lot of hastle.",
+      "author": "MoridinB",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1730690814,
+      "score": 1,
+      "link_id": "t3_1gj23hr",
+      "parent_id": "t1_lvagx22"
+    },
+    {
+      "id": "lv3ec6m",
+      "body": "I think it's more indicative of your idea and game that I remember it from so long...\n\nIt looks like great work so far though!",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1730588751,
+      "score": 3,
+      "link_id": "t3_1ghz8qi",
+      "parent_id": "t1_lv2lip6"
+    },
+    {
+      "id": "lv1n33z",
+      "body": "Were you the one who posted on r/proceduralgeneration for feedback on the tracks? I remember your posts. The game looks amazing!",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1730567853,
+      "score": 2,
+      "link_id": "t3_1ghz8qi",
+      "parent_id": "t3_1ghz8qi"
+    },
+    {
+      "id": "luvepvy",
+      "body": "Regularization images are not supposed to be beautiful. Imagine them more like a negative prompt.\n\nWhen using Dreambooth training, you provide a keyword and a class prompt, like ohwx, and woman, or man. When you train without regularization images, your character will replace woman or man with your character. Regularization keeps that initial concept while training your concept in as well.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730475510,
+      "score": 2,
+      "link_id": "t3_1gh4985",
+      "parent_id": "t1_luve085"
+    },
+    {
+      "id": "luvastq",
+      "body": "The rusted hinges...",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1730474262,
+      "score": 2,
+      "link_id": "t3_1gh20r7",
+      "parent_id": "t3_1gh20r7"
+    },
+    {
+      "id": "luv8e2i",
+      "body": "In my experience, ~25-30 images, even split between face and body, with 500 repeats total per epoch for ~10-15, get good results for me. And use regularization images.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730473486,
+      "score": 5,
+      "link_id": "t3_1gh4985",
+      "parent_id": "t3_1gh4985"
+    },
+    {
+      "id": "lurd4f6",
+      "body": "Exactly. Smooth working applications happen in a more mature field. The more at the edge you are, the more hacky, buggy, and slow code you get. Bleeding edge doesn't mean smooth running software. Bleeding edge means \"still figuring it out\" software.\n\nEven so, most applications have come a long way from what they were. I mean, look at ComfyUI, Vlad's fork (now SD.Next),  Forge, Invoke, etc. They're far from perfect, but hell of a lot better than what they were before.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1730409063,
+      "score": 2,
+      "link_id": "t3_1ggkkfn",
+      "parent_id": "t1_luqm8m0"
+    },
+    {
+      "id": "luptwv3",
+      "body": ">I had this idea for a novelty-seeking machine learning algorithm based on Godels completeness /incompleteness theorems\n\nCan you explain this idea of yours? You've only explained the origin.\n\n>it would take forever for it to get going otherwise and resources. I don't have to train each part of the algorithm to do what I need it to\n\nWhy would it take forever? What parts do you need to train? What have you done instead?\n\nIn your repo, instead of explaining your code as a set of features, maybe explain the technique at a high level. How does the NoveltySeeking part seek novelty. How does the EnhancedLearningSystem connect everything together. More importantly, why is this agentic system better than other agentic systems out there. Some test chats showcasing it would be awesome.\n\nYour project looks interesting, but you need to convince people if it's interesting or not, whether in research or industry.",
+      "author": "MoridinB",
+      "subreddit": "MachineLearning",
+      "created_utc": 1730391607,
+      "score": 2,
+      "link_id": "t3_1ggeite",
+      "parent_id": "t3_1ggeite"
+    },
+    {
+      "id": "luplpsa",
+      "body": "Hmmm, because in one of the gifs you posted, it works when selecting the vertex under the face, right? How do you get those vertices without solidify?",
+      "author": "MoridinB",
+      "subreddit": "blenderhelp",
+      "created_utc": 1730389035,
+      "score": 1,
+      "link_id": "t3_1gg80a2",
+      "parent_id": "t1_luonzmr"
+    },
+    {
+      "id": "lunxxkc",
+      "body": "Did you have a solidify modifier? Did you apply before or after parenting?",
+      "author": "MoridinB",
+      "subreddit": "blenderhelp",
+      "created_utc": 1730362498,
+      "score": 1,
+      "link_id": "t3_1gg80a2",
+      "parent_id": "t1_luno30b"
+    },
+    {
+      "id": "lulyd37",
+      "body": "So I attempted to do something similar, but on SD1.5 (cause it's faster to experiment on), and I noticed, if I merge a character lora into the checkpoint, face swap the training dataset with that character, and then train on that, then the model learns the clothes, but without the face (when inferencing on the original checkpoint). The consistency with the clothes seems to improve, but I only tried this on a single dataset. I also haven't tested this out on XL or Flux, but it's worth a try.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1730330865,
+      "score": 1,
+      "link_id": "t3_1gfuxgx",
+      "parent_id": "t3_1gfuxgx"
+    },
+    {
+      "id": "luhbjmh",
+      "body": "Haha, but I married myself before you could...",
+      "author": "MoridinB",
+      "subreddit": "PeterExplainsTheJoke",
+      "created_utc": 1730268237,
+      "score": 2,
+      "link_id": "t3_1gezfcc",
+      "parent_id": "t1_lugee2j"
+    },
+    {
+      "id": "lugk5mz",
+      "body": "I don't blame you. Gaussian splatting, as it's called, is a fairly new technology in a very niche part of computer vision. It's a very cool piece technology alongside NeRFs. If you get a chance, take a look at them. They're really cool, but probably not very useful for you.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730255227,
+      "score": 2,
+      "link_id": "t3_1gevlxk",
+      "parent_id": "t1_lugiv00"
+    },
+    {
+      "id": "lug8py2",
+      "body": "I'd like to be a fly on that wall...",
+      "author": "MoridinB",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1730251296,
+      "score": 1,
+      "link_id": "t3_1gf1veq",
+      "parent_id": "t1_lufqlw8"
+    },
+    {
+      "id": "lufztcx",
+      "body": "It depends on the generator. Some, like Zero-123, are single input, while others can take multiple. I haven't tried putting in something like a character sheet, but most of the 3d model generation models aren't like ipadapter, in that they create something similar, rather these models attempt to pull the model in 3d space. \n\nAs for your second question, are you asking what the applications are or how animation is achieved from the 3d model? From what you've mentioned, actually both are valid methods (kind of). With a tool like CharacterGen, you can most certainly take the 3d model, import into blender, rig, and animate. You'll have to do retopo and rigging, but essentially, CharacterGen automates the concept art to sculpted model part of the design process. \n\nAlternatively, as OP wants, you can train a gaussian representation of your model. This is a model that basically knows what your model looks like when deforming certain joints of a popular generic body model (called SMPL) (at least that's how I think it is from a cursory view; there wasn't a paper attached to the code, so I'm just guessing from a quick look at parts of the code). Then, when you give it a series of poses, it can generate a video of your body model moving. I believe you can add a background scene to this as well through a separate gaussian or one trained with body model. I'm not sure of that, so don't take my word for it.\n\nMost of this depends on your use case. Are you creating a game where you need assets, or perhaps illustrating a novel or comic? My interest lies in 3d modeling and generation. I'd like to use image generation techniques to create concept art and then generate a riggeable character model, though not necessarily the rig itself.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730248372,
+      "score": 2,
+      "link_id": "t3_1gevlxk",
+      "parent_id": "t1_lufqzy8"
+    },
+    {
+      "id": "luen2f7",
+      "body": "So what CharacterGen does is produce a mesh from a single image. From a quick glance at the repo you posted, that project seems to produce different images (from a blender script) and then trains 3D gaussians, which are then posed. \n\nThese are 2 separate pipelines: one generates a character, and another animates an existing mesh. So you can generate your character with CharacterGen and then generate a scene from the resulting mesh to then train your gaussian field on. The SMPL part will be part of the code in anim-gaussian, and shouldn't be an issue for you as long as you're aren't trying to hack the pipeline. \n\nNow theoretically, you may not have to go through CharacterGen's 2D-to-3D pipeline, and you can plug the multiview images into anim-gaussian, but that requires more work on your part (I don't think CharacterGen includes camera parameters, although the camera poses in CharacterGen are simple). But I think it's just a hastle, and I would generate a 3D mesh with CharacterGen and then animate using anim-gaussian.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730232773,
+      "score": 1,
+      "link_id": "t3_1gevlxk",
+      "parent_id": "t1_luecdep"
+    },
+    {
+      "id": "ludt25m",
+      "body": "I don't think you even need to do the final gaussian splatting at the end. CharacterGen has its back projection algorithm that would be a more consistent alternative. But ignore me. Perhaps the gaussian splatting is indeed better, so try it out.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730223817,
+      "score": 1,
+      "link_id": "t3_1gevlxk",
+      "parent_id": "t1_ludin05"
+    },
+    {
+      "id": "ludc3an",
+      "body": "You've got the right idea, but you won't get that kind of consistency with vanilla models. Take a look at [ComfyUI 3D Pack](https://github.com/MrForExample/ComfyUI-3D-Pack). Most techniques use this same technique of generating views, but have a specialized architecture for it.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1730218721,
+      "score": 2,
+      "link_id": "t3_1gevlxk",
+      "parent_id": "t3_1gevlxk"
+    },
+    {
+      "id": "lu497pm",
+      "body": "If you want to simulate a thicker sheet that will stretch over the spokes and not show all of its features, you could create a convex hull around the wheel and have the cloth interact with that instead.",
+      "author": "MoridinB",
+      "subreddit": "blenderhelp",
+      "created_utc": 1730083521,
+      "score": 4,
+      "link_id": "t3_1gdjlcr",
+      "parent_id": "t3_1gdjlcr"
+    },
+    {
+      "id": "lu48ine",
+      "body": "The pullout game is strong in this one...",
+      "author": "MoridinB",
+      "subreddit": "KidsAreFuckingStupid",
+      "created_utc": 1730083245,
+      "score": 177,
+      "link_id": "t3_1gdh7ty",
+      "parent_id": "t1_lu3xz85"
+    },
+    {
+      "id": "ltv269j",
+      "body": "Astralite made a good point in his discord. Gone are the days of getting high-quality fine tunes from one's garage using a run of the mill GPU (was it ever here?). You need money to finetune. Pony is such a large finetune; you can barely see SDXL in PonyV6. \n\nAnd there are efforts for training over the internet, but they aren't there yet. So, I don't blame him for thinking about monetization as long as the actual model is good.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1729956330,
+      "score": 11,
+      "link_id": "t3_1gcmdav",
+      "parent_id": "t1_ltuv6ta"
+    },
+    {
+      "id": "ltshkb6",
+      "body": "Agreed, although the shrines are kinda dungeon-esque and also one of the better activities imo.",
+      "author": "MoridinB",
+      "subreddit": "horizon",
+      "created_utc": 1729911001,
+      "score": 15,
+      "link_id": "t3_1gc9ha4",
+      "parent_id": "t1_lts8x5l"
+    },
+    {
+      "id": "lsq3vc3",
+      "body": "The person on the window seat didn't appreciate me moving from the middle seats to try and sit on their lap... thanks for that...",
+      "author": "MoridinB",
+      "subreddit": "LifeProTips",
+      "created_utc": 1729363517,
+      "score": 3,
+      "link_id": "t3_1g7dvug",
+      "parent_id": "t1_lspsd7m"
+    },
+    {
+      "id": "lsmc2yd",
+      "body": "I noticed there aren't any left turns. That probably requires another stage in the cycle, right?",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1729300723,
+      "score": 10,
+      "link_id": "t3_1g6gdlm",
+      "parent_id": "t3_1g6gdlm"
+    },
+    {
+      "id": "ls0jyd9",
+      "body": "If you're using kohya, can you post your configuration file? I started dabbling in training myself, and I've got a 3090. I was able to generate a face lora in about 1 hour with decent results, although they could be better.\n\nOne piece of advice would be to try training on sd1.5 first. You can finish a decent training in 10 minutes with your GPU, so you get a lot more iterations for experimentation. Of course, the parameters won't translate 1-to-1, but it'll give you an idea of what optimizer is good and tweaking what parameters yield noticeable results.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1728985981,
+      "score": 1,
+      "link_id": "t3_1g42w8i",
+      "parent_id": "t3_1g42w8i"
+    },
+    {
+      "id": "ls0cpgy",
+      "body": "And I'm Cory Barlog... AMA",
+      "author": "MoridinB",
+      "subreddit": "GodofWar",
+      "created_utc": 1728980885,
+      "score": 3,
+      "link_id": "t3_1g3zzca",
+      "parent_id": "t1_ls061qo"
+    },
+    {
+      "id": "ls0ceqf",
+      "body": "So drink vodka shots in groups of 2? Got it!",
+      "author": "MoridinB",
+      "subreddit": "UnbelievableStuff",
+      "created_utc": 1728980673,
+      "score": 3,
+      "link_id": "t3_1g3stfu",
+      "parent_id": "t1_lrzbxoz"
+    },
+    {
+      "id": "lrve71g",
+      "body": "OP, tell me you got this from listening to Lateral with Tom Scott... cause I know you did",
+      "author": "MoridinB",
+      "subreddit": "todayilearned",
+      "created_utc": 1728912047,
+      "score": 4,
+      "link_id": "t3_1g3denv",
+      "parent_id": "t3_1g3denv"
+    },
+    {
+      "id": "lrj3fbs",
+      "body": "Haven't seen Euler and Gauss combo. Imagine how many Euler-Gauss theorems we would have.",
+      "author": "MoridinB",
+      "subreddit": "math",
+      "created_utc": 1728714147,
+      "score": 2,
+      "link_id": "t3_1g1n7zu",
+      "parent_id": "t3_1g1n7zu"
+    },
+    {
+      "id": "lpo636e",
+      "body": "Can't think of a response? Try an ad hominem now! Favored by 10/10 frustrated Trump supporters! Don't miss out!",
+      "author": "MoridinB",
+      "subreddit": "MarkMyWords",
+      "created_utc": 1727713739,
+      "score": 5,
+      "link_id": "t3_1fsl0nr",
+      "parent_id": "t1_lpnptxb"
+    },
+    {
+      "id": "lpmtfgs",
+      "body": "This is good. Mine was just kind of joke. I mean, if I were the Nightwatcher, I'd get tired of making meaningful curses, so I'd have my fun...",
+      "author": "MoridinB",
+      "subreddit": "cremposting",
+      "created_utc": 1727695207,
+      "score": 2,
+      "link_id": "t3_1fsrvgl",
+      "parent_id": "t1_lpmsx95"
+    },
+    {
+      "id": "lpmozph",
+      "body": "Didn't notice that. Good catch! And excellent writing by OP.",
+      "author": "MoridinB",
+      "subreddit": "Stormlight_Archive",
+      "created_utc": 1727692665,
+      "score": 3,
+      "link_id": "t3_1fs6ny7",
+      "parent_id": "t1_lpluygs"
+    },
+    {
+      "id": "lpmoizl",
+      "body": "Interesting. Here're mine:\n\n1. He'll be able to read and understand all Rosharan languages, but he'll have hand tremors when writing and blabber incoherently when dictating to someone directly.\n2. I'll make him faster and stronger, but Shardblades and Shardplates don't work for him anymore.\n3. I'll give him 2 incredible, brilliant, magnificent light green eyes, but on his nipples.",
+      "author": "MoridinB",
+      "subreddit": "cremposting",
+      "created_utc": 1727692376,
+      "score": 12,
+      "link_id": "t3_1fsrvgl",
+      "parent_id": "t3_1fsrvgl"
+    },
+    {
+      "id": "lpm0e53",
+      "body": "Yeah, turns out I created a memory...",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1727675493,
+      "score": 3,
+      "link_id": "t3_1fslt4z",
+      "parent_id": "t1_lpm05gu"
+    },
+    {
+      "id": "lplym8l",
+      "body": "Yeah, you're right. Must've made a memory that never existed.",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1727674393,
+      "score": 14,
+      "link_id": "t3_1fslt4z",
+      "parent_id": "t1_lplyhb4"
+    },
+    {
+      "id": "lplx3ix",
+      "body": "I think it was only a 2 second clip. I just remember Carles' corn rows",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1727673470,
+      "score": 1,
+      "link_id": "t3_1fslt4z",
+      "parent_id": "t1_lplwskw"
+    },
+    {
+      "id": "lplwc1k",
+      "body": "Yes, it is, tho I forgot which. There is an episode where Charles goes to one of his exes (?) jamaican themed wedding. He asks Rosa to be his plus one. She says no. Episode happens, and she agrees. General gist, but it's been a while since my latest re-run.",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1727673018,
+      "score": 15,
+      "link_id": "t3_1fslt4z",
+      "parent_id": "t1_lplqry7"
+    },
+    {
+      "id": "lplw98y",
+      "body": "Nah, I forgot which, but there is an episode where Charles goes to one of his exes (?) jamaican themed wedding. He asks Rosa to be his plus one. She says no. Episode happens, and she agrees. General gist, but it's been a while since my latest re-run.",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1727672973,
+      "score": -10,
+      "link_id": "t3_1fslt4z",
+      "parent_id": "t1_lpluix5"
+    },
+    {
+      "id": "lplonm5",
+      "body": "You gotta add an \"if and only if,\" but instead of the arrow put iff, so non math people (read plebs), think it's a typo...",
+      "author": "MoridinB",
+      "subreddit": "mathmemes",
+      "created_utc": 1727668816,
+      "score": 1,
+      "link_id": "t3_1frvmb6",
+      "parent_id": "t1_lpg9i4y"
+    },
+    {
+      "id": "lplnxp8",
+      "body": "I'm not sure if you're serious, but I'll answer your question. The basis of science, what schools teach as the scientific method, is to ask a question, obtain a hypothesis, formulate an experiment that is repeatable, perform said experiment, and then report on the result. The result is reported on the aforementioned papers. \n\nIn terms of computer vision, you'll have papers introducing new methods and showing how their method is better than previous methods (a.k.a. state-of-the-art or SOTA). There are also the occasional surveys, which are comprehensive compilations of methods or models to date.\n\nWhy do people read papers? Because no one wants to reinvent the wheel. Researchers build off of previous research to develop their own ideas. Companies will use papers to build their applications.\n\nI'm not sure where your interests lie, but there are many papers published daily on ArXiv. As a word of warning, papers are full of jargon since they're usually meant to be read by others of the same field. But you'll understand with some time.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1727668455,
+      "score": 3,
+      "link_id": "t3_1fsclsh",
+      "parent_id": "t1_lpklg9j"
+    },
+    {
+      "id": "lplanb0",
+      "body": "Papers always have a related works. Start from that. You don't have to go too in depth, but enough so you understand some references or get some more context for decisions",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1727662638,
+      "score": 2,
+      "link_id": "t3_1fsclsh",
+      "parent_id": "t1_lpk1wji"
+    },
+    {
+      "id": "lpgoxgv",
+      "body": "I'm not an aerospace engineer without jet engine design experience... but I'd say tracks are for trains?",
+      "author": "MoridinB",
+      "subreddit": "Stormlight_Archive",
+      "created_utc": 1727597345,
+      "score": 2,
+      "link_id": "t3_1frprhq",
+      "parent_id": "t1_lpfovdg"
+    },
+    {
+      "id": "lp7csy4",
+      "body": "Most people forget that plastic surgery is not primarily for improving aesthetics, at least in terms of beauty, but to fix scarring issues after accidents, cancer, diseases, or what have you.",
+      "author": "MoridinB",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1727453356,
+      "score": 19,
+      "link_id": "t3_1fqn52t",
+      "parent_id": "t1_lp79kbu"
+    },
+    {
+      "id": "lobfvag",
+      "body": "Add a not before, and you'd be there",
+      "author": "MoridinB",
+      "subreddit": "cremposting",
+      "created_utc": 1726979728,
+      "score": 1,
+      "link_id": "t3_1fm0omb",
+      "parent_id": "t1_lo7k4nf"
+    },
+    {
+      "id": "lnwalgx",
+      "body": "It's a valid question, in my opinion, because the Gita talks a lot about Dharma, Karma, and different Yogas, but, at least in relation to Dharma, how do we define Dharma? For the Nazi's reading without the cultural context, just define their Dharma to be what they want (\"Creating a perfect world order,\" as an example). And then Krishna's message is construed as \"we must perform immoral action (slaughtering millions) to fulfill your Dharma.\"",
+      "author": "MoridinB",
+      "subreddit": "todayilearned",
+      "created_utc": 1726753863,
+      "score": 1,
+      "link_id": "t3_1fj3e3a",
+      "parent_id": "t1_lnlejx0"
+    },
+    {
+      "id": "lnrcs8k",
+      "body": "I could, but where's the fun in that?",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1726678434,
+      "score": 3,
+      "link_id": "t3_1fjrppn",
+      "parent_id": "t1_lnr8cym"
+    },
+    {
+      "id": "lnq7j91",
+      "body": "I'd be curious what you get if you went back from Joel and Drik...",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1726664745,
+      "score": 24,
+      "link_id": "t3_1fjrppn",
+      "parent_id": "t3_1fjrppn"
+    },
+    {
+      "id": "lnkoib5",
+      "body": "You're talking about the Mexicans, right? Where all those god damned immigrants come from! /s",
+      "author": "MoridinB",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1726582706,
+      "score": 1,
+      "link_id": "t3_1fija17",
+      "parent_id": "t1_lnkh9wm"
+    },
+    {
+      "id": "lnc91m5",
+      "body": "Dude... this is just a Gaussian...",
+      "author": "MoridinB",
+      "subreddit": "desmos",
+      "created_utc": 1726448056,
+      "score": 7,
+      "link_id": "t3_1fhfz12",
+      "parent_id": "t1_lnalhvb"
+    },
+    {
+      "id": "lmpkh0z",
+      "body": "So? If you have money for me to campaign against multi-million dollar game companies against pre-ordering, I'll do it. Until then, I'll stick with having discussions on reddit.",
+      "author": "MoridinB",
+      "subreddit": "ghostoftsushima",
+      "created_utc": 1726109805,
+      "score": 1,
+      "link_id": "t3_1fbjh8t",
+      "parent_id": "t1_lmphlcz"
+    },
+    {
+      "id": "lmpbm4v",
+      "body": "Lasereye is an ass, but he's right for the wrong reasons. A market for pre-ordering encourages companies like Ubisoft and EA to publish unfinished games earlier and for premiums and then \"fix\" them later. And when you're pre-ordering, you're relying on biased marketing because of any review freezes. It also encourages the crunch culture, which isn't healthy for the developers. It's a predatory tactic and just seems dishonest to me. If fewer people pre-order, then publishers are forced to appease the audience at release by making better games than just games that look better during marketing but don't play well.\n\nAll in all, you do you, but I wanted to provide a little better reasoning than \"You'll regret pre-ordering.\" As for me, I'm excited and will probably get the game, but only after looking at the reviews (or when it's cheaper). I've found that Ubisoft isn't as reliable as it once was.",
+      "author": "MoridinB",
+      "subreddit": "ghostoftsushima",
+      "created_utc": 1726106193,
+      "score": 1,
+      "link_id": "t3_1fbjh8t",
+      "parent_id": "t1_lm44vci"
+    },
+    {
+      "id": "lmcj1c3",
+      "body": "I was actually talking about Mimir since that's Mimir's (imo) funniest dialogue.",
+      "author": "MoridinB",
+      "subreddit": "GodofWar",
+      "created_utc": 1725920217,
+      "score": 3,
+      "link_id": "t3_1fcw3qw",
+      "parent_id": "t1_lmceh4u"
+    },
+    {
+      "id": "lmbmlvc",
+      "body": "Oh God, I never thought of that...",
+      "author": "MoridinB",
+      "subreddit": "GodofWar",
+      "created_utc": 1725909887,
+      "score": 1,
+      "link_id": "t3_1fcw3qw",
+      "parent_id": "t1_lmbjbu5"
+    },
+    {
+      "id": "lmb7p96",
+      "body": "In my opinion, it doesn't seem practical to reimplement something for the sake of reimplementing, even if it's for understanding. To showcase your understanding, maybe think of a goal. For example, as I mentioned before, you can build an application with it or contribute to an open-source project? \n\nIn any case, it's honestly up to you. If you want to practice this way and it's effective, go ahead and do it. You know what's best for you.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1725905091,
+      "score": 3,
+      "link_id": "t3_1fcux1z",
+      "parent_id": "t1_lmb65i1"
+    },
+    {
+      "id": "lmb4nf9",
+      "body": "If you want to implement it (i.e., build an application on top of a paper), use others' code. If you're planning on researching (i.e., building a new method based on the old method), either implement it yourself or reimplement it. The goal is to familiarize yourself with the method and code, including techniques and parameters. But this is only my personal experience.",
+      "author": "MoridinB",
+      "subreddit": "computervision",
+      "created_utc": 1725904114,
+      "score": 23,
+      "link_id": "t3_1fcux1z",
+      "parent_id": "t3_1fcux1z"
+    },
+    {
+      "id": "llsrrop",
+      "body": "Yeah, I'll use ChatGPT for fixing internal inconsistencies. It'll be much more a conversation like \"I have such‐and-such plot. And such-and-such magic system. Does so-and-so doing this make sense?\" It's great for providing suggestions for fixing plot holes. Although those suggestions aren't always perfect, my usual method is to ask for a list of ways to fix it, usually 5. Then I'll select one and say, \"I like this, but...\" and then ask 5 more suggestions to refine it until I like what it's giving me. Even then, I'll tweak it so that it matches the tone and style I'm going for.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1725632481,
+      "score": 1,
+      "link_id": "t3_1fa8jcu",
+      "parent_id": "t1_llrjxtq"
+    },
+    {
+      "id": "lln3940",
+      "body": "I mean, he said they would stop coding, not developing.",
+      "author": "MoridinB",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1725549647,
+      "score": 3,
+      "link_id": "t3_1f9keii",
+      "parent_id": "t3_1f9keii"
+    },
+    {
+      "id": "lllvzcf",
+      "body": "I'm not sure about your question with the weighted average? What do you mean by that? By definition, an expectation is a weighted average, where a normal average is just an average with uniform weights, i.e., 1 / n.\n\nAs for the double sum, the idea is that the double sum involved a joint distribution q(x_t, x_{t-1}). Using the chain rule, we can split it into two terms: one which depends on both x_t and x_{t-1} and one which only depends on x_t. We can then move the x_t out of the summation over X_{t-1} sincs it's not dependant. What remains is the expectation of the KL divergence. Where afe you struggling with the double sum?",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1725532277,
+      "score": 2,
+      "link_id": "t3_1f8snk5",
+      "parent_id": "t1_lllgr53"
+    },
+    {
+      "id": "llkg9vv",
+      "body": "Okay, so my above proof is a little wrong, and this may fix your confusion. I now realize that the original expectation was a joint distribution. Thus, there are two summations: over x_t and x_{t-1}. Here's an updated proof, which is more correct: https://imgur.com/a/Nvygf2K. I'm a little more careful in showing what we are summing over, and I use a capital X_t and lower case x_t in the probabilities to show the difference between distribution and probability. That is, $x_t \\in X_t$ and similarly for x_{t-1}. Sorry for the confusion.",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1725502884,
+      "score": 1,
+      "link_id": "t3_1f8snk5",
+      "parent_id": "t1_llkd6fj"
+    },
+    {
+      "id": "llkd6fj",
+      "body": "So the subscript and the term are two different things, which I admit I confusingly use the same notation for. The subscript indicates the distribution we are taking the expectation over. We sum over the support of this distribution. Then, we multiple the log term with the probability of each element in the summation, which we use the chain rule on. In this case, I used the same notation for the distribution and summation, which may have been a little careless on my part.",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1725501679,
+      "score": 2,
+      "link_id": "t3_1f8snk5",
+      "parent_id": "t1_llk5u8o"
+    },
+    {
+      "id": "lljj61i",
+      "body": "No, it does not imply that since the nested expectation implies a double summation, which is not the case in this case. The splitting comes from the definition of conditional probabilities, namely $P(A | B) = P(A & B) / P(B)$ and then rearranging to get $P(A & B) = P(A | B) * P(B)$. Using this inside the expectation again does not imply the expression that you posted. \n\nI'm not really sure about the \"chain rule\" that you mention, but perhaps the above is what you mean.",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1725490427,
+      "score": 2,
+      "link_id": "t3_1f8snk5",
+      "parent_id": "t1_llj0nqm"
+    },
+    {
+      "id": "llioeud",
+      "body": "Let me know if this doesn't help: https://imgur.com/a/YMpKggb",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1725479758,
+      "score": 1,
+      "link_id": "t3_1f8snk5",
+      "parent_id": "t1_llik5o1"
+    },
+    {
+      "id": "llia0fk",
+      "body": "So do you want a hint or the answer? If you want a hint, try converting the expectation into a sum by definition, and split the $q(x_t,x_{t-1} \\mid x_0)$ and then simplify. If you still don't get it, let me know.",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1725475077,
+      "score": 1,
+      "link_id": "t3_1f8snk5",
+      "parent_id": "t3_1f8snk5"
+    },
+    {
+      "id": "lledg69",
+      "body": "How is it a perfect ending? And that's besides the question, why the heck would the greedy suits at Sony not capitalize on such a valuable IP as God of War. If they ended the series now, that would make no sense.\n\nEven if you don't see any logical path forward, I trust in the fact that they'll take a magical machete and a hack a path through, logical or not, and you can quote me on that.",
+      "author": "MoridinB",
+      "subreddit": "GodofWarRagnarok",
+      "created_utc": 1725413022,
+      "score": 0,
+      "link_id": "t3_1f86noq",
+      "parent_id": "t1_lldj1le"
+    },
+    {
+      "id": "llbr4ct",
+      "body": "It seems a lot of people just didn't read the article OP posted. The museum actively encourages touching artifacts by *intentionally* keeping artifacts outside of any glass case. The kid was curious as a consequence, and it was broken. He wasn't being a brat. And now Reddit, as always, delivers judgment against the parents for bad parenting. Give the mother and the kid a break for a simple mistake, which was honestly inevitable, but that's okay.",
+      "author": "MoridinB",
+      "subreddit": "UnbelievableThings",
+      "created_utc": 1725380406,
+      "score": 3,
+      "link_id": "t3_1f7u8fa",
+      "parent_id": "t3_1f7u8fa"
+    },
+    {
+      "id": "ll1rkvp",
+      "body": "I'm not completely sure as I haven't seen it phrased like that, but it's the idea that history is usually always written in the perspective that a few \"Great Men\" did everything. Meaning, we only talk about the exploits of these \"Great Men.\" In reality, these people had tons of support not just in terms of other people, but circumstances as well. I just read some interest blog posts about how Alexander the Great's achievements should be attributed to his father, Philipp II, who set up a capable army and developed the phalanx and tactics as well as the strategy to conquer Persia. The only thing Alexander did was follow this to a T when his father died.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1725224934,
+      "score": -3,
+      "link_id": "t3_1f6lxp4",
+      "parent_id": "t1_ll1pe47"
+    },
+    {
+      "id": "ll06692",
+      "body": "I prefer few, but deep worlds rather than many shallow worlds. I have one, which I consider my main project, and one which I'm writing a story for, although that one has the looks of being abandoned as it has lost the spark it once had for me. Mostly, my ideas involve incorporating it in one of those two worlds. That being said, I write small one-off short stories for ideas that don't fit in either, but I like. I wouldn't necessarily call these my worlds though, because they just exist on the side.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1725205778,
+      "score": 1,
+      "link_id": "t3_1f6drmv",
+      "parent_id": "t3_1f6drmv"
+    },
+    {
+      "id": "lkj7qi7",
+      "body": "And who's gonna do that?",
+      "author": "MoridinB",
+      "subreddit": "FluentInFinance",
+      "created_utc": 1724951643,
+      "score": 1,
+      "link_id": "t3_1f1v335",
+      "parent_id": "t1_lk24axo"
+    },
+    {
+      "id": "lkifjhn",
+      "body": "I think there is an extension that adds a gui to measure usage. Don't remember exactly which one it is. Alternatively, if you have an Nvidia GPU, then `nvidia-smi -l 2` in a separate terminal works just fine for me.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1724943117,
+      "score": 2,
+      "link_id": "t3_1f43q6s",
+      "parent_id": "t1_lkies03"
+    },
+    {
+      "id": "lkie55r",
+      "body": "Generate a single image. Measure VRAM during generation. Divide max VRAM by single VRAM usage. Round down.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1724942686,
+      "score": 1,
+      "link_id": "t3_1f43q6s",
+      "parent_id": "t3_1f43q6s"
+    },
+    {
+      "id": "lk1dpv3",
+      "body": "Oh really? Cause someone told me how in 1939, in Kansas, Wheat mill owners realized that women were using their sacks to make clothes for their children, the mills started using flowered fabric for their sacks so the kids would have pretty dresses, and the label would wash out, a gesture of pure kindness.",
+      "author": "MoridinB",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1724691082,
+      "score": 18,
+      "link_id": "t3_1f1l132",
+      "parent_id": "t1_lk0xpbq"
+    },
+    {
+      "id": "lj43xu6",
+      "body": "Yet without knowledge of what the test entails, we still have no idea how much new information the new test added, be it saliva or genetic or blood. It may be that they're both examining genetic information, one from saliva and another from blood... so the statement still holds.",
+      "author": "MoridinB",
+      "subreddit": "AskStatistics",
+      "created_utc": 1724191559,
+      "score": 3,
+      "link_id": "t3_1ex017s",
+      "parent_id": "t1_lj3x68o"
+    },
+    {
+      "id": "liuqzs5",
+      "body": "I'm an introvert, and my sister is the opposite. I do the exact same, where I clean the house a little better if people are coming over, again, unlike my sister. When we were younger, I would rarely invite people over, but when I did, I would single-handedly clean the house. My mom always lamented the fact that I didn't have more friends or even invite the few I have more often like my sister.",
+      "author": "MoridinB",
+      "subreddit": "LifeProTips",
+      "created_utc": 1724064086,
+      "score": 6,
+      "link_id": "t3_1evtdn8",
+      "parent_id": "t3_1evtdn8"
+    },
+    {
+      "id": "liqzonq",
+      "body": "She did manage to make her daughter 'perfect'. Unfortunately, she herself was less so.",
+      "author": "MoridinB",
+      "subreddit": "todayilearned",
+      "created_utc": 1724003815,
+      "score": 42,
+      "link_id": "t3_1evdk9i",
+      "parent_id": "t3_1evdk9i"
+    },
+    {
+      "id": "li8bcc8",
+      "body": "Not your croft. Lara's croft...",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1723725517,
+      "score": 5,
+      "link_id": "t3_1esa1x7",
+      "parent_id": "t1_li6kj9q"
+    },
+    {
+      "id": "lgpwchz",
+      "body": "Exactly. If there was a tool that detected AI writing, then you would just train the model against that detector until it can't á la GANs. And that's probably the easiest but least effective way of doing it.",
+      "author": "MoridinB",
+      "subreddit": "OpenAI",
+      "created_utc": 1722915765,
+      "score": 13,
+      "link_id": "t3_1el4pxw",
+      "parent_id": "t1_lgpattg"
+    },
+    {
+      "id": "lggowoa",
+      "body": "Andre Braugher. Haven't see much of his other works, but I really liked him in Brooklyn 99.",
+      "author": "MoridinB",
+      "subreddit": "GenZ",
+      "created_utc": 1722784972,
+      "score": 1,
+      "link_id": "t3_1ejktkc",
+      "parent_id": "t3_1ejktkc"
+    },
+    {
+      "id": "lfzc8mz",
+      "body": "These are the ones that survived covid! \n\nBut on a more serious note, because I think covid may have been a factor, if not on the athelete's performances, then on our perception of their performance between the last one and current one.",
+      "author": "MoridinB",
+      "subreddit": "TikTokCringe",
+      "created_utc": 1722522895,
+      "score": 1,
+      "link_id": "t3_1egc7un",
+      "parent_id": "t1_lfrezzk"
+    },
+    {
+      "id": "lft0r2r",
+      "body": "That's a very narrow-minded view on it. The Olympics not only foster good international relationships, they also generate profits for the host country, generate a livelihood for many athletes, coaches, and support staff in many countries (for 4 years, might I add) by providing them a goal to achieve. Revenue is generated through advertisement, hospitality, and much more, which provides many people jobs. Can you imagine how many people France hired to fix stadiums, staff hotels, clean the Seine, etc. before the games started? The influx of tourists into France for the games helps circulate currency, which also drives and stimulates the international economy. And let's not forget about TV viewership.\n\nAnd there's a large diplomatic element to it as well. Bringing the international community to play some games together is harder said than done. So much so that they had to revive a 1000 year-old tradition to give it enough prestige that countries would participate. \n\nOf course, this wouldn't have the same far-reaching consequences of a dedicated program, but those also receive far less money than a large international program.",
+      "author": "MoridinB",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1722430432,
+      "score": 2,
+      "link_id": "t3_1eghxjk",
+      "parent_id": "t1_lfsnznz"
+    },
+    {
+      "id": "lfrao9r",
+      "body": "The first image is of you trying to install insightface in the embedded python on the comfyui portable version. While the subsequent screenshots show cython and insightface installed on the global python.",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1722395459,
+      "score": 1,
+      "link_id": "t3_1egcb5z",
+      "parent_id": "t3_1egcb5z"
+    },
+    {
+      "id": "lfqqxvq",
+      "body": "Yeah, watch Indian colleges start to accept people on a sports quota like so many American colleges, and you'll see how many parents will start pushing their kids to participate in less popular sports (e.g., anything besides cricket and badminton) so it's easier to get into a good college on a simple quota. \n\nI know it's easier said than done, but start to give better incentives, and it will change the culture for the better.",
+      "author": "MoridinB",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1722387614,
+      "score": 2,
+      "link_id": "t3_1efwxl8",
+      "parent_id": "t1_lfoe7bi"
+    },
+    {
+      "id": "lfep6gd",
+      "body": "Bro was relying on the sunk cost fallacy to help him out.",
+      "author": "MoridinB",
+      "subreddit": "meirl",
+      "created_utc": 1722208082,
+      "score": 36,
+      "link_id": "t3_1eecr2r",
+      "parent_id": "t1_lfegr6k"
+    },
+    {
+      "id": "lfehtcr",
+      "body": "Money can't fix all my problems, but it *can* fix my current problems. I'll deal with the ones that come later, well... later.",
+      "author": "MoridinB",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1722205152,
+      "score": 1,
+      "link_id": "t3_1eedqde",
+      "parent_id": "t3_1eedqde"
+    },
+    {
+      "id": "lf7tvpo",
+      "body": "Yus",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1722101727,
+      "score": 7,
+      "link_id": "t3_1edfhsp",
+      "parent_id": "t1_lf6vhjk"
+    },
+    {
+      "id": "le443i6",
+      "body": "Damn near everything...",
+      "author": "MoridinB",
+      "subreddit": "technicallythetruth",
+      "created_utc": 1721499063,
+      "score": 1,
+      "link_id": "t3_1e7xd2h",
+      "parent_id": "t3_1e7xd2h"
+    },
+    {
+      "id": "le3cdf6",
+      "body": "Haha! Permenance? I've haven't got permeance either! Now, where did that ball go?",
+      "author": "MoridinB",
+      "subreddit": "meirl",
+      "created_utc": 1721488931,
+      "score": 1,
+      "link_id": "t3_1e7pxks",
+      "parent_id": "t1_le2fdck"
+    },
+    {
+      "id": "ldxk9qc",
+      "body": "Someone told me a real neat thing that I think about way to much. He called it the Triangle of Life. It's a bit reductive, but to feel fulfilled, like live your dreams, travel, etc, you need 3 things: money, energy (healthy), and time. For the average man, when you're young, you've got the energy and time, but no money. In your middle age, when you're working and family, you've got money and the energy, but no time, and when you've retired or at least near to doing so, you're got the money and the time, but no energy. It's kind of simpified, but I found it neat.",
+      "author": "MoridinB",
+      "subreddit": "anime_irl",
+      "created_utc": 1721398271,
+      "score": 12,
+      "link_id": "t3_1e6vllv",
+      "parent_id": "t1_ldw58ns"
+    },
+    {
+      "id": "ldtud73",
+      "body": "More than cheese?",
+      "author": "MoridinB",
+      "subreddit": "MaliciousCompliance",
+      "created_utc": 1721335121,
+      "score": 0,
+      "link_id": "t3_1e6882y",
+      "parent_id": "t1_ldrrjr4"
+    },
+    {
+      "id": "ldoxl10",
+      "body": "It's not that you physically can't, but really awkward. Like look at the image you posted, and imagine the recoil. That's going to twist your wrist real bad, or if it follows the wrist, ruin your aim.\n\nBut on the other hand, by the rule of cool, it's perfect!",
+      "author": "MoridinB",
+      "subreddit": "blender",
+      "created_utc": 1721259494,
+      "score": 55,
+      "link_id": "t3_1e5qv0f",
+      "parent_id": "t1_ldo9v43"
+    },
+    {
+      "id": "ldn73n8",
+      "body": "While I agree with you, coloring pages can look in a variety of different ways. And to an outside viewer, your response seems very dramatic to a valid criticism. Love your work, man, but just tone it down a little...",
+      "author": "MoridinB",
+      "subreddit": "comfyui",
+      "created_utc": 1721238630,
+      "score": 4,
+      "link_id": "t3_1e5fwii",
+      "parent_id": "t1_ldm4na5"
+    },
+    {
+      "id": "ldjy5z6",
+      "body": "What about affection zones? Think kisses and cooties",
+      "author": "MoridinB",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1721184997,
+      "score": 15,
+      "link_id": "t3_1e52xqv",
+      "parent_id": "t1_ldj7t8a"
+    },
+    {
+      "id": "ldhlt1t",
+      "body": "As a 2000s kid, I do remember the last time I burned a disk. I didn't know how to burn a disk and wanted to find out. So I asked my dad and he showed me. We burned a disk of music that we played on a speaker set. And that was the last time I did it. Never needed to after it so...",
+      "author": "MoridinB",
+      "subreddit": "technicallythetruth",
+      "created_utc": 1721154594,
+      "score": 1,
+      "link_id": "t3_1e4poev",
+      "parent_id": "t3_1e4poev"
+    },
+    {
+      "id": "ldbllsx",
+      "body": "As others have said, the head shake signifies many things, depending on the context. It's usually a means of acknowledgment of various types from \"I understand\" to a simple \"yes or no\" or in the case of the above video, \"the problem has been dealt with. I'm safe.\" You can see slower versions of the head shake when someone is enjoying something like music or food (usually accompanied with an \"ahhh\" or something similar). It is also commonly used in local \"wedding dances,\" though mostly because our necks are so used to the movement that it just happens (or at least that's my theory). The speed of the head shake matters a lot in a conversation. It usually matches the flow of a conversation and matches micro pauses of the speaker, which is used to indicate, \"Yes, I'm listening. You can keep talking.\" You'll know an Indian is confused when they don't head shake in the middle of a convo or in the middle of one (commonly called a head tilt). A short quick shake can indicate the end of a conversation like saying a \"thank you\" or \"take care\" or a confirmation. A slow one can indicate a no (this may be combined with a corresponding facial expression that can indicate a degree of no: \"I don't know, I really don't want to do this, but I gotta,\" to \"Hell no!\")\n\nThe most important thing, though, is that none of the above I said is written in stone. As an annoying vharacter from a stupid movie I once watched said, \"it's all tubular.\" If you're ever confused, just do the head shake yourself and let them figure it out.",
+      "author": "MoridinB",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1721065171,
+      "score": 7,
+      "link_id": "t3_1e3wxv0",
+      "parent_id": "t1_ldbdzdh"
+    },
+    {
+      "id": "ldayaq0",
+      "body": "He's probably a Captain by now...",
+      "author": "MoridinB",
+      "subreddit": "brooklynninenine",
+      "created_utc": 1721057632,
+      "score": 5,
+      "link_id": "t3_1e3qcii",
+      "parent_id": "t1_ldaa05n"
+    },
+    {
+      "id": "ld82uox",
+      "body": "I'm a student in machine learning, actually. Currently, SD is a hobby that helps me in my primary focus on deep learning vision models. I probably won't be gaming on the PC since I have an okay gaming laptop (Nitro AN515 w/ RTX 3060 laptop). One of the problems I'm facing right now is VRAM and processing for training. I'm primarily working on a cluster, but testing and stuff can take a while. Productivity is secondary. I also want to mess around with game development, but that's not important whatsoever, and besides, I think many of my other requirements will mesh with this.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1721005469,
+      "score": 2,
+      "link_id": "t3_1e3dd5r",
+      "parent_id": "t1_ld7wakw"
+    },
+    {
+      "id": "ld7v31k",
+      "body": "You seem like someone who knows stuff. So I'm set on building my own pc. I'm also set on getting a 3090, probably founders edition. I'm really confused about the other parts. There are so many options with so many configurations, I'm always overwhelmed when I open any kind of pc builder website. What do you suggest doing in such a case? I don't want to just buy the most expensive or powerful, but I don't want to cheap out as well. So any advice?",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1721002359,
+      "score": 1,
+      "link_id": "t3_1e3dd5r",
+      "parent_id": "t1_ld7d8un"
+    },
+    {
+      "id": "ld7tepy",
+      "body": "Not even that. I like the old Bethesda route of showing games only a few months before their release. Of course, they threw all that out of the window with ESVI, but let's not get into that...\n\nMaybe a year before is fine, but knowing the fact that they haven't even entered production, it's way too early for any trailer.",
+      "author": "MoridinB",
+      "subreddit": "witcher",
+      "created_utc": 1721001692,
+      "score": 17,
+      "link_id": "t3_1e3cb21",
+      "parent_id": "t1_ld7gtcz"
+    },
+    {
+      "id": "lcp39wd",
+      "body": "I mean, at this point, there are plenty of Photoshop extensions that allow img2img in the application. I don't know any on top of my head since I don't use it as much, but it's really a quick google or even reddit search on this very sub away.",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1720715549,
+      "score": 3,
+      "link_id": "t3_1e0pctb",
+      "parent_id": "t1_lcolil5"
+    },
+    {
+      "id": "lcd17vh",
+      "body": "I guess I just needed to say the dumb part out for others like me... It's reddit's server, which I'm needlessly using anyway...",
+      "author": "MoridinB",
+      "subreddit": "rareinsults",
+      "created_utc": 1720538057,
+      "score": 0,
+      "link_id": "t3_1dyz7x1",
+      "parent_id": "t1_lccy6ee"
+    },
+    {
+      "id": "lccvi9i",
+      "body": "Here, let me finish it for you: \"Only one of those is pronounceable, and the other is the right answer.\"",
+      "author": "MoridinB",
+      "subreddit": "rareinsults",
+      "created_utc": 1720536145,
+      "score": -16,
+      "link_id": "t3_1dyz7x1",
+      "parent_id": "t1_lccmckq"
+    },
+    {
+      "id": "lcct9y4",
+      "body": "Most everyone has said, \"If there is no value.\" That is what I was initially going to say as well. But since everyone is saying that, I'm going to add another reason, because two is better than one. What if there is, besides no value to colonize or disease preventing colonization, there is a stigma associated with traveling. If you travel the Great Expanse, then you'll be forever ostrasized, or your family suffers, or <insert any horrible fate>. This could be induced by the culture, or a religion, or just dear of the unknown. The culture(s) just doesn't like traveling and actively discourages it.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1720535371,
+      "score": 1,
+      "link_id": "t3_1dyyjdg",
+      "parent_id": "t3_1dyyjdg"
+    },
+    {
+      "id": "lccbqq9",
+      "body": "For da peace of the kingdom! For the king!",
+      "author": "MoridinB",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1720528582,
+      "score": 4,
+      "link_id": "t3_1dysby8",
+      "parent_id": "t1_lcblyl2"
+    },
+    {
+      "id": "lc8qk5t",
+      "body": "Former parent",
+      "author": "MoridinB",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1720468466,
+      "score": -3,
+      "link_id": "t3_1dy8mnu",
+      "parent_id": "t3_1dy8mnu"
+    },
+    {
+      "id": "lc7zesf",
+      "body": "Oh wow, that's much better!",
+      "author": "MoridinB",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1720459666,
+      "score": 4,
+      "link_id": "t3_1dyciyc",
+      "parent_id": "t1_lc7ygd3"
+    },
+    {
+      "id": "lc7fvsm",
+      "body": "If you're an owner who is giving his employees free pizza every day, then don't use cardboard boxes. Maybe get a container that isn't easy to throw away? It's extra effort, but if one is concerned about wasting 50c, then the effort would be worth it. Cardboard is just so easy to throw away without even thinking about it.",
+      "author": "MoridinB",
+      "subreddit": "dataisbeautiful",
+      "created_utc": 1720453302,
+      "score": 5,
+      "link_id": "t3_1dy4usi",
+      "parent_id": "t1_lc64see"
+    },
+    {
+      "id": "lbwuqvd",
+      "body": "I'll offer something different. Everyone seems to be suggesting a brutalist architecture, kinda blocky, or modern hellscape. I say, make it fancy, but degraded. I think it's worth showing that the city may have been extremely beautiful and scenic, but it is ruined due to rampant corruption. Another sign of corrupt and miserable cities is an upper-class section with a massive divide to the poverty-stricken blocks. A large wall that quite specifically and accurately defines this divide, with guards with fancy guns or weapons, would drive the point home. \n\nThe city's actual name can be something beautiful, but it's called Ratport cause that's what it has become, a port for murderers, killers, thieves, and rapists. The upper class pretend everything is neat and fancy but don't even live in their city, preferring to live in their summer homes away from the dirt and murder.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1720283276,
+      "score": 3,
+      "link_id": "t3_1dwmiz2",
+      "parent_id": "t3_1dwmiz2"
+    },
+    {
+      "id": "lbjwo44",
+      "body": "History remembers the great men and women, but there are millions who make great men and women. Behind Alexander the Great was his father, Parmenion, Cleitus the Black, and even Darius. Behind Julius Caesar was a century of Roman Senators and generals. Take the opportunity to write history by creating interesting characters and then flavor your history with plenty of support characters who make all of it possible.",
+      "author": "MoridinB",
+      "subreddit": "worldbuilding",
+      "created_utc": 1720067792,
+      "score": 17,
+      "link_id": "t3_1duvex9",
+      "parent_id": "t3_1duvex9"
     }
   ]
 }

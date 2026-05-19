@@ -1,6 +1,18 @@
 {
   "username": "PassAppropriate5891",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hiy0kn",
+      "title": "Issues with E-Sim (US, Android (Fairphone 5))",
+      "author": "PassAppropriate5891",
+      "subreddit": "Airalo",
+      "created_utc": 1734741147,
+      "score": 2,
+      "num_comments": 7,
+      "selftext": "The esim is installed it also tells me its connected when you click on the sim in the settings , however it doesn't actually connect to the internet and keeps saying \"network not available\"  ? \n\ntried:  \nenable/disable air plane mode/sim  \nrestarting phone (multiple times)  \nswitched of 5G  \ntried adding APN but not possible\n\nAnybody face a similar issue",
+      "url": "https://www.reddit.com/r/Airalo/comments/1hiy0kn/issues_with_esim_us_android_fairphone_5/"
+    }
+  ],
   "comments": [
     {
       "id": "m4a963l",
@@ -41,6 +53,26 @@
       "score": 9,
       "link_id": "t3_1fvogsc",
       "parent_id": "t3_1fvogsc"
+    },
+    {
+      "id": "m32ur1g",
+      "body": "Thank you very much this worked!!",
+      "author": "PassAppropriate5891",
+      "subreddit": "Airalo",
+      "created_utc": 1734748417,
+      "score": 1,
+      "link_id": "t3_1hiy0kn",
+      "parent_id": "t1_m32tuu8"
+    },
+    {
+      "id": "m32r5oe",
+      "body": "Thank you very much for the reply it doesnt seem to save the APNs even with changing protocol/roaming settings changed",
+      "author": "PassAppropriate5891",
+      "subreddit": "Airalo",
+      "created_utc": 1734746909,
+      "score": 1,
+      "link_id": "t3_1hiy0kn",
+      "parent_id": "t1_m32qcha"
     }
   ]
 }

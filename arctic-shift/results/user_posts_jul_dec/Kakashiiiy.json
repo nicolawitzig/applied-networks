@@ -1,6 +1,106 @@
 {
   "username": "Kakashiiiy",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1h88eu3",
+      "title": "Legacy I/O DMA Ports 0x00 and 0x80",
+      "author": "Kakashiiiy",
+      "subreddit": "osdev",
+      "created_utc": 1733510454,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "I've been exploring my Ryzen system and the registers present on it and found that according to the PPR it has DMA ports at 0x00.... and 0x80....  \n[https://wiki.osdev.org/I/O\\_Ports](https://wiki.osdev.org/I/O_Ports) also lists these ports. Unfortunately, the document only lists the presence of the ports but not how they are used. I also tried to search for it in the Linux Kernel source base and asked multiple LLM's but the results were mostly trash.  \nDoes anyone know how to use those ports and how I can use them for DMA?\n\nThank you!",
+      "url": "https://www.reddit.com/r/osdev/comments/1h88eu3/legacy_io_dma_ports_0x00_and_0x80/"
+    },
+    {
+      "id": "1h1vg1t",
+      "title": "Logbook Duty Because Someone Was Speeding in Germany with my Car",
+      "author": "Kakashiiiy",
+      "subreddit": "Switzerland",
+      "created_utc": 1732798848,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Someone was using my car and drove a little too fast in Germany. 2 months later I got the fine from the German federal state. Since I did not drive the car I sent the letter back and marked that I did not drive and had no clue who has driven the car (Refused to give testimony)    \nWhat can the German government do. I know that if you car is registered in Germany and you do this too often they can force you to log all your driving sessions in a log book. Can the same also happen to me even if my car is registered in CH?  \nPS: I really didn't drive so I don't care if they force me to some swiss office for identification.",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1h1vg1t/logbook_duty_because_someone_was_speeding_in/"
+    },
+    {
+      "id": "1gv6ruc",
+      "title": "Memory Access in SMM ",
+      "author": "Kakashiiiy",
+      "subreddit": "osdev",
+      "created_utc": 1732047380,
+      "score": 6,
+      "num_comments": 2,
+      "selftext": "Hello I've been stuck for quite a few days now and running out of ideas. You may have heard of the recent sinkclose vulnerability \\[0\\] giving us access to the system management mode of AMD processors. The authors have recently released their code and I am trying to play around with it. However, somehow I can't reproduce their code (probably due to wrong nasm flags) and my approach to reproduce the exploit as is failed as well when transitioning to long mode. So I decided to implement a simple stub program that only dumps some values from the SMM Save Area into OS accessible memory. Unfortunately the memory accesses fail for some reason.\n\nWhen SMM is entered the EDK executes its entrypoint code \\[1\\]. The sinkclose exploits overlays it with MMIO registers and redirects the execution at line 94 and jumps to its exploit code.   \nThe exploit code restores the GDT and sets the correct CS / DS registers\n\n    _core0_shell:\n        .code32\n        \n    /* Clear TClose */\n        movl $0xc0010113,%ecx\n        rdmsr\n        and $0xfffffff3,%eax\n        wrmsr\n    \n        movl    $PROTECT_MODE_DS,%eax\n        movl    %eax, %ds\n        movl    %eax, %es\n        movl    %eax, %fs\n        movl    %eax, %gs\n        movl    %eax, %ss\n        movl    $CORE0_INITIAL_STACK,%esp  \n    \n        \n    /* Clean the GDT and CS */\n        movl    $ORIGINAL_GDTR,%ecx\n        lgdt    (%ecx)\n    \n        pushl   $PROTECT_MODE_CS\n        movl    $CORE0_NEXT_STAGE,%eax\n        pushl   %eax\n    \n        lretl\n    \n    next_stage:\n    \n        jmp     ProtFlatMode\n    \n    .code64\n    ProtFlatMode\n        ....\n\nI validated that the GDT entries are correct:\n\n    --- 32 Bit DS Descriptor ---\n    SegDescHex 0x00000000004f0118\n    Segment Descriptor Fields:\n    --------------------------\n    Base Address     : 0x00000000\n    Segment Limit : 0xFFFFF\n    Access Byte:\n      Accessed       : 1\n      Read/Writable  : 1\n      Conforming/Exp : 0\n      Executable     : 0\n      Descriptor Type: 1\n      DPL            : 0\n      Present        : 1\n    Granularity Byte:\n      Limit High     : 0xF\n      AVL            : 0\n      Long Mode      : 0\n      Default Size   : 1\n      Granularity    : 1\n    --------------------------\n\n    --- 32 Bit CS Descriptor ---\n    SegDescHex 0x00000000004f0108\n    Segment Descriptor Fields:\n    --------------------------\n    Base Address     : 0x00000000\n    Segment Limit : 0xFFFFF\n    Access Byte:\n      Accessed       : 1\n      Read/Writable  : 1\n      Conforming/Exp : 0\n      Executable     : 1\n      Descriptor Type: 1\n      DPL            : 0\n      Present        : 1\n    Granularity Byte:\n      Limit High     : 0xF\n      AVL            : 0\n      Long Mode      : 0\n      Default Size   : 1\n      Granularity    : 1\n    --------------------------\n\nNow to my problem, when I try to access a memory region (within the 4GiB range) with registers it simply returns 0. More specifically as already said I want to access the SMM Save State Area with the following code\n\n    .code64\n    ProtFlatMode:\n    \n    \n        mov     $SMM_BASE_OFFSET_CORE0+0xFF00,%ecx\n        mov     (%ecx), %ecx\n        mov     %ecx, (0x800)\n        mov     $SMM_BASE_OFFSET_CORE0+0xFF78,%ecx\n        mov     (%ecx), %ecx\n        mov     %ecx, (0x808)\n        mov     $SMM_BASE_OFFSET_CORE0+0xFF7c,%ecx\n        mov     (%ecx), %ecx\n        mov     %ecx, (0x80c)\n        \n    /* Return from SMM*/\n        rsm\n\nAccording to AMD's programmers manual 2 section 10.2.3 the offsets are correct and the SMM\\_BASE is read through the MSR `0xC0010111`  \nNevertheless the memory access returns 0 (at least the data at physical address 0x800) is 0  \nIf I use write dummy values to 0x800 it works \n\n mov     $0xBAEB,(0x800)\n\nIm a little bit confused why my Save State Values are not read. The segment base + limit should allow access in the 0-4GiB range and there shouldn't be any problem in accessing the save state. Am I doing something wrong?u\n\nI was thinking maybe its a side effect of the exploit, i.e., I am accessing non present MMIO memory but in this case the processor would return 0xFF's. Since I already spent quite some days debugging it I'd appreciate any help. And sorry for the long post I wanted to provide as much information as possible.\n\nThank you!\n\n\\[0\\]  [https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Enrique%20Nissim%20Krzysztof%20Okupski%20-%20AMD%20Sinkclose%20Universal%20Ring-2%20Privilege%20Escalation.pdf](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Enrique%20Nissim%20Krzysztof%20Okupski%20-%20AMD%20Sinkclose%20Universal%20Ring-2%20Privilege%20Escalation.pdf)\n\n\\[1\\] [https://github.com/tianocore/edk2/blob/0f3867fa6ef0553e26c42f7d71ff6bdb98429742/UefiCpuPkg/PiSmmCpuDxeSmm/X64/SmiEntry.nasm](https://github.com/tianocore/edk2/blob/0f3867fa6ef0553e26c42f7d71ff6bdb98429742/UefiCpuPkg/PiSmmCpuDxeSmm/X64/SmiEntry.nasm)\n\n",
+      "url": "https://www.reddit.com/r/osdev/comments/1gv6ruc/memory_access_in_smm/"
+    },
+    {
+      "id": "1gl91x8",
+      "title": "My First Niche Fragrance 🙌",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1730926968,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "I've had the Maison Crevelli Sample set before and must say many of the stuff is not that good imo. Oud Maracuja is unique but not mass appealing I'd wear it for myself but unsure if it's full bottle worthy. I personally prefer oud Cadenza over Maracuja in terms of smell. \nOverall this here is a long lasting scent. I don't get nose blind and it lasts ~7-8 hours with projection (sprayed it at 9am and could still smell it at 5pm)",
+      "url": "https://i.redd.it/91s2pq9kiczd1.jpeg"
+    },
+    {
+      "id": "1gi0x8d",
+      "title": "Customs when returning an Item to EU state",
+      "author": "Kakashiiiy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730566611,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I recently received an item which I want to send back. Do I still have to pay the customs bill I'll receive from FedEx even if I'm returning it?\n\nSince FedEx charges ridiculously much for processing and I'd rather not pay it. \n\nThanks",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1gi0x8d/customs_when_returning_an_item_to_eu_state/"
+    },
+    {
+      "id": "1geukcp",
+      "title": "Crockett and Jones Construction issues?",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730208350,
+      "score": 0,
+      "num_comments": 12,
+      "selftext": "The lining of my CJ chukka boots is vanishing after ~30 wears. I have a pair of Chelseas which I wear way more often (can also see it by the sole, ~60 times) without the problems. Is the lining bad or are the chukkas badly constructed? + the chukkas already show bubbling.\n\nBoth shoes are size 46 and subjectively the Chelsea are more slippery, so I'd expect them to have more of the lining problem's.\n\nThe first 3 pictures are from the chukka boot, the last one from m Chelsea ",
+      "url": "https://www.reddit.com/gallery/1geukcp"
+    },
+    {
+      "id": "1g3f03f",
+      "title": "MFK Best Fragrances ",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728910328,
+      "score": 5,
+      "num_comments": 2,
+      "selftext": "Preparing for my next order, what are your favorite MFKs?",
+      "url": "https://i.redd.it/7sxxt7z1ypud1.jpeg"
+    },
+    {
+      "id": "1g0sghu",
+      "title": "Can't smell Perfum through dispenser ",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728592364,
+      "score": 0,
+      "num_comments": 1,
+      "selftext": "I can't smell Terre d Hermes and Loewe Esencia EDT through the dispenser but other perfumes I can smell such \nas H24 EDP, Gisada Ambassador, Polo Green etc. to name only a few.\n\nDo you know the reason? Are these high quality dispensers or are the perfumes just weak.",
+      "url": "https://www.reddit.com/r/Colognes/comments/1g0sghu/cant_smell_perfum_through_dispenser/"
+    },
+    {
+      "id": "1fnoym5",
+      "title": "Luca Faloni Quality",
+      "author": "Kakashiiiy",
+      "subreddit": "mensfashion",
+      "created_utc": 1727109621,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "After spending roughly 2.2k on them I can give you my thoughts. Keep in mind I am not a fashion expert.\n\nTo be honest I am a bit disappointed. Especially by the quality for the price. \n\n- Cotton Piqué (shirt / Polo): Feels nice in the beginning but the durability is not high. I own a red + a black shirt. The red one already wears off after \\~5 wash machine cycles (new machine spin 800rpm / color protection soap) and the black one is already damaged after one wear (not sure if it was me or if it came like this out of the factory, anyway never experienced this with my other shirts). So I highly discourage you to buy those.\n\n- Cashmere stuff: Own quite a few of them but didn't wear them often enough to do a review.\n\n- Oxford Shirt: Came damaged  but I didn't notice it in the beginning. The seam on the inside wasn't finished. It's hard to describe and unfortunately I don't have a picture anymore since I gave the shirt away. But for a $150+  this is a no-go\n\n- Leather belt: The only stuff I can recommend buying from LF. I own one with suede leather and so far its doing a great job for \\~1 year.\n\n  \n---\n\nOverall I am a bit disappointed by LF and won't buy there any textile stuff again. I am still searching for good alternatives (in Europe) but so far I haven't found any. I'd be happy about recommendations.\n\nhttps://preview.redd.it/bt06ywah7lqd1.jpg?width=3072&format=pjpg&auto=webp&s=c9e7b4e2e055406a4edf7036b41babf366d0978e\n\nhttps://preview.redd.it/2isaawah7lqd1.jpg?width=3072&format=pjpg&auto=webp&s=49088f07d4926157aff520954527e3c6f72aface\n\n  \n",
+      "url": "https://www.reddit.com/r/mensfashion/comments/1fnoym5/luca_faloni_quality/"
+    }
+  ],
   "comments": [
     {
       "id": "lxel029",
@@ -21,6 +121,816 @@
       "score": -4,
       "link_id": "t3_1gfqnbu",
       "parent_id": "t3_1gfqnbu"
+    },
+    {
+      "id": "m3mzebp",
+      "body": "nah actually it can. Loewe Esencia EDP is similar /better imo.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1735069302,
+      "score": 1,
+      "link_id": "t3_1hl46lu",
+      "parent_id": "t1_m3jj0to"
+    },
+    {
+      "id": "m3k65bc",
+      "body": "No Storm Welt?",
+      "author": "Kakashiiiy",
+      "subreddit": "goodyearwelt",
+      "created_utc": 1735022575,
+      "score": 1,
+      "link_id": "t3_1fihfou",
+      "parent_id": "t3_1fihfou"
+    },
+    {
+      "id": "m2t0x8n",
+      "body": "I went with the Waxy Commander, but the next boot will probably be Maryam Salvia",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1734606087,
+      "score": 2,
+      "link_id": "t3_12hxo33",
+      "parent_id": "t1_m2sf4pi"
+    },
+    {
+      "id": "m2irsov",
+      "body": "Thanks! still undecided between Salvia Horserump and CF Waxy Commander.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1734455755,
+      "score": 1,
+      "link_id": "t3_12hxo33",
+      "parent_id": "t1_m2ielh2"
+    },
+    {
+      "id": "m2iav1k",
+      "body": "do you have an update now? I'm also considering getting a pair",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1734450319,
+      "score": 1,
+      "link_id": "t3_12hxo33",
+      "parent_id": "t1_kba2u4r"
+    },
+    {
+      "id": "m1r22e4",
+      "body": "PDM Website, but I'm in Europe",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1734036444,
+      "score": 2,
+      "link_id": "t3_1hcszgp",
+      "parent_id": "t1_m1qxtda"
+    },
+    {
+      "id": "m1qnh3c",
+      "body": "And Cobalt 7 Loewe",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1734031878,
+      "score": 1,
+      "link_id": "t3_1hcszgp",
+      "parent_id": "t1_m1qnfez"
+    },
+    {
+      "id": "m1qnfez",
+      "body": "just ordered pdm samples 🙌. can't wait to get my nose on it",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1734031863,
+      "score": 3,
+      "link_id": "t3_1hcszgp",
+      "parent_id": "t3_1hcszgp"
+    },
+    {
+      "id": "m1k21ks",
+      "body": "Bro it's a 40 bucks one who would forge it ...",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1733939407,
+      "score": 4,
+      "link_id": "t3_1hbympw",
+      "parent_id": "t3_1hbympw"
+    },
+    {
+      "id": "m172fi7",
+      "body": "surgery",
+      "author": "Kakashiiiy",
+      "subreddit": "trueratediscussions",
+      "created_utc": 1733754008,
+      "score": 1,
+      "link_id": "t3_1h750iz",
+      "parent_id": "t3_1h750iz"
+    },
+    {
+      "id": "m0uzllm",
+      "body": "Yeah I tried it (not with port 0x00 / 0x80 but with some other FCH functionality that uses the LPC DMA engine) and the iommu blocked the transaction. I wonder if more sophisticated engines like the one mentioned here on page 1063 (https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/programmer-references/55072\\_AMD\\_Family\\_15h\\_Models\\_70h-7Fh\\_BKDG.pdf) can bypass the iommu.   \nI've also looked at some of the AMD PSP source code and from what I understand the PSP itself is also behind the iommu but can bypass it with certain flags.",
+      "author": "Kakashiiiy",
+      "subreddit": "osdev",
+      "created_utc": 1733575155,
+      "score": 1,
+      "link_id": "t3_1h88eu3",
+      "parent_id": "t1_m0ro27p"
+    },
+    {
+      "id": "m0rh9iz",
+      "body": "I wonder if they can bypass the IOMMU on a system, since its such legacy stuff.",
+      "author": "Kakashiiiy",
+      "subreddit": "osdev",
+      "created_utc": 1733516872,
+      "score": 2,
+      "link_id": "t3_1h88eu3",
+      "parent_id": "t1_m0rea9i"
+    },
+    {
+      "id": "m0rc5b2",
+      "body": "nvm I found some documentation here in the Linux kernel [https://docs.kernel.org/core-api/dma-isa-lpc.html](https://docs.kernel.org/core-api/dma-isa-lpc.html) but according to the PPR I have to set many registers in different places to make it work. I will post an update once (if) I figure it out.",
+      "author": "Kakashiiiy",
+      "subreddit": "osdev",
+      "created_utc": 1733515208,
+      "score": 0,
+      "link_id": "t3_1h88eu3",
+      "parent_id": "t3_1h88eu3"
+    },
+    {
+      "id": "m03fvr3",
+      "body": "lol the welt is just decorative?",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1733173165,
+      "score": 2,
+      "link_id": "t3_1h502sr",
+      "parent_id": "t3_1h502sr"
+    },
+    {
+      "id": "lzmi5bp",
+      "body": "They are actually pretty comfortable for me. Maybe your feet are not for the last or they need to break in.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1732918721,
+      "score": 1,
+      "link_id": "t3_1h2tht1",
+      "parent_id": "t3_1h2tht1"
+    },
+    {
+      "id": "lzfelme",
+      "body": "Pretty sure I don't. In Germany the driver is responsible not the owner. Unlike Switzerland where for small stuff the owner can be charged.",
+      "author": "Kakashiiiy",
+      "subreddit": "Switzerland",
+      "created_utc": 1732812032,
+      "score": -1,
+      "link_id": "t3_1h1vg1t",
+      "parent_id": "t1_lzfdvka"
+    },
+    {
+      "id": "lzfbqdv",
+      "body": "Maybe, they even retunred it in perfect condition. I didn't notice anything :)",
+      "author": "Kakashiiiy",
+      "subreddit": "Switzerland",
+      "created_utc": 1732811076,
+      "score": -2,
+      "link_id": "t3_1h1vg1t",
+      "parent_id": "t1_lzfb6as"
+    },
+    {
+      "id": "lze661k",
+      "body": "can't comment on it yet",
+      "author": "Kakashiiiy",
+      "subreddit": "mensfashion",
+      "created_utc": 1732794121,
+      "score": 1,
+      "link_id": "t3_1fnoym5",
+      "parent_id": "t1_lz4b3x3"
+    },
+    {
+      "id": "lz3ync0",
+      "body": "To be honest I haven't worn them much. It's not cold enough + I am a little afraid to damage it, since it was so expensive. But what are you most interested in, quality / durability? If you want I can share pictures of the seam etc.",
+      "author": "Kakashiiiy",
+      "subreddit": "mensfashion",
+      "created_utc": 1732644047,
+      "score": 1,
+      "link_id": "t3_1fnoym5",
+      "parent_id": "t1_lz3pkpc"
+    },
+    {
+      "id": "lythfaj",
+      "body": "Headache inducing for me",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1732489605,
+      "score": 6,
+      "link_id": "t3_1gz1d0b",
+      "parent_id": "t3_1gz1d0b"
+    },
+    {
+      "id": "lyld332",
+      "body": "Fragrantica",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1732377351,
+      "score": 3,
+      "link_id": "t3_1gxyp97",
+      "parent_id": "t1_lyl82zg"
+    },
+    {
+      "id": "lyhwm87",
+      "body": "lol the heel looks so bad",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1732318324,
+      "score": 1,
+      "link_id": "t3_1gxkv10",
+      "parent_id": "t3_1gxkv10"
+    },
+    {
+      "id": "lyarjqs",
+      "body": "tbh I find it the second most disgusting scent I own out of ~23. It made me realize I should stop blind buying sruff",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1732219266,
+      "score": 1,
+      "link_id": "t3_1gwjpn7",
+      "parent_id": "t1_lyac87c"
+    },
+    {
+      "id": "ly2ostq",
+      "body": "Thank you so much, it actually worked. Not clue why I didn't come up myself with this.\n\nProbably because the EDKII code also had the 64 bits directive and I blindly copied it .... (https://github.com/tianocore/edk2/blob/0f3867fa6ef0553e26c42f7d71ff6bdb98429742/UefiCpuPkg/PiSmmCpuDxeSmm/X64/SmiEntry.nasm#L111)",
+      "author": "Kakashiiiy",
+      "subreddit": "osdev",
+      "created_utc": 1732094506,
+      "score": 1,
+      "link_id": "t3_1gv6ruc",
+      "parent_id": "t1_ly16z13"
+    },
+    {
+      "id": "lwybedf",
+      "body": "I don't like it lol",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1731521214,
+      "score": -1,
+      "link_id": "t3_1gqa1gn",
+      "parent_id": "t1_lwy9t9p"
+    },
+    {
+      "id": "lvs8akn",
+      "body": "❤️",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1730927353,
+      "score": 1,
+      "link_id": "t3_1gl91x8",
+      "parent_id": "t1_lvs7zqt"
+    },
+    {
+      "id": "lv2jrnr",
+      "body": "my friend is also using it 1-2 sprays on the chest and I can't even smell it. So it won't be overwhelming like Montale Arabians Tonke for instance",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1730578257,
+      "score": 1,
+      "link_id": "t3_1gi41ht",
+      "parent_id": "t1_lv2jmc2"
+    },
+    {
+      "id": "lv2jmc2",
+      "body": "I use it as a signature scent because I have 200ml bootle and need to get rid of it now. But otherwise I wouldn't use it there are better options imo. I personally even like Sauvage Parfum better.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1730578209,
+      "score": 1,
+      "link_id": "t3_1gi41ht",
+      "parent_id": "t3_1gi41ht"
+    },
+    {
+      "id": "luztls2",
+      "body": "Btw. you paid way too much for these loafers not sure where everyone produces it but you can get it for as low as ~160$ at skolyx",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730540837,
+      "score": 1,
+      "link_id": "t3_1ggyirl",
+      "parent_id": "t3_1ggyirl"
+    },
+    {
+      "id": "luztc7y",
+      "body": "The mark in the sole will vanish over time due to use.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730540651,
+      "score": 1,
+      "link_id": "t3_1gh6lgx",
+      "parent_id": "t3_1gh6lgx"
+    },
+    {
+      "id": "luorj24",
+      "body": "Ambassador",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1730378828,
+      "score": 2,
+      "link_id": "t3_1ggc66f",
+      "parent_id": "t3_1ggc66f"
+    },
+    {
+      "id": "luftrbf",
+      "body": "His shoes look pretty used. I haven't had mine for a year, but let's see how it develops.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730246394,
+      "score": 1,
+      "link_id": "t3_1geukcp",
+      "parent_id": "t1_lufr25o"
+    },
+    {
+      "id": "lufslkt",
+      "body": "Probably the last. The Chelsea/Derby from CJ are still fine. I use the same socks also in the Chelseas.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730246006,
+      "score": 1,
+      "link_id": "t3_1geukcp",
+      "parent_id": "t1_lufqcvg"
+    },
+    {
+      "id": "lufpvjd",
+      "body": "bought them directly from CJ. But I will contact them let's see how great their customer service is.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730245090,
+      "score": 1,
+      "link_id": "t3_1geukcp",
+      "parent_id": "t1_lud7i4e"
+    },
+    {
+      "id": "lufpplq",
+      "body": "nah if it's visually wearing off I wouldn't care but looking at a similar case here (https://www.reddit.com/r/AskACobbler/s/S1YSOGtIJ7) it will become worse.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730245035,
+      "score": 1,
+      "link_id": "t3_1geukcp",
+      "parent_id": "t1_ludjuyd"
+    },
+    {
+      "id": "ludescl",
+      "body": "Davidoff Cool Water for 1k you  even get 8 liters of it",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1730219544,
+      "score": 14,
+      "link_id": "t3_1gexbmy",
+      "parent_id": "t3_1gexbmy"
+    },
+    {
+      "id": "lucsddb",
+      "body": "I think the leather is vanishing in those spots and its not just only the heel. So probably I should reline it but this time use a thicker suede in the heel since its more robust + prevents slippery. I am still not sure whats causing it. SInce I already said my chelsea's don't have the problem and they're the same size.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730212579,
+      "score": 1,
+      "link_id": "t3_1geukcp",
+      "parent_id": "t1_luclnqu"
+    },
+    {
+      "id": "lucs2my",
+      "body": "Could you please elaborate? Is the shoe too wide? Since when I am wearing it it doesn't feel too wide / slippery and its pretty comfortable. The issues are also not only in the heel as you can see in the first picture. Is the used last just not compatible with my feed?",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1730212482,
+      "score": 1,
+      "link_id": "t3_1geukcp",
+      "parent_id": "t1_lucpaou"
+    },
+    {
+      "id": "lttypkr",
+      "body": "Looks like they've fucked up the construction / used bad materials",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1729940037,
+      "score": 1,
+      "link_id": "t3_110c4vu",
+      "parent_id": "t1_ltqm2sw"
+    },
+    {
+      "id": "ltqm2sw",
+      "body": "I have the same issue, the lining also appears a little loose. But only the chukka boots Chelsea's in the same size are fine.",
+      "author": "Kakashiiiy",
+      "subreddit": "AskACobbler",
+      "created_utc": 1729886543,
+      "score": 1,
+      "link_id": "t3_110c4vu",
+      "parent_id": "t3_110c4vu"
+    },
+    {
+      "id": "ltjq724",
+      "body": "How do you like Eau Sauvage? I'm also considering getting it",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729791913,
+      "score": 1,
+      "link_id": "t3_1gaf2rd",
+      "parent_id": "t3_1gaf2rd"
+    },
+    {
+      "id": "lti5h6x",
+      "body": "Don't buy SBE and victory elixir both are vanilla heavy and similarish in the derby down",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729773997,
+      "score": 1,
+      "link_id": "t3_1gav3fh",
+      "parent_id": "t3_1gav3fh"
+    },
+    {
+      "id": "lthw19x",
+      "body": "I've got a sample and it's not bad but also not worth ~160 bucks imo.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729769991,
+      "score": 1,
+      "link_id": "t3_1gb04iq",
+      "parent_id": "t3_1gb04iq"
+    },
+    {
+      "id": "lthfind",
+      "body": "For the office I'm using \nTerre D Hermes EDT \nHermes H24 EDP (mossy / green I like it)\nLoewe Esencia EDP\nLoewe Cobalt 7 \n\nAll are not too strong in terms of sillage but smell amazing imo",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729760500,
+      "score": 1,
+      "link_id": "t3_1gakjbm",
+      "parent_id": "t3_1gakjbm"
+    },
+    {
+      "id": "lt90smm",
+      "body": "A friend of mine has Erba Pura and I think the opening is similarish to ambassador. Never tried Titanium but it's on my test list. Wonder if it's worth it considering that I already have Spice Bomb Extreme / Invictus Victory Elixir",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729636945,
+      "score": 2,
+      "link_id": "t3_1g9ry6o",
+      "parent_id": "t1_lt8ybp4"
+    },
+    {
+      "id": "lt8ft51",
+      "body": "I like ambassadors opening but the drydow is kinda boring. Plus I don't feel it's really long lasting",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729630123,
+      "score": 1,
+      "link_id": "t3_1g9ry6o",
+      "parent_id": "t3_1g9ry6o"
+    },
+    {
+      "id": "lt6acnc",
+      "body": "Loewe Esencia",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729606081,
+      "score": 2,
+      "link_id": "t3_1g9hnan",
+      "parent_id": "t3_1g9hnan"
+    },
+    {
+      "id": "lstau9y",
+      "body": "Oud satin mood smells a little soapy imo (in a bad way). must be the Rose. I don't like it but my female coworkers do haha",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729412311,
+      "score": 1,
+      "link_id": "t3_1g7qleq",
+      "parent_id": "t3_1g7qleq"
+    },
+    {
+      "id": "lstarvq",
+      "body": "Yes I smelled it, not bad but also nothing really special.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729412266,
+      "score": 2,
+      "link_id": "t3_1g7qleq",
+      "parent_id": "t1_lstagov"
+    },
+    {
+      "id": "lspdpzi",
+      "body": "But only as a sample haha, I was in one of the Xerjoff stores",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729354924,
+      "score": 1,
+      "link_id": "t3_1g79uxk",
+      "parent_id": "t1_lsp3ign"
+    },
+    {
+      "id": "lsp3ign",
+      "body": "40 knots",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729351427,
+      "score": 6,
+      "link_id": "t3_1g79uxk",
+      "parent_id": "t3_1g79uxk"
+    },
+    {
+      "id": "lscp62o",
+      "body": "Don't buy 200ml. The Bottle is clunky and it sucks to use. But a great scent.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729167601,
+      "score": -1,
+      "link_id": "t3_1g5gb95",
+      "parent_id": "t3_1g5gb95"
+    },
+    {
+      "id": "lscoscs",
+      "body": "I was wearing this as well to work and 5 hours after I sprayed it I had a meeting. I went in late and shortly after I entered the whole room was smelling. 3 sprays neck area. That stuff is so strong. \nBut today I am wearing Victory Elixir.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1729167437,
+      "score": 1,
+      "link_id": "t3_1g5mu29",
+      "parent_id": "t3_1g5mu29"
+    },
+    {
+      "id": "ls0ooxr",
+      "body": "Maybe some green stuff? Like h24 EDP",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728988958,
+      "score": 2,
+      "link_id": "t3_1g41mfh",
+      "parent_id": "t3_1g41mfh"
+    },
+    {
+      "id": "lrrmtk3",
+      "body": "Loewe Esencia EDP",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728848246,
+      "score": 1,
+      "link_id": "t3_1g2wvlb",
+      "parent_id": "t3_1g2wvlb"
+    },
+    {
+      "id": "lrprlgu",
+      "body": "which ones are your go to's?",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728825702,
+      "score": 1,
+      "link_id": "t3_1g2mvcl",
+      "parent_id": "t3_1g2mvcl"
+    },
+    {
+      "id": "lrpr5qe",
+      "body": "How's the longevity?",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728825517,
+      "score": 1,
+      "link_id": "t3_1g2oe7o",
+      "parent_id": "t3_1g2oe7o"
+    },
+    {
+      "id": "lrk9lra",
+      "body": "Gisada Ambassador",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728739676,
+      "score": 3,
+      "link_id": "t3_1g1zxto",
+      "parent_id": "t3_1g1zxto"
+    },
+    {
+      "id": "lrg3r6i",
+      "body": "lol EDP becomes a skin scent after <2hrs",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728669700,
+      "score": 1,
+      "link_id": "t3_1ej86xr",
+      "parent_id": "t1_lgbs7ej"
+    },
+    {
+      "id": "lrfqa8i",
+      "body": "ahh all the best, I've the same issue elbow injury after making a lot of progress.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728665353,
+      "score": 2,
+      "link_id": "t3_1g0kh78",
+      "parent_id": "t1_lrfm5ww"
+    },
+    {
+      "id": "lra061s",
+      "body": "Isn't every day gym day? 😛",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728579548,
+      "score": 8,
+      "link_id": "t3_1g0kh78",
+      "parent_id": "t1_lr9g5s1"
+    },
+    {
+      "id": "lr4ofah",
+      "body": "Also thinking about getting oud Maracuja did you try it first or blind buy?",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728498267,
+      "score": 2,
+      "link_id": "t3_1fzy3jg",
+      "parent_id": "t3_1fzy3jg"
+    },
+    {
+      "id": "lr4f67v",
+      "body": "Fruity / Vanilla stuff imo",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728495281,
+      "score": 1,
+      "link_id": "t3_1fzsm5h",
+      "parent_id": "t3_1fzsm5h"
+    },
+    {
+      "id": "lr3uy2l",
+      "body": "For Vanilla stuff I can recommend spicebomb extreme, pretty generic but smells nice",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728488828,
+      "score": 1,
+      "link_id": "t3_1fzj4c0",
+      "parent_id": "t3_1fzj4c0"
+    },
+    {
+      "id": "lqtglhk",
+      "body": "Wondering if I should get Égoïste or Platinum Égoïste do you know how they compare?",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728326447,
+      "score": 2,
+      "link_id": "t3_1fy9pt4",
+      "parent_id": "t3_1fy9pt4"
+    },
+    {
+      "id": "lqn27ws",
+      "body": "Nice Thanks, I am also thinking about getting the discovery set.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728233485,
+      "score": 1,
+      "link_id": "t3_1fxkjz9",
+      "parent_id": "t3_1fxkjz9"
+    },
+    {
+      "id": "lqmco78",
+      "body": "I have the 200ml bottle and it's so big you can't even spray it one handed -_-",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728225062,
+      "score": 6,
+      "link_id": "t3_1fx7shz",
+      "parent_id": "t3_1fx7shz"
+    },
+    {
+      "id": "lqma1mv",
+      "body": "Coach Platinum",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728224139,
+      "score": 4,
+      "link_id": "t3_1fxh2z0",
+      "parent_id": "t3_1fxh2z0"
+    },
+    {
+      "id": "lqimufp",
+      "body": "Haha I also use it for the gym and I also enjoy the smell but apparently it's a citrus fragrance \"problem\" that the scent doesn't last long.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728162399,
+      "score": 2,
+      "link_id": "t3_1fww3i1",
+      "parent_id": "t1_lqililb"
+    },
+    {
+      "id": "lqi47xx",
+      "body": "But it doesn't last too long unfortunately.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728156358,
+      "score": 1,
+      "link_id": "t3_1fww3i1",
+      "parent_id": "t1_lqi1gdv"
+    },
+    {
+      "id": "lqi1zcu",
+      "body": "Davidoff Cool Water",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728155640,
+      "score": 4,
+      "link_id": "t3_1fwvpbg",
+      "parent_id": "t3_1fwvpbg"
+    },
+    {
+      "id": "lqfz018",
+      "body": "Actually they look the same iirc. I have the EDP and I like the mossy scent. But never tried the EDT",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728129656,
+      "score": 1,
+      "link_id": "t3_1fwanz0",
+      "parent_id": "t1_lqfsipk"
+    },
+    {
+      "id": "lqfu6a6",
+      "body": "Actually they look exactly the same iirc. I have the EDP :) but the EDT is kinda different from what I've heard",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728127039,
+      "score": 1,
+      "link_id": "t3_1fwanz0",
+      "parent_id": "t3_1fwanz0"
+    },
+    {
+      "id": "lqfnwl9",
+      "body": "H24 EDT or EDP?",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728122999,
+      "score": 1,
+      "link_id": "t3_1fwanz0",
+      "parent_id": "t3_1fwanz0"
+    },
+    {
+      "id": "lqflpe0",
+      "body": "Got it for ~70Euros (90ml) but I already had Invictus elixir and the use case for those two is pretty similar in my opinion. But I like the smell safe blind buy in my opinion. Both are pretty vanilla heavy after ~1 hour so the ladies in my office like it :)",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728121422,
+      "score": 3,
+      "link_id": "t3_1fwlc3r",
+      "parent_id": "t3_1fwlc3r"
+    },
+    {
+      "id": "lqarbfv",
+      "body": "The smell personally reminds me of Christmas candles and gives me the Christmas feeling, I like it.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1728049027,
+      "score": 2,
+      "link_id": "t3_1fus1a7",
+      "parent_id": "t3_1fus1a7"
+    },
+    {
+      "id": "lpvma5u",
+      "body": "Eros EDP and Sauvage EDP. Mass appealing, but I personally don't like wearing those.",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1727817983,
+      "score": 1,
+      "link_id": "t3_1ftmfvu",
+      "parent_id": "t3_1ftmfvu"
+    },
+    {
+      "id": "lpjmquo",
+      "body": "Erba Pura is soooooo good",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1727640623,
+      "score": 2,
+      "link_id": "t3_1fs6oe9",
+      "parent_id": "t3_1fs6oe9"
+    },
+    {
+      "id": "lotkavd",
+      "body": "Ralph Lauren Polo Green is what I enjoy a lot",
+      "author": "Kakashiiiy",
+      "subreddit": "Colognes",
+      "created_utc": 1727249033,
+      "score": 1,
+      "link_id": "t3_1folbi8",
+      "parent_id": "t3_1folbi8"
+    },
+    {
+      "id": "lhbrge1",
+      "body": "lol it's just a Kernel SMM privilege escalation. seems a little overhyped",
+      "author": "Kakashiiiy",
+      "subreddit": "Amd",
+      "created_utc": 1723232357,
+      "score": 1,
+      "link_id": "t3_1eo0ecz",
+      "parent_id": "t3_1eo0ecz"
+    },
+    {
+      "id": "lcjtd1x",
+      "body": "Bro I am right now cutting on 3000kcal at 6'7",
+      "author": "Kakashiiiy",
+      "subreddit": "tall",
+      "created_utc": 1720636064,
+      "score": 1,
+      "link_id": "t3_1dwlrl0",
+      "parent_id": "t3_1dwlrl0"
     }
   ]
 }

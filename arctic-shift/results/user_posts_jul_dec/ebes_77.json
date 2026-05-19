@@ -1,6 +1,51 @@
 {
   "username": "ebes_77",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1guwzrf",
+      "title": "Excited for the CORE ONE but also kind of disappointed ",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1732022541,
+      "score": 0,
+      "num_comments": 17,
+      "selftext": "In the past couple of months I pondered a lot about buying a 3D printer. \n\nTwo weeks ago I finally pulled the trigger and got myself a MK4s kit. \n\nToday Prusa announced the CORE ONE. \n\nYes, It's cool that they offer an upgrade kit from the MK4s to the core one, but I most definetely would've skipped buying the MK4s and waited a bit for the CORE ONE, afterall it should start shipping in january already. \n\nNow if I want to get the CORE ONE I either have to buy an upgrade kit, which however would require me to completely take apart my MK4s and rebuild it from scratch (which I cant be bothered to do) or drop another 1100 euros on the CORE ONE. \n\nI am quite disappointed that prusa did not drop even a single hint on when their latest and greatest printer was gonna come, and on what the upgrade path was gonna look like. Not to mention, most people who bought a prusa printer this year before august 2024 probably got a MK4, for which there is no upgrade path, cuz don't be fooled boys, the upgrade kit to the core one only works with the MK4s, not MK4",
+      "url": "https://www.reddit.com/r/prusa3d/comments/1guwzrf/excited_for_the_core_one_but_also_kind_of/"
+    },
+    {
+      "id": "1gub4aj",
+      "title": "Poor print quality MK4s ",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1731953103,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "I am having issues with ringing on my new MK4s.\n\nBasically I tried to print the poly wolf model that Thomas Sanladerer featured in his in-depth video about the input shaper on the MK4 (https://www.youtube.com/watch?v=bT0Rj\\_d801o&ab\\_channel=MadewithLayers%28ThomasSanladerer%29) and noticed that he obtained almost perfect results with his stock MK4 running official firmware and stock input shaping profile. When I printed the model I noticed a lot of ringing and overall pretty poor quality. \n\nTo troubleshoot this problem I've tried the following: \n\n\\- check belt tension of both X and Y axis\n\n\\- tried printing the model on both the latest release firmware and latest alpha firmware\n\n\\- manually calibrated the input shaper using the optional accelerometer set  \n\n\\- checked for anything loose, given that I assembled the printer myself. \n\n\n\nThe results were basically identical on both alpha and latest release firmware and on the manually calibrated and stock input shaper profile. All of the test prints were done with the stock 0.20mm speed profile. \n\n**I asked prusa support and they told me to print a ringing test and see if the problem was specific to one of the two axis. The results didn't highlight any issue specific to either axis.**\n\n  \nHere is the wolf:\n\n[Picture 1 of wolf](https://preview.redd.it/1a1qnhvb8p1e1.jpg?width=3024&format=pjpg&auto=webp&s=5feb02c0a1f56ccedadcb40f72a8e28eee1be865)\n\n[Picture 2 of wolf](https://preview.redd.it/o9cuwisi8p1e1.jpg?width=3024&format=pjpg&auto=webp&s=e04bb6b0bbb76fa984cf6abda0408645b834e088)\n\n\n\nHere are the ringing tests I printed with the stock input shaping profile:\n\n[Ringing test - side of X axis - stock input shaper](https://preview.redd.it/rpd26hm49p1e1.jpg?width=3024&format=pjpg&auto=webp&s=42fdc435be94c75980ce4b05e376df0d4e0072d6)\n\n[Ringing test - side of X axis - tuned input shaper](https://preview.redd.it/4tyw9gm49p1e1.jpg?width=3024&format=pjpg&auto=webp&s=2405bbb64c603cc41f5c3a686741cef7b6f33390)\n\n[Ringing test - side of Y axis - stock input shaper](https://preview.redd.it/d7p21uwg9p1e1.jpg?width=3024&format=pjpg&auto=webp&s=5210ac3801287bb2f36317a699110141c02caa0a)\n\n[Ringing test - side of Y axis - tuned input shaper ](https://preview.redd.it/ry5t41am9p1e1.jpg?width=3024&format=pjpg&auto=webp&s=6d4137bede721f38e3e29c1edf90245e5733b470)\n\n",
+      "url": "https://www.reddit.com/r/prusa3d/comments/1gub4aj/poor_print_quality_mk4s/"
+    },
+    {
+      "id": "1gmpdno",
+      "title": "Prusa connect Issues ",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1731090377,
+      "score": 3,
+      "num_comments": 6,
+      "selftext": "Hi everyone,\n\nI've just finished assembling my mk4s kit. I've done a couple  of test prints and it works great! :D I however have problems with Prusa connect. Basically whenever I tried to add the printer to prusa connect, it either returned “network error” or “refused error”. I’ve already consulted https://help.prusa3d.com/article/connect-registration-failed_654926 And tried different WiFi networks and also tried giving the printer hotspot from my phone. The error (either “network” or “refused”) always appears.\n\n Prusa support chat also couldn’t figure it out.",
+      "url": "https://i.redd.it/yychq89g0qzd1.jpeg"
+    },
+    {
+      "id": "1edbloc",
+      "title": "Have I Broken my truss rod?",
+      "author": "ebes_77",
+      "subreddit": "guitarrepair",
+      "created_utc": 1722069203,
+      "score": 3,
+      "num_comments": 6,
+      "selftext": "I recently bought a fender player series strat. As I was setting it up, I measured the neck relief and realized it needed a slight adjustment. I did manage to adjust the truss rod, but after removing the hex key I noticed that there is what seems to be a small crack right in the center of the truss rod bolt. I don’t know whether this was there before. Also, I checked and the truss rod can still be rotated properly, it doesn’t spin freely and opposes a reasonable amount of resistance to turning. The shape of the bold itself is still good, you can’t really tell from the picture but the “hex” shape is still there and therefore when inserting a key it can grab onto it.",
+      "url": "https://www.reddit.com/gallery/1edbloc"
+    }
+  ],
   "comments": [
     {
       "id": "lfy06g1",
@@ -11,6 +56,76 @@
       "score": 2,
       "link_id": "t3_1egqhtc",
       "parent_id": "t3_1egqhtc"
+    },
+    {
+      "id": "ly2sesf",
+      "body": "Dude you are a genius, that did the trick! Thanks for sharing this!",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1732096992,
+      "score": 2,
+      "link_id": "t3_1gub4aj",
+      "parent_id": "t1_lxsl544"
+    },
+    {
+      "id": "lxsktf2",
+      "body": "I'll try and upload the results once finished",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1731953986,
+      "score": 2,
+      "link_id": "t3_1gub4aj",
+      "parent_id": "t1_lxsk4od"
+    },
+    {
+      "id": "lx225wj",
+      "body": "Why are you guys giving tips on how to build it, he literally got the fully assembled printer.",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1731571480,
+      "score": 1,
+      "link_id": "t3_1gqaoif",
+      "parent_id": "t3_1gqaoif"
+    },
+    {
+      "id": "lw4in9a",
+      "body": "Forgot to mention: I can indeed connect to prusalink no problem. It is just prusa connect that doesnt work.",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1731092294,
+      "score": 1,
+      "link_id": "t3_1gmpdno",
+      "parent_id": "t3_1gmpdno"
+    },
+    {
+      "id": "lw4hb88",
+      "body": "I was on the latest version of the firmware. After another conversation with support he suggested I update to alpha. I am now on 6.20-alpha2 and the problem persists. I believe ESP was updated, but I am not sure how to verify this.",
+      "author": "ebes_77",
+      "subreddit": "prusa3d",
+      "created_utc": 1731091901,
+      "score": 1,
+      "link_id": "t3_1gmpdno",
+      "parent_id": "t1_lw4e486"
+    },
+    {
+      "id": "lf68olj",
+      "body": "Thankfully the nut itself isn’t stripped. You can’t really tell from the crappy pictures, unfortunately I could take any better quality pictures",
+      "author": "ebes_77",
+      "subreddit": "guitarrepair",
+      "created_utc": 1722078759,
+      "score": 1,
+      "link_id": "t3_1edbloc",
+      "parent_id": "t1_lf67idk"
+    },
+    {
+      "id": "lf62nxi",
+      "body": "Thanks for your suggestion. Since you pointed out that my relief is on max, I re measured the relief and realized that I had too much relief.  I therefore reduced the amount of relief and now it is spot on at .010” 👍. As for the crack looking hole rig it in the center of the nut, do you thinks that’s a problem or can I just leave it as is since it isn’t stripped?",
+      "author": "ebes_77",
+      "subreddit": "guitarrepair",
+      "created_utc": 1722074787,
+      "score": 1,
+      "link_id": "t3_1edbloc",
+      "parent_id": "t1_lf60uqi"
     }
   ]
 }

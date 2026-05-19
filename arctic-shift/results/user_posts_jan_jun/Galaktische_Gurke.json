@@ -1,6 +1,18 @@
 {
   "username": "Galaktische_Gurke",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1aro120",
+      "title": "Serving translation models",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1708025837,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Hey guys, recently I have been using translation models for more and more tasks, especially quick ones (Opus-mt) or higher quality ones (madlad). Overall, my experience was quite good with them already, but, especially with madlad, I felt there was one big issue: Speed.\n\nI did not find pretty much any resources on this for translation. \n\nSo, my main questions to you guys are:\n\n1. What do you use to run your translation models (preferably as an API)?\n2. Is there some sort of batching with paged attention like in vllm for translation?\n3. How to increase throughput of translation models just using Huggingface transformers?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1aro120/serving_translation_models/"
+    }
+  ],
   "comments": [
     {
       "id": "kia7oci",
@@ -21,6 +33,286 @@
       "score": 1,
       "link_id": "t3_198a14v",
       "parent_id": "t3_198a14v"
+    },
+    {
+      "id": "la86z5k",
+      "body": "Nah she didn’t even thank the helpers and just walked away, shoulda let her hang fr",
+      "author": "Galaktische_Gurke",
+      "subreddit": "Unexpected",
+      "created_utc": 1719333096,
+      "score": 1,
+      "link_id": "t3_1do2d6k",
+      "parent_id": "t3_1do2d6k"
+    },
+    {
+      "id": "l9vltl0",
+      "body": "Try using docker via WSL/Hyper V depending on what you were using before. The fix is, you cannot have both processes running at the same time.",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719131047,
+      "score": 1,
+      "link_id": "t3_1dlukm9",
+      "parent_id": "t1_l9vlogp"
+    },
+    {
+      "id": "l9vk7lw",
+      "body": "What application? With what error? And what OS are you on?",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719129865,
+      "score": 1,
+      "link_id": "t3_1dlukm9",
+      "parent_id": "t1_l9vk5me"
+    },
+    {
+      "id": "l9vhpvm",
+      "body": "Ah, I see what you mean. I’ll have to look into how that works exactly. Feel free to try it yourself as well though :)",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719128068,
+      "score": 3,
+      "link_id": "t3_1dlukm9",
+      "parent_id": "t1_l9vhl6i"
+    },
+    {
+      "id": "l9vgrix",
+      "body": "You mean processing multiple images at a time using cpu? Should be pretty doable, although it might take some ram, since it might reload the model multiple times.",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719127379,
+      "score": 1,
+      "link_id": "t3_1dlukm9",
+      "parent_id": "t1_l9vfeot"
+    },
+    {
+      "id": "l9vgnhm",
+      "body": "How so? Just downloading docker desktop should be straightforward in my experience",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719127301,
+      "score": 1,
+      "link_id": "t3_1dlukm9",
+      "parent_id": "t1_l9v07uv"
+    },
+    {
+      "id": "l9u0win",
+      "body": "[https://github.com/SalomonKisters/AutoTagger](https://github.com/SalomonKisters/AutoTagger)\n\nI quickly set this up for exactly the purpose you said, since I thought it might be a nice quick project. Should work out of the box with any nvidia GPU, since it is using docker. Hmu if you have any questions.",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719100305,
+      "score": 2,
+      "link_id": "t3_1dlukm9",
+      "parent_id": "t3_1dlukm9"
+    },
+    {
+      "id": "l9qy6tg",
+      "body": "Around 7000 usd, so more than 3x the price of a 4090 for 2x vram",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719054720,
+      "score": 2,
+      "link_id": "t3_1dlbklr",
+      "parent_id": "t1_l9ozjkj"
+    },
+    {
+      "id": "l8ty1p6",
+      "body": "Yeah as I said in the end you can train BERT, but you first need data (synthetic)",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718522932,
+      "score": 1,
+      "link_id": "t3_1dgd7rt",
+      "parent_id": "t1_l8sltdd"
+    },
+    {
+      "id": "l8ps2pt",
+      "body": "First, make a rating scale, for example you could want to enforce DRY as much as possible (not really what makes good code, but it is relatively simple). Then, find examples for each of the points from 1-10. Use those examples, preferably multiple for each point and give them into gpt-4o context window as an example scale. Also give it the rules you used to determine it. Then, use CoT to have it first explain its rating and then give it in points for one example. Repeat that until you have a large dataset of code with a rating assigned to it. You can then either train a classification model or a smaller LLM (since it will need less data, especially if you also use the explanation in training data).",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718453697,
+      "score": 1,
+      "link_id": "t3_1dgd7rt",
+      "parent_id": "t3_1dgd7rt"
+    },
+    {
+      "id": "l8k5i4c",
+      "body": "Ah yeah didn’t see the 9-12 years. Nvidia did grow 400x in that time, but I agree with you that it will not do that again (all their engineers are retiring, AI bubble might burst or at least go back, competition  is catching up and the stock is very overvalued at 75.85 P/E). \nAlso, as you said, nobody could have known nvidia would blow up like that, you might as well say: Just buy some cryptocurrency now and you will “definitely” get 100000x returns, because it worked with bitcoin, right? RIGHT?",
+      "author": "Galaktische_Gurke",
+      "subreddit": "Trading",
+      "created_utc": 1718360416,
+      "score": 3,
+      "link_id": "t3_1dexdgy",
+      "parent_id": "t1_l8k4tvg"
+    },
+    {
+      "id": "l8k3e1g",
+      "body": "Well, S&P 500 historical performance is around 10.26% and it has existed for 67 years, so assuming the growth continues like this (which it very well might not do, considering this year was only + due to microsoft and nvidia), you could make an x194 exit in around 54 years. It is still a bit unrealistic due to fees, perhaps an early dip or performance not continuing if you ask me though. 5k to 50k might be realistic from your 20s until retirement though.",
+      "author": "Galaktische_Gurke",
+      "subreddit": "Trading",
+      "created_utc": 1718359017,
+      "score": 1,
+      "link_id": "t3_1dexdgy",
+      "parent_id": "t1_l8jql1p"
+    },
+    {
+      "id": "l44xm2r",
+      "body": "I’ve tried running it with aphrodite engine using 4-bit AWQ and it just barely fits in 2x4090 using 8k context and no cuda graphs. Maybe other engines can do more, but I do not think so.",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1715769192,
+      "score": 1,
+      "link_id": "t3_1crza3n",
+      "parent_id": "t1_l448hu6"
+    },
+    {
+      "id": "l2etx2m",
+      "body": "Ah makes sense, no problem :)",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714750677,
+      "score": 1,
+      "link_id": "t3_1c7zvys",
+      "parent_id": "t1_l2epaor"
+    },
+    {
+      "id": "l2enei2",
+      "body": "Yeah same. I don’t know why but that model has beaten every other model I’ve tried apart from wizardLM8x22b. I am using it in german so maybe that has something to do with it",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714748420,
+      "score": 3,
+      "link_id": "t3_1cis3g4",
+      "parent_id": "t1_l2boaeu"
+    },
+    {
+      "id": "l2emej7",
+      "body": "Yeah sure, will do. Could you maybe send me the link? Would be much appreciated (gpu poor lad over here)",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714748074,
+      "score": 1,
+      "link_id": "t3_1cis3g4",
+      "parent_id": "t1_l2cm2bc"
+    },
+    {
+      "id": "l2ebssp",
+      "body": "How about gptq or awq though? Would be nice for gpu only",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714744245,
+      "score": 1,
+      "link_id": "t3_1c7zvys",
+      "parent_id": "t1_l0fbjsk"
+    },
+    {
+      "id": "l2baiox",
+      "body": "Why are you still using those llama-1 era models? Try WizardLM 8x22b instead of the 180b, any miqu derivative for 70b (or llama-3-70b, but I feel like for me it hasnt been that great) and perhaps something like a yi 34b finetune instead of falcon 40b. Mixtral 8x7b also works",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1714688569,
+      "score": 54,
+      "link_id": "t3_1cis3g4",
+      "parent_id": "t3_1cis3g4"
+    },
+    {
+      "id": "kxxl8oa",
+      "body": "Did any of you guys get exl2 working? Because its not working for me, always getting the same errors no matter how I install aphrodite:\n\n  \n1. if I use --quantization=exl2:     \n\nmodel.load\\_weights(model\\_config.model, model\\_config.download\\_dir,\n\n  File \"/home/salomon/.local/lib/python3.10/site-packages/aphrodite/modeling/models/llama.py\", line 473, in load\\_weights\n\nweight\\_loader(param, loaded\\_weight)\n\n  File \"/home/salomon/.local/lib/python3.10/site-packages/aphrodite/modeling/layers/vocab\\_parallel\\_embedding.py\", line 95, in weight\\_loader\n\nassert loaded\\_weight.shape\\[output\\_dim\\] == self.org\\_vocab\\_size\n\nAssertionError\n\n\n\n2. If I dont use it:\n\nmodel.load\\_weights(model\\_config.model, model\\_config.download\\_dir,\n\n  File \"/home/salomon/.local/lib/python3.10/site-packages/aphrodite/modeling/models/llama.py\", line 470, in load\\_weights\n\nparam = params\\_dict\\[name\\]\n\nKeyError: 'lm\\_head.q\\_groups'",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1712186495,
+      "score": 1,
+      "link_id": "t3_1bcby23",
+      "parent_id": "t3_1bcby23"
+    },
+    {
+      "id": "kvb0dgc",
+      "body": "There was a man named jay might be wrong in some circumstances, e.g. : “There was a man named Jay who is teaching me how to play the piano.” Would not work.\n\nIn the context of groq, this would not work:\n“At the time it happened that company had already existed and it still exists today”",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1710695817,
+      "score": 1,
+      "link_id": "t3_1bgwjth",
+      "parent_id": "t1_kvap2s5"
+    },
+    {
+      "id": "kvaydpt",
+      "body": "Was is for concluded past actions though, right? “At the time there had already been a company named groq” might be more correct",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1710695123,
+      "score": -6,
+      "link_id": "t3_1bgwjth",
+      "parent_id": "t1_kvagy2t"
+    },
+    {
+      "id": "kvayal4",
+      "body": "Was is for concluded past actions though, right? “At the time there had already been a company named groq” might be more correct",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1710695092,
+      "score": -2,
+      "link_id": "t3_1bgwjth",
+      "parent_id": "t1_kvagy2t"
+    },
+    {
+      "id": "kuvjfhn",
+      "body": "Google 2015: Two gorillas\n(https://www.bbc.com/news/technology-33347866.amp)",
+      "author": "Galaktische_Gurke",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1710442288,
+      "score": 1,
+      "link_id": "t3_1bepjud",
+      "parent_id": "t3_1bepjud"
+    },
+    {
+      "id": "kujm7po",
+      "body": "Probably better off getting something like a used 1650 super or rx 5700",
+      "author": "Galaktische_Gurke",
+      "subreddit": "IntelArc",
+      "created_utc": 1710262316,
+      "score": 1,
+      "link_id": "t3_1bbpch3",
+      "parent_id": "t3_1bbpch3"
+    },
+    {
+      "id": "ksx9215",
+      "body": "Charles",
+      "author": "Galaktische_Gurke",
+      "subreddit": "ComedyArchaeology",
+      "created_utc": 1709333856,
+      "score": 3,
+      "link_id": "t3_1b3k3r9",
+      "parent_id": "t1_ksv5vga"
+    },
+    {
+      "id": "ksvoff5",
+      "body": "Nice! Didn’t know about the facebook ones, will give them a shot :)\nDo you know of any inference engine supporting those models, perhaps even with batching and quantisation?",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1709314384,
+      "score": 1,
+      "link_id": "t3_18kf5pb",
+      "parent_id": "t1_ks8xvzp"
+    },
+    {
+      "id": "ksvo4ud",
+      "body": "Opus is really good imo, but I don’t really see much difference to allenai. Try Alma models too, they seem to perform quite well and I got 500 tokens/s with my 3090 using vllm and the 13b model quantized with exl2. (Using batching and translating one sentence at a time)\n\nDid you also try larger madlad models?\nAs for the problem with line breaks, couldn’t you just replace all \\n with a space?",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1709314287,
+      "score": 1,
+      "link_id": "t3_18kf5pb",
+      "parent_id": "t1_ks8zic8"
+    },
+    {
+      "id": "kipv997",
+      "body": "I am thinking about doing the same with amd. Could you tell me how much of a hassle it was to get it running, and what it cost to get the 3 gpus connected?",
+      "author": "Galaktische_Gurke",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1705742345,
+      "score": 1,
+      "link_id": "t3_19ak9x1",
+      "parent_id": "t1_kinbqjr"
     }
   ]
 }

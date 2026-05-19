@@ -1,6 +1,29 @@
 {
   "username": "trufaluffy",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1ciz9au",
+      "title": "Help Needed: Scraping Data from Heritage Foundation Website",
+      "author": "trufaluffy",
+      "subreddit": "webscraping",
+      "created_utc": 1714708213,
+      "score": 4,
+      "num_comments": 6,
+      "selftext": "Hi everyone,\n\nI'm an economics student trying to extract data from a dynamic table on the Heritage Foundation website. The \"Download\" feature on the website doesn't provide data for all combinations of years and regions, so I'm hoping to scrape the data directly.\n\n**Website URL**: [https://www.heritage.org/index/pages/all-country-scores](https://www.heritage.org/index/pages/all-country-scores)\n\n\n\n**Data Points**: I need data for all available variables, for all years and regions (all countries). These are the names of the variables:\n\nName\n\nIndex Year\n\nOverall Score\n\nProperty Rights\n\nGovernment Integrity\n\nJudicial Effectiveness\n\nTax Burden\n\nGovernment Spending\n\nFiscal Health\n\nBusiness Freedom\n\nLabor Freedom\n\nMonetary Freedom\n\nTrade Freedom\n\nInvestment Freedom\n\nFinancial Freedom\n\n\n\n**Project Description**: I need to extract the above-mentioned data for economic analysis for a class research project.\n\nI have some experience in statistical analysis using R and basic programming skills in Python, but I'm new to web scraping. Any guidance or assistance on how to scrape this data effectively would be greatly appreciated.\n\nThank you in advance for your help!",
+      "url": "https://www.reddit.com/r/webscraping/comments/1ciz9au/help_needed_scraping_data_from_heritage/"
+    },
+    {
+      "id": "1cix3o0",
+      "title": "Need help scrapping a \"dynamic table\" :) ",
+      "author": "trufaluffy",
+      "subreddit": "webscraping",
+      "created_utc": 1714701402,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "Hi, I am an economics student and I need to extract some data from this website: [https://www.heritage.org/index/pages/all-country-scores](https://www.heritage.org/index/pages/all-country-scores) for all years and all regions (all 5520 rows of data).\n\n\n\nWhen I press download, it doesn't work for all years and all regions. I am not familiar with web scraping and would greatly appreciate some help if possible. (I have experience in statistical analysis in R and basic programming in Python.)",
+      "url": "https://www.reddit.com/r/webscraping/comments/1cix3o0/need_help_scrapping_a_dynamic_table/"
+    }
+  ],
   "comments": [
     {
       "id": "l3g486t",
@@ -11,6 +34,26 @@
       "score": 1,
       "link_id": "t3_1conx0q",
       "parent_id": "t1_l3f9qvs"
+    },
+    {
+      "id": "l2c90vw",
+      "body": "I would greatly appreciate it if you could please help me as I have only until Saturday to turn in an assignment for which I need this data for analysis. I have tried, but have been unsuccessful.",
+      "author": "trufaluffy",
+      "subreddit": "webscraping",
+      "created_utc": 1714702528,
+      "score": 1,
+      "link_id": "t3_1cix3o0",
+      "parent_id": "t3_1cix3o0"
+    },
+    {
+      "id": "kzl9cnj",
+      "body": "Hi. I did.",
+      "author": "trufaluffy",
+      "subreddit": "askswitzerland",
+      "created_utc": 1713129827,
+      "score": 1,
+      "link_id": "t3_18il0e4",
+      "parent_id": "t1_kxvy8xp"
     }
   ]
 }

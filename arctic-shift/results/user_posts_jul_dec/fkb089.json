@@ -1,6 +1,194 @@
 {
   "username": "fkb089",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hjg2my",
+      "title": "Nitpick: The audacity of New Outlook: Can't even change your email display name on Windows",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1734806192,
+      "score": 13,
+      "num_comments": 8,
+      "selftext": "Just discovered you can't change how your name appears to email recipients in the \"New\" Outlook for Windows. Seriously Microsoft?\n\nWhen I send emails:\n\n* From Windows (New Outlook): Stuck showing just my email address\n* From Mac Outlook: Shows my actual name like a normal email client should\n\nMicrosoft support officially confirmed this \"feature\" isn't available yet and their solution is to... switch back to classic Outlook if you need this basic functionality.\n\nThat's like buying a new car and being told \"oh, you want to adjust the driver's seat? Yeah, that feature is coming in a future update. For now, you can use your old car.\"\n\nFor those asking - yes, this is a real issue. Support says they're \"working on it\" with no ETA. Source: Recent Microsoft Community thread with 21k views and hundreds of frustrated users.\n\n[https://answers.microsoft.com/en-us/outlook\\_com/forum/all/how-do-i-change-the-display-name-of-emails-on-new/88186cf9-f31e-4e55-b671-b75c49e9e51b](https://answers.microsoft.com/en-us/outlook_com/forum/all/how-do-i-change-the-display-name-of-emails-on-new/88186cf9-f31e-4e55-b671-b75c49e9e51b)",
+      "url": "https://www.reddit.com/r/LinusTechTips/comments/1hjg2my/nitpick_the_audacity_of_new_outlook_cant_even/"
+    },
+    {
+      "id": "1hbrl70",
+      "title": "RTX 3050 fans only spin if set above 43% fan speed\n",
+      "author": "fkb089",
+      "subreddit": "gigabytegaming",
+      "created_utc": 1733917204,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Hello!\n\nI bought a used Aorus RTX 3050 ELITE 8G yesterday, downloaded the newest drivers and it works so far. No artifects on FurMark.\n\nHowever, I have some issues with the cooling and fans behavior. When I changed no settings at all, the fans will spin up to 80%@1800rpm for some seconds, which is clearly audible.\n\nhttps://preview.redd.it/ykqw91jhg76e1.png?width=765&format=png&auto=webp&s=fd003da986c35f9dc45ae214187d580543e15074\n\nIt is under regular use, with one YouTube Video playing at 4k, and two 4k monitors. I guess the temperature is ok, but gets to hot every few minutes, so it starts the fans, gets below the threshold. And the cycle starts again.\n\nI was trying to setup a fan curve in MSI afterburner, however this is where I found a weird behavior:  \nI can set the fans to 30-42% fan speed in the NVIDA settings app (System -> Performance -> Performance limit -> target fan speed%), however the fan will only run for a few seconds, and shut off immediatley again. They only start running stable, once I set it to 42/43% fan speed.\n\nhttps://preview.redd.it/ki0581jhg76e1.png?width=702&format=png&auto=webp&s=11898b39881b8c18c421178e5984b46369e4431b\n\nI thought 30% was the minimum, any way to investigate that behavior of the fans?",
+      "url": "https://www.reddit.com/r/gigabytegaming/comments/1hbrl70/rtx_3050_fans_only_spin_if_set_above_43_fan_speed/"
+    },
+    {
+      "id": "1hbriyp",
+      "title": "RTX 3050 fans only spin if set above 43% fan speed ",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1733916957,
+      "score": 0,
+      "num_comments": 7,
+      "selftext": "Hello!\n\nI bought a used Aorus RTX 3050 ELITE 8G yesterday, downloaded the newest drivers and it works so far. No artifects on FurMark.\n\nHowever, I have some issues with the cooling and fans behavior. When I changed no settings at all, the fans will spin up to 80%@1800rpm for some seconds, which is clearly audible.\n\nhttps://preview.redd.it/ykqw91jhg76e1.png?width=765&format=png&auto=webp&s=fd003da986c35f9dc45ae214187d580543e15074\n\nIt is under regular use, with one YouTube Video playing at 4k, and two 4k monitors. I guess the temperature is ok, but gets to hot every few minutes, so it starts the fans, gets below the threshold. And the cycle starts again.\n\n  \nI was trying to setup a fan curve in MSI afterburner, however this is where I found a weird behavior:  \nI can set the fans to 30-42% fan speed in the NVIDA settings app (System -> Performance -> Performance limit -> target fan speed%), however the fan will only run for a few seconds, and shut off immediatley again. They only start running stable, once I set it to 42/43% fan speed.\n\nhttps://preview.redd.it/ki0581jhg76e1.png?width=702&format=png&auto=webp&s=11898b39881b8c18c421178e5984b46369e4431b\n\nI thought 30% was the minimum, any way to investigate that behavior of the fans?",
+      "url": "https://www.reddit.com/r/nvidia/comments/1hbriyp/rtx_3050_fans_only_spin_if_set_above_43_fan_speed/"
+    },
+    {
+      "id": "1h9ows2",
+      "title": " Help needed: Transitioning from FM to DAB+ | car & at home",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733681637,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "I’m seeking advice on behalf of my in-laws. Due to the deactivation of FM radio transmissions, they’re looking to switch to DAB+.\n\nThey have a **home Hi-Fi system** and would like to continue using it, so we’re exploring options for external adapters or receivers compatible with DAB+. The main criteria are **ease of use** (they’re not very tech-savvy) and **affordability**.\n\n  \n**Car adapter for Renault:** They’d like a DAB+ adapter for their Renault to keep listening to radio on the go. If anyone has experience with a reliable and easy-to-install device, I’d love to hear about it.\n\nIf anyone has experience or tips on making the switch to DAB+, I’d greatly appreciate your input!\n\nThanks in advance for your help!",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1h9ows2/help_needed_transitioning_from_fm_to_dab_car_at/"
+    },
+    {
+      "id": "1h83pix",
+      "title": "Change the display name that email recipients see: iOS & New Outlook",
+      "author": "fkb089",
+      "subreddit": "Outlook",
+      "created_utc": 1733498450,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi,  \nI am using the new Outlook on Windows 11, and when I send an email, the recipient only sees my email address (e.g., `name@me.com`) instead of my name.\n\nI’d like to configure my account so that my name is displayed as the sender instead of just the email address. I’ve searched the settings in the new Outlook interface but couldn’t find an option to update the display name.\n\nCan someone guide me on how to fix this?\n\nThanks in advance for your assistance!\n\n Currently my mails get sent like this depending on the device: \n\n* Outlook (new) with my gmail account on Windows 11: \"surname\"\n* Outlook (new) with my iCloud account on Windows 11: \"name.surname@me.com\"\n* Outlook app on iOS: \"Name.Surname@me.com\"\n* Outlook app on my Mac: \"Name Surname\"\n\n  \nHow is it possible that I can only change it on a Mac to work the way it should be? lol",
+      "url": "https://www.reddit.com/r/Outlook/comments/1h83pix/change_the_display_name_that_email_recipients_see/"
+    },
+    {
+      "id": "1gzeps3",
+      "title": "Automatic Dividend & Recurring (Re-)investments on IBKR",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1732525363,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi everyone,\n\nI’m in the process of setting up an IBKR account and have some questions about the recurring investments feature and dividend reinvestment. I’d love to hear about your experiences!\n\nRecurring Investments:\nI plan to transfer money from my Swiss bank account monthly and set up a recurring investment to purchase Vanguard VT two days later. It seems like the cost for recurring investments is either USD 1 or 1%. I’ve also come across comments mentioning higher fees for purchasing fractional shares—does anyone have experience with this? Are you using the recurring investments feature, or do you still prefer buying manually?\n\nDividend Reinvestment:\nIBKR also offers an option to activate automatic reinvestment of cash dividends. Are you using this feature? I couldn’t find clear information on the cost, if any.\n\nAdditionally, my biggest concern is understanding the tax implications of auto reinvesting dividends in Switzerland. How is it reported or taxed in Switzerland, and is it more efficient to reinvest dividends manually instead?\n\nThanks for sharing any insights, tips, or advice!",
+      "url": "https://www.reddit.com/r/SwissPersonalFinance/comments/1gzeps3/automatic_dividend_recurring_reinvestments_on_ibkr/"
+    },
+    {
+      "id": "1gqetw9",
+      "title": "\"Digitaler Kabelanschluss\" für 17,90€ notwendig für Vodafone Kabel&Telefon?",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1731510118,
+      "score": 3,
+      "num_comments": 14,
+      "selftext": "Hallo Reddit,\n\nich hab da mal eine Frage zu meiner Vodafone-Rechnung. Ich zahle aktuell:\n\n* Internet & Phone Kabel 200\n* PLUS separate Position \"Digitaler Kabelanschluss\" für 17,90€\n\nIch nutze TV vielleicht ein Mal die Woche, ansonsten hauptsächlich Internet und Telefon über die Fritzbox. Ist diese Gebühr wirklich notwendig?\n\nMeine Überlegung:\n\n* TV-Nutzung ist minimal\n* Streaming-Dienste wie Zattoo wären deutlich günstiger als 17,90€/Monat\n* Hauptsächlich brauche ich den Internet- und Telefonanschluss\n\nMeine Fragen:\n\n1. Brauche ich den \"Digitalen Kabelanschluss\" überhaupt für Internet & Telefon?\n2. Kann man das separat kündigen, ohne den Internet-Vertrag zu gefährden?",
+      "url": "https://www.reddit.com/r/de_EDV/comments/1gqetw9/digitaler_kabelanschluss_für_1790_notwendig_für/"
+    },
+    {
+      "id": "1gkvtqg",
+      "title": "Looking for polls: Trump supporters voting 'because of' vs 'despite' Trump",
+      "author": "fkb089",
+      "subreddit": "PoliticalScience",
+      "created_utc": 1730890502,
+      "score": 17,
+      "num_comments": 4,
+      "selftext": "Has anyone seen reliable polling data that breaks down Republican voter motivations specifically regarding Trump?\n\nI'm interested in statistics that show what percentage of Republican voters strongly support Trump himself versus those who vote Republican despite having reservations about him. Links to reputable polling organizations or academic studies would be appreciated.",
+      "url": "https://www.reddit.com/r/PoliticalScience/comments/1gkvtqg/looking_for_polls_trump_supporters_voting_because/"
+    },
+    {
+      "id": "1gkvt3i",
+      "title": "Looking for polls: Trump supporters voting 'because of' vs 'despite' Trump",
+      "author": "fkb089",
+      "subreddit": "PoliticalDiscussion",
+      "created_utc": 1730890423,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/PoliticalDiscussion/comments/1gkvt3i/looking_for_polls_trump_supporters_voting_because/"
+    },
+    {
+      "id": "1gdyr2h",
+      "title": "RAM Config / Prioritization ",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1730111394,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey folks!\n\nI just got a question, and would like to get a broader review for replying.\n\nWhen configuring a new PC, and have different options for RAM. Which aspects should you priotize?\n\nGiven: We want 64GB. \n\nOne option is to get a set of 4x16GB RAM, or to get 2 sets of 2x16GB RAM. Do the RAM sticks get matched better within a set? \n\nThe 2x2x16GB would be CL16 instead of CL18, and even cheaper.\n\n  \nOr would you look for 2x32GB? I think it is a dual channel mainboard.\n\n  \nBest,\n\nFlo",
+      "url": "https://www.reddit.com/r/LinusTechTips/comments/1gdyr2h/ram_config_prioritization/"
+    },
+    {
+      "id": "1g5r90r",
+      "title": "[Spoiler] Anzahl und grobe Positionierung der Koffer",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729172772,
+      "score": 12,
+      "num_comments": 28,
+      "selftext": "In der Folge 1 gab es neben dem sonst gezeigten Rendering des Areals auch eine Drohnenaufnahme mit den Koffern:\n\n  \nDemnach gibt es wohl >!sechs!<Koffer.\n\nNur das Icon vom Werkzeugkoffer würde nicht ganz passen, da es hier als Rucksack dargestellt ist.\n\nhttps://preview.redd.it/nbq17laulbvd1.png?width=1920&format=png&auto=webp&s=4f2aa315d61bba93910b39a68a46e43839e08cb6\n\n",
+      "url": "https://www.reddit.com/r/7vsWild/comments/1g5r90r/spoiler_anzahl_und_grobe_positionierung_der_koffer/"
+    },
+    {
+      "id": "1g4akzy",
+      "title": "Question About the Dornier Do 28A-1: Fire-Resistant Parts and Material Composition",
+      "author": "fkb089",
+      "subreddit": "airplanes",
+      "created_utc": 1729006529,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Hey fellow aviation enthusiasts,\n\nI recently watched a German survival show called *7 vs Wild*, where a crashed Dornier Do 28A-1 was used. Interestingly, during the show, the rudder caught fire, which got me thinking about the materials used in this aircraft.\n\nI understand that fire safety is a priority in aviation, but I'm curious—are there typically fire-resistant components built into aircraft like the Do 28A-1? And does anyone know what materials the wings and rudder are made of? I assumed both would be made out of Aluminum. \n\nhttps://preview.redd.it/s1ivbd5vvxud1.png?width=1920&format=png&auto=webp&s=51975f6aa1fa267a390d9a0a7d37dbc45226a333\n\nAny insights or information you have would be greatly appreciated!  \nBurning part in the trailer: [https://youtu.be/2NfeUIwmgTg?t=121](https://youtu.be/2NfeUIwmgTg?t=121)\n\nThanks!",
+      "url": "https://www.reddit.com/r/airplanes/comments/1g4akzy/question_about_the_dornier_do_28a1_fireresistant/"
+    },
+    {
+      "id": "1g3i0bh",
+      "title": "RX 580 Crashes/Freezes Randomly (30 min - 4h)",
+      "author": "fkb089",
+      "subreddit": "AMDHelp",
+      "created_utc": 1728918423,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hello Reddit!\n\nI've been dealing with random crashes on my PC for a few weeks now, and I'm hoping to get some advice on what to try next. The crashes happen anywhere from 30 minutes to 4 hours of runtime—never longer.\n\n**My system specs:**\n\n* Intel i7-8700k\n* AMD RX 580 4GB\n* Windows 11\n\n**Symptoms:**\n\n* Most of the time, the screen will freeze while the sound continues playing, but occasionally the sound will crash too, looping the same snippet.\n* Last week, I experienced a different type of crash (see here: [Crash Screenshot/Video](https://share.cleanshot.com/87snf5xjGlzxc4z2Kv6z)), which makes me suspect the GPU might be causing the problem.\n\n**What I've tried so far:**\n\n* Reinstalled AMD Software: Adrenalin Edition.\n* Updated drivers via the device manager.\n\nI’m wondering if anyone has suggestions on how to proceed from here, especially in ruling out hardware issues. Could it be the GPU? Any troubleshooting tips or ideas for diagnostics would be greatly appreciated!\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/AMDHelp/comments/1g3i0bh/rx_580_crashesfreezes_randomly_30_min_4h/"
+    },
+    {
+      "id": "1g3hyy1",
+      "title": "Computer is crashing ever 1-4h - freeze, no bluescreen",
+      "author": "fkb089",
+      "subreddit": "techsupport",
+      "created_utc": 1728918326,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Hello Reddit!\n\nI've been dealing with random crashes on my PC for a few weeks now, and I'm hoping to get some advice on what to try next. The crashes happen anywhere from 30 minutes to 4 hours of runtime—never longer.\n\n**My system specs:**\n\n* Intel i7-8700k\n* AMD RX 570 4GB\n* Windows 11\n\n**Symptoms:**\n\n* Most of the time, the screen will freeze while the sound continues playing, but occasionally the sound will crash too, looping the same snippet.\n* Last week, I experienced a different type of crash (see here: [Crash Screenshot/Video](https://share.cleanshot.com/87snf5xjGlzxc4z2Kv6z)), which makes me suspect the GPU might be causing the problem.\n\n**What I've tried so far:**\n\n* Reinstalled AMD Software: Adrenalin Edition.\n* Updated drivers via the device manager.\n\nI’m wondering if anyone has suggestions on how to proceed from here, especially in ruling out hardware issues. Could it be the GPU, or should I look into other components like RAM or the PSU? Any troubleshooting tips or ideas for diagnostics would be greatly appreciated!\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/techsupport/comments/1g3hyy1/computer_is_crashing_ever_14h_freeze_no_bluescreen/"
+    },
+    {
+      "id": "1em7arl",
+      "title": "Additional Use Cases for Synology NAS",
+      "author": "fkb089",
+      "subreddit": "synology",
+      "created_utc": 1723022465,
+      "score": 13,
+      "num_comments": 29,
+      "selftext": "Hey!\n\nI currently have setup an (now older) Synology DS418play.\n\nWe use it primarily to backup her work laptop at the moment. \n\nWe had one of these WD MyCloud EX2 before, but that gave us more issues back than, and we wanted an easy solution to get her backup back running. A way overkill setup probably, but I wanted to add other features to a homenetwork, but me moving out again, I never got to it.\n\nNow I want to get back and use that DS418 more again. What are you folks using it for?\n\nI have a domain, where currently only I use some mail adresses, and I might switch them to the Synology. Does anyone do that, is it worth the hustle? \n\nI also update her pictures from the phone now with Synology Photos, and also thinking doing it with my pictures, but would need me to open it up to the internet (I failed at IPv6 only supported by the ISP back then).\n\nWhat could I use it else for?\n\n- Backup of my Mac and Windows (remote)  \n- Does it make sense to setup a VPN for it?  \n",
+      "url": "https://www.reddit.com/r/synology/comments/1em7arl/additional_use_cases_for_synology_nas/"
+    },
+    {
+      "id": "1efucec",
+      "title": "Lower front teeth not moving up - any tips?",
+      "author": "fkb089",
+      "subreddit": "Invisalign",
+      "created_utc": 1722348644,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hey!\n\nI am currenty pretty frustrated with my aligners. I have teeth narrowing on my lower teeth, and they are just not really moving along with the newest set of aligners.\n\n  \nMy top of my two lower front teeth (incisors) are grinded down a bit already, and they shall move upwards.   But they don't really pull up with the little bit of force the aligners can pull on the attachments. \n\n  \nThis is already the 2nd set, as it happened before, and we had to do a rescan. I am pretty frustrated at the moment, as it went well till the 5th aligner, but the halo is back at the 6th aligner, and still there after 7 days of wear with aligner #6. I even think the halo is getting bigger compared to 7 days ago.\n\nHad anyone the same issues before, and got tips of how to help them move upwards? \n\nI increased my usage of chewies again. And I am currently thinking about going back to aligner #5. I will have an appointment with my ortho soon, but also looking for tips and experience from other people on here on what I can do to support these teeth moving where they are supposed to be.\n\n\n\nhttps://preview.redd.it/sjsxd5egxnfd1.jpg?width=1170&format=pjpg&auto=webp&s=0f2c7d2043b26855b7829e1d1593d081d83560cf\n\nhttps://preview.redd.it/f5vtonqgxnfd1.jpg?width=1170&format=pjpg&auto=webp&s=82d103ea274fbbc4b6559cf9b94729f45d0b7d8b\n\n",
+      "url": "https://www.reddit.com/r/Invisalign/comments/1efucec/lower_front_teeth_not_moving_up_any_tips/"
+    },
+    {
+      "id": "1e8k17h",
+      "title": "Heat vs 1993",
+      "author": "fkb089",
+      "subreddit": "tourdefrance",
+      "created_utc": 1721560692,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "I just looked up Tour de France at SRF, the swiss television station, for new clips of this years edition. \n\nFirst hit was a report on 1993, complaining about the heat and riders in dire need of drinks (was sponsored by CocaCola back then). \n\nWell, the temperature was 29°C (84 F). Compared to this year, where I think it hit 38°C. \n\n\nhttps://www.srf.ch/play/tv/redirect/detail/430f7cd2-97d6-47d0-bcb8-2e4643a643eb ",
+      "url": "https://i.redd.it/vnwuhy6tvudd1.jpeg"
+    }
+  ],
   "comments": [
     {
       "id": "lx9dc5h",
@@ -11,6 +199,2666 @@
       "score": 1,
       "link_id": "t3_1gpmztr",
       "parent_id": "t3_1gpmztr"
+    },
+    {
+      "id": "m3uls8j",
+      "body": "Fair point. However, SRF operates under strict editorial standards and public accountability. Funded by the public to prioritize public interest over sensationalism. This makes it more trustworthy than ad-driven platforms.",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735201208,
+      "score": 2,
+      "link_id": "t3_1hmjtqm",
+      "parent_id": "t1_m3ul9jk"
+    },
+    {
+      "id": "m3ukuc6",
+      "body": "This is why I believe the Serafe bill is fair and ultimately beneficial: In a democracy, everyone profits from accessible, impartial, and professional journalism. SRF plays a crucial role in providing this, especially in a world where free but often misleading headlines dominate to drive ad revenue but not facts.",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735200518,
+      "score": 6,
+      "link_id": "t3_1hmjtqm",
+      "parent_id": "t3_1hmjtqm"
+    },
+    {
+      "id": "m3puz1a",
+      "body": "Laut Überschrift des Posts",
+      "author": "fkb089",
+      "subreddit": "mauerstrassenwetten",
+      "created_utc": 1735121150,
+      "score": 3,
+      "link_id": "t3_1hlaqap",
+      "parent_id": "t1_m3pubzq"
+    },
+    {
+      "id": "m3ps6kb",
+      "body": "Jeden Dritten Tag = 1/3 pro Tag",
+      "author": "fkb089",
+      "subreddit": "mauerstrassenwetten",
+      "created_utc": 1735119053,
+      "score": 3,
+      "link_id": "t3_1hlaqap",
+      "parent_id": "t1_m3plf6p"
+    },
+    {
+      "id": "m3i3fba",
+      "body": "Wenn refurbished in Frage kommt:\n\nhttps://www.mydealz.de/share-deal/2492485?utm_source=mwebshare&utm_medium=referral&utm_campaign=2024-12-23&utm_content=2492485\n\nhttps://www.mydealz.de/gruppe/laptop?sortBy=new&priceTo=650&temperatureFrom=100",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1734991336,
+      "score": 0,
+      "link_id": "t3_1hkyfz5",
+      "parent_id": "t3_1hkyfz5"
+    },
+    {
+      "id": "m3hr4rg",
+      "body": "It’s like Sharing Economy. \n\nWe have two in our building which is PERFECT. Laundry is done so quick, better than having one in the apartment.",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1734987113,
+      "score": -4,
+      "link_id": "t3_1hkwru1",
+      "parent_id": "t3_1hkwru1"
+    },
+    {
+      "id": "m3fye8g",
+      "body": "It is",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734965387,
+      "score": 4,
+      "link_id": "t3_1hkp8xb",
+      "parent_id": "t3_1hkp8xb"
+    },
+    {
+      "id": "m3bvdgx",
+      "body": "Wäre bei einer der Deals was für dich dabei?\n\n[https://www.mydealz.de/search?q=laptop%2016%22](https://www.mydealz.de/search?q=laptop%2016%22)",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1734897335,
+      "score": 1,
+      "link_id": "t3_1hk63v6",
+      "parent_id": "t3_1hk63v6"
+    },
+    {
+      "id": "m39hl7y",
+      "body": "the fine is CHF 20, so ... that is the lowest fine I know of in Switzerland.",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734860206,
+      "score": 1,
+      "link_id": "t3_1hju8sw",
+      "parent_id": "t1_m39co2b"
+    },
+    {
+      "id": "m39hegx",
+      "body": "IBKR, but there is no automatic tax statement.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734860065,
+      "score": 3,
+      "link_id": "t3_1hju053",
+      "parent_id": "t3_1hju053"
+    },
+    {
+      "id": "m39hbjx",
+      "body": "Brockenhaus.",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1734860006,
+      "score": 3,
+      "link_id": "t3_1hjinzq",
+      "parent_id": "t3_1hjinzq"
+    },
+    {
+      "id": "m36ytcg",
+      "body": "Wenn du im Suchen und Ersetzen Fenster auf Optionen klickst, und dann Suchen in: auf Formeln umstellst solltest du diese finden können. Alternativ mal nur nach .xls zB suchen",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1734816095,
+      "score": 1,
+      "link_id": "t3_1hjbyvv",
+      "parent_id": "t1_m36t7yk"
+    },
+    {
+      "id": "m36c9dl",
+      "body": "I also hate the different formatting between english and german documents. \n\nsometimes you have to enter 50.01 - sometimes 50,01  \nsame for formulas: sometimes you separate with ; - sometimes with ,\n\nI always default to do the wrong on Google Sheets.",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1734808046,
+      "score": 5,
+      "link_id": "t3_1hj9q7b",
+      "parent_id": "t3_1hj9q7b"
+    },
+    {
+      "id": "m36bzrw",
+      "body": "You can open a 2nd window of the same file though. View > New Window\n\n[https://www.chaffey.edu/faculty-staff/csn/docs/2023-quick-tip-july.pdf](https://www.chaffey.edu/faculty-staff/csn/docs/2023-quick-tip-july.pdf)",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1734807954,
+      "score": -1,
+      "link_id": "t3_1hj9q7b",
+      "parent_id": "t3_1hj9q7b"
+    },
+    {
+      "id": "m36bcl4",
+      "body": "Probier mal Formeln > Reiter: Formelüberwachung > Spur zum Vorgänger & Spur zum Nachfolger aktivieren\n\nMusst dazu alle Zellen markieren.",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1734807731,
+      "score": 1,
+      "link_id": "t3_1hjbyvv",
+      "parent_id": "t3_1hjbyvv"
+    },
+    {
+      "id": "m369abe",
+      "body": "I switched back to the old Outlook for now, but it feels very laggy for some reason. And it won't sync my Gmail calendar, and stopped syncing my iCloud calendar..",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1734807040,
+      "score": 2,
+      "link_id": "t3_1hjg2my",
+      "parent_id": "t1_m368ote"
+    },
+    {
+      "id": "m367sqr",
+      "body": "Is that a purple dick or scissors?",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1734806540,
+      "score": 84,
+      "link_id": "t3_1hjg655",
+      "parent_id": "t3_1hjg655"
+    },
+    {
+      "id": "m35gh7i",
+      "body": "Ihr die Miete weiterzahlen ist ja schon höher. Dein Wohnanteil aktuell ist ja 550€. Wenn du ausziehst sollst du weiterhin die 1100€ zahlen. Wer zahlt zusätzliche Nebenkosten? Sie wird dich anflehen, da sie es sich es nicht leisten kann.\n\nWenn du eine WG/Wohnung gefunden hat, will sie sich bei deiner Miete beteiligen? Du kannst ja gar nicht für mehr als 1100€ mieten, also wirst du definitiv weiterhin ihre Miete bezuschussen. Welchen Anteil sie an deiner Miete bezahlen wird? In der Diskussion kommt dann raus, dass sie nichts beitragen kann. \n\n\"Sollte Partei A finanziell unabhängig werden\" -> Bei welcher Summe soll das denn der Fall sein? Wenn sie frisch eine Ausbildung begonnen hat, aber eine Wohnung haben will die 30% mehr als ihr Brutto lohn kostet, wird das die nächsten drei Jahre nicht der Fall sein.\n\nSuch dir eine Betreuungsstelle und/oder einen Anwalt und buche dir erstmal eine einstündige Beratung alleine.\n\nKündigt die Wohnung und sucht euch jeweils eine kleine Wohnung oder Zimmer, oder einer bleibt in der Wohnung, wenn ihr daraus eine WG machen könnt.",
+      "author": "fkb089",
+      "subreddit": "LegaladviceGerman",
+      "created_utc": 1734797071,
+      "score": 1,
+      "link_id": "t3_1hj5k2z",
+      "parent_id": "t1_m342zdl"
+    },
+    {
+      "id": "m341cza",
+      "body": "Sie will in einer Wohnung wohnen bleiben die mehr Miete kostet als Ihr Einkommen? Das mögen zwar ihre Wünsche sein, sie muss sich aber erstmal ihren Möglichkeiten anpassen. \n\nSchau ob es eine Beratungsstelle zu Scheidungen in deiner Stadt gibt, sonst zu einem Anwalt. Du wirst ihr zwar Unterhalt zahlen müssen, aber ich bezweifle dass es 1100€ monatlich sind, zumal ihr Chatgpt Vertrag ohne zeitliche Begrenzung ist…",
+      "author": "fkb089",
+      "subreddit": "LegaladviceGerman",
+      "created_utc": 1734771098,
+      "score": 5,
+      "link_id": "t3_1hj5k2z",
+      "parent_id": "t3_1hj5k2z"
+    },
+    {
+      "id": "m33md5d",
+      "body": "Ein Laptop kann innerhalb von 12 Monaten abgeschrieben werden, in der Buchhaltung ist der also mit 1€ noch vermerkt. \n\nWelche Summe haben sie dir abgezogen?",
+      "author": "fkb089",
+      "subreddit": "LegaladviceGerman",
+      "created_utc": 1734761622,
+      "score": 1,
+      "link_id": "t3_1hifk5l",
+      "parent_id": "t1_m2ypfeq"
+    },
+    {
+      "id": "m2oh4pz",
+      "body": "You can look into life insurance policies without the 3a.\n\nThere are different pricing structures (one where the fee stays flat for your life, but will be higher today already; and one where the fee rises a bit every year, as your risk of dying will rise with age)\n\n[https://www.reddit.com/r/SwissPersonalFinance/comments/1f01z88/risk\\_only\\_life\\_insurance\\_viac/](https://www.reddit.com/r/SwissPersonalFinance/comments/1f01z88/risk_only_life_insurance_viac/)",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734539808,
+      "score": 2,
+      "link_id": "t3_1hgitlj",
+      "parent_id": "t1_m2ju73l"
+    },
+    {
+      "id": "m2jroj6",
+      "body": "yes, but what is the actual life insurance part? what's the payout in case of death?\n\nI've seen 3a life insurance products that had no payout on the basic product and only collected a fee.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734467083,
+      "score": 1,
+      "link_id": "t3_1hgitlj",
+      "parent_id": "t1_m2jrdng"
+    },
+    {
+      "id": "m2jqaj2",
+      "body": "Don't mix 3a and life insurance. \n\nDo life insurance as its own product. What is the payment in the offered product?",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734466632,
+      "score": 3,
+      "link_id": "t3_1hgitlj",
+      "parent_id": "t3_1hgitlj"
+    },
+    {
+      "id": "m2ed5g0",
+      "body": "I can select the currency when I set up a new withdrawal. It‘s the first step before I can enter the IBAN etc.",
+      "author": "fkb089",
+      "subreddit": "interactivebrokers",
+      "created_utc": 1734386763,
+      "score": 2,
+      "link_id": "t3_1hfmuut",
+      "parent_id": "t1_m2e5ycj"
+    },
+    {
+      "id": "m22xe41",
+      "body": "Or try pickwings\n\nhttps://www.reddit.com/r/basel/s/Si0lNx8kpM",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734214852,
+      "score": 2,
+      "link_id": "t3_1he8bh3",
+      "parent_id": "t1_m22x36r"
+    },
+    {
+      "id": "m22x36r",
+      "body": "Sending with Swiss Post if the are <30kg would be CHF 26 * 7 = 182 CHF \n\nand includes pick@home service",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734214740,
+      "score": 5,
+      "link_id": "t3_1he8bh3",
+      "parent_id": "t3_1he8bh3"
+    },
+    {
+      "id": "m20p67h",
+      "body": "What resolution and refresh rate is monitor he is gaming on?",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1734186627,
+      "score": 5,
+      "link_id": "t3_1he3cme",
+      "parent_id": "t3_1he3cme"
+    },
+    {
+      "id": "m2099qj",
+      "body": "https://www.ronorp.net/basel/immobilien/arbeiten.1224",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1734179173,
+      "score": 1,
+      "link_id": "t3_1hcnvgk",
+      "parent_id": "t3_1hcnvgk"
+    },
+    {
+      "id": "m203vap",
+      "body": "Is your wife swiss? Then you‘d have to file your taxes anyway.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734175811,
+      "score": 1,
+      "link_id": "t3_1hdz6pa",
+      "parent_id": "t3_1hdz6pa"
+    },
+    {
+      "id": "m1u91l5",
+      "body": "Why so much cash in savings accounts? That's roughly 1.3x your income.\n\nDo you want a big emergency fund, or are you waiting for a crash? Would put some of it in money market funds.\n\nIs your 3a maxed out? \n\nYou could add crypto, but BTC is currently at a cycle-high (always 6-12 months after a halving so far), so if the cycle repeats it will go down again, to raise up later again.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734086076,
+      "score": 1,
+      "link_id": "t3_1hd8m18",
+      "parent_id": "t3_1hd8m18"
+    },
+    {
+      "id": "m1qw1ji",
+      "body": "You can put it on a savings account for like 0.5%, so CHF 15 a year. \n\nor put it into a Bond fund (you can see some at VIAC 3a strategies: https://viac.ch/produkte/saeule-3a/strategien/). \n\nReal Estate fund (also look at the VIAC link)\n\nJust buy Vanguard VT & chill.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734034560,
+      "score": 0,
+      "link_id": "t3_1hcu0ks",
+      "parent_id": "t3_1hcu0ks"
+    },
+    {
+      "id": "m1qldd7",
+      "body": "In theory, but we don’t actually know.",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1734031227,
+      "score": 1,
+      "link_id": "t3_1hcsvnv",
+      "parent_id": "t3_1hcsvnv"
+    },
+    {
+      "id": "m1qgc93",
+      "body": "Just withdraw it to your personal account for to prevent issues.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734029675,
+      "score": 2,
+      "link_id": "t3_1hcjkwo",
+      "parent_id": "t3_1hcjkwo"
+    },
+    {
+      "id": "m1jwx26",
+      "body": "Might be changing in methodology of getting the data. \n\nDenser population, more people in cities. \n\nPeople are in accidents that get recorded, not „disappeared for 20 years“ or „never been seen again“",
+      "author": "fkb089",
+      "subreddit": "AskStatistics",
+      "created_utc": 1733937837,
+      "score": 0,
+      "link_id": "t3_1hbygr0",
+      "parent_id": "t3_1hbygr0"
+    },
+    {
+      "id": "m1jv1pl",
+      "body": "That’s what LLT Labs should be publishing. \n\n+ relative to cost",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1733937262,
+      "score": 3,
+      "link_id": "t3_1hbsnj0",
+      "parent_id": "t1_m1j4yfq"
+    },
+    {
+      "id": "m1ju5nq",
+      "body": "Is it a 3050 6GB or 8GB?",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1733936986,
+      "score": 1,
+      "link_id": "t3_1hbsnj0",
+      "parent_id": "t3_1hbsnj0"
+    },
+    {
+      "id": "m1jltjr",
+      "body": "And do you get additional electricity bills by ewz?",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733934403,
+      "score": 1,
+      "link_id": "t3_1hbwxes",
+      "parent_id": "t1_m1jkwv6"
+    },
+    {
+      "id": "m1jkwv6",
+      "body": "How high was the electricity consumption that is being shared?\n\nUsually there is a part of electricity shared through all tenants, but these are lights in the staircase, electric consumption by heating etc.",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733934116,
+      "score": 5,
+      "link_id": "t3_1hbwxes",
+      "parent_id": "t3_1hbwxes"
+    },
+    {
+      "id": "m1if1et",
+      "body": "I get that it’s the feature to have 0% fans spin - what I was looking forward to. Seems I’m unlucky with my build as it needs additional cooling every few minutes and is more distracting as constantly running at 30%. \n\nHowever, setting it to 30% I get the weird behavior of the fans kicking for less then a second, turning on, off, on, off….\n\nThe Nvidia setting app lets me set it to 30%, but I want to reduce the wear and tear of it.",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1733917971,
+      "score": 1,
+      "link_id": "t3_1hbriyp",
+      "parent_id": "t1_m1iebqf"
+    },
+    {
+      "id": "m1iee4o",
+      "body": "Is it bad luck with the fans build quality lottery? \n\nOr bad design for some models?",
+      "author": "fkb089",
+      "subreddit": "nvidia",
+      "created_utc": 1733917616,
+      "score": 2,
+      "link_id": "t3_1hbriyp",
+      "parent_id": "t1_m1idto3"
+    },
+    {
+      "id": "m10e3mr",
+      "body": "Currency risk is the main factor to consider - if CHF strengthens against USD, it could easily wipe out the interest advantage. You’d need to be comfortable with this exposure or consider hedging costs.\n\nIt might work short term, but won’t long term.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733651681,
+      "score": 1,
+      "link_id": "t3_1h9en8m",
+      "parent_id": "t3_1h9en8m"
+    },
+    {
+      "id": "m0wx7nz",
+      "body": "It's depending on your pricing plan and amount you invest. I pay like 0.35 $ per purchase. IBKR has really low fees.\n\n[https://www.reddit.com/r/SwissPersonalFinance/comments/1g6fjfw/interactive\\_brokers\\_and\\_vt\\_fees\\_questions/](https://www.reddit.com/r/SwissPersonalFinance/comments/1g6fjfw/interactive_brokers_and_vt_fees_questions/)",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733599356,
+      "score": 5,
+      "link_id": "t3_1h8xh7m",
+      "parent_id": "t1_m0wryxj"
+    },
+    {
+      "id": "m0wj0rn",
+      "body": "If you want the convivence and invest only very small amounts, it's better than doing nothing.\n\nHowever, I'd prefer buying Vanguard VT with IBKR - as the cost is only 0.07% p.a.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733594914,
+      "score": 9,
+      "link_id": "t3_1h8xh7m",
+      "parent_id": "t3_1h8xh7m"
+    },
+    {
+      "id": "m0ug5k0",
+      "body": "Gibt online services dir für dich das Fax verschicken",
+      "author": "fkb089",
+      "subreddit": "StVO",
+      "created_utc": 1733563646,
+      "score": 3,
+      "link_id": "t3_1h84495",
+      "parent_id": "t1_m0u1doa"
+    },
+    {
+      "id": "m0rmwew",
+      "body": "There are 3a tax calculators, where you can get an estimate on how much taxes you’d get back. Probably around 1.5k but depending on youron income and city. \n\nOne of the lowest cost places to put your 3a money is VIAC, where you can also invest it in 99% stock.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733518694,
+      "score": 2,
+      "link_id": "t3_1h85sqm",
+      "parent_id": "t3_1h85sqm"
+    },
+    {
+      "id": "m0kodpl",
+      "body": "Calculate it based on your sum and frequency. I choose wise.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733421908,
+      "score": 3,
+      "link_id": "t3_1h7d3pi",
+      "parent_id": "t3_1h7d3pi"
+    },
+    {
+      "id": "m0j51ln",
+      "body": "IBKR, for referral code see the other posts",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733403300,
+      "score": 1,
+      "link_id": "t3_1h78dhb",
+      "parent_id": "t3_1h78dhb"
+    },
+    {
+      "id": "m0g024j",
+      "body": "Open a 2nd account on IBKR in your name, and then gift it once they are 18.\n\nhttps://thepoorswiss.com/invest-for-your-children/",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733351118,
+      "score": 2,
+      "link_id": "t3_1h6rx8i",
+      "parent_id": "t3_1h6rx8i"
+    },
+    {
+      "id": "m0f7oyn",
+      "body": "Everyone is replaceable.",
+      "author": "fkb089",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1733342665,
+      "score": 1,
+      "link_id": "t3_1h6leat",
+      "parent_id": "t3_1h6leat"
+    },
+    {
+      "id": "m0706c1",
+      "body": "Did you fill your AHV gaps?\n\n[https://svazurich.ch/ihr-anliegen/privatpersonen/anliegen-betrifft-ahv/beitragsluecken-verhindern/kontoauszug-bestellen.html](https://svazurich.ch/ihr-anliegen/privatpersonen/anliegen-betrifft-ahv/beitragsluecken-verhindern/kontoauszug-bestellen.html)",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733231132,
+      "score": 1,
+      "link_id": "t3_1dchyqh",
+      "parent_id": "t3_1dchyqh"
+    },
+    {
+      "id": "m06etrs",
+      "body": "Request Prämienverbilligung, you can calculate it here:\nhttps://svazurich.ch/ihr-anliegen/privatpersonen/praemienverbilligung/praemienverbilligung_2024/einkommensgrenzen-2024.html",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1733218904,
+      "score": 4,
+      "link_id": "t3_1h5jmtf",
+      "parent_id": "t3_1h5jmtf"
+    },
+    {
+      "id": "m06c3ml",
+      "body": "Lowest Fees, I got no money to gift to the broker. \nWhile IBKR has a similar reputation and same perceived reliability as others.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733216987,
+      "score": 5,
+      "link_id": "t3_1h5j45h",
+      "parent_id": "t3_1h5j45h"
+    },
+    {
+      "id": "m064hqq",
+      "body": "https://thepoorswiss.com/de/saxo-vs-interaktive-broker/",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733211845,
+      "score": 1,
+      "link_id": "t3_1h5hwia",
+      "parent_id": "t3_1h5hwia"
+    },
+    {
+      "id": "m02zcy7",
+      "body": "[IBKR - Interactive Broker](https://www.interactivebrokers.com/referral/florian424) Referral: (1% of deposited money in stocks, up to 1k $ in IBKR stock, if invested 100k on IBKR)",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733167957,
+      "score": 1,
+      "link_id": "t3_rnixh6",
+      "parent_id": "t3_rnixh6"
+    },
+    {
+      "id": "m02z1kh",
+      "body": "Honestly the most important part about investing is the curiosity and taking sometime on understanding it.   \nSome free websites, that are highly valued at non-swiss expats in Switzerland are:  \n[https://thepoorswiss.com/de/](https://thepoorswiss.com/de/)\n\n[https://www.mustachianpost.com/de/](https://www.mustachianpost.com/de/)  \nBoth have introductory blog posts.\n\n  \nTo answer your specific questions:  \nSwiss brokers (like CS) have very high commissions and fees, only very years back, some new brokers entered the market and made it possible to invest with lower fees. One of them is Saxo Bank, an even cheaper one is Interactive Brokers (IBKR), which is non-swiss though (but doest not really make a difference, as your money is also protected by international law). \n\nDo you have some time to listen to podcasts? It might be an easier way to start getting some more knowledge to make your decisions, that you do not regret in a few years. Doing nothing is also a decision, so starting is a huge nice step! Finanzfabio has a german-speaking podcast, finanzfluss is a non-swiss german-speaking one. Not sure if there are english speaking ones.\n\nYou could buy another ETF on the SP500 in CHF, which might be more expensive though. There are also hedged once, which try to balance the forex (CHF vs. USD) risk, which add cost, but might be a good choice on a short term (<5 years).",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733167857,
+      "score": 5,
+      "link_id": "t3_1h533hm",
+      "parent_id": "t3_1h533hm"
+    },
+    {
+      "id": "m02ivjs",
+      "body": "Only 5%? Depends on your financial future, but I think I'd pay the 5%, invest them in ETF funds (Vanguard VT on IBKR). If/When you return back to Switzerland invest them back yearly into 3a via VIAC and one of their Gloab ETFS strategies. \n\nYou'd pay 5k in taxes today, however have enough money to invest the yearly maximum back into 3a for 14 years (roughly getting 21k in tax benefits again (14 years \\* 1.5k tax)), once you get back to Switzerland.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733162854,
+      "score": 1,
+      "link_id": "t3_1h4x71q",
+      "parent_id": "t3_1h4x71q"
+    },
+    {
+      "id": "m02hs1l",
+      "body": "With VIAC 3a you can invest in two different Real Estate funds, which I think are actually not that bad (haven't looked at them in detail).\n\n[https://viac.ch/produkte/saeule-3a/strategien/](https://viac.ch/produkte/saeule-3a/strategien/)  \n[https://www.ubs.com/ch/de/assetmanagement/funds/institutional-funds/product-details/ch0036599816.html](https://www.ubs.com/ch/de/assetmanagement/funds/institutional-funds/product-details/ch0036599816.html)\n\nTER 0.89%, no additional fees, 4.14% p.a. last 5 years, more commercial real estate, you might want to focus on residential properties (like [https://www.ubs.com/ch/de/assetmanagement/funds/asset-class/ch0014420878-ubs-sima--pd001.html](https://www.ubs.com/ch/de/assetmanagement/funds/asset-class/ch0014420878-ubs-sima--pd001.html) )",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733162511,
+      "score": 1,
+      "link_id": "t3_1h4xt4w",
+      "parent_id": "t3_1h4xt4w"
+    },
+    {
+      "id": "m0184xw",
+      "body": "https://www.ronorp.net/zuerich/immobilien\nWgzimmer.ch",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1733147031,
+      "score": 1,
+      "link_id": "t3_1h4v19z",
+      "parent_id": "t3_1h4v19z"
+    },
+    {
+      "id": "m017v34",
+      "body": "Lowest cost, can trade almost everything and not just a limited selection of ETFs.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733146918,
+      "score": 1,
+      "link_id": "t3_1h4u2hr",
+      "parent_id": "t3_1h4u2hr"
+    },
+    {
+      "id": "m017lno",
+      "body": "Interactive Brokers (lowest cost option, can offer a referral code for up to 1k $ bonus for you)\nDegiro\nSaxo Bank\nYuh\n\ncheck the comparisons on this subreddit, thepoorswiss, moustachian post.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733146809,
+      "score": 1,
+      "link_id": "t3_1h4uyfm",
+      "parent_id": "t3_1h4uyfm"
+    },
+    {
+      "id": "lzuzvfy",
+      "body": "Depends on your personal goals. If your main concern is investing and performance of the invested money: cancel it and invest on VIAC.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733055393,
+      "score": 7,
+      "link_id": "t3_1h41p5m",
+      "parent_id": "t3_1h41p5m"
+    },
+    {
+      "id": "lzuzo3z",
+      "body": "You can also check thepoorswiss and moustachianpost for comparisons.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733055272,
+      "score": 3,
+      "link_id": "t3_1h41opd",
+      "parent_id": "t1_lzuzcre"
+    },
+    {
+      "id": "lzuzcre",
+      "body": "IBKR for the lowest fees, got a referral code where you can get up to 1k $ in IBKR shares. \n\nSimpler are maybe saxo bank or yuh, but I don’t use them.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1733055085,
+      "score": 1,
+      "link_id": "t3_1h41opd",
+      "parent_id": "t3_1h41opd"
+    },
+    {
+      "id": "lz1u1la",
+      "body": "It‘s gonna be gone once the OG holders want to actually use that money and not just give it to their kids, latest when they are 60+ years old. So I guess in like ~25 years. \n\nTill then more people will buy then sell, because who’s selling (except miners, traders, and small taking profits). One day the vibe will change. \n\nTill then it’s gamble mode.",
+      "author": "fkb089",
+      "subreddit": "investing",
+      "created_utc": 1732613238,
+      "score": 1,
+      "link_id": "t3_1gyqbju",
+      "parent_id": "t3_1gyqbju"
+    },
+    {
+      "id": "lz1mw0c",
+      "body": "Opening an IBKR account takes some time, maybe half a day if you have 0 experience. But there are guides etc. online (in this subreddit, moustachian post, thepoorswiss). \n\nIf you only change your buying behavior of switching from one ETF to another ETF the effort is very minimal, recently set up the account for my partner and we spend half a day. Including explaining etc. \n\nWhen you consider of switching 20k from a 0.75% to a 0.07% fee ETF - that‘s CHF 1360 difference in ten years (not including compounding interest, additional fees). That’s a pretty solid hourly rate for switching.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1732608425,
+      "score": 1,
+      "link_id": "t3_1gzzpi9",
+      "parent_id": "t3_1gzzpi9"
+    },
+    {
+      "id": "lyx2md3",
+      "body": "I use wise.com also had some ghost fees/lost money on Revolut twice, and now I am only using wise.com\n\n\nYou could in theory also transfer the money with IBKR, but only worth on bigger amounts.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1732548780,
+      "score": 2,
+      "link_id": "t3_1gzi5cd",
+      "parent_id": "t3_1gzi5cd"
+    },
+    {
+      "id": "lywm1e1",
+      "body": "Ich hab in einem DAX Konzern mal so eine Interne anonyme Mitarbeiterbefragung gestaltet/betreut/beauftragt. Das Ding korrekt zu machen, war extrem aufwendig, aber der einzig richtige Weg, inkl. Genehmigung durch den Betriebsrat. \n\nBedingung war, das durch keine Kombination von Merkmalen man eine Gruppe auf weniger als 6 Personen reduzieren konnte, NUR dann ist Anonymität gesichert. Das ist bei Teams nur extrem schwierig umzusetzen und immer noch eine Aussagekraft erreichen zu können. Am Ende hat unser Dienstleister auch die Auswertung übernommen.\n\nIch sehe daher seitdem keine Befragung mehr als anonym, wenn nicht a) es über einen Dienstleister geht, b) die (pseudo-)anonymen Merkmale keine Rückschlüsse auf wenige Personen zulassen.",
+      "author": "fkb089",
+      "subreddit": "LegaladviceGerman",
+      "created_utc": 1732542894,
+      "score": 3,
+      "link_id": "t3_1gz5ab6",
+      "parent_id": "t3_1gz5ab6"
+    },
+    {
+      "id": "lywjq77",
+      "body": "Thanks so much for your reply!\n\nSo the only setting currently missing would be investing by x amount in the Base Currency of the account, and not the currency of the ETF. But these are minor aspects. \n\nI‘ll activate the reinvestment and see how it turns out.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1732541994,
+      "score": 1,
+      "link_id": "t3_1gzeps3",
+      "parent_id": "t1_lyw2zgu"
+    },
+    {
+      "id": "lyjs59l",
+      "body": "You made it to the news: https://www.20min.ch/story/basel-tourist-geht-in-den-ausgang-und-schuettelt-danach-nur-den-kopf-103223784",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1732348891,
+      "score": 1,
+      "link_id": "t3_1gszfo9",
+      "parent_id": "t3_1gszfo9"
+    },
+    {
+      "id": "lybl2i8",
+      "body": "Did you look into it?",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1732228448,
+      "score": 1,
+      "link_id": "t3_1f01z88",
+      "parent_id": "t3_1f01z88"
+    },
+    {
+      "id": "lyax9s2",
+      "body": "Das sieht ziemlich gut aus und speicher ich mir mal! Aus Erfahrungswerten, muss das auf einer Palette vorbereitet werden? Die hätte ich als Privatperson ja leider nicht daheim",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1732221022,
+      "score": 1,
+      "link_id": "t3_1gw2vhq",
+      "parent_id": "t1_ly9qt4z"
+    },
+    {
+      "id": "ly85r5w",
+      "body": "Kurier wie zB flash.ch (weiss nicht ob der primär Zürich ist)\n\nMobility\n\nWenn er klein ist in der Tram transportieren \n\nFreunde mit Führerschein fragen\n\nVerkäufer fragen, ob er beim Transport für 60 CHF helfen würde",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1732180447,
+      "score": 1,
+      "link_id": "t3_1gw2vhq",
+      "parent_id": "t3_1gw2vhq"
+    },
+    {
+      "id": "ly4w8z8",
+      "body": "Das hatten wir aber eh gefühlt. Wir haben nie wirklich viel TV geschaut. Und nur ARD & ZDF auf HD, Rest nicht :D",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1732126250,
+      "score": 1,
+      "link_id": "t3_1gqetw9",
+      "parent_id": "t1_lwycvbx"
+    },
+    {
+      "id": "ly4vxhf",
+      "body": "Danke!   \nDann werd ich das mal direkt kündigen. \n\nIst tatsächlich auch ein älterer Tarif, haben uns schon etwas länger nicht mehr drum gekümmert - hatte den Wechsel auf ein Business Tarif angefragt (Primäre Nutzung ist durch eine Arztpraxis im Haus, inzwischen recht hohe zusätzliche Kosten durch Mobilfunk Rückrufe; die sind bei Privat nicht dabei, bei Business schon)",
+      "author": "fkb089",
+      "subreddit": "de_EDV",
+      "created_utc": 1732126152,
+      "score": 1,
+      "link_id": "t3_1gqetw9",
+      "parent_id": "t1_lwxgs8u"
+    },
+    {
+      "id": "lxsemx0",
+      "body": "As you have to pay for a trip, even with full GA, I guess it was classified as part of like a touristic line, and not part of the regular train network. Like cable cars etc.",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1731952120,
+      "score": 3,
+      "link_id": "t3_1gti6uv",
+      "parent_id": "t1_lxq9823"
+    },
+    {
+      "id": "lxqe4my",
+      "body": "Afaik no, as base currency is used for\n1) displaying the value of your assets\n2) fees (not sure if all) are charged in base currency \n3) is used for reporting",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1731922525,
+      "score": 1,
+      "link_id": "t3_1gu0qxt",
+      "parent_id": "t1_lxqdopj"
+    },
+    {
+      "id": "lxqcjkg",
+      "body": "What’s your base currency?\n\nhttps://www.ibkrguides.com/clientportal/basecurrency.htm",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1731921437,
+      "score": 1,
+      "link_id": "t3_1gu0qxt",
+      "parent_id": "t3_1gu0qxt"
+    },
+    {
+      "id": "lxmxxaj",
+      "body": "Depends in which city/canton you live and what you make. \n\n<120k you get taxed at source at a fixed rate, >120k you have to file taxes. Below you can but don’t have to. Depending on the tax situation in your city you might be better with taxed at source but don’t have advantages like 3a.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1731871497,
+      "score": 5,
+      "link_id": "t3_1gtkqur",
+      "parent_id": "t3_1gtkqur"
+    },
+    {
+      "id": "lxmw036",
+      "body": "Es ist völliger Unsinn, vorallem weil die Koffer eh schon platziert wurden.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1731870888,
+      "score": 0,
+      "link_id": "t3_1gtkcjq",
+      "parent_id": "t3_1gtkcjq"
+    },
+    {
+      "id": "lxch42s",
+      "body": "Do you have espacially helpful resources for RSD? Would like to learn more about it.",
+      "author": "fkb089",
+      "subreddit": "managers",
+      "created_utc": 1731711933,
+      "score": 3,
+      "link_id": "t3_1gqiu2z",
+      "parent_id": "t1_lwzw49u"
+    },
+    {
+      "id": "lx9cw73",
+      "body": "Hier mal Ressourcen um dich schlau zu machen:\n\nMoustachian Post\nFinanz Fabio\nFinanzfluss\nThepoorswiss\n\nMeine Wahl:\nInvestiers in ETFs, also nem Bündel von Aktien. Entweder Vanguard VT beim Broker Interactive Brokers kaufen, oder per Saxo Bank, Yuh. \nOder per 3. Säule dann bei zB VIAC investieren.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1731676969,
+      "score": 8,
+      "link_id": "t3_1grw3of",
+      "parent_id": "t3_1grw3of"
+    },
+    {
+      "id": "lx5xb3v",
+      "body": "It still feels like the lab never really went fully live. They are mentioned in a video here and there, and have a psu circuit channel that runs super bad. \n\nBut none of their results seem to be really usable by the community.",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1731624109,
+      "score": 1,
+      "link_id": "t3_1gqh7ov",
+      "parent_id": "t1_lwzs6fk"
+    },
+    {
+      "id": "lvprhj0",
+      "body": "or just saw this new co-working space opening up at the airport. they got a shared/flexible desk for 250\n\n[https://www.novucampus.com/](https://www.novucampus.com/)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1730903272,
+      "score": 1,
+      "link_id": "t3_1gkz8ld",
+      "parent_id": "t1_lvppvdq"
+    },
+    {
+      "id": "lvppvdq",
+      "body": "Maybe [https://zurich.impacthub.ch/](https://zurich.impacthub.ch/)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1730902801,
+      "score": 1,
+      "link_id": "t3_1gkz8ld",
+      "parent_id": "t3_1gkz8ld"
+    },
+    {
+      "id": "lv4ncas",
+      "body": "Für ihn wohl richtig geil und genau sein Ding. Aber halt sehr widersprüchlich zu seiner Kritik zum einmaligen Sd Kartentausch am Briefkasten letztes Jahr. \n\nFür mich passt die Balance damit überhaupt nicht, das erst mal war es ja noch ok. Der Rest gehört ins BTS.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1730605972,
+      "score": 8,
+      "link_id": "t3_1gib5z6",
+      "parent_id": "t3_1gib5z6"
+    },
+    {
+      "id": "lupwypj",
+      "body": "14 Tage auf einem verlassenen Tanker mitten auf dem Ozean...",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1730392568,
+      "score": 7,
+      "link_id": "t3_1gggvh5",
+      "parent_id": "t3_1gggvh5"
+    },
+    {
+      "id": "lupi9ab",
+      "body": "gift your self a bank balance and credit rating where you do not have to ask reddit if you can lease a car.",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1730387936,
+      "score": 5,
+      "link_id": "t3_1gfh9wv",
+      "parent_id": "t1_luoxsu5"
+    },
+    {
+      "id": "lum62rf",
+      "body": "Ich kann mir noch nicht vorstellen, dass auch nur eine der Termine tatsächlich stattfindet. In kleineren Locations ja, aber vielleicht waren die Arenen auch Teil des Sales Packages für Partner…\n\nAber was werden die da mindestens brauchen an % Belegung um bei Null rauszukommen?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1730333452,
+      "score": 3,
+      "link_id": "t3_1gfq7r9",
+      "parent_id": "t1_lukfx0l"
+    },
+    {
+      "id": "ludhmox",
+      "body": "I am super happy with Marios Tsikrikas.",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1730220407,
+      "score": 1,
+      "link_id": "t3_1gdo7q5",
+      "parent_id": "t3_1gdo7q5"
+    },
+    {
+      "id": "lubbgag",
+      "body": "Tag 11-13 wird hart. Wird tagsüber keine 10 Grad mehr, da wird Sandra richtig frieren",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1730186636,
+      "score": 5,
+      "link_id": "t3_1geon1f",
+      "parent_id": "t3_1geon1f"
+    },
+    {
+      "id": "lu29mwn",
+      "body": "Und 10.000 kcal verbraucht",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1730059305,
+      "score": 1,
+      "link_id": "t3_1gdikmi",
+      "parent_id": "t3_1gdikmi"
+    },
+    {
+      "id": "ltcsvpw",
+      "body": "Keep in mind that the **An-225 Mriya** was unfortunately severely damaged in the 2022 Russia-Ukraine conflict, and as of now, it is out of service, so alternative large cargo planes or shipping methods would need to be considered.",
+      "author": "fkb089",
+      "subreddit": "airplanes",
+      "created_utc": 1729697244,
+      "score": 2,
+      "link_id": "t3_1ga79mf",
+      "parent_id": "t3_1ga79mf"
+    },
+    {
+      "id": "ltcnrkd",
+      "body": "You're right to recall that, under Swiss law (OR), the seller generally has an obligation to deliver an item that meets the agreed-upon quality and specifications. However, if the item is damaged or destroyed after the contract is formed but before delivery, **Art. 119 OR** addresses **impossibility of performance** without fault of the seller. The conditions are:\n\n* The impossibility must be **subsequent** to the conclusion of the contract,\n* It must be **objective** (though subjective cases are debated), and\n* It must occur **without the seller’s fault**.\n\nIn such cases, the contract is generally voided, and the seller is released from the obligation to deliver. The buyer would not be able to insist on a replacement if it's genuinely impossible (e.g., a one-of-a-kind used item), but the seller would need to refund any payment made.\n\nWhen I studied that case, it was the sale of a used car, which was destroyed by a falling tree.",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1729695655,
+      "score": 3,
+      "link_id": "t3_1g9h1vs",
+      "parent_id": "t1_ltbrvkl"
+    },
+    {
+      "id": "ltcl4aq",
+      "body": "Yes, they exist. Had one of them pick up a chair like two years ago.",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1729694826,
+      "score": 1,
+      "link_id": "t3_1g8lyr3",
+      "parent_id": "t1_lt7riu1"
+    },
+    {
+      "id": "ltcl1ib",
+      "body": "Within Switzerland?\n\nBook pick@home from Swiss Post, they even offer bringing packaging.\n\n  \n[https://www.post.ch/en/customer-center/online-services/rhe/pick-at-home/info](https://www.post.ch/en/customer-center/online-services/rhe/pick-at-home/info)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1729694802,
+      "score": 1,
+      "link_id": "t3_1g8lyr3",
+      "parent_id": "t3_1g8lyr3"
+    },
+    {
+      "id": "ltcj5le",
+      "body": "[https://zurich.impacthub.ch/en/space/kommandoraum/](https://zurich.impacthub.ch/en/space/kommandoraum/)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1729694208,
+      "score": 2,
+      "link_id": "t3_1ga92c6",
+      "parent_id": "t3_1ga92c6"
+    },
+    {
+      "id": "ltc8bpy",
+      "body": ">wäre ich glaube ich echt frustriert, wenn die Leute ihr Zeit sinnlos totschlagen\n\nDie müssen 336 Stunden Zeit totschlagen.\n\n>  \nWarum Joey die anderen nicht einbezogen hat, um das ganze etwas schneller aufzuziehen und sie zu befähigen, bleibt sein Geheimnis.\n\nEr hat selber gesagt, dass er Beschäftigung braucht. Da macht er es lieber alleine und ist paar Tage beschäftigt, als am nächsten Tag wieder ohne Beschäftigung dasteht.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729690569,
+      "score": 10,
+      "link_id": "t3_1gaankl",
+      "parent_id": "t3_1gaankl"
+    },
+    {
+      "id": "ltc6ci7",
+      "body": "Staffel 5: Duo: Experte & Amateur zusammen. Squads ab dem 8. Tag möglich. 14 Tage lang.\n\nStaffel 6: Back to Basics. 7 Leute. 7 Tage. 7 Gegenstände.\n\nStaffel 7: Jubiläum & Ende (mit jeweils Gewinnern bzw. Teilnehmern der vorherigen Staffeln). Verlassene, kaputte Hütte im Wald mit fischreichem Fluss. Tiefster Winter. 7 Tage live.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729689858,
+      "score": 2,
+      "link_id": "t3_1gaa6sw",
+      "parent_id": "t3_1gaa6sw"
+    },
+    {
+      "id": "ltc1o7u",
+      "body": "Das war ein Schwimmnachmittag mit Hugo und Daddy.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729688121,
+      "score": 4,
+      "link_id": "t3_1g9sv70",
+      "parent_id": "t3_1g9sv70"
+    },
+    {
+      "id": "ltc0xr1",
+      "body": "Aber die Klimatabelle sagt für Neuseeland doch 11-17°C an! Bei schön 4 wärmenden Sonnenstunden am Tag.\n\nDer Süden bei [Queenstown](https://www.reise-klima.de/klima/neuseeland) halt 1-15°C. \n\n  \nWer konnte es nur ahnen, dass es in den Bergen und Wintereinbruch wirklich kalt wird. Selbst 0 Grad wäre absolut erwartbar gewesen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729687844,
+      "score": 3,
+      "link_id": "t3_1ga9g79",
+      "parent_id": "t3_1ga9g79"
+    },
+    {
+      "id": "ltbz3ry",
+      "body": "Der Flügel war auch beschichtetes Nylon. Das ist zwar vielleicht kein leichtentzündliches Material, brennt aber trotzdem.\n\n\n\n[https://www.reddit.com/r/7vsWild/comments/1g4vmx1/ein\\_paar\\_infos\\_zum\\_flugzeug\\_und\\_dem\\_material\\_der/](https://www.reddit.com/r/7vsWild/comments/1g4vmx1/ein_paar_infos_zum_flugzeug_und_dem_material_der/)",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729687124,
+      "score": 3,
+      "link_id": "t3_1g9tmph",
+      "parent_id": "t3_1g9tmph"
+    },
+    {
+      "id": "lt8sgbh",
+      "body": "Ich würd mal sagen er hatte das zumindest mal vor ein paar Jahren:\n\n  \n[https://youtu.be/ue8vHQrbwgE?t=189](https://youtu.be/ue8vHQrbwgE?t=189)",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729634076,
+      "score": 1,
+      "link_id": "t3_1g9ghkn",
+      "parent_id": "t1_lt5ssh4"
+    },
+    {
+      "id": "lt7e8yl",
+      "body": "I just came across the same, I decided for the newer driver. (Using a 8700k)",
+      "author": "fkb089",
+      "subreddit": "techsupport",
+      "created_utc": 1729618587,
+      "score": 1,
+      "link_id": "t3_1g9nw2p",
+      "parent_id": "t3_1g9nw2p"
+    },
+    {
+      "id": "lt783b9",
+      "body": "Gibt ein Update von BTS, bei Stefans Spot war leider kein Koffer.\n\n  \nQuelle: [https://youtu.be/ykVBRoXaHfw?t=186](https://youtu.be/ykVBRoXaHfw?t=186)\n\nhttps://preview.redd.it/smto1yfdacwd1.png?width=1426&format=png&auto=webp&s=755d5fa1bc6d95a0de940e5dfb4f8933abb55757",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729616684,
+      "score": 2,
+      "link_id": "t3_1g5r90r",
+      "parent_id": "t3_1g5r90r"
+    },
+    {
+      "id": "lt729up",
+      "body": "Die Naturensöhne haben trotz kurzem Auftritt auch recht profitieren können, ABER vor allem durch die Vorbereitungszeit. Und da konnten sie ihre gewohnte Art zeigen im Bushcraft, nicht im Survival.\n\nStefan hat 20k (17%) Abonnenten dazubekommen, macht aber aktuell kein Content (neben 7vsW Reactions).",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729614913,
+      "score": 1,
+      "link_id": "t3_1g9fh1v",
+      "parent_id": "t1_lt6zrb0"
+    },
+    {
+      "id": "lt6zk0r",
+      "body": "3 Jahre später kommt n Stegi Spezial Cut. Wär mir ein Fest pur.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729614080,
+      "score": 1,
+      "link_id": "t3_1g9ebs4",
+      "parent_id": "t1_lt6z4e2"
+    },
+    {
+      "id": "lt6ys8n",
+      "body": "Holt Fritz am Ende noch Stefan ein?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729613840,
+      "score": 65,
+      "link_id": "t3_1g9luph",
+      "parent_id": "t3_1g9luph"
+    },
+    {
+      "id": "lt6vcbn",
+      "body": "Das war eher die Zusammenfassung vom Video.\n\nBei Kommunikation sind immer mindestens zwei Leute beteiligt. Glaube auch das Stefans Eindruck ignoriert zu werden subjektiver war, kann mir aber auch gut vorstellen, wie man sich da reinsteigert. Er hatte das Gefühl sein Frankfurt ja schon, ohne es in der Zeit anzusprechen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729612767,
+      "score": 3,
+      "link_id": "t3_1g9jlv2",
+      "parent_id": "t1_lt6s9jm"
+    },
+    {
+      "id": "lt6udcm",
+      "body": "Er muss sich auch beschäftigen, sagt er ja selbst. Sonst geht es ihm ähnlicher als Hugo als man erstmal annehmen würde.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729612470,
+      "score": 2,
+      "link_id": "t3_1g924l8",
+      "parent_id": "t1_lt55wl5"
+    },
+    {
+      "id": "lt6tpr3",
+      "body": "Fritz erwähnt mal, das die Koffer auch zufällig gefunden werden könnten.\n\nEs wird im 007-Agentenmodus gezeigt, wie Fritz zum Briefkasten läuft, aber nicht wie er Koffer platziert.\n\nIch gehe schwer davon aus, das die zuvor platziert wurden. Sicher wissen wirs nach der letzten BTS ;)",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729612266,
+      "score": 9,
+      "link_id": "t3_1g9lcv0",
+      "parent_id": "t3_1g9lcv0"
+    },
+    {
+      "id": "lt6tfns",
+      "body": "Gibt es den Stream eigentlich hochgeladen?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729612181,
+      "score": 5,
+      "link_id": "t3_1g9ifp9",
+      "parent_id": "t3_1g9ifp9"
+    },
+    {
+      "id": "lt6s3nc",
+      "body": "Er wusste er will ein Gegenpol zu Joe. Und damit lag er goldrichtig. Ich glaub mit dieser Staffel schliesst er innerlich mit 7vsW ab.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729611769,
+      "score": 2,
+      "link_id": "t3_1g9kfya",
+      "parent_id": "t1_lt6onkn"
+    },
+    {
+      "id": "lt6pp2f",
+      "body": "https://preview.redd.it/7yjsexmdtbwd1.png?width=1802&format=png&auto=webp&s=b61fb13acecdacd142444023d27aa705befeaea7\n\nDave hatte schon ein enormen Boost durch 7vsWild",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729611016,
+      "score": 0,
+      "link_id": "t3_1g9fh1v",
+      "parent_id": "t1_lt5tspw"
+    },
+    {
+      "id": "lt6orvz",
+      "body": "Glaub Stefan profitiert am Ende trotzdem noch bzw. nimmt kein Schaden. Er hat auch seine Bubble gefunden, ist halt offen ob er die halten kann.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729610728,
+      "score": 1,
+      "link_id": "t3_1g9fh1v",
+      "parent_id": "t1_lt68f26"
+    },
+    {
+      "id": "lt6o06s",
+      "body": "Gomme und Basti Spezial-Truppe im Minecraft Morphsuit.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729610488,
+      "score": 1,
+      "link_id": "t3_1g9ebs4",
+      "parent_id": "t1_lt6nneb"
+    },
+    {
+      "id": "lt6npfx",
+      "body": "Ich bin Pilot. Bitte bewertet nicht meine Skills zur Landung nach einem 12 Stunden Flug.\n\nGruppen Survival war aber bisher glaub auch einfach nicht sein Fokus.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729610396,
+      "score": -18,
+      "link_id": "t3_1g9ifp9",
+      "parent_id": "t3_1g9ifp9"
+    },
+    {
+      "id": "lt6n5mh",
+      "body": "Dazu gibt es noch Katzenfutter.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729610225,
+      "score": 2,
+      "link_id": "t3_1g9cql4",
+      "parent_id": "t3_1g9cql4"
+    },
+    {
+      "id": "lt6lf3s",
+      "body": "TLDR: Es zeigt soziale Konflikte überschatten fachliche Survival Skills. Keine wirkliche Analyse von ihm.  \n  \n**Key Findings**:\n\n* Nicht die physischen Herausforderungen, sondern Gruppendynamik führte zum ersten Ausfall\n* Trotz ausreichender Ressourcen und Expertise scheiterte die Gruppenkoordination\n* Die Show demonstrierte \"unbeabsichtigt\" reale soziale Ausgrenzungsmechanismen\n\n**Experteneinschätzungen**:\n\n* Survival-Experten betonen: Initiale Gebietserkundung korrekt, aber mangelnde Kommunikation problematisch\n* Lagerplatz-Kontroverse: Beide Optionen (Wald/Flugzeug) technisch vertretbar\n* Sicherheitskritik: Flügel über Feuer als klarer technischer Fehler identifiziert\n\n**Gruppendynamische Analyse**:\n\n* Schnelle Etablierung einer dominanten Führungsstruktur\n* Klassische Ausgrenzungsmuster gegenüber abweichendem Verhalten\n* Fehlende Konfliktlösungsmechanismen trotz erwachsener, erfahrener Teilnehmer\n\n**Social Impact**:\n\n* Format entwickelte sich unbeabsichtigt zum Spiegel gesellschaftlicher Ausgrenzungsmechanismen\n* Demonstriert: Soziale Kompetenzen wichtiger als technische Survival-Skills\n* Zeigt reale Gruppenprozesse unter Stress\n\nEin Fall, der mehr über soziale Dynamiken als über Survival lehrt.\n\nAlso:\n\nTrotz ausreichender Survival-Expertise scheiterte die Gruppe an grundlegender zwischenmenschlicher Kommunikation - ein klassisches Beispiel dafür, wie selbst qualifizierte Experten unter Stress in toxische Gruppendynamiken verfallen können, wenn Ego und Führungsansprüche über Kooperation gestellt werden.\n\n  \nDie Kernproblematik liegt in der fehlenden Bereitschaft beider Seiten, aufeinander zuzugehen:\n\n* Joe/Joey hätten Stefans Expertise und Vorschläge nicht komplett ignorieren dürfen\n* Stefan hätte seine Aktionen besser mit der Gruppe abstimmen müssen\n* Die restliche Gruppe hätte aktiver vermitteln können, statt sich einer Seite anzuschließen\n\nDie aggressive Eskalation und das Mobbing sind definitiv unverhältnismäßig, aber die Situation hätte von allen Beteiligten durch bessere Kommunikation verhindert werden können.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729609681,
+      "score": 11,
+      "link_id": "t3_1g9jlv2",
+      "parent_id": "t3_1g9jlv2"
+    },
+    {
+      "id": "lt6k9rd",
+      "body": "Das ist irgendwie nur eine Wiederholung keine Analyse, keine Einschätzung etc.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729609319,
+      "score": 1,
+      "link_id": "t3_1g9jlv2",
+      "parent_id": "t3_1g9jlv2"
+    },
+    {
+      "id": "lt6h2pt",
+      "body": "Jetzt wird es wirklich Zeit für Schnee. So harmonisch und schön bei den 6 Lebenden.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729608305,
+      "score": 1,
+      "link_id": "t3_1g9e3f5",
+      "parent_id": "t3_1g9e3f5"
+    },
+    {
+      "id": "lt6gb79",
+      "body": "Du meinst Staffel 4, oder?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729608056,
+      "score": 1,
+      "link_id": "t3_1g960vg",
+      "parent_id": "t3_1g960vg"
+    },
+    {
+      "id": "lt6fquz",
+      "body": "GommeHD nächstes Jahr Teilnehmer?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729607871,
+      "score": 2,
+      "link_id": "t3_1g9ebs4",
+      "parent_id": "t3_1g9ebs4"
+    },
+    {
+      "id": "lt6fmwl",
+      "body": "Man kennt es vom klassischen TV: Da gabs früher (oder immernoch) Special Interest Kanäle, wie DMAX (Steel Buddies, 112 Feuerwehr, Ami-Serien, etc.) oder Weltuntergangsdokus auf Ntv, N24 etc.\n\n  \n7vsW schafft es ein Special Interest im Mainstream zu platzieren, das wird in ein paar Jahren aber auch gegessen sein. So wie es den Formaten wie DSDS, Dschungelcamp, Big Brother etc. auch ergeht.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729607836,
+      "score": 2,
+      "link_id": "t3_1g9elmj",
+      "parent_id": "t3_1g9elmj"
+    },
+    {
+      "id": "lt6f6mu",
+      "body": "Keinem?\n\nDave steht doch heute gut dar, besser als vr 7vsW.\n\nNova weiss ichs nicht, aber hat doch glaub Auftritte in TV.\n\nKieling hat es vergeigt bei der jungen Generation, die kannte ihn davor aber eh nicht, da wollte Fritz eine Legende dabei haben, die er schätzt. Die Boomer haben das glaub kaum mitbekommen.\n\nMaddin? Steht doch gut da.\n\nStefan: Wird in 6 Monaten seine Bubble haben, entweder in gleicher Grösse wiezuvor, oder es sind ein paar 10-tausende dazugekommen, die sich auch eher als die Ausgestossenen sehen.\n\nFehlen da nicht noch Ausgeschiedene?\n\nFritz wurde auch kritisiert.\n\nDie Naturensöhne sind auch früh raus, haben glaub einfach nicht so ein starken Boost gehabt was die Follower angeht. Sind halt keine Survival Leute.\n\n  \nGibt ein Unterschied zwischen Sprint und Marathon.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729607686,
+      "score": 1,
+      "link_id": "t3_1g9fh1v",
+      "parent_id": "t3_1g9fh1v"
+    },
+    {
+      "id": "lt673yt",
+      "body": "Und ich glaub es ist ihm auch bisschen egal inzwischen, er will andere Projekte machen. Alleine Projekte machen. Er ist kein Stefan Raab der 100x das gleiche macht.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729604960,
+      "score": 7,
+      "link_id": "t3_1g9htu4",
+      "parent_id": "t1_lt66hon"
+    },
+    {
+      "id": "lt66hon",
+      "body": "Fritz lacht sich doch ins Fäustchen welches Drama enstanden ist (einmal Reichweite fürs Projekt), und lässt Leute vergessen, wie er mal eins auch in der Kritik stand.\n\n  \nFirtz ist das so scheiss egal wer schlecht da steht, der freut sich übers Drama.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729604743,
+      "score": 34,
+      "link_id": "t3_1g9htu4",
+      "parent_id": "t3_1g9htu4"
+    },
+    {
+      "id": "lt5qsqo",
+      "body": "Digga.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729598542,
+      "score": 3,
+      "link_id": "t3_1g9fj3s",
+      "parent_id": "t3_1g9fj3s"
+    },
+    {
+      "id": "lt5icz2",
+      "body": "Wenn uns jemand sympathisch ist, neigen wir dazu, seine Entscheidungen besser zu verstehen oder ihnen positiver gegenüberzustehen. Das liegt daran, dass wir eher geneigt sind, uns in seine Situation hineinzuversetzen und seine Beweggründe nachzuvollziehen.\n\nDies kann aber auch zu einer (un-)bewussten Verzerrung führen, bei der wir weniger objektiv urteilen, weil unsere emotionale Verbindung die Wahrnehmung der Sachlage beeinflusst.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729594363,
+      "score": 4,
+      "link_id": "t3_1g9elbj",
+      "parent_id": "t3_1g9elbj"
+    },
+    {
+      "id": "lt19pip",
+      "body": "Kam aber auch mit der Umstellung von 7 auf 14 Tagen. Bei 14 Tagen ohne Essen musst du extrem auf dein Energiehaushalt achten.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729530978,
+      "score": 3,
+      "link_id": "t3_1g8v04f",
+      "parent_id": "t3_1g8v04f"
+    },
+    {
+      "id": "lt15cex",
+      "body": "Das wäre ein extrem trauriger Plot Twist.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729529640,
+      "score": 8,
+      "link_id": "t3_1g8rlyp",
+      "parent_id": "t1_lt0xgd9"
+    },
+    {
+      "id": "lshrj6k",
+      "body": "Halte ich für sehr unrealistisch dass sie die Koffer einfach beim Scouten finden bzw. das energietech isch von Vorteil wäre. \n\nSonst hätte Stefan den Rucksack bei seinem Waldstück finden müssen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729236480,
+      "score": 1,
+      "link_id": "t3_1g65syp",
+      "parent_id": "t1_lsgct99"
+    },
+    {
+      "id": "lsfqy15",
+      "body": "ne aber vllt s.to und ja legal",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729204122,
+      "score": 1,
+      "link_id": "t3_1g62vv6",
+      "parent_id": "t3_1g62vv6"
+    },
+    {
+      "id": "lseyr78",
+      "body": "I think LTT had a project on it. Are you aware of that?",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1729194721,
+      "score": 1,
+      "link_id": "t3_1g5soan",
+      "parent_id": "t3_1g5soan"
+    },
+    {
+      "id": "lsef838",
+      "body": "Tontest?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729188512,
+      "score": 8,
+      "link_id": "t3_1g5wz1o",
+      "parent_id": "t1_lsee0dy"
+    },
+    {
+      "id": "lse8o8l",
+      "body": "Danke, danke an dich!\n\n  \nRemindMe! 3 hours",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729186469,
+      "score": 1,
+      "link_id": "t3_1g5vpl9",
+      "parent_id": "t1_lse3hjt"
+    },
+    {
+      "id": "lse8fuv",
+      "body": "Nykesname hat ein Abo geschenkt bekommen, weiss nicht ob er wirklich folgt",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729186396,
+      "score": 2,
+      "link_id": "t3_1g5vpl9",
+      "parent_id": "t1_lse3hjt"
+    },
+    {
+      "id": "lse4k4p",
+      "body": "-> [https://www.reddit.com/r/7vsWild/comments/1g5vpl9/stefan\\_ist\\_jetzt\\_live/](https://www.reddit.com/r/7vsWild/comments/1g5vpl9/stefan_ist_jetzt_live/)",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729185181,
+      "score": 1,
+      "link_id": "t3_1g5vwsl",
+      "parent_id": "t3_1g5vwsl"
+    },
+    {
+      "id": "lsdm1cb",
+      "body": "Stefans Abwesenheit beginnt doch schon als die Helikopter starten.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729179331,
+      "score": 2,
+      "link_id": "t3_1g5sgee",
+      "parent_id": "t1_lsdi40h"
+    },
+    {
+      "id": "lsddot8",
+      "body": ">Joe stellt Stefan vor der Gruppe bloß und behauptet er hätte keine Ahnung.\n\nEs waren doch alle gleichberechtigt vor Ort? Stefan hätte die Gruppe vor Ort vom Gegenteil beweisen können. Hat er das?\n\nUnd damit meine ich nicht verschiedene Plan B vorzuschlagen, während sich 6 Leute bereits Plan A umsetzen. Sondern diesen Plan zu verbessern, unterstützen, Mängel auszubessern etc. \n\nJoe und Stefan hatten einen Vertrauensvorschuss. Joe hat den genutzt, Stefan hat den durch seine Abwesenheit beim Camp sehr schnell verspielt. Uwe zb respektiert ihn immer noch.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729176650,
+      "score": 1,
+      "link_id": "t3_1g5sgee",
+      "parent_id": "t3_1g5sgee"
+    },
+    {
+      "id": "lsd8303",
+      "body": ">Grundsätzlich hat Stefan auch viele Fehler gemacht, die beschränken sich eher auf zwischenmenschliche Kleinigkeiten oder Situationen die an sich nur so entstehen weil sie aus einer toxischen Dynamik entstehen.\n\nDie einzelnen Fehler sind eigentlich auch nicht schlimm, aber die Summe und Häufigkeit macht es aus.\n\n>Dass er auch eine Art Frust schiebt dass er, obwohl er ja der wahre Experte sei, nicht an der Spitze der Survival-Community steht ist für ihn eine unglaubliche Ungerechtigkeit des Lebens\n\nDas würde ich Stefan auch vorwerfen.\n\n>Grundsätzlich ist es sicherlich möglich dass 2 Experten anführen, aber mit der Ausgangslage, nämlich dass sich ein Experte für 1000x kompetenter als der Andere hält, eher nicht. Jetzt hat Joe seit Anfang an, ohne es abzusprechen, die Führung einfach mit klaren Ansagen übernommen.\n\nWas hat Stefan in der Zeit gemacht? Er hätte auch die Möglichkeit gehabt das Vertrauen der Truppe zu erhalten. Er kann sicherlich sehr gut anpacken (wenn nicht mit mehr Energie und Output), die Stärke hätte er ausspielen können und müssen. Er sorgt zwei mal für eine Menge Stroh zur Isolierung, er hätte ein ganz anderes Standing bei den anderen 4 (Joe, Joey ausgenommen) gehabt, hätte er einer der Pain Points für die erste Nacht für die Leute gelöst. \n\n>Problematisch wird es aber wenn man konstant jegliche Vorschläge des 2. anwesenden Experten abwertet und ohne jegliche Empathie abschmettert.\n\nDie Dynamik von Stefan und Joe (vllt auch Joey, das weiss ich nicht) war sicherlich vorher schon dysfunktional. Stefan hatte die Chance das Vertrauen der Gruppe zu erarbeiten, die hat er durch seine primäre Abwesenheit nicht bekommen. Fachlich eventuell richtig in einem Team von 7 Experten scouten zu gehen, aber wenn ich mich von einer Gruppe so absondere, dann mach ich vielleicht fachlich etwas richtig, verliere aber das Vertrauen und Ansehen in der Gruppe. Sowas hast du sicherlich in deinem Leben auch schonmal beobachten können.\n\n>Seit Anfang an spinnt der Gruppenführer das Narrativ dass Stefan unfähig sei.\n\nDie anderen Teilnehmer hatten das Gefühl für einen der Erfahrenen das Camp zu bauen, ohne von ihm zu profitieren. Zitat Sandra: \"Wir brauchen dich hier\".\n\n>Später dann bezeichnet er seine Vorschläge sogar als aktiv gefährlich.\n\nGruppendynamik ist wichtig. Alle 24h mit dem ganzen Team umziehen zu wollen wir schnell \\_gefährlich\\_. Auch wenn ein einzelner Vorschlag für ein anderes Lager nicht gefährlich ist. Da ist Joe sehr hart in der Ansprache, aber kann die Aussage nachvollziehen.\n\n>Oder stellt in dem Raum das Stefan sogar dazu bereit wäre Gegenstände zu stehlen und man sie daher verstecken sollte, eine absolut paranoide und irrationale Unterstellung.\n\nSiehe Aussagen anderer Teilnehmer, die nie wussten wo er ist, und auch mal mit Equipment weg war. Das behindert die Gruppendynamik. Hat sich jemand schonmal was bei dir ausgeliehen, aber nicht gesagt? Das ausleihen ist nicht dramatisch, aber das Unwissen bei so knappen Ressourcen ist schwierig.\n\n  \nIch glaube Stefan wollte die Gruppe für sich gewinnen am 2. Tag in dem euer Feuer macht. Hätte das geklappt, wäre die Dynamik ausgeglichen. Er hat sich dann aber eher noch mehr abgesondert, und nicht versucht sich wieder in die Gruppe einzufügen und damit auch Joe das Podest überlassen.\n\n  \nIch finde auch Stefans Aussagen einfach überhaupt nicht förderlich, auch wenn man sie weniger sieht (ob weniger reingeschnitten, weniger getätigt, oder weniger gefilmt sei dahingestellt). Aber zB sein Desinteresse als Sandra ein Funken Hoffnung hatte mit dem Stichwort Backofen, war seine Reaktion, da die Idee von Joe kam: \"Jaja klar\". Oder der \"Dialog\" mit Uwe, ob er oben Feuer macht und damit runterkommt - da hat Stefan quasi nix gesagt bzw. patzig reagiert. So gewinnst du kein Vertrauen mit der Gruppe.\n\n  \nUnd Vertrauen brauchst du!",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729174788,
+      "score": 12,
+      "link_id": "t3_1g5raly",
+      "parent_id": "t3_1g5raly"
+    },
+    {
+      "id": "lsd460r",
+      "body": "Ich gehe aktuell davon aus, das sie davor platziert wurden. Am ehesten hätte Stefan den Rucksack finden können. Die anderen sind zu weit weg als das die zufällig gefunden werden.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729173435,
+      "score": 3,
+      "link_id": "t3_1g5r90r",
+      "parent_id": "t1_lsd2rx7"
+    },
+    {
+      "id": "lsd3has",
+      "body": "Stimmt, du hast völlig recht!\n\nDann liegt schon / oder wird mal noch ein Rucksack an Stefans 1. Waldplätzchen platziert.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729173192,
+      "score": 1,
+      "link_id": "t3_1g5r90r",
+      "parent_id": "t1_lsd2q7h"
+    },
+    {
+      "id": "lscvnwu",
+      "body": "In 2-3 Tagen kommt Schnee.\n\nBis dahin wird Holz gesammelt und vorbereitet, die aktuelle Menge reicht nicht für die verbleibenden 12 Tage.\n\nNahrung: Seh ich schwierig, ich glaub ein paar Beeren nebenbei, vielleicht wird mal nach Fischen Ausschau gehalten. Auf Wildtiere seh ich keine Jagd neben den Fallen, dafür lohnt sich der Energieaufwand in Anbetracht der verbleibenden 12 Tage nicht.\n\nEs fehlen noch ein paar Koffer, es gab ein mal ein Schnittbild, wo schon alle (inkl. Positionen gespoilert wurden), ich meine es waren noch 5 die übrig bleiben und alle weiter entfernt sind und weiter im Wald drin.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729170284,
+      "score": 1,
+      "link_id": "t3_1g5ppu1",
+      "parent_id": "t3_1g5ppu1"
+    },
+    {
+      "id": "lsct6rx",
+      "body": "Im Stream wird er polarisierend reacten, aber die grosse Empörungswelle ist schon vorbei.\n\nGlaub wir erleben aber auch gerade den Peak von 7vsWild.\n\nDie Euphorie der Teilnehmer wird nach der Show für die nächsten Staffeln abnehmen. Welcher Streamer will dann noch unbedingt dabei sein (Ich kann da ja wirklich in Flammen aufgehen)? welcher Survival Experte (Konzept ist ne Blackbox, Backseat Commenting von Amateuren und Meinungsmache)?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729169296,
+      "score": 2,
+      "link_id": "t3_1g5o3rt",
+      "parent_id": "t1_lsclp1w"
+    },
+    {
+      "id": "lscsfig",
+      "body": "Legendem danke!",
+      "author": "fkb089",
+      "subreddit": "airplanes",
+      "created_utc": 1729168985,
+      "score": 1,
+      "link_id": "t3_1g4akzy",
+      "parent_id": "t1_lsc9i62"
+    },
+    {
+      "id": "lscid2o",
+      "body": "Nein, er hat laut Aussagen den Schnitt ja bereits gesehen und abgesegnet.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729164406,
+      "score": 2,
+      "link_id": "t3_1g5o3rt",
+      "parent_id": "t1_lsch615"
+    },
+    {
+      "id": "lsci9m0",
+      "body": "Fritz ist während der Veröffentlichung des ersten 1/3 seines Reichweiten stärksten Projekts auf Radtour. \n\nDer geht dem ganzen ganz elegant aus dem Weg und lässt seine Kritiker der letzten Staffeln selbst auf der Bühne torpedieren.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729164356,
+      "score": 10,
+      "link_id": "t3_1g5o3rt",
+      "parent_id": "t3_1g5o3rt"
+    },
+    {
+      "id": "lsccgjn",
+      "body": "Frag mal den Solmecke an, der soll doch n Video zu machen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729161159,
+      "score": 2,
+      "link_id": "t3_1g5njtr",
+      "parent_id": "t3_1g5njtr"
+    },
+    {
+      "id": "ls6zmdm",
+      "body": "Mehrere Menschen werden zusammengebracht und müssen sich irgendwie arrangieren. Zwei stechen heraus, aber ihre Ansätze könnten nicht unterschiedlicher sein. Das Misstrauen wächst, während manche Ideen auf taube Ohren stoßen. Die Stimmung? Schwierig zu fassen.\n\nBisschen detaillierter, ohne Details zu spoilern:\n>!Sieben Menschen, irgendwo abgestürzt, müssen gemeinsam klarkommen. Zwei, die eigentlich wissen sollten, wie’s läuft, kommen nicht klar – der eine glaubt, der andere kann nix, und der, dem nix zugetraut wird, hat ständig Ersatzpläne, die keiner will. Die Gruppe? Verwirrt. Die Dynamik? Angespannt.!<",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729083304,
+      "score": 1,
+      "link_id": "t3_1g4yj94",
+      "parent_id": "t3_1g4yj94"
+    },
+    {
+      "id": "ls6q6kq",
+      "body": "Survival ist auch Gruppendynamik.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729079165,
+      "score": 1,
+      "link_id": "t3_1g4wkj1",
+      "parent_id": "t3_1g4wkj1"
+    },
+    {
+      "id": "ls6ow8v",
+      "body": "David and Elijah are the MVPs atm",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1729078547,
+      "score": 28,
+      "link_id": "t3_1g4vvp0",
+      "parent_id": "t3_1g4vvp0"
+    },
+    {
+      "id": "ls6n4zm",
+      "body": "The french police was super friendly, very patient with me/us. We had a french friend translating for us via phone while being at the hotel compound. She was surprised with how much time they spent on a stolen bike. They were limited by law and the hotel manager denying me access to the hotel to check again. So they were friendly and helpful but overall couldn’t really change anything in this situation. \n\nAnd yes you are allowed to drive to neighboring countries with mobility.",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1729077662,
+      "score": 1,
+      "link_id": "t3_1g2wdxg",
+      "parent_id": "t1_ls6lan9"
+    },
+    {
+      "id": "ls6dyjj",
+      "body": "https://preview.redd.it/wajn2i0kb3vd1.jpeg?width=1170&format=pjpg&auto=webp&s=c75c257f3fdab19f06f2634d7a4505276ae214e1\n\n/Ironie off",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729072270,
+      "score": 7,
+      "link_id": "t3_1g4vajt",
+      "parent_id": "t3_1g4vajt"
+    },
+    {
+      "id": "ls4bmro",
+      "body": "Da: https://www.reddit.com/r/7vsWild/?f=flair_name%3A%22Meme%22",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729034938,
+      "score": 3,
+      "link_id": "t3_1g4kvon",
+      "parent_id": "t3_1g4kvon"
+    },
+    {
+      "id": "ls4094x",
+      "body": "uwe: uwu",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729030710,
+      "score": 2,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_lry96l2"
+    },
+    {
+      "id": "ls3sv1g",
+      "body": "Ich glaube da brauchen wir eine Einschätzung von Christian Solmecke.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729028116,
+      "score": 2,
+      "link_id": "t3_1g4ilra",
+      "parent_id": "t3_1g4ilra"
+    },
+    {
+      "id": "ls2logn",
+      "body": "Sind aber auch Detailsachen, glaube vor Ort hätte ich da auch nicht dran gedacht. Bin selbst verwundert, das Teile vom Flügel so leicht brennen, da meine vereinfachte Annahme gewesen wäre: Ein Flugzeug ist möglichst feuerresistent gebaut. Dafür war die Maschine aus den 60er aber vielleicht zu alt.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729014447,
+      "score": 1,
+      "link_id": "t3_1g46due",
+      "parent_id": "t1_ls2jewl"
+    },
+    {
+      "id": "ls2lbb0",
+      "body": "Klar wollte er was gutes tun. Aber ganz dem Motto: \"gut gemeint ist nicht gut gemacht\".\n\nWieso will man denn überhaupt Holz trocknen? -> Rauch vermeiden. Das ist ja ein gutes Ziel, aber muss dann zum Energieaufwand und Risiko passen. Energieaufwand ist in dem Fall quasi 0, da man das Holz eh zum Feuer tragen muss. Holz nachts zu trocknen, quasi 10cm von der Flamme entfernt kann man machen, wenn durchgehend jemand wach ist.\n\nSie machen eine Feuerwache mit nur einer Person anscheinend, da würd ich jedes Risiko minimieren. Und eben das Holz nur tagsüber trocknen und nachts jegliches Risiko minimieren.\n\n  \nWäre die ganze Gruppendynamik eine andere, oder wäre es jemand anderem passiert hätte man in der Situation sicherlich anders reagiert. Aber, wenn man seit 48h immer wieder ein Thema mit einem von 7 Personen hat, geht das Vertrauen immer mehr dahin. Die einzelnen Sachen von Stefan sind ja auch nicht negativ, die Summe machts aber aus - bei gleichzeitiger ausbleibender konkreter Hilfe für die Gruppe. Stand jetzt führt er sich halt auf wie ein nörgelnder Besserwisser, der aber nicht umsetzt.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729014333,
+      "score": 1,
+      "link_id": "t3_1g3tgas",
+      "parent_id": "t1_ls2fth3"
+    },
+    {
+      "id": "ls24n0f",
+      "body": "I plan on using them on one of the Migros/Coop self-checkout machines that take cash.",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1729009078,
+      "score": 7,
+      "link_id": "t3_1g4awuo",
+      "parent_id": "t3_1g4awuo"
+    },
+    {
+      "id": "ls23wpw",
+      "body": "Where is the Victoria Beckham meme?",
+      "author": "fkb089",
+      "subreddit": "pics",
+      "created_utc": 1729008839,
+      "score": 2,
+      "link_id": "t3_1g49ofy",
+      "parent_id": "t3_1g49ofy"
+    },
+    {
+      "id": "ls1ttdj",
+      "body": "and geneva: [https://www.democratsabroad.org/lizneilvoss/election\\_night\\_watch\\_party\\_20241105](https://www.democratsabroad.org/lizneilvoss/election_night_watch_party_20241105)",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1729005589,
+      "score": 1,
+      "link_id": "t3_1g49mvw",
+      "parent_id": "t1_ls1tasp"
+    },
+    {
+      "id": "ls1tasp",
+      "body": "[https://www.democratsabroad.org/lizneilvoss/election\\_night\\_watch\\_party](https://www.democratsabroad.org/lizneilvoss/election_night_watch_party)",
+      "author": "fkb089",
+      "subreddit": "Switzerland",
+      "created_utc": 1729005423,
+      "score": 2,
+      "link_id": "t3_1g49mvw",
+      "parent_id": "t3_1g49mvw"
+    },
+    {
+      "id": "ls1s3fe",
+      "body": "Team freevee vs. Team YouTube.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729005033,
+      "score": 7,
+      "link_id": "t3_1g49itg",
+      "parent_id": "t3_1g49itg"
+    },
+    {
+      "id": "ls1q6il",
+      "body": "+100 für die Skizze!\n\n\n\n>Kann man mit Steinen und Ton vom Fluss realistischerweise eine Schutzwand/Kaminabzug bauen?\n\nSteine aus dem Fluss haben die Gefahr, dass sie bei Hitze zerspringen oder explodieren. Steine aus einem Fluss enthalten oft Wasser in ihren Poren oder Ritzen. Wenn diese Steine erhitzt werden, kann das Wasser zu Dampf werden, was zu einem plötzlichen Druckaufbau führt.\n\n  \nUm das Risiko sonst zu minimieren sehe ich zwei Möglichkeiten um das Camp für Niederschlag/Schnee vorzubereiten:\n\n* Den Flügel \"kontrolliert\" Feuerfest machen. Also tagsüber einmal richtig einheizen und das brennbare von einem der Flügel kontrolliert ausbrennen lassen. \n* Versuchen Wärmespeicher aufzubauen. Mehr Steine oder Wasser in Behältnissen, die aufgewärmt werden können und dann als Wärmflasche ins Flugzeug genommen werden können. Oder einfach insgesamt die Wärme besser speichern.\n   * Das teasert Julia auch schon an in der kurzen Aufnahme. Dazu braucht es aber trockene Steine vom Hang/Wald/etc. \n   * Dadurch könnte man das Feuer etwas vom Flugzeug entfernen, aber das wird kaum Unterschied machen.\n\nSonst im Nachhinein: Die Flügel auf die andere Seite legen, so dass die 3 im Flugzeug einen leichteren Notausgang haben, die Seite vom Camp weg ist ja aktuell zu.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729004406,
+      "score": 2,
+      "link_id": "t3_1g46due",
+      "parent_id": "t3_1g46due"
+    },
+    {
+      "id": "ls1h383",
+      "body": "true",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1729001369,
+      "score": 2,
+      "link_id": "t3_1g2wdxg",
+      "parent_id": "t1_lrruccq"
+    },
+    {
+      "id": "ls1gv7b",
+      "body": "Ah top! Dann fehlt nur noch der Schnee. Und hier und da schweben glaube ich noch Andeutungen der Reactions im Raum, aber die haben viel Interpretationsspielraum.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729001291,
+      "score": 1,
+      "link_id": "t3_1g47ts4",
+      "parent_id": "t1_ls1d59h"
+    },
+    {
+      "id": "ls1di4o",
+      "body": "Possum, nicht Opossum.\n\nEin Buchstabe Unterschied. ABER Possum ist in Neu Seeland, Opossum in Nord- und Südamerika. \n\nPossum lässt sich leicht fangen, da es kaum natürliche Feinde hat. Ein Opossum ist scheu und läuft weg.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1729000078,
+      "score": 6,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_ls157ip"
+    },
+    {
+      "id": "ls1cfq9",
+      "body": "Es fehlt noch:\n\n* Schneefall\n* POV von Fritz: Ist das Feuer wieder an? \n\n  \nBei den Szenen bin ich mir nicht sicher:\n\n* Stefan hackt Holz hinterm Flugzeug (0:31)",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728999681,
+      "score": 3,
+      "link_id": "t3_1g47ts4",
+      "parent_id": "t3_1g47ts4"
+    },
+    {
+      "id": "ls18mum",
+      "body": "Dann kann ich dir Desert Warrior empfehlen gerade bei Otto Bulletproof. Die ersten 5 Folgen sind leider sehr schlecht geschnitten, aber danach richtig gut!\n\n  \nUnd sonst: Genau zu solchen Thematiken kommt es halt, wenn eine Gruppe auf eine Survivalsituation trifft und nicht nur 1-2 Personen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728998244,
+      "score": 2,
+      "link_id": "t3_1g47c4i",
+      "parent_id": "t3_1g47c4i"
+    },
+    {
+      "id": "ls189l3",
+      "body": "I locked it with an Abus Bordo lock near a flea market near Matthäuskirche, but only to itself since there was no chance of finding a metal bar to secure it to. 30 minutes later, it started raining, so I just hopped on a tram and went about my day. The next day, when I went to retrieve my bike, it was gone. But luckily, I had an AirTag on it, and it showed up in... Blotzheim? In a hotel! Got there, tracked it down to a hotel room with a ping of 2/3m from my iPhone. I called the police, but they wouldn’t let me walk with them to track it down with my phone. They checked the room, but no bike.\n\nOne day later, I got a new ping. Rented a Mobility car and went looking, but still no bike in sight. \n\nAnother day passed, and another ping came through. This time, I walked through the neighborhood, but the GPS radius was huge. I even checked in with the local police station (it was inside the radius), but no luck there either.\n\nThen, I followed the signal's centre to a nearby field with a hill and some trees. The GPS pinged again, but I couldn’t see anything. Then, under some trees and freshly cut branches, I found my bike! Hidden there alongside another stolen bike with a Basel sticker on it. I brought the second bike to the police station (like ten minutes after giving them my details in case they find mine) and then somehow managed to fit mine into the smallest Mobility car ever to drive it home.\n\nIn the end, I had already filed a police report with Gendarmerie before finding it, and they told me they will check the hotel’s CCTV footage... but I never heard back from them. Still, I’m just *SO* happy I got my bike back.",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1728998102,
+      "score": 3,
+      "link_id": "t3_1g2wdxg",
+      "parent_id": "t1_ls1647k"
+    },
+    {
+      "id": "ls1453h",
+      "body": "**Gesprächsbedarf**\n\n>Dazu muss man aber auch sagen, dass Joe und Joey die soziale Intelligenz einer Bratpfanne besitzen, und von Anfang an hätten merken müssen, wie die Gruppendynamik besonders zwischen joe und Stefan schlechter wird, und sinnvolle gespräche führen sollen.\n\n100% richtig, gilt aber 1:1 für Stefan.\n\nDas hat sich in 48h vor Ort hochgeschaukelt (+ Vorgeschichte, da sich Joe und Stefan schon kannten), und keiner wollte über seinen eigenen Schatten springen und ein konstruktives, klärendes oder zumindest zielführendes Gespräch führen (oder es kam halt nicht dazu).\n\n**Priorisierung Tätigkeiten**\n\n>Scouting und besonders das Jagen von Opossums war gar keine schlechte Idee von Stefan\n\nDazu gab es unterschiedliche Priorisierung und Einordnungen der 7. Mit Hinblick auf 14 Tage Verweildauer anders einzuordnen, als wenn man für 1-2 Tage mal wo ist, oder für Videos was zeigen will. Da hätte es mehr Kommunikation und Absprachen gebraucht, auch wenn man nicht immer ein Konsens findet, kann man eher nachvollziehen was der andere macht.\n\n**Im Flugzeug vs. am Feuer**\n\nBin auch der Meinung direkt am Feuer ist es wärmer mit dem Feuer als Wärmequelle, als im Flugzeug mit nur den 3 Personen als Wärmequelle. Dazu ist das Feuer zu weit weg. Das Flugzeug ist erst die bessere Wahl bei  Wind und Niederschlag.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728996458,
+      "score": 2,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_ls0z2ms"
+    },
+    {
+      "id": "ls0xv3i",
+      "body": "Ich würde mal die Reactions abwarten.\n\nAber meine Vermutung: Joe wacht auf, schreit Feuer (das hat er in der Folge ja danach berichtet). Und will einerseits folgende Sachen parallel machen:\n\n- Die anderen am Feuer wecken und dazu bringen das Feuer auf ihrer Seite einzudämmen\n\n- Mit einer Kamera die Szene aufnehmen, sobald er merkt keine unmittelbare Lebensgefahr da a) es ist eine Show, b) Dokumentation für den Konflikt und Handlungen/Konsequenzen von und mit Stefan\n\n- Überblick über das Feuer verschaffen\n\n  \nIch glaub er ist einfach aufgewacht, hat Feuer geschrien um die anderen zu wecken. Geschaut, ob das Feuer ihn oder sein Equipment gefährden. Ist dann aufgestanden um das Feuer und die Situation aus paar Meter einzuschätzen und hat da die Kamera mitgenommen.\n\n  \nOb er schon vorher auf aufnehmen gedrückt hat, und wir erst Sekunden später das Bild gezeigt bekommen haben, weiss aktuell nur das Cutter Team.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728993708,
+      "score": 8,
+      "link_id": "t3_1g45v6t",
+      "parent_id": "t3_1g45v6t"
+    },
+    {
+      "id": "ls0q42k",
+      "body": "https://www.reddit.com/r/7vsWild/s/obvCyZh5ke",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728989776,
+      "score": 4,
+      "link_id": "t3_1g44rfv",
+      "parent_id": "t1_ls0pvw4"
+    },
+    {
+      "id": "ls0k4nh",
+      "body": "aktuell nicht online, war uwes reaction auf folge 4.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728986097,
+      "score": 1,
+      "link_id": "t3_1g42i6x",
+      "parent_id": "t1_ls0jhyy"
+    },
+    {
+      "id": "ls0id8x",
+      "body": "Der Feuerstahl wird ja später mal noch vermisst. \n\nEntweder b) und er schmuggelt den mit raus\noder d) bis es schneit.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728984894,
+      "score": 3,
+      "link_id": "t3_1g43pj7",
+      "parent_id": "t3_1g43pj7"
+    },
+    {
+      "id": "ls0h62y",
+      "body": "Die Idee kam von Stefan. \nTagsüber wurde die Idee erstmal abgelehnt. (Aussage Stefan)\nAbends/Nachts hat er (und wohl mit Hilfe von Uwe) trotzdem Holz direkt ans Feuer gelegt. \nMehrere aus dem Team haben das Holz direkt am Feuer gesehen (mind. Uwe, Joe, Julia)\nJoe hat danach die Aussage getroffen, aus Goodwill ihn gewähren zu lassen & nicht nochmal etwas dagegen zu sagen. \nIn Folge eins oder zwei merkt Joe schonmal an, dass sie beim Feuer mit dem Flügel aufpassen müssen. \n\nDie Frage ist: Wer hatte Feuerwache und damit die Verantwortung in dieser Nacht? Soweit ich das verstehe war das Stefan. \n\nEintritt des ausbrechenden Feuers durch zu viel Holz -> Stefan\nWer die Feuerstelle grösser gemacht hat, weiss man so weit ich weiss (noch) nicht. Allerdings wird das Feuer durch das Holz grösser, nicht durch den grösseren Steinkreis.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728984049,
+      "score": 9,
+      "link_id": "t3_1g43fj5",
+      "parent_id": "t3_1g43fj5"
+    },
+    {
+      "id": "ls0a6th",
+      "body": "Der Feuerstahl wird noch eine Rolle spielen. Und sein mögliches Verschwinden. Wurde mal von Uwe angeteastert. \n\nIch geh davon aus, er probiert es nochmal alleine & gibt dann bei Schneefall auf.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728979089,
+      "score": 10,
+      "link_id": "t3_1g42i6x",
+      "parent_id": "t3_1g42i6x"
+    },
+    {
+      "id": "lryo99x",
+      "body": "FIRESTARTER https://youtu.be/sn-IIdlx_ZY?si=wHTyQ0AfPiEFEyVt",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728951280,
+      "score": 1,
+      "link_id": "t3_1g3uqsk",
+      "parent_id": "t1_lrynsao"
+    },
+    {
+      "id": "lrynwns",
+      "body": "Uwe hatte in einer Reaction mal darauf hingedeutet, dass der Feuerstahl noch wichtig wird.\n\nIch glaub Stefan macht sein eigenes Lager, bekommt den entweder kurz ausgeliehen und macht damit Feuer, oder eben nicht. Aber da entsteht Drama, weil der Feuerstahl verloren geht.\n\nDann hält es Stefan vielleicht noch ein, zwei oder drei Tage aus bis der Schnee kommt. Und dann heisst es für ihn gelber Knopf. Ende.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728951149,
+      "score": 9,
+      "link_id": "t3_1g3unrp",
+      "parent_id": "t3_1g3unrp"
+    },
+    {
+      "id": "lrylxbr",
+      "body": "Bei 48:10 sieht man wie nah das Holz aufgestapelt ist. Julia hantiert da am Stein, und im Hintergrund jeweils kurz für ein paar Frames auch das Holz erleuchtet. \n\nDas liegt so extrem nah dran, dass es non stop bewacht werden muss.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728950401,
+      "score": 15,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_lryj9gb"
+    },
+    {
+      "id": "lryfhuj",
+      "body": "Sieht man bei 48:10 wo Julia ihren Stein ans Feuer legt nicht das Holz direkt am Feuer? Ist das das Holz was zum trocknen hingelegt wurde? \n\nFalls ja, und ich glaube zu 99% so wie das da liegt ist es das Holz, na dann gut Nacht..",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728948015,
+      "score": 27,
+      "link_id": "t3_1g3tgas",
+      "parent_id": "t3_1g3tgas"
+    },
+    {
+      "id": "lrydirz",
+      "body": "Und vorallem doch nicht NACHTS in einem Camp, wo Ich eigentlich nur ein Fluchtweg habe, aber alle in brennbaren Schlafsäcken liegen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728947285,
+      "score": 89,
+      "link_id": "t3_1g3tgas",
+      "parent_id": "t3_1g3tgas"
+    },
+    {
+      "id": "lrydag0",
+      "body": "Das ist survival nicht gegen die Natur, sondern gegen die Fehler/Unfälle/Missgeschicke deiner Mitmenschen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728947199,
+      "score": 8,
+      "link_id": "t3_1g3td9n",
+      "parent_id": "t3_1g3td9n"
+    },
+    {
+      "id": "lryci6g",
+      "body": "Während er Asche auf der Cap hat.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728946905,
+      "score": 54,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_lry95qi"
+    },
+    {
+      "id": "lrybya6",
+      "body": "ABER die Gruppe hat es schon vor der Nacht gesehen. 58:40",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728946704,
+      "score": 4,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_lrybs1m"
+    },
+    {
+      "id": "lrybs1m",
+      "body": "Holz am Feuer zu trocknen kennt man. Aber doch bitte nicht NACHTS im Lager.\n\nTagsüber und mit genung Abstand.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728946641,
+      "score": 173,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t3_1g3s1se"
+    },
+    {
+      "id": "lrybkmw",
+      "body": "Und gleich kommt Böhmermann um die Ecke.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728946565,
+      "score": 6,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_lrybcwn"
+    },
+    {
+      "id": "lrya1i5",
+      "body": "Wo war das?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728945994,
+      "score": 5,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t1_lry6zuj"
+    },
+    {
+      "id": "lry61ju",
+      "body": "Na die Diskussion hätte ich jetzt gern länger gehört nach 4 Tagen anteasern. So ist nichts gelöst.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728944532,
+      "score": 8,
+      "link_id": "t3_1g3s1se",
+      "parent_id": "t3_1g3s1se"
+    },
+    {
+      "id": "lry4ykr",
+      "body": "7 in the kindergarten",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728944142,
+      "score": 8,
+      "link_id": "t3_1g3sbzd",
+      "parent_id": "t3_1g3sbzd"
+    },
+    {
+      "id": "lrxqxw8",
+      "body": "Survival Experten mit perfekter Vorbereitung (mis en place) und dem Wissen abends geht es ins warme Bettchen vs. Survival Experten, die 14 Tage lang hungern werden.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728939423,
+      "score": 92,
+      "link_id": "t3_1g3q3y9",
+      "parent_id": "t3_1g3q3y9"
+    },
+    {
+      "id": "lrxaz2w",
+      "body": "Hab das da vorhin zum ersten mal ausprobiert. Hab einfach nur genau so kommentiert, noch nie davor mit interagiert.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728934465,
+      "score": 3,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t1_lrx8opj"
+    },
+    {
+      "id": "lrx76yu",
+      "body": "Fachlich vermutlich richtig. Empathisch kommt Joe da trotzdem nicht rüber.\n\nIch bin mal sehr gespannt auf die Diskussion nächste Folge, hoffe die haben das einigermassen hinbekommen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728933272,
+      "score": 3,
+      "link_id": "t3_1g3jlwb",
+      "parent_id": "t3_1g3jlwb"
+    },
+    {
+      "id": "lrx2ztx",
+      "body": "An Staffel 2 hatte man am wenigsten Erwartungen, und es war für jeden was dabei.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728931952,
+      "score": 1,
+      "link_id": "t3_1g3n64f",
+      "parent_id": "t3_1g3n64f"
+    },
+    {
+      "id": "lrw8fqe",
+      "body": "You will be on a train for about 43h in 6 days + additional 3h for the train ride on arrival and depature day.\n\nThis seems excessive. You'll take great pictures, but not really experience the Swiss nature, calmness and slowdown. \n\n  \nMy tips:  \n- Research if you can fly cheaper to Basel instead of ZRH  \n- Skip one or two of the full-day trips and visit Basel, which is just a 30min drive from Lupsingen.  \n- Visit your relatives a second time  \n- Add one night in a hotel/hostel/Airbnb, e.g. from Interlaken to Lauterbrunnen. OR even better: sleep in the mountains like Kleine Scheidegg (roughly 100 CHF per Person with dinner & breakfast). [bergrestaurant-kleine-scheidegg.ch](http://bergrestaurant-kleine-scheidegg.ch)\n\nHonestly, with your plan you will be able to say you have been to Switzerland, but not really have spend time here. It is not only Disneyland.",
+      "author": "fkb089",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728922360,
+      "score": 1,
+      "link_id": "t3_1g3f25j",
+      "parent_id": "t3_1g3f25j"
+    },
+    {
+      "id": "lrvwx5c",
+      "body": "Oh I will check these settings! I do have a 60 hz monitor, but it might be set to one of the weird 59hz settings. Why do they even exist?",
+      "author": "fkb089",
+      "subreddit": "AMDHelp",
+      "created_utc": 1728918668,
+      "score": 1,
+      "link_id": "t3_1g3hodx",
+      "parent_id": "t3_1g3hodx"
+    },
+    {
+      "id": "lrvmwug",
+      "body": "Sankey Diagram.\n\nzB: [https://sankeymatic.com/build/](https://sankeymatic.com/build/)",
+      "author": "fkb089",
+      "subreddit": "Finanzen",
+      "created_utc": 1728915292,
+      "score": 3,
+      "link_id": "t3_1g3fy4p",
+      "parent_id": "t1_lrvj96d"
+    },
+    {
+      "id": "lrvms63",
+      "body": "You missed \"came in fluffer\"\n\nPS: Aella\\_Girl auf Twitter als Kontext, für die die es nicht kennen.\n\nhttps://preview.redd.it/ptksww3kcqud1.jpeg?width=800&format=pjpg&auto=webp&s=0afb7d9f8274c5f438c6b7d030390484460760f1",
+      "author": "fkb089",
+      "subreddit": "Finanzen",
+      "created_utc": 1728915246,
+      "score": 9,
+      "link_id": "t3_1g3fy4p",
+      "parent_id": "t3_1g3fy4p"
+    },
+    {
+      "id": "lrvjbmd",
+      "body": "https://preview.redd.it/ityy9mgz8qud1.png?width=774&format=png&auto=webp&s=58fdd037c3341d3bddac3f1c2ba93ce806a37914",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728914004,
+      "score": 1,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t1_lrvj5zx"
+    },
+    {
+      "id": "lrvj7ss",
+      "body": "https://preview.redd.it/vml7rf4u8qud1.png?width=774&format=png&auto=webp&s=6a1ed608de3d56a0fe78c800cd5b408fd54f3e73",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728913966,
+      "score": 0,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t1_lrvj5zx"
+    },
+    {
+      "id": "lrvj5zx",
+      "body": "Sorry, aber was ist das denn für ne Sitzplatz Kategorisierung in Stuttgart? Aus den letzten 4 Reihen werden 4 Kategorien mit 15€ Preis Unterschied? \n\nIch bezweifel sehr sehr stark, dass die Arena voll wird - da ist so eine Knauserei wirklich lächerlich nur um den Ticketpreis \"ab\" um 15€ senken zu können...\n\nhttps://preview.redd.it/hx9gdh6t8qud1.png?width=2694&format=png&auto=webp&s=c23da38188a67d728070d7dbe1c39fb0b3778588",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728913948,
+      "score": 7,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t3_1g3ejva"
+    },
+    {
+      "id": "lrvhi82",
+      "body": "Were you renting with Mobility?\n\nSounds more like you will have to pay a fee for roadside assistance and a handling fee, not a damage that would be covered by the insurance. \n\n[https://www.mobility.ch/en/fairplay-fees](https://www.mobility.ch/en/fairplay-fees)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1728913328,
+      "score": 1,
+      "link_id": "t3_1g3fghk",
+      "parent_id": "t3_1g3fghk"
+    },
+    {
+      "id": "lrvg2qa",
+      "body": "RemindMe! 30 days",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728912779,
+      "score": 1,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t1_lrvfzp0"
+    },
+    {
+      "id": "lrvfzp0",
+      "body": "https://preview.redd.it/isfijjp85qud1.png?width=2176&format=png&auto=webp&s=6943e6058b5aed70b3ee5f607eed31ed3dd0445d\n\nBin mal gespannt, wie Berlin in einem Monat aussieht.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728912746,
+      "score": 11,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t1_lrvb2gc"
+    },
+    {
+      "id": "lrvfjkq",
+      "body": "Das ist schon seit ner Woche online und schaut nicht wirklich so aus als würden Tickets verkauft werden.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728912572,
+      "score": 7,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t1_lrvb8g9"
+    },
+    {
+      "id": "lrv9kte",
+      "body": "I wish I had known about GETPIVOTDATA sooner! It simplifies pulling data from PivotTables and makes it easy to apply custom calculations or aggregations, especially when dealing with complex data sets.",
+      "author": "fkb089",
+      "subreddit": "excel",
+      "created_utc": 1728910160,
+      "score": 1,
+      "link_id": "t3_1g2hh6p",
+      "parent_id": "t3_1g2hh6p"
+    },
+    {
+      "id": "lrv91zi",
+      "body": "Ende Februar/Anfang März wird das gefühlt niemanden interessieren.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728909937,
+      "score": 29,
+      "link_id": "t3_1g3ejva",
+      "parent_id": "t3_1g3ejva"
+    },
+    {
+      "id": "lrv8n1n",
+      "body": "Das einzige was ich mir hinsichtlich Aufwand vorstellen kann ist, dass man ein Uncut mit 7x POV xy macht. Also 7 Folgen Uncut, mit je dem Videomaterial der Kamera der jeweiligen Person + eine Folge für den Camcorder.\n\nAlles andere ist nicht uncut, und würde sich vom Aufwand überhaupt nicht lohnen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728909760,
+      "score": 3,
+      "link_id": "t3_1g3eh83",
+      "parent_id": "t3_1g3eh83"
+    },
+    {
+      "id": "lrs0h45",
+      "body": "Halte ich auch für das wahrscheinlichste Szenario.\n\nDer Ablauf erklärt auch am ehesten seine Reaktionen bisher.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728852646,
+      "score": 40,
+      "link_id": "t3_1g2ybot",
+      "parent_id": "t1_lrrytgi"
+    },
+    {
+      "id": "lrrqrgw",
+      "body": "ja. er war 100% team bis joey eine zweite kamera wollte.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728849500,
+      "score": 2,
+      "link_id": "t3_1g2sxvn",
+      "parent_id": "t1_lrri4wu"
+    },
+    {
+      "id": "lrrlxhg",
+      "body": "Pretty common. I had mine stolen in summer and only was able to retrieve it in a small town in France with my Airtag.\n\n  \nIt is very common in Basel.\n\n  \n[https://www.axa.ch/en/ueber-axa/blog/mobility/bikes-thieves-spring.html](https://www.axa.ch/en/ueber-axa/blog/mobility/bikes-thieves-spring.html)",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1728847956,
+      "score": 5,
+      "link_id": "t3_1g2wdxg",
+      "parent_id": "t3_1g2wdxg"
+    },
+    {
+      "id": "lrrgc5f",
+      "body": "\"Bis zu hierhin war ich 100% Team\"\n\nBis Joey die zweite Kamera wollte.\n\n  \nStefan und die anderen 6 leben wirklich parallel da nebeneinander.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728846156,
+      "score": 12,
+      "link_id": "t3_1g2sxvn",
+      "parent_id": "t3_1g2sxvn"
+    },
+    {
+      "id": "lrr20j4",
+      "body": "Konnten die anderen ja auch, es war ja angegeben wieviel Meter wohin laufen. Nicht lauf zu dem Baum, der neben dem grossen Stein steht und grün ist. Die konnten ja direkt hinlaufen, da brauchst du kein Scouten für",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728841610,
+      "score": 1,
+      "link_id": "t3_1g2sxvn",
+      "parent_id": "t1_lrqzsg8"
+    },
+    {
+      "id": "lrr08bc",
+      "body": "Er spricht witzigerweise von Opposums, nicht Possums. Possum kommt in Neuseeland vor, und laufen tatsächlich nicht weg.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728841060,
+      "score": 2,
+      "link_id": "t3_1g2sxvn",
+      "parent_id": "t1_lrqz6z0"
+    },
+    {
+      "id": "lrgmia4",
+      "body": "Lass lieber das ganze Flugzeug wegschieben+",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728675941,
+      "score": 74,
+      "link_id": "t3_1g1go52",
+      "parent_id": "t3_1g1go52"
+    },
+    {
+      "id": "lqwogsl",
+      "body": "Das Café Auer&Co hat zB zwei Sofas. \n\nDie Zentralbibliothek hat auch im EG Sessel/Couches und oben nochmal Sofas.",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1728373275,
+      "score": 6,
+      "link_id": "t3_1fyu2hm",
+      "parent_id": "t3_1fyu2hm"
+    },
+    {
+      "id": "lqtj1vf",
+      "body": "Die Gummistiefel versteh ich überhaupt nicht, klar bleiben deine Füsse von aussen trocken. Aber da schwitzt du sofort und hast nie wieder wirklich trockene Füsse. Wer will 14 Tage lang Gummistiefel anhaben?",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728327220,
+      "score": 15,
+      "link_id": "t3_1fyal3x",
+      "parent_id": "t1_lqthln6"
+    },
+    {
+      "id": "lqszdal",
+      "body": "Hab's gerade bei der Reaction von Uwe gehört, er hat ihn zurückgebracht - aber meinte damit vom Baum zurück zum Flugzeug.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728321051,
+      "score": 1,
+      "link_id": "t3_1fy45xw",
+      "parent_id": "t1_lqra4k4"
+    },
+    {
+      "id": "lqsz7ly",
+      "body": "hab auch 1k verstanden",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728321000,
+      "score": 7,
+      "link_id": "t3_1fyal3x",
+      "parent_id": "t1_lqsyu5j"
+    },
+    {
+      "id": "lqsos31",
+      "body": "\"Joe, du warst am Anfang echt ein unsympathischer Nerd\" - Uwe irgendwann später mal zu Joe.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728317698,
+      "score": 1,
+      "link_id": "t3_1fyal3x",
+      "parent_id": "t1_lqsknq3"
+    },
+    {
+      "id": "lqsnqpc",
+      "body": "Ja, tatsächlich ist ca an der Flussgrenze eine Grundstücksgrenze. \n\n[https://data.linz.govt.nz/layer/50804-nz-property-titles/](https://data.linz.govt.nz/layer/50804-nz-property-titles/)",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728317364,
+      "score": 1,
+      "link_id": "t3_1fx0p9x",
+      "parent_id": "t1_lqlbsnr"
+    },
+    {
+      "id": "lqsmvbi",
+      "body": "Kommt vielleicht auch einfach noch. Ich will auch keine Serie, wo erstmal 5h Briefing als erste Folge kommen.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728317082,
+      "score": 1,
+      "link_id": "t3_1fx0p9x",
+      "parent_id": "t1_lqiv02q"
+    },
+    {
+      "id": "lqr9a0k",
+      "body": "Der hat den Koffer zurück in den Baum gehängt? Das hab ich komplett verpasst.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728297237,
+      "score": 0,
+      "link_id": "t3_1fy45xw",
+      "parent_id": "t1_lqr8ueg"
+    },
+    {
+      "id": "lqqycwy",
+      "body": "Was das ganze Szenario halt auch unglaubwürdig macht. Wie können 7 Leute mit einem Flugzeug abstürzen, das Flugzeug (DO A28-A1) hat Platz für 4 Passagiere und 2 Besatzung.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728289660,
+      "score": 1,
+      "link_id": "t3_1fxjgf9",
+      "parent_id": "t1_lqmtr4k"
+    },
+    {
+      "id": "lqqxl3d",
+      "body": "Beide reden aneinander vorbei, und wollen besser da stehen als der andere. \n\nLagerplatz im Wald hat den Vorteil, dass dort die \"Wärme\" durch die Baumkronen nicht komplett abgestrahlt wird, und sich nachts kein Frost bildet. Vielleicht ist es dort auch insgesamt weniger feucht, als auf der offenen Wiese.\n\nDas Flugzeug hat ein grossen Nachteil: Offene Wiese, mit voller Angriffsfläche für Wind, und kaum Isolierung. Das Flugzeug ist vermutlich aus Alu gebaut, das zieht jede Wärme an sich, und leitet es ab. Das heizt du nicht wie ein Stein ein mal auf, das für Stunden warm bleibt.  \nDas Flugzeug hat aber ein riesen Vorteil für den bevorstehenden Schneefall, da sie ohne viel Kraftaufwand ein Dach über dem Kopf haben.\n\nUm beim Flugzeug 24/7 ein Feuer zu haben, muss aber eine ganze Menge Holz geschleppt werden.   \nDamit alle Personen genug zu trinken haben, müsste bei 2L/Person/Tag täglich 14kg Wasser (+ vllt. 2kg Behälter) von der Wasserquelle zum Ort getragen werden.   \nFür das Feuer nehme ich mal 1.5kg Holz/h an, um die 7 Leute bei 0 Grad genügend zu erwärmen, aber das Flugzeug als \"Backofen\" haben - das wären 36kg Holz am Tag. \n\n  \nRückblickend zur ersten Folge gab es ein mal den Punkt, wo man sich wiederfinden könnte und gemeinsam sich auf eine Strategie festlegen hätte können. Ganz am Anfang war klar, das sie die Nacht ohne 1) Feuer oder 2) Schlafsäcke nicht überstehen. Als sie die Schlafsäcke gefunden hatten, hätte sich die Gruppe zusammenfinden sollen und die Prioritäten gemeinsam festlegen müssen. So ist Stefan rumgerannt und wollte Feuer machen (hat sich aber wohl bisher beim probieren und rumtesten vom \"ach so geilen\" Holz verspielt), während der Rest der Gruppe die Unterkunft ausgebaut hat und Materialien ran getragen hat.\n\nHätte man sich mal 30min zusammengesetzt und jeden angehört, und sich auf ein gemeinsamen Plan festgelegt (zumindest bis zum nächsten Morgen), wär einem das ganze Drama und verlorene Zeit ersparen geblieben.",
+      "author": "fkb089",
+      "subreddit": "7vsWild",
+      "created_utc": 1728289094,
+      "score": 2,
+      "link_id": "t3_1fxjgf9",
+      "parent_id": "t3_1fxjgf9"
+    },
+    {
+      "id": "lli4111",
+      "body": "that's the video to find the frame ;)\n\n>! [https://www.youtube.com/watch?v=jrTIrJmph2A](https://www.youtube.com/watch?v=jrTIrJmph2A)!<",
+      "author": "fkb089",
+      "subreddit": "JetLagTheGame",
+      "created_utc": 1725473051,
+      "score": 3,
+      "link_id": "t3_1f8usdq",
+      "parent_id": "t1_lli0iqa"
+    },
+    {
+      "id": "lli09m7",
+      "body": "i couldn't figure out the 2-factor authentication.",
+      "author": "fkb089",
+      "subreddit": "JetLagTheGame",
+      "created_utc": 1725471854,
+      "score": 1,
+      "link_id": "t3_1f8usdq",
+      "parent_id": "t1_llhtudb"
+    },
+    {
+      "id": "lk82pd4",
+      "body": ">!Did you test the system afterwards with better thermals? Wonder why it did not work out. You had the better GPU and Cinebench (Multi) was not off that much !<",
+      "author": "fkb089",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1724786949,
+      "score": 95,
+      "link_id": "t3_1f2oijj",
+      "parent_id": "t1_lk7te89"
+    },
+    {
+      "id": "lh3lzia",
+      "body": "Is it currently rented at 350€/month?  \nAnd also net, not like including amenities?",
+      "author": "fkb089",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723121585,
+      "score": 2,
+      "link_id": "t3_1en2a1e",
+      "parent_id": "t1_lh33g59"
+    },
+    {
+      "id": "lgyrbcp",
+      "body": "You can, but there is no way I could confirm it being a scam or not. It sounds like a scam 99.9%, as this is sadly a common scheme. \n\nYou could check the landregister, but even if the names match - it sounds super scammy:\n\n[https://www.tagesanzeiger.ch/digitalisierung-im-kanton-zuerich-zuerich-ermoeglicht-online-abfrage-von-grundstueckbesitzerinnen-522938705786](https://www.tagesanzeiger.ch/digitalisierung-im-kanton-zuerich-zuerich-ermoeglicht-online-abfrage-von-grundstueckbesitzerinnen-522938705786)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1723049549,
+      "score": 2,
+      "link_id": "t3_1eme8wu",
+      "parent_id": "t1_lgyb43q"
+    },
+    {
+      "id": "lgyag50",
+      "body": "HEV offers templates for contracts, maybe it is just their template.\n\n[https://www.hev-zuerich-shop.ch/de/2\\~400/Formulare-elektronisch-%28PDF%29/Vertr%C3%A4ge-und-Zus%C3%A4tze-%27Keine-Stornierung-R%C3%BCckerstattung-bei-Bestellung-von-Online-Formularen%27](https://www.hev-zuerich-shop.ch/de/2~400/Formulare-elektronisch-%28PDF%29/Vertr%C3%A4ge-und-Zus%C3%A4tze-%27Keine-Stornierung-R%C3%BCckerstattung-bei-Bestellung-von-Online-Formularen%27)\n\nTo which bank account do they want the deposit wired? The deposit should be wired to Mietkautionkonto, which is under your name, not theirs. [https://www.ubs.com/ch/en/private/accounts-and-cards/accounts/security-deposit.html](https://www.ubs.com/ch/en/private/accounts-and-cards/accounts/security-deposit.html)\n\n  \nAnd this kind of \"we are living in spain/uk, and cannot show you the appartment is a pretty common scam\"\n\n[https://www.reddit.com/r/zurich/comments/w9dgpp/is\\_this\\_a\\_scam\\_we\\_are\\_looking\\_for\\_an\\_apartment\\_in/](https://www.reddit.com/r/zurich/comments/w9dgpp/is_this_a_scam_we_are_looking_for_an_apartment_in/)  \n[https://www.reddit.com/r/basel/comments/1awddpw/flat\\_scam\\_or\\_just\\_a\\_coincidence/](https://www.reddit.com/r/basel/comments/1awddpw/flat_scam_or_just_a_coincidence/)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1723044367,
+      "score": 4,
+      "link_id": "t3_1eme8wu",
+      "parent_id": "t3_1eme8wu"
+    },
+    {
+      "id": "lgwvxso",
+      "body": "Thanks! How is your routine for backing up your macbook, when you are on the go?  \nAre you always connected to your tailscale VPN, or like once a week?",
+      "author": "fkb089",
+      "subreddit": "synology",
+      "created_utc": 1723023028,
+      "score": 1,
+      "link_id": "t3_1em7arl",
+      "parent_id": "t1_lgwvgfk"
+    },
+    {
+      "id": "lgwv6pq",
+      "body": "And I also still got that WD MyCloud, might connect it again to the Synology to have a 2nd backup of it. Or any possible way to have it run at my brothers house for an off-site backup of it?",
+      "author": "fkb089",
+      "subreddit": "synology",
+      "created_utc": 1723022526,
+      "score": 1,
+      "link_id": "t3_1em7arl",
+      "parent_id": "t3_1em7arl"
+    },
+    {
+      "id": "lgwtlag",
+      "body": "Don't they get scratched a lot? And I even sometimes think me grinding my teeth at night fucks the aligners up.\n\n  \nI'm very skinny myself, and tend to take protein powder to get some extra kcl. I drink them with the aligners in, and then pull them out for a minute, rinse my mouth with water, and when at home additionally with mouth wash.\n\n  \nBut eating with them? HOW? And like what do you eat with them? Joghurt I get, but anything you need to chew?",
+      "author": "fkb089",
+      "subreddit": "Invisalign",
+      "created_utc": 1723021470,
+      "score": 3,
+      "link_id": "t3_1em45nf",
+      "parent_id": "t3_1em45nf"
+    },
+    {
+      "id": "lgwp0ew",
+      "body": "Update, in case some one finds this post in the future:   \nMy ortho performed IPR (Interproximal Reduction), so he grinded between the lower front teeth. That wasn't planned, but as this was not the first time we had to get new aligner bc of that, it was necessary. And now they fit again!",
+      "author": "fkb089",
+      "subreddit": "Invisalign",
+      "created_utc": 1723018456,
+      "score": 1,
+      "link_id": "t3_1efucec",
+      "parent_id": "t3_1efucec"
+    },
+    {
+      "id": "lgd8ug1",
+      "body": "So somewhat between 25 and 50% actually in the front 😅",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722724380,
+      "score": 2,
+      "link_id": "t3_1ej6zbx",
+      "parent_id": "t1_lgcq1g5"
+    },
+    {
+      "id": "lgd83p5",
+      "body": "Yes she did! While singing she looked more towards the arena, but she did look towards us and also talked to FOS a bit. But also during these times ALL the people put up their phones up in the air 😂\n\nSaw a post of someone not so happy with FOS2, they were standing more towards the screen, not moving around, and not happy with not seeing her that much. Based on their on video I think there were a bit more people today, or it was more packed.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722724103,
+      "score": 1,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbppl0"
+    },
+    {
+      "id": "lgd7fkl",
+      "body": "Yes - main stage where her band is and infront of the screen. She was a lot at the front, not too much on the ring it self, I think she walked along the ring like twice or so.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722723850,
+      "score": 2,
+      "link_id": "t3_1ej6zbx",
+      "parent_id": "t1_lgcq1g5"
+    },
+    {
+      "id": "lgbnaz0",
+      "body": "We did not queue at all and got an awesome view of her. \n\nyou can see some pics on my other comment here: [https://www.reddit.com/r/adele/comments/1ej6xx2/comment/lgbgty0/?utm\\_source=share&utm\\_medium=web3x&utm\\_name=web3xcss&utm\\_term=1&utm\\_content=share\\_button](https://www.reddit.com/r/adele/comments/1ej6xx2/comment/lgbgty0/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722704106,
+      "score": 2,
+      "link_id": "t3_1e0emxl",
+      "parent_id": "t1_ld2ubjq"
+    },
+    {
+      "id": "lgbm1u6",
+      "body": "I think Zone 1 is just the right side of the stage.\n\nOur prefered spot was 1, espacially for the beginning. You will see her very close (well, her back lol). I think she was like 25% of the songs at the (green) position 1. And around 50% at position 2. For her breaks she roamed around, but also talked a little bit about the process etc. when she set on the piano chair on position 2.\n\nSo we walked from the (red) position 1 to 2 and for the end 3 (best to kinda experience the pyro, and whole of the screen). 1 best to see her close up. 2 were best place to dance, lol.\n\nhttps://preview.redd.it/hnrnm9y4ahgd1.png?width=525&format=png&auto=webp&s=74e10684d6a27b5c00422804280a978712bbd33c",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722703679,
+      "score": 3,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbh55r"
+    },
+    {
+      "id": "lgbkx2i",
+      "body": "and these pics were made with my shitty iPhone 12. Like we woke up in Basel, driving to Munich to visit my family, and ended up maybe 20 meters next to adele.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722703293,
+      "score": 1,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbk97e"
+    },
+    {
+      "id": "lgbko0a",
+      "body": "https://preview.redd.it/23p0bcz29hgd1.jpeg?width=1080&format=pjpg&auto=webp&s=267bba5e53644e6e974f2086ab2f12005455b2b8",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722703207,
+      "score": 2,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbk382"
+    },
+    {
+      "id": "lgbkhml",
+      "body": "https://preview.redd.it/ki3bdaxw8hgd1.jpeg?width=1024&format=pjpg&auto=webp&s=b8b325a19702e92096829eac12fdb184b285dccc",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722703146,
+      "score": 1,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbk382"
+    },
+    {
+      "id": "lgbk5cp",
+      "body": "https://preview.redd.it/uzt53hgk8hgd1.jpeg?width=768&format=pjpg&auto=webp&s=0c32f980721a9dcccfd179f3dcdcd95e8fe72609",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722703029,
+      "score": 1,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbk382"
+    },
+    {
+      "id": "lgbk382",
+      "body": "We decided at like 6pm to go to the concert, and bought some tickets of a couple selling it infront of the area. So we didn't queue at all. And that was our pov, when she started with \"hello, it's me\".\n\nWe prefered to freely move around and have different pov of the stage and her.\n\nhttps://preview.redd.it/e3nwq9t58hgd1.jpeg?width=768&format=pjpg&auto=webp&s=85873eeab64f25befb9c5daccf120cf1ba5dbfb7",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722703009,
+      "score": 2,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t1_lgbh8wv"
+    },
+    {
+      "id": "lgbj1ql",
+      "body": "It's kinda safe, as there are always people around. But for 3h I would rather leave at central train station and wait in the McDonalds, as it's open 24/7, and then walk to the bus station.\n\nor go to Neuram, when you got no luggage.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722702652,
+      "score": 2,
+      "link_id": "t3_1eiehjo",
+      "parent_id": "t3_1eiehjo"
+    },
+    {
+      "id": "lgbievl",
+      "body": "We were in Zone 1, FOS2. They are standing, but as it is the inner ring, we had plenty of room to walk around without leaving a good spot to see. There were maybe a row of 3 at the center stage, and you could move freely behind them. \n\nI would suggest to go to Adele World after the concert and wait for the big crowd to leave. Took us 1h to get to the metro.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722702434,
+      "score": 1,
+      "link_id": "t3_1eimabl",
+      "parent_id": "t3_1eimabl"
+    },
+    {
+      "id": "lgbhm9i",
+      "body": "Guests will not be permitted to bring any bags larger than A4 size, rucksacks, (telescopic) umbrellas and similar items will not be allowed into the event. You may store these items in front of the entrances using the limited fee-paying lockers.\n\nThe lockers are available in various sizes, up to a maximum size of 27 x 30 x 45 cm (HWD).\n\nThe organizers were not really good in terms of logistics, so I would really try to avoid dropping it of there. We had no time left and drop some items of ours.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722702158,
+      "score": 3,
+      "link_id": "t3_1ej147d",
+      "parent_id": "t3_1ej147d"
+    },
+    {
+      "id": "lgbgty0",
+      "body": "We were at Zone 1, FOS2 yesterday. We could move freely around! And changed our position during her performance",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722701886,
+      "score": 4,
+      "link_id": "t3_1ej6xx2",
+      "parent_id": "t3_1ej6xx2"
+    },
+    {
+      "id": "lgbgkqn",
+      "body": "She will pop up with Hello in the middle of the front. Like 50% of the time she was performing at the main stage, 25% in the middle of the front, and then a bit on the outer ring. She also walked along the ring for 1 or 2 songs, and for the shirt cannon.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722701798,
+      "score": 4,
+      "link_id": "t3_1ej6zbx",
+      "parent_id": "t3_1ej6zbx"
+    },
+    {
+      "id": "lgbg9mb",
+      "body": "you pay a deposit of 3€",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722701690,
+      "score": 2,
+      "link_id": "t3_1eiuu5l",
+      "parent_id": "t1_lg9pfzh"
+    },
+    {
+      "id": "lgbfy06",
+      "body": "beer and non-alcoholic 500ml",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722701577,
+      "score": 1,
+      "link_id": "t3_1eie1zu",
+      "parent_id": "t1_lg7bplz"
+    },
+    {
+      "id": "lgbfrfs",
+      "body": "there were delays yesterday of 45min, will be better next time.",
+      "author": "fkb089",
+      "subreddit": "Munich",
+      "created_utc": 1722701514,
+      "score": 1,
+      "link_id": "t3_1eikjk8",
+      "parent_id": "t1_lg76ipq"
+    },
+    {
+      "id": "lgbfkvc",
+      "body": "planned 19.30  \nyesterday it was like 20.15 (but also big rainshower of 20min around 19.30), I bet they waited for that to pass.",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722701450,
+      "score": 1,
+      "link_id": "t3_1eie3r9",
+      "parent_id": "t1_lg710jh"
+    },
+    {
+      "id": "lgbfh6m",
+      "body": "yesterday they were sold out after the show",
+      "author": "fkb089",
+      "subreddit": "adele",
+      "created_utc": 1722701414,
+      "score": 1,
+      "link_id": "t3_1eie3r9",
+      "parent_id": "t1_lg9cdxv"
+    },
+    {
+      "id": "lfp5mau",
+      "body": "Looks very nice! I would add a little graphite plate for your drinks :)",
+      "author": "fkb089",
+      "subreddit": "Workspaces",
+      "created_utc": 1722367900,
+      "score": 2,
+      "link_id": "t3_1ef3ne0",
+      "parent_id": "t3_1ef3ne0"
+    },
+    {
+      "id": "lepkfug",
+      "body": "\"to have everyone review all emails and delete any no longer needed\" vs. \"quote for two more 8TB SAS drives\"\n\ndrives cost nothing these days, bet he wastes more money on lost time.",
+      "author": "fkb089",
+      "subreddit": "sysadmin",
+      "created_utc": 1721829999,
+      "score": 1,
+      "link_id": "t3_1eav00n",
+      "parent_id": "t3_1eav00n"
+    },
+    {
+      "id": "leinmaw",
+      "body": "dann hätten sie immernoch einfach 2. & 3. Platz küren können.",
+      "author": "fkb089",
+      "subreddit": "DaveTheRace",
+      "created_utc": 1721726428,
+      "score": 1,
+      "link_id": "t3_1e8nafn",
+      "parent_id": "t1_lecyugr"
+    },
+    {
+      "id": "le8idcn",
+      "body": "Was ist denn sonst so nicht ganz sauber abgelaufen?\n\nWie moralisch es ist, nach Geld zu betteln für so ne Produktion sei sowieso dahin gestellt.",
+      "author": "fkb089",
+      "subreddit": "DaveTheRace",
+      "created_utc": 1721574740,
+      "score": 2,
+      "link_id": "t3_1e8nafn",
+      "parent_id": "t3_1e8nafn"
+    },
+    {
+      "id": "ldlsm4j",
+      "body": "In Switzerland you can pay **everything** by card/Apple pay. You can also pay a bottle of water with your card at a supermarket. The small ferries are the only exception I know of which require cash.",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1721221825,
+      "score": 1,
+      "link_id": "t3_1e5cypx",
+      "parent_id": "t1_ldlpfqk"
+    },
+    {
+      "id": "ldlnzac",
+      "body": "I'm using my MTB more as a XC/gravel bike, but there is a MTB trails group on Strava:\n\n[https://www.strava.com/clubs/79478/discussion](https://www.strava.com/clubs/79478/discussion)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1721219950,
+      "score": 1,
+      "link_id": "t3_1e2zkli",
+      "parent_id": "t3_1e2zkli"
+    },
+    {
+      "id": "ldlnk79",
+      "body": "You can also check [https://komoot.com/](https://komoot.com/)\n\n  \nI only have a XC MTB myself, and looking into buying a roadbike. However, on the app/website you can filter for user-made road-bike routes and plan your own. There are around 500 around Zurich made for road bikes, and like 200 routes for gravel bikes.",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1721219773,
+      "score": 1,
+      "link_id": "t3_1d25ct4",
+      "parent_id": "t3_1d25ct4"
+    },
+    {
+      "id": "ldllgrh",
+      "body": "Was planning on doing that!   \nFor which kind of years would you go in terms of age? And would you rather go a bit larger or smaller for the bike?\n\nI'm 183cm/6feet and have a MTB size M, hard to decide which frame size would be the best.",
+      "author": "fkb089",
+      "subreddit": "cycling",
+      "created_utc": 1721218865,
+      "score": 1,
+      "link_id": "t3_1bngyr3",
+      "parent_id": "t1_kwi5i5s"
+    },
+    {
+      "id": "ldlkjxv",
+      "body": "What else is on your trip?\n\nIn case you are in Basel on the 1st of August, that will be switzerlands national holiday and is always a big party.\n\nSometimes the Basel Card can be a good tip, generally the website has some good stuff too to get a general idea: [https://www.basel.com/de/baselcard](https://www.basel.com/de/baselcard)\n\nAnd do one of the ferries across the rhine (you'll need cash, 2CHF per Person, kids are less) you can also watch people swimming across the rhine - [https://www.basel.com/de/freizeit-ausfluege/faehren](https://www.basel.com/de/freizeit-ausfluege/faehren)\n\nAnd the tinguely fountain will probably a cute one for your kids. There are also other fountains all across the city to drink from, and if it's hot to take a bath to cool down  \n[https://www.basel.com/en/basel-inspires/summer/fountains-bathing](https://www.basel.com/en/basel-inspires/summer/fountains-bathing)",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1721218462,
+      "score": 3,
+      "link_id": "t3_1e5cypx",
+      "parent_id": "t1_ldl3pmu"
+    },
+    {
+      "id": "ldl24pj",
+      "body": "Join the Telegram Group \"Unkommerzieller Marktplatz\":\n\n[https://www.sinndrin.ch/projekte/unkommerzielle-marktplaetze-und-aehnliche-gruppen/](https://www.sinndrin.ch/projekte/unkommerzielle-marktplaetze-und-aehnliche-gruppen/)",
+      "author": "fkb089",
+      "subreddit": "zurich",
+      "created_utc": 1721208193,
+      "score": 1,
+      "link_id": "t3_1e3wh60",
+      "parent_id": "t3_1e3wh60"
+    },
+    {
+      "id": "ldl1kg1",
+      "body": "Walk at the Rhine on Kleinbasel (east-side), and have a drink at a buvette\n\nWalk in the Altstadt, Münsterplatz, Rheinsprung, Basler Münster, \n\nVisit the museums, especially nice on hot days: Historische Museum, Cartoon Museum. Basler Papiermühle is also great.\n\nEat at one of the traditional restaurants, like Löwenzorn",
+      "author": "fkb089",
+      "subreddit": "basel",
+      "created_utc": 1721207798,
+      "score": 11,
+      "link_id": "t3_1e5cypx",
+      "parent_id": "t3_1e5cypx"
     }
   ]
 }

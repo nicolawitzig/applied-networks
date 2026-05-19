@@ -1,6 +1,18 @@
 {
   "username": "markus_583",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dqfhn6",
+      "title": "[R] Segment Any Text: A Universal Approach for Robust, Efficient and Adaptable Sentence Segmentation",
+      "author": "markus_583",
+      "subreddit": "MachineLearning",
+      "created_utc": 1719566555,
+      "score": 18,
+      "num_comments": 0,
+      "selftext": "**Title:** Segment Any Text: A Universal Approach for Robust, Efficient and Adaptable Sentence Segmentation\n\n**Paper:** [**https://arxiv.org/abs/2406.16678**](https://arxiv.org/abs/2406.16678)\n\n**Code:** [https://github.com/segment-any-text/wtpsplit](https://github.com/segment-any-text/wtpsplit)\n\nhttps://preview.redd.it/6frvmpc36a9d1.png?width=1849&format=png&auto=webp&s=08c9769384d63bfd3ad786b0259f1dd4a97d4bce\n\n**Abstract:**\n\n>Segmenting text into sentences plays an early and crucial role in many NLP systems. This is commonly achieved by using rule-based or statistical methods relying on lexical features such as punctuation. Although some recent works no longer exclusively rely on punctuation, we find that no prior method achieves all of (i) robustness to missing punctuation, (ii) effective adaptability to new domains, and (iii) high efficiency. We introduce a new model - Segment any Text (SaT) - to solve this problem. To enhance robustness, we propose a new pretraining scheme that ensures less reliance on punctuation. To address adaptability, we introduce an extra stage of parameter-efficient fine-tuning, establishing state-of-the-art performance in distinct domains such as verses from lyrics and legal documents. Along the way, we introduce architectural modifications that result in a threefold gain in speed over the previous state of the art and solve spurious reliance on context far in the future. Finally, we introduce a variant of our model with fine-tuning on a diverse, multilingual mixture of sentence-segmented data, acting as a drop-in replacement and enhancement for existing segmentation tools. Overall, our contributions provide a universal approach for segmenting any text. Our method outperforms all baselines - including strong LLMs - across 8 corpora spanning diverse domains and languages, especially in practically relevant situations where text is poorly formatted. Our models and code, including documentation, are available at [this https URL](https://huggingface.co/segment-any-text) under the MIT license.\n\n",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1dqfhn6/r_segment_any_text_a_universal_approach_for/"
+    }
+  ],
   "comments": [
     {
       "id": "kk4tv4k",
@@ -21,6 +33,36 @@
       "score": 1,
       "link_id": "t3_193lkbc",
       "parent_id": "t1_kk3b50t"
+    },
+    {
+      "id": "kzd6tu8",
+      "body": "Same here. Findings seems a safe call. But - wonder if there's any chance for Main.",
+      "author": "markus_583",
+      "subreddit": "MachineLearning",
+      "created_utc": 1713004941,
+      "score": 2,
+      "link_id": "t3_1c2qnpp",
+      "parent_id": "t1_kzd4ds7"
+    },
+    {
+      "id": "kzaauhf",
+      "body": "Meta review is a 4 but says it is suitable for Findings, saying it is rather incremental, but they seem to like our method.\n\nWhat does that mean now? Is there still any chance for Main?",
+      "author": "markus_583",
+      "subreddit": "MachineLearning",
+      "created_utc": 1712952957,
+      "score": 1,
+      "link_id": "t3_1boea3w",
+      "parent_id": "t3_1boea3w"
+    },
+    {
+      "id": "kwogqst",
+      "body": "Overall 3,4,3.5,3;  Confidence 4443, Soundness; 3.5,3.5,4,4\nAny chance for main track?",
+      "author": "markus_583",
+      "subreddit": "MachineLearning",
+      "created_utc": 1711477675,
+      "score": 1,
+      "link_id": "t3_1boea3w",
+      "parent_id": "t3_1boea3w"
     }
   ]
 }

@@ -301,6 +301,956 @@
       "score": 1,
       "link_id": "t3_1987pof",
       "parent_id": "t3_1987pof"
+    },
+    {
+      "id": "lawfw9v",
+      "body": "Doesn’t seem like you actually understand what the different models are doing tbh. Explaining CNNs as being good at recognizing features at fixed positions is really off\n\nI’d recommend to actually try and get a deeper understanding of what the different model classes do and why each one of them is used for the things it’s used for. For this you can probably just look for any standard deep learning course material. For a given architecture the exact details are typically not super important. I.e. if you use an MLP with 500 or 600 neurons in a given layer probably doesn’t make a big difference.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1719701946,
+      "score": 2,
+      "link_id": "t3_1drgf5e",
+      "parent_id": "t3_1drgf5e"
+    },
+    {
+      "id": "l7am9ni",
+      "body": "So  something like volume rendering or bsdfs aren’t part of PBR? After all they’re not just brdfs/area lights",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1717629716,
+      "score": 2,
+      "link_id": "t3_1d8m30h",
+      "parent_id": "t1_l7albhe"
+    },
+    {
+      "id": "l7aj7ps",
+      "body": "> I would say if better means realism then in general it does.\n\nObviously, but this is just completely circular. Why is more physical better? Because better means realism and realism = physically accurate. Imo better = looks nicer, be it through realism or whatever. If youre strictly talking about the PBR context then yes, there Id agree that better = more accurate/more realistic.\n\nIn any case this is quite orthogonal to the original point, which was about whether you actually had any source agreeing with your PBR definition",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1717628523,
+      "score": 2,
+      "link_id": "t3_1d8m30h",
+      "parent_id": "t1_l7ahgxg"
+    },
+    {
+      "id": "l7ahwrf",
+      "body": "Cool links but again there's nothing agreeing with your constrained PBR = normalized brdf & area light definition",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1717628021,
+      "score": 1,
+      "link_id": "t3_1d8m30h",
+      "parent_id": "t1_l7ahgxg"
+    },
+    {
+      "id": "l7afnca",
+      "body": ">Let me ask you this, if renders are always trying to be more physically based to look better anyway, where did a term come from? \n\nI dont think the first statement is even correct. Depending on what youre doing it might be but first and foremost Id say renderers are supposed to create better looking renders while doing this efficiently. Physically accurate does not necessarily mean better looking and vice versa.\n\nI know the book and have worked through all of it. Im not aware of any statement in the book that constrains PBR to being about normalized brdfs and having area lights. Accurately modelling them is of course a part of PBR, but theres a lot more to it",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1717627151,
+      "score": 3,
+      "link_id": "t3_1d8m30h",
+      "parent_id": "t1_l7ab0ej"
+    },
+    {
+      "id": "l7a62gr",
+      "body": ">Physically based rendering is a term given to normalized brdfs and lights with area. \n\nDo you actually have any source/reference that defines it like that? Any place I came across PBR just uses it as a general term for physically accurate (or as accurate as possible) rendering. The definition youre using seems way to strict compared to pretty much any source Ive seen so far",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1717623627,
+      "score": 3,
+      "link_id": "t3_1d8m30h",
+      "parent_id": "t1_l79q52d"
+    },
+    {
+      "id": "l5hywqb",
+      "body": "As an addition to what others already said: there’s the concept of a sub gradient which generalises the gradient. For |x| the sub gradient would be exactly the set of all lines \"below\" the graph, i.e. lines with slope between -1 and 1",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1716571534,
+      "score": 3,
+      "link_id": "t3_1czpfs1",
+      "parent_id": "t3_1czpfs1"
+    },
+    {
+      "id": "l50zihg",
+      "body": "What’s with all these dipshits pasting ChatGPT outputs, it’s ridiculous",
+      "author": "crimson1206",
+      "subreddit": "computerscience",
+      "created_utc": 1716302676,
+      "score": 5,
+      "link_id": "t3_1cx6jhc",
+      "parent_id": "t1_l50ubpm"
+    },
+    {
+      "id": "l4nltep",
+      "body": "Underfitting is when you’re not even able to fit the training data you currently have. So straight up adding more data in itself would not solve this issue. With data augmentation you are adding more data and that data is often even more challenging to fit than your original data.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1716068829,
+      "score": 4,
+      "link_id": "t3_1cv5bl6",
+      "parent_id": "t3_1cv5bl6"
+    },
+    {
+      "id": "l4knpmh",
+      "body": "If you’d add the nonlinear features your final model wouldn’t be linear anymore",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1716019909,
+      "score": 2,
+      "link_id": "t3_1cuqoqr",
+      "parent_id": "t3_1cuqoqr"
+    },
+    {
+      "id": "l4bm8yt",
+      "body": "This is the L2 distance where the domain is the unit ball (if you google for L2 distance function you’ll find lots of info) normalized by the size of the domain.\n\nThe choice of domain really depends on the context. If you can expect all inputs to be in the unit ball then it makes sense to use that as domain.\n\nId you’d just take an indefinite integral you wouldn’t really get a distance since the result would be a new function and not a scalar. And to optimize a model you need an actual distance since you can then use that as the scalar loss that you minimize",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1715874987,
+      "score": 1,
+      "link_id": "t3_1ctf6b3",
+      "parent_id": "t3_1ctf6b3"
+    },
+    {
+      "id": "l3x0jgx",
+      "body": "As I said, these are the names of mathematical algorithms. The programming language doesn’t matter, their name is always the same.\n\nThe network you’re describing is extremely small btw\n\nBit off topic but I find it weird that you’re asking a prof to implement this for you. This seems like something you should implement yourself if it’s your research project.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1715638471,
+      "score": 1,
+      "link_id": "t3_1cr3j5v",
+      "parent_id": "t1_l3wu6h5"
+    },
+    {
+      "id": "l3wew8e",
+      "body": ">i'll use them to predict the thermal conductivity of nanofluids based on two inputs volume fraction and temperature and the output thermal conductivity ( i have a small dataset to train it )\n\nsounds like its going in the direction of Physically Inspired Neural Networks. You might want to look into LBFGS then, that's commonly used for PINNs and actually implemented in PyTorch already.\n\n>so if i collab with another researcher that knows pytorch should i tell him these three algorithms or are there different names in pytorch then matlab\n\nYou're talking about mathematical optimization algorithms here, the name doesnt depend on the programming language.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1715630806,
+      "score": 1,
+      "link_id": "t3_1cr3j5v",
+      "parent_id": "t1_l3wd558"
+    },
+    {
+      "id": "l3vj3ek",
+      "body": "Why do you want these alrogithms in particular? For Neural Nets it's most common to use variations of stochastic gradient descent (most popular one is ADAM). These SGD variations are usable out of the box in PyTorch. The algorithms you mentioned aren't, though of course you could implement them yourself/look for repos that provide them (for example like this https://github.com/hahnec/torchimize)",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1715619964,
+      "score": 2,
+      "link_id": "t3_1cr3j5v",
+      "parent_id": "t3_1cr3j5v"
+    },
+    {
+      "id": "l2qdqru",
+      "body": "Theres not really anything special you have to do, you basically get them for free with a raytracer",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1714939221,
+      "score": 1,
+      "link_id": "t3_1ckpnac",
+      "parent_id": "t1_l2pn1xp"
+    },
+    {
+      "id": "l2dtgtp",
+      "body": "Man your mind will be blown when you hear about CNNs",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1714736345,
+      "score": 1,
+      "link_id": "t3_1cj2vyu",
+      "parent_id": "t1_l2db2bo"
+    },
+    {
+      "id": "l2aolku",
+      "body": "Just fyi these kinds of equations are called functional equations",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1714680763,
+      "score": 1,
+      "link_id": "t3_1cinawu",
+      "parent_id": "t3_1cinawu"
+    },
+    {
+      "id": "l298nm4",
+      "body": "Don’t do drugs kids",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1714663345,
+      "score": 1,
+      "link_id": "t3_1cii3wx",
+      "parent_id": "t3_1cii3wx"
+    },
+    {
+      "id": "l287p0f",
+      "body": "Sounds a bit light on math if you want to get into deep learning specificially (at least if you actually want to really understand what you're doing). Other than that a lot of the course titles sound very generic so it's not really clear what you're actually learning.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1714648087,
+      "score": 1,
+      "link_id": "t3_1ciceyi",
+      "parent_id": "t3_1ciceyi"
+    },
+    {
+      "id": "l25wgki",
+      "body": "3 is very close to infinity for large values of 3",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1714603796,
+      "score": 4,
+      "link_id": "t3_1chu4qj",
+      "parent_id": "t3_1chu4qj"
+    },
+    {
+      "id": "l25hx48",
+      "body": ">MLP refers to any NN, even transformers, I believe.\n\nNo it doesnt. MLPs are the most vanilla and simple NN architecture, just linear layers followed by elementwise activations.",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1714598376,
+      "score": 7,
+      "link_id": "t3_1chrafb",
+      "parent_id": "t1_l25edyq"
+    },
+    {
+      "id": "l1zx325",
+      "body": "To elaborate a little bit on the background of this: the discrete laplacian for an image is usually defined as laplacian_image(i, j) = image(i + 1, j) + image(i - 1, j) + image(i, j+1) + image(i, j-1) - 4image(i, j) (you essentially arrive at this via a finite difference discretization of the actual laplacian).\n\nYou can of course compute this in a nested loop, but this is actually exactly equivalent to a convolution with the kernel [[0, 1, 0], [1, -4, 1], [0, 1, 0]] so you can use optimized convolution routines that were already implemented to have the code run in a reasonable time. As I mentioned this ignores terms on the boundary due to how conv2d is implemented in pytorch so you'd have to think a little about whether ignoring them or including them by adding padding makes more sense.\n\nAnd just to clarify: with ineffective I was referring to the implementation of the comment I responded to (due to using for loops in python essentially). It wasnt to say that using a Laplacian based regularization term is inefficient, that in itself can be very reasonable depending on the application.",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1714510919,
+      "score": 6,
+      "link_id": "t3_1cgmv4o",
+      "parent_id": "t1_l1zvqiv"
+    },
+    {
+      "id": "l1zubui",
+      "body": "How does this have so many upvotes? It's extremely inefficient and not even correct. This is computing a regularization term based on discrete image derivatives, not based on the discrete Laplacian as described in the paper. \n\nTo actually do this in PyTorch (assuming OP uses that) you can do something like this:\n\n    discrete_laplacian_kernel = torch.tensor(\n         [[[[0, 1, 0], [1, -4, 1], [0, 1, 0]]]]\n    )\n    laplacian_phi = torch.nn.functional.conv2d(phi, discrete_laplacian_kernel)\n    laplacian_term = torch.linalg.norm(laplacian_phi.squeeze())\n\nThis ignores boundary entries but you can also include them by changing the padding of the convolution. The shape of `phi` might also have to be adjusted to match what `conv2D` expects",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1714509980,
+      "score": 25,
+      "link_id": "t3_1cgmv4o",
+      "parent_id": "t1_l1wtqkq"
+    },
+    {
+      "id": "l1uacd5",
+      "body": "The near \"optimal\" matrix multiplication algorithms in general are all useless for practice. From a complexity POV they are better than others but in practice this would only hold for sizes that we will never actually work with. Practically variations of standard matrix multiplication or perhaps Strassen based ones are better.",
+      "author": "crimson1206",
+      "subreddit": "computerscience",
+      "created_utc": 1714423279,
+      "score": 2,
+      "link_id": "t3_1cfe80s",
+      "parent_id": "t1_l1u0n0i"
+    },
+    {
+      "id": "l1tzsc3",
+      "body": "no, these kinds of algorithms are completely impractical and not actually useful for any real world application",
+      "author": "crimson1206",
+      "subreddit": "computerscience",
+      "created_utc": 1714419643,
+      "score": 3,
+      "link_id": "t3_1cfe80s",
+      "parent_id": "t1_l1rlvq1"
+    },
+    {
+      "id": "l1l7s28",
+      "body": "GD can also make sense to use for linear regression, due to efficiency and numerical stability ",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1714271823,
+      "score": 1,
+      "link_id": "t3_1ce932n",
+      "parent_id": "t1_l1j4tnn"
+    },
+    {
+      "id": "l1cclrb",
+      "body": "Honestly that just sounds like a typo. But your suggested a,b version would be the best in that case imo since that covers all cases ",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1714134810,
+      "score": 1,
+      "link_id": "t3_1cd8fbo",
+      "parent_id": "t1_l1cbncs"
+    },
+    {
+      "id": "l148b91",
+      "body": "Ok, so what’s the problem with having the learning rate as a tensor with per-entry units?\n\nIf you are dead set on using Adam in a context for which it wasn’t originally defined (I.e. with units), then yes it technically doesn’t work because the units don’t match. But as I said, you can trivially solve this via the learning rate, at which point you have a generalization of Adam.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713998718,
+      "score": 1,
+      "link_id": "t3_1cc0u9a",
+      "parent_id": "t1_l147e8j"
+    },
+    {
+      "id": "l146rgr",
+      "body": "I really don’t get your problem. First and foremost adam is an optimization algorithm for purely abstract mathematical problems with no concern of the actual background of that problem. There are absolutely no units involved in any of the parts that describe adam.\n\nHowever, if you do actually use adam in a context where your problem has units, you can trivially solve that problem by letting the learning rate take care of units.\n\nWhat you’re doing is kind of like saying \"umbrella\" is not a proper word because if you interpret it as a German word it doesn’t exist. You’re viewing viewing Adam from a POV for which it isn’t necessarily intended and then say the easy fix to the problem introduced by that isn’t valid.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713998123,
+      "score": 1,
+      "link_id": "t3_1cc0u9a",
+      "parent_id": "t1_l1422vh"
+    },
+    {
+      "id": "l13llxj",
+      "body": "Ok, so if you really want to have different units per weight you can just define the learning rate as a tensor where each entry has the right unit and then do an elementwise multiplication.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713990684,
+      "score": 1,
+      "link_id": "t3_1cc0u9a",
+      "parent_id": "t1_l13j1e2"
+    },
+    {
+      "id": "l13hh0q",
+      "body": "You can use ADAM for that, but that's not the point of the original algorithm. ADAM is defined for abstract, unitless optimization problems.\n\nHowever, if you define the learning rate to have the original unit then things still work out unitwise, so its not really a problem in such a setting either.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713989336,
+      "score": 1,
+      "link_id": "t3_1cc0u9a",
+      "parent_id": "t1_l13gjkt"
+    },
+    {
+      "id": "l13fiow",
+      "body": "Well, RL is notoriously unstable, even changing the random seed can be the difference between nice convergence and a completely messed up policy. So it's not really surprising that you don't get \"nice behavior\" when changing the learning rate which is probably the most impactful hyperparameter.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713988691,
+      "score": 1,
+      "link_id": "t3_1cbpj3o",
+      "parent_id": "t3_1cbpj3o"
+    },
+    {
+      "id": "l13ezc7",
+      "body": "Why are you applying that to ADAM? ADAM is purely an optimization algorithm, there's no concept of physical dimensions in there",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713988516,
+      "score": 1,
+      "link_id": "t3_1cc0u9a",
+      "parent_id": "t1_l131zsq"
+    },
+    {
+      "id": "l12jm4y",
+      "body": "In the end the final loss should be a single scalar",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713978156,
+      "score": 1,
+      "link_id": "t3_1cc1do4",
+      "parent_id": "t3_1cc1do4"
+    },
+    {
+      "id": "l12iak6",
+      "body": "No, you don’t necessarily have under fitting in that case. It might be that your train set is \"harder\" due to regularization, for example data augmentation or dropout. If both train error and generalization are bad, then you could quite confidently say it’s under fitting.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713977718,
+      "score": 3,
+      "link_id": "t3_1cc2lwa",
+      "parent_id": "t3_1cc2lwa"
+    },
+    {
+      "id": "l09r0cw",
+      "body": "Neural networks aren’t polynomials. From where are you getting that idea?",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1713515410,
+      "score": 3,
+      "link_id": "t3_1c7n1ij",
+      "parent_id": "t3_1c7n1ij"
+    },
+    {
+      "id": "kzv23n5",
+      "body": "actually O(69n + 4201337)",
+      "author": "crimson1206",
+      "subreddit": "computerscience",
+      "created_utc": 1713289923,
+      "score": 16,
+      "link_id": "t3_1c5m492",
+      "parent_id": "t1_kzv1l6s"
+    },
+    {
+      "id": "kzf4qys",
+      "body": "That normalizes the pixel values to [0, 1] which is not a normal map",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713033549,
+      "score": 1,
+      "link_id": "t3_1c3523w",
+      "parent_id": "t1_kzentj3"
+    },
+    {
+      "id": "kz3usdx",
+      "body": "Basically the 1/3 rule uses a quadratic interpolation and then integrates that whereas the 3/8 rule uses a cubic interpolation and then integrates that. So you approximate the original function more accurately when using the 3/8 rule",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1712856732,
+      "score": 5,
+      "link_id": "t3_1c1kw45",
+      "parent_id": "t3_1c1kw45"
+    },
+    {
+      "id": "ky06ar3",
+      "body": "Splines work piecewise, for cubic splines you have a degree 3 polynomial between any two points in your dataset.",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1712234568,
+      "score": 6,
+      "link_id": "t3_1bvjwyf",
+      "parent_id": "t1_ky028q2"
+    },
+    {
+      "id": "kxztqn3",
+      "body": "That issue is what you’d call overfitting in the context of machine learning. From a more mathematical point of view you can start here if you want more info: https://en.m.wikipedia.org/wiki/Runge's_phenomenon",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1712228449,
+      "score": 24,
+      "link_id": "t3_1bvjwyf",
+      "parent_id": "t3_1bvjwyf"
+    },
+    {
+      "id": "kx18q1r",
+      "body": "No it isn’t? You made it seem like the only reason for L2 regression is empirical evidence",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1711669201,
+      "score": 1,
+      "link_id": "t3_1bpou7i",
+      "parent_id": "t1_kx157dc"
+    },
+    {
+      "id": "kx0udef",
+      "body": ">Another analogy is, why is the minimum squares used as a loss function (there are infinite functions that could be used) the answer is the same, over many iterations people noticed that it produces the better results...\n\n  \nThat's not correct or at least simplifying it too much, it has a very good probabilistic motivation (and in fact in many cases L2 regression isnt the best). For many things we do indeed try out different things and see what works best, but thats not always the full explanation.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1711663949,
+      "score": 2,
+      "link_id": "t3_1bpou7i",
+      "parent_id": "t1_kwy9m2n"
+    },
+    {
+      "id": "kwdycmq",
+      "body": ">wdym by dimension?\n\nIf you're looking at softmax in something like PyTorch then your input would have two dimensions, first the different samples and then the actual values per sample. The fact that the outputs sum up to 1 sounds a bit as if you're computing the softmax over the sample dimension instead of the value dimension.\n\nBut from how you described it, it doesn't sound like that's the case.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1711311467,
+      "score": 1,
+      "link_id": "t3_1bmsswk",
+      "parent_id": "t1_kwdxrg1"
+    },
+    {
+      "id": "kwdxv8i",
+      "body": "maybe a sign error in the backprop optimization somewhere? i.e. you're minimizing the reward instead of maximizing it?",
+      "author": "crimson1206",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711311296,
+      "score": 1,
+      "link_id": "t3_1bmq4l7",
+      "parent_id": "t3_1bmq4l7"
+    },
+    {
+      "id": "kwdx4er",
+      "body": ">When i have multiple samples in my data set like an image classifier all the outputs from seperate samples add up to 1 which is confusing. I know that softmax should distribute the outputs of 1 sample into a \"probability\" but i dont understand why it's happening between the samples of my data set\n\nI'd double check that you're applying the softmax over the correct dimension",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1711311031,
+      "score": 1,
+      "link_id": "t3_1bmsswk",
+      "parent_id": "t3_1bmsswk"
+    },
+    {
+      "id": "kwac4su",
+      "body": "Thanks chat-gpt",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1711247390,
+      "score": 2,
+      "link_id": "t3_1bm5z51",
+      "parent_id": "t1_kwabxhg"
+    },
+    {
+      "id": "kw5mj47",
+      "body": "You can just straight up use windows as well. Works pretty well with most standard ML packages",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1711168562,
+      "score": 2,
+      "link_id": "t3_1blh06r",
+      "parent_id": "t3_1blh06r"
+    },
+    {
+      "id": "kw2ntkc",
+      "body": "Technically multivalued functions still just map to a single output, it just happens that the output itself isn’t just a single number ",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1711127846,
+      "score": 12,
+      "link_id": "t3_1bkzdjs",
+      "parent_id": "t1_kw2l4xs"
+    },
+    {
+      "id": "kvxdhh6",
+      "body": "In many cases it can even be that the reasons given aren’t the reason why people tried the method in the first place. They just try a bunch of stuff and once something works they try to find an explanation.\n\nFor example I believe the resnet authors stated somewhere that they were just trying things and came up with the \"motivation\" after seeing that residual connections worked well.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1711045896,
+      "score": 3,
+      "link_id": "t3_1bka3i8",
+      "parent_id": "t1_kvwoxyv"
+    },
+    {
+      "id": "kvwh7ni",
+      "body": "That’s not what I said. You have to turn your set of floats into a sequence of tokens (which again are just floats). How you’d do that or if it even makes sense in the first place depends on your problem ",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1711035340,
+      "score": 1,
+      "link_id": "t3_1bjpck8",
+      "parent_id": "t1_kvwg4b0"
+    },
+    {
+      "id": "kvtgtq1",
+      "body": "Transformers take sequences of tokens as input. What you have as input is a bunch of numbers, to apply a Transformer to that input you'd have to reshape it/map it to a sequence of tokens in some way.\n\nI'd recommend to take a step back and actually learn what the things you are using are using do first though. A Transformer isn't necessarily a good solution to every problem that there is...",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1710980533,
+      "score": 1,
+      "link_id": "t3_1bjpck8",
+      "parent_id": "t3_1bjpck8"
+    },
+    {
+      "id": "kvtga03",
+      "body": "my man out here just copy & pasting chatgpt output that isn't even correct",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1710980329,
+      "score": 3,
+      "link_id": "t3_1bjpbxv",
+      "parent_id": "t1_kvsughj"
+    },
+    {
+      "id": "kv60hx3",
+      "body": "You didn't even read it correctly, they're using 200 steps with the combined dataset. It's completely fine to retrain using your whole dataset in the end after you found good hyperparameters. Of course then reporting accuracies and so on on what was originally used as the validation set does not make sense anymore but it's not clear from the part OP posted whether thats the case.",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1710611223,
+      "score": 1,
+      "link_id": "t3_1bfnay7",
+      "parent_id": "t1_kv4tvr2"
+    },
+    {
+      "id": "kv5zz3d",
+      "body": "This is fine. Of course if they report performance on the \"validation set\" after that it's not good, but with this approach they essentially just use the first stage to find good parameters and then try to get the best model in the end by training a bit more on the full dataset.\n\nYou can also first do parametertuning with a train+validation split and then retrain the whole model from the beginning with the full dataset. That would be similar to this but not exactly the same.",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1710611031,
+      "score": 3,
+      "link_id": "t3_1bfnay7",
+      "parent_id": "t3_1bfnay7"
+    },
+    {
+      "id": "kv24rb4",
+      "body": ">Oh hold on, I think I'm misunderstanding the inputs to both these functions. I thought if you had 1000 samples, each containing a reading for pressure and temperature, you'd use Linear(2, [?]) because input-features is the \"size of each input sample\"\n\nYou have to be a little bit careful here not to mix batch sample and sample as in measurement sample. In the example I was talking about the measurement samples would belong to the same input so it would be 2000 inputs per sample in a batch. Then different samples from a batch could be these 2000 measurements taken at different times. The wording in that example is definitely a bit icky since there's two kinds of different samples.\n\n>I can feed input information is number of channels. Doesn't it need to know that there are two features, pressure and temperature?\n\nIn the example you'd have to specify two input channels for the model two know that there's two kinds of features.\n\n>How do I specify that I want the first layer to be 16 Linear neurons, each accepting my 1000 records of pressure and temperature (2 dimension?) inputs?\n\nYou define the number of neurons in that layer by the output dimension. Essentially a `nn.Linear(in_dimension, out_dimension)` connects a layer with in_dimension many layers to a layer with out_dimension many layers. So in that example you'd have a `nn.Linear(in_dimension=2000, out_dimension=16)`",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1710541279,
+      "score": 1,
+      "link_id": "t3_1bf4scb",
+      "parent_id": "t1_kv1r2ml"
+    },
+    {
+      "id": "kv0qc5j",
+      "body": "> For example a person's height, weight. \n\nThen using a CNN here is quite pointless since the inductive bias you build into the model by using convolutions doesn't actually make sense. But since you said it's to try out for a class it's a different story.\n\n>does the input_channel parameter in Conv1d have any analogy to the in_features parameter in Linear\n\nOnly to a very little extent. input_channels can be thought of as the number of different kinds of informations you have. How many actual points of info you have per kind of info is then a different question. For example, think of 1000 measurements of temperature along a line. Then you'd have 1 channel but that channel has 1000 entries. If you'd then add pressure measurements at the same points this would give you another channel.\n\nFor a linear layer you need to inform the model how many information points there are in total. So in the example from above with pressure and temperature you'd have 2000 in_features. But when just looking at the 2000 the information that 1000 of those are pressure and 1000 of those are temperature kind of gets lost. A linear model where all 2000 in features are completely different will still look the same as a linear model where all in features are the same type of infor but perhaps just measured at different locations. Whereas for a convolutional layer this distinction would make a very big difference.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1710523672,
+      "score": 1,
+      "link_id": "t3_1bf4scb",
+      "parent_id": "t1_kv09tpl"
+    },
+    {
+      "id": "kuzfot4",
+      "body": "Well that depends on the data. Might be 1 channel or it might be more. For example if the features are measurements along an axis then it would be 1 channel, if they are two different measurements along an axis then it would be two and so on.\n\nFirst of all you should ask yourself if applying convolutions even makes sense for your data. If it’s something like size of a house, number or rooms, … then convolutions don’t make sense",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1710507157,
+      "score": 1,
+      "link_id": "t3_1bf4scb",
+      "parent_id": "t3_1bf4scb"
+    },
+    {
+      "id": "kth45m9",
+      "body": "Depends on how you define a^b, which is very often based on the exponential function then making exp(1)^x = exp(x) pretty much by definition ",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1709657791,
+      "score": 2,
+      "link_id": "t3_1b79i15",
+      "parent_id": "t1_kth1d4k"
+    },
+    {
+      "id": "ktdlepz",
+      "body": "Reading x > delta is kind of painful lol",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1709597292,
+      "score": 4,
+      "link_id": "t3_1b6pg52",
+      "parent_id": "t1_ktdi06n"
+    },
+    {
+      "id": "kt79qfm",
+      "body": "Just use PyTorch",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1709499906,
+      "score": 5,
+      "link_id": "t3_1b5npsk",
+      "parent_id": "t3_1b5npsk"
+    },
+    {
+      "id": "kt4ujf1",
+      "body": "If you implemented the methods purely for autonomous ODEs you can simply append t to the state and increase your state dimension by one. Ie if the original ode was y‘ = f your new ode is a coupled ode [y‘, t‘] = [f, 1] with states [y, t]",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1709464440,
+      "score": 2,
+      "link_id": "t3_1b59vm3",
+      "parent_id": "t3_1b59vm3"
+    },
+    {
+      "id": "kssbtah",
+      "body": "It’s not necessary to be able to code everything yourself. However, k-means is about as simple as it gets, if you can’t implement that I’d recommend just ignoring the ML part for now and learning some basic programming, datastructures and algorithms ",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1709256185,
+      "score": 3,
+      "link_id": "t3_1b3c7da",
+      "parent_id": "t3_1b3c7da"
+    },
+    {
+      "id": "ksmds3s",
+      "body": "RL is definitely useful, it’s just inherently more difficult than supervised/unsupervised learning",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1709166296,
+      "score": 2,
+      "link_id": "t3_1b24wrn",
+      "parent_id": "t1_kslu6iq"
+    },
+    {
+      "id": "ksixkpb",
+      "body": "I don’t really know about any online courses so hopefully someone else will be able to help you.\n\nJust one more quick recommendation: try to make things work without dropout at first. Generally it’s advisable to start with the simplest architecture and slowly add complexity/modifications. That makes it easier to debug things.",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1709123265,
+      "score": 8,
+      "link_id": "t3_1b22xkw",
+      "parent_id": "t1_ksit1du"
+    },
+    {
+      "id": "ksiout1",
+      "body": "You made a very common beginner mistake: the loss function you are using already has a sigmoid activation included so you should remove the final sigmoid activation from your network (ie the last thing should be a linear layer)",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1709118195,
+      "score": 12,
+      "link_id": "t3_1b22xkw",
+      "parent_id": "t3_1b22xkw"
+    },
+    {
+      "id": "kroa7hc",
+      "body": ">Beacuse Squared Errors are the same thing as the L2 norm of the error vector\n\nthe squared error typically doesnt include the squareroot, so its the squared L2 norm",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1708639943,
+      "score": 3,
+      "link_id": "t3_1axgyle",
+      "parent_id": "t1_kro77nq"
+    },
+    {
+      "id": "kqlftzm",
+      "body": "When training the network you want to minimize the loss function which you do by performing gradient descent on the loss function. Hence you need the gradients w.r.t. the loss.\n\n>So why is taking the derivative of the weight and output not as good, and in what circumstances would it fail?\n\nIt's simply a different thing, so it doesn't make sense to compare them in the first place.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1708033383,
+      "score": 1,
+      "link_id": "t3_1arqu3v",
+      "parent_id": "t3_1arqu3v"
+    },
+    {
+      "id": "kqdc4n7",
+      "body": "Do you have any actual numbers/benchmarks for the differences? I’d be quite interested in those ",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1707909053,
+      "score": 2,
+      "link_id": "t3_1apyymt",
+      "parent_id": "t1_kqcad1z"
+    },
+    {
+      "id": "kq9kilx",
+      "body": "That's true, but for me at least, the overhead that came with Python so far didn't really matter. Depending on your application this will be different of course, if you need every tiny advantage you can get then it would make sense to avoid Python entirely. You could for example use onxx to export models trained in python and use them in another language.\n\n>so if you iterate some bonded function it will be slower than iterating it in compiled language that may even inline it\n\nRepeated iteration with a function call should be avoided when working with frameworks like numpy, pytorch or tensorflow. If you turn that loop into a single function call then the difference will be much smaller.",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1707847912,
+      "score": 5,
+      "link_id": "t3_1apyymt",
+      "parent_id": "t1_kq9fggl"
+    },
+    {
+      "id": "kq9ctoi",
+      "body": "ML libraries offload the actual computation to faster, compiled languages anyways. If you call a PyTorch function then that will actually call a C (or C++, I’m not sure which) function which actually does the heavy lifting. ",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1707845340,
+      "score": 123,
+      "link_id": "t3_1apyymt",
+      "parent_id": "t3_1apyymt"
+    },
+    {
+      "id": "kq7fhc5",
+      "body": "Understanding the theory is important but imo solving them by hand is pointless (maybe do it once or twice to get more familiar with the algorithms but you don’t need to be good at solving systems by hand) ",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707810919,
+      "score": 8,
+      "link_id": "t3_1apnf51",
+      "parent_id": "t3_1apnf51"
+    },
+    {
+      "id": "kq424eb",
+      "body": "There's no good/straightforward answer to this, at least as far as I'm aware.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707761034,
+      "score": 1,
+      "link_id": "t3_1aohyzn",
+      "parent_id": "t1_kq21tzi"
+    },
+    {
+      "id": "kpzy0id",
+      "body": "Predicting what exactly a different learning rate will do is difficult. You can look into the topic or learning rate schedulers to get some intuition.\n\nMore layers and neurons essentially make the model more expressive so that it can model more complex things. The downside is that with more parameters overfitting becomes easier and training itself can also get more difficult.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707690341,
+      "score": 2,
+      "link_id": "t3_1aohyzn",
+      "parent_id": "t3_1aohyzn"
+    },
+    {
+      "id": "kpzm30g",
+      "body": "Are you saving and loading the optimizer state as well?",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707686213,
+      "score": 1,
+      "link_id": "t3_1aogpex",
+      "parent_id": "t3_1aogpex"
+    },
+    {
+      "id": "kpy96t4",
+      "body": "You basically just need to know ODEs, Neural Nets and numerical solvers for ODEs.\n\nNeural ODEs are ODEs of the form y' = f(y, t) where the function f is a Neural Network. You then solve that ODE from a time t0 to time t1 using some numerical integration scheme and y(t=1) gives you the final output of your whole architecture. For computing gradients you can either use autodiff or the adjoint ODE method they mentioned in the paper. Id just recommend to stick with autodiff though, that's way easier to implement (since you dont actually need to implement anything extra)",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707670092,
+      "score": 10,
+      "link_id": "t3_1aoalss",
+      "parent_id": "t3_1aoalss"
+    },
+    {
+      "id": "kptn0dp",
+      "body": "No thanks got better things to do with my life than verifying that a fuckwit on Reddit is indeed one ",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707594229,
+      "score": 5,
+      "link_id": "t3_1angr16",
+      "parent_id": "t1_kptk39f"
+    },
+    {
+      "id": "kptjwr0",
+      "body": "Bro you should take your pills instead of spilling garbage on reddit",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707593095,
+      "score": 6,
+      "link_id": "t3_1angr16",
+      "parent_id": "t1_kpslwn7"
+    },
+    {
+      "id": "kpmmqs3",
+      "body": "Im at ETH in Switzerland",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1707483085,
+      "score": 1,
+      "link_id": "t3_1am2b7i",
+      "parent_id": "t1_kpllrys"
+    },
+    {
+      "id": "kpk1ugg",
+      "body": ">It is only 1.5 GB. It can indeed be loaded in memory completely, but this is just how the authors implemented it. \n\nThen the implementation is just straight up very bad.\n\n>Won't this always be the case since this function is thought to retrieve particular elements by IDs? Or do you mean that usually the whole data is read in the init function and then getitem just retrieves it from the object created previously? \n\nYes, youd typically read the whole data in init and then use getitem to just access that instead of reading from disk in each getitem call, thats just super inefficient.\n\n>that the whole forward and backward pass through 1.5GBs of data is performed in just 6 seconds. This is extreme, although it is true that the GPU that I'm using is extremely fast, so I'm not sure whether it can actually be a possibility.\n\nI dont think you realize just how ridiculously fast GPUs are. The A100 is capable of 19.5 Terra Flops, i.e. 195000 Giga Flops. 1.5GB of data contain ~0.4 Giga Floats (assuming single precision). Just looking at the orders of magnitude here should give a rough idea of how absurdly fast GPUs have become.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707433810,
+      "score": 2,
+      "link_id": "t3_1am126t",
+      "parent_id": "t1_kpiw7w7"
+    },
+    {
+      "id": "kpjczal",
+      "body": "yeah, or rather one of them did. The other one was c++/python",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1707424670,
+      "score": 2,
+      "link_id": "t3_1am2b7i",
+      "parent_id": "t1_kpj7xdi"
+    },
+    {
+      "id": "kpitfxe",
+      "body": "My degree is not exactly math but computational science and we mostly used C++. Had a computational physics course using julia and a robotics class using Matlab as well though (and of course any ML related course used Python).",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1707418150,
+      "score": 6,
+      "link_id": "t3_1am2b7i",
+      "parent_id": "t3_1am2b7i"
+    },
+    {
+      "id": "kpiii30",
+      "body": "Reading from disk is slower than reading from RAM which is again slower than reading from CPU cache. However, your numbers seem a bit extreme. It seems like the getitem function is reading one element at a time, which is extremely wasteful.\n\n>dataset weighs about 1.53GB. \n\nIs that a typo? If its only 1.5GB then you can easily just load the whole dataset into memory in one go and keep it there for the whole training duration.\n\n>I really can't believe that this is not standard practice.\n\nMinimizing reads from disk is standard practice. If the data is small enough you just read it all once at the beginning and if not you have to figure out a reasonable way to cache things.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707414544,
+      "score": 18,
+      "link_id": "t3_1am126t",
+      "parent_id": "t3_1am126t"
+    },
+    {
+      "id": "kpgqchu",
+      "body": "That’s still incorrect. Least squares is usually applied for non-square matrices which can’t be invertible in the first place. \nI don’t see why you mention regularization either. OLS is unregularized by definition.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707386173,
+      "score": 2,
+      "link_id": "t3_1al8nsd",
+      "parent_id": "t1_kpfcwo5"
+    },
+    {
+      "id": "kpeu4ut",
+      "body": "That would indeed be really cool but is unfortunately also much much harder",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1707350917,
+      "score": 2,
+      "link_id": "t3_1alek80",
+      "parent_id": "t1_kpeoji8"
+    },
+    {
+      "id": "kpd7efa",
+      "body": ">I think the condition for OLS is that AX = y exist\n\nThe whole point of least squares is that no x exists, that satisfies Ax = y. The reasons to use gradient descent over the normal equations are purely computational, see here: https://stats.stackexchange.com/questions/278755/why-use-gradient-descent-for-linear-regression-when-a-closed-form-math-solution",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707330810,
+      "score": 6,
+      "link_id": "t3_1al8nsd",
+      "parent_id": "t1_kpd0b9n"
+    },
+    {
+      "id": "kp8rhsm",
+      "body": "bro are you ok? youre asking questions and then disagreeing with the answers lmao",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1707257461,
+      "score": 2,
+      "link_id": "t3_1ajtyso",
+      "parent_id": "t1_kp58dc7"
+    },
+    {
+      "id": "kokigxs",
+      "body": "Its a course at our university, I recognized it due to the rather special exam format",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1706869252,
+      "score": 2,
+      "link_id": "t3_1aexnv0",
+      "parent_id": "t1_koil9id"
+    },
+    {
+      "id": "kod175f",
+      "body": "Is that an Algolab reference?^^",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1706745935,
+      "score": 1,
+      "link_id": "t3_1aexnv0",
+      "parent_id": "t1_ko980de"
+    },
+    {
+      "id": "kjwc1lp",
+      "body": "Because they’re not fundamentally related in any way. It really wouldn’t make sense to group them as if they were a single topic (and any somewhat good course on deep learning will cover both topics at some point anyway). ",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1706410340,
+      "score": 49,
+      "link_id": "t3_1acs9yx",
+      "parent_id": "t3_1acs9yx"
+    },
+    {
+      "id": "kjno7v8",
+      "body": "yeah that's correct",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1706277522,
+      "score": 1,
+      "link_id": "t3_1ab8bom",
+      "parent_id": "t3_1ab8bom"
+    },
+    {
+      "id": "kjl53er",
+      "body": "The class OP is doing is probably real analysis, not calculus. There’s often some confusion between EU and US students about the naming of those. In many European countries you do the calculation based calculus stuff in Highschool and then start with proof based real analysis in Uni.",
+      "author": "crimson1206",
+      "subreddit": "PhysicsStudents",
+      "created_utc": 1706229202,
+      "score": 5,
+      "link_id": "t3_19ffeja",
+      "parent_id": "t1_kjjvf3n"
+    },
+    {
+      "id": "ki1erth",
+      "body": "That comment just shows your own ignorance, not RL being bad\n\nhttps://www.science.org/doi/full/10.1126/scirobotics.abk2822",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1705359657,
+      "score": 4,
+      "link_id": "t3_197jp2b",
+      "parent_id": "t1_ki0z0m4"
+    },
+    {
+      "id": "kh8u41c",
+      "body": "| || || |\\_",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1704912660,
+      "score": 12,
+      "link_id": "t3_1932cv6",
+      "parent_id": "t1_kh71d0p"
+    },
+    {
+      "id": "kgzc04e",
+      "body": "This is called double descent, you can read  a bit about it here: https://openai.com/research/deep-double-descent",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1704761383,
+      "score": 5,
+      "link_id": "t3_191vm0t",
+      "parent_id": "t1_kgz59uo"
     }
   ]
 }

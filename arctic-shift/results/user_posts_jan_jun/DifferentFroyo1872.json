@@ -11,6 +11,16 @@
       "score": 1,
       "link_id": "t3_1b5q0sk",
       "parent_id": "t3_1b5q0sk"
+    },
+    {
+      "id": "ku7rqql",
+      "body": "I work in Embedded for 1.5 years now. When I started, I also made some of these courses on Udemy, but I would not recommand any of them.\n\nIt really depends on what your company is using. There are companies which use almost only the ST HAL im their project. And there are companies that dont use it at all.\n\nIf your are going to use the HAL (which I would highly recommand), I would really recommand you the book from Carmine Noviello (the second edtion). Everything you need to start is in there. And it also covers the more advanced topics. There are also some Youtube Videos that can help you to set up your first project.\n\nMy recommandations:\n1. Read the book from Noviello.\n2. Make an example project for every topic you are trying to learn.\n3. Learn how to read the Reference Manual of the Mcu you are using. This is a very important skill. Read quickly over the chapter you are doing the example project about.\n4. Learn how to read the ST HAL Manual for the chip. This will help you if you need to do something that is not covered in the book of Noviello",
+      "author": "DifferentFroyo1872",
+      "subreddit": "embedded",
+      "created_utc": 1710076627,
+      "score": 1,
+      "link_id": "t3_1b7ntkc",
+      "parent_id": "t3_1b7ntkc"
     }
   ]
 }

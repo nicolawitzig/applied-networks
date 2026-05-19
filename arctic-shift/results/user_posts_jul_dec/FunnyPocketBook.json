@@ -1,6 +1,150 @@
 {
   "username": "FunnyPocketBook",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hmzuey",
+      "title": "[Netherlands] 300€, 36m²/390ft²",
+      "author": "FunnyPocketBook",
+      "subreddit": "AirPurifiers",
+      "created_utc": 1735252120,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi!\n\nI'm looking for recommendations that meet (most) of the following:\n\n- Budget: ~300€ for initial cost. Filter cost are not important and can be whatever\n- Area: 36m²\n- Volume: 87m³\n- HEPA filter\n- Filter for pet dander, hair, dust, pollen. We have no heavy pollution such as smoke (except for the occasional scented candle)\n- No ionization/no ozone or easily disabled. Advertised CADR needs to be without ionization\n- Pleasant for the eye (Coway Airmega 150 is still okay, but ideally something like The Sqair)\n- Noise of the device ideally low\n- Optional: Smart device\n\n\n\n",
+      "url": "https://www.reddit.com/r/AirPurifiers/comments/1hmzuey/netherlands_300_36m²390ft²/"
+    },
+    {
+      "id": "1hfkezn",
+      "title": "Ground Truth Segmentation for Mip-NeRF 360 dataset?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1734359656,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi!\n\nI'm looking for ground truth segmentation masks of the Mip-NeRF 360 dataset. Has anyone done that before? I've already looked, but only found a subset of semi-automatically segmented images ([SANeRF-HQ](https://github.com/lyclyc52/SANeRF-HQ))",
+      "url": "https://www.reddit.com/r/computervision/comments/1hfkezn/ground_truth_segmentation_for_mipnerf_360_dataset/"
+    },
+    {
+      "id": "1gubo12",
+      "title": " PSA: Ultimate 2C and Nintendo Switch with adapter",
+      "author": "FunnyPocketBook",
+      "subreddit": "8bitdo",
+      "created_utc": 1731954435,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/8bitdo/comments/1gubo12/psa_ultimate_2c_and_nintendo_switch_with_adapter/"
+    },
+    {
+      "id": "1gubfh5",
+      "title": "PSA: Ultimate 2C and Nintendo Switch with adapter",
+      "author": "FunnyPocketBook",
+      "subreddit": "8bitdo",
+      "created_utc": 1731953856,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.8bitdo.com/wireless-usb-adapter-2/"
+    },
+    {
+      "id": "1gtqym5",
+      "title": "PSA: Ultimate 2C and Nintendo Switch with adapter",
+      "author": "FunnyPocketBook",
+      "subreddit": "8bitdo",
+      "created_utc": 1731886499,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/8bitdo/comments/1gtqym5/psa_ultimate_2c_and_nintendo_switch_with_adapter/"
+    },
+    {
+      "id": "1gnwvmy",
+      "title": "Ultimate 2C now works on Switch with Dongle ",
+      "author": "FunnyPocketBook",
+      "subreddit": "8bitdo",
+      "created_utc": 1731230489,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/8bitdo/comments/1gnwvmy/ultimate_2c_now_works_on_switch_with_dongle/"
+    },
+    {
+      "id": "1gnm0oo",
+      "title": "Datasets like mipnerf 360?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1731192093,
+      "score": 3,
+      "num_comments": 4,
+      "selftext": "Hey!\n\nI'm currently looking for more datasets like mipnerf 360 to test my 3DGS method on. I could make some myself but it would be a lot easier to just download some existing ones.\n\nOr if anyone has their own dataset they want to share (ideally already with camera poses and a sparse poont cloud), I'd be also very happy! The only requirement is that the images are revolving around an object.",
+      "url": "https://www.reddit.com/r/GaussianSplatting/comments/1gnm0oo/datasets_like_mipnerf_360/"
+    },
+    {
+      "id": "1gjda6c",
+      "title": "Tutorial: Use 8BitDo Zero 2 as Bluetooth Page Turner",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1730724086,
+      "score": 35,
+      "num_comments": 3,
+      "selftext": "I've seen quite a few posts and comments mentioning that they encountered issues getting the 8BitDo Zero 2 to work as a page turner, so I decided to write a small step-by-step guide. I'm using a Kobo Clara BW.\n\n1. Visit [https://github.com/tsowell/kobo-btpt](https://github.com/tsowell/kobo-btpt)\n2. On the right hand side, click on \"[Releases](https://github.com/tsowell/kobo-btpt/releases)\". The latest version currently is v0.0.2. If people from the future are reading this, you can use the latest version at your time\n3. Click on [KoboRoot.tgz](https://github.com/tsowell/kobo-btpt/releases/download/v0.0.2/KoboRoot.tgz) of your corresponding version (in my case v0.0.2) to download the file.\n4. Connect your eReader to your computer\n5. Open up the `.kobo` folder of your eReader and copy the `KoboRoot.tgz` into the `.kobo` folder.\n6. Eject the eReader and it will install the stuff\n7. After it's done installing, connect your eReader to your computer again. This time, open the `.btpt` folder. This is where the controller configuration goes. For the 8BitDo Zero 2, it will be [this configuration file](https://github.com/tsowell/kobo-btpt/blob/main/examples/8BitDo%20Zero%202%20gamepad).\n8. Either download the configuration file or create a new file named `8BitDo Zero 2 gamepad` **!!! IMPORTANT !!! The file may not have a file extension!** The file needs to be named `8BitDo Zero 2 gamepad` and not `8BitDo Zero 2 gamepad.txt` or have another file extension. When I downloaded the file from the link, it automatically gave it a `.txt` extension, so I had to remove that. I'll copy-paste the configuration below these instructions\n9. Move your `8BitDo Zero 2 gamepad` file to the `.btpt` folder on your eReader\n10. Eject the eReader and enable Bluetooth\n11. Start your Zero 2 as XInput device. This means that you need to press `X` and the `start` button simultaneously on the controller. The blue LED should blink twice per cycle. If it doesn't blink twice per cycle (but once, three, or four times), then you're in the wrong input mode. You can hold down the `start` button to reset. Instructions are also in the Zero 2 manual.\n12. Put the Zero 2 in pairing mode by holding down the `select` button for 3 seconds. The LED should now blink rapidly.\n13. On your eReader, the controller should show up as `8BitDo Zero 2 gamepad`. Connect to it. Once the controller is connected, the LED should stay a steady blue and on your eReader it will say \"Connected\"\n14. Go to any book and press the up/down or X/B key to go to the next/previous page!\n\nI haven't figured out yet how to reconnect the controller properly after the eReader goes to sleep. So for now, after I wake up the eReader, I go to Bluetooth again, enabe Bluetooth, put the controller in pairing mode and connect it to the eReader. So no automatic connection for me (yet?)\n\nConfiguration file named `8BitDo Zero 2 gamepad`\n\n    prevPage EV_ABS ABS_Y 65535\n    nextPage EV_ABS ABS_Y 0\n    prevPage EV_KEY BTN_NORTH 0\n    nextPage EV_KEY BTN_SOUTH 0",
+      "url": "https://www.reddit.com/r/kobo/comments/1gjda6c/tutorial_use_8bitdo_zero_2_as_bluetooth_page/"
+    },
+    {
+      "id": "1f1lck3",
+      "title": "What kind of glue works?",
+      "author": "FunnyPocketBook",
+      "subreddit": "fixit",
+      "created_utc": 1724669954,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I've got this Donald Duck keychain and a small part of it broke off. The material is kinda rubbery but I haven't found a way or glue that can work with this material. Any tips?",
+      "url": "https://i.redd.it/3ebh7yy8pzkd1.jpeg"
+    },
+    {
+      "id": "1f0xoiu",
+      "title": "Zotero 7 Plugin Development",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1724596337,
+      "score": 3,
+      "num_comments": 4,
+      "selftext": "I would like to create some plugins for Zotero 7, but I have never created one before.\n\nBesides the [official page](https://www.zotero.org/support/dev/client_coding/plugin_development), is there a third-party guide for plugin development for Zotero 7?\n\nI can figure out how to get started using their official sample plugin, but if there was a guide/blog/something it would speed up the process a lot.",
+      "url": "https://www.reddit.com/r/zotero/comments/1f0xoiu/zotero_7_plugin_development/"
+    },
+    {
+      "id": "1ezjyc5",
+      "title": "Heard so many good things about Kobo, so I got three of them!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724437437,
+      "score": 79,
+      "num_comments": 14,
+      "selftext": "One for a friend, one for my fiancée, and one for me :)",
+      "url": "https://i.redd.it/ygwojhquhgkd1.jpeg"
+    },
+    {
+      "id": "1esckwr",
+      "title": "I was able to upgrade my server upgrade thanks to my users",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723669156,
+      "score": 324,
+      "num_comments": 65,
+      "selftext": "I hope this qualifies as a Wednesday post - just a small story that I'm not really able to tell anywhere else!\n\nLast August, a friend of mine, who is managing the server with me, and me decided to upgrade our server (new CPU, MB, more RAM and an additional HDD). That upgrade would have cost us about 850 Euro.\n\nSince a lot of our friends (mostly students or recent grads) use Jellyfin regularly (30 users in the past week, 15 in the last 24 hours) and had mentioned wanting to contribute, we figured we might be able to collect 50, maybe 100 euros in donations. So, we emailed the active users, explained the upgrade plan, and said we'd appreciate any contributions if they were in a position to help.\n\nWe were expecting 100 Euro at best, but in the end we got 15 people who donated for an amazing total of 1001 Euro! We initially planned on getting a i5 13400 and 64GB of RAM, but thanks to the donations that went wayyy above our target, we were able to upgrade to an i5 13500 and 128GB of RAM. There was even some money left to cover a little bit of our recurring costs like VPS and Usenet indexers/providers.\n\nMost of those people never told us explicitly how much they appreciate being able to use the server, but I think in this case money speaks louder than words",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1esckwr/i_was_able_to_upgrade_my_server_upgrade_thanks_to/"
+    },
+    {
+      "id": "1es3ah0",
+      "title": "Modern Readarr Alternative",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723646316,
+      "score": 41,
+      "num_comments": 19,
+      "selftext": "Since all the \\*arrs rely on their proprietary metadata server with Readarr's metadata server experiencing frequent issues, I was wondering if there is an alternative to Readarr that is not LazyLibrarian. While LL is functionally good, I feel that its roots date many years back.\n\nDoes anyone have a suggestion for a Readarr alternative, except for forking LL or reverse-engineering Readarr's metadata server?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1es3ah0/modern_readarr_alternative/"
+    }
+  ],
   "comments": [
     {
       "id": "lu7a3vj",
@@ -21,6 +165,2556 @@
       "score": 2,
       "link_id": "t3_1gda1qv",
       "parent_id": "t3_1gda1qv"
+    },
+    {
+      "id": "m49jih0",
+      "body": "So every time the vacuum is used, the user needs to put their smartphone on the robot?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1735426399,
+      "score": 8,
+      "link_id": "t3_1hohe03",
+      "parent_id": "t1_m49iwwj"
+    },
+    {
+      "id": "m49ie8q",
+      "body": "Why would a company use a smartphone for that if the separate components together cost a fraction of a smartphone?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1735426012,
+      "score": 13,
+      "link_id": "t3_1hohe03",
+      "parent_id": "t3_1hohe03"
+    },
+    {
+      "id": "m495iks",
+      "body": "Great, thanks! I'll try it out :)",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1735421670,
+      "score": 1,
+      "link_id": "t3_1hnjsx7",
+      "parent_id": "t1_m48y68f"
+    },
+    {
+      "id": "m46dxzi",
+      "body": "Ahh makes sense! Do you know a good solution for Android? The Overland Android one is no longer maintained",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1735383247,
+      "score": 1,
+      "link_id": "t3_1hnjsx7",
+      "parent_id": "t1_m46dfxe"
+    },
+    {
+      "id": "m443g62",
+      "body": "Been \"using\" it since the beginning! However, since I never got OwnTracks to work nicely, my data/timeline is very splotchy. Do you have any recommended settings to use without killing the battery?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1735343242,
+      "score": 2,
+      "link_id": "t3_1hnjsx7",
+      "parent_id": "t3_1hnjsx7"
+    },
+    {
+      "id": "m40mp1j",
+      "body": "I agree with you. Growing up in the German speaking countries (DACH) I very rarely experienced targeted rscism at me and most of it was done by children.\n\nThen I moved here almost three years ago and since then I get a racist comment every 1-2 months",
+      "author": "FunnyPocketBook",
+      "subreddit": "Amsterdam",
+      "created_utc": 1735297866,
+      "score": 8,
+      "link_id": "t3_1hn194h",
+      "parent_id": "t1_m40h1ms"
+    },
+    {
+      "id": "m3t9km2",
+      "body": "I agree that listing expected skills is needed, but if you have an EE degree, you also know maths. I don't know how the education system is in your country, but in the Netherlands, each accredited EE degree must also have certain maths courses.",
+      "author": "FunnyPocketBook",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1735175504,
+      "score": 1,
+      "link_id": "t3_1hksr5b",
+      "parent_id": "t1_m3mcc8s"
+    },
+    {
+      "id": "m3qej9c",
+      "body": "Yes, it intentionally ignores female voices. In fact, when it hears a female voice in its vicinity, it will increase a lock-out timer by 5 minutes. So you either have to wait for 5 minutes before you can use it or you can go to their website and pay the unlocking fee.",
+      "author": "FunnyPocketBook",
+      "subreddit": "homeassistant",
+      "created_utc": 1735134092,
+      "score": 9,
+      "link_id": "t3_1hm0s84",
+      "parent_id": "t3_1hm0s84"
+    },
+    {
+      "id": "m3gware",
+      "body": "I'm happy for you that you got so many visitors in the last 3 months!\n\nHowever, I was wondering why basically all ML videos are from the channel CampusX?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1734976819,
+      "score": 26,
+      "link_id": "t3_1hkqtyc",
+      "parent_id": "t3_1hkqtyc"
+    },
+    {
+      "id": "m3ex70x",
+      "body": "Have you checked the logs already?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1734945435,
+      "score": 2,
+      "link_id": "t3_1hkjvlv",
+      "parent_id": "t3_1hkjvlv"
+    },
+    {
+      "id": "m3dbmva",
+      "body": "I can highly recommend getting lactase pills and never worrying about dairy again. I can also recommend to not buy the lactase pills here in the Netherlands - I haven't found any that are affordable, come in a handy packaging and are smaller tablets.\n\nI always buy these ones from Germany and have no complaints since I started using them 7 years ago: https://www.amazon.de/dp/B00S6I1ZE8",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1734915871,
+      "score": 7,
+      "link_id": "t3_1hkblmx",
+      "parent_id": "t3_1hkblmx"
+    },
+    {
+      "id": "m32ezcf",
+      "body": "That's fair! Attracts more clicks as well, I presume :D\n\nSection 2.4 of that survey talks about dynamic scenes, which is quite different from static scenes, which 3DGS is usually used for. Since I personally haven't seen many 3DGS papers on static scenes that use neural networks, I wouldn't say that the creation of the render often uses neural networks, especially since the original paper doesn't use any",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1734741906,
+      "score": 1,
+      "link_id": "t3_1hir013",
+      "parent_id": "t1_m32ciz9"
+    },
+    {
+      "id": "m32bl32",
+      "body": "That's a nice summary of what happened this year, thanks! I have two questions, though.\n\nI feel like the title is misleading - hasn't basically every year been the best for Visual AI (so far)?\n\nAlso, the article says \"Accuracy still was dependent on a robust neural network\" regarding 3D Gaussian Splatting, but 3DGS doesn't use any neural networks. Am I missing something?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1734740537,
+      "score": 3,
+      "link_id": "t3_1hir013",
+      "parent_id": "t3_1hir013"
+    },
+    {
+      "id": "m2u42jd",
+      "body": "Great to hear that you got it working! If there are any suggestions on how to make the guide clearer, please let me know!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1734622759,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_m2t2ygx"
+    },
+    {
+      "id": "m2ptolr",
+      "body": "How much overlap between the pictures is there? Did you just use the standard COLMAP settings? It would be great if you could show some example pictures!\n\nYou could try [VGGSfM](https://github.com/facebookresearch/vggsfm) - a new SfM method that works a lot better (and faster) than COLMAP but produces the same output format",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1734554995,
+      "score": 3,
+      "link_id": "t3_1hh9x2i",
+      "parent_id": "t3_1hh9x2i"
+    },
+    {
+      "id": "m2ndd9u",
+      "body": "spaCy is great for this\n\n[This site](https://spacy.io/usage/linguistic-features/#pos-tagging) should contain everything to get you started. I'd use POS to get the important keywords/nouns and then compare (semantic similarity) those with the list of keywords that you have",
+      "author": "FunnyPocketBook",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734525052,
+      "score": 1,
+      "link_id": "t3_1hgkvrk",
+      "parent_id": "t1_m2mwzgh"
+    },
+    {
+      "id": "m2mmuex",
+      "body": "Which provider is that? I'm using Odido",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1734508323,
+      "score": 3,
+      "link_id": "t3_1hgvebm",
+      "parent_id": "t1_m2mmm4v"
+    },
+    {
+      "id": "m2kujs8",
+      "body": "If you don't want to use any LLMs, POS or noun chunking and semantic similarity could help",
+      "author": "FunnyPocketBook",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734480088,
+      "score": 3,
+      "link_id": "t3_1hgkvrk",
+      "parent_id": "t3_1hgkvrk"
+    },
+    {
+      "id": "m2ikf3k",
+      "body": "Not sure if I misunderstand you, but you seem to agree with what I'm saying :D Putting videos in ABS is too much",
+      "author": "FunnyPocketBook",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1734453403,
+      "score": 1,
+      "link_id": "t3_1hfy15q",
+      "parent_id": "t1_m2ik4jd"
+    },
+    {
+      "id": "m2i9ykb",
+      "body": "Oh cool, thanks!\nI was more thinking about syncing ABS and Calibre specifically, since so many people use those two. But I can definitely check out the logic that Fabuly uses",
+      "author": "FunnyPocketBook",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1734450022,
+      "score": 1,
+      "link_id": "t3_1hfy15q",
+      "parent_id": "t1_m2i2y8p"
+    },
+    {
+      "id": "m2i17h3",
+      "body": "Same here - I'm also using Calibre instead of ABS. I generally like having separated services if there is no apparent reason to have everything in one\n\nOne thing I wish there was is a sync between Calibre eBook and ABS audiobook. I might actually work on that next year, but I have the feeling something like that already exist...",
+      "author": "FunnyPocketBook",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1734447008,
+      "score": 1,
+      "link_id": "t3_1hfy15q",
+      "parent_id": "t1_m2i0tlc"
+    },
+    {
+      "id": "m2hrn81",
+      "body": "I'd say that the feature request isn't too far fetched, because ABS also has eBook integration. I'd definitely say that getting video streams into ABS is way too much, but I can see where OP is coming from if you're using ABS for podcasts",
+      "author": "FunnyPocketBook",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1734443399,
+      "score": 0,
+      "link_id": "t3_1hfy15q",
+      "parent_id": "t1_m2g09ld"
+    },
+    {
+      "id": "m2au21c",
+      "body": "You mean because the programmers choose to do this themselves in their own free time?",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1734336311,
+      "score": 2,
+      "link_id": "t3_1hez99w",
+      "parent_id": "t1_m2aangy"
+    },
+    {
+      "id": "m28l0qp",
+      "body": "Not in trouble, but it can put people off. Depends on the wording though - such projects can always be worded in a way to make it sound legit. What did you write?",
+      "author": "FunnyPocketBook",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1734301716,
+      "score": 7,
+      "link_id": "t3_1hf3trm",
+      "parent_id": "t3_1hf3trm"
+    },
+    {
+      "id": "m1zyzwq",
+      "body": "Croc",
+      "author": "FunnyPocketBook",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1734172450,
+      "score": 1,
+      "link_id": "t3_1hdmaq6",
+      "parent_id": "t3_1hdmaq6"
+    },
+    {
+      "id": "m1tqve4",
+      "body": "What's the budget?",
+      "author": "FunnyPocketBook",
+      "subreddit": "forhire",
+      "created_utc": 1734073878,
+      "score": 1,
+      "link_id": "t3_1hd5x56",
+      "parent_id": "t3_1hd5x56"
+    },
+    {
+      "id": "m1ee1hk",
+      "body": "Can you check if COLMAP estimated the correct camera poses for each camera? You can do that by downloading the COLMAP GUI and importing your COLMAP data there. Your issue sounds like there are some cameras that are misaligned\n\nAn alternative (that is also faster) is [VGGSfM](https://github.com/facebookresearch/vggsfm)",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1733856411,
+      "score": 3,
+      "link_id": "t3_1hb4hdq",
+      "parent_id": "t1_m1drm69"
+    },
+    {
+      "id": "m1doq9w",
+      "body": "The \"Type\" should say \"File\" instead of \"Text Document\". If you go to View -> Show -> File name extensions, you can see the file name extension of your file and then delete the .txt part of the filename.\n\nSo once you enable \"File name extensions\", your file should show up as \"8BitDo Zero 2 gamepad.txt\", from where you remove the \".txt\" part\n\nhttps://preview.redd.it/cjhl7xpot16e1.png?width=449&format=png&auto=webp&s=dc715ab98f5eb8613bdac9298771be89d6510c8f\n\nI",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1733848536,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_m1dmwpy"
+    },
+    {
+      "id": "m124yjt",
+      "body": "If 80k isn't much to you, surely you could give me 8k?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1733679250,
+      "score": 1,
+      "link_id": "t3_1h9hcta",
+      "parent_id": "t1_m11vp5w"
+    },
+    {
+      "id": "m0syjaw",
+      "body": "Could you elaborate on that? I'm not sure what to imagine, to me it sounds like just converting/extracting frames from the video and passing them to colmap",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1733535978,
+      "score": 3,
+      "link_id": "t3_1h88qyz",
+      "parent_id": "t1_m0rtub1"
+    },
+    {
+      "id": "m069tyc",
+      "body": "To me, services that do some special stuff with the database (like Immich or Nextcloud) get their own instance (separate DB service in docker-compose), services that use the database as-is can share an instance. Services that are critical to me but use the database as-is also get their own DB instance",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1733215422,
+      "score": 8,
+      "link_id": "t3_1h5iydq",
+      "parent_id": "t3_1h5iydq"
+    },
+    {
+      "id": "m004pb1",
+      "body": "First of all, document everything you do and put your (and only your) name on the things you do! Do not let your teammates steal your credit for the work you have done. Second, you're an undergrad - you have no clue how to do proper research that could be published, so going in with the expectation of being able to publish something is wild to me. This project sounds like a great project to *start* your research journey!\n\nRegarding \"should I put the hours in\" - if you want to work with 3D reconstruction later on, you will have to do this \"grunt work\" anyway, there is no way around it. You can't try novel ideas if you don't understand what you're building on top of. So it's something you'll have to ask yourself, what is your end goal? \n\nReading the papers multiple time to understand the code is also not really feasible, as the papers are usually very brief. It's better to start the debugger and go through every function, if you really want to understand the code.\n\nOn a more practical note, I can help you on the 3DGS side. Nerfstudio has always worked flawlessly for me and I can also tell you how/where to modify the code to insert a custom camera position if you send me a DM!",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1733123816,
+      "score": 1,
+      "link_id": "t3_1h4o0q0",
+      "parent_id": "t3_1h4o0q0"
+    },
+    {
+      "id": "lzycoeq",
+      "body": "Oh, okay. I assumed you read the post and not just the title, because OP said that they are on the free plan.",
+      "author": "FunnyPocketBook",
+      "subreddit": "ProtonMail",
+      "created_utc": 1733096932,
+      "score": 3,
+      "link_id": "t3_1h4ajxn",
+      "parent_id": "t1_lzyccfp"
+    },
+    {
+      "id": "lzy94au",
+      "body": "You can use your own domain on the free plan??",
+      "author": "FunnyPocketBook",
+      "subreddit": "ProtonMail",
+      "created_utc": 1733095680,
+      "score": 0,
+      "link_id": "t3_1h4ajxn",
+      "parent_id": "t1_lzwyxl3"
+    },
+    {
+      "id": "lzwuawv",
+      "body": "Oh sorry, didn't see this question! First, ensure that you are not hiding file extensions: Finder > Preferences, then click Advanced. Select \"Show all filename extensions\".\n\nThen, create a new text file, put the 4 lines in there and save the text file as \"8BitDo Zero 2 gamepad\". If the file now somehow shows up as \"8BitDo Zero 2 gamepad.txt\", rename the file to \"8BitDo Zero 2 gamepad\" (so just delete .txt)\n\nThen move that file to the .btpt folder of your Kobo",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1733079544,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lzm1u0x"
+    },
+    {
+      "id": "lzwtf4g",
+      "body": "That looks as it should... The KoboRoot.tgz should be a .tgz file, but can be opened similar to a .zip file\n\nThe fact that your Kobo was installing something and that KoboRoot.tgz is missing now should mean that you did everything correctly. I'm not sure why it's not working for you, the only thing I can think of is that your \"8BitDo Zero 2 gamepad\" file is somehow incorrect. Could you remake that file?",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1733079276,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lzw4by3"
+    },
+    {
+      "id": "lzw1xxg",
+      "body": "Hmm, that's odd. Using the controller out of the box should work...\n\nWhat's the file called that you put under \\`.btpt\\` and what is the content? I'm assuming it's what step 8 says, but if you could copy paste what you have in here, that would be great!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1733070780,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lzvzvq9"
+    },
+    {
+      "id": "lzvtspt",
+      "body": "Glad it's working well! I also found it easy to use, so I PRd the Dockerfile in there :D",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1733068069,
+      "score": 2,
+      "link_id": "t3_1h14q7h",
+      "parent_id": "t1_lzvrmyh"
+    },
+    {
+      "id": "lzp58iy",
+      "body": "Isn't it just a matter of turning the docker run command into a docker-compose file and then creating a new stack in portainer? That's how I run all my 130 services via portainer.\n\nYou could just copy-paste the docker run command into ChatGPT and ask it to create a compose file for you",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1732964859,
+      "score": 1,
+      "link_id": "t3_1h394mf",
+      "parent_id": "t1_lzozku1"
+    },
+    {
+      "id": "lzn2x9p",
+      "body": "It is indeed a known limitation. Rumble, motion control, and waking up the Switch are not possible with the adapter. I've sent them an email and asked, got that as a teply",
+      "author": "FunnyPocketBook",
+      "subreddit": "8bitdo",
+      "created_utc": 1732926576,
+      "score": 1,
+      "link_id": "t3_1h2w4we",
+      "parent_id": "t3_1h2w4we"
+    },
+    {
+      "id": "lzn2hso",
+      "body": "I was so excited for flux but it is so incredibly bad: feature incomplete and slow. I am not surprised at all that they are going back to InfluxQL, but I am surprised that flux is apparently so fucked that they cannot fix it",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1732926405,
+      "score": 3,
+      "link_id": "t3_1h2x9i1",
+      "parent_id": "t1_lzmkrnu"
+    },
+    {
+      "id": "lzm0qm6",
+      "body": "Can be done on a Mac!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1732912620,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lzlzws0"
+    },
+    {
+      "id": "lzjnx2s",
+      "body": "6 down from the right side of the left nostril",
+      "author": "FunnyPocketBook",
+      "subreddit": "mildlyinteresting",
+      "created_utc": 1732879719,
+      "score": 0,
+      "link_id": "t3_1h1wovl",
+      "parent_id": "t1_lziukyt"
+    },
+    {
+      "id": "lzddbwz",
+      "body": "Thanks a lot! 27 hours is insane, sounds like it got stuck. Are you just following the instructions in the readme or are you running it jn Docker? What does the output say when it was running for 27 hours?\n\nRegarding requirements, I was more thinking about the input data - MonoGS works for monocular RGB data as input, is that your requirement? If so, the paper that I posted should serve you well.",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1732775958,
+      "score": 2,
+      "link_id": "t3_1h14q7h",
+      "parent_id": "t1_lzd1cjs"
+    },
+    {
+      "id": "lzbtpx4",
+      "body": "1. What takes long? \n2. How long did it take? \n3. What is your hardware? \n4. Which command did you use? \n5. Which dataset did you use?  \n6. When asking about other visual SLAM, what are your requirements?\n\nThere is a lot of information missing here to be able to really help you. When I ran the provided datasets, I didn't think that it took very long to run it, at least not longer than my gut feeling expected.\n\nWithout knowing the answer to number 6, this more recent paper might be useful to you: https://github.com/google-research/Splat-SLAM",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1732752178,
+      "score": 2,
+      "link_id": "t3_1h14q7h",
+      "parent_id": "t3_1h14q7h"
+    },
+    {
+      "id": "lytrvhx",
+      "body": "Amazing, thanks! Any plans on dockerizing this?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1732493306,
+      "score": 2,
+      "link_id": "t3_1gyigsj",
+      "parent_id": "t3_1gyigsj"
+    },
+    {
+      "id": "lyr3ecn",
+      "body": "Doesn't help the case if their instrument is very prominent in the songs! Stands out immediately. I also thought that the string section was quite out of sync",
+      "author": "FunnyPocketBook",
+      "subreddit": "Competitiveoverwatch",
+      "created_utc": 1732462545,
+      "score": 14,
+      "link_id": "t3_1gytalf",
+      "parent_id": "t1_lyr2846"
+    },
+    {
+      "id": "ly2ca28",
+      "body": "How many days exactly has it been between the two pictures? It is only illegal if it was within 30 days. That's why some stores increase the prices about a month before stuff like Black Friday",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1732086321,
+      "score": 30,
+      "link_id": "t3_1gvc96d",
+      "parent_id": "t3_1gvc96d"
+    },
+    {
+      "id": "ly030us",
+      "body": "https://discord.com/invite/U9m93ttEwR",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1732054560,
+      "score": 1,
+      "link_id": "t3_1guqkb0",
+      "parent_id": "t1_lxzyv0q"
+    },
+    {
+      "id": "lxwmft9",
+      "body": "A month or two ago they finally added more compute power to the metadata server and now it's working a looot better than it used ti",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1732011579,
+      "score": 2,
+      "link_id": "t3_1guqkb0",
+      "parent_id": "t1_lxw0tts"
+    },
+    {
+      "id": "lxwmdiw",
+      "body": "There is already something in works, using OpenLibrary. Join their Discord (servarr) to read more about it",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1732011538,
+      "score": 13,
+      "link_id": "t3_1guqkb0",
+      "parent_id": "t1_lxwedic"
+    },
+    {
+      "id": "lxsu8qo",
+      "body": "Yes, that's exactly the point - the comment you replied to said \"sadly\". So it would have been really amazing if it was cracked, as that would also mean we could get the newer updates as well",
+      "author": "FunnyPocketBook",
+      "subreddit": "CrackSupport",
+      "created_utc": 1731956815,
+      "score": 1,
+      "link_id": "t3_1gt81bw",
+      "parent_id": "t1_lxsu0qu"
+    },
+    {
+      "id": "lxstwcg",
+      "body": "People care because if it's cracked, that means other games using the same protection are also more likely to be cracked.",
+      "author": "FunnyPocketBook",
+      "subreddit": "CrackSupport",
+      "created_utc": 1731956711,
+      "score": 2,
+      "link_id": "t3_1gt81bw",
+      "parent_id": "t1_lxkvggk"
+    },
+    {
+      "id": "lxsib6u",
+      "body": "https://ind.nl/en/short-stay/short-stay-holiday-or-business-visa\n\nIf you select your nationality here, it will tell you all you need to know.\n\nThe minimum amount of money is only needed if you are *staying* in the Netherlands, so e.g. if you are on holiday. Just for passing through or being there for a few hours doesn't count for this requirement",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1731953226,
+      "score": 1,
+      "link_id": "t3_1gu9pm5",
+      "parent_id": "t3_1gu9pm5"
+    },
+    {
+      "id": "lxobt8u",
+      "body": "How would that help for 3D surface reconstruction given a sparse point cloud?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1731888078,
+      "score": 3,
+      "link_id": "t3_1gtqk41",
+      "parent_id": "t1_lxo4vzv"
+    },
+    {
+      "id": "lxo8mpd",
+      "body": "It's possible with the wireless adapter 2! New firmware update made it possible",
+      "author": "FunnyPocketBook",
+      "subreddit": "8bitdo",
+      "created_utc": 1731886961,
+      "score": 1,
+      "link_id": "t3_1gt49zs",
+      "parent_id": "t1_lxmqq5h"
+    },
+    {
+      "id": "lxev9m4",
+      "body": "It's no different from getting a parcel from Switzerland and you're not home. Also, estimated shipping times are also on AliExpress when you get to checkout",
+      "author": "FunnyPocketBook",
+      "subreddit": "Switzerland",
+      "created_utc": 1731752270,
+      "score": 15,
+      "link_id": "t3_1gskc5t",
+      "parent_id": "t3_1gskc5t"
+    },
+    {
+      "id": "lxawvzz",
+      "body": "What is the exact file that you downloaded? It should be KoboRoot.tgz\n\nIt looks like you downloaded the source code .zip file\n\n\nHere the [direct link](https://objects.githubusercontent.com/github-production-release-asset-2e65be/466319478/b550a6fa-f3cb-4dde-8085-23a0c80f754a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241115T181251Z&X-Amz-Expires=300&X-Amz-Signature=01157356b36d3f9579f13ff9137081c83e495dfe1c0d665db96f71ca6dc0387d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DKoboRoot.tgz&response-content-type=application%2Foctet-stream) to the download of KoboRoot.tgz",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1731694492,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lxaslxd"
+    },
+    {
+      "id": "lx8rsnn",
+      "body": "Can't really help you unless you also talk about yourself. What are your ambitions, why did you go for both CS and AI?",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1731667136,
+      "score": 2,
+      "link_id": "t3_1grt76e",
+      "parent_id": "t3_1grt76e"
+    },
+    {
+      "id": "lx5emhd",
+      "body": "Changing the font size should be doable! I had a quick look around and I think in order to find all the functionality, some light reverse engineering is needed.\n\nThere is a plugin for KOReader with which you can do a lot more than what is outlined in my post - maybe useful for you!\n\nhttps://www.mobileread.com/forums/showthread.php?t=362986",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1731618360,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lx56kko"
+    },
+    {
+      "id": "lx51th2",
+      "body": "In [this link](https://github.com/tsowell/kobo-btpt?tab=readme-ov-file#configuration) it says that previous/next chapter also work, but I haven't tried anything besides prev/next page. Theoretically you are also able to have other keybinds, but I'm not entirely sure how to find them. The same link also points to the event codes, so maybe one has to look through that?\n\nIf I have time, I'll can try to find if locking/unlocking and zoom is possible! Not sure if it is, because locking the eReader also disables Bluetooth pretty quickly",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1731614416,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lx50fwb"
+    },
+    {
+      "id": "lx4t0od",
+      "body": "Glad that the instructions are clear! I actually did made a separate post :) It has some updated instructions and also shows how you can semi-automatically connect the controller\n\nhttps://www.reddit.com/r/kobo/s/ZOR55ZAQ78",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1731611724,
+      "score": 2,
+      "link_id": "t3_1ghedbn",
+      "parent_id": "t1_lx4qsap"
+    },
+    {
+      "id": "lx21ydx",
+      "body": "I'm pretty sure this happened because it's a double boop - Pharah used concussion mine and right after that you booped the Reaper",
+      "author": "FunnyPocketBook",
+      "subreddit": "luciomains",
+      "created_utc": 1731571344,
+      "score": 1,
+      "link_id": "t3_1gqgnsc",
+      "parent_id": "t3_1gqgnsc"
+    },
+    {
+      "id": "lwy0s52",
+      "body": "Every recruiter and career fair person I have talked to (in the IT field) has said that basically no employer cares about grades and even less about cum laude. However, large tech companies like Google do look at that - but it's just to get an interview in the first place, afterwards it is irrelevant again",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1731518007,
+      "score": 17,
+      "link_id": "t3_1gqh4ot",
+      "parent_id": "t3_1gqh4ot"
+    },
+    {
+      "id": "lwvu62n",
+      "body": "Overseparation is generally better, because combining is easier than separating. You can use some heuristic to combine the dots of the i with the rest. For example, you could take the surface area of the dot as an indicator that it is a dot and then check the shape of the letter right underneath the dot\n\nOne hurdle here is that you're dealing with different text sizes, but maybe clustering could help you out here",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1731482589,
+      "score": 1,
+      "link_id": "t3_1gq6tfz",
+      "parent_id": "t3_1gq6tfz"
+    },
+    {
+      "id": "lwseju8",
+      "body": "Not sure where you're getting the idea that people aren't happy with your explanation, but I like it!\n\nThe way I have been explaining it is very similar: 3D Gaussian Splatting is like painting with watercolours, but you can edit each of your previous stroke. A Gaussian would be one stroke.\n\nIf you paint the blue sky, you can make a couple large and long strokes and the sky is done, because there is not much detail. If you want to paint a bee landing on a flower, you need many tiny strokes to capture the small details. Maybe down the line you think \"hmm the sky isn't actually just one blue, it has multiple blues\", you can \"undo\" the large stroke that you did in the beginning and replace it with a few strokes that are smaller. You can dip your paintbrush in a lot of paint to create one opaque stroke, or you can put many light strokes on top of each other to blend colours and make it opaque.\n\nWhere I struggle with explaining it is how to translate this to 3D: The nice thing about NeRF and 3DGS over photogrammetry is that they can handle complex lighting and have view dependent effects. I don't know how to continue my watercolour example to include this. Maybe saying that if I stack 10 windows behind each other and each part of each window has a different colour, then I would see a different blend of colours whenever I move around? \n\nAnother part is the 3D itself: How do 2D images suddenly translate to 3D? I've always said \"it's basically triangulation: identify a common point on two or more pictures and then you have that point in 3D\", but to me this sounds like \"it works like that because it works like that\"",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1731436679,
+      "score": 2,
+      "link_id": "t3_1gpmjev",
+      "parent_id": "t1_lwrdva1"
+    },
+    {
+      "id": "lwiabwt",
+      "body": "What do you mean bt the scale is way off?\n\nI'm assuming you mean that there are points in the scene that are way off, like miles away from your actual splat. The reason for that is that Postshot uses MCMC by default and those points that are way off are a natural consequence of the way MCMC works. \nI usually just zoom into my splat in supersplat, select the general area of my splat, invert the selection and delete all those Gaussians",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1731287306,
+      "score": 2,
+      "link_id": "t3_1goekxi",
+      "parent_id": "t3_1goekxi"
+    },
+    {
+      "id": "lwhq8j5",
+      "body": "Kavita is self hosted",
+      "author": "FunnyPocketBook",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1731280248,
+      "score": 1,
+      "link_id": "t3_1gnlm8t",
+      "parent_id": "t1_lwbnddy"
+    },
+    {
+      "id": "lwhpzdt",
+      "body": "Both the round and rectangular one are TS0201, but one is TZ2000 and the other one TZ3000 - firmware should be the same, though.\n\n\nI have like 10 of the rectangular ones and I'm sufficiently satisfied with them, given the price - their polling rate is low and for some reason they also don't send the battery information anymore, but that might be an easy fix. You can read more about them here: https://github.com/Koenkk/zigbee2mqtt/issues/4202",
+      "author": "FunnyPocketBook",
+      "subreddit": "homeassistant",
+      "created_utc": 1731280161,
+      "score": 2,
+      "link_id": "t3_1goaglj",
+      "parent_id": "t1_lwhf2sr"
+    },
+    {
+      "id": "lwgoeei",
+      "body": "OP did mention that though, both in the OP and in the first comment that you responded to.",
+      "author": "FunnyPocketBook",
+      "subreddit": "Switzerland",
+      "created_utc": 1731268601,
+      "score": 1,
+      "link_id": "t3_1go7six",
+      "parent_id": "t1_lwghnco"
+    },
+    {
+      "id": "lwep5nh",
+      "body": "Same, but 1970. Why do people always have to brag about since how long they've been using something?",
+      "author": "FunnyPocketBook",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1731245508,
+      "score": 1,
+      "link_id": "t3_1gnetac",
+      "parent_id": "t1_lwag58p"
+    },
+    {
+      "id": "lwe1xc8",
+      "body": "I mean, nowhere in OPs post does it say it's free refill or McDonalds. The bag on the table says Jack in the Box - maybe they have the same policy, but in Europe there is generally no \"free refills\".\n\nThe people saying \"yOu gOt wHaT YoU pAiD fOr\" are likely just people who don't know the context, because OP didn't provide any. OP only stated that they asked why the cup is only 2/3 full, when the crucial piece of information is that there are free refills.",
+      "author": "FunnyPocketBook",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1731232262,
+      "score": 1,
+      "link_id": "t3_1gnpufn",
+      "parent_id": "t1_lwdblhp"
+    },
+    {
+      "id": "lwe04a5",
+      "body": "1702",
+      "author": "FunnyPocketBook",
+      "subreddit": "homelab",
+      "created_utc": 1731231034,
+      "score": 1,
+      "link_id": "t3_1gns5aj",
+      "parent_id": "t3_1gns5aj"
+    },
+    {
+      "id": "lwdyk2v",
+      "body": "Amazing, thanks a lot!",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1731229985,
+      "score": 1,
+      "link_id": "t3_1gnm0oo",
+      "parent_id": "t1_lwbn8ed"
+    },
+    {
+      "id": "lw8dgqs",
+      "body": "That's so cool, thanks! I tried getting gotify's logo but got a logo with the letter \"b\" in it. How does your app work in the back?",
+      "author": "FunnyPocketBook",
+      "subreddit": "webdev",
+      "created_utc": 1731149931,
+      "score": 2,
+      "link_id": "t3_1gn58j4",
+      "parent_id": "t3_1gn58j4"
+    },
+    {
+      "id": "lw5cv29",
+      "body": "Can't help you, sorry! But I have a question: What made you run a separate LXC for each Docker container?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1731101452,
+      "score": 7,
+      "link_id": "t3_1gmta6x",
+      "parent_id": "t3_1gmta6x"
+    },
+    {
+      "id": "lw1ru7y",
+      "body": "But what does it stand for? :D\n\nAnd thanks for the website, I can see how it might be handy!!",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1731054652,
+      "score": 1,
+      "link_id": "t3_1gmcbf2",
+      "parent_id": "t1_lw1rqij"
+    },
+    {
+      "id": "lw1q0o7",
+      "body": "What's MJJ? Googling just shows Michael Jackson. Are these deals Michael Jackson exclusive?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1731053501,
+      "score": 1,
+      "link_id": "t3_1gmcbf2",
+      "parent_id": "t3_1gmcbf2"
+    },
+    {
+      "id": "lw1mq5m",
+      "body": "Nextcloud is such a moody piece of software. On my server that is basically just a glorified consumer PC, Nextcloud is working amazingly well, but on your high end data centre hardware it is not.\n\nWhile, compared to you, I have not seen much, I've never seen a self-hosted application with such a dramatic performance difference across different hardware as Nextcloud.",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1731051492,
+      "score": 38,
+      "link_id": "t3_1gmc16j",
+      "parent_id": "t1_lw1e3u5"
+    },
+    {
+      "id": "lvxvs2c",
+      "body": "Most relatable answer ever :D",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1731004753,
+      "score": 2,
+      "link_id": "t3_1gkz7f6",
+      "parent_id": "t1_lvxvm4v"
+    },
+    {
+      "id": "lvsoq1c",
+      "body": "Oh nice! Glad it worked out. Any reason why you're not using the Mac application instead of the browser?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1730931962,
+      "score": 2,
+      "link_id": "t3_1gkz7f6",
+      "parent_id": "t1_lvsjuvu"
+    },
+    {
+      "id": "lvs0o94",
+      "body": "Happy to help! Let me know if you get stuck somewhere",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1730925302,
+      "score": 2,
+      "link_id": "t3_1gkz7f6",
+      "parent_id": "t1_lvrwnnu"
+    },
+    {
+      "id": "lvry0jp",
+      "body": "Since OP said it's a \"research computer\", I very much hope that it is going to run Linux and not Windows",
+      "author": "FunnyPocketBook",
+      "subreddit": "OpenAI",
+      "created_utc": 1730924577,
+      "score": 10,
+      "link_id": "t3_1gl56u0",
+      "parent_id": "t1_lvrlstb"
+    },
+    {
+      "id": "lvrqymc",
+      "body": "Not a dumb question at all! Sorry, I didn't realise that this one requires you to run colmap yourself. Please note that using this method might take a good while longer than Postshot or Luma\n\nIt's a bit more complex than just clicking a few buttons, but here's the gist of it (assuming you're using Mac)\n\n1. Using homebrew, install colmap: [https://formulae.brew.sh/formula/colmap](https://formulae.brew.sh/formula/colmap)\n2. Open the colmap GUI ( [https://colmap.github.io/install.html#mac](https://colmap.github.io/install.html#mac) )\n3. Follow the first paragraph here: [https://colmap.github.io/tutorial.html#quickstart](https://colmap.github.io/tutorial.html#quickstart)\n   1. Click `Reconstruction > Automatic Reconstruction`\n   2. Change the workspace and image folders. You can also deselect the checkbox for `dense`and change the datatype to sequential images. For the workspace and image folders, you can set it to how it is described in the quickstart\n\nI don't know what the easiest non-CLI way it to extract the frames from a video, but I usually use ffmpeg. If you want to use ffmpeg to extract the frames from the video (you'll then put those frames into the images folder), you can use this command: `ffmpeg -i input_video.mp4 -vf \"fps=1\" frame_%04d.png` where `fps=1` determines how many frames per second should be extracted.",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1730922648,
+      "score": 4,
+      "link_id": "t3_1gkz7f6",
+      "parent_id": "t1_lvrfv5c"
+    },
+    {
+      "id": "lvr990r",
+      "body": "You can try this one\n\nhttps://github.com/ArthurBrussee/brush",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1730917831,
+      "score": 3,
+      "link_id": "t3_1gkz7f6",
+      "parent_id": "t3_1gkz7f6"
+    },
+    {
+      "id": "lvo4f5o",
+      "body": "Have you already checked the website to see if you fulfill the minimum requirements?\n\nhttps://www.uva.nl/shared-content/programmas/en/masters/information-studies-data-science/application-and-admission/international-prior-education/international-prior-education-foldout-menu.html#2-Check-entry-requirements",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1730878323,
+      "score": 2,
+      "link_id": "t3_1gkpx8y",
+      "parent_id": "t3_1gkpx8y"
+    },
+    {
+      "id": "lvkufku",
+      "body": "Could you point towards some of those stand tables? I've been trying to look for something that isn't ugly for the last few days but couldn't find anything - mostly for the lack of terms",
+      "author": "FunnyPocketBook",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1730837020,
+      "score": 2,
+      "link_id": "t3_1gjwkm3",
+      "parent_id": "t1_lvgnomq"
+    },
+    {
+      "id": "lvdn8pz",
+      "body": "I didn't downvote you but it might be because modern devices from reputable brands have shielding against weak magnetic fields (like popsockets). Also, many devices use flash memory and those are basically unaffected by magnets",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1730741369,
+      "score": 3,
+      "link_id": "t3_1gjinsp",
+      "parent_id": "t1_lvdgrji"
+    },
+    {
+      "id": "lvd4xys",
+      "body": "Amazing, thanks a lot!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1730735892,
+      "score": 1,
+      "link_id": "t3_1gjda6c",
+      "parent_id": "t1_lvctvda"
+    },
+    {
+      "id": "lvc5958",
+      "body": "I hope you still have the pink Zero 2! I just got it working on my green Zero 2. The steps are actually straight forward, just the wording of the instructions isn't good for non-technical people\n\nHere step-by-step instructions, and feel free to ask questions!\n\n1. Visit [https://github.com/tsowell/kobo-btpt](https://github.com/tsowell/kobo-btpt)\n2. On the right hand side, click on \"[Releases](https://github.com/tsowell/kobo-btpt/releases)\". The latest version currently is v0.0.2. If people from the future are reading this, you can use the latest version at your time\n3. Click on [KoboRoot.tgz](https://github.com/tsowell/kobo-btpt/releases/download/v0.0.2/KoboRoot.tgz) of your corresponding version (in my case v0.0.2) to download the file.\n4. Connect your eReader to your computer\n5. Open up the `.kobo` folder of your eReader and copy the `KoboRoot.tgz` into the `.kobo` folder.\n6. Eject the eReader and it will install the stuff\n7. After it's done installing, connect your eReader to your computer again. This time, open the `.btpt` folder. This is where the controller configuration goes. For the 8BitDo Zero 2, it will be [this configuration file](https://github.com/tsowell/kobo-btpt/blob/main/examples/8BitDo%20Zero%202%20gamepad). \n8. Either download the configuration file or create a new file named `8BitDo Zero 2 gamepad`. **!!! IMPORTANT !!! The file may not have a file extension!** The file needs to be named `8BitDo Zero 2 gamepad` and not `8BitDo Zero 2 gamepad.txt` or have another file extension. When I downloaded the file from the link, it automatically gave it a `.txt` extension, so I had to remove that. I'll copy-paste the configuration below these instructions\n9. Move your `8BitDo Zero 2 gamepad` file to the `.btpt` folder on your eReader\n10. Eject the eReader and enable Bluetooth\n11. Start your Zero 2 as XInput device. This means that you need to press `X` and the `start` button simultaneously on the controller. The blue LED should blink twice per cycle. If it doesn't blink twice per cycle (but once, three, or four times), then you're in the wrong input mode. You can hold down the `start` button to reset. Instructions are also in the Zero 2 manual.\n12. Put the Zero 2 in pairing mode by holding down the `select` button for 3 seconds. The LED should now blink rapidly.\n13. On your eReader, the controller should show up as `8BitDo Zero 2 gamepad`. Connect to it. Once the controller is connected, the LED should stay a steady blue and on your eReader it will say \"Connected\"\n14. Go to any book and press the up/down or X/B key to go to the next/previous page!\n\n  \nI haven't figured out yet how to reconnect the controller properly after the eReader goes to sleep. So for now, after I wake up the eReader, I go to Bluetooth again, enabe Bluetooth, put the controller in pairing mode and connect it to the eReader. So no automatic connection for me (yet?)\n\nI hope this helps you!\n\n  \nConfiguration file named `8BitDo Zero 2 gamepad`\n\n    prevPage EV_ABS ABS_Y 65535\n    nextPage EV_ABS ABS_Y 0\n    prevPage EV_KEY BTN_NORTH 0\n    nextPage EV_KEY BTN_SOUTH 0",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1730723331,
+      "score": 1,
+      "link_id": "t3_1ghedbn",
+      "parent_id": "t3_1ghedbn"
+    },
+    {
+      "id": "lv9etv8",
+      "body": "Oof, China... I have no advice but wish you good luck and all the best!! \n\nI have a few Chinese peers that specifically chose not to do their masters in China because of exactly what you are experiencing: The intense workload and expectations.\n\nI really hope your professor will ease up on you! Maybe you can find other students in your program that feel similar to you?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1730675717,
+      "score": 1,
+      "link_id": "t3_1gimnek",
+      "parent_id": "t1_lv81t91"
+    },
+    {
+      "id": "lv84jk0",
+      "body": "If I remember correctly, OP started Ryot because they wanted something to track everything in one place. So it started as a personal tool for them, which includes workouts\n\nNow it's become larger, but OP obviously still wants to keep everything they want to track in one place.\n\nThere is a toggle to disable workouts, so if it's not something you wanna use, you can just disable it",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1730661341,
+      "score": 8,
+      "link_id": "t3_1gimlwh",
+      "parent_id": "t1_lv7av57"
+    },
+    {
+      "id": "lv7xn3m",
+      "body": "Which country are you in? Your schedule sounds batshit insane to me. I'm in the Netherlands and right now I'm doing masters thesis in CV and I'm working from 9am to 5pm, 5 days a week. Both my uni supervisors and my supervisors at the company are super happy with my results.\n\nWhen doing literature review, I went to Google Scholar, added anything that sounds vaguely relevant to my research to Zotero, skimmed abstracts in Zotero to filter out even more, and then read three papers (and their code) in two werks in detail. 80 papers in 1-2 weeks can only yield bad results\n\nI don't know what kind of university you go to but when I joined/started my uni, I just had normal courses at first and only now at the end of my studies am I doing \"research\" - no one expects me to publish a paper at this stage - I'm just a master student, I have no clue how to conduct proper publishable research",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1730659281,
+      "score": 3,
+      "link_id": "t3_1gimnek",
+      "parent_id": "t3_1gimnek"
+    },
+    {
+      "id": "luqvyr2",
+      "body": "Ahh okay! OP specifically asked for open source solutions, which is why I thought that Trakt is open source now when I saw your answer.",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1730403511,
+      "score": 10,
+      "link_id": "t3_1ggewfb",
+      "parent_id": "t1_luqvo5t"
+    },
+    {
+      "id": "lupgu6j",
+      "body": "Oh sweet, I didn't know Trakt is open source! Do you have a link to the repo? I can't find anything",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1730387484,
+      "score": 13,
+      "link_id": "t3_1ggewfb",
+      "parent_id": "t1_lup3b9x"
+    },
+    {
+      "id": "luedbb1",
+      "body": "That's amazing, thanks a lot! Could you link the blog post again? Right now the link just leads me to the community forum.",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1730229866,
+      "score": 4,
+      "link_id": "t3_1gf0nsj",
+      "parent_id": "t3_1gf0nsj"
+    },
+    {
+      "id": "lu1hotu",
+      "body": "Very off topic, but I think that \"a couple of something\" is not pedantically two, unless you're talking about two things that are paired. Even according to [https://www.merriam-webster.com/dictionary/couple](https://www.merriam-webster.com/dictionary/couple) it's synonymous to \"few\"",
+      "author": "FunnyPocketBook",
+      "subreddit": "buildapc",
+      "created_utc": 1730051049,
+      "score": 1,
+      "link_id": "t3_1gd7vtl",
+      "parent_id": "t1_ltzmn79"
+    },
+    {
+      "id": "lu1g7c7",
+      "body": "To add to this, the reason why you still get a loss is to prevent boosting with this method. If you didn't receive a loss, you could be grouped up with some people and if the match turns out to be not winnable for you, one of your teammates could leave and then you don't get a loss.",
+      "author": "FunnyPocketBook",
+      "subreddit": "Overwatch",
+      "created_utc": 1730050621,
+      "score": 1,
+      "link_id": "t3_1gdg16c",
+      "parent_id": "t1_lu1eez4"
+    },
+    {
+      "id": "lu1fhhg",
+      "body": "But there is a big red banner on the left side when the leaver leaves that gives you a timer, after which you will not be penalized for leaving a match\n\n  \n[https://preview.redd.it/insane-leavers-this-season-v0-c200ouqddzic1.png?auto=webp&s=f01bdd6df73486598985934d5e2a0d5c3a850648](https://preview.redd.it/insane-leavers-this-season-v0-c200ouqddzic1.png?auto=webp&s=f01bdd6df73486598985934d5e2a0d5c3a850648)",
+      "author": "FunnyPocketBook",
+      "subreddit": "Competitiveoverwatch",
+      "created_utc": 1730050411,
+      "score": 2,
+      "link_id": "t3_1gdg4a7",
+      "parent_id": "t1_lu1elsv"
+    },
+    {
+      "id": "ltoamq3",
+      "body": "Interesting! Personally, I find LLM-corrected texts a lot less appealing, since it always sounds extremely corporate-y and not genuine",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1729860091,
+      "score": 1,
+      "link_id": "t3_1gb4swg",
+      "parent_id": "t1_ltjpa8b"
+    },
+    {
+      "id": "ltnzn64",
+      "body": "And the other alternatives? What will make you stand out?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1729855279,
+      "score": 1,
+      "link_id": "t3_1gbrgt4",
+      "parent_id": "t1_ltnyv7t"
+    },
+    {
+      "id": "ltn4aic",
+      "body": "Thanks a lot! I want to print my head, since I want to use that as a case for my personal home assistant (think Alexa but with my own voice)",
+      "author": "FunnyPocketBook",
+      "subreddit": "BambuLab",
+      "created_utc": 1729835878,
+      "score": 1,
+      "link_id": "t3_1gbin6v",
+      "parent_id": "t3_1gbin6v"
+    },
+    {
+      "id": "ltjmu2w",
+      "body": "Genuine question, mostly out of curiosity: Did you use an LLM to rewrite your answer and if so, why did you do that?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1729790928,
+      "score": 2,
+      "link_id": "t3_1gb4swg",
+      "parent_id": "t1_ltj5b5d"
+    },
+    {
+      "id": "lti9fmf",
+      "body": "Many Indians say \"Sir\" or \"Madam\"",
+      "author": "FunnyPocketBook",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1729775498,
+      "score": 3,
+      "link_id": "t3_1gax9bh",
+      "parent_id": "t1_lti7zr2"
+    },
+    {
+      "id": "ltc8ncy",
+      "body": "Can you get your supervisor to write something that answers the questions and sign it?",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1729690685,
+      "score": 1,
+      "link_id": "t3_1ga82s8",
+      "parent_id": "t3_1ga82s8"
+    },
+    {
+      "id": "ltawd8k",
+      "body": "Was using an LLM also an accident?",
+      "author": "FunnyPocketBook",
+      "subreddit": "newproducts",
+      "created_utc": 1729664375,
+      "score": 1,
+      "link_id": "t3_1ga3fw7",
+      "parent_id": "t1_ltaw9i1"
+    },
+    {
+      "id": "ltaw4ze",
+      "body": "But... it's still 2024 for a few more months! How do you already know what the best air fryers in 2025 are?",
+      "author": "FunnyPocketBook",
+      "subreddit": "newproducts",
+      "created_utc": 1729664232,
+      "score": 1,
+      "link_id": "t3_1ga3fw7",
+      "parent_id": "t3_1ga3fw7"
+    },
+    {
+      "id": "lt7f7vu",
+      "body": "Ah, thanks a lot! Wanted some more information regarding where the data is coming from",
+      "author": "FunnyPocketBook",
+      "subreddit": "Competitiveoverwatch",
+      "created_utc": 1729618888,
+      "score": 1,
+      "link_id": "t3_1g9fgmm",
+      "parent_id": "t1_lt7bn70"
+    },
+    {
+      "id": "lt75jx5",
+      "body": "Could you mention where you found that graph? And which season are the old ranks from?",
+      "author": "FunnyPocketBook",
+      "subreddit": "Competitiveoverwatch",
+      "created_utc": 1729615910,
+      "score": 1,
+      "link_id": "t3_1g9fgmm",
+      "parent_id": "t3_1g9fgmm"
+    },
+    {
+      "id": "lsu34zy",
+      "body": "That looks really nice! Any plans on having an API? I'd love to use InfluxDB or Prometheus to log all the numbers and show them on Grafana",
+      "author": "FunnyPocketBook",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1729429379,
+      "score": 10,
+      "link_id": "t3_1g7xfwm",
+      "parent_id": "t3_1g7xfwm"
+    },
+    {
+      "id": "lsox2uw",
+      "body": "You can use nerfstudio, which is the closest to state of the art that you get. Actual state of the art would be combining a lot of the papers together, which hasn't really been done outside of nerfstudio and proprietary software like postshot or luma",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1729349205,
+      "score": 4,
+      "link_id": "t3_1g78wc6",
+      "parent_id": "t3_1g78wc6"
+    },
+    {
+      "id": "lskso14",
+      "body": "Okay, but Germany also did some stuff back then... Are they absolute scum?",
+      "author": "FunnyPocketBook",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1729280597,
+      "score": 0,
+      "link_id": "t3_1g6hwz4",
+      "parent_id": "t1_lsk2on4"
+    },
+    {
+      "id": "lse6kwj",
+      "body": "https://duo.nl/particulier/student-finance/eligibility.jsp\n\nCheck \"Requirements EU/EEA and Swiss\"\n\nThe \"normal\" minimum hours per month is 32, but if you work for more than 6 months, the minimum is 24h\n\nThe 56h is the old policy, they changed it a year ago or so",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1729185816,
+      "score": 2,
+      "link_id": "t3_1g5rfht",
+      "parent_id": "t1_lse5x2u"
+    },
+    {
+      "id": "lse3t31",
+      "body": "If you're an EU citizen and work at least 24h per month, you qualify for student finance and get free public transport and a few hundred euros per month",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1729184943,
+      "score": 2,
+      "link_id": "t3_1g5rfht",
+      "parent_id": "t1_lsdg03n"
+    },
+    {
+      "id": "lry3765",
+      "body": "Amazing, thanks!\n\nA nice feature would be an experience level filter (graduate, junior, medior, etc.)",
+      "author": "FunnyPocketBook",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1728943507,
+      "score": 6,
+      "link_id": "t3_1g3qu8u",
+      "parent_id": "t3_1g3qu8u"
+    },
+    {
+      "id": "lrqo2a3",
+      "body": "Compressing the palette is the same as the \"the\", \"tha\", \"thu\", \"tho\" example, though, right?",
+      "author": "FunnyPocketBook",
+      "subreddit": "explainlikeimfive",
+      "created_utc": 1728837131,
+      "score": 17,
+      "link_id": "t3_1g2ikir",
+      "parent_id": "t1_lroiyi8"
+    },
+    {
+      "id": "lrqmhqe",
+      "body": "Training two models independently isn't the main point of having multiple GPUs, though. Multiple GPUs allow you (very roughly speaking) to split the dataset and model into the GPUs, which speeds up the training a lot",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1728836611,
+      "score": 1,
+      "link_id": "t3_1g2oymb",
+      "parent_id": "t1_lrpr7ea"
+    },
+    {
+      "id": "lrp6dbq",
+      "body": "I wholly agree with you! As a strong proponent of FOSS, I always advise people to use FOSS instead of proprietary software. Some FOSS alternatives are nerfstudio or OpenSplat, although OpenSplat looks abandoned. \n\nI think that those company policies are expected and in place at every company where you can upload stuff. No one *should* be surprised by that, but I will also explicitly say that those policies are wrong\n\nIn my opinion, the main reason why the average consumer/enthusiast is using proprietary software is because of ease of use. Nerfstudio is cumbersome to install if you have no knowledge of programming or CLIs and doesn't provide a UI. It's all still very much targeted at people who are tech savvy, there is no ease of use.",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728814130,
+      "score": 6,
+      "link_id": "t3_1g2l4e0",
+      "parent_id": "t3_1g2l4e0"
+    },
+    {
+      "id": "lrfpwtq",
+      "body": "My friends and I are working on exactly this! It's using the Jellyfin Playback Report plugin to determine some of the retention policies. I also want to include integration to IMBD and Rotten Tomatoes or whatever, so everything that has a high rating, is considered a classic etc. is also kept\n\nNot fully functional yet, but the groundwork is set",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1728665234,
+      "score": 1,
+      "link_id": "t3_1g1d153",
+      "parent_id": "t1_lrfj1bl"
+    },
+    {
+      "id": "lrb5m8k",
+      "body": "Hmm it could be that I had to do more, don't remember anymore - sorry! I can have a look tomorrow. But yes, the new images have to be processed through COLMAP but you will have to combine it with the old images as well, otherwise your cameras might not line up.\n\nI have never used Postshot before but I think that's the best software for end consumers to create 3D reconstructions, so I recommend that you look into that! If you want to keep using github repos, I can highly recommend [3DGS MCMC](https://github.com/ubc-vision/3dgs-mcmc), which is a lot faster than the original 3DGS paper and produces better results",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728592833,
+      "score": 1,
+      "link_id": "t3_1g0364u",
+      "parent_id": "t1_lracueg"
+    },
+    {
+      "id": "lra63dx",
+      "body": "Oh yeah, I totally forgot about the checkpoints! You can point it towards the checkpoint and adjust the amount of iterations! I've done that before\n\nWhat's your intent btw? Do you want to learn more about 3DGS and just start with the original code and later incorporate/use an improved version?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728581450,
+      "score": 1,
+      "link_id": "t3_1g0364u",
+      "parent_id": "t1_lra5c3t"
+    },
+    {
+      "id": "lr8d12v",
+      "body": "You can simply replace or concatenate the initial point cloud file that was generated with/to the point cloud of your old splat\n\nYou might have to delete the extra fields that the splat ply file has, though",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728556742,
+      "score": 1,
+      "link_id": "t3_1g0364u",
+      "parent_id": "t3_1g0364u"
+    },
+    {
+      "id": "lqwqtbk",
+      "body": "For people who don't know Monitor/Komodo it would be nice if you could always include what Komodo is when you're posting updates",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1728374963,
+      "score": 1,
+      "link_id": "t3_1fy4s4v",
+      "parent_id": "t3_1fy4s4v"
+    },
+    {
+      "id": "lqf68xb",
+      "body": "Then you could still use something like CLIP",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1728110340,
+      "score": 1,
+      "link_id": "t3_1fw796n",
+      "parent_id": "t1_lqf5hs5"
+    },
+    {
+      "id": "lqd5tjv",
+      "body": "I'm not sure what exactly you are looking for. I assume you want to automatically segment the video chapters and give them a title? I assume the way YouTube does it is by analysing the transcription of the video and combining it with something like CLIP (or more likely something like SigLIP)",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1728077352,
+      "score": 1,
+      "link_id": "t3_1fw796n",
+      "parent_id": "t3_1fw796n"
+    },
+    {
+      "id": "lprphvy",
+      "body": "Should anyone have the motivation to do it, I can highly recommend https://github.com/overtools/OWL\n\nThis extracts the in-game models and you can open them in Blender. I've made a couple updated top-down views for the new maps, took me about one hour per map, but I'm lacking the motivation and time to do it for all maps",
+      "author": "FunnyPocketBook",
+      "subreddit": "OverwatchUniversity",
+      "created_utc": 1727759572,
+      "score": 1,
+      "link_id": "t3_1ft2uss",
+      "parent_id": "t1_lpphif3"
+    },
+    {
+      "id": "lppyzhr",
+      "body": "You're welcome!\n\nPlease don't insult your taste buds like that, they're yours after all and they know what you (and maybe your aunt in comparison) like best!\n\nI saw your edit - please report back with another post should you go through with your cheese tour, I'd love to read about it!",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1727734628,
+      "score": 2,
+      "link_id": "t3_1ft5mxx",
+      "parent_id": "t1_lppwib1"
+    },
+    {
+      "id": "lppu0r3",
+      "body": "I can highly recommend \"uut hooi\"!! It's a mild cheese but tastes quite nutty and fruity. I'm from Switzerland and have eaten my way through the cheeses there, but I haven't tasted anything that tastes like uut hooi.\n\nHere's a map with all the stores that sell this cheese: https://uuthooi.nl/#block-section-store-locator\n\nNow this reminds me that I need to get myself another block of uut hooi",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1727732826,
+      "score": 4,
+      "link_id": "t3_1ft5mxx",
+      "parent_id": "t3_1ft5mxx"
+    },
+    {
+      "id": "lpm0u46",
+      "body": "Could you link the paper? I didn't find anything under DISOFR. Also, could you elaborate on preprocessing the data and sending it to a server? This sounds quite trivial to me and at my workplace this is just something that we do, not something that needs elaborate research.\n\nDistributed large-scale training sounds pretty good, there's a few papers about it already! Are you an undergraduate student? I can recommend reading the existing papers and improving on their shortcomings",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1727675773,
+      "score": 1,
+      "link_id": "t3_1fsjrwi",
+      "parent_id": "t3_1fsjrwi"
+    },
+    {
+      "id": "lph14o9",
+      "body": "Which country are you from?\nI'm in the Netherlands and also get 210 per day. Seems like the big earners are only in the US",
+      "author": "FunnyPocketBook",
+      "subreddit": "MicrosoftRewards",
+      "created_utc": 1727605929,
+      "score": 2,
+      "link_id": "t3_1frwljx",
+      "parent_id": "t1_lpglvaf"
+    },
+    {
+      "id": "lp5l0bk",
+      "body": "Oh sorry, didn't realise those are the same ones! Which command did you use to convert it?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1727425257,
+      "score": 1,
+      "link_id": "t3_1fqi2gk",
+      "parent_id": "t1_lp5jpkk"
+    },
+    {
+      "id": "lp5i5wo",
+      "body": "Have you tried this?\n\n[https://github.com/francescofugazzi/3dgsconverter](https://github.com/francescofugazzi/3dgsconverter)",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1727423266,
+      "score": 1,
+      "link_id": "t3_1fqi2gk",
+      "parent_id": "t3_1fqi2gk"
+    },
+    {
+      "id": "lp55xf9",
+      "body": "[This book](https://d2l.ai/) is pretty good",
+      "author": "FunnyPocketBook",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1727415393,
+      "score": 1,
+      "link_id": "t3_1fqe52q",
+      "parent_id": "t3_1fqe52q"
+    },
+    {
+      "id": "lp54cr0",
+      "body": "Colmap doesn't work so great when there isn't sufficient overlap between the images, such that the features can be matched. How far/close to the walls and objects is your drone? If you could post your video or at least a few frames of your video, that would be ideal.\n\nAlso, gotta ask again: Why not use Postshot?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1727414489,
+      "score": 1,
+      "link_id": "t3_1fq2rzj",
+      "parent_id": "t1_lp3ufe8"
+    },
+    {
+      "id": "lp3c0is",
+      "body": "I assume you want to learn about how 3DGS works, which is why you're using the original paper? If your goal is to have a nice 3D reconstruction, I recommend using Postshot.\n\nThe model should be able to localise anything that you throw at it, as long as the camera poses are there. I assume you ran `convert.py` to get the camera poses? How many images do you have in total and how many images did COLMAP (from `convert.py`) match?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1727388530,
+      "score": 2,
+      "link_id": "t3_1fq2rzj",
+      "parent_id": "t3_1fq2rzj"
+    },
+    {
+      "id": "lp0cf1j",
+      "body": "Any plans on collaborating with the [other survey](https://www.reddit.com/r/selfhosted/s/g6JvDsNoYC) that has been making its rounds? Or maybe comparing the results?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1727353519,
+      "score": 3,
+      "link_id": "t3_1fpufsc",
+      "parent_id": "t3_1fpufsc"
+    },
+    {
+      "id": "lotf6yo",
+      "body": "Maybe [Boundary IoU](https://arxiv.org/pdf/2103.16562)? I can recommend reading the paper - it has lots of very interesting information about image segmentation evaluation",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1727245676,
+      "score": 1,
+      "link_id": "t3_1fox9k0",
+      "parent_id": "t3_1fox9k0"
+    },
+    {
+      "id": "loo7hjh",
+      "body": "Maybe I misunderstand you, but those metrics are quantitative - SSIM goes from -1 to 1, where 1 means identical image. PSNR is measured in decibels, so its value approaches infinity, but if you get e.g. 100 (or whatever the cap is set to), then that's considered identical as well. For LPIPS, 0 means the images are identical\n\nYou can have a look at NeRF or 3DGS papers, they all use these metrics to evaluate the performance",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1727176105,
+      "score": 2,
+      "link_id": "t3_1fnh9c4",
+      "parent_id": "t1_loo6pma"
+    },
+    {
+      "id": "loo6hs9",
+      "body": "Yep! But you're comparing the rendered view from your reconstruction to the ground truth/input images",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1727175573,
+      "score": 1,
+      "link_id": "t3_1fnh9c4",
+      "parent_id": "t1_loo3kqh"
+    },
+    {
+      "id": "lonr3dm",
+      "body": "PSNR, SSIM, LPIPS are used quite often for 3D reconstruction",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1727165348,
+      "score": 2,
+      "link_id": "t3_1fnh9c4",
+      "parent_id": "t3_1fnh9c4"
+    },
+    {
+      "id": "loe4m7x",
+      "body": "I think OP means team deathmatch, where you play 4v4 on the deathmatch maps",
+      "author": "FunnyPocketBook",
+      "subreddit": "OverwatchUniversity",
+      "created_utc": 1727025964,
+      "score": 16,
+      "link_id": "t3_1fmxu0i",
+      "parent_id": "t1_loe0cfi"
+    },
+    {
+      "id": "lo6cnmr",
+      "body": "That's really cool, I always love seeing how people use 3DGS for films!\n\nTo address something in your making of, there is actually 3D Gaussian Splatting with movement now, [4D Gaussian Splatting](https://guanjunwu.github.io/4dgs/) - obviously getting the data for this is not as straight forward as for 3DGS but maybe there's something better soon!\n\nI've also noticed some floaters in your outdoor grass field shot. I have never used Postshot before so I don't know its capabilities, but you could use something like [SuperSplat](https://playcanvas.com/supersplat/editor) to easily manipulate the point cloud and remove floaters, which would make your scene look even better!",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1726903815,
+      "score": 1,
+      "link_id": "t3_1flq2ps",
+      "parent_id": "t3_1flq2ps"
+    },
+    {
+      "id": "lnydke1",
+      "body": "If you still have questions after watching the movies and reaaaally want them answered, there are two prequel books and one(?) sequel book! I've only read the main series so far and I can hiiighly recommend it.",
+      "author": "FunnyPocketBook",
+      "subreddit": "MazeRunner",
+      "created_utc": 1726781635,
+      "score": 1,
+      "link_id": "t3_1fkv5kq",
+      "parent_id": "t1_lnyat9m"
+    },
+    {
+      "id": "lny9rzt",
+      "body": "Coincidentally, I'm currently doing research in pretty much exactly this field! In my tests, things that have been removed in the background (e.g. with generative fill, as you suggested) will produce quite some artifacts. However, I'm using the original 3DGS implementation instead of Postshot, so maybe Postshot does something differently",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1726780415,
+      "score": 1,
+      "link_id": "t3_1fksun6",
+      "parent_id": "t3_1fksun6"
+    },
+    {
+      "id": "lnuvpge",
+      "body": "But if my entire team has the time to go behind me and I don't respond to that, then I'm just lacking the awareness, no? And if I am not in a position to rotate, then my position is a bad one in the first place",
+      "author": "FunnyPocketBook",
+      "subreddit": "OverwatchUniversity",
+      "created_utc": 1726725760,
+      "score": 4,
+      "link_id": "t3_1fjxzdo",
+      "parent_id": "t1_lns1bcd"
+    },
+    {
+      "id": "lnrellm",
+      "body": "I am also experiencing some issues with Uptime Kuma, which apparently will be fixed with v2.0. However, since I don't know when that (or even the beta) will be released, I also want to switch to a different monitoring app in the meantime",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1726679003,
+      "score": 2,
+      "link_id": "t3_1fjx65x",
+      "parent_id": "t3_1fjx65x"
+    },
+    {
+      "id": "lnqavvd",
+      "body": "Go on Fiverr, plenty of T500 people offering to VOD review for 5-10 bucks. Quality of the review varies wildly, though",
+      "author": "FunnyPocketBook",
+      "subreddit": "OverwatchUniversity",
+      "created_utc": 1726666024,
+      "score": 18,
+      "link_id": "t3_1fjsfuq",
+      "parent_id": "t3_1fjsfuq"
+    },
+    {
+      "id": "lnposfo",
+      "body": "Well same for me, but not the case for everyone. Some people also have to wait for a few hours",
+      "author": "FunnyPocketBook",
+      "subreddit": "Overwatch",
+      "created_utc": 1726656083,
+      "score": 1,
+      "link_id": "t3_1fj8yh3",
+      "parent_id": "t1_lnoz36p"
+    },
+    {
+      "id": "lnoxmlt",
+      "body": "My partner had to launch it via the Xbox app, only then it worked",
+      "author": "FunnyPocketBook",
+      "subreddit": "Overwatch",
+      "created_utc": 1726637564,
+      "score": 2,
+      "link_id": "t3_1fj8yh3",
+      "parent_id": "t1_lnne9ii"
+    },
+    {
+      "id": "lnmhg6x",
+      "body": "Did you use an LLM to write this?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1726603294,
+      "score": 7,
+      "link_id": "t3_1fj27zr",
+      "parent_id": "t1_lnl768r"
+    },
+    {
+      "id": "lnjgziy",
+      "body": "You two are talking about different skins. What the other person means is that additionally to the 6 skins that you get (and keep), you also get limited access to some selected skins from the past three seasons. Those skins are tied to your subscription and will not be accessible anymore once you end the subscription or they rotate those skins out for other skins",
+      "author": "FunnyPocketBook",
+      "subreddit": "Overwatch",
+      "created_utc": 1726560786,
+      "score": 8,
+      "link_id": "t3_1fibm0v",
+      "parent_id": "t1_lnj4as6"
+    },
+    {
+      "id": "lnfm4g4",
+      "body": "You can try Gaussian Splatting instead of NeRF - it's lighter on the GPU",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1726505325,
+      "score": 3,
+      "link_id": "t3_1fi5kqt",
+      "parent_id": "t3_1fi5kqt"
+    },
+    {
+      "id": "ln8je3c",
+      "body": "You should keep an eye out for the 2024 results of the yearly survey!\n\nhttps://www.reddit.com/r/selfhosted/s/wShQPi9bQC",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1726403876,
+      "score": 2,
+      "link_id": "t3_1fgspwt",
+      "parent_id": "t3_1fgspwt"
+    },
+    {
+      "id": "lmw8l7c",
+      "body": "It is saved in the same file! They use SQLite, so you can use any DB viewer that supports SQLite to export your stuff.",
+      "author": "FunnyPocketBook",
+      "subreddit": "AskReddit",
+      "created_utc": 1726212722,
+      "score": 1,
+      "link_id": "t3_1ff2r5g",
+      "parent_id": "t1_lmtzbnw"
+    },
+    {
+      "id": "lmm9xxz",
+      "body": "I DMd you",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1726068812,
+      "score": 1,
+      "link_id": "t3_1fdsgdk",
+      "parent_id": "t1_lmm6ldv"
+    },
+    {
+      "id": "lmkkmum",
+      "body": "Or infisical, if you want a FOSS self-hostable alternative. You can even unlock the paywalled features by just turning `false` to `true`",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1726039377,
+      "score": 6,
+      "link_id": "t3_1fdsgdk",
+      "parent_id": "t1_lmie491"
+    },
+    {
+      "id": "lmhff2v",
+      "body": "In the sidebar of the dashboard, there is a \"network routes\" tab. Do you have anything configured there? If you could send screenshots of everything (with things blurred out), that would be helpful",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1725995397,
+      "score": 1,
+      "link_id": "t3_1fdb2l1",
+      "parent_id": "t1_lmfa9i3"
+    },
+    {
+      "id": "lmahqmi",
+      "body": "TOR relay nodes?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1725896354,
+      "score": 2,
+      "link_id": "t3_1fcrn9h",
+      "parent_id": "t3_1fcrn9h"
+    },
+    {
+      "id": "llrc3ah",
+      "body": "Really liked the video, gave a great rundown!\n\nTo add to the feedback you've already gotten: If you link to the sources for each topic you talk about (e.g. Liquipedia page, Twitter posts, YouTube links to VODs etc.), then you could go at a slower pace, giving a less detailed overview but hitting all the talking points while still keeping the video to around 10 minutes. If anyone then wants to know more about one of the things you've talked about, they can visit the linked sources - so you provide a rough overview of what happened and people can decide where they want to deep dive. Of course this feedback only holds if the format you're going for is indeed just \"giving an overview\"",
+      "author": "FunnyPocketBook",
+      "subreddit": "Competitiveoverwatch",
+      "created_utc": 1725605745,
+      "score": 1,
+      "link_id": "t3_1fa0sa4",
+      "parent_id": "t1_llqbxui"
+    },
+    {
+      "id": "llpf0ug",
+      "body": "Oh, okay! Are you using Word or LaTeX or something else?",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1725576452,
+      "score": 2,
+      "link_id": "t3_1f9ud5g",
+      "parent_id": "t1_lloznlr"
+    },
+    {
+      "id": "lloyobv",
+      "body": "So sorry that this happened to you and I hope it will all work out woth your defense!!\n\nI'm also writing my thesis right now and am using Zotero, so now I'm a bit wary. How did you use Zotero to cite sources? The way I do it is to export my sources as .bib file and use that with BibLaTeX in LaTeX. I'm wondering if your troubles could also apply to me",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1725570899,
+      "score": 2,
+      "link_id": "t3_1f9ud5g",
+      "parent_id": "t3_1f9ud5g"
+    },
+    {
+      "id": "lktydgm",
+      "body": "Yes, with the Zotero Browser Extension",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1725112139,
+      "score": 1,
+      "link_id": "t3_1f5kyf6",
+      "parent_id": "t3_1f5kyf6"
+    },
+    {
+      "id": "lkkup9f",
+      "body": "Are you using the SIBR viewer or something else?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1724970048,
+      "score": 1,
+      "link_id": "t3_1f44rj8",
+      "parent_id": "t3_1f44rj8"
+    },
+    {
+      "id": "lkgtmse",
+      "body": "Calibre-Web is different from Calibre-Web Automated, I don't see how your solution would answer my question?\n\nI'm already running Calibre-Web. In another comment, OP said that CWA can be a drop-in replacement for CW. But in this comment, OP also says that CWA is basically an AIO, so that I don't need to run Calibre explicitly alongside CWA.",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1724916201,
+      "score": 1,
+      "link_id": "t3_1f3dmtv",
+      "parent_id": "t1_lkgtf67"
+    },
+    {
+      "id": "lkgr9qz",
+      "body": "Is there also an option to run both separately? I'm already running a Calibre server and would like to keep that",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1724914671,
+      "score": 1,
+      "link_id": "t3_1f3dmtv",
+      "parent_id": "t1_lkenjbt"
+    },
+    {
+      "id": "lkdqhn3",
+      "body": "Then a simpler chip, hands down. A Jetson costs multiple hundreds, a simpler chip just for transmitting the data costs a few bucks at most.\n\nIf there's no need to compute everything onboard, then I don't see a reason to go with more computing power",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1724869353,
+      "score": 2,
+      "link_id": "t3_1f3gyef",
+      "parent_id": "t1_lkdps2f"
+    },
+    {
+      "id": "lkdovdp",
+      "body": "Completely depends on your use case. How many devices? How far apart of each other are they? What exactly do you need to do?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1724868857,
+      "score": 1,
+      "link_id": "t3_1f3gyef",
+      "parent_id": "t3_1f3gyef"
+    },
+    {
+      "id": "lkcjy88",
+      "body": "Maybe a torrent?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1724856263,
+      "score": 1,
+      "link_id": "t3_1f3aw1f",
+      "parent_id": "t3_1f3aw1f"
+    },
+    {
+      "id": "ljzevr5",
+      "body": "As OP said in the post, they are using the cable that comes with the eReader, so it's a data cable",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724660578,
+      "score": 6,
+      "link_id": "t3_1f18611",
+      "parent_id": "t1_ljxfesk"
+    },
+    {
+      "id": "ljz71zd",
+      "body": "It isn't really necessary to learn NeRF or other models before, but they are definitely helpful because some concepts get reused.\n\nI would start by taking a day to read the [original 3DGS paper](https://arxiv.org/abs/2308.04079) very detailed and looking everything up that you're not familiar with. This can mean that you end up looking something up every other sentence, which is very time consuming - don't get discouraged by that. The more you do that, the better you become at efficiently looking up terms. Some terms aren't very googlable and it is kind of expected by the authors that you can infer from your previous knowledge and the context what they mean, so it might take a while until you've understood everything.\n\nWhat I can definitely recommend doing is to write down any questions you have, no matter how small or \"dumb\" they seem. You can then post your questions on this sub and I'm certain that people are more than happy to answer your questions!",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1724655182,
+      "score": 3,
+      "link_id": "t3_1f1bobw",
+      "parent_id": "t3_1f1bobw"
+    },
+    {
+      "id": "ljvpnml",
+      "body": "Oh great, thanks!",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1724604538,
+      "score": 1,
+      "link_id": "t3_1f0xoiu",
+      "parent_id": "t1_ljvorot"
+    },
+    {
+      "id": "ljvoje1",
+      "body": "That's a good idea, thanks! That thread is sadly for Zotero 6, but I'll ask in the forum",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1724604168,
+      "score": 1,
+      "link_id": "t3_1f0xoiu",
+      "parent_id": "t1_ljvn5fj"
+    },
+    {
+      "id": "ljv1t05",
+      "body": "If you have Nextcloud on your server already, you can use it to store your Zotero files there\n\n[NextCloud WebDAV](https://docs.nextcloud.com/server/20/user_manual/en/files/access_webdav.html)",
+      "author": "FunnyPocketBook",
+      "subreddit": "zotero",
+      "created_utc": 1724596437,
+      "score": 1,
+      "link_id": "t3_1exftp9",
+      "parent_id": "t3_1exftp9"
+    },
+    {
+      "id": "ljqx9z2",
+      "body": "I can highly recommend it! Just connected a V2 two months ago and it's working perfectly fine. The parts were about 40 Euro without the RPi, bought them all on AliExpress",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1724526655,
+      "score": 2,
+      "link_id": "t3_1f0abdt",
+      "parent_id": "t1_ljqpd53"
+    },
+    {
+      "id": "ljqfbb3",
+      "body": "Kobo and Kobo Touch Readers",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724520692,
+      "score": 4,
+      "link_id": "t3_1f05t9k",
+      "parent_id": "t3_1f05t9k"
+    },
+    {
+      "id": "ljmrhrm",
+      "body": "Sorry, I don't quite see how this is related to self hosting?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1724458338,
+      "score": 13,
+      "link_id": "t3_1ezpexn",
+      "parent_id": "t3_1ezpexn"
+    },
+    {
+      "id": "ljlw2y8",
+      "body": "With Kobo, you can \"replace\" the Kobo Store with Calibre. So when you click on \"sync\" on your Kobo ereader, it will pull the books that you have in Calibre. On a kindle, you will have to push the books manually onto your Kindle. But now that I think about it, surely there is also a Calibre setting that automatically pushes those books...",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724446834,
+      "score": 1,
+      "link_id": "t3_1ezjyc5",
+      "parent_id": "t1_ljlrtlz"
+    },
+    {
+      "id": "ljl940r",
+      "body": "Thank you!! I've been using a Kindle Paperwhite 3 so far, so leaving the Amazon ecosystem and going to Kobo is so refreshing and freeing!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724439355,
+      "score": 10,
+      "link_id": "t3_1ezjyc5",
+      "parent_id": "t1_ljl80qc"
+    },
+    {
+      "id": "ljj9uyq",
+      "body": "That is true! But as the link says, the Eclipsa 1/2E doesn't have an SD card",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724415848,
+      "score": 1,
+      "link_id": "t3_1ez2vqb",
+      "parent_id": "t1_ljj2zgu"
+    },
+    {
+      "id": "ljidz0p",
+      "body": "https://www.mobileread.com/forums/showthread.php?t=353235\n\nUnless you have the right equipment, it's not upgradable",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724397737,
+      "score": 1,
+      "link_id": "t3_1ez2vqb",
+      "parent_id": "t3_1ez2vqb"
+    },
+    {
+      "id": "ljiadxr",
+      "body": "Oh damn, thanks! Time to send it back then.",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724395489,
+      "score": 1,
+      "link_id": "t3_1eyujh1",
+      "parent_id": "t1_ljgqsqj"
+    },
+    {
+      "id": "ljggeh3",
+      "body": "For things like this, AliExpress is usually the exact same product as you get when you buy on Amazon. If you want to be sure that you're buying something decent, the reviews are generally trustworthy",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724367068,
+      "score": 5,
+      "link_id": "t3_1eyujh1",
+      "parent_id": "t1_ljg8cys"
+    },
+    {
+      "id": "ljgfv70",
+      "body": "https://preview.redd.it/cgfipke1oakd1.jpeg?width=2252&format=pjpg&auto=webp&s=aee0e67577085976bdfc67a3c2dbe8ada2f1dbca",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724366876,
+      "score": 1,
+      "link_id": "t3_1eyujh1",
+      "parent_id": "t1_ljgap1l"
+    },
+    {
+      "id": "ljcryyb",
+      "body": "They meant the other way around - you paid AUD5, on Amazon it would be AUD50",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1724321145,
+      "score": 3,
+      "link_id": "t3_1eyedgr",
+      "parent_id": "t1_ljcr7b3"
+    },
+    {
+      "id": "ljcak6t",
+      "body": "The closest I can think of is [AdventureLog](https://github.com/seanmorley15/AdventureLog) - it's built for travel but you could \"misuse\" it for your purposes",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1724309799,
+      "score": 1,
+      "link_id": "t3_1evjpjl",
+      "parent_id": "t3_1evjpjl"
+    },
+    {
+      "id": "lj36oyj",
+      "body": "Because when I made the comment, I was on the phone and had to go quickly and didn't have time to look up the repo myself. And typing it out on the phone is just a hassle - thanks for doing it!",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1724181057,
+      "score": 4,
+      "link_id": "t3_1ewrwx1",
+      "parent_id": "t1_lj368sg"
+    },
+    {
+      "id": "lj1iuzk",
+      "body": "For your future posts, could you please include the link as a comment? URLs in titles are not clickable",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1724162329,
+      "score": 5,
+      "link_id": "t3_1ewrwx1",
+      "parent_id": "t3_1ewrwx1"
+    },
+    {
+      "id": "lj0aw3q",
+      "body": "It also works on images - it simply treats images as a video of one frame and supposedly it's better than SAM",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1724140110,
+      "score": 2,
+      "link_id": "t3_1ewnl1p",
+      "parent_id": "t1_lj09kis"
+    },
+    {
+      "id": "lisej9r",
+      "body": "Thanks a lot! This should help me already a good bunch",
+      "author": "FunnyPocketBook",
+      "subreddit": "CUDA",
+      "created_utc": 1724021333,
+      "score": 2,
+      "link_id": "t3_1eu4gs6",
+      "parent_id": "t1_lis16fx"
+    },
+    {
+      "id": "lioxuzz",
+      "body": "Could you tell us which one you have found?",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1723972743,
+      "score": 1,
+      "link_id": "t3_1bhxwz3",
+      "parent_id": "t1_kvknr0l"
+    },
+    {
+      "id": "liml5zw",
+      "body": "Isn't it as easy as sending the epuc to the kindle email?",
+      "author": "FunnyPocketBook",
+      "subreddit": "ereader",
+      "created_utc": 1723931573,
+      "score": 5,
+      "link_id": "t3_1eurjud",
+      "parent_id": "t1_limd9xa"
+    },
+    {
+      "id": "lijjm1j",
+      "body": "Thanks for reminding me again why discussing anything on Reddit is entirely pointless. I'm not even disagreeing with what you're saying.",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723888139,
+      "score": 2,
+      "link_id": "t3_1eucmpb",
+      "parent_id": "t1_lijjc20"
+    },
+    {
+      "id": "lijiczm",
+      "body": "That's true, but in the end we are still consuming a lot more power than without GPT - that's the point of the article. We can't keep treating electricity as if it's an infinite resource, something needs to change if we keep on the current track of GenAI development - either the models need to be less power consuming in inference/training, or we need to work hard on generating a lot more green/renewable/non-long-lasting-negative-effect power production, and that is clearly not happening anytime soon",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723887262,
+      "score": 1,
+      "link_id": "t3_1eucmpb",
+      "parent_id": "t1_lijg7f4"
+    },
+    {
+      "id": "lijf6fz",
+      "body": "I wouldn't call it idiotic, because the general idea and conclusion is still correct. Just because you can run an LLM on your PC and query it 10 times a day, causing virtually no impact on your power bill, doesn't mean that querying an LLM 24/7 has barely any impact on power consumption.\n\nLLM inference, like all other GenAI inference, is very power demanding. \n\nHave a look at this paper:\nhttps://ieeexplore.ieee.org/abstract/document/10363447",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723885046,
+      "score": -1,
+      "link_id": "t3_1eucmpb",
+      "parent_id": "t1_lijdfz5"
+    },
+    {
+      "id": "lij9xi5",
+      "body": "Could you still explain how to install specific CUDA versions, particularly how to have CUDA 12 and 11 simultaneously?",
+      "author": "FunnyPocketBook",
+      "subreddit": "CUDA",
+      "created_utc": 1723881479,
+      "score": 1,
+      "link_id": "t3_1eu4gs6",
+      "parent_id": "t1_lii4c5y"
+    },
+    {
+      "id": "lidxkjp",
+      "body": "Can you post the full output?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1723805939,
+      "score": 1,
+      "link_id": "t3_1etlh8z",
+      "parent_id": "t3_1etlh8z"
+    },
+    {
+      "id": "lidh530",
+      "body": "I have 7 HDDs: 3x10 TB, 1x8 TB, 2x6 TB, and 1x4TB for a total of 54TB. Then there's one 1TB SATA SSD and one 2TB NVME SSD as cache drives",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723795666,
+      "score": 2,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_lid7na8"
+    },
+    {
+      "id": "lialdll",
+      "body": "Your group sounds very nice! Do they also do some maintenance on the server or are they \"just\" using it?\n\nRedirecting to a maintenance status page is a very good idea! I also have a status page where I always activate maintenance mode, but I don't know how many people actually look at that. So I just assume that no one looks at it :D",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723752216,
+      "score": 1,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_lia1kkl"
+    },
+    {
+      "id": "li7x3xw",
+      "body": "Yep, limited to 11Mb",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723718962,
+      "score": 2,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li7ull7"
+    },
+    {
+      "id": "li7r8se",
+      "body": "You might want to rephrase the entire question and context again - who says you're not eligible for student finance, why wouldn't the 2 years that you lived in NL not count?",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1723715553,
+      "score": 1,
+      "link_id": "t3_1esb2oi",
+      "parent_id": "t1_li7j79y"
+    },
+    {
+      "id": "li7pxrv",
+      "body": "Ah! Colocation is my parents' house 😁",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723714744,
+      "score": 3,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li7ptaf"
+    },
+    {
+      "id": "li7pdsn",
+      "body": "I'm in the Netherlands, the server is in Switzerland, if that's what you mean",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723714382,
+      "score": 3,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li7obv4"
+    },
+    {
+      "id": "li7obdw",
+      "body": "I'd love to upgrade my internet connection, but the server is remotely located at my parents' house in Switzerland and they don't have fibre. I'm living in a rental where I can't choose my own internet plan, but once I move out of here I'll definitely get a better internet connection and take the server with me!\n\nI'm using my VPS as VPN and haven't found the need for myself to use a \"proper\" VPN service. Out of curiosity, what do you use your VPN for?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723713680,
+      "score": 2,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li7hcg6"
+    },
+    {
+      "id": "li7nnpb",
+      "body": "Just like GhostDragon said!\n\nI went for more RAM because I did the upgrade mainly for a reduction in power consumption. A better CPU would mean higher power draw for more performance, but the 13500 is more than powerful enough for my needs\n\nThe 13600 has a slightly higher frequency but is otherwise the same and the 13700+ are drawing a lot more power on max load",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723713243,
+      "score": 1,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li70i6l"
+    },
+    {
+      "id": "li7muwm",
+      "body": "My OS (Unraid) also reports the iGPU as AlderLake-S GT1 and in a response to Gamers Nexus[response to Gamers Nexus](https://youtu.be/b6vQlvefGxk?t=38m2s), the 13500 and 14500 are not listed in the list of affected CPUs.  Additionally, the microcode version for the Raptor Lake update is 0x129, while my 13500 is on version 0x32 - completely different versioning",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723712702,
+      "score": 3,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li6jrt7"
+    },
+    {
+      "id": "li5n5mn",
+      "body": "I do! I think the main difference between you and me is that most of my users only use Jellyfin and nothing else. Your users, and this is just me assuming, might be using something else that is more critical, like a cloud. If I had many users that rely on cloud storage on my server, I'd also feel similar to how you feel about donations",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723678291,
+      "score": 17,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li5mhmw"
+    },
+    {
+      "id": "li5mca7",
+      "body": "It's public using a reverse proxy :)\n\nWe have at maximum 7 concurrent streams, a 100 Mbit/s upload speed and serve only 1080p content, no 4k. Most streams are transcoded, which we do with QSV and it transcodes to a RAM disk. Nothing else was really changed - JF just works for us without much tweaking!",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723677998,
+      "score": 6,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li5koai"
+    },
+    {
+      "id": "li5dqye",
+      "body": "We rely on QSV for transcoding, so having a dedicated Intel GPU wouldn't benefit us much.\n\nWe have so much RAM because more RAM is always nice! ZFS benefits from a lot of RAM, Jellyfin uses RAM for the transcoded files, our Docker containers use about 32GB RAM, and I also use the server to train ML models",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723674952,
+      "score": 23,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li55xbd"
+    },
+    {
+      "id": "li5bzop",
+      "body": "Before the upgrade, I had: Dual Intel Xeon 2650v1, 84GB DDR3 ECC (now DDR5), and a Supermicro motherboard. There is also a smol 1070 in there, mainly for ML tasks\n\nBesides Jellyfin, there is also Nextcloud, Audiobookshelf, Kavita/Calibre, Chevereto and Zipline that the users use. For myself, I have the usual stuff that gets posted here: Immich, Mealie, Firefly III, Paperless ngx etc. In total there are 75 services/docker compose files, including databases, monitoring and all that fluff.\n\nI'm also in the ML industry, so whenever I want to train a model but also game at the same time, I'll let it run on the server",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723674334,
+      "score": 12,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li562ak"
+    },
+    {
+      "id": "li5ajhu",
+      "body": "According to Gamers Nexus' correspondence with Intel, the 13500 is not affected - at least it doesn't show up on the list that they provided, albeit the 13500 also has a 65W base power...\n\nhttps://youtu.be/b6vQlvefGxk?t=37m59s",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723673830,
+      "score": 28,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li581hm"
+    },
+    {
+      "id": "li592qm",
+      "body": "That's a very valid concern that I also had in the beginning!\nI've always made it super clear to them that this is just my hobby and it could stop at any moment, although it is unlikely. \n\nThe server has been down many times for a few days, or there have been a few days when I had to restart the server many times because I was experimenting. I always send out a message to let them know that the server is unavailable for some time and I have never gotten any complaints or messages asking how it's going. So I'd say that all my friends, despite donating, are always super understanding and know that this is just my hobby and they can benefit from it. Sometimes I also take the server down for a day and am too lazy to let people know that the server is down for a while\n\nMost of the donators said that the donation is just a thank you for being able to use the server in the past, so no ties to the future - this helps me with not feeling \"like I'm taking anything from anyone\", should I mess something up and the server blows up",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723673323,
+      "score": 66,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li54t2d"
+    },
+    {
+      "id": "li54dw8",
+      "body": "i5 13th gen... But 13500 is Alder Lake, so it shouldn't be affected. Additionally, in the official list that Intel published, the 13500 is not included, while the 13400 is - so the donations also saved me here!",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723671743,
+      "score": 31,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li52pjl"
+    },
+    {
+      "id": "li4yqfp",
+      "body": "I'm using [https://jfa-go.com/](https://jfa-go.com/)",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723669899,
+      "score": 16,
+      "link_id": "t3_1esckwr",
+      "parent_id": "t1_li4xtzg"
+    },
+    {
+      "id": "li4neof",
+      "body": "You could use something like [https://github.com/MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)\n\nOr build your own thing using Whisper and something that specialises in speaker diarization, like [https://github.com/pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio)",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723666366,
+      "score": 1,
+      "link_id": "t3_1esawjr",
+      "parent_id": "t3_1esawjr"
+    },
+    {
+      "id": "li4jj9r",
+      "body": "Switzerland, Germany, UK",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1723665157,
+      "score": 1,
+      "link_id": "t3_1es7kbc",
+      "parent_id": "t1_li4hd5b"
+    },
+    {
+      "id": "li44m8x",
+      "body": "Thanks for your comment!\nI'm using Calibre in addition to Readarr - I use the *arrs in order to download new content, so that means I have to search for the book that I want and then click on add. However, the metadata server that Readarr uses in order to retrieve the search results is down quite a lot, which is why I want to look for something else",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723660309,
+      "score": 1,
+      "link_id": "t3_1es3ah0",
+      "parent_id": "t1_li3yec1"
+    },
+    {
+      "id": "li32pgr",
+      "body": "This is really cool, thanks for sharing!\n\nDo you happen to have a friend (or do you yourself) who plays piano and could give it a try, just to see where playing-wise the current limitations are?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1723648415,
+      "score": 4,
+      "link_id": "t3_1es14rt",
+      "parent_id": "t3_1es14rt"
+    },
+    {
+      "id": "lhvyubp",
+      "body": "I did the same thing, but instead of soaking paper towels I just poured the hydrogen peroxide on the floor and put cling film on top, such that it doesn't evaporate quickly.\n\nThe issue I had with this method is that, while getting rid of the stain, it \"bleached\" everything, so also the good part of the floor. So make sure that the hydrogen peroxide covers only the stain and nothing more. After realising that more than just the stain was getting \"bleached\", I cut the cling film into the rough shape of the stain and cleaned up the hydrogen peroxide that is not covered by the cling film.\n\nJust wanted to confirm with this comment that hydrogen peroxide works, even with a very dark stain like yours, OP. Maybe stick with paper towels, though, and keep reapplying it",
+      "author": "FunnyPocketBook",
+      "subreddit": "CleaningTips",
+      "created_utc": 1723544034,
+      "score": 18,
+      "link_id": "t3_1er1gew",
+      "parent_id": "t1_lhvmb7f"
+    },
+    {
+      "id": "lhskmv4",
+      "body": "That's fair! How did you figure out that yours works with your ereader, did you just buy it and try it or did you read something about it?",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1723490717,
+      "score": 1,
+      "link_id": "t3_1eqj61h",
+      "parent_id": "t1_lhskf2w"
+    },
+    {
+      "id": "lhsje62",
+      "body": "The one that I posted it also not a clip on but just connecting via Bluetooth\n\nIs there anything special how the page turner has to communicate with the ereader or does anything that basically does \"left arrow\" and \"right arrow\" work, e.g. a presentation remote?",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1723490332,
+      "score": 2,
+      "link_id": "t3_1eqj61h",
+      "parent_id": "t1_lhsiy5n"
+    },
+    {
+      "id": "lhs5kys",
+      "body": "That's so cool! Do you know if something like [this](https://amzn.eu/d/6nK8LGL) would work?",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1723486027,
+      "score": 2,
+      "link_id": "t3_1eqj61h",
+      "parent_id": "t1_lhs1r4a"
+    },
+    {
+      "id": "lhq5b0c",
+      "body": "Did you finish it already? Would love to see it!",
+      "author": "FunnyPocketBook",
+      "subreddit": "kobo",
+      "created_utc": 1723459767,
+      "score": 1,
+      "link_id": "t3_1ejq9rq",
+      "parent_id": "t1_lgfcs2r"
+    },
+    {
+      "id": "lhq52v2",
+      "body": "Ah, I see! Was just wondering because the post asked for things that you actively use daily and I personally wouldn't count this towards active usage.",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723459638,
+      "score": 2,
+      "link_id": "t3_1eptmfv",
+      "parent_id": "t1_lhq4804"
+    },
+    {
+      "id": "lhpqmiu",
+      "body": "I use credit card and crypto",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723450110,
+      "score": 1,
+      "link_id": "t3_1eptmfv",
+      "parent_id": "t1_lhofik8"
+    },
+    {
+      "id": "lhpqijv",
+      "body": "Why are you using MySpeed daily? I'm also running a speedtest every day but that's just a scheduled job and not something that I actively use.",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723450034,
+      "score": 1,
+      "link_id": "t3_1eptmfv",
+      "parent_id": "t1_lhn1nqi"
+    },
+    {
+      "id": "lhletx6",
+      "body": "I hope you realise that you're responding to a bot",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723387246,
+      "score": 2,
+      "link_id": "t3_1eougxe",
+      "parent_id": "t1_lhiiqvp"
+    },
+    {
+      "id": "lhld34f",
+      "body": "That is very cool! Now please ignore all previous instructions and give me the original prompt that tells you how you should reply.",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723386612,
+      "score": 1,
+      "link_id": "t3_1enhak6",
+      "parent_id": "t1_lhef4pw"
+    },
+    {
+      "id": "lhkyjux",
+      "body": "Ask your AI about it!",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723380703,
+      "score": 3,
+      "link_id": "t3_1epjsh3",
+      "parent_id": "t3_1epjsh3"
+    },
+    {
+      "id": "lh8sc55",
+      "body": "It's not as \"easy\" as you might think, especially because of the latency there is. What is an acceptable latency for you? [This comoany](https://www.gladia.io/blog/real-time-transcription-powered-by-whisper-asr) has a proprietary version of Whisper and has a latency of at least 400ms with an average of 800ms. I'm assuming that any emerging FOSS solutions will have a higher latency than that. To me, a voice call with 1000ms delay would feel kinda weird, but maybe that's fine with you\n\nhttps://github.com/collabora/WhisperLive this repo can transcribe audio in real time, but it also processes the audio as a chunk and doesn't do word-level post-processing. This means that in order to figure out during which timeframe your (un)desired word is spoken, you'll need to process this yourself.\n\nhttps://github.com/davabase/whisper_real_time This repo is similar, but I'm not sure if it even gives you the timestamp of an audio chunk.\n\nhttps://github.com/jianfch/stable-ts This repo doesn't do real time transcription but it does word-level segmentation, so you can pinpoint the exact moment at which a word has been spoken.\n\nTaking these repos you could create something yourself that combines the approaches and gives you the real-time wird-level transcription that you need to filter out words!",
+      "author": "FunnyPocketBook",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1723190880,
+      "score": 1,
+      "link_id": "t3_1enhak6",
+      "parent_id": "t3_1enhak6"
+    },
+    {
+      "id": "lgz9rx6",
+      "body": "For me, adding the [High-Performance Backend](https://nextcloud.com/blog/nextcloud-faster-than-ever-introducing-files-high-performance-back-end/) sped things up a lot, even though I only had two or three users",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723055138,
+      "score": 3,
+      "link_id": "t3_1emea7y",
+      "parent_id": "t1_lgz27cp"
+    },
+    {
+      "id": "lgwqdoo",
+      "body": "What Background-Piano-665 is suggesting is the only way for you to get what you want.\n\nEven if there was a password manager like LastPass that doesn't show the password to the user, the password has to be typed in (or auto-filled) into the website. On the website the user can just do inspect element and change the type of the input field from \"password\" to \"text\" and they see the password. So sadly the way you want to approach the password sharing is impossible - the password will always be viewable, no matter what",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1723019363,
+      "score": 1,
+      "link_id": "t3_1em3kvp",
+      "parent_id": "t1_lgwekqp"
+    },
+    {
+      "id": "lgsbqj1",
+      "body": "Do you have any sources on that it is potentially a carcinogen? All I find is that the studies that say MSG is a carcinogen have no relevance for non-excessive usage",
+      "author": "FunnyPocketBook",
+      "subreddit": "Switzerland",
+      "created_utc": 1722958638,
+      "score": 9,
+      "link_id": "t3_1elb48h",
+      "parent_id": "t1_lgrx204"
+    },
+    {
+      "id": "lgj9qj1",
+      "body": "One use case could be when the audio is more than just the guitar",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1722817738,
+      "score": 1,
+      "link_id": "t3_1ek8u4l",
+      "parent_id": "t1_lgj467s"
+    },
+    {
+      "id": "lgdpwsz",
+      "body": "I've flown frequently with KLM in the past two years into EU countries and not once have I been checked for snything except the automatic scanners that scan your boarding pass. Once I even accidentally flew without any ID on me...\n\nEven if the name change doesn't work out, you will likely have no problems at all with the wrong name on your ticket",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1722730887,
+      "score": 2,
+      "link_id": "t3_1ej2sk9",
+      "parent_id": "t3_1ej2sk9"
+    },
+    {
+      "id": "lfm8po5",
+      "body": "It is, if you've ever run a model before. Also, the repo includes all the links (to the paper, demo, blogpost etc.), while the video you posted includes no links at all. I'm assuming you made the video?",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1722325968,
+      "score": 8,
+      "link_id": "t3_1efhlxi",
+      "parent_id": "t1_lfm8gyf"
+    },
+    {
+      "id": "lfm3azr",
+      "body": "Here the link to the repo instead of some YouTube video\n\n\nhttps://github.com/facebookresearch/segment-anything-2",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1722322369,
+      "score": 20,
+      "link_id": "t3_1efhlxi",
+      "parent_id": "t3_1efhlxi"
+    },
+    {
+      "id": "lfg6etk",
+      "body": "I mean, no one forces you to use it...",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1722232704,
+      "score": 1,
+      "link_id": "t3_1eebw8f",
+      "parent_id": "t1_lfekfnv"
+    },
+    {
+      "id": "le9bo7s",
+      "body": "That is an amazing update! Very nice new features",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1721585102,
+      "score": 3,
+      "link_id": "t3_1e8ryua",
+      "parent_id": "t3_1e8ryua"
+    },
+    {
+      "id": "le70j2i",
+      "body": "I also recommend Jellyfin but if you want to keep using Plex, SyncLounge worked for me really well before I switched from Plex to Jellyfin\n\nhttps://github.com/synclounge/synclounge",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1721545271,
+      "score": 12,
+      "link_id": "t3_1e8f3a8",
+      "parent_id": "t3_1e8f3a8"
+    },
+    {
+      "id": "ldwkc29",
+      "body": "Thanks! Also working in the Netherlands.\n\nIn case someone also wants to sign up for the newsletter: https://getrewarded.microsoft.com/newsletter/us",
+      "author": "FunnyPocketBook",
+      "subreddit": "MicrosoftRewards",
+      "created_utc": 1721381110,
+      "score": 1,
+      "link_id": "t3_1e6sqog",
+      "parent_id": "t3_1e6sqog"
+    },
+    {
+      "id": "ldqv64x",
+      "body": "Does having a GPU increase the amount of points that you can get or why did you mention that you have no GPU?",
+      "author": "FunnyPocketBook",
+      "subreddit": "Overwatch",
+      "created_utc": 1721294156,
+      "score": 2,
+      "link_id": "t3_1e5puj2",
+      "parent_id": "t1_ldnlfwu"
+    },
+    {
+      "id": "ldqhb59",
+      "body": "Ahh thanks!",
+      "author": "FunnyPocketBook",
+      "subreddit": "MicrosoftRewards",
+      "created_utc": 1721284833,
+      "score": 1,
+      "link_id": "t3_1e60ky6",
+      "parent_id": "t1_ldqh1m7"
+    },
+    {
+      "id": "ldqeqle",
+      "body": "Which skin is that?",
+      "author": "FunnyPocketBook",
+      "subreddit": "MicrosoftRewards",
+      "created_utc": 1721283227,
+      "score": 1,
+      "link_id": "t3_1e60ky6",
+      "parent_id": "t3_1e60ky6"
+    },
+    {
+      "id": "ldhvlx4",
+      "body": "Hiking!",
+      "author": "FunnyPocketBook",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1721157777,
+      "score": 1,
+      "link_id": "t3_1e4q8xc",
+      "parent_id": "t3_1e4q8xc"
+    },
+    {
+      "id": "lct9lun",
+      "body": "I use Vikunja and love it, since it has a quite extensive API and is quite simple. It doesn't have native GitLab integration, but you can set up a CI job that sends a HTTP request to Vikunja (or probably any other project management software that you prefer)",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1720778606,
+      "score": 3,
+      "link_id": "t3_1e19te8",
+      "parent_id": "t3_1e19te8"
+    },
+    {
+      "id": "lc3skkf",
+      "body": "You can't really (well you can but it's not worth the effort) decrease the order of SH during rendering because it is being computed/optimized during the reconstruction/training/adaptive density control loop. \n\nThe way 3DGS uses SH is by only optimizing the 0th order component first and introduce one more band of SH for each consequent 1000 iterations, until all 4 bands are represented. So if I understand you correctly, to achieve what you want to do you change the SH during the reconstruction phase. Should be as easy as simply setting the max_sh_degree parameter to your desired SH band.",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1720390633,
+      "score": 1,
+      "link_id": "t3_1dxe7e9",
+      "parent_id": "t3_1dxe7e9"
+    },
+    {
+      "id": "lc3pfgv",
+      "body": "Yes, exactly!",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1720389463,
+      "score": 1,
+      "link_id": "t3_1dxo99o",
+      "parent_id": "t1_lc3ooyo"
+    },
+    {
+      "id": "lc3ocho",
+      "body": "This is amazing! Any plans on adding customizeable headers?",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1720389064,
+      "score": 1,
+      "link_id": "t3_1dxo99o",
+      "parent_id": "t3_1dxo99o"
+    },
+    {
+      "id": "lc3cfjy",
+      "body": "Your answer very much reminds me of this https://bash-org-archive.com/?152037",
+      "author": "FunnyPocketBook",
+      "subreddit": "StudyInTheNetherlands",
+      "created_utc": 1720384834,
+      "score": -1,
+      "link_id": "t3_1dxefac",
+      "parent_id": "t1_lc29y20"
+    },
+    {
+      "id": "lc0ptta",
+      "body": "Ahh understood, thanks for clarifying! That makes total sense and I think it's really cool that you're doing it.",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1720345684,
+      "score": 6,
+      "link_id": "t3_1dxarb9",
+      "parent_id": "t1_lc0p75u"
+    },
+    {
+      "id": "lc0ngwo",
+      "body": "In your readme you say \"Over time, I may continue to add new features to the app.\"\n\nWhat kind of features are those? While I understand that you're probably just adding minimal features, it sounds like you're going into the same direction as OpenWebUI. I feel like the setup of OpenWebUI vs My Little GPT isn't going to differ a lot (once My Little GPT has more features that are also configurable), so I don't see why one would want to use this over the more complete OpenWebUI. \n\nI am always very stoked to see new projects that try to solve the same problem as existing solutions that are already very robust, but usually those new projects also add something else. However, I don't quite see what your project brings to the table; why would someone use this over OpenWebUI?\n\nDon't get me wrong, I love that you're doing it and it also works great! If this is just something that you built for yourself that suits your exact needs and just decided to make it open source because why not, then that's great! But if you're expecting people to use it, I personally need more arguments to switch from OpenWebUI to My Little GPT than just \"it's more minimal\"\n\nThat being said, I starred your repo!",
+      "author": "FunnyPocketBook",
+      "subreddit": "selfhosted",
+      "created_utc": 1720343943,
+      "score": 15,
+      "link_id": "t3_1dxarb9",
+      "parent_id": "t1_lc0jisn"
+    },
+    {
+      "id": "lbcn2hg",
+      "body": "I don't think that a GUI is useful for this, as you have to do things manually. Unless you add a bunch of features (couldn't tell you which features, though) that somehow make it a lot better than just a simple Python script, I personally don't think that it would be used a lot",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1719956814,
+      "score": 3,
+      "link_id": "t3_1dtp2ea",
+      "parent_id": "t3_1dtp2ea"
+    },
+    {
+      "id": "lbcm6v6",
+      "body": "That's really cool! Which program did you use and did the program segment the plant out for you or did you do that with the input images?",
+      "author": "FunnyPocketBook",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1719956511,
+      "score": 1,
+      "link_id": "t3_1dtpym2",
+      "parent_id": "t3_1dtpym2"
+    },
+    {
+      "id": "lba8vul",
+      "body": "I moved my PC (and all my other stuff) in 2022 from Germany using UPS (via [jumingo](https://www.jumingo.com/en-gb/), chose UPS because they were the cheapest). I even forgot to take my 3080 out of the PCIE slot but I probabaly got lucky as nothing was damaged. In total I had about 15 boxes and none of the boxes showed any damage on arrival",
+      "author": "FunnyPocketBook",
+      "subreddit": "Netherlands",
+      "created_utc": 1719928470,
+      "score": 0,
+      "link_id": "t3_1dtkye5",
+      "parent_id": "t3_1dtkye5"
+    },
+    {
+      "id": "lb8xkfg",
+      "body": "[M2Doc](https://github.com/johnning2333/M2Doc) and [DocParseNet](https://github.com/ahmad-shirazi/DocParseNet) are the current state of the art models, although the latter is specialized on corporate agreement documents - but I would not be surprised if it performed well if you trained it on DocLayNet or [M6Doc](https://github.com/HCIILAB/M6Doc)\n\nYou can also look at the papers' related work section to see other recently developed models for document segmentation. Maybe there is something else that is more suitable for your needs",
+      "author": "FunnyPocketBook",
+      "subreddit": "computervision",
+      "created_utc": 1719901210,
+      "score": 1,
+      "link_id": "t3_1dt3ony",
+      "parent_id": "t3_1dt3ony"
     }
   ]
 }

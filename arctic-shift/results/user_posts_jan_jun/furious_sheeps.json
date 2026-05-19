@@ -11,7 +11,245 @@
       "num_comments": 1,
       "selftext": "Hello,\n\nI'm a stats master's student nominated by my home university for an exchange program at ETHZ. How common is it to be rejected by ETHZ as a potential incoming exchange student? Do they usually accept all exchange applications? And how important are the motivation letter and grades? In my 1st year of master's I failed one subject, and my bachelor's is in economics. I'm applying to the maths department. Does anybody know if there is a high chance I'll be rejected?",
       "url": "https://www.reddit.com/r/ethz/comments/1bt0mhm/exchange_program_during_masters_at_ethz/"
+    },
+    {
+      "id": "1chq243",
+      "title": "Need help with Posterior Distribution for a Poisson-Gaussian Process Model",
+      "author": "furious_sheeps",
+      "subreddit": "AskStatistics",
+      "created_utc": 1714579987,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hi,\n\nI'm working on a regression model where variable Y is regressed on x, expressed as y\\_i | f(x\\_i) \\~ Poisson(exp(f(x\\_i))) for i.i.d observations (i = 1, ..., n). Here, f is modeled as a Gaussian process (GP) across an interval J ⊆ R. This function f  is characterized by a mean function mu(x)  \n and a kernel function K(x, x'), leading to the formulation f(x) \\~ Np(mu(x), K(x, x)).\n\nI'm aiming to infer the posterior f|y, x, specifically focusing on sampling from the posterior for selected points x\\* within J to represent f effectively. Could you help derive the posterior of f(x) up to a normalizing constant using Bayes' formula? This should consider the Poisson and multivariate normal distributions' densities and any simplifications due to conditional independencies. I attach an image of my current solution, in case someone can check if it makes sense or just provide a better derivation.\n\nThanks for your insights.",
+      "url": "https://www.reddit.com/r/AskStatistics/comments/1chq243/need_help_with_posterior_distribution_for_a/"
+    },
+    {
+      "id": "1arer5w",
+      "title": "Need help to know which stock is this",
+      "author": "furious_sheeps",
+      "subreddit": "StocksAndTrading",
+      "created_utc": 1708001570,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/StocksAndTrading/comments/1arer5w/need_help_to_know_which_stock_is_this/"
+    },
+    {
+      "id": "1aregh3",
+      "title": "need help to figure out this stock",
+      "author": "furious_sheeps",
+      "subreddit": "StocksAndTrading",
+      "created_utc": 1708000543,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/StocksAndTrading/comments/1aregh3/need_help_to_figure_out_this_stock/"
+    },
+    {
+      "id": "1aquxoe",
+      "title": "Can someone let me know the name of this stock?",
+      "author": "furious_sheeps",
+      "subreddit": "StockMarket",
+      "created_utc": 1707937605,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/StockMarket/comments/1aquxoe/can_someone_let_me_know_the_name_of_this_stock/"
+    },
+    {
+      "id": "1aquqt3",
+      "title": "Which is this company?",
+      "author": "furious_sheeps",
+      "subreddit": "StockMarket",
+      "created_utc": 1707937170,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://i.redd.it/cq6e8o9vllic1.png"
+    },
+    {
+      "id": "18xs227",
+      "title": "Blackrock Fixed Income Interview",
+      "author": "furious_sheeps",
+      "subreddit": "FinancialCareers",
+      "created_utc": 1704311028,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hello guys,\n\nI have an interview with Blackrock for a portfolio management internship, specifically fixed income. Does anyone know what to expect? Mainly about technicals, although any other advice is welcomed.",
+      "url": "https://www.reddit.com/r/FinancialCareers/comments/18xs227/blackrock_fixed_income_interview/"
+    },
+    {
+      "id": "18xei4c",
+      "title": "Blackrock Fixed Income Interview",
+      "author": "furious_sheeps",
+      "subreddit": "FinancialCareers",
+      "created_utc": 1704270384,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey guys,\n\nI have an interview with Blackrock for a portfolio management internship, specifically fixed income. Does anyone know what to expect? Mainly about technicals, although any other advice is welcomed.",
+      "url": "https://www.reddit.com/r/FinancialCareers/comments/18xei4c/blackrock_fixed_income_interview/"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": "l7t8nbn",
+      "body": "Yes",
+      "author": "furious_sheeps",
+      "subreddit": "AskStatistics",
+      "created_utc": 1717939580,
+      "score": 1,
+      "link_id": "t3_1chq243",
+      "parent_id": "t1_l7t6v7o"
+    },
+    {
+      "id": "l5fxyp3",
+      "body": "3-4 weeks",
+      "author": "furious_sheeps",
+      "subreddit": "FinancialCareers",
+      "created_utc": 1716537972,
+      "score": 1,
+      "link_id": "t3_18xs227",
+      "parent_id": "t1_l59ygvz"
+    },
+    {
+      "id": "l252147",
+      "body": "Thanks. At the end I’m just looking to get an expression of f that I can use to sample f using a MCMC algorithm. Does my solution looks reasonable?",
+      "author": "furious_sheeps",
+      "subreddit": "AskStatistics",
+      "created_utc": 1714592912,
+      "score": 1,
+      "link_id": "t3_1chq243",
+      "parent_id": "t1_l24lmsg"
+    },
+    {
+      "id": "kxiyvtj",
+      "body": "Rejected",
+      "author": "furious_sheeps",
+      "subreddit": "FinancialCareers",
+      "created_utc": 1711969051,
+      "score": 1,
+      "link_id": "t3_18xs227",
+      "parent_id": "t1_ksoaq98"
+    },
+    {
+      "id": "kqjsjyu",
+      "body": "Hi! Does anyone know which is the stock that follows this graph? Just saw the image and I cannot figure out which company is.  [https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdaily-discussion-thread-for-february-15-2024-v0-i40cugdgvric1.png%3Fwidth%3D847%26format%3Dpng%26auto%3Dwebp%26s%3De2c6e6cbf04faeb079c5207c12be12c05b153bd1](https://www.reddit.com/media?url=https%3a%2f%2fpreview.redd.it%2fdaily-discussion-thread-for-february-15-2024-v0-i40cugdgvric1.png%3fwidth%3d847%26format%3dpng%26auto%3dwebp%26s%3de2c6e6cbf04faeb079c5207c12be12c05b153bd1)",
+      "author": "furious_sheeps",
+      "subreddit": "StockMarket",
+      "created_utc": 1708013332,
+      "score": 1,
+      "link_id": "t3_1arc4jw",
+      "parent_id": "t3_1arc4jw"
+    },
+    {
+      "id": "kqixvbk",
+      "body": "Hey! Does somebody know which is the stock that follows this graph? I couldn't figure out the company.\n\nhttps://preview.redd.it/puy8rqnfvqic1.png?width=847&format=png&auto=webp&s=9bb8f4cd524a3e1001c1e0aacf0993a9d6324848",
+      "author": "furious_sheeps",
+      "subreddit": "pennystocks",
+      "created_utc": 1708000849,
+      "score": 1,
+      "link_id": "t3_1arb9mj",
+      "parent_id": "t3_1arb9mj"
+    },
+    {
+      "id": "kqiw75b",
+      "body": "I've just posted the image itself. Should be okay.",
+      "author": "furious_sheeps",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1707999948,
+      "score": 1,
+      "link_id": "t3_1arcyhr",
+      "parent_id": "t1_kqivemm"
+    },
+    {
+      "id": "kqivqx1",
+      "body": "aghh i don't know why any of my links work when I copy & paste on reddit",
+      "author": "furious_sheeps",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1707999702,
+      "score": 1,
+      "link_id": "t3_1arcyhr",
+      "parent_id": "t1_kqivemm"
+    },
+    {
+      "id": "kqiv1y6",
+      "body": "Hey! Does somebody know which is the stock that follows this graph? I couldn't figure out the company. [https://docs.google.com/document/d/1Qindcuvk3dhnrnkTye4xSJulyRE3aLUhz\\_RWMwQEqaM/edit?usp=sharing](https://docs.google.com/document/d/1qindcuvk3dhnrnktye4xsjulyre3aluhz_rwmwqeqam/edit?usp=sharing)",
+      "author": "furious_sheeps",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1707999316,
+      "score": 2,
+      "link_id": "t3_1arcyhr",
+      "parent_id": "t3_1arcyhr"
+    },
+    {
+      "id": "kqg3ieo",
+      "body": "try now?",
+      "author": "furious_sheeps",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1707947991,
+      "score": 1,
+      "link_id": "t3_1aqxnzy",
+      "parent_id": "t1_kqg1q95"
+    },
+    {
+      "id": "kqg1xy3",
+      "body": "sorry try now",
+      "author": "furious_sheeps",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1707947441,
+      "score": 1,
+      "link_id": "t3_1aqxnzy",
+      "parent_id": "t1_kqg1q95"
+    },
+    {
+      "id": "kqg0x98",
+      "body": "Hi, does somebody know which is the stock that follows this graph? I couldn't figure out the company. [https://ibb.co/WgzKTXF](https://ibb.co/wgzktxf)",
+      "author": "furious_sheeps",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1707947078,
+      "score": 2,
+      "link_id": "t3_1aqxnzy",
+      "parent_id": "t3_1aqxnzy"
+    },
+    {
+      "id": "kqg0lek",
+      "body": "Hi, does somebody know which is the stock that follows this graph? I couldn't figure out the company. [https://ibb.co/WgzKTXF](https://ibb.co/wgzktxf)",
+      "author": "furious_sheeps",
+      "subreddit": "StockMarket",
+      "created_utc": 1707946962,
+      "score": 1,
+      "link_id": "t3_1aqje8s",
+      "parent_id": "t3_1aqje8s"
+    },
+    {
+      "id": "kigz50s",
+      "body": "How long did you wait to get a response after your final round?",
+      "author": "furious_sheeps",
+      "subreddit": "Blackrock_Aladdin",
+      "created_utc": 1705603108,
+      "score": 1,
+      "link_id": "t3_17emq5w",
+      "parent_id": "t3_17emq5w"
+    },
+    {
+      "id": "kif1br1",
+      "body": "How long did it take you to hear from BlackRock after final round?",
+      "author": "furious_sheeps",
+      "subreddit": "FinancialCareers",
+      "created_utc": 1705573674,
+      "score": 1,
+      "link_id": "t3_yz8lw3",
+      "parent_id": "t3_yz8lw3"
+    },
+    {
+      "id": "kgfy0yj",
+      "body": "Thank you. Any advice in terms of behaviourals or anything specific to pay attention to?",
+      "author": "furious_sheeps",
+      "subreddit": "FinancialCareers",
+      "created_utc": 1704468381,
+      "score": 1,
+      "link_id": "t3_18xs227",
+      "parent_id": "t1_kg83jj2"
+    }
+  ]
 }

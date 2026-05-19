@@ -1,6 +1,29 @@
 {
   "username": "woozy_1729",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1gkn3rj",
+      "title": "Future review load almost halved after toggling FSRS off and on (or updating)?",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1730856748,
+      "score": 0,
+      "num_comments": 6,
+      "selftext": "I always run \"reschedule all card\" once a day after I'm done with my reps. Until a couple of days ago, my \"Future Due\" has consistently shown something in the ballpark of 230-280 reviews per day (I check out this stat regularly) and it's actually been hovering around this range for a while now.\n\nOne evening a couple of days ago, I fiddled around with the settings for a bit which involved turning FSRS off and on a few times (which causes FSRS to iterate over the cards apparently? Could this be related to my problem?). At the end, I turned on FSRS again, added my parameter vector and my usual desired retention before I ran \"reschedule all cards\". I have the vector and retention noted down in both the deck description as well as a file on my computer so there's a 0% chance of that being wrong. Nevertheless, after recalcing, the \"Future Due\" stat had plummeted to 130-170 reviews per day. Also, when you usually change the vector or the desired retention, you get overdue cards (even when the overall load decreases) which wasn't the case for me.\n\nThis was unexpected and a bit scary to me because I thought that scheduling only depended on the vector, the desired retention and the cards' review history. None of these has changed, I don't understand how I ended up with a totally different number of reviews. I know that FSRS also adds some more parameters to the individual cards in the collection but I thought these were inconsequential when running \"reschedule all cards\".\n\nI also updated my Anki and FSRS helper addon in roughly this time so that could be related too, I'm not sure.\n\nAny ideas? I fear that I'm forgetting all my cards now. My former review load yielded very expected and normal retention and if I'm now only getting half my usual reviews that means I'm bound to perform a lot worse in a few weeks' or months' time.",
+      "url": "https://www.reddit.com/r/Anki/comments/1gkn3rj/future_review_load_almost_halved_after_toggling/"
+    },
+    {
+      "id": "1epnluc",
+      "title": "FSRS and unsuspending cards after a long hiatus",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1723390381,
+      "score": 2,
+      "num_comments": 8,
+      "selftext": "From what I know about Anki, once a card has been unsuspended, there's no indication in the database anymore that that card has previously been suspended. This can be problematic when using FSRS. Consider this scenario:\n\nYou rep a card a number of times, then suspend it (either because it has turned into a leech or because you've just changed your mind and want to learn it at a later point), then go on to unsuspend it and then rate it good on the next review (for instance because you've encountered and relearned it outside of Anki in the meantime). From the point of view of FSRS, it looks as though you haven't repped the card in a long time but, despite FSRS' expectations, still knew it. Upon reoptimizing the parameters, this is (incorrectly) taken as strong evidence that FSRS underestimates your memory.\n\nThe \"cleanest\" solution is probably to exclude leeches from optimization. This has two problems though: For one, it only works for, well, leeches even though the above problem exists for cards suspended for any reason. For another, for user with high leech counts (I've heard of people who set the threshold as low as 4) this can massively reduce the amount of training data.\n\nAnother approach would be to (as a user) always reschedule (\"Place at end of new card queue\") cards upon unsuspending them after a long hiatus, i.e. making them go through the learning phase again. From my reading of FSRS' code, this should work because FSRS only incorporates reps starting from the most recent learning phase into its training data. (I could be wrong on this though and I've failed to experimentally verify this! u/LMSherlock u/ClarityInMadness) This is also not optimal because, pretty self-evidently, completely new cards and reintroduced cards differ in terms of learning difficulty on average. Maybe this could be alleviated by incorporating a boolean into the training data that describes whether the card has been repped in the past. This is not possible with FSRS in its current form.\n\nWhat is considered best practice? I've looked through the FAQ and the wiki but I didn't find anything on this topic. I think at least a brief discussion on this should be added because this is a pretty common case.",
+      "url": "https://www.reddit.com/r/Anki/comments/1epnluc/fsrs_and_unsuspending_cards_after_a_long_hiatus/"
+    }
+  ],
   "comments": [
     {
       "id": "looy2x4",
@@ -11,6 +34,186 @@
       "score": 1,
       "link_id": "t3_1f3ia7f",
       "parent_id": "t3_1f3ia7f"
+    },
+    {
+      "id": "lxyep70",
+      "body": "Lots of bad advice in that video unfortunately. Capping one's daily reviews is also highly unrecommended.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1732036480,
+      "score": 1,
+      "link_id": "t3_1gurdxt",
+      "parent_id": "t1_lxwqro2"
+    },
+    {
+      "id": "lxydw8l",
+      "body": "This is one of the reasons why many people recommend using only recognition cards (TL->NL), especially when you get in a lot of input/immersion alongside Anki.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1732036239,
+      "score": 2,
+      "link_id": "t3_1guwtiv",
+      "parent_id": "t3_1guwtiv"
+    },
+    {
+      "id": "lwmx6vf",
+      "body": "I contacted Debian over this already. The SSL fix has been upstream for a month at this point, kind of embarrassing that they haven't updated their packages yet.",
+      "author": "woozy_1729",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1731356633,
+      "score": 2,
+      "link_id": "t3_1gjk99w",
+      "parent_id": "t1_lvgnmhb"
+    },
+    {
+      "id": "lvmmahc",
+      "body": "Because I do part of my reviews on a device that doesn't support FSRS. I've been doing this for over a year and I've never had problems.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1730857416,
+      "score": 1,
+      "link_id": "t3_1gkn3rj",
+      "parent_id": "t1_lvmlkx4"
+    },
+    {
+      "id": "luuy66x",
+      "body": "This also fixed the `error 6 in libnvidia-glcore.so.560.35.03` segfault I kept getting on my 1070 Ti.",
+      "author": "woozy_1729",
+      "subreddit": "archlinux",
+      "created_utc": 1730470152,
+      "score": 1,
+      "link_id": "t3_1ggjaar",
+      "parent_id": "t3_1ggjaar"
+    },
+    {
+      "id": "luuxdi8",
+      "body": "When I search for \"error 6 in libnvidia-glcore.so.560.35.03\" on the Internet, I get the impression that this is a problem unique to the 1070 Ti. I have one too and I've had the same problem until today.\n\nWhat fixed it for me was updating to 565.57.01 where this issue seems to be fixed. 565.57.01 was released by Nvidia on the 29th of October (https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-565-57-01/index.html) and landed in the repos on the 30th (https://gitlab.archlinux.org/archlinux/packaging/packages/nvidia/-/commit/63eabe4289550bc73cca46f9504bc2d56eb9bf4f). You may also want to check out the \"1.2. Fixed Issues\" section in the Nvidia link.",
+      "author": "woozy_1729",
+      "subreddit": "archlinux",
+      "created_utc": 1730469885,
+      "score": 1,
+      "link_id": "t3_1g072oj",
+      "parent_id": "t3_1g072oj"
+    },
+    {
+      "id": "lofhm5t",
+      "body": "\"Unterschied\" (0:07) sounded like \"Unt**e**schied\" to me.\n\n\"Hautfarbe\" (0:09) sounded like \"Hau**p**tfarbe\" to me.\n\nThe o in \"Überz**eu**gung\" (0:14) sounded a bit like the o in \"oder\" when it should be like the o in \"offen\".\n\nThe e in \"H**e**rkunft\" (0:17) sounded like the e in \"Herr\" when it should be like the e in \"Heer\".\n\nApart from these and some small unnatural pauses, it's pretty much perfect.",
+      "author": "woozy_1729",
+      "subreddit": "JudgeMyAccent",
+      "created_utc": 1727040868,
+      "score": 2,
+      "link_id": "t3_1fhi5io",
+      "parent_id": "t3_1fhi5io"
+    },
+    {
+      "id": "lofa6sp",
+      "body": "There are some dialects where \"gemacht\" is pronounced like \"g'maht\", e.g. Bavaria and Vorarlberg.",
+      "author": "woozy_1729",
+      "subreddit": "translator",
+      "created_utc": 1727038448,
+      "score": 1,
+      "link_id": "t3_1fkkew7",
+      "parent_id": "t1_lnw77qv"
+    },
+    {
+      "id": "lof8b06",
+      "body": "Spellings like \"bey\" and \"zweyter\" were common in 16th~19th century German, not specific to America.\n\nWiktionary sometimes has entries for such spellings:\n\nhttps://en.wiktionary.org/wiki/bey#German\n\nhttps://en.wiktionary.org/wiki/sey#German",
+      "author": "woozy_1729",
+      "subreddit": "translator",
+      "created_utc": 1727037860,
+      "score": 1,
+      "link_id": "t3_1fm6q74",
+      "parent_id": "t1_lo9m6ob"
+    },
+    {
+      "id": "locwyfz",
+      "body": "> although there is significant, nigh-permanent damage done to listening comprehension and accent through such methods\n\nInteresting perspective. I'm not necessarily disagreeing with you but I'd be curious to hear what made you come to this conclusion.",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1727011575,
+      "score": 1,
+      "link_id": "t3_1fjqe7u",
+      "parent_id": "t1_lnq3j4l"
+    },
+    {
+      "id": "locw9gu",
+      "body": "Yes, I remember that video, it was NukeMarine.",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1727011287,
+      "score": 1,
+      "link_id": "t3_1flaoe0",
+      "parent_id": "t1_lo51780"
+    },
+    {
+      "id": "locs8fi",
+      "body": "Personally, I use both \"i\" and \"ich\", depending on whether it is stressed or not. \"I gohn go poschte\" vs. \"Ich gohn go poschte\" (\"I'm going to go shopping\" vs. \"It is me (and nobody else) who's going to go shopping\").\n\nAll my personal pronouns have this stressed/unstressed distinction I think.",
+      "author": "woozy_1729",
+      "subreddit": "SwissGerman",
+      "created_utc": 1727009566,
+      "score": 1,
+      "link_id": "t3_1f2pqo4",
+      "parent_id": "t3_1f2pqo4"
+    },
+    {
+      "id": "locrn2b",
+      "body": "I've never heard anybody use \"öppis\" in this way in my life and it sounds very wrong to me.",
+      "author": "woozy_1729",
+      "subreddit": "SwissGerman",
+      "created_utc": 1727009302,
+      "score": 1,
+      "link_id": "t3_1f157or",
+      "parent_id": "t1_ljze5gy"
+    },
+    {
+      "id": "locohdh",
+      "body": "Could perhaps be due to overgeneralization/hypercorrection: If you're made aware that you mispronounce e.g. \"what\", \"why\", etc., you may be tempted to overapply this correction to all instances where you previously used /v/. Changing the realization of a specific phoneme is comparatively easy (which is why some people can readily imitate accents) whereas refining the \"grid\" on which your lexicon is stored (i.e. the phonemes) is pretty hard to do after the fact.",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1727007826,
+      "score": 1,
+      "link_id": "t3_1flcucx",
+      "parent_id": "t1_locn98i"
+    },
+    {
+      "id": "locg3g0",
+      "body": "The sound that is represented by <w> in English (namely /w/) doesn't exist in Standard German and only exists in some Alemannic dialects. To somebody who hasn't acquired the phoneme /w/, the English words \"wine\" and \"vine\" sound pretty much the same. Perhaps you've heard that monolingual Japanese speakers can't really distinguish between /r/ and /l/; it's basically the same thing going on here but for a different phoneme pair. And if you can't hear the difference between two phonemes, you can't reliably produce them either.\n\nOn top of that, (Swiss) German <v> is sometimes pronounced the same as <w> (e.g. in \"vage\") which adds to the confusion.",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1727003332,
+      "score": 1,
+      "link_id": "t3_1flcucx",
+      "parent_id": "t3_1flcucx"
+    },
+    {
+      "id": "locdyy0",
+      "body": "They do have by far the strongest freedom of speech though, gotta give them that. Fining and sometimes even jailing people for insults is absolutely insane to me but most other Swiss people seem to be fine with it.",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1727002013,
+      "score": 1,
+      "link_id": "t3_1fm68xg",
+      "parent_id": "t1_lo86y2f"
+    },
+    {
+      "id": "lhw8pb8",
+      "body": "If a card has a history that looks like, say, LLRLLRR (L: learning, R: review), is it the case that FSRS only considers the LLRR portion when training and rescheduling? I hope the answer is yes and from my brief skimming over the code, it looks like it is indeed yes, but I haven't seen anyone actually involved with the development explicitly confirm this.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1723549411,
+      "score": 1,
+      "link_id": "t3_1epnluc",
+      "parent_id": "t1_lhlz8ef"
+    },
+    {
+      "id": "lf27tc4",
+      "body": "Thanks a lot for implementing this! It helps me greatly.\n\nAs for pattern matching, I can see how this is probably a bit hard to implement in full generality given the constraints, so I'd propose an alternative: Adding a single boolean option to skip all lines that are basically just parentheses. I paid some attention to it in my immersion since my last reply and I think this feature would have a very low false positive rate. The only exception I came across were some subs where they used `((...))` (double latin parentheses) for inner monologues.\n\nHere's also a bug report while I'm at it: Sometimes, the script doesn't speed up after skipping chapters (e.g. after pressing \"page up\" to skip the OP; my makeshift solution is to quickly toggle the script off and on).\n\nLastly, my blacklist currently looks like this (note the two types of tildes, I came across both):\n\n`blacklist = {'♬', '～♬', '♬～', '♫', '～♫', '♫～', '☎', '・～', '♪', '♪～', '～♪', '♪〜', '〜♪', '♪♪', '♪♪～', '～♪♪', '♪♪〜', '〜♪♪'}`",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1722013702,
+      "score": 1,
+      "link_id": "t3_1dn57bw",
+      "parent_id": "t1_lcb8klu"
     }
   ]
 }

@@ -11,6 +11,39 @@
       "num_comments": 9,
       "selftext": "[Ein junger Professor im Departement Informationstechnologie und Elektrotechnik soll Mitarbeitende und Studierende der ETH ausgenutzt, unter Druck gesetzt und abgekanzelt haben.](https://www.tagesanzeiger.ch/mobbing-vorwuerfe-eth-eltech-750870807822?gift_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ4bnV5MzUzMDE4OCIsImlhdCI6MTcxODE4NDQzOSwiZXhwIjoxNzMzOTUyNDM5LCJ0ZW5hbnQiOiJ0YWdlc2FuemVpZ2VyIiwidW5pdHlJZCI6Ijc1MDg3MDgwNzgyMiIsImp0aSI6Ijk3Y2UxNTUwYTBmOTYxZDdhYzI1ZGQ5YTFjMDJjMjA5OTZlMmJmMWFhNWM1ZGQzYTU5YjJmMzZmYTM2Mzk1MmIifQ.dipOoKKICSQYYjcnNwsd84-HYXlLGvbj-YwEK8qVtYs)",
       "url": "https://www.reddit.com/r/ethz/comments/1de2h0i/nach_mobbingvorwürfen_verlässt_assistenzprofessor/"
+    },
+    {
+      "id": "1akxles",
+      "title": "[D] Convergence of Approximate RL / PG / PPO",
+      "author": "gtancev",
+      "subreddit": "MachineLearning",
+      "created_utc": 1707291323,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all.\n\nI am currently working on a custom RL task where I had to define the MDP including reward function, using PPO to make the agent learn \"an optimal policy\". What I see is that the average reward stabilizes around a high value but continues to evolve, i.e., the policy keeps changing with more epochs. The average reward basically starts oscillating. The policy associated with the highest rewards makes perfectly sense to me, though.\n\nI have been wondering whether I have misspecified the MDP, and what the convergence guarantees of PPO are. Or does agent simply still find ways to improve the policy?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1akxles/d_convergence_of_approximate_rl_pg_ppo/"
+    },
+    {
+      "id": "1abn1x6",
+      "title": "[D] RAGs",
+      "author": "gtancev",
+      "subreddit": "MachineLearning",
+      "created_utc": 1706288263,
+      "score": 10,
+      "num_comments": 10,
+      "selftext": "Hi\n\nI've been wondering what the go-to frameworks for retrieval-augmented generators (RAGs) are, what your experience is with them, and if you can recommend one (over the others). From what I see, some of them seem to be modular. I am particularly interested in your experience with setting them up (how \"easy\" is it?) and how they perform.\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1abn1x6/d_rags/"
+    },
+    {
+      "id": "1abn07m",
+      "title": "RAG Frameworks",
+      "author": "gtancev",
+      "subreddit": "MachineLearning",
+      "created_utc": 1706288141,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1abn07m/rag_frameworks/"
     }
   ],
   "comments": [
@@ -63,6 +96,156 @@
       "score": 2,
       "link_id": "t3_1apozp7",
       "parent_id": "t3_1apozp7"
+    },
+    {
+      "id": "l4am5wl",
+      "body": "Or the amount might get tweaked!",
+      "author": "gtancev",
+      "subreddit": "warcraftrumble",
+      "created_utc": 1715860896,
+      "score": 6,
+      "link_id": "t3_1ct9ifi",
+      "parent_id": "t1_l4alq3b"
+    },
+    {
+      "id": "kxaq3g3",
+      "body": "Ground, ranged, and flying are mutually exclusive. Because it‘s flying already, it can‘t be ranged.",
+      "author": "gtancev",
+      "subreddit": "warcraftrumble",
+      "created_utc": 1711828480,
+      "score": 20,
+      "link_id": "t3_1brqja0",
+      "parent_id": "t3_1brqja0"
+    },
+    {
+      "id": "kszelq9",
+      "body": "SVM scales poorly with dataset size. Consider another method.",
+      "author": "gtancev",
+      "subreddit": "MachineLearning",
+      "created_utc": 1709373739,
+      "score": 1,
+      "link_id": "t3_1b4kjvj",
+      "parent_id": "t3_1b4kjvj"
+    },
+    {
+      "id": "ksq8hzz",
+      "body": "They told me 5 years ago. But it needs to be justified.",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1709230178,
+      "score": 16,
+      "link_id": "t3_1b315wd",
+      "parent_id": "t1_kspygv4"
+    },
+    {
+      "id": "ksp5stw",
+      "body": "A stage is not a workshop, a stage is an internship. A workshop is generally very short (a few days) and you learn about a specific topic.",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1709216981,
+      "score": 37,
+      "link_id": "t3_1b315wd",
+      "parent_id": "t1_ksp5126"
+    },
+    {
+      "id": "ksp4esp",
+      "body": "This does not seem correct, especially since RAV even pays further educations. There might have been a misunderstanding, perhaps because it‘s called „workshop“.",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1709216443,
+      "score": 83,
+      "link_id": "t3_1b315wd",
+      "parent_id": "t3_1b315wd"
+    },
+    {
+      "id": "ksfrf7i",
+      "body": "You can do a bootstrap to estimate the model uncertainty (epistemic part) and add the noise to that (estimated from the RSS).",
+      "author": "gtancev",
+      "subreddit": "MachineLearning",
+      "created_utc": 1709069288,
+      "score": 1,
+      "link_id": "t3_1b1j8yl",
+      "parent_id": "t3_1b1j8yl"
+    },
+    {
+      "id": "ks4o0en",
+      "body": "[Here.](https://elektrobasel.ch)",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1708898484,
+      "score": 1,
+      "link_id": "t3_1azzyjj",
+      "parent_id": "t3_1azzyjj"
+    },
+    {
+      "id": "kqel3cz",
+      "body": "Africa is not a country. 😑",
+      "author": "gtancev",
+      "subreddit": "OnePiece",
+      "created_utc": 1707928917,
+      "score": 116,
+      "link_id": "t3_1aqqp74",
+      "parent_id": "t3_1aqqp74"
+    },
+    {
+      "id": "kprkxoq",
+      "body": "What triggers me the most is when people trow away their finished cigarettes onto the street when there‘s a can 3 m away.",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1707560809,
+      "score": 70,
+      "link_id": "t3_1and86y",
+      "parent_id": "t3_1and86y"
+    },
+    {
+      "id": "kpgr0m2",
+      "body": "The job market at the moment is a mess. Look for internships or temporary employments/contractor roles and don‘t be picky for now.",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1707386694,
+      "score": 5,
+      "link_id": "t3_1alrujp",
+      "parent_id": "t3_1alrujp"
+    },
+    {
+      "id": "kp2ekfr",
+      "body": "Sometimes it‘s easy to get lost because you have so many options. Comparison with others is always difficult, as their choices won’t suit you. You need to do some self-reflection. \nWho are you, what sparks joy, what are you good at, how do you want to contribute to society? At the end, there is no point in pleasing others, it‘d yout life and you have to live it. \nPerhaps the academic route is not made for you, or you did not pick the right things. You could maybe get some „Berufsberatung“?",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1707160870,
+      "score": 5,
+      "link_id": "t3_1ajmxct",
+      "parent_id": "t3_1ajmxct"
+    },
+    {
+      "id": "kk94c0x",
+      "body": "Similar experience in engineering/IT. You‘re not alone.",
+      "author": "gtancev",
+      "subreddit": "Switzerland",
+      "created_utc": 1706620203,
+      "score": 42,
+      "link_id": "t3_1aejpdz",
+      "parent_id": "t3_1aejpdz"
+    },
+    {
+      "id": "kk492l2",
+      "body": "My bad, you might be right. I guess I remembered the tier set boni for resto!",
+      "author": "gtancev",
+      "subreddit": "wow",
+      "created_utc": 1706543417,
+      "score": 1,
+      "link_id": "t3_1adr22x",
+      "parent_id": "t1_kk473nd"
+    },
+    {
+      "id": "kk3kzm5",
+      "body": "S1 will be fated set, indeed!",
+      "author": "gtancev",
+      "subreddit": "wow",
+      "created_utc": 1706533536,
+      "score": 1,
+      "link_id": "t3_1adr22x",
+      "parent_id": "t1_kk307qx"
     }
   ]
 }

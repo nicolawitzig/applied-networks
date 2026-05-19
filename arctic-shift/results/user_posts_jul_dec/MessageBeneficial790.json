@@ -11,7 +11,70 @@
       "num_comments": 0,
       "selftext": "I'm about to start my third year of my bachelor at the university of Trento and decided to look into universities for my Masters.  \nI looked at the admission requirements for the Masters program, and am now wondering about a couple of things.  \n  \nFirst off, when it comes to ETCs requirements, you need to have 75 credits in various basic courses. Thing is, some of these courses simply don't get taught at my university.   \nMy assumption is that although I haven't done some of these courses, the material you study is still roughly the same; but how well is that taken into account when it comes to the admission? Also, how well do Italian CFUs translate to ETCs (in theory they're both 25h per credit)?  \n  \nFurthermore, courses in Italy usually are done in multiples of 3. But here the requirements are often 7, so I'm wondering if I'm losing credits here that would push me outside the cutoff for the   \n  \n`the number of additional credits required to satisfy the academic prerequisites (listed in Section 1.2 above) exceeds`   \n`1. 30 credits in total, or`   \n`2. 15 credits from Part 1 of the discipline requirements profile`  \npart of the requirements if some courses were to be found missing.\n\nAnother thing to consider is that the submission is done in November, so I'll only have done courses that are taught the first 2 years of university. And this year there are some courses that could somewhat translate to the required ones.  \n\n\nOverall I'm not worried about the actual studying requirements given my good grades, and I was also considering applying for the scholarship when I end my degree (average 29.06/30 rn). But I was worried if and how the recognition for courses would be given.\n\nI will email the universities for more info, but given my afternoon research I thought it'd better to send one tomorrow and ask here as well. Thanks for any info provided.",
       "url": "https://www.reddit.com/r/ethz/comments/1f93vd0/course_and_credits_recognition_for_cs_masters/"
+    },
+    {
+      "id": "1g03whz",
+      "title": "Static page project, easiest and most lightway setup for multiple files",
+      "author": "MessageBeneficial790",
+      "subreddit": "typescript",
+      "created_utc": 1728512567,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/typescript/comments/1g03whz/static_page_project_easiest_and_most_lightway/"
+    },
+    {
+      "id": "1foqly9",
+      "title": "Help for setting up simple static website that requires JSON on github pages ",
+      "author": "MessageBeneficial790",
+      "subreddit": "AskProgramming",
+      "created_utc": 1727220732,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "So I was planning on doing a simple application which requires basic user input, some not insignificant amount of data stored in some .json files, and then show an output with some level of graphical presentation.\n\nSince I also wanted to share this I came to the solution of using simple JavaScript and then deploying the \"website\" on github pages since it's so simple.\n\nAfter a bit of tinkering though I had a problem, I couldn't get the .json files to load.\nI tried the fetch function, I tried the import stuff, partial success only. I did manage to get the fetch to read the json, but I'm not too familiar with async functions within basic javascript and tying stuff to eventlisteners on the document.\n\nAs for the logic of my own program I'm 100% confident of being able to figure it out, but this .json import and saving the data to a variable is just flying over my head, so I'd appreciate some sort of starting point to go off.\n\nFor context imagine I have a folder structure like \n-project (dir)\n     -jsonfiles (dir)\n            • data1.json\n            • data2.json\n     -index.html\n     -script.js\n\nI'm also open to using some frameworks or whatever, just keep in mind that the functionality I'll need does not go beyond what I've specified.\nThanks a ton",
+      "url": "https://www.reddit.com/r/AskProgramming/comments/1foqly9/help_for_setting_up_simple_static_website_that/"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": "los1htd",
+      "body": "Yes the fetch did work, but I couldn't figure out how to save it into a variable/array properly.\n\nA snippet of code loading the data into a variable would help a ton as it's the only thing I'm struggling to figure out browsing the internet",
+      "author": "MessageBeneficial790",
+      "subreddit": "AskProgramming",
+      "created_utc": 1727223238,
+      "score": 2,
+      "link_id": "t3_1foqly9",
+      "parent_id": "t1_loryeje"
+    },
+    {
+      "id": "los148t",
+      "body": "I mean the project is basically non existent as of rn since I was just starting by figuring out the json loading thing.\nBut yes raw HTML/CSS/JS was the plan, unless someone suggests some other simpler way to get this done.\n\nSadly the saving into a variable wouldn't be the most comfortable since I need to change json files a bunch to test them.\n\nThe difficulty is mainly with not being confident in applying async functions and storing the data of the json inside a variable. Would I just call the async function from a listener like 'onload' ? How would I make the listener function async, would it just work if I wrote it down.\n\nThe json would basically be an array of objects with some fields in them, I want to store this in a javascript array (but the json file will likely be determined by user input, like deciding between data1.json and data2.json",
+      "author": "MessageBeneficial790",
+      "subreddit": "AskProgramming",
+      "created_utc": 1727223097,
+      "score": 1,
+      "link_id": "t3_1foqly9",
+      "parent_id": "t1_los068p"
+    },
+    {
+      "id": "lmdqc41",
+      "body": "I say 2MP because it's ED's low, since you wanna threaten that when the opponent walks back out of your poke ranges. \n\nOutside of that I can say BH is probably better than casual mode? I think you'll find more people who either main the hub but are still very good or just <1500 master players like yourself there. \n\nRecommend doing at least FT5 if not FT10 sets always. \n\nFrom more personal experience, make a list with a couple things you wanna work on, even small things, but that are \"guaranteed\" to work better (learn a framekill or new oki setup for a particular knockdown, learn a more drive efficient punish, etc...) \n\nstuff that's like a little objective you can work on even if the opponent you're against isn't challenging you in other ways. \n\nThe worst thing that can happen when you're trying to improve is not knowing in which direction to look forward",
+      "author": "MessageBeneficial790",
+      "subreddit": "StreetFighter",
+      "created_utc": 1725936145,
+      "score": 2,
+      "link_id": "t3_1fd5z1w",
+      "parent_id": "t1_lmdosv8"
+    },
+    {
+      "id": "lmdnnrk",
+      "body": "Just watched one of the Ken videos.\nThe most glaring thing I've noticed is your lack of 2MP > DRC or poke usage in general.\n\nIt seems like you don't understand what the point of pokes are or maybe you're trying too hard to whiff punish the opponent (cuz it looks cool?)\nIn general it feels like you're lacking a range in which ed works really well.\n\nEd can use 2HK and 2MK as pokes, and 2MP DRC is basically what the Ken was doing to you all game. (With his 2MK ofc)\n\nAs for other stuff I think your self reflection is pointing at the right direction.\n\nOne thing I would suggest to learn to pick apart player habits is stop playing ranked and do battlehub for some time, try your best to understand what pokes your opponents like pressing or what oki options they do etc.\n\nFT2 is dogshit and you should stay away from it for the most part IMO, unless you're practicing intentionally for it (which you shouldn't where you're at)",
+      "author": "MessageBeneficial790",
+      "subreddit": "StreetFighter",
+      "created_utc": 1725935081,
+      "score": 5,
+      "link_id": "t3_1fd5z1w",
+      "parent_id": "t3_1fd5z1w"
+    }
+  ]
 }

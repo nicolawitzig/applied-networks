@@ -21,6 +21,96 @@
       "score": 1,
       "link_id": "t3_1df4bjo",
       "parent_id": "t3_1df4bjo"
+    },
+    {
+      "id": "lalfahg",
+      "body": "Great bank. But their ebanking layout in the browser is unintuitive dogshit",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1719527666,
+      "score": 1,
+      "link_id": "t3_1dpvqw5",
+      "parent_id": "t1_lajr8is"
+    },
+    {
+      "id": "lalf35z",
+      "body": "I second this. Postfinance is kind of the bank for the commoners like us. Good app both english and german. Similar rates to everyone else. Wouldnt use for a savings account though. Just daily expenses",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1719527591,
+      "score": 2,
+      "link_id": "t3_1dpvqw5",
+      "parent_id": "t1_lak8yce"
+    },
+    {
+      "id": "lahnu93",
+      "body": "About your package manager: Please provide a docker image. Usually its not too much effort other than writing a dockerfile. It makes setting things up much easier",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "selfhosted",
+      "created_utc": 1719473830,
+      "score": 1,
+      "link_id": "t3_1dowhi3",
+      "parent_id": "t3_1dowhi3"
+    },
+    {
+      "id": "lafogvb",
+      "body": "The larger problem is that the population is aging and old people have higher medical costs due to more illness and medications. Higher health insurance premiums are just a symptom of a more general problem. I dont know there will be a solution to the bigger problem.\nYou can see this in the latest referendums. One was to cut costs and deliver worse healthcare, and the other was to pay less for the same (which is stupid because the money has to come from somewhere, so you end up paying more taxes probably).",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719441089,
+      "score": 1,
+      "link_id": "t3_1dp8r0g",
+      "parent_id": "t3_1dp8r0g"
+    },
+    {
+      "id": "lafnnog",
+      "body": "True. Currently so much ‚alternative medicine‘ is covered its ridiculous",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719440798,
+      "score": 2,
+      "link_id": "t3_1dp8r0g",
+      "parent_id": "t1_lafaex3"
+    },
+    {
+      "id": "lafnggb",
+      "body": "As someone whose parents have to deal with the nursing home system: They already suck you dry. I hear of elderly friends that had to sell their house because a nursing home costs you, the individual, more than 100k a year. And it wasn‘t even an expensive one.\nI still think elderly people are the cause of high costs but that‘s mainly from hospitals and medications",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719440725,
+      "score": 1,
+      "link_id": "t3_1dp8r0g",
+      "parent_id": "t1_laflutj"
+    },
+    {
+      "id": "la1z6sq",
+      "body": "For immich, and nextcloud you may want to learn about linux filesystems. I also recommend you always use docker for everything. Watch a youtube video that explains docker concepts like images, containers, volumes, networks, and most importantly \"docker compose stacks\". I wish you all the best!",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "selfhosted",
+      "created_utc": 1719239809,
+      "score": 1,
+      "link_id": "t3_1dnbrar",
+      "parent_id": "t1_la1y09c"
+    },
+    {
+      "id": "la1wug5",
+      "body": "The cost of a server can vary a lot. You can start with a thin client like a rpi or intel nuc. I for example repurposed my old desktop. The cost is basically the cost of electricity for the server so that depends on where you live. \n\nWhen you start out don't expose anything to the internet. No portforwarding. Use a VPN to access things if you need it. This will keep everything secure until you learn more.\n\nDon't worry about routers at first. What kind of projects do you want to selfhost? If it's pihole then yes, learn networking. If it's movies, tvshows you want to learn torrenting, indexers, etc.",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "selfhosted",
+      "created_utc": 1719238960,
+      "score": 1,
+      "link_id": "t3_1dnbrar",
+      "parent_id": "t3_1dnbrar"
+    },
+    {
+      "id": "la1vldj",
+      "body": "I recommend you learn docker first, then kubernetes. Since the two work very well together. Learning kubernetes without knowing the docker abstractions is likely too overwhelming",
+      "author": "Drunken_Sheep_69",
+      "subreddit": "selfhosted",
+      "created_utc": 1719238500,
+      "score": 4,
+      "link_id": "t3_1dn9efm",
+      "parent_id": "t3_1dn9efm"
     }
   ]
 }

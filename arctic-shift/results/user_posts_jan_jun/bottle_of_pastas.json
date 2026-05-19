@@ -1,6 +1,40 @@
 {
   "username": "bottle_of_pastas",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1c6lhkv",
+      "title": "Challenge: Dinosaur riding a unicycle over a volcano while juggling sheep",
+      "author": "bottle_of_pastas",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1713388614,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hello everyone,\n\nI love Stable Diffusion. Since I've been practicing, all sorts of things work really well, such as face swaps, clothing swaps, style transfers, etc. However, I still struggle with transforming the wild ideas in my head into images. I predominantly use Stable Diffusion to create funny images based on things that have happened or the crazy imaginations our group has, and then send them to my friends. For example, as the title suggests, imagine a dinosaur riding a unicycle over a volcano while juggling sheep.\n\nWhile I have no problem using ChatGPT's DALL·E 3 for this, I struggle to achieve such an image with Stable Diffusion. See the image here: [https://imgur.com/a/aricchm](https://imgur.com/a/aricchm). I predominantly tried SDXL models like Dreamshaper XL, but it never works. \n\nSo, as a challenge, I would like to know what you can come up with. I would love to see what variations of this picture can be made.\n\nAlso I would appreciate for any tipps and tricks how you got your image.\n\nPrompt used for the image:\n\n>depiction of a realistic green T-rex actively juggling sheep while riding a unicycle on a tightrope high above an erupting volcano, set against a stormy weather background. The sheep should be arranged in a more orderly arc, emphasizing a controlled and elegant juggling motion rather than appearing chaotic. The T-rex retains its detailed reptilian features in rich forest green, vividly juggling the neatly aligned sheep above its hands. The volcanic eruption below contrasts with intense shades of red and orange lava, surrounded by dark stormy clouds and flashes of lightning, enhancing the dramatic atmosphere. There should be no ground visible.\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1c6lhkv/challenge_dinosaur_riding_a_unicycle_over_a/"
+    },
+    {
+      "id": "1bguw8c",
+      "title": "Learning ComfyUI: Panda wearing earrings",
+      "author": "bottle_of_pastas",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1710673213,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Hello everyone,\n\nI've recently started learning about ComfyUI and Stable Diffusion. I'm using an RTX 3090, and everything seems to be working fine. I'm currently experimenting with different settings to understand their effects. As a practical learning exercise, I set myself the goal of generating an image of a panda wearing earrings, with the ultimate aim being to have the panda sport earrings while a tiny girl hangs from them. This task is designed to help me learn more about image generation and the various capabilities of these tools.\n\nHowever, I'm struggling to get the panda to appear with earrings. I'm not sure if the issue is that the pixel area needed for the earrings is too small. I'm using the base model of SDXL without any advanced workflows—just the basics. My plan is to add the little girl to the earrings later using the inpaint feature. It's all part of the learning process.\n\nBut earrings seem to pose a unique challenge for me, whereas accessories like hats and scarfs are almost always successfully generated. Does anyone have any suggestions on how I might be able to generate the image of the panda wearing earrings?  \n\n\nI appreciate all the tips and help provided. Thank you!",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1bguw8c/learning_comfyui_panda_wearing_earrings/"
+    },
+    {
+      "id": "1b5e2yi",
+      "title": "[Beginner] Text on Ricks phone from The Walking Dead",
+      "author": "bottle_of_pastas",
+      "subreddit": "JapaneseInTheWild",
+      "created_utc": 1709461560,
+      "score": 17,
+      "num_comments": 4,
+      "selftext": "What does the text say on the phone? I can read 'mora,' which I assume has something to do with waiting, but then the next characters throw me off as well as the kanji. 'Jitemite' I assume means 'to try'?\"   \n\n\nSo I assume the message means something like 'try to wait'? But could someone explain to me the character after 'ら' and the kanji? \n\nThank you very much!\n\nhttps://preview.redd.it/rls07ie2i3mc1.png?width=938&format=png&auto=webp&s=d4f0c5e435320a2362ffc468c0cccc9bf4a09ea9",
+      "url": "https://www.reddit.com/r/JapaneseInTheWild/comments/1b5e2yi/beginner_text_on_ricks_phone_from_the_walking_dead/"
+    }
+  ],
   "comments": [
     {
       "id": "l5c1klc",
@@ -41,6 +75,126 @@
       "score": 2,
       "link_id": "t3_1b5ipan",
       "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "l4mwswf",
+      "body": "Why not just use ssh dynamic tunnel? That worked just fine for me when I visited it.",
+      "author": "bottle_of_pastas",
+      "subreddit": "WireGuard",
+      "created_utc": 1716058571,
+      "score": 7,
+      "link_id": "t3_1cv28wp",
+      "parent_id": "t3_1cv28wp"
+    },
+    {
+      "id": "l3ej9pm",
+      "body": "I did not even search for that, because I thought I was a weirdo. Would be great to keep in touch and gather some information.",
+      "author": "bottle_of_pastas",
+      "subreddit": "answers",
+      "created_utc": 1715328749,
+      "score": 1,
+      "link_id": "t3_1cl0hik",
+      "parent_id": "t1_l2u38in"
+    },
+    {
+      "id": "l2rcjyp",
+      "body": "t's funny, I experience that too! Whenever I mention to others that I have that sensation, they think I'm crazy or making it up. Thanks for the post confirming that there are other people who feel the same.\n\nI get that feeling too when something pointy is near between my eyes. Then, I feel this weird tingling sensation between my eyes, but also that eye thing, where I think anything could pick my eyes out, like people walking with open umbrellas near me.",
+      "author": "bottle_of_pastas",
+      "subreddit": "answers",
+      "created_utc": 1714952970,
+      "score": 3,
+      "link_id": "t3_1cl0hik",
+      "parent_id": "t3_1cl0hik"
+    },
+    {
+      "id": "l1grz0q",
+      "body": "Asking for a friend?",
+      "author": "bottle_of_pastas",
+      "subreddit": "HowToHack",
+      "created_utc": 1714197483,
+      "score": 1,
+      "link_id": "t3_1cdm1ga",
+      "parent_id": "t3_1cdm1ga"
+    },
+    {
+      "id": "kx8pcwn",
+      "body": "Gass the art style",
+      "author": "bottle_of_pastas",
+      "subreddit": "midjourney",
+      "created_utc": 1711799378,
+      "score": 24,
+      "link_id": "t3_1braa0c",
+      "parent_id": "t1_kx8hzwh"
+    },
+    {
+      "id": "kvgot74",
+      "body": "That was a good tip about the efficient node; I didn't know that. However, I was not successful. Maybe the models I am using lack the ability to create highly imaginative stuff that doesn't exist or the model was not trained on such concepts.",
+      "author": "bottle_of_pastas",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1710786816,
+      "score": 1,
+      "link_id": "t3_1bguw8c",
+      "parent_id": "t1_kvacxwr"
+    },
+    {
+      "id": "kvgol94",
+      "body": "Thanks for the tip. I downloaded the model and played around. It seems to work if I do it the other way around. The little girl wearing panda bear earrings. But I still can't generate a panda bear wearing earrings. I've tried multiple models. Would you mind sharing the workflow you used for this photo?",
+      "author": "bottle_of_pastas",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1710786740,
+      "score": 1,
+      "link_id": "t3_1bguw8c",
+      "parent_id": "t1_kva7z5q"
+    },
+    {
+      "id": "kuvcsdm",
+      "body": "Raddiz looks awesome. Totally agree with the hairstyle!",
+      "author": "bottle_of_pastas",
+      "subreddit": "midjourney",
+      "created_utc": 1710440125,
+      "score": 15,
+      "link_id": "t3_1beopn3",
+      "parent_id": "t3_1beopn3"
+    },
+    {
+      "id": "ku8tm20",
+      "body": "Any solution to this! I am facing the same issue.",
+      "author": "bottle_of_pastas",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1710091494,
+      "score": 1,
+      "link_id": "t3_zi2zk1",
+      "parent_id": "t3_zi2zk1"
+    },
+    {
+      "id": "kt4uepm",
+      "body": "Oh yes, absolutely. Now that you said it, it really looks like a 少. And I totally misread う and thought it was a ら. Thank you very much for your explanation.",
+      "author": "bottle_of_pastas",
+      "subreddit": "JapaneseInTheWild",
+      "created_utc": 1709464348,
+      "score": 2,
+      "link_id": "t3_1b5e2yi",
+      "parent_id": "t1_kt4sago"
+    },
+    {
+      "id": "kh4k0rv",
+      "body": "Nice! Thank you very much. Had forgotten that ^^",
+      "author": "bottle_of_pastas",
+      "subreddit": "OnePiece",
+      "created_utc": 1704841996,
+      "score": 1,
+      "link_id": "t3_162i4sv",
+      "parent_id": "t1_kgxvy2z"
+    },
+    {
+      "id": "kgxkwa9",
+      "body": "But didn’t the pirates who attacked the straw hats at Baratie Arc said that they just came from the Grand Line?",
+      "author": "bottle_of_pastas",
+      "subreddit": "OnePiece",
+      "created_utc": 1704739669,
+      "score": 1,
+      "link_id": "t3_162i4sv",
+      "parent_id": "t1_kd5im2c"
     }
   ]
 }

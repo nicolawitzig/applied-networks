@@ -11,6 +11,16 @@
       "score": 1,
       "link_id": "t3_12gytoc",
       "parent_id": "t1_jfohir9"
+    },
+    {
+      "id": "lfdx6kg",
+      "body": "If you're interested in the challenges that tokenization poses for large language models (LLMs), especially when it comes to compound words like \"Strawberry\" and \"Schoolbooks\", check out the paper \"Tokenization Falling Short: The Curse of Tokenization\": [https://arxiv.org/pdf/2406.11687](https://arxiv.org/pdf/2406.11687).\n\nThis paper dives deep into why LLMs struggle with tasks that require understanding of tokenized text, such as accurately identifying the number and positions of specific letters in compound words. For example, \"Schoolbooks\" often gets split into \"School\" and \"Books\", making it hard for models to process it as a single entity. This leads to errors, especially when trying to count and locate characters like 'O' in \"Schoolbooks\" or 'E' in \"Timekeeper\".\n\nThe paper also explores various mitigation strategies, including BPE-dropout, to improve model performance by addressing these tokenization issues.",
+      "author": "cyk_cky",
+      "subreddit": "ChatGPT",
+      "created_utc": 1722197568,
+      "score": 2,
+      "link_id": "t3_1e6do2a",
+      "parent_id": "t3_1e6do2a"
     }
   ]
 }

@@ -1,6 +1,18 @@
 {
   "username": "Upbeat_Hat1089",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dz372r",
+      "title": "Hard time in getting an apartment",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720533749,
+      "score": 1,
+      "num_comments": 25,
+      "selftext": "Hi all! I’m an Italian, I moved to Vienna for working reasons. My gf will soon move with me. Both of us are academic researchers, our salaries are both around 60 k euros gross per year.\n\nLong story short, we are having a very hard time to be accepted in an apartment. We get to the visit, we sign an offer as requested, but the landlords always go for other candidates. This happened already like 5 times. Is that normal?\n\nA side note is that we are aiming to very central apartments, possibly old fashioned.\n\nIs there any tips or strategies we should adopt for getting an apartment? E.g., are we suppose to offer more than what is requested by the agencies?\n\nThanks in advance for your comments :)\n",
+      "url": "https://www.reddit.com/r/wien/comments/1dz372r/hard_time_in_getting_an_apartment/"
+    }
+  ],
   "comments": [
     {
       "id": "m0jmhtn",
@@ -21,6 +33,476 @@
       "score": 1,
       "link_id": "t3_1gsj1z1",
       "parent_id": "t3_1gsj1z1"
+    },
+    {
+      "id": "m4g1iwu",
+      "body": "I like Alessandra. It sounds very powerful!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Italian",
+      "created_utc": 1735519239,
+      "score": 1,
+      "link_id": "t3_1ho59gn",
+      "parent_id": "t3_1ho59gn"
+    },
+    {
+      "id": "m4g0lek",
+      "body": "Secondo me ce la fai. Conferenze e insegnamento sono una parte (o possono essere una parte) molto minoritaria del dottorato. \n\nDetto ciò, a una conferenza ho visto un balbuziente pesante presentare; è stata una scena tremenda per lui, faceva una fatica atroce e era impossibile capire quello che diceva, ma il messaggio è arrivato tramite le slide. Il pubblico non ha battuto ciglio, ha preso la cosa come una disabilità e nessuno ha fatto commenti o preso in giro il presentatore, c’era assoluta comprensione!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1735518922,
+      "score": 2,
+      "link_id": "t3_1hoqoen",
+      "parent_id": "t3_1hoqoen"
+    },
+    {
+      "id": "m35r1r8",
+      "body": "Rifiuta e rifai. Non ha senso rovinare una media del 28 con un 18!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1734800745,
+      "score": 5,
+      "link_id": "t3_1hjbnqn",
+      "parent_id": "t3_1hjbnqn"
+    },
+    {
+      "id": "m35qrlu",
+      "body": "Ci sono dei posti dove tolgono dalla media i più bassi?",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1734800644,
+      "score": 3,
+      "link_id": "t3_1hjbnqn",
+      "parent_id": "t1_m358s26"
+    },
+    {
+      "id": "m2sz2cp",
+      "body": "O ha 14 anni!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "TeenagersITA",
+      "created_utc": 1734604904,
+      "score": 1,
+      "link_id": "t3_1hh1oi4",
+      "parent_id": "t1_m2nodse"
+    },
+    {
+      "id": "m2jw66p",
+      "body": "Ce l’aveva già prima che vi lasciaste (scusa, sono letteralmente ubriaco)",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "CasualIT",
+      "created_utc": 1734468519,
+      "score": 1,
+      "link_id": "t3_1hg9j7w",
+      "parent_id": "t3_1hg9j7w"
+    },
+    {
+      "id": "m2e4y3h",
+      "body": "Vienna è molto bella, la TU un’ottima università. Una cosa di cui tenere conto: gli affitti a Vienna in centro sono molto convenienti se paragonati alle altre grandi città europee. Io pago 750 per una casa di tre stanze in una zona centralissima; unico difetto è che è un po’ buia. Tuttavia un affitto breve, come 6 mesi, può costarti molto!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1734384150,
+      "score": 3,
+      "link_id": "t3_1hfr81f",
+      "parent_id": "t3_1hfr81f"
+    },
+    {
+      "id": "m1e3nyg",
+      "body": "Hei! Depending of what you want to do, you can think about switching to 2D particle tracking instead of image velocimetry. If your issue is e.g. having good statistics around an object, then it is sufficient that at some point some particles are passing at every location. In this way holes will not be an issue anymore because they are filled at different times. Also, you can (for the mean fileds) go closer to walls.\n\nA very fast-to-implement way of doing 2D ptv is this tool:\n\nhttps://perso.univ-rennes1.fr/joris.heyman/trac.html \n\nThe major limiting factor is that you’ll need a continuous recording, or at least some 100 frames sequences. Frame couples will not be enough (there is some denoising of the trajectories going in the background).",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "FluidMechanics",
+      "created_utc": 1733853199,
+      "score": 1,
+      "link_id": "t3_1hb6i3f",
+      "parent_id": "t3_1hb6i3f"
+    },
+    {
+      "id": "m11kdec",
+      "body": "Purtroppo si, ma alcune università sono molto rigide su quest’aspetto: https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/faculty/faculty-affairs/arten-von-professuren/assistenzprofessuren.html",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733672605,
+      "score": 1,
+      "link_id": "t3_1h9gwek",
+      "parent_id": "t1_m11jpc2"
+    },
+    {
+      "id": "m10rxy6",
+      "body": "La cosa (un pochino) fastidiosa è che dal non detto sembra che se fosse stata in commissione avrebbe potuto garantirlo..",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733660628,
+      "score": 6,
+      "link_id": "t3_1h9gwek",
+      "parent_id": "t1_m10rsag"
+    },
+    {
+      "id": "m10prl3",
+      "body": "Penso che dipenda un po’ dall’ambito. Ci sono concorsi (mi vengono in mente i grossi grant europei ERC) in cui quello che conta è l’età accademica (da quanti anni hai finito il dottorato) non l’età anagrafica. D’altro canto, alcune università europee assumono solo prof under 35, quindi essere vecchio di sicuro non aiuta quando cerchi di stabilizzarti!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733659344,
+      "score": 2,
+      "link_id": "t3_1h9gwek",
+      "parent_id": "t1_m10mk9a"
+    },
+    {
+      "id": "m10phlb",
+      "body": "Il fatto che la prof non sia in commissione in linea teorica non dovrebbe precluderti di tentare la borsa.. non so come funziona da te, ma quando feci il concorso io la commissione cercava di selezionare i progetti/candidati migliori, non quelli che avevano scritto il progetto con i membri della commissione stessa!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733659176,
+      "score": 8,
+      "link_id": "t3_1h9gwek",
+      "parent_id": "t3_1h9gwek"
+    },
+    {
+      "id": "m0wvq9f",
+      "body": "Ciao, ex studente ETH :) anche se quest’anno hanno triplicato le tasse per gli studenti stranieri, sono comunque irrisorie rispetto a UK e USA, simili a quelle in Italia in fascia alta. Tieni però conto che Zurigo è un posto costosissimo, se hai un budget basso e se non lavori è praticamente impossibile andarci. Il dipartimento di architettura sembra stiano veramente su un altro pianeta, è un posto allucinante. L’unica cosa è che gli studenti sembravano sempre stressatissimi, molte volte facevano la notte (anche se questo è forse un classico degli architetti). \n\nPer quanto riguarda il tedesco, a meno che tu non lo sappia già un po’, è molto complicato acquisirlo e entrare al bachelor. Però se prendi un 110 triennale in Italia il master è molto più accessibile. Non so architettura, ma nel 99% dei master chiedono solo l’inglese.",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733598889,
+      "score": 2,
+      "link_id": "t3_1h8xab4",
+      "parent_id": "t3_1h8xab4"
+    },
+    {
+      "id": "m0uogv6",
+      "body": "Intendi dire durante la settimana di orientamento? Si, penso sia giusto, almeno ti fai un’idea di cosa si studia!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733568996,
+      "score": 1,
+      "link_id": "t3_1h6fvnm",
+      "parent_id": "t3_1h6fvnm"
+    },
+    {
+      "id": "m0sibdb",
+      "body": "I have FUCKING KOLMOGOROV in three generations",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "academia",
+      "created_utc": 1733529678,
+      "score": 35,
+      "link_id": "t3_1h8erw5",
+      "parent_id": "t3_1h8erw5"
+    },
+    {
+      "id": "m0pnfu3",
+      "body": "Secondo me, devi chiederti _perché_ ti piace la matematica. Se fai ricerca in certi campi della fisica ci possono essere strumenti matematici difficili da acquisire senza una laurea in matematica. Ma se fai matematica, magari non avrai la visione fisica per capire per quale problema fisico ti servono tali strumenti. Se fai fisica, arriverà magari il giorno in cui “intuirai” che c’è uno strumento matematico che ti serve per risolvere un problema di fisica, ma non sarai in grado di maneggiarlo. Le strade saranno due:\n1) impazzire per un po’ di tempo per imparare a maneggiare tale strumento, o\n2) collaborare con un matematico che lo sa usare.\n\nTutto questo per dire che sono materie interconnesse, e dal punto di vista della fisica devi decidere a che gioco giocare!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1733495834,
+      "score": 1,
+      "link_id": "t3_1h6fvnm",
+      "parent_id": "t3_1h6fvnm"
+    },
+    {
+      "id": "m0ibu7i",
+      "body": "Il brodo di pollo è letteralmente nettare di Dio, tu non sai cosa vuol dire VIVERE",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "cazzeggio",
+      "created_utc": 1733385625,
+      "score": 9,
+      "link_id": "t3_1h6rppg",
+      "parent_id": "t3_1h6rppg"
+    },
+    {
+      "id": "lzhc3ov",
+      "body": "Nononono, il sapone fa _staccare_ lo sporco dalle superfici, non cattura niente! La schiuma è solo un effetto collaterale",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "TeenagersITA",
+      "created_utc": 1732836115,
+      "score": 1,
+      "link_id": "t3_1gytdnp",
+      "parent_id": "t1_lyvt2tj"
+    },
+    {
+      "id": "lzhbhz0",
+      "body": "I am not an expert (experimentalist here), but I’ll tell you about my experience. It really depends on what you have to do. Some isosurfaces without much cosmetic or 2D slicing python or matlab will make the job easily; however I have never made it to make the figures looking very nice in this way, especially the 3D ones.\n\nIf you are aiming for something very fancy, I advise exporting your data and use blender. It may require some initial effort but the it will look much much better!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "FluidMechanics",
+      "created_utc": 1732835867,
+      "score": 1,
+      "link_id": "t3_1h2087c",
+      "parent_id": "t3_1h2087c"
+    },
+    {
+      "id": "lzfzhqc",
+      "body": "NON FARE INGEGNERIA PERCHÉ TI PIACCIONO LA FISICA E LA MATEMATICA <<",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1732818847,
+      "score": 1,
+      "link_id": "t3_1h0fjoa",
+      "parent_id": "t3_1h0fjoa"
+    },
+    {
+      "id": "lz7lmpo",
+      "body": "Ciao! Grande per i risultati! Prendere 100 alla maturità scientifica e passare il test di medicina in quel modo fa capire che spacchi!\n\nHo visto gente che parlava di “fare il cameriere il sabato sera”, dal mio punto di vista una follia. Com il tuo cv, se devi racimolare soldi, dai delle ripetizioni. Guadagni molto di più, soprattutto sui corsi universitari (io chiedevo 30 euro all’ora per i corsi universitari), fai meno fatica e, soprattutto sui corsi universitari, ti tieni fresche le cose che hai appena studiato!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1732693193,
+      "score": 51,
+      "link_id": "t3_1h0tfi4",
+      "parent_id": "t3_1h0tfi4"
+    },
+    {
+      "id": "lxbzfvd",
+      "body": "Che facoltà è?",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1731706169,
+      "score": 1,
+      "link_id": "t3_1gr7i6q",
+      "parent_id": "t3_1gr7i6q"
+    },
+    {
+      "id": "ls98dqz",
+      "body": "Kids throwing eggs on a well dressed adult sounds like a 1910’s prank",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "zurich",
+      "created_utc": 1729109697,
+      "score": 2,
+      "link_id": "t3_1g54emi",
+      "parent_id": "t3_1g54emi"
+    },
+    {
+      "id": "lrjr5uw",
+      "body": "Forse stavamo troppo bene negli anni 90?",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Italia",
+      "created_utc": 1728730734,
+      "score": 1,
+      "link_id": "t3_1g0jv5n",
+      "parent_id": "t3_1g0jv5n"
+    },
+    {
+      "id": "lrh9wdl",
+      "body": "It is actually a very good question.\n\nThere are some wall bounded flow where turbulence can exist and be sustained even in a range of Re where the system is linearly stable. One example overall is pipes, that are theoretically linearly stable at every Re, but above a critical Re, if you perturb strong enough, the pipe will transition to turbulence. \n\nAnother example is plain poiseuille flow (the channel) which can develops turbulence at a Re for which the flow is theoretically laminar.\n\nHowever, if you are very low in Re, no matter how strong you perturb, the turbulence will die out at some point!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "FluidMechanics",
+      "created_utc": 1728684041,
+      "score": 1,
+      "link_id": "t3_1g1cm6m",
+      "parent_id": "t3_1g1cm6m"
+    },
+    {
+      "id": "lqcr6jm",
+      "body": "Per quanto riguarda la sensazione di non avere sogni e di non sapere cosa fare, ci sono passato (qualche anno più giovane) ma la capisco perfettamente, è tremendo. Soprattutto se sei circondato da persone che sanno cosa fare.\n\nLa soluzione a questo problema secondo me è fare cose a caso. Se hai un percorso causale prima o poi esplori (molto lentamente) tutte le possibilità. C’è pure un teorema matematico che lo dice.\n\nVedrai che esplorando casualmente poi trovi la tua strada!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1728072387,
+      "score": 1,
+      "link_id": "t3_1fv958f",
+      "parent_id": "t3_1fv958f"
+    },
+    {
+      "id": "lph07jh",
+      "body": "https://preview.redd.it/hajzc2fh5qrd1.jpeg?width=615&format=pjpg&auto=webp&s=36d264d6b02664a38af147a6d3ac92c06a10cd8d\n\nDicci di più.",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "CasualIT",
+      "created_utc": 1727605290,
+      "score": 4,
+      "link_id": "t3_1frzw88",
+      "parent_id": "t3_1frzw88"
+    },
+    {
+      "id": "lo6kl0f",
+      "body": "Ti auguro un famigliare o un’amico che s’ammazza, poi ne riparliamo",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Italia",
+      "created_utc": 1726909376,
+      "score": 7,
+      "link_id": "t3_1flknbj",
+      "parent_id": "t1_lo6khgq"
+    },
+    {
+      "id": "lo6k6r6",
+      "body": "Bel commento di merda. La depressione è sempre esistita. Una volta questa gente la rinchiudevano in manicomio o si suicidava. Fortunatamente (noi) ci siamo evoluti",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Italia",
+      "created_utc": 1726909092,
+      "score": 14,
+      "link_id": "t3_1flknbj",
+      "parent_id": "t1_lo6i7kc"
+    },
+    {
+      "id": "lo40acl",
+      "body": "Qualcuno lo scriverà meglio di me, ma da come la racconti (pluribocciato, assuefatto al telefono, non si lava, non esce, è aggressivo, è quasi obeso) sembra una grave depressione. Non per giustificarlo, ma quando stai così è davvero difficile uscirne.\n\nDetto questo, se ci fosse un minimo di margine di dialogo, più che da uno psicologo io lo porterei da uno psichiatra che gli dia qualcosa per rimetterlo in piedi, e poi la terapia per uscire da questa situazione.",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Italia",
+      "created_utc": 1726865627,
+      "score": 43,
+      "link_id": "t3_1flknbj",
+      "parent_id": "t3_1flknbj"
+    },
+    {
+      "id": "lllwk5w",
+      "body": "E io infatti mi sento uno stronzo a stare all’estero.. ho studiato in Italia praticamente gratis per regalare le mie competenze a paesi che non hanno speso un euro per formarmi. È che tornare non è facile..",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "ItaliaPersonalFinance",
+      "created_utc": 1725532614,
+      "score": 3,
+      "link_id": "t3_1f9iags",
+      "parent_id": "t3_1f9iags"
+    },
+    {
+      "id": "lkt2oz5",
+      "body": "https://youtube.com/shorts/lEceXa5vkdI?si=p4R3cRQYIIOUiPm-",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "zurich",
+      "created_utc": 1725095641,
+      "score": 1,
+      "link_id": "t3_1f55dsj",
+      "parent_id": "t3_1f55dsj"
+    },
+    {
+      "id": "le4l9fq",
+      "body": "Comunque, nelle lettere a Lucilio c’è praticamente il 95% di quello che uno deve sapere per vivere",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "ItaliaPersonalFinance",
+      "created_utc": 1721505506,
+      "score": 3,
+      "link_id": "t3_1e7tfb0",
+      "parent_id": "t3_1e7tfb0"
+    },
+    {
+      "id": "ldukyma",
+      "body": "Bitche friendly dog in/near Savona?",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Genova",
+      "created_utc": 1721345398,
+      "score": -3,
+      "link_id": "t3_1e6osfb",
+      "parent_id": "t3_1e6osfb"
+    },
+    {
+      "id": "lcfanhn",
+      "body": "That I did! But I just realized recently I must be fast!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720564572,
+      "score": 1,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcehwca"
+    },
+    {
+      "id": "lcetl7g",
+      "body": "You don’t get it. I didn’t say you should have changed the _content_ of your message, but the _form_ .",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720558678,
+      "score": 8,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcemh0m"
+    },
+    {
+      "id": "lcek74j",
+      "body": "You could say the same “5 times is not that much” being more polite. Note that I am not an inferior human being.",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720555730,
+      "score": 11,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcdpis1"
+    },
+    {
+      "id": "lcd4idh",
+      "body": "If I have to spend 1500 euros for the rent staying in Vienna does not make sense anymore I think..",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720539133,
+      "score": 1,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcd42v9"
+    },
+    {
+      "id": "lcd46xn",
+      "body": "Thanks! Good point on trying to make them understand that I will take care of the apartment. I also had a feeling that being Italian could be a disadvantage.. worst case we’ll go somewhere else!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720539029,
+      "score": 1,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcd3rjr"
+    },
+    {
+      "id": "lcd3a16",
+      "body": "Yes, I always use the PhD Dr. title in a formal way. Moreover both me and my gf are both doctors. Probably it has to do with the fact the we’re looking for cheep and nice apartments as you said.",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720538730,
+      "score": 1,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lccyb31"
+    },
+    {
+      "id": "lcd21e9",
+      "body": "He no, questo è probabilmente un problema. Anche se tutti gli agenti immobiliari che ho incontrato parlavano tranquillamente inglese. Scrivo sempre in tedesco, ma parlare ancora non riesco. È così determinante?",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720538325,
+      "score": 0,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcd12lg"
+    },
+    {
+      "id": "lcd018b",
+      "body": "They are between 6 and 8 hundreds, sometimes 9. Do you think it may be too cheep?",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720537662,
+      "score": 2,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lcczk8k"
+    },
+    {
+      "id": "lcczfnd",
+      "body": "Yes I do..",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720537460,
+      "score": 1,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lccuk5u"
+    },
+    {
+      "id": "lccsl6d",
+      "body": "But I do have an income in Vienna.. 60k gross. I’m already here in a short term apartment. My gf has an income abroad, she is trading her salary here, will be of the same order of magnitude. We also have a lot of savings, but nobody asked us to specify anything about this..",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "wien",
+      "created_utc": 1720535131,
+      "score": 2,
+      "link_id": "t3_1dz372r",
+      "parent_id": "t1_lccrfy7"
+    },
+    {
+      "id": "lbvalzh",
+      "body": "Fai un foglio Excel con la media pesata per vedere che voti dovresti prendere per arrivare al 110. Se sono fattibili accetta, altrimenti no!",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Universitaly",
+      "created_utc": 1720255707,
+      "score": 5,
+      "link_id": "t3_1dwkow2",
+      "parent_id": "t3_1dwkow2"
+    },
+    {
+      "id": "lbt8dx4",
+      "body": "Nice question :) I’ll put some papers che I red many many times, maybe not that super famous, but that I really liked:\n0. Free-stream boundaries of turbulent flows. Stanley Corrsin, Alan L Kistler\n1. Lagrangian measurement of vorticity dynamics in turbulent flow. Beat Lüthi, Arkady Tsinober, Wolfgang Kinzelbach\n2. The onset of turbulence in pipe flow. Kerstin Avila, David Moxey, Alberto De Lozar, Marc Avila, Dwight Barkley, Björn Hof.\n3. Fermi E, von Neumann J. 1955. Taylor instability of incompressible liquids.",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "FluidMechanics",
+      "created_utc": 1720218266,
+      "score": 2,
+      "link_id": "t3_1dvd82h",
+      "parent_id": "t3_1dvd82h"
+    },
+    {
+      "id": "lbdc3c2",
+      "body": "È pericolosissimo, per carità, vai a Rimini",
+      "author": "Upbeat_Hat1089",
+      "subreddit": "Genova",
+      "created_utc": 1719966238,
+      "score": 1,
+      "link_id": "t3_1dsqv1n",
+      "parent_id": "t3_1dsqv1n"
     }
   ]
 }

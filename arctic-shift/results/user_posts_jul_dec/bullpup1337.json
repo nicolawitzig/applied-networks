@@ -1,6 +1,95 @@
 {
   "username": "bullpup1337",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1gwqbim",
+      "title": "Looking for laptop for VR, Switzerland, CHF 3'500 ",
+      "author": "bullpup1337",
+      "subreddit": "SuggestALaptop",
+      "created_utc": 1732223174,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "**\\*\\* Total budget (in local currency) and country of purchase.**\n\nSwitzerland\n\nBudget: ca 3'500 CHF.\n\n**\\*\\* Are you open to refurbs/used?**\n\nWould not be my first choice.\n\n**\\*\\* How would you prioritize form factor (ultrabook, 2-in-1, etc.), build quality, performance, and battery life?**\n\n|FACTOR|PRIORITY|COMMENT|\n|:-|:-|:-|\n|Battery Life|LOW|Will use mostly with charger|\n|Build Quality|MEDIUM|I do like well built stuff|\n|Performance|HIGH|Since I want to use this VR, probably needs to be beefy|\n|Form Factor|MEDIUM|I want to move this around, so should not be too huge.|\n\n**\\*\\* How important is weight and thinness to you?**\n\nNot too important honestly.  I like smaller machines, but I guess it is not that important since I will use it mostly at home.\n\n**\\*\\* Do you have a preferred screen size? If indifferent, put N/A.**\n\nNot sure.  Since I want to use this mostly with VR, can be smaller.  Initially was thinking as low as 14\", but that might probably not be good for cooling?  Also, occasionally will use the screen, so 15-16\" is probably ideal.\n\n**\\*\\* Are you doing any CAD/video editing/photo editing/gaming? List which programs/games you desire to run.**\n\nThis will be dedicated pretty much purely to gaming honestly.\n\n**\\*\\* If you're gaming, do you have certain games you want to play? At what settings and FPS do you want?**\n\nAlthough this is mostly for VR, I think I might also from time to time connect it to my 4k monitor for some games.  I do want to be able to run at 4K in High settings at 60fps for sure.  No specific games in mind, but should be somewhat future proof.\n\n**\\*\\* Any specific requirements such as good keyboard, reliable build quality, touch-screen, finger-print reader, optical drive or good input devices (keyboard/touchpad)?**\n\nI would prefer a \"stealthy\" laptop that I could reasonable use elsewhere - these kind of flashy blinky gamer laptops would be a bit embarrassing to use outside of my home I feel :D\n\nBut I would use it mostly at home so not a deal breaker.\n\nOtherwise, should be reliable, durable, good build quality.  Perhaps not excessively loud, if at all possible...\n\n**\\*\\* Finishing Thoughts**\n\nI mostly use a desktop PC, but its getting a bit old and is not ideal for gaming anyways (using Linux), plus not very portable.  I have already a laptop (two actually, if you count company laptop) for work and other personal stuff, but no chance to do gaming with these.  I have a handheld for mobile gaming (Ayaneo 2), but that is not powerful enough for VR.  So I really need something to fill the gap.  I currently use a Quest 3 for VR, which is great standalone, but I also would like to play PCVR with it.  And potentially upgrade to another VR headset at some point, but that's beside the point.\n\nI would rather spend a bit more and not have to upgrade too soon. I hate having to buy new stuff and get rid of the old things, so I rather overpay a bit and push that date further back.\n\nAny tips are welcome!  I have already looked at a few options such as Asus Strix G16, XMG Neo, MSI Stealth 16 and others, but I could not find too many reviews especially related to VR, so would appreciate any ideas!\n\nThank you.",
+      "url": "https://www.reddit.com/r/SuggestALaptop/comments/1gwqbim/looking_for_laptop_for_vr_switzerland_chf_3500/"
+    },
+    {
+      "id": "1gcx6ao",
+      "title": "Org-Collector vs org Column View?",
+      "author": "bullpup1337",
+      "subreddit": "orgmode",
+      "created_utc": 1729983296,
+      "score": 4,
+      "num_comments": 1,
+      "selftext": "I am just starting to explore this topic, but it seems there is a big overlap between org-collector and the standard Column Views (specifically the \"capturing column view\" part).\n\nDoes anybody know the history of these features? Are they related? Is one strictly a superset, or do both have uses the other cannot cover?",
+      "url": "https://www.reddit.com/r/orgmode/comments/1gcx6ao/orgcollector_vs_org_column_view/"
+    },
+    {
+      "id": "1fqk1l7",
+      "title": "Using templates to convert from CSV to Org?",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727430659,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "I am currently in the process of migrating from Notion to Org-Mode. So far, I have done a lot of manual copy and paste and the occasional conversion from CSV to org-tables, which works quite nicely. But now I want to migrate some databases to a list of headings, and have not found a suitable solution to this yet. I was thinking that perhaps a template-based solution might be convenient - I can for example create a template entry in Yasnippet like this:\n\n    * $0 \n    :PROPERTIES: \n    :SOME_PROPERTY: $1 \n    :END: \n    $2\n\nWith the idea of applying this to the following CSV snippet:\n\n    title,some_property,some_content\n    My Heading,Important,Lorem Ipsum...\n\nNow unfortunately yasnippet does not seem to be really suitable for this, since the fields need to be input manually (I don't think you can easily pass in the $? parameters as a list?). I am wondering if other template libraries might be more suitable for this task, or if anyone has any other bright ideas.",
+      "url": "https://www.reddit.com/r/emacs/comments/1fqk1l7/using_templates_to_convert_from_csv_to_org/"
+    },
+    {
+      "id": "1fmbglu",
+      "title": "How to undo keybinding?",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1726948690,
+      "score": 0,
+      "num_comments": 10,
+      "selftext": "Hi, this is something I have been struggling with for a while. Every now and then I accidentally rebind a key that I didn't want to rebind. I could not figure out how to \"undo\" that. In some cases, if it is a simple command and I know which command it was before, I guess I can rebind it (although sometimes this is hard if it only applies to particular modes).\n\nBut it just so happens that I now accidentally rebound C-h and I have no clue on how to fix that (other than completely restarting emacs, which does not seem like a very elegant and satisfying solution).\n\nIs there a way to \"restore\" a keybinding to its default state? Or (next best option) a way to \"save\" my keybindings, so I can restore from a restore-point?\n\nFor now, I guess I will have to restart emacs (again....) which is always a bummer if you have 100 open buffers and a bunch of tabs with stuff you are working on.",
+      "url": "https://www.reddit.com/r/emacs/comments/1fmbglu/how_to_undo_keybinding/"
+    },
+    {
+      "id": "1fefcjb",
+      "title": "C-x ] / forward-page equivalent?",
+      "author": "bullpup1337",
+      "subreddit": "evilmode",
+      "created_utc": 1726074324,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "In emacs, you can navigate to the next page (\\^L or form-feed) using C-x \\]. I am wondering if evil has a more convenient shortcut for that?",
+      "url": "https://www.reddit.com/r/evilmode/comments/1fefcjb/cx_forwardpage_equivalent/"
+    },
+    {
+      "id": "1ehqy9c",
+      "title": "How to chat in game?",
+      "author": "bullpup1337",
+      "subreddit": "Stormgate",
+      "created_utc": 1722544209,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Sorry if this is a stupid question, but for the life of me I cannot figure out how to chat with players in game (coop or 1v1). In the menu I cannot find the key mapping, does anyone know how to set it or what the default is?",
+      "url": "https://www.reddit.com/r/Stormgate/comments/1ehqy9c/how_to_chat_in_game/"
+    },
+    {
+      "id": "1ee8qmp",
+      "title": "How to revive using quest 3?",
+      "author": "bullpup1337",
+      "subreddit": "RecRoom",
+      "created_utc": 1722177068,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "In some of the Rec Room Original games, you can revive  other players when they \"die\". The games display an icon that seems to indicate you need to press the \"Menu\" button. When you hold that button, a circle starts to fill up, but then simply the Quest 3 menu opens (not surprisingly since that is what always happens if you hold that button). I am wondering if that is a bug, or if there is another, undocumented way to revive other players?\n\nThanks for your help!",
+      "url": "https://www.reddit.com/r/RecRoom/comments/1ee8qmp/how_to_revive_using_quest_3/"
+    },
+    {
+      "id": "1dxamab",
+      "title": "vhost setup web center - cannot get it to work",
+      "author": "bullpup1337",
+      "subreddit": "asustor",
+      "created_utc": 1720336229,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Did anyone get the virtual host settings to work in Web Center? I set up an entry that points to a subdirectory (specifically, the nextcloud directory), but http requests to the subdirectory still serve the main root content.\n\nIs there anything else you need to set up?\n\nAnd, where can I find the apache config to check what ADM is doing?",
+      "url": "https://www.reddit.com/r/asustor/comments/1dxamab/vhost_setup_web_center_cannot_get_it_to_work/"
+    }
+  ],
   "comments": [
     {
       "id": "lttwv04",
@@ -11,6 +100,1646 @@
       "score": -3,
       "link_id": "t3_1gc2y1n",
       "parent_id": "t3_1gc2y1n"
+    },
+    {
+      "id": "m4jgje7",
+      "body": "I only compared Quest Link (Wired), AirLink and Virtual Desktop.  The last option works best for me - surprisingly, even better (less lag / stuttering) than the wired option (with the original cable, that is!)",
+      "author": "bullpup1337",
+      "subreddit": "VRGaming",
+      "created_utc": 1735575096,
+      "score": 2,
+      "link_id": "t3_1hp9rab",
+      "parent_id": "t3_1hp9rab"
+    },
+    {
+      "id": "m06kzld",
+      "body": "I cannot stand people who constantly swear. It is often just a filler, doesn’t add anything to the conversation, and often enough just seems rude and unprofessional. I won’t say anything but I will avoid you.",
+      "author": "bullpup1337",
+      "subreddit": "PetPeeves",
+      "created_utc": 1733223050,
+      "score": 1,
+      "link_id": "t3_1h2puzt",
+      "parent_id": "t3_1h2puzt"
+    },
+    {
+      "id": "m00898q",
+      "body": "VS Code is already closed source. https://code.visualstudio.com/license. definitely not free",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1733126086,
+      "score": 4,
+      "link_id": "t3_1h4p7i4",
+      "parent_id": "t1_m005xzz"
+    },
+    {
+      "id": "lyq3rgm",
+      "body": "Emacs is amazing but defined takes time to get into. Get the book “mastering emacs”, if you are serious about it. To inspire/ scare you check out https://karthinks.com/software/latex-input-for-impatient-scholars/.\nLearning emacs will pay dividends for years to come. If you have the time and energy now, do it. If you are overwhelmed with life, stresses out, short of time or just don’t like learning new stuff and playing around with technology, perhaps wait until you feel ready. You can always use simpler editors / web editors while you learn the basics of latex and get comfortable with your OS, and come back later. Emacs will be waiting for you. Always.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1732446824,
+      "score": 6,
+      "link_id": "t3_1gyodp8",
+      "parent_id": "t3_1gyodp8"
+    },
+    {
+      "id": "lyb53om",
+      "body": "I love that people keep that history alive.  This was way before my time, but I am interested in the history of computers and it is great to see stuff like this alive and ticking.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1732223425,
+      "score": 1,
+      "link_id": "t3_1gtikiu",
+      "parent_id": "t1_lxs1bs4"
+    },
+    {
+      "id": "lxqqdd5",
+      "body": "What a crazy hobby! How did you get into that?",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1731930212,
+      "score": 1,
+      "link_id": "t3_1gtikiu",
+      "parent_id": "t1_lxps04t"
+    },
+    {
+      "id": "lxeindn",
+      "body": "lol. Everything good that will happen will be their achievement. Everything bad will be blamed on “them libs”. They will not learn anything, it is not in their nature.",
+      "author": "bullpup1337",
+      "subreddit": "pics",
+      "created_utc": 1731743851,
+      "score": 11,
+      "link_id": "t3_1gseige",
+      "parent_id": "t1_lxe9z8b"
+    },
+    {
+      "id": "lvh67s8",
+      "body": "Was ok. Forgettable. Obnoxiously overloaded with unnecessary references to DC/MARVEL etc noone will care about in 2 years. Fights that felt like they were forced to be there for the fans with no relation to the story.",
+      "author": "bullpup1337",
+      "subreddit": "GeeksGamersCommunity",
+      "created_utc": 1730783062,
+      "score": 2,
+      "link_id": "t3_1gjoeiy",
+      "parent_id": "t3_1gjoeiy"
+    },
+    {
+      "id": "lvbge4l",
+      "body": "Not only that, he uses misleading clickbait titles and distorts the facts to be more sensationalist",
+      "author": "bullpup1337",
+      "subreddit": "mac",
+      "created_utc": 1730707890,
+      "score": 2,
+      "link_id": "t3_1gj80g8",
+      "parent_id": "t1_lvba7q8"
+    },
+    {
+      "id": "lv7j87r",
+      "body": "Whole books have been written on why lisp is great, I have not much to add beside it just feels right. Very little syntax, everything seems to just naturally emerge from very simple ideas.",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1730655032,
+      "score": 1,
+      "link_id": "t3_1gfx95g",
+      "parent_id": "t1_lv2s6go"
+    },
+    {
+      "id": "lv7aoi5",
+      "body": "in before all the creationists point to your comment and say “SEE - IT IS ALL LIES! !”",
+      "author": "bullpup1337",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1730652489,
+      "score": 2,
+      "link_id": "t3_1gii680",
+      "parent_id": "t1_lv5mmiv"
+    },
+    {
+      "id": "lv78ar9",
+      "body": "oh, sweet, innocent child",
+      "author": "bullpup1337",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1730651789,
+      "score": 1,
+      "link_id": "t3_1ginqp1",
+      "parent_id": "t1_lv755y7"
+    },
+    {
+      "id": "luoczyr",
+      "body": "I want to try guix - the language seems so much better than nix",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1730372291,
+      "score": 5,
+      "link_id": "t3_1gfx95g",
+      "parent_id": "t1_lulxbhd"
+    },
+    {
+      "id": "ludzbkt",
+      "body": "Just came across this. \"fixed\" it by adding\n\n`(define-key org-mode-map [remap outline-insert-heading] #'org-meta-return)`\n\ninto my init.el...",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1730225679,
+      "score": 1,
+      "link_id": "t3_pv9rip",
+      "parent_id": "t3_pv9rip"
+    },
+    {
+      "id": "lu8dgby",
+      "body": "gptel should wonk fine",
+      "author": "bullpup1337",
+      "subreddit": "orgmode",
+      "created_utc": 1730145896,
+      "score": 2,
+      "link_id": "t3_1geazkg",
+      "parent_id": "t3_1geazkg"
+    },
+    {
+      "id": "lu89r63",
+      "body": "Ok, will try to do so and report back when I know the answer….",
+      "author": "bullpup1337",
+      "subreddit": "orgmode",
+      "created_utc": 1730144799,
+      "score": 2,
+      "link_id": "t3_1gcx6ao",
+      "parent_id": "t1_lu4bitm"
+    },
+    {
+      "id": "ltvrx8a",
+      "body": "Just make a choice already. It is getting ridiculous.",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1729964763,
+      "score": 58,
+      "link_id": "t3_1gcotmu",
+      "parent_id": "t3_1gcotmu"
+    },
+    {
+      "id": "ltvrrv7",
+      "body": "The best of the given choices, if only because it doesn’t immediately scream MICROSOFT",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1729964715,
+      "score": 2,
+      "link_id": "t3_1gcko35",
+      "parent_id": "t1_ltui88q"
+    },
+    {
+      "id": "ltnttj4",
+      "body": "source?",
+      "author": "bullpup1337",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1729852201,
+      "score": 1,
+      "link_id": "t3_1gbf5ne",
+      "parent_id": "t3_1gbf5ne"
+    },
+    {
+      "id": "lti38zf",
+      "body": "Ah stop with the whataboutism. Open Source doesn’t mean everyone has the right to be part of your project. It only means you can fork it if you want and do whatever.",
+      "author": "bullpup1337",
+      "subreddit": "opensource",
+      "created_utc": 1729773111,
+      "score": 15,
+      "link_id": "t3_1gawrc5",
+      "parent_id": "t1_lti1ahn"
+    },
+    {
+      "id": "lti305o",
+      "body": "Not working for a Russian drone factory under sanction for assisting Russia committing war crimes would be a good start.",
+      "author": "bullpup1337",
+      "subreddit": "opensource",
+      "created_utc": 1729773011,
+      "score": 5,
+      "link_id": "t3_1gawrc5",
+      "parent_id": "t1_lthi7sg"
+    },
+    {
+      "id": "lti1vfy",
+      "body": "Nix looks kind of weird tbh…. I rather learn Scheme which has other uses than a completely bespoke niche language just to configure my system.",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1729772547,
+      "score": 10,
+      "link_id": "t3_1gayrvh",
+      "parent_id": "t1_lthmbae"
+    },
+    {
+      "id": "ltg7ssw",
+      "body": "But Germany is seeing it coming this time and actively taking steps for once.",
+      "author": "bullpup1337",
+      "subreddit": "pics",
+      "created_utc": 1729736980,
+      "score": 2,
+      "link_id": "t3_1gamfnz",
+      "parent_id": "t1_ltfenzl"
+    },
+    {
+      "id": "ltg7ols",
+      "body": "Bad example. Gorbachev was not a wannabe dictator, to the contrary, he wanted to open the country up. Its only AFTER him that Putin came to Power (after Jelzin), and nobody saw THAT coming",
+      "author": "bullpup1337",
+      "subreddit": "pics",
+      "created_utc": 1729736938,
+      "score": 1,
+      "link_id": "t3_1gamfnz",
+      "parent_id": "t1_ltfh1xz"
+    },
+    {
+      "id": "ltegjag",
+      "body": "They can build their own offramp with all the dirty oil they have.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1729715407,
+      "score": 2,
+      "link_id": "t3_1gahis9",
+      "parent_id": "t1_ltecyyl"
+    },
+    {
+      "id": "lt60bgv",
+      "body": "That’s imperial level of coping. You probably also think inch are better than cm?",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1729602471,
+      "score": 7,
+      "link_id": "t3_1g9ftsc",
+      "parent_id": "t1_lt5zpnt"
+    },
+    {
+      "id": "lsu2zqm",
+      "body": "Wow rude. Listen being condescending doesn’t make you appear neither smarter nor likable, and it won’t convince anyone that you are right.  You might nit like the movies, but more people like it than not. And among them lots of fans of the books (I read them as a kid, too).",
+      "author": "bullpup1337",
+      "subreddit": "GeeksGamersCommunity",
+      "created_utc": 1729429318,
+      "score": 1,
+      "link_id": "t3_1g6ld9x",
+      "parent_id": "t1_lssd33i"
+    },
+    {
+      "id": "lstxgmo",
+      "body": "I know I am late to the party, but question - this works fine, however when changing to a window with Emacs mode active, it takes a few colors for the cursor color to change. Any ideas why / how to fix this?",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1729426764,
+      "score": 1,
+      "link_id": "t3_dk9lqz",
+      "parent_id": "t1_f4dstes"
+    },
+    {
+      "id": "lsnm0te",
+      "body": "Never seen that, from what I heard it’s only very loosely related to the source material, so not interested",
+      "author": "bullpup1337",
+      "subreddit": "GeeksGamersCommunity",
+      "created_utc": 1729324925,
+      "score": 1,
+      "link_id": "t3_1g6ld9x",
+      "parent_id": "t1_lsmpoln"
+    },
+    {
+      "id": "lsnlw4s",
+      "body": "fair point",
+      "author": "bullpup1337",
+      "subreddit": "GeeksGamersCommunity",
+      "created_utc": 1729324834,
+      "score": 1,
+      "link_id": "t3_1g6ld9x",
+      "parent_id": "t1_lsmb9ci"
+    },
+    {
+      "id": "lsnlu9x",
+      "body": "the LOTR movies are widely recognized as great adaptations. You are alone in this one.",
+      "author": "bullpup1337",
+      "subreddit": "GeeksGamersCommunity",
+      "created_utc": 1729324799,
+      "score": 2,
+      "link_id": "t3_1g6ld9x",
+      "parent_id": "t1_lslnxyb"
+    },
+    {
+      "id": "lslfyja",
+      "body": "Good luck. Not sure why I got shown this video I am not even from US but must be a good sign.",
+      "author": "bullpup1337",
+      "subreddit": "jeffjackson",
+      "created_utc": 1729288408,
+      "score": 1,
+      "link_id": "t3_1g4bigz",
+      "parent_id": "t3_1g4bigz"
+    },
+    {
+      "id": "lsl4aur",
+      "body": "*In the landscape of the mind, the fool and the wise share the same path.*  \n- some great zen master, probably.",
+      "author": "bullpup1337",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1729284405,
+      "score": 1,
+      "link_id": "t3_1g6b90b",
+      "parent_id": "t1_lskqnrs"
+    },
+    {
+      "id": "lsl458a",
+      "body": "The wise man knows himself to be a fool, while the fool thinks he is wise.",
+      "author": "bullpup1337",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1729284353,
+      "score": 1,
+      "link_id": "t3_1g6b90b",
+      "parent_id": "t1_lsiw96b"
+    },
+    {
+      "id": "lsk0jd1",
+      "body": "Thats what gave us LOTR. And Dune.",
+      "author": "bullpup1337",
+      "subreddit": "GeeksGamersCommunity",
+      "created_utc": 1729271557,
+      "score": 5,
+      "link_id": "t3_1g6ld9x",
+      "parent_id": "t3_1g6ld9x"
+    },
+    {
+      "id": "lsj2buw",
+      "body": "This does not seem patently worthy. Nothing about that algorithm seems particularly smart, novel or even interesting. I bet ChatGPT could come up with a smarter idea in 5 minutes.",
+      "author": "bullpup1337",
+      "subreddit": "gaming",
+      "created_utc": 1729260621,
+      "score": -1,
+      "link_id": "t3_1g6iaqb",
+      "parent_id": "t3_1g6iaqb"
+    },
+    {
+      "id": "lsie18p",
+      "body": "Who is the greater fool - the fool or the fool going around telling other fools on the internet that they are fools?",
+      "author": "bullpup1337",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1729250849,
+      "score": 7,
+      "link_id": "t3_1g6b90b",
+      "parent_id": "t1_lsid4rd"
+    },
+    {
+      "id": "lshof2m",
+      "body": "That’s what I do atm, and it mostly works. The disadvantage is that you lose the context somewhat. I think there are some packages that supposedly allow you to work with multiple major modes in one buffer, but I personally have not had success with that yet.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1729234398,
+      "score": 2,
+      "link_id": "t3_1g6b7jk",
+      "parent_id": "t1_lshmj2n"
+    },
+    {
+      "id": "lshmxas",
+      "body": "This would be highly illegal where I live. Not sure what this will do to the soil, ground water etc but cannot be good.",
+      "author": "bullpup1337",
+      "subreddit": "comedyheaven",
+      "created_utc": 1729233441,
+      "score": 11,
+      "link_id": "t3_1g67xrm",
+      "parent_id": "t3_1g67xrm"
+    },
+    {
+      "id": "lsc8arv",
+      "body": "I switched because I felt that having a platform that centers around plain text would be the most flexible system possible, especially in the age of LLMs. Now I think Emacs is best because everything is configurable and because LISP is the best language.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1729158528,
+      "score": 5,
+      "link_id": "t3_1g5maio",
+      "parent_id": "t3_1g5maio"
+    },
+    {
+      "id": "lsc7iue",
+      "body": "sure, however nit certain if very helpful without my emacs config: https://configure.zsa.io/ergodox-ez/layouts/XWYN6/Bypwv/0",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1729157996,
+      "score": 1,
+      "link_id": "t3_1g3fk11",
+      "parent_id": "t1_lrzyyf5"
+    },
+    {
+      "id": "lrzzkkj",
+      "body": "Looks cool. As a comment, it might not be of interest for everyone, but Emacs has a very capable rpn calc included. Worth having a look, too!",
+      "author": "bullpup1337",
+      "subreddit": "commandline",
+      "created_utc": 1728971935,
+      "score": 1,
+      "link_id": "t3_1g3p5ip",
+      "parent_id": "t3_1g3p5ip"
+    },
+    {
+      "id": "lrzyfzi",
+      "body": "I think I have seven or eight and a lot of macros, all for emacs commands. Also, the key colors take up a lot of space.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1728971245,
+      "score": 2,
+      "link_id": "t3_1g3fk11",
+      "parent_id": "t1_lrvkxvp"
+    },
+    {
+      "id": "lrx800g",
+      "body": "That makes 0 sense. Genetics didnt change at all in the last hundred years",
+      "author": "bullpup1337",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1728933525,
+      "score": 2,
+      "link_id": "t3_1g3lmcd",
+      "parent_id": "t1_lrx67s1"
+    },
+    {
+      "id": "lrvkryb",
+      "body": "Same. Great just not enough memory",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1728914527,
+      "score": 1,
+      "link_id": "t3_1g3fk11",
+      "parent_id": "t1_lrvhmq4"
+    },
+    {
+      "id": "lr9ieh1",
+      "body": "Thats such a Windows user thing to say",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1728573744,
+      "score": 8,
+      "link_id": "t3_1g0emxe",
+      "parent_id": "t1_lr99n0h"
+    },
+    {
+      "id": "lpgfbwx",
+      "body": "I think it is a good idea to read through the manual at least once, to get an understanding of the features. But yeah not something you do in an afternoon.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727590977,
+      "score": 1,
+      "link_id": "t3_1frnily",
+      "parent_id": "t1_lpfsgqz"
+    },
+    {
+      "id": "lpb7p8b",
+      "body": "quick google: The Window.navigator property refers to a Navigator object that contains information about the web browser as a whole, such as the version and a list of the data formats it can display. The Navigator object is named after Netscape Navigator, but it is also supported by Internet Explorer. IE also supports clientInformation as a vendor-neutral synonym for navigator. Unfortunately, Netscape and Mozilla do not support this property.\n\nhttps://www.oreilly.com/library/view/javascript-the-definitive/0596000480/ch13s06.html",
+      "author": "bullpup1337",
+      "subreddit": "javascript",
+      "created_utc": 1727510487,
+      "score": 4,
+      "link_id": "t3_1fr9alx",
+      "parent_id": "t3_1fr9alx"
+    },
+    {
+      "id": "lpb32pj",
+      "body": "Yeah, thanks! That's the direction I went with. In the end I created a small function that allows me to apply a mustache template (using mustache.el), so it's a bit easier to set up. Also found a library called pcsv to parse the CSV.\n\nSo I can first set up the template, then store that in a register, and then simply select a CSV block, run my function and it's converted to org headings.\n\nSee: [https://github.com/julian-hoch/emacs-utilities/blob/master/jh-mustache-csv.el](https://github.com/julian-hoch/emacs-utilities/blob/master/jh-mustache-csv.el)",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727507314,
+      "score": 1,
+      "link_id": "t3_1fqk1l7",
+      "parent_id": "t1_lp8vwst"
+    },
+    {
+      "id": "lp8noia",
+      "body": "I have a feeling you have not worked long enough in the industry to be able to judge other people's contributions or to be mature enough to talk to customers and / or coworkers in a professional manner about their respective values. But I hope you will, some day. All the best to you, and good luck on your developer journey. Just remember that the people on the other side of the screen are also human beings.",
+      "author": "bullpup1337",
+      "subreddit": "ChatGPT",
+      "created_utc": 1727468617,
+      "score": 1,
+      "link_id": "t3_1fq1q5j",
+      "parent_id": "t1_lp6r81q"
+    },
+    {
+      "id": "lp54xxe",
+      "body": "EMACS, obviously",
+      "author": "bullpup1337",
+      "subreddit": "commandline",
+      "created_utc": 1727414823,
+      "score": 2,
+      "link_id": "t3_1fqdhv7",
+      "parent_id": "t3_1fqdhv7"
+    },
+    {
+      "id": "lp52jpw",
+      "body": "Reserving the pool with beach towels while you are not there is against the rules.\n\nCheckmate, bro.",
+      "author": "bullpup1337",
+      "subreddit": "UkraineWarVideoReport",
+      "created_utc": 1727413493,
+      "score": 1,
+      "link_id": "t3_1fprgn8",
+      "parent_id": "t1_lp0ig93"
+    },
+    {
+      "id": "lp52a70",
+      "body": "I actually work as a consultant. I help with business analysis, create architectures and technical designs, implement solutions, test them, and assist with deployments.\n\nI call myself a programmer, since that's what I feel like, and I am doing so honoring a long history of self proclaimed programmers. But I guess giving yourself fancy titles is enough for some people.",
+      "author": "bullpup1337",
+      "subreddit": "ChatGPT",
+      "created_utc": 1727413348,
+      "score": 5,
+      "link_id": "t3_1fq1q5j",
+      "parent_id": "t1_lp36quu"
+    },
+    {
+      "id": "lp347n5",
+      "body": "xmonad is great. Very customizable, very stable.",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1727385884,
+      "score": 6,
+      "link_id": "t3_1fq3xg5",
+      "parent_id": "t3_1fq3xg5"
+    },
+    {
+      "id": "lp33x7i",
+      "body": "This humble brag failed because of your awkward english. Source: I am a programmer.",
+      "author": "bullpup1337",
+      "subreddit": "ChatGPT",
+      "created_utc": 1727385789,
+      "score": 13,
+      "link_id": "t3_1fq1q5j",
+      "parent_id": "t1_lp2aa0d"
+    },
+    {
+      "id": "lp0fpag",
+      "body": "As a German, I generally like rules. But this rule… I make an exception for this one.",
+      "author": "bullpup1337",
+      "subreddit": "UkraineWarVideoReport",
+      "created_utc": 1727354863,
+      "score": 7,
+      "link_id": "t3_1fprgn8",
+      "parent_id": "t1_lp0bv8s"
+    },
+    {
+      "id": "lp00kas",
+      "body": "Oh yeah it’s not perfect and the price of trying to do everything is that you cannot be good at everything. But it’s getting better all the time, and the fact that it can be customized freely trumps all shortcomings for me.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727347800,
+      "score": 1,
+      "link_id": "t3_1fne2xe",
+      "parent_id": "t1_loyvisy"
+    },
+    {
+      "id": "lozn85f",
+      "body": "Caviar, but I am too poor to verify",
+      "author": "bullpup1337",
+      "subreddit": "AskReddit",
+      "created_utc": 1727338918,
+      "score": 2,
+      "link_id": "t3_1fp4j1l",
+      "parent_id": "t3_1fp4j1l"
+    },
+    {
+      "id": "low8kgy",
+      "body": "That’s a really shitty risk map you have there. It even mislabels Taiwan as “China” there.",
+      "author": "bullpup1337",
+      "subreddit": "mildlyinteresting",
+      "created_utc": 1727288774,
+      "score": 2,
+      "link_id": "t3_1fp29iu",
+      "parent_id": "t3_1fp29iu"
+    },
+    {
+      "id": "low5rng",
+      "body": "Not lucky enough to be born with a brain that prevents him from willingly enter an enclosed space together with a bunch of angry bulls.",
+      "author": "bullpup1337",
+      "subreddit": "SweatyPalms",
+      "created_utc": 1727287901,
+      "score": 24,
+      "link_id": "t3_1fp4ay1",
+      "parent_id": "t3_1fp4ay1"
+    },
+    {
+      "id": "loqif7c",
+      "body": "My biggest issue is that there are two competing setups - the “classic” one and flakes. Flakes have a complicated history and are considered experimental. The official documentation references mostly the classic way. But it feels like everyone uses flakes. Seems a but schizophrenic, and makes everything a lot harder for newcomers. There is also little documentation on how to migrate from one to the other. \nAdd that on top of the fact that the whole way the system is set up is completely nonstandard and different from pretty much any other distro ( besides guix I think), and that you cannot easily install packages from other sources, means it is really tough. Still feels like a very good and stable system however.",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1727204683,
+      "score": 2,
+      "link_id": "t3_1foib3e",
+      "parent_id": "t3_1foib3e"
+    },
+    {
+      "id": "looc62l",
+      "body": "That's cool! The great thing about emacs is that if something doesn't work QUITE how you want it it's often not to hard to hack a workaround that fits what you want.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727178400,
+      "score": 1,
+      "link_id": "t3_1fne2xe",
+      "parent_id": "t1_lond2fm"
+    },
+    {
+      "id": "loobufd",
+      "body": "I guess I will have to take your word for it.",
+      "author": "bullpup1337",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1727178252,
+      "score": 0,
+      "link_id": "t3_1fo0x7d",
+      "parent_id": "t1_looaiya"
+    },
+    {
+      "id": "lonuo8q",
+      "body": "is it sinophobia if it’s true though?",
+      "author": "bullpup1337",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1727167898,
+      "score": -1,
+      "link_id": "t3_1fo0x7d",
+      "parent_id": "t1_londhrx"
+    },
+    {
+      "id": "loknf4h",
+      "body": "My first computer was running DOS. Man I wish it would have been Linux. Kids can be very smart in figuring out how tech works. Don’t lock down things too much, it is a great learning opportunity. If my parents had given me a locked down ipad instead of basically a CLI based PC, I would not have learned as much as I did.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1727119472,
+      "score": 322,
+      "link_id": "t3_1fnsny5",
+      "parent_id": "t3_1fnsny5"
+    },
+    {
+      "id": "loiqaad",
+      "body": "I used notion for 7 years or so I think. Finally made the switch to org mode - all my data, offline, locally stored, under my control!",
+      "author": "bullpup1337",
+      "subreddit": "Notion",
+      "created_utc": 1727097008,
+      "score": 3,
+      "link_id": "t3_1fniypp",
+      "parent_id": "t3_1fniypp"
+    },
+    {
+      "id": "loind3e",
+      "body": "Instructions unclear. What is the request, exactly?",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1727095848,
+      "score": 0,
+      "link_id": "t3_1fndxb5",
+      "parent_id": "t1_loiboa5"
+    },
+    {
+      "id": "loin6se",
+      "body": "Sounds like you would rather use isearch? Or combine the two?",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727095776,
+      "score": 2,
+      "link_id": "t3_1fne2xe",
+      "parent_id": "t1_lohtffa"
+    },
+    {
+      "id": "loibbno",
+      "body": "It’s the smallest integer bigger than 2,747,391.",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1727090403,
+      "score": 2,
+      "link_id": "t3_1fndxb5",
+      "parent_id": "t1_loi67s6"
+    },
+    {
+      "id": "loi2zjq",
+      "body": "Do you know of any simple sample configs to be inspired by?",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1727085499,
+      "score": 1,
+      "link_id": "t3_1fn7qgn",
+      "parent_id": "t1_lohp3yw"
+    },
+    {
+      "id": "lohp6yu",
+      "body": "https://github.com/abo-abo/avy",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727075630,
+      "score": 7,
+      "link_id": "t3_1fne2xe",
+      "parent_id": "t3_1fne2xe"
+    },
+    {
+      "id": "lohhucj",
+      "body": "Ive been using NixOS for two years and still have not managed to make that shift - any resources you can recommend that helped you doing so?",
+      "author": "bullpup1337",
+      "subreddit": "NixOS",
+      "created_utc": 1727070779,
+      "score": 2,
+      "link_id": "t3_1fn7qgn",
+      "parent_id": "t3_1fn7qgn"
+    },
+    {
+      "id": "lohhmro",
+      "body": "shame that wages are going down, if they are paid at all",
+      "author": "bullpup1337",
+      "subreddit": "China",
+      "created_utc": 1727070648,
+      "score": 4,
+      "link_id": "t3_1fn6v67",
+      "parent_id": "t1_loh5j0m"
+    },
+    {
+      "id": "loeopsg",
+      "body": "no its more like the hunger games, we are the capital and the districts can fight amongst themselves for scraps for our amusement",
+      "author": "bullpup1337",
+      "subreddit": "interesting",
+      "created_utc": 1727031918,
+      "score": 0,
+      "link_id": "t3_1fmxih8",
+      "parent_id": "t1_loeelw7"
+    },
+    {
+      "id": "loeoi9h",
+      "body": "it’s only capital if it can be owned.",
+      "author": "bullpup1337",
+      "subreddit": "interesting",
+      "created_utc": 1727031854,
+      "score": 3,
+      "link_id": "t3_1fmxih8",
+      "parent_id": "t1_loehl5s"
+    },
+    {
+      "id": "loeodzo",
+      "body": "ad hominem much?",
+      "author": "bullpup1337",
+      "subreddit": "interesting",
+      "created_utc": 1727031819,
+      "score": -5,
+      "link_id": "t3_1fmxih8",
+      "parent_id": "t1_loeh4wx"
+    },
+    {
+      "id": "loeoapl",
+      "body": "I doubt color has anything to do with it. Rich people (relatively) like to build walls around their castles. And moats around that. Europe has a natural moat, so I guess unless you can build a 14km draw bridge the king and his court will say “no”.",
+      "author": "bullpup1337",
+      "subreddit": "interesting",
+      "created_utc": 1727031792,
+      "score": 4,
+      "link_id": "t3_1fmxih8",
+      "parent_id": "t1_loeg639"
+    },
+    {
+      "id": "lodkvch",
+      "body": "Right, easy mistake to make, but people don’t get brain damage from slapping each other, it’s just that you have to have brain damage to find it enjoyable.",
+      "author": "bullpup1337",
+      "subreddit": "science",
+      "created_utc": 1727019999,
+      "score": 2,
+      "link_id": "t3_1fmu1rj",
+      "parent_id": "t1_lod8q2s"
+    },
+    {
+      "id": "lodjc59",
+      "body": "if self improvement was exponential everyone would be a super genius after a few years",
+      "author": "bullpup1337",
+      "subreddit": "learnmath",
+      "created_utc": 1727019506,
+      "score": 19,
+      "link_id": "t3_1fmviim",
+      "parent_id": "t1_lodj114"
+    },
+    {
+      "id": "locdz32",
+      "body": "Little known fact: parasitism is a form of symbiosis, according to the generally accepted biological definition.",
+      "author": "bullpup1337",
+      "subreddit": "funnyvideos",
+      "created_utc": 1727002016,
+      "score": 3,
+      "link_id": "t3_1fmij03",
+      "parent_id": "t1_lob7ki5"
+    },
+    {
+      "id": "locczqs",
+      "body": "That doesnt work with C-h at least I couldn’t find out how.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727001370,
+      "score": 2,
+      "link_id": "t3_1fmbglu",
+      "parent_id": "t1_lo9qovj"
+    },
+    {
+      "id": "loccmym",
+      "body": "Checks out. Most teachers are dumb compared to even a mediocre AI.",
+      "author": "bullpup1337",
+      "subreddit": "memes",
+      "created_utc": 1727001133,
+      "score": 1,
+      "link_id": "t3_1fma8f3",
+      "parent_id": "t1_lo9ud4n"
+    },
+    {
+      "id": "loccgmz",
+      "body": "Both are incorrect. Orange is A color. An orange is A fruit. Grammar matters.",
+      "author": "bullpup1337",
+      "subreddit": "meme",
+      "created_utc": 1727001011,
+      "score": 1,
+      "link_id": "t3_1fmngkx",
+      "parent_id": "t3_1fmngkx"
+    },
+    {
+      "id": "loccamw",
+      "body": "Why not? Just replace him with an electro motor, same thing.",
+      "author": "bullpup1337",
+      "subreddit": "Physics",
+      "created_utc": 1727000897,
+      "score": 39,
+      "link_id": "t3_1fmpztz",
+      "parent_id": "t3_1fmpztz"
+    },
+    {
+      "id": "locbp9d",
+      "body": "Thanks, excellent idea!",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727000506,
+      "score": 1,
+      "link_id": "t3_1fmbglu",
+      "parent_id": "t1_lo9q2ax"
+    },
+    {
+      "id": "locbnl4",
+      "body": "Haha this is not the emacs way. I try to overthink everything I guess.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1727000474,
+      "score": 1,
+      "link_id": "t3_1fmbglu",
+      "parent_id": "t1_lo9pgtp"
+    },
+    {
+      "id": "loc19ds",
+      "body": "Hot take: I consider everyone who buys a Chinese phone basically a traitor to democracy.",
+      "author": "bullpup1337",
+      "subreddit": "assholedesign",
+      "created_utc": 1726993266,
+      "score": 3,
+      "link_id": "t3_1fm1dv0",
+      "parent_id": "t3_1fm1dv0"
+    },
+    {
+      "id": "lobpgdu",
+      "body": "When you switch to Linux, it can feel like there is nothing you can do with it. After a while you’ll feel like you can do anything with it. Finally, it will feel like you can do nothing without it.",
+      "author": "bullpup1337",
+      "subreddit": "linux4noobs",
+      "created_utc": 1726985376,
+      "score": 1,
+      "link_id": "t3_1fmg0xx",
+      "parent_id": "t3_1fmg0xx"
+    },
+    {
+      "id": "lobo40o",
+      "body": "You are right that GTD doesn’t explicitly handle it, but it does fit into the framework in the sense that you can consider it an actionable note.  Personally, I deal with it by moving these notes into a separate file that I process once a week when I have some time. Sometimes, reading them, reflecting on them and then deleting them is all I do. Sometimes, I use them to update what GTD would call “reference” data - e.g. I have notes describing my goals, values and so on. Sometimes I create next actions if there is something concrete to do (could also be a small project).",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1726984526,
+      "score": 6,
+      "link_id": "t3_1fmlkqi",
+      "parent_id": "t3_1fmlkqi"
+    },
+    {
+      "id": "lobn4h0",
+      "body": "Did she also kiss all of them? Also, somehow it doesn’t feel like it makes it any better to me.  You know, there were definitely people who could immediately tell Epstein was an asshole by just talking to him and who wouldn’t kiss him.",
+      "author": "bullpup1337",
+      "subreddit": "Funnymemes",
+      "created_utc": 1726983916,
+      "score": 0,
+      "link_id": "t3_1fm8m3n",
+      "parent_id": "t1_lo93vmc"
+    },
+    {
+      "id": "lobmspu",
+      "body": "Narcissists are somehow good at convincing stupid people that they are basically the Messiah. I guess survivor bias is at play here.",
+      "author": "bullpup1337",
+      "subreddit": "Funnymemes",
+      "created_utc": 1726983720,
+      "score": 1,
+      "link_id": "t3_1fm8m3n",
+      "parent_id": "t1_loau6us"
+    },
+    {
+      "id": "lo8cvoy",
+      "body": "Not saying it's not possible. But good luck to you if you do.",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1726937356,
+      "score": 1,
+      "link_id": "t3_1flhsj6",
+      "parent_id": "t1_lo44cg2"
+    },
+    {
+      "id": "lo3gnam",
+      "body": "good luck programming in any language that does not use latin alphabet",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1726859152,
+      "score": -42,
+      "link_id": "t3_1flhsj6",
+      "parent_id": "t1_lo36tst"
+    },
+    {
+      "id": "lo2a5wf",
+      "body": "If he becomes president he will find ways to have the government blow up the stock. A the very least, his dictator buddies can funnel their bribe money to him legally.",
+      "author": "bullpup1337",
+      "subreddit": "StockMarket",
+      "created_utc": 1726845436,
+      "score": 17,
+      "link_id": "t3_1fldf1q",
+      "parent_id": "t1_lo24iiz"
+    },
+    {
+      "id": "lo28guy",
+      "body": "I see you never played them video games. You probably also think 30 fps should be enough for anything.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1726844889,
+      "score": 2,
+      "link_id": "t3_1fl88vk",
+      "parent_id": "t1_lo1pseu"
+    },
+    {
+      "id": "lo1lo0q",
+      "body": "An alternative that I am currently exploring is HyWiki. It works across files, however the target will be its own file.",
+      "author": "bullpup1337",
+      "subreddit": "orgmode",
+      "created_utc": 1726836964,
+      "score": 1,
+      "link_id": "t3_2qz4fb",
+      "parent_id": "t3_2qz4fb"
+    },
+    {
+      "id": "ln86xe6",
+      "body": "Cool. Sounds a but like eshell but without emacs?",
+      "author": "bullpup1337",
+      "subreddit": "commandline",
+      "created_utc": 1726397586,
+      "score": 2,
+      "link_id": "t3_1fgn0gx",
+      "parent_id": "t3_1fgn0gx"
+    },
+    {
+      "id": "ln86ixi",
+      "body": "not the biggest expert here, but from what i’ve seen so far, its hard to find less reliable sources of information than the chinese government, so if in doubt anyone else is probably more trustworthy.",
+      "author": "bullpup1337",
+      "subreddit": "Economics",
+      "created_utc": 1726397336,
+      "score": 3,
+      "link_id": "t3_1fh8wa0",
+      "parent_id": "t1_ln84dxb"
+    },
+    {
+      "id": "lmzehx7",
+      "body": "magit",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1726258684,
+      "score": 4,
+      "link_id": "t3_1fg0x0k",
+      "parent_id": "t1_lmyxnka"
+    },
+    {
+      "id": "lmbi2iw",
+      "body": "Updated in 2024: I assume today the more popular option is [https://github.com/rexim/org-cliplink](https://github.com/rexim/org-cliplink)",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1725908427,
+      "score": 1,
+      "link_id": "t3_682wsu",
+      "parent_id": "t1_dgvcmeh"
+    },
+    {
+      "id": "llz02ft",
+      "body": "After 2 0 years of vim and recently switching to Emacs: believe me, there is.",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1725725060,
+      "score": 2,
+      "link_id": "t3_1fahsgj",
+      "parent_id": "t1_llx1eg9"
+    },
+    {
+      "id": "llh0kmy",
+      "body": "so does the German far right. Shitty people like each other it seems.",
+      "author": "bullpup1337",
+      "subreddit": "UkraineWarVideoReport",
+      "created_utc": 1725460394,
+      "score": 6,
+      "link_id": "t3_1f8tyb5",
+      "parent_id": "t1_llgug8c"
+    },
+    {
+      "id": "llfy8s1",
+      "body": "spill the beans - what county? sounds like China lol",
+      "author": "bullpup1337",
+      "subreddit": "ChatGPT",
+      "created_utc": 1725443711,
+      "score": 1,
+      "link_id": "t3_1f8o0l6",
+      "parent_id": "t1_llfvuoq"
+    },
+    {
+      "id": "llfxxzk",
+      "body": "whats a PIP",
+      "author": "bullpup1337",
+      "subreddit": "meirl",
+      "created_utc": 1725443517,
+      "score": 2,
+      "link_id": "t3_1f8i9n9",
+      "parent_id": "t1_llfs3pq"
+    },
+    {
+      "id": "ll0apx6",
+      "body": "I have a sneaking feeling that a lot of younger developers don’t really know the difference between git and github and somehow think it is the same thing.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1725207254,
+      "score": 3,
+      "link_id": "t3_1f6fipv",
+      "parent_id": "t3_1f6fipv"
+    },
+    {
+      "id": "lky7pnt",
+      "body": "Who is he really trying to convince?",
+      "author": "bullpup1337",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1725170634,
+      "score": 1,
+      "link_id": "t3_1f5xlcr",
+      "parent_id": "t3_1f5xlcr"
+    },
+    {
+      "id": "lky64mm",
+      "body": "Not so sure about MS Office - afaik there are good web versions, but personally I don’t even need office at all - even at work, my job does not require it.  Any task can be done with other tools, or differently.  Of course there are special software where there is no replacement - that is a shame.  \n\nHowever, I do not miss an integrated desktop.  Power users are shifting more towards lightweight window managers, and using the terminal instead of GUI.  Linux has fantastic tools for that way of working today.  People develop the tools they need and like - the Linux ecosystem shows that.  There has been so much progress, but a lot of it is hidden, under the surface.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1725169680,
+      "score": -1,
+      "link_id": "t3_1f63vgk",
+      "parent_id": "t3_1f63vgk"
+    },
+    {
+      "id": "lkvca9k",
+      "body": "Wow. This is amazing. Such a bad fake, presented with such misdirected, yet abundant, confidence! Truly a piece of excellent contemporary performance art!",
+      "author": "bullpup1337",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1725129171,
+      "score": 3,
+      "link_id": "t3_1f5cn22",
+      "parent_id": "t3_1f5cn22"
+    },
+    {
+      "id": "lkua3vm",
+      "body": "all the americans are confused by your comment",
+      "author": "bullpup1337",
+      "subreddit": "SweatyPalms",
+      "created_utc": 1725116321,
+      "score": 15,
+      "link_id": "t3_1f5njzg",
+      "parent_id": "t1_lku21t3"
+    },
+    {
+      "id": "lkmr00b",
+      "body": "looks like win 3.1. I like it (even though personally I dont use desktops anymore)",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1724998526,
+      "score": 2,
+      "link_id": "t3_1f4ln1l",
+      "parent_id": "t3_1f4ln1l"
+    },
+    {
+      "id": "lkmqdiy",
+      "body": "The answer is always emacs. Sorry what was the question again?",
+      "author": "bullpup1337",
+      "subreddit": "golang",
+      "created_utc": 1724998147,
+      "score": 1,
+      "link_id": "t3_1f3xf8c",
+      "parent_id": "t3_1f3xf8c"
+    },
+    {
+      "id": "ljlpnem",
+      "body": "Their problem, not ours. Tough luck, no excuse for lying and cheating.",
+      "author": "bullpup1337",
+      "subreddit": "ayaneo",
+      "created_utc": 1724444749,
+      "score": 1,
+      "link_id": "t3_1eymgs1",
+      "parent_id": "t1_ljfugrz"
+    },
+    {
+      "id": "ljlpcsx",
+      "body": "They are Chinese. That is their mentality.",
+      "author": "bullpup1337",
+      "subreddit": "ayaneo",
+      "created_utc": 1724444653,
+      "score": 1,
+      "link_id": "t3_1eymgs1",
+      "parent_id": "t1_ljfsllu"
+    },
+    {
+      "id": "lj2xihb",
+      "body": "Do you use the original operating system? Chinese Software likes to phone home. Export models might be different, but models in China have been observed to be a bit too... curious about their owners.",
+      "author": "bullpup1337",
+      "subreddit": "comedyheaven",
+      "created_utc": 1724178241,
+      "score": 1,
+      "link_id": "t3_1evdyzk",
+      "parent_id": "t1_liwguf0"
+    },
+    {
+      "id": "liw8p3j",
+      "body": "You bought it with you soul… or rather you sold them access to all your data. Xiaomi is Chinese.",
+      "author": "bullpup1337",
+      "subreddit": "comedyheaven",
+      "created_utc": 1724084696,
+      "score": 1,
+      "link_id": "t3_1evdyzk",
+      "parent_id": "t1_liukk37"
+    },
+    {
+      "id": "lilu4v2",
+      "body": "They are delusional. They are used to not being questioned by Media, and have no clue how to behave when they do. Though probably it would be a friendly softball interview as always.",
+      "author": "bullpup1337",
+      "subreddit": "China",
+      "created_utc": 1723921856,
+      "score": 1,
+      "link_id": "t3_1ep6bw7",
+      "parent_id": "t1_li1gk6d"
+    },
+    {
+      "id": "liliagr",
+      "body": "Vacation with Chinese Characteristics…. just some light brainwashing at the beach for you",
+      "author": "bullpup1337",
+      "subreddit": "gaming",
+      "created_utc": 1723917677,
+      "score": 3,
+      "link_id": "t3_1euk7jn",
+      "parent_id": "t1_lil0ujj"
+    },
+    {
+      "id": "liiu8r1",
+      "body": "When you can do indirect fire. At that point, you aim at the sky, not the target.",
+      "author": "bullpup1337",
+      "subreddit": "UkraineWarVideoReport",
+      "created_utc": 1723871567,
+      "score": 2,
+      "link_id": "t3_1eu1ihl",
+      "parent_id": "t1_lih8diy"
+    },
+    {
+      "id": "li6y7ud",
+      "body": "Pretty sure the library does not have the right to give away your things. Forgotten or otherwise.",
+      "author": "bullpup1337",
+      "subreddit": "madlads",
+      "created_utc": 1723697455,
+      "score": 1680,
+      "link_id": "t3_1esg979",
+      "parent_id": "t3_1esg979"
+    },
+    {
+      "id": "li6xx0i",
+      "body": "but…. how?",
+      "author": "bullpup1337",
+      "subreddit": "CyberStuck",
+      "created_utc": 1723697298,
+      "score": 1,
+      "link_id": "t3_1esj6vk",
+      "parent_id": "t1_li6wwo5"
+    },
+    {
+      "id": "lh9i10d",
+      "body": "Look around in the room. Notice that other people pretend it isn’t there. Join them in doing so. Then, attack anyone who claims to see an elephant as a left wing lunatic.",
+      "author": "bullpup1337",
+      "subreddit": "meirl",
+      "created_utc": 1723205600,
+      "score": 2,
+      "link_id": "t3_1ensfbr",
+      "parent_id": "t3_1ensfbr"
+    },
+    {
+      "id": "lh6c12x",
+      "body": "Were you in the “quiet zone”? People take that very seriously.",
+      "author": "bullpup1337",
+      "subreddit": "Switzerland",
+      "created_utc": 1723152245,
+      "score": 4,
+      "link_id": "t3_1en61ox",
+      "parent_id": "t1_lh5jvk4"
+    },
+    {
+      "id": "lh55vzm",
+      "body": "Just use shaders. Retroarch shows the way.",
+      "author": "bullpup1337",
+      "subreddit": "gaming",
+      "created_utc": 1723139500,
+      "score": 1,
+      "link_id": "t3_1en6hnw",
+      "parent_id": "t3_1en6hnw"
+    },
+    {
+      "id": "lgy458r",
+      "body": "/technicallythetruth",
+      "author": "bullpup1337",
+      "subreddit": "teenagers",
+      "created_utc": 1723042380,
+      "score": 15,
+      "link_id": "t3_1em9ld2",
+      "parent_id": "t1_lgx9r85"
+    },
+    {
+      "id": "lgattlf",
+      "body": "Crazy stuff",
+      "author": "bullpup1337",
+      "subreddit": "nairobi",
+      "created_utc": 1722693818,
+      "score": 1,
+      "link_id": "t3_1d2ees9",
+      "parent_id": "t3_1d2ees9"
+    },
+    {
+      "id": "lg1cpy0",
+      "body": "ah yeah! I still have that bug, also space, escape, I think I have to press everything twice!",
+      "author": "bullpup1337",
+      "subreddit": "Stormgate",
+      "created_utc": 1722545598,
+      "score": 2,
+      "link_id": "t3_1ehqy9c",
+      "parent_id": "t1_lg1abl9"
+    },
+    {
+      "id": "lfyig95",
+      "body": "how do you know I didn't?",
+      "author": "bullpup1337",
+      "subreddit": "RecRoom",
+      "created_utc": 1722510711,
+      "score": 1,
+      "link_id": "t3_1ee8qmp",
+      "parent_id": "t1_lfkdgqq"
+    },
+    {
+      "id": "lfyifc6",
+      "body": "confusing UI...",
+      "author": "bullpup1337",
+      "subreddit": "RecRoom",
+      "created_utc": 1722510698,
+      "score": 1,
+      "link_id": "t3_1ee8qmp",
+      "parent_id": "t1_lfjx2lt"
+    },
+    {
+      "id": "lfyiefo",
+      "body": "thanks!",
+      "author": "bullpup1337",
+      "subreddit": "RecRoom",
+      "created_utc": 1722510685,
+      "score": 1,
+      "link_id": "t3_1ee8qmp",
+      "parent_id": "t1_lfcgrv9"
+    },
+    {
+      "id": "lfyie2w",
+      "body": "yep thanks!",
+      "author": "bullpup1337",
+      "subreddit": "RecRoom",
+      "created_utc": 1722510680,
+      "score": 1,
+      "link_id": "t3_1ee8qmp",
+      "parent_id": "t1_lfcca98"
+    },
+    {
+      "id": "lfyickh",
+      "body": "Thanks! That worked! No idea why nobody explains that in game...",
+      "author": "bullpup1337",
+      "subreddit": "RecRoom",
+      "created_utc": 1722510658,
+      "score": 1,
+      "link_id": "t3_1ee8qmp",
+      "parent_id": "t1_lfr8ndf"
+    },
+    {
+      "id": "lfyiavj",
+      "body": "You know, my advice is to just stop giving a fuck what other people think. Focus more on making sure all your clothes are consistent and you can easily mix and match them.\n\nPersonally, I prefer a more traditional style focused around classic shirts, blazers, suits etc., but the main thing is to make sure the colors are of a consistent palette (for me, I like beige, blue, off-white, brown, and sometimes orange and purple).\n\nI do stand out occasionally with that style and definitely get stared at times, but also sometimes random compliments from strangers, which feels extra nice - but in the end, I dress the way I feel that suits my character and gives off the right \"vibe\". Confidence helps.\n\nIn that sense, the only rules are the ones that I make myself.",
+      "author": "bullpup1337",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1722510632,
+      "score": 1,
+      "link_id": "t3_1egd5az",
+      "parent_id": "t1_lfs9o6y"
+    },
+    {
+      "id": "lfu6nz0",
+      "body": "Plot twist… both elephants were later killed by Don Junior /jk",
+      "author": "bullpup1337",
+      "subreddit": "BeAmazed",
+      "created_utc": 1722444646,
+      "score": -3,
+      "link_id": "t3_1egnj5b",
+      "parent_id": "t3_1egnj5b"
+    },
+    {
+      "id": "lfs81qi",
+      "body": "When you dont know what you are “supposed to be wearing” after deleting TikTok, thats when you recognize you ARE the product. Develop a sense of style and buy what YOU like, not what influencers tell you to buy.",
+      "author": "bullpup1337",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1722414464,
+      "score": 14,
+      "link_id": "t3_1egd5az",
+      "parent_id": "t1_lfs5xlj"
+    },
+    {
+      "id": "lfrxi81",
+      "body": "Anybody using GNU Global these days? If so, what for? Sounds interesting, but not sure how it compares to alternatives.",
+      "author": "bullpup1337",
+      "subreddit": "planetemacs",
+      "created_utc": 1722407459,
+      "score": 1,
+      "link_id": "t3_1dwm4zn",
+      "parent_id": "t3_1dwm4zn"
+    },
+    {
+      "id": "lfbwhl4",
+      "body": "I understand, that can be frustrating. Personally, I would probably stop worrying about climbing the latter too much and accept to play at a lower league but with strategies that are more interesting to you.  In the end, what ever you do, after a while you should reach a point where your MMR stabilizes and you can have fun with your chosen playstyle.",
+      "author": "bullpup1337",
+      "subreddit": "starcraft2",
+      "created_utc": 1722171384,
+      "score": 1,
+      "link_id": "t3_1ebjw38",
+      "parent_id": "t1_lfbv2kd"
+    },
+    {
+      "id": "lfbqulf",
+      "body": "then, good >> cheap >> fast. Quality takes time and money. I am not willing to compromise on quality. I am, however patient. And spending cheap is spending twice, so I rather pay once.",
+      "author": "bullpup1337",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1722168571,
+      "score": 2,
+      "link_id": "t3_1ee03xn",
+      "parent_id": "t1_lfb88qb"
+    },
+    {
+      "id": "lfbqpqp",
+      "body": "Well, since I am not playing at the highest level (and probably neither are you), I don't think this is too valid a concern.  Unless you say it is not fun to WATCH which is an entirely different thing",
+      "author": "bullpup1337",
+      "subreddit": "starcraft2",
+      "created_utc": 1722168499,
+      "score": 1,
+      "link_id": "t3_1ebjw38",
+      "parent_id": "t1_lf6p2h0"
+    },
+    {
+      "id": "lfb3fqy",
+      "body": "perfect allegory for their whole country",
+      "author": "bullpup1337",
+      "subreddit": "interesting",
+      "created_utc": 1722153129,
+      "score": -1,
+      "link_id": "t3_1edyogb",
+      "parent_id": "t3_1edyogb"
+    },
+    {
+      "id": "lfb2tr3",
+      "body": "cheap and good it is, then",
+      "author": "bullpup1337",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1722152710,
+      "score": 17,
+      "link_id": "t3_1ee03xn",
+      "parent_id": "t1_lfb2duq"
+    },
+    {
+      "id": "lf5s7k9",
+      "body": "or, just focus on having fun - it is a game, after all",
+      "author": "bullpup1337",
+      "subreddit": "starcraft2",
+      "created_utc": 1722067313,
+      "score": 1,
+      "link_id": "t3_1ebjw38",
+      "parent_id": "t1_lexlbg4"
+    },
+    {
+      "id": "leu35pz",
+      "body": "Watching some uthermal videos should cure you from that impression",
+      "author": "bullpup1337",
+      "subreddit": "starcraft2",
+      "created_utc": 1721890842,
+      "score": 2,
+      "link_id": "t3_1ebjw38",
+      "parent_id": "t3_1ebjw38"
+    },
+    {
+      "id": "lelpjp6",
+      "body": "yeah like some red box at the top \"WARNING THIS WEBSITE HAS BEEN HACKED BY  ELITE HACKER (insert name here) IF YOU SEE THIS INDIVIDUAL, DO NOT CONTACT! IGNORE HIM AND HOPE HE WILL SPARE YOUR PUNY LIFE\"",
+      "author": "bullpup1337",
+      "subreddit": "learnjavascript",
+      "created_utc": 1721767032,
+      "score": 1,
+      "link_id": "t3_1e5t8ax",
+      "parent_id": "t1_ldu8k1r"
+    },
+    {
+      "id": "lelow4m",
+      "body": "Thanks, I will try that.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1721766826,
+      "score": 1,
+      "link_id": "t3_1dyknxd",
+      "parent_id": "t1_lekos5r"
+    },
+    {
+      "id": "leklbfw",
+      "body": "Alternatively, if you have multiple devices with the same OS, I prefer:\n\n`(defconst *pc1* (string= system-name \"PC-Name\"))`\n\netc.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1721754439,
+      "score": 5,
+      "link_id": "t3_1eabrjt",
+      "parent_id": "t1_lekf3za"
+    },
+    {
+      "id": "lekk54d",
+      "body": "I think it might have been dirvish that's the issue. After disabling dirvish, now I can see the preview!",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1721754069,
+      "score": 1,
+      "link_id": "t3_1dyknxd",
+      "parent_id": "t1_leeoq3d"
+    },
+    {
+      "id": "leehl08",
+      "body": "I don't get it. How do you use this package? I installed it, but have no idea how to get the preview. If I open a file in dired, it just opens the video player. Is there some keybinding / command you need to run? Some more help would be great.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1721665576,
+      "score": 1,
+      "link_id": "t3_1dyknxd",
+      "parent_id": "t3_1dyknxd"
+    },
+    {
+      "id": "lecmld9",
+      "body": "If you are vey serious about this. go from scratch with System Crafters playlist. I had doom installed for a while, barely used it because I had no idea what was going on. Creating my own config was a gamechanger, now it feels like MY system not just some program I need to learn how to use.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1721635081,
+      "score": 2,
+      "link_id": "t3_1e96ysy",
+      "parent_id": "t3_1e96ysy"
+    },
+    {
+      "id": "le9ym85",
+      "body": "Our Pentium 100 had 16 MB of ram.\n\nBefore that, we had a 386 with I think 2MB or so.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1721592562,
+      "score": 2,
+      "link_id": "t3_1e84sfw",
+      "parent_id": "t1_le935aa"
+    },
+    {
+      "id": "le70jna",
+      "body": "thats like a fiat 500 with a trunk the size of a jumbo jet",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1721545282,
+      "score": 14,
+      "link_id": "t3_1e84sfw",
+      "parent_id": "t1_le6zpa9"
+    },
+    {
+      "id": "ldwns4s",
+      "body": "from HR? what for? I think you dont have to like his style, but running to HR every time you get your feelings hurt is a bit ridiculous.",
+      "author": "bullpup1337",
+      "subreddit": "linux",
+      "created_utc": 1721383304,
+      "score": 0,
+      "link_id": "t3_1e60pmb",
+      "parent_id": "t1_ldvv8pe"
+    },
+    {
+      "id": "ldlffuo",
+      "body": "The problem is that the infrastructure is built without thinking where it is most needed. Also, a lot of the high speed trains are expensive, so few can actually afford it - they run around mostly empty. And all those big train stations in the middle of nowhere that are unused are also not a good sign.\n\nSure, great to show high GDP numbers. Does it help? Doubtful.",
+      "author": "bullpup1337",
+      "subreddit": "Economics",
+      "created_utc": 1721216086,
+      "score": -1,
+      "link_id": "t3_1e4olc5",
+      "parent_id": "t1_ldjoikw"
+    },
+    {
+      "id": "ldhvu0d",
+      "body": "all pointless churning, building bridges to nowhere with borrowed money. This kind of GDP increase is worthless.",
+      "author": "bullpup1337",
+      "subreddit": "Economics",
+      "created_utc": 1721157850,
+      "score": 7,
+      "link_id": "t3_1e4olc5",
+      "parent_id": "t1_ldh77dk"
+    },
+    {
+      "id": "ld4x7bo",
+      "body": "Thank you! I was not aware of this .@plugins directory, that is good to know.\n\nCan you simply modify the apache2.conf in place, or is there a danger it gets deleted / overwritten by ADM at some point?",
+      "author": "bullpup1337",
+      "subreddit": "asustor",
+      "created_utc": 1720963889,
+      "score": 1,
+      "link_id": "t3_1dxamab",
+      "parent_id": "t1_lcz8yfa"
+    },
+    {
+      "id": "ld3ne46",
+      "body": "Except everyone wants to travel back in time and kill hitler",
+      "author": "bullpup1337",
+      "subreddit": "pics",
+      "created_utc": 1720936221,
+      "score": 1,
+      "link_id": "t3_1e2o47m",
+      "parent_id": "t1_ld2jf64"
+    },
+    {
+      "id": "lce3k0m",
+      "body": "ALL of them? You must be the guy working at Microsoft who is making sure all Windows versions get slower with every release and need more RAM, and we have to constantly upgrade our hardware.",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1720550469,
+      "score": 1,
+      "link_id": "t3_1dyo42a",
+      "parent_id": "t1_lcctj5d"
+    },
+    {
+      "id": "lcbdx56",
+      "body": "== is just a symbol in this case, don't be too quick to prescribe semantics to it. So if you define == simply as the trivial relation, then yes, indeed, 1 == 0. If it makes you feel better, write 1 \\~ 0.\n\nAlso, if you worry about types - I think in the original post no typing system was implied. So, you can always consider == as a relation on the union of all types involved, and bob's your uncle.",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1720507737,
+      "score": 1,
+      "link_id": "t3_1dxescr",
+      "parent_id": "t1_lc3hmd2"
+    },
+    {
+      "id": "lcbdk10",
+      "body": "I agree with your initial description, but sometimes it's tricky to separate abstraction from generalization (and mathematicians have different definitions than computer scientists here).  Personally, I think when we talk about \"cars\" we consider them generalizations - basically the collection of all real (and conceivable) instances of cars.\n\nAn abstract car would be a purely mental model of what makes a car - the components (wheels, chassis, motor etc) and its relationship.  You cannot drive an abstract car, it is just a model.  But you can drive a general car, since its just a placeholder for a real car.\n\nAt least thats how I look at it.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1720507498,
+      "score": 2,
+      "link_id": "t3_1dybzjm",
+      "parent_id": "t1_lc9ux2i"
+    },
+    {
+      "id": "lcbcttr",
+      "body": "Can you please link the video + timestamp directly?",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1720507030,
+      "score": 2,
+      "link_id": "t3_1dyn3zy",
+      "parent_id": "t1_lca2wcm"
+    },
+    {
+      "id": "lc7vscz",
+      "body": "Abstraction is the wrong word. It’s more like an additional layer on top.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1720458504,
+      "score": 0,
+      "link_id": "t3_1dybzjm",
+      "parent_id": "t1_lc7q55c"
+    },
+    {
+      "id": "lc2ztpu",
+      "body": "he is talking about the equality operator. And yes, the trivial relation is an equivalence relation - the coarsest one possible (upper limit basically)",
+      "author": "bullpup1337",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1720380426,
+      "score": 5,
+      "link_id": "t3_1dxescr",
+      "parent_id": "t1_lc2nqr9"
+    },
+    {
+      "id": "lby4xfj",
+      "body": "America Bad Party(tm)  \n[https://pbs.twimg.com/media/GKcCKp1WEAAktyU?format=jpg&name=900x900](https://pbs.twimg.com/media/GKcCKp1WEAAktyU?format=jpg&name=900x900)",
+      "author": "bullpup1337",
+      "subreddit": "Economics",
+      "created_utc": 1720299571,
+      "score": -1,
+      "link_id": "t3_1dwum6n",
+      "parent_id": "t1_lby1fgg"
+    },
+    {
+      "id": "lbellwa",
+      "body": "I know I've made fun of this before, but it's actually not as pointless as it sounds. I've actually toyed with similar ideas before. While I do think emacs-lisp is overall better suited for a project like emacs, lua does have some advantages.\n\nThe main benefit of lua in my opinion is that it provides true sandboxing capabilities. To my knowledge, emacs lisp has nothing comparable.  This becomes important if you want to do some crazy stuff like having an LLM control and/or configure your emacs instance.  With lua, you can provide a nice, safe API, that only permits certain actions.  If you let an LLM run arbitrary lisp code, well, good luck to you.\n\nNow, GNU Guile also has sandboxing capabilities. So, I am still hoping one day we will see a proper Guile Emacs. But until then, a lua-emacs interface might actually be a good option for playing around with LLMs.",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1719987385,
+      "score": 3,
+      "link_id": "t3_1dtuodf",
+      "parent_id": "t3_1dtuodf"
+    },
+    {
+      "id": "lbchgey",
+      "body": "I like your enthusiasm, and lua is a great language. But if you want to customize your editor in lua, I suggest looking into a program called “neovim”, I heard good things about it. /s",
+      "author": "bullpup1337",
+      "subreddit": "emacs",
+      "created_utc": 1719954896,
+      "score": 3,
+      "link_id": "t3_1dtuodf",
+      "parent_id": "t3_1dtuodf"
     }
   ]
 }

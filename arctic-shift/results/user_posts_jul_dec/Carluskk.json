@@ -11,6 +11,39 @@
       "num_comments": 8,
       "selftext": "I’ve been accepted to conduct my master thesis at a research institute within the ETH Domain. My day-to-day supervision will be provided by a postdoctoral researcher at the institute.\n\nHowever, to meet ETH Zurich’s requirements for the “Mobility Project” form, I need a full ETH professor to formally act as my thesis supervisor. This is a purely administrative role, with no involvement in the actual project. The professor would only need to sign the necessary documentation.\n\nThe thesis is planned to start in March 2025, so if anyone knows an ETH professor who might be willing to help or has suggestions on how to find someone, I’d greatly appreciate it! Please feel free to reply here or DM me.\n\nThanks so much for your help!",
       "url": "https://www.reddit.com/r/ethz/comments/1gxc1r5/looking_for_an_eth_professor_for_formal/"
+    },
+    {
+      "id": "1f55urh",
+      "title": "Help Final Courses To Pick",
+      "author": "Carluskk",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1725051110,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi everyone,\n\nI'm finishing my Data Science Master's degree this year, and I need to choose one exam from each category below. I’d love to hear your opinions on which options might be the most valuable in terms of interest, multiple benefits, and career prospects.\n\n**Choice 1 (pick one):**\n\n* **Deep NLP**: Covers key NLP techniques like embeddings, entity recognition, summarization, language models, and their applications in text analysis.\n* **ML for IoT**: Focuses on ML/DL applications in IoT, particularly in edge computing, optimization, and data exchange in distributed systems.\n\n**Choice 2 (pick one):**\n\n* **Computer-Aided Simulations Lab**: Involves simulation methods for performance evaluation, Markov processes and their applications in epidemics and mobility models.\n* **Network Dynamics and Learning**: Explores graph theory, distributed, Markov chains, network contagion, game theory, and probabilistic models in complex networks.\n\nThank you all in advance! :)",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1f55urh/help_final_courses_to_pick/"
+    },
+    {
+      "id": "1f3e2cz",
+      "title": "Which Final Courses Should I Pick?",
+      "author": "Carluskk",
+      "subreddit": "datascience",
+      "created_utc": 1724861199,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/datascience/comments/1f3e2cz/which_final_courses_should_i_pick/"
+    },
+    {
+      "id": "1f3e29y",
+      "title": "Which Final Courses Should I Pick?",
+      "author": "Carluskk",
+      "subreddit": "datascience",
+      "created_utc": 1724861193,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/datascience/comments/1f3e29y/which_final_courses_should_i_pick/"
     }
   ],
   "comments": [
@@ -53,6 +86,56 @@
       "score": 1,
       "link_id": "t3_1gxc1r5",
       "parent_id": "t1_lyg67kx"
+    },
+    {
+      "id": "ll46wop",
+      "body": "Cannot explain how much I loved that book. I read it when I was very young but, I don’t know why, its ability to make you feel the guilt and loneliness of Kelvin was able to click something in my own mind. Really a philosophical sci-fi masterpiece, cannot recommend it enough!",
+      "author": "Carluskk",
+      "subreddit": "suggestmeabook",
+      "created_utc": 1725264319,
+      "score": 6,
+      "link_id": "t3_1f6zafa",
+      "parent_id": "t1_ll3ul8i"
+    },
+    {
+      "id": "lkwwsmz",
+      "body": "Thanks for the input! I’m leaning towards ML for IoT as well, seems like a good way to dive into something interesting I can’t (after a brief research) really find online, unlike NLP courses which are really hyped these days.\n\nFor the second choice, I’m going with the Networks course just because those math foundations can be tough to pick up later. Having a prof guide me through it feels like the smarter move.\n\nAppreciate the help!",
+      "author": "Carluskk",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1725149312,
+      "score": 1,
+      "link_id": "t3_1f55urh",
+      "parent_id": "t1_lkuluq1"
+    },
+    {
+      "id": "lkowt1q",
+      "body": "I did a Reinforcement Learning project this past semester and I can say that Sutton and Barto “Reinforcement Learning An Introduction” book is a go to for the mathematical foundations, by most considered (I think it too) a Bible to start on.\n\nIf you want a more concise but still pretty good introduction you can go to the OpenAI site where there is more than enough to start, and I really appreciated the Lil’Log Posts on it:\n- Key Concepts: https://lilianweng.github.io/posts/2018-02-19-rl-overview/#key-concepts\n- Policy Gradient Theorem and Most Famous Policy Algs: https://lilianweng.github.io/posts/2018-04-08-policy-gradient/\n\nYoutube can be a great tool too, I personally viewed the Steve Brunton playlist and some videos on PPO fron Arxiv Insights, but surely there are some other cool videos you can watch!",
+      "author": "Carluskk",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1725033899,
+      "score": 13,
+      "link_id": "t3_1f4wspf",
+      "parent_id": "t3_1f4wspf"
+    },
+    {
+      "id": "lkoalsr",
+      "body": "Hi everyone, I’m writing here because the topic seems really similar\n\nI’m also finishing my Data Science Master’s degree this year, and I need to choose one exam from each category below. I’d love to hear your opinions on which options might be the most valuable in terms of interest, multiple benefits, and career prospects.\n\n**Choice 1 (pick one):**\n\n* **Deep NLP**: Covers key NLP techniques like embeddings, entity recognition, summarization, language models, and their applications in text analysis.\n* **ML for IoT**: Focuses on ML/DL applications in IoT, particularly in edge computing, optimization, and data exchange in distributed systems.\n\n**Choice 2 (pick one):**\n\n* **Computer-Aided Simulations Lab**: Involves simulation methods for performance evaluation, Markov processes, and their applications in epidemics and mobility models.\n* **Network Dynamics and Learning**: Explores graph theory, distributed optimization, Markov chains, network contagion, game theory, and probabilistic models in complex networks.\n\nThank you all in advance! :)",
+      "author": "Carluskk",
+      "subreddit": "datascience",
+      "created_utc": 1725026926,
+      "score": 1,
+      "link_id": "t3_1f3bgrv",
+      "parent_id": "t3_1f3bgrv"
+    },
+    {
+      "id": "lkb1xza",
+      "body": "Good morning everyone! I’m currently in my second and final year of my Data Science major, and I have to choose between two courses: Machine Learning for IoT and Natural Language Processing (NLP). Since picking one doesn’t limit my chances of working with the other in the future, I’d love to hear your thoughts on which would be the best choice given the current job market.\n\nFrom what I’ve gathered, ML for IoT seems to be slightly more in demand, while having a basic understanding of NLP is a valuable skill that can benefit any job interview regardless of the role.\n\nWhat do you think?",
+      "author": "Carluskk",
+      "subreddit": "datascience",
+      "created_utc": 1724830577,
+      "score": 1,
+      "link_id": "t3_1f1f8gn",
+      "parent_id": "t3_1f1f8gn"
     }
   ]
 }

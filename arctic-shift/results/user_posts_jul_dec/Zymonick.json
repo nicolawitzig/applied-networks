@@ -1,6 +1,51 @@
 {
   "username": "Zymonick",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1h4zbyn",
+      "title": "Best practice for autocomplete on a ModelChoiceField with ~10'000 entries",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733157887,
+      "score": 23,
+      "num_comments": 18,
+      "selftext": "Dear Django community,\n\nI am using the modern standard of Django + HTMX + Crispy. As part of a form, I would like the user to select one of 10'000 clients. The user should type in a few letters of either the first name or the last name and then get a dropdown of matching clients and be able to click on one of them.\n\nSo far, I explored and considered the following options:   \n1. I could build it from scratch in pure HTMX. Would work, but it's work traveling back and forth, doesn't seemingly integrate with the rest of my form and I'd need to travel to the backend for each letter the user types.\n\n2. I could pass the entire client list to the frontend and do in Javascript, but I don't like to code stuff in javascript.\n\n3. I implemented this video: [django-crispy-forms & ModelChoiceFields / Select2 Integration for Searchable Form Fields](https://www.youtube.com/watch?v=Zzd4sL7drKQ), which does it as a standard Django field and then puts Select2 over it. However, the page load is too slow and I don't like the dependency on jquery.\n\n4. I considered django-autocomplete-light, however, at first sight, it seems quite heavy with dependencies on multiple libraries. Further it requires me to have a dedicated Class based view and complex statements in the Form that appear to contain a fair amount of magic.  \n  \nThanks for your advice and proposed other solutions. I guess all of my options would work, but I am looking for a lean best practice of doing these kinda things in modern times.",
+      "url": "https://www.reddit.com/r/django/comments/1h4zbyn/best_practice_for_autocomplete_on_a/"
+    },
+    {
+      "id": "1fxkc41",
+      "title": "Modern state of the art website builder that plays well with Django",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1728231822,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "Hello everybody\n\nFor a new project of mine, I would like to combine a modern website builder such as Wix, Squarespace or Elementor with Django, HTMX & Alpine. So, many content-driven pages can be quickly build in slick designs and then a few pages will be programmed in Django.\n\nThe experience for the user needs to be seamless. \n\nDid anyone do this before? Does this work at all? Is wagtail an option? Are there any other options? Any advice is highly welcome. \n\nThanks",
+      "url": "https://www.reddit.com/r/django/comments/1fxkc41/modern_state_of_the_art_website_builder_that/"
+    },
+    {
+      "id": "1ewd44h",
+      "title": "The shapeshifter is the most underrated supe in the show",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724101415,
+      "score": 247,
+      "num_comments": 61,
+      "selftext": "I was flabbergasted by the combination of the powers of the shapeshifter:\n\n* She can quickly mindread the entire brain down to childhood memories\n* She can shapeshift into anyone she touches including voice and keep that for an extended period of time\n* She has outstanding acting abilities. Even Hughie as a sensitive person does not suspect her despite them spending quite some time together and them even being intimate. He only figures it out on a technicality after he already knows that one of a small group of people is a shapeshifter. Without prior suspicion, she's undetectable, even by loved ones.\n* She has substantial strength and resilience. Easily beating Kimiko, almost at a level with Starlight, who is among the stronger supes.\n\nObviously, she has mental issues, so she doesn't live up to her powers that are not trivial to use. Based on powers alone, she belongs among the Top5 most powerful supes. She could know everything, be anyone and if she's somewhat careful she's undetectable. Even if detected only one of the stronger supes could hurt her.",
+      "url": "https://www.reddit.com/r/TheBoys/comments/1ewd44h/the_shapeshifter_is_the_most_underrated_supe_in/"
+    },
+    {
+      "id": "1eoahao",
+      "title": "How to go from intermediate to advanced in Django & HTMX? Seeking Guidance on Django & HTMX Best Practices",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1723236270,
+      "score": 24,
+      "num_comments": 6,
+      "selftext": "Dear Django Community,\n\nLike many of you, I've fully embraced the HTMX hype and have been developing an application as part of my job (1-2 days per week) for the past two years. Working solo, I've made stellar progress and implemented an astonishing amount of features given my limited time. However, now that the codebase is growing, I'm running into challenges with architectural decisions and could really use some expert advice on how to improve further. Here are a few of the issues I've been struggling with lately:\n\n**1. Front-end Code Organization:**\n\nI have numerous partials that get swapped in and out, and it’s becoming increasingly difficult to manage. My code is not very DRY; I find myself repeatedly implementing similar HTML swaps across the codebase. However, I’m also uncertain about reusing the same HTML code block in multiple locations. I’m unsure how to test such html blocks for proper swap-ins, and tracking dependencies reliably seems daunting. How do experts organize their front-end codebases to avoid such issues?\n\n**2. Dynamic Forms:**\n\nInitially, I implemented everything in pure HTML with HTMX, but the number of endpoints and swaps quickly spiraled out of control. Now, I use crispy\\_forms and submit the form on each change and then swap the entire form back in. While this is elegant in terms of coding, it introduces noticeable lag on the front-end. What’s the best approach to combine Django forms with HTMX?\n\n**3. Structure of HTMX Endpoints:**\n\nInitially, I had dedicateded endpoint for every HTMX tag. Lately, I’ve been posting directly to the view itself and using an if/else structure at the beginning of [views.py](http://views.py) to determine which HTMX tag was used. Is this the right approach? When should I use dedicated endpoints?\n\n**4. Excessive Logic in Django Templates (DTL):**\n\nI tend to rely heavily on DTL for front-end logic, finding it simpler to have everything right there on the page rather than buried in a service module or model. While I understand that this approach is generally frowned upon, I'm unclear on where the trade-offs lie. What are the best practices for balancing logic between DTL, service modules and models?\n\nThese are just a few examples of the challenges I face daily. How did you progress from an intermediate to a more advanced level as a solo developer? Are there any advanced guides or exemplary codebases you’d recommend studying?\n\nAdditionally, I'm considering hiring a coach for a few hours each week—someone I can ask questions, who can review my code and suggest improvements, code an elegant minimal example, point me to a library or link me to a good implementation of a similar problem. If you have a solid answer to my questions above and are interested, please send me a PM with a link to some of your code and your hourly rate. This is a genuine offer, and I’m willing to pay for your time from the start with the possibility of a small advance payment.\n\nThanks in advance to the community for any guidance you can offer.",
+      "url": "https://www.reddit.com/r/django/comments/1eoahao/how_to_go_from_intermediate_to_advanced_in_django/"
+    }
+  ],
   "comments": [
     {
       "id": "ld49m1o",
@@ -51,6 +96,1446 @@
       "score": 4,
       "link_id": "t3_1dubixm",
       "parent_id": "t3_1dubixm"
+    },
+    {
+      "id": "m34bipk",
+      "body": "Just realized, I don't actually know what the girls in my gym wear.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1734777908,
+      "score": 3,
+      "link_id": "t3_1hix5pz",
+      "parent_id": "t3_1hix5pz"
+    },
+    {
+      "id": "m111ly3",
+      "body": "thanks so much. I did as requested, commented and stared. looking forward to the update :)",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733665383,
+      "score": 1,
+      "link_id": "t3_1h9eitd",
+      "parent_id": "t1_m10t32t"
+    },
+    {
+      "id": "m10q7gs",
+      "body": "The name still holds a lot of weight with the uninformed. The legends of Rickson, Roger and Royce live on. Just recently, a colleague of mine who watches MMA occasionally started to train BJJ and specifically searched out a gym that teaches Gracie Jiu Jitsu.\n\nI tried moderately to talk him into looking at other schools as well, but he was quite intensely going on about Gracie Jiu Jitsu being not only a sport but embracing the wider aspects of fighting and self-defence.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1733659609,
+      "score": 4,
+      "link_id": "t3_1h9ajrr",
+      "parent_id": "t1_m0zfwvb"
+    },
+    {
+      "id": "m10pdq9",
+      "body": "Congratulations!   \n  \nI really like this and I am considering to use it for my small business. Unfortunately, I have one more requirement, which I can't find in your github, so I am just asking to be sure. There ain't any editing capabilities? I'd be happy with something really simple such as highlighting or adding notes. I thought pdf.js has some features in that direction, so it could be doable. \n\nWhat do you think?",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733659109,
+      "score": 1,
+      "link_id": "t3_1h9eitd",
+      "parent_id": "t3_1h9eitd"
+    },
+    {
+      "id": "m0lnhjt",
+      "body": "That seems strange. Rough rule is that at a two belts difference and similar athleticism, they should go through you like butter. \n\n\nSo, yes, if you are a fresh blue, from my general observation I'd expect most brown belts to be able to handle you almost like a fresh beginner. \n\n\nThe most likely explanation is that the overall technical level in your gym is not as good and so your brown/black belts plateaued early. Other explanations are that you are exceptional or that they take it easy, let you work, don't play their A-game, without you realising.\n\n\nI'd recommend you to check out other gyms at open mats and see if you can still hang with brown/black belts. ",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1733432760,
+      "score": 1,
+      "link_id": "t3_1h6vs6c",
+      "parent_id": "t1_m0h8b3q"
+    },
+    {
+      "id": "m074a44",
+      "body": "I do have an index, I don't have a cache setup. I am not sure, I want to go the route of caching. Is this a recommended practice? Can you elaborate a bit more on how you'd set up cache for select2 and whether this actually makes sense to pass the entire data client-side and do it with caching? What would be a reasonable limit of number of choices to go that way? I am slightly concerned that this will work fine for 10k rows in the ForeignKey, but if my database grows to let's say 50k, I run into problems again.",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733232858,
+      "score": 1,
+      "link_id": "t3_1h4zbyn",
+      "parent_id": "t1_m02mqdj"
+    },
+    {
+      "id": "m03loti",
+      "body": "The way I understand htmx and bloomsday289, I don't think he actually meant a timeout in the real sense of the word that it would just timeout the backend request and show nothing. I think what bloomsday289 meant was setting a delay on the user input in the search box to only fire 1 second after the user typed in his search letters, instead of firing after each key.\n\nu/bloomsday289 I'd appreciate a clarification though, if my guess is right and you meant a delay instead of a timeout",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733174988,
+      "score": 2,
+      "link_id": "t3_1h4zbyn",
+      "parent_id": "t1_m03fy4x"
+    },
+    {
+      "id": "m03kxtl",
+      "body": "can you be more specific? ajax is a bit abstract as a concept here. I do think though, if I implement this in standard htmx with a searchbox and an endpoint that returns a queryset for selection, that would be considered to be ajax. the whole point of htmx is that it provides an easy interface to ajax calls\n\noptions 2 & 3 are obviously non-ajax. option 4, I think would be ajax again, but I am not entirely sure how DAL is implemented under the hood",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733174756,
+      "score": 1,
+      "link_id": "t3_1h4zbyn",
+      "parent_id": "t1_m02o2hp"
+    },
+    {
+      "id": "m02ezyn",
+      "body": "Thanks! Yes, I think you definitely understood my question and are spot on with your answer. I am also happy you confirmed my suspicion of DAL.\n\nI also like your choice and I think setting the timeout and the queryset length could work for me. I just have one follow-up question: How would you integrate this with a larger ModelForm in crispy?\n\nIn my case, \"client\" would only be one out of many fields inside the form rendered by crispy. Now, if I implement custom HTMX functionality on that field, is there a way that plays nicely with django forms and crispy. So, would you recommend me to take that one field outside of my [forms.py](http://forms.py) and implement it separately straight up in html, or is there a neat way to do that while keeping it inside the Django form, by adding clever triggers?",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733161652,
+      "score": 1,
+      "link_id": "t3_1h4zbyn",
+      "parent_id": "t1_m02b7ev"
+    },
+    {
+      "id": "m029kez",
+      "body": "thanks for your suggestion. I just installed django\\_select2 and called Select2Widget. that's simple and kinda works, but it's still unfriendly slow in the frontend. is this how you'd do it or is there maybe another widget that doesn't show the entire list in the dropdown?",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1733159953,
+      "score": 1,
+      "link_id": "t3_1h4zbyn",
+      "parent_id": "t1_m024nc5"
+    },
+    {
+      "id": "lzjlhgs",
+      "body": "Depends on the approach though. SpaceX runs like this. Iterative est rockets that can explode. This ain't RKLBs approach though. They follow a much more conventional engineering design process. They design everything ahead and only test individual components. When they put the rocket on the stand the expectation is that it will just work.\n\nSo you can't apply the SpaceX logic here. Rocket Lab takes so long upfront, any failure further down would definitely be a setback.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1732878133,
+      "score": 10,
+      "link_id": "t3_1h2cpvt",
+      "parent_id": "t1_lzjaygz"
+    },
+    {
+      "id": "lzh1yhl",
+      "body": "I've set this up directly in GMail with \"Multiple Inboxes\". The core workflow goes like this:  \n1) various E-Mail accounts forward to one Gmail Account  \n2) each incoming mail gets either archived or a specific label that represents a to-do list  \n3) the inboxes display it according to the label (to-do-list)  \n4) once the task is done, I remove the label\n\nIt's a bit of a workaround and takes a bit of fiddling to find your set-up, but by combining filters, stars, labels and multiple inboxes, one can get really far within Gmail.",
+      "author": "Zymonick",
+      "subreddit": "productivity",
+      "created_utc": 1732832087,
+      "score": 1,
+      "link_id": "t3_1h1gjny",
+      "parent_id": "t3_1h1gjny"
+    },
+    {
+      "id": "lyx49pm",
+      "body": "of course. you just have to buy all of Danahers instructionals",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1732549317,
+      "score": 601,
+      "link_id": "t3_1gzlo1o",
+      "parent_id": "t3_1gzlo1o"
+    },
+    {
+      "id": "lxx9ayt",
+      "body": "Shut up and train",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1732023059,
+      "score": -7,
+      "link_id": "t3_1gupc3z",
+      "parent_id": "t3_1gupc3z"
+    },
+    {
+      "id": "lxc36g9",
+      "body": "A serious attempt as requested.\n\nBy the time, Neutron has its first real launch sometime late 2026, it's basically obsolete. By then, Starship will be fully reusable, launching ten times the payload for less cost per launch. Further, Bezos, EU and China will subsidize their own rockets with unlimited pockets. Neutron might still prevail for integrated missions; however margins are bound to be very tight.  \n  \nSpace systems is solid, however much of the current technology will partly be obsolete as Starship changes the economics of weight. At current launch costs, everything needs to be extremely light and thus very expensive. With much lower launch costs, components can be heavier and thus cheaper. This creates a level playing field for eventual newcomers.  \n  \nRocket Lab shines with an inspiring founder, an excellent team and a good track record for Electron, individual missions and custom solutions. However, their current offering is and will always be niche. RKLB tells a nice story of integrated space solutions, hushing over the fact that they don't have an actual product they can scale to be profitable.\n\nWe are looking at a company with a lot of potential in an exponentially growing market due to solid technological skills. However, that market will soon be very crowded and Rocket Lab is lacking a credible path to sustainable profitability.\n\nPlease, this was the required argument. Arguments for a great growth story can also be made. Please do consider though, they are valued at 20x earnings. That is already extremely steep for an unprofitable company.\n\nI am welcoming contradictions. This is meant to be an open discussion.\n\nDisclaimer: I am long Rocket Lab. However, after the most recent surge to \\~20$, I did reduce my position.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1731707317,
+      "score": 41,
+      "link_id": "t3_1gs6gfd",
+      "parent_id": "t3_1gs6gfd"
+    },
+    {
+      "id": "lw2tkq7",
+      "body": "Somethings wrong with either your technique or your approach or your attitude when you are 2 years at 4 stripes while training regularly and you've never submitted a blue belt.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1731073877,
+      "score": 1,
+      "link_id": "t3_1gmhihe",
+      "parent_id": "t3_1gmhihe"
+    },
+    {
+      "id": "lvbmjdg",
+      "body": "Conditioning is the first to come and the first to go. That will be real bad, but also be rebuild fairly quickly.\n\nFlow and fluidity will also go, first time on the mat feels weird, but that also comes back real quick.   \n  \nYour main techniques will stay. Your understanding of the sport stays.   \n  \nFringe knowledge will partly disappear. Techniques you somewhat understand, but never actually used, you'll forget how to do them, but that knowledge wasn't worth much to begin with.  \n  \nOverall, from what I've seen, people don't regress much, even after years of the mat and come back quickly. They need some time to rebuild conditioning and get fluidity back, but then, they basically pick up where they left.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1730712268,
+      "score": 1,
+      "link_id": "t3_1giy20o",
+      "parent_id": "t3_1giy20o"
+    },
+    {
+      "id": "ltnxmx0",
+      "body": "At this point nothing much. Shotwell will run the shop. \n\n\nSpaceX is solid. Great team, great cashflow. Proven business model, proven vision. \n\n\n\nElon has been instrumental for SpaceX for a long time. Most recently with his genius stroke to envision Starship and Starlink. From now on, however, as these two great visions habe been proven, it's really more about execution and incremental improvements for the next two decades or so. \n\n\nI doubt Elon has much of an impact even nowadays. He engages in such a wide variety of ventures and interests, there is no way he's actually staying on top of things for such a complex engineering product.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1729854272,
+      "score": -1,
+      "link_id": "t3_1gbrg4s",
+      "parent_id": "t1_ltnwgda"
+    },
+    {
+      "id": "ltjgbb6",
+      "body": "I think history will judge Starship as the most significant. \n\n\nIt will be the equivalent to the Model T. The difference between human activity confined to Earth or humanity striving outwards.\n\n\nNext in line candidates are CRISPR, AI and Neuralink. All three have the potential to change our intelligence and communication, even what we consider human. \n\n\nFurther down in line is energy production. I think this will be significant, but for solar/batteries the breakthrough has already happened, now it's more incremental and roll-out, I wouldn't attribute this to the next decade. Fusion will be relevant, but that's further away. ",
+      "author": "Zymonick",
+      "subreddit": "Futurology",
+      "created_utc": 1729789000,
+      "score": 1,
+      "link_id": "t3_1fqyaij",
+      "parent_id": "t3_1fqyaij"
+    },
+    {
+      "id": "ltbx39h",
+      "body": "Honestly, I made the opposite experience for something like creating art. \n\nPomodoro and short study sessions are good for handling administrative things, studying regular subjects or simply plain work. But highly creative activities such as writing, coding or creating art need long term focused immersion. It's not beneficial to optimise these activities into short blocks. It's also not something professional artists do. Professionals block long stretches of time to get into flow.",
+      "author": "Zymonick",
+      "subreddit": "productivity",
+      "created_utc": 1729686299,
+      "score": 2,
+      "link_id": "t3_1ga7g81",
+      "parent_id": "t1_ltbmx65"
+    },
+    {
+      "id": "ltbnwgc",
+      "body": "Kudos to even running that schedule in the first place! I am impressed, you really must want to do art school.   \n  \nThe bad news is, there's no trick here. This ain't a question of productivity and you won't be able to solve this with time/energy management. Long term you should sleep a lot more.\n\nYou gotta reduce your work. Here's some ideas\n\n* Live more frugal and reduce your work schedule, like work only three times a week\n* Find a work that is closer or move, so you reduce commute times\n* Try to find a job that permits you to practice your art during work hours. Something like night watchman or similar would be ideal.\n* Make money with your art\n\nIf none of that is doable, study part-time and slower.",
+      "author": "Zymonick",
+      "subreddit": "productivity",
+      "created_utc": 1729682127,
+      "score": 5,
+      "link_id": "t3_1ga7g81",
+      "parent_id": "t3_1ga7g81"
+    },
+    {
+      "id": "lt16cqv",
+      "body": "Bankrupt.  \n  \nAs all novel launch companies, they've got a very long way to go. they are \\~10 years behind Rocket Lab and \\~20 years behind SpaceX.\n\nThere's SpaceX with an incredible lead, Blue Origin with unlimited pockets and RKLB with a functioning rocket and the space systems side. Three is enough and I don't see how anyone else is going to compete with those three.\n\nIt's different for the European startups. They only need to compete with Arianespace for the well-funded contracts by ESA and European militaries. I reckon one of them is gonna make it. Similarly for Indian and Chinese companies.",
+      "author": "Zymonick",
+      "subreddit": "RocketLab",
+      "created_utc": 1729529946,
+      "score": 3,
+      "link_id": "t3_1g8soqm",
+      "parent_id": "t3_1g8soqm"
+    },
+    {
+      "id": "lszz0m9",
+      "body": "totally agree\n\nI don't think it means that Rocket Lab will be driven out of business though. Currently they are miles behind SpaceX but still able to carve their business niche. I think, it'll be the same way, they'll launch Neutron a dozen times a year or so for dedicated missions, they'll build their own satellites and they'll sell satellite parts to others. I also don't think this is necessarily a problem, they can still be a solid company even if they never catch up with SpaceX.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1729515527,
+      "score": 1,
+      "link_id": "t3_1g8mmdo",
+      "parent_id": "t1_lszwb96"
+    },
+    {
+      "id": "lszth62",
+      "body": "There's a fourth possible reason on why RKLB cannot catch up with SpaceX. Namely that they can't fund it. \n\nBeing a first mover, SpaceX was able to command very high margins on their Falcon 9 launches. This produced cashflow and a high valuation, both of which SpaceX used to fund their further developments. \n\nNow, being a second mover, Rocket Lab will never be able to command the same prices/margins as SpaceX did. They won't have the same cashflows and they won't have the same valuations at which to raise equity. They'll have much less resources at their disposal to develop their technology.\n\nHaving less funding might or might not be a dealbreaker. They might be able to it with less resources, since they can look at SpaceX, see what they did and take shortcuts. But, let's be real here, if the cost for Starship falls quickly enough, it might also be that there is absolutely no business case to develop another one. The Chinese will definitely do it, but it's not clear that it makes sense for the US to fund another one instead of just buying Starships. Then Rocket Lab will only be a space systems and satellites company and no launch company, which is actually fine by me.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1729513195,
+      "score": -2,
+      "link_id": "t3_1g8mmdo",
+      "parent_id": "t3_1g8mmdo"
+    },
+    {
+      "id": "lsvjx29",
+      "body": "Middle management, e.g. being a boss\n\n\nMost people expect it to be better as you can order people around rather than doing stuff yourself for better pay. \n\n\nFrom my observations, it's usually not worth it. Leading a team is way more stressful as you'll have demands from your superiors and the people reporting to you and way less control over outcomes.",
+      "author": "Zymonick",
+      "subreddit": "ask",
+      "created_utc": 1729447176,
+      "score": 16,
+      "link_id": "t3_1g82v13",
+      "parent_id": "t3_1g82v13"
+    },
+    {
+      "id": "lsuaovi",
+      "body": "I disagree here. While calling you bad money is an insult, it's the sort of insult that almost certainly implies that he actually does like you. Probably quite a lot.\n\n\nSo, if you like him too, this is probably a misunderstanding and I suggest you invite him to a joint activity that does not necessitate any spending on his side. ",
+      "author": "Zymonick",
+      "subreddit": "answers",
+      "created_utc": 1729432430,
+      "score": 0,
+      "link_id": "t3_1g7n1nw",
+      "parent_id": "t1_lss1593"
+    },
+    {
+      "id": "lsua0q0",
+      "body": "Such things aren't randomly said. Usually they are a result of disappointed expectations. \n\n\nGiven that OP needs to ask the meaning of the phrase, she appears to be ignorant to certain aspects of modern courtship dynamics.\n\n\nObviously, it's not a nice thing to say. However, we shouldn't judge without any contextual information. It might just as well be well deserved and that OP cannot do better unless she improves her communication skills and learns to manage expectations. I am not saying that this is the case here, simply that you are inferring way too much based on the minuscule information that was provided. ",
+      "author": "Zymonick",
+      "subreddit": "answers",
+      "created_utc": 1729432172,
+      "score": -1,
+      "link_id": "t3_1g7n1nw",
+      "parent_id": "t1_lstd8ly"
+    },
+    {
+      "id": "ls60bu2",
+      "body": "They are moving the flaps behind with Block 2 so that they will be outside of the direct plasma field. This solves the melting problem as they don't have any problems with the two aft flaps.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1729062753,
+      "score": 1,
+      "link_id": "t3_1g3vf3j",
+      "parent_id": "t1_ls4faeo"
+    },
+    {
+      "id": "ls5zymk",
+      "body": "How do you have savings as a 18yo, while having lost money in dumb stocks several times?\n\nDo you deal with drugs or something? Whatever you do, you are definitely on the right path.",
+      "author": "Zymonick",
+      "subreddit": "RKLBInvestors",
+      "created_utc": 1729062502,
+      "score": 7,
+      "link_id": "t3_1g4gu19",
+      "parent_id": "t3_1g4gu19"
+    },
+    {
+      "id": "ls0r2ka",
+      "body": "My prophecy is that they are gonna scrap further tests with Block 1 // Ship 31 as they've already achieved everything they can reasonably achieve with that version: there's no payload, the flaps are in the wrong spot, the raptor engine is outdated.\n\nSo, IFT-6 will be a while out and they'll go with Block 2. Probably first retest all the things they achieved plus add some in-orbit testing around refueling and payload deployment.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1728990314,
+      "score": 11,
+      "link_id": "t3_1g3vf3j",
+      "parent_id": "t3_1g3vf3j"
+    },
+    {
+      "id": "lrrankz",
+      "body": "they could do it again and try to fix all the issues they still had:   \n1. something went wrong on the booster with the fire on the side.   \n2. fix the flaps to not lose parts  \n3. avoid the explosion on the landing of the ship, just sink into the water \n\nnone of this is critical, so, it could be that they just move on to V2. but then again, the hardware has been already built for IFT-6 and the license is there as well, so they can also just launch",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1728844312,
+      "score": 1,
+      "link_id": "t3_1g2q52y",
+      "parent_id": "t1_lrqyu8r"
+    },
+    {
+      "id": "lrfcola",
+      "body": "Yeah, they can get there, but they can't populate it as quickly, as they have no reasonable means of getting resources and a starting population to the new planets.\n\nAlso, even if we give it lots of time, we can't reasonably talk about a \"human empire\". If it takes decades to send a message from one planet to the next, each planet will be fully independent. To have any sort of meaningful coordination, they'll need at least faster than light communication and a much-prolonged lifespan of the inhabitants. In order to call it an empire, they'll need faster that light travel.",
+      "author": "Zymonick",
+      "subreddit": "scifi",
+      "created_utc": 1728660928,
+      "score": 1,
+      "link_id": "t3_1g0s8rt",
+      "parent_id": "t1_lre9q6r"
+    },
+    {
+      "id": "lrbail9",
+      "body": "The real question is how fast your humans can travel. \n\n\nPopulating a planet only takes a few hundred years, if you give them the ability to breed humans without wombs, possibly even much faster. \n\n\nClearly you gotta have faster than light speed travel, otherwise they couldn't span 2000 light years across, question is how much faster. If they can travel that within a few weeks, I'd reckon you could go even into late 2000s. Let's say they've got all the tech in 200 years, they could easily do the expansion to 40 within another 500 years. Exponential growth is exponential.\n\n\nNow, obviously if travel is much slower or involves specifically placed wormholes and planetary whatever, it has to be much later depending on traveling times.",
+      "author": "Zymonick",
+      "subreddit": "scifi",
+      "created_utc": 1728594395,
+      "score": 6,
+      "link_id": "t3_1g0s8rt",
+      "parent_id": "t3_1g0s8rt"
+    },
+    {
+      "id": "lqxes8n",
+      "body": "Honest question: why does your school pay Gracie affiliate fees and accept all their rules and regulations?   \n  \nAt this point, at least where I practice, the brand value of 'Gracie' is detrimental. Maybe not for absolutely fresh beginners that just looked something up online, but as soon as they talk to other people, they'll learn that Gracie Jiu-Jitsu is dated.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1728389585,
+      "score": 1,
+      "link_id": "t3_1fyq3es",
+      "parent_id": "t1_lqx2fu0"
+    },
+    {
+      "id": "lqwtd2r",
+      "body": "whatever you do, don't choose Gracie",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1728376816,
+      "score": 3,
+      "link_id": "t3_1fyq3es",
+      "parent_id": "t3_1fyq3es"
+    },
+    {
+      "id": "lqttf0n",
+      "body": "Yes, but the problem is that it's up to me and while I'm a decent dev, I ain't no designer.\n\nIf I use Squarespace, I get a good-looking website out of the box and can fill in my content. If I use wagtail, I get a functional but dated looking website that could in theory be re-designed to look good, but that's far outside my design capabilities. And no, I am not learning how to design websites and learning how to customize wagtail to an extent that it looks great.\n\nSo, I'm looking for a solution that allows me to purchase modern design and combine it somehow with Django. Maybe that ain't possible and I need to make a compromise on seamlessness, but wagtail is no solution for me, unless I can purchase design packages.",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1728330534,
+      "score": 1,
+      "link_id": "t3_1fxkc41",
+      "parent_id": "t1_lqtsgtp"
+    },
+    {
+      "id": "lqtr6ip",
+      "body": "thanks for your suggestion. I get the advantages of open source, but in this project, I need to launch quickly with a top design, so unfortunately no time to play around with open source",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1728329815,
+      "score": 1,
+      "link_id": "t3_1fxkc41",
+      "parent_id": "t1_lqr8j5j"
+    },
+    {
+      "id": "lqtqygu",
+      "body": "when I look at the wagtail showcases, they all look dated in terms of design. I am no designer, so I am not very confident in my abilities to craft something that looks top notch and I don't have the resources to hire a designer. \n\nare there any resources for wagtail that address this? I'd be happy to spend money on templates or something",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1728329743,
+      "score": 1,
+      "link_id": "t3_1fxkc41",
+      "parent_id": "t1_lqngjmt"
+    },
+    {
+      "id": "lqtq4uh",
+      "body": "can you please elaborate a bit more on this? full stack python looks interesting, but I am not looking to change  my stack (Django, HTMX, Alpine), but rather to integrate a website builder.",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1728329476,
+      "score": 1,
+      "link_id": "t3_1fxkc41",
+      "parent_id": "t1_lqt671j"
+    },
+    {
+      "id": "lqgc3o2",
+      "body": "All nuclear powers are agreed upon that there shouldn't be any others. There's a treaty for that, called the non-profileration of nuclear power.\n\n\nThis is great for them because it solidifies their power. \n\n\nIt might be in Russias interest right now for Iran to have nuclear bombs, but they absolutely don't want Ukraine, Kasachstan or Azerbaidjan or any of their other neighbors to have any.",
+      "author": "Zymonick",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1728135281,
+      "score": 31,
+      "link_id": "t3_1fwoc73",
+      "parent_id": "t1_lqg286x"
+    },
+    {
+      "id": "lq9zdjh",
+      "body": "What a harsh judgement. He has a different set of preconditions to you and me. At first that might look more comfortable at first, but it ain't really true as he is also facing much larger expectations.\n\n\n@OP my only advise is, don't worry about it right now. Stay with the plan, finish your studies and go to IB. Rest will play out.",
+      "author": "Zymonick",
+      "subreddit": "Entrepreneur",
+      "created_utc": 1728035760,
+      "score": 7,
+      "link_id": "t3_1fvtwhf",
+      "parent_id": "t1_lq9s8gw"
+    },
+    {
+      "id": "lpyn46f",
+      "body": "As with any question concerning relationships, everybody on Reddit tells you to abandon the relationship without any further context.\n\nI recommend you to not take it lightly, but also not to jump to conclusions.  \n  \nTell your boyfriend that you are disturbed by this based on the public persona of Andrew Tate and short contents you encountered, however that you would very much like to understand his views better and deeper. Ask your boyfriend to recommend you a few podcast episodes that resonate with him. Then listen to those podcasts, note down what you agree with and what you disagree with and enter into an open-minded discussion on values with your boyfriend. Listen to him and voice your concerns and disagreements. \n\nThis approach will help you understand your boyfriend, improve your communication skills and broaden your horizon. Eventually, the re-assessment of your relationship will be obvious. If you end it, you'll know that you've taken the right decision, if you continue the relationship, you'll have a much better basis for constructive communication along the road.",
+      "author": "Zymonick",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1727869769,
+      "score": 1,
+      "link_id": "t3_1fu9v04",
+      "parent_id": "t3_1fu9v04"
+    },
+    {
+      "id": "lpyl7wb",
+      "body": "Commute time is the most important consideration for me in choosing a gym as long as they are both reasonably safe.\n\nYou could convert all that extra time driving around into actual training time on the mat. That will outweigh (almost) everything else.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1727868872,
+      "score": 2,
+      "link_id": "t3_1fsqjdi",
+      "parent_id": "t3_1fsqjdi"
+    },
+    {
+      "id": "lpt7vuy",
+      "body": "Small clarification: I personally do agree with most liberal positions on civil liberties, and I believe even the most extreme of those come from a good place.  \n  \nHowever, the discussion wasn't about whether they are crazy, but whether the rest of the world thinks so. And this is pretty clear. A very large majority of people worldwide would definitely consider many progressive talking points either to be entirely crazy or simply fail to grasp them as they are far outside their comprehensive abilities.",
+      "author": "Zymonick",
+      "subreddit": "ask",
+      "created_utc": 1727790382,
+      "score": 0,
+      "link_id": "t3_1ftcmju",
+      "parent_id": "t1_lpt03xp"
+    },
+    {
+      "id": "lpsd4fj",
+      "body": "As someone from the rest of the world, that is absolutely not true and I believe it's something liberals in the US tell themselves to claim legitimacy.  \n   \nThere's some truth to it on purely economic topics, but even there only for the most moderates of democrats such as Bill Clinton or Joe Biden. AOC or Bernie Sanders economic standpoints would be considered left anywhere in the world.\n\nBesides economics, current 'liberal' positions in American politics on identity, discrimination or gender are universally considered to be extreme or even crazy in the rest of the world.",
+      "author": "Zymonick",
+      "subreddit": "ask",
+      "created_utc": 1727775402,
+      "score": 33,
+      "link_id": "t3_1ftcmju",
+      "parent_id": "t1_lps6qhr"
+    },
+    {
+      "id": "lpn8utg",
+      "body": "just don't use them. never worth it. their incentives are the exact opposites of your own. if you'll listen to any of them, you'll end up with more insurance than you need that is more expensive than necessary.\n\nsome are nicer and care more about you, but at the end of the day, they live off kickbacks from insurance company and benefit the most if you buy overpriced unnecessary insurance.  \n  \nIt's simple anyway:   \n- you need: Privathaftpflicht and Healthcare with the highest Franchise  \n- you should get: 1 or 2 Healthcare Zusatz that makes sense for you specifically, lowest Franchise if you have a permanent condition  \n- you could get but probably shouldn't: Hausrat, Reiseversicherung, Vollkasko on your car   \n- and forget about everything else",
+      "author": "Zymonick",
+      "subreddit": "askswitzerland",
+      "created_utc": 1727702274,
+      "score": 7,
+      "link_id": "t3_1fsv3th",
+      "parent_id": "t3_1fsv3th"
+    },
+    {
+      "id": "lpn41z5",
+      "body": "It doesn't matter, if you were invited by accident or to the wedding or whatever.\n\nThe relevant questions are:   \n- Do you want to go?   \n- Are you willing to bring yourself to the stag and be a positive contribution?  \n- Do you want to rekindle that friendship?\n\nIf yes, then go. If not, then don't.",
+      "author": "Zymonick",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1727700300,
+      "score": 91,
+      "link_id": "t3_1fsr1wf",
+      "parent_id": "t3_1fsr1wf"
+    },
+    {
+      "id": "louf35c",
+      "body": "that's it in 2024 if you want to move fast",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1727267275,
+      "score": 14,
+      "link_id": "t3_1fp0au2",
+      "parent_id": "t1_loucvxb"
+    },
+    {
+      "id": "lotqfbl",
+      "body": "This thread is almost ridiculous. If we take all these criteria, most people wouldn't be able to train at all.  \n  \nThe only deal breaker is if it's not safe/clean. Everything else is a trade-off. The only sensible approach is to look at all the gyms in the area and make a trade-off calculation across money, commute, training quality and all other factors and then pick the one that's best for you. \n\nIf that means buying a branded gi, or some undeserved push-ups here or there, I won't like it, but whatever.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1727253373,
+      "score": 1,
+      "link_id": "t3_1fns8b2",
+      "parent_id": "t3_1fns8b2"
+    },
+    {
+      "id": "lnvbsv2",
+      "body": "Huge risk, huge potential.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1726736859,
+      "score": 1,
+      "link_id": "t3_1fjv07r",
+      "parent_id": "t3_1fjv07r"
+    },
+    {
+      "id": "lnmtl52",
+      "body": "you got this the wrong way around\n\nouf course an orbital rocket can fly suborbital. but that doesn't imply anything about the other way around.\n\nnew shepherd has a max ascent velocity of 3'568 km/h. speeding up from there to the orbital velocity of 28'000 km/h is probably 100x harder",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1726607046,
+      "score": 6,
+      "link_id": "t3_1fj7arb",
+      "parent_id": "t1_lnmiz50"
+    },
+    {
+      "id": "lnlajt0",
+      "body": "There's nothing wrong with Sensei. I wouldn't roll my eyes at the term at all. However, in my experience it's an indicator.\n\nI like my gym to be:   \n- non-hierarchical  \n- non-dogmatic  \n- applying modern training methods  \n- with a chilled vibe  \n  \nThere is a correlation between such aspects and how instructors like to call themselves. Sensei is a traditional term, so without any further information, the gym is more likely to be dogmatic and hierarchical, thus less modern and less chilled. \n\nOf course, there are certainly cool, chilled and modern gyms with senseis. Then no problem whatsoever. Theres also students that like or even need hierarchy and strict rules, then go for it.\n\nThis is only for a BJJ gym. Judo is an entirely different story. If it's a combined gym, also different story.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1726589843,
+      "score": 3,
+      "link_id": "t3_1fj04uj",
+      "parent_id": "t1_lnksva5"
+    },
+    {
+      "id": "lnkp72y",
+      "body": "I have been in a fair amount of shitty gyms and heard about many more, but an instructor regularly hurting white belts with knees or elbows and ripping submissions is beyond anything I've ever heard.\n\nPersonally, I consider this the reddest of all red flags that this is tolerated in your gym. The primary responsibility of ALL instructors is to protect the white belt.\n\nI would definitely:   \n- Refuse any further roll with that guy   \n- Go talk to the head coach / owner  \n  \nAnd depending on how these two are perceived, I'd look at other gyms.  \n  \nSidenote: while not a problem per se, your instructors calling themselves \"Sensei\" is a bad sign. You haven't said anything else about your training, so it's hard to say, but I'd wager your gym offers a sub-par BJJ education by modern standards.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1726582940,
+      "score": 22,
+      "link_id": "t3_1fj04uj",
+      "parent_id": "t3_1fj04uj"
+    },
+    {
+      "id": "lngqnlv",
+      "body": "I got disqualified for this at a tournament at blue belt in the Gi, AJP ruleset.\n\nI had SLX, opponent turned into it, thus creating the reap. He rolled, I followed. My arm was really loose around the foot. Nowhere near an ankle lock higher up and loose enough for his foot to turn. So there was no danger whatsoever, but ref called it anyway.\n\nI was real annoyed but my coach said it was the correct decision by the ref and that this stuff gets called a lot.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1726518270,
+      "score": 1,
+      "link_id": "t3_1fib9dp",
+      "parent_id": "t3_1fib9dp"
+    },
+    {
+      "id": "lmwf0ah",
+      "body": "Purple here, happens to me every now and again. If a white or early blue belt catches me with something that I think shouldn't have worked, I usually go right back there and play it out again, observing what exactly happened. Most often, the second time, I can defend it, as I know it's coming and the execution is usually not as precise, but it also happens that I get tapped again and possibly again.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1726217298,
+      "score": 1,
+      "link_id": "t3_1ff1kep",
+      "parent_id": "t1_lmravua"
+    },
+    {
+      "id": "lmmfh43",
+      "body": "don't, just don't. put the 10k in the bank, don't invest it, continue your training and keep learning on the side. maybe start a side hustle or whatever, but only with investments below 1k. keep the 10k until you have an actual idea or for a rainy day.",
+      "author": "Zymonick",
+      "subreddit": "Entrepreneur",
+      "created_utc": 1726070573,
+      "score": 5,
+      "link_id": "t3_1fealqi",
+      "parent_id": "t3_1fealqi"
+    },
+    {
+      "id": "lmlaely",
+      "body": "There is no reason whatsoever to worry about this. \n\nThe suggestion for Elon's role is to lead a \"government efficiency commission\". The task is to complete a financial and performance audit of the entire federal government. The purpose will be to shut down branches of the federal government and to fire lots of government employees.\n\nI can't see how Elon could use his role in such a commission to hurt companies like Rocket Lab while helping SpaceX. Quite the contrary. Elon will push for shutting down environmental agencies and to take power away from the FAA, thus loosening the laws and restrictions for spacefaring. This is to benefit SpaceX but will also help Rocket Lab.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1726055867,
+      "score": 3,
+      "link_id": "t3_1fe7pcs",
+      "parent_id": "t3_1fe7pcs"
+    },
+    {
+      "id": "lmhfjzn",
+      "body": "My Grandmother lives in Rielasingen-Worblingen, which is a few km from Switzerland. She tells me when she was young the dialects along the border were basically the same regardless of which side of the border she was on. Some sort of Alemannic dialect somewhere between Swiss German and \"Badisch\". \n\nThen over the decades the dialects grew apart and a language barrier formed. Most likely culprit is television.",
+      "author": "Zymonick",
+      "subreddit": "askswitzerland",
+      "created_utc": 1725995441,
+      "score": 1,
+      "link_id": "t3_1fde6yc",
+      "parent_id": "t3_1fde6yc"
+    },
+    {
+      "id": "lmeygcv",
+      "body": "I wholeheartedly disagree with #2 and even with #3. This is just plain wrong. If the guy taps, I always let go. Just holding the lock is also wrong. I can never know where exactly my opponent is with his body so the signal of the tap always supersedes my judgement of what is safe.  \n  \nAt my kind of comps, the referee is a random coach that refs for hours for little pay. They are not 100% focused the entire time. They cannot be and that is ok, since they are doing us a favor with this grinding thankless job. It's not fair to put the entire responsibility on them, competition or not, my opponent and I also have responsibility to each other.\n\nIn my culture, basically everybody would be honest enough to admit they tapped. Thus, I am not risking an injury and trust of all these honest people for the odd chance that some asshole might deny his tap.\n\nAnd I have zero understanding for anyone who sees this differently and puts a medal in a hobbyist tournaments before safety of his opponents. Professionals is a different story but they also have professional referees.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1725962623,
+      "score": 4,
+      "link_id": "t3_1fdc6k4",
+      "parent_id": "t1_lmeu8ss"
+    },
+    {
+      "id": "lmcipzw",
+      "body": "Ach was, wie oft spielt der VfB schon in Madrid?\n\n\nFind ich gut wie OP das macht. Kauft Tickets, sucht jetzt nach kreativen Lösungen und notfalls sitzt er halt im Flixbus. ",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1725920105,
+      "score": 7,
+      "link_id": "t3_1fcv57k",
+      "parent_id": "t1_lmchvdv"
+    },
+    {
+      "id": "lmcak1i",
+      "body": "Ist halt ne Geldfrage für manche. Fliegen kostet 500 Euro, aber Auto kann man durch 4 teilen. Nen günstigen sparsamen Mietwagen für 3 Tage, 300 Euro Miete, 500 Euro Sprit macht 200 Euro pro Person.\n\n\nWers Geld hat wird die 300 fürs Fliegen ausgeben anstatt sich 36 Stunden ins Auto zu setzen, aber ich habe Respekt vor allen Fans, die es auch ohne Geld möglich machen.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1725917406,
+      "score": 3,
+      "link_id": "t3_1fcv57k",
+      "parent_id": "t1_lmc123i"
+    },
+    {
+      "id": "lmbykar",
+      "body": "We value human life a lot more these days.",
+      "author": "Zymonick",
+      "subreddit": "spaceflight",
+      "created_utc": 1725913622,
+      "score": 4,
+      "link_id": "t3_1fcz2nw",
+      "parent_id": "t3_1fcz2nw"
+    },
+    {
+      "id": "llxri9b",
+      "body": "Ah, coach and aggressor are the same person and there was a serious injury.\n\nThat's a clear-cut criminal case. As coach he is highly trained and has a special responsibility towards his students, however inflicted intentionally serious bodily harm. This is aggravated assault, which is a felony with stiff penalties. Consequences vary widely across legal systems. In the US, the coach might spend a decade behind bars.\n\n[Differences Between Assault, Battery, and Aggravated Assault | Nolo](https://www.nolo.com/legal-encyclopedia/assault-battery-aggravated-assault-33775.html)",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1725706360,
+      "score": 3,
+      "link_id": "t3_1fb0z7s",
+      "parent_id": "t1_llxna6s"
+    },
+    {
+      "id": "llxq0sl",
+      "body": "RNC defense",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1725705409,
+      "score": 11,
+      "link_id": "t3_1fb3sqc",
+      "parent_id": "t3_1fb3sqc"
+    },
+    {
+      "id": "llxm4tz",
+      "body": "1. Injuring someone on purpose is assault. The context of BJJ is irrelevant. Waivers change nothing for intent.  \n  \n2. The wording here is important. If I read your post literally, the coach was informed about the attempted assault only after it occurred. Then, he wouldn't be liable, as there was nothing he could have done.\n\n3. If however, we change the scenario slightly: \"the coach was informed about the intent of assault beforehand, did nothing to prevent it and the assault actually occurred\". In that case, yes, he was complicit and is liable both before criminal and civil law. I'd expect this to hold in all legal systems. In these aspects law is pretty consistent globally.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1725702756,
+      "score": 2,
+      "link_id": "t3_1fb0z7s",
+      "parent_id": "t3_1fb0z7s"
+    },
+    {
+      "id": "llupds7",
+      "body": "Does someone understand why it's an option to launch in Spring 2025? Shouldn't it be 2 years later to get to Mars?",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1725654814,
+      "score": 48,
+      "link_id": "t3_1fap0td",
+      "parent_id": "t3_1fap0td"
+    },
+    {
+      "id": "llthp8u",
+      "body": "Emma easily pinned Sam when she was large. If she can establish at will control like Antman she belongs at #1, except possibly for Marie depending on how she develops.",
+      "author": "Zymonick",
+      "subreddit": "GenV",
+      "created_utc": 1725640785,
+      "score": 1,
+      "link_id": "t3_1f8gxsp",
+      "parent_id": "t3_1f8gxsp"
+    },
+    {
+      "id": "lltenpf",
+      "body": "These days all cars are more or less the same inside. The car manufacturers buy parts from all the same suppliers and just assemble them.",
+      "author": "Zymonick",
+      "subreddit": "CX5",
+      "created_utc": 1725639797,
+      "score": 2,
+      "link_id": "t3_1faaiqr",
+      "parent_id": "t3_1faaiqr"
+    },
+    {
+      "id": "llsyzje",
+      "body": "At the end of the series they show that she can actually be smaller or larger based on her emotions alone.\n\nYes, I am assuming that she'll learn to control this and becomes like Antman, but so are all the others when they rank Marie very highly. At her current skill display she wouldn't be a top 3 character of Gen V either.",
+      "author": "Zymonick",
+      "subreddit": "GenV",
+      "created_utc": 1725634830,
+      "score": 1,
+      "link_id": "t3_1f91zv3",
+      "parent_id": "t1_llskbpf"
+    },
+    {
+      "id": "llsfh7p",
+      "body": "Everybody in this thread forgot Emma.\n\nIn large she was able to easily handle Sam, who was stronger than Golden Boy who was stronger than Jordan.",
+      "author": "Zymonick",
+      "subreddit": "GenV",
+      "created_utc": 1725628075,
+      "score": 1,
+      "link_id": "t3_1f91zv3",
+      "parent_id": "t3_1f91zv3"
+    },
+    {
+      "id": "llsers6",
+      "body": "There's also Emma. Don't make up stuff like the \"only white woman\" just because it fits your narrative.",
+      "author": "Zymonick",
+      "subreddit": "GenV",
+      "created_utc": 1725627800,
+      "score": -2,
+      "link_id": "t3_1f91zv3",
+      "parent_id": "t1_llj70wh"
+    },
+    {
+      "id": "lloqqt8",
+      "body": "Most likely he has substantial fear of competing and as a consequence keeps choking. If he likes to keep competing throughout the ranks, it's a good idea to keep him at white until he eventually starts winning. That kind of success element is likely to help him combat his fear, as he will realise, he can apply his techniques under pressure and win after all. If promoted on technical ability, he will probably keep losing on blue belt and might eventually stop competing altogether.\n\nOf course, this is only one out of many considerations. Your coach knows best.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1725568435,
+      "score": 1,
+      "link_id": "t3_1f9aem3",
+      "parent_id": "t3_1f9aem3"
+    },
+    {
+      "id": "llonbbv",
+      "body": "There's really no point, since at first you'll pay Eigenmietwert and then when flipping you'll pay a huge tax an any value increase to said house (depending on the canton, but certainly in Zurich).\n\nYou can save up (a lot) more, if you keep renting. That's why everybody rents until they can afford the house they want to stay in for the rest of their lives.\n\nI only know of one scheme that is based on flipping. The idea is to buy a high value house in a very poor condition. Then renovation costs are (mostly) tax deductible. Once the house is renovated to a pristine condition, you'll sell the house and buy a larger one that is again in a poor condition. However, this only works in kantons with none or very low taxes on value appreciation on houses. It's also a lot of trouble, subject to substantial fiddling with taxes and only worth it if your marginal income taxes are very high.",
+      "author": "Zymonick",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725567365,
+      "score": 3,
+      "link_id": "t3_1f9sgfy",
+      "parent_id": "t3_1f9sgfy"
+    },
+    {
+      "id": "llmvvlq",
+      "body": "it doesn't actually matter all that much\n\nlet's say the mortgage is 60% of house value. now, the buyer get's a 9 year mortgage at 0.5% below current rates. that will give him a 9 \\* 60% \\* 0.5% = 2.7% overall saving on the mortgage  \n  \nmight be factored in, might not be, houses are not priced at that precision. even if a house is bought as an investment, there's plenty of factors that matter more than that",
+      "author": "Zymonick",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725547249,
+      "score": 1,
+      "link_id": "t3_1f9492x",
+      "parent_id": "t1_llj5yl4"
+    },
+    {
+      "id": "llcocx5",
+      "body": "Because they are awaiting all of them. They have lots of signed contracts, but none of them is ready. No reason to be concerned, the launches are gonna come and they are signing new ones at record speed. 17 this year so far.",
+      "author": "Zymonick",
+      "subreddit": "RocketLab",
+      "created_utc": 1725391029,
+      "score": 3,
+      "link_id": "t3_1f7z1d8",
+      "parent_id": "t1_llc9e2h"
+    },
+    {
+      "id": "llbvzvj",
+      "body": "RKLB stated repeatedly that their bottleneck is customer readiness. The customers book the launches, but then they need their time to have their systems ready and in space these kinda things take time.",
+      "author": "Zymonick",
+      "subreddit": "RocketLab",
+      "created_utc": 1725381974,
+      "score": 2,
+      "link_id": "t3_1f7z1d8",
+      "parent_id": "t1_llbe7r2"
+    },
+    {
+      "id": "llaf04e",
+      "body": "In the early days, they didn't launch every three days.   \n  \nBack in the day, they didn't have a perpetual license that needed to be revoked (grounded), but they had to apply for each launch separately. After each failure, they did a thorough mishap investigation communicated this to the FAA and then eventually got another flight license. With this individual licenses, being grounded is the default after each launch, since they need to reapply each time. Same as for Starship today. \n\nFor Falcon 9 nowadays, they have a perpetual license to launch all the time. However, when something goes wrong, the license is temporarily on hold until SpaceX declares what went wrong and how they are gonna fix it so it won't happen again.",
+      "author": "Zymonick",
+      "subreddit": "spacex",
+      "created_utc": 1725362594,
+      "score": 1,
+      "link_id": "t3_1f68gm7",
+      "parent_id": "t1_lladzdw"
+    },
+    {
+      "id": "ll5jdnp",
+      "body": "Do you have a source on the 1-3-5 cadence? Looks quite unambitious. I would have hoped they'll ramp a little faster than that, at least in an ideal scenario.\n\nGetting curious, I checked Falcon 9 as a reference. Their cadence was:   \n2010: 2  \n2011: 0  \n2012: 2  \n2013: 3  \n2014: 6  \n2015: 7  \n2016: 8  \n2017: 18\n\n----------------  \nand here's Electron:   \n2017: 1  \n2018: 3  \n2019: 6  \n2020: 7  \n2021: 6  \n2022: 8  \n2023: 10\n\n----------------------------------------  \nMaybe 1/3/5 isn't that unambitious after all if compared with those two who were the fastest ever. then again, in terms of revenues, as fast as space systems is growing, Neutron won't be all that relevant for revenue for the foreseeable future.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1725288527,
+      "score": 3,
+      "link_id": "t3_1f730ys",
+      "parent_id": "t1_ll5b11x"
+    },
+    {
+      "id": "ll4wd74",
+      "body": "They will be cash flow neutral because they don't expend money into R&D of Neutron anymore. They'd be cash flow neutral now, if they stopped developing Neutron.  \n  \nThat does not imply that Neutron will create lots of new revenue streams two quarters after the initial test launch. \n\nWe might see lots of stock movement 2025 with a successful Neutron test launch. I am not disagreeing, but then again, markets are very fickle as long as revenue ain't realised.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1725279772,
+      "score": 1,
+      "link_id": "t3_1f730ys",
+      "parent_id": "t1_ll4uf4t"
+    },
+    {
+      "id": "ll4tvl3",
+      "body": "Neutron ain't gonna unlock revenues in 2025. If nothing goes wrong, we'll get a test launch and one actual launch in 2025, then a few in 2026. That's very much an absolute best case scenario though. Rocketry timelines are always late though, even for the best companies in the market. The not so good companies don't make it at all.\n\nI am a firm believer in the long term vision of Rocket Lab, however, I do expect Newtron to not have an impact on revenues till 2027.\n\nThe hype train and boom on the stock shares is an entirely different story though. That could start any moment or only when revenues are proven. Too many unpredictable factors in that. The only certain thing is: if they make Neutron work and continue to deliver on space systems, they'll be eventually worth a lot more than today.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1725278603,
+      "score": 7,
+      "link_id": "t3_1f730ys",
+      "parent_id": "t1_ll4kove"
+    },
+    {
+      "id": "ll4h3dp",
+      "body": "They crashed a booster, that's no tragedy, but it's also not nothing. the FAA grounded them for a few days, because they wanted to know why. as soon as SpaceX figured that out and declared that it's addressed they were allowed to fly again. That's completely reasonable.",
+      "author": "Zymonick",
+      "subreddit": "spacex",
+      "created_utc": 1725271270,
+      "score": 10,
+      "link_id": "t3_1f68gm7",
+      "parent_id": "t1_ll3lrna"
+    },
+    {
+      "id": "lkng1it",
+      "body": "I really didn't understand why he didn't just drive her back into the sea. He obviously cared for her and that wouldn't have been too much to ask. Did someone get that?",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1725014501,
+      "score": 123,
+      "link_id": "t3_1f4qp56",
+      "parent_id": "t3_1f4qp56"
+    },
+    {
+      "id": "lkmtwqz",
+      "body": "I voted never, because although I am wildly rocket optimistic, I don't think there will ever be an Earth to Earth rocket transporting service for the general public, because it doesn't check out on cost, safety, convenience, sustainability, infrastructure and impact on cities.\n\nYou make a fair point that it will at some point be possible to go Earth -> LEO -> Earth. I didn't think about it. Comes down to terminology on whether that is considered an Earth to Earth connection.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1725000336,
+      "score": 6,
+      "link_id": "t3_1f4gdwy",
+      "parent_id": "t1_lkmckg5"
+    },
+    {
+      "id": "lkhi29n",
+      "body": "My coach does this.   \n  \nEvery roll he tells us to go 100%.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1724930946,
+      "score": 2,
+      "link_id": "t3_1f3s88x",
+      "parent_id": "t3_1f3s88x"
+    },
+    {
+      "id": "lkhhx1q",
+      "body": "They are buying this land simply for a ground station for their internet services to New Zealand. Nothing to do with launch.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1724930880,
+      "score": 10,
+      "link_id": "t3_1f3ykvy",
+      "parent_id": "t1_lkh8nvg"
+    },
+    {
+      "id": "lkh4hwu",
+      "body": "The comparison of thrust is pointless without the weight factored in. That is simply a question of the size of the engine. Larger engines have more thrust and more weight.\n\nSo, we can only compare specific impulses. Yes, it's the lowest. Two points to that.  \n1. The difference to BE-4 and TQ-12 is very small. Relativity space can't be taken serious till they fly. SpaceX is simply better at this point, we gotta accept that.  \n2. RKLB didn't max out Archimedes. They stated several times that they are not pushing the engine to the limits and to keep more margins in order to make reusability more attainable.",
+      "author": "Zymonick",
+      "subreddit": "RocketLab",
+      "created_utc": 1724923407,
+      "score": 16,
+      "link_id": "t3_1f3w3n8",
+      "parent_id": "t3_1f3w3n8"
+    },
+    {
+      "id": "lkh2zju",
+      "body": "Most likely, it's even on purpose. Possibly nobody left in NZ to hire. By listing it as in England, it gets displayed to a much larger untapped talent pool. Some of them might be willing to relocate. Heck, if I had the skills, I'd relocate to NZ for the chance to work for Rocket Lab.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1724922431,
+      "score": 1,
+      "link_id": "t3_1f3ivc6",
+      "parent_id": "t1_lkfvgcl"
+    },
+    {
+      "id": "lk6na0x",
+      "body": "the hourly rate of cleaners is fairly high, but that's only because they have short shifts and need to commute in between. if you factor this in, cleaners are paid much less than that\n\nOP didn't mention what he's doing, but for hourly work somewhere remote it's a good salary",
+      "author": "Zymonick",
+      "subreddit": "Lausanne",
+      "created_utc": 1724770743,
+      "score": 1,
+      "link_id": "t3_1f2h4m6",
+      "parent_id": "t1_lk6bnpm"
+    },
+    {
+      "id": "lk6mq8l",
+      "body": "Almost certainly 31.08 CHF includes the compensation for public holidays and vacation and 25.63 CHF is without the surcharges. \n\nThis is common practice. Many firms communicate the full amount (which you care about) and then split it in the contract into base rate and additions.  \n  \nI'd suggest you reread the contract carefully. If the compensations are not mentioned, call them up and kindly clarify. Absolutely, no reason to get riled up about.",
+      "author": "Zymonick",
+      "subreddit": "Lausanne",
+      "created_utc": 1724770567,
+      "score": 2,
+      "link_id": "t3_1f2h4m6",
+      "parent_id": "t3_1f2h4m6"
+    },
+    {
+      "id": "lk6ky0q",
+      "body": "Ah, but he said, hitching a ride with SpaceX can take 2-3 years if you got a small payload that wants to rideshare into a specific orbit.\n\nThat's, however, quite a different statement to them having a 2-3 year backlog.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1724769985,
+      "score": 1,
+      "link_id": "t3_1f224mb",
+      "parent_id": "t1_lk6h7kx"
+    },
+    {
+      "id": "lk55oc1",
+      "body": "Do you have a source for the 2-3 year backlog?   \n  \nAnd what exactly does that even mean in their case? If it just refers to launching Starlinks, I'd consider it kinda misleading to call their ongoing internal business a backlog.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1724745810,
+      "score": 1,
+      "link_id": "t3_1f224mb",
+      "parent_id": "t1_lk455q8"
+    },
+    {
+      "id": "lk2rkk2",
+      "body": "my bet is that Elon will launch it for cheap on a Starship. he needs to do the testflights anyway. why not get paid for that a little and rub it in to Jeff?",
+      "author": "Zymonick",
+      "subreddit": "RocketLab",
+      "created_utc": 1724707149,
+      "score": 1,
+      "link_id": "t3_1f0dyv2",
+      "parent_id": "t1_ljsguej"
+    },
+    {
+      "id": "lk2ncss",
+      "body": "There will be a point in the not so far future, where SpaceX will have two separate tracks for Starship: First, an experimental track where they launch ever new versions of Starship that they iterate upon. Second, some version of Starship that is good enough to launch Starlinks cheaper than a Falcon 9.\n\nThe second version is fairly close. Basically, they just need to go to V2 and catch the booster. Once they get to that point, why would they continue to launch five Falcon 9 instead of one Starship?\n\nI see them delivering Starlinks by the beginning of next year and then increase the launch cadence from there. What do you reckon will limit them from doing that?",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1724705707,
+      "score": 1,
+      "link_id": "t3_1f1e3h7",
+      "parent_id": "t1_lk1i9yy"
+    },
+    {
+      "id": "ljzbd7t",
+      "body": "I agree on at least 20, possibly even more. \n\n1. With Starfactory they can easily build many more. They'll manage booster recovery within the next 1-3 test flights, so they only need to build ships.  \n  \n2. They have two launch towers already and if they need it, they'll build a third.  \n  \n3. Licensing might be an issue, but recently those came quicker and quicker, as the FAA sees that this stuff works. They've gotten better at navigating.  \n  \nMaybe the limiting factor might even be demand, e.g. how many Starlinks V3 they can produce.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXLounge",
+      "created_utc": 1724658128,
+      "score": 3,
+      "link_id": "t3_1f1e3h7",
+      "parent_id": "t3_1f1e3h7"
+    },
+    {
+      "id": "ljwktz7",
+      "body": "The simplest supe to easily and surely defeat Homelander would be the combination of the Shifter and Cate.\n\nCate's problem is that homelander would never let her get close and she is a glass cannon. However, our Cateshifter would simply shift into whatever character is currently closest to Homelander, be it Maeve, Stilwell or Firecracker,  then touch him, stay close to him and fry his mind or make him kill himself.\n\nSame for anyone else: the combination of imitating your significant other and mind-control beats anyone. They are also essentially undetectable in their being, because even if the unlikely event occurs that someone gets suspicious, Cate can simply erase that memory.\n\nThey are powerful enough to take on homelander or any smaller group of supes, if we keep the limitations as shown is the show: the shifter has to shed skin and recharge, Cate needs touch and has limits as to how much she can push.\n\nTo take on all supes at once, we gotta remove the limitations: they can shapeshift into anyone (including clothes) immediately, hold that shape as long as they want, push as much as they want and over distance.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724614945,
+      "score": 3,
+      "link_id": "t3_1f0mo4j",
+      "parent_id": "t3_1f0mo4j"
+    },
+    {
+      "id": "ljv3m35",
+      "body": "100% agree on closed guard. I scrolled all the way down to this in the search for the correct answer. \n\nThe disparity between what you can do and what your opponent can do is astonishing. In the meanwhile, it's much easier to get than other dominant guards.\n\nI fail to understand why this ain't the go to guard for most guard players.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1724597059,
+      "score": 1,
+      "link_id": "t3_1f0je7t",
+      "parent_id": "t1_ljtoi2u"
+    },
+    {
+      "id": "ljksrdu",
+      "body": "I don't think it's just marketing. There is the real advantage that  everybody can compete: at any level, weight and age, there's a bracket just for you. Like levels in a video game.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1724434133,
+      "score": 1,
+      "link_id": "t3_1evmaaw",
+      "parent_id": "t3_1evmaaw"
+    },
+    {
+      "id": "ljcr7xm",
+      "body": "You can dislike those two guys all you want on a personal level, but downplaying Gordons legitimacy as a fighter and Danahers as a coach is just plain ridiculous.\n\nGordon was as dominant as anyone ever despite severe medical issues. Danaher has not only coached a whole lot of champions but also revolutionised the way the sport is approached across the world on all levels.\n\nHaters gonna hate.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1724320680,
+      "score": 34,
+      "link_id": "t3_1eydvj4",
+      "parent_id": "t3_1eydvj4"
+    },
+    {
+      "id": "lj3ygps",
+      "body": "Let's just agree to be happy that nowadays our backup players look more promisint than our stars did a year ago!",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1724189754,
+      "score": 3,
+      "link_id": "t3_1ewuhb9",
+      "parent_id": "t1_lj28t9o"
+    },
+    {
+      "id": "lj2od5e",
+      "body": "We don't actually know what she turns into, as she always recharges or assumes another shape beneath her skin. \n\nThe depressing speculation based on that comment and what we've seen, would be that upon transforming so much, she lost her original self. If she doesn't recharge, she'll simply become some inhuman shapeless form without any skin.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724175430,
+      "score": 2,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_lj1nqbq"
+    },
+    {
+      "id": "lj1d3c2",
+      "body": "He's a cheap backup/substitute for Demirovic. The plan is surely to start with Undav and Demi, so you do need players to sub in for them. Also, don't forget that we are gonna play 3 tournaments, so unlike last season, there needs to be some rotation.\n\nThe buy clause is probably struck such that we only have to buy him, if he becomes a regular starter and scores a bunch of goals in which case, we'll want him anyway.  \n  \nI like the deal. Cheap back-up with upside.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1724160292,
+      "score": 33,
+      "link_id": "t3_1ewuhb9",
+      "parent_id": "t1_lj1b8sw"
+    },
+    {
+      "id": "lj1alsj",
+      "body": "Yes, fair enough. I picked the wrong term. You are right, it's just unknown to us as viewers what she'd turn into.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724159371,
+      "score": 2,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_lj0ytj9"
+    },
+    {
+      "id": "lj1902c",
+      "body": "Neumann's blood manipulation powers are crude when she can't see the blood, e.g. inside a body. She needs time, focus inwards and can only do extremely crude things, out of which she chooses to pop heads. In order to work nuanced, she needs the blood to be visible, e.g. outside the body.  \n  \nAt least that was my interpretation after Gen V and I think it's a consistent explanation for what we've seen from her and Marie.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724158759,
+      "score": 1,
+      "link_id": "t3_1evogur",
+      "parent_id": "t1_litw586"
+    },
+    {
+      "id": "lj0xt0g",
+      "body": "yes, there are supes that are above Annie, but I don't think you can follow from there that the shifter is below Annie in the power ranking.\n\nAnnie only stands a chance because in the plot the shifter is first betrayed by A-Train and then carelessly puts herself at risk of exposure. If she was only slightly better written, she would always stay in the background, assume various forms, do her things and never ever puts herself in risky situations where she might get exposed when one of the few supes dangerous to her might be around.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724153986,
+      "score": 1,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_liyg0ld"
+    },
+    {
+      "id": "lj0xfhg",
+      "body": "I really don't think Top 15 cuts it, if you think about all her powers combined. She easily recovered the tape with which the Boys were blackmailing Victoria. Which other Supes could have managed that?\n\nShe also would have assassinated Singer despite the Boys knowing ahead due to A-Trains betrayal that a Shifter was commissioned. If not for the plot armor that they made her kill all the NPCs first and Annie showing up, she would have succeeded. Again which other Supe could have even remotely achieved that given the layers of protection Stinger was under?",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724153809,
+      "score": 2,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_lizbs4y"
+    },
+    {
+      "id": "lj0wlh6",
+      "body": "yes, there appears to be a slight inconsistency. the show didn't tell us what she would turn into after she loses her current shape as she always recharges or assumes another shape. we only know that it can't be her original shape as she states that she doesn't remember that one. she might become some undetermined inhuman form or become a twisted version of several past memories or maybe the writers simply didn't think about it",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724153417,
+      "score": 6,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_lj0b82d"
+    },
+    {
+      "id": "lj0vz8a",
+      "body": "The first scene we need because she says \"it's like a furnace in here\" and that's how Hughie discovers her when she repeats the same sentence.\n\nThe second scene provides a little bit of context on her as a personality, displaying how she can be basically anyone and in that way extremely threatening.\n\nOverall, I won't argue with you that the storyline from the perspective of the shapeshifter is pretty badly thought through. Then again, she is just treated as a side character that develops the main plot rather than a real character on its own.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724153122,
+      "score": 3,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_lj09mow"
+    },
+    {
+      "id": "lj09num",
+      "body": "She only has to hold someone captive, if she wants to take over their whole life. She could also touch someone, read in his/her mind where that person is planning to be for the day and then simply assume the shape and go somewhere else. As that person, she could kill someone, steal something, threaten someone, give a press conference, hand out orders to subordinates or spread false information.\n\nThat's potentially way more powerful, because nobody will ever know a shifter was involved.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724139281,
+      "score": 7,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_liyzwjg"
+    },
+    {
+      "id": "lixw5rn",
+      "body": "It's messy, but fairly fast. Also, she doesn't have to shift immediately upon touch, she could touch someone, store his/her information, hide somewhere then shift.\n\nIn the series she does it mostly on the run for effects, but if it was devised a little more cleverly, I don't see this as much of an hindrance.",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1724103526,
+      "score": 71,
+      "link_id": "t3_1ewd44h",
+      "parent_id": "t1_lixtgn8"
+    },
+    {
+      "id": "lieo657",
+      "body": "This thinking is reverse. Nobody is sending mass to orbit, because it's so expensive. Once it's cheap people will send all sorts of heavy stuff to space. \n\n\nThat's like saying back in 1900: there is only a small market for cars, because hardly anyone is travelling more than a few miles per day anyway.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1723816829,
+      "score": 1,
+      "link_id": "t3_1esj5lh",
+      "parent_id": "t1_li6c5um"
+    },
+    {
+      "id": "lien8n8",
+      "body": "If you have very small loads that would fit into a small car or even on a motorcycle, you'd still use a pickup though. \n\n\nYour analogy raises the question: which rocket is the pickup truck? The most versatile, most practical vehicle that works for the large majority of payloads. ",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1723816504,
+      "score": 1,
+      "link_id": "t3_1esj5lh",
+      "parent_id": "t1_li6k3c9"
+    },
+    {
+      "id": "lidvrb0",
+      "body": "Skill-driven is extremely poor wording for what you want to describe. In BJJ physical attributes can compensate for technique, so your statement as such is incorrect. \n\nI've been thinking about this as well. I am struggling to come up with a really good formulation, though.\n\nOne way to think about it is that BJJ has arguably the widest body of basic knowledge. This is different from almost any other sport, where the basics are intellectually easy to understand. Easy to understand, doesn't mean easy to do. In BJJ there is the unusual aspect that you need to know what you should aim for in the first place in a specific situation and there's lots of situations.\n\nSports that are similar in that regard are sailing or mountaineering.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1723804979,
+      "score": 17,
+      "link_id": "t3_1etl124",
+      "parent_id": "t3_1etl124"
+    },
+    {
+      "id": "li8ti0i",
+      "body": "best comment so far. then our supe would hire someone to suck of Homelander and secretly spit it back out into a cup for preservation",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1723732050,
+      "score": 85,
+      "link_id": "t3_1estfa5",
+      "parent_id": "t1_li8o2du"
+    },
+    {
+      "id": "li2ezev",
+      "body": "I know a business that sells leads like that and I also know that one specific lead in the past has cost 60$. I can see my willingness to pay ranging from 50$ to 200$ per business intro. \n\nThe formula will be closing rate \\* deal size \\* 10%. The hard thing is to find businesses with a decent closing rate. There has to be already some kind of established interest, either declared or an identified need for my product. If there isn't and you just recommend random business, I expect my closing rates to be far below 1% and then it isn't even worth my time.",
+      "author": "Zymonick",
+      "subreddit": "Entrepreneur",
+      "created_utc": 1723640288,
+      "score": 1,
+      "link_id": "t3_1erxdke",
+      "parent_id": "t3_1erxdke"
+    },
+    {
+      "id": "li2clqb",
+      "body": "Is that so clear-cut?   \n  \nZoe Neuman didn't get her mother's powers, but very different ones. Homelanders powers are also quite different from Soldier Boys.\n\nFor same power, we got Homelander/Ryan, Polaris/Andre (although Andre appears to be much weaker) and Translucent/Maverick.\n\nThose are all the examples I can think of. 3 same, 2 different. Who else did I miss?",
+      "author": "Zymonick",
+      "subreddit": "TheBoys",
+      "created_utc": 1723639364,
+      "score": 1,
+      "link_id": "t3_1erlz85",
+      "parent_id": "t1_lhzm2e2"
+    },
+    {
+      "id": "li27nhf",
+      "body": "People move. That doesn't necessarily mean that the country they move away from is a \"shithole\". It simply means there is a reachable better place for these people.\n\nMexico is doing pretty well recently and most Mexicans live decent lives, still many Mexicans decide to leave. Do you consider Mexico a shithole? Do you consider the countryside in the US a shithole because many people prefer to move to cities?\n\n- 30% of elder East German residents state that their lives in East Germany were better than after the reunification  \n- In 1989 life expectancy in East Germany was among the highest in the world. Only 2-3 years below West Germany or the US.",
+      "author": "Zymonick",
+      "subreddit": "changemyview",
+      "created_utc": 1723637310,
+      "score": -1,
+      "link_id": "t3_1erkkt0",
+      "parent_id": "t1_li20qf4"
+    },
+    {
+      "id": "li1z1fo",
+      "body": "This doesn't add up. You are currently at 2x your salary, but you only have savings for 2-3 months?",
+      "author": "Zymonick",
+      "subreddit": "Entrepreneur",
+      "created_utc": 1723633215,
+      "score": 1,
+      "link_id": "t3_1erwrf1",
+      "parent_id": "t3_1erwrf1"
+    },
+    {
+      "id": "li1yjnw",
+      "body": "As I said, it's outshadowed by West-Germany, which did so incredibly well over that time period. Just doing not as well as West-Germany, however, does not automatically make you a shithole or many capitalist countries would have qualified as such in 1989. \n\nFurther, most of the desperate border crossings where people were risking their lives happened because of ideological reasons rather than economic ones.",
+      "author": "Zymonick",
+      "subreddit": "changemyview",
+      "created_utc": 1723632951,
+      "score": 0,
+      "link_id": "t3_1erkkt0",
+      "parent_id": "t1_li1q62v"
+    },
+    {
+      "id": "li15wet",
+      "body": "Actually East Germany did pretty well. They solidly rebuild their country after the war, had decent industrialisation and a reasonable standard of living in the 80s. All people lived in decent apartments with electricity, running water and modern furniture. Many people had cars and vacations. \n\n\nThis is often forgotten as West-Germany wrote the most successful story of any economy which is what East Germany is always compared to. Still East Germany did much better than many capitalist countries and was definitely not a shithole.",
+      "author": "Zymonick",
+      "subreddit": "changemyview",
+      "created_utc": 1723614996,
+      "score": 0,
+      "link_id": "t3_1erkkt0",
+      "parent_id": "t1_li02zni"
+    },
+    {
+      "id": "lhwwqhh",
+      "body": "don't be discouraged by all the naysayers. a gym is so much more than just the \"belt\"-level of the headcoach.\n\nin the beginning, almost all your students will be white belts anyway, so as a purple you are easily good enough to teach them the basics and from then on you can all grow together\n\ngood luck!",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1723558852,
+      "score": 1,
+      "link_id": "t3_1er3agf",
+      "parent_id": "t3_1er3agf"
+    },
+    {
+      "id": "lhqb9v8",
+      "body": "If you absolutely need that money at time x or you can't make an important payment, I wouldn't use them.\n\nIf you can cover that eventuality somehow, via a family loan or selling some ETFs, I wouldn't worry and go ahead. Chances are really slim that something happens.",
+      "author": "Zymonick",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723462898,
+      "score": 2,
+      "link_id": "t3_1eq9wya",
+      "parent_id": "t1_lhq6tc5"
+    },
+    {
+      "id": "lhq4foj",
+      "body": "I've used Revolut for a while for a commercial venture, because they had zero exchange rate fees for Private Premium accounts back then and transferred many such sums constantly back and forth. Never had an issue. Twice they ran a compliance check for money laundering on me and I had to provide some documents, but that was totally within reason, given that I pulled commercial transactions on a private account. \n\nI don't think there's any meaningful safety risk. Anecdotally, Revolut is a bit overzealous in terms of freezing and their customer service sucks, so it can take a while to unfreeze it, but I don't think there's an actual risk in terms of losing your money. They are a bank after all and fall under deposit protection.",
+      "author": "Zymonick",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723459264,
+      "score": 2,
+      "link_id": "t3_1eq9wya",
+      "parent_id": "t3_1eq9wya"
+    },
+    {
+      "id": "lhq11l3",
+      "body": "Disagree. The diet is still needed. However, BJJ is a full substitute for cardio and a decent substitute for strength training.\n\nI'm 40 years old. I've done only BJJ for the last 8 years and I am in excellent shape (much better than I was at 30), arguably a bit on the lean side by modern Insta standards, but that's more of a beauty preference issue.\n\nIt's obviously easier/quicker to get into shape with specific training. However, that's also a lot less fun for many people, so if someone enjoys BJJ there's no need to train anything else.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1723457171,
+      "score": 3,
+      "link_id": "t3_1epfbc3",
+      "parent_id": "t1_lhn1oxk"
+    },
+    {
+      "id": "lheivl4",
+      "body": "this is very interesting. I need to try hx-select just to make sure, I understand correctly:   \n  \n1. You pass the entire page back and then htmx picks just a small subset to swap-in? how does that work if the page gets larger and has lots of dynamic elements? isn't it inefficient to render the whole page on the backend, if then htmx is picking only a very small subset to swap in?  \n  \n2. I'm not sure, if I get the your second point, checking for 'submit' in request.POST. Can you please elaborate a bit more which forms you use in the first place? HTML, Django or some 3rd party? How often do you submit? How do you return form entry errors back to the user?\n\nThanks!",
+      "author": "Zymonick",
+      "subreddit": "django",
+      "created_utc": 1723273342,
+      "score": 1,
+      "link_id": "t3_1eoahao",
+      "parent_id": "t1_lhcf1wj"
+    },
+    {
+      "id": "lgwokng",
+      "body": "Do you have a source on Space X going to Australia and why and in what timeline?  \n  \nHonestly, I don't see that at all. SpaceX is busy with Starlink and Starship and really don't need operations at the other end of the world. Given their insane launch cadence and large volume, who in Australia can manufacture so many satellites? They are hardly gonna ship their Starlinks down under. Finally, US is so restrictive on ITAR stuff, it would come with a bunch of limitations. Unless you have a definitive source, I doubt SpaceX is going outside US anytime soon.",
+      "author": "Zymonick",
+      "subreddit": "RKLB",
+      "created_utc": 1723018169,
+      "score": 3,
+      "link_id": "t3_1em4mbw",
+      "parent_id": "t3_1em4mbw"
+    },
+    {
+      "id": "lgt4pmd",
+      "body": "BJJ\n\nDisagreeing with everybody else here. You are all missing the ONLY objective for beginners, which is to stick with it. Nothing else matters initially. If he doesn't stick, it was pointless, and if he sticks, he'll learn everything eventually.  \n  \nJudo in your country at that age is too hard. In Judo, you'll just fly for several years being by far the worst in the room. The classes will be too fast and too advanced for you and you won't learn all that much. At most 3 months in, you'll lose interest or they might even kick you out and that is that. \n\nIf you go to BJJ you'll be cherished being that young with your great athletic attributes. Once you got a certain level at BJJ in a year or two and you are firmly settled in your abilities on the ground with some self-confidence, you can still cross-train or switch to Judo/MMA/wrestling to learn standup.",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1722967567,
+      "score": 2,
+      "link_id": "t3_1ekpoho",
+      "parent_id": "t3_1ekpoho"
+    },
+    {
+      "id": "lgkx2jb",
+      "body": "Die Kiste ist durch. Der Trainer von Brighton will ihn behalten. Mit den Zahlen der Premier League können wir nicht mithalten.  \n  \nIst aber gut so. Das ist zu viel Geld für uns für einen Spieler seines Alters. Ich hab grosse Hoffnung, dass er in Brighton wieder auf der Bank sitzt und wir ihn in 6-12 Monaten günstig holen können.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1722848574,
+      "score": 4,
+      "link_id": "t3_1ejud0a",
+      "parent_id": "t3_1ejud0a"
+    },
+    {
+      "id": "lft0imf",
+      "body": "Die Strahlkraft hat doch der VfB. Marken mit eigener positiver Strahlkraft müssen doch nicht sponsorn. Vereine haben die Wahl zwischen Marken mit negativer Strahlkraft (Gazprom, Qatar, Winamax, Vonovia) oder ohne eigene Strahlkraft (indeed, Barmenia, meinauto, Autohero, WWK, wefox), etc. Sonst klappt das nur, wenn man Bayern München ist oder die Firma auch am Verein beteiligt ist (VW, SAP, Red Bull, Mercedes).\n\nTldr: ich bin heilfroh ist es das unbekannte solide LBBW und nicht wieder was dubioses.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1722430338,
+      "score": 1,
+      "link_id": "t3_1egja8n",
+      "parent_id": "t1_lfstgk9"
+    },
+    {
+      "id": "lfsc83v",
+      "body": "nonsense  \n  \nno way one could manage a decent high jump with a tumbling handspring approach. tumbling does not give you more momentum than running and conversion into a vertical leap is way more difficult",
+      "author": "Zymonick",
+      "subreddit": "trackandfield",
+      "created_utc": 1722417373,
+      "score": 0,
+      "link_id": "t3_1ef3k82",
+      "parent_id": "t1_lfiyd48"
+    },
+    {
+      "id": "lf651w0",
+      "body": "That's like saying the IPhone 1 wasn't that great because todays smartphones are much better.  Obviously true, but also a moot point. You gotta compare products within their relevant timeframe and not with the future.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXMasterrace",
+      "created_utc": 1722076448,
+      "score": 1,
+      "link_id": "t3_1eao2oc",
+      "parent_id": "t1_les9caz"
+    },
+    {
+      "id": "lf645fg",
+      "body": "what's the difference between django-template-partials and django components? why do you have both in the stack and in which case do you use one and in which case the other?\n\nand finally, do you happen to have looked and slippers and why do you think your twos are better?\n\nthanks for some insights on this!",
+      "author": "Zymonick",
+      "subreddit": "htmx",
+      "created_utc": 1722075820,
+      "score": 2,
+      "link_id": "t3_1ecu4h0",
+      "parent_id": "t1_lf2v4oy"
+    },
+    {
+      "id": "lf0r4ip",
+      "body": "Unless a real source comes up, I have a tough time believing the release clause runs till sometime in August. These clauses almost always end sometime in July, so the club still has some time to react. \n\nSo Millots release clause for this transfer window has either already ended or is bound to end very soon. Given this is just a generic rumour and no concrete club has surfaced, I am quite confident, Millot will either stay, or if he leaves after a sensational performance at the Olympics it will be for a higher price tag.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1721995116,
+      "score": 3,
+      "link_id": "t3_1ech1vn",
+      "parent_id": "t3_1ech1vn"
+    },
+    {
+      "id": "leosefv",
+      "body": "That just ain't true.\n\nSeveral companies have way more resources and business opportunities than SpaceX had when it was building Falcon 9. Plus, they have the advantage that they can look at Falcon 9 and see how it's done.\n\nYet, none of them can deliver. That is certainly not SpaceX fault and it's also not an endless loop. NASA and Space Force are desperate to get a second reliable supplier.",
+      "author": "Zymonick",
+      "subreddit": "SpaceXMasterrace",
+      "created_utc": 1721817996,
+      "score": 17,
+      "link_id": "t3_1eao2oc",
+      "parent_id": "t1_lenksyt"
+    },
+    {
+      "id": "leldfto",
+      "body": "100% agree on this one. Trying this, I ended up several times in a twisted mess of workarounds.\n\nPeople here on Reddit regularly claim this to be a skill issue, but then I wasn't able to find a clean implementation of something that does at least search, filters and pagination simultaneously in htmx in a resasonable way.\n\nHonestly, at this point I am pretty certain, the only options sensible options are:\n\n1) Group them together as one reload\n\n2) Fetch the data and do it entirely client-side\n\nThe greatest thing about htmx is though, although I am sometimes going client side with a js library, the rest of can still all be htmx. Even on the same page, mix and match is no problem whatsoever. This in stark contrast to most alternatives that would force you to everything within their framework.",
+      "author": "Zymonick",
+      "subreddit": "htmx",
+      "created_utc": 1721763263,
+      "score": 1,
+      "link_id": "t3_1e99d3i",
+      "parent_id": "t1_lekeo7b"
+    },
+    {
+      "id": "lefop3a",
+      "body": "great suggestion. that's the tattoo, I'd recommend OP to get",
+      "author": "Zymonick",
+      "subreddit": "AskGermany",
+      "created_utc": 1721679232,
+      "score": 2,
+      "link_id": "t3_1e8tvuf",
+      "parent_id": "t1_led4gux"
+    },
+    {
+      "id": "lefoijn",
+      "body": "this! I'd even go as far as stating that this is the only meaning that is still in use. the more literal meanings of the word feel very dated to me",
+      "author": "Zymonick",
+      "subreddit": "AskGermany",
+      "created_utc": 1721679176,
+      "score": 2,
+      "link_id": "t3_1e8tvuf",
+      "parent_id": "t1_le9qnhc"
+    },
+    {
+      "id": "lefga3y",
+      "body": "Your thinking still reflects a more frontendsy like mindset. The htmx way of doing this is to simply submit the incomplete form upon each change of a field.",
+      "author": "Zymonick",
+      "subreddit": "htmx",
+      "created_utc": 1721676561,
+      "score": 3,
+      "link_id": "t3_1e99d3i",
+      "parent_id": "t1_lecxtq9"
+    },
+    {
+      "id": "ldkvdq6",
+      "body": "Am Ende auch egal ob die Frist jetzt vor 2 Tagen war oder in 2 Tagen ist. Es sind keinerlei Gerüchte rum, da wird jetzt nicht in 2 Tagen jemand aufschlagen und den ganzen Transfer inkl. Medizincheck last minute durchziehen. Dafür ist das Transferfenster noch zu lang.\n\nWenn keiner mehr geht, Deniz bleibt und wir noch nen ordentlichen Innenverteidiger finden, bin ich optimistisch, dass wir ähnlich gut aufgestellt sind wie letzte Saison. Nicht unbedingt in der Spitze, aber dafür haben wir uns in der Breite deutlich besser aufgestellt.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1721203541,
+      "score": 24,
+      "link_id": "t3_1e5cc49",
+      "parent_id": "t1_ldku3pb"
+    },
+    {
+      "id": "ld1nile",
+      "body": "closed guard. pull them in, usually easy with spazzy people to get. then pull them real close and hold them tight, usually freaks them out even more, so they pull back and then there's a bunch of openings",
+      "author": "Zymonick",
+      "subreddit": "bjj",
+      "created_utc": 1720905346,
+      "score": 21,
+      "link_id": "t3_1e2ksqv",
+      "parent_id": "t3_1e2ksqv"
+    },
+    {
+      "id": "lcyksfn",
+      "body": "what kinda advice is it to have a \"bad guy\"? can you think of a story in any genre that would work without a bad guy? I might as well add Sauron to your list.",
+      "author": "Zymonick",
+      "subreddit": "scifi",
+      "created_utc": 1720855927,
+      "score": 2,
+      "link_id": "t3_1e1q878",
+      "parent_id": "t1_lcwom02"
+    },
+    {
+      "id": "lcw9mza",
+      "body": "Anton, Guirassy & Ito bringen 64m. Ausgeben tun sie aktuell Undav 25m, Demirovic 21m, Leweling 5m, Chabot 4m und Roualt 3m. Blieben noch 6m übrig. Gegeben die CL Einnahmen zusätzlich muss das doch drin sein, mal eine Saison nur mit nem kleinen Transferplus abzuschliessen.\n\nAber das hängt natürlich dran, dass Guirassy klappt. Wenn das medizinisch durchfällt, dann seh ich nicht mehr wie wir Undav kaufen können, bzw. würd dann wohl auch keinen Sinn mehr machen. Das wär unfassbar ärgerlich.",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1720818199,
+      "score": 2,
+      "link_id": "t3_1e1jcft",
+      "parent_id": "t1_lcuwi4a"
+    },
+    {
+      "id": "lctzv9l",
+      "body": "would be a really strange turn of events if Demirovic and Undav happen, while Guirassy falls through and then we gotta play with three strikers",
+      "author": "Zymonick",
+      "subreddit": "VfBStuttgart",
+      "created_utc": 1720791230,
+      "score": 17,
+      "link_id": "t3_1e1aa9t",
+      "parent_id": "t3_1e1aa9t"
+    },
+    {
+      "id": "lctmlet",
+      "body": "My Xiaomi let's me block all the apps as part of the Digital Wellbeing. On Windows I am using \"Freedom\" as a third party app. I am sure similar apps exist and work on most phones now.\n\nThat's the best of both worlds. I can keep apps that I need such as Google Maps or WhatsApp and I can block all the timewasters.",
+      "author": "Zymonick",
+      "subreddit": "whatsapp",
+      "created_utc": 1720785755,
+      "score": 1,
+      "link_id": "t3_1e1djxn",
+      "parent_id": "t1_lcthpuf"
+    },
+    {
+      "id": "lctm6g0",
+      "body": "not checking your phone every 5 minutes for no reason",
+      "author": "Zymonick",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1720785557,
+      "score": 1,
+      "link_id": "t3_1e1dctt",
+      "parent_id": "t3_1e1dctt"
     }
   ]
 }

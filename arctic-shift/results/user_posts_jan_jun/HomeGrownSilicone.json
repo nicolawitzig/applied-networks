@@ -1,6 +1,29 @@
 {
   "username": "HomeGrownSilicone",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1atznh4",
+      "title": "Looking for a flexible, wearable model train for a costume",
+      "author": "HomeGrownSilicone",
+      "subreddit": "modeltrains",
+      "created_utc": 1708277748,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/modeltrains/comments/1atznh4/looking_for_a_flexible_wearable_model_train_for_a/"
+    },
+    {
+      "id": "19elbyk",
+      "title": "Why not use grammars instead of function calling models?",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706114367,
+      "score": 67,
+      "num_comments": 65,
+      "selftext": "I never fully understood, why models need to be specifically fine-tuned for function calling and why everyone seems so excited for function calling models. Can we not just use any standard model and force it to generate output according to some grammar, e.g. how llama.cpp does it? That way we can simply force it to adhere to the JSON format as defined by the function, and guarantee that we can parse the output. What's all the fuzz about function calling then?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/19elbyk/why_not_use_grammars_instead_of_function_calling/"
+    }
+  ],
   "comments": [
     {
       "id": "l1wf50a",
@@ -11,6 +34,176 @@
       "score": 4,
       "link_id": "t3_1cg6epw",
       "parent_id": "t1_l1vxrdz"
+    },
+    {
+      "id": "l84rysw",
+      "body": "Das esch de Stefan, en mega liebe. Ech geb ehm emmer gärn chli Mönz well är met sinere ufgstellte Art de graui Pändelalltag chli mag verschönere.\n\nÄr traut ned eifach 0815 s glich wie alli anderi z'mache, ond är bliibt emmer dra. Ech fend das sehr bewondernswärt.",
+      "author": "HomeGrownSilicone",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718121460,
+      "score": 35,
+      "link_id": "t3_1dden5x",
+      "parent_id": "t3_1dden5x"
+    },
+    {
+      "id": "l1m25bv",
+      "body": "You loose information about the order of your input",
+      "author": "HomeGrownSilicone",
+      "subreddit": "cryptography",
+      "created_utc": 1714289801,
+      "score": 9,
+      "link_id": "t3_1cf0jkb",
+      "parent_id": "t3_1cf0jkb"
+    },
+    {
+      "id": "l1c0hha",
+      "body": "yes",
+      "author": "HomeGrownSilicone",
+      "subreddit": "fooocus",
+      "created_utc": 1714128918,
+      "score": 8,
+      "link_id": "t3_1cdi65l",
+      "parent_id": "t3_1cdi65l"
+    },
+    {
+      "id": "l16oras",
+      "body": "You're right",
+      "author": "HomeGrownSilicone",
+      "subreddit": "cryptography",
+      "created_utc": 1714044718,
+      "score": 1,
+      "link_id": "t3_1ccc5vr",
+      "parent_id": "t1_l16jrwe"
+    },
+    {
+      "id": "l15qa8m",
+      "body": "Not quite true. A preimage attack is actually about finding a primage (not **the** preimage, just any) to any given hash, what you describe is a collision attack.\n\nCheck stackexchange about this, they are usually quite well-informed:\nhttps://crypto.stackexchange.com/a/1174",
+      "author": "HomeGrownSilicone",
+      "subreddit": "cryptography",
+      "created_utc": 1714021676,
+      "score": 1,
+      "link_id": "t3_1ccc5vr",
+      "parent_id": "t1_l14lh2l"
+    },
+    {
+      "id": "l0slpzh",
+      "body": "I think what you mean is performing a so-called [preimage attach](https://en.m.wikipedia.org/wiki/Preimage_attack). It's nothing new that with enough compute it is possible to find a preimage to any one way function, a naive algorithm just iterating through all possible inputs until eventually the function yields the desired result. This is not an issue when the output space is large enough, such that it would take way too much compute to perform in reasonable time (e.g. 2^256 evaluations for SHA256).\n\nEasier attacks are [collision attacks](https://en.m.wikipedia.org/wiki/Collision_attack) where the goal is just to find any two different inputs that will evaluate to the same output. Due to the [birthday problem](https://en.m.wikipedia.org/wiki/Birthday_problem), these attacks are much more efficient than a preimage attack. With 2^n ppssible outputs it will be possible to find a collision in only 2^(n/2) evaluations. This has already successfuly been mounted on MD5 and SHA1. However the 2^128evaluations needed to find a collision in SHA256 is still way beyond reach for today's hardware.\n\nSo its not that these collisions or pre-images cannot be found in theory, its just very unlikely to happen with our limited compute we have today.",
+      "author": "HomeGrownSilicone",
+      "subreddit": "cryptography",
+      "created_utc": 1713819817,
+      "score": 4,
+      "link_id": "t3_1caf80x",
+      "parent_id": "t3_1caf80x"
+    },
+    {
+      "id": "l0rwqh3",
+      "body": "If you were to share your Ansatz here it might help you formulate your thoughts and people could give you feedback and pointers.",
+      "author": "HomeGrownSilicone",
+      "subreddit": "cryptography",
+      "created_utc": 1713809002,
+      "score": 3,
+      "link_id": "t3_1caf80x",
+      "parent_id": "t3_1caf80x"
+    },
+    {
+      "id": "kk3hzti",
+      "body": "Llama.cpp has a `--prompt-cache` option that lets you save the model state after reading thr prompt in a file.",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706531993,
+      "score": 1,
+      "link_id": "t3_1adsyyw",
+      "parent_id": "t3_1adsyyw"
+    },
+    {
+      "id": "kjexdr6",
+      "body": "Who can resist Lecture slides from 2008 with LaTeX & beamer?\n\nActually sounds super interesting indeed, I will have a look for sure!",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706134980,
+      "score": 3,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjewc92"
+    },
+    {
+      "id": "kjers8r",
+      "body": "Feels like usig a webapp with say TLS1.3 would be the way to go. An end to end encrypted messaging protocol makes sense to hide the messages from the server. Since in this case, the server is one of the chat participants I don't see the privacy gain over using TLS.",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706133106,
+      "score": 1,
+      "link_id": "t3_19ei98q",
+      "parent_id": "t1_kjdyb7s"
+    },
+    {
+      "id": "kjeniae",
+      "body": "Really? The only thing I could find is the link to https://grammar.intrinsiclabs.ai/ but not thatbyou can get the grammar built through llama.cpp itself.\n\nI agree on the part where you put an example in the system prompt, that way it will already almost generate the correct text itself and the grammar is only used as guardrails to correct few slipups",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706131714,
+      "score": 2,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdi2bl"
+    },
+    {
+      "id": "kjeher1",
+      "body": "I was talking about doing (hardcoding) the actual math in the grammar. Theoretically possible, practically totally not feasible. Small example for addion of two bits:\n\n\n    root ::= \"0b0 + 0b0 = 0b0\" | \"0b0 + 0b1 = 0b1\" | \"0b1 + 0b0 = 0b1\" | \"0b1 + 0b1 = 0b10\"\n\nThis will only match correct additions of one bit, but the length of the grammar grows with the input space. Basically you would need to hardcode the function for every possible input. So in a mathematical sense it does exist, but not practical.",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706129733,
+      "score": 2,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdzzwj"
+    },
+    {
+      "id": "kje4son",
+      "body": "the grammar would just be to correct the infrequent mistakes, like orgetting to put a comma or something similar. Since most models already have a rough understanding on JSON syntax",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706125650,
+      "score": 3,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdrml2"
+    },
+    {
+      "id": "kjdke8k",
+      "body": "I see the point, thanks!\n\nI guess in theory there would be a grammar describing this behavior too, it would just be huge and not feasible since it would need to encode all the mathematics in grsmmar rules ;)",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706117057,
+      "score": 1,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdj0re"
+    },
+    {
+      "id": "kjdjdc5",
+      "body": "Right, as I underatand because tokens will not neccessarily align with the atomic symbols/strings in the grammar. Then it could theoretically get to a point where none of the token in the model's vocabulary are valid with rhe grammar and you need to do backtracking.\n\nBut intuitively this should not happen a lot if the function is well described to the model, and it's something standars like JSON formatting. Then the grammar would only be needed to correct some few slips in generation (in my intuition)",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706116727,
+      "score": 2,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdicxr"
+    },
+    {
+      "id": "kjdg748",
+      "body": "and what do these tools do that cannot be achieved with llama.cpp's grammars?",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706115686,
+      "score": 1,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdf8zy"
+    },
+    {
+      "id": "kjdfo7p",
+      "body": "It seems to me that it would be quite straight forward to create an automatic translator from the function calling format to its corresponding grammar...",
+      "author": "HomeGrownSilicone",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706115511,
+      "score": 3,
+      "link_id": "t3_19elbyk",
+      "parent_id": "t1_kjdf4il"
     }
   ]
 }

@@ -1,6 +1,95 @@
 {
   "username": "pseudogelber",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hiubb1",
+      "title": "Really Low Inductance Motor",
+      "author": "pseudogelber",
+      "subreddit": "VESC",
+      "created_utc": 1734730303,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi\n\nI have seen, that it should be possible to run motors down to around 0.65uH without any phase inductors. What is the lowest inductance motor you have tried out so far and what was the maximum possible speed?",
+      "url": "https://www.reddit.com/r/VESC/comments/1hiubb1/really_low_inductance_motor/"
+    },
+    {
+      "id": "1hhc23w",
+      "title": "Neighbours cat is aggressive",
+      "author": "pseudogelber",
+      "subreddit": "CatAdvice",
+      "created_utc": 1734556678,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "\nOur cat (male, 2.5 years old) is being terrorized by the neighbor’s cat.\nThis started when we moved in two years ago. The neighbor’s cat regularly chases him through our garden.\nWhat’s particularly unusual is that the neighbours cat initially submits to our cut. However, if our cat briefly turns his back, the neighbor’s cat attacks him from behind. Our cat is now affraid of the neighbours cat, since this behaviour is uncommon.\n\nThe worst part is that our cat hardly dares to use the cat flap anymore (the neigbours cats flap is maybe 20m away and the cat is only in our garden when it leaves the house). We suspect that the neighbor’s cat intercepted him outside at least once. We have a cat camera to monitor his return home, and we’ve noticed that the neighbor’s cat visits our garden at least five times a day on average. He always tries to get inside through our flap, and unfortunately, he has managed to do so twice (by chasing our cat inside).\n\nAt the cat flap, our cat growls now (started just now, i dont know what happened) and absolutely refuses to use it (with a lot of effort, he occasionally does). He tries to avoid using it whenever possible.\n\nWe don’t know what to do. Do you have any ideas or tips?",
+      "url": "https://www.reddit.com/r/CatAdvice/comments/1hhc23w/neighbours_cat_is_aggressive/"
+    },
+    {
+      "id": "1hhbrc8",
+      "title": "Neighbours cat is aggressive",
+      "author": "pseudogelber",
+      "subreddit": "cats",
+      "created_utc": 1734555898,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/cats/comments/1hhbrc8/neighbours_cat_is_aggressive/"
+    },
+    {
+      "id": "1gd86kj",
+      "title": "Stahlos 15/111, could that be a 6 PSA?",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1730025714,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Some with edges on the back",
+      "url": "https://www.reddit.com/gallery/1gd86kj"
+    },
+    {
+      "id": "1gd850n",
+      "title": "Is this set rare?",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1730025519,
+      "score": 10,
+      "num_comments": 1,
+      "selftext": "Only Entei is holo, but they all are in pretty good condition. Is that worth anything?",
+      "url": "https://www.reddit.com/gallery/1gd850n"
+    },
+    {
+      "id": "1gd5df3",
+      "title": "Is this set worth anything?",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1730013069,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "Should be really good condition, except Meganie has some white edges on the back side",
+      "url": "https://www.reddit.com/gallery/1gd5df3"
+    },
+    {
+      "id": "1gd5bug",
+      "title": "Lugia value?",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1730012868,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "What could that be worth? It has no white edges and seems in very good condition. It ist however a little bit curved.",
+      "url": "https://www.reddit.com/gallery/1gd5bug"
+    },
+    {
+      "id": "1gco424",
+      "title": "Are there any valuable cards here?",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1729957927,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "Found these cards from my childhood, a lot of first generations and stuff like that. Most of them are in German. Are there any valuable cards among them? My Charizard 1st edition I lost, that would probably have been the best.",
+      "url": "https://www.reddit.com/gallery/1gco424"
+    }
+  ],
   "comments": [
     {
       "id": "lny0q7p",
@@ -11,6 +100,186 @@
       "score": 1,
       "link_id": "t3_1fki90r",
       "parent_id": "t3_1fki90r"
+    },
+    {
+      "id": "m3ek3mf",
+      "body": "I have the same pan and had exactly the same issue. It comes from the induction stove at high heat and builts this ring because of non-uniform heat distribution from burnt food. You can clean it by cocking some water with salt and baling powder. Then scrap the rest with a dough scraper.",
+      "author": "pseudogelber",
+      "subreddit": "castiron",
+      "created_utc": 1734936604,
+      "score": 5,
+      "link_id": "t3_1hkcrhr",
+      "parent_id": "t3_1hkcrhr"
+    },
+    {
+      "id": "m31jzzy",
+      "body": "I like the asbestos holder for the head finish machine",
+      "author": "pseudogelber",
+      "subreddit": "interesting",
+      "created_utc": 1734730142,
+      "score": 1,
+      "link_id": "t3_1hiou0n",
+      "parent_id": "t3_1hiou0n"
+    },
+    {
+      "id": "lxzkbfm",
+      "body": "Could be a problem with the inrush current (many ceramic capacitors) and parasitic inductances when hot plugging, this can lead to voltage spikes and kill semiconductors and short them out. The PSU actively limits the current at startup and drives up the voltage ‚slow‘.",
+      "author": "pseudogelber",
+      "subreddit": "PcBuild",
+      "created_utc": 1732048899,
+      "score": 3,
+      "link_id": "t3_1gv1ohz",
+      "parent_id": "t1_lxydx1z"
+    },
+    {
+      "id": "ltzjvl5",
+      "body": "How much you think about?",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1730023252,
+      "score": 1,
+      "link_id": "t3_1gd5df3",
+      "parent_id": "t1_ltz7no7"
+    },
+    {
+      "id": "ltvi6na",
+      "body": "Thank you, sorry for that, i will post the individual holos",
+      "author": "pseudogelber",
+      "subreddit": "PokemonCardValue",
+      "created_utc": 1729961602,
+      "score": 1,
+      "link_id": "t3_1gco424",
+      "parent_id": "t1_ltvbtc2"
+    },
+    {
+      "id": "lmw0s4h",
+      "body": "I like the Rigol MSO5074, which can be easly hacked to unlock the full 350MHz and all the other features",
+      "author": "pseudogelber",
+      "subreddit": "diyelectronics",
+      "created_utc": 1726207572,
+      "score": 3,
+      "link_id": "t3_1ffiuct",
+      "parent_id": "t3_1ffiuct"
+    },
+    {
+      "id": "lmnxp5i",
+      "body": "Posting in options and daytraiding",
+      "author": "pseudogelber",
+      "subreddit": "options",
+      "created_utc": 1726087834,
+      "score": 35,
+      "link_id": "t3_1fekgve",
+      "parent_id": "t3_1fekgve"
+    },
+    {
+      "id": "lidpz7t",
+      "body": "Looks like a flex pcb :D",
+      "author": "pseudogelber",
+      "subreddit": "shittyaskelectronics",
+      "created_utc": 1723801527,
+      "score": 36,
+      "link_id": "t3_1etkiee",
+      "parent_id": "t3_1etkiee"
+    },
+    {
+      "id": "li6oq7l",
+      "body": "INTC",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1723692831,
+      "score": 4,
+      "link_id": "t3_1esb25h",
+      "parent_id": "t1_li6oksp"
+    },
+    {
+      "id": "li3c6vt",
+      "body": "Got some nice SPY Sep. 13 C 562, already 25% in plus",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1723651410,
+      "score": 3,
+      "link_id": "t3_1erxn0k",
+      "parent_id": "t3_1erxn0k"
+    },
+    {
+      "id": "lhyqzch",
+      "body": "Which future index are you looking at? The ES CME?",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1723579795,
+      "score": 2,
+      "link_id": "t3_1eqxqlq",
+      "parent_id": "t1_lhutxbh"
+    },
+    {
+      "id": "lhymwbg",
+      "body": "Question: what index are you looking at specifically?",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1723578516,
+      "score": 1,
+      "link_id": "t3_1eqxqlq",
+      "parent_id": "t3_1eqxqlq"
+    },
+    {
+      "id": "lhxiyl2",
+      "body": "Bought some EVT Aug16 C 6,2 today, they will give a good earning release tomorrow",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1723565901,
+      "score": 1,
+      "link_id": "t3_1er3we9",
+      "parent_id": "t3_1er3we9"
+    },
+    {
+      "id": "lhvcrpg",
+      "body": "Question: I am using IBKR and cannot find the MACD indicator, anyone know if they removed that?",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1723529420,
+      "score": 1,
+      "link_id": "t3_1eqnlzj",
+      "parent_id": "t1_lhv4ob4"
+    },
+    {
+      "id": "lgsknfp",
+      "body": "I am pretty new to trading, can you tell me how you made nearly 9 bagger? I mean when you look at the calls for example for QQQ, they maybe have a leverage of 3…",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1722961423,
+      "score": 1,
+      "link_id": "t3_1ekp0y4",
+      "parent_id": "t3_1ekp0y4"
+    },
+    {
+      "id": "lg42m60",
+      "body": "Just one question, which trading platform are you guys using?",
+      "author": "pseudogelber",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1722589455,
+      "score": 0,
+      "link_id": "t3_1ei4emu",
+      "parent_id": "t3_1ei4emu"
+    },
+    {
+      "id": "lfdi6ax",
+      "body": "Pass de uf mit spritze und nassem, ha mau so eine tödet wöuis nid gwüsst ha. Dr luftöhre igang isch gad im maul (muesch hurti google), darum lieber ke flüssigkeite ge oder zersch i formiere wie verabreiche.",
+      "author": "pseudogelber",
+      "subreddit": "schwiiz",
+      "created_utc": 1722192303,
+      "score": 2,
+      "link_id": "t3_1ee9vg8",
+      "parent_id": "t1_lfdewf4"
+    },
+    {
+      "id": "lew2v6n",
+      "body": "You can use https://www.stmz.ch/de/ to further inform people about your missing cat, that at least worked for me. Further i have a tip from the k9 dig search team: disolve some of the cats favorite food in 1.5L of water bottle, shake it and make some holes in it. Now go different star like routes from your house (around 500m), where the route should never cross each other. So the cat will have a route to come back",
+      "author": "pseudogelber",
+      "subreddit": "bern",
+      "created_utc": 1721923832,
+      "score": 1,
+      "link_id": "t3_1ebankr",
+      "parent_id": "t3_1ebankr"
     }
   ]
 }

@@ -1,6 +1,95 @@
 {
   "username": "StefanFizyk",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1djn873",
+      "title": "Newbie advice",
+      "author": "StefanFizyk",
+      "subreddit": "crystallography",
+      "created_utc": 1718814059,
+      "score": 1,
+      "num_comments": 8,
+      "selftext": "Hi everyone, \n\nIm new to proper crystalography and need some advice:\n\nI collected a lot of 2D diffraction data recently on some inorganic crystals. Now the data is perhaps not perfect but using Crysalis I managed to reduce the data and the program finds the expected unit cell. Now problems start when I try to refine atomic positions. I used Olex2.15 with the ShelXL solver. \n\nHowever the structures it produced do not look at all like what I expected. Whats worder the program often adds atoms that are not in the crystal, like randomly introcuces C or I. ID this a common issue with a solution or is this due to poor ata quality? Weird thing is i collected data on the same crystal at different Temperatures expecting small shifts of atomic positions, and the program cannot find solutions for some temperatures and it can for others, even if there is no transition or anything in between. \n\nWould maybe anyone recommend better software for this?\n\n",
+      "url": "https://www.reddit.com/r/crystallography/comments/1djn873/newbie_advice/"
+    },
+    {
+      "id": "1cf2uz1",
+      "title": "300 Hz noise",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714298455,
+      "score": 52,
+      "num_comments": 19,
+      "selftext": "I recently bought a used active speaker. Whenever its plugged in the internal electronics produce an audiable 200 and 300Hz sound, even is the power switch is on 'off'. Noise comes really not via the speaker but the electronics.\n\nMy take is that something inside has to vibrate but the frequency is a bit weird. Id expect 50 or 100 Hz rather than 300. Anyone could point me to what this could be and whats a possible fix?\n\n(I attached the mesured sound spectrum)",
+      "url": "https://i.redd.it/i841bwcg17xc1.png"
+    },
+    {
+      "id": "1cd90iz",
+      "title": "300 Hz humm",
+      "author": "StefanFizyk",
+      "subreddit": "audioengineering",
+      "created_utc": 1714095438,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/audioengineering/comments/1cd90iz/300_hz_humm/"
+    },
+    {
+      "id": "1cd8smx",
+      "title": "300Hz hiss",
+      "author": "StefanFizyk",
+      "subreddit": "audiophile",
+      "created_utc": 1714094810,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/audiophile/comments/1cd8smx/300hz_hiss/"
+    },
+    {
+      "id": "1caes1l",
+      "title": "Revolut and credit card fraud",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713802286,
+      "score": 9,
+      "num_comments": 25,
+      "selftext": "Hi all,\n\nIm writing to ask for advice regarding a fraudulent transaction that was done on my Revolut Visa card.\n\nAt some point a series of 3 transactions happened on my account with the third one being blocked automatically. The 2 that went through were for almost 400 euro.\n\nNow the transactions were done on my “electronic card“ in a car rental in Republic of South Africa. Now clearly I have never been to RSA not did I share my card detail with anyone so its obvious that this is a fraud. I have tried to report those transactions to Revolut to get my money back from insurance but they refuse to help.\n\nThey claim that: “The transaction(s) you’ve told us you don’t recognise were authenticated from a device where your card was added to  Apple or Google Pay.””\n\nIt is clearly not the case. In fact the electronic card is not even added to my wallet on the phone.\n\nThe weirdest thing is that Revolut also wrote back that: “in order to attempt to remedy the situation and to express our comprehension of the distress you felt throughout, I decided to credit your account with 26.64 GBP. I hope that this gesture moves your complaint towards a resolution.” Is this a form of a joke?\n\nDid anyone have such an experience? Is there still any hope to get my money back? I mean stealing 400 euro is a serious crime that’s for once and what is the card insurance worth if it doesn’t cover cases like this?!",
+      "url": "https://www.reddit.com/r/Revolut/comments/1caes1l/revolut_and_credit_card_fraud/"
+    },
+    {
+      "id": "1c1dyqu",
+      "title": "Shall i get a subwoofer?",
+      "author": "StefanFizyk",
+      "subreddit": "BudgetAudiophile",
+      "created_utc": 1712838999,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "Hi,\n\nI have a pair of s20e polk audio speakers, im rather happy about them but somehow they seem to lack the very low end. I was considering adding a subwoofer, but im not sure if it makes sense (i read different opinions).\n\nWould that add the extra low end im looking for? If so what cheap subs could match well? (< 200euro, dont mind looking for used). Would an upgrade at this price point even make sense?\n\nThanks!",
+      "url": "https://www.reddit.com/r/BudgetAudiophile/comments/1c1dyqu/shall_i_get_a_subwoofer/"
+    },
+    {
+      "id": "1bn9shl",
+      "title": "Zoom interview",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1711360512,
+      "score": 3,
+      "num_comments": 9,
+      "selftext": "I have a question related to a TT assistant professor interview.\n\nI had alredy experienced a few campus visit interviews and I think i understood how this works. However one position I applied for has a two step process first with a zoom interview and then campus visit.\n\nI was invited for the first zoom stage but i really dont know what to expect. Any advice what this could be and how shoudl I prepare?\n\nIs it typically an interview with HR or alredy with the committ? I had a brief collaboration with one prof from that uni whose likely in the hiering commity, is it a in good taste to ask him for a dvice on this?",
+      "url": "https://www.reddit.com/r/Professors/comments/1bn9shl/zoom_interview/"
+    },
+    {
+      "id": "19etme5",
+      "title": "Pocisk w scianie, zagadka kryminalna?",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1706136099,
+      "score": 14,
+      "num_comments": 11,
+      "selftext": "Czesc,\n\nMam pytanie. Kumpel kupil mieszkanie w Lodzi na ul. Wieckowskiego i w czasie remontu znalazl w scianie pocisk z pistoletu.\n\nZ wstepnych rozkmin wywnioskowalismy ze: Kaliber 6,35 mm, Waga 3.24 gr, Koszulks niklowa, ołowiane wypełnienie. Najpewniej najpóźniej po I WŚ.\n\nChcielibysmy rozwikłac zagadke tego co tam sie stalo, ale nie bardzo wiemy od czego zaczac. Ktos moze zetknal sie z podobnym problemem? Gdzie zaczac poszukiwania tajemniczego strzelaca?\n\nPzdr,",
+      "url": "https://www.reddit.com/gallery/19etme5"
+    }
+  ],
   "comments": [
     {
       "id": "l9aobje",
@@ -11,6 +100,1226 @@
       "score": 9,
       "link_id": "t3_1djbsd6",
       "parent_id": "t1_l99rwtx"
+    },
+    {
+      "id": "latanzr",
+      "body": "That's only true assuming The Holy Roman empire and Germany are very different things, but for most practical discussions they are the same thing imo.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAGerman",
+      "created_utc": 1719657063,
+      "score": 2,
+      "link_id": "t3_1dr4sik",
+      "parent_id": "t1_lasv2pw"
+    },
+    {
+      "id": "lataeqp",
+      "body": "Interesting, so for example Gdansk has been a Polish city in the years 997-1308 (was in the Dutchy of Pomerania, at the time a Slavic princedom: 1227-1294). Then it was under the rule of the Teutonic Order until 1454. Again Polish until 1793 and then +- German until 1945 with two periods of being a free state 1807-1814 and 1920-1938.\n\nSo in total it was under German rule for ~270 years out of its 1027 years of written history. So not by any means a German city by foundation and for hundreds of years.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAGerman",
+      "created_utc": 1719656903,
+      "score": 2,
+      "link_id": "t3_1dr4sik",
+      "parent_id": "t1_lat2hqt"
+    },
+    {
+      "id": "lan3po1",
+      "body": "Yes",
+      "author": "StefanFizyk",
+      "subreddit": "Physics",
+      "created_utc": 1719554613,
+      "score": 1,
+      "link_id": "t3_1dqb9cm",
+      "parent_id": "t1_lamvfny"
+    },
+    {
+      "id": "l9yxpav",
+      "body": "So honestly this doesn't sound as if they were not smart enough to finish tasks but somewhat distracted...maybe you could gently direct them at getting professional help?\n\nPerhaps your university has someone like an ombudsman? Those people should be trained to help in such situations.\n\nI witnessed similar problems twice in my group as a post-doc and this turned out to be the best solution.",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1719182904,
+      "score": -2,
+      "link_id": "t3_1dms1ti",
+      "parent_id": "t1_l9xq35g"
+    },
+    {
+      "id": "l9xp80u",
+      "body": "There is also a possibility that you forgot how time consuming some tasks are. \n\nYou remember you did taks xyz in 3h but maybe its just a fake memory and indeed when doing the thing the first time it took you 7+...\n\nNot saying its the problem but could be... I caught myself on this a few times.",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1719166678,
+      "score": 1,
+      "link_id": "t3_1dms1ti",
+      "parent_id": "t3_1dms1ti"
+    },
+    {
+      "id": "l9vvf0j",
+      "body": "Or Godels incompleteness theorem 😂",
+      "author": "StefanFizyk",
+      "subreddit": "OuterRangePrime",
+      "created_utc": 1719138205,
+      "score": 3,
+      "link_id": "t3_1dm8nyz",
+      "parent_id": "t1_l9ul76o"
+    },
+    {
+      "id": "l9la9d5",
+      "body": "Albo wpadła w depresje a ty ja porzuciłes w chorobie zamiast wspierac :)",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1718961200,
+      "score": -8,
+      "link_id": "t3_1dkynhx",
+      "parent_id": "t1_l9l8lgr"
+    },
+    {
+      "id": "l9hpp38",
+      "body": "Will try, thanks!",
+      "author": "StefanFizyk",
+      "subreddit": "crystallography",
+      "created_utc": 1718904450,
+      "score": 1,
+      "link_id": "t3_1djn873",
+      "parent_id": "t1_l9d99pu"
+    },
+    {
+      "id": "l9hgm1c",
+      "body": "Nie jestem pewien czy  'w koncu wrocimy' nie powinno byc zastapione 'nareszcie wróciliśmy'.\n\nNp 'na zachodzie' kariera akademicka juz jest tak ryzykowna ze bez dobrego finansowego zaplecza tylko szaleniec sie na to moze porwać.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1718901533,
+      "score": 2,
+      "link_id": "t3_1dj3ucv",
+      "parent_id": "t1_l9fxezt"
+    },
+    {
+      "id": "l9fvvn1",
+      "body": "Nie no dlaczego? Nie widze problemu. Ty zebrzesz i zap***** a ktos inny zbiera blichtr i splendor.\n\nNa moje oko Święty Gral akademickich administratorow.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1718878274,
+      "score": 4,
+      "link_id": "t3_1dj3ucv",
+      "parent_id": "t1_l9fim3d"
+    },
+    {
+      "id": "l9aujdo",
+      "body": "Poszedlbym dalej, nauka to dla wiekszosci naukowcow glowne hobby. Wiec powinniśmy placic za mozliwosc pracy badawczej. Alle zaraz... tak wlasnie jest! \n\nNajpierw zebry o pieniadze a potem mozna sie bawic jak juz nas łaskawcy obdaruja 😂",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1718801272,
+      "score": 4,
+      "link_id": "t3_1dj3ucv",
+      "parent_id": "t1_l9ase58"
+    },
+    {
+      "id": "l94w5qh",
+      "body": "Well detection of gravitational waves was also just a PRL. So was my silly PhD.\n\nMy point is that the journal where things are published has nothing to do with quality and impact so saying 'just PRL' brings disregard to the content based on flawed criteria.\n\nThat the press release is click bite and overselling is another story.",
+      "author": "StefanFizyk",
+      "subreddit": "Physics",
+      "created_utc": 1718707444,
+      "score": -2,
+      "link_id": "t3_1di3bfr",
+      "parent_id": "t1_l912wpz"
+    },
+    {
+      "id": "l911yyu",
+      "body": "\"Just\" a PRL article 😂",
+      "author": "StefanFizyk",
+      "subreddit": "Physics",
+      "created_utc": 1718645294,
+      "score": -31,
+      "link_id": "t3_1di3bfr",
+      "parent_id": "t1_l910pt3"
+    },
+    {
+      "id": "l8uc1mg",
+      "body": "I would start reading Feynman lectures. Thats exactly what I did in highschool and the level was what i needed since he focuses more on the physics and intuition less on math. Then in parallel you can study algebra and calculus to better understand the formalism from proper textbooks.",
+      "author": "StefanFizyk",
+      "subreddit": "Physics",
+      "created_utc": 1718533328,
+      "score": 1,
+      "link_id": "t3_1dgrky5",
+      "parent_id": "t3_1dgrky5"
+    },
+    {
+      "id": "l8jxim5",
+      "body": "\"W imie zasad...\"",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1718354836,
+      "score": 5,
+      "link_id": "t3_1dflonr",
+      "parent_id": "t1_l8jx4gn"
+    },
+    {
+      "id": "l7uztgw",
+      "body": "Which journal are you aiming at?",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1717962704,
+      "score": 2,
+      "link_id": "t3_1dbysh1",
+      "parent_id": "t1_l7uanjt"
+    },
+    {
+      "id": "l7tsrsn",
+      "body": "What i interdisciplinary journals did you try?\n\nYou can either go to tier lower journals... or hype the stuff and go for nature journals 🤷",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1717947509,
+      "score": 2,
+      "link_id": "t3_1dbu4us",
+      "parent_id": "t3_1dbu4us"
+    },
+    {
+      "id": "l7hthhg",
+      "body": "Well its rather known when it works: MW works well if interactions are short range.",
+      "author": "StefanFizyk",
+      "subreddit": "CondensedMatter",
+      "created_utc": 1717743960,
+      "score": 1,
+      "link_id": "t3_1d8wyen",
+      "parent_id": "t1_l7dmooo"
+    },
+    {
+      "id": "l7hle4u",
+      "body": "I see no one said this but imo it needs to be said:relax and be happy that he is talking about hitting students rather than hitting on students. 🤷",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1717738802,
+      "score": 1,
+      "link_id": "t3_1d9l42v",
+      "parent_id": "t3_1d9l42v"
+    },
+    {
+      "id": "l7981kk",
+      "body": "Not exactly sure what you mean. But effectively the highest Tc occurs in the cuprates that are kind of quasi-2D. Then in pure 1D you get Luttinger liquids not superconductors. Not sure if that answers your question though...",
+      "author": "StefanFizyk",
+      "subreddit": "CondensedMatter",
+      "created_utc": 1717612201,
+      "score": 5,
+      "link_id": "t3_1d8wyen",
+      "parent_id": "t3_1d8wyen"
+    },
+    {
+      "id": "l6tkpd6",
+      "body": "Solution: turned out it was the transformer. It was producing a 50 and 100Hz hum as well once i opened the chassis.\n\nSoaking it in glue did the trick.",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1717363131,
+      "score": 1,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t3_1cf2uz1"
+    },
+    {
+      "id": "l6rhooj",
+      "body": "Yes, in Germany prices increased steeply but so did salaries.\n\nI lived for a few years in CH with an average salary and then moved to DE also for something around an average salary. Tbh my living standard in DE is higher.",
+      "author": "StefanFizyk",
+      "subreddit": "Switzerland",
+      "created_utc": 1717334470,
+      "score": 9,
+      "link_id": "t3_1d6apr6",
+      "parent_id": "t1_l6r4lah"
+    },
+    {
+      "id": "l6m8f3x",
+      "body": "Coz, Tobie ta porada nie pomoze juz, ale przy wyborze grupy na doktorat trzeba sie uważanie przyjrzeć potencjalnej grupie: Ile publikuja, gdzie i co. Napisac maile do aktualnych czlonkow grupy (np doktorantow) i poprosic o rozmowe na zoomia. Tam wypytac sie o atmosfere, widoki na przyszlosc, i potencjalny promotor nie jest psychopata. Mozna tez podpytac o inne rzeczy jak koszty zycia etc\n\nAle spodziewam sie ze srednio te  wszystkie te rzeczy beda lepiej wyglądały na zachod od Odry",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1717245522,
+      "score": 1,
+      "link_id": "t3_1d097cc",
+      "parent_id": "t1_l6m752b"
+    },
+    {
+      "id": "l6m5fc3",
+      "body": "Oczywiście uogólniam, bo dyskusja jest ogolna... Jest w Polsce kilka ośrodków robiacych dobra nauke, ba, nawet mozna niezle zyc jak sie trafi na doktorat z grantu. Tak samo, wyjazd za granice nie jest gwarantem sukcesu bo wszedzie na swiecie sa uczelnie i grupy nic nie warte. Tez wybierajac miejsce na doktorat trzeba mu sie bardzo uwaznie przyjrzeć\n\n\nNiemniej jednak poza Polska jest znacznie wiecej możliwości zarówno rozwoju naukowego jak i utrzymania sie na godnym poziomie wiec dla typowego młodego naukowca wyjazd jest moim zdaniem w oczywisty sposob korzystniejszy.\n\nTakze jak nie ma sie matki umierającej na raka polecam goraco spakowac sie i szukac szczescia w swiecie.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1717244091,
+      "score": 1,
+      "link_id": "t3_1d097cc",
+      "parent_id": "t1_l6lw7oj"
+    },
+    {
+      "id": "l6lvpvj",
+      "body": "Nie wszyscy moga, jednak wiekszosc moze i wlasnie tej wiekszosci polecam goraco wyjazd. \n\nA ci którzy nie moga sa w ojczyźnie bardzo potrzebni bo Polski system akademicki z założenia opiera sie na na desperacji ludzi ktory nie maja wyboru.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1717239014,
+      "score": 1,
+      "link_id": "t3_1d097cc",
+      "parent_id": "t1_l6gveij"
+    },
+    {
+      "id": "l6b19du",
+      "body": "I have the exact same problem i germany...",
+      "author": "StefanFizyk",
+      "subreddit": "Switzerland",
+      "created_utc": 1717065622,
+      "score": 1,
+      "link_id": "t3_1d3kk3e",
+      "parent_id": "t3_1d3kk3e"
+    },
+    {
+      "id": "l5w35hc",
+      "body": "I second cannabis, although the next day you might be less motivated and have trouble forcing yourself if it gets tough.\n\nWhat does work for me is aspirin though.",
+      "author": "StefanFizyk",
+      "subreddit": "Mountaineering",
+      "created_utc": 1716822292,
+      "score": 5,
+      "link_id": "t3_1d1qcdl",
+      "parent_id": "t1_l5vxjtc"
+    },
+    {
+      "id": "l5srx3y",
+      "body": "Poslalem Ci DM",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1716758883,
+      "score": 1,
+      "link_id": "t3_1d1aktn",
+      "parent_id": "t1_l5soqom"
+    },
+    {
+      "id": "l5sntql",
+      "body": "Sam robilem doktorat z fizyki za granica, nie wydaje mi sie zeby bylo jakos szczegolnie trudno sie na studia dostac. Oczywiscie jesli szukasz PhD w prestiżowych instytucjach moze byc duza konkurencja, ale zdecydowanie jest to wykonalne.\n\nNatomiast co do tego jakie sa oczekiwania to zalezy mocno od dziedziny. Jesli interesuje ci fizyka (cialo stale), moge skomentowac szerzej czego szukamy najczęściej w kandydatach.\n\nPomysl ze Polacy sa traktowani jako naukowcy/doktoranci drugiej kategorii należy generalnie włożyć miedzy bajki.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1716757270,
+      "score": 12,
+      "link_id": "t3_1d1aktn",
+      "parent_id": "t3_1d1aktn"
+    },
+    {
+      "id": "l5mar2u",
+      "body": "Zdecydowanie! Pensja bedzie na wyjściu duzo lepsza a i perspektywy na przyszłość jaśniejsze.\n\nA do Polski zawsze mozna wrocic 🤷",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1716648957,
+      "score": 5,
+      "link_id": "t3_1d097cc",
+      "parent_id": "t1_l5lp9hm"
+    },
+    {
+      "id": "l5fvb4g",
+      "body": "Any news? Im quite invested in this story.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1716535983,
+      "score": 1,
+      "link_id": "t3_1cv0wxc",
+      "parent_id": "t1_l4nh5jt"
+    },
+    {
+      "id": "l4ndb0v",
+      "body": "Well, if they don't get a \"big\" first author paper now the career is over anyway, but thats just my opinion 🤷",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1716065297,
+      "score": -1,
+      "link_id": "t3_1cv0wxc",
+      "parent_id": "t1_l4nax3d"
+    },
+    {
+      "id": "l4naeoo",
+      "body": "Actually how many other authors will be on this paper? If its only you and the PI I wouldn't bother too much. \n\nIf its many co-authors and youre second or later I would advise fighting to the death for first authorship.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1716064101,
+      "score": 8,
+      "link_id": "t3_1cv0wxc",
+      "parent_id": "t3_1cv0wxc"
+    },
+    {
+      "id": "l4n8e7e",
+      "body": "I fully endorse this. As a 7 year post doc you have nothing to lose. Its make or break for you now so go for it and pull out the big guns.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1716063270,
+      "score": 0,
+      "link_id": "t3_1cv0wxc",
+      "parent_id": "t1_l4n3cvo"
+    },
+    {
+      "id": "l4l0ebf",
+      "body": "Spacery sa zajebiste. Ale najważniejsze imo jest zeby zadbać o diete.\n\nZ wysilkiem fizycznym wiąże sie ryzyko ze poczujesz sie glodny po wysilku i zjesz nieproporcjonalnie duzo w stosunku do spalonych kalorii po powrocie do domu, wiec ostroznie!\n\nDobrze jest śledzić caly czas ile sie spala i ile sie zjada. W przypadku sportu zegarki sportowe pomagaja liczyc kalorie i sledzic postepy (ich szacunki kalorii nie sa idealne ale daja dobry rzad wielkosci).",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1716029130,
+      "score": 2,
+      "link_id": "t3_1cusppw",
+      "parent_id": "t1_l4ksrcc"
+    },
+    {
+      "id": "l4kqzgj",
+      "body": "Ale tylko jesli biegasz w spacerowym tempie 😂",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1716022433,
+      "score": 8,
+      "link_id": "t3_1cusppw",
+      "parent_id": "t1_l4kqokh"
+    },
+    {
+      "id": "l4hz4d2",
+      "body": "Unless it is stated in the advertisement explicitly. This is for instance the case in Germany at the moment. \n\nSo yes the committee doesn't have to deal with the problem because candidates sort out themselves at the application stage.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715973763,
+      "score": 3,
+      "link_id": "t3_1cu8myz",
+      "parent_id": "t1_l4hux09"
+    },
+    {
+      "id": "l4hyj51",
+      "body": "Good luck! I'm curious to hear how it goes in 5-10 years .",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715973551,
+      "score": 2,
+      "link_id": "t3_1cu8myz",
+      "parent_id": "t1_l4hnrf8"
+    },
+    {
+      "id": "l4hrjd4",
+      "body": "You might, i was always ugly 🥲",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715971079,
+      "score": 2,
+      "link_id": "t3_1cu8myz",
+      "parent_id": "t1_l4hhkdd"
+    },
+    {
+      "id": "l4hf2j5",
+      "body": "I mean it makes sense in terms of (money spend/work done), its better to hire a cheap young guy that will need to be trained to do the job for a few years than a guy who can start working immediately for a slightly higher salary. The reason why this is better is because the young guy learns everything himself and no extra costs are needed to train him. In particular no other staff members need to be involved in training. And while he gains experience he does a top notch job anyway.\n\nSeriously, if real life businesses operated the way academia admins believe things work society would collapse within months.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715966704,
+      "score": 6,
+      "link_id": "t3_1cu8myz",
+      "parent_id": "t1_l4ha0m5"
+    },
+    {
+      "id": "l4h4x4f",
+      "body": "Well its not ageism its youthism and its escalating...\n\nIn europe more and more institutions dont even consider you for roles like assistant prof. if youre older than 2-4 years after phd. even if otherwise you would be a perfect fit. \n\nWhy this happens i have no idea, but id say its an idea of the admins not the faculty.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715963140,
+      "score": 14,
+      "link_id": "t3_1cu8myz",
+      "parent_id": "t3_1cu8myz"
+    },
+    {
+      "id": "l4c72rg",
+      "body": "So i can share my experience: if i had a well defined question (technical, state of the art or such) my advisor would help me find an answer or tell  me the answer right away if he knew, but...he never gave me a project or subject to study. So for the first year i felt completely lost and had an impression he didnt care. In the end i figured out a project for myself, it was not great or extremely insightful but i managed to write a paper out of it (he did help a lot with that).\n\nI think this was the most important and formative experience in my career. I am deeply thankful to my supervisor that he pretended not to care (in the end he did and i think he was just subtly guiding me). This made me fully independent early on and allowed me to really take advantage of the  first post doc position.\n\nIn my opinion you should just try to make the b st out of the situation. Youre in a lab with knowledgeable people who will help you tackle technical questions, so toughen up, find a problem you find interesting and go for it. Dont count on anyone giving you stuff to do.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715882159,
+      "score": 3,
+      "link_id": "t3_1ctdgdw",
+      "parent_id": "t1_l4bgf81"
+    },
+    {
+      "id": "l3rklgz",
+      "body": "Where i did my PhD (in physics) the expectation was that every student graduates with 2-3 first author papers. Now for post-docs one expects at least the same level of output. With some wiggle room if you aim for high impact journals.\n\nNow a post doc with 4 years and no papers has no chance to secure a faculty position unless there is realistic hope to get a Science/Nature next year or several lover tier papers from all those years. \n\nIts even worse, some countries started to enforce rules that you cannot even apply for many positions if you're past 4 years after PhD (Germany at least and seems France is going that direction). So even getting the papers would not save him there...\n\nI would really ask your bf what his plan is, with details.... Maybe the career can be saved but clearly what he has been doing so far didnt work.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715549745,
+      "score": 5,
+      "link_id": "t3_1cqbymv",
+      "parent_id": "t3_1cqbymv"
+    },
+    {
+      "id": "l3i2shf",
+      "body": "I would add how amazing the search for academic jobs is! \n\nLike youre invited for an interview and randoms grill you for 10-12h on every aspect of your life often making nasty comments or asking questions 'to check your reaction\" putting you to insane standards when often most of the commity wouldnt even get to the interview stage with the CV they had when they were your age...\n\nAnd my favorite question is why do you want to work particularly at THIS university. When in reality you usually dont give a fuck. Its just one of the 5 offers that appeared this year and you applied to all of them. The committee knows what the state of the market is but still want you to praise how amazing and unique their institution is...and then the ghosting for months on end...🥰",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715382640,
+      "score": 30,
+      "link_id": "t3_1cospcl",
+      "parent_id": "t3_1cospcl"
+    },
+    {
+      "id": "l3i16jp",
+      "body": "This works!",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1715381963,
+      "score": 9,
+      "link_id": "t3_1cospcl",
+      "parent_id": "t1_l3hdpws"
+    },
+    {
+      "id": "l396zdz",
+      "body": "Jak daja to bierz jak bija to spierdalaj.",
+      "author": "StefanFizyk",
+      "subreddit": "ask",
+      "created_utc": 1715243690,
+      "score": 1,
+      "link_id": "t3_1cnpa5l",
+      "parent_id": "t3_1cnpa5l"
+    },
+    {
+      "id": "l1tu3l5",
+      "body": "In my are 50Hz is the mains frequency.\n\nThe noise is always there, always at the same intensity regardless if music is playing or not or whether the power switch is on or off.\n\nActually i heard that from chargers too.",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714417679,
+      "score": 1,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t1_l1pah77"
+    },
+    {
+      "id": "l1ttnts",
+      "body": "I tried the ferrite and another location and doesnt help...",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714417526,
+      "score": 1,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t1_l1pwem2"
+    },
+    {
+      "id": "l1ttdf5",
+      "body": "Indeed, the power cable has just signal and neutral, no ground...",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714417428,
+      "score": 1,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t1_l1n1diw"
+    },
+    {
+      "id": "l1rslve",
+      "body": "Come on, i just had a look at my portfolio an its not as bad as this 😂",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714390288,
+      "score": 1,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t1_l1qoft8"
+    },
+    {
+      "id": "l1o5aq0",
+      "body": "Hmm, i bought it used and it didnt have a cord included, could that help?",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714326760,
+      "score": 1,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t1_l1myrbd"
+    },
+    {
+      "id": "l1nsw5l",
+      "body": "Hmm, i bought it used and it didnt have a cord included, could that help?",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714322251,
+      "score": 3,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t1_l1myrbd"
+    },
+    {
+      "id": "l1mic91",
+      "body": "So what i find odd is that the vibrations occur at the 3rd and 5th harmonic but other ones are not there at all.\n\nEo my logic would be that the transformer could humm at 50hz and the rectifier. At 100Hz.",
+      "author": "StefanFizyk",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714301756,
+      "score": 14,
+      "link_id": "t3_1cf2uz1",
+      "parent_id": "t3_1cf2uz1"
+    },
+    {
+      "id": "l1m9bu9",
+      "body": "I guess you got all the serious advice needed. But I'm wondering, what class do you teach? Its not cyber security, right?",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1714295139,
+      "score": 1,
+      "link_id": "t3_1ceu008",
+      "parent_id": "t3_1ceu008"
+    },
+    {
+      "id": "l1fw0xc",
+      "body": "Why would it be expected? For instance showing that an expected effect doesnt exist is in my opinion as important, if not more, than finding a new effect.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1714181414,
+      "score": 1,
+      "link_id": "t3_1cdb9w1",
+      "parent_id": "t1_l1ff6tk"
+    },
+    {
+      "id": "l1bwtwr",
+      "body": "Nature Physics wrote to me once they dont really publish 'negative results' 🤔",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1714126703,
+      "score": 8,
+      "link_id": "t3_1cdb9w1",
+      "parent_id": "t1_l1bmqqd"
+    },
+    {
+      "id": "l1adc7i",
+      "body": "Hi Everyone,\n\nFollowing the advice found here i recently bouhgt a Mivoc Hype subwoofer.\n\nNow the problem is that whenever i plug it into a power outlet the electronics inside start to produce a 300 Hz noise. Its so loud thay the sub cannot be even pluged in, its too disturbing. Now the noise persists even if the sub power switch is set to 'off'.\n\nNow none of the other electronics including my yamacha amplituner or guitar and bass amps have this problem so i doubt it some problem from the mains. I also tried connecting it va a transformer but the problem persisted.\n\nNow noise at 50 or 100Hz i could understand but 300 is a bit of a weird number. Anyone had such a problem before? Which part of the electronics could be the problem?",
+      "author": "StefanFizyk",
+      "subreddit": "audiophile",
+      "created_utc": 1714095541,
+      "score": 1,
+      "link_id": "t3_1cb9s4a",
+      "parent_id": "t3_1cb9s4a"
+    },
+    {
+      "id": "l1ad7g0",
+      "body": "Following the advice found here i recently bouhgt a Mivoc Hype subwoofer.\n\nNow the problem is that whenever i plug it into a power outlet the electronics inside start to produce a 300 Hz noise. Its so loud thay the sub cannot be even pluged in, its too disturbing. Now the noise persists even if the sub power switch is set to 'off'.\n\nNow none of the other electronics including my yamacha amplituner or guitar and bass amps have this problem so i doubt it some problem from the mains. I also tried connecting it va a transformer but the problem persisted.\n\nNow noise at 50 or 100Hz i could understand but 300 is a bit of a weird number. Anyone had such a problem before? Which part of the electronics could be the problem?",
+      "author": "StefanFizyk",
+      "subreddit": "audioengineering",
+      "created_utc": 1714095494,
+      "score": 1,
+      "link_id": "t3_1cahigm",
+      "parent_id": "t3_1cahigm"
+    },
+    {
+      "id": "l1787kh",
+      "body": "I did my PhD in Switzerland and 5 or 6 weeks of vacations every year and took every single day. In fact it was frowned upon to not take them.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1714053079,
+      "score": 17,
+      "link_id": "t3_1ccjiv8",
+      "parent_id": "t1_l16qozv"
+    },
+    {
+      "id": "l14dcm4",
+      "body": "Take this as the most important advice in life: it is crucial that volume and gain go to max. Rest is irrelevant.",
+      "author": "StefanFizyk",
+      "subreddit": "Guitar",
+      "created_utc": 1714000697,
+      "score": 1,
+      "link_id": "t3_1cbnlu0",
+      "parent_id": "t1_l147xmf"
+    },
+    {
+      "id": "l143qxm",
+      "body": "One question...why all the pots are at 0?",
+      "author": "StefanFizyk",
+      "subreddit": "Guitar",
+      "created_utc": 1713996978,
+      "score": 1,
+      "link_id": "t3_1cbnlu0",
+      "parent_id": "t3_1cbnlu0"
+    },
+    {
+      "id": "l11a4ai",
+      "body": "Exactly, had the same!",
+      "author": "StefanFizyk",
+      "subreddit": "Guitar",
+      "created_utc": 1713961874,
+      "score": 3,
+      "link_id": "t3_1cbnlu0",
+      "parent_id": "t1_l113d41"
+    },
+    {
+      "id": "l0sp291",
+      "body": "So are you saying a way out would be to contact  visa directly?",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713821090,
+      "score": 1,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0sjdaa"
+    },
+    {
+      "id": "l0soypd",
+      "body": "Well the thing is i am 100% sure I didn't add the card to \"google pay\" and for sure didn't confirm anything.\n\nSo it doesn't seem very obvious to me...",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713821054,
+      "score": 1,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0sg9ti"
+    },
+    {
+      "id": "l0snuwi",
+      "body": "Yes, it was the virtual card!",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713820639,
+      "score": 1,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0smluz"
+    },
+    {
+      "id": "l0rr4n7",
+      "body": "Well, OK the account to transfer money is GB indeed.",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713807105,
+      "score": 1,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0rmnrl"
+    },
+    {
+      "id": "l0rh8mk",
+      "body": "Number of the beast XD",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713803728,
+      "score": 1,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0rfvt5"
+    },
+    {
+      "id": "l0rh1zz",
+      "body": "I have alredy changed all passwords. \n\nSo for the ombudsman they told me to:  \n\"If we didn’t meet your expectations, you may refer your complaint to the UK’s Financial Ombudsman Service free of charge.\"\n\nHowever I live in Switzerland and thats where I set up the Revolut account...  \nSo you think all other options discussing with Revolut/Visa are exhausted?",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713803665,
+      "score": 2,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0rf0od"
+    },
+    {
+      "id": "l0rgihv",
+      "body": "I only use Revolut for single payments, I keep all my money on a different account. The problem was I needed to pay for a hotel by card and transfered some money the day beore to have it avaliable.... Was really unlucky.",
+      "author": "StefanFizyk",
+      "subreddit": "Revolut",
+      "created_utc": 1713803480,
+      "score": 1,
+      "link_id": "t3_1caes1l",
+      "parent_id": "t1_l0rfg1x"
+    },
+    {
+      "id": "l0458bi",
+      "body": "Imo Germany is becoming a provincial country in general...",
+      "author": "StefanFizyk",
+      "subreddit": "AskGermany",
+      "created_utc": 1713428148,
+      "score": -1,
+      "link_id": "t3_1c6gflr",
+      "parent_id": "t1_l041tb6"
+    },
+    {
+      "id": "l044zwt",
+      "body": "I did live in Zrh and now in Germany. Moving back to Switzerland as soon as i find a good job.",
+      "author": "StefanFizyk",
+      "subreddit": "AskGermany",
+      "created_utc": 1713427968,
+      "score": 1,
+      "link_id": "t3_1c6gflr",
+      "parent_id": "t1_l0433g1"
+    },
+    {
+      "id": "l044woq",
+      "body": "I moved from Zrh to Germany some time ago for work.\n\nSalary wise you will be doing much better since prices in De are really low but:\n\nOther than that...DONT DO IT!!!\n\nYour life quality even though you will be in a sense wealthier will drop. The quality of services in Germany is horrible in comparison. A few basic examples:\n\nInternet/cell phone connections quality are horrible. Ie its almost impossible to work on a train since there is next to no 4g coverage (not even 3g).\n\nRestaurants on average have a much lower quality. You will get always a lot of food but not very good. I mean there are good restaurants but you have to really seek them out. If you enter a random one in town you might cry seeing the food. (Dont even want to mention food in canteens...)\n\nYou will have to go everywhere by car since public transport is a joke, never on time always on strike. Every time I took DB to go anywhere i ended either hours late or stranded in some shithole.\n\nIn Zurich you have plenty of expats so its easy to make friends. Its not the case of Germany, expats are here but dispersed a lot so it's tough to meet. Germans themselves are similarly to the Swiss typically not very interested in making friends with expats. \n\nIf you dont speak German (i dont) be ready to hear malicious comments in shops etc. Unlike the people in Zrh, Germans are not so much used to hearing foreign languages. Especially in small towns like Nurnberg are not so cosmopolitan.\n\nI don't know what your favorite pass time activity is, but for me moving away from the Alps is a deal breaker.\n\nMyself i am moving back to Zrh as soon as there's an opportunity.\n\nOf course everything is based on my experiences, maybe Nurnberg will be a paradise on earth😂😂😂",
+      "author": "StefanFizyk",
+      "subreddit": "AskGermany",
+      "created_utc": 1713427899,
+      "score": 1,
+      "link_id": "t3_1c6gflr",
+      "parent_id": "t3_1c6gflr"
+    },
+    {
+      "id": "kz38olz",
+      "body": "I found used for 100, thats even better 😁",
+      "author": "StefanFizyk",
+      "subreddit": "BudgetAudiophile",
+      "created_utc": 1712849517,
+      "score": 1,
+      "link_id": "t3_1c1dyqu",
+      "parent_id": "t1_kz34t8i"
+    },
+    {
+      "id": "kz2zzih",
+      "body": "I could actually :>",
+      "author": "StefanFizyk",
+      "subreddit": "BudgetAudiophile",
+      "created_utc": 1712846622,
+      "score": 1,
+      "link_id": "t3_1c1dyqu",
+      "parent_id": "t1_kz2sjfz"
+    },
+    {
+      "id": "kz2hx0n",
+      "body": "So for instance i saw a polk audio psw10 used, under 200 euro.\n\nI read one review where it doesnt look bad except the 'port noise', i never heard that term before so its tough to judge hiw big of a problem this would be...\n\nhttps://www.avsforum.com/threads/polk-psw10-omnimic-frequency-response-graphs.1457357/",
+      "author": "StefanFizyk",
+      "subreddit": "BudgetAudiophile",
+      "created_utc": 1712839865,
+      "score": 1,
+      "link_id": "t3_1c1dyqu",
+      "parent_id": "t1_kz2g2m5"
+    },
+    {
+      "id": "ky95enf",
+      "body": "Zalezy pewnie od uczelni. Ja jak studiowałam pare lat temu na politechnice chodziłam tylko na cwiczenia (nie wszystkie) i laboratoria. Wyklady uznawalem za strate czasu bo szybciej ogarnialem material z podręczników. Tak samo bylo na studiach magisterskich za granico. Nikt mi zlego slowa nie powiedzial.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1712362790,
+      "score": 4,
+      "link_id": "t3_1bws6p0",
+      "parent_id": "t3_1bws6p0"
+    },
+    {
+      "id": "ky0z2vc",
+      "body": "I agree, either 50 or 2x30. Some time ago I was travelling a glacier in a team of 2 and my partner fell into a crevasse covered by snow (a huge one, essentially a free fall). The snow was very compact and frozen so he dragged me almost 10m, even though I am almost 20kg heavier, before I managed to stop. With a single 30m rope would have been very dangerous and in addition difficult to get him out.",
+      "author": "StefanFizyk",
+      "subreddit": "Backcountry",
+      "created_utc": 1712245175,
+      "score": 4,
+      "link_id": "t3_1bvjgnq",
+      "parent_id": "t1_kxzrf2e"
+    },
+    {
+      "id": "kxqcghg",
+      "body": "Jak taki rolnik ma konkurowac z wielka firma? Wcale ma z nie ma z nia konkurowac. Struktura Polskiego rolnictwa jest archaiczna i niewydajna. \n\nMoj rolniczy postulat to reforma rolna likwidujaca rozdrobnienie.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1712080917,
+      "score": 6,
+      "link_id": "t3_1bu062y",
+      "parent_id": "t1_kxq5iae"
+    },
+    {
+      "id": "kxqbsib",
+      "body": "I czemu prawdopodobnie ci sami ludzie teraz sa oredownikami protestow rolnikow:)",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1712080702,
+      "score": 15,
+      "link_id": "t3_1bu062y",
+      "parent_id": "t1_kxq6kr6"
+    },
+    {
+      "id": "kxqbjsc",
+      "body": "Jeszcze wonieje od tych protestow ruska onuca na kilometr.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1712080625,
+      "score": 2,
+      "link_id": "t3_1bu062y",
+      "parent_id": "t1_kxpvtmz"
+    },
+    {
+      "id": "kxqbbdw",
+      "body": "Wtedy mozna wpuścić ukrainskie produkty bez ograniczen i nikt z glodu nie umrze. Ukraincy beda miec pieniadze by byc ruskich, my bedziemy miec tania zywnosc i zaoszczedzimy na KRUSie.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1712080550,
+      "score": -8,
+      "link_id": "t3_1bu062y",
+      "parent_id": "t1_kxq7gj4"
+    },
+    {
+      "id": "kxkv2zf",
+      "body": "This",
+      "author": "StefanFizyk",
+      "subreddit": "gdansk",
+      "created_utc": 1711995658,
+      "score": 2,
+      "link_id": "t3_1bt1vbi",
+      "parent_id": "t1_kxjd0hj"
+    },
+    {
+      "id": "kx8zt6v",
+      "body": "To zabrzmi pewnie kontrowersyjnie ale praca badawcza (szczegolnie w naukach teoretycznych), to nie to samo co praca w fabryce azbestu i czas jej poswiecony ciezko skwantyfikowac. W wiekszosci polega na zastanawianiu sie nad problemami i nie ma znaczenia czy robi sie to w toalecie, w samochodzie czy na spacerze, tak dlugo jak powstaje z tego cos kreatywnegoco co popycha do przodu nasze zrozumienie swiata. \n\nMoze wiec zamiast uzywac argumetu 'spi do 12' opowiedz nam jaki dorobek naukowy ma ten kolega? \n\nTutaj dygresja: 'Spanie do 12' jako przyklad lenistwa jest zwykla demagogia. To ze spi do 12 oznacza ze prawdopodobnie chodzi spac o 4. Nie dziwi mnie to, tez jestem najbardziej wydajny kiedy juz wszyscy spia i nikt mi nie zawraca glowy.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1711804801,
+      "score": 3,
+      "link_id": "t3_1bqzg8x",
+      "parent_id": "t1_kx8v1lc"
+    },
+    {
+      "id": "kx8j1i3",
+      "body": "Nie do konca jest to prawda: dyrektor moze zaoferowac Ci stala posade. Rowniez liderzy zespolow maja przewaznie stale umowy. To daje calkiem spory korpus zatrudnionych na stale pracownikow. Faktycznie post-docy i doktoranci sa zatrudniani tymczasowo. Natomiast MPI moze sobie na to pozwolić bo oferuje na tych tymczasowych pozycjach bardzo atrakcyjne uposazenie wiec kandydatow nie brakuje.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1711795184,
+      "score": 3,
+      "link_id": "t3_1bqzg8x",
+      "parent_id": "t1_kx8gv81"
+    },
+    {
+      "id": "kx8glma",
+      "body": "Coz, nie da sie ukryc ze tak naprawde pieniadze rozwiazuja wiele problemow.\n\nWezmy za przyklad stowarzyszenie Maxa-Plancka: jest to instytucja tak dysfunkcyja ze przecieram oczy ze zdumienia. Ma feudalna strukture, dyrektor jest nieomal drugi po bogu. Audyty i oceny instytutow to festiwale klepania sir po plecach przez wieloletnich znajonych, wiec tez niewiele to wnosi. A jednak instytuty MPI sa w wiekszosci wiodacymi osrodkami badan.\n\nW mojej ocenie to dowodzi ze struktura i organizacja jest problemem drugorzednym bo za pieniądze mozna sciagnac wybitnych naukowcow którzy majac olbrzymie srodki beda robic przelomowa nauke niezaleznie od wszystkiego.\n\nW mojej opinii wiara ze kolejna reforma cokolwiek zmieni na lepsze graniczy z głupota jesli nie będzie temu towarzyszyc olbrzymi wzrost finansowania.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1711793390,
+      "score": 5,
+      "link_id": "t3_1bqzg8x",
+      "parent_id": "t1_kx7wijm"
+    },
+    {
+      "id": "kx8fqvc",
+      "body": "W sumie bylbym wdzieczny gdyby ktos mi wyjaśnił czemu ten PAN trzeba koniecznie reformowac. Patrzac na to z zewnątrz (pracuje za granica) instytuty PAN maja spora renome i wydaja sie byc najbardziej produktywnymi i prestiżowymi instytucjami Polskiej nauki.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1711792739,
+      "score": 5,
+      "link_id": "t3_1bqzg8x",
+      "parent_id": "t1_kx6j818"
+    },
+    {
+      "id": "kwvgkur",
+      "body": "They will also likely fall for populist views since if you dont understand the world around you will have to blindly believe others.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1711580518,
+      "score": 2,
+      "link_id": "t3_1bp2jkn",
+      "parent_id": "t1_kwt0u8b"
+    },
+    {
+      "id": "kwvgfdz",
+      "body": "I work in STEM research and tbh I am absolutely baffled how uncultured people in my field are. I mean ffs i can bet good money next to no one in my lab will actually know what the scientific method is, how and why it came to existence...\n\nIn the end i believe being disconnected from culture and philosophy makes very bad scientists.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1711580463,
+      "score": 6,
+      "link_id": "t3_1bp2jkn",
+      "parent_id": "t1_kwswmpi"
+    },
+    {
+      "id": "kwoiesb",
+      "body": "Czekaj, co?",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1711478225,
+      "score": 1,
+      "link_id": "t3_1bnh8bf",
+      "parent_id": "t1_kwm41oh"
+    },
+    {
+      "id": "kwoi23z",
+      "body": "Thanks! Once you wrote this it seems obvious but somehow didn't cross my mind before...",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1711478110,
+      "score": 1,
+      "link_id": "t3_1bn9shl",
+      "parent_id": "t1_kwnbm2k"
+    },
+    {
+      "id": "kwkjvb8",
+      "body": "Pracuje w Niemczech i faktycznie dokładnie tak to działa. Np. Nowo zatrudniony profesor zazwyczaj dostaje fundusze startowe dostatecznie duze by rozkręcić działalność grupy badawczej.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1711412291,
+      "score": 6,
+      "link_id": "t3_1bnh8bf",
+      "parent_id": "t1_kwib8t8"
+    },
+    {
+      "id": "kwjf4m5",
+      "body": "Ok I have a question regarding this question:)\n\nThe shape of the job market is such that everyone i know applies nearly for every position in Europe. We really do t care where and what school we apply to anymore since there is no choice on the candidates side.\n\nSince this is rather well known why then ask the question? Just to see how well the candidate lies about it?",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1711397965,
+      "score": 1,
+      "link_id": "t3_1bn9shl",
+      "parent_id": "t1_kwi13vl"
+    },
+    {
+      "id": "kwhwazy",
+      "body": "I am a bit worried about the possible diversity question. What is actually expected, especially in regard to teaching? I work in Europe and so far i have never been asked about this, is it a common thing to ask?",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1711379964,
+      "score": 1,
+      "link_id": "t3_1bn9shl",
+      "parent_id": "t1_kwh0rdv"
+    },
+    {
+      "id": "kvwz7va",
+      "body": "To jest dokladnie kwestia zaniedban. Bruksizm jest dentystom znany i wiedza jak z nim sobie radzic.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1711041284,
+      "score": -65,
+      "link_id": "t3_1bk9ycw",
+      "parent_id": "t1_kvwsh4z"
+    },
+    {
+      "id": "kvwmas6",
+      "body": "No idea, I just find it horrible that scammers charge such insane amounts of money for something that's a simple cable no different than a cable for 50 euro except the marketing.\n\nLike for this amount of money one can buy literally kilometers of good high frequency cables. And i can bet any amount of money there would be no measurable difference. With the actual certified high frequency cables probably behaving much better at high frequencies. And by high frequencies i mean megahertz and more...\n\nI work in research on quantum materials and its a running joke in the community that once we are fed up with research we can always make a small fortune selling magical audio cables to people who have no understanding of physics. Like the margins made on those things are in the range of 100000%.",
+      "author": "StefanFizyk",
+      "subreddit": "audiophile",
+      "created_utc": 1711037055,
+      "score": 2,
+      "link_id": "t3_1biijcg",
+      "parent_id": "t1_kvm5nht"
+    },
+    {
+      "id": "kvvj6xu",
+      "body": "AudioQuest Dragon cables 😂😂😂😂\n\nUp to now i thought people believing they needed a 30k cable was an urban legend and no one would actually buy crap.\n\nGood job, money well wasted",
+      "author": "StefanFizyk",
+      "subreddit": "audiophile",
+      "created_utc": 1711022062,
+      "score": 1,
+      "link_id": "t3_1biijcg",
+      "parent_id": "t1_kvkx5jg"
+    },
+    {
+      "id": "kvtb9t3",
+      "body": "Jesli chodzi o protesty rolnikow to wali ruska onuca na kilometr. Zgadnij czy przepuszcza Cie bo dowozisz cos do infrastruktury krytycznej...",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1710978460,
+      "score": 7,
+      "link_id": "t3_1bj98zl",
+      "parent_id": "t1_kvq9zqb"
+    },
+    {
+      "id": "ktyfi21",
+      "body": "So if you decrease the recording quality it sounds better?",
+      "author": "StefanFizyk",
+      "subreddit": "RedHotChiliPeppers",
+      "created_utc": 1709924145,
+      "score": 1,
+      "link_id": "t3_vpuu8e",
+      "parent_id": "t1_ielstre"
+    },
+    {
+      "id": "ktuazu7",
+      "body": "In my opinion most audiophilia is a sort of conspiracy theory.\n\nIn the sense that there is a good understanding of electrical engineering and signal processing. It exists and anyone can read about it. Then people argue that putting cables on special stands improves grounding...\n\nId say it is similar to people believing the earth is flat.\n\nJust to say this about cables because this really drives me crazy: i am an experimental physicist I routinely aim at measuring signals in the range of picoampreres or nanovolts. You hook up a simple coax cable and never give a fuck about it. If equipment is properly grounded you can literally have a washing machine next to it and you will likely see little to no influence on your measurement.\n\nIn a setting of speakers and amplifier youre really good to go with a pair of copper wires.",
+      "author": "StefanFizyk",
+      "subreddit": "BudgetAudiophile",
+      "created_utc": 1709855459,
+      "score": 3,
+      "link_id": "t3_1b8rdk9",
+      "parent_id": "t3_1b8rdk9"
+    },
+    {
+      "id": "ktm6y9i",
+      "body": "And you get 50K XD",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1709737276,
+      "score": 2,
+      "link_id": "t3_1b7pvfa",
+      "parent_id": "t1_ktk9vqz"
+    },
+    {
+      "id": "kss6ab0",
+      "body": "Second toughest was Quantum Field Theory by Peskin and Schroeder. Paolo Cohelo 'The Alchemist' was much tougher though.",
+      "author": "StefanFizyk",
+      "subreddit": "books",
+      "created_utc": 1709254030,
+      "score": 1,
+      "link_id": "t3_1b2zdcz",
+      "parent_id": "t3_1b2zdcz"
+    },
+    {
+      "id": "kss51p9",
+      "body": "Take this with a grain of salt but: its seriously too late. Does it matter? Probably not. Go for it, academic career success has little correlation with knowledge, age and achievements. You need primarily luck.\n\nIf you fancy playing black jack and roulette i see no reason for avoiding a post doc, go all in.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1709253563,
+      "score": 1,
+      "link_id": "t3_1b328fc",
+      "parent_id": "t3_1b328fc"
+    },
+    {
+      "id": "ksm5kt5",
+      "body": "So one thing that helps is to sacrifice a lamb to the Dark Ones with the intention of throwing the reviewers and editors into ethernal damnation.\n\n\nThe other thing is to, write the n-th polite rebuttal letter in your career and stop giving a fuck.\n\nJournal rejections and editor/referee opinions have essentially nothing to do with the quality or impact of your work. If your work is at least half decent then where and how it will be accepted is pure luck and has no correlation with what you do.\n\nI literaly know a guy who was rejected from a journat with if=3 and the same article went with no corrections to Nature Materials so....",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1709163225,
+      "score": 1,
+      "link_id": "t3_1b25gne",
+      "parent_id": "t3_1b25gne"
+    },
+    {
+      "id": "ksap3dn",
+      "body": "My neighbour in Germany put the \"Dr.\" On his doorbell XD",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1708991021,
+      "score": 2,
+      "link_id": "t3_1b00fje",
+      "parent_id": "t1_ks544h6"
+    },
+    {
+      "id": "kqrtmww",
+      "body": "So my experience suggests that to have a shot at an academic career in physics you have to be as mainstream as possible.\n\nBlend in with everyone and follow the scientific trends. If you're an odd ball with really innovative ideas you will most likely end your career at the post doc level.\n\nSo no, no eccentrics, except a few leftovers from the old days.",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1708131994,
+      "score": 5,
+      "link_id": "t3_1as532p",
+      "parent_id": "t3_1as532p"
+    },
+    {
+      "id": "kqrr4c8",
+      "body": "Most PhDs believe they have a shot at a permanent academic job 😂😂😂😂😂😂😂",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1708130974,
+      "score": 5,
+      "link_id": "t3_1asdmcg",
+      "parent_id": "t3_1asdmcg"
+    },
+    {
+      "id": "kptqcoj",
+      "body": "Ad 4: Akurat jestem nieomal pewien ze sukces PiSu jest zwiazany ze slaba edukacja.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1707595486,
+      "score": 2,
+      "link_id": "t3_1andu2g",
+      "parent_id": "t1_kpt4lzd"
+    },
+    {
+      "id": "kptq1ix",
+      "body": "Zamurowało mnie. \n\n1) Znakomitej większości Amerykanów nie stac na dobre studia. \n\n2) Tak, teraz mozna zatrudniać innostronnych ale to dlatego ze poprzednie pokolenia i inwestycje w nauke i technologie pozwolily Ameryce wyprzedzic technologicznie wszystkich dookoła. Wiec jest do czego przyjezdzac. Tak samo ludzie pchaja sie do Singapuru.\n\n3) OP pisze o doskonałej edukacji a nie wiedzy teoretycznej z lat 80.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1707595369,
+      "score": 8,
+      "link_id": "t3_1andu2g",
+      "parent_id": "t1_kpt5u0j"
+    },
+    {
+      "id": "kp0sx8q",
+      "body": "There is an update: Tauron accepted my complaint and will count the excess 6.5k pl that i paid on account of the next years payment.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1707139776,
+      "score": 1,
+      "link_id": "t3_1aebt0n",
+      "parent_id": "t1_kk8rvkl"
+    },
+    {
+      "id": "kk8rvkl",
+      "body": "Thats the point: at the local office they told me that all financial stuff is dealt with at the Tauron central in Katowice and they cannot do anything. The only thing that can be done is sending the written complaint directly to the central. \n\nOk in a sense it did help: i drove 1h to learn that i should go home and write a letter. All could have been done over the phone. Although...yes they were much more helpful than the infoline people who didnt do anything despite 4+ hour long calls.\n\nStill it remains to be seen if the written complaint will actually help.\n\nBut there is hope: the electrician told me I am not an isolated case. This happens a lot and is usually resolved in favor of the customer.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1706613129,
+      "score": 2,
+      "link_id": "t3_1aebt0n",
+      "parent_id": "t1_kk8ner1"
+    },
+    {
+      "id": "kk8lesc",
+      "body": "Going to Tauron in person actually makes little sense. \n\nI am exactly in the same situation as the OP. I have a small summer house that i visit 4-6 weeks a year and suddenly i got a bill for last year ~10k with a power usage order of magnitude higher than usual.\n\nI hired an electrician and he discovered the meter itself was burned.\n\nNow calling or going to tauron did nothing. People in the Tauron office do not have the competency to deal with such a complicated issue. I was told at the Tauron office that one has to file a written complaint that explains everything in detail.\n\nSo if i were you, I would hire an electrician to check your instalation and then write this complaint with him and send it via registered mail.",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1706608367,
+      "score": 3,
+      "link_id": "t3_1aebt0n",
+      "parent_id": "t1_kk8iklk"
+    },
+    {
+      "id": "kjvkywo",
+      "body": "I did, i met a PhD in condensed matter physics who had a conspiracy theory that Newton's laws are not true.",
+      "author": "StefanFizyk",
+      "subreddit": "AskAcademia",
+      "created_utc": 1706399380,
+      "score": 9,
+      "link_id": "t3_1ace2cf",
+      "parent_id": "t1_kjviav4"
+    },
+    {
+      "id": "kjk8qou",
+      "body": "A czy takie wydarzenie (strzaly) nie powinno byc odnotowane jakos przez policje?\n\nPartyznatka w samym centrum miasta nie brzmi super przekonujaco ale kto wie🤷\n\nTo Łodz wiec raczej bandyterki sie spodziewam....",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1706217373,
+      "score": 1,
+      "link_id": "t3_19etme5",
+      "parent_id": "t1_kjgwudt"
+    },
+    {
+      "id": "kjk8hgp",
+      "body": "Z samego pocisku rozumiem ze nie wiele. Ale moze samo zdarzenie bylo gdzies odnotowane, np. przez policje. Pytanie czy i gdzie ewentualnie takich archiwów szukac?",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1706217282,
+      "score": 1,
+      "link_id": "t3_19etme5",
+      "parent_id": "t1_kji4du2"
+    },
+    {
+      "id": "kja3rgf",
+      "body": "Tez nie zabiegam 🤷",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1706057119,
+      "score": 1,
+      "link_id": "t3_195lmis",
+      "parent_id": "t1_khsz1h0"
+    },
+    {
+      "id": "kja3k9y",
+      "body": "Akurat UK jest krajem w ktorym akademickie pensje sa żenujące niskie. Ale juz w Niemczech dla post doca widełki zaczynaja sie od 2400 Euro na rękę. \n\nSam robiłem doktorat w szwajcarii i moja pensja w zupełności wystarczala zeby wynająć mieszkanie w Zurichu i choc skromnie to utrzymac dwie osoby.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1706057041,
+      "score": 1,
+      "link_id": "t3_18z7wp7",
+      "parent_id": "t1_kgkdu0b"
+    },
+    {
+      "id": "kja2x8l",
+      "body": "XD",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1706056797,
+      "score": 1,
+      "link_id": "t3_18z7wp7",
+      "parent_id": "t1_kgiuyuu"
+    },
+    {
+      "id": "kiswnq2",
+      "body": "How to avoid burnout? \n\nThats the neat part: you cannot XD",
+      "author": "StefanFizyk",
+      "subreddit": "Professors",
+      "created_utc": 1705789663,
+      "score": 1,
+      "link_id": "t3_19bkkye",
+      "parent_id": "t3_19bkkye"
+    },
+    {
+      "id": "khsyz89",
+      "body": "Jako scisły chłopiec tez czuje sie uciskany bezsensem habilitacji 😁",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1705233355,
+      "score": 2,
+      "link_id": "t3_195lmis",
+      "parent_id": "t1_khp4fuc"
+    },
+    {
+      "id": "khpwqez",
+      "body": "To jest dobre pytanie 🤔",
+      "author": "StefanFizyk",
+      "subreddit": "Polska",
+      "created_utc": 1705179627,
+      "score": 9,
+      "link_id": "t3_195mtuj",
+      "parent_id": "t1_khopbyh"
+    },
+    {
+      "id": "kghrwsy",
+      "body": "Gdzie sa? Za granica gdzie za pensje post doca czy doktoranta mozna zyc jak czlowiek.",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1704490745,
+      "score": 6,
+      "link_id": "t3_18z7wp7",
+      "parent_id": "t3_18z7wp7"
+    },
+    {
+      "id": "kg6e77a",
+      "body": "Tenure dostala majac chyba 5 publikacji, takze beczka smiechu od poczatku..",
+      "author": "StefanFizyk",
+      "subreddit": "Nauka_Uczelnia",
+      "created_utc": 1704314276,
+      "score": 2,
+      "link_id": "t3_18x7s76",
+      "parent_id": "t1_kg3e7lf"
     }
   ]
 }

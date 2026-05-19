@@ -1,6 +1,29 @@
 {
   "username": "Great_River_Bear",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1chz601",
+      "title": "Best anti-alias choice for FH5?",
+      "author": "Great_River_Bear",
+      "subreddit": "ForzaHorizon",
+      "created_utc": 1714602132,
+      "score": 4,
+      "num_comments": 8,
+      "selftext": "I'm new to this FH5, and I used DLSS to have high FPS, but I found the ghosting problem (noticable white shadow at the back of the vehicle) is quite annoying. It is more obvious on dark roads, at night scenes and when driving fast. Frame generation will make it worse, and DLAA doesn't do better. If I turn off DLSS completely, the aliasing effect become quite obvious, FXAA doesn't help, and MSAA costs too much FPS. \n\nI switched to FSR 2.2 for now and found no ghosting, but many threads in the community also says FSR could be problematic. So what is the best anti-aliasing solution in your opinion? \n\nhttps://preview.redd.it/533wlrrf3wxc1.png?width=1786&format=png&auto=webp&s=c50d34bf6b3eff5bf5670e7deaa7c27849a71887\n\n",
+      "url": "https://www.reddit.com/r/ForzaHorizon/comments/1chz601/best_antialias_choice_for_fh5/"
+    },
+    {
+      "id": "1cekb1e",
+      "title": "Random screen black flickering when playing at 120 FPS Gsync on 4k 144Hz monitor",
+      "author": "Great_River_Bear",
+      "subreddit": "HonkaiStarRail",
+      "created_utc": 1714239917,
+      "score": 0,
+      "num_comments": 1,
+      "selftext": "I'm playing the game using a 4k 144Hz monitor while turning Gsync on, the monitor is connected to my graphics card via a DP 1.4 cable. The game FPS is unlocked to 120 FPS with registry editor in Win10, and of the time I have a stable frame rate around 110\\~115. When playing, my screen can randomly turns black and recover in \\~1s. I tried many things but still have no solution. The solution in [this post](https://www.reddit.com/r/HonkaiStarRail/comments/136nka8/constant_flickering_bug/) by @[AtelierPortugal](https://www.reddit.com/user/AtelierPortugal/) helps reduce the frequency of flickering, but it still exists.\n\nI tried many different things, and here are the working walkarounds I find for now:\n\n1. Turn off Gsync in Nvidia Control Panel. It works, but I kind of want another way, because Gsync gives smoother animation than Vsync.  \n2. Lower the screen refresh rate to 120 Hz in Nvidia Control Panel. \n\nAnd here are the things I tried but didn't work:\n\n1. Lock game frame rate to 140 or 115 in nvidia control panel\n2. Install older versions of Nvidia driver\n3. Use HDMI 2.1 cable\n\nDP 1.4a natively supports 4k@120Hz 8bpc maximum, and 4k@144Hz requires DSC. I kind of think this flickering problem may have something to do with DSC, since everything is fine when my screen is set to 120Hz but 144Hz is problematic. \n\nCurrently I use walkaround 2 before playing star rail, and turns back to 144Hz afterwards. The flickering problem doesn't exists in other games I play e.g., Palworld, Nier Automata, Forza Horizon. So is anyone having similar problem or knows the cause of it?",
+      "url": "https://www.reddit.com/r/HonkaiStarRail/comments/1cekb1e/random_screen_black_flickering_when_playing_at/"
+    }
+  ],
   "comments": [
     {
       "id": "l2ewm3l",
@@ -11,6 +34,116 @@
       "score": 1,
       "link_id": "t3_1cis9ho",
       "parent_id": "t3_1cis9ho"
+    },
+    {
+      "id": "l5c3spd",
+      "body": "coming to this thread two years after, guys, is there already a fix?",
+      "author": "Great_River_Bear",
+      "subreddit": "iphone",
+      "created_utc": 1716478383,
+      "score": 1,
+      "link_id": "t3_xh1tv8",
+      "parent_id": "t3_xh1tv8"
+    },
+    {
+      "id": "l2um6ht",
+      "body": "be a torpedo![gif](emote|free_emotes_pack|shrug)",
+      "author": "Great_River_Bear",
+      "subreddit": "ForzaHorizon",
+      "created_utc": 1715013049,
+      "score": 1,
+      "link_id": "t3_1cl2cz5",
+      "parent_id": "t3_1cl2cz5"
+    },
+    {
+      "id": "l2mo0qg",
+      "body": "bro, so you don't have flickering problem playing other games right? I kind of have the same problem, have you found another way? Cuz G-sync gives much smoother animation than vsync.",
+      "author": "Great_River_Bear",
+      "subreddit": "HonkaiStarRail",
+      "created_utc": 1714872806,
+      "score": 1,
+      "link_id": "t3_136nka8",
+      "parent_id": "t1_kdxenyt"
+    },
+    {
+      "id": "l2mnn00",
+      "body": "Coming back here again ... tried the solve by u/AtelierPortugal, but unfortuately it doesn't work on my setup. \n\nFor me, the flickering happens when I open Gsync and play at 4k@144Hz. If I turn off Gsync OR lower the monitor refresh rate to 120 Hz, the flickering goes away. And I don't have flickering problems playing other games, so I suppose this is something related to HSR.\n\n[https://www.reddit.com/r/HonkaiStarRail/comments/1cekb1e/random\\_screen\\_black\\_flickering\\_when\\_playing\\_at/](https://www.reddit.com/r/HonkaiStarRail/comments/1cekb1e/random_screen_black_flickering_when_playing_at/)",
+      "author": "Great_River_Bear",
+      "subreddit": "HonkaiStarRail",
+      "created_utc": 1714872638,
+      "score": 2,
+      "link_id": "t3_136nka8",
+      "parent_id": "t3_136nka8"
+    },
+    {
+      "id": "l2mneyp",
+      "body": "Bro do you find a fix?\n\nI'm also having this problem, and it only happens when I open Gsync and play at 4k@144Hz. If I turn off Gsync OR lower the monitor refresh rate to 120 Hz, the flickering goes away. \n\n[https://www.reddit.com/r/HonkaiStarRail/comments/1cekb1e/random\\_screen\\_black\\_flickering\\_when\\_playing\\_at/](https://www.reddit.com/r/HonkaiStarRail/comments/1cekb1e/random_screen_black_flickering_when_playing_at/)",
+      "author": "Great_River_Bear",
+      "subreddit": "HonkaiStarRail",
+      "created_utc": 1714872541,
+      "score": 1,
+      "link_id": "t3_17dpxjq",
+      "parent_id": "t3_17dpxjq"
+    },
+    {
+      "id": "l2eowr1",
+      "body": "Because one feels hungry 2 hours after having a swiss meal.",
+      "author": "Great_River_Bear",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714748951,
+      "score": 0,
+      "link_id": "t3_1cj51mq",
+      "parent_id": "t3_1cj51mq"
+    },
+    {
+      "id": "l27rr5i",
+      "body": "bro, have you tried FSR2.2 or DLSS things?",
+      "author": "Great_River_Bear",
+      "subreddit": "ForzaHorizon",
+      "created_utc": 1714636869,
+      "score": 2,
+      "link_id": "t3_1chz601",
+      "parent_id": "t1_l26ky51"
+    },
+    {
+      "id": "l177bx6",
+      "body": "Is anyone experiencing random screen black flickering problem? \n\nI have a 4k 144hz screen, connected to PC via DP 1.4a cable, when I unlock the framerate to max 120, my screen can randomly black out and recover in \\~1s. I didn't have this problem when playing other games like Palworld and Nier Automata, so I suppose this is something related to StarRail. If I lower the refresh rate of my screen to 120 Hz, StarRail will not cause a screen black out.",
+      "author": "Great_River_Bear",
+      "subreddit": "HonkaiStarRail",
+      "created_utc": 1714052757,
+      "score": 1,
+      "link_id": "t3_137j9cb",
+      "parent_id": "t3_137j9cb"
+    },
+    {
+      "id": "kzwhpon",
+      "body": "and bro you seem to get her name wrong? it's six ohh (6-O) not six zero (60) haha",
+      "author": "Great_River_Bear",
+      "subreddit": "nier",
+      "created_utc": 1713307311,
+      "score": 1,
+      "link_id": "t3_1c1dsj2",
+      "parent_id": "t3_1c1dsj2"
+    },
+    {
+      "id": "kzwgnj9",
+      "body": "oh man you guys are absolutely amazing, I was looking for this the whole time after seeing the OST. Many songs are familier, but I couldn't remember exactly where they appear. Thanks a lot",
+      "author": "Great_River_Bear",
+      "subreddit": "nier",
+      "created_utc": 1713306910,
+      "score": 1,
+      "link_id": "t3_6cbth7",
+      "parent_id": "t3_6cbth7"
+    },
+    {
+      "id": "kx991sk",
+      "body": "bro, should I apply this to the shortcut of the launcher, or the shortcut of the game (StarRail.exe)?",
+      "author": "Great_River_Bear",
+      "subreddit": "HonkaiStarRail",
+      "created_utc": 1711808725,
+      "score": 1,
+      "link_id": "t3_136nka8",
+      "parent_id": "t1_k9dcbm1"
     }
   ]
 }

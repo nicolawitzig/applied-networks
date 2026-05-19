@@ -1,6 +1,18 @@
 {
   "username": "bil-y",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cksbvb",
+      "title": "Does ChatGPT have a list of people / topics it is not allowed to write about and will raise an error if prompted to?",
+      "author": "bil-y",
+      "subreddit": "ChatGPT",
+      "created_utc": 1714918821,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Recently I was working on a text about an academic paper ([Copyright safety for generative AI,](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4438593) in case anyone is interested). Naturally, I used GPT in the writing process. However, it turns out that ChatGPT flatout fails to produce an answer when the name of author is part of the text. Prompts like \"Who is Matthew Sag?\" simply result in an error with the test \"I'm unable to produce a response\", not the usual refusal messages we all know and love. I have tried this with both GPT3.5 and GPT4, both on my account and other people's accounts. Has anyone seen this happening before? Or is this just me being out-of-the-loop?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1cksbvb/does_chatgpt_have_a_list_of_people_topics_it_is/"
+    }
+  ],
   "comments": [
     {
       "id": "l8gpz4x",
@@ -81,6 +93,36 @@
       "score": 3,
       "link_id": "t3_1c85972",
       "parent_id": "t1_l0ds1tv"
+    },
+    {
+      "id": "l6iohcl",
+      "body": "It’s extremely difficult to build new nuclear power plants in a country like Switzerland. No canton will agree to it being built on their territory, or it’s at least extremely unlikely.\n\nNuclear power plants are also notoriously difficult to get insure, so difficult actually that only governments will carry this risk. Same goes for the investment. Banks much rather invest in renewables as they are cheaper, lower risk, and have better ROI. \n\nFun fact: nuclear is the only energy source with a negative learning curve. This means, the more capacity we deployed in the past, the more expensive it has gotten. That’s because we keep discovering new risks.\n\nThis is of course not taking into account SMRs, but last time I checked they were not really ready. Also, the psychological effect of “ew, it’s nuclear” remains.",
+      "author": "bil-y",
+      "subreddit": "Switzerland",
+      "created_utc": 1717182630,
+      "score": 9,
+      "link_id": "t3_1d52dxt",
+      "parent_id": "t1_l6inf50"
+    },
+    {
+      "id": "l4kqvjr",
+      "body": "I agree that there needs to be transparency when it comes to the use of the fees, but do you have proof/numbers for the claim that it doesn’t work? For traffic, congestion pricing appears to be quite an effective measure, so a properly designed and implemented tourist entry charge doesn’t strike me as unreasonable. Of course, given that they are tourists, their willingness to pay is likely much higher than your average motorist’s in the traffic example…",
+      "author": "bil-y",
+      "subreddit": "askswitzerland",
+      "created_utc": 1716022347,
+      "score": 2,
+      "link_id": "t3_1cus6cf",
+      "parent_id": "t1_l4kqex7"
+    },
+    {
+      "id": "l3tanmb",
+      "body": "Sounds like they are at one of the expensive Hospitality schools like Glion or EHL.",
+      "author": "bil-y",
+      "subreddit": "askswitzerland",
+      "created_utc": 1715578940,
+      "score": 10,
+      "link_id": "t3_1cqqwd2",
+      "parent_id": "t1_l3t64s5"
     }
   ]
 }

@@ -11,7 +11,50 @@
       "num_comments": 2,
       "selftext": "At the ETH day, the Rektor said that they would be moving the summer exams to the beginning of the break. Will this apply to this upcoming session? \n\n[https://ethz.ch/content/dam/ethz/main/news/eth-news/2024/11/241116-eth-tag-2024/eth-tag-24-begruessung-guenther-dissertori.pdf](https://ethz.ch/content/dam/ethz/main/news/eth-news/2024/11/241116-eth-tag-2024/eth-tag-24-begruessung-guenther-dissertori.pdf)",
       "url": "https://www.reddit.com/r/ethz/comments/1gu131g/summer_exam_session/"
+    },
+    {
+      "id": "1hp6jk5",
+      "title": "Non-Inertial Reference Frame",
+      "author": "StationSad1229",
+      "subreddit": "AskPhysics",
+      "created_utc": 1735508181,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Is Newton's second law violated in the non-inertial reference frame, because the acceleration is not only a result of the 'real forces' and you need to add apparant forces (like coriolis or centrifugal force) to account for the acceleration that is measured?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1hp6jk5/noninertial_reference_frame/"
+    },
+    {
+      "id": "1hepiq9",
+      "title": "Reduced mass",
+      "author": "StationSad1229",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734256767,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "I really can't wrap my head around the idea of reduced mass. Let's say you set up the equations of motion for a two body system using the reduced mass. When you calculate the acceleration, for example, what does this value actually represent/describe?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1hepiq9/reduced_mass/"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": "m4cqmz7",
+      "body": "Using the example of an electron orbiting a hydrogen atom, the centripetal force Fc would remain the same, but by using the reduced mass (instead of just the mass of the electron), the radius would be smaller. Right? Why does this makes sense?",
+      "author": "StationSad1229",
+      "subreddit": "AskPhysics",
+      "created_utc": 1735480585,
+      "score": 1,
+      "link_id": "t3_1hepiq9",
+      "parent_id": "t1_m26vt4g"
+    },
+    {
+      "id": "m25hdkq",
+      "body": "When you say effective motion relative to the other, do we basically treat one mass as fixed? If so, is the reduced mass then the mass of the moving object in this new system we have constructed? Sorry for the naive questions.",
+      "author": "StationSad1229",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734259734,
+      "score": 1,
+      "link_id": "t3_1hepiq9",
+      "parent_id": "t1_m25dphw"
+    }
+  ]
 }

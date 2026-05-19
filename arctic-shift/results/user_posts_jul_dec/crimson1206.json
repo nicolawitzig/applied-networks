@@ -401,6 +401,286 @@
       "score": 4,
       "link_id": "t3_1dspp8p",
       "parent_id": "t1_lb4iqo5"
+    },
+    {
+      "id": "m3my9ym",
+      "body": "No it has jack shit to do with it. The post is just about what the pre increment does, there’s no confusion regarding pre and post increment",
+      "author": "crimson1206",
+      "subreddit": "cpp_questions",
+      "created_utc": 1735068901,
+      "score": 7,
+      "link_id": "t3_1hlj1zc",
+      "parent_id": "t1_m3mvk3o"
+    },
+    {
+      "id": "m3mrqv3",
+      "body": "Has nothing to do with the post",
+      "author": "crimson1206",
+      "subreddit": "cpp_questions",
+      "created_utc": 1735066590,
+      "score": 4,
+      "link_id": "t3_1hlj1zc",
+      "parent_id": "t1_m3mo6au"
+    },
+    {
+      "id": "m3gbyz2",
+      "body": "Not real time",
+      "author": "crimson1206",
+      "subreddit": "GraphicsProgramming",
+      "created_utc": 1734970125,
+      "score": 15,
+      "link_id": "t3_1hkpi31",
+      "parent_id": "t1_m3g31zt"
+    },
+    {
+      "id": "m17y65b",
+      "body": "If it's getting difficult to track I put comments indicating what the dimensions mean",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1733764562,
+      "score": 1,
+      "link_id": "t3_1haci8n",
+      "parent_id": "t1_m17mgrz"
+    },
+    {
+      "id": "m17i8ib",
+      "body": "Vectorized is almost always the way to go, especially if you use something like Python. The only exception would be in a course where people interact with these libraries for the first time, then it would make sense to first show the loop version but then show the vectorized version as well. Without using vectorization your performance will be utter garbage in Python. If the dimension that you dont vectorize over is small then you can possibly use a loop without too much performance sacrifice, but that doesnt happen very often in machine learning workflows.\n\nIf you program in a lower language like C++ then it doesn't matter as much. There using loops wont degradate your performance much, but if you use a highly optimized library it will probably still be slower than just using the vectorized library implementation. The difference will be much less significant than the difference in Python though.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1733759515,
+      "score": 5,
+      "link_id": "t3_1haci8n",
+      "parent_id": "t3_1haci8n"
+    },
+    {
+      "id": "lzwnjll",
+      "body": "No youre not, what you described isnt reinforcement learning",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1733077492,
+      "score": 1,
+      "link_id": "t3_1h3lgly",
+      "parent_id": "t1_lzuy0lq"
+    },
+    {
+      "id": "lx25qz7",
+      "body": "Cuda runs perfectly fine on windows",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1731573922,
+      "score": -8,
+      "link_id": "t3_1gqz9jm",
+      "parent_id": "t1_lx25guo"
+    },
+    {
+      "id": "lx25ahy",
+      "body": "So what are you referring to by ML if not the standard Python libraries to do ML?",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1731573601,
+      "score": -6,
+      "link_id": "t3_1gqz9jm",
+      "parent_id": "t1_lx24yjv"
+    },
+    {
+      "id": "lx23xcn",
+      "body": "That’s not really true, the standard python libraries run perfectly fine on windows",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1731572661,
+      "score": -6,
+      "link_id": "t3_1gqz9jm",
+      "parent_id": "t1_lx1ydc0"
+    },
+    {
+      "id": "lt57vya",
+      "body": "Id be very surprised if that’s what they mean, that way the model just ends up being a linear model. They probably mean another activation function that’s not relu",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1729587627,
+      "score": 0,
+      "link_id": "t3_1g990j8",
+      "parent_id": "t1_lt4japw"
+    },
+    {
+      "id": "lrwdfbw",
+      "body": "Would you mind sharing the 3 words you’re referring to?",
+      "author": "crimson1206",
+      "subreddit": "Malazan",
+      "created_utc": 1728923962,
+      "score": 3,
+      "link_id": "t3_1g3h6kv",
+      "parent_id": "t1_lrw65cg"
+    },
+    {
+      "id": "lqfwzch",
+      "body": "are you ok dude? commenting on 4 year old posts talking nonsense about masks lol",
+      "author": "crimson1206",
+      "subreddit": "learnmath",
+      "created_utc": 1728128596,
+      "score": 1,
+      "link_id": "t3_gu8sjn",
+      "parent_id": "t1_lqfu8nn"
+    },
+    {
+      "id": "lounsid",
+      "body": "The simplicity that Python offers is completely different from the kind of simplicity people refer to when saying that c is a simple language",
+      "author": "crimson1206",
+      "subreddit": "C_Programming",
+      "created_utc": 1727270654,
+      "score": 25,
+      "link_id": "t3_1fp2r64",
+      "parent_id": "t1_loul8ai"
+    },
+    {
+      "id": "loa9ivm",
+      "body": ">What do you even mean when you say “hands on experience in backpropagation”? \n\nCalled `loss.backward()` in code once",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1726961187,
+      "score": 93,
+      "link_id": "t3_1fmdqed",
+      "parent_id": "t1_lo9zw08"
+    },
+    {
+      "id": "lnsnxyn",
+      "body": ">I can’t figure out why leaf-size hyper parameter no impact score for validation curves. It’s literally just a flat line, nothing like the standard under/over fit curves you see when varying a hyper parameter.\n\nTake a step back and think about what KNN does. It searches for the k nearest neighbors and then uses those to compute new predictions. There is only a single hyperparameter: K. The tree variations and correspondingly the leaf size is only used to speed up finding those K neighbors, they don't affect the actual prediction, just the speed at which you get it.\n\nThe documentation also states exactly that:\n>Leaf size passed to BallTree or KDTree. This can affect the speed of the construction and query, as well as the memory required to store the tree. The optimal value depends on the nature of the problem.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1726693141,
+      "score": 2,
+      "link_id": "t3_1fk0g9d",
+      "parent_id": "t3_1fk0g9d"
+    },
+    {
+      "id": "lngvc25",
+      "body": "> I mean, if you can generate more examples, then the number of examples will be less of an issue. Intuitive, right?\n\nIntuitive but also useless to the problem because the point of few-shot learning is that you are restricted to few examples. What you're saying is basically \"the solution to few-shot learning is to not do few-shot learning!\".\n\n>Not always the most intuitive one, or most efficient, or even make sense (in terms of some of the assumptions).\n\nThese are very strong statements for somebody learning the field. The reason some things are presented as de-facto solutions to a problem is often a combination of them being very good at solving that problem (not neccessarily the best, but still very good) and in parts the currrent hype and general trends in ML. \n\n>If you were to step back and think about \"learning how to learn\" as a human (e.g., learning how to learn a new language), you would quickly realize that your solution is vastly different from the approach taken in machine learning literature.\n\nAnd if you then think a little more about that you'd realize that the solution you came up with is probably completely infeasible to implement in the context of a computer program.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1726519777,
+      "score": 1,
+      "link_id": "t3_1fi1z5x",
+      "parent_id": "t3_1fi1z5x"
+    },
+    {
+      "id": "lngnnad",
+      "body": "> standard loops\n\nDepending on what you mean by \"standard loops\" they can absolutely break performance in python. Lots of more advanced pytorch uses boil down to avoiding loops",
+      "author": "crimson1206",
+      "subreddit": "MachineLearning",
+      "created_utc": 1726517316,
+      "score": 0,
+      "link_id": "t3_1fhwwli",
+      "parent_id": "t1_lndvkzy"
+    },
+    {
+      "id": "lmzl6uq",
+      "body": "dude is 15 years is old and pretending he's the god of RL",
+      "author": "crimson1206",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1726260895,
+      "score": 1,
+      "link_id": "t3_1ffsx8f",
+      "parent_id": "t1_lmxzbg3"
+    },
+    {
+      "id": "lmwy7jp",
+      "body": "They don’t talk about it since it’s just handled by automatic differentiation",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1726228592,
+      "score": 3,
+      "link_id": "t3_1ffqutz",
+      "parent_id": "t1_lmwwz9m"
+    },
+    {
+      "id": "lfsxeca",
+      "body": "The adc who bought Pd instead of keeping boots/zephyr :>",
+      "author": "crimson1206",
+      "subreddit": "leagueoflegends",
+      "created_utc": 1722429038,
+      "score": 42,
+      "link_id": "t3_1egi87z",
+      "parent_id": "t1_lfsleia"
+    },
+    {
+      "id": "lf41cnd",
+      "body": "It’s a set containing vectors :)",
+      "author": "crimson1206",
+      "subreddit": "physicsmemes",
+      "created_utc": 1722036055,
+      "score": 2,
+      "link_id": "t3_1ecu2gz",
+      "parent_id": "t1_lf39u7j"
+    },
+    {
+      "id": "lf1kmxo",
+      "body": "Clearest imo would be (x_k^T )_i",
+      "author": "crimson1206",
+      "subreddit": "math",
+      "created_utc": 1722006215,
+      "score": 14,
+      "link_id": "t3_1ecq07c",
+      "parent_id": "t3_1ecq07c"
+    },
+    {
+      "id": "lesn15u",
+      "body": "To give some intuition: in theory neural networks should be able to extract any reasonable interaction term on their own (->universal approximation theorem). But practically it can be challenging to actually get the network to learn the terms. You can think of it like this: you have a large box of parts (corresponding to features) and your neural net is a person taking all those parts and assembling them into what you asked of it. To assemble the parts it of course needs to find them in the box (this corresponds to the optimization of parameters). But maybe a very nice part is hidden deep inside some corner of the box and no matter how hard the network tries it can’t find it. If you now already know that that part might come in handy you can just give it to the network straight from the beginning so it doesn’t have to search for it.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1721866662,
+      "score": 1,
+      "link_id": "t3_1eb47ae",
+      "parent_id": "t1_ler4pei"
+    },
+    {
+      "id": "leq2lhf",
+      "body": "If you have some domain knowledge that indicates that the interaction term should be useful it can make sense to add it. If you don’t have any prior hint that that’s the case I wouldn’t add it and just let the network figure out what features it needs on it’s own.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1721835879,
+      "score": 4,
+      "link_id": "t3_1eb47ae",
+      "parent_id": "t3_1eb47ae"
+    },
+    {
+      "id": "ldkt2o2",
+      "body": "Just a quick idea for debugging: replace your own model with a transformer offered by PyTorch. That way you can get an idea if the issue is with your model implementation or with your training part",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1721201956,
+      "score": 3,
+      "link_id": "t3_1e59fhs",
+      "parent_id": "t3_1e59fhs"
+    },
+    {
+      "id": "ld7g4ee",
+      "body": "Im a student at eth and did quite a lot of machine learning courses here. If you want I can send you some material tomorrow when I have time. Perhaps your son would appreciate studying with material from the place where his dad studied. It might just be that the difficulty of the material is not well suited for his background knowledge, that really depends on how much additional math your son already learned outside of school",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1720996534,
+      "score": 46,
+      "link_id": "t3_1e3e8ov",
+      "parent_id": "t3_1e3e8ov"
+    },
+    {
+      "id": "ld5y2vs",
+      "body": ">I know. I am just surprised they focused so much on NLP when we are clearly almost completely visual in our thinking process. I can say\n\nThat premise is completely wrong, not everybody thinks visually. There's people who do not have any mental image at all.",
+      "author": "crimson1206",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1720977239,
+      "score": 1,
+      "link_id": "t3_1e2tjge",
+      "parent_id": "t1_ld5n0de"
+    },
+    {
+      "id": "lcezcww",
+      "body": ">but then you are making the assumption that the walk for optimization is the same\n\nNot necessarily. When doing rigorous ablation studies you would have to make sure to tune everything so that the current model version you're testing performs as good as possible. As an example take the learning rate. Perhaps one of your model versions is much much more sensitive to learning rate. If you then just report the performance with the first learning rate you tried it wouldn't really be informative. But if you make sure to do enough tuning to have a reasonable confidence for your result being as good or close to as good as possible then the ablation would be informative. So basically you have to make sure that the difference in your ablation really is due to the changed model and not due to something like suboptimal training.\n\nIt's also important to keep in mind that most deep learning research is more empirical than theoretically grounded. Of course you can try to find theoretical justifications as to why one model works better than the other but at the end of the day our understanding of deep learning is not good enough to really answer these questions rigorously so instead we rely on experimental results, including ablation studies.",
+      "author": "crimson1206",
+      "subreddit": "deeplearning",
+      "created_utc": 1720560543,
+      "score": 2,
+      "link_id": "t3_17c1y42",
+      "parent_id": "t1_lcex01l"
     }
   ]
 }

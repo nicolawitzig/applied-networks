@@ -1,6 +1,106 @@
 {
   "username": "mdkovachev",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1c9rs9b",
+      "title": "How do we know that there is more matter than antimatter?",
+      "author": "mdkovachev",
+      "subreddit": "askscience",
+      "created_utc": 1713731214,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/askscience/comments/1c9rs9b/how_do_we_know_that_there_is_more_matter_than/"
+    },
+    {
+      "id": "1c8vhpi",
+      "title": "Как се гласува",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1713634226,
+      "score": 12,
+      "num_comments": 19,
+      "selftext": "Наближават нови избори, на които някои хора ще гласуват за първи път. Като един от тези хора, който си нямаше идея как функционира целият процес в България, сметнах, че би било добре най-после да се информирам как се случват нещата, и се поразрових малко. \n\nТози пост има за цел да обобщи цялата информация, която намерих, и да спести по този начин време и усилия на други, намиращи се в същата ситуация. Моля, казвайте, в случай че откриете неточности или пропуски, за да не разпространяваме дезинформация.\n\n# Парламентът:\n- Парламентът (=Народното събрание) е единственият законодателен орган в България и се ползва с множество правомощия, най-важни от които са приемането, изменянето и отменянето на законите, назначаването на Министерски съвет и приемането на държавния бюджет.\n\n- Състои се от 240 души, наречени народни представители или депутати.\n\n- Тези народни представители се избират непряко посредством парламентарни избори за период от 4 години.\n\n# Преди изборите:\n- Страната се разделя на 31 избирателни района с указ от президента. Обикновено това са 28-те административни области, като София се разделя на три района, а Пловдив - на два.\n\n- Централната избирателна комисия (ЦИК) определя колко от 240-те мандата (места) в Народното събрание се полагат на всеки избирателен район спрямо неговото население. От този брой зависи колко кандидати дадена партия може да издигне в определен избирателен район.\n\n- Всяка партия излъчва _кандидатски лист_ с хората, които предлага за свои депутати. Тези кандидати са разпределени по избирателни райони, като максималният брой кандидати, които една партия може да издигне за даден район, е равен на броя мандати, определен от ЦИК за въпросния район. Например, ако за район \"Примерен\" са определени два мандата, то партия \"Отново примерна\" може да издигне само двама кандидати за този район. \n\n- Всеки кандидат в листа на дадена партия получава пореден номер, който се определя от самата партия.\n\n# Как, къде, за кого гласувам?\n- Избирателите гласуват в _избирателни секции_, като секцията, в която даден избирател гласува, се определя от неговия постоянен адрес (или настоящ адрес, в случай че избирателят се регистрира за това). Избирателни секции най-често са училищата. \n\n- Избори винаги се провеждат в неработни дни, но не и на празници.\n\n- На парламентарни избори всеки избирател гласува _само за една_ партия (или за опцията \"Не подкрепям никого\").\n\n- Избирателят има право и на т.нар. _преференциален вот_. Това означава, че избирателят може да подкрепи, ако желае, точно определен кандидат на партията, за която гласува. Жител на даден избирателен район има право да избира само измежду кандидатите, които партията е определила за неговия район. **Преференциалният вот оказва влияние върху това, кои точно от кандидатите на дадена партия влизат в Народното събрание.** (обяснено по-надолу)\n\n- Самият глас се подава, като в една тъмна стаичка избирателят попълва  _бюлетина_. Върху нея той отбелязва партията, за която гласува, и евентуално упражнява правото си на преференциален вот.\n\n# Как се определя резултатът?\n- Изборната система в България (за парламентарни избори и избори за представители в Европейския парламент) е _пропорционална_. Това означава, че броят места в Парламента, които дадена партия получава, се определя от процента гласове, които тя е получила на изборите. Например, ако партия \"Примерна\" е получила общо 40% от гласовете, то тя получава 40% от местата в Народното събрание, т.е. 90 места.\n\n- Ако преференциалният вот _не_ е в сила, то кандидатите на всяка партия влизат в Народното събрание според своите поредни номера в кандидатския лист. Например, ако партия \"Примерна\" е получила 6 места в Парламента, тези места ще се заемат от кандидатите с номера 1-6 в листа на партията.\n\n- Преференциалният вот се зачита за даден кандидат на някоя партия, ако този кандидат е събрал поне 7% от преференциалните гласовете измежду кандидатите в листа на партията - т.е., ако 7% от хората, упражнили правото си на преференциален вот в рамките на въпросната партия, са гласували за този конкретен кандидат. Тогава е възможно пренареждане на самата кандидатска листа, защото кандидатите вече се подреждат първо спрямо гласовете от преференциален вот, които са получили, и чак после по своите поредни номера. \n\nПример: Нека партия \"Примерна\" след избори е получила 5 мандата в Парламента, а преференциалният вот в нейните рамки е следният.\n\n|Номер на кандидат|Процент от преференциалните гласове|\n|:--:|:--:|\n|1|2%|\n|2|6%|\n|3|12%|\n|4|50%|\n|5|0%|\n|6|30%|\n\nАко преференциалният вот не влизаше в сила, то 5-те мандата щяха да се заемат от кандидатите с номера 1-5. Обаче има кандидати с над 7% от преференциалните гласове, за които преференциалният вот влиза в сила. Това са кандидати 3, 4 и 6. Така кандидат 4 и кандидат 6 ще изпреварят всички останали. Кандидат 3 ще изпревари кандидати 1 и 2. Кандидат 2 _няма_ обаче да изпревари кандидат 1, защото за него преференцията не се зачита - има само 6%, а му трябват поне 7%. Пренареденият кандидатски лист ще изглежда по следния начин:\n\n|Номер на кандидат|Процент от преференциалните гласове|\n|:--:|:--:|\n|4|50%|\n|6|30%|\n|3|12%|\n|1|2%|\n|2|6%|\n|5|0%|\n\nТова означава, че 5-те места в Парламента ще се заемат от кандидати 4,6,3,1 и 2.\n\nНадявам се да съм помогнал на някого с този пост. \n",
+      "url": "https://www.reddit.com/r/bulgaria/comments/1c8vhpi/как_се_гласува/"
+    },
+    {
+      "id": "1behu7s",
+      "title": "Can an EU student freelance while studying in Germany?",
+      "author": "mdkovachev",
+      "subreddit": "germany",
+      "created_utc": 1710411226,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I am asking this as a prospective *EU* student and NOT a *non-EU* one (There's plenty of info about the latter, but I could hardly find anything related to the former).\n\nSo, I compose music as a hobby which I then also upload to the Internet. My compositions generate some income (pennies, really, but still considered income) and since I am technically not employed, this is considered freelancing. \n\nSince I am an EU citizen, I do not need a student visa, which would forbid my freelancing. However, does this restriction still exist even for EU students? If not, do I need to declare something? Is this income taxed by Germany or by my home country? What about compositions uploaded prior to my relocating to Germany?\n\n",
+      "url": "https://www.reddit.com/r/germany/comments/1behu7s/can_an_eu_student_freelance_while_studying_in/"
+    },
+    {
+      "id": "1b2btpn",
+      "title": "Elektro- und Informationstechnik an der TUM",
+      "author": "mdkovachev",
+      "subreddit": "Studium",
+      "created_utc": 1709141397,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Ist dieser Studiengang wirklich so anspruchsvoll wie Leute es darstellen?\n\nDas behaupten online viele Leute und als Grund dafür nennen sie immer die GOPs. Ich habe aber gelesen, GOPs seien keine gesonderten Prüfungen, sondern einfach Prüfungen, die Teil der Module und die man bestehen muss, sind. Wie sieht eigentlich eine Abschlussklausur aus?\n\nEhrlich gesagt, weiß ich gar nicht, ob ich Elektrotechnik studieren möchte, aber irgendwie sehe ich mich in der Zukunft mit Quantum-Computern beschäftigen. Die relevanten Masterstudiengänge erfordern entweder Physik oder Electrical Engineering als Bachelor oder \"etwas Äquivalentes\" (was aber das sein soll, bleibt mir ein Rätsel).\n\nPhysik studiere ich auf keinen Fall, da ich sie als unrealisierbar betrachte (was kann man mit purer Physik tun als Lehrer werden?). Meine erste Wahl war bisher Informatik, damit scheint aber ein Einstieg in einen sich auf Quantum Computer beziehenden Master unmöglich zu sein, da Informatik ungenügend von den geforderten Modulen enthält. Also ziehe ich es stattdessen in Betracht, Elektrotechnik zu studieren.\n\nIch komme zwar aus einem EU-Mitgliedsstaat aber nicht aus einem deutschsprachigen. Nichtsdestotrotz lerne ich an einem mathematischen Gymnasium und wir beschäftigen uns schon mit Analysis, lineare Algebra bringe ich mir selbst bei. Zudem lerne ich als Wahlfächer an der Schule Physik und Chemie. Glaubt ihr, ich kriege den Elektrotechnikbachelor hin und lohnt es sich überhaupt? Auf jeden Fall möchte ich an der TUM was studieren, bin aber nicht gerade sicher ob Elektrotechnik oder Informatik. Was würdet ihr mir raten?",
+      "url": "https://www.reddit.com/r/Studium/comments/1b2btpn/elektro_und_informationstechnik_an_der_tum/"
+    },
+    {
+      "id": "1atcvtl",
+      "title": "Galaxy A52s 5G back panel coming off",
+      "author": "mdkovachev",
+      "subreddit": "GalaxyA52",
+      "created_utc": 1708205425,
+      "score": 5,
+      "num_comments": 7,
+      "selftext": "I just noticed that the back panel of my Galaxy A52s 5G is detached on both sides in the upper part of the phone (where the Volume and power buttons are). Judging by some modest online research, this seems to be a common issue for this model.\n\nObviously, any waterproofness is gone. However, can it be restored if I give the phone up for repair at an official service? Or is it just not worth it? I am planning on getting a new phone next year anyway.",
+      "url": "https://www.reddit.com/r/GalaxyA52/comments/1atcvtl/galaxy_a52s_5g_back_panel_coming_off/"
+    },
+    {
+      "id": "1apbk8z",
+      "title": "Why not use Latin names for chemical elements and compounds?",
+      "author": "mdkovachev",
+      "subreddit": "askscience",
+      "created_utc": 1707773299,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/askscience/comments/1apbk8z/why_not_use_latin_names_for_chemical_elements_and/"
+    },
+    {
+      "id": "1alcyne",
+      "title": "Can I study Quantum Sciene & Technology with an Informatik bachelor?",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1707338200,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "I see that most of the module prerequisites for the Quantum Science & Technology M. Sc. are physics related with really only the IN0015 also being in the Informatiks Pflichtmodule.\n\nUnder Anwendungsfächer -> Sonderanwendungsfach Physik there are physics modules which do feature in the requirements for Quantum Science &  Technology. However, this section is only 21 credits and each of the physics modules is 9 credits which makes for a total of just 2 modules which I can complete from there. \n\nThis amounts to a total of 3 modules (including IN0015) which are required for the Quantum Science &  Technology. Each module is awarded 10 points in the Eignungsverfahren for the M.Sc. but the minimum is 57. \n\nErgo, I should not be able to study this master with an Informatik bachelor. Is this correct, or have I missed something?",
+      "url": "https://www.reddit.com/r/tumunich/comments/1alcyne/can_i_study_quantum_sciene_technology_with_an/"
+    },
+    {
+      "id": "191vmka",
+      "title": "Warum entsprechen Untertitel nicht dem gesagten?",
+      "author": "mdkovachev",
+      "subreddit": "de",
+      "created_utc": 1704747006,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/de/comments/191vmka/warum_entsprechen_untertitel_nicht_dem_gesagten/"
+    },
+    {
+      "id": "190bo4a",
+      "title": "Does TUM have a required timeframe for the acquisition of language certificates?",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1704578998,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I am exploring TUM as an option for my bachelor's, which is in German. However, I might want to also do my master's there, which is in English. \n\nDoes TUM require that the language certificate be acquired within a given period before starting my studies? I am specifically aksing for the master's programmes because I have a Cambridge CPE certificate, but when (and if) I apply for my master's, it wil be 5+ years from now and most universities I saw in other countries want the certificate to be no older than 2-5 years.",
+      "url": "https://www.reddit.com/r/tumunich/comments/190bo4a/does_tum_have_a_required_timeframe_for_the/"
+    }
+  ],
   "comments": [
     {
       "id": "kysse2q",
@@ -31,6 +131,666 @@
       "score": 7,
       "link_id": "t3_1asxnlw",
       "parent_id": "t1_kqtvan8"
+    },
+    {
+      "id": "l3kaoqh",
+      "body": "Чисто законно обидата е престъпление, но едва ли някой ще си направи труда да те съди.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1715428359,
+      "score": 1,
+      "link_id": "t3_1cpdu36",
+      "parent_id": "t3_1cpdu36"
+    },
+    {
+      "id": "l38zdz7",
+      "body": "Няма нужда да си вадиш симкартата, просто си изключи мобилните данни, когато наближите границата.\n\nНай-добре тук да обмените пари - там на никого не му трябват левове. \n\nЗа картите - влизаш в гугъл мапс, цъкаш върху профила си в горния десен ъгъл и избираш офлайн карти. Там цъкаш \"Избиране на собствена карта\" и теглиш.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1715237822,
+      "score": 1,
+      "link_id": "t3_1cnqq5h",
+      "parent_id": "t3_1cnqq5h"
+    },
+    {
+      "id": "l2sotwa",
+      "body": "Ein neuer Hausbesitzer",
+      "author": "mdkovachev",
+      "subreddit": "WerWieWas",
+      "created_utc": 1714977453,
+      "score": 14,
+      "link_id": "t3_1clbblf",
+      "parent_id": "t3_1clbblf"
+    },
+    {
+      "id": "l2l0nai",
+      "body": "А не, още не сте пробили файъруола на мейнфрейма, а антивирусът е по петите ви.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1714849252,
+      "score": 2,
+      "link_id": "t3_1ck6fs3",
+      "parent_id": "t3_1ck6fs3"
+    },
+    {
+      "id": "l2iypea",
+      "body": "Такова нещо като \"стипендия\" за Харвард няма, освен на частно. Повечето университети в САЩ определят таксите ти спрямо дохода на семейството.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1714820444,
+      "score": 1,
+      "link_id": "t3_1cjgmza",
+      "parent_id": "t1_l2gp345"
+    },
+    {
+      "id": "l253ptx",
+      "body": "How the hell do you have 4000€ per month to save as a Bulgarian?",
+      "author": "mdkovachev",
+      "subreddit": "eupersonalfinance",
+      "created_utc": 1714593479,
+      "score": 10,
+      "link_id": "t3_1chq4al",
+      "parent_id": "t3_1chq4al"
+    },
+    {
+      "id": "l23nj1c",
+      "body": "Building charging stations won't make electric cars affordable for Eastern Europens. Those that can afford such cars here can usually also afford a charging station in their garage.",
+      "author": "mdkovachev",
+      "subreddit": "europe",
+      "created_utc": 1714575687,
+      "score": 34,
+      "link_id": "t3_1chj6tg",
+      "parent_id": "t1_l23ekwg"
+    },
+    {
+      "id": "l1u884c",
+      "body": "They are slow, dirty and unreliable. But other than that, the views and experience if you are travelling with cool people are great.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1714422541,
+      "score": 0,
+      "link_id": "t3_1cg90us",
+      "parent_id": "t3_1cg90us"
+    },
+    {
+      "id": "l1hsy3x",
+      "body": "Obsidian for notes",
+      "author": "mdkovachev",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1714222266,
+      "score": 2,
+      "link_id": "t3_1cdil2i",
+      "parent_id": "t3_1cdil2i"
+    },
+    {
+      "id": "l12wli2",
+      "body": "Versuchs mit exponentieller Verzinsung",
+      "author": "mdkovachev",
+      "subreddit": "finance",
+      "created_utc": 1713982444,
+      "score": 1,
+      "link_id": "t3_1cc4nw3",
+      "parent_id": "t3_1cc4nw3"
+    },
+    {
+      "id": "l0hat3k",
+      "body": "Търси нещо местно около теб - продавач в кварталното магазинче, близката кръчма. Не е нужно да има обява, просто разпитай хората там дали си търсят персонал.\n\nИначе без 18 трудно.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1713635404,
+      "score": 2,
+      "link_id": "t3_1c8meg8",
+      "parent_id": "t3_1c8meg8"
+    },
+    {
+      "id": "l06tfre",
+      "body": "Check the list of modules.\n\nAll exams are in German.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1713468196,
+      "score": 5,
+      "link_id": "t3_1c7ap73",
+      "parent_id": "t3_1c7ap73"
+    },
+    {
+      "id": "kysr9t0",
+      "body": "Electrical Engineering is zulassungsfrei, meaning that you get in so long as you apply on time and have a German language certificate.\n\nInformatik, however, is not zulassungsfrei. They use the Eignungsfeststellungsverfahren for that and it is based on multiple things such as your grades, subjects you have studied and may potentially include an exam or an interview. The whole process is described on TUM's website.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1712684171,
+      "score": 6,
+      "link_id": "t3_1bzvwhj",
+      "parent_id": "t3_1bzvwhj"
+    },
+    {
+      "id": "kxf2uuu",
+      "body": "Pretty much all bachelor programmes are in German and require you to submit a C1 (or equivalent) certification when you apply",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1711903738,
+      "score": 5,
+      "link_id": "t3_1bsemzv",
+      "parent_id": "t3_1bsemzv"
+    },
+    {
+      "id": "kx0ku6z",
+      "body": "Perhaps they are an EU citizen and hence prohibited from investing in non-EU etfs?",
+      "author": "mdkovachev",
+      "subreddit": "StockMarket",
+      "created_utc": 1711660680,
+      "score": 1,
+      "link_id": "t3_1bpqpku",
+      "parent_id": "t1_kwxlv71"
+    },
+    {
+      "id": "kwogmwl",
+      "body": "TUM's BSc Electrical Engineering is Zulassungsfrei, meaning that you get in so long as you have a German C1 certificate and a document stating you finished high school (grades are irrelevant).",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1711477639,
+      "score": 3,
+      "link_id": "t3_1bo9fcx",
+      "parent_id": "t3_1bo9fcx"
+    },
+    {
+      "id": "kwc34tw",
+      "body": "Спешната помощ в България е безплатна независимо от гражданство или здравноосигурителен статут.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1711286511,
+      "score": 4,
+      "link_id": "t3_1bmfejw",
+      "parent_id": "t1_kwbm0d4"
+    },
+    {
+      "id": "kv0ghw5",
+      "body": "Danke",
+      "author": "mdkovachev",
+      "subreddit": "Finanzen",
+      "created_utc": 1710520374,
+      "score": 1,
+      "link_id": "t3_1bf8dgi",
+      "parent_id": "t1_kv0g62h"
+    },
+    {
+      "id": "kv0flwg",
+      "body": "Wie stellt ihr solche Diagramme zusammen?",
+      "author": "mdkovachev",
+      "subreddit": "Finanzen",
+      "created_utc": 1710520076,
+      "score": 1,
+      "link_id": "t3_1bf8dgi",
+      "parent_id": "t3_1bf8dgi"
+    },
+    {
+      "id": "kutc81h",
+      "body": "Long live the EU then",
+      "author": "mdkovachev",
+      "subreddit": "germany",
+      "created_utc": 1710411651,
+      "score": 1,
+      "link_id": "t3_1behu7s",
+      "parent_id": "t1_kutbsdf"
+    },
+    {
+      "id": "kutaf0v",
+      "body": "All of the answers here are specific to non-EU students, but is it the same for EU ones?",
+      "author": "mdkovachev",
+      "subreddit": "germany",
+      "created_utc": 1710410422,
+      "score": 1,
+      "link_id": "t3_1beeq2h",
+      "parent_id": "t3_1beeq2h"
+    },
+    {
+      "id": "kuinhgc",
+      "body": "Вярването в справедлив свят (иронично) не се съотнася еднакво към положителните и отрицателните неща - много повече се прилага в негативни ситуации, които се отнасят до заобикалящите ни хора, но не и до нас самите. Самото явление се състои в оправдаването на чуждото нещастие посредством прехвръляне на отговорността за случилото се върху жертвата:\n\nТой е беден, защото не е учил и сега няма да си намери работа.\n\nТя е била изнасилена, защото е развратна и си го е просела.\n\nПо този начин хората предпазват себе си от мисълта, че подобни нещастия могат да сполетят и тях самите. Един вид те си мислят \"Аз учих, значи мога да съм спокоен, че няма да остана без работа. / Аз не съм развратна, значи няма защо да се притеснявам, че ще ме изнасилят.\"",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1710250029,
+      "score": 5,
+      "link_id": "t3_1bctqwo",
+      "parent_id": "t1_kui8p4g"
+    },
+    {
+      "id": "kuilpnq",
+      "body": "По-скоро е изцяло confirmation bias в нашия случай - българинът няма как да си признае, че е сгрешил, затова все някой друг е виновен. ФАГ е малко по-различно.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1710249298,
+      "score": 2,
+      "link_id": "t3_1bctqwo",
+      "parent_id": "t1_kuicnjk"
+    },
+    {
+      "id": "kt79zt7",
+      "body": "\"Бг услугата\" ти сам я назоваваш - български пощи. Без тях щеше да трябва да ходиш до някоя съседна страна да си взимаш пратката (където пак щеше да плащаш данък, но на друга страна).",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1709499998,
+      "score": 1,
+      "link_id": "t3_1b50fy6",
+      "parent_id": "t1_kt2hgfy"
+    },
+    {
+      "id": "ksr13fu",
+      "body": " Технически да, на практика не.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1709239530,
+      "score": 1,
+      "link_id": "t3_1b2wlri",
+      "parent_id": "t3_1b2wlri"
+    },
+    {
+      "id": "kry2qrc",
+      "body": "Дрехите задържат миризмата на какъвто и да е парфюм в пъти по-дълго от кожата, но драстично намаляват нейната проекция.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1708796354,
+      "score": 7,
+      "link_id": "t3_1aysnnk",
+      "parent_id": "t1_krwt9lo"
+    },
+    {
+      "id": "kry2ku8",
+      "body": "Всеки парфюм от Нотино. Легитимна са и цените им са по-ниски от Дъглас и Сефора. \n\nСхемата е да ходиш в Дъглас или Сефора, за да пробваш и да си избереш парфюма, после поръчваш от Нотино. Освен че цените им са по-ниски, непрекъснато пускат промокодове за още отстъпка. Изтегли си приложението им - то веднага ти казва, когато има нов промокод.\n\n\nТова, че си си купил нетраен парфюм, няма нищо общо с мястото, откъде си го взел (освен, разбира се, ако не търсиш евтини копия или тестери). Самият парфюм си е такъв.\n\nСъщо така внимавай каква концентрация си купуваш. Концентрациите следват следната последователност:\n\nParfum > Eau de Parfum > Eau de Toilette > Eau de Cologne\n\nРазбира се, по-голямата концентрация е по-трайна, но идва и с по-висока цена.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1708796296,
+      "score": 6,
+      "link_id": "t3_1aysnnk",
+      "parent_id": "t3_1aysnnk"
+    },
+    {
+      "id": "krbpbw8",
+      "body": "Тук няма запетая пред \"като\", защото изразява сравнение, а не играя ролята на подчинителен съюз.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1708452452,
+      "score": 11,
+      "link_id": "t3_1avk7wb",
+      "parent_id": "t1_krbnwh8"
+    },
+    {
+      "id": "kquoauk",
+      "body": "Аз учих в 11-то и е пълно с представители на определено малцинство. Някои от приятелите ми останаха да си учат там до 7. клас и са си ОК, но ако гоните някакви сериозни амбиции, със сигурност стойте далеч от това училище.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1708185180,
+      "score": 7,
+      "link_id": "t3_1asydag",
+      "parent_id": "t3_1asydag"
+    },
+    {
+      "id": "kpt944c",
+      "body": "I don't think our universities offer programmes in English.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1707589138,
+      "score": 2,
+      "link_id": "t3_1angfe8",
+      "parent_id": "t1_kpt3ykr"
+    },
+    {
+      "id": "kpt8s7m",
+      "body": "If you have a Bulgarian citizenship, you *are* considered Bulgarian. Have you ever studied here?",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1707589016,
+      "score": 1,
+      "link_id": "t3_1amvvxq",
+      "parent_id": "t1_kpt8i2w"
+    },
+    {
+      "id": "kpt7vo3",
+      "body": "Afaik most universities now accept based on your grades from the matura after 12th grade.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1707588683,
+      "score": 1,
+      "link_id": "t3_1amvvxq",
+      "parent_id": "t1_kpoon8z"
+    },
+    {
+      "id": "kpt6h9v",
+      "body": "You just say \"лекър съм\" (lekar sam) which means \"I am a doctor\". If you look confident and like you know what you are doing (i.e. you don't struggle to pronounce the name of the medication), you are likely to get it.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1707588175,
+      "score": 1,
+      "link_id": "t3_1ani6m5",
+      "parent_id": "t3_1ani6m5"
+    },
+    {
+      "id": "kpl9olm",
+      "body": "1 is the maximum grade in Germany, so good.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1707452026,
+      "score": 1,
+      "link_id": "t3_1amejwu",
+      "parent_id": "t3_1amejwu"
+    },
+    {
+      "id": "kpfyxw2",
+      "body": "Can I or cannot I not then? My question is if it is in some way possible to study a QST as a master after an Informatik bachelor.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1707367770,
+      "score": 1,
+      "link_id": "t3_1alcyne",
+      "parent_id": "t1_kpehi47"
+    },
+    {
+      "id": "kp0nt9l",
+      "body": "Данък се дължи само върху реализирана печалба.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1707137259,
+      "score": 1,
+      "link_id": "t3_1ajdqfp",
+      "parent_id": "t1_kp0kwv8"
+    },
+    {
+      "id": "kos503m",
+      "body": "If you like the country, go for it. You are unlikely to be mocked for your nationality, since there are plenty of foreigners living here, especially in the capital. You should also be able to find a job - there are quite a few job postings looking for people with German and English. \n\nYou could manage with just English - most young people have a rather good command of the language, which cannot be said about the older generations. \n\n\nWenn du doch die bulgarische Sprache lernen willst... na ja, das ist eine ganz andere Sache und wird einige Zeit brauchen, da sie weder dem Englischen noch dem Deutschen ähnelt. There are also not that many resources, at least not ones I am aware of.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1706991150,
+      "score": 10,
+      "link_id": "t3_1ai4h66",
+      "parent_id": "t3_1ai4h66"
+    },
+    {
+      "id": "koqu4lq",
+      "body": "It doesn't work for most of the pirate sites unless you use the paid option.",
+      "author": "mdkovachev",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706973592,
+      "score": 1,
+      "link_id": "t3_1ahd1a1",
+      "parent_id": "t1_kopktqv"
+    },
+    {
+      "id": "koklr62",
+      "body": "They put a bill under their ID when the bouncer asks for it. If you are a girl, you can often get in without this, too.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1706871625,
+      "score": 3,
+      "link_id": "t3_1agyg8d",
+      "parent_id": "t3_1agyg8d"
+    },
+    {
+      "id": "koklgvh",
+      "body": "fmoviesz.to за стриймване",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1706871425,
+      "score": 1,
+      "link_id": "t3_1agycki",
+      "parent_id": "t3_1agycki"
+    },
+    {
+      "id": "kohpal6",
+      "body": "Isn't that on the lower end of the German grading system?",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1706821680,
+      "score": 1,
+      "link_id": "t3_1ag8pi0",
+      "parent_id": "t1_kofrxm3"
+    },
+    {
+      "id": "kjearoh",
+      "body": "Че какво му е на седмия по големина град в България?",
+      "author": "mdkovachev",
+      "subreddit": "bulgariaeu",
+      "created_utc": 1706127581,
+      "score": 1,
+      "link_id": "t3_19ejs83",
+      "parent_id": "t1_kjdcdw6"
+    },
+    {
+      "id": "kj6utwj",
+      "body": "ImmoScout24, wg-gesucht, TUM also provides some housing help. All a single google search away",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1706015863,
+      "score": 6,
+      "link_id": "t3_19dnhjf",
+      "parent_id": "t1_kj6ttgb"
+    },
+    {
+      "id": "kj6s4vs",
+      "body": "You are insane if you think you can find a WG or an apartment near the campus for this amount of money.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1706014556,
+      "score": 12,
+      "link_id": "t3_19dnhjf",
+      "parent_id": "t3_19dnhjf"
+    },
+    {
+      "id": "kj3ckhj",
+      "body": "!remindme 1 day",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1705955482,
+      "score": 1,
+      "link_id": "t3_19d3n12",
+      "parent_id": "t3_19d3n12"
+    },
+    {
+      "id": "kj3ch0x",
+      "body": "Да можеш да говориш един език и да можеш да превеждаш от този език са много различни неща.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705955451,
+      "score": 4,
+      "link_id": "t3_19d2tuv",
+      "parent_id": "t3_19d2tuv"
+    },
+    {
+      "id": "kj0qx5r",
+      "body": "https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/\n\n\nEvery programme also has its own page with the requirements for application.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1705916680,
+      "score": 1,
+      "link_id": "t3_19chdal",
+      "parent_id": "t3_19chdal"
+    },
+    {
+      "id": "kix3ofh",
+      "body": "Доколкото знам, бакалавър киберсигурност няма. Поне в университете на запад киберсигурността се поява като специалност чак в магистърска степен, като най-често преди това се изучава бакалавър компютърни науки. Трябва ти само математика да разбираш.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705860819,
+      "score": 1,
+      "link_id": "t3_19c8eir",
+      "parent_id": "t3_19c8eir"
+    },
+    {
+      "id": "kistvc9",
+      "body": "А, е щом си учил психология, значи знаеш и за фундаменталната атрибутивна грешка, която правиш в аргументите си. След като си академично запознат с нещата, бих желал да видя доказателства на твърденията ти във формата на някоя друга статия. Позоваването на авторитета (\"source - surprise - учил съм психология\") не е логически издържан аргумент, за жалост.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705788672,
+      "score": 1,
+      "link_id": "t3_19aeznk",
+      "parent_id": "t1_kiqkqq0"
+    },
+    {
+      "id": "kis8ldz",
+      "body": "TIL Germans have terrible aim.",
+      "author": "mdkovachev",
+      "subreddit": "germany",
+      "created_utc": 1705780894,
+      "score": -10,
+      "link_id": "t3_19bk7as",
+      "parent_id": "t3_19bk7as"
+    },
+    {
+      "id": "kiqitc2",
+      "body": "Така е, признавам се за победен. Разумът, вложен в изказванията ти, е необорим. Науката страда от липса на учени психолози като теб.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705757736,
+      "score": 1,
+      "link_id": "t3_19aeznk",
+      "parent_id": "t1_kiqidv6"
+    },
+    {
+      "id": "kiqh08k",
+      "body": "Ако наистина четеше толкова много, щеше да знаеш поне разликата между пълен и кратък член.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705756869,
+      "score": 1,
+      "link_id": "t3_19aeznk",
+      "parent_id": "t1_kiqcxjg"
+    },
+    {
+      "id": "kiq0pyy",
+      "body": "Какви мъдрости от гуру Sardoodledome! Трябва да издадете книга, Ваше Мислителстео.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705746482,
+      "score": 1,
+      "link_id": "t3_19aeznk",
+      "parent_id": "t1_kiq027a"
+    },
+    {
+      "id": "kipogjm",
+      "body": "Най-после още един разбран човек! Тони Стораро промива мозъците на младото българско поколение, като внедрява сублиминални послания в песните си!",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705737290,
+      "score": 2,
+      "link_id": "t3_19aeznk",
+      "parent_id": "t1_kilogmq"
+    },
+    {
+      "id": "kim05kg",
+      "body": "With this monthly pay you can live pretty much anywhere.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705683437,
+      "score": 17,
+      "link_id": "t3_19anb1t",
+      "parent_id": "t3_19anb1t"
+    },
+    {
+      "id": "kikiyq4",
+      "body": "Zdraveyte is the polite form and should be used with people who are of higher status than you or people you do not know personally.\n\nZdrasti is casual and informal, use it with friends and people you know quite well.\n\nZdravey is the awkward middle ground which rarely gets used. If you say it to strangers, you come off as rude. If you use it with friends, you sound distant and weird. You can use it with acquaintances - peers you have met before and maybe do small-talk with sometimes, but you are not particularly close. Altogether, avoid zdravey if you want to sound natural.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705659583,
+      "score": 3,
+      "link_id": "t3_19adz1k",
+      "parent_id": "t3_19adz1k"
+    },
+    {
+      "id": "kibvjvq",
+      "body": "Не е така, защото непътувайки освобождаваш едно място, което ще се заеме от друг човек. При почти пълен автобус това означава, че няма да се налага \"нов автобус да тръгва\". Слагам го в кавички, защото в единични случаи не е така, но идеята е, че нещата ще се уравновесят във времето - колкото по-малко хора използват автобус, толкова по-рядко ще се пускат те, водейки до намаляване на общия въглероден отпечатък.\n\nНякой май е спал в часовете по география...",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705522171,
+      "score": 1,
+      "link_id": "t3_198zunv",
+      "parent_id": "t1_kib41n5"
+    },
+    {
+      "id": "ki6h01g",
+      "body": "Това, че две думи звучат подобно не значи, че имат обща етимология. Етимологията на \"хапя\" няма нищо общо с немския.",
+      "author": "mdkovachev",
+      "subreddit": "bulgaria",
+      "created_utc": 1705438316,
+      "score": 9,
+      "link_id": "t3_198b6t0",
+      "parent_id": "t1_ki6eiiw"
+    },
+    {
+      "id": "kgphbu2",
+      "body": "All universities require proof of your German skills. Germany *does* have tuition fees, but they are really low for **EU citizens**. If you are not a citizen of an EU member country, the tuition fees are not to be underestimated.",
+      "author": "mdkovachev",
+      "subreddit": "germany",
+      "created_utc": 1704616286,
+      "score": 1,
+      "link_id": "t3_18zjwqn",
+      "parent_id": "t3_18zjwqn"
+    },
+    {
+      "id": "kgph1xw",
+      "body": "You can put all of these down, although this is not the US. In Europe, universities focus a lot more on academics than the social aspect.",
+      "author": "mdkovachev",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704616087,
+      "score": 1,
+      "link_id": "t3_18zez16",
+      "parent_id": "t3_18zez16"
+    },
+    {
+      "id": "kgpgusv",
+      "body": "You are required to submit a language certificate when applying, so no. You will have to learn it before submitting your application.",
+      "author": "mdkovachev",
+      "subreddit": "germany",
+      "created_utc": 1704615947,
+      "score": 1,
+      "link_id": "t3_18zi3qm",
+      "parent_id": "t1_kghru5q"
+    },
+    {
+      "id": "kgpepvk",
+      "body": "From the research I did, not enough. The average I found for a student job is ~750€ per month and most people say that their cost of living is at least 1000€.",
+      "author": "mdkovachev",
+      "subreddit": "tumunich",
+      "created_utc": 1704614446,
+      "score": 7,
+      "link_id": "t3_190he05",
+      "parent_id": "t3_190he05"
+    },
+    {
+      "id": "kgn5gr2",
+      "body": "Why is TUM trying to make English its primary language for master's when their BScs are all in German?",
+      "author": "mdkovachev",
+      "subreddit": "Munich",
+      "created_utc": 1704578589,
+      "score": 2,
+      "link_id": "t3_1906zj8",
+      "parent_id": "t1_kgmzjza"
+    },
+    {
+      "id": "kgn2nko",
+      "body": "Jedenfalls seid ihr den Deutschen überlegen, da ihr ihre Sprache versteht, sie aber eure... na ja.",
+      "author": "mdkovachev",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704577570,
+      "score": 1,
+      "link_id": "t3_1906jtd",
+      "parent_id": "t1_kgn1hr7"
+    },
+    {
+      "id": "kgn0cy4",
+      "body": "Was ich am interessantesten finde, ist, dass Schweizer eigentlich Hochdeutsch können und lernen müssen, aber wenn sie Schweizerdeutsch sprechen, ist es wie eine ganz andere, unerkennbare Sprache.",
+      "author": "mdkovachev",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704576735,
+      "score": 1,
+      "link_id": "t3_1906jtd",
+      "parent_id": "t1_kgmzknc"
+    },
+    {
+      "id": "kgmx6e3",
+      "body": "I speak German, but found the French version more understandable... Swiss German is something out of this world.",
+      "author": "mdkovachev",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704575575,
+      "score": 1,
+      "link_id": "t3_1906jtd",
+      "parent_id": "t3_1906jtd"
     }
   ]
 }

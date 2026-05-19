@@ -1,6 +1,84 @@
 {
   "username": "White_TCR",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dpmgqc",
+      "title": "Setup help, use managed switch as media converter?",
+      "author": "White_TCR",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1719477676,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "I have a fiber cable coming directly from my ISP (no ONT required) and need to set up my home network. I'm planning to use:\n\n- A managed switch with SFP port\n- A computer running pfSense as my router/firewall\n\nMy ISP requires VLAN 10 for the connection. I have an SFP module from my old FritzBox.\n\nQuestions:\n1. Can I plug the fiber directly into my switch's SFP port and then connect the switch to pfSense?\n2. Can I reuse the SFP module from my FritzBox, or should I buy a new one?\n3. Any advice on configuring this setup? Let’s say sfp port is nr 6 and I’ll connect the firewall to port nr 5, should I put both of them in a tagged vlan 10?\n\nThe connection used to work well with a media converter, but I read online that using it is highly discouraged, so I plan to get a managed switch for increased reliability. ",
+      "url": "https://www.reddit.com/r/HomeNetworking/comments/1dpmgqc/setup_help_use_managed_switch_as_media_converter/"
+    },
+    {
+      "id": "1dpmfw7",
+      "title": "Setup help, use managed switch as media converter?",
+      "author": "White_TCR",
+      "subreddit": "networking",
+      "created_utc": 1719477575,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/networking/comments/1dpmfw7/setup_help_use_managed_switch_as_media_converter/"
+    },
+    {
+      "id": "1dpmem7",
+      "title": "Setup help, use managed switch as media converter?",
+      "author": "White_TCR",
+      "subreddit": "PFSENSE",
+      "created_utc": 1719477411,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "I have a fiber cable coming directly from my ISP (no ONT required) and need to set up my home network. I'm planning to use:\n\n- A managed switch with SFP port\n- A computer running pfSense as my router/firewall\n\nMy ISP requires VLAN 10 for the connection. I have an SFP module from my old FritzBox.\n\nQuestions:\n1. Can I plug the fiber directly into my switch's SFP port and then connect the switch to pfSense?\n2. Can I reuse the SFP module from my FritzBox, or should I buy a new one?\n3. Any advice on configuring this setup? Let’s say sfp port is nr 6 and I’ll connect the firewall to port nr 5, should I put both of them in a tagged vlan 10?\n\nThe connection used to work well with a media converter, but I read online that using it is highly discouraged, so I plan to get a managed switch for increased reliability. \n",
+      "url": "https://www.reddit.com/r/PFSENSE/comments/1dpmem7/setup_help_use_managed_switch_as_media_converter/"
+    },
+    {
+      "id": "1c18frr",
+      "title": "[W] Drunkenslug invite",
+      "author": "White_TCR",
+      "subreddit": "UsenetInvites",
+      "created_utc": 1712817987,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/UsenetInvites/comments/1c18frr/w_drunkenslug_invite/"
+    },
+    {
+      "id": "1b7wzsp",
+      "title": "Connect client to two peers at the same time",
+      "author": "White_TCR",
+      "subreddit": "WireGuard",
+      "created_utc": 1709722941,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi there! I'm currently in the process of trying to connect my client to  two different servers over wireguard. The idea is that I want to  connect to both of them at the same time, so that I don't need to turn  on and off the connections. I'm struggling to make a single .conf file  out of server1.conf and server2.conf. Could some of you give me a hint  on how I could do it? These are my current configurations:\n\n[https://paste.ee/p/yUhjb](https://paste.ee/p/yUhjb)",
+      "url": "https://www.reddit.com/r/WireGuard/comments/1b7wzsp/connect_client_to_two_peers_at_the_same_time/"
+    },
+    {
+      "id": "1adzrrw",
+      "title": "Wireguard capped at around 500 mbps on gigabit network",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706546776,
+      "score": 6,
+      "num_comments": 15,
+      "selftext": "I've been trying all day to understand why I can't get over 500 mbps while connected on my unRAID server over wireguard. The unRAID server has a symmetrical 1 gbps connection and the client has a 1 gbps down/100 mbps up connection. When I try to download a big file using SMB from my client, there is a hard cap at about this speed.\n\nThings I tried:\n\n\\- tried Tailscale, as it's using Wireguard the result is the same, maybe slightly less. \n\n\\- played with MTU settings -> didn't seem to make a difference, I tried to go from 1320 to 1420 without huge gains/changes\n\n\\- tried to enable/disable SMB multichannel, didn't make a difference\n\n\\- iperf3 somehow caps at 10 MB/s which is around 80 mbps, even when I set it with the -R flag (this means that my server actually sends data to the client, I expect this to be full gigabit). Here are the results of the iperf3 test both with and without -R.\n\n\\- this iperf3 result confuses me because I am able to download files at 500 mbps from the server and it's not capped at 85 mbps as the iperf3 test shows.\n\niperf3.exe -c [192.168.178.73](https://192.168.178.73)\n\nConnecting to host [192.168.178.73](https://192.168.178.73), port 5201\n\n\\[  4\\] local [10.253.0.2](https://10.253.0.2) port 50836 connected to [192.168.178.73](https://192.168.178.73) port 5201\n\n\\[ ID\\] Interval           Transfer     Bandwidth\n\n\\[  4\\]   0.00-1.00   sec  8.12 MBytes  68.0 Mbits/sec\n\n\\[  4\\]   1.00-2.01   sec  8.25 MBytes  68.7 Mbits/sec\n\n\\[  4\\]   2.01-3.00   sec  9.00 MBytes  75.9 Mbits/sec\n\n\\[  4\\]   3.00-4.01   sec  9.62 MBytes  80.5 Mbits/sec\n\n\\[  4\\]   4.01-5.01   sec  8.75 MBytes  73.3 Mbits/sec\n\n\\[  4\\]   5.01-6.01   sec  9.25 MBytes  77.4 Mbits/sec\n\n\\[  4\\]   6.01-7.02   sec  8.50 MBytes  71.0 Mbits/sec\n\n\\[  4\\]   7.02-8.00   sec  8.50 MBytes  72.1 Mbits/sec\n\n\\[  4\\]   8.00-9.00   sec  8.25 MBytes  69.5 Mbits/sec\n\n\\[  4\\]   9.00-10.00  sec  10.9 MBytes  91.2 Mbits/sec\n\n\\- - - - - - - - - - - - - - - - - - - - - - - - -\n\n\\[ ID\\] Interval           Transfer     Bandwidth\n\n\\[  4\\]   0.00-10.00  sec  89.1 MBytes  74.8 Mbits/sec                  sender\n\n\\[  4\\]   0.00-10.00  sec  89.1 MBytes  74.8 Mbits/sec                  receiver\n\n&#x200B;\n\nand \n\niperf3.exe -c [192.168.178.73](https://192.168.178.73) \\-R\n\nConnecting to host [192.168.178.73](https://192.168.178.73), port 5201\n\nReverse mode, remote host [192.168.178.73](https://192.168.178.73) is sending\n\n\\[  4\\] local [10.253.0.2](https://10.253.0.2) port 50838 connected to [192.168.178.73](https://192.168.178.73) port 5201\n\n\\[ ID\\] Interval           Transfer     Bandwidth\n\n\\[  4\\]   0.00-1.00   sec  9.38 MBytes  78.7 Mbits/sec\n\n\\[  4\\]   1.00-2.00   sec  9.72 MBytes  81.4 Mbits/sec\n\n\\[  4\\]   2.00-3.00   sec  10.0 MBytes  84.0 Mbits/sec\n\n\\[  4\\]   3.00-4.00   sec  10.1 MBytes  84.7 Mbits/sec\n\n\\[  4\\]   4.00-5.00   sec  10.4 MBytes  87.4 Mbits/sec\n\n\\[  4\\]   5.00-6.00   sec  10.2 MBytes  85.2 Mbits/sec\n\n\\[  4\\]   6.00-7.00   sec  9.83 MBytes  82.5 Mbits/sec\n\n\\[  4\\]   7.00-8.00   sec  10.0 MBytes  84.1 Mbits/sec\n\n\\[  4\\]   8.00-9.00   sec  10.0 MBytes  84.2 Mbits/sec\n\n\\[  4\\]   9.00-10.00  sec  10.4 MBytes  87.6 Mbits/sec\n\n\\- - - - - - - - - - - - - - - - - - - - - - - - -\n\n\\[ ID\\] Interval           Transfer     Bandwidth       Retr\n\n\\[  4\\]   0.00-10.00  sec   101 MBytes  85.1 Mbits/sec    0             sender\n\n\\[  4\\]   0.00-10.00  sec   100 MBytes  84.2 Mbits/sec                  receiver\n\n&#x200B;\n\nThank you very much for any kind help or tip!",
+      "url": "https://www.reddit.com/r/unRAID/comments/1adzrrw/wireguard_capped_at_around_500_mbps_on_gigabit/"
+    },
+    {
+      "id": "1943if1",
+      "title": "Mistake with cheap nvme",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704984755,
+      "score": 1,
+      "num_comments": 23,
+      "selftext": "I bought (I admit without much research) two Kingspec NX series 1 tb nvme drives to use as cache with my unRAID server because I could save a decent amount of money on them (around 50-60 bucks compared to a name brand).\nNow I read online that those ssd are very low quality and fail after a couple of months. I don't really need help, I just feel like a did a mistake and feel bad about it :(",
+      "url": "https://www.reddit.com/r/unRAID/comments/1943if1/mistake_with_cheap_nvme/"
+    }
+  ],
   "comments": [
     {
       "id": "kicjmm5",
@@ -11,6 +89,316 @@
       "score": 1,
       "link_id": "t3_1992ya1",
       "parent_id": "t3_1992ya1"
+    },
+    {
+      "id": "latibmz",
+      "body": "Hi there, I am suffering as well, currently 27.8 degrees and 62% humidity. You’re definitely not alone :)",
+      "author": "White_TCR",
+      "subreddit": "Switzerland",
+      "created_utc": 1719661445,
+      "score": 3,
+      "link_id": "t3_1dr8b4e",
+      "parent_id": "t3_1dr8b4e"
+    },
+    {
+      "id": "laqwvuv",
+      "body": "It worked out in the end! Thank you for taking your time and commenting!",
+      "author": "White_TCR",
+      "subreddit": "PFSENSE",
+      "created_utc": 1719612905,
+      "score": 1,
+      "link_id": "t3_1dpmem7",
+      "parent_id": "t1_lai39r6"
+    },
+    {
+      "id": "l86v2wg",
+      "body": "Wingo still has issues in very crowded trains, I think Swisscom just reserves the bandwidth for their premium customers",
+      "author": "White_TCR",
+      "subreddit": "Switzerland",
+      "created_utc": 1718147052,
+      "score": 3,
+      "link_id": "t3_1ddjcq2",
+      "parent_id": "t1_l85ilda"
+    },
+    {
+      "id": "kznc0r0",
+      "body": "Invite received. Thank you kind Redditor!",
+      "author": "White_TCR",
+      "subreddit": "UsenetInvites",
+      "created_utc": 1713165955,
+      "score": 2,
+      "link_id": "t3_1c4fpkm",
+      "parent_id": "t1_kznbbbh"
+    },
+    {
+      "id": "kznarnn",
+      "body": "I would love an invite :) I have read and understood the Wiki",
+      "author": "White_TCR",
+      "subreddit": "UsenetInvites",
+      "created_utc": 1713165042,
+      "score": 1,
+      "link_id": "t3_1c4fpkm",
+      "parent_id": "t3_1c4fpkm"
+    },
+    {
+      "id": "ky5gf9i",
+      "body": "Thank you kind Redditor, good luck with your apartment search!",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712313414,
+      "score": 1,
+      "link_id": "t3_1bvjijr",
+      "parent_id": "t1_ky5drtl"
+    },
+    {
+      "id": "ky5dacg",
+      "body": "You got it, they actually own me quite a bit of money.. Emailed them 4-5 times and always got elusive answers. “Yeah, it’s coming next month. Oh, yes, end 2023 you’ll get it”. \nThey’re quick af to send me a rent increase tho :)",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712311367,
+      "score": 1,
+      "link_id": "t3_1bvjijr",
+      "parent_id": "t1_ky5cfhh"
+    },
+    {
+      "id": "ky51kjj",
+      "body": "WinCasa is an absolute joke. Don’t be too mad about eventually not getting the apartment with them. I’m so frustrated, still waiting for my Nebenkostenabrechnung since late 2021..",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712302877,
+      "score": 2,
+      "link_id": "t3_1bvjijr",
+      "parent_id": "t3_1bvjijr"
+    },
+    {
+      "id": "kxv3j68",
+      "body": "6.12.8 was solid. good call to wait it out",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1712157169,
+      "score": 1,
+      "link_id": "t3_1budtmj",
+      "parent_id": "t1_kxv2xa5"
+    },
+    {
+      "id": "kxv17kg",
+      "body": "Yes I get the same exact error message in the log. I saw there is a new rc version to download that should fix it. Did you try it yourself?",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1712156387,
+      "score": 1,
+      "link_id": "t3_1budtmj",
+      "parent_id": "t1_kxtv6nt"
+    },
+    {
+      "id": "kxtb2na",
+      "body": "Can confirm. Some of my remote smb mounts miss some folders. No issues if I mount them as NFS. Definitely something wrong here",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1712122308,
+      "score": 2,
+      "link_id": "t3_1budtmj",
+      "parent_id": "t1_kxs1vw0"
+    },
+    {
+      "id": "kwxtcqb",
+      "body": "Happy I could help! Wish you a nice day :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1711625181,
+      "score": 5,
+      "link_id": "t3_1bpsggx",
+      "parent_id": "t1_kwxta99"
+    },
+    {
+      "id": "kwxsahh",
+      "body": "Look in the share options if there is a “minimum free space” to set",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1711624585,
+      "score": 16,
+      "link_id": "t3_1bpsggx",
+      "parent_id": "t3_1bpsggx"
+    },
+    {
+      "id": "kwcv2gx",
+      "body": "I’m very happy with Kaffeemacher, they have both stores and an online shop",
+      "author": "White_TCR",
+      "subreddit": "basel",
+      "created_utc": 1711297500,
+      "score": 7,
+      "link_id": "t3_1bmnod6",
+      "parent_id": "t3_1bmnod6"
+    },
+    {
+      "id": "kuicyeo",
+      "body": "Open it up, clean it and replace the thermal paste with a Honeywell ptm 7950 thermal pad",
+      "author": "White_TCR",
+      "subreddit": "MatebookXPro",
+      "created_utc": 1710245284,
+      "score": 1,
+      "link_id": "t3_1bcbsb1",
+      "parent_id": "t3_1bcbsb1"
+    },
+    {
+      "id": "kuc6gpf",
+      "body": "Thank you! Still works!",
+      "author": "White_TCR",
+      "subreddit": "usenet",
+      "created_utc": 1710142437,
+      "score": 6,
+      "link_id": "t3_1bbts9p",
+      "parent_id": "t3_1bbts9p"
+    },
+    {
+      "id": "kskhb8j",
+      "body": "Absolutely love the active development Immich is seeing! Amazing product and community!",
+      "author": "White_TCR",
+      "subreddit": "immich",
+      "created_utc": 1709143501,
+      "score": 7,
+      "link_id": "t3_1b2a2ul",
+      "parent_id": "t3_1b2a2ul"
+    },
+    {
+      "id": "kq3v5rv",
+      "body": "Format it to EXT4 and enable delayed allocation for ext4. The only drawback is that in case the system loses power you may lose the data you’re writing. You can enable this option just for the first (longer) backup and then disable it again. It’s massively quicker this way",
+      "author": "White_TCR",
+      "subreddit": "synology",
+      "created_utc": 1707758656,
+      "score": 1,
+      "link_id": "t3_1aocn5c",
+      "parent_id": "t1_kq3ujcq"
+    },
+    {
+      "id": "kq2ts18",
+      "body": "What’s the file system of the HDD you connected to the usb port?",
+      "author": "White_TCR",
+      "subreddit": "synology",
+      "created_utc": 1707744072,
+      "score": 1,
+      "link_id": "t3_1aocn5c",
+      "parent_id": "t3_1aocn5c"
+    },
+    {
+      "id": "kk4rj8z",
+      "body": "On local network I get the full 112 MB/s speed. Is there anything else I could test? Thank you for stopping by and helping me out :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706549691,
+      "score": 1,
+      "link_id": "t3_1adzrrw",
+      "parent_id": "t1_kk4qp87"
+    },
+    {
+      "id": "kk4nyxo",
+      "body": "I get what you mean, I am now transfering a file right in front of me and the max I see is around 65% on core 2. Do you think this could still be the culprit?",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706548515,
+      "score": 2,
+      "link_id": "t3_1adzrrw",
+      "parent_id": "t1_kk4nl67"
+    },
+    {
+      "id": "kk4mrf9",
+      "body": "During the file transfer the cpu stays at around 20-30% load and there is no high usage of a single core. As far as I know, people have been able to get gigabit wireguard speeds out of a N5105. Thank you anyway for trying to help me out!",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706548116,
+      "score": 3,
+      "link_id": "t3_1adzrrw",
+      "parent_id": "t1_kk4lx9c"
+    },
+    {
+      "id": "khl6eqs",
+      "body": "Yep, pretty pleased with it :)",
+      "author": "White_TCR",
+      "subreddit": "HomeServer",
+      "created_utc": 1705099596,
+      "score": 1,
+      "link_id": "t3_18zgee8",
+      "parent_id": "t1_khl5fbh"
+    },
+    {
+      "id": "khl070t",
+      "body": "I bought a Node 304 :)",
+      "author": "White_TCR",
+      "subreddit": "HomeServer",
+      "created_utc": 1705097355,
+      "score": 1,
+      "link_id": "t3_18zgee8",
+      "parent_id": "t1_khl01as"
+    },
+    {
+      "id": "khf5vwr",
+      "body": "Hey there, thank you for sharing your experience and for calming me down. I guess I'll learn from my mistake and just accept if one of the drives will fail prematurely.",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1705007724,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdj2nl"
+    },
+    {
+      "id": "khdfjwq",
+      "body": "Thank you for your kind support :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986834,
+      "score": 2,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdfdpw"
+    },
+    {
+      "id": "khdfchi",
+      "body": "I'll build my server next week and update you with a comment. Thank you for telling me your experience with nvme cache",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986760,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdf37z"
+    },
+    {
+      "id": "khdf7tg",
+      "body": "Absolutely, I'll keep that in mind next time",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986713,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdei1y"
+    },
+    {
+      "id": "khdf6p3",
+      "body": "Yes cache drives",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986702,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdcvr2"
+    },
+    {
+      "id": "khdc928",
+      "body": "Sadly no, they come from China so the return would definitely outweigh the initial cost :(",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704985638,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdc5yf"
+    },
+    {
+      "id": "kgicnxo",
+      "body": "I got one too, should be at my place on Monday! Super excited to see how it will be :)",
+      "author": "White_TCR",
+      "subreddit": "HomeServer",
+      "created_utc": 1704498201,
+      "score": 3,
+      "link_id": "t3_18zgee8",
+      "parent_id": "t3_18zgee8"
     }
   ]
 }

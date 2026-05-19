@@ -1,6 +1,18 @@
 {
   "username": "PJannis",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dud9b1",
+      "title": "A UV-finite Formulation of QFT?",
+      "author": "PJannis",
+      "subreddit": "u_PJannis",
+      "created_utc": 1720010111,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://jannisn.github.io/QuantumFields/pdfs/qft_reformulation.pdf"
+    }
+  ],
   "comments": [
     {
       "id": "m3en1yw",
@@ -31,6 +43,26 @@
       "score": 1,
       "link_id": "t3_1eizvig",
       "parent_id": "t3_1eizvig"
+    },
+    {
+      "id": "m36496d",
+      "body": "You don't need that third reference frame. It's actually really simple: The frame of the twin on earth is inertial, the frame of the traveling twin is not, because their frame is accelerated when the spaceship is accelerating. To analyse the situation from the traveling frame you would have to do a continuous Lorentz transformation during the acceleration part.\n\n\nThe question may then be what determines what frame is accelerating and what frame is not. This depends on the spacetime metric which is determined by general relativity. In fact, an inertial reference frame only exists if spacetime is flat.",
+      "author": "PJannis",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734805336,
+      "score": 1,
+      "link_id": "t3_1hjdr41",
+      "parent_id": "t1_m35rrj4"
+    },
+    {
+      "id": "lfb9cmm",
+      "body": "You have to be very careful with applying formulas for Minkowski spacetime to this case. Lorentz transforms are just coordinate transformations, and in this case the spacetime is topologically non-trivial. So if you try to apply a usual Lorentz transform you turn a circle(a path that wraps around space once) into a spiral(wraps around space infinitely often, as a function of the previous time coordinate).",
+      "author": "PJannis",
+      "subreddit": "AskPhysics",
+      "created_utc": 1722157232,
+      "score": 1,
+      "link_id": "t3_1edl0rf",
+      "parent_id": "t1_lf95sbm"
     }
   ]
 }

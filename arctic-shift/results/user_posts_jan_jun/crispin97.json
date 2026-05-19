@@ -1,6 +1,139 @@
 {
   "username": "crispin97",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dith2n",
+      "title": "What are good books/resources/methods to learn to efficiently work with complex SQL databases in Python?",
+      "author": "crispin97",
+      "subreddit": "learnpython",
+      "created_utc": 1718724558,
+      "score": 18,
+      "num_comments": 3,
+      "selftext": "There are lots of ways you can approach this and some fundamental design decisions such as ORM or text queries, using a repository pattern, unit of work pattern and more.\n\nI'm quite good at working with these on a small scale. Still, as I'm currently building an increasingly complex application I'm coming to non-trivial or basic problems and I'm wondering how a senior developer would approach this. \n\nAre you aware of any resources that could be useful to learn about this with the assumption that I'd be willing to invest a few days or a week into this",
+      "url": "https://www.reddit.com/r/learnpython/comments/1dith2n/what_are_good_booksresourcesmethods_to_learn_to/"
+    },
+    {
+      "id": "1dgh7q7",
+      "title": "What are creative use cases that you use cursor for? Which prompts do you use?",
+      "author": "crispin97",
+      "subreddit": "cursor",
+      "created_utc": 1718455642,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "I'm a big fan of cursor and would be curious how you guys use it.\n\nTwo use cases I've developed:\n\n* Select an entire file and type \"fix this\" with command + K even when I'm not aware of any error. Just to see what it suggests.\n* Highlight a few files and ask the LLM to critique my implementation of a coding pattern and how I could improve. \n\nAre there any creative uses and prompts that you use with cursor?",
+      "url": "https://www.reddit.com/r/cursor/comments/1dgh7q7/what_are_creative_use_cases_that_you_use_cursor/"
+    },
+    {
+      "id": "1de7mku",
+      "title": "AI tools for editing? Especially searching, selecting and composing images and video.",
+      "author": "crispin97",
+      "subreddit": "videography",
+      "created_utc": 1718201465,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/videography/comments/1de7mku/ai_tools_for_editing_especially_searching/"
+    },
+    {
+      "id": "1cdku49",
+      "title": "How to build a pizza quality assurance workflow with the Jetson Nano",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1714136529,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey everyone,\n\nI recently completed a project using the Jetson Nano and wanted to share my experience and learnings here. Throughout the development process, I often relied on this subreddit to figure things out. Now that everything is working I wanted to share some details of the project and what I learnt. I wish I had come across more posts like this when I was starting out. I'm a big fan of the Jetson series, although I do wish I had opted for the Orin Nano instead of the \"regular\" Nano.\n\n[https://thisiscrispin.substack.com/p/how-i-am-automated-quality-assurance](https://thisiscrispin.substack.com/p/how-i-am-automated-quality-assurance)\n\nThe project I built is a prototype system designed to identify quality defects in pizza preparation within ghost kitchens. At the heart of the system is the Jetson Nano, which is connected to a camera. The system's primary function is to identify the pizza type and count the number of ingredients on each pizza. It then compares this information with the original recipe and sends notifications to a designated Slack channel, providing a summary of any mismatch.\n\nHappy to answer any questions! :)",
+      "url": "https://www.reddit.com/r/JetsonNano/comments/1cdku49/how_to_build_a_pizza_quality_assurance_workflow/"
+    },
+    {
+      "id": "1cdht0x",
+      "title": "How to build and auto-deploy docker-based AWS Lambda functions with GitHub Actions",
+      "author": "crispin97",
+      "subreddit": "serverless",
+      "created_utc": 1714126826,
+      "score": 0,
+      "num_comments": 3,
+      "selftext": "Hello everyone,\n\nI recently faced challenges while automating AWS Lambda function updates directly from GitHub pushes. The main hurdles included managing secrets and dealing with timeouts during updates. After some effort, I've successfully streamlined the process.\n\nFor those interested, I've created a detailed guide and included a YAML configuration in a GitHub gist. This might help if you're encountering similar issues. Here's the link to the gist:\n\n[https://gist.github.com/DominiquePaul/15be5f5da95b2c30684ecdfd4a151f27](https://gist.github.com/DominiquePaul/15be5f5da95b2c30684ecdfd4a151f27)\n\nI'm open to feedback and suggestions for further improvement. Feel free to share your thoughts or ask questions if you need more details.",
+      "url": "https://www.reddit.com/r/serverless/comments/1cdht0x/how_to_build_and_autodeploy_dockerbased_aws/"
+    },
+    {
+      "id": "1cdhsmc",
+      "title": "How to build and auto-deploy docker based AWS Lambda functions with a Github Actions",
+      "author": "crispin97",
+      "subreddit": "awslambda",
+      "created_utc": 1714126789,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Hello everyone,\n\nI recently faced challenges while automating AWS Lambda function updates directly from GitHub pushes. The main hurdles included managing secrets and dealing with timeouts during updates. After some effort, I've successfully streamlined the process.\n\nFor those interested, I've created a detailed guide and included a YAML configuration in a GitHub gist. This might help if you're encountering similar issues. Here's the link to the gist:\n\n[https://gist.github.com/DominiquePaul/15be5f5da95b2c30684ecdfd4a151f27](https://gist.github.com/DominiquePaul/15be5f5da95b2c30684ecdfd4a151f27)\n\nI'm open to feedback and suggestions for further improvement. Feel free to share your thoughts or ask questions if you need more details.",
+      "url": "https://www.reddit.com/r/awslambda/comments/1cdhsmc/how_to_build_and_autodeploy_docker_based_aws/"
+    },
+    {
+      "id": "1caehce",
+      "title": "What writing / storytelling structure do you use for your newsletters?",
+      "author": "crispin97",
+      "subreddit": "Substack",
+      "created_utc": 1713801600,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I sometimes have an idea or something I created (my substack is about software projects I build) that I want to share with my audience. I have a lot I *could* write about but also want to make the content succinct and relevant to my audience. Of course, making it engaging, using a hook, etc. are also common advice that comes to mind.\n\nI wonder whether there is a structure that lends itself well to writing a newsletter.\n\nFor example, there's the[ five-act structure for theatre ](https://www.storyboardthat.com/articles/e/five-act-structure)or the [Hero's Journey Story Framework](https://en.wikipedia.org/wiki/Hero%27s_journey). These were developed for other frameworks though. I wonder if there is something similar to a format like non-fiction newsletters.\n\nHow do you structure your content? Is there a natural structure due to your topic or do you design it?",
+      "url": "https://www.reddit.com/r/Substack/comments/1caehce/what_writing_storytelling_structure_do_you_use/"
+    },
+    {
+      "id": "1c5f1cx",
+      "title": "Can't SSH into Jetson Nano when app running",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713271017,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Hey, \n\nI have a Jetson running at one of our stores using a YOLO net. It's running in a docker container and I'm noticing that the metal coming of the Tegra chip gets very hot. Recently I was trying to make a small change but I couldn't SSH onto the device. I unplugged the device and tried again that worked. Now I'm trying to connect again a few days later and am having issues.  \n\n\nAre any of you aware of problems SSHing into the device when it's at full processing power? How do you prevent this?",
+      "url": "https://www.reddit.com/r/JetsonNano/comments/1c5f1cx/cant_ssh_into_jetson_nano_when_app_running/"
+    },
+    {
+      "id": "1bwj0vk",
+      "title": "Is it still worth buying a jetson nano?",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1712326245,
+      "score": 4,
+      "num_comments": 9,
+      "selftext": "I just bought a Nano to solve a problem at our company related to quality control.\n\n  \nSo far my experience hasn't been that well. I can't use most (non-jetson) ML tutorials that were released in the last few years and have trouble getting basic libraries running (numpy, opencv, torch). Even the \"official\" resources such as the jetson cam and jetson inference don't work once I try to run them outside of the sandbox environment. I feel like everything I'm doing is implementing a workaround for something that I could setup in a few minutes on my local computer running python3.9.\n\nIs the jetson nano something that really makes sense to buy and that people still do? I feel like I bought the iPhone in 2020. Is it expected/best practice to just move on to the Jetson Orin Nano/Raspberry pi 5? It's a shame that the Orin is so prohibitively expensive to just toy around with.",
+      "url": "https://www.reddit.com/r/JetsonNano/comments/1bwj0vk/is_it_still_worth_buying_a_jetson_nano/"
+    },
+    {
+      "id": "1aeq0ef",
+      "title": "Best way to get a phone number for WhatsApp API?",
+      "author": "crispin97",
+      "subreddit": "WhatsappBusinessAPI",
+      "created_utc": 1706625875,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I‘ve developed an app that I want to put into production now. It’s an app that allows you to record voice memos that are then turned into letters that you can send via physical mail without leaving the chat. It solves a  personal problem I had with staying in touch with my grandma. \n\nI want to make it accessible for anyone,  but I’m struggling with linking the app to a phone number that isn’t mine. Im using the testing number provided by meta for development and testing and the app, but I’d also want another phone number for people to actually use the Chatbot.\n\nI’ve seen there are some providers in the iOS App Store that sells WhatsApp phone numbers but they all seem a bit shady and I’m not sure if that’s the way to go. I would imagine that are thousands of people with a whatsapp Chatbot/app. I can’t imagine that they have it run on their private phone number or just get an extra phone number subscription from their Internet service provider (like AT&T, Orange or Telekom). Also, I don’t see the possibility to get a virtual additional phone number from meta for this. \n\nAny help and hints are appreciated!",
+      "url": "https://www.reddit.com/r/WhatsappBusinessAPI/comments/1aeq0ef/best_way_to_get_a_phone_number_for_whatsapp_api/"
+    },
+    {
+      "id": "18zgi9d",
+      "title": "How to write tests for Supabase with python that use the current schema?",
+      "author": "crispin97",
+      "subreddit": "Supabase",
+      "created_utc": 1704486079,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I have started to use Supabase a bit and want to use it for a product idea I am working on. I want to write tests and within these tests make sure that my tests work against the current schema of my database. I am still making frequent edits to my schema (I love the web UI for making that possible so fast) but am worried that I might forget to make the correct changes to my code. \n\nHence I am worried about using something like mocking. Ideally, I would just have a copy with of my production database that copies any updates I make to my production database schema. I don't care about the content/data as I can write a setup function to populate the data. Setting up such a copy seems very cumbersome. \n\nHow do you solve this? What is the right way? or a method that gets me 80% of what I want with 20% of the effort required for the way that is 100% right?\n\nThank you for any help!",
+      "url": "https://www.reddit.com/r/Supabase/comments/18zgi9d/how_to_write_tests_for_supabase_with_python_that/"
+    },
+    {
+      "id": "18xyc3k",
+      "title": "Twilio whatsapp for indie-project",
+      "author": "crispin97",
+      "subreddit": "twilio",
+      "created_utc": 1704326284,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/twilio/comments/18xyc3k/twilio_whatsapp_for_indieproject/"
+    }
+  ],
   "comments": [
     {
       "id": "kghi5fr",
@@ -11,6 +144,416 @@
       "score": 2,
       "link_id": "t3_18z8qtn",
       "parent_id": "t3_18z8qtn"
+    },
+    {
+      "id": "la6zffy",
+      "body": "Which transcription API are you using?",
+      "author": "crispin97",
+      "subreddit": "whatsapp",
+      "created_utc": 1719316751,
+      "score": 1,
+      "link_id": "t3_1dn8zsz",
+      "parent_id": "t3_1dn8zsz"
+    },
+    {
+      "id": "l9radxk",
+      "body": "No not that easy. You need to be part of a lab with access. I'm not sure how the access by the labs is handled. I was part of one for a project where we had access to quite a few of the smaller GPUs. You schedule a job with what I remember being Slurm (a resource manager for shared clusters; it basically decides which jobs get to run in which order and priority). I think it's rather rare having access to those larger GPU groups. Probably it's also only a few labs which really have projects that require those. My impression was that ETHZ doesn't have thaaaat many labs working on large scale ML models or LLMs in general. Yes, there are two NLP groups, but they're not that obsessed with LLMs as e.g. Stanford NLP.",
+      "author": "crispin97",
+      "subreddit": "MachineLearning",
+      "created_utc": 1719061366,
+      "score": 3,
+      "link_id": "t3_1dlsogx",
+      "parent_id": "t1_l9r7q9g"
+    },
+    {
+      "id": "l9r6nmo",
+      "body": "I studied at ETH. Labs have access to the Euler cluster which is a shared cluster for all of ETH. I'm not sure how the allocation is handled. You can read more about the cluster here: [https://scicomp.ethz.ch/wiki/Euler](https://scicomp.ethz.ch/wiki/Euler)\n\nEuler contains dozens of GPU nodes equipped with different types of GPUs:\n\n* 9 nodes with 8 x [Nvidia GTX 1080](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-1080) (formerly in [Leonhard Open](https://scicomp.ethz.ch/wiki/Leonhard)) *decommissioned in 2023*\n* 47 nodes with 8 x [Nvidia GTX 1080 Ti](https://www.nvidia.com/en-us/geforce/news/nvidia-geforce-gtx-1080-ti) (formerly in [Leonhard Open](https://scicomp.ethz.ch/wiki/Leonhard)) *decommissioned in 2023-2024*\n* 4 nodes with 8 x [Nvidia Tesla V100](https://docs.nvidia.com/dgx/dgx1-user-guide/introduction-to-dgx1.html) (including some formerly in [Leonhard Open](https://scicomp.ethz.ch/wiki/Leonhard))\n* 93 nodes with 8 x [Nvidia RTX 2080 Ti](https://www.nvidia.com/en-me/geforce/graphics-cards/rtx-2080-ti) (including some formerly in [Leonhard Open](https://scicomp.ethz.ch/wiki/Leonhard))\n* 16 nodes with 8 x [Nvidia Titan RTX](https://www.nvidia.com/en-us/deep-learning-ai/products/titan-rtx)\n* 20 nodes with 8 x [Nvidia Quadro RTX 6000](https://www.nvidia.com/en-us/design-visualization/rtx-a6000)\n* 33 nodes with 8 x [Nvidia RTX 3090](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti)\n* 3 nodes with 8 x [Nvidia Tesla A100](https://www.nvidia.com/en-us/data-center/a100) (40 GB PCIe)\n* 3 nodes with 10 x [Nvidia Tesla A100](https://www.nvidia.com/en-us/data-center/a100) (80 GB PCIe)\n* 2 nodes with 8 x [Nvidia Tesla A100](https://www.nvidia.com/en-us/data-center/a100) (80 GB PCIe)\n* 40 nodes with 8 x [Nvidia RTX 4090](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090)",
+      "author": "crispin97",
+      "subreddit": "MachineLearning",
+      "created_utc": 1719059509,
+      "score": 15,
+      "link_id": "t3_1dlsogx",
+      "parent_id": "t1_l9r2m9r"
+    },
+    {
+      "id": "l8g7mil",
+      "body": "I lived there for half a year, if you have more specific questions I can tell you more!\n\nWe built a sports pitch there and blogged the experience for 13 days. Maybe that's also interesting to you :)\n\n[https://www.youtube.com/playlist?list=PLm\\_abNjFUYXd0wg1JNRrRvnUmmldyA02p](https://www.youtube.com/playlist?list=PLm_abNjFUYXd0wg1JNRrRvnUmmldyA02p)",
+      "author": "crispin97",
+      "subreddit": "howislivingthere",
+      "created_utc": 1718297527,
+      "score": 2,
+      "link_id": "t3_1de86ap",
+      "parent_id": "t3_1de86ap"
+    },
+    {
+      "id": "l82utyn",
+      "body": "If you want to use the WhatsApp API then it has to be a business account. You cannot use the API with a private account. So yes, in that sense it’s only for WhatsApp business. But you can convert your private account to a business account.",
+      "author": "crispin97",
+      "subreddit": "whatsapp",
+      "created_utc": 1718086202,
+      "score": 1,
+      "link_id": "t3_skjxq8",
+      "parent_id": "t1_l82q0e2"
+    },
+    {
+      "id": "l7os8ql",
+      "body": "Thanks! This is very motivating to here. I used and further extended the code in another project. Maybe this is helpful too. \n\nIt’s a WhatsApp/Telegram bot (works with both) that turns voice memos into physical letters that you can actually have printed and sent without having to leave the chat:\nhttps://github.com/DominiquePaul/GrannyMail",
+      "author": "crispin97",
+      "subreddit": "whatsapp",
+      "created_utc": 1717861233,
+      "score": 1,
+      "link_id": "t3_skjxq8",
+      "parent_id": "t1_l7octp0"
+    },
+    {
+      "id": "l4zptvh",
+      "body": "I'm not sure about the pricing, but what I know is that if a user initiates a conversation then anything you send in the subsequent 24 hours is free.",
+      "author": "crispin97",
+      "subreddit": "whatsapp",
+      "created_utc": 1716278056,
+      "score": 1,
+      "link_id": "t3_skjxq8",
+      "parent_id": "t1_l4p3l1f"
+    },
+    {
+      "id": "l1xjg8o",
+      "body": "There are restaurants in Freetown with a star?",
+      "author": "crispin97",
+      "subreddit": "SierraLeone",
+      "created_utc": 1714480662,
+      "score": 1,
+      "link_id": "t3_1cg9612",
+      "parent_id": "t1_l1ua386"
+    },
+    {
+      "id": "l1kdjdm",
+      "body": "Thank you! It did take a bit more time than expected creating this and it’s more or the less first time doing it. Very motivating to read this! 🫶🏼",
+      "author": "crispin97",
+      "subreddit": "awslambda",
+      "created_utc": 1714258535,
+      "score": 1,
+      "link_id": "t3_1cdhsmc",
+      "parent_id": "t1_l1jua3e"
+    },
+    {
+      "id": "l1iouzg",
+      "body": "Sure 😄\n\nhttps://thisiscrispin.substack.com/",
+      "author": "crispin97",
+      "subreddit": "Entrepreneur",
+      "created_utc": 1714235089,
+      "score": 2,
+      "link_id": "t3_1cdsz38",
+      "parent_id": "t1_l1hrvvo"
+    },
+    {
+      "id": "l1e6ugn",
+      "body": "I started a newsletter where I initially just added six friends to keep them updated about what I'm working on (I knew they were somewhat interested in the same topics as I am). Over time more people heard about it and signed up. I didn't actively promote it and I think that ironically helped me because I don't think that much about \"growing an audience\". I just write about what I think is cool and interesting which is mostly software projects and tools I'm working on.\n\nWhile it won't lead to any merit in the short-term I think over the long-term the best thing you can do is to honestly talk about and share what you are doing and learning. People who are interested will automatically catch on and by sharing what you are doing and thinking about it's easier for them to open conversations about common interests with you. Also, your friends are more in the know about what's keeping you busy and might bring up a project of yours to others which allows them to reach out to you.\n\nFinally, when you approach people it can also make you more interesting to them because you have a *demonstrated* interest in whatever your thing is and that may overlap with their interests. It's so much stronger of a signal than just having \"passionate about building products\" in your LinkedIn bio. Everybody can do that. \n\nIt's maybe not quite what you were looking for but it's provided me with a lot of small coincidences thus far. In the end, it might as well be more important who knows you than who you know.",
+      "author": "crispin97",
+      "subreddit": "Entrepreneur",
+      "created_utc": 1714158179,
+      "score": 4,
+      "link_id": "t3_1cdsz38",
+      "parent_id": "t3_1cdsz38"
+    },
+    {
+      "id": "l1ci6be",
+      "body": "Super cool! For how long did oyu have the paid version available until it was bought?",
+      "author": "crispin97",
+      "subreddit": "Substack",
+      "created_utc": 1714137130,
+      "score": 1,
+      "link_id": "t3_1ccqs8f",
+      "parent_id": "t3_1ccqs8f"
+    },
+    {
+      "id": "l1cfc2d",
+      "body": "Same thing happened to me! Followers looks the same, but when I click on the number to see the chart it also dropped by the same number.",
+      "author": "crispin97",
+      "subreddit": "Substack",
+      "created_utc": 1714135973,
+      "score": 1,
+      "link_id": "t3_1cdi7wi",
+      "parent_id": "t3_1cdi7wi"
+    },
+    {
+      "id": "l1cf6ye",
+      "body": "Thanks I'm not familiar with either. I've mostly used PaaS prior to AWS. Which of the two would you recommend for this use case? Is this also CI/CD such that when you push to the repo it also updates your function?\n\nDoes CDK also solve the problem of developing and testing a setup where you have multiple lambda functions triggering each other without having to update and run them with real data online?",
+      "author": "crispin97",
+      "subreddit": "serverless",
+      "created_utc": 1714135914,
+      "score": 1,
+      "link_id": "t3_1cdht0x",
+      "parent_id": "t1_l1ce159"
+    },
+    {
+      "id": "l0sb42v",
+      "body": "I had exactly the same experience for the jetson nano in the last three weeks. I think this has changed with the Orin series as it can run the newest versions of python and you should then be able to do anything you an do on your own computer.",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713813919,
+      "score": 1,
+      "link_id": "t3_jouz00",
+      "parent_id": "t1_gbd4w70"
+    },
+    {
+      "id": "kzznwyj",
+      "body": "I've now added two flags for RAM and CPU limitations to my docker run command. This solved it :)\n\n    docker run --cpus=\"3.2\" -m 3072m [more flags] my_image_name:latest",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713363723,
+      "score": 2,
+      "link_id": "t3_1c5f1cx",
+      "parent_id": "t1_kzyt4sy"
+    },
+    {
+      "id": "kzzne14",
+      "body": "Thanks! Would you do this:  \na) in the yolo model settings  \nb) in the FPS settings of the camera  \nc) by adding a time.sleep timer?",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713363538,
+      "score": 1,
+      "link_id": "t3_1c5f1cx",
+      "parent_id": "t1_kzyq34h"
+    },
+    {
+      "id": "kztebv6",
+      "body": "You mean good documentation for the coral?",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713268023,
+      "score": 1,
+      "link_id": "t3_1bwj0vk",
+      "parent_id": "t1_kzsegra"
+    },
+    {
+      "id": "kztdv5w",
+      "body": "I would start with a Rapsberry Pi. The old Jetson nano is shit (I am using it myself atm) and you can't use recent software versions (e.g. I can only use python 3.8 before running into other problems).\n\nRaspberry pi seems much cheaper and if you need more GPU then you can get one of those attachable GPUs/TPUs",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713267791,
+      "score": 4,
+      "link_id": "t3_1c5bl0d",
+      "parent_id": "t3_1c5bl0d"
+    },
+    {
+      "id": "kzrbte2",
+      "body": "These guys might be interesting to talk to:  \n[https://truestoneimpactinvestment.co.uk/](https://truestoneimpactinvestment.co.uk/)  \n  \nThey are Brits operating 7-10 businesses in Sierra Leone (including chicken town for example). I think they only take bigger investments, but maybe still interesting reaching out?",
+      "author": "crispin97",
+      "subreddit": "SierraLeone",
+      "created_utc": 1713226556,
+      "score": 1,
+      "link_id": "t3_1c4ime1",
+      "parent_id": "t3_1c4ime1"
+    },
+    {
+      "id": "kzrbliy",
+      "body": "In which sense is shipping a good business? My first thought that this will give you an extremely high exposure to working with bureaucracy.\n\nOr do you mean importing goods to Sierra Leone?",
+      "author": "crispin97",
+      "subreddit": "SierraLeone",
+      "created_utc": 1713226470,
+      "score": 1,
+      "link_id": "t3_1c4ime1",
+      "parent_id": "t1_kzp5zss"
+    },
+    {
+      "id": "kzrbcxs",
+      "body": "Wow that's incredible! Very cool to hear from somebody that actually got it working. The speeds also sound phenomenal. How many people do you have using it at peak time? It might be a bit until I do, but I'd love reaching out to you with a few more specific questions in the future!\n\nYes, I'm in Sierra Leone twice a year :)   \nThis is us: [https://www.sierraleonehockey.org](https://www.sierraleonehockey.org)",
+      "author": "crispin97",
+      "subreddit": "Starlink",
+      "created_utc": 1713226374,
+      "score": 1,
+      "link_id": "t3_1bq3wip",
+      "parent_id": "t1_kzf5ssh"
+    },
+    {
+      "id": "kzrauti",
+      "body": "This was exactly my experience upon buying and receiving it. What might be worth looking at is using the Raspberry pi 5 + an external TPU from Coral (https://coral.ai). I saw some videos on youtube and it looked like this could replace the Nano.",
+      "author": "crispin97",
+      "subreddit": "JetsonNano",
+      "created_utc": 1713226175,
+      "score": 1,
+      "link_id": "t3_1bwj0vk",
+      "parent_id": "t1_kzqbiqi"
+    },
+    {
+      "id": "kz2u0m9",
+      "body": "Yes, definitely buy a local simcard at the airport. It's very cheap. Don't be surprised when they ask for your passport.",
+      "author": "crispin97",
+      "subreddit": "SierraLeone",
+      "created_utc": 1712844542,
+      "score": 2,
+      "link_id": "t3_1bx9tm9",
+      "parent_id": "t3_1bx9tm9"
+    },
+    {
+      "id": "kz2txk1",
+      "body": "That store is between Siaka Stevens street and Garrison street. Either on Carlotte or Howe street (I don't remember exactly). It's roughly two thirds up the way from Siaka Stevens to Garriso and on the right side. You have to walk up a few stairs. They should have a jersey.",
+      "author": "crispin97",
+      "subreddit": "SierraLeone",
+      "created_utc": 1712844512,
+      "score": 2,
+      "link_id": "t3_1bz9xfs",
+      "parent_id": "t3_1bz9xfs"
+    },
+    {
+      "id": "ky6a8e2",
+      "body": "I just bought it last week and I'm pretty disappointed. It only runy ubuntu 18.04 and python3.6. You can get python3.9 working, but then other parts of the nvidia resources don't work. I've been working with it for four days now and I feel like I'm constantly implementing workarounds for everything. You can't just install pytorch, pytorch vision or even open-cv2.\n\nThe Jetson Orin seems like the way to go, but its 2-3x as expensive. I haven't looked into this a lot yet, but I'm wondering whether the Raspberrypi5 could solve lightweight ML problems as well.",
+      "author": "crispin97",
+      "subreddit": "embedded",
+      "created_utc": 1712326749,
+      "score": 1,
+      "link_id": "t3_18b5t3z",
+      "parent_id": "t3_18b5t3z"
+    },
+    {
+      "id": "kxtqnwd",
+      "body": "I use nat.dev. You need to pay, but it gives you access to virtually all LLMs in an online environment. You can choose from a drop-down which one you want to use.",
+      "author": "crispin97",
+      "subreddit": "singularity",
+      "created_utc": 1712133385,
+      "score": 1,
+      "link_id": "t3_1b7u9zf",
+      "parent_id": "t3_1b7u9zf"
+    },
+    {
+      "id": "kxjtwix",
+      "body": "What kind of project/NGO are you working on?   \n  \nI run a sports project in SL together with a few friends (we all met studying in Switzerland). We built a sports pitch next to a school close to Waterloo/four-mile junction. We play field hockey and I would love to hook up a camera for a live stream. Obviously internet is an issue, so I was thinking about getting a starlink. Would love to hear how your experience went!",
+      "author": "crispin97",
+      "subreddit": "Starlink",
+      "created_utc": 1711983081,
+      "score": 1,
+      "link_id": "t3_1bq3wip",
+      "parent_id": "t3_1bq3wip"
+    },
+    {
+      "id": "kwufxg3",
+      "body": "You could think about starting a substack. I think success hinges on being authentic and telling the true story there. \n\nI started by just adding my six best friends and started writing a summary of what I've been working on and what I've been reading/watching. Writing for a small audience helped me a lot with trying things out and not thinking that it has to be perfect. It's been growing since. \n\nIt's incredibly helpful to validate and double-check your own logic. It's a mental exercise that requires me to go through my logic step and step and explain why it makes sense to another person. I write differently when I know that somebody else might/is going to read what I'm writing. \n\nThis for example is a post about why I decided to freelance, how much I've earned, how I've allocated my time by the hour in a given month what my goals and fears for the next six months are.  \n[https://thisiscrispin.substack.com/p/january-in-review](https://thisiscrispin.substack.com/p/january-in-review)\n\nThis one is the announcement of a small app I've been working on (turns whatsapp voice memos into physical letters that are sent by mail)  \n[https://thisiscrispin.substack.com/p/grannymail-is-now-in-open-beta](https://thisiscrispin.substack.com/p/grannymail-is-now-in-open-beta)\n\nMaybe something like this could be helpful for you too. Happy to help you get started if you have any questions! :)",
+      "author": "crispin97",
+      "subreddit": "startups",
+      "created_utc": 1711568053,
+      "score": 1,
+      "link_id": "t3_rs850b",
+      "parent_id": "t3_rs850b"
+    },
+    {
+      "id": "kwucyg0",
+      "body": "Looks super cool! Does subtack prevent scraping somehow? Why did you use selenium instead of just beautiful soup? \n\nI'm thinking about building something else but that would also require accessing the content from substack and would be very interested! :)",
+      "author": "crispin97",
+      "subreddit": "Substack",
+      "created_utc": 1711567069,
+      "score": 1,
+      "link_id": "t3_18zovty",
+      "parent_id": "t3_18zovty"
+    },
+    {
+      "id": "kq8ce4a",
+      "body": "Does this still work? I'm not getting it to work",
+      "author": "crispin97",
+      "subreddit": "Streamlit",
+      "created_utc": 1707832030,
+      "score": 2,
+      "link_id": "t3_17bfaxk",
+      "parent_id": "t3_17bfaxk"
+    },
+    {
+      "id": "kowgd92",
+      "body": "\\+1 on this. Previewing as HTML and copy pasting works, but only to a limited degree. You can only use h2 headings. For lower headings it will copy all caps. Images will also not copy.",
+      "author": "crispin97",
+      "subreddit": "ulyssesapp",
+      "created_utc": 1707066980,
+      "score": 1,
+      "link_id": "t3_ug53uz",
+      "parent_id": "t3_ug53uz"
+    },
+    {
+      "id": "kk66kwy",
+      "body": "One quick thing you could try is use csv handlers from existing tools, for example from embedchain.\n\n[https://docs.embedchain.ai/components/data-sources/csv](https://docs.embedchain.ai/components/data-sources/csv)",
+      "author": "crispin97",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1706566767,
+      "score": 1,
+      "link_id": "t3_14jblyr",
+      "parent_id": "t3_14jblyr"
+    },
+    {
+      "id": "kjlorgx",
+      "body": "You can just setup the API yourself. You just need to login. Whats important is that you can only really send custom messages to users if they sent a message to your number in the last 24h. \n\nI had a horrible time getting started with the API and decided to put together a small repo of code snippets that I found useful. Maybe you'll also find it useful. Feel free to reach out if you have specific questions. Happy to help :)\n\nhttps://github.com/DominiquePaul/python-whatsapp",
+      "author": "crispin97",
+      "subreddit": "learnpython",
+      "created_utc": 1706237083,
+      "score": 1,
+      "link_id": "t3_vif9gn",
+      "parent_id": "t3_vif9gn"
+    },
+    {
+      "id": "kjlo9c5",
+      "body": "Yes there is an API and it's available to the public. I had a not so good experience using it and decided to put together some code for getting started as a well as a small collection of useful links. Maybe you'll also find it useful :)\n\n  \nhttps://github.com/DominiquePaul/python-whatsapp",
+      "author": "crispin97",
+      "subreddit": "whatsapp",
+      "created_utc": 1706236881,
+      "score": 1,
+      "link_id": "t3_skjxq8",
+      "parent_id": "t3_skjxq8"
+    },
+    {
+      "id": "kjlo1mm",
+      "body": "I had a horrible time using the API initially since the documentation is that great IMO. I've created a small repo with resources and code for how to use the API with python, maybe that helps. If you have any specific questions feel free to reach out :)\n\nhttps://github.com/DominiquePaul/python-whatsapp?tab=readme-ov-file",
+      "author": "crispin97",
+      "subreddit": "whatsapp",
+      "created_utc": 1706236795,
+      "score": 1,
+      "link_id": "t3_15c1y0d",
+      "parent_id": "t3_15c1y0d"
+    },
+    {
+      "id": "kii5woa",
+      "body": "I think this chart is quite telling: https://twitter.com/DominiqueCAPaul/status/1748112335678427377",
+      "author": "crispin97",
+      "subreddit": "flask",
+      "created_utc": 1705617530,
+      "score": 1,
+      "link_id": "t3_13pyxie",
+      "parent_id": "t3_13pyxie"
+    },
+    {
+      "id": "ki4zrmo",
+      "body": "Your link does not work anymore. Does the website still exist?",
+      "author": "crispin97",
+      "subreddit": "SaaS",
+      "created_utc": 1705420874,
+      "score": 1,
+      "link_id": "t3_vgz8lp",
+      "parent_id": "t3_vgz8lp"
+    },
+    {
+      "id": "kghd2xn",
+      "body": "This might be interesting to you:  \nhttps://supabase.com/partners/integrations/snaplet",
+      "author": "crispin97",
+      "subreddit": "Supabase",
+      "created_utc": 1704485737,
+      "score": 1,
+      "link_id": "t3_wa8b3y",
+      "parent_id": "t3_wa8b3y"
+    },
+    {
+      "id": "kgfy8tm",
+      "body": "This is really good. I was struggling to find something similar in the figjam templates",
+      "author": "crispin97",
+      "subreddit": "FigmaDesign",
+      "created_utc": 1704468461,
+      "score": 1,
+      "link_id": "t3_rr10w3",
+      "parent_id": "t3_rr10w3"
+    },
+    {
+      "id": "kgfxrjp",
+      "body": "The lazy say thank you",
+      "author": "crispin97",
+      "subreddit": "FigmaDesign",
+      "created_utc": 1704468285,
+      "score": 2,
+      "link_id": "t3_rr10w3",
+      "parent_id": "t1_hqhc8te"
     }
   ]
 }

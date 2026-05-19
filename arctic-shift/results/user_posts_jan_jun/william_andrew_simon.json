@@ -1,6 +1,29 @@
 {
   "username": "william_andrew_simon",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1c01b2d",
+      "title": "Possible serious privacy leak: Other people's photos in my Saved Messages chat",
+      "author": "william_andrew_simon",
+      "subreddit": "Telegram",
+      "created_utc": 1712692063,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Telegram/comments/1c01b2d/possible_serious_privacy_leak_other_peoples/"
+    },
+    {
+      "id": "1ber2sf",
+      "title": "C++ std::map<enum, struct> does not display properly",
+      "author": "william_andrew_simon",
+      "subreddit": "vscode",
+      "created_utc": 1710438135,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "I wrote a minimum reproducible program to display my problem. When defining a struct, and a map whose values are said struct, the map in the watch window will not display properly if the key of the map is an enum. If the key is an integer, or the key is an enum and the value is an integer, the map displays as expected. Anyone have an idea why this is? m1 would be fine if the lines reading \"bar (base)\" instead read the enum value, but as is it is pretty illegible if you have a map with a large number of enum keys.",
+      "url": "https://www.reddit.com/r/vscode/comments/1ber2sf/c_stdmapenum_struct_does_not_display_properly/"
+    }
+  ],
   "comments": [
     {
       "id": "kz7lqlz",
@@ -21,6 +44,46 @@
       "score": 1,
       "link_id": "t3_1bu21za",
       "parent_id": "t3_1bu21za"
+    },
+    {
+      "id": "kywb4q8",
+      "body": "Was able to hide the top stripe with   \n  \n`\".title-border-bottom\": \"--title-border-bottom-color: transparent !important\",`  \n  \nand the stripe between the editor and the bottom panel with \n\n`\".title\": \"border: none !important\",`",
+      "author": "william_andrew_simon",
+      "subreddit": "vscode",
+      "created_utc": 1712740435,
+      "score": 2,
+      "link_id": "t3_1c0cr1x",
+      "parent_id": "t3_1c0cr1x"
+    },
+    {
+      "id": "kyu0as3",
+      "body": "First thought is a key binding inserted into keybindings.json that inserts the open and close parentheses on a hotkey press such as ctrl+shift+9:\n\n        {\n            \"key\": \"ctrl+shift+9\",\n            \"command\": \"editor.action.insertSnippet\",\n            \"when\": \"editorTextFocus\",\n            \"args\": {\n                \"snippet\": \"()\"\n            }\n        },\n\nDefeats the purpose of the auto-completion, but accomplishes what you want with a single extra key press.",
+      "author": "william_andrew_simon",
+      "subreddit": "vscode",
+      "created_utc": 1712699452,
+      "score": 2,
+      "link_id": "t3_1bzaqii",
+      "parent_id": "t3_1bzaqii"
+    },
+    {
+      "id": "kytiz3o",
+      "body": "As a first pass, you can add a return character \"\\\\n\" to your print statement? At least the Done statement falls on a different line from your program output.",
+      "author": "william_andrew_simon",
+      "subreddit": "vscode",
+      "created_utc": 1712693500,
+      "score": 1,
+      "link_id": "t3_1c00s4n",
+      "parent_id": "t3_1c00s4n"
+    },
+    {
+      "id": "kytgm9o",
+      "body": "No picture?",
+      "author": "william_andrew_simon",
+      "subreddit": "vscode",
+      "created_utc": 1712692707,
+      "score": 1,
+      "link_id": "t3_1c00s4n",
+      "parent_id": "t3_1c00s4n"
     }
   ]
 }

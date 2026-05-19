@@ -22,6 +22,105 @@
       "num_comments": 14,
       "selftext": "Youtube link here: [https://www.youtube.com/watch?v=Ua\\_BhZ0pl30](https://www.youtube.com/watch?v=Ua_BhZ0pl30)\n\nI have no personal knowledge of what happened and whether the alleged misconduct was properly and fairly investigated. However I have also seen first hand complaints about serious and genuine bullying/harassment being dismissed by senior professors (both the perpetrator and their colleagues) as students/postdocs being oversensitive, jealous etc. I hope everyone who sees the video keeps an open mind, and remembers that the former lab members who took a huge risk to make complaints will not be invited to give an official lecture about their side of the story. ",
       "url": "https://www.reddit.com/r/ethz/comments/1c2alax/prof_simon_lilly_gives_angry_retirement_speech/"
+    },
+    {
+      "id": "1dqjcpn",
+      "title": "How to speed up GSEA (or a faster alternative)",
+      "author": "Emergency-Job4136",
+      "subreddit": "bioinformatics",
+      "created_utc": 1719580430,
+      "score": 0,
+      "num_comments": 7,
+      "selftext": "I'm analysing a very large dataset of ranked gene lists (7500) by GSEA. This is of course very slow, and on top of that I have a lot of gene sets to analyse. The dataset isn't suitable for enrichment analysis (which would be much faster) because I am looking at very global changes in gene expression and the effect sizes are subtle, so I am looking for any ways I can speed up the GSEA. I'm using the GSEA function in clusterProfiler with the FGSEA algorithm. \n\nMy current approach is to just split the data over 128 cores on our HCP, but even that is taking hours. Are there any other effective ways I can speed up a GSEA? Will changing any of the parameters have a big impact on speed, or is there a way I can perhaps do a speedy less accurate calculation and then re-run the significant hits to refine the P values? ",
+      "url": "https://www.reddit.com/r/bioinformatics/comments/1dqjcpn/how_to_speed_up_gsea_or_a_faster_alternative/"
+    },
+    {
+      "id": "1ct6ukf",
+      "title": "How should I respond to this recruiter question?",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1715842327,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "So I had several recruiters contact me at the same time for what is obviously the same job. Although the business generic text is different from each one, the very specific technical requirements are exact copy and pastes. \n\nOne of them forwarded to me (again a copy and paste) the exact screening questions the employer sent to the recruiter to ask me. Amongst this is:\n\nWould the candidate accept a counter-offer from their current employer?\n\nWhat is the optimal answer to this? The true answer is that I would in theory (I like my current job) but the office is closing permanently so there will 100% be no counteroffer.\n\nThis is my first ever time working with recruiters and this group has made me kind of paranoid ",
+      "url": "https://www.reddit.com/r/recruitinghell/comments/1ct6ukf/how_should_i_respond_to_this_recruiter_question/"
+    },
+    {
+      "id": "1c5c912",
+      "title": "Job averts are so VAGUE and yet so SPECIFIC",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1713261410,
+      "score": 131,
+      "num_comments": 26,
+      "selftext": "Especially in tech, they will list a huge number of required tools/packages/management jargon including the classic 5+ years experience in software X, which was only released 2 years ago and anyway could be learned in a couple of weeks if necessary. \n\nBut at the same time, they are so vague that it is impossible to find what the position actually is. I’m not just talking about a missing salary range, but no information at all on expected start date, office location, department, working hours, office language, whether it is a management or associate position, closing date for applications etc. \n\nApplicants know by now that a lot of adverts are for fake positions anyway, but it’s true even for positions where I know someone in the company and the job is definitely real. Aside from wasting a lot of time on both ends, it also makes the hiring team look disorganised. ",
+      "url": "https://www.reddit.com/r/recruitinghell/comments/1c5c912/job_averts_are_so_vague_and_yet_so_specific/"
+    },
+    {
+      "id": "1b9p4td",
+      "title": "Is anomalous origin of the circumflex artery benign?",
+      "author": "Emergency-Job4136",
+      "subreddit": "askCardiology",
+      "created_utc": 1709907800,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I had an emergency CT scan for what turned out to be an appendicitis a few years ago. I recently came across the report from the radiologist and in the list of observations it included:\n\n\"anomalous origin of the circumflex artery (ramus circumflexus) in the right aortic sinus with retroaortic flow\" (translated from German)\n\nAfter the appendectomy I left the hospital and never had any contact with the hospital again. I would assume that if the coronary anomaly was dangerous then they would have called me about it, but as it was a weekend and there was never any follow-up care, it's possible that no one followed up.\n\nA lot of close family members have had heart problems and so I am a bit worried. Is this completely benign or can it cause any other health issues? Is it something I should follow up with a cardiologist or can I just ignore it? There is no centralised medical record or information sharing system here (Switzerland) so no future doctor would be aware unless I mention it.",
+      "url": "https://www.reddit.com/r/askCardiology/comments/1b9p4td/is_anomalous_origin_of_the_circumflex_artery/"
+    },
+    {
+      "id": "1b5gtp4",
+      "title": "Cycling on the forrest trails around Zürich (e.g. Altberg, Gubrist etc), contradictory signage",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1709471422,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "My question is about cycling on the forest trails/roads/wangerweg etc. such as those on the hills surrounding the city. I'm talking about the wide gravel paths that are high enough quality that a car could drive down them, not mountainbiking trails. \n\nI'm having trouble understanding where cyclists can and can't go because the signage is often contradictory. For example, on the Sonnenbergstrasse, Hochrütistrasse and others, one end of the road has a sign stating no vehicles in either direction (this is the big empty red circle, which also means no bicycles), but the other end of the street has either no sign or a sign that specifically permits bicycles. I frequently encounter the same issue on the other hills around Zürich. Some are marked in Swissmobility as Wanderweg but others are just black lines with no annotation. It's possible that only one segment is closed to cyclists, but there are no intermediate signs to show where this changes.\n\nMy questions are this:\n\n\\- Is there any way I can find the official designation of each road, like an official planning map from the Kanton that records all signage etc? Swiss mobility doesn't show this information.\n\n\\- If it's just a case of poor signage because of a mistake, who could I speak to ask for a clarification or register a complaint? I've tried searching the Kantonal and city websites but I can't find who is responsible for maintenance and signage on these small tracks.",
+      "url": "https://www.reddit.com/r/zurich/comments/1b5gtp4/cycling_on_the_forrest_trails_around_zürich_eg/"
+    },
+    {
+      "id": "1asc63k",
+      "title": "Fire safety (and lack of it)",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708099432,
+      "score": 26,
+      "num_comments": 64,
+      "selftext": "Is anyone else surprised by the lack of fire safety measures in Switzerland? A few examples have really stuck out to me:\n\n* Almost no one has a fire alarm at home. Whilst we all have nuclear fallout shelters, there is no requirement for an apartment building to have a fire alarm system. I'm not even talking about a proper central alarm system - people don't even have a personal battery alarm. When I tried to buy one, I had to go to 4 hardware stores before I found one that sold them. \n* I work in a fairly large office building with laboratories at a university (lots of people and lots of fire risks) but there has never been a fire drill, despite the fact that...\n* Our building caught on fire last year. An electrical cabinet caught fire, cutting off power to the building. The emergency backup power failed so the emergency lights failed. The fire alarm didn't go off because it turns out it also had a faulty power supply (no one knew because there had never been a drill so it had never been tested). Luckily the fire was extinguished before it spread to other rooms. No one knew the evacuation meeting point, and there is no phone signal in most of the building so it was impossible to know whether anyone was trapped inside the elevators for example (wifi also failed). There has been no transparency on whether the situation has improved.\n* My partner works at a culture centre in the city. They have never had any fire safety training, fire drill etc. As far as they know there is no fire martial or evacuation plan - maybe there is an old document in a cupboard somewhere. You would hope that if you go to a public event, the staff will know what do do in an emergency - but that my not be true. \n\nThis is a bit of a vent post but maybe some out there has a more positive experience that they could share/",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1asc63k/fire_safety_and_lack_of_it/"
+    },
+    {
+      "id": "1ao8wol",
+      "title": "Online groceries for store cupboard items (not fresh)",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1707660975,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "I don’t have a car so I can’t carry a lot of stuff. I have small shops nearby for fresh food but would like to make a big order of store cupboard items (tinned, dried, pasturised etc). Coop, migros and Farmy all deliver but their choice is a bit limited as they are focussing on fresh food too. Are there any good places to order non-fresh food from with a bigger range? One big difference is that they can be ordered by regular post and don’t need their own delivery drivers, so maybe there are some other specialist companies I’m missing?",
+      "url": "https://www.reddit.com/r/zurich/comments/1ao8wol/online_groceries_for_store_cupboard_items_not/"
+    },
+    {
+      "id": "1al27jj",
+      "title": "Zolpidem/ambien suddenly stopped working",
+      "author": "Emergency-Job4136",
+      "subreddit": "insomnia",
+      "created_utc": 1707310269,
+      "score": 1,
+      "num_comments": 9,
+      "selftext": "Hi everyone. I have been using zolpidem every night for about a year (with a break around 6 months ago). I use 5 mg most nights but once or twice a week 10 mg if I am very stressed/restless. Over this time I haven’t noticed any tolerance building, and it worked just as well and quickly each night despite taking it for a long time. However suddenly a weeks ago my insomnia came back full on, and even 10 mg zolpidem doesn’t give me more than a couple of hours sleep.\n\nI realise that zolpidem use causes tolerance over time, but it seems strange that it happened so suddenly after 6 months with no problem. Will ask my doctor about it at our next appointment, but not sure what the solution would be. I have tried many other medications that either didn’t work or had serious side effects. I’ve also tried long periods without medication but unfortunately my insomnia has remained a long term problem. Is there anything else I should consider? Has anyone here had a similar experience and found any cause? I’m wondering if there could be a medical reason for such a sudden change.",
+      "url": "https://www.reddit.com/r/insomnia/comments/1al27jj/zolpidemambien_suddenly_stopped_working/"
+    },
+    {
+      "id": "19f5m4w",
+      "title": "Living abroad with savings: should I pay off my U.K. student loan in full?",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKPersonalFinance",
+      "created_utc": 1706175326,
+      "score": 2,
+      "num_comments": 14,
+      "selftext": "Context: I was the last cohort to graduate on a plan 1 loan. The current interest rate is now 6.5% and I have around £30,000 left in debt. I live in Switzerland with a slightly above average income (for here) meaning that I am required to pay ~£500 a month in repayments, which is about 10% of my after-tax salary.\n\nI have been saving as much as I can each month and now I have enough to pay off the rest of my loan in cash and still have some savings left over for emergencies. \n\nThe advice I find on websites such as money saving expert is that you should never try to repay a group 1 loan early because the interest rate is capped at the U.K. inflation rate and so it doesn’t really cost anything. However, this doesn’t seem to take into account the situation where you already have savings sitting in a bank account. The best interest rate I can get in my savings here is around 1%, so given that the interest on the loan is 6.5%, surely there is a big opportunity cost there?  If I was putting that £500 a month into my Swiss retirement account I would also be getting a good tax rebate.\n\nThe exchanger rate is really good in historical terms and has been stable for a few years. Should I just pay off the loan in full? Is there anything I’m missing?",
+      "url": "https://www.reddit.com/r/UKPersonalFinance/comments/19f5m4w/living_abroad_with_savings_should_i_pay_off_my_uk/"
     }
   ],
   "comments": [
@@ -64,6 +163,1466 @@
       "score": 40,
       "link_id": "t3_1adfyqo",
       "parent_id": "t3_1adfyqo"
+    },
+    {
+      "id": "laozms2",
+      "body": "7500 ranked gene lists",
+      "author": "Emergency-Job4136",
+      "subreddit": "bioinformatics",
+      "created_utc": 1719588984,
+      "score": 1,
+      "link_id": "t3_1dqjcpn",
+      "parent_id": "t1_laoxo29"
+    },
+    {
+      "id": "laodohr",
+      "body": "In Switzerland, hospitals have set all-inclusive prices for certain procedures (for outpatient it's a different story) so you should get a single bill with all the medical services rather than lots of individual bills from each doctor. From what you describe I would expect it to be a few thousand franks at most. Hospitals can be really slow to send an invoice (up to a year) for residents but they might be keener to send it ASAP for foreigners. I don't know about the helicopter but I assume it will be separate.\n\nI hope you recover well and manage to enjoy the rest of your vacation.",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719581239,
+      "score": 3,
+      "link_id": "t3_1dqi9vq",
+      "parent_id": "t3_1dqi9vq"
+    },
+    {
+      "id": "lakdmec",
+      "body": "They want to stop people who buy and eat dead animals from working for an animal welfare charity? What’s next, stopping sex offenders from working for childline? Banning heroin addicts from working at poppy farms? It’s woke gone mad!",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1719515057,
+      "score": 3,
+      "link_id": "t3_1dpv9ck",
+      "parent_id": "t3_1dpv9ck"
+    },
+    {
+      "id": "lad3le1",
+      "body": "This really demonstrates my point. Not everyone will want to walk barefoot or in their socks/tights on a floor with up to two weeks' worth of dust and dirt on it!",
+      "author": "Emergency-Job4136",
+      "subreddit": "facepalm",
+      "created_utc": 1719410066,
+      "score": 1,
+      "link_id": "t3_1dnzpxr",
+      "parent_id": "t1_lad0dux"
+    },
+    {
+      "id": "labrtu7",
+      "body": "Usually guests don’t walk on every possible surface in the house when they visit. But the point is that this person is saying that they already do clean their house frequently, so what difference should it make? If they are truly cleaning all their floors to a standard that guests can walk on them without getting their socks dirty (which would mean also cleaning the bathroom and kitchen between each user to clear up splashes of water for example, and checking all floors for toys, plugs, pins etc that someone could hurt their foot on) then why would it be so hard to quickly mop or use a cleaning wipe after a guest leaves?\n\nMy guess is that most people who say this don’t actually clean the floor often, and that’s why they are desperate to avoid anyone bringing dirt in because they know it will stay on the floor for a long time. \n\nObviously if someone arrives covered in farm mud then that’s an exception, but usually that’s not the case.",
+      "author": "Emergency-Job4136",
+      "subreddit": "facepalm",
+      "created_utc": 1719382960,
+      "score": 1,
+      "link_id": "t3_1dnzpxr",
+      "parent_id": "t1_labeemw"
+    },
+    {
+      "id": "labq5yg",
+      "body": "Im sure they are physically capable of taking them off, that’s not really the issue.",
+      "author": "Emergency-Job4136",
+      "subreddit": "facepalm",
+      "created_utc": 1719381907,
+      "score": 0,
+      "link_id": "t3_1dnzpxr",
+      "parent_id": "t1_laa3w2x"
+    },
+    {
+      "id": "la9l9g6",
+      "body": "In my culture, we believe that guests should be made to feel comfortable and treated with respect. We don’t make them take their shoes off to save us 60 seconds with the mop after they leave, just like we don’t expect them to clean the bathroom or do our laundry. I understand though that some people see their home as very private and are reluctant/resentful to allow guests in, and therefore take a more hostile approach (my house, my rules, don’t disturb anything and leave no traces).",
+      "author": "Emergency-Job4136",
+      "subreddit": "facepalm",
+      "created_utc": 1719349500,
+      "score": 2,
+      "link_id": "t3_1dnzpxr",
+      "parent_id": "t1_la6jsb9"
+    },
+    {
+      "id": "la9h5iy",
+      "body": "Because if the owner cleans their house then why aren’t they capable of just cleaning the floor after their guests leave?",
+      "author": "Emergency-Job4136",
+      "subreddit": "facepalm",
+      "created_utc": 1719348186,
+      "score": 0,
+      "link_id": "t3_1dnzpxr",
+      "parent_id": "t1_la70lci"
+    },
+    {
+      "id": "la9gn4x",
+      "body": "So many comments here say “no I clean my floors every day” but also that someone walking in their home will leave their floors dirty for good. The obvious conclusion is that they don’t actually clean their floors that often.",
+      "author": "Emergency-Job4136",
+      "subreddit": "facepalm",
+      "created_utc": 1719348021,
+      "score": 1,
+      "link_id": "t3_1dnzpxr",
+      "parent_id": "t3_1dnzpxr"
+    },
+    {
+      "id": "l9bu9gs",
+      "body": "Sumatriptan stops the headache for me but makes me feel really sick. I use an injection which is much faster but actually a lower dose and the side effects wear off after an hour. Maybe that would actually work better for you?\n\nHave you tried any other medications? Luckily verapamil works great for me at a fairly low dose, so without side effects. Even if your attacks aren’t very frequent, it’s worth considering if nothing else works. If it’s compatible with your job, you could also try oxygen. Never worked for me but at least it doesn’t have side effects. \n\nIf you have easy access to a headache or pain clinic then you could also try getting a nerve block as soon as a new cycle starts.",
+      "author": "Emergency-Job4136",
+      "subreddit": "clusterheads",
+      "created_utc": 1718814320,
+      "score": 1,
+      "link_id": "t3_1diwyzs",
+      "parent_id": "t3_1diwyzs"
+    },
+    {
+      "id": "l94l3s8",
+      "body": "As a cyclist I have noticed the same thing. I always stop at crossings to let people pass, though I’ve noticed that both cars and bicycles often don’t stop even when there is plenty of time for them to do so. I agree it’s dangerous and also very rude. For car drivers it’s often because they are using their phones, but often not. It seems a lot of people really don’t think they have to stop.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1718699656,
+      "score": 4,
+      "link_id": "t3_1dikf5f",
+      "parent_id": "t3_1dikf5f"
+    },
+    {
+      "id": "l8u7bk1",
+      "body": "This is awful! I hope the cow makes a full recovery in time to be industrially slaughtered or inseminated, removed from calves, industrially milked for two years and then slaughtered.",
+      "author": "Emergency-Job4136",
+      "subreddit": "iamatotalpieceofshit",
+      "created_utc": 1718529792,
+      "score": 1,
+      "link_id": "t3_1dgoqv6",
+      "parent_id": "t3_1dgoqv6"
+    },
+    {
+      "id": "l8pgyxa",
+      "body": "That assumes that these two data points were independent, when actually they are linked. Errors in processing (such as degradation during transport, expired reagent, dilution error due to insufficient mixing resulting in antibody saturation, mislabelling) would potentially affect both results. You cannot simply multiply the probabilities by each other. \n\nAlso, in this case the C peptide result by itself was normal, it only becomes suspicious in the context of the very high insulin reading. Therefore it’s really only that single result that forms the basis of the poisoning claim.",
+      "author": "Emergency-Job4136",
+      "subreddit": "scienceLucyLetby",
+      "created_utc": 1718446602,
+      "score": 1,
+      "link_id": "t3_1dbod5v",
+      "parent_id": "t1_l8okta7"
+    },
+    {
+      "id": "l8jr0fj",
+      "body": "Personally, I don’t think that LLMs will ever overcome their fundamental issues enough to make a useful diagnostic screening tool for example. There are use cases for other AI technologies such as CNNs for image classification, however they require fairly minimal computing power for implementation, and the technology has been around for >10 years so we know it falls into the “useful tool” category rather than completely works changing. Everything in programming is already using chat GPT so that market is probably saturated.\n\nI think companies are investing heavily in LLMs (which do require huge computing power for implementing, not just training) on the assumption that it will overcome its issues and they don’t want to be left behind, but I’m skeptical.",
+      "author": "Emergency-Job4136",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1718350182,
+      "score": 1,
+      "link_id": "t3_1dezbsu",
+      "parent_id": "t1_l8hbi57"
+    },
+    {
+      "id": "l8ggorj",
+      "body": "A lot of the hype has been generated by large language models and the belief that they will be able to replace employees in all kinds of sectors. Whilst they have some uses, the limitations are becoming clearer and clearer and inevitably the hype will die down. LLMs can sound exactly like your doctor but I very strongly doubt (as someone who has been trying to implement them) that they will ever form many useful products. They simply are not capable of the reasoning required to perform real tasks with any reliable accuracy. \n\nThe one useful counter example I have found is language learning apps, because sounding like a real person is all that’s required. But they will not be replacing your doctor.",
+      "author": "Emergency-Job4136",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1718300526,
+      "score": 7,
+      "link_id": "t3_1dezbsu",
+      "parent_id": "t3_1dezbsu"
+    },
+    {
+      "id": "l8fp1ll",
+      "body": "Letby and her lawyer are not scientists with expertise in biochemistry, and the fact that they accepted this claim at the time as part of a legal strategy does not somehow make the claim immune to scientific scrutiny. The rules of evidence in British courts make it very difficult for lawyers or lay witnesses to challenge an expert’s scientific claim, and this has been a major cause of past miscarriages of justice. \n\nBoth the C peptide result and the insulin test were performed by ELISA, which is a common, fast and cheap method that can give inaccurate results for a large number of reasons (both medical and technical). That is why the testing lab recommended the sample be retested with mass spec, which not only can distinguish between endogenous and synthetic insulin, but would also reveal any issues such as sample degradation that could have given a false ELISA result. The doctors declined. \n\nEven if a test is accurate 99% of the time, then searching through hundreds of results (as in a case like this) will inevitably turn up many false positives.  In some ways it would be more suspicious to not find any anomalous results when searching through the entire records of a clinic. \n\nAs a trained biochemist that has actually performed these kinds of tests, it is the reliance of so much of the case on a single ambiguous test result that really demonstrated to me how poor the medical evidence is.",
+      "author": "Emergency-Job4136",
+      "subreddit": "scienceLucyLetby",
+      "created_utc": 1718291354,
+      "score": 0,
+      "link_id": "t3_1dbod5v",
+      "parent_id": "t1_l8fhmx6"
+    },
+    {
+      "id": "l8ajhb3",
+      "body": "You are speculating that several patients were poisoned with exogenous insulin. The prosecution claimed that the test results for one patient indicated exogenous insulin, though that result is in dispute as the test used is not very reliable and the recommended follow up was not performed. But even if it was true then it is still speculation to claim that there was an intentional poisoning (rather than accidental or a false positive test result), then speculation that other patients with hypoglycaemia must also have been poisoned despite no test indicating exogenous insulin. That speculation then becomes the ‘circumstantial evidence’ that supports the other prosecution claims.",
+      "author": "Emergency-Job4136",
+      "subreddit": "scienceLucyLetby",
+      "created_utc": 1718210612,
+      "score": 1,
+      "link_id": "t3_1dbod5v",
+      "parent_id": "t1_l8a1n27"
+    },
+    {
+      "id": "l89oes8",
+      "body": "Which specific things would you remove from basic insurance?",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1718199726,
+      "score": 5,
+      "link_id": "t3_1de48es",
+      "parent_id": "t1_l89eugc"
+    },
+    {
+      "id": "l89mx5p",
+      "body": "I don’t understand your point. Speculation is not the same thing as circumstantial evidence.",
+      "author": "Emergency-Job4136",
+      "subreddit": "scienceLucyLetby",
+      "created_utc": 1718199154,
+      "score": 1,
+      "link_id": "t3_1dbod5v",
+      "parent_id": "t1_l892o5m"
+    },
+    {
+      "id": "l88up1b",
+      "body": "That is the kind of speculation that the case is based on. Yes it is physically possible that she found insulin elsewhere, but is that the best interpretation of the available evidence, given that the very extensive police investigation investigated this topic but found no corroborating evidence? \n\nWere there insulin vials missing from the hospital pharmacy? Did she have a close friend or family member with diabetes that she could have stolen from? Did her internet history show searches for illicit insulin sources? Does the UK have a black market for insulin (given universal healthcare and that insulin has limited shelf life)? The answer to all of these is no. \n\nThat doesn't mean it is impossible that she obtained insulin, but a huge amount of luck and supposition is needed to make it work. Just like the theory of the poisoning itself, which requires that Letby could predict which bag would be placed by another nurse after her shift ended in order to poison it in advance, all without being noticed. All this to justify an inference from an unreliable ELISA assay that the hospital declined to follow up on with the lab's recommended confirmatory test. \n\nAnything is *possible*, but that is not really meaningful or interesting.",
+      "author": "Emergency-Job4136",
+      "subreddit": "scienceLucyLetby",
+      "created_utc": 1718184686,
+      "score": 2,
+      "link_id": "t3_1dbod5v",
+      "parent_id": "t1_l7w9s9q"
+    },
+    {
+      "id": "l88qp3o",
+      "body": "Like the others have said, it's a good idea to get full bloodwork done to check for any deficiencies or other health conditions. You can still have a deficiency despite taking vitamins if, for example, you have a condition that limits B12 uptake (like my non-vegan grandma). \n\nBut also remember that low energy and fatigue are common issues faced by non-vegans too, so may not have anything to do with your diet. Consider all the other stuff:\n\n- Alcohol or other drugs\n\n- Sleep, exercise, posture\n\n- Work and lifestyle (burnout, work stress, loneliness)\n\n- Ageing \n\nThe last one is important, because people sometimes forget that vegans age too.  Also because age impacts everything else. Since I turned 30, alcohol has a completely different effect on me and even a single drink will ruin my sleep and give me a hangover. Unfortunately there is no cure for ageing, but it's important to have healthy expectations.",
+      "author": "Emergency-Job4136",
+      "subreddit": "vegan",
+      "created_utc": 1718181714,
+      "score": 41,
+      "link_id": "t3_1ddyqn5",
+      "parent_id": "t3_1ddyqn5"
+    },
+    {
+      "id": "l7slbgx",
+      "body": "These interactive visualisations are really fantastic at explaining some of the statistical fallacies at work  here. One additional factor you might consider for the shift rota chart is that the unit has quite high turnover. That means that many of the non-selected nurses in the chart will have also had fewer opportunities to be present at an event. It might be interesting to plot the likelihood of being a ‘single common factor’ the longer that you work in the clinic",
+      "author": "Emergency-Job4136",
+      "subreddit": "scienceLucyLetby",
+      "created_utc": 1717925944,
+      "score": 9,
+      "link_id": "t3_1dbod5v",
+      "parent_id": "t3_1dbod5v"
+    },
+    {
+      "id": "l7ia1q4",
+      "body": "Yes, as well as being a bit irritating if you want to enjoy some peace and quiet, unfortunately a significant fraction of men become abusive and threatening when a woman says they’re not interested. Things haven’t changed, it’s always been like that.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1717755705,
+      "score": 5,
+      "link_id": "t3_1d9kwi0",
+      "parent_id": "t1_l7i8r6i"
+    },
+    {
+      "id": "l6mxe74",
+      "body": "I value freedom of expression for everyone and recognise the privilege I have living in a country where I can’t be jailed just for criticising the government. I don’t think people should take that right for granted, especially as I have family who grew up in military dictatorships and had friends and relatives abducted and murdered for protesting against the government.  I could not care less about stupid nationalistic bragging rights and which country you think is ‘the best’.",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1717255741,
+      "score": -5,
+      "link_id": "t3_1d5e2jl",
+      "parent_id": "t1_l6m1sr2"
+    },
+    {
+      "id": "l6ls7hv",
+      "body": "Yes there is no perfect democracy anywhere, but IMHO it is wrong for someone to claim that getting fired from a job is just as bad as being imprisoned for years, tortured or killed (and also losing your property and lively hood). I’m glad that westerners are critical and aware of their own governments’ anti-democratic activities, but it comes across as ignorant to claim they are just as oppressed as people living under violent authoritarian dictatorships or occupations. \n\nWestern ‘democracies’ need to improve, but it doesn’t help to say “oh well everywhere is just as bad”",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1717236890,
+      "score": 1,
+      "link_id": "t3_1d5e2jl",
+      "parent_id": "t1_l6lpnp3"
+    },
+    {
+      "id": "l6llfyf",
+      "body": "And you can freely write that online without being jailed.",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1717232201,
+      "score": 65,
+      "link_id": "t3_1d5e2jl",
+      "parent_id": "t1_l6l706j"
+    },
+    {
+      "id": "l6llcmv",
+      "body": "The purpose of a journalist is to pose tough questions and play devils advocate to give the politician a chance to address issues. People getting annoyed at an interviewer for asking questions is stupid tbh. A decent leader will be glad to have the chance to correct misconceptions and make their case, a weak or narcissistic leader will take it personally. \n\nAnyone who watches the news in the USA or Europe knows that Chinese influence and business is a very common topic of discussion and journalists ask the exact same questions there, so the prime minister’s response is just a deflection.",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1717232135,
+      "score": 3,
+      "link_id": "t3_1d5e2jl",
+      "parent_id": "t3_1d5e2jl"
+    },
+    {
+      "id": "l6amykm",
+      "body": "Except:\n\n- Low strength CBD cannabis is legal to buy or grow at home (though not so recreational)\n- It’s legal to buy as a member of the zurich cannabis study, which is currently expanding\n- Medical cannabis is also legal with a prescription, though not so common here as in the USA or Canada\n\nUnfortunately google does not often give good or accurate answers these days.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1717055293,
+      "score": 1,
+      "link_id": "t3_1d3w6be",
+      "parent_id": "t1_l6acjhc"
+    },
+    {
+      "id": "l66t8ej",
+      "body": "Bulk buy toilet paper",
+      "author": "Emergency-Job4136",
+      "subreddit": "StrangeEarth",
+      "created_utc": 1716997504,
+      "score": 2,
+      "link_id": "t3_1d3e6n5",
+      "parent_id": "t3_1d3e6n5"
+    },
+    {
+      "id": "l60u5my",
+      "body": "They should hire 850,000 teachers for a year, then lay them off and send him the invoice",
+      "author": "Emergency-Job4136",
+      "subreddit": "antiwork",
+      "created_utc": 1716903513,
+      "score": 1,
+      "link_id": "t3_1d26s80",
+      "parent_id": "t3_1d26s80"
+    },
+    {
+      "id": "l60icuc",
+      "body": "It depends on the country, but usually you lose the right to vote in local elections immediately when you are emigrate. Voting in national/presidential elections can also be time limited.",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1716898127,
+      "score": 2,
+      "link_id": "t3_1d2ggl2",
+      "parent_id": "t1_l60d50q"
+    },
+    {
+      "id": "l605i5j",
+      "body": "These are all common side effects from Zoloft. It also has strong withdrawal effects which mean some people stay on it even though it’s not benefitting them.\n\nIf you decide to stop it, you need to taper slowly over several months. If you have a responsible doctor, they should be able to support you through this by prescribing a liquid version that you can taper more easily. Unfortunately even small reductions (12.5 mg at a time) trigger withdrawal effects, so try to have as much support as possible if you choose to taper. If a doctor tells you that 50 mg is already low and you can stop it cold turkey, then they are talking nonsense. \n\nFor me, memory and sex drive recovered 80% within a week of stopping.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zoloft",
+      "created_utc": 1716890499,
+      "score": 1,
+      "link_id": "t3_1d2dh3f",
+      "parent_id": "t3_1d2dh3f"
+    },
+    {
+      "id": "l5gqi12",
+      "body": "It wasn’t a mistake though. The mechanic tried to charge extra for things the OP has explicitly refused.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1716555252,
+      "score": 6,
+      "link_id": "t3_1czj9ko",
+      "parent_id": "t1_l5gle4i"
+    },
+    {
+      "id": "l572u97",
+      "body": "That’s exactly the same logic that Hamas supporters use to justify their atrocities.",
+      "author": "Emergency-Job4136",
+      "subreddit": "worldnews",
+      "created_utc": 1716397620,
+      "score": -17,
+      "link_id": "t3_1cxzyo9",
+      "parent_id": "t1_l56ogcs"
+    },
+    {
+      "id": "l56eamm",
+      "body": "Liking a particular brand of crisps doesn’t make you a snob. Hardcore snobbery is more like “I find it difficult to talk to people who went to an Oxford college founded after mine” or “I don’t let the workmen use the front door”.",
+      "author": "Emergency-Job4136",
+      "subreddit": "AskUK",
+      "created_utc": 1716389318,
+      "score": 5,
+      "link_id": "t3_1cxyeq0",
+      "parent_id": "t3_1cxyeq0"
+    },
+    {
+      "id": "l4q2z40",
+      "body": "Absolutely. Even without any financial compensation for emotional distress, at a minimum I would want the hospital to agree in writing to pay any future costs that arise in case there are complications (infection, nerve pain, excessive scarring) and also the costs of referring everything to a new hospital/surgeon for a review. I would not trust this same clinic with any follow up or future care given they didn’t even realise their own mistake - potentially they have also made other errors.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1716119813,
+      "score": 4,
+      "link_id": "t3_1cvl5zf",
+      "parent_id": "t1_l4q0ho3"
+    },
+    {
+      "id": "l4q17b5",
+      "body": "Hahaha, yes and then the doctor can bill the OP for an additional consult. Great idea.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1716118765,
+      "score": 2,
+      "link_id": "t3_1cvl5zf",
+      "parent_id": "t1_l4pzyvm"
+    },
+    {
+      "id": "l4px9qs",
+      "body": "People in this forum love to say “this isn’t America, we don’t sue people here” but also that everyone should have legal insurance and personal liability insurance because of you lose a key then the building owner might sue you for 4,000 to replace all the locks in the building.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1716116183,
+      "score": 10,
+      "link_id": "t3_1cvl5zf",
+      "parent_id": "t3_1cvl5zf"
+    },
+    {
+      "id": "l4fkux6",
+      "body": "Maybe English isn’t their first language and their blog is in another",
+      "author": "Emergency-Job4136",
+      "subreddit": "Blogging",
+      "created_utc": 1715939023,
+      "score": 3,
+      "link_id": "t3_1ctaziz",
+      "parent_id": "t1_l4f8ej1"
+    },
+    {
+      "id": "l4ca4cc",
+      "body": "Haha, I always assumed it was to soak up vomit",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1715883217,
+      "score": 1,
+      "link_id": "t3_1cky7lz",
+      "parent_id": "t1_l2q3ww3"
+    },
+    {
+      "id": "l45h0ux",
+      "body": "I don’t think minoxidil is covered because it is not on the speciality list, however you can still have a consultation with a dermatologist as hair loss is not always solely cosmetic. If they recommend minoxidil then I would suggest stocking up next time you are on vacation as it is a cheap over the counter medication in most other countries.",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1715778719,
+      "score": 2,
+      "link_id": "t3_1csiyyq",
+      "parent_id": "t3_1csiyyq"
+    },
+    {
+      "id": "l44bk39",
+      "body": "It is no more ‘pornified’ than straight pop music. That’s true even within the show itself, where the hetero acts had just as much partial nudity and sexual dances. You don’t have to watch it if that’s not your taste (I don’t like it either). I get it though, internalised homophobia makes a lot of people hypersensitive to anything they feel they might be indirectly judged for. \n\nWelcome to Europe but I also recommend reading up on some European history during the Judeo-Christian period that you yearn for. Start with the wars, then the genocides, the religious purges, iconoclasm (destruction of art by rival sects), witch burnings, public flogging and executions of homosexuals. Personally, I would rather have a Europe with some annoying TV that I can just ignore.",
+      "author": "Emergency-Job4136",
+      "subreddit": "cyprus",
+      "created_utc": 1715753143,
+      "score": 2,
+      "link_id": "t3_1cpqdfr",
+      "parent_id": "t1_l3ygyvx"
+    },
+    {
+      "id": "l3znti5",
+      "body": "It absolutely does still matter. If she has been wrongly convicted, then that means the other clinical failings that led to the deaths would all have been ignored. There have been a lot of scandals over poor care in maternity/neonate units in the UK coming to light recently, including the trust where I was born (and my premature sister died) which was found in a recent review to have had over 200 avoidable deaths (not, so far, attributed to a serial killer):\n\n[https://www.bbc.com/news/uk-england-shropshire-60925959](https://www.bbc.com/news/uk-england-shropshire-60925959)\n\nThe deaths were found to be caused by negligence and an arrogant culture among senior doctors and nurses who blamed adverse events on the parents rather than examine their clinical work. Correctly assigning blame is essential to learning from these mistakes. The case against Letby is pieced together from lots of incomplete/partial evidence, because the hospital failed to follow up these events - for example by ordering the follow-up tests that would have conclusively shown if a baby was wrongly given insulin (either by accident or on purpose). Hence why the case rested so heavily on innuendo and psychological interpretation.",
+      "author": "Emergency-Job4136",
+      "subreddit": "medicalschool",
+      "created_utc": 1715688447,
+      "score": 7,
+      "link_id": "t3_1crcgj3",
+      "parent_id": "t1_l3xqewo"
+    },
+    {
+      "id": "l3yqhm1",
+      "body": "Tipping in restaurants is still common in most EU countries, though usually it is more in the 5-12% range.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Millennials",
+      "created_utc": 1715666026,
+      "score": 1,
+      "link_id": "t3_1cr4kes",
+      "parent_id": "t1_l3wi7su"
+    },
+    {
+      "id": "l3c5cxa",
+      "body": "Some people who say this do eat that kind of meat, but never only that, as avoiding factory farmed meat would mean basically never eating meat in most restaurants, a work canteen, takeaway, cafe, sandwich shop, aeroplane, friend’s house etc.",
+      "author": "Emergency-Job4136",
+      "subreddit": "vegan",
+      "created_utc": 1715287844,
+      "score": 17,
+      "link_id": "t3_1co5s00",
+      "parent_id": "t3_1co5s00"
+    },
+    {
+      "id": "l301kpp",
+      "body": "There have been plenty of protests against the Chinese and Myanmar governments in Switzerland and yes they were covered in the media. If you didn’t see them then maybe that is more a reflection of your own double standards?\n\nAlso Switzerland has already condemned and imposed sanctions on the government of Myanmar and Swiss universities have already heavily limited collaboration with Chinese institutes over security and human rights concerns.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1715099575,
+      "score": 15,
+      "link_id": "t3_1cmbgi6",
+      "parent_id": "t3_1cmbgi6"
+    },
+    {
+      "id": "l2899ds",
+      "body": "If the other candidate really has those skills then they will simply leave in a couple of months for something better. I’ve known companies that pay these very low salaries for valuable technical jobs, and they get either people who greatly exaggerated their skills or such high turnover that all the projects of unfilled",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKJobs",
+      "created_utc": 1714648941,
+      "score": 17,
+      "link_id": "t3_1cibg1z",
+      "parent_id": "t1_l282av9"
+    },
+    {
+      "id": "l23ugqs",
+      "body": "Celebrities are allowed to waste their money, embarrass themselves and complain about their family and friends. She can lose all her money at the slot machines if she wants, that does not give anyone the right to remove her personal and bodily autonomy and it’s scary how many people think that is okay.",
+      "author": "Emergency-Job4136",
+      "subreddit": "entertainment",
+      "created_utc": 1714578093,
+      "score": 5,
+      "link_id": "t3_1chexjm",
+      "parent_id": "t3_1chexjm"
+    },
+    {
+      "id": "l1tpv07",
+      "body": "So Switzerland has stronger building regulations than the USA, which makes the buildings safer, but luckily we don’t have as strong regulations as the USA because that would make buildings too expensive. Instead we build houses from more expensive materials like stone to save us from expensive regulations like a fire alarm, which is a cheap plastic gadget but also a huge amount of regulation and technology.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1714416233,
+      "score": 1,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_l1th5sj"
+    },
+    {
+      "id": "l1r1bb2",
+      "body": "The ‘gender critical’ worldview is built on dishonesty. Fake studies, fake quotes, false claims about real studies, misquoting people, debunked scare stories etc. Their claims cannot be defended with facts because they have drifted so far from reality. Usually they are things that could be so easily fact checked with a couple of minutes googling, so obviously they are acting in bad faith. The claim that the word ‘woman’ is being erased from medicine and replaced with ‘birthing body’, ‘chest feeding’ etc is a classic example, as anyone capable of using a search function on any medical journal (you don’t even need a subscription for that) can see that those terms are almost never used except in very specialist cases of trans care (and often not even then). I once emailed an editor at a newspaper where a columnist made a whole article based on this fake claim - the editor removed a made up quote but otherwise kept the article because they believed it was true in spirit even though their only factual claim was 100% false. \n\nWhenever you debunk one of their claims, they first deny, then go on the attack (usually homophobic), and eventually block you. Sometimes they start sending abusive direct messages, but I have never encountered any that actually can provide a source that actually backs them up.",
+      "author": "Emergency-Job4136",
+      "subreddit": "EnoughJKRowling",
+      "created_utc": 1714371087,
+      "score": 8,
+      "link_id": "t3_1cfil7u",
+      "parent_id": "t3_1cfil7u"
+    },
+    {
+      "id": "l17w9lk",
+      "body": "He obviously doesn’t think so given that he first tried to sue them for calling him racist but lost. Live by the sword, die by the sword.",
+      "author": "Emergency-Job4136",
+      "subreddit": "entertainment",
+      "created_utc": 1714061194,
+      "score": 19,
+      "link_id": "t3_1cct3a0",
+      "parent_id": "t1_l17koy0"
+    },
+    {
+      "id": "l17stmm",
+      "body": "Some people are rushing for a connecting flight or are about to shit themselves. I wouldn’t let someone violently barge through people, but I’m also not going to deliberately hold people back to teach them a lesson.",
+      "author": "Emergency-Job4136",
+      "subreddit": "pettyrevenge",
+      "created_utc": 1714060063,
+      "score": 3,
+      "link_id": "t3_1ccbedb",
+      "parent_id": "t3_1ccbedb"
+    },
+    {
+      "id": "l17ni5i",
+      "body": "There is no moral high ground? Surely the high-ground is to condemn child sexual abuse whenever and wherever it happens.",
+      "author": "Emergency-Job4136",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1714058314,
+      "score": 5,
+      "link_id": "t3_1cci1c6",
+      "parent_id": "t1_l17bcz7"
+    },
+    {
+      "id": "l17j12n",
+      "body": "In that case you are not using the medically accepted definition of insomnia, which is not limited to anxiety-induced insomnia. Wikipedia has a nice summary of the known causes of insomnia, which can also have no identifiable cause (primary insomnia). [https://en.wikipedia.org/wiki/Insomnia](https://en.wikipedia.org/wiki/Insomnia)",
+      "author": "Emergency-Job4136",
+      "subreddit": "insomnia",
+      "created_utc": 1714056833,
+      "score": 0,
+      "link_id": "t3_1ccnwi7",
+      "parent_id": "t1_l17a5ur"
+    },
+    {
+      "id": "l17d16h",
+      "body": "Usually doctors will list the languages they speak on their website, but their level might be quite basic. \n\nThe choice of doctors depends on which insurance model you choose. ‘Standard’ model has the most freedom and lets you choose any doctor you want, including specialists. Then once you are settled you might be comfortable switching to a cheaper model with more restrictions. \n\nI suggest looking online at all the doctors near you (or a site like onedoc.ch), finding some doctors who speak Spanish, then contacting their office directly to confirm they are accepting new patients, which insurance models they accept and if the doctor is happy to speak Spanish. If you are willing to look around a bit then it’s not hard to find a doctor who has previously lived in Spain or South America and is totally fluent in Spanish.",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714054794,
+      "score": 3,
+      "link_id": "t3_1ccpl88",
+      "parent_id": "t3_1ccpl88"
+    },
+    {
+      "id": "l178qgv",
+      "body": "Is this company in scientific publishing by any chance?",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714053271,
+      "score": 14,
+      "link_id": "t3_1ccrqo1",
+      "parent_id": "t3_1ccrqo1"
+    },
+    {
+      "id": "l176twk",
+      "body": "Sleep apnoea, restless leg syndrome, jet lag, post-operative pain, shift work, lower back pain, having young children and tinnitus are all fairly common causes of insomnia. Not sure what is gained by insisting that insomnia is always a mental health/anxiety issue when there are so many well known physical causes (and surely many others that we don’t understand yet).",
+      "author": "Emergency-Job4136",
+      "subreddit": "insomnia",
+      "created_utc": 1714052575,
+      "score": 9,
+      "link_id": "t3_1ccnwi7",
+      "parent_id": "t1_l16q5ck"
+    },
+    {
+      "id": "l0wh9b8",
+      "body": "Why the handcuffs?",
+      "author": "Emergency-Job4136",
+      "subreddit": "StrangeEarth",
+      "created_utc": 1713886164,
+      "score": 11,
+      "link_id": "t3_1cb5gkj",
+      "parent_id": "t1_l0wf8bx"
+    },
+    {
+      "id": "l09pm01",
+      "body": "As some other comments have pointed out, European states have within living memory been in total war with each other, resulting in the destruction of many artefacts. It is also true that many items were damaged during excavation, cleaning or even theft by museum staff. However I think your point is fair that **\\*at the current time\\*** many items are safer than they would be in their region of origin. \n\nI think any approach to returning items has to balance many conflicting issues. On the one hand:\n\n* Some items were excavated from abandoned sites in present-day cultures where they were not considered valuable at the time, except by foreign archeologists\n* Often there is no continuity of language, religion, culture, civilization or ethnicity between ancient civilisations and present day nation states - and now have important cultural significance for London (e.g. the effect of classical architecture and sculpture is more obvious in central London than Greece)\n* You can find culturally important artworks, historical artefacts, archaeological finds and even fossils in museums around the world (though it rare that they were recently looted)\n* The key works in the British Museum are displayed publicly with no entrance fee (though obviously this is only available to people who can travel to London) \n\nOn the other hand:\n\n* Some items (e.g. Benin Bronzes) were looted fairly recently from civilizations where they were highly valued treasures\n* Some items (e.g. Parthenon Marbles) lose a lot of their context when not displayed in their original sites - though others gain context by being displayed alongside other items in a museum\n* The museum has so many artefacts (with many not even displayed) that it could lose a lot of stuff whilst still keeping an amazing and comprehensive collection\n* The return of valuable items (even if they were not historically considered valuable) is a kind of reparation for the crimes of British colonialism\n\nTherefore I don't think it is possible to make a blanket moral judgement except in extreme cases. Pragmatically I think that small scale loans and exchanges would be a way to explore the issue.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Archaeology",
+      "created_utc": 1713514386,
+      "score": 0,
+      "link_id": "t3_1c7hgog",
+      "parent_id": "t3_1c7hgog"
+    },
+    {
+      "id": "kzyojib",
+      "body": "Unfortunately it takes some time and effort to customise the CV and cover letter for each position to hit all the keywords mentioned in the advert - plus submitting everything through their terrible web portal",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1713346941,
+      "score": 1,
+      "link_id": "t3_1c5c912",
+      "parent_id": "t1_kzy0kzw"
+    },
+    {
+      "id": "kzuayjb",
+      "body": "Exactly. I don't mind if they specify that some of the responsibilities are flexible depending on the candidate if that really is the case, but I don't want to spend effort applying and going to an interview to find out the role is something I could have told them I am unsuitable for.",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1713280864,
+      "score": 3,
+      "link_id": "t3_1c5c912",
+      "parent_id": "t1_kztzhya"
+    },
+    {
+      "id": "kzi7t7d",
+      "body": "Can I ask why? This seems so crazy to people outside the USA. Do you have sensitive security work or something? Or was there a big drugs scandal there?",
+      "author": "Emergency-Job4136",
+      "subreddit": "postdoc",
+      "created_utc": 1713082075,
+      "score": 3,
+      "link_id": "t3_1c3dqvf",
+      "parent_id": "t1_kzhcau9"
+    },
+    {
+      "id": "kynl9ww",
+      "body": "It’s a brilliant and very moving film that captures how it feels to have career hope and then fail to meet your ambitions.",
+      "author": "Emergency-Job4136",
+      "subreddit": "StrangeEarth",
+      "created_utc": 1712601297,
+      "score": 65,
+      "link_id": "t3_1byyi5w",
+      "parent_id": "t1_kyn8nsl"
+    },
+    {
+      "id": "kybej3n",
+      "body": "Yes I did Google it, that’s how I knew your quote was made up (which you now admit). You misquote the actual tweet again by changing “blackwoman” to “black woman”. This is important because you are reversing the actual meaning of the tweet, clear from the context, which was to make light of the original tweeter’s use of the neologism “transwoman” (one word) to imply that trans people are not women by comparing it with using the hypothetical term “blackwoman”, in other words to point out that both are insulting. You don’t have to agree with the point being made, or the way it was made, but you also shouldn’t change the text to make the meaning match what you misremembered it to be.",
+      "author": "Emergency-Job4136",
+      "subreddit": "EnoughJKRowling",
+      "created_utc": 1712408253,
+      "score": 7,
+      "link_id": "t3_1bwo27q",
+      "parent_id": "t1_kybbxvn"
+    },
+    {
+      "id": "kyb6av7",
+      "body": "Could you post the links to the actual tweets you are referring to? I have followed India on Twitter for the past year and the recent tweets that I have seen ‘called out’ for being racist or homophobic can only be called so when taken deliberately out of context, in bad faith, ignoring obvious sarcasm or what she was responding too.",
+      "author": "Emergency-Job4136",
+      "subreddit": "EnoughJKRowling",
+      "created_utc": 1712404032,
+      "score": 7,
+      "link_id": "t3_1bwo27q",
+      "parent_id": "t1_kyb0n3t"
+    },
+    {
+      "id": "ky109my",
+      "body": "Especially in STEM, job adverts have unrealistically specific requirements. This isn’t just a U.K. problem, and companies have a dating-app style attitude where they think that if they swipe through enough candidates they will eventually find the perfect person who can slot in with no training. A typical job advert in for an entry level pharma research position will specify:\n\n- PhD in relevant subject (fair enough)\n- 5+ years experience in technology X (which was first discovered exactly 5 years ago)\n- Proficiency in totally unrelated technologies Y and Z using exact 4 software packages we use \n- Track record working in McKinseyXYZ123 project management frameworks",
+      "author": "Emergency-Job4136",
+      "subreddit": "AskUK",
+      "created_utc": 1712245566,
+      "score": 2,
+      "link_id": "t3_1bvjpte",
+      "parent_id": "t3_1bvjpte"
+    },
+    {
+      "id": "kxuyg3y",
+      "body": "(NAL) Laurence Fox recently lost a libel case against three people who had called him “racist” on Twitter, on the basis that the word “racist” inherently signifies an opinion rather than a statement of fact, and is therefore protected by the honest opinion defence in the 2013 defamation act. It helped that two of the three were also quote tweeting the evidence (Fox’s own tweets) for their claim, which clearly demonstrated that it was an honest opinion. \n\nAnother aspect to consider is that the U.K. has no anti-SLAPP legislation and most people cannot afford to defend themselves against a a libel case, even if they would ultimately win. Libel law is reverse-onus, so the accused must prove their innocence. Unfortunately many wealthy individuals in the U.K. are notorious for using strategic threats of legal action to silence criticism and so people choose to self censor or be very careful in their choice of words. If you are a resident of the USA then you are mostly protected from English libel judgements by the SPEECH act.",
+      "author": "Emergency-Job4136",
+      "subreddit": "LegalAdviceUK",
+      "created_utc": 1712155441,
+      "score": 2,
+      "link_id": "t3_1bur57e",
+      "parent_id": "t3_1bur57e"
+    },
+    {
+      "id": "kxp8e6l",
+      "body": "Sorry to hear that, it’s a frustrating situation to be in. In that case you don’t really have anything to lose. Keep a low profile, tell your PI whatever they want to hear and eventually it won’t be your problem anymore.",
+      "author": "Emergency-Job4136",
+      "subreddit": "postdoc",
+      "created_utc": 1712067465,
+      "score": 3,
+      "link_id": "t3_1btxyos",
+      "parent_id": "t1_kxp16tp"
+    },
+    {
+      "id": "kxozvpf",
+      "body": "Maybe you could make an explicit plan to wind down your projects and smoothly hand them over to others and get your PI to sign off on it. That takes the pressure off you personally and avoids a mad rush whilst still seeming proactive about ensuring the projects are successful.",
+      "author": "Emergency-Job4136",
+      "subreddit": "postdoc",
+      "created_utc": 1712064222,
+      "score": 10,
+      "link_id": "t3_1btxyos",
+      "parent_id": "t3_1btxyos"
+    },
+    {
+      "id": "kxoofcf",
+      "body": "Personal taste and circumstance. For example, when I go out with my friends in BA I’m glad to be left alone. However for a ‘nomad’ visiting for a few weeks that doesn’t know anyone, I can see why they would prefer a city where strangers come up and speak to you. Another example is the football clubs: the OP doesn’t like that tickets are reserved for local members, but if you are a local member then it’s a good thing. Also the ‘dirty’ fruit and vegetables that OP is shocked by taste (in my opinion) much better than the homogenous factory cleaned stuff we have in Europe. \n\nAlso from OP’s whining about not being able to find a super hot girlfriend immediately on a dating app, it seems like they have unreliable expectations and would probably struggle in any new city.",
+      "author": "Emergency-Job4136",
+      "subreddit": "digitalnomad",
+      "created_utc": 1712059129,
+      "score": 2,
+      "link_id": "t3_1btlvo5",
+      "parent_id": "t1_kxoify3"
+    },
+    {
+      "id": "kxehzrx",
+      "body": "I find this kind of attitude potentially dangerous. Ordinary people are not doctors and cannot triage themselves. It’s easy to say “that person should not go to the ER because of a stomach ache” but maybe that stomach ache is an appendicitis requiring emergency surgery. They shouldn’t go to the the urgent care centre just because of a “sore throat”, but perhaps that sore throat is because of an abscess that has to be drained immediately to prevent sepsis. I use those examples because they both happened to me. Both times I had asked a pharmacist for advice first and they said don’t worry just take some paracetamol. Serious and urgent conditions are not always obvious and dramatic like in a soap opera. \n\nI worked at a medical call centre (U.K. equivalent of medgate). Supposed time wasters were very rare, but every few calls there was someone having signs of a potential stroke or heart attack but was too embarrassed to call an ambulance or go to the hospital because they were worried that they would be told off for being a hypochondriac. To me that is much more concerning. If someone is worried, goes to the doctor and get the all clear that everything is fine - that is a good outcome.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1711896093,
+      "score": 20,
+      "link_id": "t3_1bs7ug3",
+      "parent_id": "t3_1bs7ug3"
+    },
+    {
+      "id": "kwxnj38",
+      "body": "I walked out the routes that I cycle regularly to work in advance. Signage is very inconsistent and some of the cycle lanes have really dangerous design flaws and are too dangerous to use. I’ve managed to find a route that is a bit convoluted but just about manageable.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1711621705,
+      "score": 6,
+      "link_id": "t3_1bprauq",
+      "parent_id": "t3_1bprauq"
+    },
+    {
+      "id": "kvsctsf",
+      "body": "I still don’t feel totally at ease after 4 years! It’s challenging (and bioinformatics is always changing) but it is the part of biology I find the most interesting. Still I have crises of confidence when a talented bioinformatics masters student joins for an internship and they can code like it’s their first language, but prior wet lab experience is also extremely useful as a bioinformatician because it gives you a much more practical and realistic idea of where data comes from. It’s easy to train a fancy deep learning model on junk data from dying cells grown in the wrong media for example. \n\nLuckily my professor gives me a lot of freedom to try what I want and learn the skills along the way. I joined a lab with very mixed skills and was clear when I applied that I wanted to expand my computational skills. I was already quite skilled in R because I was using it for all my statistical analyses and visualisation in my PhD, but didn’t her know how to do bioinformatics. \n\nI most strongly recommend this book for learning statistical analysis/machine learning: https://www.statlearning.com\n \nAnd once you understand the principles, then honestly ChatGPT 4 is great for bioinformatics. Ask it things like: I’m studying proteins XYZ. Which databases can I use to predict the function of this gene? How do I visualise that in R etc.",
+      "author": "Emergency-Job4136",
+      "subreddit": "postdoc",
+      "created_utc": 1710966499,
+      "score": 3,
+      "link_id": "t3_1bjicyy",
+      "parent_id": "t1_kvrsq9j"
+    },
+    {
+      "id": "kvricm6",
+      "body": "I was in a slightly similar situation. I would suggest looking for labs with a mix of bioinformatics and wet lab positions and express that you are motivated to expand your bioinformatics skills (but still have something to contribute in the meantime). You can also start right away learning R or Python as that will be fundamental to any bioinformatics work and is relatively easy to learn independently with online tutorials. If you are still working on your PhD project, you could try to find some way to incorporate some simple bioinformatics analyses using publicly available RNA/genomics datasets.",
+      "author": "Emergency-Job4136",
+      "subreddit": "postdoc",
+      "created_utc": 1710956458,
+      "score": 11,
+      "link_id": "t3_1bjicyy",
+      "parent_id": "t3_1bjicyy"
+    },
+    {
+      "id": "kvfju93",
+      "body": "It’s a competitive process so this doesn’t mean they disliked your application, just that they preferred the other candidates - for good or bad reasons. \n\nIf I were you I would just send the professor a short polite email saying: thanks for considering my application, unfortunately it wasn’t accepted by the fellowship committee, let me know if you have any feedback, I hope we have other opportunities to collaborate in the future. \n\nIf they were really really positive in the past, then you could ask them if they would support you applying for an independent postdoctoral grant (e.g. NIH).",
+      "author": "Emergency-Job4136",
+      "subreddit": "postdoc",
+      "created_utc": 1710772683,
+      "score": 9,
+      "link_id": "t3_1bhqb2x",
+      "parent_id": "t3_1bhqb2x"
+    },
+    {
+      "id": "kutvzfc",
+      "body": "It doesn’t matter what you hypothetically think the Nazis should have done based on your own personal opinions. The historical reality is that they explicitly did target trans people for their gender expression, such as by sending them to concentration camps for the crime of ‘crossdressing’. These prosecutions are documented historical fact. \n\nThe thread she links to is the moral and logical equivalent of holocaust deniers who use isolated examples of Jews that joined the Nazi party to claim that Nazism wasn’t antisemitic.",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1710421962,
+      "score": 4,
+      "link_id": "t3_1bdwiw9",
+      "parent_id": "t1_kutrn42"
+    },
+    {
+      "id": "kuth8id",
+      "body": "This article has the links to each of of the tweets where JK sets out her anti-trans claims, but yeah this is the main thing she tweets about so you can also just read her account directly [https://www.erininthemorning.com/p/jk-rowling-holocaust-denialism-author](https://www.erininthemorning.com/p/jk-rowling-holocaust-denialism-author)",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1710414766,
+      "score": 5,
+      "link_id": "t3_1bdwiw9",
+      "parent_id": "t1_kuqoys6"
+    },
+    {
+      "id": "kuq9qky",
+      "body": "168 CHF: https://compendium.ch/product/1089700-sertralin-sandoz-eco-filmtabl-100-mg",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1710360860,
+      "score": 1,
+      "link_id": "t3_1bdzvkm",
+      "parent_id": "t3_1bdzvkm"
+    },
+    {
+      "id": "kuq6n1x",
+      "body": "No, she has doubled down in subsequent tweets and clarified that she is indeed denying that the Nazis targeted trans people",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1710359848,
+      "score": 16,
+      "link_id": "t3_1bdwiw9",
+      "parent_id": "t1_kupyhgv"
+    },
+    {
+      "id": "kuq5xz8",
+      "body": "She later very explicitly tweeted and retweeted that the Nazis didn’t target trans people. She is really doubling down on this.",
+      "author": "Emergency-Job4136",
+      "subreddit": "therewasanattempt",
+      "created_utc": 1710359616,
+      "score": 215,
+      "link_id": "t3_1bdwiw9",
+      "parent_id": "t1_kuq49q0"
+    },
+    {
+      "id": "kuiij4m",
+      "body": "Did they invoice your insurance directly? How much was the consultation fee?",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1710247910,
+      "score": 1,
+      "link_id": "t3_1bbhuad",
+      "parent_id": "t1_kuhos1b"
+    },
+    {
+      "id": "kue523z",
+      "body": "It’s Häällifest today (second Monday of March each year). It’s a traditional spring festival. This evening they will set fire to a wooden helicopter called the Bööggcopter.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1710177194,
+      "score": 70,
+      "link_id": "t3_1bc88wz",
+      "parent_id": "t3_1bc88wz"
+    },
+    {
+      "id": "kudh2iw",
+      "body": "It’s easy for hosts to have negative (less that 5 star) reviews removed if they know how to play the game.",
+      "author": "Emergency-Job4136",
+      "subreddit": "AirBnB",
+      "created_utc": 1710168882,
+      "score": -6,
+      "link_id": "t3_1bc4m6p",
+      "parent_id": "t3_1bc4m6p"
+    },
+    {
+      "id": "ktr2x3o",
+      "body": "It sounds like the host is probably breaking airbnb policy by asking for cash outside the platform. Airbnb no longer allows security deposits for standard listings booked directly though their platform, as instead hosts should use the resolution centre to charge for damage. \n\nLet the host know that you are unwilling to give money outside of the platform, but will happily forward their messages to AirBnB for clarification.",
+      "author": "Emergency-Job4136",
+      "subreddit": "AirBnB",
+      "created_utc": 1709810797,
+      "score": 3,
+      "link_id": "t3_1b8pepe",
+      "parent_id": "t3_1b8pepe"
+    },
+    {
+      "id": "ktnp6s8",
+      "body": "Have you spoken directly to the financial officer at your university? Mine also requires an invoice, but if it’s really not possible then they can make an exception if I have both the booking confirmation and credit card statement.",
+      "author": "Emergency-Job4136",
+      "subreddit": "AirBnB",
+      "created_utc": 1709755232,
+      "score": 1,
+      "link_id": "t3_1b84jkj",
+      "parent_id": "t1_ktnf82k"
+    },
+    {
+      "id": "ktnof0n",
+      "body": "If you had travel insurance it might not change much anyway because many policies (at least when I was shopping for policies a couple of months ago) specifically rule out anxiety as a reason for cancelling a trip. \n\nI would try calling the airline and hotel directly and asking if there is any possibility to change the dates or cancel for credit, maybe with a small fee, and seeing what their policy is. You might get lucky. Just be prepared that they might say no, but the worst that happens is you lose the money you were going to spend anyway. \n\nHappy birthday and I hope you feel better soon.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Anxiety",
+      "created_utc": 1709754979,
+      "score": 1,
+      "link_id": "t3_1b85t0v",
+      "parent_id": "t3_1b85t0v"
+    },
+    {
+      "id": "kt07qcw",
+      "body": "Try asking at a pharmacy. If you are in a tourist area then they will be used to people with forgotten medication and can say what info they need. Lithium isn’t controlled so maybe they would be willing to give you an emergency supply if you can show them an email from your doctor/copy of the prescription/copy of your original medicine label etc. The worst that can happen is that they will say you have to see/phone a doctor to confirm the prescription.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Lithium",
+      "created_utc": 1709390567,
+      "score": 8,
+      "link_id": "t3_1b4mtzf",
+      "parent_id": "t1_kt03xe6"
+    },
+    {
+      "id": "kszav8k",
+      "body": "Yes I would be happy to pay more tax to increase the salary. Why should I expect young people to sacrifice their time (or even their lives in a hypothetical war) whilst giving as little in return as possible.\n\nIt’s easy for us old folks to demand more and more from the dwindling number of young people whilst voting for higher pensions. There is a reason people don’t call for compulsory voluntary work for able-bodied retirees or say that pensions should be kept low to prepare the elderly for the hardships of war.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1709370881,
+      "score": 1,
+      "link_id": "t3_1b3t0r9",
+      "parent_id": "t1_ksvefq2"
+    },
+    {
+      "id": "ksz9wjo",
+      "body": "I wrote a comment agreeing with you and so you are upset? Classic Reddit.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1709370147,
+      "score": 1,
+      "link_id": "t3_1b3t0r9",
+      "parent_id": "t1_ksvqxq3"
+    },
+    {
+      "id": "ksuxiuf",
+      "body": "“We suffered so everyone else should too” is not a great way to improve society. If fairness is the issue, why not make military service more comfortable/convenient - increase the salary or give people more choice what they do.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1709305218,
+      "score": 23,
+      "link_id": "t3_1b3t0r9",
+      "parent_id": "t1_ksumoco"
+    },
+    {
+      "id": "kso4b0t",
+      "body": "A landlord that does this will be chaotic/disorganised and difficult either way. If you don’t challenge it then that will give them the green light to continue screwing you over with inappropriate charges, poor maintainance etc. Clarify with the renters union the exact rules here and make it clear that you will follow them exactly.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1709195750,
+      "score": 1,
+      "link_id": "t3_1b2jo3r",
+      "parent_id": "t1_ksnv59g"
+    },
+    {
+      "id": "ksjq8ye",
+      "body": "As a generalisation, almost all doctors will speak at least enough English to handle emergency situations - and there are plenty who are completely fluent. They will list their languages online and you can also check for people that have worked in the U.K./USA/Australia. For your wife, it might make sense to pick the free choice of doctor (standard model) option as you can basically then search for any specialist and go to them directly without a referral. Once you’re settled down you can then switch to a cheaper model. \n\nBe aware that many nurses, assistants and administrators do not speak English. If you have some basic German and Google translate on your phone then you should be able to muddle though fine.",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1709134757,
+      "score": 2,
+      "link_id": "t3_1b1in2v",
+      "parent_id": "t1_ksiqon1"
+    },
+    {
+      "id": "ksjlw92",
+      "body": "Same happened to me. Made me feel very disoriented and foggy the entire day so I stopped it",
+      "author": "Emergency-Job4136",
+      "subreddit": "antidepressants",
+      "created_utc": 1709133268,
+      "score": 2,
+      "link_id": "t3_1b20cmb",
+      "parent_id": "t3_1b20cmb"
+    },
+    {
+      "id": "ksc9ir2",
+      "body": "This episode has my favourite ever WR moment, when Shaznay says “it’s okay Mrs Budgen. I can’t hide anymore. Je m’apelle Lula Tsibi” and gets taken away by the police.",
+      "author": "Emergency-Job4136",
+      "subreddit": "WaterlooRoad",
+      "created_utc": 1709014747,
+      "score": 7,
+      "link_id": "t3_1b0vh2n",
+      "parent_id": "t3_1b0vh2n"
+    },
+    {
+      "id": "ks4eh0q",
+      "body": "Sex is binary, so long as you ignore the existence of intersex people. It’s immutable, so long as you ignore how it changes across people’s lifespans with or without hormone treatment. Sexual “reproductive” only involves two people, so long as you ignore IVF and surrogacy…… I think I get the picture lol. Enjoy repeating your mantras to yourself.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Antipsychiatry",
+      "created_utc": 1708895150,
+      "score": 2,
+      "link_id": "t3_1az97uv",
+      "parent_id": "t1_ks32w8p"
+    },
+    {
+      "id": "ks1ibpm",
+      "body": "You are the only one claiming that someone’s sexual orientation is forcibly changed if their partner comes out as trans. It’s a straw man talking point from anti-trans campaigners, but they are the only ones that believe it. \n\nIf a lesbian dates a trans woman and they prefer to refer to themselves as lesbian, please respect that and stop demanding they call themselves straight now because it fits more comfortably with your biologically false view that sex is binary and immutable. If she prefers to describe herself as bi/pan/straight etc. then respect that too. You are speaking like a 1950s psychiatrist determined to categorise everyone into neat textbook definitions.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Antipsychiatry",
+      "created_utc": 1708848841,
+      "score": 2,
+      "link_id": "t3_1az97uv",
+      "parent_id": "t1_ks0vwli"
+    },
+    {
+      "id": "ks1gt8p",
+      "body": "Your entire argument would also apply to the concept of ‘pain’. You can’t see pain, therefore there is no useful way medicine can be used to help people in pain. You can’t cut open the brain and see ‘consciousness’, so therefore anaesthesia shouldn’t be used in surgery etc…\n\nIt might help to read a couple of wikipedia articles first and understand what the term refers to (it is not a medical diagnosis as your question implies).",
+      "author": "Emergency-Job4136",
+      "subreddit": "Antipsychiatry",
+      "created_utc": 1708847811,
+      "score": 3,
+      "link_id": "t3_1az97uv",
+      "parent_id": "t3_1az97uv"
+    },
+    {
+      "id": "krru1ko",
+      "body": "Refusing to stand and wait at a red light on an empty road is a small act of rebellion against arbitrary state interference (and in this case the lobbyists that work for German car companies) - as long as you’re not creating a hazard for anyone then go for it.\n\nPeople like to say switzerland has a culture of personal responsibility and this is a good litmus test for that. \n\nAs a side note, in Zürich there are so many pavements and walkways blocked for years at a time for private construction projects. If I wanted to walk home from work without “jaywalking” then my route would now be ~50% longer compared to last year. The 20 metres between the bus stop and nearest crossing is also currently blocked every morning by a parked truck for a house that has been under renovation for 8 months - if I didn’t walk in the road then the detour would be 600 metres extra according to Google.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708700516,
+      "score": 4,
+      "link_id": "t3_1ay0tjs",
+      "parent_id": "t3_1ay0tjs"
+    },
+    {
+      "id": "kqqjhk9",
+      "body": "Thanks for sharing. A lot of people will say « not enough people die every year for me to care », but deaths aren’t the only cost. People lose homes, businesses etc too. A lab in the U.K. had a fire a couple of years ago, and although no one was injured, the data servers were lost and a lot of people lost their research and careers because of it.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708114837,
+      "score": 2,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqqerzv"
+    },
+    {
+      "id": "kqqahat",
+      "body": "Oh wow, thats worrying.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708111735,
+      "score": 2,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqpby0w"
+    },
+    {
+      "id": "kqq9mz5",
+      "body": "It sounds like you put a lot of faith in the bureaucracy and that they have done their job correctly. Unfortunately they do make mistakes, which is why I prefer to deal with safety problems when I see them.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708111444,
+      "score": -5,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqpe8xo"
+    },
+    {
+      "id": "kqq987f",
+      "body": "Maybe the swiss culture is to put a lot of trust in the bureaucracy and that they have done their jobs well and made everything safe. Unfortunately in my experience I found that safety regulations often aren't properly followed. For example, we always trusted that in an emergency we could call the Unfall number for the university and they would send help, until recently when someone had an accident in the lab and we called but no one answered the phone. Now I prefer to take care of safety issues myself.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708111304,
+      "score": -7,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqq6jd3"
+    },
+    {
+      "id": "kqq7zqu",
+      "body": "I absolutely agree. Also people don't always think of situations outside their experience. I could quickly get out of my office if I needed to, but someone with mobility issues could not because we don't have any emergency evacuation wheelchairs for the stairs. Same for a fire in the apartment: I could climb off the balcony but my elderly neighbours couldn't. It's during a practice that you realise the problems, and hopefully you never have to go through the real thing.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708110886,
+      "score": 1,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqq071e"
+    },
+    {
+      "id": "kqq6ry7",
+      "body": "Nice try lol",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708110468,
+      "score": 1,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqpxr6c"
+    },
+    {
+      "id": "kqpvfnn",
+      "body": "I think you should look up the phrase because it means the opposite of how you are using it",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708106649,
+      "score": 4,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqpst96"
+    },
+    {
+      "id": "kqpube6",
+      "body": "Glad it was useful! I also did a voluntary course to learn how to use an extinguisher. I don’t think most citizens (e.g. women) do military or ZS currently though?",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708106271,
+      "score": 3,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqph6z9"
+    },
+    {
+      "id": "kqptc7q",
+      "body": "True, but it depends how much you value your life compared with your insurance company.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708105947,
+      "score": -5,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqphjdu"
+    },
+    {
+      "id": "kqpswfv",
+      "body": "It’s great that you take the initiative. I do the same, but unfortunately there are some things (like how to help disabled people evacuate from a top floor) that really need proper training",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708105804,
+      "score": 1,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqpkk73"
+    },
+    {
+      "id": "kqpsn2h",
+      "body": "Exactly. I value my life highly, but people here will say “why do I need a fire alarm, I already have life insurance”",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708105718,
+      "score": 1,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqppu9i"
+    },
+    {
+      "id": "kqpsdha",
+      "body": "You mean “don’t give a fuck”, but your comment is self contradictory anyway. You are claiming that you don’t care about safety because you have high safety standards.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1708105629,
+      "score": 2,
+      "link_id": "t3_1asc63k",
+      "parent_id": "t1_kqpp359"
+    },
+    {
+      "id": "kq9kcq3",
+      "body": "You are so close",
+      "author": "Emergency-Job4136",
+      "subreddit": "ambien",
+      "created_utc": 1707847857,
+      "score": 1,
+      "link_id": "t3_1apl4zs",
+      "parent_id": "t3_1apl4zs"
+    },
+    {
+      "id": "kq3a052",
+      "body": "These seem fair comparisons to me, especially as a cyclist as the very minimal effort put into cycling infrastructure in Swiss cities often makes things worse than if they did nothing. It’s also sad how many small towns and villages are ruined by having a busy main road going through 1 m from the fronts of people’s houses. And the tastes of architects here really does boggle the mind. \n\nOne thing you miss out in your list is the countryside/scenery though. Switzerland wins hands down there times a million. Also not sure about point 8: it’s true that few people dress stylishly here, but the level of sport participation means most people are pretty athletic. Would be interesting to hear hear how healthcare and public administration compare (I think both are excellent in Switzerland but no idea of Netherlands).",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1707751069,
+      "score": 6,
+      "link_id": "t3_1ap1snx",
+      "parent_id": "t3_1ap1snx"
+    },
+    {
+      "id": "kps2jzb",
+      "body": "The difficulty peeing was one of the many side effects that made me eventually stop this medication. Doctor said it’s really common (but obviously didn’t tell me in advance)",
+      "author": "Emergency-Job4136",
+      "subreddit": "StratteraRx",
+      "created_utc": 1707572242,
+      "score": 3,
+      "link_id": "t3_1anf49p",
+      "parent_id": "t3_1anf49p"
+    },
+    {
+      "id": "kpietvw",
+      "body": "It’s not as much a thing (at least in bars) but in the summer it’s more common to go for for after work drinks or swimming along the river",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1707413329,
+      "score": 6,
+      "link_id": "t3_1am07o0",
+      "parent_id": "t3_1am07o0"
+    },
+    {
+      "id": "kpc1kfa",
+      "body": "Yeah that is kind of how it feels, like the seasonal changes that drive migraines etc",
+      "author": "Emergency-Job4136",
+      "subreddit": "insomnia",
+      "created_utc": 1707316262,
+      "score": 1,
+      "link_id": "t3_1al27jj",
+      "parent_id": "t1_kpc0r9s"
+    },
+    {
+      "id": "kpbw8b9",
+      "body": "Thanks for sharing your experience. Personally I don’t have anxiety around sleep, and initially falling asleep isn’t a problem. Instead I wake up a lot in the night for no particular reason - for example last night I woke up at 12:30 am after just two hours of sleep thinking it was already morning, then again at 2:00 and 4:00 and then a few more times before I eventually got up at 5:30. I don’t feel anxious, just exhausted. Previously, zolpidem would help me sleep ~6 hours before waking up.",
+      "author": "Emergency-Job4136",
+      "subreddit": "insomnia",
+      "created_utc": 1707314039,
+      "score": 1,
+      "link_id": "t3_1al27jj",
+      "parent_id": "t1_kpbtadc"
+    },
+    {
+      "id": "kpbrn6m",
+      "body": "Sorry to hear that you went through the same thing. I plan on doing another medication break when I have a quiet period at work but easier said than done.",
+      "author": "Emergency-Job4136",
+      "subreddit": "insomnia",
+      "created_utc": 1707312008,
+      "score": 1,
+      "link_id": "t3_1al27jj",
+      "parent_id": "t1_kpbqy0c"
+    },
+    {
+      "id": "kp1xcwf",
+      "body": "Call the restaurant and ask if they can make something vegan. It’s usually no issue so long as they have a bit of warning. If they say no then gracefully let your colleagues know you can’t join them for dinner but offer to meet for a drink beforehand.",
+      "author": "Emergency-Job4136",
+      "subreddit": "vegan",
+      "created_utc": 1707155065,
+      "score": 1,
+      "link_id": "t3_1ajkve7",
+      "parent_id": "t3_1ajkve7"
+    },
+    {
+      "id": "kov2ilw",
+      "body": "To my understanding, employers in Germany are legally required to provide a formal reference letter - the fact they are threatening you in this way is very suspicious. I absolutely would not sign anything without discussing first with an independent lawyer. It is however fairly common though that people who are fired or resign will have their access to the building and email etc immediately terminated to prevent you from taking materials to a competitor for example.",
+      "author": "Emergency-Job4136",
+      "subreddit": "boeing",
+      "created_utc": 1707042923,
+      "score": 18,
+      "link_id": "t3_1ai34ol",
+      "parent_id": "t3_1ai34ol"
+    },
+    {
+      "id": "koqs299",
+      "body": "Yeah but there are lots of gaps that can be filled in fairly quickly with on-the-job training. Maybe you are a fully trained accountant but haven’t used the particular software package the company prefers.\n\nAlso in some countries and industries it is also fairly common for companies to fund part-time professional qualifications including masters degrees and PhDs.",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1706972760,
+      "score": 3,
+      "link_id": "t3_1ahnqby",
+      "parent_id": "t1_koqopkb"
+    },
+    {
+      "id": "kognjwb",
+      "body": "Also if you have a name with unclear gender, especially if it’s from a different language.",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1706808920,
+      "score": 25,
+      "link_id": "t3_1agcbuk",
+      "parent_id": "t1_kogh79v"
+    },
+    {
+      "id": "kogn12j",
+      "body": "Personally I choose not to answer these days. I understand the reason, but the risk (that the answers are not confidential and are seen by someone bigoted) seems higher than the possible benefit (that this information will genuinely improve recruitment practices).",
+      "author": "Emergency-Job4136",
+      "subreddit": "recruitinghell",
+      "created_utc": 1706808745,
+      "score": 3,
+      "link_id": "t3_1agcbuk",
+      "parent_id": "t3_1agcbuk"
+    },
+    {
+      "id": "kof3dkz",
+      "body": "1. PhD in biochemistry\n2. Postdoc\n3. Zürich\n4. 4 years post PhD\n5. 100,000 CHF per year",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1706784914,
+      "score": 2,
+      "link_id": "t3_1aft92z",
+      "parent_id": "t3_1aft92z"
+    },
+    {
+      "id": "kk36d23",
+      "body": "I think the storyline was based on stereotypes and sensationalism rather than a genuine attempt to show the story of a trans pupil. Like gay characters in 90s soap operas, they just wanted something to use as a plot device. \n\nIt fits with the nature of Waterloo Road but unfortunately there are some people who will watch it and think it’s real.",
+      "author": "Emergency-Job4136",
+      "subreddit": "WaterlooRoad",
+      "created_utc": 1706524594,
+      "score": 5,
+      "link_id": "t3_1adqvu0",
+      "parent_id": "t3_1adqvu0"
+    },
+    {
+      "id": "kjxrkrt",
+      "body": "Well, a lot of people on Reddit do live in Zurich or Geneva. Or they have children (childcare + health insurance needed), or a partner they need to support (for example because they are still studying, has a chronic illness etc), or other random expenses (10% of my income goes on student loan repayments to the U.K. government). 6k per month is enough for a single childless person to live in most parts of Switzerland, but not everyone is in that situation.",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706440309,
+      "score": 17,
+      "link_id": "t3_1aczzpg",
+      "parent_id": "t3_1aczzpg"
+    },
+    {
+      "id": "kjxkwp2",
+      "body": "People don’t use Grindr here, instead Romeo is the main app. You will find a lot more people on there, not all of them crazy! It’s also the main app in all the German speaking countries.",
+      "author": "Emergency-Job4136",
+      "subreddit": "zurich",
+      "created_utc": 1706435453,
+      "score": 3,
+      "link_id": "t3_1acy775",
+      "parent_id": "t3_1acy775"
+    },
+    {
+      "id": "kjhl3r9",
+      "body": "Yeah to be honest it is partly psychological. They have messed up my admin so many times, are very difficult to get in touch with and are just generally a pain. I currently make my payments one week late each month on their advice because if I pay on time then a bug in their system gives me a £0.01 arrears and they don’t have any way to fix it",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKPersonalFinance",
+      "created_utc": 1706181207,
+      "score": 2,
+      "link_id": "t3_19f5m4w",
+      "parent_id": "t1_kjhhzj5"
+    },
+    {
+      "id": "kjhkodx",
+      "body": "Sorry I wasn’t very clear with my comment. I use a Swiss roboinvestment service that buys a portfolio of international ETFs.",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKPersonalFinance",
+      "created_utc": 1706180925,
+      "score": 1,
+      "link_id": "t3_19f5m4w",
+      "parent_id": "t1_kjhiof1"
+    },
+    {
+      "id": "kjhfk6h",
+      "body": "Thanks. I actually keep most of my savings in Swiss ETFs and over the past 3 years my return has been -0.1% 😅 Hoping they pick up, but for the time being I don’t expect that the earnings will approach the interest rate on the loan.",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKPersonalFinance",
+      "created_utc": 1706177275,
+      "score": 2,
+      "link_id": "t3_19f5m4w",
+      "parent_id": "t1_kjhe84p"
+    },
+    {
+      "id": "kjhf3of",
+      "body": "Because of my income level, I will repay the loan in full well before I reach 60.",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKPersonalFinance",
+      "created_utc": 1706176938,
+      "score": 3,
+      "link_id": "t3_19f5m4w",
+      "parent_id": "t1_kjhe71p"
+    },
+    {
+      "id": "kjhdojx",
+      "body": "Thank you but the wiki doesn’t address this particular situation.",
+      "author": "Emergency-Job4136",
+      "subreddit": "UKPersonalFinance",
+      "created_utc": 1706175874,
+      "score": 1,
+      "link_id": "t3_19f5m4w",
+      "parent_id": "t1_kjhczln"
+    },
+    {
+      "id": "kjetmx4",
+      "body": "I’m guessing OP already knew that they weren’t a terrorist or human trafficker. It’s more worrying that the airline made such a basic mistake with their passenger manifest - it makes me wonder if Lufthansa has problems with their system that could actually be exploited by criminals.",
+      "author": "Emergency-Job4136",
+      "subreddit": "travel",
+      "created_utc": 1706133717,
+      "score": 9,
+      "link_id": "t3_19ep78j",
+      "parent_id": "t1_kjenpkr"
+    },
+    {
+      "id": "kj1sbfm",
+      "body": "The dentist has the choice to rewrite their cancellation policy to require 72h+ notice for Monday clients if that’s what they prefer. But it’s not reasonable to charge clients for not giving 3 x more notice than you specified when they booked they appointment just because you are a small business. Maybe the OP also runs a small business for all we know.",
+      "author": "Emergency-Job4136",
+      "subreddit": "LegalAdviceUK",
+      "created_utc": 1705936627,
+      "score": -6,
+      "link_id": "t3_19cqcyd",
+      "parent_id": "t3_19cqcyd"
+    },
+    {
+      "id": "kj1r2qt",
+      "body": "24 working hours would be approximately 3 working days, assuming 8 hour working hours. Doesn’t seem like a reasonable expectation for the office to insist on.",
+      "author": "Emergency-Job4136",
+      "subreddit": "LegalAdviceUK",
+      "created_utc": 1705936166,
+      "score": -2,
+      "link_id": "t3_19cqcyd",
+      "parent_id": "t1_kj1bzsr"
+    },
+    {
+      "id": "kj1qpmg",
+      "body": "What loophole? It’s their policy that says 24 hours notice. They had the choice to say 1 working day if that’s what they wanted/intended or said that Monday cancellations have to me made by Friday. If 24 hours means at least one working day then anyone with the first appointment on Monday would have to cancel by Thursday. \n\nAs a reasonable person, I would have assumed that by choosing to say “24 hours” rather than “1 working day” it implies that they have an answerphone or out of hours reception service.",
+      "author": "Emergency-Job4136",
+      "subreddit": "LegalAdviceUK",
+      "created_utc": 1705936030,
+      "score": 4,
+      "link_id": "t3_19cqcyd",
+      "parent_id": "t1_kj1280p"
+    },
+    {
+      "id": "kj1p3ci",
+      "body": "24 hours is not a working day unless otherwise specified. A working day is approximately 8 hours, so on that basis you would need to call 3 days early. The dentist’s office had the option to specify a 1 working day cancellation policy if that’s what they wanted/intended in order to have time to rebook clients, but they chose instead to say “24 hours” so it’s fair to hold them to that. It’s also unreasonable to expect anyone who makes an appointment to be aware of whether the office has an answerphone or out of hours receptionist service. \n\nIf I was giving advice to the dental surgery I would tell them to either ask their Monday patients to cancel by Friday afternoon or accept that they will have a few no-shows on Mondays.",
+      "author": "Emergency-Job4136",
+      "subreddit": "LegalAdviceUK",
+      "created_utc": 1705935413,
+      "score": 7,
+      "link_id": "t3_19cqcyd",
+      "parent_id": "t1_kj1ei5d"
+    },
+    {
+      "id": "kiwuc1f",
+      "body": "I know a few people like that, and my experience is that they believe the conspiracy theory because it gives three cover for the real reason (tax evasion). Same people that think vaccines are poisoned with chemicals but will snort any white powder they can lay their hands on.",
+      "author": "Emergency-Job4136",
+      "subreddit": "AskUK",
+      "created_utc": 1705857610,
+      "score": 1,
+      "link_id": "t3_19bzg5c",
+      "parent_id": "t1_kive6tf"
+    },
+    {
+      "id": "kiwt7er",
+      "body": "This is the main reason I prefer Uber.",
+      "author": "Emergency-Job4136",
+      "subreddit": "AskUK",
+      "created_utc": 1705857224,
+      "score": 3,
+      "link_id": "t3_19bzg5c",
+      "parent_id": "t1_kive1qf"
+    },
+    {
+      "id": "kiwsqah",
+      "body": "My grandmother volunteered in a charity short for decades and started learning how to use a computer in her early 80s. When the shop switched to a (frankly very simple) computer checkout, the younger volunteers (60s and 70s) refused to use it because they were too old to learn how to use it, and my grandma had to do all the transactions for them 😅",
+      "author": "Emergency-Job4136",
+      "subreddit": "AskUK",
+      "created_utc": 1705857055,
+      "score": 8,
+      "link_id": "t3_19bzg5c",
+      "parent_id": "t1_kivbpvd"
+    },
+    {
+      "id": "kil9v80",
+      "body": "The speed of bank transfers here is pretty frustrating, have to agree with that.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1705674113,
+      "score": 3,
+      "link_id": "t3_19ah5ln",
+      "parent_id": "t1_kikwet5"
+    },
+    {
+      "id": "kil8nak",
+      "body": "Would you really need to spend 10,000 CHF in a single cash transaction to buy groceries over the weekend?",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1705673624,
+      "score": 3,
+      "link_id": "t3_19ah5ln",
+      "parent_id": "t1_kikxadb"
+    },
+    {
+      "id": "kil6si4",
+      "body": "Before I got my bank account set up, I paid my first month's rent in cash at the post office - about 2,000 CHF. If I had paid the deposit in cash too that would have taken it to 8,000. I would have preferred to make a bank transfer, which would have also been cheaper, but the management company sent me everything at the last minute and there wasn't time.\n\nFrom what I read online (correct me if I am wrong), the proposed limit is 10,000 per single payment. The senior citizen can still take their CHF 20,000 in their handbag to go and pay for their groceries at Migros, so long as the groceries cost less than 10,000 euros. And they can keep their 200,000 CHF savings in cash under the mattress still. What it would stop is wealthy criminals laundering their money from drugs/trafficking/tax-evasion/corruption in Switzerland by paying for luxury watches, cars, art, apartments, hotels etc.\n\nOf course it will also cause inconvenience to people with legitimate reasons to prefer cash for big purchases, but that has to be weighed against the damage from offering a safe haven to organised criminals. I don't know if this limit is the best solution, but I certainly see the justification.",
+      "author": "Emergency-Job4136",
+      "subreddit": "Switzerland",
+      "created_utc": 1705672864,
+      "score": 2,
+      "link_id": "t3_19ah5ln",
+      "parent_id": "t3_19ah5ln"
+    },
+    {
+      "id": "kiay0tb",
+      "body": "If they were real people then I would agree, but I’m glad the characters did. I thought it was a good portrayal of some of the really intense toxic friendships I saw at school where girls pushed each other into doing incredibly mean things that they would never have done otherwise.",
+      "author": "Emergency-Job4136",
+      "subreddit": "WaterlooRoad",
+      "created_utc": 1705511274,
+      "score": 9,
+      "link_id": "t3_199109p",
+      "parent_id": "t3_199109p"
+    },
+    {
+      "id": "khz4ovu",
+      "body": "Personally I disagree (though I absolutely respect your opinion and where you are coming from). I know people who are very curious or sympathetic to veganism but are reluctant to make the jump because they care for children or a partner that insists on continuing to eat animal products. I don’t buy or prepare those things for my partner, but not everyone is in a position to make that same choice. If someone makes the choice to stop eating animals I will support and celebrate them even if they have to make some passive compromises with the people around them.",
+      "author": "Emergency-Job4136",
+      "subreddit": "vegan",
+      "created_utc": 1705332245,
+      "score": 2,
+      "link_id": "t3_1978xq1",
+      "parent_id": "t1_khz07k0"
+    },
+    {
+      "id": "kg13isw",
+      "body": "100% agree and thanks for saying this. I sometimes struggle to understand Romain’s accent, but his English is 100x better than my German or Spanish. It takes years to become fluent and sometimes decades to become native-level, even with a lot of effort, and some people find it more difficult than others. I have a PhD in biology but find languages so difficult and have so much respect for someone who will run a business and go on a major TV show in a al huge they are not completely fluent in.",
+      "author": "Emergency-Job4136",
+      "subreddit": "SellingSunset",
+      "created_utc": 1704229372,
+      "score": 16,
+      "link_id": "t3_18wzge1",
+      "parent_id": "t3_18wzge1"
+    },
+    {
+      "id": "kfyy1kw",
+      "body": "Not quite the topic of this question, but something I find difficult with customs is homemade items. My parents often send or give me gifts that they have made themselves (paintings, ceramics, cushions etc.) They have never sold anything in their lives so there is no objective monetary value, but they are beautiful and well made. I usually estimate a nominal amount for the materials (e.g. a small acrylic painting might use 30CHF of canvas and paint) but what’s to stop a customs agent from deciding it’s a masterpiece worth millions?",
+      "author": "Emergency-Job4136",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704199656,
+      "score": 5,
+      "link_id": "t3_18wmql6",
+      "parent_id": "t3_18wmql6"
     }
   ]
 }

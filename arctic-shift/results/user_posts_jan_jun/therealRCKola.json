@@ -41,6 +41,146 @@
       "score": 3,
       "link_id": "t3_195l0xj",
       "parent_id": "t3_195l0xj"
+    },
+    {
+      "id": "l34zvrn",
+      "body": "3. Yes youre right about alpha beta pruning. I wanted to show that just because words are similar doesn't mean theres a inherent connection. Adding new neurons on the fly would be extremely crazy, but hyper parameter optimization over the model architecture is possible just is very time intensive (diminishing returns)\n\n4. You are right. Combining models is a way more valid way of partitioning tasks logically than training parts of the model for different tasks.\n\nIn my experience applying computer science to biology works a lot better than the other way around. For example biology inspired optimization algorithms were literal cringe personified.\n\nI just don't really want people to read some similar words and think there are connections when there aren't. \n\nIn general though, biology inspired neural networks aren't a bad idea, just the goal is very mislead. For example physics inspired nueral networks provide good approximate solutions to pdes. The same rhetoric could be applied to biology, though I don't know much about this. The overall sentiment on subdomain research like this is that these approaches dont serve to improve modern ml in the general case, but only succeed in specific use cases, where overfitting is very prevalent but not as bad as in other use cases.",
+      "author": "therealRCKola",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715180224,
+      "score": 1,
+      "link_id": "t3_1cmkr5f",
+      "parent_id": "t1_l34nzd3"
+    },
+    {
+      "id": "l34x8bb",
+      "body": "Agreed.",
+      "author": "therealRCKola",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715179275,
+      "score": 1,
+      "link_id": "t3_1cmkr5f",
+      "parent_id": "t1_l347h75"
+    },
+    {
+      "id": "l33qw0w",
+      "body": "Ok in a practical sense all performance related optimizations reduce the previous logical concepts to something simpler. Rnns have a theoretical feedback loop that can be unrolled.\n\nThe statement that just because it *can* be unrolled, it doesn't have a loop is like saying a forloop can be unrolled by the compiler therefore it is not repeating actions dependent on the previous actions. I mean sure but like...\n\nAlso even per wikipedia, rnns are infinite impulse response networks not finite ones. Modern research on formal language theory and automata theory is one example of feedback loops that are used in nlp. And if you tell me finite automata can be unrolled then I don't even know what to say tbh.",
+      "author": "therealRCKola",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715157146,
+      "score": 1,
+      "link_id": "t3_1cmkr5f",
+      "parent_id": "t1_l33lbp0"
+    },
+    {
+      "id": "l33mbby",
+      "body": "1. Under the hood, the visual \"networks\" you see dont exist. They are simply numerical matrix vector products. The \"synapse reactions\" are literally always done in parallel on the gpu. The only place where this idea applies is to gnns.\n\n2. Idk what you mean with this. There are not many cases where different activations will make a difference to the result. So much so that the most used activation is relu...\n\n3. Idk what you mean with altering synapses. You know how a ml model could put more importance on certain parts of a reaction to an input? Yea, the weights... Also pruning is very much used concept, except its not what you think it is. For example chess engines are based on alpha beta pruning. If you just want to \"disable synapses\", relu, dropout, lasso regularization all already do this (ml theory wants to optimise the l0 norm)\n\n4.Finding models that are specialized is a valid approach but has already been done. There is a lot of research on ensemble learning. I also feel like most of your points here are regurgitating the same statement that you want to split the network into different job areas. This has also already been done (sort of) resnet has the feature extraction layers, lstms have the as its name suggests long and short term memory, transformers have attention. Generative models like specific gan models also do this.\n\n\nTLDR your post is filled to the brim with misconceptions about how \"ai\" actually works. Almost all of the things you mention are not new ideas nor come from computer science realizations of biological neural constructs but rather just machine learning techniques that are named in a way that is easy to misunderstand if you're not well-versed with the technology. To do further research on connections between biological neural networks and anns, one must look to gnns, the only ml model that is even remotely close to an actual network.",
+      "author": "therealRCKola",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715153567,
+      "score": 4,
+      "link_id": "t3_1cmkr5f",
+      "parent_id": "t1_l338snz"
+    },
+    {
+      "id": "l33ikaq",
+      "body": "Have you heard of a recurrent neural net? The grandfather of gpt?",
+      "author": "therealRCKola",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715150792,
+      "score": -3,
+      "link_id": "t3_1cmkr5f",
+      "parent_id": "t1_l33g07o"
+    },
+    {
+      "id": "kz5e1q9",
+      "body": "My guy is actually pumping key value pairs into each weight. Respect",
+      "author": "therealRCKola",
+      "subreddit": "compsci",
+      "created_utc": 1712875125,
+      "score": 5,
+      "link_id": "t3_1c1om6p",
+      "parent_id": "t1_kz4wyva"
+    },
+    {
+      "id": "kyo3mp9",
+      "body": "I see what you mean now. I didn't read the actual exercise lol. Then I guess DP is the more intuitive solution.",
+      "author": "therealRCKola",
+      "subreddit": "csMajors",
+      "created_utc": 1712607895,
+      "score": 1,
+      "link_id": "t3_1byytww",
+      "parent_id": "t1_kynvk1b"
+    },
+    {
+      "id": "kynst0a",
+      "body": "Maybe you can show a counter example. Personally I don't see what you're talking about. I also solved this exact problem a week ago on Leetcode with this approach.",
+      "author": "therealRCKola",
+      "subreddit": "csMajors",
+      "created_utc": 1712604151,
+      "score": 1,
+      "link_id": "t3_1byytww",
+      "parent_id": "t1_kynpkiy"
+    },
+    {
+      "id": "kynhylv",
+      "body": "Idk, but I literally solved this problem in high school, when we did probability. I think its a bit weird why everyone is talking about the DP solution and not the combinatoric solution.\n\nThe path has to be length m+n-2 due to fence spacing, and we need to choose n-1 slots to be going down. So we have nCr(m+n-2, n-1) which has time O(min(m,n)) space O(1), which is far better than DP.",
+      "author": "therealRCKola",
+      "subreddit": "csMajors",
+      "created_utc": 1712600077,
+      "score": 2,
+      "link_id": "t3_1byytww",
+      "parent_id": "t1_kympr82"
+    },
+    {
+      "id": "kw0neyw",
+      "body": "A llm is just as the name suggests a large \"language model\" which is mathematical concept based on formal language theory, automaton theory and probability theory. It does not deal with inferring semantics of language but purely the syntactical, as in, given a dataset it can be trained to predict the next word based on the dataset given. (Autoregressive models)\n\nFrom the NLP perspective, it is hard to make these models generalise to an entire natural language, meaning taking a small subset of all text that is written in this language most likely won't give you a good representation of the entirety. The reason why GPT is impressive is not because it seems intelligent like a human but that the model underneath can actually generalise well, so it speaks like a human (likely due to the large dataset it was trained on). To put this into perspective, other languages than English don't have the same performance when using these models, e.g. German has a sort of predictive grammar which require more planning than the model is used to so it often makes grammatical mistakes.\n\nIn the more general ml perspective, giving a model more parameters will only overfit on the training dataset until you go into the overparameterised paradox (idk what the name is). And more compute will help but actually its kind of the memory aspect that is harder to leverage, we have pretty good compute already. In conclusion though, the concept of agi is so foreign to actual ml research that I had to look up what it means, so that might give an indication of how close we are to it. (Autoregressive llms will never reach it)",
+      "author": "therealRCKola",
+      "subreddit": "compsci",
+      "created_utc": 1711096149,
+      "score": 8,
+      "link_id": "t3_1bkruas",
+      "parent_id": "t1_kw0frjk"
+    },
+    {
+      "id": "kt4yssp",
+      "body": "The movie is a sequel to the show. It's more of a slow coming of age story than romance.",
+      "author": "therealRCKola",
+      "subreddit": "wholesomeanimemes",
+      "created_utc": 1709467343,
+      "score": 6,
+      "link_id": "t3_1b5d5de",
+      "parent_id": "t1_kt4wb48"
+    },
+    {
+      "id": "kru4hdb",
+      "body": "Excellent analysis. Would be better if you put each point on a separate page so reading and separation of points is better :)",
+      "author": "therealRCKola",
+      "subreddit": "KanojoOkarishimasu",
+      "created_utc": 1708727904,
+      "score": 1,
+      "link_id": "t3_1ay1n5q",
+      "parent_id": "t3_1ay1n5q"
+    },
+    {
+      "id": "kpwrt0e",
+      "body": "In search engines there are k-gram data structures (b+ trees) to handle spelling errors. E.g. loading the word audit into the dictionary gives the 3-grams $au, aud, udi, dit, it$. These 3 grams are placed into the data structure and have pointers to the corresponding words (multiple words can have the same 3 gram). Then entering in audi gives the same 3-grams except for di$, dit and it$. \n\nTo find potential words you use the K grams to search for words in the b tree, and then use the jaccard coefficient (Audi to audit is 0.5, Audi to Audi is 1) or minimal edit distance (1) to find the best match. Notice this is not context dependent, for smarter matching, language models can be leveraged, e.g. financial audi shouldn't refer to a car.",
+      "author": "therealRCKola",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1707646013,
+      "score": 1,
+      "link_id": "t3_1anttn4",
+      "parent_id": "t1_kpuwuz0"
+    },
+    {
+      "id": "kikgsa7",
+      "body": "Its a colloquialism, but it is 他. The whole clip actually has other artefacts of colloquialism like 的being pronounced with di rather than de. The 他 is kind of used as a informal (rude) strengthening term and as a subject, and is also purely verbal. Other examples like 杀他个狗日的，去他个小饼干 also exist, translation: kill that fucking dog Japanese, omg how cute is that.  I think the same concept exists in Japanese also but I have no examples for it.",
+      "author": "therealRCKola",
+      "subreddit": "wholesomeanimemes",
+      "created_utc": 1705657970,
+      "score": 3,
+      "link_id": "t3_19aavo7",
+      "parent_id": "t1_kijuy5o"
     }
   ]
 }

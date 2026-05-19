@@ -1,6 +1,29 @@
 {
   "username": "TiSapph",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1g8k247",
+      "title": "Found this strange long line of mushrooms in the Alps. Any ideas why this happens?",
+      "author": "TiSapph",
+      "subreddit": "mycology",
+      "created_utc": 1729495685,
+      "score": 21,
+      "num_comments": 9,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/1g8k247"
+    },
+    {
+      "id": "1ft5ho2",
+      "title": "CPM is nearly useless, but so is uSv - A PSA on the nuances of radiation units",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727727601,
+      "score": 66,
+      "num_comments": 46,
+      "selftext": "There seems to be common confusion on the meaning of units for ionising radiation, both from people new to this field and those quite familiar with it. So here are the most important points:\n\n###CPM/CPS is not an absolute unit  \nCounts per minute/second, literally how many particles your device detected within a minute/second. This varies wildly depending on radiation type, particle energy, detector size and efficiency, detector shielding, ... Even two detectors with the same construction can have significant differences.  \nIt has zero meaning without at least stating the radiation type and detection device. A big scintillation counter can show *thousands* of CPS for normal background.\n\n###Dose rate (uSv/h) takes care of the all that... sometimes   \nWhat we actually want is a measure of \"danger\", so that any device put in the same place will show the same value. Dose rate measured in Sv/h is meant to express this. Usual background is in the neighborhood of 0.1uSv/h.\n\n###Most devices cannot measure dose rate correctly  \nTo calculate uSv/h, you need to know the number of particles, radiation type, particle energies, ...\nA low cost geiger counter only knows how many particles it has detected, it has no idea about the type or energy. As a result, *dose rates shown by uncompensated geiger counters (eg GMC-300) are only meaningful for pure gamma radiation from a specific isotope (usually Cs137).*  \nIf you put a GMC-300 on fiestaware, you're measuring a shitload of beta particles which scews the dose rate measurement. Don't do that, use CPM instead, at least that value is correct. You can't compare the values with anyone else's anyway.\n\n\n###Almost all devices assume a whole body dose  \nEven a device which can compensate for particle energy and type, cannot know if the activity is the same everywhere. *The calculated dose rate assumes your whole body is exposed to the same levels of radiation from all directions.*\nIf you measure close to a source, it's entirely incorrect. If you measure far from a source, but it's a single source so that all radiation comes from one place, your measured value is ~2x greater than the true dose rate because only one side of you is exposed.  \nThat said, often it can still be a meaningful measure despite being technically wrong, because it isn't as dependent on the detection device.\n\n###Use SI units god damn it  \nOk this one is personal, but why use rem when we have Sv. Especially because they are just a factor 100 off. So annoying to have to do the calculations all the time.  \nAnd don't even think about Roentgen and Rads. Stop it. It's not 1950 anymore.  \nI'll allow Curie though, because I can't spell Becquerel.",
+      "url": "https://www.reddit.com/r/Radiation/comments/1ft5ho2/cpm_is_nearly_useless_but_so_is_usv_a_psa_on_the/"
+    }
+  ],
   "comments": [
     {
       "id": "lf7r1o5",
@@ -21,6 +44,1116 @@
       "score": 2,
       "link_id": "t3_1ea57g9",
       "parent_id": "t1_leo9rpl"
+    },
+    {
+      "id": "m49vu3k",
+      "body": "Just to quickly add a few things:\n\nThe isotope markers are only a guide for your interpretation, don't trust them to tell you the isotope just because they are near a peak. \n\nThere are no alpha detected. Hard betas can make it into the detector however.\n\nUse the filtering with caution. It can make things look deceivingly smooth. I personally only use bare counts or the lowest filtering.\n\nHave fun :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735430715,
+      "score": 2,
+      "link_id": "t3_1hod6cv",
+      "parent_id": "t1_m49ah3i"
+    },
+    {
+      "id": "m484ufw",
+      "body": "And lots of cameras only record when motion is detected, eg trail cameras.\n\nAlso they can just jump somewhere in the footage and see if the cord is already cut.",
+      "author": "TiSapph",
+      "subreddit": "What",
+      "created_utc": 1735409643,
+      "score": 1,
+      "link_id": "t3_1hnqze8",
+      "parent_id": "t1_m4844hm"
+    },
+    {
+      "id": "m444xuw",
+      "body": "I guess energy sensitive scintillators like the Radiacode should give decent readings. At least when no hard betas are involved...\n\nWould love to see someone with real calibration equipment check it though.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735343790,
+      "score": 1,
+      "link_id": "t3_1hnnw9j",
+      "parent_id": "t1_m43xlff"
+    },
+    {
+      "id": "m444h36",
+      "body": "Dose rate is more or less a measure of how much energy is absorbed per second. So it's the number of counts times the average energy of the photons.\n\nBut a Geiger-Müller counter doesn't know the energy of a detected particle, it only knows how many have been detected per second, so they have to just make an assumption about what the average photon energy is.\n\nHowever they also don't detect every single particle flying through them. This efficiency is strongly dependent on photon energy. This actually mostly cancels out the effect of not knowing the energy to a large degree: high energy photons will be underestimated in their energy, but they are also more likely to be detected.\n\nUnfortunately bare GM Tubes are super sensitive in the range of 10-100keV, some up to 300keV. Photons in this range will cause much higher dose rate readings. This is the case for the GMC300 and Tc99m.\n\nCompensated GM tubes have slight shielding to absorb a lot of those low energy photons, making the readings much more accurate. However this comes at the cost of overall sensitivity. \n\nHope that helps :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735343619,
+      "score": 2,
+      "link_id": "t3_1hnnw9j",
+      "parent_id": "t1_m43y9rt"
+    },
+    {
+      "id": "m43v5aq",
+      "body": "Generally I agree with you, dose rate is a lot more useful.\n\nBut I think it is important to say that the dose rate can be vastly incorrect for uncompensated GM detectors.  \nIt's likely that the dose rate is overestimated by a factor 5 or more here",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735340235,
+      "score": 1,
+      "link_id": "t3_1hnnw9j",
+      "parent_id": "t1_m43bf38"
+    },
+    {
+      "id": "m3vn8vs",
+      "body": "Yes, you are correct. A better statement would be:\n\nThe meter only knows the dose rate at the measurement location. It only corresponds to the effective dose (and thus health risk) if your entire body is exposed to this level of radiation.\n\nThough I don't know if this is *entirely* true either. To get an effective dose we need an estimation of absorbed dose rate, and thus the energy per kg of tissue. This will depend on the penetration depth. If those particles were say 1MeV instead of 10keV, they might actually expose the skin to less of a dose, but overall more to the body.  \nSo some assumptions have to be made afaik. Dosimetry is just really quite complicated :/",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735223718,
+      "score": 2,
+      "link_id": "t3_1hmea7h",
+      "parent_id": "t1_m3vi080"
+    },
+    {
+      "id": "m3vlp7b",
+      "body": "Ah sorry I didn't notice the other comment was by you too!\n\nYeah, only the skin right at the vial receives this dose rate.\nRadiation detectors show the equivalent dose rate.\nFor risk comparisons (eg to chest x-rays), people talk about effective dose. If the whole body is exposed to the same intensity of radiation, equivalent and effective dose are the same, otherwise it needs to be weighed by the exposed fraction and which tissue.\n\nWe can estimate the effective dose though:\n\nThe video shows around 100cpm. The scintillator is 10\\*10mm, around 10mm from the source, giving a solid angle of 1steradian. So the total activity is then 100\\*4π/1 ≈ 1300. Let's call it 2000 for simplicity.  \nHalf of those will hit the body and be absorbed (the others are emitted away from you). So about 1000 absorbed photons per second.  \nThe average photon energy is around 10keV. All of them are absorbed in your skin (they only make it 2mm or so because of the low energy). That gives an absorbed dose of 6nJ/h. Over a whole body of 80kg, that's around 0.1nGy/h, and since we are dealing with gamma, 0.1nSv/h.\n\nTbh the division by the whole body weight is something I am unsure about. Gray is J/kg, but in the end the health risk scales with the absorbed energy. We can't use the tissue weighing factor for skin as that also assumes full skin exposure.\nThough even if we only use the weight of the exposed area (≈1kg), we are talking about only 10nSv/h.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735223080,
+      "score": 2,
+      "link_id": "t3_1gyvio5",
+      "parent_id": "t1_m3u12il"
+    },
+    {
+      "id": "m3tsw29",
+      "body": "The calculation is incorrect.\n\nThe meter assumes the entire body is uniformly exposed to the same amount of radiation. So you would need an entire tritium jacket to get 0.5uSv/h.\n\nRealistically it's probably less than 1% of that value.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735184224,
+      "score": 2,
+      "link_id": "t3_1hmea7h",
+      "parent_id": "t3_1hmea7h"
+    },
+    {
+      "id": "m3trb84",
+      "body": "Yes there's one thing to consider: the dose rate shown by the meter assumes your entire body is exposed to the level of radiation measured. Technically there are also differences depending on whether the radiation is from all directions or from a point source.\n\nSo you only get 0.5uSv/h if you are wearing a coat made of tritium vials c:\n\nRealistically you will only receive <1/100 of that measured value. That's why it's better to measure sources at some defined distance if you want to estimate the true absorbed dose. But really dosimetry is just pretty complicated overall.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1735183496,
+      "score": 2,
+      "link_id": "t3_1gyvio5",
+      "parent_id": "t1_m3rx2td"
+    },
+    {
+      "id": "m3t6pa5",
+      "body": "Just in case, check the sub name.\n\n\nEhhh I mean, Capacit-her?! I barely know her!!",
+      "author": "TiSapph",
+      "subreddit": "shittyaskelectronics",
+      "created_utc": 1735174274,
+      "score": 1,
+      "link_id": "t3_1hl60lf",
+      "parent_id": "t1_m3lev2x"
+    },
+    {
+      "id": "m3svltc",
+      "body": "In addition to changes over time (eg radon washout), the position of your device might have changed a bit.\n\nAlso, don't use the filtering. Or at least not more than setting 1 or 2.  It's deceiving, it looks like there is data where there isn't",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1735169749,
+      "score": 7,
+      "link_id": "t3_1hm9k93",
+      "parent_id": "t3_1hm9k93"
+    },
+    {
+      "id": "m3f0ce7",
+      "body": "In addition to your link, the IAEA Isotope Browser app is pretty nice.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1734947603,
+      "score": 2,
+      "link_id": "t3_1hki31l",
+      "parent_id": "t1_m3emj85"
+    },
+    {
+      "id": "m347ne6",
+      "body": "If you want to be super extra, consider sticking an old phone down there along with the Radiacode. No idea if there's enough space though.\n\nEither way, super cool! Thanks!",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1734775346,
+      "score": 2,
+      "link_id": "t3_1hixmt1",
+      "parent_id": "t1_m32r3o0"
+    },
+    {
+      "id": "m30nbni",
+      "body": "Hi! Cool that you are putting thought into your story being consistent on a technical level!\n\nThe most important thing is that Sievert is a measure of \"dose\". So it is much radiation someone was exposed to, not how radioactive something is. If you spend a long time next to something barely radioactive, you can receive the same dose as being next to something very active for a short time.\n\nWhat you are looking for is \"dose rate* measured in Sievert per hour (Sv/h) or more commonly Micro-Sieverts per hour (μSv/h). It literally means how many Sievers is someone going to be exposed to if they stay for an hour at this location.\nIt's the same as a car going some distance (km) at some speed (km/h). Dose is like the distance traveled, dose-rate like the speed of the car.\n\nTo give a reference of expected values of dose rate:\n<0.2μSv/h - Background\n1-10uS/h - Airplane at cruising altitude, current activity around Chernobyl\n100uS/h - pretty spicy, roughly highest rates found in nature (Brasil Beaches), don't stay there too long\n10mSv/h - not fun, leave asap\n>100Sv/h - unshielded nuclear spent fuel, even short (minutes) of exposure causes radiation sickness and possibly death.\n\nOk so now how do you get the dose rate depending on distance:\n\nGenerally, every time you double the distance, the dose rate drops to 1/4. So if you get 10mSv/h at 8m distance, it will only be 2.5mSv/h at 16m distance. Similarly, at 4m distance, it will already be 40mSv/h!!  \nYou see the radiation drops off very quickly, which is why distance is by far the most effective protection from a contained source.\n\nGiving an absolute value how radioactive a source is, is kind of hard. Generally it is more useful to give the dose rate at a certain distance. For example, a source might be labelled \"9mSv/h at 1m\".\n\nSo over all (and TL;DR):  \nIf your source is 8m away and you read 34mSv/h, then you will read 2176mSv/h at 1m. Generally you can calculate the dose rate at a distance like this:\n(2176/r²) mSv/h, where r is the distance in meters.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1734719061,
+      "score": 1,
+      "link_id": "t3_1hiow0c",
+      "parent_id": "t3_1hiow0c"
+    },
+    {
+      "id": "m2atv6l",
+      "body": "Just to add this here, enough shielding can make it near impossible to tell the isotope. At some point essentially all gammas you detect have scattered in the shielding, losing some amount of energy.  \nYou can still tell some things, but you won't get any peaks at all.\n\nI took a spectrum of some spent fuel in a huge container where I still got 1uSv/h around 15m away, >100 on the container surface.  \nAbsolutely nothing to see, just looked like background but 1000x stronger.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1734336185,
+      "score": 3,
+      "link_id": "t3_1hf0v61",
+      "parent_id": "t1_m284uau"
+    },
+    {
+      "id": "m1u0912",
+      "body": "Also very importantly, Chernobyl was not a \"nuclear explosion\" like a nuclear bomb. No power reactor can undergo such an explosion, because it's actually very difficult to get a bomb to do so.\n\nChernobyl was more like a boiler explosion. The reaction got out of control and created such a high temperature/pressure that the fuel was thrown out of the reactor and spread everywhere.  \nBombs vaporise *everything*, thus leaving only insanely small particles which get carried up into the atmosphere and distribute over a very large area.\n\nAdditionally, the actual \"fuel\" isn't really a concern. Uranium is barely radioactive, plutonium is way worse but still has a relatively long half life.  \nThe contamination in Chernobyl is mostly Caesium-137, Strontium-90 and Americium-235. Those are products of the nuclear reaction. At the time of the accident, the fuel in the reactor had been used for a while. So a lot of those products were already present and then just got released.\nBombs do not contain any of those products until they explode. Not even 1% of the fuel of the bomb is actually used, so the amount of fission products is pretty small.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1734080001,
+      "score": 3,
+      "link_id": "t3_1hd1rl6",
+      "parent_id": "t3_1hd1rl6"
+    },
+    {
+      "id": "m0yen7b",
+      "body": "You do have a point: the white line has elevated ridges, so during heavy rain those parts are not under water. The glass bead reflectors don't work under water, this helps with that.\n\nI'm unsure if the \"main\" purpose is the sound or the visibility during heavy rain.",
+      "author": "TiSapph",
+      "subreddit": "germany",
+      "created_utc": 1733617437,
+      "score": 3,
+      "link_id": "t3_1h8smcq",
+      "parent_id": "t1_m0vpib9"
+    },
+    {
+      "id": "m0jwm29",
+      "body": "If anything the strawman is to compare our nuclear power stations to an incident that happened 60 years ago on an open air cooled reactor that was built purely to make plutonium for bombs (Windscale).\n\nOut of the incidents you listed, only three are somewhere comparable to our power reactors:\n1. Browns Ferry - Where nothing nuclear happened. There was a fire which caused damage to the control systems, that's all.\n2. Davis Besse - Where nothing happened. The damage was found before becoming catastrophic, though it was close. If the breach had occurred, the coolant would have been contained in the reactor building. \n3. Fukushima - This one really is problematic. Now, the released contamination was actually really quite small due to the containment buildings. The explosions were due to hydrogen, not nuclear reactions. Of course, it does show that no plant can ever be 100% safe. \n\nNuclear power has significant issues, but safety isn't one. In terms of deaths per energy, it's among the safest. Safer than solar power by some reports.\n\nAs for the personal question: Yeah absolutely if the levels are low enough.  \nRadiation is only scary until you actually learn about it a bit. I've measured significantly higher levels on hikes in Valais than in Pripyat.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1733413365,
+      "score": 4,
+      "link_id": "t3_1h75c4f",
+      "parent_id": "t1_m0ix4lz"
+    },
+    {
+      "id": "m0ivmjb",
+      "body": "Honestly, a pretty good track record for ~400 reactors running for ~40 years.  \nEspecially considering that almost all of those incident reactors were military, research, or insane designs without containment buildings and almost all happened before computers were a thing.\n\n\nAnd even counting all of those, the number of human lives lost is 1-10% of the number of people dying *every year* due to coal power dust, not even counting the effects of climate change.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1733398564,
+      "score": 22,
+      "link_id": "t3_1h75c4f",
+      "parent_id": "t1_m0it5ly"
+    },
+    {
+      "id": "m0fqlf4",
+      "body": "Some things about the spectrum:\n\nDon't use the filtering, at least not more  than setting 1 or at most 2. It makes things look way more significant than they are.\n\nYou will always get a lot of stuff in the low range. The detector can only know what the energy of the particles is when they arrive at the detector. Anything heavily shielded or far away will likely scatter before it makes it to the detector.\n\nThe detector actually only measures the energy deposited in it. So if the gamma enters, scatters, and leaves, it will not read at the gamma energy, but something lower. Search for \"Compton edge\" for more detail. That also contributes to the large low energy \"peak\".",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1733348242,
+      "score": 2,
+      "link_id": "t3_1h4kwzg",
+      "parent_id": "t3_1h4kwzg"
+    },
+    {
+      "id": "lzdfdth",
+      "body": "**Do not make radioactive dust!**\n\nThere is no gamma decay, gammas come from the excited daughter isotopes relaxing to the ground state after a decay has occurred.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1732777109,
+      "score": 7,
+      "link_id": "t3_1h1jssj",
+      "parent_id": "t3_1h1jssj"
+    },
+    {
+      "id": "lzbx4me",
+      "body": "Dotted lines are x-ray emission photons. They come from the electrons instead of the nucleus, so by some definitions they aren't gammas.\n\nNot sure if the shown height of the lines is theoretical or takes into account detection efficiency. Also the peak is on top of the big wide \"base\", it will add to the peak height.\n\nAlso be aware that fiestaware gives off a lot of betas, some of which will be detected. Might be the reason for the big blob.",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1732753479,
+      "score": 8,
+      "link_id": "t3_1h1fu6e",
+      "parent_id": "t3_1h1fu6e"
+    },
+    {
+      "id": "lzbvzlz",
+      "body": "I think by default the marker is just in the centre of the chart. If auto-range is enabled, the marker value will change because the y-axis min/max values change.\nBut I wouldn't really use the hardness value honestly. The full spectrum is just way more useful.",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1732753046,
+      "score": 1,
+      "link_id": "t3_1h0x5iz",
+      "parent_id": "t1_lzb99qf"
+    },
+    {
+      "id": "lzbtmdw",
+      "body": "Ah sorry, I didn't get the memo that you aren't just a hobbyist and wrote my comment as such.\nDon't get me wrong, I totally agree. CPM is close to useless for anything but relative measurements. I wasn't trying to disprove you or anything :)\n\nMy point was that dose rate isn't an ideal measure either in some cases. And more importantly it can show wildly incorrect values if measured incorrectly.  \n\nI keep seeing people put their GMC300 or RC10x on fiestaware. The betas will heavily influence the measured dose rate.  Especially for the popular GMC300, which isn't shielded at all. At least the count rate is actually a correct value in that case, albeit not very useful.\nPutting a detector directly on the source doesn't really give useful data anyway.\n\nAs for compensation, it can make a difference of almost an order of magnitude for Am241 and Tc99m. For hobbyists that doesn't really matter, but it does mean that the measured dose rate isn't necessarily independent from the detector. It's fine if one is aware, but many here aren't.\n\nThe body dose part was just to mention that you aren't necessarily receiving the dose the detector is showing, even if the detector is measuring correctly. The device assumes uniform irradiation. I mentioned it because I saw someone trying to calculate the cancer risk of a radium watch by multiplying the contact dose rate by the time, wildly overestimating the effective dose.",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1732752141,
+      "score": 2,
+      "link_id": "t3_1gz5pe0",
+      "parent_id": "t1_lzb48i1"
+    },
+    {
+      "id": "lzaozjn",
+      "body": "I totally agree, but there are some important points to keep in mind:\n\nFor dose rate to mean anything, the device needs to be energy compensated. A GMC300 for example will not read correct values except for the isotope it was calibrated for (if at all).\n\nDose rate from almost all devices is only meaningful if you're dealing with pure gamma, hard betas can skew the measurements a lot.\n\nAlso technically the measured dose rate is only correct for uniform exposure to your entire body from all directions.\nMost devices assume a full body dose. If say only your hand is exposed or you're exposed from one side only, it won't be quite correct. Dosimetry is pretty complicated in general. Really for us the advantage is just that it's comparable between different detectors, correct absolute values aren't so important.\n\nCPM can be really useful for low energy sources. Honestly I wish it was more common to give a particle flux, like particles per square centimetres per second. Would be a bit more comparable between detectors :)",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1732738465,
+      "score": 1,
+      "link_id": "t3_1gz5pe0",
+      "parent_id": "t3_1gz5pe0"
+    },
+    {
+      "id": "lzakr8r",
+      "body": "Just one thing which trips up a lot of people:  \nCPM/CPS is *entirely* dependent on the detector you are using. If your scintillator crystal is twice the size, it will read twice the CPM. A large one will read thousands in your place. Never use it to compare values between two different detectors.\n\nThough dose rate is a whole other beast and has its own issues. But it's certainly more useful as an absolute measurement.",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1732737124,
+      "score": 4,
+      "link_id": "t3_1h10f4m",
+      "parent_id": "t1_lz7zpmv"
+    },
+    {
+      "id": "lzahad1",
+      "body": "Just to clear up some potential misunderstandings:\n\nThe indicated line is not a measurement, it's a curser you can move up and down yourself. The \"Th-W Alloy\" means that this is roughly the hardness you would expect from this isotope.\n\nUnless you specifically work with Th-W alloys or other radioactive isotopes, you are probably just seeing background radiation. The tungsten itself isn't radioactive, it won't show up. It's actually an excellent shielding material because it's so dense! :)  \nThe reason why Th-W alloy specifically is mentioned is because it's a popular and relatively safe source. 2% thorium tungsten welding electrodes are still quite easy to get in most of the world. Their spectrum is slightly different than pure thorium. In particular, you get a strong peak at ~60keV, the tungsten x-ray line (K-alpha1)\n\nGenerally, taking a spectrum is much preferred to harness. It's only kinda useful for getting a rough estimate for the gamma energy of a source.",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1732736040,
+      "score": 2,
+      "link_id": "t3_1h0x5iz",
+      "parent_id": "t3_1h0x5iz"
+    },
+    {
+      "id": "lxq0wso",
+      "body": "The Prime Tower.\n\nDon't get me wrong it's not the worst, but this thing *won a design competition*. We could have had an actually awesome skyscraper in Zürich but nooo, random boring blocky building.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1731913784,
+      "score": 2,
+      "link_id": "t3_1gtyri8",
+      "parent_id": "t3_1gtyri8"
+    },
+    {
+      "id": "lxi20cu",
+      "body": "For Minergie buildings, the outgoing air from all apartments mixes, before going through a heat exchanger which heats the inlet air.\n\nSo the air you get is the average temperature of *all* your neighbors.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1731795251,
+      "score": 8,
+      "link_id": "t3_1gsmpym",
+      "parent_id": "t1_lxgy1bl"
+    },
+    {
+      "id": "lxcwzxb",
+      "body": "r/smallcatsinbigspaces",
+      "author": "TiSapph",
+      "subreddit": "OneOrangeBraincell",
+      "created_utc": 1731717732,
+      "score": 331,
+      "link_id": "t3_1gsablh",
+      "parent_id": "t1_lxctpkx"
+    },
+    {
+      "id": "lxcwbq9",
+      "body": "Any reason to not simply use some ND filters?",
+      "author": "TiSapph",
+      "subreddit": "whatisthisthing",
+      "created_utc": 1731717485,
+      "score": 1,
+      "link_id": "t3_1grd5wq",
+      "parent_id": "t1_lx6cmgn"
+    },
+    {
+      "id": "lx825oo",
+      "body": "I once did this at home with nothing more than an upside down can of spray duster and a bunch of socks wrapped around the pipe.\n\nWorked without issues :)",
+      "author": "TiSapph",
+      "subreddit": "Plumbing",
+      "created_utc": 1731652145,
+      "score": 1,
+      "link_id": "t3_1grjx2y",
+      "parent_id": "t1_lx6skp2"
+    },
+    {
+      "id": "lv5cdha",
+      "body": "That's a fair question! And probably the most common one about radiation :)\n\nYou are correct*, it is the particles on the contaminated item. The item itself does not become radioactive by being exposed.\n\n*Well... unless we are talking about neutron** radiation. Neutrons can be absorbed by stable nuclei and turn them into unstable ones. That's only really a concern for high neutron flux environments, like nuclear reactors.\nBtw this also works the other way, you can turn problematic radioactive isotopes into stable ones, but that's another story.\n\n**Well... protons can do the same, and so can alpha particles***. For example, Fluorine-18 for PET scans is produced by bombarding oxygen-18 with protons. The products are high in protons, their half lives are short (hours). That's why F-18 is often produced locally in the basement of the hospital.\n\n***Well... so can gamma rays actually, a process called photodisintegration. But they need to have very very high energies to do so, and the probability of the process is very small.  \nReally any particle with enough energy can induce a nuclear reaction, but we are talking about pretty exotic stuff at this point.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1730620695,
+      "score": 1,
+      "link_id": "t3_1gi36b4",
+      "parent_id": "t1_lv4t5i6"
+    },
+    {
+      "id": "lv33j5e",
+      "body": "Couple things to clear up because I keep seeing misconceptions:\n\n1. Spent fuel is not stored in drums. Those waste drums contain low level waste like contaminated gloves, overalls, air filters, ...  \nSpent fuel containers are much larger, often with cooling fins.\n\n2. This isn't even a waste barrel, it's an enriched uranium transport vessel. It is in fact the size of a barrel, but it has a bunch more structure inside of it.\n\n3. You need A LOT of flux to get those speckles. If it did at this distance, the incident would have made international news.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1730584943,
+      "score": 9,
+      "link_id": "t3_1gi36b4",
+      "parent_id": "t3_1gi36b4"
+    },
+    {
+      "id": "luupo0y",
+      "body": "In addition to this nice answer, I think the main thing one learns is to break complex systems down into simpler sections.\n\nLike the whole left part of the diagram is an astable oscillator. Once you have learned about them, they are easy to spot. Then it's not a bunch of electrical components with complex interactions anymore, it's just one thing which does one job. Same with the filter, and the amplifier.  \nSuddenly, the whole circuit is just three basic building blocks, which you can analyse mostly individually. You don't have to understand the full interactions between all components all at the same time.\n\nA lot of engineering is just combining those pre-made building blocks to make more complex building blocks, and so on. Often you don't even have to fully understand how those building blocks work internally, just what they do. Car engineers don't have to know how the nav system works, the nav system programmers don't really have to know how the electronics work, the electrical engineers don't really need to know how the ICs they use work internally, and the IC designers often are also just combining pre-made units.\n\nI think where it gets hard is understanding when and how the sub-systems do actually influence each other.\nChanging the 10k resistor near the LEDs to 20k will actually have an effect on the frequency of the oscillator, but it will be extremely small so we can ignore it.  \nBut for more complex systems, often there are interactions which do matter. Then you have to find a workaround or make modifications to the standard building blocks to get things to work.",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1730467204,
+      "score": 5,
+      "link_id": "t3_1ggnbx4",
+      "parent_id": "t1_luufvnc"
+    },
+    {
+      "id": "luu2fyx",
+      "body": "The thing is, it's not really a lubricant. It will work for a few weeks at best before it mostly evaporates and leaves a sticky residue which will get full of dust and make everything worse.\n\nA proper lubricant will not evaporate and will keep its lubricating properties for a long time.  \nI put some motor oil on my door latch because it was difficult to push the door closed. 6 years later, it's still just as smooth. WD40 will not do that for you",
+      "author": "TiSapph",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1730456271,
+      "score": 3,
+      "link_id": "t3_1ggn5f9",
+      "parent_id": "t1_lut8kbe"
+    },
+    {
+      "id": "lujnjlh",
+      "body": "Ask yourself: Why is time moving forward at the speed it is?\n\nIt's not really a meaningful question to me, there's nothing really to compare it to. If everything moved on twice as fast, it would be unnoticeable as your thoughts would also be twice as fast.\n\nThe thing is, it's actually *the same question*. Everything moves through spacetime at the same \"speed\". But there is a choice between how much it moves forward through time vs space.\n\nImagine a car going at constant speed. I can go towards north and not move east/west. Or it can go east and not move north/south. Or it can go north-east, travelling both north and east but at a lower rate. What stays the same is the absolute speed.  \nIt's very similar for objects moving through spacetime. If they move faster through space, they move less fast through time. The total \"speed\" is always the same however.\n\nLight goes to the extreme and puts everything into speed through space. It does not pass through time. It cannot go any faster through space.\nThe other extreme is an object at rest. It purely moves through time.\n\nUsually we are dealing with things which move very slowly compared to light, so the effect of time moving slower is not noticeable.",
+      "author": "TiSapph",
+      "subreddit": "explainlikeimfive",
+      "created_utc": 1730305879,
+      "score": 1,
+      "link_id": "t3_1gfirlv",
+      "parent_id": "t3_1gfirlv"
+    },
+    {
+      "id": "lujbyiu",
+      "body": "There are a few more steps, though they overlap and aren't super well defined:\n\n1. Synthesis  \nTurns your HDL code into a logic circuit. Usually it already takes into account which hardware is available, at least partially.\n\n2. Implementation  \nFigures out how to achieve the logic with the hardware units that are actually available, how to configure those logic units, where to place them, and how to connect them. It's a bunch of optimisation, and there is no guarantee the ideal solution will be found (afaik this is an NP-hard problem and thus effectively unsolvable with conventional computers). \n\n3. Bitstream generation  \nGenerates a binary file, which contains the configuration information. Nothing really fancy here, it's just instructions to the configuration logic in the FPGA.",
+      "author": "TiSapph",
+      "subreddit": "FPGA",
+      "created_utc": 1730302398,
+      "score": 5,
+      "link_id": "t3_1gfjmci",
+      "parent_id": "t3_1gfjmci"
+    },
+    {
+      "id": "luhlo5u",
+      "body": "Just be aware that cold temperatures inside raise the risk of mold a lot, as water will condense inside your cold walls.  \nI would spend some money on basic insulation/window seals.\n\nAnyway, those cold temperatures make the temperature increase of the breaker even more visible. Temperature increases aren't necessarily linear, if it started at 20C it might have only increased by 8 instead of 10deg.  \n\nAlso breakers with active circuits like arc-fault breakers heat up a bit because of their internal circuitry.",
+      "author": "TiSapph",
+      "subreddit": "AskElectricians",
+      "created_utc": 1730275103,
+      "score": 1,
+      "link_id": "t3_1gf4qoa",
+      "parent_id": "t1_luerxc1"
+    },
+    {
+      "id": "lu54lh7",
+      "body": "Switzerland is not part of the European Union, that's why.\n\nThough the borders are super chill, and often not staffed at all lol",
+      "author": "TiSapph",
+      "subreddit": "Netherlands",
+      "created_utc": 1730100851,
+      "score": 6,
+      "link_id": "t3_1gdmbeu",
+      "parent_id": "t1_lu4ucwj"
+    },
+    {
+      "id": "ltzpfp9",
+      "body": "Could be powder bed inkjet 3D printing or SLS, they have that kind of surface texture. But yeah definitely not the usual FDM printing.",
+      "author": "TiSapph",
+      "subreddit": "whatisthisthing",
+      "created_utc": 1730026896,
+      "score": 10,
+      "link_id": "t3_1gcwrkb",
+      "parent_id": "t1_ltzdel1"
+    },
+    {
+      "id": "ltzbxv8",
+      "body": "Directly from pine64.com.\n\nThe price seems to vary a lot (especially the shipping) depending on the country :/",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1730018072,
+      "score": 1,
+      "link_id": "t3_1gciacz",
+      "parent_id": "t1_ltx6rer"
+    },
+    {
+      "id": "ltv1fwy",
+      "body": "I bought one this year in Europe for 35€, from the official store.\nIt's USB-C, so for many people it's no extra cost for the power supply (eh laptop charger).\n\nOf course if it's a kinda one-off thing and you have only very crude applications, go for it :)",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1729956083,
+      "score": 2,
+      "link_id": "t3_1gciacz",
+      "parent_id": "t1_ltumpgt"
+    },
+    {
+      "id": "ltu6kau",
+      "body": "Just get a Pinecel V2 or TS101. There's almost no reason to buy these crappy irons anymore.",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1729944181,
+      "score": 1,
+      "link_id": "t3_1gciacz",
+      "parent_id": "t3_1gciacz"
+    },
+    {
+      "id": "lttbrz3",
+      "body": "I randomly stumbled into this sub, but I have a little knowledge about YouTube internals.\n\nYouTube pushes some updates to only parts of the user base and to see how it goes before rolling it out entirely. If it's seemingly only you experiencing this, that's why.\n\n**Write feedback!** It actually gets read by developers. If there's something you don't like, tell them. You won't get a response directly, but be assured that it does actually get read and considered.",
+      "author": "TiSapph",
+      "subreddit": "DataHoarder",
+      "created_utc": 1729925556,
+      "score": 2,
+      "link_id": "t3_1gbksnu",
+      "parent_id": "t1_ltmvaqq"
+    },
+    {
+      "id": "lth0i25",
+      "body": "Orbital speed just above the surface of the moon is around 1600m/s, while even high velocity rifle rounds only achieve around 1200m/s.\n\nA tank firing an APFSDS round can reach those velocities. So yeah, a tank on a mountain on the moon could shoot and hit itself two hours later.",
+      "author": "TiSapph",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1729750602,
+      "score": 4,
+      "link_id": "t3_1gavjcz",
+      "parent_id": "t1_ltgypsr"
+    },
+    {
+      "id": "ltgqs1h",
+      "body": "I mostly agree with you, but let's not ignore that there can be many other reasons than just social media, food, and exercise.\n\nBeing overworked/burnout, financial issues, depression, other psychological issues, ...\n\nEspecially time pressure and workload are commonly insane for PhDs.",
+      "author": "TiSapph",
+      "subreddit": "NonPoliticalTwitter",
+      "created_utc": 1729745209,
+      "score": 4,
+      "link_id": "t3_1ga6nax",
+      "parent_id": "t1_ltgkged"
+    },
+    {
+      "id": "ltba12w",
+      "body": "It's a scintillator with energy resolution. uSv is a much much more useful measure here, even though some betas will make it to the crystal.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1729673587,
+      "score": 2,
+      "link_id": "t3_1g9y6ut",
+      "parent_id": "t1_lt9q452"
+    },
+    {
+      "id": "lt5fjf9",
+      "body": "Haha yeah, I adjusted it to right hand traffic",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1729592719,
+      "score": 1,
+      "link_id": "t3_1g8jd24",
+      "parent_id": "t1_lt4rgrn"
+    },
+    {
+      "id": "lt1sret",
+      "body": "Generally yes to µSv, but only if the detector is well calibrated and energy compensated. The FS5000 is an unshielded/uncompensated geiger tube, so probably stick to cpm.\n\nBut it's fine! As long as you're only comparing different values you measured yourself (or someone else with the same detector), counts are perfectly usable.  \nIt's comparisons to other people's measurements which are tricky. But there's way more to that than using the right units and good detector: measuring at the correct distance, betas affecting your measurements, directionality of the source, ...",
+      "author": "TiSapph",
+      "subreddit": "Radioactive_Rocks",
+      "created_utc": 1729536832,
+      "score": 1,
+      "link_id": "t3_1g8qmmr",
+      "parent_id": "t1_lt0rk9h"
+    },
+    {
+      "id": "lt0pqtx",
+      "body": "Your question is absolutely valid, but I wanted to note that cpm/cps depends on the detector. A big pancake probe will read orders of magnitude more than say a GMC300 or Radiacode.",
+      "author": "TiSapph",
+      "subreddit": "Radioactive_Rocks",
+      "created_utc": 1729524788,
+      "score": 3,
+      "link_id": "t3_1g8qmmr",
+      "parent_id": "t3_1g8qmmr"
+    },
+    {
+      "id": "lsyy86p",
+      "body": "It's how it's taught in the UK for example:\n\n1. First exit -> indicate right as you enter \n2. Second exit (straight ahead usually) -> don't indicate while entering, indicate right before exiting (after you pass the first exit)\n3. Third exit or further -> indicate left as you enter, then right before you exit \n\nCompared with how it's taught in Germany:\n\nDon't indicate as you enter, only indicate right before exiting.\n\nI like the UK way a lot more honestly, it gives everyone the info they need to know. Especially because you can't really see someone's right-side indicators when you're waiting at the roundabout.  \nReally depends on the size of the roundabout though.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1729493876,
+      "score": 35,
+      "link_id": "t3_1g8jd24",
+      "parent_id": "t3_1g8jd24"
+    },
+    {
+      "id": "lsnzxkg",
+      "body": "Ah I see, thanks!!",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1729334313,
+      "score": 1,
+      "link_id": "t3_1g5abi0",
+      "parent_id": "t1_lslek9x"
+    },
+    {
+      "id": "lsjx6r9",
+      "body": "Could you explain where to find this? I have looked around but did not figure it out (Android, 1.61.03)",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1729270504,
+      "score": 1,
+      "link_id": "t3_1g5abi0",
+      "parent_id": "t1_lsbej5m"
+    },
+    {
+      "id": "lsezgi4",
+      "body": "It comes down to the nucleus (core) of the atom. It's a bunch of neutrons and protons (nucleons) held together by atomic forces.\n\nThere's a competition of forces in the nucleus:\n\nThe protons don't really want to be together, they are repelling each other.\n*Due to this repulsion, a lot of energy can be released by separating the protons and neutrons.*\n\nHowever, protons and neutrons are bound together by nuclear forces. Those forces are strong, but only very short ranged.  \n*It takes a lot of energy to separate the protons and neutrons due these forces.*\n\nIf the energy released by separating the protons and neutrons is greater than the energy required to pull them apart, the nucleus is unstable.\n\nHowever, the nucleus will not immediately decay. The nucleons are usually very close together, so the atomic forces holding the nucleus together are WAY stronger than the repulsion.  \nAs a comparison, a ball will roll down a hill, but a ball in a hole on a hill will stay in the hole. It first takes some energy to get out of the hole to then roll down the hill.\n\nNow this is quantum mechanics, where energy can randomly fluctuate for short time scales. A neutron or proton can randomly get enough energy to get far enough away from the other nucleons. At that point, the repulsion is stronger than the nuclear forces, and it will fly off.  \nDepending on how much energy is needed to get far enough away, this will happen more or less often. If a lot of energy is required, it will take a lot of time until it happens, so the half life of the nucleus is long.\n\nNow full disclosure: very few isotopes actually decay by emitting a neutron or proton. Usually, a neutron turns into a proton and an electron is emitted (beta decay) or a proton captures an electron to turn into a neutron (EC, beta+), or a small clump of two protons and two neutrons leaves the nucleus (alpha decay).  \nHowever, the idea is the same: energy is released overall, but it needs some random energy to start the process.\n\nAlso note that long half life means low activity. If it takes billions of years for half of the atoms to decay, they not many are decaying per second. That's why uranium is really not much of a concern. Some isotopes like bismuth 209 have such insanely long half lives that they are effectively not radioactive.  \nShort half lives of course means it's gone quickly. The really nasty isotopes are those with half lives of ~100-100000 years. They stick around for a long time, but are also quite radioactive.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1729194943,
+      "score": 3,
+      "link_id": "t3_1g5wna1",
+      "parent_id": "t3_1g5wna1"
+    },
+    {
+      "id": "lsccda4",
+      "body": "No worries! Dosimetry is pretty complicated, and risk estimation is a science by itself.\n\nGenerally, the risk of medical issues that could be missed by not doing the CT scan is way greater than the risk of cancer due to the radiation exposure of the CT scan",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1729161106,
+      "score": 1,
+      "link_id": "t3_1g5i54v",
+      "parent_id": "t1_lscbja9"
+    },
+    {
+      "id": "lsc1l5k",
+      "body": "I assume you are asking where to find information on the effective dose received from a CT scan.\n\nThe answer is the internet, no app required ;)  \n[Here for example.](https://www.radiologyinfo.org/en/info/safety-xray)\n\nIn short: the dose depends greatly on the type of CT scan.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1729153812,
+      "score": 1,
+      "link_id": "t3_1g5i54v",
+      "parent_id": "t3_1g5i54v"
+    },
+    {
+      "id": "ls1xep8",
+      "body": "Yeah, especially the people around me on the train.\n\nSeems like we learned nothing from COVID.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1729006746,
+      "score": 36,
+      "link_id": "t3_1g43z1q",
+      "parent_id": "t1_ls0sr8d"
+    },
+    {
+      "id": "ls019d9",
+      "body": "Where when why how much TAKE MY MONEY???",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1728973004,
+      "score": 5,
+      "link_id": "t3_1g4188n",
+      "parent_id": "t3_1g4188n"
+    },
+    {
+      "id": "lrxyxne",
+      "body": "He sounds like an Airbus A320 APU.",
+      "author": "TiSapph",
+      "subreddit": "OneOrangeBraincell",
+      "created_utc": 1728942031,
+      "score": 6,
+      "link_id": "t3_1g3los8",
+      "parent_id": "t3_1g3los8"
+    },
+    {
+      "id": "lrfuncj",
+      "body": "Super cool, thanks for the update!\n\nIf you want, you can upload the spectrum on the radiacode discord, then everyone can look and analyse.\n\nThe peaks could also be attributed to Ac228 from thorium.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1728666758,
+      "score": 18,
+      "link_id": "t3_1g1dzes",
+      "parent_id": "t3_1g1dzes"
+    },
+    {
+      "id": "lrdixvi",
+      "body": "That looks like a three phase \"H\" bridge to drive a brushless DC motor.",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1728628059,
+      "score": 2,
+      "link_id": "t3_1g0nquu",
+      "parent_id": "t1_lrapnsu"
+    },
+    {
+      "id": "lr3tp43",
+      "body": "I randomly zoomed into Google maps and immediately found it:\n\n49.4946961, 11.1916469\n\nOP, let me know if you want me to remove it and I will. Don't want to dox your secret mushroom hunting spot.\n\nThere's nothing marked on mindat. I've heard anecdotes about the USSR burying contaminated equipment in the forests of (former) east Germany, but it would be surprising near Nuremberg (or anywhere at all really).\n\nPersonally I would absolutely go back and get a spectrum, this is super cool! Probably uranium or the sorts of, but still!",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1728488430,
+      "score": 23,
+      "link_id": "t3_1fzo304",
+      "parent_id": "t3_1fzo304"
+    },
+    {
+      "id": "lqwrsj1",
+      "body": "Is that 350kcpm meaning ~6kBq total activity, or a detector reading?\n\nBecause if it's a detector reading, nobody can tell you without knowing the detector model, measurement distance, detector shielding, ...",
+      "author": "TiSapph",
+      "subreddit": "Radioactive_Rocks",
+      "created_utc": 1728375672,
+      "score": 5,
+      "link_id": "t3_1fylmnk",
+      "parent_id": "t3_1fylmnk"
+    },
+    {
+      "id": "lpsa5a8",
+      "body": "Close, physics PhD but from a different field and admittedly a little drunk when I wrote this.\n\nI get what you mean about the tone, I tried to boil things down without being too dry.  I don't really like how it comes across either.  \nPlease point out any inaccuracies and I will correct them.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727773266,
+      "score": 3,
+      "link_id": "t3_1ft5ho2",
+      "parent_id": "t1_lpqr4ye"
+    },
+    {
+      "id": "lpq11vf",
+      "body": "Nothing wrong with using CPM for that. Comparisons between measurements made with the same device are no issue :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727735346,
+      "score": 3,
+      "link_id": "t3_1ft5ho2",
+      "parent_id": "t1_lppwaec"
+    },
+    {
+      "id": "lppykru",
+      "body": "The title is a bit clickbaity to get people's attention.\n\nI am claiming it's almost useless without extra information. It's useful with some reference to judge what the value actually means, like in a comparison of measurements.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727734478,
+      "score": 4,
+      "link_id": "t3_1ft5ho2",
+      "parent_id": "t1_lppvo45"
+    },
+    {
+      "id": "lppwt96",
+      "body": "Yep that's why I specifically gave the example of putting a GMC on uranium glaze, as people do all the time.\n\nAs for accurately measuring the dose rate, I would say it is a matter of definition. A compensated GM will not measure beta and neutrons, which contribute to the total equivalent dose rate. The absorbed dose also depends on directionality, uniformity, the size of the exposed body, ...  \nHowever if we only consider gamma, uniform exposure, and accept the approximations of the human body model, then yeah I agree.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727733830,
+      "score": 2,
+      "link_id": "t3_1ft5ho2",
+      "parent_id": "t1_lpppwl1"
+    },
+    {
+      "id": "lppsib0",
+      "body": "Maybe I shouldn't have said one or the other value is right/wrong. The point I am making is that if the same value is measured for both a point source (directional) and unidirectional source, that doesn't mean they will cause the same dose to be absorbed by a person.\n\nFor the directional source, the body will absorb some of the radiation. The opposite side of the body will be exposed to less radiation.\n\nHowever the factor 2x is wrong, as it doesn't take into account that at least for gammas, most of the radiation penetrates the body. For x-rays the factor might be quite significant however",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727732287,
+      "score": 2,
+      "link_id": "t3_1ft5ho2",
+      "parent_id": "t1_lppm54m"
+    },
+    {
+      "id": "lppomy6",
+      "body": "Haha yeah, that part is entirely preferences. Honestly I don't even care which unit it is, I just wish everyone would use the same one :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727730963,
+      "score": 2,
+      "link_id": "t3_1ft5ho2",
+      "parent_id": "t1_lppl3rt"
+    },
+    {
+      "id": "lposqnc",
+      "body": "Yeah afaik in the US you can have up to 4 pounds of depleted uranium. Some planes have depleted uranium counterweights, it's not particularly dangerous.\n\nWhat's more surprising is that Switzerland copied the German laws... but then realised that anyone picking up a cool rock on a hike could exceed the activity limits by tens of thousands.\n\nWhether or not the limits are sensible, you decide :)",
+      "author": "TiSapph",
+      "subreddit": "askswitzerland",
+      "created_utc": 1727720929,
+      "score": 1,
+      "link_id": "t3_1fs1o65",
+      "parent_id": "t1_lpmzeyj"
+    },
+    {
+      "id": "lpioi2t",
+      "body": "Wenn das nächste Geburtstagsgeschenk für ihn keine Windeln sind, kann ich dir nicht weiterhelfen.",
+      "author": "TiSapph",
+      "subreddit": "Ratschlag",
+      "created_utc": 1727630132,
+      "score": 7,
+      "link_id": "t3_1fs4lag",
+      "parent_id": "t1_lphzndz"
+    },
+    {
+      "id": "lpiin9c",
+      "body": "Owning 100g of Uranium, as long as it's in the form of a natural mineral.  \nIf it's not natural, the limit is ~0.04g (1000Bq).",
+      "author": "TiSapph",
+      "subreddit": "askswitzerland",
+      "created_utc": 1727628290,
+      "score": 11,
+      "link_id": "t3_1fs1o65",
+      "parent_id": "t3_1fs1o65"
+    },
+    {
+      "id": "lp3bwih",
+      "body": "Important note here is that the 128uSv/h is calculated with the assumption that your entire body is experiencing the same intensity of radiation the detector is receiving.  \nSince you measured directly on the glass, there's of course no way to get your entire body that close to the source. Even if you hold the source to your skin, the real dose is significantly less.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727388492,
+      "score": 1,
+      "link_id": "t3_1fpklfh",
+      "parent_id": "t3_1fpklfh"
+    },
+    {
+      "id": "lozzddo",
+      "body": "Nothing a little bit of ✨load-bearing solder✨ can't fix",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1727347108,
+      "score": 5,
+      "link_id": "t3_1fpl9ky",
+      "parent_id": "t1_loz1u2p"
+    },
+    {
+      "id": "lotgudv",
+      "body": "It depends on the test they did, as different organs are exposed.\n\nYou can look up effective doses in table 2 here: https://www.ahajournals.org/doi/10.1161/circulationaha.107.688101  \nUp to 20mSv is reasonable, but your 11mSv guess is probably closer to the truth.\n\nAs a sidenote, I wouldn't trust chatGPT on anything requiring calculations. It's not doing maths, it's mostly just repeating numbers which it has seen in context with the topic. Maybe in the future that will change lol",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727246737,
+      "score": 9,
+      "link_id": "t3_1fovsfi",
+      "parent_id": "t3_1fovsfi"
+    },
+    {
+      "id": "lor653g",
+      "body": "I meant it just doesn't oxidise very quickly in air and the oxide layer is mostly quite robust. You might produce some dust by handling it, so better do that outside with gloves and N95 mask.\n\nAlso be aware that this piece might have significant value to collectors. At least to those in the US, can't have that stuff in the EU :/",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727212110,
+      "score": 2,
+      "link_id": "t3_1fokcgr",
+      "parent_id": "t1_lor0gp3"
+    },
+    {
+      "id": "loqpz4c",
+      "body": "Depleted uranium is barely radioactive. It's actually a popular shielding material for highly radioactive materials, as it's cheap, dense, and way more robust than lead.\n\nIf it has corroded to a point where there is dust, make sure not to breathe any of that. Though it would be a bit surprising as uranium is relatively stable in air.\nThe main concern here is the chemical toxicity of uranium. It's a heavy metal and similarly toxic as lead.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727207049,
+      "score": 24,
+      "link_id": "t3_1fokcgr",
+      "parent_id": "t3_1fokcgr"
+    },
+    {
+      "id": "loqhrqn",
+      "body": "I wouldn't directly assume malice. It could very well also just be that it's the easiest solution. Essentially no user knows why it was removed and the EU doesn't care that they removed it entirely. So it doesn't really seem like it's a malicious compliance thing since Google doesn't gain anything from it.\n\nGetting stuff to work with third party software is notoriously difficult. Even if they decide it's worth it, it will take a while. They have to comply with the laws in the meantime, so they have no choice really.",
+      "author": "TiSapph",
+      "subreddit": "europe",
+      "created_utc": 1727204479,
+      "score": 1,
+      "link_id": "t3_1fo9vej",
+      "parent_id": "t1_loorkr9"
+    },
+    {
+      "id": "loi8gt3",
+      "body": "Some of that is due to actually needing different units as dosimetry is complicated.\n\nBut can we at least stop using roentgen, rad and rem? We have perfectly fine SI units for this. Becquerel, Gray and Sievert is all we need.\n\nAlso I feel like there's too many people here who don't understand that CPM is highly dependent on the detector and type of radiation, and more... It's meaningless without a lot of extra info.",
+      "author": "TiSapph",
+      "subreddit": "dataisbeautiful",
+      "created_utc": 1727088881,
+      "score": 5,
+      "link_id": "t3_1fn3qby",
+      "parent_id": "t1_loguirl"
+    },
+    {
+      "id": "lohsvpo",
+      "body": "Haha well not quite. Trying to acquire any source strong enough to cause radiation sickness would get you a visit from some very angry people.\n\nBut it's quite interesting what you can find in nature and on markets. Some minerals are radioactive, as are some antiques like radium clocks and uranium glass. Both the geology of those minerals and the history of the antiques are interesting to me.\n\nFor example trinitite. It's a sort of rock which was created by the trinity nuclear test. The explosion melted the sand nearby, leaving slightly radioactive clumps.  \nHaving a small piece of this historic event and being able to detect the nuclear fission products inside is just super cool to me :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727078251,
+      "score": 1,
+      "link_id": "t3_1fmlsqy",
+      "parent_id": "t1_lohmwus"
+    },
+    {
+      "id": "lohmgy6",
+      "body": "Die sind aber auch dumm mit Vorsatz. Es braucht keinen Doktortitel um das zu Googlen: [Nebensonne](https://de.wikipedia.org/wiki/Nebensonne)",
+      "author": "TiSapph",
+      "subreddit": "600euro",
+      "created_utc": 1727073787,
+      "score": 2,
+      "link_id": "t3_1fnc3wd",
+      "parent_id": "t3_1fnc3wd"
+    },
+    {
+      "id": "lohkkj6",
+      "body": "Yep exactly, you might see something if you detect for long enough, but you won't be able to do a quick check before drinking it.\n\nFor uranium, 0.055mg/L corresponds to only around 1.4 decays per litre (Bq/l). For comparison, a banana contains around 10Bq of potassium-40. So drinking 10 litres is roughly equivalent to eating one banana :)  \nFor uranium the bigger risk is actually that it is a heavy metal, it has similar chemical toxicity as lead. But that also doesn't matter for you, since you won't drink the water all your life.\n\nThe water tanks wont hold on to it, it will get diluted/washed out as you described.\n\nThe uranium in the water is from the natural abundance of it. Australia has *a lot* of uranium. If you look around a bit, you might find some really good (spicy) specimens of uranium minerals :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727072519,
+      "score": 1,
+      "link_id": "t3_1fmlsqy",
+      "parent_id": "t1_log7dec"
+    },
+    {
+      "id": "loftzx7",
+      "body": "I'm just guessing, but it could just be that it's never cold enough to care about proper sealing",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727045142,
+      "score": 1,
+      "link_id": "t3_1fmnrho",
+      "parent_id": "t1_lodvdjj"
+    },
+    {
+      "id": "loftrc0",
+      "body": "You're going to have a hard time measuring any food contamination with consumer devices, unless it's really bad. You might pick something up with a radiacode if you run a spectrum for a few hours.\n\"Unsafe levels\" can have many interpretations, but usually it means \"exceeding limits set by law\". Those limits don't mean that there's an imminent danger. It's rather that higher contamination could cause a statistically significant increase in health issues throughout the entire population of a country, taken into account the amount of that food that is consumed.\nTLDR: for you eating something *once*, it doesn't really matter.\n\nAs for picking something up while you're driving, yes and no.  \nThe radiacode has a mapping function, and it would be super interesting to let it take data during the trip. But you would mostly see radiation from different geology, from uranium and thorium. To me it would still be worth it :)  \nYou would have to get pretty close to a single radioactive object to detect it as you drive by. For example the small but *very hot* Cs137 capsule that was lost (and found) in west Australia some time ago would be essentially undetectable to the radiacode just 100m away.  \n\nIt doesn't have to be a radiacode of course, but it's pretty hard to beat the functionality at that price. Geiger counters in that price range don't really offer any advantages, unless you can get a good price on an old unit on eBay.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1727045056,
+      "score": 1,
+      "link_id": "t3_1fmlsqy",
+      "parent_id": "t3_1fmlsqy"
+    },
+    {
+      "id": "lo9shfi",
+      "body": "Maybe you're thinking of videos of the Chernobyl corium. It is (or at least was) active enough to cause significant effects to the film, which shows up at white dots or short streaks.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1726954738,
+      "score": 1,
+      "link_id": "t3_1fm78m6",
+      "parent_id": "t3_1fm78m6"
+    },
+    {
+      "id": "lo49gqg",
+      "body": "It's not unreasonable to protect yourself, though the risk is rather low. The total intensity of UV light is comparable to that of sunlight, and doesn't contain the much more damaging UVB and UVC that the sun has.  \nYou would have to leave your hands in the light for at least an hour to reach the ACGIH's 8-hour skin exposure limit for 365nm light.\n\nHowever, I personally wouldn't ignore it entirely. It's probably a good idea not to stare at the LEDs directly, and the fingerless gloves the other comment suggested are a nice solution too.\n\nOverall as long as you aren't redoing your nails every day, it's not very significant compared to sun exposure.",
+      "author": "TiSapph",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1726868709,
+      "score": 2,
+      "link_id": "t3_1flmfg2",
+      "parent_id": "t3_1flmfg2"
+    },
+    {
+      "id": "lo0vd3y",
+      "body": "You might enjoy r/thereisnocat",
+      "author": "TiSapph",
+      "subreddit": "FindTheSniper",
+      "created_utc": 1726823116,
+      "score": 2,
+      "link_id": "t3_1fkthk4",
+      "parent_id": "t3_1fkthk4"
+    },
+    {
+      "id": "lnlpbll",
+      "body": "I think you meant to respond to a different comment :)",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1726594506,
+      "score": 1,
+      "link_id": "t3_1fictjq",
+      "parent_id": "t1_lnhu75w"
+    },
+    {
+      "id": "lnlp5rj",
+      "body": "It's a radioactive tracer for imaging. The isotope is attached to a molecule which concentrates in a specific part of the body. For example, it can be made to absorb to areas of bone growth which could be due to bone cancer.\n\nA gamma camera or SPECT device can then take an image of the patient, which will show where the isotope has accumulated, and by extension where the cancer has spread to.\n\nThis is a bit simplified and of course there are many more applications to this imagining technique.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1726594456,
+      "score": 2,
+      "link_id": "t3_1fictjq",
+      "parent_id": "t1_lnhd5qv"
+    },
+    {
+      "id": "lmwq9hr",
+      "body": "Yeah it's kind of infuriating. There have been so many posts by people asking if their radiacode is broken because it shows way more cpm than their Geiger counters, if 1000 cpm is dangerous, ...\n\nWe have a great unit for this: uSv/h  \nSure it's only really representative for full body dose and energy compensated meters, but it's so so much better than cpm.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1726224668,
+      "score": 8,
+      "link_id": "t3_1ffaflp",
+      "parent_id": "t1_lmt7tv7"
+    },
+    {
+      "id": "lmazt09",
+      "body": "Useful answer, unfortunately this is r/shittyaskelectonics :)",
+      "author": "TiSapph",
+      "subreddit": "shittyaskelectronics",
+      "created_utc": 1725902555,
+      "score": 20,
+      "link_id": "t3_1fctyo9",
+      "parent_id": "t1_lmausk7"
+    },
+    {
+      "id": "lln5h6j",
+      "body": "Nah, more like a biplane but the wing tips are connected by a vertical board.  \nIt reduces wing tip inefficiencies and also significantly reduces the mechanical stress on the wings",
+      "author": "TiSapph",
+      "subreddit": "NonCredibleDefense",
+      "created_utc": 1725550361,
+      "score": 2,
+      "link_id": "t3_1f9gos7",
+      "parent_id": "t1_llmsvzs"
+    },
+    {
+      "id": "lllt0cw",
+      "body": "Drag can be significantly reduced if the wings connect, making an annular closed wing with no wing tips.\n\nConsidering they have been mostly concept planes for a hundred years, probably a bit hard to actually get it to work well though.",
+      "author": "TiSapph",
+      "subreddit": "NonCredibleDefense",
+      "created_utc": 1725530479,
+      "score": 32,
+      "link_id": "t3_1f9gos7",
+      "parent_id": "t1_lllpgr9"
+    },
+    {
+      "id": "lllg7y1",
+      "body": "I can recommend putting some loosely packed cotton into the top of the air lock to prevent anything from going in there.",
+      "author": "TiSapph",
+      "subreddit": "mead",
+      "created_utc": 1725521585,
+      "score": 2,
+      "link_id": "t3_1f99m9p",
+      "parent_id": "t3_1f99m9p"
+    },
+    {
+      "id": "llif1wf",
+      "body": "Since it's a reasonable thing to worry about, any scientist with the equipment will be happy to help. If you are near a university, you can absolutely email their phys department and ask.\n\nAlso there's probably some people in your community with the equipment. Maybe try a local subreddit or Facebook group. That's probably the fastest way to find someone.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1725476825,
+      "score": 2,
+      "link_id": "t3_1f8sf9q",
+      "parent_id": "t3_1f8sf9q"
+    },
+    {
+      "id": "llgz2ls",
+      "body": "Better yet: Rotary tank cannon\n\nThe entire turret spins around. Four loaders, one for each barrel. The spin rate is such that they have just enough time to reload their cannon before it has spun all the way around to shoot again.",
+      "author": "TiSapph",
+      "subreddit": "NonCredibleDefense",
+      "created_utc": 1725459891,
+      "score": 39,
+      "link_id": "t3_1f8s9pm",
+      "parent_id": "t1_llgvtzd"
+    },
+    {
+      "id": "lkkvmyw",
+      "body": "Probably rather the electronics than the crystal. Dropping could induce a voltage in ceramic capacitors, as they are piezoelectric. That could cause a false reading",
+      "author": "TiSapph",
+      "subreddit": "Radiacode",
+      "created_utc": 1724970372,
+      "score": 1,
+      "link_id": "t3_1erpmad",
+      "parent_id": "t1_lijfjaa"
+    },
+    {
+      "id": "lkesr6a",
+      "body": "So SOMs? If you haven't seen them yet, have a look at the AMD KRIA SOMs :)",
+      "author": "TiSapph",
+      "subreddit": "FPGA",
+      "created_utc": 1724884552,
+      "score": 1,
+      "link_id": "t3_1f2oteo",
+      "parent_id": "t1_lk8mp1a"
+    },
+    {
+      "id": "ljrzn97",
+      "body": "You should look at r/radiation. It's:  \n10% professionals  \n5% conspiracy/supernatural nutjobs  \n5% worried laymen  \n20% antique collectors  \n30% kids without the knowledge to do things safely  \n20% adults without the knowledge to do things safely (those are somehow always very active on drug subreddits??)  \n10% adults with too much knowledge to be satisfied with safety",
+      "author": "TiSapph",
+      "subreddit": "shittyaskelectronics",
+      "created_utc": 1724540716,
+      "score": 2,
+      "link_id": "t3_1f04xbu",
+      "parent_id": "t1_ljreaa3"
+    },
+    {
+      "id": "ljm4lu6",
+      "body": "Discoloration of what exactly? To the level I can make out on your image, the PCB and resistors look fine.",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1724449753,
+      "score": 2,
+      "link_id": "t3_1ez3lwl",
+      "parent_id": "t3_1ez3lwl"
+    },
+    {
+      "id": "ljm2t5d",
+      "body": "I would say 350C is pretty much the standard starting point for soldering with both leaded and unleaded solder.  \nOf course the temperature should be adjusted depending on need, but 350 isn't unreasonable.  \n\nEven with leaded solder and enough flux, sometimes 350C is not enough. Through-hole components on 6+ layer boards often need more.  \nOn a simple PCB you might get away with less, but anything below 300 is just painful.",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1724449123,
+      "score": 24,
+      "link_id": "t3_1eziy3n",
+      "parent_id": "t1_ljl809e"
+    },
+    {
+      "id": "ljlc7f9",
+      "body": "Don't worry about it, people are strange.  \nYou had an idea, asked how to go about it, and learned that it wasn't a good idea. I think that's fair, that's how we learn :)\n\nAlso, your idea isn't entirely off. Thermal paste could allow components to transfer their heat more easily to the case of the phone, where the heat can be shed to the environment. Now it's unlikely that thermal paste will make a difference in this case, but this is exactly the same method engineers use for thermal design in phones. It's one of the reasons why phones nowadays have glass or metal backplates, the higher thermal conductivity helps distribute the heat.",
+      "author": "TiSapph",
+      "subreddit": "AskElectronics",
+      "created_utc": 1724440367,
+      "score": 2,
+      "link_id": "t3_1eden0o",
+      "parent_id": "t1_lfb64il"
+    },
+    {
+      "id": "ljl8if7",
+      "body": "Ran out of tape, only had shiba inu bee stickers left to complete it",
+      "author": "TiSapph",
+      "subreddit": "shittyaskelectronics",
+      "created_utc": 1724439160,
+      "score": 1,
+      "link_id": "t3_1b8dwzv",
+      "parent_id": "t1_ljk96ge"
+    },
+    {
+      "id": "li5e0tg",
+      "body": "There's another issue with metals, they conduct. \nMRIs use strong radio frequency fields in addition to the magnetic field. If a metal piece in your body happens to resonate at this frequency (meaning it is an antenna), it will get very hot and could cause burns.",
+      "author": "TiSapph",
+      "subreddit": "interesting",
+      "created_utc": 1723675049,
+      "score": 1,
+      "link_id": "t3_1es76bv",
+      "parent_id": "t1_li5ajom"
+    },
+    {
+      "id": "lhle5ix",
+      "body": "In solution absolutely, but it's a very very common ion used in the ion trapping community.\n\nWe use two-photon ionisation (423nm and <389nm lasers) to kick out one electron.",
+      "author": "TiSapph",
+      "subreddit": "cursed_chemistry",
+      "created_utc": 1723386998,
+      "score": 1,
+      "link_id": "t3_1e7bsfu",
+      "parent_id": "t1_le2rmnu"
+    },
+    {
+      "id": "lgqivcs",
+      "body": "Trams in Bordeaux get power from a third rail, but only ever the section of rail below the tram is powered.\n\nLooks much better, but is also way more expensive.",
+      "author": "TiSapph",
+      "subreddit": "Switzerland",
+      "created_utc": 1722928424,
+      "score": 1,
+      "link_id": "t3_1el3x1f",
+      "parent_id": "t1_lgq5n04"
+    },
+    {
+      "id": "lf672jx",
+      "body": "Bismuth is effectively not radioactive. Its half life is billions of times longer than the age of the universe. It's safe",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1722077765,
+      "score": 2,
+      "link_id": "t3_1eagj3g",
+      "parent_id": "t1_lenja72"
+    },
+    {
+      "id": "lf66wss",
+      "body": "Its half life is stupid long, so for all practical purposes it's not radioactive.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1722077664,
+      "score": 2,
+      "link_id": "t3_1eagj3g",
+      "parent_id": "t1_lescedd"
+    },
+    {
+      "id": "lf665bq",
+      "body": "Th-229m is the lowest energy nuclear isomer known, with an energy of ~8.4eV or 148nm wavelength. In the last months the energy range of it was narrowed down by many orders of magnitude and is now very well known.\n\nIt's of great interest for atomic clocks, as nuclear transitions are way less susceptible to external perturbations like magnetic fields.\n\nI work in a related field and have some contact with people working on this. I can assure you, absolutely nobody calls those gamma rays. It's UV.  \nClassifying photons by their origin is just an oversimplification. By that logic, everything is x-rays: UV, visible, microwaves, RF, ... You can get all of that from electronic transitions.",
+      "author": "TiSapph",
+      "subreddit": "Radiation",
+      "created_utc": 1722077175,
+      "score": 3,
+      "link_id": "t3_1eco42o",
+      "parent_id": "t3_1eco42o"
+    },
+    {
+      "id": "lc921tq",
+      "body": "I would leave it outside on a fire proof surface for some time. Then dispose of it as any old battery.",
+      "author": "TiSapph",
+      "subreddit": "spicypillows",
+      "created_utc": 1720472172,
+      "score": 1,
+      "link_id": "t3_gebotv",
+      "parent_id": "t1_lc8as0m"
     }
   ]
 }

@@ -1,6 +1,29 @@
 {
   "username": "davidTheEngineer",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dk397x",
+      "title": "Question on Dynamic Task Creation",
+      "author": "davidTheEngineer",
+      "subreddit": "crewai",
+      "created_utc": 1718858398,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Assuming I would like to have the following task solved:\n\n\"Educational backgrounds of Maths Professors at Cambridge.\" (or any similar multistep question). Further I have tools to search the web and scrape websites.\n\n  \nIdeally the task would be dissected into\n\n1. who are the maths profs we are looking for\n\n2. for each math prof what is their educational background.\n\n  \nIs there some nice way of doing this in crewai, I am having mixed results with using a single tool as the context just gets super long at some point. What would be perfect if it first generated the list and then created and dispatched those subtasks. Any idea how this can be achieved?",
+      "url": "https://www.reddit.com/r/crewai/comments/1dk397x/question_on_dynamic_task_creation/"
+    },
+    {
+      "id": "1cb8rhb",
+      "title": "KDE Plasma: Window movement Question",
+      "author": "davidTheEngineer",
+      "subreddit": "kde",
+      "created_utc": 1713889173,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi everybody - thanks for the amazing work on KDE Plasma.\n\nI am trying KDE Plasma 6 after 8 years on Cinnamon. \n\nOne thing I can't seem to figure out how to adapt the window placement shortcuts: Ideally I would want to Meta+Up to also do \"full size\" besides the just upper half. (ie. how cinnamon and Windows do it). Unfortunately the Page-Up is nonexistent on my laptop. \n\nIs there a setting or KWIN script that would help me with this?\n\nBonus question: Is it possible to open the new overview effect with the meta key?  \n\n\nMany thanks!",
+      "url": "https://www.reddit.com/r/kde/comments/1cb8rhb/kde_plasma_window_movement_question/"
+    }
+  ],
   "comments": [
     {
       "id": "l8dkyv4",

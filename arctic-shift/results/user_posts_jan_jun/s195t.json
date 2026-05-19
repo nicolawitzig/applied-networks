@@ -11,6 +11,39 @@
       "num_comments": 6,
       "selftext": "Hi everyone, \n\nI wanted to apply at the CSE Lab with Prof. Koumoutsakos but since they moved to Harvard, I am struggling to find an equivalent lab within ETH. \n\nComing from Mavt, we do not really have a proper overview of the Infk labs, especially in regards of lab culture.\n\nI’m mostly interested on HPC and numerical methods, but I do not have a proper research question to answer so I’m looking around for what could be interesting.\n\nFor now the most similar labs I could find are the ones from Prof. Hiptmair and Prof. Hoefler, I also found some not so positive reviews for some labs\n\nIf anybody had any further suggestions or feedback, I’d be thankful ",
       "url": "https://www.reddit.com/r/ethz/comments/1bafd5h/cscse_phd_labs/"
+    },
+    {
+      "id": "1d5st6t",
+      "title": "Petsc Solver with Matrix Free approach and custom preconditioner",
+      "author": "s195t",
+      "subreddit": "CFD",
+      "created_utc": 1717264833,
+      "score": 7,
+      "num_comments": 3,
+      "selftext": "Dear everyone, \nI hope this post is okay for the sub\n\nI have a rather specific question on Petsc that I could not find anywhere online\n\nEspecially I am trying to setup a KSP solver for the poisson equation, using a matrix free approach, gmres and a custom multigrid preconditioner (which in the past has been used as a solver as well)\n\nI am having some trouble understanding how Petsc works in that regard: \n\n- I do create the matrix correctly and it can be solved correctly by KSPGMRES on quite some iteration\n- I do create a new shell preconditioner, that spins by himself solves Ax=b very well, in fact the preconditioned vector y that is the result of the preconditioning could already be used as x\n- For some reason KSPGMRES does something that I do not understand with the result of the preconditioning and instead of converging almost immediately it goes on for 3/4 iterations, reaching a worse solution than the preconditioned field in itself. \n\nDoes anybody here have some resources or any experience in this? I am struggling to understand how to do the wiring properly",
+      "url": "https://www.reddit.com/r/CFD/comments/1d5st6t/petsc_solver_with_matrix_free_approach_and_custom/"
+    },
+    {
+      "id": "1c9y475",
+      "title": "Student groups to join",
+      "author": "s195t",
+      "subreddit": "mit",
+      "created_utc": 1713748275,
+      "score": 11,
+      "num_comments": 6,
+      "selftext": "Hi everyone, \nI just arrived at mit as a visiting student and was looking forward to join some student groups\n\nIs it possible that not all the groups are listed under engage.mit.edu? A lot of the ones that were particularly interesting to me do not appear to exist anymore\n\nIn particularly I was looking for something in these direction:\n- beginner friendly Climbing\n- computing group (or computer animation)\n- quant finance/hft (caltech had one, so I was wondering if it exists here too)\n\nAny hint or further cool clubs to join are super appreciated :) \n\nThank you",
+      "url": "https://www.reddit.com/r/mit/comments/1c9y475/student_groups_to_join/"
+    },
+    {
+      "id": "1brihdk",
+      "title": "Living at MIT as a visiting student",
+      "author": "s195t",
+      "subreddit": "mit",
+      "created_utc": 1711807020,
+      "score": 11,
+      "num_comments": 4,
+      "selftext": "Hi everybody, \n\nI recently came to MIT as a visiting student from abroad and I have some questions regarding living here…\n\nI am in grad housing, currently with no meal plan (afaik not a good deal)\n\n- Where do people usually eat during the weekends? \n\n- Supermarkets seem relatively far away from campus. Is instacart a viable option?\n\n- Is there a building with usable showers? Unfortunately I joined an apartment where the previous and current occupant refuses to clean anything and relies on the (monthly? Bi-monthly? professional cleaning of the hall). The bathroom (shower included) is absolutely disgusting and unusable, is there anything I can do?\n\nThank you everybody ",
+      "url": "https://www.reddit.com/r/mit/comments/1brihdk/living_at_mit_as_a_visiting_student/"
     }
   ],
   "comments": [
@@ -103,6 +136,16 @@
       "score": 1,
       "link_id": "t3_1bafd5h",
       "parent_id": "t1_ku231ac"
+    },
+    {
+      "id": "l6u6cvb",
+      "body": "Thank you kind stranger, switching to KSPGGMRES solved the problem immediately!\n\nDo you have any hints why this could be the case? I mean the preconditioner is a multigrid with a linear solver on the coarsest level, so I was expecting it to work with the normal KSPGMRES",
+      "author": "s195t",
+      "subreddit": "CFD",
+      "created_utc": 1717371926,
+      "score": 2,
+      "link_id": "t3_1d5st6t",
+      "parent_id": "t1_l6rraa3"
     }
   ]
 }

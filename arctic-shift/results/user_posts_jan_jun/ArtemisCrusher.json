@@ -1,6 +1,29 @@
 {
   "username": "ArtemisCrusher",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1bbnscd",
+      "title": "Small File Issue",
+      "author": "ArtemisCrusher",
+      "subreddit": "filen_io",
+      "created_utc": 1710111474,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Hello, I am now trying different cloud storages. I found Filen is really nice, especially for its privacy that others usually do not offer or not transparent. However, only one disadvantage for me was that it was quite slow when there are too many small files. Of course, I excluded something like \\`node\\_modules\\`, but still, I have a lot of photos that I want to back up or ML projects with small files that literally take a day to syncing.\n\nI assume this is the common issue for all cloud storages, but I found DropBox is way faster for managing those, but I want to avoid using it for my privacy.\n\nIs there going to be any trick to make it faster? or is there any plan to deal with that issue?\n\nThanks in advance.\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/filen_io/comments/1bbnscd/small_file_issue/"
+    },
+    {
+      "id": "1auyq33",
+      "title": "VirtualBox Keyboard inhibit",
+      "author": "ArtemisCrusher",
+      "subreddit": "swaywm",
+      "created_utc": 1708376887,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "Hello, I am new to Sway and this might be already an exisitng question, but I could not find a solution for this, so please let me know if there is any good one.\n\nI want to use VirtualBox on Sway, however, shortcuts, such as Alt+Tab, are caputured by Sway and not handled by VirtualBox. This is quite annoying when I have to use Windows for some specific apps.\n\nI found there is the command of `shortcuts_inhibitor`, and set it like below.  \n```  \nfor_window [class=\"VirtualBox Machine\"] shortcuts_inhibitor enable\n```\nbut this does not work, I assume because VirtualBox is running under XWayland.\n\nI appreciate any help for this!",
+      "url": "https://www.reddit.com/r/swaywm/comments/1auyq33/virtualbox_keyboard_inhibit/"
+    }
+  ],
   "comments": [
     {
       "id": "kth6aut",
@@ -51,6 +74,16 @@
       "score": 2,
       "link_id": "t3_1b5ipan",
       "parent_id": "t1_kt9y8q2"
+    },
+    {
+      "id": "l96d55v",
+      "body": "very easy bro just come",
+      "author": "ArtemisCrusher",
+      "subreddit": "tumunich",
+      "created_utc": 1718728638,
+      "score": 1,
+      "link_id": "t3_13w4drc",
+      "parent_id": "t3_13w4drc"
     }
   ]
 }

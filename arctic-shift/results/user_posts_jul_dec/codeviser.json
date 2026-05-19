@@ -1,6 +1,29 @@
 {
   "username": "codeviser",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hkbyjf",
+      "title": "Necessity of a PhD for quants who started right after ugrad?",
+      "author": "codeviser",
+      "subreddit": "quant",
+      "created_utc": 1734914230,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/quant/comments/1hkbyjf/necessity_of_a_phd_for_quants_who_started_right/"
+    },
+    {
+      "id": "1h9h4p1",
+      "title": "Benefits of a PhD for front-office quant roles",
+      "author": "codeviser",
+      "subreddit": "quant",
+      "created_utc": 1733658150,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/quant/comments/1h9h4p1/benefits_of_a_phd_for_frontoffice_quant_roles/"
+    }
+  ],
   "comments": [
     {
       "id": "lrjki87",
@@ -11,6 +34,56 @@
       "score": 2,
       "link_id": "t3_1g18j8w",
       "parent_id": "t3_1g18j8w"
+    },
+    {
+      "id": "m3uamwg",
+      "body": "Hey,\n\nHere is my approach. Lets say your optimal-stopping (when you strategically decide to quit the game) payout is x after n trials. It is clear that x cannot be less than 3.5 as you can always try longer to achieve a 3.5 payout. Moreover, there is always a (diminishing yet positive) chance that you can achieve a better payout.  So one never strategically settles for 3.5 or less. This implies x >=3.5 for some n. \n\nNow clearly if x is already very large, say close to 6, you have already satisfied the optimal stopping and should quit. To be precise, we are interested in knowing the \\*\\*least value of x\\*\\*, x\\^ (for some n), such that we strategically decide to stop playIng. A better x (in that same n) always means we had great luck already and paying further wont probabilistically improve our payout.\n\nGiven the above constraints, x\\^ is somewhat higher than 3.5. Since this satisfied optimal stopping, we are sure that the immediate next play should not yield a better reward than what we have currently, that is,\n\navg\\_i\\[max(3.5, (nx\\^+i)/(n+1))\\] <= x\\^ —-(1)\n\nThis incorporates the cases where if we roll a small value if i such that the average payout falls below 3.5, we wont stop and continue to ascertain a 3.5 reward for that unlucky rolled i. For all other higher i value, this has to be step where the player realizes that x\\^ was his best reward, and he didn’t need to play further.\n\nNow since x\\^ > 3.5, (nx\\^ + {4,5,6})/(n+1) will also be. Only rolls lesser than 4 can lead to lower payout cases. Since x\\^ is the smallest optimal stopping value, we take the worst case where all of (nx\\^ + {1,2,3})/(n+1) <=3.5.    \n\nSo (1) above translates to,\n\n\\[(nx\\^+{4,5,6})/(n+1) + 3\\*3.5\\]/6 <= x\\^,\n\nsolving to,\n\n(10.5n+25.5)/(3n+6) <= x\\^ —-(2)\n\n  \nLHS is strictly monotonically decreasing and starts from 4 for n=1 and goes till 3.5 for n —> inf. So the strategy translates to continue playing until (2) is satisfied. For example if for the first roll (n=1), you get a 4 or higher, stop! You should be happily walking away. Otherwise continue, n increases and the LHS in (2) decreases. You are hoping for your collective dice rolls leading to payout greater than this LHS. Once (2) is satisfied for some n during the game, you further average payout is expected to be lower even if you continue till infinity. Leave at that point!",
+      "author": "codeviser",
+      "subreddit": "askmath",
+      "created_utc": 1735193594,
+      "score": 1,
+      "link_id": "t3_1hm5csg",
+      "parent_id": "t3_1hm5csg"
+    },
+    {
+      "id": "m3oje6h",
+      "body": "Hey, thank you for the reply. The process always seemed tricky to me 😅. A lot of people around me were rushed into QR/QT jobs after ugrad, and when i talk to them they didn't feel like going for an higher degree specializing in some research of their liking quitting their roles, for the long run. I guess some of us felt otherwise, but didn't quite know if it could really be a make-or-break requirement!\n\nI'll probably try my best though as of now, but I'll keep in mind that I might have to make an extra measurable step atleast until i land an equivalent role. If that doesn't work out I don't really mind continuing with my advisor for a PhD. 😅\n\nJust to confirm, do you have some specific firms in mind that made it clear to you about this necessary requirement? For example, firms like JS, Citsec, DE Shaw, seemed quite friendly to good MS grads (but some others didn't 🥲). I know a lot of it depends on the actual interview, but if they deny non-PhDs upfront or generally are non-conductive to them during the hiring process nonetheless, it would be really nice to know apriori 😅.",
+      "author": "codeviser",
+      "subreddit": "quant",
+      "created_utc": 1735092500,
+      "score": 1,
+      "link_id": "t3_1hkibh1",
+      "parent_id": "t1_m3ob0ig"
+    },
+    {
+      "id": "m3j2ohz",
+      "body": "That’s great advice! One of the reasons I feel confident in applying for these roles is because I feel I went through a similar track over years. \n\nI guess the primary fear at this point is that if you apply and they auto-reject using a \"non-PhD\" check in their system and you don't get to show your differentiating factor to begin with! Atleast, the tone of conversation with their HR (very few though) let me believe that. \n\nAs you said, probably once you are in \"in the same role\", showing your work becomes much easier!",
+      "author": "codeviser",
+      "subreddit": "quant",
+      "created_utc": 1735004602,
+      "score": 1,
+      "link_id": "t3_1hkibh1",
+      "parent_id": "t1_m3iu33w"
+    },
+    {
+      "id": "m3ha4hd",
+      "body": "Hey all,\n\nI’m wrapping up an MS in CS/Math (top 7–9 globally; top 3–5 in my ML/stat theory and stochastic calculus specialization) and have 4 years of quant/HFT experience, some research publications, and a few Kaggle/university-level contest wins. I’m genuinely interested in doing a PhD for the academic depth, but I also want to ensure it’s truly necessary for long-term growth in top-tier funds/prop shops (Citadel, Two Sigma, DE Shaw, Renaissance, XTX, G-Research, Cubist, etc.)—especially with regard to both new-grad hiring and lateral moves later on. Basically, wouldn’t do a PhD if there aren’t clear advantages for this industrial growth.\n\nFrom my casual talks with representatives at some of these firms, I keep hearing that a PhD is “usually” required for certain quant researcher or quant trading roles. Is it just a screening filter, or do PhD-holders truly get deeper, more cutting-edge projects and faster career progress? And does this “label” advantage persist over the long run, or does on-desk performance eventually overshadow the degree—particularly for those who join without a PhD?\n\nI ultimately want a near-zero regret in this career: would not having a PhD create a permanent dent in my long-term potential at these top firms? Or can strong MS-level industry experience lead to the same outcomes, achievable over short/mid time horizons?\n\nI’d love to hear the community’s perspectives, especially if you’ve navigated (or observed) the MS vs. PhD track at these high-end quant shops. Please feel free to correct my (possibly anecdotal) assumptions—I don’t want to rely on incomplete/my info. Thank you for reading, and I appreciate any insights or personal stories you can share!",
+      "author": "codeviser",
+      "subreddit": "quant",
+      "created_utc": 1734981374,
+      "score": 4,
+      "link_id": "t3_1hkibh1",
+      "parent_id": "t3_1hkibh1"
+    },
+    {
+      "id": "m33y1l5",
+      "body": "Hey all,\n\nI’m wrapping up an MS in CS/Math (top 7–9 globally; top 3–5 in my ML/stat theory and stochastic calculus specialization) and have 4 years of quant/HFT experience, some research publications, and a few Kaggle/university-level contest wins. I’m genuinely interested in doing a PhD for the academic depth, but I also want to ensure it’s truly necessary for long-term growth in top-tier funds/prop shops (Citadel, Two Sigma, DE Shaw, Renaissance, XTX, G-Research, Cubist, etc.)—especially with regard to both new-grad hiring and lateral moves later on. Basically, wouldn’t do a PhD if there aren’t clear advantages for this industrial growth.\n\nFrom my casual talks with representatives at some of these firms, I keep hearing that a PhD is “usually” required for certain quant researcher or quant trading roles. Is it just a screening filter, or do PhD-holders truly get deeper, more cutting-edge projects and faster career progress? And does this “label” advantage persist over the long run, or does on-desk performance eventually overshadow the degree—particularly for those who join without a PhD?\n\nI ultimately want a near-zero regret in this career: would not having a PhD create a permanent dent in my long-term potential at these top firms? Or can strong MS-level industry experience lead to the same outcomes, achievable over short/mid time horizons?\n\nI’d love to hear the community’s perspectives, especially if you’ve navigated (or observed) the MS vs. PhD track at these high-end quant shops. Please feel free to correct my (possibly anecdotal) assumptions—I don’t want to rely on incomplete/my info. Thank you for reading, and I appreciate any insights or personal stories you can share!",
+      "author": "codeviser",
+      "subreddit": "quant",
+      "created_utc": 1734768880,
+      "score": 2,
+      "link_id": "t3_1h4p8l9",
+      "parent_id": "t3_1h4p8l9"
     }
   ]
 }

@@ -1,6 +1,40 @@
 {
   "username": "Substantial-Leg-9000",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1c05gob",
+      "title": "Reality is often disappointing… 8x9 8-8 balancer",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712702125,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "&#x200B;\n\nhttps://preview.redd.it/wgpw3dck6jtc1.png?width=601&format=png&auto=webp&s=b2cb4e8316d66ca26cf40f86e911d5dbd36affd6\n\nI’ve already made dozens of failed attempts at an 8⨯9 8-8 balancer (1 tile shorter than Raynquist’s). But alas I’m always—you guessed it—1 tile short of space.\n\nAny ideas to achieve this? I’m starting to think it’s simply impossible.",
+      "url": "https://www.reddit.com/r/factorio/comments/1c05gob/reality_is_often_disappointing_8x9_88_balancer/"
+    },
+    {
+      "id": "1c05dj6",
+      "title": "Reality is often disappointing… 8x9 8-8 balancer",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712701905,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I’ve already made dozens of failed attempts at an 8⨯9 8-8 balancer (1 tile shorter than Raynquist’s). But alas I’m always—you guessed it—1 tile short of space.\n\nAny ideas to achieve this? I’m starting to think it’s simply impossible.",
+      "url": "https://www.reddit.com/r/factorio/comments/1c05dj6/reality_is_often_disappointing_8x9_88_balancer/"
+    },
+    {
+      "id": "1bklxc2",
+      "title": "Is a VPN essentially an encrypted system-wide proxy?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "VPN",
+      "created_utc": 1711066482,
+      "score": 1,
+      "num_comments": 8,
+      "selftext": "A lot of sources I've found state these two as the difference: a regular proxy doesn't necessarily use encryption and it only relays your browser traffic instead of a whole system (I find the latter limitation extremely strange).\n\nSo a VPN is essentially an encrypted system-wide proxy? That's it? What am I missing?",
+      "url": "https://www.reddit.com/r/VPN/comments/1bklxc2/is_a_vpn_essentially_an_encrypted_systemwide_proxy/"
+    }
+  ],
   "comments": [
     {
       "id": "l1mqk1l",
@@ -31,6 +65,1536 @@
       "score": 8,
       "link_id": "t3_1bkhadq",
       "parent_id": "t3_1bkhadq"
+    },
+    {
+      "id": "l8km53h",
+      "body": "I thought the post was about how they're labelled in Europe.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1718369009,
+      "score": 15,
+      "link_id": "t3_1df5f4z",
+      "parent_id": "t1_l8klvqm"
+    },
+    {
+      "id": "l8kludt",
+      "body": "If a building had an underground parking with 2 levels, wouldn't then floor -2 be the first?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1718368881,
+      "score": 16,
+      "link_id": "t3_1df5f4z",
+      "parent_id": "t1_l8kla1u"
+    },
+    {
+      "id": "l8kllt9",
+      "body": "Numbering things is English exclusive?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1718368777,
+      "score": 21,
+      "link_id": "t3_1df5f4z",
+      "parent_id": "t1_l8kkk0s"
+    },
+    {
+      "id": "l8kklef",
+      "body": "Why would you want to count them? You only need to order them. How much is -2 floors?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1718368328,
+      "score": 13,
+      "link_id": "t3_1df5f4z",
+      "parent_id": "t1_l8kegrw"
+    },
+    {
+      "id": "l8kkb3z",
+      "body": "You have an English-centric bias. There are languages where the first floor has a different name. Take Polish for example: the first floor is “parter,” any other is “piętro,” and suddenly everything makes perfect sense.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1718368200,
+      "score": 23,
+      "link_id": "t3_1df5f4z",
+      "parent_id": "t1_l8kf2y0"
+    },
+    {
+      "id": "l84h6u0",
+      "body": "Yes, here: [C](https://en.cppreference.com/w/c/language/eval_order) and [C++](https://en.cppreference.com/w/cpp/language/eval_order), first sentence.\n\nIn case you need it, here’s the nicest explanation of [evaluation order vs operator precedence](https://stackoverflow.com/a/6801431/18987775) I’ve found.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1718117833,
+      "score": 1,
+      "link_id": "t3_1d96gvg",
+      "parent_id": "t1_l7hhfjz"
+    },
+    {
+      "id": "l7fok3p",
+      "body": "And all that is undefined behavior in either language.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1717709151,
+      "score": 1,
+      "link_id": "t3_1d96gvg",
+      "parent_id": "t1_l7c2v8h"
+    },
+    {
+      "id": "l7fodsz",
+      "body": "You’d be correct in C# and Java. However C and C++ say “undefined behavior.”",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1717709089,
+      "score": 1,
+      "link_id": "t3_1d96gvg",
+      "parent_id": "t1_l7c168j"
+    },
+    {
+      "id": "l7fnl3i",
+      "body": "In C and C++ it’s actually undefined behavior because order of evaluation within an expression is undefined and `<` is not a sequencing point.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1717708806,
+      "score": 1,
+      "link_id": "t3_1d96gvg",
+      "parent_id": "t1_l7ddhzq"
+    },
+    {
+      "id": "l7flkk7",
+      "body": "Because by-reference can mutate your variable????",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1717708101,
+      "score": 2,
+      "link_id": "t3_1d96gvg",
+      "parent_id": "t1_l7fkklw"
+    },
+    {
+      "id": "l7fiag6",
+      "body": "There are 67.6 million people in the UK.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1717706978,
+      "score": 21,
+      "link_id": "t3_1d9n78x",
+      "parent_id": "t1_l7fbhtw"
+    },
+    {
+      "id": "l7a0rui",
+      "body": "Pls explain?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1717621784,
+      "score": 1493,
+      "link_id": "t3_1d8znm3",
+      "parent_id": "t3_1d8znm3"
+    },
+    {
+      "id": "l78262t",
+      "body": "I wish people would stop acting like sexuality is a choice.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1717598070,
+      "score": 1,
+      "link_id": "t3_1d863dj",
+      "parent_id": "t1_l74avnu"
+    },
+    {
+      "id": "l77xxhx",
+      "body": "So why are optimizations bad again?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1717596564,
+      "score": 19,
+      "link_id": "t3_1d8na03",
+      "parent_id": "t3_1d8na03"
+    },
+    {
+      "id": "l77p2cq",
+      "body": "Reference to [Titan submersible implosion](https://en.wikipedia.org/wiki/Titan_submersible_implosion). Apparently some other billionaire wants to visit Titanic too. Here's some short news [article](https://www.nbcnewyork.com/news/national-international/ohio-billionaire-submarine-titanic-site-oceangate-implosion/5454604/) that describes it. He will obviously succeed because he bought the vessel from Triton, who have a very good track record and have made a submersible that can repeatedly descend to Challenger Deep.\n\nAll in all, it's a complete non-issue and not worth more than 5 minutes of your attention.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1717593166,
+      "score": 3,
+      "link_id": "t3_1d8839y",
+      "parent_id": "t1_l76whpk"
+    },
+    {
+      "id": "l77neew",
+      "body": "Because it is. It's by Triton, they really know their stuff. They even produce a submersible for which Challenger Deep is no big deal.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1717592479,
+      "score": 8,
+      "link_id": "t3_1d8839y",
+      "parent_id": "t1_l76tnwy"
+    },
+    {
+      "id": "l72uts0",
+      "body": "Yeah, exactly. Sometimes I too would love some of that braindead entertainment, but somehow they fail even at that.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1717515989,
+      "score": 7,
+      "link_id": "t3_1d7u6ei",
+      "parent_id": "t1_l72szdp"
+    },
+    {
+      "id": "l72thrb",
+      "body": "Yeah, basically Europe = EU.\n\nDude, break out of your Stockholm syndrome. Our Zuckervater (all hail The Beating Heart of Europe) won’t love you for calling yourself eastern.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1717515546,
+      "score": 9,
+      "link_id": "t3_1d7vdq6",
+      "parent_id": "t1_l72ptqq"
+    },
+    {
+      "id": "l72rusj",
+      "body": "Exactly. That and the mentality that Europe = the EU. Then it all makes perfect sense: nothing more European than Germany and France, anything east of Berlin is eastern Europe, etc. I guess it's a convenient way to tell if someone is an ignorant snob lol",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1717514994,
+      "score": 30,
+      "link_id": "t3_1d7vdq6",
+      "parent_id": "t1_l72ci50"
+    },
+    {
+      "id": "l6ydixn",
+      "body": "Then I guess Panama Canal divided America into two.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1717442151,
+      "score": 7,
+      "link_id": "t3_1d79k1h",
+      "parent_id": "t1_l6y6309"
+    },
+    {
+      "id": "l6wepwv",
+      "body": "Alrighty, fair enough and understandable.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "AskReddit",
+      "created_utc": 1717416692,
+      "score": 6,
+      "link_id": "t3_1d6rrv8",
+      "parent_id": "t1_l6wdw1e"
+    },
+    {
+      "id": "l6we4r8",
+      "body": "Like the other guy said, [48 assemblers](https://factoriolab.github.io/list?z=eJwrcNLS0jKKN9TSMtQyjnf2gNB5WhZaxlrGaqmWapmGWoYgccP4XC1DtSLnAqB6LQO1NMN4p3iPeE-1YiDXSa3MEgB.0xHT&v=9). However, with these inputs (1 red belt of each: green circuit, plastic bar and copper plate), you can build 20 copper cable assemblers (outputting 2 belts of copper cable) to feed [120 red circuit assemblers](https://factoriolab.github.io/list?z=eJwrcNLS0jKKN9TSMtQyjnf2gNB5WkYGWsZaxmqplmqZhlqGIAnD-FwtQ7Ui5wKgBi0DtTTDeKd4j3hPtWIg10mtzBIAjacR.Q__&v=9) with perfect ratio, producing exactly 1 yellow belt of red circuits.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1717416406,
+      "score": 1,
+      "link_id": "t3_1d6ohi6",
+      "parent_id": "t3_1d6ohi6"
+    },
+    {
+      "id": "l6wc1f4",
+      "body": "That's Type 59, right?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1717415358,
+      "score": 2,
+      "link_id": "t3_1d6k6p0",
+      "parent_id": "t3_1d6k6p0"
+    },
+    {
+      "id": "l6waj7p",
+      "body": "Why creepy, though? I get that it's very weird; unconventional even among fetishes, which are unconventional by definition. But why creepy? It's a fantasy that's completely unrealizable: no way to harm your partner because of it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "AskReddit",
+      "created_utc": 1717414576,
+      "score": -14,
+      "link_id": "t3_1d6rrv8",
+      "parent_id": "t1_l6vlaz0"
+    },
+    {
+      "id": "l6w68bk",
+      "body": "Why do you think that only one perspective can be correct? I'm not saying the system is *the* issue, it's *an* issue, right next to the driver that fell asleep.\n\nI still think professional drivers are less probable to fall asleep because they have a maximum hours they can drive in a day, are obligated to take breaks, and usually know in advance their hours of working, so they can plan for it and just not be deathly tired. At least in the EU. And in contrast to regular drivers, you can actually enforce it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1717412167,
+      "score": 1,
+      "link_id": "t3_1d645yx",
+      "parent_id": "t1_l6tg6am"
+    },
+    {
+      "id": "l6smtoo",
+      "body": "You are right. But think from the perspective if you were supposed to design the system. The average driver is much less capable than a professional one, whose job depends on their performance in driving. It is inevitable that some average drivers fall asleep while driving. If your system maximizes the number of average drivers, it maximizes the number of people who die sleeping behind the wheel. It is a fault of the system as well. Saying it's wholly the drivers' responsibility is just untrue because the designers of the system have the capacity and hence the responsibility to make it as error-tolerant as possible.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1717350535,
+      "score": 4,
+      "link_id": "t3_1d645yx",
+      "parent_id": "t1_l6rheua"
+    },
+    {
+      "id": "l6skjgo",
+      "body": "I think it's the perfect analogy. Widespread and dangerous to both the user and bystanders, but everyone feels like they aren't be that bad.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1717349707,
+      "score": 26,
+      "link_id": "t3_1d645yx",
+      "parent_id": "t1_l6qvd1i"
+    },
+    {
+      "id": "l6iqpkl",
+      "body": "Theoretically, but they've been less than crystal several times already and that sweet Google money is quite a leverage over them. [81% of Mozilla Corporation's revenue in 2022!](https://en.wikipedia.org/w/index.php?title=Mozilla_Corporation&oldid=1223975952#Finances) And frankly, setting one of the most privacy-invasive search engines as the default ain't a good look, even if — or rather, especially if — it makes them money.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1717183420,
+      "score": 8,
+      "link_id": "t3_1d4hvkl",
+      "parent_id": "t1_l6hc2po"
+    },
+    {
+      "id": "l65q19p",
+      "body": "Haha good one",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1716981295,
+      "score": 8,
+      "link_id": "t3_1d35ng9",
+      "parent_id": "t1_l65fm0d"
+    },
+    {
+      "id": "l60s2c1",
+      "body": "If it cost less than gas, I think many people would use it since they'd still have the beloved freedom of a car and arrive cheaper, faster and more comfortably, and it'd be too inconvenient to drive on smaller and slower roads. Hopefully many would also eventually drop the car since it'd be mostly a burden then.\n\nBut I doubt it's possible. In the case of Eurotunnel you have one entrance and exit while highways have multiple. Imagine the logistical nightmare at every train stop when it gets far more complicated than \"all cars out, then all new cars in\".",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1716902625,
+      "score": 1,
+      "link_id": "t3_1d2at0j",
+      "parent_id": "t1_l5zv55s"
+    },
+    {
+      "id": "l5qq3z6",
+      "body": "Since we're discussing semantics, there's a difference between [tamed](https://www.merriam-webster.com/dictionary/tamed) and [domesticated](https://www.merriam-webster.com/dictionary/domesticated). Domesticated would refer to a species while tamed to a specimen.\n\nI would say that snake is a tamed wild animal, in the sense that its species isn't domesticated.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1716730128,
+      "score": 10,
+      "link_id": "t3_1d0o5qz",
+      "parent_id": "t1_l5qmfo5"
+    },
+    {
+      "id": "l5m4kri",
+      "body": "Yeah I'm just laughing how this obvious satire is flying at Mach 3 over so many people's heads, regarding both your post and comments. Lmao. I guess it was too subtle for Reddit, here you really need to go way over the top or add that \"/s\". Anyway, I (a humble genius myself) appreciated it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1716646424,
+      "score": 1,
+      "link_id": "t3_1czww3j",
+      "parent_id": "t1_l5kj95j"
+    },
+    {
+      "id": "l5lqqig",
+      "body": "lol",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "twilightimperium",
+      "created_utc": 1716639693,
+      "score": 1,
+      "link_id": "t3_1d0a4li",
+      "parent_id": "t3_1d0a4li"
+    },
+    {
+      "id": "l532fd3",
+      "body": "Soon? Bro, it isn't even a luxury at this point; it's nearly unattainable and extremely inconvenient. We have long surpassed \"1984\" surveillance levels. Yes, I've said it. It's much more subtle and sophisticated than in the book, and what is done with that data is a completely other story, but in terms of privacy alone: yeah, everyone voluntarily wears a wire (your phone), has multiple other devices capable of spying in their home, and every activity they do on said devices is, very openly, automatically logged and analyzed.\n\nOh, you wanted to use the devices without being tracked? Linux maybe? That's cute. There's hardware-level tracking in all of them. [Intel Management Engine](https://en.wikipedia.org/wiki/Intel_Management_Engine) is just the most widely known example. For the record: it has full control of your main CPU, has independent access to network interfaces and works as long as there's power (even if the rest of the computer is completely shut down). And while it isn't confirmed, it's rumored to have a [3G chip](https://www.theregister.com/2013/09/23/intel_stuns_world_with_wakeon3g/), which would obviously mean constant internet access, without wifi or ethernet.\n\nBut still, I think it does make sense to preserve privacy where possible. Data leaks do happen.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1716329101,
+      "score": 7,
+      "link_id": "t3_1cxe3kt",
+      "parent_id": "t3_1cxe3kt"
+    },
+    {
+      "id": "l4524xr",
+      "body": "It's the same in this regard. In let-else you're required to return in the else block, too. Simply the syntax is different because Swift turns an optional into a non-optional, while Rust pattern-matches against an enum, like Option { Some(\\_), None }.\n\nI guess the difference is that in Rust you can use any enum instead of just Option, while in Swift you can add extra conditions before the else-block.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715771843,
+      "score": 2,
+      "link_id": "t3_1crvn4h",
+      "parent_id": "t1_l43ij0f"
+    },
+    {
+      "id": "l41yclu",
+      "body": "A similar example would be Rust's `?` operator, though not exactly the same.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715717791,
+      "score": 67,
+      "link_id": "t3_1crvn4h",
+      "parent_id": "t1_l41i1ul"
+    },
+    {
+      "id": "l3q1zfg",
+      "body": "What's so bad about Zig? I'm not very familiar.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715528831,
+      "score": 8,
+      "link_id": "t3_1cq9it5",
+      "parent_id": "t1_l3py8am"
+    },
+    {
+      "id": "l3q0y4m",
+      "body": "\\*Most games from big studios.\n\nThere's still tons of indie stuff, which weigh just a few GB.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1715528423,
+      "score": 2,
+      "link_id": "t3_1cq5sje",
+      "parent_id": "t1_l3pntwn"
+    },
+    {
+      "id": "l3lqpos",
+      "body": "👎",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715450656,
+      "score": 1,
+      "link_id": "t3_1coyagz",
+      "parent_id": "t3_1coyagz"
+    },
+    {
+      "id": "l3lbeg4",
+      "body": "O(n) = O(3n). Always. It's the same mathematical set. If you want to compare constant coefficients, you need to abandon Big O, and really just measure execution time / cycles / whatever other metric you want.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715444607,
+      "score": 178,
+      "link_id": "t3_1cpgnn1",
+      "parent_id": "t1_l3l3rx9"
+    },
+    {
+      "id": "l3l9ivx",
+      "body": "All developed world pretty much",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715443860,
+      "score": 4,
+      "link_id": "t3_1cpj4x2",
+      "parent_id": "t1_l3l6vk3"
+    },
+    {
+      "id": "l3l8xwn",
+      "body": "![img](emote|t5_427he1|8440)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715443625,
+      "score": 54,
+      "link_id": "t3_1cpj4x2",
+      "parent_id": "t1_l3l4u0r"
+    },
+    {
+      "id": "l3l8mka",
+      "body": "Well I think many cities are beautiful by themselves, including Warsaw, but they all have some worse looking areas, so it's very easy to make an unappealing photo, as you've said. But I will excuse it for the sake of a shitpost; we're in r/2visegrad4you after all.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715443498,
+      "score": 4,
+      "link_id": "t3_1cpdzbe",
+      "parent_id": "t1_l3kqffe"
+    },
+    {
+      "id": "l3khpbx",
+      "body": "A Polish town, imo quite beautiful. Go google it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715432057,
+      "score": 38,
+      "link_id": "t3_1cpdzbe",
+      "parent_id": "t1_l3ke1c2"
+    },
+    {
+      "id": "l3khe6m",
+      "body": "Exactly! The potential is up in the sky, but instead we get this goddamn nonsense. I swear they could have just done nothing at all and it would still be better than this.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715431906,
+      "score": 15,
+      "link_id": "t3_1cpdzbe",
+      "parent_id": "t1_l3kd0ow"
+    },
+    {
+      "id": "l3k6opp",
+      "body": "Holy hell",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1715425976,
+      "score": 2,
+      "link_id": "t3_1cpa0dc",
+      "parent_id": "t3_1cpa0dc"
+    },
+    {
+      "id": "l3k6dtq",
+      "body": "Btw. that building really is atrocious. “Museum of Art” my ass, whoever designed that thing deserves gulag.\n\nOh wait, “Museum of **Modern** Art”… Never. Fucking. Mind.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715425782,
+      "score": 149,
+      "link_id": "t3_1cpdzbe",
+      "parent_id": "t1_l3k5qz9"
+    },
+    {
+      "id": "l3k5qz9",
+      "body": "Show the single ugliest building from a beautiful area just to shit on your own country. Name a more Polish thing.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1715425369,
+      "score": 292,
+      "link_id": "t3_1cpdzbe",
+      "parent_id": "t3_1cpdzbe"
+    },
+    {
+      "id": "l3fjbcn",
+      "body": "I've come to see comments like this optimistically. It's a pretty intense reaction to a non-issue, but car-brains always react this way. I've realized it's a glimmer of cognitive dissonance — the true reason behind this very defensive take. And hopefully, it means OOP's shift in views may be closer than they realize. It was true many times in my case at least.\n\nWe're on the right track.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1715348879,
+      "score": 4,
+      "link_id": "t3_1comqmq",
+      "parent_id": "t3_1comqmq"
+    },
+    {
+      "id": "l3cppn4",
+      "body": "How. How does OP's making this meme prove that you should be wary of OP?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715295315,
+      "score": 1,
+      "link_id": "t3_1co55g5",
+      "parent_id": "t1_l3c6aoz"
+    },
+    {
+      "id": "l3cp3yx",
+      "body": "Good. Very goood.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715295077,
+      "score": 1,
+      "link_id": "t3_1cnrm9y",
+      "parent_id": "t1_l3b6d87"
+    },
+    {
+      "id": "l3cn9s5",
+      "body": "Rather typical temperatures for 100% load, no chance of harm. Decompression may be very CPU intensive, so no surprises here.\n\nAlso, please learn [how to take a screenshot.](https://www.google.com/search?q=how+to+take+a+screenshot)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1715294356,
+      "score": 3,
+      "link_id": "t3_1co7tl6",
+      "parent_id": "t3_1co7tl6"
+    },
+    {
+      "id": "l3cjg3z",
+      "body": "Oooh that's evil, and genius.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1715292881,
+      "score": 4,
+      "link_id": "t3_1co4lyv",
+      "parent_id": "t1_l3cf39c"
+    },
+    {
+      "id": "l3chzgd",
+      "body": "dafuq is a bomb bro just be farting real hard",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715292324,
+      "score": 3,
+      "link_id": "t3_1co604l",
+      "parent_id": "t3_1co604l"
+    },
+    {
+      "id": "l3ch51q",
+      "body": ">Back in my day we would pirate so much. But the damn kids these days, they are so brainwashed and know nothing about pirating, or nothing in general, blind sheep. Must be because of those damn social media.\n\n\"Ok boomer\" would be highly appropriate here.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1715292011,
+      "score": 21,
+      "link_id": "t3_1co4l1j",
+      "parent_id": "t3_1co4l1j"
+    },
+    {
+      "id": "l3ccyzy",
+      "body": "We should hate how much this makes sense.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1715290490,
+      "score": 41,
+      "link_id": "t3_1co5fky",
+      "parent_id": "t1_l3c4hl1"
+    },
+    {
+      "id": "l3ba44g",
+      "body": "And I honestly have no idea what would we need to do to change it. It's a universal problem. Take even Warsaw  (Poland), which isn't even very car-brained. There is a particular long and rather wide sidewalk where I live. But it serves mostly as parking. Long line of cars with both their sides on the sidewalk (violation 1), leaving just about half a meter to walk on (violation 2). 30+ cars, north of 1000 dollars in fines, like shooting fish in a barrel, every single fucking day. And the city guard or the police won't do anything about it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1715277157,
+      "score": 2,
+      "link_id": "t3_1co0npj",
+      "parent_id": "t1_l3b2hey"
+    },
+    {
+      "id": "l3b5oc4",
+      "body": "Yea but the post isn't about traffic calming though, only the video is.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1715275621,
+      "score": 24,
+      "link_id": "t3_1co0npj",
+      "parent_id": "t1_l3b22ze"
+    },
+    {
+      "id": "l31ne8x",
+      "body": "That's not how it works, but ok 👍",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715119791,
+      "score": 80,
+      "link_id": "t3_1cmn2tx",
+      "parent_id": "t3_1cmn2tx"
+    },
+    {
+      "id": "l30v0q5",
+      "body": "Don't worry, it's even better now",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715109876,
+      "score": 1,
+      "link_id": "t3_1clrygf",
+      "parent_id": "t1_l2x0m1y"
+    },
+    {
+      "id": "l2zxmqj",
+      "body": "They've just said this is what they dislike. Regardless of if it's anime.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1715098182,
+      "score": 8,
+      "link_id": "t3_1cm2f9i",
+      "parent_id": "t1_l2yboxv"
+    },
+    {
+      "id": "l2t858n",
+      "body": "I think most people don't know Irfanview. Which is strange because it's still noticeably better than anything else.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714991860,
+      "score": 3,
+      "link_id": "t3_1cl6sn8",
+      "parent_id": "t1_l2sjp9g"
+    },
+    {
+      "id": "l2qtcpd",
+      "body": "Arrays often decay to pointers (as function parameters they are always the same, for instance), but they aren't exactly the same:\n\n    int a[10] = {}; // sizeof a == 40\n    int *b = a;     // sizeof b ==  8",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714945081,
+      "score": 1,
+      "link_id": "t3_1ckqaos",
+      "parent_id": "t1_l2qjdgl"
+    },
+    {
+      "id": "l2omtru",
+      "body": "(☝️🤓) Well effectively, you are.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714915334,
+      "score": 218,
+      "link_id": "t3_1ckqaos",
+      "parent_id": "t3_1ckqaos"
+    },
+    {
+      "id": "l2om3r0",
+      "body": "I really don't get people that oppose nuclear power. What's the problem? That it isn't renewable? Please, it will be enough for the next century and it's a very reliable source of energy. Our goal should **NOT** be to become 100% renewable as soon as possible. It should be to cut down greenhouse gas emissions to 0% as soon as possible. Objecting to nuclear impedes that goal.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ClimateMemes",
+      "created_utc": 1714915000,
+      "score": 23,
+      "link_id": "t3_1ckpvca",
+      "parent_id": "t3_1ckpvca"
+    },
+    {
+      "id": "l2lhkh1",
+      "body": "What is he reporting?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1714855400,
+      "score": 3,
+      "link_id": "t3_1ck4ynf",
+      "parent_id": "t1_l2kkac8"
+    },
+    {
+      "id": "l2gotgn",
+      "body": "Liar! It's been 5 years **at most.**",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1714775673,
+      "score": 19,
+      "link_id": "t3_1cjdf58",
+      "parent_id": "t1_l2ffqnw"
+    },
+    {
+      "id": "l2godsh",
+      "body": "[Rick and Morty](https://knowyourmeme.com/memes/your-boos-mean-nothing)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1714775499,
+      "score": 21,
+      "link_id": "t3_1cjhysh",
+      "parent_id": "t1_l2gm6fe"
+    },
+    {
+      "id": "l2go26r",
+      "body": "Uwielbiam czeski",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1714775370,
+      "score": 42,
+      "link_id": "t3_1cjebi0",
+      "parent_id": "t1_l2gki2x"
+    },
+    {
+      "id": "l2c0i4g",
+      "body": "Not hard at all, I mean come on, Activision Blizzard has 13000 employees. But battle pass + skins make more money and cost much less to make, so they'll never make it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714699069,
+      "score": 1,
+      "link_id": "t3_1churyp",
+      "parent_id": "t1_l289pts"
+    },
+    {
+      "id": "l2bwo4p",
+      "body": "Explain like I'm 5: what point exactly? Everywhere I look, everyone's saying that men's getting pissed about it is proving *the point*, but **what point?** And how?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714697508,
+      "score": 0,
+      "link_id": "t3_1cimwyr",
+      "parent_id": "t1_l2b3xrf"
+    },
+    {
+      "id": "l2ayrrl",
+      "body": "Not unless someone sets up a pirated server as well. But that's costly, so why would anyone do it for free? There's only a handful of games where the community did do it, but it was only because 1) they really liked the game, ***and 2)*** the parent company was being a dick, e.g. shut down the official servers.\n\nIt's very unlikely it will happen with Helldivers any time soon. Especially that the game consistently gets updates.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714684258,
+      "score": 1,
+      "link_id": "t3_1cip5it",
+      "parent_id": "t3_1cip5it"
+    },
+    {
+      "id": "l27zwkj",
+      "body": "I'm dead. Good job",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1714643098,
+      "score": 30,
+      "link_id": "t3_1ci7kbc",
+      "parent_id": "t1_l27yuor"
+    },
+    {
+      "id": "l27zppx",
+      "body": "I don't know why simping for Barriss suddenly skyrocketed on this sub, but honestly I love it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1714642961,
+      "score": 163,
+      "link_id": "t3_1ci9xm0",
+      "parent_id": "t3_1ci9xm0"
+    },
+    {
+      "id": "l271ju9",
+      "body": "I don't remember.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714620715,
+      "score": -5,
+      "link_id": "t3_1ci2j0s",
+      "parent_id": "t3_1ci2j0s"
+    },
+    {
+      "id": "l26zk5b",
+      "body": "10€ on sarcasm.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714619779,
+      "score": 9,
+      "link_id": "t3_1ci4akz",
+      "parent_id": "t1_l26yciy"
+    },
+    {
+      "id": "l26yncj",
+      "body": "And when that inevitably turns out to suck too, we can start all over again. I mean, why even go back to C++? There are tons of other languages just itching to prove they suck the most!",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714619362,
+      "score": 7,
+      "link_id": "t3_1chqpiv",
+      "parent_id": "t1_l26xdhs"
+    },
+    {
+      "id": "l26xd3c",
+      "body": "Oh, you don't have to convince me. Rust is actually my favorite and I'd like to try Go someday. But what I meant is: if all tools, even the golden ones, suck for you, it's probably your hands that are the issue and starting with a blank sheet (again) just to try out yet another tool will be a futile effort.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714618793,
+      "score": 11,
+      "link_id": "t3_1chqpiv",
+      "parent_id": "t1_l26uuxo"
+    },
+    {
+      "id": "l26vhhs",
+      "body": "Damn. Nothing like power-tripping mods, eh?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714617985,
+      "score": 9,
+      "link_id": "t3_1chy460",
+      "parent_id": "t1_l26uoq9"
+    },
+    {
+      "id": "l26uqf2",
+      "body": "[A bad pun](https://en.wikipedia.org/wiki/Main_battle_tank)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "aquarium",
+      "created_utc": 1714617665,
+      "score": 1,
+      "link_id": "t3_1chtpof",
+      "parent_id": "t1_l25sd7l"
+    },
+    {
+      "id": "l26u2qa",
+      "body": "Wait, really??",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714617384,
+      "score": 3,
+      "link_id": "t3_1chy460",
+      "parent_id": "t1_l25og4c"
+    },
+    {
+      "id": "l26th9f",
+      "body": "I'll have to google it... Oh wait",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714617131,
+      "score": 9,
+      "link_id": "t3_1chqpiv",
+      "parent_id": "t1_l26rikk"
+    },
+    {
+      "id": "l26smd2",
+      "body": "Never underestimate a bad programmer!",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714616765,
+      "score": 12,
+      "link_id": "t3_1chqpiv",
+      "parent_id": "t1_l26rpys"
+    },
+    {
+      "id": "l25gg42",
+      "body": "If you'd fancy a little experiment, a main battle tank should be fun.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "aquarium",
+      "created_utc": 1714597857,
+      "score": 4,
+      "link_id": "t3_1chtpof",
+      "parent_id": "t3_1chtpof"
+    },
+    {
+      "id": "l255wrd",
+      "body": "Who the hell is Steve Jobs",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "MechanicalKeyboards",
+      "created_utc": 1714594236,
+      "score": 24,
+      "link_id": "t3_1chubwe",
+      "parent_id": "t1_l253jlr"
+    },
+    {
+      "id": "l254rdn",
+      "body": "[My reaction to that information](https://i.imgflip.com/8oo8qa.jpg)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714593836,
+      "score": 3,
+      "link_id": "t3_1chqh72",
+      "parent_id": "t3_1chqh72"
+    },
+    {
+      "id": "l252ajx",
+      "body": "Hot goats",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714593001,
+      "score": 1,
+      "link_id": "t3_1chfifs",
+      "parent_id": "t1_l23d32a"
+    },
+    {
+      "id": "l251ksv",
+      "body": "🙄",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714592759,
+      "score": 1,
+      "link_id": "t3_1chi4kc",
+      "parent_id": "t1_l2509bu"
+    },
+    {
+      "id": "l250m60",
+      "body": "And when they find out that even Rust sucks, they (maybe) will realize that it was a skill issue all along. Buahahaaha",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714592434,
+      "score": 681,
+      "link_id": "t3_1chqpiv",
+      "parent_id": "t3_1chqpiv"
+    },
+    {
+      "id": "l2503zm",
+      "body": "You can choose not to show empathy, but then you have no right to demand it from others. I hope you know that. It may help bring about the change you want.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714592264,
+      "score": 1,
+      "link_id": "t3_1chi4kc",
+      "parent_id": "t1_l24xmw7"
+    },
+    {
+      "id": "l24wz0x",
+      "body": "It's very closely related to tragedy of the commons. Since your individual influence is insignificant and doing the wrong thing gives you a big gain (here, safety), everybody does it, and thus no one gains anyway.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1714591189,
+      "score": 2,
+      "link_id": "t3_1ch1d03",
+      "parent_id": "t3_1ch1d03"
+    },
+    {
+      "id": "l24u98p",
+      "body": "So advocating besides the bare minimum. Oki, will keep that in mind",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714590253,
+      "score": 2,
+      "link_id": "t3_1ch55da",
+      "parent_id": "t1_l24rqou"
+    },
+    {
+      "id": "l246d9t",
+      "body": "I've been doing that for a long time. What else, since that's clearly not enough?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714582139,
+      "score": 3,
+      "link_id": "t3_1ch55da",
+      "parent_id": "t1_l23ngvw"
+    },
+    {
+      "id": "l23isq3",
+      "body": "Chujochleb xd",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1714573987,
+      "score": 1,
+      "link_id": "t3_1cfshaf",
+      "parent_id": "t1_l1uju71"
+    },
+    {
+      "id": "l23eskp",
+      "body": "Yes, but who's said that overkill is a bad thing?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714572498,
+      "score": 1,
+      "link_id": "t3_1cheqaa",
+      "parent_id": "t3_1cheqaa"
+    },
+    {
+      "id": "l23dovj",
+      "body": ">Don't be mad about it, help fix it.\n\nOkay. So, as a man, how can I help fix it?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714572074,
+      "score": 7,
+      "link_id": "t3_1ch55da",
+      "parent_id": "t3_1ch55da"
+    },
+    {
+      "id": "l23d6ej",
+      "body": "Okay. Going away from the topic for a moment (as I don't disregard it; I think it's valid), this use of statistics is just wrong. It's true only when taking a whole person's lifetime into account. In the specific situation the probabilities are much different. Otherwise it would mean you get SA'ed every 5th encounter with a man — that would be quite a lot.\n\nTopics to read about: [conditional probability](https://en.wikipedia.org/wiki/Conditional_probability) and [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem). The Wikipedia articles are a rather bad start as they're pretty technical, but it's better than nothing.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714571879,
+      "score": 2,
+      "link_id": "t3_1ch55da",
+      "parent_id": "t1_l21rgfw"
+    },
+    {
+      "id": "l23adlw",
+      "body": "Exactly. And so you can just go make yourself a favor and sail the seas. You make literally no damage anyway.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714570792,
+      "score": 2,
+      "link_id": "t3_1chivyz",
+      "parent_id": "t1_l230gu0"
+    },
+    {
+      "id": "l239vgc",
+      "body": "Yes as it's encrypted and you connect only to a person you know. With these two conditions satisfied, it doesn't even matter that you don't go over the Internet, but it's a nice addition.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714570592,
+      "score": 1,
+      "link_id": "t3_1chk1am",
+      "parent_id": "t3_1chk1am"
+    },
+    {
+      "id": "l2398tu",
+      "body": "Unless you're in a country where even downloading is illegal and you encounter a honeypot. But the probability for that is low.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714570340,
+      "score": 4,
+      "link_id": "t3_1chk1am",
+      "parent_id": "t1_l2385fw"
+    },
+    {
+      "id": "l237gnt",
+      "body": "Wouldn't you too? It ain't much fun to learn you're by default less trustworthy than a literal 300 kg predator.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714569616,
+      "score": 1,
+      "link_id": "t3_1chi4kc",
+      "parent_id": "t1_l22wa3t"
+    },
+    {
+      "id": "l1z3cwb",
+      "body": "Is it really a bias if it's objectively correct?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1714500786,
+      "score": 6,
+      "link_id": "t3_1cgd08j",
+      "parent_id": "t1_l1wnpgu"
+    },
+    {
+      "id": "l1yt4wh",
+      "body": "I've found [one exception](https://www.reddit.com/r/ProgrammerHumor/comments/1cbvcfk/itreallyhappenssometimes/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button), strictly because it isn't a veiled \"only a genius will know my way of doing things is better\" statement.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714497264,
+      "score": 3,
+      "link_id": "t3_1cgr26s",
+      "parent_id": "t1_l1yj2k3"
+    },
+    {
+      "id": "l1r5z1p",
+      "body": "Ach tak, r/196. Rak muzgu, niepolecam👎",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1714374340,
+      "score": 28,
+      "link_id": "t3_1cfshaf",
+      "parent_id": "t3_1cfshaf"
+    },
+    {
+      "id": "l1mtryi",
+      "body": "🙄",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1714308325,
+      "score": 1,
+      "link_id": "t3_1cf59ws",
+      "parent_id": "t3_1cf59ws"
+    },
+    {
+      "id": "l1mrq9y",
+      "body": "Huh?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ClimateMemes",
+      "created_utc": 1714307286,
+      "score": 1,
+      "link_id": "t3_1cf52ks",
+      "parent_id": "t3_1cf52ks"
+    },
+    {
+      "id": "l1iu2u8",
+      "body": "Really nice.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714237050,
+      "score": 1,
+      "link_id": "t3_1ceivda",
+      "parent_id": "t3_1ceivda"
+    },
+    {
+      "id": "l1i9uyp",
+      "body": "True, but it's the language's fault that it demands that you know it. More helpful / less demanding = better.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714229447,
+      "score": 1,
+      "link_id": "t3_1cea8av",
+      "parent_id": "t1_l1havcl"
+    },
+    {
+      "id": "l1hxs09",
+      "body": "I like this perspective.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714224476,
+      "score": 0,
+      "link_id": "t3_1ced767",
+      "parent_id": "t1_l1hte3f"
+    },
+    {
+      "id": "l19xjr9",
+      "body": "Which means no doubt that the filesystem on your SD card used to be FAT32 - its max file size is 4 GB; for NTFS it's at least 16 TB. There's never been a problem with Android in your case.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1714089613,
+      "score": 1,
+      "link_id": "t3_1cd20zn",
+      "parent_id": "t1_l19azbs"
+    },
+    {
+      "id": "l18htbi",
+      "body": "No car obv, but let's not be petty here take our wins where we can, even if small. A low-front car is better than SUVs or pick-ups.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1714070926,
+      "score": 9,
+      "link_id": "t3_1ccusxk",
+      "parent_id": "t3_1ccusxk"
+    },
+    {
+      "id": "l112o38",
+      "body": "Piracy isn't theft, period. It's in the law. Theft requires you to take something away from the other person. Piracy is copyright infringement, aka failure to comply with a license. Nothing is stolen, but you're doing something the other person has rightfully forbidden.\n\nSo \"if buying isn't owning, then pirating isn't stealing\" does make sense, but the first part is redundant.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1713958358,
+      "score": 4,
+      "link_id": "t3_1cbnkyi",
+      "parent_id": "t3_1cbnkyi"
+    },
+    {
+      "id": "l0vg7ro",
+      "body": "Respect for the grind.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1713871234,
+      "score": 2,
+      "link_id": "t3_1cb1xy3",
+      "parent_id": "t3_1cb1xy3"
+    },
+    {
+      "id": "l0c3e1w",
+      "body": "[https://knowyourmeme.com/memes/loss](https://knowyourmeme.com/memes/loss)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1713551491,
+      "score": 38,
+      "link_id": "t3_1c83mom",
+      "parent_id": "t1_l0c1ano"
+    },
+    {
+      "id": "kz7ziew",
+      "body": "In that case what you're doing now is as good as it can get. If the converted .wav sounds worse than the .mp3, change your converter as it's bad; there should be no difference.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1712923552,
+      "score": 2,
+      "link_id": "t3_1c1ps7o",
+      "parent_id": "t1_kz4wl98"
+    },
+    {
+      "id": "kz7py2t",
+      "body": "Wrong sub, dude.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ClimateMemes",
+      "created_utc": 1712918536,
+      "score": 2,
+      "link_id": "t3_1c1vido",
+      "parent_id": "t3_1c1vido"
+    },
+    {
+      "id": "kz7puf4",
+      "body": "Yep, much too big.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "aquarium",
+      "created_utc": 1712918475,
+      "score": 1,
+      "link_id": "t3_1c1mo7q",
+      "parent_id": "t3_1c1mo7q"
+    },
+    {
+      "id": "kz4u5tf",
+      "body": "I'm watching your career with great interest. You're doing God's work; keep it up dude.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1712868265,
+      "score": 5,
+      "link_id": "t3_1c1moxz",
+      "parent_id": "t3_1c1moxz"
+    },
+    {
+      "id": "kz4t485",
+      "body": "They know your IP and know *who* you're connecting to. They need to know it to make it work, even if they don't log it long-term. And if you don't force encryption in your torrents, they also know *what* you're doing.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1712867932,
+      "score": 7,
+      "link_id": "t3_1c1o5yt",
+      "parent_id": "t1_kz4mwtr"
+    },
+    {
+      "id": "kyw8ym2",
+      "body": "It takes just one hungry bitch (as in female dog) to cut you off from all your accounts lmao",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1712738748,
+      "score": 2,
+      "link_id": "t3_1c05t5e",
+      "parent_id": "t1_kyuxl81"
+    },
+    {
+      "id": "kyw8iq1",
+      "body": "Oh, that tool is fantastic! I was going to make something like that myself, but it's wonderful someone has already made it better than I ever could. Plus SAT solvers, a new rabbit hole to dive in.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712738400,
+      "score": 1,
+      "link_id": "t3_1c05gob",
+      "parent_id": "t1_kyw7lkm"
+    },
+    {
+      "id": "kyw88hs",
+      "body": "Yes\n\n>I’m starting to think it’s simply impossible.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712738176,
+      "score": 1,
+      "link_id": "t3_1c05gob",
+      "parent_id": "t1_kyul15h"
+    },
+    {
+      "id": "kyw7sbp",
+      "body": "Yeah, that was why.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712737823,
+      "score": 2,
+      "link_id": "t3_1c05gob",
+      "parent_id": "t1_kyvnt23"
+    },
+    {
+      "id": "kyuczky",
+      "body": "That's a good question. I've got a throwaway gmail account from back when you didn't need a phone number and a new throwaway Proton Mail account. The latter seems to me like a good choice, but I honestly have hardly any idea.\n\nAlso please, **PLEASE** start using a password manager: offline or self-hosted are the best. KeePassXC is good, I use it myself. I've also heard that BitWarden is good, but I have no experience with it.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1712704232,
+      "score": 2,
+      "link_id": "t3_1c05t5e",
+      "parent_id": "t3_1c05t5e"
+    },
+    {
+      "id": "kyua87b",
+      "body": "Easily. I have i5-8250u, which is about 1.5 times slower than yours, and UHD Graphics 6**2**0. Works like a charm if you deselect \"Show all smoke\" in graphics settings. 60 UPS/FPS even with a nearly complete 2k SPM base I quickly made in the editor. Eats up to 3GB of RAM though, so make sure to close any browsers and you should be fine. But I strongly recommend putting in another 8GB RAM stick. It will be very helpful not only in gaming.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712703165,
+      "score": 1,
+      "link_id": "t3_1bzz068",
+      "parent_id": "t3_1bzz068"
+    },
+    {
+      "id": "kyu4inw",
+      "body": "Here we're making plain input balancers anyway; unlimited throughput is a different league.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712701005,
+      "score": 4,
+      "link_id": "t3_1bzyddn",
+      "parent_id": "t1_kyturgg"
+    },
+    {
+      "id": "kyng3gz",
+      "body": "Okay. Thank you.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1712599392,
+      "score": 1,
+      "link_id": "t3_1bz27o3",
+      "parent_id": "t1_kynfrlp"
+    },
+    {
+      "id": "kyndloh",
+      "body": "This, together with the title, is so bad it's actually quite good 👍",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1712598515,
+      "score": 6,
+      "link_id": "t3_1bz31pt",
+      "parent_id": "t3_1bz31pt"
+    },
+    {
+      "id": "kynd5bx",
+      "body": "IDKWYCTE: I don't know, would you care to explain?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1712598358,
+      "score": 3,
+      "link_id": "t3_1bz27o3",
+      "parent_id": "t3_1bz27o3"
+    },
+    {
+      "id": "kygrjim",
+      "body": "Now that's a freethinker if ever there was one.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "2visegrad4you",
+      "created_utc": 1712495847,
+      "score": 10,
+      "link_id": "t3_1bxzu7u",
+      "parent_id": "t1_kyg5gdn"
+    },
+    {
+      "id": "kygptng",
+      "body": "Glad to hear it. You're welcome",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1712495063,
+      "score": 1,
+      "link_id": "t3_1bo90wz",
+      "parent_id": "t1_kyd0f50"
+    },
+    {
+      "id": "kxzjtlb",
+      "body": "Context?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1712221901,
+      "score": 1,
+      "link_id": "t3_1buo7my",
+      "parent_id": "t3_1buo7my"
+    },
+    {
+      "id": "kxzj1m6",
+      "body": "Either a bad bait or sarcasm.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "fuckcars",
+      "created_utc": 1712221331,
+      "score": 0,
+      "link_id": "t3_1bvcxjt",
+      "parent_id": "t1_kxzecpq"
+    },
+    {
+      "id": "kwq3xzl",
+      "body": "It certainly depends on the jurisdiction, so which country are we talking about?\n\nAnyway, it probably doesn't matter if it's legal, as you will be tormented in courts until you give up, regardless. Take Yuzu for example: shut down even though emulators by themselves are legal.\n\nSo just stay under the radar.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1711497735,
+      "score": 56,
+      "link_id": "t3_1bommcj",
+      "parent_id": "t3_1bommcj"
+    },
+    {
+      "id": "kwq1upm",
+      "body": "Found it! There ARE filter splitters (filtering out crushed iridite and sand), just not the same ones as the priority splitters ;-) Doesn't matter though, they were the reason because they're on the same belt.\n\nI guess if you REALLY wanted, you could loop an iridite-only belt and put the other products on a separate belt with filter inserters straight out of pulverisers. But I wouldn't change your setup anyway, circuits are more than fine.\n\nBtw how did you manage to avoid combinators??",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711496963,
+      "score": 2,
+      "link_id": "t3_1bo90wz",
+      "parent_id": "t1_kwpwkp5"
+    },
+    {
+      "id": "kwpv0k3",
+      "body": "Unconscious incompetence, first of [four stages of competence](https://en.wikipedia.org/wiki/Four_stages_of_competence). Tale as old as the world.\n\nBut... sometimes, even though very rarely, laymen did come up with actually genius ideas that experts used to consider obviously dumb.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711494450,
+      "score": 10,
+      "link_id": "t3_1bok9a4",
+      "parent_id": "t1_kwpmbyw"
+    },
+    {
+      "id": "kwpts43",
+      "body": "There are mathematical limits to nearly everything. There certainly are to how much you can optimize. Especially when it comes to parallelization, for many problems it's straight up impossible or can be done only very poorly.\n\nThis game is already optimized extremely well, and is still getting updated. For instance belts used to work very different under the hood a few years ago. What I mean by that is that if the devs come up with further optimizations, they will probably end up in the current game, but there is only so much that can be done.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711493999,
+      "score": 6,
+      "link_id": "t3_1bok9a4",
+      "parent_id": "t3_1bok9a4"
+    },
+    {
+      "id": "kwpqcw5",
+      "body": "Hmm, are you sure you hadn't set any filters? If not, you probably messed up the priority. You need to set the loop (and not \"fresh\" input) as input priority. Then it will never back up. Output priority is irrelevant here.\n\nAnyway, it's rather simple. Output priority works like that: it fills up the higher-priority lane first and any excess goes in the other lane. Input priority works this way: higher-priority lane is always consumed at max possible speed and the other lane is consumed only if there's still room in the output. (All pretty roughly speaking, don't quote me on tick-perfect timings lol.) And output and input priorities are completely independent of each other; they can work at the same time and it doesn't influence the principles of their working at all.\n\nBut if you did set filters, it will back up anyway. In vast, vast majority of cases, sushi belts require circuitry despite priority splitters. But maybe my other [comment](https://www.reddit.com/r/factorio/comments/1bo90wz/comment/kwpktfh/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) will help with filters.\n\nP.S. I've recently started SE too! And I'll gladly answer if you have any more questions (though, not about SE, I'm a newbie there lol).",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711492776,
+      "score": 2,
+      "link_id": "t3_1bo90wz",
+      "parent_id": "t1_kwpdyqu"
+    },
+    {
+      "id": "kwpktfh",
+      "body": "Sure! When you set a splitter to output priority mode, both input lanes will first fill up the higher-priority output lane and any excess will go to the other lane, roughly speaking. When you set a filter, ALL filtered items go to one lane, and all others go to the other, no exception. Which creates the problem that there is no notion of \"excess\" here. So here is an example why that results in throttled throughput: Say we set the filter to iron, and it just so happens that for a moment both input lanes are full of iron. But there is only one output lane where iron is allowed to go, which means that both input lanes will go at half the speed. The same thing happens when both input lanes are full of non-iron.\n\nAll because `input throughput = output throughput`. It normally isn't a problem since splitters have two lanes of each input and output. The problem is that the filter forces a ratio: there will be max one output lane of iron and max one output lane of non-iron. And that means the splitter will operate at max throughput only if there is max one input lane of iron and max one input lane of non-iron. That's always true when we filter only one input lane, but only sometimes true with two input lanes.\n\nA little verbose, but I hope it makes it clear.\n\nAnd as a bonus, why do we need such a contraption [https://factoriobin.com/post/r\\_O\\_lBKb](https://factoriobin.com/post/r_O_lBKb) when it filters just one lane? Well, for one lane we don't, but in OP's situation we merge the output of three such belts into one, so in some situations the filter output lane's throughput slows down to 1/3rd while the input may still go at max speed. And that's why we need to let the excess through the other lane.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711490841,
+      "score": 2,
+      "link_id": "t3_1bo90wz",
+      "parent_id": "t1_kwpafaz"
+    },
+    {
+      "id": "kwnysny",
+      "body": "Works great for one belt, but it will limit throughput if you merge the outputs.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711471806,
+      "score": 3,
+      "link_id": "t3_1bo90wz",
+      "parent_id": "t1_kwncpor"
+    },
+    {
+      "id": "kwnxuud",
+      "body": "Your design doesn't work because filter splitters don't work like priority splitters (I'm sure you know), so if two full lanes of go through one filter splitter, speed will always drop. I've designed a blueprint that does exactly what you want, for one lane: [https://factoriobin.com/post/r\\_O\\_lBKb](https://factoriobin.com/post/r_O_lBKb)\n\nBut as you can see, it isn't compact, so simply copy-pasting two more times and merging probably isn't what you can afford. But, I couldn't find any more efficient way than that to do it for 3 belts. So here is the best layout I could come up with, with just copy-pasting: [https://factoriobin.com/post/XVzjksWg](https://factoriobin.com/post/XVzjksWg) . I hope it helps.\n\nhttps://preview.redd.it/ztlgp2h8gpqc1.png?width=1280&format=png&auto=webp&s=f8467bbe5a4b89dcd8886528694ae0f5c92b6e23",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711471507,
+      "score": 3,
+      "link_id": "t3_1bo90wz",
+      "parent_id": "t3_1bo90wz"
+    },
+    {
+      "id": "kwikfft",
+      "body": "Pathetic try, EA.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1711387839,
+      "score": 2,
+      "link_id": "t3_1bnbb7z",
+      "parent_id": "t3_1bnbb7z"
+    },
+    {
+      "id": "kw6v1sc",
+      "body": "Intersection B is more compact, therefore slightly more efficient and cheaper. Though in both cases the efficiency tanks due to bad signaling. Here's one of many ways to do it well:\n\nhttps://preview.redd.it/06apko1003qc1.png?width=523&format=png&auto=webp&s=0db890bd61853349f9c17d1687b7e11db5e1dd45",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "factorio",
+      "created_utc": 1711198787,
+      "score": 3,
+      "link_id": "t3_1blmr22",
+      "parent_id": "t3_1blmr22"
+    },
+    {
+      "id": "kw3spvl",
+      "body": "Please excuse a maybe basic question, but for what? Private trackers? VPN?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1711141503,
+      "score": 5,
+      "link_id": "t3_1bl5n3f",
+      "parent_id": "t1_kw3qyh9"
+    },
+    {
+      "id": "kw3q9vm",
+      "body": "What's the point of this proxy?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1711140662,
+      "score": 4,
+      "link_id": "t3_1bl5n3f",
+      "parent_id": "t3_1bl5n3f"
+    },
+    {
+      "id": "kw2c8l9",
+      "body": "Yeah I find it annoying too, and they're often not that fast either. On the other hand, most programs written in Rust that *don't mention it* perform very well in my experience.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1711124043,
+      "score": 2,
+      "link_id": "t3_1bl0e2s",
+      "parent_id": "t3_1bl0e2s"
+    },
+    {
+      "id": "kw28lpt",
+      "body": "Yeah, I know all that. But Wine isn't a sandbox and so malware can still exploit nearly all Linux vulnerabilities.\n\nBut it was a dumb question honestly. I keep forgetting most Windows malware don't bundle a Linux rootkit just in case they're run with Wine. And I mean, nothing short of an air gap provides absolute security. Even VM breakouts are possible, even if very rare. So yeah, dumb question and pedantic outlook on my part. My bad.\n\nP.S. It's nice to meet a fellow Linux user!",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1711122839,
+      "score": 3,
+      "link_id": "t3_1bkn474",
+      "parent_id": "t1_kw22r70"
+    },
+    {
+      "id": "kw2310k",
+      "body": "See? That's a piece of software worth preserving. Grab that source code and/or binary and distribute. Even if it technically isn't piracy.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1711120980,
+      "score": 3,
+      "link_id": "t3_1bkn8hz",
+      "parent_id": "t3_1bkn8hz"
+    },
+    {
+      "id": "kw1x16w",
+      "body": "How would that help?",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "Piracy",
+      "created_utc": 1711118954,
+      "score": 1,
+      "link_id": "t3_1bkn474",
+      "parent_id": "t1_kw1mbya"
+    },
+    {
+      "id": "kvz5x74",
+      "body": "Yeah, I was talking about commercial ones. thx",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "VPN",
+      "created_utc": 1711068186,
+      "score": 1,
+      "link_id": "t3_1bklxc2",
+      "parent_id": "t1_kvz2g7s"
+    },
+    {
+      "id": "kvwo3qk",
+      "body": "Nobody, he was perfectly happy and very cheerful and energetic, at least on the day our school invited him to meet us :-)",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "BeAmazed",
+      "created_utc": 1711037662,
+      "score": 1,
+      "link_id": "t3_1bk7arf",
+      "parent_id": "t1_kvwjdze"
+    },
+    {
+      "id": "kvwnpbk",
+      "body": "I'll answer with what he said himself -- I was lucky enough to meet him in person when our school invited him :-)\n\nSo basically: a big kayak (7 meters, that's basically a small yacht, just without sails), big enough to store 100–200 days worth of dehydrated food, and a manual desalination pump (several actually, as a backup).",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "BeAmazed",
+      "created_utc": 1711037527,
+      "score": 2,
+      "link_id": "t3_1bk7arf",
+      "parent_id": "t1_kvwj3u6"
+    },
+    {
+      "id": "kg0f6ep",
+      "body": "Respectful and respectable.",
+      "author": "Substantial-Leg-9000",
+      "subreddit": "dankmemes",
+      "created_utc": 1704221049,
+      "score": 7,
+      "link_id": "t3_18wsnvp",
+      "parent_id": "t3_18wsnvp"
     }
   ]
 }

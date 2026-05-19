@@ -1,6 +1,40 @@
 {
   "username": "hopeful_learner123",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1dcpmn7",
+      "title": "Looking for a space to set up a rehearsal room with my band",
+      "author": "hopeful_learner123",
+      "subreddit": "zurich",
+      "created_utc": 1718036645,
+      "score": 4,
+      "num_comments": 6,
+      "selftext": "Hi all\n\nDo you know of any good website (besides music.ch) where one can browse empty spaces where one could set up a rehearsal room for musicians? I am interested in both already-arranged music rooms or empty spaces which we'd be free to arrange for our needs. \n\nThanks!",
+      "url": "https://www.reddit.com/r/zurich/comments/1dcpmn7/looking_for_a_space_to_set_up_a_rehearsal_room/"
+    },
+    {
+      "id": "1cwhl8a",
+      "title": "Cartier Tank Must - Replacement Glass? ",
+      "author": "hopeful_learner123",
+      "subreddit": "VintageWatches",
+      "created_utc": 1716217061,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/1cwhl8a"
+    },
+    {
+      "id": "1bp6fxp",
+      "title": "Tokenization and embedding strategy for program/code (as opposed to language)",
+      "author": "hopeful_learner123",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1711557694,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "I am trying to train a language model to output a custom programming language (some \"DSL\") and feel like I would benefit from having a targeted tokenization and embedding strategy for this rather than using a standard language tokenizer. \n\nIn general, if you have any pointer towards works that work with NLP models targeted at programming languages, that would be very helpful! ",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1bp6fxp/tokenization_and_embedding_strategy_for/"
+    }
+  ],
   "comments": [
     {
       "id": "kysbhi1",
@@ -11,6 +45,206 @@
       "score": 1,
       "link_id": "t3_boa3kx",
       "parent_id": "t3_boa3kx"
+    },
+    {
+      "id": "l8jtg1o",
+      "body": "Scoring answers is actually not trivial: in some cases, a single pixel off may mean that one completely misunderstood the task. \n\n  \nSelf-play is also very difficult because of the lack of training data - and generating some kind of controlled environment is also practically impossible due to 1) the challenge of generating truly diverse tasks and 2) the impossibility of assessing whether a generated task is actually \"valid\".",
+      "author": "hopeful_learner123",
+      "subreddit": "MachineLearning",
+      "created_utc": 1718351901,
+      "score": 1,
+      "link_id": "t3_1de2b16",
+      "parent_id": "t1_l8cdozj"
+    },
+    {
+      "id": "l83nzzw",
+      "body": "Mehrspur on Tuesday if you are \\*very\\* experienced Jazz player. I heard Moods is also good on Wednesday, but also only if you are very experienced",
+      "author": "hopeful_learner123",
+      "subreddit": "zurich",
+      "created_utc": 1718105871,
+      "score": 1,
+      "link_id": "t3_1dcpmn7",
+      "parent_id": "t1_l83g4ip"
+    },
+    {
+      "id": "l82sn1x",
+      "body": "If you are not so professional (or don't care being in a sometimes not great jam), you should join Planet 5 on Thursdays! Amboss is also a good place to visit for jams on Thursday evenings, but the jams are now closed for the summer and will start again next September. \n\nThere are plenty of jam opportunities in Zurich in general! You can DM me and I can tell you more :)",
+      "author": "hopeful_learner123",
+      "subreddit": "zurich",
+      "created_utc": 1718084817,
+      "score": 2,
+      "link_id": "t3_1dcpmn7",
+      "parent_id": "t1_l80fy8g"
+    },
+    {
+      "id": "l7dm12d",
+      "body": "yup, same here. this seems right. This is gorgeous btw - hope you get it!",
+      "author": "hopeful_learner123",
+      "subreddit": "VintageWatches",
+      "created_utc": 1717684464,
+      "score": 1,
+      "link_id": "t3_1d9glr1",
+      "parent_id": "t1_l7d0yt0"
+    },
+    {
+      "id": "l6qjbjo",
+      "body": "You should read \"On the measure of Intelligence\", by François Chollet",
+      "author": "hopeful_learner123",
+      "subreddit": "singularity",
+      "created_utc": 1717312012,
+      "score": 1,
+      "link_id": "t3_1d3027g",
+      "parent_id": "t3_1d3027g"
+    },
+    {
+      "id": "l4x7flp",
+      "body": "yeah this is real. What's the price? Fully functional?",
+      "author": "hopeful_learner123",
+      "subreddit": "VintageWatches",
+      "created_utc": 1716235245,
+      "score": 1,
+      "link_id": "t3_1cwotwe",
+      "parent_id": "t3_1cwotwe"
+    },
+    {
+      "id": "l4vsif4",
+      "body": "Hi all, \n\nI recently bought this stunning Cartier Tank Must for a good price. The one thing that made me hesitate to buy it (I don't regret I did - I love it so much!) were the scratches on the glass which are very visible with direct lighting on the watch. We really do not see them when I wear it on evenings for example. \n\nI have been contemplating trying to find a replacement glass for it. Does anyone have experience with tank must glass replacement? Any strong arguments against it? \n\nAlso, since I am here - the gold plating is a bit scratched on the edges. Does anyone have experience with re-gold-plating their watch? Is this something I should at all costs avoid or is that fairly standard and fine to do? Any recommendation on that end is appreciated!",
+      "author": "hopeful_learner123",
+      "subreddit": "VintageWatches",
+      "created_utc": 1716217073,
+      "score": 1,
+      "link_id": "t3_1cwhl8a",
+      "parent_id": "t3_1cwhl8a"
+    },
+    {
+      "id": "l4blnat",
+      "body": "Sorry - just saw this. So these fuckers ended up cancelling my account without any notice (when I had been approved)... Was a very frustrating experience, and one where I did not get any explanation. So yeah, that's why you didn't get anything...",
+      "author": "hopeful_learner123",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1715874780,
+      "score": 1,
+      "link_id": "t3_rnixh6",
+      "parent_id": "t1_l31kmg5"
+    },
+    {
+      "id": "l01fo3m",
+      "body": "I have no negative sentiment towards it. I am sure it is a great report that does a good job at giving the state of things in AI. \n\nI am just asking whether it brings any particularly novel insights that would be worth spending time on for people like me (e.g. a PhD student in ML who eats and breaths ML all day long). Im assuming Im not the only one on this subreddit in this category.",
+      "author": "hopeful_learner123",
+      "subreddit": "MachineLearning",
+      "created_utc": 1713384892,
+      "score": 1,
+      "link_id": "t3_1c59zrq",
+      "parent_id": "t1_kzzclq5"
+    },
+    {
+      "id": "kztl53e",
+      "body": "Is there anything that the average redditor (scientist - not just enthusiast) on this channel should read that they don't already know?",
+      "author": "hopeful_learner123",
+      "subreddit": "MachineLearning",
+      "created_utc": 1713271187,
+      "score": 12,
+      "link_id": "t3_1c59zrq",
+      "parent_id": "t3_1c59zrq"
+    },
+    {
+      "id": "kz1ospq",
+      "body": "My experience is very negative. I tried to create an account, which worked fine. I Tried to put my first deposit, which got returned for some reason. I call twice to try to get an explanation, and they don't have any for me \"we have escalated this and will get back to you\". I call again a week later, and they announce to me that my account has been terminated - which I had not even gotten notified for. Obivously, no explanation was given.",
+      "author": "hopeful_learner123",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712822520,
+      "score": 1,
+      "link_id": "t3_16ph3ti",
+      "parent_id": "t3_16ph3ti"
+    },
+    {
+      "id": "kysbwn5",
+      "body": "The bitter lesson all over again. Every single time. (https://www.cs.utexas.edu/\\~eunsol/courses/data/bitter\\_lesson.pdf)",
+      "author": "hopeful_learner123",
+      "subreddit": "MachineLearning",
+      "created_utc": 1712678925,
+      "score": 2,
+      "link_id": "t3_1bx914m",
+      "parent_id": "t1_kyp6bwi"
+    },
+    {
+      "id": "kylr1vj",
+      "body": "yes please, that paper is so curious",
+      "author": "hopeful_learner123",
+      "subreddit": "MachineLearning",
+      "created_utc": 1712575742,
+      "score": 1,
+      "link_id": "t3_1bx914m",
+      "parent_id": "t1_kybgo0z"
+    },
+    {
+      "id": "ky6scrn",
+      "body": "That's probably a fair price for it.",
+      "author": "hopeful_learner123",
+      "subreddit": "VintageWatches",
+      "created_utc": 1712332826,
+      "score": 0,
+      "link_id": "t3_1bwlbtk",
+      "parent_id": "t3_1bwlbtk"
+    },
+    {
+      "id": "kxvk5jd",
+      "body": "HERE IS MY SUPER COOL REVOLUT LINK: \n\nJoin me and over 40 million users who love Revolut. Sign up with my link below:  https://revolut.com/referral/?referral-code=yassin9qo!APR1-24-AR-L1",
+      "author": "hopeful_learner123",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1712162569,
+      "score": 1,
+      "link_id": "t3_rnixh6",
+      "parent_id": "t3_rnixh6"
+    },
+    {
+      "id": "kxvf8pp",
+      "body": "Lol u got lucky - used tour Yuh code. Hope it works!",
+      "author": "hopeful_learner123",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1712160987,
+      "score": 1,
+      "link_id": "t3_rnixh6",
+      "parent_id": "t1_kwkixkr"
+    },
+    {
+      "id": "kxu3n70",
+      "body": "Surely an awareness of the outside world is useful in life? If you are a researcher, you need to take these things into account to keep receiving funding. And if you are in the business world, the importance of reflecting over this is even more critical.",
+      "author": "hopeful_learner123",
+      "subreddit": "MachineLearning",
+      "created_utc": 1712142339,
+      "score": 2,
+      "link_id": "t3_1btuizd",
+      "parent_id": "t1_kxqymir"
+    },
+    {
+      "id": "kvwpk4m",
+      "body": "What does that mean? \"A place to sleep\"?",
+      "author": "hopeful_learner123",
+      "subreddit": "zurich",
+      "created_utc": 1711038143,
+      "score": 1,
+      "link_id": "t3_1bjqeh3",
+      "parent_id": "t1_kvw4x6r"
+    },
+    {
+      "id": "kvubys0",
+      "body": "Lol hahahahs",
+      "author": "hopeful_learner123",
+      "subreddit": "zurich",
+      "created_utc": 1710993378,
+      "score": 1,
+      "link_id": "t3_1bjqeh3",
+      "parent_id": "t1_kvt5dgk"
+    },
+    {
+      "id": "ktfsp58",
+      "body": "Still interested?",
+      "author": "hopeful_learner123",
+      "subreddit": "Neurosymbolic_AI",
+      "created_utc": 1709639388,
+      "score": 1,
+      "link_id": "t3_1afi95z",
+      "parent_id": "t3_1afi95z"
     }
   ]
 }

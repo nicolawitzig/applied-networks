@@ -351,6 +351,186 @@
       "score": 25,
       "link_id": "t3_1f3kdgm",
       "parent_id": "t3_1f3kdgm"
+    },
+    {
+      "id": "m0y4ps0",
+      "body": "The intuition is the following:\n- a simplex is like a triangle but in general dimension, e.g., in 3D you get a (filled) tetrahedron and so on (my capacity to imagine these objects stops at dimension 3…)\n- you can „glue together“ simplices along common faces. For example, you can glue triangles along edges or tetrahedra along triangles, but also for example a triangle and a tetrahedron along a vertex. Like this you can build up spaces called simplicial complexes.\n\nAn example of a simplicial complex is the icosahedron: it consists of triangles glued together along edges. You have already noted that every graph is a simlicial complex as well.\n\nThe wikipedia article is quite good, you can find more precise definitions there:\nhttps://en.m.wikipedia.org/wiki/Simplicial_complex",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1733613771,
+      "score": 4,
+      "link_id": "t3_1h9323i",
+      "parent_id": "t1_m0xrfyx"
+    },
+    {
+      "id": "m0xqcb6",
+      "body": "Yes, there are many simplicial complexes that can be defined on graphs, whose topology can give interesting information. Arguably the most famous example is the neighborhood complex whose topological connectivity can be used to give a lower bound on the chromatic number of the graph. This is the main ingredient in Lovasz‘s proof of the Kneser cojecture.\n\nThere is an entire book just on different complexes on graphs, called „Simplicial Complexes of Graphs“, by Jakob Jonsson.",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1733608878,
+      "score": 49,
+      "link_id": "t3_1h9323i",
+      "parent_id": "t3_1h9323i"
+    },
+    {
+      "id": "m0pt3e4",
+      "body": "If you like Borsuk-Ulam, maybe something on the Ham Sandwich theorem?",
+      "author": "mathguy59",
+      "subreddit": "mathematics",
+      "created_utc": 1733497788,
+      "score": 1,
+      "link_id": "t3_1h7z46q",
+      "parent_id": "t3_1h7z46q"
+    },
+    {
+      "id": "lzuts8m",
+      "body": "Any bijections between different Catalan objects",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1733051591,
+      "score": 57,
+      "link_id": "t3_1h40nbg",
+      "parent_id": "t3_1h40nbg"
+    },
+    {
+      "id": "lxw2l3b",
+      "body": "„Using the Borsuk-Ulam theorem“ by Jiri Matousek. In general, all of Matousek‘s books are amazing.",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1731998680,
+      "score": 1,
+      "link_id": "t3_1gui99q",
+      "parent_id": "t3_1gui99q"
+    },
+    {
+      "id": "lxhb6ds",
+      "body": "I think the „likely correct“ part could be an issue unfortunately…",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731786425,
+      "score": 3,
+      "link_id": "t3_1gromjg",
+      "parent_id": "t1_lxgyyz1"
+    },
+    {
+      "id": "lxgmxk7",
+      "body": "That is not what mathematicians mean with „published“. Published means that is appears in a legitimate peer-reviewed mathematical journal.",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731778686,
+      "score": 3,
+      "link_id": "t3_1gromjg",
+      "parent_id": "t1_lxgf1lg"
+    },
+    {
+      "id": "lxef8to",
+      "body": "Oh wow, I‘m sure nobody has ever tried modular arithmetic for the Collatz conjecture, crazy that thousands of professional mathematicisns missed that the Collatz conjecture can be proved with high school tools…\n\nSorry for the sarcasm, it has obviously been tried. Your approach is compared to many others at least written more or less understandably (although the formatting doesn‘t work on reddit). As such it is not too hard to spot your error: you argue that for 0,1,2 mod 4 the next odd number must be smaller (correct) and that for 3 mod 4 we eventually reach 1 mod (maybe also correct, didn‘t check it). From there the next odd number is again smaller. You then claim that these two things combined imply that we get to 1, as we always get smaller. However, this would only be true if you can argue that for 3 mod 4 we eventually get smaller than the original number, as we can also get from 1 mod 4 to 3 mod 4 again, after which we might increase by a lot again. So your induction unfortunately is circular reasoning.",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731741675,
+      "score": 16,
+      "link_id": "t3_1gs9fi9",
+      "parent_id": "t3_1gs9fi9"
+    },
+    {
+      "id": "lx831vx",
+      "body": "This is a vaguely defined heuristic of when a problem could be solved in polynomial time, combined with the claim that if the heuristic does not work then the problem should be NP-hard.\n\nThis is of course not a proof. Just because we have not found a poly-time algorithm does not mean that none exists.\n\nAlso, your argument would imply that if a problem is not solvable in polynomial time then it is NP-hard. This is wrong: assuming P!=NP there must be NP-intermediate problems.",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731652617,
+      "score": 1,
+      "link_id": "t3_1gqhoar",
+      "parent_id": "t1_lx7qqvb"
+    },
+    {
+      "id": "lx5i4o0",
+      "body": "So what exactly are the structures of choices that scale non-polynomially? And how do you prove that e.g. TSP does not allow for any choices that „collapse the problems complexity“?",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731619429,
+      "score": 1,
+      "link_id": "t3_1gqhoar",
+      "parent_id": "t1_lx58wlr"
+    },
+    {
+      "id": "lx512l0",
+      "body": "So, if I follow your idea correctly, then the problem is that in order to verify that you have en optimal solution, you need to know all the exponentially many solutions. If this is the underlying reason, then the following two things should also be true:\n\n-if you‘re only interested in finding a tour of length at most x, where x is some given number, then the problem should be significantly easier.\n\n-other optimization problems like finding a shortest spanning tree (of which there are also exponentially many options) should also not be solvable in polynomial time.\n\nUnfortunately, both of these things are wrong.",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731614186,
+      "score": 1,
+      "link_id": "t3_1gqhoar",
+      "parent_id": "t1_lx4ruia"
+    },
+    {
+      "id": "lwztw0y",
+      "body": "I briefly read through section 5, where your claimed argument for P!=NP is. Your argument is essentially „TSP has exponentially many options, so you can‘t check them all in polynomisl time“. However, this does not prove P!=NP. For the problem of sorting there are also exponentially many options, yet you can sort in polynomial time.",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1731537887,
+      "score": 16,
+      "link_id": "t3_1gqhoar",
+      "parent_id": "t3_1gqhoar"
+    },
+    {
+      "id": "lw20b33",
+      "body": "Nice, a fellow connaisseur of polynomial ham sandwiches :)\n\nIf you only have 4 ingredients you can also just use 2 straight cuts and distribute the parts correctly.",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1731060165,
+      "score": 2,
+      "link_id": "t3_1gmao2c",
+      "parent_id": "t1_lw1zfdi"
+    },
+    {
+      "id": "lw1yild",
+      "body": "You‘ll need more than one cut then, or a non-straight cut :P",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1731059017,
+      "score": 1,
+      "link_id": "t3_1gmao2c",
+      "parent_id": "t1_lw1w882"
+    },
+    {
+      "id": "lpb90z2",
+      "body": "First of all: for somebody with no training in math xour writing is quite clear and understandable. Of course there‘s always many things that can be improved, but compared to other proof attempts that get posted here, for yours I could actually read through it and understand, what you‘re trying to do.\n\nI do suspect that there is a fundamental flaw in your argument however: you assume for the sake of contradiction that there is a cycle, and you let d be the smallest value in this cycle which has to be, as you state, odd. You then write d=2^n x+b, for the maximal possible integer n. Then you apply the collatz rule to this expression, leaving x fixed. As you correctly note, at first each expression you get along the way is of the form 2^(n-k) 3^l x+c, where k is the number of divisions by 2 and l is the number of 3x+1 steps. As you correctly say, this proves that we never get to the expression 2^n x+b again. However, this does not mean that we to not get to the value d again. In your process you have no control over the additive value (b and c above). So it could for example be that 2^n x+b=3^m x+c=d, so we would have a cycle that does not contradict your argument.",
+      "author": "mathguy59",
+      "subreddit": "numbertheory",
+      "created_utc": 1727511422,
+      "score": 12,
+      "link_id": "t3_1fqyup4",
+      "parent_id": "t3_1fqyup4"
+    },
+    {
+      "id": "llb7xm6",
+      "body": "Never mind, my last step is wrong, the matchings I‘m counting are indeed just chord diagrams, as you already figured out.",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1725374131,
+      "score": 1,
+      "link_id": "t3_1f7ui06",
+      "parent_id": "t1_llb4d7y"
+    },
+    {
+      "id": "llb4d7y",
+      "body": "I think this is the Catalan numbers. Here‘s why:\n\n-write each walk of the form +1….-1… (as other commenters do). This takes care of the symmetries of permuting the dimensions.\n\n-take these strings modulo cyclic shifts (where we relabel to have a legal string again). This takes care of the starting point. One way to visualize this is as matchings (with crossings) drawn on 2n unlabelled points in convex position, where two matchings are the same if we can rotate the points to get from one to the other.\n\n-this should thus give you a bijection between the walks you want and the matchings described above\n\n-these matchings can now be described by ballot sequences, which gives you the Catalan numbers (see Stanleys book on Catalan numbers)\n\nIf this is unclear, I can try to add details later. It can of course also be that I missed something in the problem description.",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1725372918,
+      "score": 2,
+      "link_id": "t3_1f7ui06",
+      "parent_id": "t3_1f7ui06"
+    },
+    {
+      "id": "ld3zbh5",
+      "body": "Check out Jirka Matouseks „33 Miniatures“ on applying LinAlg in Combinatorics. Each proof is short and beautiful.",
+      "author": "mathguy59",
+      "subreddit": "math",
+      "created_utc": 1720943624,
+      "score": 3,
+      "link_id": "t3_1e2t7u0",
+      "parent_id": "t3_1e2t7u0"
     }
   ]
 }

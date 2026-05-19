@@ -1,6 +1,18 @@
 {
   "username": "VermicelliStill7625",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cv484w",
+      "title": "Housing near UCLA for three month",
+      "author": "VermicelliStill7625",
+      "subreddit": "ucla",
+      "created_utc": 1716058061,
+      "score": 0,
+      "num_comments": 3,
+      "selftext": "Hey there,\n\nI will be visiting UCLA next year for three month as part of my Master Thesis (coming from Europe).\n\nThe housing situation in LA is very confusing to me. Does anyone here have any recommendations on where to look for housing? I found a bunch of websites with very high prices (3500 for a single room). Are these normal prices?\n\nMy budget is around 2000 per month. I do not mind commuting to UCLA (30-45min). \n\nAny comment or recommendation is very appreciated.",
+      "url": "https://www.reddit.com/r/ucla/comments/1cv484w/housing_near_ucla_for_three_month/"
+    }
+  ],
   "comments": [
     {
       "id": "l5si8vu",
@@ -91,6 +103,66 @@
       "score": 2,
       "link_id": "t3_1906kbb",
       "parent_id": "t3_1906kbb"
+    },
+    {
+      "id": "l85r56m",
+      "body": "Yeah, I don't know about that. It seems like you got a bit of a mess with terminology.\n\nI guess you should buy a textbook or look at a few basic youtube videos (there are great physics channels) about the big bang to get an understanding of what the Big Bang is.",
+      "author": "VermicelliStill7625",
+      "subreddit": "astrophysics",
+      "created_utc": 1718133067,
+      "score": 2,
+      "link_id": "t3_1ddkt7o",
+      "parent_id": "t3_1ddkt7o"
+    },
+    {
+      "id": "l5riq3j",
+      "body": "Hey, your description of BH is mostly incorrect. \n\nThe falling object will cross the event horizon and fall into the singularity in a finite time. It will not be able to tell when it crosses the event horizon though.\nAn outside observer will never see something cross the event horizon, the object will only beginn to appear redder due to gravitational redshift.\n\nIt all depends on the coordinate system you are referring to.\n\nFor an outside observer the Schwarzschild metric, which describes non rotating no charge black holes, has a singularity at the event horizon (r=2GM). If you describe an infalling object you (have to) transform the Schwarzschild metric to a frame where there is no singularity at the event Horizon.\n\nIf you wanna learn more about BH you have to study General Relativity. I think there is only so much one can learn from a qualitative perspective.",
+      "author": "VermicelliStill7625",
+      "subreddit": "cosmology",
+      "created_utc": 1716741454,
+      "score": 1,
+      "link_id": "t3_1d0wo2z",
+      "parent_id": "t3_1d0wo2z"
+    },
+    {
+      "id": "kwb7n8s",
+      "body": "Hey, MSc Physics student here with a focus on exoplanets.\n\nIf you are interested in Exoplanets and Astrobiology I would check how many cosmology courses you would habe to take. Cosmology is a completely different field of research.\n\nIf you want to focus on Exoplanets and Astrobiology I could recommend the University of Bern as well as ETH (I studied at both places). The University of Zurich also offers an astrophysics degree which might be worth checking out.\n\nIf you have specific questions you can DM me.",
+      "author": "VermicelliStill7625",
+      "subreddit": "askastronomy",
+      "created_utc": 1711265520,
+      "score": 1,
+      "link_id": "t3_1bkrbdj",
+      "parent_id": "t3_1bkrbdj"
+    },
+    {
+      "id": "kwb6rp6",
+      "body": "Hey, my girlfriend and I looked for an appartement in Zürich about a year ago and got exactly same message.\nI continued to text with him for a while, expressing my concerns about AirBnB (the platform does not work the way he described)\n\nIf the apartment is still on homegate I would report it, this is definitely a scam and it seems like this guy has been doing that for a while now.",
+      "author": "VermicelliStill7625",
+      "subreddit": "zurich",
+      "created_utc": 1711264848,
+      "score": 1,
+      "link_id": "t3_1bjpah9",
+      "parent_id": "t3_1bjpah9"
+    },
+    {
+      "id": "ki6ixx7",
+      "body": "Yes you are right. But the Schwarzschild metric describes a non-rotating black hole. In reality black holes not only rotate but also have a charge.\nA rotating black hole can be described by the Karr metric (named after Ray Karr). In fact Ray Karr published a paper recently, where he presumably found an error in some previous calculations. He concludes that rotating black holes do not even have a singularity at the center. (I am not able to comment on that further)\n\nThe Karr metric can not describe charged black holes.\n\nAs you can see there are a lot of simplifications involved when it comes to the Kruskal solution.\nIn addition to that a Wormhole would imply the existence of White Holes, which have never been detected and are not expected to exist according to most Astrophysicists.",
+      "author": "VermicelliStill7625",
+      "subreddit": "askastronomy",
+      "created_utc": 1705438952,
+      "score": 1,
+      "link_id": "t3_1981hn1",
+      "parent_id": "t1_ki6ee8x"
+    },
+    {
+      "id": "ki51g9n",
+      "body": "Wormholes and Antimatter are very different concepts. A Wormhole is a theoretical construct, based on General Relativity. I don't want to go into to much detail, but Wormholes are postulated in the maximally extend Schwarzschild Solution in General Relativity. Due to the fact that a lot of assumptions were made it is very unlikely that Wormholes exist.\n\nAntimatter on the other hand is very well established and can be produced here on Earth with high energy colliders. When Antimatter comes into contact with matter it would annihilate, releasing energy.\n\nFor the sake of the argument lets assume Wormholes exist. A Wormhole is a structure caused by curvature of spacetime. Anitmatter on the other hand is just regular matter with opposite quantum numbers (like charge and so on). So they are (as I said) different concepts and could not be thrown at each others.",
+      "author": "VermicelliStill7625",
+      "subreddit": "askastronomy",
+      "created_utc": 1705421455,
+      "score": 1,
+      "link_id": "t3_1981hn1",
+      "parent_id": "t3_1981hn1"
     }
   ]
 }

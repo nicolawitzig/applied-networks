@@ -1,6 +1,18 @@
 {
   "username": "Emotional_Jello_2119",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1ffvmyw",
+      "title": "Help importing .GR2 files into blender (collada add-on)",
+      "author": "Emotional_Jello_2119",
+      "subreddit": "BaldursGate3",
+      "created_utc": 1726236477,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "I am completely new to modding, I've been watching some tutorials and I wanted to try to import a .GR2 model to blender 3.6, so I did the following:\n\n1. Got the multitool \n2. Got the export tool and installed the .NET 8.0\n3. Installed blender 3.6 and the collada addons, I set the divine path to be the one with the divine.exe file.\n\nHowever when I try to import a .GR2 model I get the following message:\n\n`\"The LSLib path set in addon preferences is invalid. Cannot convert to GR2.\"`\n\nI've been searching for hours but I haven't found a solution, I've tried with multiple versions of the Export tool but the error persists, does anyone have any idea how to solve this?",
+      "url": "https://www.reddit.com/r/BaldursGate3/comments/1ffvmyw/help_importing_gr2_files_into_blender_collada/"
+    }
+  ],
   "comments": [
     {
       "id": "lt5avaf",
@@ -71,6 +83,36 @@
       "score": 1,
       "link_id": "t3_10hyspc",
       "parent_id": "t1_ld162eo"
+    },
+    {
+      "id": "lmebshx",
+      "body": "I've kept them together for years and never had a problem, however, my aviary is really big ( 5 x 3 meters or about 16 x 10 ft) with about 20 quails in it, so they have a lot of place to run and hide from one another.\nI also usually separate broody females to give them some privacy and keep the chicks safe.",
+      "author": "Emotional_Jello_2119",
+      "subreddit": "quails",
+      "created_utc": 1725946723,
+      "score": 3,
+      "link_id": "t3_1fd5ebn",
+      "parent_id": "t1_lmd9y3r"
+    },
+    {
+      "id": "llr35dw",
+      "body": "Same here, if my friend tries to join the game he gets stuck at 100% loading screen and then his game crashes, we tried with and without mods, we tried switching the host but then I am the one crashing...",
+      "author": "Emotional_Jello_2119",
+      "subreddit": "BaldursGate3",
+      "created_utc": 1725600295,
+      "score": 1,
+      "link_id": "t3_1fa1azz",
+      "parent_id": "t3_1fa1azz"
+    },
+    {
+      "id": "lfd1bwa",
+      "body": "Some of mine passed away in a similar way, I sent one to test to a vet lab and it turned out to be capillariosis. If she dies, keep the body in a well-sealed container in a cold environment and try to look for a vet that can test it, so you can prevent the others from getting sick too in case of a parasite.",
+      "author": "Emotional_Jello_2119",
+      "subreddit": "quails",
+      "created_utc": 1722186564,
+      "score": 10,
+      "link_id": "t3_1eeb3wc",
+      "parent_id": "t3_1eeb3wc"
     }
   ]
 }

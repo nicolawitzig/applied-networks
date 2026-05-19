@@ -22,6 +22,149 @@
       "num_comments": 4,
       "selftext": "I’m a US aerospace engineering student. Does ethz accept a lot of foreigners for their masters in engineering? I’m not sure if I have a shot. \n",
       "url": "https://www.reddit.com/r/ethz/comments/1enjgq0/worth_a_shot/"
+    },
+    {
+      "id": "1eslsal",
+      "title": "Masters ",
+      "author": "Open_Ad_8599",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723694462,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Anyone know some schools in Switzerland for a masters in Materials engineering as US citizen only speaking English. Besides ETH Zurich ",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1eslsal/masters/"
+    },
+    {
+      "id": "1eslqz3",
+      "title": "Masters ",
+      "author": "Open_Ad_8599",
+      "subreddit": "Switzerland",
+      "created_utc": 1723694359,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1eslqz3/masters/"
+    },
+    {
+      "id": "1eslq7h",
+      "title": "Masters ",
+      "author": "Open_Ad_8599",
+      "subreddit": "Switzerland",
+      "created_utc": 1723694289,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1eslq7h/masters/"
+    },
+    {
+      "id": "1eslozy",
+      "title": "Masters ",
+      "author": "Open_Ad_8599",
+      "subreddit": "engineering",
+      "created_utc": 1723694180,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/engineering/comments/1eslozy/masters/"
+    },
+    {
+      "id": "1esloqd",
+      "title": "Materials engineering schools Switzerland ",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1723694157,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "Anyone know some schools in Switzerland for a masters in Materials engineering as US citizen only speaking English. Besides ETH Zurich ",
+      "url": "https://www.reddit.com/r/aerospace/comments/1esloqd/materials_engineering_schools_switzerland/"
+    },
+    {
+      "id": "1el44f5",
+      "title": "Aerospace engineer US citizen Switzerland job hunt? ",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722904672,
+      "score": 1,
+      "num_comments": 22,
+      "selftext": "I'm about to graduate as an Aerospace Engineer as a Us citizen but I was wondering if it's possible for me to get an engineering job in Switzerland?",
+      "url": "https://www.reddit.com/r/aerospace/comments/1el44f5/aerospace_engineer_us_citizen_switzerland_job_hunt/"
+    },
+    {
+      "id": "1el3723",
+      "title": "US citizen job hunt in Switzerland?",
+      "author": "Open_Ad_8599",
+      "subreddit": "AerospaceEngineering",
+      "created_utc": 1722902126,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I’m about to graduate as an Aerospace Engineer as a US citizen but I was wondering if it’s possible for me to get an engineering job in Switzerland? \n",
+      "url": "https://www.reddit.com/r/AerospaceEngineering/comments/1el3723/us_citizen_job_hunt_in_switzerland/"
+    },
+    {
+      "id": "1e0nlbi",
+      "title": "M5 X timer camera on arduino ide ",
+      "author": "Open_Ad_8599",
+      "subreddit": "arduino",
+      "created_utc": 1720700397,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "Does the m5 x timer camera have a battery powerful enough to stream a live video broadcast from an arduino ide code on a web browser when the camera is unplugged? It works for 30 seconds then shuts off, I'm not sure if it's battery problem or a code problem",
+      "url": "https://www.reddit.com/r/arduino/comments/1e0nlbi/m5_x_timer_camera_on_arduino_ide/"
+    },
+    {
+      "id": "1e06263",
+      "title": "M5 X timer cam battery. ",
+      "author": "Open_Ad_8599",
+      "subreddit": "M5Stack",
+      "created_utc": 1720643371,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "Does the m5 x timer camera have a battery powerful enough to stream a live video broadcast from an arduino ide code on a web browser when the camera is unplugged? It works for 30 seconds then shuts off, I’m not sure if it’s battery problem or a code problem ",
+      "url": "https://www.reddit.com/r/M5Stack/comments/1e06263/m5_x_timer_cam_battery/"
+    },
+    {
+      "id": "1dtg5f9",
+      "title": "Arduino ide with vlc media player m5 x timer camera ",
+      "author": "Open_Ad_8599",
+      "subreddit": "arduino",
+      "created_utc": 1719905996,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Here is my code to do a live video stream of a m5 x timer camera on arduino ide but for some reason it doesn’t work when I try to play the stream on vlc media player. Any advice as to what could be going wrong? It just says on box media player cannot load \n\n\n#include \"WiFi.h\"\n#include \"ESPAsyncWebServer.h\"\n#include \"esp_camera.h\"\n\n// Pin definitions for M5Stack Timer-CAM\n#define PWDN_GPIO_NUM    -1\n#define RESET_GPIO_NUM   15\n#define XCLK_GPIO_NUM    27\n#define SIOD_GPIO_NUM    25\n#define SIOC_GPIO_NUM    23\n#define Y9_GPIO_NUM      19\n#define Y8_GPIO_NUM      36\n#define Y7_GPIO_NUM      18\n#define Y6_GPIO_NUM      39\n#define Y5_GPIO_NUM       5\n#define Y4_GPIO_NUM      34\n#define Y3_GPIO_NUM      35\n#define Y2_GPIO_NUM      32\n#define VSYNC_GPIO_NUM   22\n#define HREF_GPIO_NUM    26\n#define PCLK_GPIO_NUM    21\n\n// WiFi credentials\nconst char* ssid = \"\";\nconst char* password = \"\";\n\n// AsyncWebServer instance\nAsyncWebServer server(80);\n\nbool initCamera() {\n  camera_config_t config;\n  config.ledc_channel = LEDC_CHANNEL_0;\n  config.ledc_timer = LEDC_TIMER_0;\n  config.pin_d0 = Y2_GPIO_NUM;\n  config.pin_d1 = Y3_GPIO_NUM;\n  config.pin_d2 = Y4_GPIO_NUM;\n  config.pin_d3 = Y5_GPIO_NUM;\n  config.pin_d4 = Y6_GPIO_NUM;\n  config.pin_d5 = Y7_GPIO_NUM;\n  config.pin_d6 = Y8_GPIO_NUM;\n  config.pin_d7 = Y9_GPIO_NUM;\n  config.pin_xclk = XCLK_GPIO_NUM;\n  config.pin_pclk = PCLK_GPIO_NUM;\n  config.pin_vsync = VSYNC_GPIO_NUM;\n  config.pin_href = HREF_GPIO_NUM;\n  config.pin_sccb_sda = SIOD_GPIO_NUM; // Updated pin name\n  config.pin_sccb_scl = SIOC_GPIO_NUM; // Updated pin name\n  config.pin_pwdn = PWDN_GPIO_NUM;\n  config.pin_reset = RESET_GPIO_NUM;\n  config.xclk_freq_hz = 20000000;\n  config.pixel_format = PIXFORMAT_JPEG;\n  config.frame_size = FRAMESIZE_QVGA; // Adjust frame size for streaming, e.g., FRAMESIZE_QVGA (320x240)\n  config.jpeg_quality = 10; // Adjust quality for video\n  config.fb_count = 2; // Use multiple frame buffers\n\n  esp_err_t result = esp_camera_init(&config);\n  \n  if (result != ESP_OK) {\n    Serial.printf(\"Camera init failed with error 0x%x\", result);\n    return false;\n  }\n\n  return true;\n}\n\nvoid handlePicture(AsyncWebServerRequest *request) {\n  camera_fb_t *frame = esp_camera_fb_get();\n  if (!frame) {\n    request->send(500, \"text/plain\", \"Failed to capture picture\");\n    return;\n  }\n  AsyncWebServerResponse *response = request->beginResponse_P(200, \"image/jpeg\", frame->buf, frame->len);\n  response->addHeader(\"Content-Disposition\", \"inline; filename=capture.jpg\");\n  request->send(response);\n  esp_camera_fb_return(frame);\n}\n\nvoid handleStream(AsyncWebServerRequest *request) {\n  AsyncResponseStream *response = request->beginResponseStream(\"multipart/x-mixed-replace; boundary=frameboundary\");\n  response->addHeader(\"Cache-Control\", \"no-store\");\n\n  request->send(response);\n  \n  while(request->client()->connected()) {\n    camera_fb_t *frame = esp_camera_fb_get();\n    if (!frame) {\n      Serial.println(\"Failed to capture frame\");\n      return;\n    }\n    response->printf(\"--frameboundary\\r\\n\");\n    response->printf(\"Content-Type: image/jpeg\\r\\n\");\n    response->printf(\"Content-Length: %u\\r\\n\\r\\n\", frame->len);\n    response->write(frame->buf, frame->len);\n    response->printf(\"\\r\\n\");\n    esp_camera_fb_return(frame);\n    delay(50); // Small delay to allow frame transmission\n  }\n}\n\nvoid setup() {\n  Serial.begin(115200);\n\n  if (!initCamera()) {\n    Serial.println(\"Failed to initialize camera\");\n    return;\n  }\n\n  WiFi.begin(ssid, password);\n  while (WiFi.status() != WL_CONNECTED) {\n    delay(1000);\n    Serial.println(\"Connecting to WiFi..\");\n  }\n  Serial.println(\"WiFi connected\");\n  Serial.print(\"IP Address: \");\n  Serial.println(WiFi.localIP());\n\n  // Routes for handling requests\n  server.on(\"/picture\", HTTP_GET, handlePicture);\n  server.on(\"/stream\", HTTP_GET, handleStream);\n\n  server.begin();\n  Serial.println(\"HTTP server started\");\n}\n\nvoid loop() {\n  // This loop is intentionally left empty because all operations are handled in callbacks.\n}\n\n",
+      "url": "https://www.reddit.com/r/arduino/comments/1dtg5f9/arduino_ide_with_vlc_media_player_m5_x_timer/"
+    },
+    {
+      "id": "1dtg50x",
+      "title": "Esp 32 Vlc media player arduino ide m5 x timer camera ",
+      "author": "Open_Ad_8599",
+      "subreddit": "esp32",
+      "created_utc": 1719905944,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Here is my code to do a live video stream of a m5 x timer camera on arduino ide but for some reason it doesn’t work when I try to play the stream on vlc media player. Any advice as to what could be going wrong? It just says on box media player cannot load \n\n\n#include \"WiFi.h\"\n#include \"ESPAsyncWebServer.h\"\n#include \"esp_camera.h\"\n\n// Pin definitions for M5Stack Timer-CAM\n#define PWDN_GPIO_NUM    -1\n#define RESET_GPIO_NUM   15\n#define XCLK_GPIO_NUM    27\n#define SIOD_GPIO_NUM    25\n#define SIOC_GPIO_NUM    23\n#define Y9_GPIO_NUM      19\n#define Y8_GPIO_NUM      36\n#define Y7_GPIO_NUM      18\n#define Y6_GPIO_NUM      39\n#define Y5_GPIO_NUM       5\n#define Y4_GPIO_NUM      34\n#define Y3_GPIO_NUM      35\n#define Y2_GPIO_NUM      32\n#define VSYNC_GPIO_NUM   22\n#define HREF_GPIO_NUM    26\n#define PCLK_GPIO_NUM    21\n\n// WiFi credentials\nconst char* ssid = \"\";\nconst char* password = \"\";\n\n// AsyncWebServer instance\nAsyncWebServer server(80);\n\nbool initCamera() {\n  camera_config_t config;\n  config.ledc_channel = LEDC_CHANNEL_0;\n  config.ledc_timer = LEDC_TIMER_0;\n  config.pin_d0 = Y2_GPIO_NUM;\n  config.pin_d1 = Y3_GPIO_NUM;\n  config.pin_d2 = Y4_GPIO_NUM;\n  config.pin_d3 = Y5_GPIO_NUM;\n  config.pin_d4 = Y6_GPIO_NUM;\n  config.pin_d5 = Y7_GPIO_NUM;\n  config.pin_d6 = Y8_GPIO_NUM;\n  config.pin_d7 = Y9_GPIO_NUM;\n  config.pin_xclk = XCLK_GPIO_NUM;\n  config.pin_pclk = PCLK_GPIO_NUM;\n  config.pin_vsync = VSYNC_GPIO_NUM;\n  config.pin_href = HREF_GPIO_NUM;\n  config.pin_sccb_sda = SIOD_GPIO_NUM; // Updated pin name\n  config.pin_sccb_scl = SIOC_GPIO_NUM; // Updated pin name\n  config.pin_pwdn = PWDN_GPIO_NUM;\n  config.pin_reset = RESET_GPIO_NUM;\n  config.xclk_freq_hz = 20000000;\n  config.pixel_format = PIXFORMAT_JPEG;\n  config.frame_size = FRAMESIZE_QVGA; // Adjust frame size for streaming, e.g., FRAMESIZE_QVGA (320x240)\n  config.jpeg_quality = 10; // Adjust quality for video\n  config.fb_count = 2; // Use multiple frame buffers\n\n  esp_err_t result = esp_camera_init(&config);\n  \n  if (result != ESP_OK) {\n    Serial.printf(\"Camera init failed with error 0x%x\", result);\n    return false;\n  }\n\n  return true;\n}\n\nvoid handlePicture(AsyncWebServerRequest *request) {\n  camera_fb_t *frame = esp_camera_fb_get();\n  if (!frame) {\n    request->send(500, \"text/plain\", \"Failed to capture picture\");\n    return;\n  }\n  AsyncWebServerResponse *response = request->beginResponse_P(200, \"image/jpeg\", frame->buf, frame->len);\n  response->addHeader(\"Content-Disposition\", \"inline; filename=capture.jpg\");\n  request->send(response);\n  esp_camera_fb_return(frame);\n}\n\nvoid handleStream(AsyncWebServerRequest *request) {\n  AsyncResponseStream *response = request->beginResponseStream(\"multipart/x-mixed-replace; boundary=frameboundary\");\n  response->addHeader(\"Cache-Control\", \"no-store\");\n\n  request->send(response);\n  \n  while(request->client()->connected()) {\n    camera_fb_t *frame = esp_camera_fb_get();\n    if (!frame) {\n      Serial.println(\"Failed to capture frame\");\n      return;\n    }\n    response->printf(\"--frameboundary\\r\\n\");\n    response->printf(\"Content-Type: image/jpeg\\r\\n\");\n    response->printf(\"Content-Length: %u\\r\\n\\r\\n\", frame->len);\n    response->write(frame->buf, frame->len);\n    response->printf(\"\\r\\n\");\n    esp_camera_fb_return(frame);\n    delay(50); // Small delay to allow frame transmission\n  }\n}\n\nvoid setup() {\n  Serial.begin(115200);\n\n  if (!initCamera()) {\n    Serial.println(\"Failed to initialize camera\");\n    return;\n  }\n\n  WiFi.begin(ssid, password);\n  while (WiFi.status() != WL_CONNECTED) {\n    delay(1000);\n    Serial.println(\"Connecting to WiFi..\");\n  }\n  Serial.println(\"WiFi connected\");\n  Serial.print(\"IP Address: \");\n  Serial.println(WiFi.localIP());\n\n  // Routes for handling requests\n  server.on(\"/picture\", HTTP_GET, handlePicture);\n  server.on(\"/stream\", HTTP_GET, handleStream);\n\n  server.begin();\n  Serial.println(\"HTTP server started\");\n}\n\nvoid loop() {\n  // This loop is intentionally left empty because all operations are handled in callbacks.\n}\n\n",
+      "url": "https://www.reddit.com/r/esp32/comments/1dtg50x/esp_32_vlc_media_player_arduino_ide_m5_x_timer/"
+    },
+    {
+      "id": "1dsr5rc",
+      "title": "Esp32 m5 x timer camera ",
+      "author": "Open_Ad_8599",
+      "subreddit": "esp32",
+      "created_utc": 1719835019,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "Anyone have an arduino ide code to video steam a m5 x timer camera? ",
+      "url": "https://www.reddit.com/r/esp32/comments/1dsr5rc/esp32_m5_x_timer_camera/"
+    },
+    {
+      "id": "1dsqv7a",
+      "title": "Help finding this code ",
+      "author": "Open_Ad_8599",
+      "subreddit": "esp32",
+      "created_utc": 1719834026,
+      "score": 0,
+      "num_comments": 6,
+      "selftext": "I found this code on arduino ide but I lost the source of where I found it does anyone know where this code comes from? \n\n#include \"battery.h\"\n#include \"esp_camera.h\"\n#include <WiFi.h>\n#include \"soc/soc.h\"\n#include \"soc/rtc_cntl_reg.h\"\n\n#include \"camera_pins.h\"\n\nconst char* ssid = \nconst char* password = \n\nvoid startCameraServer();\n\nvoid setup() {\n    Serial.begin(115200);\n    WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);  // disable   detector\n    bat_init();\n    bat_hold_output();\n    Serial.setDebugOutput(true);\n    Serial.println();\n    pinMode(2, OUTPUT);\n    digitalWrite(2, HIGH);\n\n    camera_config_t config;\n    config.ledc_channel = LEDC_CHANNEL_0;\n    config.ledc_timer   = LEDC_TIMER_0;\n    config.pin_d0       = Y2_GPIO_NUM;\n    config.pin_d1       = Y3_GPIO_NUM;\n    config.pin_d2       = Y4_GPIO_NUM;\n    config.pin_d3       = Y5_GPIO_NUM;\n    config.pin_d4       = Y6_GPIO_NUM;\n    config.pin_d5       = Y7_GPIO_NUM;\n    config.pin_d6       = Y8_GPIO_NUM;\n    config.pin_d7       = Y9_GPIO_NUM;\n    config.pin_xclk     = XCLK_GPIO_NUM;\n    config.pin_pclk     = PCLK_GPIO_NUM;\n    config.pin_vsync    = VSYNC_GPIO_NUM;\n    config.pin_href     = HREF_GPIO_NUM;\n    config.pin_sscb_sda = SIOD_GPIO_NUM;\n    config.pin_sscb_scl = SIOC_GPIO_NUM;\n    config.pin_pwdn     = PWDN_GPIO_NUM;\n    config.pin_reset    = RESET_GPIO_NUM;\n    config.xclk_freq_hz = 20000000;\n    config.pixel_format = PIXFORMAT_JPEG;\n    config.frame_size   = FRAMESIZE_UXGA;\n    config.jpeg_quality = 10;\n    config.fb_count     = 2;\n\n    // camera init\n    esp_err_t err = esp_camera_init(&config);\n    if (err != ESP_OK) {\n        Serial.printf(\"Camera init failed with error 0x%x\", err);\n        return;\n    }\n\n    sensor_t *s = esp_camera_sensor_get();\n    // initial sensors are flipped vertically and colors are a bit saturated\n    s->set_vflip(s, 1);        // flip it back\n    s->set_brightness(s, 1);   // up the blightness just a bit\n    s->set_saturation(s, -2);  // lower the saturation\n\n    // drop down frame size for higher initial frame rate\n    s->set_framesize(s, FRAMESIZE_QVGA);\n\n    Serial.printf(\"Connect to %s, %s\\r\\n\", ssid, password);\n\n    WiFi.begin(ssid, password);\n\n    while (WiFi.status() != WL_CONNECTED) {\n        delay(500);\n        Serial.print(\".\");\n    }\n    Serial.println(\"\");\n    Serial.println(\"WiFi connected\");\n\n    // If you want to use AP mode, you can use the following code\n    // WiFi.softAP(ssid, password);\n    // IPAddress IP = WiFi.softAPIP();\n    // Serial.print(\"AP IP address: \");\n    // Serial.println(IP);\n\n    startCameraServer();\n\n    Serial.print(\"Camera Ready! Use 'http://\");\n    Serial.print(WiFi.localIP());\n    Serial.println(\"' to connect\");\n}\n\nvoid loop() {\n    // put your main code here, to run repeatedly:\n    delay(100);\n    digitalWrite(2, HIGH);\n    delay(100);\n    digitalWrite(2, LOW);\n}\n\n\n\n",
+      "url": "https://www.reddit.com/r/esp32/comments/1dsqv7a/help_finding_this_code/"
     }
   ],
   "comments": [
@@ -44,6 +187,196 @@
       "score": 1,
       "link_id": "t3_1enjgq0",
       "parent_id": "t1_lh6s4a8"
+    },
+    {
+      "id": "luvs4kz",
+      "body": "No you can’t",
+      "author": "Open_Ad_8599",
+      "subreddit": "whisper",
+      "created_utc": 1730479735,
+      "score": 2,
+      "link_id": "t3_1geoiy9",
+      "parent_id": "t1_luc1tbn"
+    },
+    {
+      "id": "liajwsx",
+      "body": "Sorry you are so unhappy in life. Didn’t realize a question could rile you up so much boo hoo",
+      "author": "Open_Ad_8599",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723751751,
+      "score": 1,
+      "link_id": "t3_1eslsal",
+      "parent_id": "t1_li821q7"
+    },
+    {
+      "id": "li6rv6v",
+      "body": "Anyone know some schools in Switzerland for a masters in Materials engineering as US citizen only speaking English. Besides ETH Zurich",
+      "author": "Open_Ad_8599",
+      "subreddit": "engineering",
+      "created_utc": 1723694258,
+      "score": 1,
+      "link_id": "t3_1d70rtq",
+      "parent_id": "t3_1d70rtq"
+    },
+    {
+      "id": "lh4p8jd",
+      "body": "As of now, I’m applying to every aero job I can find lol and when the time is right I’ll apply for masters this year as well. If I don’t get into the masters program I want then yes I’ll do a job first and then masters. But it’d worth trying at least. But I’m doing both in case haha",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1723134445,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lh4oyos"
+    },
+    {
+      "id": "lh4nur2",
+      "body": "Well I want to get a masters before I get a job",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1723134026,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lh4nr6p"
+    },
+    {
+      "id": "lgsbtl2",
+      "body": "Yes Google at least says so. It says average for USA is about 92 and Swiss is 111.\n\nAnd okay I’ll see if I can look into that. \n\nI greatly appreciate your help you have been extremely helpful thank you!!",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722958666,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgsbcr9"
+    },
+    {
+      "id": "lgsatr4",
+      "body": "But Google says in Switzerland aerospace engineers are paid more there? And I did see some requirements on the job listing it said but perhaps they wouldn’t let it hinder them im unsure. Why do you think a Swiss masters wouldn’t  hold its value in the US? Aren’t Swiss colleges great schools",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722958350,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgsahor"
+    },
+    {
+      "id": "lgs9h3y",
+      "body": "That is true, and if I have a masters from there i guess it should increase my odds. The problem is language too cause if im in Geneva I need French but if im in Zurich it’s German and elsewhere Italian so like I can’t learn all those languages so that could also potentially hinder me? And I’m unsure l perhaps  I’d get paid a lot less than I would in the US since I would be a. Foreigner? I’m unsure, I want to move out there but I’m questioning if it’s plausible",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722957923,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgs93jz"
+    },
+    {
+      "id": "lgs8a4v",
+      "body": "I’m surprised I’d think European countries don’t want to hire foreigners even with experience in the US. And oh no I’d think Swiss schools are so good that US would value it, I’d hate to master there, not get a job, then not have it help me in US. This is hard lol and maybe the aero jobs in Swiss won’t pay me as high since I couldn’t get security clearance, that is a problem lol so maybe it’s not worth it",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722957545,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgs7v2o"
+    },
+    {
+      "id": "lgs6hag",
+      "body": "Np I will restate what I said, I said if I was able to get a masters degree in aerospace in Swiss would it limit my chances of getting a good job in the US? And would it help my odds of getting aerospace in another country as well if I couldn’t get Swiss even with the masters? I’m a US citizen",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722956971,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgs68mc"
+    },
+    {
+      "id": "lgs48jh",
+      "body": "Can I send you a dm if you don’t mind?",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722956251,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgs3mlz"
+    },
+    {
+      "id": "lgs2vc4",
+      "body": "I was considering perhaps Copenhagen too but Switzerland would be ideal. And perhaps if I could get a masters in Switzerland it could greatly increase my odds of getting a job in an another country if I couldn’t get it in Swiss?",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722955815,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgs2mjg"
+    },
+    {
+      "id": "lgs0v86",
+      "body": "I was considering trying to apply for a masters degree in Switzerland, do you think that would increase my odds",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722955166,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgrrmp7"
+    },
+    {
+      "id": "lgs0r2w",
+      "body": "But they only speak German In part of Switzerland, so I may need Italian who knows haha",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722955127,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgqttvs"
+    },
+    {
+      "id": "lgpybab",
+      "body": "I’m not sure, I’m considering mastering there to increase my odds? Just don’t know which schools offer the program yet I need to look into it",
+      "author": "Open_Ad_8599",
+      "subreddit": "aerospace",
+      "created_utc": 1722916685,
+      "score": 1,
+      "link_id": "t3_1el44f5",
+      "parent_id": "t1_lgpy87g"
+    },
+    {
+      "id": "lgoxx7p",
+      "body": "I’m about to graduate as an Aerospace Engineer as a US citizen but I was wondering if it’s possible for me to get an engineering job in Switzerland?",
+      "author": "Open_Ad_8599",
+      "subreddit": "AerospaceEngineering",
+      "created_utc": 1722902138,
+      "score": 1,
+      "link_id": "t3_1ehev3v",
+      "parent_id": "t3_1ehev3v"
+    },
+    {
+      "id": "lb9ha9d",
+      "body": "Looks like that is just for an image not video",
+      "author": "Open_Ad_8599",
+      "subreddit": "esp32",
+      "created_utc": 1719915106,
+      "score": 1,
+      "link_id": "t3_1dsqv7a",
+      "parent_id": "t1_lb4a8s0"
+    },
+    {
+      "id": "lb9eyoa",
+      "body": "That code doesn’t appear to work, I have that installed and the last bit with the battery is confusing it doesn’t provide the battery.h file so it gives error",
+      "author": "Open_Ad_8599",
+      "subreddit": "esp32",
+      "created_utc": 1719913515,
+      "score": 1,
+      "link_id": "t3_1dsqv7a",
+      "parent_id": "t1_lb49igs"
+    },
+    {
+      "id": "lb44yii",
+      "body": "I couldn’t seem to find the right code when I searched that. I’m trying to make a video steam for the m5 x timer camera and that code worked but somehow the battery.h file got deleted and since I can’t find the original source of the code I can’t make the code work since I don’t have that file",
+      "author": "Open_Ad_8599",
+      "subreddit": "esp32",
+      "created_utc": 1719835165,
+      "score": 1,
+      "link_id": "t3_1dsqv7a",
+      "parent_id": "t1_lb44bes"
     }
   ]
 }

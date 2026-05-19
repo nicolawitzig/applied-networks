@@ -1,6 +1,51 @@
 {
   "username": "fi-le",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1djpjxa",
+      "title": "A Website for Drawing and Manipulating Knot Diagrams in Real Time",
+      "author": "fi-le",
+      "subreddit": "topology",
+      "created_utc": 1718819904,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://fi-le.net/knottingham/"
+    },
+    {
+      "id": "19anfmb",
+      "title": "A fun sum that you can solve, but computer algebra systems can't",
+      "author": "fi-le",
+      "subreddit": "mathriddles",
+      "created_utc": 1705682677,
+      "score": 8,
+      "num_comments": 6,
+      "selftext": "Find a closed form expression for the infinite sum ∑ Fib(n)/n! starting at n=0, where Fib(n) is the nth Fibonacci number.\n\nComputer help is allowed, but not needed. There is a nice trick. \nIf you need a hint, feel free to ask.",
+      "url": "https://www.reddit.com/r/mathriddles/comments/19anfmb/a_fun_sum_that_you_can_solve_but_computer_algebra/"
+    },
+    {
+      "id": "199tz9u",
+      "title": "Drawing and Editing Knot Diagrams in the Browser",
+      "author": "fi-le",
+      "subreddit": "opensource",
+      "created_utc": 1705595097,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://github.com/file-acomplaint/knottingham"
+    },
+    {
+      "id": "1995dgh",
+      "title": "A Webpage for Drawing and Manipulating Knots",
+      "author": "fi-le",
+      "subreddit": "InternetIsBeautiful",
+      "created_utc": 1705519933,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "",
+      "url": "https://fi-le.net/knottingham"
+    }
+  ],
   "comments": [
     {
       "id": "kvv93iv",
@@ -21,6 +66,56 @@
       "score": 3,
       "link_id": "t3_1b5ipan",
       "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "kiwuhbo",
+      "body": "Oh wow, I didn't know that. Cool!",
+      "author": "fi-le",
+      "subreddit": "mathriddles",
+      "created_utc": 1705857661,
+      "score": 1,
+      "link_id": "t3_19anfmb",
+      "parent_id": "t1_kiwr8mu"
+    },
+    {
+      "id": "kipvhol",
+      "body": "Some really nice solutions in here! I had a bit of a curveball approach that is maybe not as fast, but provides a bit of a different perspective: \n\n[Consider the powers of the matrix A :=\n\n1 1\n\n1 0\n\nand notice they generate the Fibonacci numbers in all entries. The upper left entry of the matrix exponential exp(A) therefore contains our solution. We can then calculate the eigendecomposition A=P^-1DP and find eigenvalues r=(1+sqrt(5))/2, s=(1-sqrt(5))/2. Now we see that exp(A) = P^-1 exp(D) P to solve the matrix exponential. In particular, the result is a linear combination of e^r and e^s. The explicit calculation gives (e^r-e^s)/sqrt(5).\n](#spoiler)",
+      "author": "fi-le",
+      "subreddit": "mathriddles",
+      "created_utc": 1705742517,
+      "score": 1,
+      "link_id": "t3_19anfmb",
+      "parent_id": "t3_19anfmb"
+    },
+    {
+      "id": "ki03vd8",
+      "body": "That's very nice of you, thanks for using it!",
+      "author": "fi-le",
+      "subreddit": "math",
+      "created_utc": 1705344218,
+      "score": 1,
+      "link_id": "t3_18tshjv",
+      "parent_id": "t1_khw9ltr"
+    },
+    {
+      "id": "kh75nwx",
+      "body": "Done, there are now buttons for calculating the Jones and HOMFLY polynomial: https://fi-le.net/knottingham",
+      "author": "fi-le",
+      "subreddit": "math",
+      "created_utc": 1704890138,
+      "score": 1,
+      "link_id": "t3_18tshjv",
+      "parent_id": "t1_kg12lvk"
+    },
+    {
+      "id": "kfyctv6",
+      "body": "Thanks for the kind words!",
+      "author": "fi-le",
+      "subreddit": "coolgithubprojects",
+      "created_utc": 1704184341,
+      "score": 1,
+      "link_id": "t3_18ujfwg",
+      "parent_id": "t1_kfx2wy5"
     }
   ]
 }

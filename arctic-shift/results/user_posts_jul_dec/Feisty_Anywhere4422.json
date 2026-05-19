@@ -33,6 +33,28 @@
       "num_comments": 6,
       "selftext": "How does the travel look like from Winterthur to Zürich? If I am unable to find an apartment in city, is it advisable to live in Winterthur?",
       "url": "https://www.reddit.com/r/ethz/comments/1elezsq/is_living_in_winterthur_bad_a_idea/"
+    },
+    {
+      "id": "1g5vgkd",
+      "title": "Can't delete my eSIM",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729183794,
+      "score": 6,
+      "num_comments": 14,
+      "selftext": "I used a Saily eSIM on my S23 for the last month. It expired yesterday, and I tried to remove it today. But I can't turn the sim off, neither can I remove it (can't connect with eSIM, try again later). I have tried rebooting, clearing network preferences but no luck so far. The eSIM is just stuck in my phone :(\n\nWhat should I do?",
+      "url": "https://www.reddit.com/r/samsung/comments/1g5vgkd/cant_delete_my_esim/"
+    },
+    {
+      "id": "1flzgy4",
+      "title": "Can I purchase Gomo sim in person",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "Switzerland",
+      "created_utc": 1726912284,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1flzgy4/can_i_purchase_gomo_sim_in_person/"
     }
   ],
   "comments": [
@@ -125,6 +147,306 @@
       "score": 2,
       "link_id": "t3_1elezsq",
       "parent_id": "t1_lgr8sol"
+    },
+    {
+      "id": "m31ni4o",
+      "body": "Samsung is suffering from success",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1734731357,
+      "score": 1,
+      "link_id": "t3_1hi67xn",
+      "parent_id": "t3_1hi67xn"
+    },
+    {
+      "id": "m1jk4as",
+      "body": "Bro already knows how to generate clocks. Digital IC designer for sure.",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "mildlyinteresting",
+      "created_utc": 1733933867,
+      "score": 1,
+      "link_id": "t3_1hb6brp",
+      "parent_id": "t3_1hb6brp"
+    },
+    {
+      "id": "lxco4xi",
+      "body": "Nah,  he'd win",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "ChatGPT",
+      "created_utc": 1731714451,
+      "score": 6,
+      "link_id": "t3_1gs6cn9",
+      "parent_id": "t3_1gs6cn9"
+    },
+    {
+      "id": "lw1mwca",
+      "body": "Replace Fahrenheit and Kelvin",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "memes",
+      "created_utc": 1731051595,
+      "score": 0,
+      "link_id": "t3_1gm1eyz",
+      "parent_id": "t3_1gm1eyz"
+    },
+    {
+      "id": "lteom4p",
+      "body": "Glad it worked!!",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729717809,
+      "score": 1,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t1_ltejwq7"
+    },
+    {
+      "id": "lszafmb",
+      "body": "I saw this exact poster",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "attackontitan",
+      "created_utc": 1729502471,
+      "score": 1,
+      "link_id": "t3_1g7xrh4",
+      "parent_id": "t3_1g7xrh4"
+    },
+    {
+      "id": "lswfhvm",
+      "body": "Even Myers could never lay a finger on her",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "Eyebleach",
+      "created_utc": 1729456738,
+      "score": 23,
+      "link_id": "t3_1g82zrc",
+      "parent_id": "t3_1g82zrc"
+    },
+    {
+      "id": "lsjzql4",
+      "body": "I have the fix lads. The problem occurs with expired eSIMs (if they were not deleted before they expire). The error message upon trying to delete it - \"failed to establish connection with sim\". \n\nLooks like the phone seraches for some kind of connectivity with the provider before deleting it. You can bypass this by\n\n- go to \"connections->mobile networks->network operators\" and choose the eSIM slot\n\n- Deselect \"Select automatically\"\n\n- Scan for operators\n\n- Know which one(s) your sim uses, and choose ANYTHING BUT THAT(THOSE) ONE(S)\n\n- In a few seconds, your phone should show \"Emergency calls only\" for the eSIM\n\n- Now go to \"connections->SIM manager\" and you will be able to delete the eSIM",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729271304,
+      "score": 3,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t3_1g5vgkd"
+    },
+    {
+      "id": "lsjwjr5",
+      "body": "iPhone don't even have dual sim slots",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729270306,
+      "score": 0,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t1_lsjl43e"
+    },
+    {
+      "id": "lsjceu3",
+      "body": "Did they fix it? I can't use a second physical sim of I don't remove the esim",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729263925,
+      "score": 1,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t1_lsj74mg"
+    },
+    {
+      "id": "lsi8iyn",
+      "body": "It is stuck on the loading screen",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729247901,
+      "score": 1,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t1_lsi7ae4"
+    },
+    {
+      "id": "lsi1y4z",
+      "body": "Didn't work :(",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729243740,
+      "score": 1,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t1_lseqxgy"
+    },
+    {
+      "id": "lshv4b0",
+      "body": "I had a travel eSIM for a month and it expired. Apps like Saily give you eSIMs but only for internet without a number",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "samsung",
+      "created_utc": 1729238973,
+      "score": 2,
+      "link_id": "t3_1g5vgkd",
+      "parent_id": "t1_lshu3jt"
+    },
+    {
+      "id": "locehca",
+      "body": "I had the document of matriculation by now last year",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "tumunich",
+      "created_utc": 1727002337,
+      "score": 1,
+      "link_id": "t3_1fm58dh",
+      "parent_id": "t3_1fm58dh"
+    },
+    {
+      "id": "lo539ry",
+      "body": "Is that really something new?",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "zurich",
+      "created_utc": 1726880278,
+      "score": 1,
+      "link_id": "t3_1floewk",
+      "parent_id": "t1_lo4m0t6"
+    },
+    {
+      "id": "llmej94",
+      "body": "![img](emote|t5_2qhta|7952)![img](emote|t5_2qhta|7952)",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "cats",
+      "created_utc": 1725540918,
+      "score": 2,
+      "link_id": "t3_1f9gi5u",
+      "parent_id": "t1_llljnvl"
+    },
+    {
+      "id": "llm6wex",
+      "body": "Time to switch to Linux",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1725537754,
+      "score": 5,
+      "link_id": "t3_1f9j6pc",
+      "parent_id": "t3_1f9j6pc"
+    },
+    {
+      "id": "llflecy",
+      "body": "For me it was a part of the application on tum online",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "tumunich",
+      "created_utc": 1725434728,
+      "score": 1,
+      "link_id": "t3_1f89iqv",
+      "parent_id": "t3_1f89iqv"
+    },
+    {
+      "id": "lldk7b4",
+      "body": "If you're masters you're probably gonna have to find a place yourself",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "tumunich",
+      "created_utc": 1725401332,
+      "score": 0,
+      "link_id": "t3_1f89iqv",
+      "parent_id": "t3_1f89iqv"
+    },
+    {
+      "id": "ll9f7wq",
+      "body": "Who are they?",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "KanojoOkarishimasu",
+      "created_utc": 1725340067,
+      "score": 2,
+      "link_id": "t3_1f7rb8t",
+      "parent_id": "t3_1f7rb8t"
+    },
+    {
+      "id": "lkvd5yi",
+      "body": "What happens if a Titan gets pregnant?",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "okbuddyreiner",
+      "created_utc": 1725129471,
+      "score": 1,
+      "link_id": "t3_1f5p9nb",
+      "parent_id": "t3_1f5p9nb"
+    },
+    {
+      "id": "lkaztf8",
+      "body": "They all have the same body ...",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "5ToubunNoHanayome",
+      "created_utc": 1724829102,
+      "score": 9,
+      "link_id": "t3_1f2fe7d",
+      "parent_id": "t1_lk7fqqf"
+    },
+    {
+      "id": "lk7x9u5",
+      "body": "Guys please stop using code runner :(",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "vscode",
+      "created_utc": 1724785246,
+      "score": 4,
+      "link_id": "t3_1f2gln0",
+      "parent_id": "t3_1f2gln0"
+    },
+    {
+      "id": "ljzmfm6",
+      "body": "Before UV: Oh it's just a platipus \nAfter YUV: PERRY THE PLATIPUS!!",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1724665767,
+      "score": 2,
+      "link_id": "t3_1f1j0eu",
+      "parent_id": "t3_1f1j0eu"
+    },
+    {
+      "id": "lj0azja",
+      "body": "If you are getting a house in Munich or Garching, just take it! I've seen people cry cause they can't find one themselves",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "tumunich",
+      "created_utc": 1724140176,
+      "score": 3,
+      "link_id": "t3_1evxdfs",
+      "parent_id": "t3_1evxdfs"
+    },
+    {
+      "id": "lig10nl",
+      "body": "I watched a 2018 video today and it said 6 years ago",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "memes",
+      "created_utc": 1723832362,
+      "score": 17,
+      "link_id": "t3_1etv0gm",
+      "parent_id": "t3_1etv0gm"
+    },
+    {
+      "id": "lig0knb",
+      "body": "Meanwhile MATLAB programmers ....",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1723832220,
+      "score": 1,
+      "link_id": "t3_1etiwxh",
+      "parent_id": "t3_1etiwxh"
+    },
+    {
+      "id": "li1q60e",
+      "body": "It will kill you with its cuteness",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "cats",
+      "created_utc": 1723627896,
+      "score": 16,
+      "link_id": "t3_1erwhup",
+      "parent_id": "t3_1erwhup"
+    },
+    {
+      "id": "lh6a93x",
+      "body": "You will never know... I got a shared apartment with 6 people. But you might also get a studio. Many friends of mine got those",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "tumunich",
+      "created_utc": 1723151680,
+      "score": 1,
+      "link_id": "t3_1enffvi",
+      "parent_id": "t3_1enffvi"
+    },
+    {
+      "id": "lh5lrey",
+      "body": "What do you mean by \"slick\" xd?",
+      "author": "Feisty_Anywhere4422",
+      "subreddit": "vscode",
+      "created_utc": 1723144305,
+      "score": 2,
+      "link_id": "t3_1enda6a",
+      "parent_id": "t3_1enda6a"
     }
   ]
 }

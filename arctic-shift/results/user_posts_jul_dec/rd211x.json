@@ -1,6 +1,40 @@
 {
   "username": "rd211x",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1ffz3l2",
+      "title": "PC Crashes even in BIOS",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726245214,
+      "score": 1,
+      "num_comments": 7,
+      "selftext": "My build is the following:\n- Ryzen 9 7950x3d\n- Rtx4090\n- Gigabyte Aorus Elite x670 AX\n- 128gb ram ddr5\n\n\nMy build shuts down without any reason randomly. After about 10 minutes in windows and instantly while trying to boot ubuntu. The same issue can also happen in BIOS after some time.\n\nMemtest86 fails even if using only one ram stick and have so far tried 2 of them individually.\n\nI updated the bios to the latest version already.\n\nAnyone got any idea what the problem might be?\n\nPC worked for about a month perfectly fine. Even now works during stress tests but will crash after at some point.",
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1ffz3l2/pc_crashes_even_in_bios/"
+    },
+    {
+      "id": "1ffx6oo",
+      "title": "PC crashes even in BIOS",
+      "author": "rd211x",
+      "subreddit": "PcBuild",
+      "created_utc": 1726240416,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "My build is the following:\n- Ryzen 9 7950x3d\n- Rtx4090\n- Gigabyte Aorus Elite x670 AX\n- 128gb ram ddr5\n\n\nMy build shuts down without any reason randomly. After about 10 minutes in windows and instantly while trying to boot ubuntu. The same issue can also happen in BIOS after some time.\n\nMemtest86 fails even if using only one ram stick and have so far tried 2 of them individually.\n\nI updated the bios to the latest version already.\n\nAnyone got any idea what the problem might be?\n\nWorked for about a month perfectly fine. Even now works during stress tests but will crash after at some point. Default bios settings used.",
+      "url": "https://www.reddit.com/r/PcBuild/comments/1ffx6oo/pc_crashes_even_in_bios/"
+    },
+    {
+      "id": "1ffvv1l",
+      "title": "PC crashing even in BIOS",
+      "author": "rd211x",
+      "subreddit": "buildapc",
+      "created_utc": 1726237061,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "My build is the following:\n- Ryzen 9 7950x3d\n- Rtx4090\n- Gigabyte Aorus Elite x670 AX\n- 128gb ram ddr5\n\n\nMy build shuts down without any reason randomly. After about 10 minute in windows and instantly while trying to boot ubuntu. The same issue can also happen in BIOS after some time.\n\nMemtest86 fails even if using only one ram stick and have so far tried 2 of them individually.\n\nI updates the bios to the latest version already.\n\nAnyone got any idea what the problem might be?",
+      "url": "https://www.reddit.com/r/buildapc/comments/1ffvv1l/pc_crashing_even_in_bios/"
+    }
+  ],
   "comments": [
     {
       "id": "lggiwca",
@@ -11,6 +45,136 @@
       "score": 2,
       "link_id": "t3_1ej73ey",
       "parent_id": "t3_1ej73ey"
+    },
+    {
+      "id": "m33urib",
+      "body": "The human performance of an adult is like 85%",
+      "author": "rd211x",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1734766763,
+      "score": 1,
+      "link_id": "t3_1hitwwt",
+      "parent_id": "t1_m320r0r"
+    },
+    {
+      "id": "lqy37i7",
+      "body": "Ok it was the cpu lol.",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1728398850,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lqfjqid"
+    },
+    {
+      "id": "lqmlq9g",
+      "body": "I for one am very satisfied with it. Helped me build a lot of screens for a project that I am working on and for sure saved me a lot more than 20$ worth of time.\n\nSome things:\n- you usually need to prompt it a lot to get something good.\n\n- breaks down heavily on long files or conversations. I found that making smaller components helps a lot and opening a new chat when one becomes too long.\n\n- because you are creating new chats the style might not be consistent between screens. I usually start a conversation by feeding it some pointers on the design and some example code of other screens to get something consistent. (I believe they recently added a new feature that should help with this though.)",
+      "author": "rd211x",
+      "subreddit": "nextjs",
+      "created_utc": 1728228090,
+      "score": 5,
+      "link_id": "t3_1fxhrd9",
+      "parent_id": "t3_1fxhrd9"
+    },
+    {
+      "id": "lqfjqid",
+      "body": "Yeahh weirdest issue possible. It happens from time to time again. I currently cant even finish a memtest cause it freezes at the 26 second mark. Does not even crash just freezes. :/",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1728119965,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lnliti0"
+    },
+    {
+      "id": "lnltm89",
+      "body": "Update: for no reason at all it now seems to work perfectly fine. \nIt might be because i reseated the CPU. Unsure why it did not work instantly though.\n\nThanks for the help!",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726595859,
+      "score": 2,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lnl2g0m"
+    },
+    {
+      "id": "lnliti0",
+      "body": "Checked the cables and basically reinstalled the whole build. Will try another PSU though thanks!\n\n\nThe weirdest part is that after clearing the cmos, replacing the battery and doing a bunch of other small stuff, memtest now passes fully(which used to fail). When booting to os it still dies after a bit though. Ubuntu is even weirder cause it crashes instantly while on windows it works for like 5 minutes.",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726592470,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lnl2g0m"
+    },
+    {
+      "id": "lnkmwsp",
+      "body": "Yeah tried this unfortunately no change. Even tried running on integrated graphics with gpu disconnected and the issue still persisted.",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726582158,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lmyguwl"
+    },
+    {
+      "id": "lmyey54",
+      "body": "Haha yeah I will try this too, thank you!\n\nThough, for the couple of minutes it lets me stay in windows before it crashes. I managed to start black myth wukong and it played perfectly fine. Also did 3dmark on it and seemed fine and only crashed a couple of minutes after.\n\nSo idk I would assume it would die during the stress test if the gpu or psu was the problem though idk will try anyway.",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726247026,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lmye00f"
+    },
+    {
+      "id": "lmycii3",
+      "body": "Yes, no cooling problem either. \nWorked before for a month without issues",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726246235,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lmybj0r"
+    },
+    {
+      "id": "lmybuea",
+      "body": "Thank you for the reply!\n\nI tend to believe the PSU should be fine? Or at least not the main issue cause I get errors in memtest. Cooling should also be fine cause for the month it worked before temperatures were pretty good and the cpu does not overheat before it crashes.\n\nYeah motherboard is also my main suspect. Did not think of reflashing the bios, I will try that thanks!\n\nNot sure if CPU could be an issue? I would assume it would crash on a stress test but it passes it fine which is very weird to me.",
+      "author": "rd211x",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1726246017,
+      "score": 1,
+      "link_id": "t3_1ffz3l2",
+      "parent_id": "t1_lmya1m9"
+    },
+    {
+      "id": "lmxnrlk",
+      "body": "Expo is disabled, tried both one stick and two sticks same issue.",
+      "author": "rd211x",
+      "subreddit": "buildapc",
+      "created_utc": 1726238236,
+      "score": 1,
+      "link_id": "t3_1ffvv1l",
+      "parent_id": "t1_lmxnfvb"
+    },
+    {
+      "id": "lmxl5dt",
+      "body": "Its 1000 Watts. The pc worked for about a month prior and I have done stress tests and playes games on it.\n\nEven now before crashing on windows 3d mark works fine. It crashed like a couple minutes after doing timespy today.",
+      "author": "rd211x",
+      "subreddit": "buildapc",
+      "created_utc": 1726237372,
+      "score": 2,
+      "link_id": "t3_1ffvv1l",
+      "parent_id": "t1_lmxksa2"
+    },
+    {
+      "id": "lb3gjvj",
+      "body": "The area looked very safe to me. It is next to a bus station that goes straight to the uni. Also walkable distance from a metro station and a train station.",
+      "author": "rd211x",
+      "subreddit": "Lausanne",
+      "created_utc": 1719819121,
+      "score": 1,
+      "link_id": "t3_158jrud",
+      "parent_id": "t1_lb3g937"
     }
   ]
 }

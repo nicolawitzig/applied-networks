@@ -1,6 +1,29 @@
 {
   "username": "eternalpanic",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1ezfp17",
+      "title": "New day, new bike",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1724427031,
+      "score": 19,
+      "num_comments": 4,
+      "selftext": "Newly initiated gravel rider. Recently got myself a Rocky Mountain Solo Alloy 50 (2022) with some modifications (more ergonomic handlebars, 2by instead of 1by). Pretty happy so far. Was a bit late for sunrise but still pretty!",
+      "url": "https://www.reddit.com/gallery/1ezfp17"
+    },
+    {
+      "id": "1eni8s9",
+      "title": "1by to 2by on Rocky Mountain Solo",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1723153413,
+      "score": 0,
+      "num_comments": 12,
+      "selftext": "I'm in the process of buying a new gravel bike and would like to support my LBS. They are a Rocky Mountain dealer and have a [Solo Alloy 50](https://bikes.com/de-intl/products/solo-50-22) (2022) still on stock that they would give me at a greatly reduced price - it also fits me very well. The bike mechanic cautioned me however against the installed GRX 1x11 (and the handlebar) as climbing some of the steep Swiss hills around would be exhausting. I'm going to use it for a mix of tarmac and gravel, but not as a dropbar MTB and not as a racing gravel bike. He said he would check for options on installing a 2by shift but mentioned that the new GRX x12 are incompatible and require many changes on the bike. Alternatively, he is also checking for reduced [Solo Carbon 50](https://bikes.com/de-intl/products/solo-c50-23) (2023, with SRAM 1x11) bikes since I originally wanted a carbon frame.\n\nMaybe someone can help me with the following questions so that I have a second opinion to my LBS:\n\n\\* Any experiences with the 1x11 GRX set and steep hills (and medium fitness)? Should I just go for 1by anyway?\n\n\\* Any experiences with upgrading the 1x11 GRX shift to a setup with a wider rear cassette or 2by on that bike?\n\n\\* Would changing to 2by or a different cassette be easier with the SRAM set on the Carbon Solo 50?\n\n\\* Any experience on the difference between the Alu and Carbon version of the Solo 50 - mostly regarding comfort?\n\nThanks in advance for any insights!",
+      "url": "https://www.reddit.com/r/gravelcycling/comments/1eni8s9/1by_to_2by_on_rocky_mountain_solo/"
+    }
+  ],
   "comments": [
     {
       "id": "ll1peou",
@@ -41,6 +64,806 @@
       "score": 3,
       "link_id": "t3_1ewsu8t",
       "parent_id": "t3_1ewsu8t"
+    },
+    {
+      "id": "m469p4f",
+      "body": "Since they are still unable to handle this correctly: What helped me is to (after quitting Proton Drive) remove the group container that contains proton drive in \\~/Library/Group Containers/ (2SB5Z68H26.ch.protonmail.protondrive in my case), then remove the Proton Drive Cloud Storage provider in \\~/Library/CloudStorage/, then reinstall Proton Drive again, sign in etc.\n\nBeware: If you delete the CloudStorage location and there are unsynced changes in there, they will be lost.",
+      "author": "eternalpanic",
+      "subreddit": "ProtonDrive",
+      "created_utc": 1735380391,
+      "score": 1,
+      "link_id": "t3_1eyfe5m",
+      "parent_id": "t3_1eyfe5m"
+    },
+    {
+      "id": "m445jli",
+      "body": "I assume you’re comparing with Windows. I feel that macOS is really good at abstracting complicated stuff and expose the “common user” to some simple truths. macOS is in some ways also opinionated because “there are certain ways how things are done”. Windows on the other hand e.g., still has two different, overlapping system preferences, two snapshot tools and generally not a unified design language. Windows also tries to be an OS for mouse/keyboard systems and tablet systems alike (and I feel it does a terrible job at the latter). I feel it also exposes more settings to its users with a graphical interface.\nmacOS is very extendable though, if needed. And of course the terminal is immensely powerful and some settings can only be changed there.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1735344011,
+      "score": 3,
+      "link_id": "t3_1hnsjek",
+      "parent_id": "t3_1hnsjek"
+    },
+    {
+      "id": "m40cjd9",
+      "body": "No, Apple Silicon devices are tied to the owner or company (if enrolled in Apple Business Manager). Can still be used for parts.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735291092,
+      "score": 2,
+      "link_id": "t3_1hnaau5",
+      "parent_id": "t1_m409vf0"
+    },
+    {
+      "id": "m40cghm",
+      "body": "No, modern Apple devices with Apple Silicon or T2 chips can‘t be used anymore. They will still try to sell it on Facebook or Tutti because some people will never learn and buy stolen stuff - and then complain that it’s locked. That or they use it for parts.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735291038,
+      "score": 3,
+      "link_id": "t3_1hnaau5",
+      "parent_id": "t1_m4095wi"
+    },
+    {
+      "id": "m371gd0",
+      "body": "Yes, we are very much aware of that 🙃",
+      "author": "eternalpanic",
+      "subreddit": "MacOS",
+      "created_utc": 1734817070,
+      "score": 0,
+      "link_id": "t3_1hjd8g3",
+      "parent_id": "t1_m36vyu3"
+    },
+    {
+      "id": "m35r20q",
+      "body": "That is very curious. It is available in Switzerland. Even though we usually get treated the same as the EU when it comes to Apple.",
+      "author": "eternalpanic",
+      "subreddit": "MacOS",
+      "created_utc": 1734800748,
+      "score": 3,
+      "link_id": "t3_1hjd8g3",
+      "parent_id": "t3_1hjd8g3"
+    },
+    {
+      "id": "m2u8rbu",
+      "body": "Wie sit dr uf de Aktionsplan Radium cho? Nimmt mi Wunder wiu ig drmit brueflech ha z tue gha.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1734624277,
+      "score": 1,
+      "link_id": "t3_1hhva9r",
+      "parent_id": "t1_m2u1g28"
+    },
+    {
+      "id": "m2qa3rw",
+      "body": "Are you really sure about this?\n\nAccording to [Plex](https://support.plex.tv/articles/frequently-asked-questions-vod/):\n\n>Are you putting ads into my personal content?\n\n>Absolutely not! That would be a really terrible idea for many, many reasons. Your media collection—including your recorded movies and TV shows, home videos, photos, music collection, and more—will continue to stream to all of your devices, ad-free.\n\n>(If you see ads during content playback, then it means you’re streaming from our free, ad-supported service. If you thought you were streaming from a personal server and see ads, then it indicates that you must have mistakenly chosen our free service as the playback source instead of a personal server.)Are you putting ads into my personal content?  \nAbsolutely not! That would be a really terrible idea for many, many   \nreasons. Your media collection—including your recorded movies and TV   \nshows, home videos, photos, music collection, and more—will continue to   \nstream to all of your devices, ad-free.  \n(If you see ads during content playback, then it means you’re streaming from our free, ad-supported service. If you thought  \n you were streaming from a personal server and see ads, then it   \nindicates that you must have mistakenly chosen our free service as the   \nplayback source instead of a personal server.)",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734560101,
+      "score": 11,
+      "link_id": "t3_1hhd7w5",
+      "parent_id": "t3_1hhd7w5"
+    },
+    {
+      "id": "m2mh0qr",
+      "body": "This was asked before in this subreddit: [https://www.reddit.com/r/PleX/s/YB1ZjkCgzb](https://www.reddit.com/r/PleX/s/YB1ZjkCgzb)",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734504664,
+      "score": 5,
+      "link_id": "t3_1hgvuss",
+      "parent_id": "t3_1hgvuss"
+    },
+    {
+      "id": "m2hd0k0",
+      "body": "Ah gotcha. There’s a youtube video about Micromdm from the 2018 MacAdmins Conference that I used as a starting point. [Link](https://youtu.be/WGKT-PyHz6I?si=qw7idGZqBwDM7v9R). It doesn’t go into detail about things like adding via QR Code however.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734436733,
+      "score": 1,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t1_m2h9hal"
+    },
+    {
+      "id": "m2h57du",
+      "body": "I like the idea, but find it still suboptimal. Either you always have to mount the cam and stow it away again before/after use, or you only mount it when needed. But that again seems not like a great experience, e.g. if you get a videocall and first need to mount the cam.",
+      "author": "eternalpanic",
+      "subreddit": "macbookpro",
+      "created_utc": 1734432033,
+      "score": 1,
+      "link_id": "t3_1hedb8y",
+      "parent_id": "t1_m2525d6"
+    },
+    {
+      "id": "m2fvk4z",
+      "body": "Did you read the huge paragraph on the micromdm github repo where they *specifically* say that it is NOT a product? And that you will need a 300$/year subscription with Apple as a business just to get started?\n\nI’ve played around with micromdm in the past for fun, but be aware that you will have to develop the whole application logic around the micromdm binary. Or you can get yourself a free tier of Mosyle or similar.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734406331,
+      "score": 4,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t3_1hfwk97"
+    },
+    {
+      "id": "m2fup6j",
+      "body": "No that’s wrong afaik. You’ll need the Enterprise Developer Account to sign push certs.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734405994,
+      "score": 2,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t1_m2f4vux"
+    },
+    {
+      "id": "m2fudu6",
+      "body": "They want to implement their own MDM Server which requires an Apple Enterprise Developer Account which requires a business entity/DUNS.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734405872,
+      "score": 2,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t1_m2esxr7"
+    },
+    {
+      "id": "m2870yu",
+      "body": "I just got a NUC 14 Pro, running Proxmox and Plex and the Arr’s in Containers and VMs. You can of course use Windows but you’ll just waste some resources. Also, since you didn’t mention it: Do you have your Plex media on a dedicated server/external disks?",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734297178,
+      "score": 1,
+      "link_id": "t3_1hf1nvp",
+      "parent_id": "t3_1hf1nvp"
+    },
+    {
+      "id": "m1zlmh4",
+      "body": "/media/ are normally mount points for (removable) media- is that the case for you? Are you mounting an external drive or an smb share? If so, it could be a permissions issue. If you put your video files in there on your own - i’m not sure this is the right folder.\n\nSecondly I’m not sure what user plex runs as. Since it runs as a daemon, it will most likely not run  with your privileges. If your media is on a shared mount, the easiest would be to change group permissions (i.e. mount the volume as a group in which both the plex user and your account are present with writing permissions).",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734163009,
+      "score": 1,
+      "link_id": "t3_1hdugs9",
+      "parent_id": "t3_1hdugs9"
+    },
+    {
+      "id": "m1qrlg4",
+      "body": "^ name of the wifi",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734033154,
+      "score": 3,
+      "link_id": "t3_1hcndl2",
+      "parent_id": "t1_m1piwog"
+    },
+    {
+      "id": "lzybczx",
+      "body": "Und noch etwas Weiteres: Ein (neueres, ab 2018 ca.) Macbook so zu kaufen ist eine sehr schlechte Idee. Wenn das Macbook noch an die Apple ID einer Person gebunden ist, muss diese das freigeben (wie bei einem iphone). Wenn du noch mehr Pech hast, wurde das Macbook z.B von einer Firma gestohlen und ist auf diese registriert. Auch in diesem Fall müsste die Firma das Macbook zuerst freigeben, sonst hast du einen Briefbeschwerer.\nDAS SYSTEM NEU INSTALLIEREN NÜTZT IN DIESEN FÄLLEN NICHTS!",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1733096463,
+      "score": 2,
+      "link_id": "t3_1h3xv14",
+      "parent_id": "t1_lzuk4n0"
+    },
+    {
+      "id": "lz1c3zq",
+      "body": "Very interesting insights, thanks!",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1732601987,
+      "score": 5,
+      "link_id": "t3_1gzwayn",
+      "parent_id": "t1_lz0k2v0"
+    },
+    {
+      "id": "ly2cigw",
+      "body": "It‘s you.\n\nAlso I don’t get the complaint - there‘s always the Macbook Air that is light and slim and has few ports. A common complaint about the 2016-2019 was (apart from the shitty keyboard), that there was no Magsafe and not enough ports - Especially compared to the earlier MBPs.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1732086461,
+      "score": 5,
+      "link_id": "t3_1gvj7wg",
+      "parent_id": "t3_1gvj7wg"
+    },
+    {
+      "id": "ly2atlf",
+      "body": "Are you for real? That’s a large group AND it’s not long till Christmas, i.e christmas dinners/parties everywhere. It will be difficult to find something.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1732085462,
+      "score": 5,
+      "link_id": "t3_1gv9nrl",
+      "parent_id": "t3_1gv9nrl"
+    },
+    {
+      "id": "lwww3t7",
+      "body": "DM‘d you.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1731504458,
+      "score": 1,
+      "link_id": "t3_1gqcqzw",
+      "parent_id": "t3_1gqcqzw"
+    },
+    {
+      "id": "luobsej",
+      "body": "One does not exclude the other. Also anecdotal evidence.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1730371633,
+      "score": 4,
+      "link_id": "t3_1gg8sv3",
+      "parent_id": "t1_luntnfn"
+    },
+    {
+      "id": "lt75wki",
+      "body": "What about the R console application? Does it also happen there? You can go ahead with „n“ while in the browser. It will show you which code line it currently is at.\nIf that works it probably is an RStudio issue. Does it just happen for a specific project/directory? \n\nIf the issues persists it‘s maybe a config problem with RStudio. According to the documentation, settings are stored in ~/.config/rstudio/\n\nSo maybe also delete that folder and try again.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1729616016,
+      "score": 1,
+      "link_id": "t3_1g95z5b",
+      "parent_id": "t1_lt72cou"
+    },
+    {
+      "id": "lt4vwxe",
+      "body": "So it‘s a problem with your install. And you can‘t narrow it down?\n\n- Does your code run on a different computer or in a docker container? => If yes => problem with your  install/environment\n- Does browser() work in a pure R console (no RStudio)? => if yes, problem with RStudio, if no, other problem\n- If it‘s a problem with R: Have you already reinstalled R or installed the newest version?\n- Are other programs also behaving erratically? => could be OS issues, could be corrupted hardware, especially RAM.\n\nAlso what OS and cpu architecture (x86/windows most likely or Apple ARM)?",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1729579370,
+      "score": 4,
+      "link_id": "t3_1g95z5b",
+      "parent_id": "t3_1g95z5b"
+    },
+    {
+      "id": "lt4te1e",
+      "body": "HPV and Herpes viruses are some of the easiest transmissible viruses there are i.e., you can quite easily get them orally. And yes, some strains of HPV can increase the risk for colorectal cancer (but also throat btw), but as others have pointed out, the risk is still pretty low.\nThe risks of getting complications from Herpes infections (which up to 90% of mankind have) or EBV (similar prevalence, causes mononucleosis - which can lead to autoimmune diseases) are higher.\n\nSO: Is this really about risks? Or do you just want to rant about condomless sex?",
+      "author": "eternalpanic",
+      "subreddit": "gay",
+      "created_utc": 1729577736,
+      "score": 1,
+      "link_id": "t3_1g97lhl",
+      "parent_id": "t1_lt46tyz"
+    },
+    {
+      "id": "lsjdqos",
+      "body": "„unlimited“ but then they basically cap it anway at 10 or 20 GB…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1729264352,
+      "score": 1,
+      "link_id": "t3_1g6e41g",
+      "parent_id": "t3_1g6e41g"
+    },
+    {
+      "id": "ls08ilm",
+      "body": "The only time I do that sometimes is on highways with multiple lanes if there is a traffic jam.\nOtherwise no. Vespas do it, but you can get into trouble if the police sees you.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1728977892,
+      "score": 1,
+      "link_id": "t3_1g3xgxb",
+      "parent_id": "t1_ls050j7"
+    },
+    {
+      "id": "ls01mlh",
+      "body": "1. There are motorbike park spots (free), but parking on sidewalks is also accepted as long as there is still enough space for pedestrians.\n\n2. On sunny days I also ride during autumn or maybe even winter, but rarely. I don’t use it to commute though. As someone else said - you‘d be miserable with the traffic jams. \n\n3. I know someone that goes to work everyday by motorbike, even when it rains or is cold. Personally I just don’t like ice/snow/leaves on tarmac; rain is fine.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1728973241,
+      "score": 1,
+      "link_id": "t3_1g3xgxb",
+      "parent_id": "t3_1g3xgxb"
+    },
+    {
+      "id": "lrzzq9y",
+      "body": "Perspective from Switzerland: Climate change is going to make skiing a bigger luxury than it already is and it will focus on few places that are high up. Even today, the amount of artificial snow is getting higher yearly - but you can’t produce snow anymore once temperatures don’t stay above freezing point.",
+      "author": "eternalpanic",
+      "subreddit": "skiing",
+      "created_utc": 1728972034,
+      "score": -1,
+      "link_id": "t3_1g3v7fh",
+      "parent_id": "t3_1g3v7fh"
+    },
+    {
+      "id": "lrshejx",
+      "body": "If you care about not spreading disinformation, please amend this bit in your post.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728858533,
+      "score": 3,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lro2n24"
+    },
+    {
+      "id": "lrsftbz",
+      "body": "True, but also OP didn’t take PrEP correctly. See comment in first thread.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728857965,
+      "score": 6,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lroz6up"
+    },
+    {
+      "id": "lrsfpr0",
+      "body": "OP admits in a comment above that he didn’t continue taking PrEP after a risk situation. His testimony in the original post is incorrect.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728857929,
+      "score": 3,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lrnzz5j"
+    },
+    {
+      "id": "lrsffrt",
+      "body": "Except…OP admits in a comment above that he didn’t take PrEP correctly/stopped taking it after a risk situation…",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728857825,
+      "score": 4,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lrrih4a"
+    },
+    {
+      "id": "lrsddif",
+      "body": "So the story behind this is that it used to be a marketing gag by a Swiss company called Fluka that was bought by Sigma Aldrich. Nice to see they kept this!",
+      "author": "eternalpanic",
+      "subreddit": "labrats",
+      "created_utc": 1728857064,
+      "score": 14,
+      "link_id": "t3_1g2pob2",
+      "parent_id": "t3_1g2pob2"
+    },
+    {
+      "id": "lre9p8m",
+      "body": "OP states that CGNAT is used.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728645907,
+      "score": 1,
+      "link_id": "t3_1g15pdy",
+      "parent_id": "t1_lre7yyc"
+    },
+    {
+      "id": "lre87k7",
+      "body": "Yeah, that’s what I do. Using some lambda functions in AWS and a script on the router to update the DNS. Doesn’t change the problem that Sunrise uses CGNAT. But maybe they can ask to at least receive a public IPv4 address.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728645110,
+      "score": 1,
+      "link_id": "t3_1g15pdy",
+      "parent_id": "t1_lre44iq"
+    },
+    {
+      "id": "lre0i1l",
+      "body": "lol no. und chli fräch fingis ou…ig meine wes der als untermieter nid passt, de ziehsch halt us. dr houptmieter treit ja ou meh risiko.",
+      "author": "eternalpanic",
+      "subreddit": "schwiiz",
+      "created_utc": 1728640351,
+      "score": 2,
+      "link_id": "t3_1g14txe",
+      "parent_id": "t3_1g14txe"
+    },
+    {
+      "id": "lqqgui6",
+      "body": "I‘ve just been 2000km around Switzerland to Corsica and Sardinia and back with the MT-09 (so the big sister). I have the SLC mounts and the adventure rack. Works well but little protection from wind on high ways. In hindsight I do wonder if I should have gotten a tracer instead, but I do like the MT-09 smaller‘s footprint for day trips.\n\nhttps://preview.redd.it/w4ibati1q9td1.jpeg?width=3024&format=pjpg&auto=webp&s=a31c32606d2195a88d2dfeb5b8e216c16abebb3d",
+      "author": "eternalpanic",
+      "subreddit": "MT07",
+      "created_utc": 1728278083,
+      "score": 2,
+      "link_id": "t3_1fxt5g3",
+      "parent_id": "t3_1fxt5g3"
+    },
+    {
+      "id": "lq911rm",
+      "body": "Immobiliser have been around (at least in Europe) since the 90s…Also if you don’t have the red key, you have a problem. The red key is needed to (re)program new keys or to reset the immobiliser. Maybe check with your vendor/garage.",
+      "author": "eternalpanic",
+      "subreddit": "MT07",
+      "created_utc": 1728014051,
+      "score": 1,
+      "link_id": "t3_1fvbb18",
+      "parent_id": "t1_lq7rg96"
+    },
+    {
+      "id": "lq8vbvd",
+      "body": "Source for that? Never heard or used it like that before. The Swiss locales for computer systems defines the dot as decimal sign.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1728011553,
+      "score": 1,
+      "link_id": "t3_1fvar6x",
+      "parent_id": "t1_lq7iidg"
+    },
+    {
+      "id": "lq8ut14",
+      "body": "The part about the decimal separator is not true for German speaking Switzerland at least. We also the dot and it’s always very annoying that German locales do not use that.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1728011343,
+      "score": 1,
+      "link_id": "t3_1fvar6x",
+      "parent_id": "t1_lq6617x"
+    },
+    {
+      "id": "lq10z97",
+      "body": "disagree…Gravensteiner are the bestest",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1727898900,
+      "score": 3,
+      "link_id": "t3_1fuo5i9",
+      "parent_id": "t1_lq0u7uq"
+    },
+    {
+      "id": "lq10vit",
+      "body": "Gravensteiner? Cox Orange?",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1727898867,
+      "score": 2,
+      "link_id": "t3_1fuo5i9",
+      "parent_id": "t3_1fuo5i9"
+    },
+    {
+      "id": "lo66qfv",
+      "body": "That looks a lot like Emmentaler Kartoffelsuppe like my mum also makes it.\nhttps://www.swissmilk.ch/de/rezepte-kochideen/rezepte/KB_SP2004_100/emmentaler-kartoffelsuppe/\n\nAdditionally maybe with european caraway (and not cumin, as someone suggested).",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1726899889,
+      "score": 11,
+      "link_id": "t3_1flohpk",
+      "parent_id": "t3_1flohpk"
+    },
+    {
+      "id": "ln22unp",
+      "body": "I think it refers to the Dirac/Bra-Ket notation used to describe quantum mechanics phenomena. Above notation could be understood as a wave function of a quantum mechanic system.",
+      "author": "eternalpanic",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1726303282,
+      "score": 9,
+      "link_id": "t3_1fg2ajz",
+      "parent_id": "t1_ln1lst1"
+    },
+    {
+      "id": "lmmcg4k",
+      "body": "Isch i verschidene Sprache unterschiedlich greglet. Uf Französisch z.B. isch dr Abstand vorem ? normal (ou bi » «).",
+      "author": "eternalpanic",
+      "subreddit": "BUENZLI",
+      "created_utc": 1726069610,
+      "score": 5,
+      "link_id": "t3_1feaj4d",
+      "parent_id": "t1_lmlyde9"
+    },
+    {
+      "id": "lmm5tp6",
+      "body": "Ah ja genau…Raumplanung brauchen wir nicht..alles einzonen und wir bauen lieber EFH überall auf die grüne Wiese…prima Idee. Sieht man ja gerade im Aargau und im übrigen Mittelland…",
+      "author": "eternalpanic",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1726067502,
+      "score": 4,
+      "link_id": "t3_1fe9lcy",
+      "parent_id": "t1_lmlt5ox"
+    },
+    {
+      "id": "llx6k3m",
+      "body": "Oh yay another Ubiquiti product with half-baked software!",
+      "author": "eternalpanic",
+      "subreddit": "Ubiquiti",
+      "created_utc": 1725691887,
+      "score": 2,
+      "link_id": "t3_1fajd50",
+      "parent_id": "t3_1fajd50"
+    },
+    {
+      "id": "lllb896",
+      "body": "That‘s not how high the fine is. He „only“ has to pay 10k CHF (plus some additional costs). The whole rest is on probation, i.e. he doesn’t have to pay it now.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1725518246,
+      "score": 42,
+      "link_id": "t3_1f9f09i",
+      "parent_id": "t3_1f9f09i"
+    },
+    {
+      "id": "lld7fxp",
+      "body": "I have been going to Wheelhouse in K3 for 10 years or so. Fair, good price, never had to call in advance. They also never complained when I brought my Canyon bikes to repair. Bought a gravel bike there recently and still very happy.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1725397088,
+      "score": 1,
+      "link_id": "t3_1f84j52",
+      "parent_id": "t3_1f84j52"
+    },
+    {
+      "id": "lksllma",
+      "body": "We always invited people separately to the WG casting. Even then it was usually quite difficult and not a guarantee that it really works out…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1725084397,
+      "score": 7,
+      "link_id": "t3_1f55dsj",
+      "parent_id": "t3_1f55dsj"
+    },
+    {
+      "id": "lkmpz6r",
+      "body": "This is the correct answer. There is no need to erase the System Volume and reinstall everything. New Macs keep their macOS System in a sealed volume/partition that is immutable. Everything else (Data) is on a writable volume. When you choose to EACAS (erase all content and settings), the keys to the data partition are destroyed and you end up with a brand new system. Takes few minutes.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1724997908,
+      "score": 1,
+      "link_id": "t3_1f4fyrn",
+      "parent_id": "t1_lkl08d3"
+    },
+    {
+      "id": "lkkf1se",
+      "body": "Yes, they are. But here they are found locally in higher concentrations.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1724964952,
+      "score": 1,
+      "link_id": "t3_1f3xmqt",
+      "parent_id": "t1_lkiciwn"
+    },
+    {
+      "id": "lken4vx",
+      "body": "There are 2 federal, 1 cantonal and 8 communal votes (in Zurich city) coming up. It might make sense to have one thread for the BVG reform and one for the biodiversity initiative?\n\nNB: You can find arguments of proponents and opponents in the parliament in the Voteinfo app (in DE, FR, IT, RM).",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1724882670,
+      "score": 2,
+      "link_id": "t3_1f3l3ka",
+      "parent_id": "t3_1f3l3ka"
+    },
+    {
+      "id": "lkegocj",
+      "body": "I only ever hear that from other Berndeutsch speakers though?",
+      "author": "eternalpanic",
+      "subreddit": "German",
+      "created_utc": 1724880541,
+      "score": 1,
+      "link_id": "t3_1f39viw",
+      "parent_id": "t1_lkdbweh"
+    },
+    {
+      "id": "lkc5rsu",
+      "body": "I got my permit this year with WS Bootschule and was very happy with all of the instructors there. Good sailing!",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1724851580,
+      "score": 2,
+      "link_id": "t3_1f39fwp",
+      "parent_id": "t3_1f39fwp"
+    },
+    {
+      "id": "lkbu37n",
+      "body": "Is the second picture from the Lavaux?",
+      "author": "eternalpanic",
+      "subreddit": "bikepacking",
+      "created_utc": 1724847086,
+      "score": 2,
+      "link_id": "t3_1f35dlp",
+      "parent_id": "t3_1f35dlp"
+    },
+    {
+      "id": "lkbiu4s",
+      "body": "When I read those statements, I always wonder if you guys are total machines or there is just no ascent where you live. I just got a 2x and on some steep, long hills, I wouldn’t survive with a 40 x 42.",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1724841743,
+      "score": 1,
+      "link_id": "t3_1f2cxa6",
+      "parent_id": "t1_lk63p6m"
+    },
+    {
+      "id": "ljo5jnf",
+      "body": "They do, from what I can see (but it’s only in [this](https://www.rentabike.ch/files/pdf1/uebersicht_preiseliste_rent_2024_web_de.pdf.pdf) PDF). So an eBike would be 274 CHF/7 days and then 29 CHF for every additional day.\n\nI got a used one from 2021 or 2022, but they had revised it before selling it to me.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1724482489,
+      "score": 1,
+      "link_id": "t3_1ezysbh",
+      "parent_id": "t1_ljo4vpq"
+    },
+    {
+      "id": "ljo485a",
+      "body": "I bought my second-hand ebike from rentabike (TdS Broadway). The Tour de Suisse and Flyer ebikes they use are quite high quality.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1724481620,
+      "score": 2,
+      "link_id": "t3_1ezysbh",
+      "parent_id": "t3_1ezysbh"
+    },
+    {
+      "id": "ljl3tfi",
+      "body": "Zurich, Switzerland. That’s the city’s local hill!",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1724437650,
+      "score": 1,
+      "link_id": "t3_1ezfp17",
+      "parent_id": "t1_ljl38t0"
+    },
+    {
+      "id": "ljc0d3b",
+      "body": "Did you even bother to read the leaflet they handed out in the whole neighbourhood? They did write they would work during nights…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1724303650,
+      "score": 15,
+      "link_id": "t3_1ey7k3x",
+      "parent_id": "t3_1ey7k3x"
+    },
+    {
+      "id": "livpu21",
+      "body": "Würd vilech ou no frage ob d Lüt ufnem Outomat glernt hei oder manuell.\n\nIg ha synerzyt öppe 12-15 lektione gha (manuell; chum dihei güebt). Outomat isch natürlech viu eifacher…",
+      "author": "eternalpanic",
+      "subreddit": "schwiiz",
+      "created_utc": 1724078631,
+      "score": 1,
+      "link_id": "t3_1evzvb7",
+      "parent_id": "t3_1evzvb7"
+    },
+    {
+      "id": "lif8slz",
+      "body": "Interesting, didn’t know that. I just checked our bill and there it‘s just 251 m3 of X m3 total for heating (at 93 m2). Seems we‘re billed the actual volume of the flat?",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1723823481,
+      "score": 2,
+      "link_id": "t3_1erebbw",
+      "parent_id": "t1_lie0biv"
+    },
+    {
+      "id": "li8o6lz",
+      "body": "You‘re right, we shouldn’t assume that people can‘t display HTML emails at all. But maybe we also shouldn’t assume that HTML and especially RTF emails are displayed correctly and that a specific font is shown to the user.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1723730282,
+      "score": 2,
+      "link_id": "t3_1esqw7i",
+      "parent_id": "t1_li8mx4c"
+    },
+    {
+      "id": "li8dtmc",
+      "body": "Our company uses Signature365 to manage signatures since we have different language versions. That also works on iOS e.g.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1723726504,
+      "score": 1,
+      "link_id": "t3_1esqw7i",
+      "parent_id": "t1_li85kj3"
+    },
+    {
+      "id": "li83pxs",
+      "body": "Does he know about text-only emails without formatting and that not every email client supports /displays RTF or HTML for security reasons? Maybe do prepare him for the reality that you have limited control about how someone sees an email, even if you use the same font everywhere.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1723722227,
+      "score": 8,
+      "link_id": "t3_1esqw7i",
+      "parent_id": "t1_li7v01g"
+    },
+    {
+      "id": "lhzc8by",
+      "body": "I mean you literally stayed during the whole heating period and gas prices were crazy high (as the media reported numerous times). It's also not the management's problem that you didn't bother to clear up if they would calculate the heating costs via square meters (which is usual) or if they can read out individual heatings/radiators (which is less usual and also not that fair because people in the 0/1 floor heat for the ones above, too). \n\nIt might not be a huge comfort but we also paid this year for the first time in almost 10 years due to the heating (also about 1000 CHF for 4Z) - but also got money back the years before.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1723587776,
+      "score": 1,
+      "link_id": "t3_1erebbw",
+      "parent_id": "t3_1erebbw"
+    },
+    {
+      "id": "lhz9z0y",
+      "body": "Did you check the period? Like...do you think they heat in summer?",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1723586983,
+      "score": 1,
+      "link_id": "t3_1erebbw",
+      "parent_id": "t1_lhyqvzw"
+    },
+    {
+      "id": "lhsx4n0",
+      "body": "This comment should be framed and titled \"Shifting baseline syndrome\"",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723494582,
+      "score": 22,
+      "link_id": "t3_1eqmfm5",
+      "parent_id": "t1_lhss2z5"
+    },
+    {
+      "id": "lhg8axp",
+      "body": "Ich hab gerade dieses Jahr eins auf [https://www.occasionsvelo.ch](https://www.occasionsvelo.ch) gekauft…Die verkaufen dort die Mietvelos von Rentabike. Die Bikes sind von Flyer oder TdS und qualitativ hochwertig und revidiert. Ich hab ein TdS Broadway Trapez von 2021 für knapp 2100 chf gekauft. Der Motor hat viel Drehmoment/„Pfupf“ und ich brauche das Velo auch für steile Hügel.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1723304615,
+      "score": 2,
+      "link_id": "t3_1eomk09",
+      "parent_id": "t3_1eomk09"
+    },
+    {
+      "id": "lhb01p8",
+      "body": "Why are you not happy with it if i can ask?",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1723223735,
+      "score": 1,
+      "link_id": "t3_1eni8s9",
+      "parent_id": "t1_lhah7r9"
+    },
+    {
+      "id": "lha6xgi",
+      "body": "I‘m probably also going for it (with the original 1by setup). My bike mechanic told me that swapping the necessary parts for a 2by setup would be an extra ca. 700$/€.",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1723214676,
+      "score": 1,
+      "link_id": "t3_1eni8s9",
+      "parent_id": "t1_lh9cwma"
+    },
+    {
+      "id": "lf9m8u7",
+      "body": "Made the peasants eat cake. Gay af.",
+      "author": "eternalpanic",
+      "subreddit": "gay_irl",
+      "created_utc": 1722126211,
+      "score": 11,
+      "link_id": "t3_1ednxr5",
+      "parent_id": "t1_lf95znm"
+    },
+    {
+      "id": "ldd0dcx",
+      "body": "Swisstopo in the App Stores. Also supports offline maps.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1721081738,
+      "score": 2,
+      "link_id": "t3_1e45g5n",
+      "parent_id": "t1_ldcxng9"
+    },
+    {
+      "id": "ldd054f",
+      "body": "Faulhorn is not accessible by car or public transport. If you don’t want to do a roundtrip you best leave the car somewhere and go from there. E.g leave the car in Interlaken, go from there to Axalp or Grindelwald, then go up to Faulhorn and back to Schynige Platte (worth it for the view). Do also check for the snow situation (swisstopo - closed hiking routes) before going for the hike. From Schynige Platte you can take the cablecar/train down and then go back to Interlaken.\n\nI have done axalp - faulhorn - schynige platte twice but both times with overnight stay at Faulhorn - waking up with view on the bernese alps included.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1721081654,
+      "score": 2,
+      "link_id": "t3_1e45g5n",
+      "parent_id": "t1_ldctdt8"
+    },
+    {
+      "id": "lc6mm32",
+      "body": "Yes, I think something around/above 3k is realistic. If you are eligible for an ASVZ membership you can also take the necessary courses there, but be warned that the spots are filled out really quickly (i didnt manage to get a spot two years in a row…) and the training takes longer than in small groups. The other option might be an intensive weekly course in Silvaplana but there you‘d incur extra costs for hotel/place to stay.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1720442483,
+      "score": 1,
+      "link_id": "t3_1dxd2fa",
+      "parent_id": "t1_lc66dw0"
+    },
+    {
+      "id": "lc5kzkv",
+      "body": "NB: They say one needs usually about 13-15 lessons on average. In the end I took 17 lessons and I already had had previous knowledge (some Laser sailing, open sea sailing). What takes some time to train are the manoeuvres (esp. anchoring, man over board, Aufschiessen an Boje) and the correct commands.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1720419216,
+      "score": 3,
+      "link_id": "t3_1dxd2fa",
+      "parent_id": "t1_lc5kigt"
+    },
+    {
+      "id": "lc5kigt",
+      "body": "I just had my exam last week and took classes at WS Bootschule in Enge (I had classes with all of the instructors). Can highly recommend them. Also great sporty boat. Pricing: 2h are 280 CHF (private lessons), 180 CHF (2 people - they will pool you according to your knowledge) or 140 chf (3 people). My advice: Private lessons can be quite efficient later on, but to understand how to treat the fore sail, it helps to be on the boat with others and ideally do the exam with them.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1720418910,
+      "score": 2,
+      "link_id": "t3_1dxd2fa",
+      "parent_id": "t3_1dxd2fa"
     }
   ]
 }

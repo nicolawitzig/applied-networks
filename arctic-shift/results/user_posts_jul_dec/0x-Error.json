@@ -1,6 +1,18 @@
 {
   "username": "0x-Error",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1f1k0qm",
+      "title": "me irl",
+      "author": "0x-Error",
+      "subreddit": "me_irl",
+      "created_utc": 1724664696,
+      "score": 4,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://i.redd.it/5hu7q2kk9zkd1.jpeg"
+    }
+  ],
   "comments": [
     {
       "id": "lbpsd7j",
@@ -11,6 +23,246 @@
       "score": 2,
       "link_id": "t3_1dv5zfi",
       "parent_id": "t3_1dv5zfi"
+    },
+    {
+      "id": "m2uu9nr",
+      "body": "Oh well I guess that means coh3 will become pay2win with new battlegroups only purchasable through the steam store. Even if setting it to something crazy (like 100k merit) will probably be better than what is being offered right now.",
+      "author": "0x-Error",
+      "subreddit": "CompanyOfHeroes",
+      "created_utc": 1734631813,
+      "score": -15,
+      "link_id": "t3_1hhyvx0",
+      "parent_id": "t3_1hhyvx0"
+    },
+    {
+      "id": "m25hr41",
+      "body": "0.3% is the wealth tax paid to the state. There is an additional 0.7% payable to the municipality.\n\nIn Switzerland, there is no federal wealth tax, and everything is at the cantonal and municipal level. In Zug at least, depending on the Gemeinde, the maximum wealth tax goes to 0.25%. With 1 million CHF, that equates to 968 CHF in Stadt Zug.",
+      "author": "0x-Error",
+      "subreddit": "interesting",
+      "created_utc": 1734259991,
+      "score": 1,
+      "link_id": "t3_1he6gmm",
+      "parent_id": "t1_m23qq39"
+    },
+    {
+      "id": "m235gy3",
+      "body": "> No country is going to wealth tax single digit millionaires\n\nOwning more than 1,700,000 NOK (152,573 USD) means you get taxes 1% per year (1.5k USD). In the case of owning 1,550,000 USD of assets, then you pay 15.5k USD each year in tax.",
+      "author": "0x-Error",
+      "subreddit": "interesting",
+      "created_utc": 1734217866,
+      "score": 1,
+      "link_id": "t3_1he6gmm",
+      "parent_id": "t1_m22p4lt"
+    },
+    {
+      "id": "lz8qxeh",
+      "body": "He is just General Ripper IRL. Probably caused by the fluoride in the water poisoning his precious bodily fluids.",
+      "author": "0x-Error",
+      "subreddit": "worldnews",
+      "created_utc": 1732716065,
+      "score": 4,
+      "link_id": "t3_1h10qd2",
+      "parent_id": "t1_lz80a8m"
+    },
+    {
+      "id": "lz54kdh",
+      "body": "Just to add to this, this tends to happen to 787 Dreamliners. From my understanding, it caused by using a fibreglass composite outer shell. Having pant stick to composite material is difficult, as you have to consider the significant degradation of the base material from UV, abrasion from rain/dust/ice, and also the flexing of the wings.",
+      "author": "0x-Error",
+      "subreddit": "newzealand",
+      "created_utc": 1732656892,
+      "score": 104,
+      "link_id": "t3_1h0l7xh",
+      "parent_id": "t1_lz4tuyd"
+    },
+    {
+      "id": "lyr35wm",
+      "body": "Instead of using virtual classes, have a massive `std::variant` that contains every single child class. Oh you need to add a type to that variant? There is set of macros to redeclare the type of that variant while disabling the previous definitions. The arguments for doing this were \"efficiency\" and \"performance\", essentially shaving off (potentially) 1 pointer indirection for infinitely higher developer burden. Also, the only functions exposed for those for the variant, so even if the type was known at compile time, you still have to convert it to the variant type and look up the correct function to execute at runtime.",
+      "author": "0x-Error",
+      "subreddit": "cpp",
+      "created_utc": 1732462465,
+      "score": 5,
+      "link_id": "t3_1gyqypy",
+      "parent_id": "t3_1gyqypy"
+    },
+    {
+      "id": "lwxyk07",
+      "body": "Everything on CppCon. I normally watch half a video while I'm eating dinner. It's not satire, but the presenter makes funny jokes sometimes.",
+      "author": "0x-Error",
+      "subreddit": "cpp",
+      "created_utc": 1731517330,
+      "score": 61,
+      "link_id": "t3_1gqf81j",
+      "parent_id": "t3_1gqf81j"
+    },
+    {
+      "id": "lwtjwsx",
+      "body": "Interestingly, if you have a very severe case of asian flush (both chromosomes contain the gene), then you are less likely to have esophageal cancer. Not because you are more immune, but alcohol drives such a strong allergic reaction that you avoid it completely.",
+      "author": "0x-Error",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1731449675,
+      "score": 5,
+      "link_id": "t3_1gps927",
+      "parent_id": "t1_lwtd5zk"
+    },
+    {
+      "id": "lws5dxc",
+      "body": "Almost everyone I know in DDMP agree that NCEA is the easiest way to get .95. It is just that most people in DDMP who are also from New Zealand are from AGS or Macleans and they tend to do CIE.",
+      "author": "0x-Error",
+      "subreddit": "usyd",
+      "created_utc": 1731433887,
+      "score": 1,
+      "link_id": "t3_mdfu07",
+      "parent_id": "t1_lwrz3st"
+    },
+    {
+      "id": "lw3u6eh",
+      "body": "This is known as Paradox of tolerance, if a society extends tolerance to those who are intolerant, it risks enabling the eventual dominance of intolerance, thereby undermining the very principle of tolerance.",
+      "author": "0x-Error",
+      "subreddit": "WhitePeopleTwitter",
+      "created_utc": 1731085158,
+      "score": 3,
+      "link_id": "t3_1gmkoo9",
+      "parent_id": "t1_lw39ccg"
+    },
+    {
+      "id": "ltegofs",
+      "body": "> they\n\nWho's they? The Chinese citizens? The Chinese state? I agree that in the case where China invades Taiwan, the Chinese state and key government officials should be sactioned. But is extending sactions to citizens in general too far? Even in the case of Russia today, sanctions are almost always focused on government enterprises and a small group of influential high ranking government officials. \n\nGiven the small number of Russian maintainers in Linux, I think they should be investigated in a case by case basis, and if they do display governmental or military ties, then they should be removed. Currently, we have no idea whether these maintainers are actively helping or even perhaps resisting the Russian invasion. With Linux being one the largest (if not the largest) open source project, I simply fear this will set a trend for all other open source projects.",
+      "author": "0x-Error",
+      "subreddit": "linux",
+      "created_utc": 1729715449,
+      "score": 12,
+      "link_id": "t3_1gahis9",
+      "parent_id": "t1_ltedlt5"
+    },
+    {
+      "id": "lte8b02",
+      "body": "While I wholeheartly agree with sanctions on the Russian state, I am not sure if they should be extended to maintainers whose only issue is being Russian and have a Russian email address. One of the removed maintainers, Abylay Ospan, is currently working at AWS in Florida and from his LinkedIn he has been in Florida for at least the past 8 year. Reading the commit histories, some of the maintainers have been maintaining Linux for almost a decade. I think a more thorough investigation is needed and they deserve a proper explanation.\n\nNot only should we be careful descending into full-blown McCarthyism, but we should also be aware that this means that open-source is not open after all. If they come for Russians next, does that mean the Chinese will be next? With the precedent of Linux, does that mean other major open source projects could ban Russian maintainers? I think moves like this only forces Russia/China to work on their own technology fork and splits the open source community back to the cold war style west vs east.",
+      "author": "0x-Error",
+      "subreddit": "linux",
+      "created_utc": 1729712977,
+      "score": 96,
+      "link_id": "t3_1gahis9",
+      "parent_id": "t3_1gahis9"
+    },
+    {
+      "id": "lrvnszs",
+      "body": "> just slippers\n\nFunny you say that, in swiss german climbing shoes are called \"Kletterfinken\", which literally translates to \"climbing slippers\".",
+      "author": "0x-Error",
+      "subreddit": "ClimbingCircleJerk",
+      "created_utc": 1728915605,
+      "score": 2,
+      "link_id": "t3_1g302at",
+      "parent_id": "t3_1g302at"
+    },
+    {
+      "id": "lqtsoz8",
+      "body": "Maybe have something like `for [[name=loopname]] (int i = 0 ...)`. Familar syntax similar to existing attributes (and potentially P3394) and flexible enough to be extended and used in the future",
+      "author": "0x-Error",
+      "subreddit": "cpp",
+      "created_utc": 1728330306,
+      "score": 1,
+      "link_id": "t3_1fyce2n",
+      "parent_id": "t1_lqtde4j"
+    },
+    {
+      "id": "lpnxwwk",
+      "body": "This is known as [Democracy Backsliding](https://en.wikipedia.org/wiki/Democratic_backsliding), and a big cause is economic inequality and general dissatisfaction with life.",
+      "author": "0x-Error",
+      "subreddit": "AdviceAnimals",
+      "created_utc": 1727711080,
+      "score": 1,
+      "link_id": "t3_1fsudko",
+      "parent_id": "t3_1fsudko"
+    },
+    {
+      "id": "lotnp9u",
+      "body": "Not a c++20 solution, but hopefully [P1967](https://thephd.dev/_vendor/future_cxx/papers/d1967.html) which proposes `#embed` will be accepted into c++26. It proposes a preprocessor header which allows embedding arbitrary files into the code while having minimal overhead.",
+      "author": "0x-Error",
+      "subreddit": "cpp",
+      "created_utc": 1727251434,
+      "score": 1,
+      "link_id": "t3_1fompgl",
+      "parent_id": "t3_1fompgl"
+    },
+    {
+      "id": "loq94ri",
+      "body": "Oh boy, can't wait for `^^{ [:\\(type_:] \\id(name) = \\(val * 2); };` to appear in my code",
+      "author": "0x-Error",
+      "subreddit": "cpp",
+      "created_utc": 1727201785,
+      "score": 28,
+      "link_id": "t3_1foera9",
+      "parent_id": "t3_1foera9"
+    },
+    {
+      "id": "ln7zvjn",
+      "body": "It's ok, I'm into hiking/skiing/mountain sports and still don't have friends",
+      "author": "0x-Error",
+      "subreddit": "zurich",
+      "created_utc": 1726392734,
+      "score": 2,
+      "link_id": "t3_1fh78le",
+      "parent_id": "t3_1fh78le"
+    },
+    {
+      "id": "lmap7rh",
+      "body": "The differences are detailed here: https://think-async.com/Asio/AsioAndBoostAsio.html",
+      "author": "0x-Error",
+      "subreddit": "cpp",
+      "created_utc": 1725898982,
+      "score": 1,
+      "link_id": "t3_1fbdwtm",
+      "parent_id": "t1_lm75uk4"
+    },
+    {
+      "id": "ljghkkt",
+      "body": "What's WCK? Can Tommy Coldballs spell?",
+      "author": "0x-Error",
+      "subreddit": "ClimbingCircleJerk",
+      "created_utc": 1724367492,
+      "score": 1,
+      "link_id": "t3_1eyrstq",
+      "parent_id": "t3_1eyrstq"
+    },
+    {
+      "id": "lgs5k30",
+      "body": "This [website](https://www.gletschervergleiche.ch/Pages/ImageCompare.aspx?Id=6) hosts quite a few comparisons of swiss glaciers. Sad to see them disappearing in less then 20 years.",
+      "author": "0x-Error",
+      "subreddit": "collapse",
+      "created_utc": 1722956677,
+      "score": 50,
+      "link_id": "t3_1eliiuw",
+      "parent_id": "t1_lgru44k"
+    },
+    {
+      "id": "lfpkfy0",
+      "body": "Most European universities teach their bachelors in their local langauge (e.g. German, Italian, etc.). Not sure about other countries, but Switzerland requires a C1 language certificate under the European framework, which translates to getting an 8 in IELTS. Even then, a lot of non-native speakers find it hard to follow the lecture content.",
+      "author": "0x-Error",
+      "subreddit": "usyd",
+      "created_utc": 1722372542,
+      "score": 2,
+      "link_id": "t3_1eff2gc",
+      "parent_id": "t1_lfl8ebz"
+    },
+    {
+      "id": "le4brma",
+      "body": "V5 dyno can be stopped by ladder",
+      "author": "0x-Error",
+      "subreddit": "ClimbingCircleJerk",
+      "created_utc": 1721501905,
+      "score": 2,
+      "link_id": "t3_1e7w8ve",
+      "parent_id": "t1_le37q5m"
+    },
+    {
+      "id": "lcw9853",
+      "body": "Probably happened because of the down pour. Could be water leaking into the engine and shorting something.",
+      "author": "0x-Error",
+      "subreddit": "zurich",
+      "created_utc": 1720818058,
+      "score": 6,
+      "link_id": "t3_1e1kxeq",
+      "parent_id": "t1_lcuxkgx"
     }
   ]
 }

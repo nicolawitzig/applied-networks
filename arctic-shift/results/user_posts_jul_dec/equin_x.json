@@ -1,6 +1,205 @@
 {
   "username": "equin_x",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1ftb4hk",
+      "title": "[R] SynthPAI: A Synthetic Dataset for Personal Attribute Inference ",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1727742441,
+      "score": 12,
+      "num_comments": 3,
+      "selftext": "[Accepted to NeurIPS'24 D&B]\n\nTL;DR: We build an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research.\n\nPreprint: https://arxiv.org/abs/2406.07217\n\nIn our latest research paper we present SynthPAI - a synthetic dataset which provides a foundation for a new benchmark on evaluating LLM-based personal attribute inferences. We have built an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research. \nUsing this framework, we constructed a PAI (Private Attribute Inference) dataset consisting of 7800+ comments and 300 synthetic profiles alongside human-verified attribute labels. We showed that our comments exhibit high fidelity (with humans unable to distinguish them from real comments) and informativeness for PAI research, allowing us to draw the same qualitative conclusions as on real-world data across various experiments. ",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ftb4hk/r_synthpai_a_synthetic_dataset_for_personal/"
+    },
+    {
+      "id": "1ebwpct",
+      "title": "Finetuning big LLMs on Google TPU Pods",
+      "author": "equin_x",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1721918781,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi all!\n\nI am new to finetuning on TPU, but recently I got access to Google TPUs for research purposes. We are migrating the training code from GPU to TPU and we use torch XLA+HuggingFace Trainer (we try to avoid rewriting the whole pipeline on JAX for now). Training a model like Llama3-8B goes ok, however, we would like to see if it is possible to use bigger models and there is not enough space for models like Gemma2-27B/Llama3-70B. I am using TPU Pod of size *v4-256* with 32 hosts, each host has 100GB storage space.\n\nThis might be a stupid question, but is there any way to be able to use bigger models like 70B on TPU Pods? I would assume this to be possible, but I haven't seen any openly available examples with models bigger than 13B to be trained on TPU.\n\nThanks!",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ebwpct/finetuning_big_llms_on_google_tpu_pods/"
+    },
+    {
+      "id": "1ebr2l0",
+      "title": "Finetune Llama3/3.1 on GCP TPU Pods?",
+      "author": "equin_x",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1721901623,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ebr2l0/finetune_llama331_on_gcp_tpu_pods/"
+    },
+    {
+      "id": "1ebcuh0",
+      "title": "Possible to finetune big Llama model on TPU?",
+      "author": "equin_x",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1721855682,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ebcuh0/possible_to_finetune_big_llama_model_on_tpu/"
+    },
+    {
+      "id": "1ebct0a",
+      "title": "How to finetune a big Llama on google TPU?",
+      "author": "equin_x",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1721855582,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ebct0a/how_to_finetune_a_big_llama_on_google_tpu/"
+    },
+    {
+      "id": "1ebcrlj",
+      "title": "Training big Llama models on TPU",
+      "author": "equin_x",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1721855485,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ebcrlj/training_big_llama_models_on_tpu/"
+    },
+    {
+      "id": "1e4s5qd",
+      "title": "[R] Discussion for paper \"A Synthetic Dataset for Personal Attribute Inference\"",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1721145227,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1e4s5qd/r_discussion_for_paper_a_synthetic_dataset_for/"
+    },
+    {
+      "id": "1e35t1s",
+      "title": "[R] Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720972893,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "/r/ArtificialInteligence/comments/1dul55s/r_paper_synthetic_privacypreserving_dataset_for/"
+    },
+    {
+      "id": "1e3107j",
+      "title": "[R] Synthetic Dataset for PAI inference",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720959745,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1e3107j/r_synthetic_dataset_for_pai_inference/"
+    },
+    {
+      "id": "1dzude1",
+      "title": "[R] Paper: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720614006,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "/r/ArtificialInteligence/comments/1dul55s/r_paper_synthetic_privacypreserving_dataset_for/"
+    },
+    {
+      "id": "1dzpj4y",
+      "title": "[R] Paper: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720595594,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1dzpj4y/r_paper_synthetic_privacypreserving_dataset_for/"
+    },
+    {
+      "id": "1durhcp",
+      "title": "[R] Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720046562,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1durhcp/r_synthetic_privacypreserving_dataset_for_testing/"
+    },
+    {
+      "id": "1durfxd",
+      "title": "Paper: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs [R]",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720046450,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1durfxd/paper_synthetic_privacypreserving_dataset_for/"
+    },
+    {
+      "id": "1duliv1",
+      "title": "[R] SynthPAI: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720031298,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1duliv1/r_synthpai_synthetic_privacypreserving_dataset/"
+    },
+    {
+      "id": "1dulbpy",
+      "title": "[R] SynthPAI: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs\t",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720030797,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1dulbpy/r_synthpai_synthetic_privacypreserving_dataset/"
+    },
+    {
+      "id": "1dularf",
+      "title": "[R] SynthPAI: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs\t",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720030730,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1dularf/r_synthpai_synthetic_privacypreserving_dataset/"
+    },
+    {
+      "id": "1dul9h8",
+      "title": "[R] SynthPAI: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs\t",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720030635,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1dul9h8/r_synthpai_synthetic_privacypreserving_dataset/"
+    },
+    {
+      "id": "1dul55s",
+      "title": "[R] Paper: Synthetic privacy-preserving dataset for testing private information inference capabilities of LLMs",
+      "author": "equin_x",
+      "subreddit": "ArtificialInteligence",
+      "created_utc": 1720030344,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "**TL;DR: We build an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research.**\n\n* Arxiv paper (preprint): [https://arxiv.org/abs/2406.07217](https://arxiv.org/abs/2406.07217)\n* Github: [https://github.com/eth-sri/SynthPAI](https://github.com/eth-sri/SynthPAI) \n\nIn our latest research paper we present SynthPAI - a synthetic dataset which provides a foundation for a new benchmark on evaluating LLM-based personal attribute inferences. We have built an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research. \n\nUsing this framework, we constructed a PAI (Private Attribute Inference) dataset consisting of 7800+ comments and 300 synthetic profiles alongside human-verified attribute labels. We showed that our comments exhibit high fidelity (with humans unable to distinguish them from real comments) and informativeness for PAI research, allowing us to draw the same qualitative conclusions as on real-world data across various experiments. ",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1dul55s/r_paper_synthetic_privacypreserving_dataset_for/"
+    }
+  ],
   "comments": [
     {
       "id": "ld14ony",
@@ -11,6 +210,46 @@
       "score": 1,
       "link_id": "t3_1e1alfj",
       "parent_id": "t1_lcz8cf7"
+    },
+    {
+      "id": "lpt2337",
+      "body": "Yes, exactly! I have redacted the post with this information for better understanding. I recommend checking out the former work by Staab et. al. for which this dataset was created - [Beyond Memorization: Violating Privacy Via Inference with Large Language Models](https://arxiv.org/abs/2310.07298v1)",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1727788189,
+      "score": 1,
+      "link_id": "t3_1ftb4hk",
+      "parent_id": "t1_lpskdvz"
+    },
+    {
+      "id": "lpqja4g",
+      "body": "Hi, great work! I am wondering if you have tested this on Pods with more than 1 host? I don't see some starting documentation for multi-host TPUs, even though there are python scripts\nWe are trying to train gemma2 9B on a big Pod and would be happy to try this out 🙂",
+      "author": "equin_x",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1727742021,
+      "score": 1,
+      "link_id": "t3_1fj9hea",
+      "parent_id": "t3_1fj9hea"
+    },
+    {
+      "id": "lnychz3",
+      "body": "Not giving platform for terrorists to justify their actions does not equal censorship.",
+      "author": "equin_x",
+      "subreddit": "zurich",
+      "created_utc": 1726781284,
+      "score": 4,
+      "link_id": "t3_1fkkzdg",
+      "parent_id": "t1_lnxl9ch"
+    },
+    {
+      "id": "ld1vldp",
+      "body": "Somehow my original post in the subreddit gets autoremoved by Reddit so I will try to post it here:  \n  \nSynthetic privacy-preserving dataset for testing private information inference capabilities of LLMs\n\n*TL;DR: We build an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research.*\n\n* [Arxiv preprint](https://arxiv.org/abs/2406.07217)\n* [Github](https://github.com/eth-sri/SynthPAI)\n* [HuggingFace space](https://huggingface.co/spaces/hannayukhymenko/synthpai_inference) to test out your guessing skills against GPT-4\n\nIn our latest research paper we present SynthPAI - a synthetic dataset which provides a foundation for a new benchmark on evaluating LLM-based personal attribute inferences. We have built an LLM-agent simulation framework for Reddit to generate synthetic data to advance inference-based privacy research. \n\nUsing this framework, we constructed a PAI (Private Attribute Inference) dataset consisting of 7800+ comments and 300 synthetic profiles alongside human-verified attribute labels. We showed that our comments exhibit high fidelity (with humans unable to distinguish them from real comments) and informativeness for PAI research, allowing us to draw the same qualitative conclusions as on real-world data across various experiments.",
+      "author": "equin_x",
+      "subreddit": "MachineLearning",
+      "created_utc": 1720908475,
+      "score": 1,
+      "link_id": "t3_1dx5tpo",
+      "parent_id": "t3_1dx5tpo"
     }
   ]
 }

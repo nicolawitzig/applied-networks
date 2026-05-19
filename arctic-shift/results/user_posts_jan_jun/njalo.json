@@ -23,6 +23,16 @@
       "score": 1,
       "link_id": "t3_i2lbyu",
       "parent_id": "t3_i2lbyu"
+    },
+    {
+      "id": "ktop31t",
+      "body": "The best argument for draid for small setups that i've seen so far, is that it's scaleable. You can't really increase the diskamount of a raidz array, and it's simply impossible to change from raidzn to raidzn+1 redundancy. With draid you can scale your pool, and use the additional disk for data, redundancy or hot spare at your discretion.",
+      "author": "njalo",
+      "subreddit": "zfs",
+      "created_utc": 1709767341,
+      "score": 1,
+      "link_id": "t3_16xspc4",
+      "parent_id": "t3_16xspc4"
     }
   ]
 }

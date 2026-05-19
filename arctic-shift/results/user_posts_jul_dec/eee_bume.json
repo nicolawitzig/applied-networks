@@ -61,6 +61,126 @@
       "score": 10,
       "link_id": "t3_1flgr8h",
       "parent_id": "t3_1flgr8h"
+    },
+    {
+      "id": "m48z5b6",
+      "body": "This repo uses cartographer in ros2: https://github.com/ForzaETH/race_stack/tree/ros2-humble",
+      "author": "eee_bume",
+      "subreddit": "ROS",
+      "created_utc": 1735419545,
+      "score": 2,
+      "link_id": "t3_1ho5k0n",
+      "parent_id": "t3_1ho5k0n"
+    },
+    {
+      "id": "lzxduud",
+      "body": "IMU and EKF to fuse odom can help when you are pushing the car to the limits",
+      "author": "eee_bume",
+      "subreddit": "ROS",
+      "created_utc": 1733085489,
+      "score": 2,
+      "link_id": "t3_1h40564",
+      "parent_id": "t3_1h40564"
+    },
+    {
+      "id": "lzetqvv",
+      "body": "Zerotier and ROS",
+      "author": "eee_bume",
+      "subreddit": "robotics",
+      "created_utc": 1732804880,
+      "score": 1,
+      "link_id": "t3_1h1pku0",
+      "parent_id": "t3_1h1pku0"
+    },
+    {
+      "id": "lyvbddj",
+      "body": "Heres an example: https://github.com/ForzaETH/race_stack/blob/ros2-humble/.docker_utils/main_dock.sh",
+      "author": "eee_bume",
+      "subreddit": "ROS",
+      "created_utc": 1732516513,
+      "score": 1,
+      "link_id": "t3_1gzc37p",
+      "parent_id": "t3_1gzc37p"
+    },
+    {
+      "id": "lyn37zm",
+      "body": "Yeah it's ongoing. Imo the real deal is way more interesting than the sim ;)",
+      "author": "eee_bume",
+      "subreddit": "robotics",
+      "created_utc": 1732397588,
+      "score": 1,
+      "link_id": "t3_1gxsfjz",
+      "parent_id": "t1_lyn1sqg"
+    },
+    {
+      "id": "lykaomp",
+      "body": "F1TENTH is cool",
+      "author": "eee_bume",
+      "subreddit": "robotics",
+      "created_utc": 1732360890,
+      "score": 4,
+      "link_id": "t3_1gxsfjz",
+      "parent_id": "t3_1gxsfjz"
+    },
+    {
+      "id": "lxw3zil",
+      "body": "This is on concrete crack detection but maybe it can help: https://ieeexplore.ieee.org/abstract/document/10254080/\n\nBasically segformer worked well for us",
+      "author": "eee_bume",
+      "subreddit": "computervision",
+      "created_utc": 1731999503,
+      "score": 1,
+      "link_id": "t3_1gur0ng",
+      "parent_id": "t3_1gur0ng"
+    },
+    {
+      "id": "lxvmoj0",
+      "body": "This here is made for small OD with FOMO https://arxiv.org/pdf/2311.07163\n\nIt still uses tiling but allows you to a priori trade off inference time and accuracy",
+      "author": "eee_bume",
+      "subreddit": "computervision",
+      "created_utc": 1731990683,
+      "score": 1,
+      "link_id": "t3_1guaz5c",
+      "parent_id": "t3_1guaz5c"
+    },
+    {
+      "id": "lxvlziw",
+      "body": "Maybe this helps: https://github.com/ForzaETH/race_stack",
+      "author": "eee_bume",
+      "subreddit": "ROS",
+      "created_utc": 1731990384,
+      "score": 1,
+      "link_id": "t3_1gucgqd",
+      "parent_id": "t3_1gucgqd"
+    },
+    {
+      "id": "lx2fbnt",
+      "body": "Yeah I co-authored that paper. Albeit that paper is about tiling approaches for detecting small objects, FOMO has a few kinks but kinda works. It is much smaller than YOLO which is what counted for us. Check table 1 for more info.\n\nBut if you do tiling i.e. allowing higher input resolution for the CNN, then YOLO will get you better performance as in: https://arxiv.org/pdf/2410.16769",
+      "author": "eee_bume",
+      "subreddit": "computervision",
+      "created_utc": 1731580372,
+      "score": 1,
+      "link_id": "t3_1gpnckm",
+      "parent_id": "t1_lx2e4ug"
+    },
+    {
+      "id": "lwv8q1o",
+      "body": "FOMO based architecture works well. Check out: https://arxiv.org/pdf/2311.07163",
+      "author": "eee_bume",
+      "subreddit": "computervision",
+      "created_utc": 1731471408,
+      "score": 2,
+      "link_id": "t3_1gpnckm",
+      "parent_id": "t3_1gpnckm"
+    },
+    {
+      "id": "lwmekyj",
+      "body": "Depends where you live and how asymmetrical your incomes are: https://www.20min.ch/story/heiratsstrafe-vs-heiratsbonus-in-diesen-gemeinden-werden-verheiratete-am-staerksten-bestraft-103086775",
+      "author": "eee_bume",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1731350953,
+      "score": 1,
+      "link_id": "t3_1govcqp",
+      "parent_id": "t3_1govcqp"
     }
   ]
 }

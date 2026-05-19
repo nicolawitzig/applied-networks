@@ -1,6 +1,84 @@
 {
   "username": "Fri3ndlymushroom",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1gnnyr1",
+      "title": "Destructible and simulated pixel terrain",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "Unity2D",
+      "created_utc": 1731197775,
+      "score": 33,
+      "num_comments": 13,
+      "selftext": "Hey everyone! I'm currently developing a game with destructible pixel terrain and some basic pseudo-physics effects. I’ve attached a short clip of a demo to showcase what I’m working on. However, I'm facing significant performance issues, especially when it comes to handling explosions and terrain destruction.\n\nMy Current Approach\n\nI'm using very small tilemaps, and when a destruction event (like an explosion) occurs, the surrounding tiles are updated to simulate debris movement based on simple physics logic. The main source of lag seems to come from the collider recalculations, which happen every frame as tiles are removed or shifted. You can see in the demo that it starts to run slower and slower the more explosions I make.\n\nThe Challenge\n\nI’m aiming to make this game run smoothly on mobile, so performance is critical. Does anyone have suggestions for optimizing this approach or alternative methods to improve performance? I’d love any insights on handling dynamic colliders, efficient tilemap updates, or anything else that might help with smooth gameplay on mobile.\n\nThanks in advance!\n\n",
+      "url": "https://i.redd.it/jk3ca72tvyzd1.gif"
+    },
+    {
+      "id": "1gnn3ux",
+      "title": "Making destructible and simulated pixel terrain.",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "Unity2D",
+      "created_utc": 1731195239,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I am currently working ",
+      "url": "https://www.reddit.com/r/Unity2D/comments/1gnn3ux/making_destructible_and_simulated_pixel_terrain/"
+    },
+    {
+      "id": "1gnn3u4",
+      "title": "Making destructible and simulated pixel terrain.",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "Unity2D",
+      "created_utc": 1731195237,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I am currently working ",
+      "url": "https://www.reddit.com/r/Unity2D/comments/1gnn3u4/making_destructible_and_simulated_pixel_terrain/"
+    },
+    {
+      "id": "1f93l4h",
+      "title": "Dedicated Servers for 1.0",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "SatisfactoryGame",
+      "created_utc": 1725481343,
+      "score": 0,
+      "num_comments": 6,
+      "selftext": "Hi, I haven't used a dedicated server in some time and a few friends want to start a dedicated server on release. Do we already know what kind of server we need?\n\nWhat is your prefered server provider for Satisfactory?\n\nThanks, any tipps are appreciated!",
+      "url": "https://www.reddit.com/r/SatisfactoryGame/comments/1f93l4h/dedicated_servers_for_10/"
+    },
+    {
+      "id": "1ewkrep",
+      "title": "System Performance Has Dropped Significantly\n",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "overclocking",
+      "created_utc": 1724122008,
+      "score": 6,
+      "num_comments": 8,
+      "selftext": "Hi everyone,\n\nI’ve had my PC for a while, and it’s always performed well across all games. However, in the past few weeks, I’ve noticed a significant drop in performance. After reinstalling Windows and updating all drivers, I ran a 3DMark benchmark, and the results were alarming. My system scored **6842**, while the average for my hardware is **13854**—placing me in the lowest 1%.\n\n**System Specs:**\n\n* **GPU:** NVIDIA GeForce RTX 2080 Ti\n   * Memory: 11GB GDDR6\n   * Driver Version: 32.0.15.6081\n   * Core Clock (Boost): 1740 MHz (Base: 1350 MHz)\n   * Average Core Clock (Benchmark): 1430 MHz\n   * Memory Clock: 1750 MHz\n   * Average Memory Clock (Benchmark): 1750 MHz\n   * Average Temp: 74°C\n   * Resizable BAR: Disabled\n* **CPU:** Intel Core i9-9900K\n   * Base Clock: 3.6 GHz\n   * Boost Clock: 5.0 GHz\n   * Average Clock (Benchmark): 4.7 GHz\n   * Average Temp: 71°C\n* **Motherboard:** ASUS ROG Maximus XI Hero (Wi-Fi)\n* **RAM:** 16GB DDR4 2142 MHz\n* **PSU:** Seasonic 850W Platinum\n\n**Benchmark Details:**\n\n* I ran the Time Spy benchmark multiple times, and each time, the results were consistently poor. Here’s a link to the benchmark comparison: [3DMark Results](https://www.3dmark.com/3dm/116163583?).\n* I’ve also attached an Image of telemetry data for more insights. This will probably help most.\n\n[Telemetry from Benchmark](https://preview.redd.it/h8f80j4neqjd1.png?width=1490&format=png&auto=webp&s=768011a8f03fc94bb4b41c356a0e17f7af60608c)\n\n**Observations:**\n\nHere are some of my observations:\n\n* The framerate starts high but drops quickly—I'm unsure if this is normal.\n* The GPU temperature peaks at 75°C, so I don’t think heat is the issue.\n\n**Any insights on what might be causing this significant drop in performance?** If you need more information, feel free to ask—I'm eager to get this resolved!\n\nThank you for your help!",
+      "url": "https://www.reddit.com/r/overclocking/comments/1ewkrep/system_performance_has_dropped_significantly/"
+    },
+    {
+      "id": "1ewkpuq",
+      "title": "System Performance Has Dropped Significantly",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1724121847,
+      "score": 2,
+      "num_comments": 12,
+      "selftext": "Hi everyone,\n\nI’ve had my PC for a while, and it’s always performed well across all games. However, in the past few weeks, I’ve noticed a significant drop in performance. After reinstalling Windows and updating all drivers, I ran a 3DMark benchmark, and the results were alarming. My system scored **6842**, while the average for my hardware is **13854**—placing me in the lowest 1%.\n\n**System Specs:**\n\n* **GPU:** NVIDIA GeForce RTX 2080 Ti\n   * Memory: 11GB GDDR6\n   * Driver Version: 32.0.15.6081\n   * Core Clock (Boost): 1740 MHz (Base: 1350 MHz)\n   * Average Core Clock (Benchmark): 1430 MHz\n   * Memory Clock: 1750 MHz\n   * Average Memory Clock (Benchmark): 1750 MHz\n   * Average Temp: 74°C\n   * Resizable BAR: Disabled\n* **CPU:** Intel Core i9-9900K\n   * Base Clock: 3.6 GHz\n   * Boost Clock: 5.0 GHz\n   * Average Clock (Benchmark): 4.7 GHz\n   * Average Temp: 71°C\n* **Motherboard:** ASUS ROG Maximus XI Hero (Wi-Fi)\n* **RAM:** 16GB DDR4 2142 MHz\n* **PSU:** Seasonic 850W Platinum\n\n**Benchmark Details:**\n\n* I ran the Time Spy benchmark multiple times, and each time, the results were consistently poor. Here’s a link to the benchmark comparison: [3DMark Results](https://www.3dmark.com/3dm/116163583?).\n\n* I’ve also attached an Image of telemetry data for more insights. This will probably help most.\n\n[Telemetry from Benchmark](https://preview.redd.it/h8f80j4neqjd1.png?width=1490&format=png&auto=webp&s=768011a8f03fc94bb4b41c356a0e17f7af60608c)\n\n**Observations:**\n\nHere are some of my observations:\n\n* The framerate starts high but drops quickly—I'm unsure if this is normal.\n* The GPU temperature peaks at 75°C, so I don’t think heat is the issue.\n\n**Any insights on what might be causing this significant drop in performance?** If you need more information, feel free to ask—I'm eager to get this resolved!\n\nThank you for your help!",
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1ewkpuq/system_performance_has_dropped_significantly/"
+    },
+    {
+      "id": "1e2zuzn",
+      "title": "Seeking Real-Life Racers' Opinions on Rennsport",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "Rennsportsim",
+      "created_utc": 1720955765,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Hey everyone,\n\nI've been seeing a ton of discussions online about the physics in Rennsport. However, I've noticed that many of the big Simracing YouTubers don't have extensive real-life racing experience. \n\nAre there any real-life racers here? I'd love to hear your thoughts and opinions on how Rennsport's physics compare to actual racing.",
+      "url": "https://www.reddit.com/r/Rennsportsim/comments/1e2zuzn/seeking_reallife_racers_opinions_on_rennsport/"
+    }
+  ],
   "comments": [
     {
       "id": "m3r3nbx",
@@ -11,6 +89,66 @@
       "score": 7,
       "link_id": "t3_1hm0527",
       "parent_id": "t3_1hm0527"
+    },
+    {
+      "id": "lwlkccr",
+      "body": "Thank you. I made some research on compute shaders. They shouls be supported on most new mobile devices. I'll try this route.",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "Unity2D",
+      "created_utc": 1731341692,
+      "score": 1,
+      "link_id": "t3_1gnnyr1",
+      "parent_id": "t1_lwioi6y"
+    },
+    {
+      "id": "lj2bdoh",
+      "body": "The bus interface is correct. But I think GPU-Z has shown me the problem. There is a reading called \"hot spot\" and I think there is one sensor that reads 109 degrees. I assume this is the problem. What do you think?",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1724171386,
+      "score": 1,
+      "link_id": "t3_1ewkpuq",
+      "parent_id": "t1_lizok1r"
+    },
+    {
+      "id": "lizjedd",
+      "body": "Yes something seems off. I am rarely doing anything in the bios. The only thing I've done is enabling secure boot for the Riot Anticheat. But I dont think thats the problem.",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1724124931,
+      "score": 1,
+      "link_id": "t3_1ewkpuq",
+      "parent_id": "t1_lizit68"
+    },
+    {
+      "id": "lizj1vq",
+      "body": "Yes I also thought they seem low compared to the other benchmarks I have seen. \n\nI've already installed it. What should I look at exactly?",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1724124785,
+      "score": 1,
+      "link_id": "t3_1ewkpuq",
+      "parent_id": "t1_lizid25"
+    },
+    {
+      "id": "lize7h9",
+      "body": "Thanks for your quick answer. I really appriciate that\n\nI have never heard of resizable bar. Does this have an impact?\n\nYes the Ram is probably not the best for the rest of the configuration, but do you think it would hurt the performance of a Benchmark so bad?\nxmp is on \"auto\" in my bios. So I am not sure if xmp is the default.\n\nI am going to look into that. \nThanks",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1724122805,
+      "score": 1,
+      "link_id": "t3_1ewkpuq",
+      "parent_id": "t1_lizci6a"
+    },
+    {
+      "id": "ldh2184",
+      "body": "Can I drive for you?",
+      "author": "Fri3ndlymushroom",
+      "subreddit": "ACCompetizione",
+      "created_utc": 1721148214,
+      "score": 2,
+      "link_id": "t3_1e4n3fz",
+      "parent_id": "t3_1e4n3fz"
     }
   ]
 }

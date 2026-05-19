@@ -13,5 +13,56 @@
       "url": "https://www.reddit.com/r/ethz/comments/1bqp1ob/phd_in_applied_mathematics/"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": "kzt8khn",
+      "body": "Don't want to be rude, but mathematically speaking you are agreeing with me. Also the plot is not semilogarithmic so you cannot really tell if the asymptote is 0.0 or something slightly above like 0.01 (and there is a huge difference even assuming that the scenario I described is not possible in this sub reddit)",
+      "author": "FlounderStill",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713264892,
+      "score": 1,
+      "link_id": "t3_1c4pvmu",
+      "parent_id": "t1_kzt736r"
+    },
+    {
+      "id": "kzsy9ss",
+      "body": "I am sorry for entering the discussion in this way but your consideration is not correct. First, in order to make statements regarding the asymptotic nature of the loss function you need some kind of model to explain the behavior of the learning algorithms for large times. There exist some important new theories regarding the interpretation of neural network as nonlinear dynamical systems, that enable this approach, but they are very advanced techniques that require a way deeper analysis than a simple inspection of the training loss plot. Second, the assumption that a zero error classifier is inherently overfitted is, unfortunately, wrong. There is a very broad literature regarding the generalizing properties of zero-loss classifiers, especially in neural networks. \nFor instance, think of having 2 classes, each one representing an object whose generation follow a probability distribution with compact support (not intersecting each other) over the Euclidean space where data lives. By the Geometric interpretation of Han banach theorem, if the supports are convex the existence of a separating hyperplane is guaranteed, hence we could produce a zero loss classifier both in training and test. This situation is not so abstract, and may appear in reality for example when trying to classify objects where there is a constraint in some subset of features that force the support of the distribution to be compact.",
+      "author": "FlounderStill",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1713257736,
+      "score": 2,
+      "link_id": "t3_1c4pvmu",
+      "parent_id": "t1_kzpelna"
+    },
+    {
+      "id": "kzsx8zx",
+      "body": "For instance, Support Vector Machine are inherently a Geometric learning paradigm. The maximization of margin is done completely ignoring the probabilistic and statistical aspect, under the reasonable assumption that \"I want classes to be as separate as possible\". Moreover, as others said, training a decision tree is more linked to information theory rather than statistics (even if the field are extremely close to each other). Finally a special mention is deserved by the field of Knowledge Engineering, where learning happens exploiting a suitable subset of first order logic (constructed in order to be decidable) and is based on the idea of treating some axioms as data (e.g. The car is red, red objects are beautiful) in order to produce an insight/prediction (e.g. The car is beautiful). This last field in particular is gaining again relevance thanks to the renewed interest toward graph models, and therefore knowledge graphs (which provide an excellent way to represent these axioms).",
+      "author": "FlounderStill",
+      "subreddit": "compsci",
+      "created_utc": 1713256954,
+      "score": 6,
+      "link_id": "t3_1c54b9z",
+      "parent_id": "t3_1c54b9z"
+    },
+    {
+      "id": "kygj09a",
+      "body": "Sembra il risultato di una Topology Optimization, una strategia di progettazione che permette di massimizzare la rigidità di un oggetto minimizzando la quantità di materiale da utilizzare. Non è bellissimo da vedere ma ingegneristicamente molto figo",
+      "author": "FlounderStill",
+      "subreddit": "Italia",
+      "created_utc": 1712491686,
+      "score": 1,
+      "link_id": "t3_1bvvqm5",
+      "parent_id": "t1_ky26j9p"
+    },
+    {
+      "id": "kh6dr6y",
+      "body": "Explainability, Interpetability, High computational cost is becoming de facto a standard to produce any \"popular\" model, Mathematical ambiguity in the recent results about overfitted classifiers (e.g. Double descent theorem) and I would also add the fact that everything is becoming centralized around few technologies and this will, imho, bend the research toward some kind of stagnation",
+      "author": "FlounderStill",
+      "subreddit": "MachineLearning",
+      "created_utc": 1704870767,
+      "score": 1,
+      "link_id": "t3_192aj3h",
+      "parent_id": "t3_192aj3h"
+    }
+  ]
 }

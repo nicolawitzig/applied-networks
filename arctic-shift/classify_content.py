@@ -13,6 +13,7 @@ Usage:
 import argparse
 import csv
 import json  # used by load_user_data
+import re
 import sys
 import time
 from collections import defaultdict
@@ -104,6 +105,32 @@ _SUBTYPE_ALIASES: Dict[str, str] = {
     "admin": "administrative_body",
     "administration": "administrative_body",
 }
+
+# ---------------------------------------------------------------------------
+# Content filtering
+# ---------------------------------------------------------------------------
+
+ETHZ_SUBREDDIT = "ethz"  # home subreddit — all posts included unconditionally
+
+_AFFILIATION_RE = re.compile(  # academic-role keywords; gates non-ethz posts/comments
+    r"\b(phd|ph\.d|doctorate|doctoral|master|masters|msc|bachelor|bachelors|"
+    r"undergraduate|university|postdoc|post[\-\s]doc|professor|researcher|"
+    r"thesis|dissertation|semester|faculty|epfl|zhaw|eth\s+z[uü]rich)\b",
+    re.IGNORECASE,
+)
+
+
+def _contains_affiliation_keyword(text: str) -> bool:
+    """True if text matches any academic-affiliation keyword in _AFFILIATION_RE."""
+    return bool(_AFFILIATION_RE.search(text))
+
+
+def _is_relevant(subreddit: str, *text_parts: str) -> bool:
+    """True if post/comment is from r/ethz OR any text_part contains an affiliation keyword."""
+    if subreddit.lower() == ETHZ_SUBREDDIT:
+        return True
+    return _contains_affiliation_keyword(" ".join(text_parts))
+
 
 # ---------------------------------------------------------------------------
 # Data types
@@ -268,18 +295,20 @@ def load_user_data(path: Path) -> UserData:
 
 
 def build_text_sample(user: UserData, max_chars: int) -> str:
-    """Concatenate post titles + bodies + comment bodies with subreddit, truncated to max_chars."""
+    """Build LLM input: r/ethz content always included; other subreddits only on keyword match."""
     parts: List[str] = []  # text fragments accumulated in chronological order
     for p in user.posts:
         subreddit = p.get("subreddit", "")
         title = p.get("title", "")
         body = p.get("selftext", "").strip()
+        if not _is_relevant(subreddit, title, body):
+            continue
         prefix = f"[post r/{subreddit}]" if subreddit else "[post]"
         parts.append(f"{prefix} {title}\n{body}" if body else f"{prefix} {title}")
     for c in user.comments:
         subreddit = c.get("subreddit", "")
         body = c.get("body", "").strip()
-        if body:
+        if body and _is_relevant(subreddit, body):
             prefix = f"[comment r/{subreddit}]" if subreddit else "[comment]"
             parts.append(f"{prefix} {body}")
     combined = "\n\n".join(parts)

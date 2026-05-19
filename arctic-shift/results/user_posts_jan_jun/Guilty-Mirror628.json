@@ -11,6 +11,17 @@
       "num_comments": 0,
       "selftext": "Could a course like \"Data Management Systems\" for example (which is part of the Data Science and CS Master) be accepted even though it's not labelled as \"offered in Statistics Master\", or is the program strictly accepting only courses labeled with \"offered in Statistics Master\"? Where I did my Bachelor there was some room for negotiation as to whether a course is accepted to count towards the program or not, so I'm wondering if this is the case at ETH and for the Statistics Master as well.\n\n  \nAlso, can you recommend or advise against any courses in particular?\n\nThank you.",
       "url": "https://www.reddit.com/r/ethz/comments/1dnbuwh/statistics_master_course_selection/"
+    },
+    {
+      "id": "1dmv94z",
+      "title": "How to interpret R output for stratified cox-ph model?",
+      "author": "Guilty-Mirror628",
+      "subreddit": "AskStatistics",
+      "created_utc": 1719174008,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "For the following model:\n\n    model <- coxph(formula = Surv(time, status) ~ treatment * sex + strata(sex), data = data) \n\n  \nthis is (part of) the model summary in R:\n\n||coef|exp(coef)|\n|:-|:-|:-|\n|treatment1|-0.15|0.86|\n|sex\\_f|NA|NA|\n|treatment1\\_sex\\_f|-0.35|0.70|\n\n  \nIf I understand correctly, in a stratified model, the coefficients cannot be interpreted anymore as a hazard ratio, since the baseline is not the same for the two sexes. So here I cannot tell the hazard ratio of a female receiving treatment compared to a male receiving treatment? And how do I get the sex-specific log hazard ratio for females with treatment vs. females without treatment, is it log(HR) = -0.15 + -0.35, or is it log(HR) = -0.35?\n\nMany thanks!",
+      "url": "https://www.reddit.com/r/AskStatistics/comments/1dmv94z/how_to_interpret_r_output_for_stratified_coxph/"
     }
   ],
   "comments": []

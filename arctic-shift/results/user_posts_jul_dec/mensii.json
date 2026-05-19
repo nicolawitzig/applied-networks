@@ -81,6 +81,16 @@
       "score": 1,
       "link_id": "t3_1dspp8p",
       "parent_id": "t1_lb433co"
+    },
+    {
+      "id": "lbh22nk",
+      "body": "There's some discussion about this on https://github.com/mensi/ekzexport/issues/2 but like my understanding of the energy integration stuff in HA is that it's supposed to be live values - the API only gives you delayed data, so I doubt there's much use for HA stuff as you couldn't react to your energy consumption.",
+      "author": "mensii",
+      "subreddit": "zurich",
+      "created_utc": 1720028142,
+      "score": 1,
+      "link_id": "t3_xv7610",
+      "parent_id": "t1_lbcr4eo"
     }
   ]
 }

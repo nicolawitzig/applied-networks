@@ -1,6 +1,18 @@
 {
   "username": "Glad-Neighborhood500",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cv88e1",
+      "title": "MiniRocket - Training with a Custom Dataset",
+      "author": "Glad-Neighborhood500",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1716068964,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hello everyone,\n\nI have a school project where I have to classify measurements that I did. I want to work with MiniRocket or Rocket, since it's Time series data. I have a pandas Dataframe with a 1d matrix for the measured values, and for each value the corresponding labels (0/1). I'm not sure if this kind of format of training data is the problem or I'm messing up somewhere else, but I always receive an error that there is a shape mismatch, when trying to fit the data. Is there a basic guide for how the training data should look like, and what settings on the transform/kernel size should be used?\n\nHope someone here can help or give me a hint on where to look.\n\nThanks a lot. ",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1cv88e1/minirocket_training_with_a_custom_dataset/"
+    }
+  ],
   "comments": [
     {
       "id": "l6i2zlm",

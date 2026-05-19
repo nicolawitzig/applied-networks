@@ -1,6 +1,40 @@
 {
   "username": "davidTheEngineer",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1h0u6ym",
+      "title": "Pop-Up Before leaving fastmail on firefox",
+      "author": "davidTheEngineer",
+      "subreddit": "fastmail",
+      "created_utc": 1732675731,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I have been trialing fastmail and what occurred to me is that always before closing the fastmail tab on firefox I get this warning: \n\nThis page is asking you to confirm that you want to leave — information you’ve entered may not be saved.\n\nanybody knows what causes that?",
+      "url": "https://www.reddit.com/r/fastmail/comments/1h0u6ym/popup_before_leaving_fastmail_on_firefox/"
+    },
+    {
+      "id": "1gum8mi",
+      "title": "Start a new Claude chat via HTTP with an image attached to the request",
+      "author": "davidTheEngineer",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1731981881,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I would want to start a new claude chat via HTTP akin to [claude.ai/new?q=hello](http://claude.ai/new?q=hello) , but where I also send an image with the request (a screenshot). Anybody knows if that is possible? \n\nThanks!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1gum8mi/start_a_new_claude_chat_via_http_with_an_image/"
+    },
+    {
+      "id": "1gq496j",
+      "title": "T14s gen 4 screen/panel upgrade, advice appreciated",
+      "author": "davidTheEngineer",
+      "subreddit": "thinkpad",
+      "created_utc": 1731470327,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I have the 300 nits touch screen with the terrible color accuracy and am thinking about upgrading to a different panel. \n\nI purchased a new cable with a 30 pin 0.4mm pitch width, but am unsure which screens are best / really work. Anybody who has done that before has some advice for me / knows which panels work well?\n\n  \nI was thinking about getting an Innolux N140JLG-GT3 but there seems to be two versions of it and I cannot figure out which one has the 0.4mm pitch.",
+      "url": "https://www.reddit.com/r/thinkpad/comments/1gq496j/t14s_gen_4_screenpanel_upgrade_advice_appreciated/"
+    }
+  ],
   "comments": [
     {
       "id": "ly9boqc",
@@ -41,6 +75,26 @@
       "score": 1,
       "link_id": "t3_1fsxp01",
       "parent_id": "t3_1fsxp01"
+    },
+    {
+      "id": "lvqdos7",
+      "body": "recently saw this https://github.com/osgil-defense/TARS (not sure if still active but repo might be a good place to start)",
+      "author": "davidTheEngineer",
+      "subreddit": "LangChain",
+      "created_utc": 1730909365,
+      "score": 2,
+      "link_id": "t3_1gkzb1u",
+      "parent_id": "t1_lvqc20j"
+    },
+    {
+      "id": "lpv8ecw",
+      "body": "oh damn, didnt know about zen. Looks awesome!!!",
+      "author": "davidTheEngineer",
+      "subreddit": "linux",
+      "created_utc": 1727813636,
+      "score": 3,
+      "link_id": "t3_1fts18a",
+      "parent_id": "t1_lpux80w"
     }
   ]
 }

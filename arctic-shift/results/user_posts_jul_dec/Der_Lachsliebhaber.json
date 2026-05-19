@@ -11,6 +11,215 @@
       "num_comments": 13,
       "selftext": "Basically, subj. I am studying in different uni and I plan to apply for my consecutive master program, therefore admission is guaranteed in my case. I would like to ask how people who came to eth feel. (especially people on CS, but everyone is welcome) \nAfaik master is different from bachelor in the type of workload - on bachelor it’s mostly exams and on master it’s mostly projects/homeworks/etc. \n",
       "url": "https://www.reddit.com/r/ethz/comments/1gg3f0n/questions_for_swiss_bachelors_how_hard_is_your/"
+    },
+    {
+      "id": "1hogqvo",
+      "title": "Momentum 4 for ps5?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "sennheiser",
+      "created_utc": 1735423966,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "I recently bought momentum 4 and I tried to use them with ps5 via passive connection and they sounded muffled..? comparing to major 4 passive connection. Is it the way is it supposed to be and for Momentums I just need to use EQ to make it sound proper for music/films/etc, but via passive connection they will never sound as marshalls?\n\n  \nAlso I would be thankful if someone would share their EQ for indie/alternative music like beach house, mazzy star, mac demarco and Jfarrari",
+      "url": "https://www.reddit.com/r/sennheiser/comments/1hogqvo/momentum_4_for_ps5/"
+    },
+    {
+      "id": "1hin3z7",
+      "title": "Why it was so shocking that Trump can be the candidate in 2015/16?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Askpolitics",
+      "created_utc": 1734710962,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I am not american and at the time was too young to follow american politics, but I remember that both trumps win and trumps candidacy was a huge shock back then. After trump won this year I've seen few videos on Tiktok how various celebrities/political figures were convincing people that Trump wouldn't even become a candidate (in 2015) and it's some sort of weird joke. We all have seen the videos of how people reacted to his nomination, and as far as I understand, he was perceived as some sort of worst evil guy which can become a president, even tho he was never in politics before?   \ninb4: answer that he indeed was not in politics before is not sufficient in this case I believe. Also saying that people \"just knew\" all the info and stuff happened in 2016-2024 is also would not be true for 99% of the people.",
+      "url": "https://www.reddit.com/r/Askpolitics/comments/1hin3z7/why_it_was_so_shocking_that_trump_can_be_the/"
+    },
+    {
+      "id": "1himxuo",
+      "title": "Is there any chance to go for phd without good grades?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734710493,
+      "score": 5,
+      "num_comments": 34,
+      "selftext": "For the context - I study computer science in Europe (Switzerland) and I will start my masters soon. I know (because of specifics of the local system) that I will be most likely admitted to two top-rated universities. However, I have grades below average and I am always better at freestyling presentations, convincing people (including the professors who scare the whole student body), doing projects etc, but not so good at writing exams and since they conclude the big chunk of Bachelor subjects. I suppose for the masters the tendency will be the same, maybe my grades will be better, but I don’t think I will have excellent grades at the end of the day.\nAt the same time, I know that said universities struggle to recruit their master graduates for the phd for various reasons. I know that if I try I may have a good relationship with professors, but I don’t know if I should try and is there any sense in it? ",
+      "url": "https://www.reddit.com/r/PhD/comments/1himxuo/is_there_any_chance_to_go_for_phd_without_good/"
+    },
+    {
+      "id": "1h1kir0",
+      "title": "Are Sony XM4 worth it for 190 USD?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "HeadphoneAdvice",
+      "created_utc": 1732757208,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "So I have marshall major 4 for already 2 years. And they more or less satisfy me, but I was looking into something more high-profile. I live in Europe and now it’s Black friday here and I see postings about sony XM4 for around 190 dollars. On the other hand, one can also buy XM5 for ~250 dollars. \n\nI am not into hard bass or metal music, I prefer listening to stuff like mark demarco, beach house, mazzy start etc which is more into dreampop I guess. I am not sure if this headphones are suitable for this type of music. I walk a lot, so good ANC is a big yes for me, but I am already used to using Marshall 4 without any ANC so I don’t think it’s has that big difference for me.\n\nOn the other hand I can also buy sennheiser momentum 4 for around this price, however I read that they have worse ANC but better sound quality overall.",
+      "url": "https://www.reddit.com/r/HeadphoneAdvice/comments/1h1kir0/are_sony_xm4_worth_it_for_190_usd/"
+    },
+    {
+      "id": "1gz1snw",
+      "title": "Why it was so shocking that Trump can be the candidate in 2015/16?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Askpolitics",
+      "created_utc": 1732483047,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Askpolitics/comments/1gz1snw/why_it_was_so_shocking_that_trump_can_be_the/"
+    },
+    {
+      "id": "1fv9wgw",
+      "title": "[Q] Is sequential monte carlo applicable in my case?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "statistics",
+      "created_utc": 1727967862,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "Is sequential monte-carlo applicable for my case?\n\nHello dear community. Sorry if my question seems trivial or stupid, but I don’t have advanced statistics knowledge and lack systematic knowledge (e.g. I haven’t studied methods which I will mention further in the uni, so I came to them by manually trying to find what is applicable for my case).\n\nBasically I try to work with time series of movements of some objects in 2d space. I know their coordinates every time step (so I have perfect sensor in some sense), but sometimes, due to physical reasons they change their velocity between those steps, so it’s mathematically not possible to perfectly calculate their movements. Through my search, I’ve found kalman and particle filter which seemed almost perfect for my case. \n\nSo I implemented some kind of predictive monte carlo, where I do steps from sequential mc in different order: I generate ensemble of particles around some starting coordinate of my movement object, then I move (predict) them according to simplified mathematical model of my system, then I estimate the position using simple arithmetic mean which is then compared to real position (which is always ground truth) and then I do weighting and resampling as in particle filter.\n\nBasically, my approach works quite well and I have good results, but I haven’t found any literature which worked with method like this. For me it sounds like some kind of predictive particle filter or ensemble kalman filter, but in my case I don’t do filtering, since I know the ground truth locations of objects and my sensor is perfect. \n\nSo my question is - is there literature or name for such approach, or I am statistics frankenstein who created some crazy method which works only for my situation?\n\nP.S. classical time series methods like arima won’t work here, since the movement of my objects is highly chaotic and hard to predict ",
+      "url": "https://www.reddit.com/r/statistics/comments/1fv9wgw/q_is_sequential_monte_carlo_applicable_in_my_case/"
+    },
+    {
+      "id": "1fv9v3n",
+      "title": "Is sequential monte carlo applicable in my case?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "statistics",
+      "created_utc": 1727967768,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/statistics/comments/1fv9v3n/is_sequential_monte_carlo_applicable_in_my_case/"
+    },
+    {
+      "id": "1fv8g0t",
+      "title": "Is sequential monte-carlo applicable for my case?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "AskStatistics",
+      "created_utc": 1727964038,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hello dear community. Sorry if my question seems trivial or stupid, but I don’t have advanced statistics knowledge and lack systematic knowledge (e.g. I haven’t studied methods which I will mention further in the uni, so I came to them by manually trying to find what is applicable for my case).\n\nBasically I try to work with time series of movements of some objects in 2d space. I know their coordinates every time step (so I have perfect sensor in some sense), but sometimes, due to physical reasons they change their velocity between those steps, so it’s mathematically not possible to perfectly calculate their movements. Through my search, I’ve found kalman and particle filter which seemed almost perfect for my case. \n\nSo I implemented some kind of predictive monte carlo, where I do steps from sequential mc in different order: I generate ensemble of particles around some starting coordinate of my movement object, then I move (predict) them according to simplified mathematical model of my system, then I estimate the position using simple arithmetic mean which is then compared to real position (which is always ground truth) and then I do weighting and resampling as in particle filter.\n\nBasically, my approach works quite well and I have good results, but I haven’t found any literature which worked with method like this. For me it sounds like some kind of predictive particle filter or ensemble kalman filter, but in my case I don’t do filtering, since I know the ground truth locations of objects and my sensor is perfect. \n\nSo my question is - is there literature or name for such approach, or I am statistics frankenstein who created some crazy method which works only for my situation?\n\nP.S. classical time series methods like arima won’t work here, since the movement of my objects is highly chaotic and hard to predict ",
+      "url": "https://www.reddit.com/r/AskStatistics/comments/1fv8g0t/is_sequential_montecarlo_applicable_for_my_case/"
+    },
+    {
+      "id": "1fj9h4b",
+      "title": "One more mobile abo question",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1726603904,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "I am thinking about switching to Wingo, but unfortunately they don't have full info on their website. Basically atm they have wingo swiss pro for 23.- which has \"unlimited data\", but they sell 5g connection as separate option..? At the same time they have wingo swiss 5g (without any sale) for 28.-. So I am confused, does it mean that in wingo swiss pro they don't have 5g connection by default? Also do they have truly unlimited data, or they give you \"unlimited\" data, but if you exceed some amount because you use your phone like hotspot for watching netflix on your laptop in the train, then it becomes very very limited? Can someone elaborate? Btw I am really not into the idea to take galaxus mobile or mucho or whatever, because coverage is important for me and it seems like swisscom is much better than sunrise/salt",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1fj9h4b/one_more_mobile_abo_question/"
+    },
+    {
+      "id": "1fhalc1",
+      "title": "What’s the deal with nobody taking Trump seriously in 2015-2016?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1726400623,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1fhalc1/whats_the_deal_with_nobody_taking_trump_seriously/"
+    },
+    {
+      "id": "1f3b9cb",
+      "title": "Particle filter usage?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "datascience",
+      "created_utc": 1724854387,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/datascience/comments/1f3b9cb/particle_filter_usage/"
+    },
+    {
+      "id": "1ez50ga",
+      "title": "Apps/websites to keep my german level?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "germany",
+      "created_utc": 1724391364,
+      "score": 2,
+      "num_comments": 13,
+      "selftext": "I think it will be quite an unusual request, but I have following problem:\nI spent a lot of time and resources learning german in order to work, study and socialise. I successfully passed goethe C1 test and was very proud of myself. However, I got into situation which destroys all my work - I study in university and work and in both places English prevails. What I mean is that most of my colleagues (I work in IT if it matters) don’t speak german and those who do, still use English since it’s main language in the company. In University situation is the same - all of my courses are taught on english. In the end of the day, I spent most of the time using solely english. So, my question is - is there any app/website where I can keep my level somehow? For me talking and using words I know was never the problem, so I don’t need this option as much (I mean talking to other people), but mostly to keep words and some verbal constructions and maybe learn new - I don’t have any problems with german grammar or system (of language), so I doubt that I need any learning in these particular topics. I don’t have much time besides the stuff I already do, so for me it wouldn’t be the best option to go to german-speaking cafe or stuff like that",
+      "url": "https://www.reddit.com/r/germany/comments/1ez50ga/appswebsites_to_keep_my_german_level/"
+    },
+    {
+      "id": "1ev2iho",
+      "title": "Have you noticed how mediocre music in the show is?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723961728,
+      "score": 0,
+      "num_comments": 8,
+      "selftext": "Basically, after watching shows like Dark or American Gods (or game of thrones which is blockbuster) I noticed how mediocre music in dexter is. Like yeah, I get melodies for each situation and each killer and when in S6 that it guy bought the arm from S1 we had this Ice Truck Killer melody, but other than that overall sound design is bruh. Like I get that dexter is a solely story-oriented show about talking and talking (like sopranos), bur still, couldn’t they do it, even at some point? Like if they had no money or intention in the beginning, when it became big it wasn’t a problem to hire a cool sound design guy, was it?",
+      "url": "https://www.reddit.com/r/Dexter/comments/1ev2iho/have_you_noticed_how_mediocre_music_in_the_show_is/"
+    },
+    {
+      "id": "1eugb5n",
+      "title": "What the fuck is happening on Wettsteinplatz?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1723897000,
+      "score": 3,
+      "num_comments": 7,
+      "selftext": "Basically, subj. My walls are literally shaking and the music so loud it’s scary…",
+      "url": "https://www.reddit.com/r/basel/comments/1eugb5n/what_the_fuck_is_happening_on_wettsteinplatz/"
+    },
+    {
+      "id": "1et9th8",
+      "title": "How rich is Dexter?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723764439,
+      "score": 233,
+      "num_comments": 147,
+      "selftext": "Basically subj. Like when he moves in with Rita he casually buys a new house (while keeping his apartment), then sales it, then buys a second apartment just because “it’s more comfortable”. At the same time we know (from what Doakes said) that he went to med school which is not cheap at all. His dad was a cop but not sergeant or something and mom (from what I can see) was stay at home wife. Also his apartments are with pool and facing the sea along with place for a boat. And, to sum it up, he does it in Miami, not some Oklahoma small town, so how much money does he earn/have?",
+      "url": "https://www.reddit.com/r/Dexter/comments/1et9th8/how_rich_is_dexter/"
+    },
+    {
+      "id": "1enc2k4",
+      "title": "Is the amount of documents quite the same for german nationals?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "germany",
+      "created_utc": 1723138413,
+      "score": 0,
+      "num_comments": 12,
+      "selftext": "Basically, subj. I know many people (especially from Eastern Europe) complain about the amount of all the legal documents they need in order to be functional in germany, especially when you start translating and apostiling all your home country diplomas, marriage documents etc, but is it the same for german nationals? They don’t need arbeitsbewilligung, they don’t need to translate documents, they don’t need proof that they are legally here etc. They need passport, diploma, insurance and registration, right? Am I missing something?",
+      "url": "https://www.reddit.com/r/germany/comments/1enc2k4/is_the_amount_of_documents_quite_the_same_for/"
+    },
+    {
+      "id": "1e8ujn6",
+      "title": "Literally 3 hours💀💀",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "agedlikemilk",
+      "created_utc": 1721590564,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://i.redd.it/fg4yeoymcxdd1.jpeg"
+    },
+    {
+      "id": "1dzaqnm",
+      "title": "At which point everything went downhill?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1720552226,
+      "score": 0,
+      "num_comments": 8,
+      "selftext": "Important: I am not US citizen nor I live in US.\n\n  \nBasically, title. Last few years (even before corona) everything feels like overall system does not work and everything just worsens each year. I am aware that feelings != facts and that media abuse \"we all suffer from *this*' stuff, but overall facts are supporting it. I am talking mostly about developed countries, however, afaik, in most developing countries (e.g. *that one map about south america poverty*). Like all prices, all important stuff went up - food, access to medicine, accommodation etc, and all the good stuff went down - good jobs, violence and/or crime rates, etc. Like no matter who I am talking to, in almost all countries (except maybe Switzerland, Iceland and UAE) each year it is harder to get doctor's appoitment, it's harder to find a good job, it's less and less available to go to the restaurant and so on. If I asked about some specific country - Germany, Australia, USA, Turkey, there would be a good answer for sure - migration, energy resources and relations with russia for germany, shitty Tories politics and Brexit for UK, natural demography problems for china and japan, but what happened to south america (literally all countries)? To australia? Why is it so bad in canada? but why is it happening almost in the same moment and why does everywhere everything at once feels so bad? It feel like it started around \\~2015, maybe 2017, so it was even before corona, but around syria crysis I guess.",
+      "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1dzaqnm/at_which_point_everything_went_downhill/"
+    },
+    {
+      "id": "1dvm2vg",
+      "title": "Can one be expelled from Computer Science masters?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1720141663,
+      "score": 4,
+      "num_comments": 4,
+      "selftext": "Basically, on EPFL site it says that if you fail “compulsory” subject twice, you will be expelled. But how exactly does it work? When I open study plan for data science I see “core credits” for specialisations, but they seem not to be mandatory/compulsory and usually you have a choice between them. Same for data science and physics master. For statistics master all core subject are inevitable tho. So if I go study data science and fail, let’s say, algorithms II two times (or once), can I just _not take_ it? Or take it third time and succeed? \nThank you for any clarification ",
+      "url": "https://www.reddit.com/r/EPFL/comments/1dvm2vg/can_one_be_expelled_from_computer_science_masters/"
     }
   ],
   "comments": [
@@ -83,6 +292,886 @@
       "score": 5,
       "link_id": "t3_1dz45g9",
       "parent_id": "t3_1dz45g9"
+    },
+    {
+      "id": "m4b7f0u",
+      "body": "I tried it and they sound much more poorer comparing to marshall major 4, how can I fix that?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "sennheiser",
+      "created_utc": 1735448796,
+      "score": 1,
+      "link_id": "t3_1fu0hry",
+      "parent_id": "t1_lpvu7hl"
+    },
+    {
+      "id": "m30zb4m",
+      "body": "Basically, the paper\n\nhttps://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/117220/eth-49186-02.pdf",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734723071,
+      "score": 2,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m30yjxh"
+    },
+    {
+      "id": "m30yjxh",
+      "body": "Yes I remember I was reading a phd thesis regarding admission process in ETHZ (one of top unis in europe) and basically their opinion was that performance in the latter years of the studies (e.g. last year) correlates much more with performance in the next level of studies - so shitty grades in the beginning of ones studies are much less valuable than good grades in the end",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734722817,
+      "score": 1,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m30qxyt"
+    },
+    {
+      "id": "m30knva",
+      "body": "Thanks for your honest reply",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734718178,
+      "score": 1,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m30kg5i"
+    },
+    {
+      "id": "m308oso",
+      "body": "Yes, but it’s not the only experience I have",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734714218,
+      "score": 1,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m3086ka"
+    },
+    {
+      "id": "m3079ft",
+      "body": "No, but I was told by one of the postdocs that they still try very hard to recruit their own masters graduates",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734713748,
+      "score": 1,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m306r2r"
+    },
+    {
+      "id": "m30694f",
+      "body": "Yeah I have no illusions that as a Phd applicant I will be rather mid one, but as I said, universities struggle to recruit their own masters as PhDs and that may be the possible way",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734713417,
+      "score": 2,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m305zno"
+    },
+    {
+      "id": "m305gcw",
+      "body": "Why?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734713154,
+      "score": 2,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m300qru"
+    },
+    {
+      "id": "m305b8c",
+      "body": "I have the excellent grade for my thesis already so I was not saying that",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734713108,
+      "score": 2,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m303ea1"
+    },
+    {
+      "id": "m3056mq",
+      "body": "I think I was slightly misunderstood. From my experience so far the research-like activity is rather my strong side. I can do long projects with everything you mentioned and get good results in the end, the stuff with exams was just indicative that I am bad in that specific type of testing which leads to worse GPA in the end",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734713065,
+      "score": 2,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m300req"
+    },
+    {
+      "id": "m2zzi54",
+      "body": "I am pretty sure I can get good recommendations from reputable professors, but I will see how it will change on the master level",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734711160,
+      "score": 1,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m2zzc5a"
+    },
+    {
+      "id": "m2zyfaj",
+      "body": "No it’s an honest question",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1734710794,
+      "score": 0,
+      "link_id": "t3_1himxuo",
+      "parent_id": "t1_m2zy9yr"
+    },
+    {
+      "id": "m1m4vn4",
+      "body": "In Europe your phd is not “proper” without postdocs. So ofc you have the phd title, but without postdocs it’s not considered as fully done.",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "PhD",
+      "created_utc": 1733962636,
+      "score": 1,
+      "link_id": "t3_1hbci93",
+      "parent_id": "t1_m1l6bjx"
+    },
+    {
+      "id": "lx4lrlf",
+      "body": "I think the right way to say is “skill + language”. I believe there can be a lack of some skills in some specific regions but it will go in pair with language knowledge. Like for example, almost no one wants to work in Chur in Switzerland, if they have other alternatives, since it’s expensive location, you need to know the language, hence if you are senior or something like that, you wouldn’t want to relocate there. Same applies for germany I believe, it’s quite normal that some senior developer won’t relocate to some niedersachsen city where there is a couple openings in local public sector",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1731609511,
+      "score": 1,
+      "link_id": "t3_1gr6ef8",
+      "parent_id": "t1_lx4778q"
+    },
+    {
+      "id": "lv18i7i",
+      "body": "I dare to say that I know European universities system quite well so here is my 5 cents:\n\nIn all continental European countries university degree is almost free and almost anyone can join said universities. Therefore universities are forced (and they want to) make first years of all programs quite difficult. It is applicable not only for physics, bur for mathematics, statistics, CS, any kind of engineering etc. This leads to high dropout rates in first year, but usually courses of last years, which are advanced level, are not that cruel and most people pass them. I think this system is quite logical and balanced and can be described as one phrase “easy to got into, hard to stay” contrary to (for example) American system, where it’s “hard to get into, easy to stay”. One can argue that in USA they just do “sieving” before university, so that people who go to top universities are already cream of the top, contrary to europe, where almost anyone can go to tum/sorbonne/eth, so they need to apply such “sieving” on university level. So I think dropout rate of 50% is totally normal, even in my university we accept ~80 people on cs program each year, but we have only ~15-25 bachelor thesises written each year, so the rate is crazy. Of course there are 2 major exceptions - business schools and medical degrees, but it’s like 5% of all students. \n\nNow coming to your question - the whole idea of bologna system was that degree were comparable to each other. So if degree takes 5 years to get bachelor, when it’s 3 years in different countries, then this degree is made in a bad way, and it (obviously) has some non-necessary things and it must be split into bachelor + master and that was the whole point of bologna system",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1730563192,
+      "score": 5,
+      "link_id": "t3_1ghyc6v",
+      "parent_id": "t3_1ghyc6v"
+    },
+    {
+      "id": "lr0p3dc",
+      "body": "So did anyone propose any other adequate solution rike rwanda bill? One can argue that rwanda is not safe and blah blah blah, maybe we can send them to albania or turkey? “Just deport” is not a solution, since most of them just throw their passport into the ocean and then no one wants to take them back (marocco deal proves it)",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728431505,
+      "score": 4,
+      "link_id": "t3_1fz150c",
+      "parent_id": "t3_1fz150c"
+    },
+    {
+      "id": "lqwwcq4",
+      "body": "Why would I care about us? I live in Europe and Marseille’s problems (and same problems in Bruxelles, Malmö, London) are caused by the same reason which can be clearly defined",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728378975,
+      "score": 17,
+      "link_id": "t3_1fykk1w",
+      "parent_id": "t1_lqww5ig"
+    },
+    {
+      "id": "lqwvsnz",
+      "body": "Idk about you, but for me a concept of no-go zone in supposedly big European city is crazy. I can understand when some zones aren’t that nice or beautiful, it’s essential, but when you say “just don’t go to that part of the city” it’s crazy",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728378573,
+      "score": 16,
+      "link_id": "t3_1fykk1w",
+      "parent_id": "t1_lqwgxc4"
+    },
+    {
+      "id": "lqwvn4e",
+      "body": "Wym?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728378463,
+      "score": 0,
+      "link_id": "t3_1fykk1w",
+      "parent_id": "t1_lqwpn02"
+    },
+    {
+      "id": "lqwvlaq",
+      "body": "Can’t agree more",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728378425,
+      "score": 0,
+      "link_id": "t3_1fykk1w",
+      "parent_id": "t1_lqwkz6l"
+    },
+    {
+      "id": "lqwvd8m",
+      "body": "Yes I’ve been there, I meant that I am not that familiar with their division between military/police/some other forces and who would be responsible if all nice people of Marseille suddenly would be against some decision of the government",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728378264,
+      "score": -11,
+      "link_id": "t3_1fykk1w",
+      "parent_id": "t1_lqvkhi4"
+    },
+    {
+      "id": "lqvhu45",
+      "body": "Marseille is the hell on Earth and we all know the reason. Question is, when, who and how will solve this problem and how many national guard (or whatever they have in france and countries either similar situation) will it require",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728351534,
+      "score": 39,
+      "link_id": "t3_1fykk1w",
+      "parent_id": "t3_1fykk1w"
+    },
+    {
+      "id": "lqsc8ol",
+      "body": "Same as in davos\n\nI didn’t try to find it personally, but people I know checked it and were very disappointed",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1728313635,
+      "score": 2,
+      "link_id": "t3_1fy4rab",
+      "parent_id": "t1_lqs02cw"
+    },
+    {
+      "id": "lqreomx",
+      "body": "I am not Irish, but I guess your medical system treats doctors ~the same as they are treated in Switzerland.\n\nAnd in Switzerland system (from doctor’s perspective) is kinda weird - since all the insurance companies have same rates for same services, you almost never can overcome some income which is mathematically set by time/service ratio. So in the day in Switzerland you are either bad, medium or exceptional doctor. Bad are just bad, but medium doctors are all doctors with private practice and 90% doctors in hospitals, so basically most of the swiss doctors are in this branch. And exceptional are just exceptional so they can set prices for their services by themselves, and they live very good lives. But contrary to it, in usa with their current system (which is widely hated, marc cuban discusses it with theo von in latest podcast) you have all the ranges of salaries for all the ranges of doctors. So if you are better (ambiguous word, but let’s stick to it) than 70% of doctors - you will earn more than 70% (of course with nuances like states and local prices but nvm), while in Switzerland you will fall into “not exceptional” therefore “mediocre” doctor bracket and earn average doctor’s wage. \n\nBut coming to your explanation, if medical school was expensive in Ireland, even more doctors go to usa just to pay the debt off. I can’t come up with any way of fixing it other than just manual regulation (e.g. ireland makes a deal with usa that it can take no more than x Irish doctors a year) or somehow force people to stay (make them work x years after graduating, therefore fixing them in the country and getting them used to the system), but I don’t think it’s a good idea",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1728300308,
+      "score": 3,
+      "link_id": "t3_1fy2pkv",
+      "parent_id": "t1_lqr1l8q"
+    },
+    {
+      "id": "lqrcii7",
+      "body": ">What is wrong with Chur?\n\nThey have 26 apartments for rent and 6 apartments for sale (4 of which are 3.5) for the whole city of 40k inhabitants, and the prices are not good as well. One would think that since it’s not zurich with its crazy growth, they should have more available places, but they (I guess) just don’t build anything. If you compare it to Lugano or Lausanne (3 times more population, 15 times more options at flatfox). I was told that they just abuse tourism, but I don’t really believe that, so I miss what exactly is the reason for it",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1728299141,
+      "score": 9,
+      "link_id": "t3_1fy4rab",
+      "parent_id": "t3_1fy4rab"
+    },
+    {
+      "id": "lq6ou3d",
+      "body": "Thanks for your answer! I mean, I don’t think I will model anything further, since my approach is precise enough to not trying to improve it, so I am just looking for a theoretical foundations and in my previous reply I meant that smc and particle filter are close but aren’t the one I am implementing",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "statistics",
+      "created_utc": 1727983555,
+      "score": 1,
+      "link_id": "t3_1fv9wgw",
+      "parent_id": "t1_lq6kr0l"
+    },
+    {
+      "id": "lq6jw30",
+      "body": "Thanks, will take a look! For me the problem with smc and particle filter was that I basically don’t filter anything - data about coordinates of my objects is 100% right, so I don’t need to combine it with estimate",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "statistics",
+      "created_utc": 1727981976,
+      "score": 1,
+      "link_id": "t3_1fv9wgw",
+      "parent_id": "t1_lq6jb8g"
+    },
+    {
+      "id": "lpwqmad",
+      "body": "Double this, a lot of companies who rely on China have troubles now. I don’t have enough knowledge about the specific reasons, but I know that in some companies (especially global ones) a lot of decisions and potential bonuses are dependent on Chinese market",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1727832630,
+      "score": 1,
+      "link_id": "t3_1ftqouv",
+      "parent_id": "t1_lpv4usj"
+    },
+    {
+      "id": "lplbsjb",
+      "body": "If you do it by the phone with one of their workers, they always do it (source: did it last Thursday)",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1727663101,
+      "score": 1,
+      "link_id": "t3_1fs59sz",
+      "parent_id": "t3_1fs59sz"
+    },
+    {
+      "id": "lplbh80",
+      "body": "Usually couple of months. But I think they usually advise on their site (or is it was uzh?) to apply earliest date possible, because visa stuff takes few months as well. But it really depends on your country. Of course for eu/efta it’s not like that, but for the rest of the world it depends.\nhttps://www.unibas.ch/en/Studies/Application-Admission/Visa—Residence-Permit-.html",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1727662973,
+      "score": 1,
+      "link_id": "t3_1fqos90",
+      "parent_id": "t3_1fqos90"
+    },
+    {
+      "id": "loj6ijc",
+      "body": "And that people on the other side earn twice less😁",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1727102758,
+      "score": -9,
+      "link_id": "t3_1fnlt04",
+      "parent_id": "t1_loj67mo"
+    },
+    {
+      "id": "loiguat",
+      "body": "I’ve seen already several courses where passing grade was 1/3 of maximum points. I haven’t seen lower bar (yet) but for some reason it always happens with databases courses in swiss universities",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "csMajors",
+      "created_utc": 1727093038,
+      "score": 1,
+      "link_id": "t3_1fl7nr0",
+      "parent_id": "t3_1fl7nr0"
+    },
+    {
+      "id": "lnpcp0t",
+      "body": "Mucho says the same thing, but if you open this link https://muchomobile.ch/en/abo/muchoswiss and check their conditions, they say that if you use more than 90% of their clients (not together, but you are just top 10%), they can limit and reduce your internet",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1726647755,
+      "score": 1,
+      "link_id": "t3_1fj9h4b",
+      "parent_id": "t1_lnp90yr"
+    },
+    {
+      "id": "lnp8eis",
+      "body": "But they use sunrise network, or..? I mean, I also thought about galaxus but swisscom just seems to be much better usually",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1726644634,
+      "score": 1,
+      "link_id": "t3_1fj9h4b",
+      "parent_id": "t1_lnnpjsw"
+    },
+    {
+      "id": "lnmyuf8",
+      "body": "Okay, thank you. But do they have these restrictions about how much data can you use, or is it truly unlimited?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1726608766,
+      "score": 1,
+      "link_id": "t3_1fj9h4b",
+      "parent_id": "t1_lnmomkx"
+    },
+    {
+      "id": "llrn9t6",
+      "body": "There are no good or bad things. There are consequences which may be good or bad for some groups or actors and that’s all",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "europe",
+      "created_utc": 1725613446,
+      "score": -4,
+      "link_id": "t3_1faaict",
+      "parent_id": "t1_llrn0tz"
+    },
+    {
+      "id": "llrhkh7",
+      "body": "No\nYes",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1725609477,
+      "score": 3,
+      "link_id": "t3_1f9yy61",
+      "parent_id": "t3_1f9yy61"
+    },
+    {
+      "id": "llr4yoj",
+      "body": "Jews that escaped Europe to Israel are obviously white too. But author probably (I am not sure) meant American understanding of “white” - when it’s both about culture/ethnicity and skin itself. So most brazilian people can’t be white since they are mixed and most turkish people are distinct from greek people, since they have this “non-white” muslim culture/ethnicity. That’s not how we do it in Europe (and many people have hard time to understand it and to understand why there is no american type of racism in Europe), but apparently approach on the map is american-ish",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "MapPorn",
+      "created_utc": 1725601331,
+      "score": 10,
+      "link_id": "t3_1fa77n2",
+      "parent_id": "t1_llr28o1"
+    },
+    {
+      "id": "ll9l19z",
+      "body": "I think people less trust in those countries where it’s less obvious AND where it’s a politicised question. I mean, in EU you have green party in each country, but those parties also have other policies (obviously) and as soon as this party fails, does something wrong or straightforwardly lies to people, people trust less into all thesises of this party. Same with opposition - if people vote for right parties, they usually oppose green parties, since they are “left” and therefore many people end up not trusting the agenda of left party. And important notice - many right parties are isolationist, so for many people it’s quite simple approach - it won’t affect us, or will affect us only a little bit. Questions about climate migration are answered alongside the overall right-wing narrative - we won’t let them in, they caused their problems, they should solve them",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "MapPorn",
+      "created_utc": 1725343456,
+      "score": 2,
+      "link_id": "t3_1f7juzm",
+      "parent_id": "t3_1f7juzm"
+    },
+    {
+      "id": "ll1ppgu",
+      "body": "Distribution of overall wealth/income, but it is not linked to specific numbers, but to relative. So it may stay constant, but salaries in terms of number have changed",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1725224305,
+      "score": 1,
+      "link_id": "t3_1f48moj",
+      "parent_id": "t1_ll19ff3"
+    },
+    {
+      "id": "lkv2pqq",
+      "body": "Maybe within a switzerland, but it’s quite rare - I guess there are some cases where people do it outside, but usually it’s trusted employees",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1725125922,
+      "score": 1,
+      "link_id": "t3_1f5kj43",
+      "parent_id": "t1_lkv06jz"
+    },
+    {
+      "id": "lku9eo0",
+      "body": "Hochdeutsch is usually enough, some amount of international companies speak English as well but german is important",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1725116080,
+      "score": 5,
+      "link_id": "t3_1f5kj43",
+      "parent_id": "t1_lku07ob"
+    },
+    {
+      "id": "lktwe3x",
+      "body": "More or less yes, but with exceptions for google, meta, adobe etc. but imho it’s much better to be not top-tier swe in luzern, basel or bern. You have a little bit smaller salary than in zurich, but overall col is much lower",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1725111384,
+      "score": 7,
+      "link_id": "t3_1f5kj43",
+      "parent_id": "t1_lktr98v"
+    },
+    {
+      "id": "lkthvxk",
+      "body": "I will be the only person who will give you normal answer\n\nLess than 115k is too low, more than 140k is highly unlikely. If you speak german, it can boost your salary a bit",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1725105103,
+      "score": 38,
+      "link_id": "t3_1f5kj43",
+      "parent_id": "t3_1f5kj43"
+    },
+    {
+      "id": "lkr5gi1",
+      "body": "It’s called demographic transition (in iran’s case)\n\nhttps://en.m.wikipedia.org/wiki/Demographic_transition",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "MapPorn",
+      "created_utc": 1725060772,
+      "score": 25,
+      "link_id": "t3_1f54ze9",
+      "parent_id": "t1_lkr4kc4"
+    },
+    {
+      "id": "lkr52cj",
+      "body": "Tbh when you see that 30% of full-time working men are earning 104k+ I would like to know also the distribution there, not just the overall fact. It’s like we would say “50% earn less than 85k and 50% earn more”, maybe 10 years ago it was mostly executives and professors and percent was lower, but when it’s 30%… We need more detailed breakdown imho. \n\nAnd also would be nice to get not 90% and less as part-time, but to have it at least every 20% - from 20% to 80% and 90%",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1725060624,
+      "score": 5,
+      "link_id": "t3_1f48moj",
+      "parent_id": "t3_1f48moj"
+    },
+    {
+      "id": "lkqgy08",
+      "body": "I may be wrong, but if it’s private sector and they want to move internal candidate who is not swiss citizen, aren’t they obliged to “try” to find a swiss person for this role?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Switzerland",
+      "created_utc": 1725052044,
+      "score": 1,
+      "link_id": "t3_1f3voda",
+      "parent_id": "t1_lkgygdk"
+    },
+    {
+      "id": "lkbatmk",
+      "body": "Thanks a lot! I’ll take a lot in mentioned apps",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "germany",
+      "created_utc": 1724836742,
+      "score": 1,
+      "link_id": "t3_1ez50ga",
+      "parent_id": "t1_lkammcc"
+    },
+    {
+      "id": "lk2jar2",
+      "body": "There is no unique and widespread rating, but if you come from tum/tu berlin everyone will know about it and judge you accordingly and no one will care if you get your degree from some local hochschule or mediocre uni",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1724704375,
+      "score": 1,
+      "link_id": "t3_1f1vneu",
+      "parent_id": "t1_lk2gkjc"
+    },
+    {
+      "id": "ljx3muk",
+      "body": "I feel like one of the reasons why computer science grew so fast (apart from money ofc) and what it has in common with most majors in the list is ease of scalability. People also forget that universities per se are research institutions too, not only educational. So when you wanna double the number of available places for potential students, you just hire few more professors and few more TA/PhDs and they don’t need almost anything comparing to some other fields. Like you may buy A100 or something for ML guys or High-performance researchers, and spend some (really little) money on servers and soft. On contrary you have for example physics or chemistry - in MIT these majors are non-profitable per se and make loss to the Institute just because it’s very expensive to keep up with state-of-art technology for labs and equipment. Some majors are capped by their respective colleges (like unions) - so lawyers limit the number of licenses they issue and same for medicine and dentists. Some majors (business and I believe some kinds of trading/banking) have natural cap - you can’t give everyone access to harvard school of business otherwise it will have no value. The only real exception from all these rules (in this list) is medicine because it’s also very expensive major for colleges to keep so I believe their profit on it is a fraction of profit they get from cs or psychology.\n\nAlso there is a group of “social/humanitarian” sciences which is basically an easy way to spend youth to meet new people, try uni experience, study something new (haha) etc which I believe is more popular amongst young girls - and it became popular like 15-20 years ago when universities understood that they can earn money from it - all kinds of gender studies, ethnical studies (african, asian, jewish, european etc), liberal arts etc. I also believe that you can put psychology here - I can’t find statistics what is the ratio of people who get a degree and people who _just try_ to work in the field, but I believe that it will be some fraction of student body, because most of people take it because it sounds cool, you can flex it with your school friends and it’s fancy - and they never intended to get a job as psychologists or psychiatrists.",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1724621351,
+      "score": 0,
+      "link_id": "t3_1f12iw9",
+      "parent_id": "t3_1f12iw9"
+    },
+    {
+      "id": "lju7z7v",
+      "body": "See every other comment",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "zurich",
+      "created_utc": 1724582684,
+      "score": 1,
+      "link_id": "t3_1f0s9e3",
+      "parent_id": "t1_lju72pm"
+    },
+    {
+      "id": "lju3six",
+      "body": "I know that, but I feel like last few years things got flipped. Like economical immigrants at some point go to their home country because they earned enough money and knowledge to open a business or to live comfortable life without need to work. \nAnd expats that intended to stay “temporary” it’s vice versa - they take mortgage because it’s better than renting, their kid goes to local school, they have pension, friend circles and hobbies in their new country and they will be treated as foreigners in their home country after they adapted and got used to new country’s conditions. \n\nI feel like last 10 years or so the only difference is that immigrants study local language and expats arrogantly don’t😁",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "zurich",
+      "created_utc": 1724579910,
+      "score": 5,
+      "link_id": "t3_1f0s9e3",
+      "parent_id": "t1_lju241d"
+    },
+    {
+      "id": "lju1jr5",
+      "body": "So funny how we got gaslighted that expat and immigrant are different things",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "zurich",
+      "created_utc": 1724578339,
+      "score": 83,
+      "link_id": "t3_1f0s9e3",
+      "parent_id": "t1_lju16wc"
+    },
+    {
+      "id": "lju19qo",
+      "body": "There are few big distinctions - English/German speaking, solely developer/data scientist/something-else engineer and team lead/manager, faang/non-faang/consulting. So officially median is around 110k and I do believe that it’s really median and it’s not dragged down by juniors and fresh grads, because it’s not that many of them in Switzerland. \nSo for zurich main thing is that you have headquarters for google which is around 5k people (may be less now, they switch people to other locations) which is not in hiring freeze, but hires much less than n years ago and you have some startups about trading/medicine/blockchain where people also earn big money. So this group of people earn a lot - L5 in google is around 300k. Also there is nvidia, meta and adobe who pay a lot, but they are not located in zurich and they have rather small offices iirc.\nThen you have big distinction for language - you have some immigrants developers who don’t speak german and for this reason they earn less (my estimate is around 15k) than if they would speak german, but they are mostly seniors, so they drag overall senior median estimate down, but not overall estimate.\nThen there are many (most of them small) companies in which senior positions are combined with some kind of lead position, so they also usually earn more than their solely developers (non-managing and non-decision-making) colleagues.\nAnd in the end there is consulting which is very broad and can vary.\nSo to answer question about your 150k salary you need to consider all these factors - do you work in faang-ish company? Do you work in consulting? Do you have more of an engineering role or already managing role? And follow-up will be - if you can claim something of it? So if you are eth security graduate you are more likely to be super-ultra qualified and smart guy which could go to google and you are wasting your potential. But if you are casual guy from zhaw which doesn’t want to do managing, then 150k is really a lot and kinda ceiling for you (from what I see).",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "zurich",
+      "created_utc": 1724578142,
+      "score": 3,
+      "link_id": "t3_1f0s9e3",
+      "parent_id": "t3_1f0s9e3"
+    },
+    {
+      "id": "ljn5u0r",
+      "body": "Percentage of each state take up by corn fields",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "MapPorn",
+      "created_utc": 1724464162,
+      "score": 176,
+      "link_id": "t3_1eztsss",
+      "parent_id": "t3_1eztsss"
+    },
+    {
+      "id": "lji8r7v",
+      "body": "I appreciate your answer and I wouldn’t say I have never thought about it, but at the moment I just have that kind of routine which makes it either impossible or very hard:(",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "germany",
+      "created_utc": 1724394461,
+      "score": 1,
+      "link_id": "t3_1ez50ga",
+      "parent_id": "t1_lji75eg"
+    },
+    {
+      "id": "lionl1x",
+      "body": "League of North",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "MapPorn",
+      "created_utc": 1723965798,
+      "score": 48,
+      "link_id": "t3_1ev2q48",
+      "parent_id": "t1_lion602"
+    },
+    {
+      "id": "lik07et",
+      "body": "Thank you",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1723897687,
+      "score": 1,
+      "link_id": "t3_1eugb5n",
+      "parent_id": "t1_lik03ag"
+    },
+    {
+      "id": "lijzy80",
+      "body": "But they will leave wettsteinplatz?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1723897567,
+      "score": 1,
+      "link_id": "t3_1eugb5n",
+      "parent_id": "t1_lijzjf6"
+    },
+    {
+      "id": "lijzc36",
+      "body": "Thank you, maybe you have info if they move to other location or how long will it last..?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1723897277,
+      "score": 1,
+      "link_id": "t3_1eugb5n",
+      "parent_id": "t1_lijz3ad"
+    },
+    {
+      "id": "lifvyej",
+      "body": "I am not american so it was just a first example of rural place where everything is cheap and there is not so much hustle so houses become expensive😇",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723830753,
+      "score": 1,
+      "link_id": "t3_1et9th8",
+      "parent_id": "t1_lifow16"
+    },
+    {
+      "id": "lifuwyz",
+      "body": "When he moves in with rita it was mentioned that he has never “sold it” and in season 6 angel mentions that buying next-door apartment was a brilliant idea",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723830424,
+      "score": 1,
+      "link_id": "t3_1et9th8",
+      "parent_id": "t1_liehhgl"
+    },
+    {
+      "id": "lic0eus",
+      "body": "But masuka’s truck (as well as the gun) was like an easter egg about hypercompensation and etc (as well as his jokes about average cock)",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723769726,
+      "score": 1,
+      "link_id": "t3_1et9th8",
+      "parent_id": "t1_libz1qp"
+    },
+    {
+      "id": "libp2hg",
+      "body": ">big papa 30 year pension\n\nCan you explain please?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723765549,
+      "score": 2,
+      "link_id": "t3_1et9th8",
+      "parent_id": "t1_libobe4"
+    },
+    {
+      "id": "liboy0j",
+      "body": ">Everyone can afford things on TV\n\nBut apparently rita couldn’t afford new car, debora is fascinated with all expensive things quinn had, angel lives in a small apartment and so on and so on\n\nAlso I guess Miami wasn’t crazy expensive like today, but it still was expensive, it’s Miami in the end of the day",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "Dexter",
+      "created_utc": 1723765504,
+      "score": 120,
+      "link_id": "t3_1et9th8",
+      "parent_id": "t1_libnj64"
+    },
+    {
+      "id": "li7tppi",
+      "body": "It’s unstable in terms of IT job market. Why? Because UK is now unstable and recessing (yeah maybe their gpd formally grows but we all know) and because it’s too close to us in terms of IT and us IT market is unstable",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723717050,
+      "score": -1,
+      "link_id": "t3_1esfuci",
+      "parent_id": "t1_li7ph3z"
+    },
+    {
+      "id": "li7pcpp",
+      "body": "1. Yes\n2. Not yet",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723714363,
+      "score": 1,
+      "link_id": "t3_1esfuci",
+      "parent_id": "t1_li7p3v3"
+    },
+    {
+      "id": "li7mkj6",
+      "body": "From what I’ve understood from my uni course of causal inference, it should be more applicable for pharma/medicine. So it sounds like you should probably aim rnd departments of said fields/companies - so it should be something like novartis, roche and so on",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "datascience",
+      "created_utc": 1723712501,
+      "score": 3,
+      "link_id": "t3_1espsma",
+      "parent_id": "t3_1espsma"
+    },
+    {
+      "id": "li7m7rr",
+      "body": "Yeah maybe, but my point was that switzerland is stable and if you know german it’s even better because it’s small and will never (with current politics) accept many third world devs",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723712262,
+      "score": 1,
+      "link_id": "t3_1esfuci",
+      "parent_id": "t1_li7jv0o"
+    },
+    {
+      "id": "li7isla",
+      "body": "I mean, from my point of view, jobs are there, but wlb and col are not worth it. Like how much a senior in London takes home? 70k? 80k? 90k? It’s like junior salaries in Switzerland - not only in zurich, but wlb and quality don’t match it",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723709976,
+      "score": 2,
+      "link_id": "t3_1esfuci",
+      "parent_id": "t1_li7iel5"
+    },
+    {
+      "id": "li5xi0x",
+      "body": "I may be wrong, but as far as I understand, job market is bad for USA (and maybe UK) not europe. Like during covid in us they had free money (very low rate loans) and got a lot of investments and now - when everything crashes apart, they lay off a lot of people and it makea market even worse. However, it was not the case for Europe, so we don’t have that much layoffs and those problems. Uk and ireland were affected as well because all those indians (and other third world people) who tried to go to usa, started checking other english speaking countries. So the answer to your question lays in other answer - what language do you speak or willing to learn? If you speak German - switzerland is your choice, if you speak french - again Switzerland haha or France (maybe belgium?) If you speak italian - you can try italy, but their salaries are bad (same situation for all southern Europe) In Italy it’s not that hard to find a job, but salary will be shitty. Same for spain and portugal",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723682050,
+      "score": -4,
+      "link_id": "t3_1esfuci",
+      "parent_id": "t3_1esfuci"
+    },
+    {
+      "id": "lhq6afa",
+      "body": "In Switzerland and germany it’s quite common. I would say that in Switzerland it’s even more common. A lot of devs work 80% (4 working days) or even 50-60% (2.5-3 working days). But if you are not self employed consultant or freelancer usually you won’t get paid on the higher end. So for Switzerland higher (real) end for average guy is around 140-150k brutto. So if you take such a salary and then go to 60%, usually your salary is proportional (140*0.6), but work at google, adobe, nvidia etc is unavailable for you. Also most of swiss companies work on hybrid (when you are in the office 2-3 days a week) and imo it’s much more comfortable even for 9-5. (And usually they don’t strictly track your time and don’t do other freaky us stuff, they just care if you do the tasks) since you are home, you don’t spend time commuting etc",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723460318,
+      "score": 25,
+      "link_id": "t3_1eq94s5",
+      "parent_id": "t3_1eq94s5"
+    },
+    {
+      "id": "lh54qmr",
+      "body": "I meant more like “how many documents average german stores in the drawer vs average immigrant”",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "germany",
+      "created_utc": 1723139156,
+      "score": 2,
+      "link_id": "t3_1enc2k4",
+      "parent_id": "t1_lh544j2"
+    },
+    {
+      "id": "lgluncc",
+      "body": "Don’t forget that for Switzerland it’s quite common to have a good wlb and work 80% or even less, especially in it. Like half a people I know have worked 80% at some point",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1722865509,
+      "score": 18,
+      "link_id": "t3_1eklrtj",
+      "parent_id": "t1_lgllrgb"
+    },
+    {
+      "id": "led7xcx",
+      "body": "And kleinbasel overall",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1721648615,
+      "score": 4,
+      "link_id": "t3_1e9bzht",
+      "parent_id": "t1_led7wm7"
+    },
+    {
+      "id": "led7wm7",
+      "body": "Kleinhüningen",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "basel",
+      "created_utc": 1721648605,
+      "score": 2,
+      "link_id": "t3_1e9bzht",
+      "parent_id": "t3_1e9bzht"
+    },
+    {
+      "id": "lecznsy",
+      "body": "I don’t think that quality of teaching is compromised. And even if it is, then it is most likely linked to specific shitty professor (e.g. that one astrophysics professor story) than whole uni/program",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1721643978,
+      "score": 1,
+      "link_id": "t3_1e6zgyg",
+      "parent_id": "t1_lecz1ls"
+    },
+    {
+      "id": "lecpvk9",
+      "body": "As a person who finished epfl, you should be aware that 90 credits is not 1.5 years almost never. So it really depends on the specific courses you plan to take. Also consider that in epfl you have mandatory internship and a lot revolves around it. \n\nBut I would say that it really depends on your plan. If you aim to go for a phd, you need to check specific professors/research groups. If you plan to work in the field in Switzerland, then there is no real difference so, again, it’s about specific courses. If you plan to go to europe or us then eth can be slightly more preferrable.\n\nHowever, again, 90 eth credits can easily be equal or even exceed epfl in terms of work which is need to be done",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1721637387,
+      "score": 2,
+      "link_id": "t3_1e6zgyg",
+      "parent_id": "t3_1e6zgyg"
+    },
+    {
+      "id": "ldi9uys",
+      "body": "Can it be because they get a return offer after mandatory internship?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1721162396,
+      "score": 4,
+      "link_id": "t3_1e4yiz2",
+      "parent_id": "t1_ldi4hh8"
+    },
+    {
+      "id": "ldgbopg",
+      "body": "Turkey/Anatolia is not europe",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "MapPorn",
+      "created_utc": 1721139481,
+      "score": 46,
+      "link_id": "t3_1e4pbun",
+      "parent_id": "t3_1e4pbun"
+    },
+    {
+      "id": "lceaykg",
+      "body": "I mentioned this in my post",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1720552817,
+      "score": 0,
+      "link_id": "t3_1dzaqnm",
+      "parent_id": "t1_lceahub"
+    },
+    {
+      "id": "lceau2d",
+      "body": "After ww2 it was going uphill most of the time with some minor crisis’ which tanked world economy for a year or two",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1720552778,
+      "score": 2,
+      "link_id": "t3_1dzaqnm",
+      "parent_id": "t1_lce9n4i"
+    },
+    {
+      "id": "lceand2",
+      "body": "Improving globally, yes, because of low base effect. So for example Rwanda becomes developing country and in 20 years all her metrics of quality of life are tripled. And it’s true for sub-saharan africa, india, south-east asia and so on, but at the same time all metrics for developed countries are stagnanting",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1720552718,
+      "score": 2,
+      "link_id": "t3_1dzaqnm",
+      "parent_id": "t1_lcea0ei"
+    },
+    {
+      "id": "lbz921v",
+      "body": "1. You need to consider that tuition fee in most European countries are close to zero (especially compared to US) and for this reason this policy is obvious - universities does not really get anything from “bad” students - they can set up some passing level and consider everyone that does not pass as bad - anyway these students don’t bring much money, but they need to report to government and/or people of the country. Switzerland (or any other country with the same system) does not want to spend its money senselessly - so they prefer quality not quantity. You can see it also in ETH - in 10-20 years their student body DOUBLED while budget is the same - so if money are tight there is no reason to let more students pass - and that is why quality of students rises - you can easily find a lot of articles about grade inflation in top us unis - but I believe it’s not grade inflation, but just better and better students are coming and since they don’t have European system (and students pay unis a lot of money) there is no reason to change \n\n2. This point is more about epfl itself, not about other unis, but in epfl around 75% of student body are french people. Not just foreigners, but specifically french. Obviously Switzerland won’t be able to keep them all and many of them will leave the country. So for Switzerland as a country it’s an additional reason to reduce number of students via hard exam, so most hard working and smartest students will stay - and they will have higher chances to stay in Switzerland, since usually they aim to it\n\n3. High failure rates are almost solely first/assesment year stuff which are always about basics. So it’s hard to say that you are good at something and bad at something, since if you are bad at basic things, then you probably won’t be that good in high-level stuff, right? So it’s quite rare that a student has a 6.0 for all subjects and then mathematical analysis 2 comes in and he/she is expelled. Obviously there are some harder courses and some easier ones, but usually it’s a known information and it’s a fair game\n\n4. I may sound arrogant, but epfl/eth are solely technical universities (as you can see it in it’s name) and I do believe that it’s much harder to get a degree in mathematics/physics/chemistry/cs than get a degree in international relations/history/arts\n\n5. You did not mention whether it was bachelor or master programs, but from overall text it sounds like it was bachelor, so to answer your 5th point - thanks to Bologna System, most (not all) university programs are made in a way that you come out from bachelor as well-shaped person which is not super good in something specific - which is changed on master level, where you choose your path more specifically. For this reason on many EPFL master programs there is a mandatory internship - so people don’t take internships/part-time jobs not because they don’t have time, but because current system suggests that they do it rather on their master and not bachelor level\n\nBasically iirc most of the stuff I said above is the same amongst top schools in german and french speaking part of Europe (I just don’t about the others) - so it’s not solely eth/Berlin/tum, but sorbonne, delft, berlin, hsg and so on. I know the system in italy is kinda a mix - if you fail many times, your tuition increases and can rise up to the british level, but I am not a super expert in italian educational system.",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1720315616,
+      "score": 3,
+      "link_id": "t3_1dx0g0h",
+      "parent_id": "t3_1dx0g0h"
+    },
+    {
+      "id": "lbz5nwn",
+      "body": "If you mean matura, then it’s around 40% and it can be hard and is selective",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1720314154,
+      "score": 2,
+      "link_id": "t3_1dx0g0h",
+      "parent_id": "t1_lbyus8e"
+    },
+    {
+      "id": "lbpwc88",
+      "body": "Okay thanks",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1720170477,
+      "score": 1,
+      "link_id": "t3_1dvm2vg",
+      "parent_id": "t1_lbpuuno"
+    },
+    {
+      "id": "lbpqg4n",
+      "body": "Thanks a lot for your answer! But is average calculated WITH or without failed subject? So if I got 30 credits with 4.5 each and 30 credits with 3.0 each in, let’s say, core subjects (let’s say for computer science), then I will expelled or not..?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1720166321,
+      "score": 1,
+      "link_id": "t3_1dvm2vg",
+      "parent_id": "t1_lbossl6"
+    },
+    {
+      "id": "lbpqf5d",
+      "body": "Thanks a lot for your answer!\nBut is average calculated WITH or without failed subject? So if I got 30 credits with 4.5 each and 30 credits with 3.0 each in, let’s say, core subjects (let’s say for computer science), then I will expelled or not..?",
+      "author": "Der_Lachsliebhaber",
+      "subreddit": "EPFL",
+      "created_utc": 1720166302,
+      "score": 1,
+      "link_id": "t3_1dvm2vg",
+      "parent_id": "t3_1dvm2vg"
     }
   ]
 }

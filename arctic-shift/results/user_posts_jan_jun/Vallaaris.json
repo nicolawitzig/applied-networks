@@ -11,6 +11,36 @@
       "score": 1,
       "link_id": "t3_195vgdv",
       "parent_id": "t3_195vgdv"
+    },
+    {
+      "id": "l6sxocm",
+      "body": "You mean inserting PDF as figures? I'm not sure where you got that from, but I don't think this is currently in development, because of the technical challenges involved in this. :( See also: [https://github.com/typst/typst/issues/145](https://github.com/typst/typst/issues/145)",
+      "author": "Vallaaris",
+      "subreddit": "typst",
+      "created_utc": 1717354520,
+      "score": 8,
+      "link_id": "t3_1d64pat",
+      "parent_id": "t1_l6rf730"
+    },
+    {
+      "id": "l5dyspl",
+      "body": ">However, searching for some rather basic functionallity (at least imo), I always end up in some issue on Github, which is pretty much declared as wontfix because it is possible to implement the feature in Typst itself. Sometimes the issue is kept open, but there does not seem to be interest in fixing those issues.\n\nI think the main reason for most of those is not that there is no interest in fixing these issues, but simply the fact that currently there is only 1-2 people who are really working full-time on the compiler (and currently busy with some major refactorings necessary for HTML exports) plus a handful voluntary contributors, who you obviously can't \"force\" to work on certain issues, so currently they just don't have the time resources to deal with all these smaller issues.\n\nI think your other points are valid as well, but I am certain that these issues can mostly be fixed as Typst matures. Let's not forget that Typst is still in beta, so it's not surprising that there still are issues. \\^\\^",
+      "author": "Vallaaris",
+      "subreddit": "typst",
+      "created_utc": 1716501941,
+      "score": 10,
+      "link_id": "t3_1cyzob8",
+      "parent_id": "t3_1cyzob8"
+    },
+    {
+      "id": "kvna84t",
+      "body": "Try \\`Institute name #h(1fr) University\\`",
+      "author": "Vallaaris",
+      "subreddit": "typst",
+      "created_utc": 1710886487,
+      "score": 12,
+      "link_id": "t3_1biwsac",
+      "parent_id": "t3_1biwsac"
     }
   ]
 }

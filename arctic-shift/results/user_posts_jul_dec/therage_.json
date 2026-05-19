@@ -13,5 +13,86 @@
       "url": "https://www.reddit.com/r/ethz/comments/1f424dv/student_communication_within_a_course/"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": "m4cpwq8",
+      "body": "Wonderful. Please count me in!",
+      "author": "therage_",
+      "subreddit": "steam_giveaway",
+      "created_utc": 1735480257,
+      "score": 1,
+      "link_id": "t3_1hoivlw",
+      "parent_id": "t3_1hoivlw"
+    },
+    {
+      "id": "lr8ledj",
+      "body": "I'm at work and can't look up citations for you right now but if you wish references, the first is the link between cold exposure and cortisol production increases in the body, and the second one is the depressive effect of cortisol on the immune system.",
+      "author": "therage_",
+      "subreddit": "Switzerland",
+      "created_utc": 1728561213,
+      "score": 1,
+      "link_id": "t3_1fzlxzz",
+      "parent_id": "t1_lr5a7xk"
+    },
+    {
+      "id": "lr2dhtk",
+      "body": "Good job there. For future reference, you have experienced installing applications. ABS is a service (also called a server binary). Unlike apps which you open and close, services start and stop behind the scenes. Typically this will start when your computer starts up and will stop when it turns off. Otherwise it's always on, waiting to be given tasks to fulfill. So you won't get the standard icon to open an app, because it is already running.\n\nSo how do you interact with these services? There needs to be a separate app, called a client, that connects to the server. In this case the server is exposing web access, so you can access it using your browser. But there is also an Android app I installed and pointed it at the same address so I can listen to books on my phone - and I can even download them to the phone memory and still access them through the app.",
+      "author": "therage_",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1728465198,
+      "score": 1,
+      "link_id": "t3_1fxyavl",
+      "parent_id": "t1_lqq78dm"
+    },
+    {
+      "id": "lr2d264",
+      "body": "Not just a better 'climate' for the viruses. Your immune system fights off pathogens. Cold exposure increases the production of cortisol in our bodies, which depresses the immune system. So basically you become less good at fighting the virus off. For some people in some situations, it will be the difference between getting the virus but not \"catching a cold\" or actually catching it.",
+      "author": "therage_",
+      "subreddit": "Switzerland",
+      "created_utc": 1728464881,
+      "score": 3,
+      "link_id": "t3_1fzlxzz",
+      "parent_id": "t1_lr27f31"
+    },
+    {
+      "id": "lr2cx60",
+      "body": "You are given the cold from someone else, but you don't always get sick from it. The cold (temperature) gives the cold (virus) a better chance at replicating and making you sick.",
+      "author": "therage_",
+      "subreddit": "Switzerland",
+      "created_utc": 1728464781,
+      "score": 10,
+      "link_id": "t3_1fzlxzz",
+      "parent_id": "t1_lr28t4d"
+    },
+    {
+      "id": "lr2csm5",
+      "body": "A lot of us are frequently carrying viruses in trace amounts which do not make us suck. Their amount can't overpower our immune systems but that stay with us for a while until they are fully cleared from us. If one gets a cortisol spike then, it impairs one's immune system, giving the virus the breathing room to replicate faster and actually get them sick.",
+      "author": "therage_",
+      "subreddit": "Switzerland",
+      "created_utc": 1728464687,
+      "score": 43,
+      "link_id": "t3_1fzlxzz",
+      "parent_id": "t1_lr27i1c"
+    },
+    {
+      "id": "lpnaesf",
+      "body": "You can use m4b-tool (a command line tool from Linux that works on Windows under WSL.\n\n  \n\\`\\`\\`  \nm4b-tool merge --mark-tracks --audio-codec=copy --jobs=8 --output-file output.m4b folder-with-the-mp3s/  \n\\`\\`\\`\n\nDo pick a reasonable number for the parallel jobs, experiment with it to see what works well for you. It doesn't change the output, only the speed of the operation.",
+      "author": "therage_",
+      "subreddit": "audiobookshelf",
+      "created_utc": 1727702886,
+      "score": 3,
+      "link_id": "t3_1frxygy",
+      "parent_id": "t3_1frxygy"
+    },
+    {
+      "id": "looulr4",
+      "body": "Ads are also cheaper in India.",
+      "author": "therage_",
+      "subreddit": "Switzerland",
+      "created_utc": 1727185752,
+      "score": 1,
+      "link_id": "t3_1fo5ihc",
+      "parent_id": "t1_lonou6x"
+    }
+  ]
 }

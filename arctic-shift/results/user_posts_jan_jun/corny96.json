@@ -1,6 +1,73 @@
 {
   "username": "corny96",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1df3ne5",
+      "title": "Button with pull-up resistor suffers from noise, how to solve it?",
+      "author": "corny96",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718297344,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Hi everyone,\nI'm working with the GPIO pins of a jetson nano (similar to those of a raspberry pi). I need some physical button inputs, simple enough. I got myself a breadboard, put down a bunch of buttons, connected them to GND and the respective GPIO pins, and also connected those GPIO pins to 3.3V via a 1k pull-up resistor. Wrote some code to monitor the GPIO states, works beautifully. \n\nNow my problem: The buttons shouldn't stay in the breadboard, but instead be mounted on a dashboard, so I added about 1m of cable to each button, and suddenly the output is super noisy. On the jetson forums other people reported the same problem, something along the lines of the long cable acting as an antenna. If the button is pushed, it reliably reads GND, but in the open state the GPIO pin is basically floating instead of being pulled up.\n\nAs a workaround, I added an Arduino close to the buttons and connected it via USB to the jetson, this solved the noise problem, but added a bunch of other problems downstream in my project, so I would prefer to connect the buttons to the jetson GPIOs, not via USB. \n\nHow could I solve this easily and reliably? Would an Optocoupler solve this? Connecting the button and optocoupler-input in series to VCC, and the optocoupler output again via a pull-up resistor to the GPIO? \n\nThank you for your help!",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1df3ne5/button_with_pullup_resistor_suffers_from_noise/"
+    },
+    {
+      "id": "1cth262",
+      "title": "PySerial, reconnect to serial port after program exit",
+      "author": "corny96",
+      "subreddit": "learnpython",
+      "created_utc": 1715877008,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi everyone,\n\nI have a simple pythons script which connects to a serial port and receives some data. Simple, works without an issue. When I now quit this program and launch it again it doesn't receive any data from the serial port. I guess because the port has not properly been released? I am doing ser.close() while shutting down the program, but this doesn't seem to fully release the port?\n\nIs there anything else I have to do or is there any way in which I could force a reset of the serial port when I launch my script?\n\nSimply unplugging the device and plugging it back in easily fixes this, how ever as I'm building an embedded device I would prefer to not do this. I'm running Ubuntu on an Nvidia Jetson for context.",
+      "url": "https://www.reddit.com/r/learnpython/comments/1cth262/pyserial_reconnect_to_serial_port_after_program/"
+    },
+    {
+      "id": "1ctgli6",
+      "title": "PySerial, reconnect to serial port after program exit",
+      "author": "corny96",
+      "subreddit": "Python",
+      "created_utc": 1715875824,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Python/comments/1ctgli6/pyserial_reconnect_to_serial_port_after_program/"
+    },
+    {
+      "id": "1codhbc",
+      "title": "ESPHome Sprinkler system with multiple inputs",
+      "author": "corny96",
+      "subreddit": "Esphome",
+      "created_utc": 1715303761,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "Hi everyone\n\nIn the past I've built a couple of projects with ESPHome, and it has been great. Easy to develop, easy to maintin, love the project. \nI'm currently planning to build a custom sprinkler controller. In general, easy enough to do with ESPHome, define an upstream valve, easy enough. \n\nHowever, I have kind of a special setup, and I wanted to know if there is some easy way to set this up with the ESPHome sprinkler controller. I have a rainwater collection tank which I typically use for irrigation with a pump, I could now connect this to a relay and the sprinkler controller and the simple setup would be done. However every coupe of weeks the tank will run low and I need to switch the system over to the water line, and I would like to automate this. Basically I have two inputs for my irrigation system: on one side the rain water tank with a pump and a solenoid valve and on the other side the main water line connected through a solenoid valve. I can define multiple pumps in the sprinkler controller, but I can not assign multiple pumps to a single valve. \n\nWhat I would like to have basically is a switch to select rain water or main line, and depending on that switch the controller should use one pump or the other. How could I realize something like this in ESPHome? Is it even possible?",
+      "url": "https://www.reddit.com/r/Esphome/comments/1codhbc/esphome_sprinkler_system_with_multiple_inputs/"
+    },
+    {
+      "id": "1ahxrvl",
+      "title": "What is wrong with my lemon tree?",
+      "author": "corny96",
+      "subreddit": "gardening",
+      "created_utc": 1706971823,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi everyone, \nI have a small lemon tree. Normally it lives outside on my terrace, but during the winter I bring it inside, keep it near the windows and also give it extra sunlight using a grow lamp. It has been continuing to grow and the upper leaves look super healthy, but the older lower ones look quite sick and I don't know what I'm doing wrong. \nHere are some pictures: https://imgur.com/a/rRElpeL \n\nCurrently I water the tree once a day, the pot has drainage holes so it doesn't get too wet. I have a dry citrus fruit fertilizer which I add to the pot about every 3 weeks. Recently I moved it to a bigger pot with more soil. \nAm I doing something wrong? What is it missing?",
+      "url": "https://www.reddit.com/r/gardening/comments/1ahxrvl/what_is_wrong_with_my_lemon_tree/"
+    },
+    {
+      "id": "1903zjb",
+      "title": "RAID management option missing?",
+      "author": "corny96",
+      "subreddit": "OpenMediaVault",
+      "created_utc": 1704559329,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "Hi everyone, I'm putting together a custom NAS. In a Fractal case I have an Intel N95 CPU, 6HDDs and 3SSDs. I installed OMV using the ISO from a usb flash drive onto the one NVMW SSD, everything installed fine, OMV booted and all my drives show up under Storage -> Disks. \nNext step, I now wanted to setup some of the HDDs as a mirrored software RAID. But there is not even an option for RAID management, as in all the tutorials. What is wrong here? did I install something wrongly? does this only work with a Hardware RAID controller? Here is a link to my sidebar, where I would normaly expect the RAID management option under storage, it is just missing... \n\nhttps://imgur.com/a/TaR1Ssz\n\nThank you for any help!",
+      "url": "https://www.reddit.com/r/OpenMediaVault/comments/1903zjb/raid_management_option_missing/"
+    }
+  ],
   "comments": [
     {
       "id": "l80945n",
@@ -271,6 +338,496 @@
       "score": 1,
       "link_id": "t3_18z91ko",
       "parent_id": "t3_18z91ko"
+    },
+    {
+      "id": "l9ydr51",
+      "body": "I have one of those battery powered zemismart ones. I retrofitted it into a Ikea Fridans blind. I needed to 3d print some adapter pieces, but works perfectly now and was much cheaper than the ikea ones. However I do need to recharge it every couple of weeks, as it is battery powered. I have a 2m USB cable for that.",
+      "author": "corny96",
+      "subreddit": "homeassistant",
+      "created_utc": 1719175430,
+      "score": 1,
+      "link_id": "t3_1dmmjdn",
+      "parent_id": "t3_1dmmjdn"
+    },
+    {
+      "id": "l9scsta",
+      "body": "Ich liebe das Ding auch. Hoffentlich kommt in den nächsten Jahren mal wieder eins, am besten ein Pro Mini, aber ob so viele Kameras und das LiDAR auf das kleine Telefon passen... noch ist es Wunschdenken.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1719076657,
+      "score": 3,
+      "link_id": "t3_1dly800",
+      "parent_id": "t1_l9s2rix"
+    },
+    {
+      "id": "l8kiv4g",
+      "body": "Thanks for your response. the Pull-up resistor is close to the jetson. \nThanks for the hint, I'll give that a try.",
+      "author": "corny96",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718367548,
+      "score": 1,
+      "link_id": "t3_1df3ne5",
+      "parent_id": "t1_l8i1vmv"
+    },
+    {
+      "id": "l8kih2n",
+      "body": "Thanks, I'll give the capacitor a try and report back. \nI already have some debounce logic, and it works to some extent, but not a satisfying solution for my project.",
+      "author": "corny96",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718367366,
+      "score": 1,
+      "link_id": "t3_1df3ne5",
+      "parent_id": "t1_l8ga9z8"
+    },
+    {
+      "id": "l6xlzi1",
+      "body": "Ebenfalls. Bin seit 10 Jahren glücklicher Kunde",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1717432977,
+      "score": 1,
+      "link_id": "t3_1d77m9g",
+      "parent_id": "t1_l6xf95y"
+    },
+    {
+      "id": "l6xiyky",
+      "body": "mostly a properly working PowerPoint. Though it doesn't have to be the 365 subscription, could also be a one time license. haven't looked into what makes more sense. Most alternatives just either lack in functionality or reliability for my work.",
+      "author": "corny96",
+      "subreddit": "selfhosted",
+      "created_utc": 1717431962,
+      "score": 1,
+      "link_id": "t3_1d6yufp",
+      "parent_id": "t1_l6xdsnh"
+    },
+    {
+      "id": "l6wtev2",
+      "body": "Currently i'm paying for: \n\n* iCloud (just for phone backups)\n* Spotify (will be gone soon, replaced with self-hosted subsonic solution)\n* Youtube Premium (through VPN)\n* Netflix (through VPN, will be gone soon) \n* VPN \n* Prime (just for Clarkson's Farm, will be gone again soon)\n* TLD (through netcup)\n* Hetzner Storage Box for offsite backup \n* Overcast Premium for Podcasts\n* Parcel Premium \n* GBit Internet Provider\n* might need to start paying for Office 365 soon, am just unhappy with any of the alternatives.",
+      "author": "corny96",
+      "subreddit": "selfhosted",
+      "created_utc": 1717422997,
+      "score": 1,
+      "link_id": "t3_1d6yufp",
+      "parent_id": "t3_1d6yufp"
+    },
+    {
+      "id": "l53ltmu",
+      "body": "The [Saturn V](https://www.thingiverse.com/thing:911891) should use a decent amount of that filament",
+      "author": "corny96",
+      "subreddit": "3Dprinting",
+      "created_utc": 1716336993,
+      "score": 1,
+      "link_id": "t3_1cxmrza",
+      "parent_id": "t3_1cxmrza"
+    },
+    {
+      "id": "l4gfhge",
+      "body": "Gegebenenfalls ein Abschlusswiderstand für irgendwelche Kommunikationsleitungen, e.g. CAN oder Modbus? \nSoweit ich weiß basiert KNX auf Modbus, also vielleicht Teil eines Smart Home Systems?",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1715954182,
+      "score": 2,
+      "link_id": "t3_1ctzops",
+      "parent_id": "t3_1ctzops"
+    },
+    {
+      "id": "l4dd7y7",
+      "body": "am in academia, so a bunch of different mobile robotics platforms",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715897272,
+      "score": 1,
+      "link_id": "t3_1ct8w67",
+      "parent_id": "t1_l4coqsy"
+    },
+    {
+      "id": "l4c0p9l",
+      "body": "The device itself is very simple. An arduino zero, it opens a serial port, and then continuously publishes the state of some sensors via the serial port. \nI still believe that it's an issue with releasing the port, as for example cat -v \\dev\\ttyACM0 also doesn't return anything if launched after quitting the python script.",
+      "author": "corny96",
+      "subreddit": "learnpython",
+      "created_utc": 1715879966,
+      "score": 1,
+      "link_id": "t3_1cth262",
+      "parent_id": "t1_l4bw6oq"
+    },
+    {
+      "id": "l4bugwn",
+      "body": "I second this, we just switchted from D435 and D455 to various ZED cameras. I would say the output of the depth image itself is not that much better than the Realsense, but the ZED devices are way more robust and reliable.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715877841,
+      "score": 2,
+      "link_id": "t3_1ct8w67",
+      "parent_id": "t1_l4aphas"
+    },
+    {
+      "id": "l47vb0a",
+      "body": "I sort mine by type (mostly: display, audio, power, network, micro usb, usb-c, misc usb) in zip lock bags, bags are labelled and all bags go into one box on my shelf. I tried to balance between too granular and to detailed categorization, making it quick to find something and easy to see if I have too many duplicates of some specific type.",
+      "author": "corny96",
+      "subreddit": "declutter",
+      "created_utc": 1715808847,
+      "score": 8,
+      "link_id": "t3_1cspkza",
+      "parent_id": "t3_1cspkza"
+    },
+    {
+      "id": "l40y7mx",
+      "body": "If possible, go wired. KNX, ethernet or anything like that, it will beat everything else. \nOtherwise, I'm a big fan of the Sonoff Minis. Can be flashed with my own firmware and sit behind the original lightswitch. Cheap, stealth, either with Wifi or Zigbee, and just work great for me.",
+      "author": "corny96",
+      "subreddit": "homeautomation",
+      "created_utc": 1715705544,
+      "score": 1,
+      "link_id": "t3_1crtxqd",
+      "parent_id": "t3_1crtxqd"
+    },
+    {
+      "id": "l3xnw60",
+      "body": "they've demonstrated a prototype for quite some time already. Saw it at IROS last year. \nBut there are many companies building impressive humanoids at the moment. I think the really impressive thing about this one is the price.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715647678,
+      "score": 9,
+      "link_id": "t3_1cr0ojp",
+      "parent_id": "t1_l3vcohk"
+    },
+    {
+      "id": "l3f3qe1",
+      "body": "Thanks, the template switch should be able to do what I was thinking of. \n\nRainwater collection and use for irrigation is allowed and encouraged where I live, but you are right, connecting the two systems is probably a bad idea. I'll probably do something like you suggested, means I have to lay another new pipe from the main line to the tank and I will need to run the pump more, as I can't use the pressure from the main line, but better be safe that way. Thanks for your help! :)",
+      "author": "corny96",
+      "subreddit": "Esphome",
+      "created_utc": 1715342170,
+      "score": 2,
+      "link_id": "t3_1codhbc",
+      "parent_id": "t1_l3dhe2r"
+    },
+    {
+      "id": "l2ufrs6",
+      "body": "I can't tell from the image which voltage it has, but if it fits, has the right polarity, is below 12V and you don't have a short in your breadboard, should work.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010801,
+      "score": 5,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2uffo8"
+    },
+    {
+      "id": "l2uewip",
+      "body": "Here's the datasheet: https://www.mouser.ch/datasheet/2/55/BBP_32701-1947460.pdf",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010497,
+      "score": 1,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2ueevz"
+    },
+    {
+      "id": "l2uen1u",
+      "body": "you need some external PSU that fits into the barrel jack. Don't know what voltage it takes as input, probably 5V.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010404,
+      "score": 1,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2ueevz"
+    },
+    {
+      "id": "l2ueirl",
+      "body": "you place it on the end of the breadboard. so you can for example have the power lines on one side be 5V and on the other side 3.3V.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010361,
+      "score": 1,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2uebht"
+    },
+    {
+      "id": "l2uebht",
+      "body": "it fits onto your breadboard to give power to the the red and blue line from the barrel jack. you can also power a usb device from it. with the header pins you can select the voltage of the breadboard lines.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010290,
+      "score": 3,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t3_1cllymn"
+    },
+    {
+      "id": "l25jf6s",
+      "body": "Any change it's within Zigbee range? \nSomeone here also mentioned PowerLAN, might also be a solution. \nOtherwise a LoRa controlled relais, you can buy the board ready made, but you'll have to flash your own software.",
+      "author": "corny96",
+      "subreddit": "homeautomation",
+      "created_utc": 1714598912,
+      "score": 2,
+      "link_id": "t3_1chtbt2",
+      "parent_id": "t3_1chtbt2"
+    },
+    {
+      "id": "l1ei61j",
+      "body": "Transport Tycoon Deluxe. Damals noch auf MS-DOS. Erinnere mich noch wie mein Bruder mir damals zeigen musste wie man den Windows 98 in DOS booten kann um dort das Spiel zu spielen. Ich spiel es heute noch gerne. \nDas zweite Spiel (eine Weile später) war dann Need for Speed Underground 2, ebenfalls noch einer meiner Favoriten heute.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1714162096,
+      "score": 1,
+      "link_id": "t3_1cdp7zn",
+      "parent_id": "t3_1cdp7zn"
+    },
+    {
+      "id": "l0vg3ki",
+      "body": "ChatGPT und Github Copilot für einige basic code generation Sachen. Spart einfach etwas Zeit, wenn man sich irgendwelche Visualisierungs oder Data-Loading Funktionen so schreiben lassen kann, aber bei komplexeren Sachen scheitert das Ganze noch recht häufig bei mir. \nDie GPT-4 Vision API benutze ich ganz gerne, primär als glorifiziertes OCR Tool, und Whisper für Audio Transcription.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1713871170,
+      "score": 2,
+      "link_id": "t3_1caxfz8",
+      "parent_id": "t3_1caxfz8"
+    },
+    {
+      "id": "l0avpeu",
+      "body": "There is a shop called \"[vom Fass](https://www.vomfass.ch/spirituosen/whiskys)\" (from the barrel) near the train station. They have all their goods in barrels, and when you purchase something, they fill up a bottle for you to take home. \nthe description of the bottle would match what you said, about half a liter with a silver cap. \nAs far as I know, they offer engravings of the bottles, at least it's mentioned [here](https://www.vomfass.ch/zuerich/aktuelles) on their website.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1713536479,
+      "score": 5,
+      "link_id": "t3_1c7vzhs",
+      "parent_id": "t3_1c7vzhs"
+    },
+    {
+      "id": "kzz0hbq",
+      "body": "Gefühlt ist selbst der Perso oft optional. Bin letzte Woche Zürich/Hannover hin und zurück geflogen, da hat niemand nach irgendwas anderem als dem Boarding Pass gefragt.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1713354115,
+      "score": 15,
+      "link_id": "t3_1c648on",
+      "parent_id": "t1_kzyox4j"
+    },
+    {
+      "id": "kz24xcg",
+      "body": "Zürich hier, an den touristischen Stellen am See: chf4.50 für eine Kugel Mövenpick aus der Packung. \nAn anderen Orten in Zürich 2-2.50 für eine gute Kugel Eis.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1712833730,
+      "score": 1,
+      "link_id": "t3_1c1962b",
+      "parent_id": "t3_1c1962b"
+    },
+    {
+      "id": "kx8ocov",
+      "body": "BMW 1er F20, soweit 150000 und er fährt und fährt und fährt",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1711798764,
+      "score": 1,
+      "link_id": "t3_1brcp2x",
+      "parent_id": "t3_1brcp2x"
+    },
+    {
+      "id": "kwt19u8",
+      "body": "There are some repair cafés and there is [Revamp-It](https://www.revamp-it.ch/index.php/de/). I don't have any experience with the prior, but I tried revamp-it once, they fixed my old VHS player, which is great, but it took a long time and the place is a bit chaotic, had to call many times until someone could even tell me if they had even looked at my device.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1711551428,
+      "score": 2,
+      "link_id": "t3_1bp371j",
+      "parent_id": "t3_1bp371j"
+    },
+    {
+      "id": "kw7jx35",
+      "body": "[Some Migros branches](https://corporate.migros.ch/de/story/plastik-sammeln-statt-wegwerfen#merkblatt-plastiksammelsack) offer plastic recycling, separate to the standard bottle recycling. You can buy special trash bags from migros, fill them up and return them. But I'm not sure if they allow PLA prints. And it costs about the same as just putting them in the taxed garbage bags.",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1711208860,
+      "score": 3,
+      "link_id": "t3_1blpor5",
+      "parent_id": "t3_1blpor5"
+    },
+    {
+      "id": "kvepx66",
+      "body": "I've used meineinkauf.ch in the past for forwarding into Switzerland. Worked great, very quick, but is def not the cheapest option.",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1710758395,
+      "score": 1,
+      "link_id": "t3_1bfp170",
+      "parent_id": "t3_1bfp170"
+    },
+    {
+      "id": "kvenv6h",
+      "body": "I think the working permit is not the issue here, you need a full working permit for your PhD. I think the main issue is that the HR department at your university needs to be fine with it. You have to inform them and they have to be ok with it. And I think there is a legal limit on how many hours",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1710756998,
+      "score": 9,
+      "link_id": "t3_1bhjm1d",
+      "parent_id": "t3_1bhjm1d"
+    },
+    {
+      "id": "kuifc5y",
+      "body": "Otherwise, if you need help and a van, I would recommend \"De blaui Blitz\", you can find them on facebook. Great moving company, affordable and very helpful",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1710246443,
+      "score": 2,
+      "link_id": "t3_1bcvfn1",
+      "parent_id": "t1_kuif4le"
+    },
+    {
+      "id": "kuif4le",
+      "body": "The last time I moved I got one from Sixt, it was 60chf for a whole day (pick up in the morning, return the next morning), it was super spacious and everything went smooth. the only annoying part was the pick up location somewhere outside of Zurich.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1710246340,
+      "score": 3,
+      "link_id": "t3_1bcvfn1",
+      "parent_id": "t3_1bcvfn1"
+    },
+    {
+      "id": "ktfrblz",
+      "body": "Is that a big red dot on Liechtenstein? I would skip it, not very interesting, nice art museum and a decent castle, but both of which you can find much better ones elsewhere. If you are travelling by car, for the fun of it, drive through Liechtenstein once, but otherwise it's a surprisingly boring country to visit.",
+      "author": "corny96",
+      "subreddit": "germany",
+      "created_utc": 1709638540,
+      "score": 1,
+      "link_id": "t3_1b6wvzk",
+      "parent_id": "t3_1b6wvzk"
+    },
+    {
+      "id": "kta6jg8",
+      "body": "Thanks! very interesting",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1709551151,
+      "score": 1,
+      "link_id": "t3_1b5hbdv",
+      "parent_id": "t1_kt5nbg9"
+    },
+    {
+      "id": "kt5kxrd",
+      "body": "Thank you for the great explanation. Do you know how the switch detects what line the tram belongs to? Is there something like a balise in the ground?",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1709478249,
+      "score": 4,
+      "link_id": "t3_1b5hbdv",
+      "parent_id": "t1_kt5gk7e"
+    },
+    {
+      "id": "ksxjyku",
+      "body": "ebenfalls ein 13 mini User hier. ich hab 5G immer aktiviert, aber benutzte relativ wenig Mobilfunk, hab meistens Wlan. komme eigentlich auch problemlos durch den Tag, nur wenn ich Abends unterwegs bin hänge ich es davor noch mal 20min an den Strom damit es nicht plötzlich um 10 doch noch Schlapp macht. \nFinde den Formfaktor ziemlich perfekt, dazu gute Kamera und sonst auch alles was ich brauche. Wenn Apple noch mal ein mini raus bringt würde ich es definitiv kaufen.",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1709338096,
+      "score": 3,
+      "link_id": "t3_1b3rl4c",
+      "parent_id": "t1_ksux3v1"
+    },
+    {
+      "id": "kryc183",
+      "body": "Wird per Kamera kontrolliert. Quelle: bin da aus Versehen schon mal reingefahren und hab die Rechnung bekommen.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1708799601,
+      "score": 21,
+      "link_id": "t3_1aywa7d",
+      "parent_id": "t3_1aywa7d"
+    },
+    {
+      "id": "kp195d0",
+      "body": "I bought the same one about 1.5 years ago. It's amazing, I love wearing it every day, you made a great choice",
+      "author": "corny96",
+      "subreddit": "Watches",
+      "created_utc": 1707146520,
+      "score": 3,
+      "link_id": "t3_1ajfffq",
+      "parent_id": "t3_1ajfffq"
+    },
+    {
+      "id": "kor0a0n",
+      "body": "that is true, that I agree with",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1706975997,
+      "score": 3,
+      "link_id": "t3_1ahw73y",
+      "parent_id": "t1_koqw1t7"
+    },
+    {
+      "id": "koqvmon",
+      "body": "well, there's a x.99 price in the image above",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1706974188,
+      "score": 15,
+      "link_id": "t3_1ahw73y",
+      "parent_id": "t1_koqto40"
+    },
+    {
+      "id": "kkae6ni",
+      "body": "From what I know, it's now often forbidden to have batteries in the checked luggage, so also no laptop or tablet. also checked luggage is not treated particularly well, things break easily.",
+      "author": "corny96",
+      "subreddit": "howto",
+      "created_utc": 1706637217,
+      "score": 5,
+      "link_id": "t3_1aeqf7r",
+      "parent_id": "t1_kka9p84"
+    },
+    {
+      "id": "kk8ydoe",
+      "body": "French Press, wenn es mal eine große Tasse oder mehrere sein soll. Ansonsten für Espresso hab ich eine Siebträgermaschine (die Gaggia Classic), die auch Milch schäumen kann. Dazu eine elektrische Mühle von Sage, für unterschiedliche Mahlgrade je nach Zubereitung. Den Espresso gibt es 1-2 mal am Tag, die French Press dann eher am Wochenende zum entspannten Frühstück.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1706617135,
+      "score": 2,
+      "link_id": "t3_1aeilrw",
+      "parent_id": "t3_1aeilrw"
+    },
+    {
+      "id": "kk6py50",
+      "body": "jo, Schweiz hier. zahle 39 für 200/200. Angeboten an meiner Adresse wird aber auch 49 für 1000/1000 oder 69 für 10000/10000. Zum selben Preis gibt's auch noch die 25000/25000 Leitung, da kommen dann aber ein paar 100Chf Setupgebühr dazu... für 20chf/Monat extra kriegt man auch noch die fixe IPv4 Adresse, für die die's brauchen...",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1706573933,
+      "score": 8,
+      "link_id": "t3_1ae7z99",
+      "parent_id": "t1_kk6ebrm"
+    },
+    {
+      "id": "kiyu1d9",
+      "body": "Ich esse sehr gerne Frühstück, ich esse nur nicht gerne früh morgens. \nEntsprechend gibt es bei mir unter der Woche einen Kaffee, sonst nichts. Am Wochenende gibt's dafür ein spätes Frühstück mit schönem Brot und Eiern, vielleicht Pancakes oder anderen guten Sachen. Dafür gibt's am Wochenende dann kein Mittagessen.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1705882550,
+      "score": 3,
+      "link_id": "t3_19c7y4d",
+      "parent_id": "t3_19c7y4d"
+    },
+    {
+      "id": "kivofxv",
+      "body": "Unter der Woche: Kaffee und Wasser. \nAm Wochenende: Kaffee, Wasser und einen frisch gepressten Orangensaft.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1705839418,
+      "score": 2,
+      "link_id": "t3_19c0amj",
+      "parent_id": "t3_19c0amj"
+    },
+    {
+      "id": "khr6od2",
+      "body": "I'm paying $40 for 100/100 here in Switzerland. maybe I'll chip out the $10 extra for 1000/1000 some time soon.",
+      "author": "corny96",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1705196840,
+      "score": 1,
+      "link_id": "t3_1960vb6",
+      "parent_id": "t1_khqmmne"
+    },
+    {
+      "id": "kglzwjo",
+      "body": "no, I didn't, is that recommended? I just found out that I can install the md plugin, and now the RAID option appeared. Is that something new in OMV 7.0 that I first have to install a plugin for RAID?",
+      "author": "corny96",
+      "subreddit": "OpenMediaVault",
+      "created_utc": 1704563605,
+      "score": 1,
+      "link_id": "t3_1903zjb",
+      "parent_id": "t1_kgltwox"
     }
   ]
 }

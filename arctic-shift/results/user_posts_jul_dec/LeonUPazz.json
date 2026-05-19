@@ -1,6 +1,139 @@
 {
   "username": "LeonUPazz",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1hln5ry",
+      "title": "Junior IT job market in ticino",
+      "author": "LeonUPazz",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735076434,
+      "score": 1,
+      "num_comments": 8,
+      "selftext": "Hi, I have been looking for job opportunities as a junior for quite a while now but with no success. \nAnd it wouldn't even be my first job experience, I already worked for 3 years as a sysadmin and almost a year as a backend developer (unpaid internship). I should also graduate next semester with a computer science bachelor. \nI mostly applied on websites like Glassdoor/indeed/LinkedIn but yeah no response.\n\nAm I doing something wrong or is the market just bad in ticino? I could also show my CV if any professional could help",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1hln5ry/junior_it_job_market_in_ticino/"
+    },
+    {
+      "id": "1h27yod",
+      "title": "Are there any mods that allow me not to follow the Camarilla quests?",
+      "author": "LeonUPazz",
+      "subreddit": "vtmb",
+      "created_utc": 1732834742,
+      "score": 10,
+      "num_comments": 6,
+      "selftext": "Hi, I'm about to finish my first playthrough of the game, and it has been a ton of fun. However, I was wondering if there were any mods which allow me to not follow LaCroix orders. Like for example if I wanted to side with the Anarchs from the get go without having to follow the Camarilla at all. ",
+      "url": "https://www.reddit.com/r/vtmb/comments/1h27yod/are_there_any_mods_that_allow_me_not_to_follow/"
+    },
+    {
+      "id": "1gz6scb",
+      "title": "Cyberpunk VR mod performance",
+      "author": "LeonUPazz",
+      "subreddit": "virtualreality",
+      "created_utc": 1732496663,
+      "score": 1,
+      "num_comments": 7,
+      "selftext": "Hi, I recently bought a quest 3 and am having a blast with it, and now I'd like to link it to my pc to play some games. I saw that there is a mod for cyberpunk from LukeRoss to play the game in vr, but Ive heard that the performance is pretty bad so I wanted to ask here first if I would have performance issues before dropping the 10$ on his patreon.\n\n  \nI have a amd ryzen 5 5600 and a amd radeon rx 6700 xt. Will I be able to play the game at a decent resolution in vr? Thanks",
+      "url": "https://www.reddit.com/r/virtualreality/comments/1gz6scb/cyberpunk_vr_mod_performance/"
+    },
+    {
+      "id": "1gvb6y9",
+      "title": "Update on tokimeki memorial PS1 translation (still help wanted)",
+      "author": "LeonUPazz",
+      "subreddit": "romhacking",
+      "created_utc": 1732058673,
+      "score": 5,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "/r/visualnovels/comments/1gvb6l1/update_on_tokimeki_memorial_ps1_translation_still/"
+    },
+    {
+      "id": "1gvb6l1",
+      "title": "Update on tokimeki memorial PS1 translation (still help wanted)",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1732058646,
+      "score": 22,
+      "num_comments": 9,
+      "selftext": "After quite a bit of trouble reverse engineering the game, I have reverse engineered pointers/basic text editing, and have managed to put together a very basic tool (see screenshot)\n\nhttps://preview.redd.it/y6mbbtp4zx1e1.png?width=1743&format=png&auto=webp&s=d30c62ec39d892c630bcb574f95970cb9cc774a3\n\nAs of now I still have to test it and check how to make it work for all strings. Still, once it's ready, I'll release it to on my github so that anyone can use it/modify it. \n\nNow to translate the game I will need some people who actually know japanese as I don't speak any unfortunately, so if you have some experience translating games or know japanese reasonably well please contact me or leave a comment so that we can work out translating the game!",
+      "url": "https://www.reddit.com/r/visualnovels/comments/1gvb6l1/update_on_tokimeki_memorial_ps1_translation_still/"
+    },
+    {
+      "id": "1gs033o",
+      "title": "Help wanted for Tokimeki Memorial PSX translation",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731687687,
+      "score": 19,
+      "num_comments": 2,
+      "selftext": "Hi,\n\nA few days ago I made a post on the topic and finally started making some progress.  \nI am currently working on a translation for the game Tokimeki Memorial on the playstation, which is the best version of the game and has never been translated due to the difficulty of the project.\n\n  \nI have created a [repo](https://github.com/leon9343/tokimeki-memorial-translation/tree/main) with the little work which has been done so far, and am looking for help on reverse engineering how text compression and asset loading works in the game. So far I have made a utility to edit in-game graphics but I still have to figure out how the game loads the palette.\n\n  \nIf any of you have knowledge on translation and reverse engineering, any and all help is greatly appreciated. Leave a comment or dm me for any questions :)",
+      "url": "https://www.reddit.com/r/visualnovels/comments/1gs033o/help_wanted_for_tokimeki_memorial_psx_translation/"
+    },
+    {
+      "id": "1gs00ez",
+      "title": "Help wanted for Tokimeki Memorial PSX translation",
+      "author": "LeonUPazz",
+      "subreddit": "romhacking",
+      "created_utc": 1731687489,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "Hi,\n\n  \nI am currently working on a translation for the game Tokimeki Memorial on the playstation, which is the best version of the game and has never been translated due to the difficulty of the project.\n\n  \nI have created a [repo](https://github.com/leon9343/tokimeki-memorial-translation/tree/main) with the little work which has been done so far, and am looking for help on reverse engineering how text compression and asset loading works in the game. \n\n  \nAny and all help is greatly appreciated, leave a comment or dm me for any questions :)",
+      "url": "https://www.reddit.com/r/romhacking/comments/1gs00ez/help_wanted_for_tokimeki_memorial_psx_translation/"
+    },
+    {
+      "id": "1gpltuo",
+      "title": "Is there any interest for a Tokimeki Memorial PS1 translation?",
+      "author": "LeonUPazz",
+      "subreddit": "Games",
+      "created_utc": 1731421384,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Games/comments/1gpltuo/is_there_any_interest_for_a_tokimeki_memorial_ps1/"
+    },
+    {
+      "id": "1gpi8jp",
+      "title": "Is there still any interest in a full translation of Tokimeki Memorial PS1 version?",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731409433,
+      "score": 13,
+      "num_comments": 13,
+      "selftext": "Hi, after seeing the super long review of the game I wanted to play it, but saw that there still isn't a \"full\" (as in, patched iso) translation of the game's forever with you version to english. The best I've found is the translation tool (which is really good work btw), but again no translated iso which is played on original hardware or doesnt require external tools.\n\n  \nI was wondering if there still is an interest in translating this game in that way. I have accumulated some experience with reverse engineering/rom hacking and would like to work on this if anyone is still interested",
+      "url": "https://www.reddit.com/r/visualnovels/comments/1gpi8jp/is_there_still_any_interest_in_a_full_translation/"
+    },
+    {
+      "id": "1gkhhal",
+      "title": "Trying to reverse engineer old installer",
+      "author": "LeonUPazz",
+      "subreddit": "AskReverseEngineering",
+      "created_utc": 1730841137,
+      "score": 3,
+      "num_comments": 4,
+      "selftext": "Hi,\n\nI'm trying to learn more about reverse engineering in general and have tried reversing some very old drm systems. Today I started working on making my own keygen for the sims 1 but I am stuck on finding where the comparison is really made. I know that the game uses installshield to install the game, and have found where the actual program which installs the game is located, but I cannot find anything useful.\n\nI know that the setup.exe program opens a \\_s327.exe program, which after doing some setups runs a \"\\_INS5176.\\_MP\" program in a temporary directory, which uses resource DLLs to store strings etc. All I have been able to find is the .\\_MP program loading an image 4Fight.bmp which is used in the window where the serial key is asked, but nothing besides that. \n\nDoes anyone have any experience with this kind of reverse engineering? Any help is appreciated, thanks",
+      "url": "https://www.reddit.com/r/AskReverseEngineering/comments/1gkhhal/trying_to_reverse_engineer_old_installer/"
+    },
+    {
+      "id": "1g2w7ni",
+      "title": "Consigli per stivali/abbigliamento",
+      "author": "LeonUPazz",
+      "subreddit": "TrekkingItaly",
+      "created_utc": 1728843946,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "Sono completamente nuovo al trekking, e tra poco ho intenzione di fare la mia prima escursione. Sapreste consigliarmi delle marche/modelli per gli stivali? Ho bisogno di attrezzatura/abbigliamento particolare oltre a questi? \n\nGrazie in anticipo",
+      "url": "https://www.reddit.com/r/TrekkingItaly/comments/1g2w7ni/consigli_per_stivaliabbigliamento/"
+    },
+    {
+      "id": "1g0krqy",
+      "title": "Gruppo hiking",
+      "author": "LeonUPazz",
+      "subreddit": "Ticino",
+      "created_utc": 1728572315,
+      "score": 11,
+      "num_comments": 12,
+      "selftext": "Ciao, vivo a Lugano da un po' e vorrei iniziare a fare hiking/trekking ma non ho gente con cui andare. Mi sapreste consigliare qualche gruppo dove cercare?",
+      "url": "https://www.reddit.com/r/Ticino/comments/1g0krqy/gruppo_hiking/"
+    }
+  ],
   "comments": [
     {
       "id": "lerxpaw",
@@ -21,6 +154,2236 @@
       "score": 1,
       "link_id": "t3_199wdam",
       "parent_id": "t1_leqbzyv"
+    },
+    {
+      "id": "m4e53f1",
+      "body": "As of now you could with a PSP emulator, although the gameplay is quite a bit dated",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1735497648,
+      "score": 2,
+      "link_id": "t3_1hon5in",
+      "parent_id": "t1_m4d958l"
+    },
+    {
+      "id": "m4c03rw",
+      "body": "I find it unlikely that P1 and P2 will get the reload treatment. We'll probably get the vita versions released on modern consoles though",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1735465319,
+      "score": 4,
+      "link_id": "t3_1hon5in",
+      "parent_id": "t1_m4avqgv"
+    },
+    {
+      "id": "m40hb9i",
+      "body": "Yeah if you're actually interested in writing for the 6502 you don't have any other choice. For assembly in general I'd say that MIPS is also quite good for writing programs (x86 is just ass)",
+      "author": "LeonUPazz",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1735294348,
+      "score": 1,
+      "link_id": "t3_1hm6d4l",
+      "parent_id": "t1_m3yehes"
+    },
+    {
+      "id": "m3uavlb",
+      "body": "Db writing has always been lazy though, except for the first few sagas maybe.\n\nLike even korin having the holy water but this time fr was such a giant asspull",
+      "author": "LeonUPazz",
+      "subreddit": "DragonBallZ",
+      "created_utc": 1735193741,
+      "score": 1,
+      "link_id": "t3_1hl6p2s",
+      "parent_id": "t1_m3kdovg"
+    },
+    {
+      "id": "m3rz01k",
+      "body": "Tbh that assembly is very readable",
+      "author": "LeonUPazz",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1735156884,
+      "score": 4,
+      "link_id": "t3_1hm6d4l",
+      "parent_id": "t1_m3rnu9v"
+    },
+    {
+      "id": "m3qol1h",
+      "body": "Oh I see. Can you recommend any certificates in particular? I saw a lot of different ones online",
+      "author": "LeonUPazz",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735138966,
+      "score": 1,
+      "link_id": "t3_1hln5ry",
+      "parent_id": "t1_m3qlg8g"
+    },
+    {
+      "id": "m3nu4go",
+      "body": "I see, I'll keep trying then",
+      "author": "LeonUPazz",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735081040,
+      "score": 1,
+      "link_id": "t3_1hln5ry",
+      "parent_id": "t1_m3nl58r"
+    },
+    {
+      "id": "m3nu18k",
+      "body": "Tbh I would rather go into a field such as embedded/cyber security as they are fields that interst me more, but there is little to nothing as a junior that I found. \n\nStill thanks for the advice",
+      "author": "LeonUPazz",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735081002,
+      "score": 1,
+      "link_id": "t3_1hln5ry",
+      "parent_id": "t1_m3nq2qm"
+    },
+    {
+      "id": "m3navrt",
+      "body": "I'm currently a student in computer science, and the next will be my last semester. I was wondering, how do I get started working in this field? I'm living in switzerland, so the question is kind of specific to this area, although I'd also work for a company abroad remotely.\n\nI already know how to code quite well and have some professional experience as a sysadmin and a backend developer, and have also worked on some reverse engineering projects. \n\nAre there any certificates I can get to enhance my CV or similar? Thanks",
+      "author": "LeonUPazz",
+      "subreddit": "cybersecurity",
+      "created_utc": 1735073518,
+      "score": 1,
+      "link_id": "t3_1hkb8xu",
+      "parent_id": "t3_1hkb8xu"
+    },
+    {
+      "id": "m3m284q",
+      "body": "1. Internet non rappresenta l'Italia\n2. Internet é formato da tante echo chamber dove la gente ha bene o male la stessa opinione, vedi su reddit gran parte delle opinioni di destra é downvotata/sinistra upvotata, sui commenti di insta all'opposto, etc. quindi a seconda dei social che frequenti trovi una maggioranza diversa",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1735057832,
+      "score": 1,
+      "link_id": "t3_1hlgg4o",
+      "parent_id": "t3_1hlgg4o"
+    },
+    {
+      "id": "m3cwi9c",
+      "body": "True, even though I prefer the gogeta super Saiyan ones. Especially the rush attack lol",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1734910198,
+      "score": 2,
+      "link_id": "t3_1hjd77i",
+      "parent_id": "t1_m3cq25p"
+    },
+    {
+      "id": "m36kcmn",
+      "body": "Poor people who can't afford necessities are in Italy as well, as well as many millionaires/billionaires. Wealth inequality is not a us thing.",
+      "author": "LeonUPazz",
+      "subreddit": "pics",
+      "created_utc": 1734810862,
+      "score": 1,
+      "link_id": "t3_1hdcwvs",
+      "parent_id": "t1_m1veuvx"
+    },
+    {
+      "id": "m36dipo",
+      "body": "I got a huge wave of nostalgia for the old dbz. A moment of magnitude comparable to of super Saiyan or ultra instinct. Bravo Vince 👏",
+      "author": "LeonUPazz",
+      "subreddit": "Ningen",
+      "created_utc": 1734808478,
+      "score": 2,
+      "link_id": "t3_1hj4yy0",
+      "parent_id": "t3_1hj4yy0"
+    },
+    {
+      "id": "m35sq6s",
+      "body": "I don't know about best, but imo gogeta super and Yamcha have the most fun ones",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1734801340,
+      "score": 7,
+      "link_id": "t3_1hjd77i",
+      "parent_id": "t3_1hjd77i"
+    },
+    {
+      "id": "m35shxd",
+      "body": "Boh se la gente lo pensa/dice spesso é per ignoranza o perché semplicemente piacciono gli animali. Alla fine dei conti é un pensiero innocuo\n\nComunque riguardo alla tua osservazione sul fatto che gli animali non possano decidere di fare del bene/male non li rende migliori delle persone (qualsiasi cosa migliore voglia dire), non sono del tutto d'accordo. \n\nConta davvero l'intenzione dell'animale? Dopo tutto gli animali sono solo delle creature piú semplici con dei comportamenti piú prevedibili dei nostri, non sono cosí tanto diversi da noi. Onestamente non sono del tutto sicuro che gli umani siano davvero in grado di fare delle scelte",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1734801259,
+      "score": 2,
+      "link_id": "t3_1hjases",
+      "parent_id": "t3_1hjases"
+    },
+    {
+      "id": "m34v21t",
+      "body": "It was ok back in the day, and tbh its not that bad. As a kid you don't really think about adult gags that way",
+      "author": "LeonUPazz",
+      "subreddit": "DragonBallZ",
+      "created_utc": 1734788696,
+      "score": 4,
+      "link_id": "t3_1hj0cdz",
+      "parent_id": "t3_1hj0cdz"
+    },
+    {
+      "id": "m30x51e",
+      "body": "Literally the most iconic Transformation in dbz",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1734722336,
+      "score": 37,
+      "link_id": "t3_1hiqwh5",
+      "parent_id": "t1_m30ur8b"
+    },
+    {
+      "id": "m30vtjr",
+      "body": "Finally water vegeta",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1734721894,
+      "score": 162,
+      "link_id": "t3_1hiqwh5",
+      "parent_id": "t3_1hiqwh5"
+    },
+    {
+      "id": "m2kcbdo",
+      "body": "Honestly pacing is P3 biggest problem as a game. What is there is fantastic, but there is way too much time where nothing happens/moves forward (especially the last month if I remember correctly, it's been a while since I played it though)",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1734473683,
+      "score": 9,
+      "link_id": "t3_1hgled5",
+      "parent_id": "t3_1hgled5"
+    },
+    {
+      "id": "m1y5cok",
+      "body": "That's not how life works though. Bullies sadly are all over the world, and a weird name makes you a target",
+      "author": "LeonUPazz",
+      "subreddit": "DragonBallZ",
+      "created_utc": 1734137395,
+      "score": 7,
+      "link_id": "t3_1hdfttc",
+      "parent_id": "t1_m1xl4bo"
+    },
+    {
+      "id": "m1y4pfe",
+      "body": "Cosa c'è di male nel leggerlo scusa?",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1734137145,
+      "score": 12,
+      "link_id": "t3_1hdhl6s",
+      "parent_id": "t1_m1xkunc"
+    },
+    {
+      "id": "m1ugwdz",
+      "body": "Ok",
+      "author": "LeonUPazz",
+      "subreddit": "Gamingcirclejerk",
+      "created_utc": 1734090863,
+      "score": 0,
+      "link_id": "t3_1hc5l72",
+      "parent_id": "t1_m1qb1jx"
+    },
+    {
+      "id": "m1ucbxp",
+      "body": "The only real disappointment is silent hill 2 re not winning best sound design. It is what it is",
+      "author": "LeonUPazz",
+      "subreddit": "Gamingcirclejerk",
+      "created_utc": 1734088192,
+      "score": 2,
+      "link_id": "t3_1hd3xuv",
+      "parent_id": "t3_1hd3xuv"
+    },
+    {
+      "id": "m1hur5l",
+      "body": "Not canon but I would count janemba",
+      "author": "LeonUPazz",
+      "subreddit": "DragonBallZ",
+      "created_utc": 1733904622,
+      "score": 1,
+      "link_id": "t3_1h8ipc1",
+      "parent_id": "t1_m1g9hg2"
+    },
+    {
+      "id": "m1hu97t",
+      "body": "I mean it's a cool attack somewhere, what else matters lol. Gt just had poor animation all around",
+      "author": "LeonUPazz",
+      "subreddit": "DragonBallZ",
+      "created_utc": 1733904290,
+      "score": 1,
+      "link_id": "t3_1h8ipc1",
+      "parent_id": "t1_m10e63c"
+    },
+    {
+      "id": "m1elg3t",
+      "body": "Yh the only game that comes close (and surpasses it imo) is planescape torment. If you can handle old infinity engine clunk it's a gem to play",
+      "author": "LeonUPazz",
+      "subreddit": "Gamingcirclejerk",
+      "created_utc": 1733858708,
+      "score": 2,
+      "link_id": "t3_1hav79f",
+      "parent_id": "t1_m1dai23"
+    },
+    {
+      "id": "m1424a0",
+      "body": "So che è un commento vecchissimo, ma sapresti consigliare un manuale di storia della filosofia politica?",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1733701504,
+      "score": 1,
+      "link_id": "t3_111ixxa",
+      "parent_id": "t1_j8i8ogy"
+    },
+    {
+      "id": "m13cg64",
+      "body": "A LESBIAN OF SORTS🗣️",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1733692767,
+      "score": 22,
+      "link_id": "t3_1h9kx1s",
+      "parent_id": "t1_m1361pe"
+    },
+    {
+      "id": "m03i43h",
+      "body": "In Italy everyone started with og db. Tbh its mostly a us thing to skip dragon ball (due to how it was aired ig)",
+      "author": "LeonUPazz",
+      "subreddit": "Ningen",
+      "created_utc": 1733173866,
+      "score": 3,
+      "link_id": "t3_1h4trzn",
+      "parent_id": "t1_m00yyxm"
+    },
+    {
+      "id": "m02xqn0",
+      "body": "If there is some advice I can give you, is to find a problem that interests you and that you actually want to solve and try to write a program for that, without looking for tutorials/guides.\n\nIt will be difficult and (most probably) the first few  versions will not work, but it will teach you problem solving way better than trying to solve a problem you aren't interested in.\n\nI did this by writing a patcher for Morrowind to skip the CD drive check and it taught me a lot about files, strings, and how memory is handled in C; but it can be whatever you want really. The skills you will pickup writing something you are invested in are invaluable",
+      "author": "LeonUPazz",
+      "subreddit": "C_Programming",
+      "created_utc": 1733167452,
+      "score": 1,
+      "link_id": "t3_1h4aenj",
+      "parent_id": "t3_1h4aenj"
+    },
+    {
+      "id": "m02wn2f",
+      "body": "I think that it will still make sense for the next few decades *at least*. C is a high level language like any other really. The only \"real\" low level language is assembly, as all languages are built on top of it. \n\nThe quirk of C is that it allows you to access memory somewhat freely. This is generally seen as a vulnerability, but it is immensely useful for some domains (like embedded for example). \n\nBesides, I would say to go for it anyways. What you learn in C is important in all languages. What you really should be studying is algorithms and data structures, which is how you actually solve problems",
+      "author": "LeonUPazz",
+      "subreddit": "C_Programming",
+      "created_utc": 1733167108,
+      "score": 2,
+      "link_id": "t3_1h51le4",
+      "parent_id": "t3_1h51le4"
+    },
+    {
+      "id": "m02ub0n",
+      "body": "You could try with something like Harry Potter which may be more engaging for them. Not everyone likes classic books",
+      "author": "LeonUPazz",
+      "subreddit": "im14andthisisdeep",
+      "created_utc": 1733166380,
+      "score": 1,
+      "link_id": "t3_1h4nssx",
+      "parent_id": "t1_m0126sd"
+    },
+    {
+      "id": "lzv4267",
+      "body": "It just fits so we'll lol. Plus it's a great track",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1733057692,
+      "score": 3,
+      "link_id": "t3_1h3vgj1",
+      "parent_id": "t1_lzu8krp"
+    },
+    {
+      "id": "lzggb9d",
+      "body": "Or r/ryzemains",
+      "author": "LeonUPazz",
+      "subreddit": "arcane",
+      "created_utc": 1732824522,
+      "score": 4,
+      "link_id": "t3_1h1qnzo",
+      "parent_id": "t1_lzdzdk8"
+    },
+    {
+      "id": "lz8pyen",
+      "body": "The biggest problem of p3's story is the pacing, which I think is the worst out of the modern games. There are whole months of nothing in the game which really bring down the experience.",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1732715693,
+      "score": 3,
+      "link_id": "t3_1h0sk9w",
+      "parent_id": "t1_lz7wxwu"
+    },
+    {
+      "id": "lyyli4c",
+      "body": "I Just play with friends/do world tournaments offline so I'm still having a blast. Won't touch online with a 10m pole though",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1732565822,
+      "score": 3,
+      "link_id": "t3_1gzr7x9",
+      "parent_id": "t3_1gzr7x9"
+    },
+    {
+      "id": "lyjwdyh",
+      "body": "I'm looking for a game with a fun and challenging leveling experience\n\nI've played wow, FFXIV (not really a fan of the early game there), gw2, swtor and oars\n\nMostly casual. I can only play more than one/two hours one day a week\n\nPreferably some decent life skills\n\nBDO. I don't really like the aesthetic",
+      "author": "LeonUPazz",
+      "subreddit": "MMORPG",
+      "created_utc": 1732351671,
+      "score": 1,
+      "link_id": "t3_1gimanx",
+      "parent_id": "t3_1gimanx"
+    },
+    {
+      "id": "ly3flks",
+      "body": "While not really with re, I definetly get scared with games like silent hill and forbidden siren",
+      "author": "LeonUPazz",
+      "subreddit": "residentevil",
+      "created_utc": 1732109079,
+      "score": 1,
+      "link_id": "t3_1gve7xg",
+      "parent_id": "t3_1gve7xg"
+    },
+    {
+      "id": "ly2v43v",
+      "body": "Thanks a lot, I'll try to reach to them",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1732098768,
+      "score": 3,
+      "link_id": "t3_1gvb6l1",
+      "parent_id": "t1_ly2k4hn"
+    },
+    {
+      "id": "ly1bn3i",
+      "body": "Still hoping for alfa romeo or ferrari",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1732069843,
+      "score": 3,
+      "link_id": "t3_1gvaraa",
+      "parent_id": "t3_1gvaraa"
+    },
+    {
+      "id": "lxy5ns5",
+      "body": "Parlare di upvote/downvote sotto il post di un morto\n\nr/redditmoment",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1732033792,
+      "score": 30,
+      "link_id": "t3_1gus2o0",
+      "parent_id": "t1_lxx1zi1"
+    },
+    {
+      "id": "lxgtjnc",
+      "body": "Bro elon non te la vuole dare🙏",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1731780788,
+      "score": 2,
+      "link_id": "t3_1gs48q8",
+      "parent_id": "t1_lxgtdbi"
+    },
+    {
+      "id": "lxgrhnb",
+      "body": "No! Non insultare il mio multimiliardario preferito!",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1731780129,
+      "score": 1,
+      "link_id": "t3_1gs48q8",
+      "parent_id": "t1_lxf9ru6"
+    },
+    {
+      "id": "lxctkuo",
+      "body": "Thanks, I'll definetly need some help down the line. It will probably be a while before I get to text editing though",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731716466,
+      "score": 2,
+      "link_id": "t3_1gs033o",
+      "parent_id": "t1_lxbg0f1"
+    },
+    {
+      "id": "lxcsmvr",
+      "body": "This game most surely did. I didn't manage to find any text on the cdrom, neither the guys who tried before me",
+      "author": "LeonUPazz",
+      "subreddit": "romhacking",
+      "created_utc": 1731716116,
+      "score": 1,
+      "link_id": "t3_1gs00ez",
+      "parent_id": "t1_lxbp2u7"
+    },
+    {
+      "id": "lwzu0ne",
+      "body": "Yeah this looks insanely hard compared to any other project I did before lol. I'll still try as it looks like a very fun challenge, I'll publish my findings nonetheless",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731537929,
+      "score": 3,
+      "link_id": "t3_1gpi8jp",
+      "parent_id": "t1_lwudukp"
+    },
+    {
+      "id": "lwztuj9",
+      "body": "Frankly, at this point I'm too invested in how the hell this game works. Even if I don't manage to work out how compression/decompression works I'll publish what I find so that if someone in the future wants to work on this there will be more information than there is right now, which is quite small",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731537874,
+      "score": 2,
+      "link_id": "t3_1gpi8jp",
+      "parent_id": "t1_lwr7lil"
+    },
+    {
+      "id": "lwu4h6r",
+      "body": "Could you send me the discord? I'd like to help atp",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731456664,
+      "score": 1,
+      "link_id": "t3_1gpi8jp",
+      "parent_id": "t1_lwtjnhr"
+    },
+    {
+      "id": "lwsko8h",
+      "body": "No? I just like working with the PS1 lol",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731438551,
+      "score": 2,
+      "link_id": "t3_1gpi8jp",
+      "parent_id": "t1_lwsk4vj"
+    },
+    {
+      "id": "lwryw1f",
+      "body": "I think I'll give it a try nonetheless, it seems a fun project to work on. I'll make a post if I manage to reverse the compression algorithm",
+      "author": "LeonUPazz",
+      "subreddit": "visualnovels",
+      "created_utc": 1731431900,
+      "score": 3,
+      "link_id": "t3_1gpi8jp",
+      "parent_id": "t1_lwrc9op"
+    },
+    {
+      "id": "lwq2us4",
+      "body": "Damn that sucks",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1731403339,
+      "score": 1,
+      "link_id": "t3_1gp7sc9",
+      "parent_id": "t1_lwq2qh6"
+    },
+    {
+      "id": "lwq2g0l",
+      "body": "Is it a us thing? I haven't seen that many problems for CS fields in the eu lol",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1731403054,
+      "score": 1,
+      "link_id": "t3_1gp7sc9",
+      "parent_id": "t1_lwo7nsx"
+    },
+    {
+      "id": "lwk3v22",
+      "body": "I started playing for the first time a week ago. Really enjoying the game, I especially like how they handled the free mount being 10 hours of gameplay and not 10 irl hours. I'd buy an expansion only for that lol",
+      "author": "LeonUPazz",
+      "subreddit": "Guildwars2",
+      "created_utc": 1731318728,
+      "score": 1,
+      "link_id": "t3_1gnljki",
+      "parent_id": "t3_1gnljki"
+    },
+    {
+      "id": "lwb2ycq",
+      "body": "When they make a new remake*\n\nHappy now?",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1731185977,
+      "score": 23,
+      "link_id": "t3_1gnfgj0",
+      "parent_id": "t1_lwawqpc"
+    },
+    {
+      "id": "lvz7b1e",
+      "body": "This has been a thing since forever. Very sad but it's  war, what can you do",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1731018264,
+      "score": 4,
+      "link_id": "t3_1glsgil",
+      "parent_id": "t1_lvylan5"
+    },
+    {
+      "id": "lvz5v8p",
+      "body": "Just started FFXIV for the first time. Battle feels easy but I like the atmosphere",
+      "author": "LeonUPazz",
+      "subreddit": "MMORPG",
+      "created_utc": 1731017832,
+      "score": 2,
+      "link_id": "t3_1gjb7a0",
+      "parent_id": "t3_1gjb7a0"
+    },
+    {
+      "id": "lvmegjw",
+      "body": "I know that the strings appearing in the error messages/installer are stored in a resource dll. The main problem is that when the process switches to the ._MP file I am unable to step through the instructions or trigger execution breakpoints. Do you know why that could be?\n\nI am using the scyllahide plugin so I doubt it's some anti debugging trick",
+      "author": "LeonUPazz",
+      "subreddit": "AskReverseEngineering",
+      "created_utc": 1730854572,
+      "score": 1,
+      "link_id": "t3_1gkhhal",
+      "parent_id": "t1_lvm9bhq"
+    },
+    {
+      "id": "lvhopue",
+      "body": "Man I Hope they cook as hard with a P4 remake",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1730793510,
+      "score": 7,
+      "link_id": "t3_1gk09j5",
+      "parent_id": "t1_lvhewyt"
+    },
+    {
+      "id": "lv09uvg",
+      "body": "I tried the milk chocolate one. Tbh quality swiss chocolate is more affordable and miles better",
+      "author": "LeonUPazz",
+      "subreddit": "MrBeast",
+      "created_utc": 1730550392,
+      "score": 1,
+      "link_id": "t3_1eecig9",
+      "parent_id": "t3_1eecig9"
+    },
+    {
+      "id": "luumf51",
+      "body": "I'd say Brazil, someone between Argentina/Italy for second place",
+      "author": "LeonUPazz",
+      "subreddit": "worldcup",
+      "created_utc": 1730465981,
+      "score": 7,
+      "link_id": "t3_1gh290o",
+      "parent_id": "t3_1gh290o"
+    },
+    {
+      "id": "lubq0f9",
+      "body": "Still having fun. I only play casually offline though, I don't even want to touch ranked",
+      "author": "LeonUPazz",
+      "subreddit": "tenkaichi4",
+      "created_utc": 1730196571,
+      "score": 1,
+      "link_id": "t3_1gepa5p",
+      "parent_id": "t3_1gepa5p"
+    },
+    {
+      "id": "lubppit",
+      "body": "Nowadays games use PC builds during development",
+      "author": "LeonUPazz",
+      "subreddit": "PiratedGames",
+      "created_utc": 1730196389,
+      "score": 7,
+      "link_id": "t3_1geq14a",
+      "parent_id": "t1_lubkiig"
+    },
+    {
+      "id": "ltpg23n",
+      "body": "Qual è il nesso nucleare/emigrazione?",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1729873667,
+      "score": 9,
+      "link_id": "t3_1gbq1jf",
+      "parent_id": "t1_ltpdbl5"
+    },
+    {
+      "id": "ltovpht",
+      "body": "Ma non capisco, tu cosa proporresti di fare? Lasciare tutto alle ortiche?",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1729867409,
+      "score": 9,
+      "link_id": "t3_1gbq1jf",
+      "parent_id": "t1_ltou4nf"
+    },
+    {
+      "id": "ltk75nm",
+      "body": "Didn't know that dragon ball wasn't as widespread in the us. Here between 90's to 10's dragon ball anime was unavoidable, they would put like 2 episodes early morning, 2 After school, 2 in the evening. Db toys were sold everywhere, every kid was watching it. Ig we're similar to Mexico/Latin America in that regard",
+      "author": "LeonUPazz",
+      "subreddit": "playstation",
+      "created_utc": 1729796966,
+      "score": 1,
+      "link_id": "t3_1gb7195",
+      "parent_id": "t1_ltk6e9z"
+    },
+    {
+      "id": "ltk61y6",
+      "body": "Bro this is the first installment in this series in 17 years",
+      "author": "LeonUPazz",
+      "subreddit": "playstation",
+      "created_utc": 1729796635,
+      "score": 3,
+      "link_id": "t3_1gb7195",
+      "parent_id": "t1_ltjlw8b"
+    },
+    {
+      "id": "ltk5s9y",
+      "body": "Who replays a linear story game for 2 years. Silent hill is gonna be a good choice regardless but not for long term replayability lmao",
+      "author": "LeonUPazz",
+      "subreddit": "playstation",
+      "created_utc": 1729796555,
+      "score": 2,
+      "link_id": "t3_1gb7195",
+      "parent_id": "t1_ltjt6jt"
+    },
+    {
+      "id": "ltk4xnb",
+      "body": "Gen Z isn't that young. I'm 20 and don't know a single person who didn't grow up with db/z/gt. Maybe being in Italy has influence on that tho",
+      "author": "LeonUPazz",
+      "subreddit": "playstation",
+      "created_utc": 1729796300,
+      "score": -1,
+      "link_id": "t3_1gb7195",
+      "parent_id": "t1_ltjw1tl"
+    },
+    {
+      "id": "ltj0jgu",
+      "body": "Gameplay is obviously very different, but if you want a story that hits as hard play silent hill 2 (either og or remake, both are very good)",
+      "author": "LeonUPazz",
+      "subreddit": "reddeadredemption",
+      "created_utc": 1729784298,
+      "score": 2,
+      "link_id": "t3_1gb2tgn",
+      "parent_id": "t3_1gb2tgn"
+    },
+    {
+      "id": "lt2iotr",
+      "body": "Yeah. Really liked the dungeon, the boss fight, and the story until the last cutscene. Like wtf was that",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1729544602,
+      "score": 1,
+      "link_id": "t3_1g2xrwj",
+      "parent_id": "t1_ls2kiab"
+    },
+    {
+      "id": "lt2g9tw",
+      "body": "It makes are actions understandable at best, but she's still a fucking Monster. Grieving or no grieving she participated in the murder of multiple children, she should just be put in the dungeon.\n\nBut it's a jrpg lol",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1729543921,
+      "score": 3,
+      "link_id": "t3_1g509gg",
+      "parent_id": "t1_ls95xs9"
+    },
+    {
+      "id": "lt1l7xb",
+      "body": "The craziest one I've seen is for Angela in sh2 remake. Knowing the story of the character it's wild to make those complaints lol",
+      "author": "LeonUPazz",
+      "subreddit": "Gamingcirclejerk",
+      "created_utc": 1729534504,
+      "score": 17,
+      "link_id": "t3_1g8ohfb",
+      "parent_id": "t1_lt08gx6"
+    },
+    {
+      "id": "lt1kso5",
+      "body": "I know a dude like this irl. It's literally ALL he does",
+      "author": "LeonUPazz",
+      "subreddit": "Gamingcirclejerk",
+      "created_utc": 1729534372,
+      "score": 4,
+      "link_id": "t3_1g8ohfb",
+      "parent_id": "t1_lszw8hq"
+    },
+    {
+      "id": "lt1jw4a",
+      "body": "Chill man it's not that serious",
+      "author": "LeonUPazz",
+      "subreddit": "silenthill",
+      "created_utc": 1729534093,
+      "score": 2,
+      "link_id": "t3_1g8gbmi",
+      "parent_id": "t1_lt1has5"
+    },
+    {
+      "id": "lsz6jwc",
+      "body": "I guess they wanted to do something similar to what they did in silent hill 2. Still wild though",
+      "author": "LeonUPazz",
+      "subreddit": "silenthill",
+      "created_utc": 1729499707,
+      "score": 8,
+      "link_id": "t3_1g8gbmi",
+      "parent_id": "t3_1g8gbmi"
+    },
+    {
+      "id": "lsyv3ra",
+      "body": "Diversi zio Peppino ci cascherebbero probabilmente",
+      "author": "LeonUPazz",
+      "subreddit": "ItalyInformatica",
+      "created_utc": 1729491817,
+      "score": 1,
+      "link_id": "t3_1g585rd",
+      "parent_id": "t1_lsc19lf"
+    },
+    {
+      "id": "lsyrq7i",
+      "body": "Yeah man paying hundreds for an old game which the company doesn't even profit from anymore is the right choice. I mean if you want it because you want to collect it sure, otherwise it's dumb",
+      "author": "LeonUPazz",
+      "subreddit": "silenthill",
+      "created_utc": 1729489695,
+      "score": 3,
+      "link_id": "t3_1g86v0w",
+      "parent_id": "t1_lsxjjir"
+    },
+    {
+      "id": "lsr80nw",
+      "body": "Finished the school. Very cool experience, but fuck the mole guys. Hate them",
+      "author": "LeonUPazz",
+      "subreddit": "silenthill",
+      "created_utc": 1729377617,
+      "score": 1,
+      "link_id": "t3_1g6od8g",
+      "parent_id": "t1_lsm35uq"
+    },
+    {
+      "id": "lsr7wr9",
+      "body": "Again the focus of silent hill 2 is definetly not the action lmao. I'm not saying there is no action, there obviously is, but it's not what the game is about. It's like comparing doom to idk bioshock or deus ex. Both are shooters but they have a different focus",
+      "author": "LeonUPazz",
+      "subreddit": "gaming",
+      "created_utc": 1729377576,
+      "score": 1,
+      "link_id": "t3_1g5aya5",
+      "parent_id": "t1_lspyz01"
+    },
+    {
+      "id": "lsoeqf8",
+      "body": "Afaik you have to put the demo's exe alongside a modified version of the full game, but obviously this version of the game may be buggy later on/won't be compatible with dlc or other stuff",
+      "author": "LeonUPazz",
+      "subreddit": "PiratedGames",
+      "created_utc": 1729341974,
+      "score": 2,
+      "link_id": "t3_1g73xxq",
+      "parent_id": "t1_lsnr1nv"
+    },
+    {
+      "id": "lso77un",
+      "body": "The remake Is definetly more action, but it's not hard to see that it's not the point of the game",
+      "author": "LeonUPazz",
+      "subreddit": "gaming",
+      "created_utc": 1729338395,
+      "score": 1,
+      "link_id": "t3_1g5aya5",
+      "parent_id": "t1_lsbvzew"
+    },
+    {
+      "id": "lsnr4wq",
+      "body": "Shin megami tensei Is like persona but more gameplay focused",
+      "author": "LeonUPazz",
+      "subreddit": "JRPG",
+      "created_utc": 1729328549,
+      "score": 28,
+      "link_id": "t3_1g74qow",
+      "parent_id": "t3_1g74qow"
+    },
+    {
+      "id": "lsm7a9u",
+      "body": "I dunno, I'm going through the first game blind right now and I find it quite scary, or rather disturbing. I feel like the atmosphere, music and sound is what's actually scary rather than the combat.",
+      "author": "LeonUPazz",
+      "subreddit": "HorrorGaming",
+      "created_utc": 1729298787,
+      "score": 1,
+      "link_id": "t3_14a7ymt",
+      "parent_id": "t1_le73dfg"
+    },
+    {
+      "id": "lsltbx9",
+      "body": "Im playing through 1 for the first time now and it's so unsettling. Just the opening of the game was scary, with the camera movement and sound effects. I'm currently exploring the school, hope it stays this good",
+      "author": "LeonUPazz",
+      "subreddit": "silenthill",
+      "created_utc": 1729293356,
+      "score": 5,
+      "link_id": "t3_1g6od8g",
+      "parent_id": "t1_lslem9r"
+    },
+    {
+      "id": "lshwa2j",
+      "body": "Non comprate lambo usate da xristos",
+      "author": "LeonUPazz",
+      "subreddit": "rimesegate",
+      "created_utc": 1729239785,
+      "score": 22,
+      "link_id": "t3_1g6ay4x",
+      "parent_id": "t3_1g6ay4x"
+    },
+    {
+      "id": "ls9x7cs",
+      "body": "Nah, I'd gunner + merchant synthesis skill",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1729118005,
+      "score": 1,
+      "link_id": "t3_1g3kl8l",
+      "parent_id": "t1_lrxr6ua"
+    },
+    {
+      "id": "ls8zgm6",
+      "body": "Cabba negs",
+      "author": "LeonUPazz",
+      "subreddit": "OkBuddyPersona",
+      "created_utc": 1729106876,
+      "score": 3,
+      "link_id": "t3_1g4tg8n",
+      "parent_id": "t1_ls61jiy"
+    },
+    {
+      "id": "ls8nvdb",
+      "body": "Never said social media is good/better, I said that both are bad. Then again as long as you limit your screen time and get exercise it's healthy if you have fun with it. I also play loads of games lol",
+      "author": "LeonUPazz",
+      "subreddit": "facepalm",
+      "created_utc": 1729103220,
+      "score": 1,
+      "link_id": "t3_1g4yvv0",
+      "parent_id": "t1_ls8na6n"
+    },
+    {
+      "id": "ls8lq3a",
+      "body": "Both are bad to spend lots of time on. It always depends on how much you do something.\n\nIts fine as long as you get some exercise/do stuff outside, but if you spend more time on games than a full time job consistently it's not a good thing imo",
+      "author": "LeonUPazz",
+      "subreddit": "facepalm",
+      "created_utc": 1729102534,
+      "score": -1,
+      "link_id": "t3_1g4yvv0",
+      "parent_id": "t1_ls7ser5"
+    },
+    {
+      "id": "ls7vmtv",
+      "body": "Golden is much better than P5R imo, truly a great experience with the best pacing for a persona game imo",
+      "author": "LeonUPazz",
+      "subreddit": "JRPG",
+      "created_utc": 1729094330,
+      "score": 11,
+      "link_id": "t3_1g50xsv",
+      "parent_id": "t1_ls7r3d2"
+    },
+    {
+      "id": "ls0cah2",
+      "body": "Idk man I'm playing on hard and the taunt saved my party plenty of times. I just gave Hülkenberg offensive moves from brawler/warrior with inheritance",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728980587,
+      "score": 1,
+      "link_id": "t3_1g3u9lq",
+      "parent_id": "t1_lrze2g7"
+    },
+    {
+      "id": "lry930k",
+      "body": "I only fought this after finishing the Goku storyline and coming back for the what if so the fight seemed easier, but damn it was challenging. Took me 3 tries where I would almost always die to either Jaice or ginew. But once I mastered perception/combos the fight became lots of fun, actually felt like watching Goku fight the ginew force in an anime episode",
+      "author": "LeonUPazz",
+      "subreddit": "SparkingZero",
+      "created_utc": 1728945642,
+      "score": 2,
+      "link_id": "t3_1fyt23c",
+      "parent_id": "t3_1fyt23c"
+    },
+    {
+      "id": "lrwvlou",
+      "body": "4-5 volte direi (senza contare lavoro/uni ovviamente)",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1728929622,
+      "score": 1,
+      "link_id": "t3_1g3efik",
+      "parent_id": "t3_1g3efik"
+    },
+    {
+      "id": "lrux95c",
+      "body": "They skip a lot of cool fights in the story. I'm still not done with Goku but I was mad that they skipped Goku vs hit and Goku UI vs kefla (just the most recent I had)",
+      "author": "LeonUPazz",
+      "subreddit": "SparkingZero",
+      "created_utc": 1728904284,
+      "score": 1,
+      "link_id": "t3_1g37rr8",
+      "parent_id": "t3_1g37rr8"
+    },
+    {
+      "id": "lrutuio",
+      "body": "P4 Is my favourite, with 3 being a close second. 5 is the one I enjoyed the least but still a good game",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1728902253,
+      "score": 1,
+      "link_id": "t3_1g3b2ec",
+      "parent_id": "t3_1g3b2ec"
+    },
+    {
+      "id": "lrplf2n",
+      "body": "Loved when he whipped out demon eye out of nowhere. Was scared for a mot reenactment for a sec lol",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728822948,
+      "score": 0,
+      "link_id": "t3_1g2bc3i",
+      "parent_id": "t3_1g2bc3i"
+    },
+    {
+      "id": "lrpl5ku",
+      "body": "No Italians eats pasta like this lol. Tourists are impressed and eat there, locals prefer less flashy restaurants",
+      "author": "LeonUPazz",
+      "subreddit": "ItalianFood",
+      "created_utc": 1728822822,
+      "score": 1,
+      "link_id": "t3_1g1uhn5",
+      "parent_id": "t1_lrk5w7w"
+    },
+    {
+      "id": "lrpia2j",
+      "body": "L'IA fa sempre delle cappellate mostruose a meno che non hai un problema semplicissimo",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1728821391,
+      "score": 0,
+      "link_id": "t3_1g27pq7",
+      "parent_id": "t1_lrml4c2"
+    },
+    {
+      "id": "lrp7z63",
+      "body": "I'm still watching it and I think I have to be in a particular mood to enjoy it",
+      "author": "LeonUPazz",
+      "subreddit": "MonsterAnime",
+      "created_utc": 1728815236,
+      "score": 1,
+      "link_id": "t3_1g2b0u3",
+      "parent_id": "t1_lrmu02r"
+    },
+    {
+      "id": "lrp79bs",
+      "body": "I had to lower the difficulty to normal to win. Very cool boss tho, Walter approves",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728814743,
+      "score": 1,
+      "link_id": "t3_1g2fvxt",
+      "parent_id": "t3_1g2fvxt"
+    },
+    {
+      "id": "lrjq7xo",
+      "body": "2003, still getting destroyed :(",
+      "author": "LeonUPazz",
+      "subreddit": "SparkingZero",
+      "created_utc": 1728730148,
+      "score": 1,
+      "link_id": "t3_1fwcm6m",
+      "parent_id": "t1_lqdnga5"
+    },
+    {
+      "id": "lrgh7nt",
+      "body": "Racism app is definitely instagram",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1728674146,
+      "score": 1,
+      "link_id": "t3_1g12n0v",
+      "parent_id": "t1_lrdt6c1"
+    },
+    {
+      "id": "lre9auu",
+      "body": "Yeah, what really changes from persona is the battle system (which is press turn, like nocturne's) and the setting (which is more like smt IV, even got the minotaur boss fight lol)",
+      "author": "LeonUPazz",
+      "subreddit": "gaming",
+      "created_utc": 1728645695,
+      "score": 2,
+      "link_id": "t3_1g0tl06",
+      "parent_id": "t1_lre71y2"
+    },
+    {
+      "id": "lr894fk",
+      "body": "I use lunarvim on my job. Never been an inconvenience",
+      "author": "LeonUPazz",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1728554235,
+      "score": 1,
+      "link_id": "t3_1fyz3bv",
+      "parent_id": "t1_lqxrbzs"
+    },
+    {
+      "id": "lr88t4n",
+      "body": "Idk man I just use gdb",
+      "author": "LeonUPazz",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1728554026,
+      "score": 2,
+      "link_id": "t3_1fyz3bv",
+      "parent_id": "t1_lqzwyup"
+    },
+    {
+      "id": "lr5xa3n",
+      "body": "Royal funeral of my gpa",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728512908,
+      "score": 2,
+      "link_id": "t3_1fzqk0a",
+      "parent_id": "t3_1fzqk0a"
+    },
+    {
+      "id": "lr2ouhr",
+      "body": "I don't care enough about fps to play PS4 version. Not like it's dropping to super low fps so it's a non issue, especially for a turn based jrpg",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728472528,
+      "score": 4,
+      "link_id": "t3_1fznyjp",
+      "parent_id": "t3_1fznyjp"
+    },
+    {
+      "id": "lr2oo1s",
+      "body": "Yeah I guess I'll skip it. Too bad, was excited for the story but the exploration part was way too slow",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728472431,
+      "score": 1,
+      "link_id": "t3_1fzhl0m",
+      "parent_id": "t1_lr259s1"
+    },
+    {
+      "id": "lr1y5kg",
+      "body": "I'll turn 21 in December, and I'm still getting my bachelor's degree. I also have a part time job (luckily I work remote), so I don't have too much free time.\n\nWhat time I have in the weekdays I dedicate to guitar and drawing, on the weekends I go out with friends",
+      "author": "LeonUPazz",
+      "subreddit": "GenZ",
+      "created_utc": 1728454020,
+      "score": 1,
+      "link_id": "t3_1fz63zl",
+      "parent_id": "t3_1fz63zl"
+    },
+    {
+      "id": "lr1xqmz",
+      "body": "Can I ask if it is as full of filler as ff7 remake? I remember not liking that game because of all the slow movements and filler sections like the ghosts in the train place",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1728453729,
+      "score": -2,
+      "link_id": "t3_1fzhl0m",
+      "parent_id": "t1_lr1iixz"
+    },
+    {
+      "id": "lqwwk52",
+      "body": "The way I feel about it is having persona mechanics in a smt IV-esque world, but with press turn combat. Loving it so far",
+      "author": "LeonUPazz",
+      "subreddit": "gaming",
+      "created_utc": 1728379123,
+      "score": 1,
+      "link_id": "t3_1fy9w2z",
+      "parent_id": "t1_lqsl5o2"
+    },
+    {
+      "id": "lqwwg8z",
+      "body": "I still love how persona 4 singlehandedly kept the vita alive",
+      "author": "LeonUPazz",
+      "subreddit": "gaming",
+      "created_utc": 1728379045,
+      "score": 1,
+      "link_id": "t3_1fy9w2z",
+      "parent_id": "t1_lqtmyph"
+    },
+    {
+      "id": "lqtbujv",
+      "body": "Yh archetypes are more like ffv than anything talus did before",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1728324958,
+      "score": 1,
+      "link_id": "t3_1fy8qgp",
+      "parent_id": "t1_lqt0a4u"
+    },
+    {
+      "id": "lpyq5c1",
+      "body": "I'm replaying nocturne with the HD remaster",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727871179,
+      "score": 1,
+      "link_id": "t3_1fu92n9",
+      "parent_id": "t3_1fu92n9"
+    },
+    {
+      "id": "lpxpsj8",
+      "body": "Spent a good 2 minutes looking for goku",
+      "author": "LeonUPazz",
+      "subreddit": "Berserk",
+      "created_utc": 1727848392,
+      "score": 0,
+      "link_id": "t3_1ftxcqm",
+      "parent_id": "t3_1ftxcqm"
+    },
+    {
+      "id": "lpolmkk",
+      "body": "For me it's the opposite. Having lived in a small town until college I kinda felt at home with P4, and I hope they do a similar setting again in the future",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1727718675,
+      "score": 2,
+      "link_id": "t3_1fsordk",
+      "parent_id": "t1_lpmr7gu"
+    },
+    {
+      "id": "lp9go1h",
+      "body": "Can't wait to use gaea rage with wilhelm",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727479186,
+      "score": 6,
+      "link_id": "t3_1fqx0jp",
+      "parent_id": "t3_1fqx0jp"
+    },
+    {
+      "id": "lp2ju1k",
+      "body": "Definetly English. Never cared too much for japanese dub tbh",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727379406,
+      "score": 2,
+      "link_id": "t3_1fpzl9a",
+      "parent_id": "t3_1fpzl9a"
+    },
+    {
+      "id": "lozri55",
+      "body": "Named him Alesa after the protagonist of my favourite book",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727341954,
+      "score": 1,
+      "link_id": "t3_1fpm40f",
+      "parent_id": "t3_1fpm40f"
+    },
+    {
+      "id": "lozpg2m",
+      "body": "Yeah it is. It's my favourite in the franchise, has great characters, great music (imo the best persona soundtrack), great mystery (if you don't get spoiled, which is very likely)",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1727340492,
+      "score": 1,
+      "link_id": "t3_1fpqg9d",
+      "parent_id": "t3_1fpqg9d"
+    },
+    {
+      "id": "lozowuv",
+      "body": "Close enough, welcome back demi fiend",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1727340111,
+      "score": 1,
+      "link_id": "t3_1foyc05",
+      "parent_id": "t1_lou76sr"
+    },
+    {
+      "id": "loznhcm",
+      "body": "I played deadlocked at my older cousin's house almost every day as a kid. I'm only now picking up the other games though",
+      "author": "LeonUPazz",
+      "subreddit": "RatchetAndClank",
+      "created_utc": 1727339099,
+      "score": 1,
+      "link_id": "t3_1fp3crm",
+      "parent_id": "t3_1fp3crm"
+    },
+    {
+      "id": "loucwn1",
+      "body": "Anyone knows when it comes out in Europe? Still can't see it",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727266353,
+      "score": 4,
+      "link_id": "t3_1foy45w",
+      "parent_id": "t3_1foy45w"
+    },
+    {
+      "id": "loucaxl",
+      "body": "Ff16 also had a great \"recap\" screen where you could see character relations and the timeline of the story. I hope we can have something similar as it was also a great feature",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727266090,
+      "score": 4,
+      "link_id": "t3_1foy45w",
+      "parent_id": "t1_lou37ap"
+    },
+    {
+      "id": "lotflc0",
+      "body": "99% of smt/persona has stellar music",
+      "author": "LeonUPazz",
+      "subreddit": "MetaphorReFantazio",
+      "created_utc": 1727245931,
+      "score": 1,
+      "link_id": "t3_1fnl3zp",
+      "parent_id": "t1_loj24ff"
+    },
+    {
+      "id": "lohlont",
+      "body": "I thought it meant San Andreas lol",
+      "author": "LeonUPazz",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1727073262,
+      "score": 1,
+      "link_id": "t3_1fmy79l",
+      "parent_id": "t1_loefqxp"
+    },
+    {
+      "id": "lnsogpq",
+      "body": "Bro come on I don't hate persona 1 but you gotta admit that it's the weakest entry by far",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1726693304,
+      "score": 1,
+      "link_id": "t3_1fhg6a6",
+      "parent_id": "t1_lnskctt"
+    },
+    {
+      "id": "lnly11v",
+      "body": "Potresti provare a farla interessare con la fisica. \n\nPuó sembrare strano visto che sembra non piacerle la matematica, ma anche io ero cosí al liceo finché non ho cominciato ad appassionarmi alla fisica. Potresti farle vedere dei video su fenomeni interessanti come il \"viaggio nel tempo\", superconduttori, buchi neri etc. \n\nComunque sia, se non con la fisica prova con qualcosa che le interessa. A meno che non venga voglia a lei di studiare matematica non lo farà davvero, e se lo dovesse fare controvoglia non servirà a niente",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1726597240,
+      "score": 1,
+      "link_id": "t3_1fj4rwd",
+      "parent_id": "t3_1fj4rwd"
+    },
+    {
+      "id": "lnjig6p",
+      "body": "Amo l'Italia ma ora come ora é 20 passi indietro al resto del mondo occidentale, quanto meno a livello economico. Spero di tornarci un giorno, se la situazione migliorerà",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1726561857,
+      "score": 1,
+      "link_id": "t3_1fibmhb",
+      "parent_id": "t3_1fibmhb"
+    },
+    {
+      "id": "lnjhy0j",
+      "body": "Most consumers just don't care man, they just want to use a pc",
+      "author": "LeonUPazz",
+      "subreddit": "linuxmasterrace",
+      "created_utc": 1726561485,
+      "score": 0,
+      "link_id": "t3_1ficeur",
+      "parent_id": "t1_lnhaw7w"
+    },
+    {
+      "id": "lnjh7oz",
+      "body": "Bro is a time traveler",
+      "author": "LeonUPazz",
+      "subreddit": "vagabondmanga",
+      "created_utc": 1726560951,
+      "score": 6,
+      "link_id": "t3_1fi3jmy",
+      "parent_id": "t1_lnetbn7"
+    },
+    {
+      "id": "lngk444",
+      "body": "That's true, but I mean come on Gentoo is a niche even for Linux. Most Linux users don't want to compile everything",
+      "author": "LeonUPazz",
+      "subreddit": "linuxmasterrace",
+      "created_utc": 1726516202,
+      "score": 29,
+      "link_id": "t3_1ficeur",
+      "parent_id": "t1_lngjtwd"
+    },
+    {
+      "id": "lngj2fj",
+      "body": "I mean it is niche for 99% of people",
+      "author": "LeonUPazz",
+      "subreddit": "linuxmasterrace",
+      "created_utc": 1726515875,
+      "score": 61,
+      "link_id": "t3_1ficeur",
+      "parent_id": "t1_lnggzym"
+    },
+    {
+      "id": "lng0axm",
+      "body": "Ok so basically the antenna represents",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1726509862,
+      "score": 4,
+      "link_id": "t3_1fi0dww",
+      "parent_id": "t1_lnfok9q"
+    },
+    {
+      "id": "lnaaiey",
+      "body": "Persona 1 Is kinda skippable tbh",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1726424185,
+      "score": 1,
+      "link_id": "t3_1fhg6a6",
+      "parent_id": "t1_ln9zrqm"
+    },
+    {
+      "id": "lmyke9v",
+      "body": "Secondo questa logica la PS2 é una PC a forma di console visto che ci gira linux. Anche il NES é un PC visto che ci hanno fatto un os",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1726248765,
+      "score": 2,
+      "link_id": "t3_1ffyjyr",
+      "parent_id": "t1_lmyjxw6"
+    },
+    {
+      "id": "lmyaoz8",
+      "body": "In che senso scusa",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1726245645,
+      "score": 1,
+      "link_id": "t3_1ffyjyr",
+      "parent_id": "t1_lmy7toc"
+    },
+    {
+      "id": "lmw96br",
+      "body": "If you want a cool challenge which gives you more \"real world\" experience, try to make a nocd patch of some old game. A simple one would be Morrowind which doesn't have many checks in that regard. \n\nIf you want to do it feel free to ask me any question",
+      "author": "LeonUPazz",
+      "subreddit": "PiratedGames",
+      "created_utc": 1726213139,
+      "score": 5,
+      "link_id": "t3_1ffmv30",
+      "parent_id": "t3_1ffmv30"
+    },
+    {
+      "id": "lmw8lr3",
+      "body": "Bro anche i gen Z giocano a morrowind",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1726212733,
+      "score": 3,
+      "link_id": "t3_1ff7zoy",
+      "parent_id": "t1_lmtd67u"
+    },
+    {
+      "id": "lmw8dmp",
+      "body": "Onestamente tutta inaba di persona 4. Sono cresciuto in un paese e mi sono ritrovato in diverse situazioni che ho visto nel gioco",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1726212575,
+      "score": 1,
+      "link_id": "t3_1ff7zoy",
+      "parent_id": "t3_1ff7zoy"
+    },
+    {
+      "id": "lmt83vt",
+      "body": "I don't understand why this happens mostly in the us, it can't be only gun control",
+      "author": "LeonUPazz",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1726168281,
+      "score": 1,
+      "link_id": "t3_1ff33uy",
+      "parent_id": "t3_1ff33uy"
+    },
+    {
+      "id": "lmoe5gh",
+      "body": "Yeah as long as you don't get fries and soda. At BK I'm full of coupons where I get burgers for 5 CHF/split menus with friends for 10chf each. Not too bad of a price if I want to eat out tbh",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1726093449,
+      "score": 1,
+      "link_id": "t3_1fef8nl",
+      "parent_id": "t1_lmo2u59"
+    },
+    {
+      "id": "lmla841",
+      "body": "I do",
+      "author": "LeonUPazz",
+      "subreddit": "classicfallout",
+      "created_utc": 1726055783,
+      "score": 4,
+      "link_id": "t3_1fe7y0e",
+      "parent_id": "t1_lml9on1"
+    },
+    {
+      "id": "lm9384s",
+      "body": "Game is fun, however I encountered many bugs which made the game crash (which is to be expected). Very excited for the beta",
+      "author": "LeonUPazz",
+      "subreddit": "DeadlockTheGame",
+      "created_utc": 1725874398,
+      "score": 1,
+      "link_id": "t3_1fc6h57",
+      "parent_id": "t3_1fc6h57"
+    },
+    {
+      "id": "lm1f09h",
+      "body": "It was a glorious crawl though. I'm also playing predecessor rn",
+      "author": "LeonUPazz",
+      "subreddit": "DeadlockTheGame",
+      "created_utc": 1725755497,
+      "score": 1,
+      "link_id": "t3_1euqmgo",
+      "parent_id": "t1_limk2ga"
+    },
+    {
+      "id": "llnn3b8",
+      "body": "Pick something you want to make a try to make it. Pick something realistic but still challenging (like idk, you could make a calendar app or some small game) and try to build it. \n\nOh and don't make the mistake of looking for tutorials and following them step by step, you should try to build it all yourself, see what works and what doesn't. Good luck",
+      "author": "LeonUPazz",
+      "subreddit": "C_Programming",
+      "created_utc": 1725555941,
+      "score": 2,
+      "link_id": "t3_1f9negp",
+      "parent_id": "t3_1f9negp"
+    },
+    {
+      "id": "lligpef",
+      "body": "Yeah, which is why I think it's even sadder we won't get a 3rd season, it leaves Holden's character in the middle of development. Well I hope we get something, eventually",
+      "author": "LeonUPazz",
+      "subreddit": "MindHunter",
+      "created_utc": 1725477344,
+      "score": 1,
+      "link_id": "t3_cuvgd5",
+      "parent_id": "t1_k8dna42"
+    },
+    {
+      "id": "lld0rre",
+      "body": "Maybe he lived under Borbone so he doesn't feel italian",
+      "author": "LeonUPazz",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1725394967,
+      "score": 4,
+      "link_id": "t3_1f823pk",
+      "parent_id": "t1_llbls7g"
+    },
+    {
+      "id": "ll9t2vj",
+      "body": "Well they do have water busses",
+      "author": "LeonUPazz",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1725348613,
+      "score": 2,
+      "link_id": "t3_1f7gs20",
+      "parent_id": "t1_ll99flt"
+    },
+    {
+      "id": "ll9stgg",
+      "body": "For dark fantasy yes, I would definitely say it's one of the best in any medium. But I wouldn't put it up there with works like brothers Karamazov or in search of Lost time",
+      "author": "LeonUPazz",
+      "subreddit": "Berserk",
+      "created_utc": 1725348432,
+      "score": 1,
+      "link_id": "t3_1f7ivzj",
+      "parent_id": "t3_1f7ivzj"
+    },
+    {
+      "id": "ll653d3",
+      "body": "I'd say that P4 remake will come after P6 is done. P1 and P2 were confirmed to get remasters iirc, so not to the scale of p3r",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1725295687,
+      "score": 8,
+      "link_id": "t3_1f7am8a",
+      "parent_id": "t1_ll63yqc"
+    },
+    {
+      "id": "ll63hsp",
+      "body": "Goated game, my fav of the 3 modern games",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1725295163,
+      "score": 26,
+      "link_id": "t3_1f7am8a",
+      "parent_id": "t3_1f7am8a"
+    },
+    {
+      "id": "lkp5c3p",
+      "body": "Ma che discorso é, se una persona tradisce la colpa é esclusivamente sua",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1725036603,
+      "score": 13,
+      "link_id": "t3_1f4z0eu",
+      "parent_id": "t1_lkp3pix"
+    },
+    {
+      "id": "lk69tfs",
+      "body": "Cavalcanti se non erro",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1724766196,
+      "score": 3,
+      "link_id": "t3_1f1uync",
+      "parent_id": "t1_lk5e3ty"
+    },
+    {
+      "id": "lk160g8",
+      "body": "6 on release was extremely boring, save for the early game",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724688610,
+      "score": 1,
+      "link_id": "t3_1f1onj2",
+      "parent_id": "t3_1f1onj2"
+    },
+    {
+      "id": "lk01xym",
+      "body": "Vero, anche se da quel che ricordo la storia non era tutto questo gran che (rispetto a baldurs gate quanto meno), motivo per cui li ho droppati",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1724674182,
+      "score": 1,
+      "link_id": "t3_1f0t5bd",
+      "parent_id": "t1_ljzifzd"
+    },
+    {
+      "id": "lk01sdi",
+      "body": "Io tutti questi problemi con Morrowind non li ho avuti, una volta capito come funzionano le skull di combattimento il gioco diventa davvero semplice. \n\nIl bello di Morrowind é che puoi fare delle build particolari rispetto a Oblivion o Skyrim (eg la mia preferita, mago volante che fa piovere meteoriti).\n\nL'unica cosa che puó risultare un minimo complessa é l'assenza di quest marker, ma se conosci bene l'inglese sei a posto. Se ce l'ho fatta io a 12 anni non dovrebbe essere un problema",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1724674111,
+      "score": 1,
+      "link_id": "t3_1f0t5bd",
+      "parent_id": "t1_ljzl3wo"
+    },
+    {
+      "id": "ljxnyng",
+      "body": "Morrowind >>>>",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1724629087,
+      "score": 2,
+      "link_id": "t3_1f0t5bd",
+      "parent_id": "t1_lju911z"
+    },
+    {
+      "id": "ljxnthk",
+      "body": "Ma guarda io ho 20 e li ho giocati tutti. Ci aggiungerei anche i primi due fallout, che anche se hanno un gameplay meno vario sono comunque tanta roba (specialmente il primo)",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1724629030,
+      "score": 1,
+      "link_id": "t3_1f0t5bd",
+      "parent_id": "t1_ljvdmgt"
+    },
+    {
+      "id": "ljxngq7",
+      "body": "Mount and blade warband. Mi vergogno per quante ore ci ho passato",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1724628887,
+      "score": 1,
+      "link_id": "t3_1f0t5bd",
+      "parent_id": "t3_1f0t5bd"
+    },
+    {
+      "id": "ljwf7ra",
+      "body": "Bro who cares, I only want to play games and get them for free when possible",
+      "author": "LeonUPazz",
+      "subreddit": "PiratedGames",
+      "created_utc": 1724613025,
+      "score": 1,
+      "link_id": "t3_1f0sobg",
+      "parent_id": "t3_1f0sobg"
+    },
+    {
+      "id": "ljw68ys",
+      "body": "La gente é sempre stata stupida, solo che ora tutti hanno modo di esprimersi pubblicamente",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1724610032,
+      "score": 2,
+      "link_id": "t3_1f0t3lk",
+      "parent_id": "t3_1f0t3lk"
+    },
+    {
+      "id": "ljw4xeh",
+      "body": "Tbh I really miss the old road system, and how you had to connect resources to cities to really have them. This meant that you had to protect/could interrupt the supply line by breaking roads",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724609591,
+      "score": 151,
+      "link_id": "t3_1f107po",
+      "parent_id": "t3_1f107po"
+    },
+    {
+      "id": "ljrd80l",
+      "body": "Bruh",
+      "author": "LeonUPazz",
+      "subreddit": "Animesuggest",
+      "created_utc": 1724532261,
+      "score": 0,
+      "link_id": "t3_1f0eio5",
+      "parent_id": "t3_1f0eio5"
+    },
+    {
+      "id": "ljr1r9a",
+      "body": "Not really, we don't care about the us so much, never talk about it irl",
+      "author": "LeonUPazz",
+      "subreddit": "ShitEuropeansSay",
+      "created_utc": 1724528205,
+      "score": 1,
+      "link_id": "t3_1eyyx65",
+      "parent_id": "t1_ljj30o7"
+    },
+    {
+      "id": "ljr1lhz",
+      "body": "Tbf only chronically online people obsess over america. I've lived in Italy, Switzerland and France and no one ever really talks about the us",
+      "author": "LeonUPazz",
+      "subreddit": "ShitEuropeansSay",
+      "created_utc": 1724528149,
+      "score": 1,
+      "link_id": "t3_1eyyx65",
+      "parent_id": "t3_1eyyx65"
+    },
+    {
+      "id": "ljr18i5",
+      "body": "Italian yapeuro ftw",
+      "author": "LeonUPazz",
+      "subreddit": "shitposting",
+      "created_utc": 1724528023,
+      "score": 1,
+      "link_id": "t3_1es3wyf",
+      "parent_id": "t1_liawtwj"
+    },
+    {
+      "id": "ljoybrr",
+      "body": "You don't have to preorder, just wait",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724501154,
+      "score": 1,
+      "link_id": "t3_1ezqvh6",
+      "parent_id": "t3_1ezqvh6"
+    },
+    {
+      "id": "ljis1gh",
+      "body": "I'd say that 3 is a good successor to 1, at least atmosphere wise, and ignoring the writing",
+      "author": "LeonUPazz",
+      "subreddit": "classicfallout",
+      "created_utc": 1724406928,
+      "score": 5,
+      "link_id": "t3_1ez67j5",
+      "parent_id": "t1_ljicth5"
+    },
+    {
+      "id": "ljfu87p",
+      "body": "Tbf both v and vi still look great",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724359572,
+      "score": 146,
+      "link_id": "t3_1eyoa8p",
+      "parent_id": "t1_ljfasav"
+    },
+    {
+      "id": "ljf3o8m",
+      "body": "✍️🔥🔥",
+      "author": "LeonUPazz",
+      "subreddit": "Berserk",
+      "created_utc": 1724351304,
+      "score": 2,
+      "link_id": "t3_1exottc",
+      "parent_id": "t1_ljc7we6"
+    },
+    {
+      "id": "ljf1uvv",
+      "body": "Why are you getting so worked up over this? Where in my comment did I say that there MUST be a main point? \n\nI just agreed on the fact that if one were to find a theme in fallout it wouldn't be anti capitalism. I also  agree that anti capitalism and anti consumerism are important parts of fallout (more so in Bethesda fallout).",
+      "author": "LeonUPazz",
+      "subreddit": "Fallout",
+      "created_utc": 1724350750,
+      "score": 1,
+      "link_id": "t3_1eyhvup",
+      "parent_id": "t1_ljeoed7"
+    },
+    {
+      "id": "ljdzgd6",
+      "body": "He Is right. He is talking about what the *main* point of fallout is, and it's very clearly not anti-capitalism",
+      "author": "LeonUPazz",
+      "subreddit": "Fallout",
+      "created_utc": 1724338943,
+      "score": -1,
+      "link_id": "t3_1eyhvup",
+      "parent_id": "t1_ljds8q0"
+    },
+    {
+      "id": "lj36gma",
+      "body": "Non ci credo é davvero lui. Pensavo avesse lasciato il fare discussioni su reddit 24h sugli anni 80",
+      "author": "LeonUPazz",
+      "subreddit": "oknotizie",
+      "created_utc": 1724180985,
+      "score": 2,
+      "link_id": "t3_1ew2bgu",
+      "parent_id": "t1_lj35do5"
+    },
+    {
+      "id": "lj34d20",
+      "body": "Uzzio fringolo frangolo, non sentivo quel nome da secoli",
+      "author": "LeonUPazz",
+      "subreddit": "oknotizie",
+      "created_utc": 1724180328,
+      "score": 4,
+      "link_id": "t3_1ew2bgu",
+      "parent_id": "t1_liw76qo"
+    },
+    {
+      "id": "lj2gmrv",
+      "body": "When civ 6 came out I was in middle school, now I'm a college kid",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724173030,
+      "score": 1,
+      "link_id": "t3_1ewwfp5",
+      "parent_id": "t3_1ewwfp5"
+    },
+    {
+      "id": "liy1543",
+      "body": "Borders that work more similarly to civ 4. In civ 6 I often get a lot of empty land in between cities, which feels kinda weird. Also liked the road system in that game and how you had to connect resources to cities to access them",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724105168,
+      "score": 3,
+      "link_id": "t3_1ew9jaq",
+      "parent_id": "t3_1ew9jaq"
+    },
+    {
+      "id": "lix5m9p",
+      "body": "Concordo pienamente. Ogni tanto lo guardo ancora quando porta un gioco che mi interessa tipo metal Gear o fhunger, ma anche lí mi tocca sentir parlare della sua \"opera\" di ut e Twitch come se stesse facendo la cappella sistina",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1724095196,
+      "score": 1,
+      "link_id": "t3_1ew4qgq",
+      "parent_id": "t1_liwefyp"
+    },
+    {
+      "id": "liwzf6f",
+      "body": "Che modo triste di vedere la vita zi",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1724093242,
+      "score": 6,
+      "link_id": "t3_1evy5sk",
+      "parent_id": "t1_livxv8i"
+    },
+    {
+      "id": "liur27t",
+      "body": "Tbh I wish to see Italy (as in renaissance/modern) as a civ",
+      "author": "LeonUPazz",
+      "subreddit": "civ",
+      "created_utc": 1724064125,
+      "score": 2,
+      "link_id": "t3_1evpv0l",
+      "parent_id": "t3_1evpv0l"
+    },
+    {
+      "id": "lisgzzv",
+      "body": "Idk why people have such a hate boner on you. True reddit moment",
+      "author": "LeonUPazz",
+      "subreddit": "Fallout",
+      "created_utc": 1724022282,
+      "score": 1,
+      "link_id": "t3_1emg63a",
+      "parent_id": "t1_lgz0bfg"
+    },
+    {
+      "id": "lik8vam",
+      "body": "Io penso che per cominciare non sia male come consiglio. Io all'inizio copiavo una parte di un libro che mi piaceva particolarmente, e poi la riscrivevo usando espressioni diverse, cambiando l'ordine degli eventi etc. \n\nnon sono un professionista quindi prendete quello che dico con le pinze, ma non credo sia un cattivo consiglio di per se",
+      "author": "LeonUPazz",
+      "subreddit": "Libri",
+      "created_utc": 1723901487,
+      "score": 1,
+      "link_id": "t3_1bnf83i",
+      "parent_id": "t1_kwipxgv"
+    },
+    {
+      "id": "lijlyxk",
+      "body": "I would highly recommend neorg, I've been using it since day one, and they are introducing a lot of features",
+      "author": "LeonUPazz",
+      "subreddit": "neovim",
+      "created_utc": 1723889734,
+      "score": 3,
+      "link_id": "t3_1eubh2p",
+      "parent_id": "t3_1eubh2p"
+    },
+    {
+      "id": "lihlz3u",
+      "body": "20 anni, ascolto un po' di tutto. Tra quelli che ascolto di piú ci sono: de andré, dalla, Tupac, eazye, Kendrick Lamar, System of a down, nujabes, headhunterz, nirvana, barber, mf doom",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1723851894,
+      "score": 1,
+      "link_id": "t3_1adohwx",
+      "parent_id": "t3_1adohwx"
+    },
+    {
+      "id": "lihl42o",
+      "body": "Per carità, l'amore se trattato bene risulta un bel tema. Vedi \"un malato di cuore\". Non che abbiamo canzoni di quel livello nel mainstream di oggi",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1723851567,
+      "score": 1,
+      "link_id": "t3_1eknjwi",
+      "parent_id": "t1_lgm3ol1"
+    },
+    {
+      "id": "lihkdwv",
+      "body": "Per tanti anni \"il suonatore Jones\" é stata la mia guida",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1723851290,
+      "score": 1,
+      "link_id": "t3_190209a",
+      "parent_id": "t1_kglhuvj"
+    },
+    {
+      "id": "ligr2jc",
+      "body": "It depends on the city. People are either on vacation or at the beach full time rn",
+      "author": "LeonUPazz",
+      "subreddit": "italy",
+      "created_utc": 1723840798,
+      "score": 2,
+      "link_id": "t3_1etsw9w",
+      "parent_id": "t3_1etsw9w"
+    },
+    {
+      "id": "lif1g4f",
+      "body": "I have to disagree, it's not really a leap of faith if it's explained with proof. You also have to consider that what we have now is the result of hundreds of billions of years, and over this long of a timespan I believe it's less likely to have something not happen",
+      "author": "LeonUPazz",
+      "subreddit": "facepalm",
+      "created_utc": 1723821159,
+      "score": 13,
+      "link_id": "t3_1etpvfc",
+      "parent_id": "t1_lif0btf"
+    },
+    {
+      "id": "lidy35h",
+      "body": "Guarda anche io la vedevo come te ma ora che sono all'uni mi manca il liceo. Alla fine hai molto piú tempo libero",
+      "author": "LeonUPazz",
+      "subreddit": "memesITA",
+      "created_utc": 1723806207,
+      "score": 1,
+      "link_id": "t3_1erk5ds",
+      "parent_id": "t1_li7ywik"
+    },
+    {
+      "id": "li1evu6",
+      "body": "People who say riboku is too op in the manga should see what he pulled off irl",
+      "author": "LeonUPazz",
+      "subreddit": "Kingdom",
+      "created_utc": 1723620345,
+      "score": 1,
+      "link_id": "t3_1ercw3c",
+      "parent_id": "t3_1ercw3c"
+    },
+    {
+      "id": "lhrk249",
+      "body": "Bro everyone did warfare and everyone did massacres in ancient times. Warfare is only seen in a purely negative light after the 20th century",
+      "author": "LeonUPazz",
+      "subreddit": "AskHistory",
+      "created_utc": 1723479320,
+      "score": 0,
+      "link_id": "t3_1bcp1rx",
+      "parent_id": "t1_kuhphjw"
+    },
+    {
+      "id": "lhq4qwx",
+      "body": "There are a few difficulty spikes, but the game isn't too much harder than 3 and 4. It will get easier apart from a few bosses. The PS2 version on the other hand was pretty damn hard",
+      "author": "LeonUPazz",
+      "subreddit": "persona4golden",
+      "created_utc": 1723459447,
+      "score": 2,
+      "link_id": "t3_1epqw2s",
+      "parent_id": "t3_1epqw2s"
+    },
+    {
+      "id": "lhnyp0o",
+      "body": "Why are you mad? Besides Morrowind is very much broken, but it doesn't mean that it's bad. Just look at the spell making and alchemy mechanics, if that's not broken I don't know what is",
+      "author": "LeonUPazz",
+      "subreddit": "rpg_gamers",
+      "created_utc": 1723418921,
+      "score": 1,
+      "link_id": "t3_1ep41yc",
+      "parent_id": "t1_lhnqnqt"
+    },
+    {
+      "id": "lhme485",
+      "body": "Chill vro",
+      "author": "LeonUPazz",
+      "subreddit": "rpg_gamers",
+      "created_utc": 1723399249,
+      "score": 1,
+      "link_id": "t3_1ep41yc",
+      "parent_id": "t1_lhjisoa"
+    },
+    {
+      "id": "lhh9ess",
+      "body": "Secondo me circostanze di questo tipo non giustificano il voler male, ma sicuramente non ti giudico visto che non conosco la tua situazione",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1723317371,
+      "score": 0,
+      "link_id": "t3_1eour6e",
+      "parent_id": "t1_lhh8mxg"
+    },
+    {
+      "id": "lhh2kjz",
+      "body": "Abbiamo un tempo limitato su questa terra, e penso che l'ideale sia fare piú esperienze possibile in quel tempo che abbiamo. E quale modo migliore di andare in un posto con diverso cibo/cultura/architettura?",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1723314968,
+      "score": 1,
+      "link_id": "t3_1eoquq1",
+      "parent_id": "t3_1eoquq1"
+    },
+    {
+      "id": "lhh20og",
+      "body": "Io sono stato preso di mira spesso alle medie ed in un caso al liceo si è anche arrivati alle mani, ma non augurerei mai la morte a nessuno di loro, ma neanche qualcosa di veramente brutto. Alla fin fine erano ragazzetti anche loro, e capisco che crescendo spesso si cambi (dico spesso basandomi sulla mia esperienza). \n\nMa anche se non dovessero cambiare che senso ha gioire di o augurare brutte cose a qualcuno a distanza di anni?",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1723314777,
+      "score": 0,
+      "link_id": "t3_1eour6e",
+      "parent_id": "t1_lhgxeef"
+    },
+    {
+      "id": "lhef99p",
+      "body": "Which culture exactly? Europe isn't as united as you think",
+      "author": "LeonUPazz",
+      "subreddit": "ShitEuropeansSay",
+      "created_utc": 1723271081,
+      "score": 0,
+      "link_id": "t3_1egke9w",
+      "parent_id": "t1_lhco1rb"
+    },
+    {
+      "id": "lhckkch",
+      "body": "Yeah it definitely is. Normal people don't get worked up over people claiming heritage on the other side of the globe. Quite weird people tbh",
+      "author": "LeonUPazz",
+      "subreddit": "ShitEuropeansSay",
+      "created_utc": 1723242025,
+      "score": 2,
+      "link_id": "t3_1d6qkhs",
+      "parent_id": "t1_l8exrbz"
+    },
+    {
+      "id": "lhck8m0",
+      "body": "I'll never understand people who go into continent wars on the internet",
+      "author": "LeonUPazz",
+      "subreddit": "ShitEuropeansSay",
+      "created_utc": 1723241909,
+      "score": 1,
+      "link_id": "t3_1d6qkhs",
+      "parent_id": "t3_1d6qkhs"
+    },
+    {
+      "id": "lhcigk9",
+      "body": "You speak as if violence is an inherent trait to the \"European\"",
+      "author": "LeonUPazz",
+      "subreddit": "ShitEuropeansSay",
+      "created_utc": 1723241275,
+      "score": 0,
+      "link_id": "t3_1egke9w",
+      "parent_id": "t1_lfsy7nd"
+    },
+    {
+      "id": "lgl96n4",
+      "body": "Great point",
+      "author": "LeonUPazz",
+      "subreddit": "chess",
+      "created_utc": 1722856204,
+      "score": 1,
+      "link_id": "t3_1ejx8gn",
+      "parent_id": "t1_lgl7xja"
+    },
+    {
+      "id": "lgl8cqq",
+      "body": "Tbh that twist felt kinda random",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1722855757,
+      "score": 1,
+      "link_id": "t3_1ejuzxe",
+      "parent_id": "t1_lggehq2"
+    },
+    {
+      "id": "lgc7c00",
+      "body": "Ma neanche qui in Svizzera li pago 40 euro per una pizza",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1722710974,
+      "score": 1,
+      "link_id": "t3_1eiyrsp",
+      "parent_id": "t1_lg9xryc"
+    },
+    {
+      "id": "lfyadip",
+      "body": "Per la matematica lo uso quotidianamente a lezione, come tanti miei colleghi. Per i circuiti elettrici c'é altro software tipo excalidraw.\n\nComunque io non sono del parere che il PC debba necessariamente rimpiazzare la carta, ma che le scuole debbano quanto meno lasciare l'opzione di usare il PC per prendere note (con le restrizioni del caso, perché non penso che il PC verrebbe davvero usato solo per le note in classe)",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1722506130,
+      "score": 2,
+      "link_id": "t3_1egrgrp",
+      "parent_id": "t1_lfxyo44"
+    },
+    {
+      "id": "lfwq9fk",
+      "body": "Penso che se fai matematica e fisica LaTeX o katex li devi imparare per forza. Ma non credo che la scrittura a mano scomparirà comunque",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1722475571,
+      "score": 3,
+      "link_id": "t3_1egrgrp",
+      "parent_id": "t1_lfw9kjz"
+    },
+    {
+      "id": "lfsgeer",
+      "body": "🎶tell me why you did it🎶",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1722420184,
+      "score": 1,
+      "link_id": "t3_1eg37jj",
+      "parent_id": "t3_1eg37jj"
+    },
+    {
+      "id": "lfjwrrx",
+      "body": "Definitely, it's a good read regardless of Danganronpa. I just got to that scene in the game, and I have to say I'm surprised by how unknown ashita no joe is to many fans. Still, hope you enjoy the manga :)",
+      "author": "LeonUPazz",
+      "subreddit": "danganronpa",
+      "created_utc": 1722288592,
+      "score": 2,
+      "link_id": "t3_16xex43",
+      "parent_id": "t1_lfjvf5p"
+    },
+    {
+      "id": "lfjtlni",
+      "body": "I know this is a 10 months old comment, but I hope you read/will read the manga. Life changing story",
+      "author": "LeonUPazz",
+      "subreddit": "danganronpa",
+      "created_utc": 1722287530,
+      "score": 2,
+      "link_id": "t3_16xex43",
+      "parent_id": "t1_k32fyu1"
+    },
+    {
+      "id": "lf067kp",
+      "body": "Questi è quello che big Cartagine vuole farti credere",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1721982745,
+      "score": 6,
+      "link_id": "t3_1ec50u6",
+      "parent_id": "t1_lf011pf"
+    },
+    {
+      "id": "lexfopz",
+      "body": "Really depends on the game. I usually quit when it gets boring for too long, like 5 hours. \n\nThe last 3 games I finished were the modern persona games, all bangers which I highly recommend",
+      "author": "LeonUPazz",
+      "subreddit": "AskGames",
+      "created_utc": 1721939202,
+      "score": 1,
+      "link_id": "t3_1ebrv2w",
+      "parent_id": "t3_1ebrv2w"
+    },
+    {
+      "id": "leuho0b",
+      "body": "If you want something for the switch, definitely try persona 4 golden",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1721900611,
+      "score": 3,
+      "link_id": "t3_1ebqlan",
+      "parent_id": "t3_1ebqlan"
+    },
+    {
+      "id": "leuhgyl",
+      "body": "Yeah it happened to me as well. I turned off the console and didn't play for a week lol",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1721900479,
+      "score": 15,
+      "link_id": "t3_1ebj6j2",
+      "parent_id": "t1_letrix4"
+    },
+    {
+      "id": "leqlrza",
+      "body": "Scusami ma a me sembra un dato di fatto che ci sia un'ondata di immigrazione clandestina",
+      "author": "LeonUPazz",
+      "subreddit": "Italia",
+      "created_utc": 1721841883,
+      "score": 3,
+      "link_id": "t3_1eb27yg",
+      "parent_id": "t1_leq3tpw"
+    },
+    {
+      "id": "ledhbu5",
+      "body": "Yeah but you gotta admit that sometimes it makes 0 sense the way ai piles up on the player lol",
+      "author": "LeonUPazz",
+      "subreddit": "totalwar",
+      "created_utc": 1721652909,
+      "score": 2,
+      "link_id": "t3_1e98z9u",
+      "parent_id": "t1_lect94g"
+    },
+    {
+      "id": "le7wiwd",
+      "body": "If only it didn't have all those time limit quests it would be even better",
+      "author": "LeonUPazz",
+      "subreddit": "CRPG",
+      "created_utc": 1721566008,
+      "score": 1,
+      "link_id": "t3_18j8ihu",
+      "parent_id": "t1_kdihof1"
+    },
+    {
+      "id": "le1t9dr",
+      "body": "Ti consiglio di aspettare e cercare qualche occasione su pezzi usati, o di vedere se qualche amico ti può passare qualche pezzo ad un prezzo decente.",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1721458933,
+      "score": 1,
+      "link_id": "t3_1e7cubj",
+      "parent_id": "t3_1e7cubj"
+    },
+    {
+      "id": "ldz9fzz",
+      "body": "I grew up in a small city which I left when I went to uni. Idk the ending made me cry a bit because I could relate way more with the setting and the cast, while I didn't feel the same connection with P3 or p5",
+      "author": "LeonUPazz",
+      "subreddit": "PERSoNA",
+      "created_utc": 1721418574,
+      "score": 0,
+      "link_id": "t3_1e76r42",
+      "parent_id": "t3_1e76r42"
+    },
+    {
+      "id": "ldqnxcm",
+      "body": "What do you mean a general couldn't send 10 people flying with a sword swing?",
+      "author": "LeonUPazz",
+      "subreddit": "Kingdom",
+      "created_utc": 1721289212,
+      "score": 6,
+      "link_id": "t3_1e5y5ta",
+      "parent_id": "t1_ldpplc9"
+    },
+    {
+      "id": "ld3ont9",
+      "body": "Se hai intenzione di continuare la saga, ricordati di giocare peace Walker prima di mgsv. É un po' come giocare a metal Gear e metal Gear 2 prima di solid, da molto piú peso alla storia",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1720936962,
+      "score": 1,
+      "link_id": "t3_1e2ajv6",
+      "parent_id": "t3_1e2ajv6"
+    },
+    {
+      "id": "lbsu30g",
+      "body": "No Maldini or baresi? Damn",
+      "author": "LeonUPazz",
+      "subreddit": "worldcup",
+      "created_utc": 1720213031,
+      "score": 1,
+      "link_id": "t3_1dqey8p",
+      "parent_id": "t3_1dqey8p"
+    },
+    {
+      "id": "lbstrqc",
+      "body": "Talking as if it's a different sport",
+      "author": "LeonUPazz",
+      "subreddit": "worldcup",
+      "created_utc": 1720212922,
+      "score": 2,
+      "link_id": "t3_1dtf9me",
+      "parent_id": "t1_lbemmq8"
+    },
+    {
+      "id": "lbpoxol",
+      "body": "Mica devi giocare per forza. Se i giochi ti stancano prova con un altro hobby",
+      "author": "LeonUPazz",
+      "subreddit": "italygames",
+      "created_utc": 1720165266,
+      "score": 2,
+      "link_id": "t3_1duovfv",
+      "parent_id": "t3_1duovfv"
     }
   ]
 }

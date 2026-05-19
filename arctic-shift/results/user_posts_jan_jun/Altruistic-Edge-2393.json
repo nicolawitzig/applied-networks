@@ -1,6 +1,29 @@
 {
   "username": "Altruistic-Edge-2393",
-  "posts": [],
+  "posts": [
+    {
+      "id": "1cfabqs",
+      "title": "Color-coded parameterspace of a double pendulum reminds of the Mandelbrot set. Explanation in comments.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "mathematics",
+      "created_utc": 1714321449,
+      "score": 28,
+      "num_comments": 9,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/1cfabqs"
+    },
+    {
+      "id": "1cfa6sw",
+      "title": "Color-coded parameterspace of a double pendulum reminds of the Mandelbrot set. Explanation in comments.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714321095,
+      "score": 476,
+      "num_comments": 46,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/1cfa6sw"
+    }
+  ],
   "comments": [
     {
       "id": "l0fk5xs",
@@ -11,6 +34,276 @@
       "score": 3,
       "link_id": "t3_1c85972",
       "parent_id": "t1_l0ds1tv"
+    },
+    {
+      "id": "l894kt5",
+      "body": "Hey, I have this issue and I am happy to find someone who managed to fix this on windows. What did you do exactly to manually install the tff files?",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "emacs",
+      "created_utc": 1718190900,
+      "score": 1,
+      "link_id": "t3_s7828m",
+      "parent_id": "t1_iwnkphd"
+    },
+    {
+      "id": "l7yhbnc",
+      "body": "Goofy, create something useful…",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "emacs",
+      "created_utc": 1718025000,
+      "score": -19,
+      "link_id": "t3_1dcgng4",
+      "parent_id": "t3_1dcgng4"
+    },
+    {
+      "id": "l71fw5q",
+      "body": "I would use \nself.play(Create(Polygon(n=i)))\nand after that \nself.play(FadeOut(…))",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "manim",
+      "created_utc": 1717492873,
+      "score": 2,
+      "link_id": "t3_1d7s3c8",
+      "parent_id": "t3_1d7s3c8"
+    },
+    {
+      "id": "l71fhbc",
+      "body": "What are you trying to achieve? What would you like to happen?",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "manim",
+      "created_utc": 1717492562,
+      "score": 1,
+      "link_id": "t3_1d7s3c8",
+      "parent_id": "t3_1d7s3c8"
+    },
+    {
+      "id": "l6ncv6q",
+      "body": "Have you looked at the course „computational science and engineering“ at ETH zurich? In German it is called „rechnergestützte Wissenschaften“. It‘s basically a combination of math, physics and computer science. You have the option to specialize in various fields such as machine learning/AI, statistics/finance etc.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "mathematics",
+      "created_utc": 1717261293,
+      "score": 3,
+      "link_id": "t3_1d5p4zi",
+      "parent_id": "t3_1d5p4zi"
+    },
+    {
+      "id": "l2cwga2",
+      "body": "This wasn't encoded with RGB but rather with a built in colormap called [hotcolormap](https://help.scilab.org/hotcolormap). I don't see how a different approach would change anything since all I am trying to do is color all the points that have the same PTH with the same color. This would work with any encoding system as long as it has enough color available.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714714082,
+      "score": 1,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l2cuzt5"
+    },
+    {
+      "id": "l27cxsi",
+      "body": "I don't really understand this question, what would have been the result of this method?",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714626685,
+      "score": 1,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l25kjc5"
+    },
+    {
+      "id": "l1zh1sc",
+      "body": "I used a pretty modern gaming PC with something like 5.2GHz. What kind of PC do you have and how could I make use of it? I agree that it would be interesting to look at a higher resolution graphic.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714505472,
+      "score": 1,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1zg907"
+    },
+    {
+      "id": "l1s4tud",
+      "body": "Black means that the PTH is infinitely long -> stability",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "mathematics",
+      "created_utc": 1714396108,
+      "score": 0,
+      "link_id": "t3_1cfabqs",
+      "parent_id": "t1_l1s48ko"
+    },
+    {
+      "id": "l1r3v3d",
+      "body": "That's not entirely correct. 96.6% could be interpreted correctly as chaotic or non chaotic. Many chaotic initial conditions were correctly recognized as chaotic. But else you're right.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "mathematics",
+      "created_utc": 1714372823,
+      "score": 1,
+      "link_id": "t3_1cfabqs",
+      "parent_id": "t1_l1ozs8j"
+    },
+    {
+      "id": "l1r367x",
+      "body": "That's interesting, how would that work? How do you train it to do such a thing",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714372344,
+      "score": 1,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1r08kp"
+    },
+    {
+      "id": "l1qtfj4",
+      "body": "This is beautiful and I had never seen it. I wonder why my 'stable arms' seem to look out from the other side than in the video. Kind of sad that this isn't the first time that this was done but I still think my graph shows something different than his.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714366198,
+      "score": 1,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1pdy81"
+    },
+    {
+      "id": "l1qrwxb",
+      "body": "What do you mean with 'enough free variables'?",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714365359,
+      "score": 1,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1qahqv"
+    },
+    {
+      "id": "l1oun36",
+      "body": "Of course the model is not able to capture the infinite complexity of such a fractal boundary. But that doesn't make it a bad model. In fact, if it must decide if certain initial conditions are chaotic or not it does so with a 96.6% accuracy where it obviously makes the most errors when it comes to the 'border' that you mentioned. Maybe if there were input Parameters like the Lyapunov exponent, the accuracy could be increased even more.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "mathematics",
+      "created_utc": 1714335886,
+      "score": 3,
+      "link_id": "t3_1cfabqs",
+      "parent_id": "t1_l1ot9px"
+    },
+    {
+      "id": "l1odgcr",
+      "body": "Oh I see, the NN has 6 hidden layers. It's all open source if anyone wants I can give you the GitHub link.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714329718,
+      "score": 5,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1ocszm"
+    },
+    {
+      "id": "l1obwep",
+      "body": "You're right, it isn't able to capture the infinite complexity of a fractal structure. But that doesn't make it a bad model. In fact, if you ask the model to identify certain initial conditions as chaotic or stable, it does so with a 96.6% accuracy. The mistakes are clearly made when it makes predictions about this 'border' you're talking about. Regarding your question: The NN parameters are exclusively the two initial angles, but the quality of the model could be improved by adding a parameter such as the Lyapunov exponent. Was that your question?",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714329157,
+      "score": 9,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1oarol"
+    },
+    {
+      "id": "l1o8ef3",
+      "body": "That's an interesting question which I don't get for the first time here. I didn't look at that because it took my PC 12*24h to gather all the data which is plotted here. I may do it tho since there a lots of requests.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714327884,
+      "score": 13,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1o81qz"
+    },
+    {
+      "id": "l1o5i06",
+      "body": "We're seeing the fractal region such as every other part of the parameter space. The graph actually explains the sensitivity on initial conditions very well. If you choose a point in the 'border' region between stability and chaos and you take a small step in some direction this very likely leads to you ending up on a point with a very different color, which means that the system's behavior has changed a lot because of this small change in initial conditions.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714326832,
+      "score": 33,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1o4ed5"
+    },
+    {
+      "id": "l1o4t2l",
+      "body": "Right but then you could also say that it analogous to the Mandelbrot set since it also shows those characteristics. Why did you specifically choose to mention the Julia set.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714326585,
+      "score": 6,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1o4ejk"
+    },
+    {
+      "id": "l1o3kci",
+      "body": "Right, but what makes you think it's analogous to the Julia set? Just based on your intuition/the way it look? And what do you mean by it being analogous? That it has similar shapes?\nThis could ofc be verified by using a greater resolution, the diagram above has a resolution of 0.25°/pixel.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714326140,
+      "score": 6,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1o1xdc"
+    },
+    {
+      "id": "l1nzdie",
+      "body": "Correct",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714324629,
+      "score": 17,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1nwbsl"
+    },
+    {
+      "id": "l1nwez9",
+      "body": "Yes you're absolutely correct. It's still a beautiful picture imo.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714323548,
+      "score": 4,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1nw3so"
+    },
+    {
+      "id": "l1nvzey",
+      "body": "Hey I'm very happy that you're interested. You can contact me via DM and I'll send it to you.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714323387,
+      "score": 9,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1nvt42"
+    },
+    {
+      "id": "l1nu7gs",
+      "body": "Yes, but only 80% of data was used for training. By doing so the R^2 value was 93.5%. I also tried to train the model with 50% of the data, the R^2 was still greater than 90%.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714322734,
+      "score": 26,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t1_l1ntoya"
+    },
+    {
+      "id": "l1nqs6n",
+      "body": "I found this interesting structure while I was writing a paper for a national contest. I'll just copypaste my abstract in order to explain this a little:\n\n  \nChaotic systems such as the double pendulum are considered to be practically unpredictable due to their highly complex dependence on initial conditions. However, the chaotic property only visibly manifests itself after a certain period of time during which the system is predictable in practice. This period is known as the Predictability Time Horizon (PTH) and is of great relevance for weather forecasts, for example. A method was developed to estimate the PTH as a function of the initial angles. This method was used to assign a color to arbitrary angle pairs as a function of their PTH, with which the corresponding points in the parameter space were colored. An artificial neural network was then used to predict the PTH for arbitrary initial angles. As a visual comparison between predictions and reality showed, a neural network can be a quite reliable prediction model for chaotic systems.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "mathematics",
+      "created_utc": 1714321472,
+      "score": 10,
+      "link_id": "t3_1cfabqs",
+      "parent_id": "t3_1cfabqs"
+    },
+    {
+      "id": "l1nq7f8",
+      "body": "I found this interesting structure while I was writing a paper for a national contest. I'll just copypaste my abstract in order to explain this a little:\n\n  \nChaotic systems such as the double pendulum are considered to be practically unpredictable due to their highly complex dependence on initial conditions. However, the chaotic property only visibly manifests itself after a certain period of time during which the system is predictable in practice. This period is known as the Predictability Time Horizon (PTH) and is of great relevance for weather forecasts, for example. A method was developed to estimate the PTH as a function of the initial angles. This method was used to assign a color to arbitrary angle pairs as a function of their PTH, with which the corresponding points in the parameter space were colored. An artificial neural network was then used to predict the PTH for arbitrary initial angles. As a visual comparison between predictions and reality showed, a neural network can be a quite reliable prediction model for chaotic systems.",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Physics",
+      "created_utc": 1714321255,
+      "score": 69,
+      "link_id": "t3_1cfa6sw",
+      "parent_id": "t3_1cfa6sw"
+    },
+    {
+      "id": "kwm8b7r",
+      "body": "Crow!",
+      "author": "Altruistic-Edge-2393",
+      "subreddit": "Brawlstars",
+      "created_utc": 1711444505,
+      "score": 1,
+      "link_id": "t3_1bk8r5s",
+      "parent_id": "t3_1bk8r5s"
     }
   ]
 }

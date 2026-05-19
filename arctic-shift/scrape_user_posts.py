@@ -317,8 +317,8 @@ Examples:
     )
     parser.add_argument("--input",      required=True,
                         help="One crossref CSV file (date range is parsed from the filename)")
-    parser.add_argument("--subreddit",  default="ethz",
-                        help="Restrict to this subreddit. Pass 'all' for no filter. (default: ethz)")
+    parser.add_argument("--subreddit",  default="all",
+                        help="Restrict to this subreddit. Pass 'all' for no filter. (default: all)")
     parser.add_argument("--output-dir", default="results/user_posts",
                         help="Directory to write per-user JSON files (default: results/user_posts/)")
     args = parser.parse_args()

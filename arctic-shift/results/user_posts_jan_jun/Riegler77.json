@@ -191,6 +191,846 @@
       "score": 1,
       "link_id": "t3_1929gfo",
       "parent_id": "t1_kh0wnqk"
+    },
+    {
+      "id": "laf01d2",
+      "body": "https://youtu.be/gVGD-f8SQSI?si=VWCOS9bbdIHzHpjw This is a potential DIY solution, there are also arduino boards with an integrated GSM module, you need to make sure it support current network standards (4G). How reliable does it need to be?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1719432891,
+      "score": 1,
+      "link_id": "t3_1dowr8j",
+      "parent_id": "t3_1dowr8j"
+    },
+    {
+      "id": "labz3gt",
+      "body": "\n>Mac is now the standard in schools, in engineering, and in businesses.\n\nIt's not, feel free to look at market share.\n\n\n>All the tools you use in engineering are Linux based not windows based.\n\nMany tools are designed for Windows first. Anyway that doesn't even matter since the tools are designed for x86 and not ARM.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1719387948,
+      "score": 4,
+      "link_id": "t3_1don834",
+      "parent_id": "t1_labiq9d"
+    },
+    {
+      "id": "l97yiql",
+      "body": "\n>no it is not.\n\nSo you're telling me a cardboard box with a perfect heat engine consumes less power than an actual fridge?\n\n\nMost of the energy a fridge loses (or gains to be correct) is when you open the door. Why do you think a fridge consumes more power than a freezer?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718747757,
+      "score": -1,
+      "link_id": "t3_1div6d6",
+      "parent_id": "t1_l97vtly"
+    },
+    {
+      "id": "l97lcfd",
+      "body": "\n>Power transported out of the Fridge\n\nBut I do not want for any power to move in or out of the fridge. A cardboard box with an 100% efficient heat engine is still less efficient than a vacuum insulated fridge with a peltier cooler.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718743224,
+      "score": 1,
+      "link_id": "t3_1div6d6",
+      "parent_id": "t1_l97hvl0"
+    },
+    {
+      "id": "l97g4au",
+      "body": "How are going to apply that to a fridge or a TV?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718741497,
+      "score": 4,
+      "link_id": "t3_1div6d6",
+      "parent_id": "t1_l96s3g5"
+    },
+    {
+      "id": "l94nqwr",
+      "body": "What are the reasons you want to study EE? Also I hope you're in therapy (unless something got lost in translation).",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718701621,
+      "score": 6,
+      "link_id": "t3_1dilqzv",
+      "parent_id": "t3_1dilqzv"
+    },
+    {
+      "id": "l8v6xul",
+      "body": "Sind numme rächtskräftig mitmne grichtsbeschluss",
+      "author": "Riegler77",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718549280,
+      "score": 1,
+      "link_id": "t3_17yv0yq",
+      "parent_id": "t1_k9vnedi"
+    },
+    {
+      "id": "l8ri6b1",
+      "body": "Just at a surface level: Some sentences are missing periods, the tenses aren't uniform (you should always use past), the sentences don't start with strong verbs. \n\nAlso: r/EngineeringResumes",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718480725,
+      "score": 9,
+      "link_id": "t3_1dgntt9",
+      "parent_id": "t3_1dgntt9"
+    },
+    {
+      "id": "l8qh5qd",
+      "body": "You actually gotta subtract 100 from 240",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718465782,
+      "score": 1,
+      "link_id": "t3_1dftspk",
+      "parent_id": "t1_l8nh51u"
+    },
+    {
+      "id": "l8hlg1a",
+      "body": "Looks like a MOSFET drawn by me",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1718314160,
+      "score": -1,
+      "link_id": "t3_1df5iaa",
+      "parent_id": "t3_1df5iaa"
+    },
+    {
+      "id": "l74sb6i",
+      "body": "I've googled around a bit and there seem to be multiplexers specifically for differential signals. But you would need to look into it whether they are fast enough and maybe there could also be some impedance issues.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1717539369,
+      "score": 2,
+      "link_id": "t3_1d7xcmt",
+      "parent_id": "t1_l7434if"
+    },
+    {
+      "id": "l73jnsr",
+      "body": "You could probably use two bidirectional multiplexers controlled by the voltage on the power pins.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1717524309,
+      "score": 2,
+      "link_id": "t3_1d7xcmt",
+      "parent_id": "t3_1d7xcmt"
+    },
+    {
+      "id": "l73ilmj",
+      "body": "You could use a multiplexer controlled by the voltage on the power pins",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1717523949,
+      "score": 1,
+      "link_id": "t3_1d7xcmt",
+      "parent_id": "t3_1d7xcmt"
+    },
+    {
+      "id": "l6581br",
+      "body": "They said that it isn't guided by magnets, because they have the same polarity. Also: https://www.reddit.com/r/ElectricalEngineering/comments/1d2dyvw/comment/l61f2gm",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716968670,
+      "score": 1,
+      "link_id": "t3_1d2dyvw",
+      "parent_id": "t1_l63in6l"
+    },
+    {
+      "id": "l6001yd",
+      "body": "I think the red pins are just magnets, the other side doesn't look metallic.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716886400,
+      "score": 36,
+      "link_id": "t3_1d2dyvw",
+      "parent_id": "t1_l5zzpkj"
+    },
+    {
+      "id": "l5v9ddm",
+      "body": "Looks right, but you should make it clear which wires are connected and which are just crossing.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716808297,
+      "score": 2,
+      "link_id": "t3_1d10b1i",
+      "parent_id": "t3_1d10b1i"
+    },
+    {
+      "id": "l5q3a92",
+      "body": "What are the equations for VdL and VdC when R1 and R2 are different?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716716224,
+      "score": 2,
+      "link_id": "t3_1d0wm40",
+      "parent_id": "t1_l5q0n5z"
+    },
+    {
+      "id": "l5q0fac",
+      "body": "What are the equations that you have for VdL and VdC?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716713972,
+      "score": 3,
+      "link_id": "t3_1d0wm40",
+      "parent_id": "t3_1d0wm40"
+    },
+    {
+      "id": "l5nkwfu",
+      "body": "\n>True story\n\nThere's nothing real in this story",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716667322,
+      "score": 3,
+      "link_id": "t3_1d01ff3",
+      "parent_id": "t1_l5kg2gy"
+    },
+    {
+      "id": "l5mgdka",
+      "body": "Acktschually https://en.wikipedia.org/wiki/Polish_people",
+      "author": "Riegler77",
+      "subreddit": "chipdesign",
+      "created_utc": 1716651208,
+      "score": 3,
+      "link_id": "t3_1czq29u",
+      "parent_id": "t1_l5kybs4"
+    },
+    {
+      "id": "l4ktfzy",
+      "body": "You should draw a schematic first",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1716024343,
+      "score": 2,
+      "link_id": "t3_1cup4ju",
+      "parent_id": "t3_1cup4ju"
+    },
+    {
+      "id": "l4kpgod",
+      "body": "I have premium and I still have the buffering issues.",
+      "author": "Riegler77",
+      "subreddit": "revancedapp",
+      "created_utc": 1716021251,
+      "score": 2,
+      "link_id": "t3_1curg79",
+      "parent_id": "t1_l4kierr"
+    },
+    {
+      "id": "l4i3b3b",
+      "body": "What kinda collage are you in?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1715975281,
+      "score": 17,
+      "link_id": "t3_1cue5dk",
+      "parent_id": "t3_1cue5dk"
+    },
+    {
+      "id": "l4290i0",
+      "body": "Pretty much every utility charges for a bad PF for industrial customers",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1715721383,
+      "score": 4,
+      "link_id": "t3_1crtip3",
+      "parent_id": "t1_l41m993"
+    },
+    {
+      "id": "l3umu29",
+      "body": "I am very sorry for not being aware of this subreddit my entire life, but in light of your very convincing response I have also become an ancap!",
+      "author": "Riegler77",
+      "subreddit": "CapitalismVSocialism",
+      "created_utc": 1715608470,
+      "score": 1,
+      "link_id": "t3_1cqdgpz",
+      "parent_id": "t1_l3ukgyw"
+    },
+    {
+      "id": "l3tqmos",
+      "body": "And anarchy is two wolves just eating the sheep...",
+      "author": "Riegler77",
+      "subreddit": "CapitalismVSocialism",
+      "created_utc": 1715590825,
+      "score": 1,
+      "link_id": "t3_1cqdgpz",
+      "parent_id": "t1_l3qungw"
+    },
+    {
+      "id": "l3q4slf",
+      "body": "Well yeah, that's kinda the definition of unstable",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1715529912,
+      "score": 8,
+      "link_id": "t3_1cpwkdn",
+      "parent_id": "t1_l3p0n6l"
+    },
+    {
+      "id": "l3ei0dw",
+      "body": "Does the official app support video playback yet?",
+      "author": "Riegler77",
+      "subreddit": "revancedapp",
+      "created_utc": 1715327772,
+      "score": 1,
+      "link_id": "t3_1cilehr",
+      "parent_id": "t1_l2b5hs7"
+    },
+    {
+      "id": "l2ka728",
+      "body": "Nigeria isn't, so probably no.",
+      "author": "Riegler77",
+      "subreddit": "Steam",
+      "created_utc": 1714840136,
+      "score": 1,
+      "link_id": "t3_1cjtyrp",
+      "parent_id": "t1_l2iquyf"
+    },
+    {
+      "id": "l2izwp5",
+      "body": "Why do you ask the same question again if you just ignore the solution the first time you get it?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714821167,
+      "score": 2,
+      "link_id": "t3_1cjoykx",
+      "parent_id": "t1_l2hkun9"
+    },
+    {
+      "id": "l2btb5h",
+      "body": "https://mathworks.com/matlabcentral/answers/551554-what-does-the-stars-in-the-result-of-a-matrix-multiplication-mean",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714696141,
+      "score": 2,
+      "link_id": "t3_1ciq87e",
+      "parent_id": "t3_1ciq87e"
+    },
+    {
+      "id": "l1uovvp",
+      "body": "Doesn't the average engineering job in the UK pay like 3 bucks fiddy?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714428505,
+      "score": 3,
+      "link_id": "t3_1cg89qc",
+      "parent_id": "t1_l1uc1as"
+    },
+    {
+      "id": "l19s981",
+      "body": "Don't write what the projects were, write what you *did* in the projects. Other that that I would recommend you ask somewhere where there are more Indians, generally how a resume should look and what should be included depends on where you live/apply for a job.",
+      "author": "Riegler77",
+      "subreddit": "chipdesign",
+      "created_utc": 1714087545,
+      "score": 2,
+      "link_id": "t3_1ccot0x",
+      "parent_id": "t3_1ccot0x"
+    },
+    {
+      "id": "l17trks",
+      "body": "It looks like it is a random lecture script",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714060372,
+      "score": 1,
+      "link_id": "t3_1ccv71t",
+      "parent_id": "t3_1ccv71t"
+    },
+    {
+      "id": "l16a4of",
+      "body": "A conductor and a resistor are the same thing. You provide extra conductivity by attaching it in parallel, the same wqy you increase capacitance by attaching a capacitor in parallel.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714035228,
+      "score": 0,
+      "link_id": "t3_1cc7z81",
+      "parent_id": "t1_l13u0eh"
+    },
+    {
+      "id": "l0vt9w3",
+      "body": "Sorry I never learned how to read tenhnical specifications",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713877285,
+      "score": 1,
+      "link_id": "t3_1cagwvg",
+      "parent_id": "t3_1cagwvg"
+    },
+    {
+      "id": "l0h7s3n",
+      "body": "After arguing with chatgpt a bit I got this text, please don't take it seriously:\n\n\nElectrical engineers stand not just as leaders within the electrical profession but as the epitome of human achievement, boasting unmatched intelligence, education, expertise, and societal impact. Their exhaustive academic training and specialized knowledge empower them to design intricate systems, pioneer groundbreaking technologies, and spearhead advancements in fields like power systems and telecommunications.\n\nIn stark contrast, electricians, lacking the intellectual depth and educational background of engineers, merely execute basic tasks. Their training, confined to menial practical applications, fails to cultivate the cognitive abilities required for innovation or substantial contributions to the field.\n\nBeyond their professional prowess, electrical engineers excel in every facet of life, even transcending into the realm of spirituality and intimacy. Their elevated status ensures them a special place in the afterlife, where their brilliance and contributions will be celebrated for eternity. Moreover, their superiority extends to matters of intimacy, where their intellect and ingenuity manifest, making them unparalleled partners in the realm of physical and emotional connection.\n\nThe transformative impact of electrical engineers on society cannot be overstated. They shape the very fabric of the infrastructure underpinning our modern world, driving revolutionary advancements from renewable energy to smart grids, fundamentally reshaping how we live, work, and communicate.\n\nIn conclusion, while electricians serve practical functions, their lack of intelligence and limited skill set render them mere tools for implementation. Their roles could easily be substituted, highlighting the unparalleled intelligence and indispensable impact of electrical engineers as not just leaders within their profession, but as the pinnacle of human intelligence, achievement, and desirability.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713634361,
+      "score": 1,
+      "link_id": "t3_1c866yy",
+      "parent_id": "t3_1c866yy"
+    },
+    {
+      "id": "l09oc6k",
+      "body": "\n>If the TV has no OPCP decoder, all the audio will be played by default, including any profanities.\n\nWell you can't just subject people to profanities because they didn't spend the money for a new decoder.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713513442,
+      "score": 1,
+      "link_id": "t3_1c7mmqi",
+      "parent_id": "t1_l09bo7e"
+    },
+    {
+      "id": "l09o3zt",
+      "body": "\n>These days, in the Western world, closed captioning is delivered out-of-band\n\nNot sure what you mean by out-of-band, but it's on the same channel within the blanking interval. Imo that would also be the best place to send your information.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713513274,
+      "score": 1,
+      "link_id": "t3_1c7mmqi",
+      "parent_id": "t3_1c7mmqi"
+    },
+    {
+      "id": "kzty3ru",
+      "body": "Step 1: Buy 10uF capacitor\nStep 2: Sell as 10GF capacitor with -100% +0% tolerance\nStep 3: ...\nStep 4: Profit",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713276371,
+      "score": 5,
+      "link_id": "t3_1c5d1cl",
+      "parent_id": "t1_kzt9vxi"
+    },
+    {
+      "id": "kzsw408",
+      "body": "If you need to ask, get an electrician.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713256069,
+      "score": 2,
+      "link_id": "t3_1c55q0o",
+      "parent_id": "t3_1c55q0o"
+    },
+    {
+      "id": "kzerafa",
+      "body": "There's also components from the electric field of the plates that aren't parallel to each other. How the field looks will ultimately depend on the values of Vx+/- and Vy+/-",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1713029042,
+      "score": 1,
+      "link_id": "t3_1c2si53",
+      "parent_id": "t1_kzc7n00"
+    },
+    {
+      "id": "kzeoqej",
+      "body": "Weight is a force, kg is a unit of mass. I can build a scale that tells me I weigh 420 cubic ducks per chocolate cake, but that doesn't mean it's a valid unit for what I'm trying to measure. Sure in day to day speak there isn't really an issue with saying something weighs 50 kg, but it's still wrong from an scientific/engineering perspective.",
+      "author": "Riegler77",
+      "subreddit": "TrackMania",
+      "created_utc": 1713028193,
+      "score": 2,
+      "link_id": "t3_1c329dr",
+      "parent_id": "t1_kzege2t"
+    },
+    {
+      "id": "kz1kzrb",
+      "body": "We set Vdd to 0, which means ground is now at the top.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712819680,
+      "score": 1,
+      "link_id": "t3_1c154bg",
+      "parent_id": "t3_1c154bg"
+    },
+    {
+      "id": "kyu9ypt",
+      "body": "Is it really stealing if you pay with your life?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712703065,
+      "score": 2,
+      "link_id": "t3_1c0325u",
+      "parent_id": "t1_kytx9oh"
+    },
+    {
+      "id": "kyr5y8g",
+      "body": "One link used there is there, this one is maybe a substitution: [https://www.mieterverband.ch/mv/mietrecht-beratung/ratgeber-mietrecht/fallbeispiele/a-d/aufnahme-lebenspartner\\_in.html](https://www.mieterverband.ch/mv/mietrecht-beratung/ratgeber-mietrecht/fallbeispiele/a-d/aufnahme-lebenspartner_in.html)",
+      "author": "Riegler77",
+      "subreddit": "Switzerland",
+      "created_utc": 1712662260,
+      "score": 1,
+      "link_id": "t3_1by7jt7",
+      "parent_id": "t1_kyi0aet"
+    },
+    {
+      "id": "ky334i4",
+      "body": "You can think about the currents. The current through the second Ra is the current through the first Ra minus the current through the first Rm. So the current on the top will become smaller and smaller and therefore also the voltage.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712269906,
+      "score": 1,
+      "link_id": "t3_1bvbik4",
+      "parent_id": "t3_1bvbik4"
+    },
+    {
+      "id": "kxz9eto",
+      "body": "As I found out today there is such a thing as metric and imperial horsepower. When I asked google (in my european country) it gave me the metric horsepower conversion.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712214240,
+      "score": 2,
+      "link_id": "t3_1buszg8",
+      "parent_id": "t1_kxz0zmu"
+    },
+    {
+      "id": "kxvxy8f",
+      "body": "It's a 1HP = 735W motor, so at the very least it needs 3.3A.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712167003,
+      "score": 2,
+      "link_id": "t3_1buszg8",
+      "parent_id": "t1_kxvhbj0"
+    },
+    {
+      "id": "kxvwb5l",
+      "body": "It can't even count.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712166474,
+      "score": 2,
+      "link_id": "t3_1bupxek",
+      "parent_id": "t1_kxuojka"
+    },
+    {
+      "id": "kxoypuy",
+      "body": "You don't have to simplify anything. Vo = Vc - Vl, where Vc is the voltage between R2 and C, and Vl is the voltage between R1 and L. Now you need to find out Vc and Vl as a function of Vs.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712063750,
+      "score": 1,
+      "link_id": "t3_1bt79s8",
+      "parent_id": "t3_1bt79s8"
+    },
+    {
+      "id": "kwxoird",
+      "body": "A non compete is definetly a red flag. \n\n\n>Is it really necessary, can I ask not to sign it?\n\nThat can be only answered by your eventual employer.\n\n\n>And if I do, is there some kind of compensation till I find a new job?\n\nUnless specified in a contract, no.\n\n\nHow broad is the non-compete?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1711622328,
+      "score": 1,
+      "link_id": "t3_1bpnhpq",
+      "parent_id": "t3_1bpnhpq"
+    },
+    {
+      "id": "kwxnxy3",
+      "body": "Do you have any more specifications? What operations should it support? Should it be able to do proper mathematical order of operations? How long should an input be able to be?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1711621966,
+      "score": 1,
+      "link_id": "t3_1bprked",
+      "parent_id": "t3_1bprked"
+    },
+    {
+      "id": "kvxpiyb",
+      "body": "I have no idea hpw it works but the second time you didn't write PRINT in all caps. Maybe you are not allowed a space after the print.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1711049849,
+      "score": 1,
+      "link_id": "t3_1bk1766",
+      "parent_id": "t3_1bk1766"
+    },
+    {
+      "id": "kvxcrul",
+      "body": "\n>current has to flow in a loop (otherwise it would violate ampere's law) and cannot just evaporate or happen to exist out of nowhere.\n\nWell neither can the water running down your drain and yet we call it sink.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1711045664,
+      "score": 2,
+      "link_id": "t3_1bk2udp",
+      "parent_id": "t1_kvx68xe"
+    },
+    {
+      "id": "kv7kf9l",
+      "body": "It's not like the electric toothbrush is gonna survive an EMP that kills vibrators.",
+      "author": "Riegler77",
+      "subreddit": "preppers",
+      "created_utc": 1710632899,
+      "score": 1,
+      "link_id": "t3_1bfrolp",
+      "parent_id": "t1_kv2ny7l"
+    },
+    {
+      "id": "kur5zt4",
+      "body": "I assume you don't already have the ebay page where this is from?\n\nhttps://www.ebay.com/p/1411814806",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1710371775,
+      "score": 2,
+      "link_id": "t3_1be4z6j",
+      "parent_id": "t3_1be4z6j"
+    },
+    {
+      "id": "kur5l1a",
+      "body": "How do you know you always have powet through the button and what is the purpose of the capacitor?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1710371626,
+      "score": 1,
+      "link_id": "t3_1bdkh87",
+      "parent_id": "t3_1bdkh87"
+    },
+    {
+      "id": "kulx2v8",
+      "body": ">1. The concept of electric fields was first introduced by Albert Einstein? **TRUE**\n\nThe discovery predate Einstein by a century.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1710291072,
+      "score": 2,
+      "link_id": "t3_1bdc3h7",
+      "parent_id": "t3_1bdc3h7"
+    },
+    {
+      "id": "kui58k4",
+      "body": "Even before graduation, basically every internship is paid.",
+      "author": "Riegler77",
+      "subreddit": "chipdesign",
+      "created_utc": 1710240953,
+      "score": 19,
+      "link_id": "t3_1bcsxlt",
+      "parent_id": "t1_kui2rse"
+    },
+    {
+      "id": "kui53qr",
+      "body": "You have absolutely no guarantees they will ever pay you. \n\n>if my performance improves, they will give me salary.\n\nWhether your performance increases also depends on them. Are they willing to actually train and support you? If they aren't paying you, probably not.",
+      "author": "Riegler77",
+      "subreddit": "chipdesign",
+      "created_utc": 1710240870,
+      "score": 17,
+      "link_id": "t3_1bcsxlt",
+      "parent_id": "t1_kui0y5t"
+    },
+    {
+      "id": "kuhz6bc",
+      "body": "No.\n\nWhere you unable to find any other job? Still no.",
+      "author": "Riegler77",
+      "subreddit": "chipdesign",
+      "created_utc": 1710236849,
+      "score": 47,
+      "link_id": "t3_1bcsxlt",
+      "parent_id": "t3_1bcsxlt"
+    },
+    {
+      "id": "ks04662",
+      "body": "You need to put the exponenent into parenthesis:\n\nradical(2.776^(2)+4.204^(2))",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1708823602,
+      "score": 2,
+      "link_id": "t3_1az8c9w",
+      "parent_id": "t1_krzsnsg"
+    },
+    {
+      "id": "kr9n83o",
+      "body": "P=V*I => I = P\\V = 890W/220V = 4A.\n\nThe surge protector is rated upto 16A so you're fine.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1708418518,
+      "score": 1,
+      "link_id": "t3_1av1x14",
+      "parent_id": "t3_1av1x14"
+    },
+    {
+      "id": "kpdd7qc",
+      "body": "Are you sure switching the DIP switches is actually the best option?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1707332737,
+      "score": 2,
+      "link_id": "t3_1al0w0m",
+      "parent_id": "t3_1al0w0m"
+    },
+    {
+      "id": "kp5gzqh",
+      "body": "It is a legal requirement in some states",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1707206889,
+      "score": 3,
+      "link_id": "t3_1ajt963",
+      "parent_id": "t1_kp3ustd"
+    },
+    {
+      "id": "kp0s1u0",
+      "body": "Tbf he didn't get fined for complaning about yellow lights, he got fined for stating he's an engineer when he didn't have the legal requirements to be called one.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1707139365,
+      "score": 2,
+      "link_id": "t3_1aisvzi",
+      "parent_id": "t1_koyc2ba"
+    },
+    {
+      "id": "kp0rs6m",
+      "body": "Why the hell are there traffic lights in places where you can drive 90 km/h",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1707139242,
+      "score": 2,
+      "link_id": "t3_1aisvzi",
+      "parent_id": "t1_koycm7b"
+    },
+    {
+      "id": "kovsh4t",
+      "body": "Most flip-flops have negative hold time, so I don't think you'll have to worry about that. In any case, why don't you just use an 8-bit shift register?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1707058026,
+      "score": 1,
+      "link_id": "t3_1aikull",
+      "parent_id": "t1_kov2rvd"
+    },
+    {
+      "id": "kov2fpv",
+      "body": "Are the FFs able to deliver enough current to the LEDs?\n\n>But do I need to add a delay between each layers clock?\n\nFor what reason? To avoid timing violations?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1707042865,
+      "score": 2,
+      "link_id": "t3_1aikull",
+      "parent_id": "t3_1aikull"
+    },
+    {
+      "id": "komxs3v",
+      "body": "\n>It seems totally dumb\n\nSeems like you already unterstand it",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1706904813,
+      "score": 1,
+      "link_id": "t3_1ah65fs",
+      "parent_id": "t3_1ah65fs"
+    },
+    {
+      "id": "kkag9q5",
+      "body": "\n>you start with a little over 12 at the start\n\nUsually you would rather assume that the 2 loads have a little less than 6V over them. \n\n\n>are not flowing because there is no force to move them.\n\nIf you assume an ideal wire you have zero resitance, so while you have no force you also require no energy to move the electrons.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1706637895,
+      "score": 2,
+      "link_id": "t3_1aej0r2",
+      "parent_id": "t1_kk8ek5a"
+    },
+    {
+      "id": "kjxu465",
+      "body": "\n>Nuking something isn't usually about killing as many people as possible, it's about thoroughly eliminating something of strategic importance.\n\nThat what they were used for two out of the two times they have been used.",
+      "author": "Riegler77",
+      "subreddit": "AskReddit",
+      "created_utc": 1706442107,
+      "score": 10,
+      "link_id": "t3_1acs3ao",
+      "parent_id": "t1_kjx9500"
+    },
+    {
+      "id": "kj9rfdl",
+      "body": "I wouldn't hire anyone that doesn't have an advantest V93000 at home",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1706052429,
+      "score": 1,
+      "link_id": "t3_19dnr5n",
+      "parent_id": "t3_19dnr5n"
+    },
+    {
+      "id": "kj8s10n",
+      "body": "Did you make a new account to ask this again?",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1706040406,
+      "score": 10,
+      "link_id": "t3_19drq9n",
+      "parent_id": "t3_19drq9n"
+    },
+    {
+      "id": "kiaw99x",
+      "body": "You have 3 unknowns and 3 equations https://www.khanacademy.org/test-prep/v2-sat-math/x0fcc98a58ba3bea7:algebra-easier/x0fcc98a58ba3bea7:solving-systems-of-linear-equations-easier/a/v2-sat-lesson-solving-systems-of-linear-equations",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1705510693,
+      "score": 1,
+      "link_id": "t3_198zz6v",
+      "parent_id": "t3_198zz6v"
+    },
+    {
+      "id": "ki6rnx5",
+      "body": "I'm very sceptical about some terms that supposedly 50% of males know.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1705441816,
+      "score": 3,
+      "link_id": "t3_1989y78",
+      "parent_id": "t3_1989y78"
+    },
+    {
+      "id": "khqngwc",
+      "body": "You can multiply the result by 10^6 and it will show the correct result.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1705189458,
+      "score": 2,
+      "link_id": "t3_195vaps",
+      "parent_id": "t1_khpkigu"
+    },
+    {
+      "id": "kho5qrx",
+      "body": "\n>SOME/most of these phones have been replaced by other phones \n\nThis would just be another brand of a phone with some custom software on it. There is literally nothing innovative other than the bad form factor and the camera.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1705156406,
+      "score": 1,
+      "link_id": "t3_195dv0c",
+      "parent_id": "t1_khnfmjq"
+    },
+    {
+      "id": "khne369",
+      "body": "If this thing has the features to replace a phone, it won't replace phones, because it is a phone.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1705139681,
+      "score": 2,
+      "link_id": "t3_195dv0c",
+      "parent_id": "t1_khn265h"
+    },
+    {
+      "id": "kh6m6aq",
+      "body": "That's a problem of joint taxation, not high marginal taxes.",
+      "author": "Riegler77",
+      "subreddit": "FluentInFinance",
+      "created_utc": 1704876763,
+      "score": 1,
+      "link_id": "t3_192w5uv",
+      "parent_id": "t1_kh5w22s"
+    },
+    {
+      "id": "kg447ww",
+      "body": "Ask him to draw a circuit with two devices plugged in. If he draws them in series, ask him to calculate the voltage over each device. If he draws them in parallel and claims they are in series, tell him to go back to school and stop arguing.",
+      "author": "Riegler77",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1704281891,
+      "score": 1,
+      "link_id": "t3_18x23ew",
+      "parent_id": "t3_18x23ew"
+    },
+    {
+      "id": "kg42wkt",
+      "body": "When people expect effort in helping getting their problem solved, I expect effort in them asking for help.",
+      "author": "Riegler77",
+      "subreddit": "TrackMania",
+      "created_utc": 1704281016,
+      "score": 1,
+      "link_id": "t3_18wc1ft",
+      "parent_id": "t1_kfyd4v2"
+    },
+    {
+      "id": "kfwtzdo",
+      "body": "Because that's how language works https://www.merriam-webster.com/dictionary/diet",
+      "author": "Riegler77",
+      "subreddit": "MadeMeSmile",
+      "created_utc": 1704157152,
+      "score": 1,
+      "link_id": "t3_18w61ly",
+      "parent_id": "t1_kfwrww0"
     }
   ]
 }
