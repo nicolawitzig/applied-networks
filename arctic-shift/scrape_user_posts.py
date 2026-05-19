@@ -30,6 +30,12 @@ USER_DELAY  = 0.3   # additional pause between users (on top of rate limiting)
 SKIP_AUTHORS = {"[deleted]", "AutoModerator", ""}   # authors whose content carries no signal
 
 
+def is_bot(username: str) -> bool:
+    """Heuristic: matches common Reddit bot naming patterns (case-insensitive)."""
+    u = username.lower()
+    return u.endswith("bot") or "_bot" in u or u.startswith("bot_")
+
+
 # ---------------------------------------------------------------------------
 # Arctic Shift API client
 # ---------------------------------------------------------------------------
@@ -111,14 +117,25 @@ class ArcticShiftClient:
             time.sleep(self.MIN_DELAY - elapsed)
         self._last_request = time.time()
 
-    def _get(self, endpoint: str, params: Dict[str, Any]) -> List[dict]:
-        """GET one page from the API; retries on 429."""
+    MAX_RETRIES = 4          # max attempts per request before giving up
+    RETRY_DELAY = 45.0       # seconds to wait after a timeout before retrying
+
+    def _get(self, endpoint: str, params: Dict[str, Any], _attempt: int = 1) -> List[dict]:
+        """GET one page from the API; retries on 429 and read timeouts."""
         self._rate_limit()
-        resp = self.session.get(f"{self.BASE_URL}{endpoint}", params=params, timeout=30)
+        try:
+            resp = self.session.get(f"{self.BASE_URL}{endpoint}", params=params, timeout=60)
+        except requests.exceptions.ReadTimeout:
+            if _attempt >= self.MAX_RETRIES:
+                raise
+            wait = self.RETRY_DELAY * _attempt   # back off linearly
+            print(f"  timeout (attempt {_attempt}/{self.MAX_RETRIES}) — retrying in {wait:.0f} s", flush=True)
+            time.sleep(wait)
+            return self._get(endpoint, params, _attempt + 1)
         if resp.status_code == 429:
             print("  rate limited — sleeping 60 s", flush=True)
             time.sleep(60)
-            return self._get(endpoint, params)
+            return self._get(endpoint, params, _attempt)
         resp.raise_for_status()
         return resp.json().get("data", [])
 
@@ -234,7 +251,7 @@ def load_usernames(csv_paths: List[str]) -> List[str]:
             assert header[0] == "username", f"Expected first column 'username', got {header[0]!r}"
             for line in f:
                 u = line.split(",", 1)[0].strip()
-                if u and u not in SKIP_AUTHORS and u not in seen:
+                if u and u not in SKIP_AUTHORS and not is_bot(u) and u not in seen:
                     seen.add(u)
                     ordered.append(u)
     return ordered
@@ -324,8 +341,13 @@ Examples:
 
         existing_posts, existing_comments = load_existing_user(out_path)
 
-        posts    = client.fetch_user_posts(username, sub_filter, after, before)
-        comments = client.fetch_user_comments(username, sub_filter, after, before)
+        try:
+            posts    = client.fetch_user_posts(username, sub_filter, after, before)
+            comments = client.fetch_user_comments(username, sub_filter, after, before)
+        except requests.exceptions.RequestException as exc:
+            print(f"SKIP (network error: {exc})", flush=True)
+            time.sleep(USER_DELAY)
+            continue
 
         n_new_posts, n_new_comments = merge_and_save(
             username, out_path, existing_posts, existing_comments, posts, comments

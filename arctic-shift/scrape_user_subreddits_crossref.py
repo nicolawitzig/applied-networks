@@ -20,6 +20,14 @@ from typing import Dict, List, Optional, Set, Tuple
 
 from reddit_scraper import ArcticShiftScraper, RedditComment, RedditPost
 
+SKIP_AUTHORS: frozenset = frozenset({"[deleted]", "AutoModerator", ""})  # non-human authors to exclude
+
+
+def is_bot(username: str) -> bool:
+    """Heuristic: matches common Reddit bot naming patterns (case-insensitive)."""
+    u = username.lower()
+    return u.endswith("bot") or "_bot" in u or u.startswith("bot_")
+
 
 @dataclass
 class UserActivity:
@@ -191,7 +199,7 @@ class CrossSubredditAnalyzer(ArcticShiftScraper):
         posts = self._paginate_posts(subreddit, after, before)
         users: Set[str] = set()
         for p in posts:
-            if p.author and p.author != "[deleted]":
+            if p.author not in SKIP_AUTHORS and not is_bot(p.author):
                 users.add(p.author)
         print(f"  Found {len(posts)} posts from {len(users)} unique users")
 
@@ -199,7 +207,7 @@ class CrossSubredditAnalyzer(ArcticShiftScraper):
         comments = self._paginate_comments(subreddit, after, before)
         comment_users: Set[str] = set()
         for c in comments:
-            if c.author and c.author != "[deleted]":
+            if c.author not in SKIP_AUTHORS and not is_bot(c.author):
                 comment_users.add(c.author)
         before_count = len(users)
         users |= comment_users
