@@ -1,0 +1,1236 @@
+{
+  "username": "etan1",
+  "posts": [],
+  "comments": [
+    {
+      "id": "m47igf7",
+      "body": "> The simplest transaction costs way too much.\n\nEthereum layer 2’s are down to ~0.01$/tx. roughly works by bundling together transactions and only pushing the aggregate state diff to the base chain.\n\n> If the database is public, it is not good for piracy. Querying in a public database can be done by a complete download and querying locally. If a chain does not focus on privacy, like monero, they have horrible privacy. And if they do, I don’t even know that it’s possible to have smart contracts at all, so they all need to be “dumb” chains.\n\nThe DB might be too large to feasibly download. But with programmable cryptography there is something called “homomorphic encryption”, the ability to run a computation on encrypted data. Apple uses this to look up caller IDs without the server learning about what’s in the request: https://swift.org/blog/announcing-swift-homomorphic-encryption/ \n\nA lot of this is also relevant for blockchains, but the use of this research extends beyond it.\n\n> Overall, cryptocurrencies so far have a huge negative impact on the world with very few use cases and at this point, the world would be better without it.\n\nI think I misunderstood you initially, you seem to refer to “cryptocurrency” as just the coin itself, not the entire blockchain tech underneath it. And yeah, there are many chains that don’t provide any value except moving coins from one wallet to another. It can be interesting for stablecoins that are pegged 1:1 to USDC, but the hype around certain memecoins is hopefully of temporary nature. In the end, it’s a bit like saying that domains are useless because of the initial hype around .com domains; yes, there were also many real domains that were useful, but likewise, a crypto coin can be a useful alternative where the local currency has hyperinflation or where people dont have easy access to banking. I get your point, but tulips were associated with large valuations way before blockchains, as in, its not a new concept. https://en.wikipedia.org/wiki/Tulip_mania\n\nMaybe, more generically, just greed itself. Not sure if that concept is invented by humanity or also exists among animals, though.",
+      "author": "etan1",
+      "subreddit": "AskReddit",
+      "created_utc": 1735402265,
+      "score": 1,
+      "link_id": "t3_1hnzrbe",
+      "parent_id": "t1_m47e2sx"
+    },
+    {
+      "id": "m4702uf",
+      "body": "The “ton of energy” aspect these days is only Bitcoin, really. Ethereum switched to a different model years ago, and the other currencies are not significant contributors to energy use.\n\nFun technology, it can still be used like that. Just have to ignore all the scams and get rich quick schemes. There’s quite a bit of institutional interest, real-world assets, decentralized finance, identity / governance, etc. One just has to look deep enough.\n\nThen there’s the synergy with programmable cryptography, i.e., the ability to cryptographically proof that a certain computation was run on some data without revealing the data. can be used to present legal proof of age without revealing an ID. or the ability to look up an entry in a remote database without that server knowing the query you are looking up. good for privacy. \n\nSo, not entirely negative, but I agree on the hype part, its just counterproductive also for all the developers that get associated with it, and the load on the networks that gets added periodically for no real reason.",
+      "author": "etan1",
+      "subreddit": "AskReddit",
+      "created_utc": 1735395318,
+      "score": 6,
+      "link_id": "t3_1hnzrbe",
+      "parent_id": "t1_m465f7o"
+    },
+    {
+      "id": "m3oc9jx",
+      "body": "Mit Vielfliegerstatus sind die anderen Karten von Swiss Miles & More preisreduziert, zB die Gold ist kostenlos mit Senator.\n\nAllgemein lohnen sich diese Karten nur für Transaktionen in CHF und Inland-Shops. Die Gebühren in Fremdwährungen odrr Ausland-Shops sind mit 2.5% sehr hoch. Auch aufpassen muss man mit Shops á la Zalando, die zwar in CHF abrechnen aber trotzdem als Ausland-Shops zählen. Und mit Casino-Einzahlungen, dort gibt es immer 10.- Gebühr auch bei Schweizer Casino.\n\nEs gibt zwei Karten, eine Amex und eine Visa/Master dazu. Die Amex hat mehr Rewards aber geht nicht überall; bei grösseren Shops ist sie ok, bei kleineren Shops und Restaurants sollte die Visa/Master benutzt werden da Amex sehr teuer ist für die Händler.\n\nPraktisch an den Miles & More Karten ist, dass der Meilenverfall pausiert wird, solang sie jeden Monat benutzt wird. Also am einfachsten zB iCloud oder Youtube dort drüber machen. Aber nicht Netflix, dort gibts wieder die random 2.5% Gebühr.\n\nUnd auch wichtig, immer die ganze Rechnung auf null herunter vollständig bezahlen. Keine Teilzahlungsoptionen etc, ansonsten landet man recht schnell in der Schuldenfalle (13%/Jahr Zins).\n\nDie Meilen können über meilenschnaeppchen.de praktisch eingelöst werden, oder für Upgrades benutzt werden in höhere Klasse.\n\nEine andere Combo sind die cashback-cards.ch - dort gibt es keine Meilen aber stattdessen 1% zurück bei Amex und etwas weniger bei Visa/Master. Gleicher Anbieter mit den gleichen Gebührenfallen (Ausland / Fremdwährung / Casino). Für die Schweiz vermutlich die beste Combo, zumal dort keine Kartengebühr anfällt.\n\nDie Karten sind recht populär, es gibt Referral Programme fürs Werben von Neukundrn wo beide profitieren können.",
+      "author": "etan1",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1735089109,
+      "score": 2,
+      "link_id": "t3_1hkpvk2",
+      "parent_id": "t3_1hkpvk2"
+    },
+    {
+      "id": "m2wrmfm",
+      "body": "Drag it into the Applications folder, then find it under “Applications” in the sidebar",
+      "author": "etan1",
+      "subreddit": "mac",
+      "created_utc": 1734655033,
+      "score": 10,
+      "link_id": "t3_1hi7kky",
+      "parent_id": "t3_1hi7kky"
+    },
+    {
+      "id": "m1ztup9",
+      "body": "The 让 (r-àng) rhymes with 上 (sh-àng), and the 认(rèn) only differs with 人(rén) in tone. Both retain the 言 radical when “simplifying”. So, what changed on these is that the semantic component was changed into a phonetic component, I guess it’s more about which one you studied first / are more familiar with.",
+      "author": "etan1",
+      "subreddit": "ChineseLanguage",
+      "created_utc": 1734168750,
+      "score": 2,
+      "link_id": "t3_1hddtzy",
+      "parent_id": "t1_m1wv2ct"
+    },
+    {
+      "id": "m1zpqt8",
+      "body": "schlussendlich münds ali KK überne, aber wie eklig das es gmacht wird isch KK spezifisch. bin früener amig bi einere gsi wo alles per default abglehnt wird / falsch abgrechnet wird, und ~3 support tickets brucht hesch pro case bis s gstumme het. denn halt gwechslet und jetzt isch alles korrekt im erste versuech. s git halt au anderi faktore als de priis vo de prämie; je nach dem obd s ab und zue bruchsch macht e KK für en batze me pro monet me sinn wenns defür zit spart. und drufa cho tuets ersch nach de franchise, bis det zahlsches selber egal obs richtig oder falsch abgrechnet isch.\n\nanderi traps sind no das zb verbandsmatrial etc und gwüssi medis nöd i de grundversicherig sind und das bi spitex immer no selbstbehalt hesch. ab 5% vom stürbare ikomme chasch das wo drüber isch au no vo de stüre abzie. denn het mer det de glich gugus das gwüssi stürämter nöd chegged wenn mer zb s verbandsmatrial etc direkt bsorgt anstatt via chrankekasse abrechnet wos denn ablehnt. sprich si nehmed nur das züg wo uf de KK abrechnig isch als abzug, und denn musch det au no rekurs mache.\n\ns ganz system würkt bits random. d recht sind klar und mer fint immer en weg wies zahlt wird. aber KK / Stüramt spielt e rolle bim prozess wies ablauft. sind nöd ali schlecht git au gueti.",
+      "author": "etan1",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734165863,
+      "score": 2,
+      "link_id": "t3_1hd7ulp",
+      "parent_id": "t1_m1u2xgq"
+    },
+    {
+      "id": "lydc0wd",
+      "body": "The bank may want to request origin of funds when doing a withdrawal for AML/KYC reasons. Not crypto related, but can happen after any larger amount shows up. And it can happen years after the withdrawal with very short notice. Also, in the past, Credit Suisse didnt allow any crypto withdrawals. Still best to check with the bank what they need.",
+      "author": "etan1",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1732251914,
+      "score": 1,
+      "link_id": "t3_1gwd6i6",
+      "parent_id": "t1_ly8eb6b"
+    },
+    {
+      "id": "lukhnjl",
+      "body": "wür mi mal in d situation vom chef versetze und überlege was si devo hend zum öper wegeme detail userüere nachdems di ganz usbildig finanziert hend… i de regel lernt mer ja us fehler und wenns di kicked mached nachfolger ja au wider irgendwenn öpis falsch\n\noder suscht mal überlege ob lust hetisch zum inere firma schaffe wo so stark uf die details fokussiert isch. hesch ja nüt z verlüre. wenns di kicked hesch möglichkeit zum ines weniger toxisches team wechsle. und wenns di bhalted bringts sorge-mache wege details au nüt wils offebar nöd relevant isch.\n\nvilicht ischs au eifach mal wider zit für ferie oder verlengerets wucheend. denn gseht mer nachher das d firma au funktioniert wenn mer mal weg isch, und chunt chli en gsündere abstand über.",
+      "author": "etan1",
+      "subreddit": "schwiiz",
+      "created_utc": 1730314707,
+      "score": 6,
+      "link_id": "t3_1gftzic",
+      "parent_id": "t3_1gftzic"
+    },
+    {
+      "id": "lsw7zvw",
+      "body": "https://swisstaxcalculator.estv.admin.ch/#/calculator/capital-payment\nthe marginal income tax is not too high. in this example, going through 3a is still better despite having to pay capital payment tax on the capital gains.\neven if its regular income tax its still lower if you redeem 3a in a year that doesnt have lots of other income (e.g., post retirement)",
+      "author": "etan1",
+      "subreddit": "Switzerland",
+      "created_utc": 1729454445,
+      "score": 3,
+      "link_id": "t3_1g83nsd",
+      "parent_id": "t1_lsvz6zx"
+    },
+    {
+      "id": "ls64xyd",
+      "body": "You can get batteries swapped out separately.\nhttps://support.apple.com/iphone/repair/battery-replacement\nPrice is around 100$-120$ depending on the model, without AppleCare",
+      "author": "etan1",
+      "subreddit": "iphone",
+      "created_utc": 1729065995,
+      "score": 1,
+      "link_id": "t3_1g4k6fg",
+      "parent_id": "t1_ls53ptt"
+    },
+    {
+      "id": "ls64ssq",
+      "body": "You can go to any Apple Authorized Service Provider (AASP) or Apple themselves, they offer the same services at comparable cost.",
+      "author": "etan1",
+      "subreddit": "iphone",
+      "created_utc": 1729065891,
+      "score": 1,
+      "link_id": "t3_1g4k6fg",
+      "parent_id": "t1_ls5ftkn"
+    },
+    {
+      "id": "ls64664",
+      "body": "They are sometimes used for governance, for voting on proposals ans so on. The token represents voting power in those cases. A real life equivalent would be your passport that allows you to identify yourself for travel and voting, you cannot transfer it to someone else but its still useful.\n\nThey are also sometimes used for ticketing, or for gaming, where you can have non transferable items tied to your account.\n\nFurthermore, the wallet itself can always be transferred by putting the funds into a amart contract from the getgo and exchanging ownership of the smart contract. Or, by selling the seed phrase (less safe though because any prior owners still have access).\n\nNote that token rules can be made mutable. If this one is a governance token there can be a vote to change transfer rules. It could also be made similar to a privately owned company where transfers are possible with approval but are not listed on a public exchange.",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1729065442,
+      "score": 3,
+      "link_id": "t3_1g4q490",
+      "parent_id": "t1_ls62de3"
+    },
+    {
+      "id": "lr89stu",
+      "body": "The 10% discount they can provide even without manager approval in some stores to offer price matches with cheaper stores… So, it’s not even a discount related to the iPad.",
+      "author": "etan1",
+      "subreddit": "ipad",
+      "created_utc": 1728554683,
+      "score": 27,
+      "link_id": "t3_1g0akci",
+      "parent_id": "t1_lr7m7dj"
+    },
+    {
+      "id": "lqfkhae",
+      "body": "It’s a DLC feature (Hero’s Path)",
+      "author": "etan1",
+      "subreddit": "Breath_of_the_Wild",
+      "created_utc": 1728120515,
+      "score": 5,
+      "link_id": "t3_1fwgal0",
+      "parent_id": "t1_lqfej41"
+    },
+    {
+      "id": "lpowllx",
+      "body": "Savings account sometimes has monthly withdrawal limits beyond which a fee is charged. 40k may be too much.\n\nThe early payment is a great idea as many cantons pay interest on these. The process to do the early payment varies by canton but essentially as soon as the tax declaration is filed it can be sent, without having to wait for months to receive the definitive final bill. Whatever was paid over the top then gets refunded or used as a credit for the followup year.",
+      "author": "etan1",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1727722152,
+      "score": 0,
+      "link_id": "t3_1fsu5jc",
+      "parent_id": "t1_lpnzp0q"
+    },
+    {
+      "id": "lpjwqpj",
+      "body": "if they have it you’ll get it back according to the current plan",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1727643767,
+      "score": 1,
+      "link_id": "t3_1fs7wus",
+      "parent_id": "t1_lpilr6q"
+    },
+    {
+      "id": "loxnqwo",
+      "body": "early next year, there are still some open objections, and distributions were originally planned 2 months after plan is confirmed",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1727305347,
+      "score": 2,
+      "link_id": "t3_1fpfwum",
+      "parent_id": "t3_1fpfwum"
+    },
+    {
+      "id": "lotv211",
+      "body": "they are treated like the default:\n- stay with kroll / no transfer to bahamas\n- accept the plan\n- no drop to convenience class (meaning if >50k you get 143% but it takes longer)\n- no opt-out of 3rd party releases (you cannot sue third party anymore if you did not proactively opted out)",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1727256645,
+      "score": 1,
+      "link_id": "t3_1fj12eb",
+      "parent_id": "t1_lotuvut"
+    },
+    {
+      "id": "lottrx5",
+      "body": "There are two classes, one is convenience class (<50k usd) the other are separate. larger claims are dealt with separately and were given the option to drop down to 50k as part of the “voting” step if they prefer a faster (but lower) payout",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1727255752,
+      "score": 1,
+      "link_id": "t3_1fj12eb",
+      "parent_id": "t1_lottnu1"
+    },
+    {
+      "id": "lor11qz",
+      "body": "Yes, those _LOCKED coins are what’s triggering the special status. because these are unlocked over time / are not tradable, hence are treated specially",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1727210497,
+      "score": 2,
+      "link_id": "t3_1fogl8z",
+      "parent_id": "t1_lor0uyj"
+    },
+    {
+      "id": "loqzd2b",
+      "body": "its just a coin in the portfolio, like USDC or ETH. there was one called SRM_LOCKED which marks the claim with that “claim submitted” icon of the post’s screenshot",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1727209970,
+      "score": 1,
+      "link_id": "t3_1fogl8z",
+      "parent_id": "t1_loqz6ar"
+    },
+    {
+      "id": "loqrzh2",
+      "body": "Could be related to having SRM_LOCKED in the claim, those show this icon instead of the checkmark",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1727207667,
+      "score": 1,
+      "link_id": "t3_1fogl8z",
+      "parent_id": "t1_loqqucj"
+    },
+    {
+      "id": "lo7y6l0",
+      "body": "yes, its a text field to type in. after that scroll down and take a screenshot of the filled form. if you click “download” there’s a bug where the checkbox above the signature may be left unchecked in the PDF. if that’s the case, taking a screenshot gives you a correctly filled copy",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1726932506,
+      "score": 1,
+      "link_id": "t3_1flzzy5",
+      "parent_id": "t3_1flzzy5"
+    },
+    {
+      "id": "lnzcr1n",
+      "body": "Can no longer switch between Bahamas / Kroll. Bar date has passed.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1726794420,
+      "score": 1,
+      "link_id": "t3_1fkhjhu",
+      "parent_id": "t3_1fkhjhu"
+    },
+    {
+      "id": "lnxdzze",
+      "body": "If you selected option 1 in pwc, or the checkbox in kroll voting to opt-into bahamas, PWC is handling the case and Kroll is cancelled. \n\nIf you did not select option 1 in pwc (either selected option 2 or left it empty), and also did not opt-in to the bahamas on kroll (either left checkbox empty or didnt vote), then Kroll is handling the case and PWC is cancelled\n\nhttps://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets/assets/ftx-dm-election-process-overview.pdf\n\n> 2.6 Implications of making contradicting elections or no election\n>\n> Customer claims cannot be processed in both the Bahamas Process and the US Process. If, by the Election Deadline, customers have (i) submitted (and not withdrawn) a Proof of Debt in the Bahamas Process and elected to have their claim processed in the Bahamas Process on the FTX Digital Claim Portal, but also (ii) submitted (and not withdrawn) a US Ballot where they failed to elect to have their claim processed in the Bahamas Process, then their election to participate in the Bahamas Process will prevail and they will be deemed to have elected to participate in the Bahamas Process and withdraw from the US Process.\n>\n> Customers who have submitted or will submit a Proof of Debt in the Bahamas Process, but fail to make an election before the Election Deadline, will not have their claims reconciled, or adjudicated or paid in the Bahamas Process as their previously submitted Proof of Debt in the Bahamas Process will be deemed to be incomplete.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726766819,
+      "score": 1,
+      "link_id": "t3_1fkjz67",
+      "parent_id": "t3_1fkjz67"
+    },
+    {
+      "id": "lnszu1x",
+      "body": "Why is the recipient info not signed in that authorization XML? is the recipient only transport encrypted?!",
+      "author": "etan1",
+      "subreddit": "Switzerland",
+      "created_utc": 1726697101,
+      "score": 2,
+      "link_id": "t3_1fjzbxi",
+      "parent_id": "t3_1fjzbxi"
+    },
+    {
+      "id": "lnpgj0e",
+      "body": "W-8BEN forms seem quite common when dealing with the US. You can probably find how to fill them in your country. It’s probably different for every nationality.\n\nAs you mention company, its possibly a different form even other than W-8BEN.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726650549,
+      "score": 2,
+      "link_id": "t3_1fjlqtk",
+      "parent_id": "t1_lnpgcmm"
+    },
+    {
+      "id": "lnpcekz",
+      "body": "You are exposed to similar risks by simply holding ETH (even on an exchange). If the deposit contract or beacon chain software has critical bugs, and ETH halts or becomes unreliable, the value goes down anyway. This is similar to the FTT coin when FTX collapsed. It lost most of its values even for those who managed to withdraw it in time.\n\nYou can use separate seed phrases for your validator key and your withdrawal key. Once you lock your validator to a withdrawal key it can no longer be changed. So if you get hacked the attacker can only mess with your validator but cannot steal your funds.\n\nThe three ways how you can lose ETH are:\n\n- Being offline, its a slight inactivity penalty. For every day you are offline you have to be online for a day to compensate and break even.\n- Slashing, if you install the same validator key on multiple machines, or someone hacks you and intentionally griefs you, this may cost you about ~1 ETH + 1 month of rewards. You can avoid this by playing on testnet first and making sure you know how to stake.\n- Critical bugs, if you use minority clients, you may get knocked offline if it starts to disagree with the other clients. You can then update your software and recoup the losses. If you use a majority client (>2/3 market share), the worst case is that you lose your entire stake if it has a crazy bug that gets finalized.\n\n- https://clientdiversity.org/",
+      "author": "etan1",
+      "subreddit": "ethstaker",
+      "created_utc": 1726647545,
+      "score": 3,
+      "link_id": "t3_1fjjtkb",
+      "parent_id": "t3_1fjjtkb"
+    },
+    {
+      "id": "lnpbfrp",
+      "body": "LOCKED_SRM triggers this. It should be alright.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726646844,
+      "score": 2,
+      "link_id": "t3_1fj8sao",
+      "parent_id": "t3_1fj8sao"
+    },
+    {
+      "id": "lnpaa6c",
+      "body": "https://www.reddit.com/r/FTXOfficial/s/XGSg1RnARL\nThere was a similar question here",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726646005,
+      "score": 1,
+      "link_id": "t3_1fjlqtk",
+      "parent_id": "t3_1fjlqtk"
+    },
+    {
+      "id": "lnnuicg",
+      "body": "Its a trick, the form that you get when you hit “download” lacks the checkmark above the signature (in certifications section). have to scroll down past the confetti and manually take a screenshot to have a copy of the correctly filled form.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726620283,
+      "score": 1,
+      "link_id": "t3_1fiyz64",
+      "parent_id": "t3_1fiyz64"
+    },
+    {
+      "id": "lnnttjm",
+      "body": "The withdrawal rate is lower, but taxed on the full withdrawal amount which can be much higher than the original amount. There can be cases without overall tax savings.",
+      "author": "etan1",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1726620021,
+      "score": 5,
+      "link_id": "t3_1fj91hi",
+      "parent_id": "t1_lnmmea7"
+    },
+    {
+      "id": "lnneasd",
+      "body": "The current plan that creditors were tricked into agreeing to is that FTT gets deleted (despite them having the ability to fully refund them, as they can mint if some are missing). \n\nOf the rest, they follow standard US practice of valuing each claim based on its usd valuation at time of bankruptcy filing. The rates are slightly different for intl and US because they were filed at different dates. They dont have a process to pay out more than 100% of the debt at filing date.\n\nOn top of that, there is a 9% interest per year. For convenience class (claims <50k and those above who opted into dropping to 50k) thats 119% total payout. For the larger claims its about 143% as they take longer.\n\nAs to where the crypto is, the story is that alameda had a specially privileged account that could infinitely borrow from ftx without getting margin called on negative balance. Alameda then proceeded to invest into various projects. As usual most of it failed but there are some gems such as Anthropic (Claude AI), and also lots of Robinhood shares and TRUMPLOSE prediction market bets, while doing excessive political donations and lobbying at the same time (for which noone was convicted).\n\nAfter the bankruptcy filing, a couple bad defi trades were made by the new owners, SOL was liquidated around 60$, HOOD and anthropic sold below value as well, and countless hours are billed at exorbitant rates. Despite that, there seem to still be open objections that there is excess money available to cover more claims: https://m.youtube.com/watch?v=Gw3r5eqylww \n\nOverall, expect 119% of the USD back then in early 2025. At least its a fast process and seems to be aligned with the way how these processes typically work in the US.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1726614251,
+      "score": 2,
+      "link_id": "t3_1fj12eb",
+      "parent_id": "t1_lnlxpa1"
+    },
+    {
+      "id": "lnjix87",
+      "body": "For non-U.S. customers some guidance on the W-8BEN form:\nhttps://www.reddit.com/r/FTXOfficial/s/YYJ9JQo2yM",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1726562212,
+      "score": 4,
+      "link_id": "t3_1filxtb",
+      "parent_id": "t3_1filxtb"
+    },
+    {
+      "id": "lnjicjq",
+      "body": "The 3-digit number code is just the prefix of your national social security number",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726561784,
+      "score": 1,
+      "link_id": "t3_1fi0x0n",
+      "parent_id": "t1_lnj39i8"
+    },
+    {
+      "id": "lnhddjc",
+      "body": "FTIN seems to be a national tax ID. Look at the list here: https://www.irs.gov/businesses/corporations/fatca-registration-country-jurisdiction-listing\nYour national social security number likely starts with the prefix on that listing. That’s what is being asked.\n\nFurther down the form, be absolutely sure to check the box for the income tax treaty, so that the tax is reduced to 0% (depends on your country).\n\nOn the “thank you” screen at the end (after filling the form), be sure to scroll down and take a screenshot. The download button provides an invalid form that lacks the checkmark in the certifications section of the form.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1726525931,
+      "score": 11,
+      "link_id": "t3_1fi0x0n",
+      "parent_id": "t3_1fi0x0n"
+    },
+    {
+      "id": "lmziqoh",
+      "body": "The wealth tax is an interesting approach though, it is negligible and caps out at a very small rate. It is also not as easily dodgeable as income tax, and is a concept that is proven to work well.\n\nTo compromise, one could get rid of random jealousy taxes, such as the one for jackpot winners (they already lose 50% on average to Swisslos nonprofit which is used to fund culture and sports industry, and if its a casino jackpot the casino also pays 50% of income to the AHV)\n\nOn top of that, one could remove the Eigenmietwert for real estate owners. It doesnt make sense that a low-risk investment is taxed higher than stock market / crypto trading.\n\nThe solution is also better than anything inheritance tax related where the state is given an incentive to reduce life expectancy, and still has unplannability because people can just move to a different region for final years.\n\nOne would have to do the math, though. Imo, adding another progression step for wealth tax around 3 million, and then at 20 million could be sensible.",
+      "author": "etan1",
+      "subreddit": "Switzerland",
+      "created_utc": 1726260084,
+      "score": 2,
+      "link_id": "t3_1ffrcke",
+      "parent_id": "t1_lmys7fj"
+    },
+    {
+      "id": "lmwd5cu",
+      "body": "You can swipe down from the middle of the home screen (or even lock screen) to have 8 recommendations based on usage, as well as a keyboard to search for any app, content, or quick computations such as currency conversion.",
+      "author": "etan1",
+      "subreddit": "ios",
+      "created_utc": 1726215961,
+      "score": 1,
+      "link_id": "t3_1ff9p51",
+      "parent_id": "t1_lmtt1w7"
+    },
+    {
+      "id": "lmm1mld",
+      "body": "As long as you are outside of Wi-Fi, a foreign eSIM like Airalo should work for international sites inside China without a VPN.\n\nIt’s only 3 days, I guess your friend from Shanghai will help you out during these days and show you around :-) You’ll have a blast.",
+      "author": "etan1",
+      "subreddit": "travelchina",
+      "created_utc": 1726066140,
+      "score": 2,
+      "link_id": "t3_1fdj86h",
+      "parent_id": "t1_lmlza30"
+    },
+    {
+      "id": "lmkoh6o",
+      "body": "- At check-in, explain that you plan to use the 144hr visa free transit when asked for the visa. Not all airports, train stations and ports support it. You have to both enter and leave through one of the ports supporting this system. Shanghai Pudong (PVG) is fine.\n\n- In the airplane, you will be handed a slip of paper for customs. Besides the usual personal information, provide the list of cities you intend to visit, the name and address of the initial hotel, the information about your departing date and flight/train/boat, the name, address and phone number of your friend in China, as well as a list of all countries and regions visited in the past 2 years. Be sure to take a photo to remain concistent across visits.\n\n- At the border, you have to put your passport and the custom forms and look into a camera and provide fingerprints. They will then print a permit sticker and put it in your passport.\n\n- If you stay with a friend, you have to find a police station within 24hrs and properly register your stay. Hotels will properly register you.\n\n- VPNs are illegal in China. However, you can use a foreign SIM card (e.g., an eSIM from Airalo) and use data roaming to have access to the Western Internet outside Wi-Fi.\n\n- Get Alipay and link a visa/mastercard with it. It is your primary way to pay in shops or at subway stations.\n\n- Get Trip.com if you plan to use trains. You can link your passport and book trains with it.\n\n- Get Wechat and add your Chinese friends there. It is a non encrypted platform, avoid politically sensitive topics.\n\n- Be vary of the different legal structure in China. Many rule violations have a very broad range of punishment going from “nothing happens” to multiyear imprisonment at the discretion of the officers looking into your case. Follow the rules.",
+      "author": "etan1",
+      "subreddit": "travelchina",
+      "created_utc": 1726042157,
+      "score": 2,
+      "link_id": "t3_1fdj86h",
+      "parent_id": "t3_1fdj86h"
+    },
+    {
+      "id": "lju8taw",
+      "body": "USDT has a mechanism built in where tether may freeze funds in other wallets.\nhttps://coinmarketcap.com/academy/article/how-can-cryptocurrencies-be-frozen-on-a-blockchain",
+      "author": "etan1",
+      "subreddit": "ledgerwallet",
+      "created_utc": 1724583210,
+      "score": 3,
+      "link_id": "t3_1f0rxxz",
+      "parent_id": "t1_lju8hbo"
+    },
+    {
+      "id": "liye101",
+      "body": "In general, you can protect against fishing very easily:\n\n- Dont trust the email content, only use it as an indicator to check the portal for updates manually. \n- Dont click links in emails, find the portals from other sources. Ideally use the browser history as Google results can be manipulated.\n- Dont type passwords, if the password doesnt autofill on a website chances are its a scam. Only the real website can autofill its password.\n\nFor FTX, the legitimate links are:\n- https://claims.ftx.com (US)\n- https://digitalmarketsclaim.pwc.com (BS)\n(dont trust links without verifying them against other sources)",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1724109592,
+      "score": 2,
+      "link_id": "t3_1ew7vqo",
+      "parent_id": "t3_1ew7vqo"
+    },
+    {
+      "id": "lit16xr",
+      "body": "top has at least the pair of tens with half an extra pair or just Ace high at least\n\nbottom has nothing. out of the spades he has the full Ace of spades (in two parts), T, a partial 7 and a 5, meaning for a flush 1 full card is missing in any case\n\ntop wins",
+      "author": "etan1",
+      "subreddit": "poker",
+      "created_utc": 1724030151,
+      "score": 5,
+      "link_id": "t3_1evogyr",
+      "parent_id": "t3_1evogyr"
+    },
+    {
+      "id": "lisv0s2",
+      "body": "Going for a battery replacement is the cheaper option here, not mentioning the keyboard in the process, if it ever needs a replacement. Battery, keyboard and trackpad are all glued together into a single part, the top case. But if you replace the battery the price they charge is cheaper.",
+      "author": "etan1",
+      "subreddit": "mac",
+      "created_utc": 1724027693,
+      "score": 0,
+      "link_id": "t3_1ev7mk2",
+      "parent_id": "t1_list2fj"
+    },
+    {
+      "id": "lisuqs5",
+      "body": "The fans are typically not too expensive to get replaced if its the actual fan thats damaged and not something on the logic board.",
+      "author": "etan1",
+      "subreddit": "mac",
+      "created_utc": 1724027585,
+      "score": 2,
+      "link_id": "t3_1ev7mk2",
+      "parent_id": "t1_liqgvur"
+    },
+    {
+      "id": "libgx9k",
+      "body": "Well, with the setting to require face ID for sliding down (and siri as well), no need for the automation as the airplane mode is inaccessible to begin with.\n\nBut its also not 100% secure. A simple faraday cage or signal jammer prevents signals from going through. Or, simply removing SIM card (on non-US models). \n\nThe “dead man’s switch” that reboots the phone if not unlocked for X hours would still work even in those situations though. But your solution is probably as close as optimal with today’s tools provided by Apple.",
+      "author": "etan1",
+      "subreddit": "shortcuts",
+      "created_utc": 1723762631,
+      "score": 1,
+      "link_id": "t3_1ess3qn",
+      "parent_id": "t1_liapyx8"
+    },
+    {
+      "id": "liahat6",
+      "body": "Find My still works even when you fully turn off the phone.\n\nAirplane mode doesnt protect from holding on to the phone until exploits are available couple months later.",
+      "author": "etan1",
+      "subreddit": "shortcuts",
+      "created_utc": 1723750923,
+      "score": 2,
+      "link_id": "t3_1ess3qn",
+      "parent_id": "t1_liagjhm"
+    },
+    {
+      "id": "lia8dmj",
+      "body": "You mean the SIM PIN? Simply remember it or put it in a password manager. \n\nAlso, I’m not asking for this to be the default, but I’d like to have the option to build such an automation. As of today, there is reboot automation but it needs confirmation; and there are some time based triggers but they dont reset on unlock or are alarm based (and the system time can be controlled by a malicious network so the alarm would never trigger).",
+      "author": "etan1",
+      "subreddit": "shortcuts",
+      "created_utc": 1723748047,
+      "score": 2,
+      "link_id": "t3_1ess3qn",
+      "parent_id": "t1_lia65a5"
+    },
+    {
+      "id": "li942q7",
+      "body": "Reboot the phone without confirmation after 16 hours of no unlock. Its a basic security feature that ensures that one cannot steal a phone and then wait a couple months until it is hackable. Many hacks only work in the “after first unlock” state, rebooting the phone returns it to “before first unlock” state (higher security)",
+      "author": "etan1",
+      "subreddit": "shortcuts",
+      "created_utc": 1723735417,
+      "score": 1,
+      "link_id": "t3_1ess3qn",
+      "parent_id": "t1_li7ybd5"
+    },
+    {
+      "id": "lhlg7uc",
+      "body": "The one on the right shows the total across currently worn head/chest/legs pieces, while the one in the list only shows the armor of that individual piece.",
+      "author": "etan1",
+      "subreddit": "botw",
+      "created_utc": 1723387735,
+      "score": 6,
+      "link_id": "t3_1epm62y",
+      "parent_id": "t3_1epm62y"
+    },
+    {
+      "id": "lhlcarm",
+      "body": "I think that is just how it shows if you held SRM_LOCKED in your portfolio",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1723386322,
+      "score": 1,
+      "link_id": "t3_1eor5d8",
+      "parent_id": "t3_1eor5d8"
+    },
+    {
+      "id": "lhj4xvs",
+      "body": "Well, the tax issue is another open question. Bahamas may be better for non US customers (or also may not), but it comes with the caveat of giving up rights.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723343191,
+      "score": 1,
+      "link_id": "t3_1eodv60",
+      "parent_id": "t1_lhj3kk9"
+    },
+    {
+      "id": "lhgqlx8",
+      "body": "That’s at least also how I interpret it, I’m not 100% sure though, if the Bahamas process lacks the option because the releases are not applicable to the Bahamas (so, no need to opt out be ause they dont exist), or because its not possible to opt out of them (in which case only the US process allows the opt-out). The transfer checkboxes to the Bahamas mention some releases, not sure if they are the same ones.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723310845,
+      "score": 1,
+      "link_id": "t3_1eodv60",
+      "parent_id": "t1_lhgpw5z"
+    },
+    {
+      "id": "lhgo7g3",
+      "body": "The box to transfer to Bahamas states quite clearly that you are deemed to accept the plan, and also mentions some releases. I’m not sure if the releases are the same that can be opt-outed from when choosing US.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723310027,
+      "score": 1,
+      "link_id": "t3_1eodv60",
+      "parent_id": "t1_lhgnsr1"
+    },
+    {
+      "id": "lhevd75",
+      "body": "There’s the caveat that the Bahamas opt-in is only possible if you want to vote in favor of the plan, and are fine not opting out of third party releases. It’s also not guaranteed that taxation ends up actually being better, as the Bahamas guidance suggests that one still needs to submit relevant IRS forms.\n\nOverall, if one wants to accept the deal as is (displayed amount + 19% interest) without any later chances to sue for more, Bahamas seems to not have downsides. If you want to vote to reject the plan or want to opt-out of third party releases, it seems that the US process may be required.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723281755,
+      "score": 1,
+      "link_id": "t3_1eodv60",
+      "parent_id": "t1_lhej8ib"
+    },
+    {
+      "id": "lheuyh3",
+      "body": "https://crypto-notte.medium.com/how-to-vote-on-ftx-step-by-step-guide-tutorial-a1b5f40600f4\n\nAs I understand it, opting out of third party releases may allow joining later class action lawsuits against the firms that mismanage the bankruptcy (e.g., selling SOL for 60$, way under value; or touching customer HOOD shares before SBF was convicted). That may or may not lead to additional recoveries for the folks who opted out.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723281470,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t1_lhedzew"
+    },
+    {
+      "id": "lhci9w0",
+      "body": "There is overall clear language that payouts are comparable between the US and Bahamas processes, so I expect that any deviation based on withholding tax would have to be explicitly declared on the statements provided to customers. In which case, it is probably similarly complex to get the US withholding taxes deducted from the local non-US tax bill. Note that the Bahamas themselves dont have any income tax as far as I found on the Internet, so a double taxation treaty for income tax may not be necessary as it simply is not taxable in the Bahamas.\n\nAnother aspect to consider, though, is that the Bahamas opt-in seems to imply that you also vote in favor of the plan, and cannot opt-out of third party releases. So, while the tax may be lower (very unclear to me how the taxation will work on this), you end up giving up some rights by transfereing to Bahamas.\n\nThere is also language that there may be additional situations where Bahamas payouts get diluted if they approve claims that would not be approved in the US process.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723241208,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t1_lgz8cfw"
+    },
+    {
+      "id": "lhcfsvr",
+      "body": "Note that the Bahamas opt-in comes with wording that suggests an implicit vote to accept the plan as is, without crypto payments.\n\nThat voting power is based on petition date prices seems to be standard bankruptcy law. That does not prevent them from splitting SOL claims into a separate class, though, that may get paid in-class. The current plan does not have a special SOL class, it only splits off FTT claims and NFT claims into separate classes; with customer FTT planned to be deleted (despite them literally having access tk the minting facility), and NFTs either being returned as is, or dollarized if no longer available.\n\nFor other crypto (not SOL/FTT), they simply dont have them, as the customer funds were invested, among others, into Anthropic, Robinhood shares, and TRUMPLOSE prediction market tokens. But non-SOL claims are also way less impaired than SOL claims, the exchange rate difference for BTC/ETH is much smaller than for SOL.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723240338,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t1_ldqzhrb"
+    },
+    {
+      "id": "lhcentg",
+      "body": "How does the US withholding tax interact with the new extra payment from https://www.cftc.gov/PressRoom/PressReleases/8938-24\n\nIs this also considered interest, or is it some other form of income, or just capital gain? Are there differences for non-US customers?\n\nAre customers who fail to opt-out of the third party releases eligible to also claim this extra payment?",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723239944,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t3_1e5n3lx"
+    },
+    {
+      "id": "lhce9fb",
+      "body": "How do withholding taxes for non-US customers change between the Bahamas and US process? The Bahamas documents indicate that US relevant IRS forms still need to be filed, why is that necessary if the Bahamas actually perform the payment distribution? Bahamas does not have an income tax, to my knowledge.",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723239807,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t3_1e5n3lx"
+    },
+    {
+      "id": "lhce014",
+      "body": "Under what conditions can the Bahamas claim get diluted? There is a 75 million mention in the Bahamas documents that is missing in the US process. What does it mean, and what is the situation that may lead to dilution?",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723239716,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t3_1e5n3lx"
+    },
+    {
+      "id": "lhcdubq",
+      "body": "How does the Bahamas opt-in interact with the other items of the US ballot, namely the third party release opt-out, the consent to a specific balance, and the eligibility to reject the plan?",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1723239663,
+      "score": 1,
+      "link_id": "t3_1e5n3lx",
+      "parent_id": "t3_1e5n3lx"
+    },
+    {
+      "id": "lgx6g1x",
+      "body": "Not defending their policy, but the passport policy may make more sense from these perspectives:\n\n- Mainland China is a huge country, much larger than all of Europe. The long distance trains are exceptionally fast, e.g., Shanghai-Beijing is ~4hr45min with the train and ~2hr15min with the flight, but add the need for being at the airport 1 hr early, plus the time to get to an airport, and its comparable. For similar distances, you also need a travel document in Europe, e.g., Zurich-Belgrade. Local Chinese metro can be somewhat compared to regional trains in Europe and does not require an ID.\n\n- The density of people is very large, and the large majority are local nationals. Most of the gates are automatic, they operate by putting a Chinese ID card on an NFC scanner and looking into a camera; no QR codes and so on. It is consistent that the manual gates for foreigners etc. also require a travel document.\n\n- Mainland China has a social credit system in its law, where punishments can restrict someone’s ability to use flights, fast trains, larger tourist attractions, digital payments and so on. Travel document scanners are a convenient way to enforce those punishments.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1723029307,
+      "score": 1,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfg6s5i"
+    },
+    {
+      "id": "lgx3zmw",
+      "body": "You can link the visa card with Alipay and then just pay with Alipay in shops (with QR code); it will deduct from the credit card automatically.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1723027938,
+      "score": 2,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfg5br2"
+    },
+    {
+      "id": "lgusuf5",
+      "body": "The plan is to get 100% of the USD equivalent at time the bankruptcy was filed, + 19% in interest. The withholding tax is on that interest income, not on the base refund.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1722986904,
+      "score": 1,
+      "link_id": "t3_1b8w9o4",
+      "parent_id": "t1_lcnznqz"
+    },
+    {
+      "id": "lfettk5",
+      "body": "In mainland China, the government is above the law. Rule of law does not exist in its Western meaning. And yes, while data from private companies can also get you in trouble in the West (e.g., overly broad location data queries), there are typically more hurdles to go through to access the data.\n\nIn mainland China, there is the National Intelligence Law (2017) that requires cooperation by any Chinese organization / individual and also expects a certain level of proactiveness in collecting data and reporting. This is a legal requirement for Chinese companies, so any privacy policy that shares data with their Chinese partners essentially also is required to share them with the government. Tencent is heavily invested into many popular games, Discord (about 35% owned by Tencent), Reddit (10+% owned by Tencent). The platforms have much fewer ads than western ones, but universally lack end to end encryption and are aimed at growth. The law also applies to individuals, making them \"toxic\" in a way that they prevent eligibility for sensitive Western jobs if for example one has Chinese family members.\n\nSince July 2024, some parts of the new Counter Espionage Law took effect as well, where police are allowed to inspect content of phones without warrants.\n\nGoogle actually has several offices in mainland China, in Beijing, Shanghai, and Shenzhen. So the assumption that they actually fully pulled out of the mainland is a bit handwavy.\n\nWhat is indeed surprising is how many companies actively choose to enter the Chinese market, given that it operates under such stark different fundamental rules. Capitalism sure plays a role, but each case probably comes with different reasoning and motivation.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1722209925,
+      "score": 1,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfemlr1"
+    },
+    {
+      "id": "lfdak27",
+      "body": "Sounds quite annoying, but Gmail actually works fine with foreign SIM data roaming (outside the Wi-Fi). \n\nBut also, the people working those jobs are not the ones making the rules.\n\nI had a similar situation where my departure from mainland to Hong Kong did not originate from an approved train station so I lacked a proper proof of departure. They actually helped me booking an alternate ticket with a boat from their phone (foreigner can only by the train online), airdropped me a screenshot of the ticket and also printed me directions for a taxi driver to bring me to that port on my departure day. Was lucky to have brought some cash to pay the ticket, foreigner can only pay business accounts, personal ones used to work but dont anymore… the ticket was like, 90 RMB so no big deal.\n\nOn the other hand, some of my friends had negative experiences at the border, though, so it may be hit or miss, or based on country. In general, it helps to not see the person who needs to stamp your passport as an enemy.\n\nI hope they found your return in their systems and could look it up.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1722189680,
+      "score": 1,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfazfif"
+    },
+    {
+      "id": "lfd6nk7",
+      "body": "The cellular providers that your phone connects to have your location as well. Also, there are cameras everywhere. The concept of privacy as understood in the US/EU does not exist in CN mainland, regardless of the level of cooperation from the manufacturer.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1722188372,
+      "score": 1,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfbp8g9"
+    },
+    {
+      "id": "lfd6d27",
+      "body": "Well, Apple does not provide a search engine or a video sharing platform, so has a much smaller surface for getting into conflicts as it does not have to moderate user created content to the same level as Google would have to. Some compromises that they did go through with, that come to mind, exist, though:\n\n- iCloud data for Chinese are stored in mainland data centers\n- AirDrop for everyone limited to 10 minutes at a time\n- The TW flag emoji does not display at all on phones sold in mainland or set to mainland region, and is not recommended on the keyboard for HK / Macao region\n- eSIM does not work, local iPhone have dual physical SIM slots\n- Providing a ton of jobs to locals and providing them with knowhow that can be used to push other industries.\n\nOverall, these seem in line with how they approach other markets:\n\n- In Japan, the camera shutter sound for still photo cannot be disabled. On the other hand, the iPhone is the only international phone that can store Suica transit cards\n- In South Korea, Find My doesnt work\n- In EU, third party app stores can sideload apps, the NFC chip can be accessed more freely, wallet app can be replaced and so on.\n\nOverall, all of these indicate some level of willingness to get in good standing with various governments. There can be more to it, as well, we dont have proofs at this time.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1722188273,
+      "score": 1,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfbndbs"
+    },
+    {
+      "id": "lfd3tag",
+      "body": "Yep, the overall app situation can be challenging, especially as things keep changing over the years.\n\nYou still need three apps to facilitate many things. All of them are available internationally:\n\n1. Alipay (for payments), can link a Visa / Mastercard since post covid and scan QR code to pay. This is also how to pay at metro stations (the metro passes in apple pay dont work for foreigner). Bicycle rental is also in Alipay.\n\n2. Trip.com (for hotels and trains). Since post covid its possible as foreigner to buy train ticket online and link it with passport. No printing is needed, just present passport at train station’s manual gate (with police) and they can swipe you in. Similar to how airports work where the passport can get you a boardingpass.\n\n3. WeChat (for social media and some tourist attractions). If you want to interact with locals, thats the primary app to use. Messages can be inspected, so still important to avoid sensitive topics (mostly geopolitics)\n\nThe one area that’s still lacking is a decent English app for maps. Apple maps works (even on local Wi-Fi) but is kinda meh. Google maps is worse but sometimes has better accuracy for some locations. Maps.me has offline support and has good transit directions, but does not present walking directions well.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1722187410,
+      "score": 9,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfavqkn"
+    },
+    {
+      "id": "lfd3flc",
+      "body": "If you use a foreign SIM with data roaming, foreign apps typically work fine. It’s only local Wi-Fi and domestic SIMs that have filters in place.\n\nVPNs are illegal (highly, so), but enforcement is opportunistic.",
+      "author": "etan1",
+      "subreddit": "China",
+      "created_utc": 1722187281,
+      "score": 2,
+      "link_id": "t3_1edwbyo",
+      "parent_id": "t1_lfa4hp6"
+    },
+    {
+      "id": "lf4u6t0",
+      "body": "or, with golden apple",
+      "author": "etan1",
+      "subreddit": "Breath_of_the_Wild",
+      "created_utc": 1722048003,
+      "score": -4,
+      "link_id": "t3_1ecyhxa",
+      "parent_id": "t1_lf3s4um"
+    },
+    {
+      "id": "ldug2i0",
+      "body": "They actually scale (hp/dmg) depending on the order you challenge them",
+      "author": "etan1",
+      "subreddit": "botw",
+      "created_utc": 1721343549,
+      "score": 1,
+      "link_id": "t3_1e6jdl8",
+      "parent_id": "t1_ldu8vrz"
+    },
+    {
+      "id": "ldufz7a",
+      "body": "They actually scale (hp/dmg) depending on the order you challenge them",
+      "author": "etan1",
+      "subreddit": "botw",
+      "created_utc": 1721343515,
+      "score": 1,
+      "link_id": "t3_1e6jdl8",
+      "parent_id": "t3_1e6jdl8"
+    },
+    {
+      "id": "lds7td0",
+      "body": "employer pays part of the social tax, after that is “Brutto” income. then, the other part of the social tax, pension funds and insurance is deducted, that’s “Netto”. and then, this “Netto” income is reported as taxable income and results in more taxes (this one is post-paid for citizens)",
+      "author": "etan1",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1721315974,
+      "score": 2,
+      "link_id": "t3_1e6bbde",
+      "parent_id": "t1_ldrqdfq"
+    },
+    {
+      "id": "ldgv75k",
+      "body": "There’s a statue both in kakariko (opposite to impas house where the tiny pond is) as well as the great plateau (temple of time, downstairs of where you got the glider) where you can get rewards for the spirit orbs from completed shrines by praying.\n\nYou can collect faeries in the fairy place by moving slowly (with stealth armor), they look like glowflies but are brighter / a bit pink. Keep them in your inventory, they are great to have in combat.\n\nYou can cook hearty food (radish / durian / truffles), it grants you temporary bonus hearts, even when cooking them individually. Very powerful. You can pause the game after getting hit, even during combat, and eat one.\n\nFor lightning, switch to non-metal weapon / shield. Or wait it out until the sun comes back. In the little menu that popps when holding right/left arrow, theres a little lightning animation on top of metal items.\n\nFor the guardians, they need line of sight, you can hide behind a pillar or use your shield when they use their laser. Once you get the hang of using the shield, while having the shield out by holding ZL and looking at them, try pressing A just as they are about to shoot (their eye turns from red to blue briefly when the shot is released). Or, just run, if that timing is difficult (pressing too early you’ll die, and too late your shield breaks).\n\nYes, you can only benefit from one food / elixir effect at a time.\n\nThe centaur is indeed strong and you can come back for it at a later time. It’s quite tame as long as you dont pull the weapon or get too close. If it goes aggro, you can run away or use a teleport even during the fight.",
+      "author": "etan1",
+      "subreddit": "botw",
+      "created_utc": 1721145996,
+      "score": 10,
+      "link_id": "t3_1e4nf4c",
+      "parent_id": "t1_ldg4vau"
+    },
+    {
+      "id": "lchhr5d",
+      "body": "At the ticket machine a return ticket is 24hr. In EasyRide its until 5am but also a bit cheaper because of its shorter validity.",
+      "author": "etan1",
+      "subreddit": "Switzerland",
+      "created_utc": 1720603083,
+      "score": 1,
+      "link_id": "t3_1dzb544",
+      "parent_id": "t1_lcf4r7j"
+    },
+    {
+      "id": "lchhmpt",
+      "body": "McDonald’s, gas stations or hotels are typically still open very late and have staff on site who may be willing to charge your phone for a bit.\n\nSimilar situation are some few shops / bakeries that are cash only. Asking some random person if you could buy some cash from them with Twint usually works well. If they are from the area they have the cash for that shop.\n\nIn many of these situations, there’s a workaround :-)",
+      "author": "etan1",
+      "subreddit": "Switzerland",
+      "created_utc": 1720602996,
+      "score": 2,
+      "link_id": "t3_1dzb544",
+      "parent_id": "t1_lcgyiuf"
+    },
+    {
+      "id": "la9bcsk",
+      "body": "you can turn the timezone to something else and catch up. the timezone that you last passed midnight on counts",
+      "author": "etan1",
+      "subreddit": "AppleWatch",
+      "created_utc": 1719346315,
+      "score": 11,
+      "link_id": "t3_1doci2f",
+      "parent_id": "t1_la8qkex"
+    },
+    {
+      "id": "l5ulzfw",
+      "body": "Have to manually adjust the fees so that priority fee == max fee. That way the dust goes to the validator producing the block instead of staying in the wallet.\n\nAnd, also have to compute the amount manually thats left over after the fee. All quite annoying for people who simply wish to have a 0 there",
+      "author": "etan1",
+      "subreddit": "ledgerwallet",
+      "created_utc": 1716791098,
+      "score": 2,
+      "link_id": "t3_1d1hisp",
+      "parent_id": "t1_l5ul26p"
+    },
+    {
+      "id": "l2x0yu7",
+      "body": "Its the same story as with ledger, Signal could just push an app update that leaks everything for a specific account.\n\nLedger recover is an opt-in service. The current firnware doesnt allow turning it on without putting in the PIN code, and likewise doesnt allow firmware updates without explicitly confirming them.",
+      "author": "etan1",
+      "subreddit": "ledgerwallet",
+      "created_utc": 1715044999,
+      "score": 1,
+      "link_id": "t3_1clc2to",
+      "parent_id": "t1_l2t717f"
+    },
+    {
+      "id": "kzntnhi",
+      "body": "Vermögensstür gits bereits und chönt mer easy um paar witeri Progressionsstufe ergänze. Het de Vorteil das mers jedes Jahr zahlt und das es kei Rolle spielt weli Generation das s Geld grad het. Mer chan si au nöd umgah mit kurze Umzugs Tricks, und es belastet d Familie nöd no zuesätzlich inere Situation wo bereits schwer isch. S git au s Problem nöd das mer d Stüre nöd chan zahle wenn d Erbschaft nöd flüssig isch und zB en grosse Aateil vonere Firma oder türi Maschine sind.\n\nMit ere höchere Vermögensstür chönti mer fair ali Lüt bestüre unabhängig devo wies zu irem Riichtum cho sind. Mer chönti denn au d Sonderstüre abschaffe zB de Eigemietwert für die mit Wohnige, oder d Lottogwünnstür für wenn de Jackpot >1 Million isch, aso halt eifach immer det wo e bestimmti Erfolgsart bestraft wird während zB Kapitalgwünn und Kryptogwünn wos chli komplizierter isch bereits hüt stürfrei sind. Das hilft denn au das zB unnötigs Risiko nöd belohnt wird.\n\nSchlussendlich machtses au für de Staat planbarer wenn eifach jedes Jahr ungfähr glichzitig inechunt anstatt wenns münd hoffe das riichi Lüt sterbed das es wider Stüre git. Isch bits en weirde conflict of interest mit ere Erbschaftsstür.\n\nVo de Zahle chan mers denn ja so tune das es ungfähr gluch vil bringt insgesamt über d Jahre verteilt.",
+      "author": "etan1",
+      "subreddit": "BUENZLI",
+      "created_utc": 1713178786,
+      "score": 1,
+      "link_id": "t3_1c47ld3",
+      "parent_id": "t3_1c47ld3"
+    },
+    {
+      "id": "kwb9n2g",
+      "body": "If you generated it after Capella (Withdrawals), its valud still. If you generated it before, it no longer works",
+      "author": "etan1",
+      "subreddit": "ethstaker",
+      "created_utc": 1711267078,
+      "score": 2,
+      "link_id": "t3_1blmr6m",
+      "parent_id": "t1_kw6htn4"
+    },
+    {
+      "id": "kwb9k4s",
+      "body": "Dencun introduced perpetually valid exit messages. You can sign one now and broadcast it at any time in the future to exit.",
+      "author": "etan1",
+      "subreddit": "ethstaker",
+      "created_utc": 1711267013,
+      "score": 3,
+      "link_id": "t3_1blmr6m",
+      "parent_id": "t1_kw9s11o"
+    },
+    {
+      "id": "kuxtvf3",
+      "body": "the email needs to be re-verified on each login",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1710472137,
+      "score": 1,
+      "link_id": "t3_1benklr",
+      "parent_id": "t3_1benklr"
+    },
+    {
+      "id": "ku2ltoo",
+      "body": "No, the withdrawal request only puts you into an exit queue. Until that one is passed, you have to continue validating.",
+      "author": "etan1",
+      "subreddit": "ethstaker",
+      "created_utc": 1709993529,
+      "score": 4,
+      "link_id": "t3_1b9wj2m",
+      "parent_id": "t3_1b9wj2m"
+    },
+    {
+      "id": "ku29id4",
+      "body": "Every app with full photos access still has seen the picture of the seed phrase.",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1709987693,
+      "score": 1,
+      "link_id": "t3_1ba5t2j",
+      "parent_id": "t1_ku12wlr"
+    },
+    {
+      "id": "ku291h3",
+      "body": "Apple indeed designed a protocol to follow regulations in a privacy preserving way, if mandated to do so. There was some testing in some beta versions, but such a feature has never shipped in a final iOS release. \n\nFurthermore, the feature was limited specifically to photos that are uploaded to iCloud. Instead of the server scanning the photos like done by other platforms, the phone would do the scan locally as part of the upload process and attach an encrypted proof about the scanning algorithm’s verdict. The proof was encrypted in a way that it can only be inspected by Apple if large quantities of positively matched content were uploaded. \n\nThe claim that they could randomly scan other app data doesnt make sense. Apple doesnt know how other apps encode their app-specific data. In any case, the “feature” got cancelled, and they found a way to do a 180 and release end-to-end encrypted photos storage without any scanning in place.\n\nWhat is also being offered is an API that apps can use to scan an image for NSFW content, to blur an image, for example. That API is used, eg, to blur random images from strangers that AirDrop photos to your phone via Bluetooth. You can still receive them if you choose so.",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1709987437,
+      "score": 2,
+      "link_id": "t3_1ba5t2j",
+      "parent_id": "t1_ku1x0sd"
+    },
+    {
+      "id": "ku27vwp",
+      "body": "If the user opts in to Advanced Data Protection in their settings, user data cannot be recovered except through a recovery key or approved trusted contact.\n\nThere are a few exceptions, e.g., iCloud Mail, which prefers interoperability with the common standard protocols over encryption, and is comparable with other mainstream mail providers. All the secure ones require desicated apps. But photos? They offer end-to-end encryption for iCloud storage.",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1709986783,
+      "score": 5,
+      "link_id": "t3_1ba5t2j",
+      "parent_id": "t1_ku1h7vo"
+    },
+    {
+      "id": "ku2761t",
+      "body": "It is how any trusted entity works, though. They have the power to unilaterally change the rules. One software update or exploited oversight is enough to just upload a copy of someone’s keys. That’s why trust is also required, beyond the pure encryption claims.\n\nBut no, they claim to only keep a backup of the keys for users who choose to do so, for convenience reasons of forgetting passcodes and so on, as well as for the icloud.com web access. End-to-end encryption can be turned on in Settings > Apple ID > iCloud > Advanced Data Protection.",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1709986374,
+      "score": 2,
+      "link_id": "t3_1ba5t2j",
+      "parent_id": "t1_ku1ov14"
+    },
+    {
+      "id": "ku26j7r",
+      "body": "End-to-end encryption is opt-in, it defaults to off.\n\nSettings > Apple ID > iCloud > Advanced Data Protection",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1709986001,
+      "score": 12,
+      "link_id": "t3_1ba5t2j",
+      "parent_id": "t1_ku0cbzg"
+    },
+    {
+      "id": "kta4ur7",
+      "body": "Who receives the capital gains?\n\nFTX has more assets than nevessary to cover all claims 100%. In Mtgox they replaced the bankruptcy process with a civil rehabilitation process when that happens so that the gains beyond that also get distributed among creditors. That is in Japan though and is a slow process. Is there a similar process in the US to ensure investors and IRS claim get subordinated and the excess from capital gains also goes to creditors?",
+      "author": "etan1",
+      "subreddit": "ftx",
+      "created_utc": 1709549987,
+      "score": 1,
+      "link_id": "t3_1b5v73i",
+      "parent_id": "t1_kt9tl7d"
+    },
+    {
+      "id": "ksze6un",
+      "body": "ftx.com creditors can claim, US creditors cannot",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1709373424,
+      "score": 1,
+      "link_id": "t3_1b2mwb1",
+      "parent_id": "t1_ksze4l5"
+    },
+    {
+      "id": "ksp3s4s",
+      "body": "On the Bahamas bankruptcy, yes. The US bankruptcy has closed accepting claims.",
+      "author": "etan1",
+      "subreddit": "FTXOfficial",
+      "created_utc": 1709216196,
+      "score": 1,
+      "link_id": "t3_1b2mwb1",
+      "parent_id": "t3_1b2mwb1"
+    },
+    {
+      "id": "krfqrce",
+      "body": "Type your Github handle that is linked by the EIP.",
+      "author": "etan1",
+      "subreddit": "ethstaker",
+      "created_utc": 1708516474,
+      "score": 1,
+      "link_id": "t3_1aqp19a",
+      "parent_id": "t1_kqsoy8s"
+    },
+    {
+      "id": "krdprs8",
+      "body": "https://www.tagesanzeiger.ch/ahv-abstimmung-nein-zu-diesem-kurzsichtigen-populismus-129781785020",
+      "author": "etan1",
+      "subreddit": "schwiiz",
+      "created_utc": 1708477253,
+      "score": 4,
+      "link_id": "t3_1avt5di",
+      "parent_id": "t1_krcs06b"
+    },
+    {
+      "id": "kqyxyg8",
+      "body": "Above answer is sarcastic and over exagerrates. The flute is fine, its not like some ultra rare restricted material.\n\nThe three things that I guess could be made into a problem are:\n- Accepting money for playing (work visa)\n- Publishing videos to large audience (journalism visa)\n- Playing nationalistic songs on it related to politically sensitive regions, foreign anthems etc (just, dont)\n\nImport is fine, keep in mind that in China you’ll also have to scan your bags each time for trains and subway (no need to take anything out). Items such as knives and so on you cannot bring there, but flute should be totally fine. If it isn’t, use bus/taxi.",
+      "author": "etan1",
+      "subreddit": "chinalife",
+      "created_utc": 1708249064,
+      "score": 5,
+      "link_id": "t3_1atolyv",
+      "parent_id": "t1_kqypq4i"
+    },
+    {
+      "id": "kjn4m21",
+      "body": "You can, its just beers only for you",
+      "author": "etan1",
+      "subreddit": "ethz",
+      "created_utc": 1706267366,
+      "score": 1,
+      "link_id": "t3_19fjtv4",
+      "parent_id": "t1_kjmknsh"
+    },
+    {
+      "id": "kjn4erl",
+      "body": "Advantage: out early / you gain 1-2 more years of salaries at your highest level to the end\n\nDisadvantages:\n- Social factors, mostly; making friends may be more daunting, but the relative gap shrinks over time.\n- If you are Swiss, military may want you during exam season; can be moved repeatedly by getting a confirmation from the studies administration\n- If you need to play games to stay awake in low oxygen rooms, poker is ideal as it only distracts you for a second at a time. But real money poker unlocks later so you are stuck with play money.\n\nAll-in-all, upsides outweigh downsides. Early gap year without income, don’t think it’s worth. ETH requires effort in the first year, after that the filter happens and it becomes chill.",
+      "author": "etan1",
+      "subreddit": "ethz",
+      "created_utc": 1706267227,
+      "score": 11,
+      "link_id": "t3_19fjtv4",
+      "parent_id": "t3_19fjtv4"
+    },
+    {
+      "id": "kjci4uk",
+      "body": "Exits are possible without finalization. But, point taken, if everyone tries to exit to avoid getting slashed, the exit queue would likely be very long, leading to large inactivity leak.\n\nThe other point still stands, that what happened to Besu/Nethermind/Reth recently with valid block incorrectly classified as invalid, this condition cannot happen with Geth because such a block would be orphaned.\n\nThe other condition, invalid block being incorrectly classified as valid, that one did not happen yet, and is the big problem, moreso than any individual validator’s balance.",
+      "author": "etan1",
+      "subreddit": "rocketpool",
+      "created_utc": 1706103196,
+      "score": 1,
+      "link_id": "t3_19dot2f",
+      "parent_id": "t1_kj88mai"
+    },
+    {
+      "id": "kj7mwzt",
+      "body": "No. If Geth incorrectly flags a block as “invalid”, because Geth has such a high install base, such a block would simply not get enough attestations to ever become part of the chain. So, while Geth would incorrectly reject a block, it cannot get stuck syncing.\n\nWith Nethermind / Besu few weeks back, the problem was that they treated a block as invalid while everyone else (including the large Geth majority) voted to include it to the chain. As Nethermind cannot correctly process the block, and the block was finalized as being part of the chain, it could not sync past it, getting stuck.\n\nWhat _can_ in theory, happen, though, is the opposite. Namely, Geth having a bug where they incorrectly flag an actually invalid block as “valid”. In that situation, due to their large majority install base, validators would vote in favor of that bad block, finalizing it as being part of the chain. That is a situation that never happened for any client (yet). If it would happen, the chain would split into the branch that is followed by Geth, and another branch that is followed by all other clients. The branch that is followed by all other clients could not finalize, though, because it lacks majority votes. Geth validators could choose to exit, though, and re-enter as a new validator. In any case, a big mess would occur.\n\nIn any case, using a minority client is better for the network. This is especially true for the execution client, because Geth has such a large majority there. On consensus side, Prysm/Lighthouse are the big ones.\n\nYou can only lose all your ETH is you get slashed while many others also get slashed at the same time.",
+      "author": "etan1",
+      "subreddit": "rocketpool",
+      "created_utc": 1706026687,
+      "score": 3,
+      "link_id": "t3_19dot2f",
+      "parent_id": "t3_19dot2f"
+    },
+    {
+      "id": "kj7kiq2",
+      "body": "The problem being addressed here is if someone records you typing in the pin, then steals the phone. \n\nWithout stolen device protection the thief can get full access with the passcode alone, the face ID can be replaced with someone else’s, Apple ID password can be changed and so on. With stolen device protection, there is no more passcode fallback, and changing face ID either requires waiting for 1hr or being at home.",
+      "author": "etan1",
+      "subreddit": "ios",
+      "created_utc": 1706025865,
+      "score": 2,
+      "link_id": "t3_19dgs3z",
+      "parent_id": "t1_kj603r2"
+    },
+    {
+      "id": "kj7jpuz",
+      "body": "The change is that it no longer falls back to the pin while not at home.",
+      "author": "etan1",
+      "subreddit": "ios",
+      "created_utc": 1706025586,
+      "score": 6,
+      "link_id": "t3_19dgs3z",
+      "parent_id": "t1_kj7fal7"
+    },
+    {
+      "id": "kj0ss7p",
+      "body": "Hence, the early payout option. It will happen :-) Hopefully",
+      "author": "etan1",
+      "subreddit": "mtgoxinsolvency",
+      "created_utc": 1705918091,
+      "score": 3,
+      "link_id": "t3_19ck51n",
+      "parent_id": "t1_kj0spy4"
+    },
+    {
+      "id": "kj0rsjh",
+      "body": "Financial incentives are in lawyers favor, the easy money made with scratching goes away when the job is done.\n\nIt’s still better than FTX where there was no hack, but they plan to cap payouts at ~10$/SOL even though all SOL is still available, stealing capital gains from creditors just to collect more money for investors, lawyers and a foreign government’s tax agency.\n\nIn MtGox, this was one of the reasons why it got prolonged, because the previous bankruptcy process had a 100% jpy limit (at valuation at time of bankruptcy). to prevent the extra to go to investors / karpeles and others, it got restarted as civil rehabilitation. On top of that there was the CoinLab lawsuit dragging on forever.\n\nAnyhow, hoping that payments happen this year without more screwups…",
+      "author": "etan1",
+      "subreddit": "mtgoxinsolvency",
+      "created_utc": 1705917340,
+      "score": 2,
+      "link_id": "t3_19ck51n",
+      "parent_id": "t1_kj0r71o"
+    },
+    {
+      "id": "kivihnx",
+      "body": "Maybe with the latest Besu or Geth in path-based storage mode. But 8 GB RAM may not be enough any more.\n\nAs for the disk, 2TB is better, it needs high IOPS and needs to be decently cooled to not throttle. Monitor ssd temps with smartctl.\n\nRaspi itself can use some overclock as well. There was a guide on old rocketpool guide, use archive to find.\n\nIf you insist on the raspi, the only problem is the EL. You can totally run a BN on the raspi, or also just a VC / web3signer. So that if your main machine with the open ports gets hacked that the validator key is physically separated.\n\nAs for EL, Besu works with 8GB but used to be very slow for processing blocks. They worked on improving that, maybe it is barely enough now. Geth used to work as well, bur may have trouble getting in sync; the path-based storage (PBS) should make it much faster as well, so maybe Geth works again. Nethermind/Erigon need 16GB RAM so dont work. Reth/Nimbus I havent tried.\n\nWould recommend a rock pi 5, it is much more powerful than the raspi, has NVMe SSD, 16 GB RAM, much more powerful CPU and so on.",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1705835210,
+      "score": 1,
+      "link_id": "t3_19bsuze",
+      "parent_id": "t3_19bsuze"
+    },
+    {
+      "id": "kikm7m0",
+      "body": "https://archive.ph/2024.01.19-105640/https://aviation-safety.net/wikibase/349997",
+      "author": "etan1",
+      "subreddit": "WTF",
+      "created_utc": 1705661927,
+      "score": 49,
+      "link_id": "t3_19aeif8",
+      "parent_id": "t1_kikcdeb"
+    },
+    {
+      "id": "khwj4hh",
+      "body": "They can open a merchant account in Alipay, relatively easily. Then you can pay through that.\n\nDirect transfer to personal account doesnt work. Receiving money also doesnt work as foreigner without CN bank account.",
+      "author": "etan1",
+      "subreddit": "chinalife",
+      "created_utc": 1705282606,
+      "score": 2,
+      "link_id": "t3_196l048",
+      "parent_id": "t1_khvs9ji"
+    },
+    {
+      "id": "khwhsf0",
+      "body": "no. \n\nthe balances are stored by others. you only hold a key that unlocks your account. the key is on your trezor; you need it to spend your balance. if you lose the key, the balance is still there but cannot be spent anymore. others can still send crypto to your address, and you can still import the address into metamask. you only need the trezor to spend crypto.\n\nthe seed phrase is a backup of the key. if your trezor breaks you can buy a new one and restore the key from your seed phrase. the balances are still stored by others, you regain full access to your accounts.\n\nif you dont take care of your seed phrase, e.g., you held it into a camera or put it in a place where someone else can see it, or you typed it into a digital device other than the trezor, then someone else can also restore the key, and they also have full access then. this includes access to all crypto sent to your trezor in the future.\n\nI recommend sending a small amount of crypto to the trezor. then, factory reset the trezor, and restore it from the seed phrase. it helps with understanding, and also ensures that you can read your handwriting :-)\n\nAlso, only trust the trezor display. Some websites claim that they give you something for free, but then ask the trezor to drain your wallet instead. the trezor always shows you the real effect of a transaction. always look at what you are approving on the trezor.\n\nAnd, you can set up multiple accounts on a trezor, and have multiple trezors. Just in case there is a mistake and one account gets stolen by accident.",
+      "author": "etan1",
+      "subreddit": "ethereum",
+      "created_utc": 1705282086,
+      "score": 1,
+      "link_id": "t3_196pkya",
+      "parent_id": "t1_khvbspm"
+    },
+    {
+      "id": "kh9sg0s",
+      "body": "https://www.sec.gov/files/rules/sro/nysearca/2024/34-99306.pdf",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704923937,
+      "score": 1,
+      "link_id": "t3_193inem",
+      "parent_id": "t3_193inem"
+    },
+    {
+      "id": "kgiddhj",
+      "body": "Beaconcha.in mobile app shows total rewards",
+      "author": "etan1",
+      "subreddit": "rocketpool",
+      "created_utc": 1704498469,
+      "score": 2,
+      "link_id": "t3_18z7zeq",
+      "parent_id": "t3_18z7zeq"
+    },
+    {
+      "id": "kgeboc3",
+      "body": "Registration involves a background check to have them deem you a low-risk traveller. There is still a security check but its more light-weight. Background check has to be repeated every couple years to keep low-risk status.",
+      "author": "etan1",
+      "subreddit": "assholedesign",
+      "created_utc": 1704434951,
+      "score": 112,
+      "link_id": "t3_18ytciw",
+      "parent_id": "t1_kge6vr8"
+    },
+    {
+      "id": "kgb9pho",
+      "body": "If you can choose, there are treadmills that support GymKit. The Apple watch can connect to those for the more accurate distance readings. For indoor runs, it can’t reliably measure those otherwise as it cannot check the distance via GPS.",
+      "author": "etan1",
+      "subreddit": "AppleWatch",
+      "created_utc": 1704392976,
+      "score": 1,
+      "link_id": "t3_18xrqff",
+      "parent_id": "t3_18xrqff"
+    },
+    {
+      "id": "kfwilt6",
+      "body": "MtGox was in Japan, different law. And they didn’t sell the customer’s crypto.\n\nWe’ll see :-)",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704152764,
+      "score": 1,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kfvm54m"
+    },
+    {
+      "id": "kfwi7ts",
+      "body": "It would make sense, if there wouldnt be a cap of 100%.\n\nIf everyone had stablecoin —> there’s not enough money to cover it, so all claims would be scaled down and you would simply receive a percentage of what’s left.\n\nIf everyone had crypto —> there’s enough to cover everyone at bear market bottom, but the profits that they made from capital gains would not be payed out.\n\nIt’s the asymmetry that’s problematic.",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704152612,
+      "score": 1,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kfurzwl"
+    },
+    {
+      "id": "kfu7pnm",
+      "body": "Not sure about the legitimacy of the various balance sheets. But yes, even if its not the whole coin, what’s left of FTX should still be given back to customers.\n\nSolana went up 10x since the petition date that they are basing the debt on. What happens to that profit, if customers are only paid up to 100% of the bottom of the bear market?\n\nWhy FTT at zero instead of at .25? There was no voting rights to FTX, its weird to treat it as an investor share? Token was used for perks, eg., free withdrawals, or higher chance to win IEO, and had value from a percentage from trading value being used for buyback+burn.\n\nAll-in-all, time will tell which plan will be accepted.",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704121807,
+      "score": 1,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kfu6bjt"
+    },
+    {
+      "id": "kftdq5y",
+      "body": "It would be fair, as in, the people who lost money are the ones getting what’s left back.\n\nWhile, the current plan isn’t, because claims are capped to 100% of the bottom of the bear market, so the people making profit are not the customers.\n\nYou can always sell the claim early, btw, it’s not untouchable. claims-market etc",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704102159,
+      "score": 3,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kftd7ne"
+    },
+    {
+      "id": "kft9fn6",
+      "body": "There are additional markdowns on some coins to lower it even below those prices",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704098681,
+      "score": 1,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kft6ydv"
+    },
+    {
+      "id": "kft9dfa",
+      "body": "If it would have continued to crash it wouldnt matter, everyone would just get a lower percentage, e.g., if 80% of value is gone, receive 20%. The problem with the proposed plan is that it is capped at a 100% payout, so there are non-creditors making a large amount of money because of the price appretiation, effectively stealing from creditors the profit that they would have had if they simply patched the Alameda special treatment and reopened the exchange.",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704098629,
+      "score": 3,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kft55p3"
+    },
+    {
+      "id": "kft965k",
+      "body": "Excess of the debt should also go to creditors, not to investors. They havent sold crypto at that rate, so valuing Solana at 10% of its real value doesnt make sense if the claim is limited to a 100% payout.",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704098460,
+      "score": 3,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kft1csl"
+    },
+    {
+      "id": "kft8zb5",
+      "body": "It’s not the same.\n\n- Many coins are not just valued at the bottom of the bear market, but receive additional markdown.\n- The FTX claims are limited to a 100% payout of the bottom of the bear market, while there is much more money available. On MtGox all excess goes to creditors, nothing goes to investors. Every MtGox customer made > 10x profit, despite there having been a hack that deleted 80% of the BTC. In case of FTX, there was no hack and most money is still around thanks to some Alameda investments such as Anthropic.\n- In Celsius, CEL got valued at ~0.25, while here they propose to value FTT at ~0.\n- KYC is stricter in case of FTX, if not doing it in a short period after the next request to do so, the claim becomes worthless.\n\nOverall, its weird that FTX is treated completely different than CEL",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704098304,
+      "score": 12,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kft75hr"
+    },
+    {
+      "id": "kft8mpk",
+      "body": "When the same situation happened on MtGox, where everyone could have been made whole according to the original price, the entire process got replaced by “civil rehabilitation” to make sure that investors dont get paid and customers receive the profits from the excess.\n\nHoping the situation here can be done similarly. Despite MtGox being a slow process, the plans were much more fair for customers than what is being proposed here for FTX.",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704098020,
+      "score": 15,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kft4vdw"
+    },
+    {
+      "id": "kft8evx",
+      "body": "Also, they havent actually sold the crypto at that price.\n\nIt could be alright if its like MtGox and the claims are converted to a percentage of the total pot, and everyone making a profit because they get a 1.5x of the claim. But, they explicitly limit claims to 100% of the amount, so that orhers can get more money.\n\nIt’s also funny that they value stablecoins at 100%, wasnt there the Alameda thing who stole the money? How can the money for stablecoin still be around, but Solana where they still have locked coins for a couple year is valued at -90%?",
+      "author": "etan1",
+      "subreddit": "CryptoCurrency",
+      "created_utc": 1704097837,
+      "score": 16,
+      "link_id": "t3_18vqua8",
+      "parent_id": "t1_kft3xbn"
+    }
+  ]
+}

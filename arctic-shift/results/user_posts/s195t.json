@@ -1,0 +1,161 @@
+{
+  "username": "s195t",
+  "posts": [
+    {
+      "id": "1d5st6t",
+      "title": "Petsc Solver with Matrix Free approach and custom preconditioner",
+      "author": "s195t",
+      "subreddit": "CFD",
+      "created_utc": 1717264833,
+      "score": 7,
+      "num_comments": 3,
+      "selftext": "Dear everyone, \nI hope this post is okay for the sub\n\nI have a rather specific question on Petsc that I could not find anywhere online\n\nEspecially I am trying to setup a KSP solver for the poisson equation, using a matrix free approach, gmres and a custom multigrid preconditioner (which in the past has been used as a solver as well)\n\nI am having some trouble understanding how Petsc works in that regard: \n\n- I do create the matrix correctly and it can be solved correctly by KSPGMRES on quite some iteration\n- I do create a new shell preconditioner, that spins by himself solves Ax=b very well, in fact the preconditioned vector y that is the result of the preconditioning could already be used as x\n- For some reason KSPGMRES does something that I do not understand with the result of the preconditioning and instead of converging almost immediately it goes on for 3/4 iterations, reaching a worse solution than the preconditioned field in itself. \n\nDoes anybody here have some resources or any experience in this? I am struggling to understand how to do the wiring properly",
+      "url": "https://www.reddit.com/r/CFD/comments/1d5st6t/petsc_solver_with_matrix_free_approach_and_custom/"
+    },
+    {
+      "id": "1c9y475",
+      "title": "Student groups to join",
+      "author": "s195t",
+      "subreddit": "mit",
+      "created_utc": 1713748275,
+      "score": 11,
+      "num_comments": 6,
+      "selftext": "Hi everyone, \nI just arrived at mit as a visiting student and was looking forward to join some student groups\n\nIs it possible that not all the groups are listed under engage.mit.edu? A lot of the ones that were particularly interesting to me do not appear to exist anymore\n\nIn particularly I was looking for something in these direction:\n- beginner friendly Climbing\n- computing group (or computer animation)\n- quant finance/hft (caltech had one, so I was wondering if it exists here too)\n\nAny hint or further cool clubs to join are super appreciated :) \n\nThank you",
+      "url": "https://www.reddit.com/r/mit/comments/1c9y475/student_groups_to_join/"
+    },
+    {
+      "id": "1brihdk",
+      "title": "Living at MIT as a visiting student",
+      "author": "s195t",
+      "subreddit": "mit",
+      "created_utc": 1711807020,
+      "score": 11,
+      "num_comments": 4,
+      "selftext": "Hi everybody, \n\nI recently came to MIT as a visiting student from abroad and I have some questions regarding living here…\n\nI am in grad housing, currently with no meal plan (afaik not a good deal)\n\n- Where do people usually eat during the weekends? \n\n- Supermarkets seem relatively far away from campus. Is instacart a viable option?\n\n- Is there a building with usable showers? Unfortunately I joined an apartment where the previous and current occupant refuses to clean anything and relies on the (monthly? Bi-monthly? professional cleaning of the hall). The bathroom (shower included) is absolutely disgusting and unusable, is there anything I can do?\n\nThank you everybody ",
+      "url": "https://www.reddit.com/r/mit/comments/1brihdk/living_at_mit_as_a_visiting_student/"
+    },
+    {
+      "id": "1bafd5h",
+      "title": "CS/CSE PhD labs ",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1709982531,
+      "score": 7,
+      "num_comments": 6,
+      "selftext": "Hi everyone, \n\nI wanted to apply at the CSE Lab with Prof. Koumoutsakos but since they moved to Harvard, I am struggling to find an equivalent lab within ETH. \n\nComing from Mavt, we do not really have a proper overview of the Infk labs, especially in regards of lab culture.\n\nI’m mostly interested on HPC and numerical methods, but I do not have a proper research question to answer so I’m looking around for what could be interesting.\n\nFor now the most similar labs I could find are the ones from Prof. Hiptmair and Prof. Hoefler, I also found some not so positive reviews for some labs\n\nIf anybody had any further suggestions or feedback, I’d be thankful ",
+      "url": "https://www.reddit.com/r/ethz/comments/1bafd5h/cscse_phd_labs/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lxkljmw",
+      "body": "Chiederei un invito anch’io se possibile, grazie in anticipo! :)",
+      "author": "s195t",
+      "subreddit": "Vouchere",
+      "created_utc": 1731836671,
+      "score": 1,
+      "link_id": "t3_1epwbv0",
+      "parent_id": "t1_lxc6pwp"
+    },
+    {
+      "id": "l77cu2c",
+      "body": "The semester project in mavt is very much graded and there are good and bad grades, hard to fail though if you put minimal effort in it",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1717587610,
+      "score": 4,
+      "link_id": "t3_1d8ibsv",
+      "parent_id": "t1_l76rc50"
+    },
+    {
+      "id": "l6ym4gk",
+      "body": "Afaik, you don’t have unconditional access to the CS master. Looking at gradcafe it might be really hard to beat the competition considering your application will be in the same batch as everybody else from ETH/outside…\n\nIf you plan on doing cs, I’d recommend switching now, you can switch readily even during the first weeks but the earlier the better",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1717444997,
+      "score": 3,
+      "link_id": "t3_1d7bkyy",
+      "parent_id": "t3_1d7bkyy"
+    },
+    {
+      "id": "l6u6cvb",
+      "body": "Thank you kind stranger, switching to KSPGGMRES solved the problem immediately!\n\nDo you have any hints why this could be the case? I mean the preconditioner is a multigrid with a linear solver on the coarsest level, so I was expecting it to work with the normal KSPGMRES",
+      "author": "s195t",
+      "subreddit": "CFD",
+      "created_utc": 1717371926,
+      "score": 2,
+      "link_id": "t3_1d5st6t",
+      "parent_id": "t1_l6rraa3"
+    },
+    {
+      "id": "kz3g6ph",
+      "body": "Well, I think you are right. \nI would still consider coding simulations as a form of practical work, eg. the projects in advanced cfd. \n\nBut I guess what OP is looking for is more towards the Innovationsprojekt, where you actually design and build something. Which is very practical indeed but is a really small part of the bsc. The rest is very much centered on the physics of things and there is not much you can do to avoid it (in the bsc).\n\nProbably what I would do then is sign up to cs and try to get in a project outside the studies like amz and aris",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1712851979,
+      "score": 1,
+      "link_id": "t3_1c0lmon",
+      "parent_id": "t1_kz3dhs0"
+    },
+    {
+      "id": "kyxk3dv",
+      "body": "I might be wrong but if you see yourself doing CS and Mech why don’t try CSE (Computational Science and Engineering)?\n\nThere are a lot of shared courses from Mech and CS, so you could probably pick what you like from both",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1712762020,
+      "score": 4,
+      "link_id": "t3_1c0lmon",
+      "parent_id": "t3_1c0lmon"
+    },
+    {
+      "id": "kydb3wr",
+      "body": "Mileage might vary, but in amz you can expect easily to put 1 to 3 days depending on how hard your task is and how much you want to be involved\n\nFor the work that is usually done you should refer to the website to see what work packages are available, they probably will be there next season too\n\nIf something interests you deeply, you should be able to contact the responsible person from the email you find on the website",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1712433999,
+      "score": 1,
+      "link_id": "t3_1bxc9pf",
+      "parent_id": "t3_1bxc9pf"
+    },
+    {
+      "id": "kwncv0p",
+      "body": "UCLA will probably give you better student life, the facilities are amazing, however it’s expensive if you don’t have the California resident reduction. It’s a completely different experience\n\nETH more competitiveness if you want to work in EU\n\nIf you have already been at ETH I’d go to UCLA, and vice versa. The more experiences you have the better it is in my opinion…",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1711464444,
+      "score": 10,
+      "link_id": "t3_1bo7g7x",
+      "parent_id": "t3_1bo7g7x"
+    },
+    {
+      "id": "ku3ihnv",
+      "body": "This is really good to know, thank you! \nI was just a bit worried because he’s under D-Math, but his work looks super interesting",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1710005260,
+      "score": 1,
+      "link_id": "t3_1bafd5h",
+      "parent_id": "t1_ku3gbcv"
+    },
+    {
+      "id": "ku3g04h",
+      "body": "Thank you so much! I’ve heard about him, also that his lab has been very competitive to join since he won the prize",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1710004446,
+      "score": 1,
+      "link_id": "t3_1bafd5h",
+      "parent_id": "t1_ku3b3od"
+    },
+    {
+      "id": "ku243zu",
+      "body": "Oh cool! Thank you, I’ll have a look.",
+      "author": "s195t",
+      "subreddit": "ethz",
+      "created_utc": 1709984513,
+      "score": 1,
+      "link_id": "t3_1bafd5h",
+      "parent_id": "t1_ku231ac"
+    }
+  ]
+}

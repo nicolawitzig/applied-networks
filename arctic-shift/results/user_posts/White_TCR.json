@@ -1,0 +1,665 @@
+{
+  "username": "White_TCR",
+  "posts": [
+    {
+      "id": "1gu1289",
+      "title": "UNRAID server build - Overkill or justified?",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731922421,
+      "score": 17,
+      "num_comments": 51,
+      "selftext": "Hey everyone!\n\nI am planning a home server build. Feedback on whether this configuration is appropriate and if there are any potential issues or areas for improvement would be greatly appreciated:\n\n* **Case:** Fractal Design Define 7 Black Solid (ATX, mATX, Mini ITX, E-ATX compatible) - $184.59\n* **CPU:** Intel Core i9-12900KS Special Edition (LGA 1700, 3.40 GHz, 16-Core) - $311.18\n* **CPU Cooler:** Peerless Assassin 140 - $38.00\n* **Motherboard:** ASRock Z790 Pro RS (LGA 1700, Intel Z790, ATX) - $201.34\n* **RAM:** Kingston FURY Beast (2 x 32GB, 5200 MHz, DDR5 RAM, DIMM) - $164.05\n* **PSU:** Corsair RM750x (750W) - $127.89\n* **GPU:** Zotac GAMING GEFORCE RTX 4060 Ti (16GB) - $452.30\n\nI am based in Switzerland, so I sadly don't have access to Microcenter/similar deals.\n\nThe usage I plan for this server are the following:\n\n* Unraid NAS/file server\n* Jellyfin media server (using integrated graphics for transcoding)\n* Windows 11 VM (gaming, photo editing, general Windows applications)\n* Ubuntu Server VM (general tinkering and experimentation)\n* I am interested in AI, I didn't get into self hosted AI models yet, but I would love to learn more\n\nThank you for your feedback. The i9 costs about 70 dollars more than an i5 13500, do you think that extra cost of the i9 is worth it? ",
+      "url": "https://www.reddit.com/r/unRAID/comments/1gu1289/unraid_server_build_overkill_or_justified/"
+    },
+    {
+      "id": "1dpmgqc",
+      "title": "Setup help, use managed switch as media converter?",
+      "author": "White_TCR",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1719477676,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "I have a fiber cable coming directly from my ISP (no ONT required) and need to set up my home network. I'm planning to use:\n\n- A managed switch with SFP port\n- A computer running pfSense as my router/firewall\n\nMy ISP requires VLAN 10 for the connection. I have an SFP module from my old FritzBox.\n\nQuestions:\n1. Can I plug the fiber directly into my switch's SFP port and then connect the switch to pfSense?\n2. Can I reuse the SFP module from my FritzBox, or should I buy a new one?\n3. Any advice on configuring this setup? Let’s say sfp port is nr 6 and I’ll connect the firewall to port nr 5, should I put both of them in a tagged vlan 10?\n\nThe connection used to work well with a media converter, but I read online that using it is highly discouraged, so I plan to get a managed switch for increased reliability. ",
+      "url": "https://www.reddit.com/r/HomeNetworking/comments/1dpmgqc/setup_help_use_managed_switch_as_media_converter/"
+    },
+    {
+      "id": "1dpmfw7",
+      "title": "Setup help, use managed switch as media converter?",
+      "author": "White_TCR",
+      "subreddit": "networking",
+      "created_utc": 1719477575,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/networking/comments/1dpmfw7/setup_help_use_managed_switch_as_media_converter/"
+    },
+    {
+      "id": "1dpmem7",
+      "title": "Setup help, use managed switch as media converter?",
+      "author": "White_TCR",
+      "subreddit": "PFSENSE",
+      "created_utc": 1719477411,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "I have a fiber cable coming directly from my ISP (no ONT required) and need to set up my home network. I'm planning to use:\n\n- A managed switch with SFP port\n- A computer running pfSense as my router/firewall\n\nMy ISP requires VLAN 10 for the connection. I have an SFP module from my old FritzBox.\n\nQuestions:\n1. Can I plug the fiber directly into my switch's SFP port and then connect the switch to pfSense?\n2. Can I reuse the SFP module from my FritzBox, or should I buy a new one?\n3. Any advice on configuring this setup? Let’s say sfp port is nr 6 and I’ll connect the firewall to port nr 5, should I put both of them in a tagged vlan 10?\n\nThe connection used to work well with a media converter, but I read online that using it is highly discouraged, so I plan to get a managed switch for increased reliability. \n",
+      "url": "https://www.reddit.com/r/PFSENSE/comments/1dpmem7/setup_help_use_managed_switch_as_media_converter/"
+    },
+    {
+      "id": "1c18frr",
+      "title": "[W] Drunkenslug invite",
+      "author": "White_TCR",
+      "subreddit": "UsenetInvites",
+      "created_utc": 1712817987,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/UsenetInvites/comments/1c18frr/w_drunkenslug_invite/"
+    },
+    {
+      "id": "1b7wzsp",
+      "title": "Connect client to two peers at the same time",
+      "author": "White_TCR",
+      "subreddit": "WireGuard",
+      "created_utc": 1709722941,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi there! I'm currently in the process of trying to connect my client to  two different servers over wireguard. The idea is that I want to  connect to both of them at the same time, so that I don't need to turn  on and off the connections. I'm struggling to make a single .conf file  out of server1.conf and server2.conf. Could some of you give me a hint  on how I could do it? These are my current configurations:\n\n[https://paste.ee/p/yUhjb](https://paste.ee/p/yUhjb)",
+      "url": "https://www.reddit.com/r/WireGuard/comments/1b7wzsp/connect_client_to_two_peers_at_the_same_time/"
+    },
+    {
+      "id": "1adzrrw",
+      "title": "Wireguard capped at around 500 mbps on gigabit network",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706546776,
+      "score": 6,
+      "num_comments": 15,
+      "selftext": "I've been trying all day to understand why I can't get over 500 mbps while connected on my unRAID server over wireguard. The unRAID server has a symmetrical 1 gbps connection and the client has a 1 gbps down/100 mbps up connection. When I try to download a big file using SMB from my client, there is a hard cap at about this speed.\n\nThings I tried:\n\n\\- tried Tailscale, as it's using Wireguard the result is the same, maybe slightly less. \n\n\\- played with MTU settings -> didn't seem to make a difference, I tried to go from 1320 to 1420 without huge gains/changes\n\n\\- tried to enable/disable SMB multichannel, didn't make a difference\n\n\\- iperf3 somehow caps at 10 MB/s which is around 80 mbps, even when I set it with the -R flag (this means that my server actually sends data to the client, I expect this to be full gigabit). Here are the results of the iperf3 test both with and without -R.\n\n\\- this iperf3 result confuses me because I am able to download files at 500 mbps from the server and it's not capped at 85 mbps as the iperf3 test shows.\n\niperf3.exe -c [192.168.178.73](https://192.168.178.73)\n\nConnecting to host [192.168.178.73](https://192.168.178.73), port 5201\n\n\\[  4\\] local [10.253.0.2](https://10.253.0.2) port 50836 connected to [192.168.178.73](https://192.168.178.73) port 5201\n\n\\[ ID\\] Interval           Transfer     Bandwidth\n\n\\[  4\\]   0.00-1.00   sec  8.12 MBytes  68.0 Mbits/sec\n\n\\[  4\\]   1.00-2.01   sec  8.25 MBytes  68.7 Mbits/sec\n\n\\[  4\\]   2.01-3.00   sec  9.00 MBytes  75.9 Mbits/sec\n\n\\[  4\\]   3.00-4.01   sec  9.62 MBytes  80.5 Mbits/sec\n\n\\[  4\\]   4.01-5.01   sec  8.75 MBytes  73.3 Mbits/sec\n\n\\[  4\\]   5.01-6.01   sec  9.25 MBytes  77.4 Mbits/sec\n\n\\[  4\\]   6.01-7.02   sec  8.50 MBytes  71.0 Mbits/sec\n\n\\[  4\\]   7.02-8.00   sec  8.50 MBytes  72.1 Mbits/sec\n\n\\[  4\\]   8.00-9.00   sec  8.25 MBytes  69.5 Mbits/sec\n\n\\[  4\\]   9.00-10.00  sec  10.9 MBytes  91.2 Mbits/sec\n\n\\- - - - - - - - - - - - - - - - - - - - - - - - -\n\n\\[ ID\\] Interval           Transfer     Bandwidth\n\n\\[  4\\]   0.00-10.00  sec  89.1 MBytes  74.8 Mbits/sec                  sender\n\n\\[  4\\]   0.00-10.00  sec  89.1 MBytes  74.8 Mbits/sec                  receiver\n\n&#x200B;\n\nand \n\niperf3.exe -c [192.168.178.73](https://192.168.178.73) \\-R\n\nConnecting to host [192.168.178.73](https://192.168.178.73), port 5201\n\nReverse mode, remote host [192.168.178.73](https://192.168.178.73) is sending\n\n\\[  4\\] local [10.253.0.2](https://10.253.0.2) port 50838 connected to [192.168.178.73](https://192.168.178.73) port 5201\n\n\\[ ID\\] Interval           Transfer     Bandwidth\n\n\\[  4\\]   0.00-1.00   sec  9.38 MBytes  78.7 Mbits/sec\n\n\\[  4\\]   1.00-2.00   sec  9.72 MBytes  81.4 Mbits/sec\n\n\\[  4\\]   2.00-3.00   sec  10.0 MBytes  84.0 Mbits/sec\n\n\\[  4\\]   3.00-4.00   sec  10.1 MBytes  84.7 Mbits/sec\n\n\\[  4\\]   4.00-5.00   sec  10.4 MBytes  87.4 Mbits/sec\n\n\\[  4\\]   5.00-6.00   sec  10.2 MBytes  85.2 Mbits/sec\n\n\\[  4\\]   6.00-7.00   sec  9.83 MBytes  82.5 Mbits/sec\n\n\\[  4\\]   7.00-8.00   sec  10.0 MBytes  84.1 Mbits/sec\n\n\\[  4\\]   8.00-9.00   sec  10.0 MBytes  84.2 Mbits/sec\n\n\\[  4\\]   9.00-10.00  sec  10.4 MBytes  87.6 Mbits/sec\n\n\\- - - - - - - - - - - - - - - - - - - - - - - - -\n\n\\[ ID\\] Interval           Transfer     Bandwidth       Retr\n\n\\[  4\\]   0.00-10.00  sec   101 MBytes  85.1 Mbits/sec    0             sender\n\n\\[  4\\]   0.00-10.00  sec   100 MBytes  84.2 Mbits/sec                  receiver\n\n&#x200B;\n\nThank you very much for any kind help or tip!",
+      "url": "https://www.reddit.com/r/unRAID/comments/1adzrrw/wireguard_capped_at_around_500_mbps_on_gigabit/"
+    },
+    {
+      "id": "1943if1",
+      "title": "Mistake with cheap nvme",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704984755,
+      "score": 1,
+      "num_comments": 23,
+      "selftext": "I bought (I admit without much research) two Kingspec NX series 1 tb nvme drives to use as cache with my unRAID server because I could save a decent amount of money on them (around 50-60 bucks compared to a name brand).\nNow I read online that those ssd are very low quality and fail after a couple of months. I don't really need help, I just feel like a did a mistake and feel bad about it :(",
+      "url": "https://www.reddit.com/r/unRAID/comments/1943if1/mistake_with_cheap_nvme/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3sivyl",
+      "body": "That worked! Thank you kind redditor!",
+      "author": "White_TCR",
+      "subreddit": "OpenMediaVault",
+      "created_utc": 1735164560,
+      "score": 2,
+      "link_id": "t3_1da79r5",
+      "parent_id": "t3_1da79r5"
+    },
+    {
+      "id": "m02sctj",
+      "body": "I got checked last week as well. They wanted me to rescan EVERYTHING. I always pretty much do the same grocery shopping each week and use Supercard, I don’t know why this time it triggered.",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733165780,
+      "score": 5,
+      "link_id": "t3_1h51pmi",
+      "parent_id": "t3_1h51pmi"
+    },
+    {
+      "id": "lzwlbif",
+      "body": "Just tried, it works! Wow",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1733076817,
+      "score": 1,
+      "link_id": "t3_1h463qd",
+      "parent_id": "t1_lzwitnu"
+    },
+    {
+      "id": "lzvxuap",
+      "body": "I know, I just installed the SFTPgo docker and now use SFTP. I like it because it’s very snappy even over VPN",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1733069436,
+      "score": 1,
+      "link_id": "t3_1h463qd",
+      "parent_id": "t1_lzvwyj5"
+    },
+    {
+      "id": "lzvw2t8",
+      "body": "I had the same issue, I just gave up..",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1733068846,
+      "score": 0,
+      "link_id": "t3_1h463qd",
+      "parent_id": "t3_1h463qd"
+    },
+    {
+      "id": "lyjyvt8",
+      "body": "I had the same problem with a “normal” hammer drill. Get a new SDS drill with some Bosch professional concrete SDS drill bits and it will feel like you’re drilling through butter",
+      "author": "White_TCR",
+      "subreddit": "basel",
+      "created_utc": 1732353326,
+      "score": 6,
+      "link_id": "t3_1gxtko9",
+      "parent_id": "t3_1gxtko9"
+    },
+    {
+      "id": "lxrh9gc",
+      "body": "Thank you very much for your answer! What you're saying indeed makes sense. I was trying to put \"all eggs in one basket\" because I am still leaving in a 1 room apartment and I barely have space for 1 mid size case. The idea was coming because I could have \"everything\" in a small package while still being powerful and moderately power efficient.\n\nI read somewhere that idle cpu consumption is very similar across the whole 12th gen cpu line. That's why I was choosing the i9",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731941608,
+      "score": 2,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxrejfp"
+    },
+    {
+      "id": "lxrgw62",
+      "body": "Hey there! Thank you for your inputs. I was under the impression that idle power consumption would be pretty much the same across modern 12th gen intel cpus, that's why I was more prone to get an i9.",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731941478,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxrcbqx"
+    },
+    {
+      "id": "lxr2ksd",
+      "body": "Yeah I agree that heat could definetely be a limiting factor. I was planning to undervolt a little the cpu as well to help with the heat. The i9 13900k is 550 USD were I live, which is way more than the 300 USD of the 12th gen.",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731936025,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxr1uey"
+    },
+    {
+      "id": "lxr11ku",
+      "body": "Thank you for your suggestion! I'll definetely look into WD RED nvme's for my third nvme drive",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731935380,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqzvzo"
+    },
+    {
+      "id": "lxr0yxx",
+      "body": "Yes, but I'm based in Switzerland, no idea about the prices where you are at.",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731935349,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqxxdw"
+    },
+    {
+      "id": "lxqvdi3",
+      "body": "Makes a lot of sense! Thank you again :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731932804,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqpvpq"
+    },
+    {
+      "id": "lxqmy79",
+      "body": "Hey there! Thank you so much for your detailed answer, I really appreciate the time you took to write it all out. \n\nThe only reason I chose the KS version is only because it's around 40 usd cheaper here in Switzerland. I plan to undervolt it a little bit as well, to optimize temperatures and power consumption (electricity here is expensive, around .40 usd/kwh. \n\nThe suggestion about the rams is super valid, I'll adapt it and get the sweet spot of 6000 mhz cl30. I'll check out a more powerful PSU as well, hoping it wouldn't sacrifice idle power efficiency too much.\n\nI already have two 1tb nvme drives that I currently use in a mirrored cache. I thought about getting the third nvme drive to use on the Windows VM instead, to optimize the performance. I feel like my use of the Windows VM would be more heavy than unpacking iso's on Sabnzbd. \n\nThank you again for the time and the feedback!",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731928243,
+      "score": 4,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqm448"
+    },
+    {
+      "id": "lxqlsbt",
+      "body": "Good to hear! Did you try undervolting? Thank you for your answer",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731927519,
+      "score": 2,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqkq40"
+    },
+    {
+      "id": "lxqja3n",
+      "body": "That's a beast configuration! Now I want even MORE. You're not helping my cause :))",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731925928,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqiqm3"
+    },
+    {
+      "id": "lxqj7en",
+      "body": "Being able to \"hold\" them in the define 7 shouldn't be an issue, since it can accomodate even more hdds in its storage configuration (i think 12 or so). Do you think it's more of a hdds temperature issue?",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731925881,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqj0l5"
+    },
+    {
+      "id": "lxqiv06",
+      "body": "I already have 4x12tb wd red plus, 2x1tb nvme ssd for cache. Long term (in the next 3-5 years), i plan to add 2 more 3.5\" hdds. I might add another nvme ssd for vm operations. Thank you for your input :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731925659,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqii14"
+    },
+    {
+      "id": "lxqhym9",
+      "body": "Hey there! Thank you so much for the link! I'll check it out and make a final decision :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731925079,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqg5m2"
+    },
+    {
+      "id": "lxqfpng",
+      "body": "Thank you for your answer dear Redditor, I was thinking of going \"big\" for the Windows VM and get the best performance possible on Lightroom and for occasional gaming.",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1731923593,
+      "score": 1,
+      "link_id": "t3_1gu1289",
+      "parent_id": "t1_lxqfcye"
+    },
+    {
+      "id": "lt0c6xl",
+      "body": "I'm using a cheap and generic switch from aliexpress, this is the name of it: LIANGUO 2.5GbE Smart Managed Switch 4 Port 2500M Network 10G SFP+Slot Web Managed Static Link Aggregation Homelab Setup Switch.\n\nFritz module is GPON",
+      "author": "White_TCR",
+      "subreddit": "PFSENSE",
+      "created_utc": 1729520367,
+      "score": 1,
+      "link_id": "t3_1dpmem7",
+      "parent_id": "t1_lt0bgq5"
+    },
+    {
+      "id": "lt0b18m",
+      "body": "Hey there! It actually worked with the SFP module that I got with my Fritzbox, so I didn't have to buy an extra SFP module. I setup like this: \n\n1. Switch:  \n- Port 6 (SFP to ISP): Tagged VLAN 10  \n- Port 4 (to pfSense): Tagged VLAN 10  \n  \n2. pfSense:  \n- WAN port: Configured for VLAN 10 (tagged)",
+      "author": "White_TCR",
+      "subreddit": "PFSENSE",
+      "created_utc": 1729519976,
+      "score": 1,
+      "link_id": "t3_1dpmem7",
+      "parent_id": "t1_lt0ahbk"
+    },
+    {
+      "id": "lk0rjsm",
+      "body": "I totally get what you mean, and even though lump sum performs better over long periods of time, I feel like having the peace of mind of DCA is worth it especially in the beginning and if you feel unreasonably stressed about it.",
+      "author": "White_TCR",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1724683923,
+      "score": 12,
+      "link_id": "t3_1f1pwgj",
+      "parent_id": "t3_1f1pwgj"
+    },
+    {
+      "id": "ljvsvgd",
+      "body": "The currency of the ETF is traded at is not important, the underlying assets are USD anyways",
+      "author": "White_TCR",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1724605600,
+      "score": 12,
+      "link_id": "t3_1f10xx3",
+      "parent_id": "t3_1f10xx3"
+    },
+    {
+      "id": "lhvzmdy",
+      "body": "I have AC just in my living room and my workstation is in my bedroom upstairs. I connect to it via sunshine/moonlight and work on my laptop while being downstairs. It’s a bit of a compromise but it’s okay overall",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723544515,
+      "score": 1,
+      "link_id": "t3_1eqwxm2",
+      "parent_id": "t3_1eqwxm2"
+    },
+    {
+      "id": "lfejd4i",
+      "body": "How can you get access to Claude's API as an individual? Last time I tried I got stuck because I would need to enter business details",
+      "author": "White_TCR",
+      "subreddit": "ClaudeAI",
+      "created_utc": 1722205763,
+      "score": 2,
+      "link_id": "t3_1edzfnr",
+      "parent_id": "t1_lfd0h2r"
+    },
+    {
+      "id": "latibmz",
+      "body": "Hi there, I am suffering as well, currently 27.8 degrees and 62% humidity. You’re definitely not alone :)",
+      "author": "White_TCR",
+      "subreddit": "Switzerland",
+      "created_utc": 1719661445,
+      "score": 3,
+      "link_id": "t3_1dr8b4e",
+      "parent_id": "t3_1dr8b4e"
+    },
+    {
+      "id": "laqwvuv",
+      "body": "It worked out in the end! Thank you for taking your time and commenting!",
+      "author": "White_TCR",
+      "subreddit": "PFSENSE",
+      "created_utc": 1719612905,
+      "score": 1,
+      "link_id": "t3_1dpmem7",
+      "parent_id": "t1_lai39r6"
+    },
+    {
+      "id": "l86v2wg",
+      "body": "Wingo still has issues in very crowded trains, I think Swisscom just reserves the bandwidth for their premium customers",
+      "author": "White_TCR",
+      "subreddit": "Switzerland",
+      "created_utc": 1718147052,
+      "score": 3,
+      "link_id": "t3_1ddjcq2",
+      "parent_id": "t1_l85ilda"
+    },
+    {
+      "id": "kznc0r0",
+      "body": "Invite received. Thank you kind Redditor!",
+      "author": "White_TCR",
+      "subreddit": "UsenetInvites",
+      "created_utc": 1713165955,
+      "score": 2,
+      "link_id": "t3_1c4fpkm",
+      "parent_id": "t1_kznbbbh"
+    },
+    {
+      "id": "kznarnn",
+      "body": "I would love an invite :) I have read and understood the Wiki",
+      "author": "White_TCR",
+      "subreddit": "UsenetInvites",
+      "created_utc": 1713165042,
+      "score": 1,
+      "link_id": "t3_1c4fpkm",
+      "parent_id": "t3_1c4fpkm"
+    },
+    {
+      "id": "ky5gf9i",
+      "body": "Thank you kind Redditor, good luck with your apartment search!",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712313414,
+      "score": 1,
+      "link_id": "t3_1bvjijr",
+      "parent_id": "t1_ky5drtl"
+    },
+    {
+      "id": "ky5dacg",
+      "body": "You got it, they actually own me quite a bit of money.. Emailed them 4-5 times and always got elusive answers. “Yeah, it’s coming next month. Oh, yes, end 2023 you’ll get it”. \nThey’re quick af to send me a rent increase tho :)",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712311367,
+      "score": 1,
+      "link_id": "t3_1bvjijr",
+      "parent_id": "t1_ky5cfhh"
+    },
+    {
+      "id": "ky51kjj",
+      "body": "WinCasa is an absolute joke. Don’t be too mad about eventually not getting the apartment with them. I’m so frustrated, still waiting for my Nebenkostenabrechnung since late 2021..",
+      "author": "White_TCR",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712302877,
+      "score": 2,
+      "link_id": "t3_1bvjijr",
+      "parent_id": "t3_1bvjijr"
+    },
+    {
+      "id": "kxv3j68",
+      "body": "6.12.8 was solid. good call to wait it out",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1712157169,
+      "score": 1,
+      "link_id": "t3_1budtmj",
+      "parent_id": "t1_kxv2xa5"
+    },
+    {
+      "id": "kxv17kg",
+      "body": "Yes I get the same exact error message in the log. I saw there is a new rc version to download that should fix it. Did you try it yourself?",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1712156387,
+      "score": 1,
+      "link_id": "t3_1budtmj",
+      "parent_id": "t1_kxtv6nt"
+    },
+    {
+      "id": "kxtb2na",
+      "body": "Can confirm. Some of my remote smb mounts miss some folders. No issues if I mount them as NFS. Definitely something wrong here",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1712122308,
+      "score": 2,
+      "link_id": "t3_1budtmj",
+      "parent_id": "t1_kxs1vw0"
+    },
+    {
+      "id": "kwxtcqb",
+      "body": "Happy I could help! Wish you a nice day :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1711625181,
+      "score": 5,
+      "link_id": "t3_1bpsggx",
+      "parent_id": "t1_kwxta99"
+    },
+    {
+      "id": "kwxsahh",
+      "body": "Look in the share options if there is a “minimum free space” to set",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1711624585,
+      "score": 16,
+      "link_id": "t3_1bpsggx",
+      "parent_id": "t3_1bpsggx"
+    },
+    {
+      "id": "kwcv2gx",
+      "body": "I’m very happy with Kaffeemacher, they have both stores and an online shop",
+      "author": "White_TCR",
+      "subreddit": "basel",
+      "created_utc": 1711297500,
+      "score": 7,
+      "link_id": "t3_1bmnod6",
+      "parent_id": "t3_1bmnod6"
+    },
+    {
+      "id": "kuicyeo",
+      "body": "Open it up, clean it and replace the thermal paste with a Honeywell ptm 7950 thermal pad",
+      "author": "White_TCR",
+      "subreddit": "MatebookXPro",
+      "created_utc": 1710245284,
+      "score": 1,
+      "link_id": "t3_1bcbsb1",
+      "parent_id": "t3_1bcbsb1"
+    },
+    {
+      "id": "kuc6gpf",
+      "body": "Thank you! Still works!",
+      "author": "White_TCR",
+      "subreddit": "usenet",
+      "created_utc": 1710142437,
+      "score": 6,
+      "link_id": "t3_1bbts9p",
+      "parent_id": "t3_1bbts9p"
+    },
+    {
+      "id": "kskhb8j",
+      "body": "Absolutely love the active development Immich is seeing! Amazing product and community!",
+      "author": "White_TCR",
+      "subreddit": "immich",
+      "created_utc": 1709143501,
+      "score": 7,
+      "link_id": "t3_1b2a2ul",
+      "parent_id": "t3_1b2a2ul"
+    },
+    {
+      "id": "kq3v5rv",
+      "body": "Format it to EXT4 and enable delayed allocation for ext4. The only drawback is that in case the system loses power you may lose the data you’re writing. You can enable this option just for the first (longer) backup and then disable it again. It’s massively quicker this way",
+      "author": "White_TCR",
+      "subreddit": "synology",
+      "created_utc": 1707758656,
+      "score": 1,
+      "link_id": "t3_1aocn5c",
+      "parent_id": "t1_kq3ujcq"
+    },
+    {
+      "id": "kq2ts18",
+      "body": "What’s the file system of the HDD you connected to the usb port?",
+      "author": "White_TCR",
+      "subreddit": "synology",
+      "created_utc": 1707744072,
+      "score": 1,
+      "link_id": "t3_1aocn5c",
+      "parent_id": "t3_1aocn5c"
+    },
+    {
+      "id": "kk4rj8z",
+      "body": "On local network I get the full 112 MB/s speed. Is there anything else I could test? Thank you for stopping by and helping me out :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706549691,
+      "score": 1,
+      "link_id": "t3_1adzrrw",
+      "parent_id": "t1_kk4qp87"
+    },
+    {
+      "id": "kk4nyxo",
+      "body": "I get what you mean, I am now transfering a file right in front of me and the max I see is around 65% on core 2. Do you think this could still be the culprit?",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706548515,
+      "score": 2,
+      "link_id": "t3_1adzrrw",
+      "parent_id": "t1_kk4nl67"
+    },
+    {
+      "id": "kk4mrf9",
+      "body": "During the file transfer the cpu stays at around 20-30% load and there is no high usage of a single core. As far as I know, people have been able to get gigabit wireguard speeds out of a N5105. Thank you anyway for trying to help me out!",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1706548116,
+      "score": 3,
+      "link_id": "t3_1adzrrw",
+      "parent_id": "t1_kk4lx9c"
+    },
+    {
+      "id": "kicjmm5",
+      "body": "Caran d'Ache 849 ballpoint with blue M size Goliath refill. It's a pleasure to use and it's refillable",
+      "author": "White_TCR",
+      "subreddit": "ethz",
+      "created_utc": 1705530149,
+      "score": 1,
+      "link_id": "t3_1992ya1",
+      "parent_id": "t3_1992ya1"
+    },
+    {
+      "id": "khl6eqs",
+      "body": "Yep, pretty pleased with it :)",
+      "author": "White_TCR",
+      "subreddit": "HomeServer",
+      "created_utc": 1705099596,
+      "score": 1,
+      "link_id": "t3_18zgee8",
+      "parent_id": "t1_khl5fbh"
+    },
+    {
+      "id": "khl070t",
+      "body": "I bought a Node 304 :)",
+      "author": "White_TCR",
+      "subreddit": "HomeServer",
+      "created_utc": 1705097355,
+      "score": 1,
+      "link_id": "t3_18zgee8",
+      "parent_id": "t1_khl01as"
+    },
+    {
+      "id": "khf5vwr",
+      "body": "Hey there, thank you for sharing your experience and for calming me down. I guess I'll learn from my mistake and just accept if one of the drives will fail prematurely.",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1705007724,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdj2nl"
+    },
+    {
+      "id": "khdfjwq",
+      "body": "Thank you for your kind support :)",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986834,
+      "score": 2,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdfdpw"
+    },
+    {
+      "id": "khdfchi",
+      "body": "I'll build my server next week and update you with a comment. Thank you for telling me your experience with nvme cache",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986760,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdf37z"
+    },
+    {
+      "id": "khdf7tg",
+      "body": "Absolutely, I'll keep that in mind next time",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986713,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdei1y"
+    },
+    {
+      "id": "khdf6p3",
+      "body": "Yes cache drives",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704986702,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdcvr2"
+    },
+    {
+      "id": "khdc928",
+      "body": "Sadly no, they come from China so the return would definitely outweigh the initial cost :(",
+      "author": "White_TCR",
+      "subreddit": "unRAID",
+      "created_utc": 1704985638,
+      "score": 1,
+      "link_id": "t3_1943if1",
+      "parent_id": "t1_khdc5yf"
+    },
+    {
+      "id": "kgicnxo",
+      "body": "I got one too, should be at my place on Monday! Super excited to see how it will be :)",
+      "author": "White_TCR",
+      "subreddit": "HomeServer",
+      "created_utc": 1704498201,
+      "score": 3,
+      "link_id": "t3_18zgee8",
+      "parent_id": "t3_18zgee8"
+    }
+  ]
+}

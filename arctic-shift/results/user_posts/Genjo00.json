@@ -1,0 +1,99 @@
+{
+  "username": "Genjo00",
+  "posts": [
+    {
+      "id": "1h6h93v",
+      "title": "Does anyone have any experience with Niagara Data Interfaces?",
+      "author": "Genjo00",
+      "subreddit": "unrealengine",
+      "created_utc": 1733322381,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hello, I'm trying to implement my own NDI to visualize Gaussian Splat. I followed the instructions from [this article](https://medium.com/xrlo-extended-reality-lowdown/how-we-wrote-a-gpu-based-gaussian-splats-viewer-in-unreal-with-niagara-7457f6f0f640) and I think everything is fine on the C++ side. However, now I am trying to use the functions I added in Blueprint in a new Niagara System, but I can't figure this out. \n\nThank you for any advice you can give me",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1h6h93v/does_anyone_have_any_experience_with_niagara_data/"
+    },
+    {
+      "id": "1g1w676",
+      "title": "Animating Gaussian Splats",
+      "author": "Genjo00",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728724098,
+      "score": 8,
+      "num_comments": 9,
+      "selftext": "Hello,\n\nI'm working on a project at my university lab, about approaches to animating GS in Unreal Engine 5.0. Is there any plugin you can recommend me that allows real-time modifications of the gaussian splat? (Preferably open-source, but anything you can help me with would be useful)",
+      "url": "https://www.reddit.com/r/GaussianSplatting/comments/1g1w676/animating_gaussian_splats/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lvvgq6f",
+      "body": "Some extensions of editors handling GS also include some working splats, I guess for learning purposes. For example, GSOPs includes some ply files  [here](https://github.com/david-rhodes/GSOPs/tree/develop/hip/splats).",
+      "author": "Genjo00",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1730973806,
+      "score": 1,
+      "link_id": "t3_1gl789m",
+      "parent_id": "t3_1gl789m"
+    },
+    {
+      "id": "lrovxle",
+      "body": "I'll look into this, thanks",
+      "author": "Genjo00",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728806868,
+      "score": 1,
+      "link_id": "t3_1g1w676",
+      "parent_id": "t1_lrl8cle"
+    },
+    {
+      "id": "lrovo07",
+      "body": "Right now I'm doing this by directly editing the .ply file, but obviously that's far from ideal",
+      "author": "Genjo00",
+      "subreddit": "GaussianSplatting",
+      "created_utc": 1728806681,
+      "score": 1,
+      "link_id": "t3_1g1w676",
+      "parent_id": "t1_lrjmip8"
+    },
+    {
+      "id": "kyqucmy",
+      "body": "A friend of mine programmed a formal verifier for this kind of problem, maybe It could help you. [Here](https://www.reddit.com/r/technicalfactorio/s/yK5lYlayoG) is a link to his post",
+      "author": "Genjo00",
+      "subreddit": "factorio",
+      "created_utc": 1712654929,
+      "score": 2,
+      "link_id": "t3_1bzl3gy",
+      "parent_id": "t3_1bzl3gy"
+    },
+    {
+      "id": "kr0n8u7",
+      "body": "Probably it was a multiple choice test with no negative points, and they adjusted the grading scheme to account for the expected number of points one would get guessing every answer",
+      "author": "Genjo00",
+      "subreddit": "ethz",
+      "created_utc": 1708278778,
+      "score": 1,
+      "link_id": "t3_1asygep",
+      "parent_id": "t3_1asygep"
+    },
+    {
+      "id": "koa857r",
+      "body": "I really want to hate this, but It looks so good",
+      "author": "Genjo00",
+      "subreddit": "factorio",
+      "created_utc": 1706710937,
+      "score": 4,
+      "link_id": "t3_1afek7y",
+      "parent_id": "t3_1afek7y"
+    },
+    {
+      "id": "kglv7ha",
+      "body": "Ci sono delle leggi riguardo il contrabbando di veicoli che potrebbero applicarsi, ma non penso. Per quanto ne so, è solo vietato che qualcuno che ha residenza stabile in Italia guidi un'auto svizzera in italia ([fonte](https://www.ansa.it/canale_motori/notizie/attualita/2020/07/04/fisco-auto-svizzere-usate-da-italiani-7-sequestri-a-como_157359d2-7c4a-4d35-a4ee-dc9726e38685.html)), ma nel tuo caso non dovresti avere problemi",
+      "author": "Genjo00",
+      "subreddit": "Ticino",
+      "created_utc": 1704561938,
+      "score": 1,
+      "link_id": "t3_18zwm7a",
+      "parent_id": "t3_18zwm7a"
+    }
+  ]
+}

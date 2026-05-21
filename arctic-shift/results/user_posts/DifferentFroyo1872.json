@@ -1,0 +1,26 @@
+{
+  "username": "DifferentFroyo1872",
+  "posts": [],
+  "comments": [
+    {
+      "id": "ku7rqql",
+      "body": "I work in Embedded for 1.5 years now. When I started, I also made some of these courses on Udemy, but I would not recommand any of them.\n\nIt really depends on what your company is using. There are companies which use almost only the ST HAL im their project. And there are companies that dont use it at all.\n\nIf your are going to use the HAL (which I would highly recommand), I would really recommand you the book from Carmine Noviello (the second edtion). Everything you need to start is in there. And it also covers the more advanced topics. There are also some Youtube Videos that can help you to set up your first project.\n\nMy recommandations:\n1. Read the book from Noviello.\n2. Make an example project for every topic you are trying to learn.\n3. Learn how to read the Reference Manual of the Mcu you are using. This is a very important skill. Read quickly over the chapter you are doing the example project about.\n4. Learn how to read the ST HAL Manual for the chip. This will help you if you need to do something that is not covered in the book of Noviello",
+      "author": "DifferentFroyo1872",
+      "subreddit": "embedded",
+      "created_utc": 1710076627,
+      "score": 1,
+      "link_id": "t3_1b7ntkc",
+      "parent_id": "t3_1b7ntkc"
+    },
+    {
+      "id": "ku27ssr",
+      "body": "I think it will be very difficult. Currently, the job market is very difficult. I have friends with engineering masters from Ethz which struggle to find a job currently. If you come with only a bachelor (from eth, from FH its a different story) you are for sure second choice anyway.\n\nI have a master from Mavt as well and I also thought about quiting after my bachelor, to do something completly different.\n\nIf you are sick of studying, I would recommand you to do an internship for 6 months. Or even a year. You need it anyway for the master. If you are lucky, they offer you a job afterwards. But after 6 months in industry, Im almost sure you will be motivated to go back to study again.\n\nIn general, I would highly recommand to do the master. Its way easier than the bachelor! So much less stress! If you find a good company, you can do your semester thesis and the master thesis at the company, which feels then kind of regular work.\n\nIf you are in industry, you will see that many projects and a lot of the work is quite retarted. Having a master gives you a good reason to argue why you should be given the interesting work and why you should be in charge to make the technical desicions.\n\nI did not regret making the master.",
+      "author": "DifferentFroyo1872",
+      "subreddit": "ethz",
+      "created_utc": 1709986736,
+      "score": 1,
+      "link_id": "t3_1b5q0sk",
+      "parent_id": "t3_1b5q0sk"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "username": "MiekoOnReddit",
+  "posts": [
+    {
+      "id": "1gmr98x",
+      "title": "Why pub(crate)",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1731095207,
+      "score": 2,
+      "num_comments": 16,
+      "selftext": "Why not `pub(workspace)`? \n\nIt seems like it would align better with the general rule that the default option is always the stricter one (immutable by default, private by default etc.).",
+      "url": "https://www.reddit.com/r/rust/comments/1gmr98x/why_pubcrate/"
+    },
+    {
+      "id": "1ahqsgk",
+      "title": "Preparing for courses in advance",
+      "author": "MiekoOnReddit",
+      "subreddit": "ethz",
+      "created_utc": 1706946150,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "I plan on applying for MSc in Computer Science this year. As an international student (correct me if I'm wrong) I would need to apply in November/December this year to begin my studies in September 2025.\n\nAs I am going to graduate this summer, I will be left with a year and a half long gap. I thought about the best way to use the time left after applying and preparing for the courses in advance doesn't sound like a bad idea, seeing as how challenging everyone makes them out to be. \n\nSo is there a way for someone who isn't a student to access the materials which are used in CS MSc?",
+      "url": "https://www.reddit.com/r/ethz/comments/1ahqsgk/preparing_for_courses_in_advance/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m17xyou",
+      "body": "Optimization requires changing the instructions to the more optimal ones, hence the name. The functionality must remain the same, however but compilers are also programs and ~~all~~ most programs have bugs.",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1733764497,
+      "score": 12,
+      "link_id": "t3_1haee0n",
+      "parent_id": "t1_m17xfo7"
+    },
+    {
+      "id": "lw58i0b",
+      "body": "That is a very interesting point, it never even crossed my mind. Also, now I want to learn more about Huffman coding. 😁 Thank you!",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1731100098,
+      "score": 1,
+      "link_id": "t3_1gmr98x",
+      "parent_id": "t1_lw56pyb"
+    },
+    {
+      "id": "lw4y91w",
+      "body": "Right, sort of. This came across my mind because I was trying to make things public in the project that I work on and was going for the strict approach (make everything only public in its crate and only make the necessary things public outside of the crate too) so I got tired of having to type pub(crate) all the time. 😅",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1731096984,
+      "score": 1,
+      "link_id": "t3_1gmr98x",
+      "parent_id": "t1_lw4xj7y"
+    },
+    {
+      "id": "lw4x8oc",
+      "body": "That is okay! What I was referring to is when you have a workspace with multiple crates, you must specify explicitly that something is public only in its own crate (`pub(crate)`). Just using `pub` makes it public to anyone which is default and less strict.",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1731096674,
+      "score": 1,
+      "link_id": "t3_1gmr98x",
+      "parent_id": "t1_lw4wqxf"
+    },
+    {
+      "id": "lw4uvvl",
+      "body": "Indeed, but is not the default which I found conflicting with other use cases (such as immutable by default). However, another person said that there is no concept of workspace level privacy in Rust so my question is rendered invalid.",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1731095952,
+      "score": 3,
+      "link_id": "t3_1gmr98x",
+      "parent_id": "t1_lw4u8vu"
+    },
+    {
+      "id": "lw4u2dc",
+      "body": "Ah, that makes sense. Thank you!",
+      "author": "MiekoOnReddit",
+      "subreddit": "rust",
+      "created_utc": 1731095704,
+      "score": 6,
+      "link_id": "t3_1gmr98x",
+      "parent_id": "t1_lw4tpdf"
+    },
+    {
+      "id": "lublbhc",
+      "body": "Programiranje u edukacione svrhe je vrlo korisno, čak i ako ista stvar već postoji kao gotova biblioteka, framework ili u ovom slučaju game engine. Mnogo bolje ćeš razumeti kako te stvari funkcionišu ispod haube, a verovatno ćeš bolje moći i da iskoristiš na primer Unity kada imaš svo to znanje.",
+      "author": "MiekoOnReddit",
+      "subreddit": "programiranje",
+      "created_utc": 1730193522,
+      "score": 4,
+      "link_id": "t3_1gdf046",
+      "parent_id": "t1_lub2ri9"
+    },
+    {
+      "id": "lon9jzb",
+      "body": "Alacritty",
+      "author": "MiekoOnReddit",
+      "subreddit": "programiranje",
+      "created_utc": 1727154062,
+      "score": 2,
+      "link_id": "t3_1fo0cfq",
+      "parent_id": "t3_1fo0cfq"
+    },
+    {
+      "id": "lohulb1",
+      "body": "Zbog čega je blokiran rektorat?",
+      "author": "MiekoOnReddit",
+      "subreddit": "serbia",
+      "created_utc": 1727079497,
+      "score": 9,
+      "link_id": "t3_1fncimo",
+      "parent_id": "t3_1fncimo"
+    },
+    {
+      "id": "lohqxrk",
+      "body": "RemindMe! 1 day",
+      "author": "MiekoOnReddit",
+      "subreddit": "csMajors",
+      "created_utc": 1727076856,
+      "score": 1,
+      "link_id": "t3_1fn92qf",
+      "parent_id": "t3_1fn92qf"
+    },
+    {
+      "id": "l95iux6",
+      "body": "Ograničio bih koliko osoba može da potroši novca ma igre na sreću, kockanje i tako dalje. Recimo 5% od mesečnih prihoda.",
+      "author": "MiekoOnReddit",
+      "subreddit": "AskSerbia",
+      "created_utc": 1718718149,
+      "score": 1,
+      "link_id": "t3_1dhulmd",
+      "parent_id": "t3_1dhulmd"
+    },
+    {
+      "id": "l50ckvu",
+      "body": "Pa valjda ti ljudi koji protestuju znaju šta žele umesto onoga što protestuju? Ako pričamo o temi ovog post-a, umesto protestovanja što na listi za glasanje ima samo jedna opcija čini mi se mnogo delotvornije organizovati se i kandidovati kao druga opcija.",
+      "author": "MiekoOnReddit",
+      "subreddit": "serbia",
+      "created_utc": 1716293211,
+      "score": 0,
+      "link_id": "t3_1cx3p1i",
+      "parent_id": "t1_l50bmnu"
+    },
+    {
+      "id": "l50a7z1",
+      "body": "Predlažem da se umesto protesta uradi nešto konkretno. Šetalo se i šetalo i šta je postignuto? Ništa. Ovi samo čekaju da se ljudi umore od šetanja i vrate kućama pa da nastave po svom.",
+      "author": "MiekoOnReddit",
+      "subreddit": "serbia",
+      "created_utc": 1716292022,
+      "score": 7,
+      "link_id": "t3_1cx3p1i",
+      "parent_id": "t1_l509cgc"
+    },
+    {
+      "id": "l1oa2zw",
+      "body": "Another crusade is long overdue.",
+      "author": "MiekoOnReddit",
+      "subreddit": "europe",
+      "created_utc": 1714328493,
+      "score": 1,
+      "link_id": "t3_1cf77h9",
+      "parent_id": "t3_1cf77h9"
+    },
+    {
+      "id": "l0ulw2l",
+      "body": "https://youtu.be/A74TOX803D0?si=nyU983QBatOYK_EE",
+      "author": "MiekoOnReddit",
+      "subreddit": "programiranje",
+      "created_utc": 1713849988,
+      "score": 1,
+      "link_id": "t3_1camg0w",
+      "parent_id": "t3_1camg0w"
+    },
+    {
+      "id": "kwuylmw",
+      "body": "Da krene da ulaže u gradove i mesta na jugu Srbije kao i da podstiče ljude da više naseljavaju taj deo. Ne možemo svi otići u Beograd i Novi Sad i da odatle kukamo kako nam otimaju Kosovo.",
+      "author": "MiekoOnReddit",
+      "subreddit": "serbia",
+      "created_utc": 1711574199,
+      "score": 9,
+      "link_id": "t3_1bp624s",
+      "parent_id": "t1_kwts46m"
+    },
+    {
+      "id": "kozxqmc",
+      "body": "Kada te neko zaposli bez iskustva on ti stvarno izlazi u susret zato što ti prvih nekoliko meseci on tebe plaća i troši sredstva na obuku a ti njemu ne generišeš nikakav prihod. Ako na kraju te obuke ti daš otkaz i odeš sa tim iskustvom koje si stekao da radiš kod nekog drugog, to jeste nezahvalno ali dešava se. Ne kažem da je to ovde slučaj a i Twitter (generalno internet) nije mesto gde se ovako priča o zaposlenima.",
+      "author": "MiekoOnReddit",
+      "subreddit": "serbia",
+      "created_utc": 1707119102,
+      "score": 1,
+      "link_id": "t3_1ainemf",
+      "parent_id": "t1_kovy9ne"
+    },
+    {
+      "id": "kopslci",
+      "body": "I'll look into it, thank you!",
+      "author": "MiekoOnReddit",
+      "subreddit": "ethz",
+      "created_utc": 1706951534,
+      "score": 1,
+      "link_id": "t3_1ahqsgk",
+      "parent_id": "t1_koprzwg"
+    },
+    {
+      "id": "kopsg3x",
+      "body": "Thank you very much!",
+      "author": "MiekoOnReddit",
+      "subreddit": "ethz",
+      "created_utc": 1706951423,
+      "score": 1,
+      "link_id": "t3_1ahqsgk",
+      "parent_id": "t1_kopo0dl"
+    },
+    {
+      "id": "khumyiy",
+      "body": "Pogledaj na internetu malo kako ti poslovi koje bi radio sa smerom koji ti deluje zanimljivo zapravo izgledaju. Često se ono što ljudi misle da neki posao obuhvata dosta razlikuje od onoga što se zapravo radi na tom poslu.\n\nTakođe, ako nisi siguran šta želiš da upišeš, napravi pauzu godinu dana. Nađi neki poslić privremeno, istražuj i daj sebi još malo vremena da shvatiš šta te zanima. Dok si u školi fokusiran si na neke druge stvari i provodiš vreme uglavnom sa svojim vršnjacima koji isto tako (ne mislim ovo u pogrdnom smislu) nemaju pojma o životu. I dok se okreneš, već je vreme da odlučiš čime želiš da se baviš u životu. Ovako ćeš imati prilike da stekneš više iskustva i to van škole, što će ti mnogo značiti eventualno kada budeš upisivao fakultet.",
+      "author": "MiekoOnReddit",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1705258462,
+      "score": 1,
+      "link_id": "t3_195whjw",
+      "parent_id": "t3_195whjw"
+    }
+  ]
+}

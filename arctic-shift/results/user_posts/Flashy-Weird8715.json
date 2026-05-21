@@ -1,0 +1,367 @@
+{
+  "username": "Flashy-Weird8715",
+  "posts": [
+    {
+      "id": "1foh1t8",
+      "title": "Sole proprietorship setup: 44AD or 44ADA",
+      "author": "Flashy-Weird8715",
+      "subreddit": "IndiaTax",
+      "created_utc": 1727196187,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "Scenario: Remote software professional sole proprietor with 55LPA+. (export software services)\n\nI'm new to taxes, and I couldn't find any good CA near my locality & advice me on  this regard.\n\nMy initial understanding was to go with partnership firm with my family so to split income and fall under less tax bracket. later when I asked a CA nearby, he suggested to go with sole proprietor and assured 44AD would apply and only 6% is considered as profit with no books, so ideally i don't have to pay any taxes for the 6% (online).\n\nBut later when I was speaking to someone he mentioned that software services professional category cannot come under 44AD. and also added that even if the case, with 44AD as book will be audited and even though presumptive, one can not simply wrtie 6% and 8%.\n\nnow I'm confused, sharing it here so someone can suggest and later others might find this thread insightful.\n\nI'd like to understand on how I can proceed with this scenario.\n\nside note: I'm based on chennai, if someone knows any CA from chennai please consider sharing :)",
+      "url": "https://www.reddit.com/r/IndiaTax/comments/1foh1t8/sole_proprietorship_setup_44ad_or_44ada/"
+    },
+    {
+      "id": "1enb7p1",
+      "title": "Maelstrom: stress-test your API reliability on concurrent threads, with latency metrics.",
+      "author": "Flashy-Weird8715",
+      "subreddit": "opensource",
+      "created_utc": 1723136372,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Hey Reddit!\n\nI just open-sourced on MIT license a new stress test tool (\"**maelstrom**\"), that was useful to me. It’s lightweight and designed to be efficient for testing API endpoints with configurable parameters. Here are some of its key features:\n\n* **Customizable Parameters**: Set the number of requests, concurrency level, retry limits, and more.\n* **Detailed Logging**: Keep track of HTTP status codes and response times.\n* **Email Notifications**: Get summaries of test results via email (optional).\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Latency Metrics**: Helps understand average latency of APIs\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Multi-threaded by design**: Simulates multi-threaded concurrent requests to API Endpoints\n\nGitHub: [https://github.com/twentyone24/maelstrom](https://github.com/twentyone24/maelstrom)\n\nCheck it out if you’re interested. I’d love to hear any feedback or suggestions!\n\nCheers! Thanks for your time :-)",
+      "url": "https://www.reddit.com/r/opensource/comments/1enb7p1/maelstrom_stresstest_your_api_reliability_on/"
+    },
+    {
+      "id": "1enb73n",
+      "title": "Maelstrom: stress-test your API reliability on concurrent threads, with latency metrics.",
+      "author": "Flashy-Weird8715",
+      "subreddit": "docker",
+      "created_utc": 1723136329,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "Hey Reddit!\n\nI just open-sourced on MIT license a new stress test tool (\"**maelstrom**\"), that was useful to me. It’s lightweight and designed to be efficient for testing API endpoints with configurable parameters. Here are some of its key features:\n\n* **Customizable Parameters**: Set the number of requests, concurrency level, retry limits, and more.\n* **Detailed Logging**: Keep track of HTTP status codes and response times.\n* **Email Notifications**: Get summaries of test results via email (optional).\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Latency Metrics**: Helps understand average latency of APIs\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Multi-threaded by design**: Simulates multi-threaded concurrent requests to API Endpoints\n\nGitHub: [https://github.com/twentyone24/maelstrom](https://github.com/twentyone24/maelstrom)\n\nCheck it out if you’re interested. I’d love to hear any feedback or suggestions!\n\nCheers! Thanks for your time :-)",
+      "url": "https://www.reddit.com/r/docker/comments/1enb73n/maelstrom_stresstest_your_api_reliability_on/"
+    },
+    {
+      "id": "1enb6og",
+      "title": "Maelstrom: stress-test your API reliability on concurrent threads, with latency metrics.",
+      "author": "Flashy-Weird8715",
+      "subreddit": "kubernetes",
+      "created_utc": 1723136299,
+      "score": 4,
+      "num_comments": 5,
+      "selftext": "Hey Reddit!\n\nI just open-sourced on MIT license a new stress test tool (\"**maelstrom**\"), that was useful to me. It’s lightweight and designed to be efficient for testing API endpoints with configurable parameters. Here are some of its key features:\n\n* **Customizable Parameters**: Set the number of requests, concurrency level, retry limits, and more.\n* **Detailed Logging**: Keep track of HTTP status codes and response times.\n* **Email Notifications**: Get summaries of test results via email (optional).\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Latency Metrics**: Helps understand average latency of APIs\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Multi-threaded by design**: Simulates multi-threaded concurrent requests to API Endpoints\n\nGitHub: [https://github.com/twentyone24/maelstrom](https://github.com/twentyone24/maelstrom)\n\nCheck it out if you’re interested. I’d love to hear any feedback or suggestions!\n\nCheers! Thanks for your time :-)",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1enb6og/maelstrom_stresstest_your_api_reliability_on/"
+    },
+    {
+      "id": "1e8gm3b",
+      "title": "Maelstrom: Open-Source Stress Test Script for Your APIs",
+      "author": "Flashy-Weird8715",
+      "subreddit": "commandline",
+      "created_utc": 1721545982,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Hey Reddit!\n\nI just open-sourced on MIT license a new stress test tool (\"**Maelstrom**\"), that was useful to me. It’s lightweight and designed to be efficient for testing API endpoints with configurable parameters. Here are some of its key features:\n\n* **Customizable Parameters**: Set the number of requests, concurrency level, retry limits, and more.\n* **Detailed Logging**: Keep track of HTTP status codes and response times.\n* **Email Notifications**: Get summaries of test results via email (optional).\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Latency Metrics**: Helps understand average latency of APIs\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Multi-threaded by design**: Simulates multi-threaded concurrent requests to API Endpoints\n\nGitHub: [https://github.com/twentyone24/maelstrom](https://github.com/twentyone24/maelstrom)\n\nCheck it out if you’re interested. I’d love to hear any feedback or suggestions!\n\nCheers! Thanks for your time :-)",
+      "url": "https://www.reddit.com/r/commandline/comments/1e8gm3b/maelstrom_opensource_stress_test_script_for_your/"
+    },
+    {
+      "id": "1e8glqo",
+      "title": "Maelstrom: Open-Source Stress Test Tool for Your APIs",
+      "author": "Flashy-Weird8715",
+      "subreddit": "bash",
+      "created_utc": 1721545940,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "Hey Reddit!\n\nI just open-sourced on MIT license a new stress test tool (\"**Maelstrom**\"), that was useful to me. It’s lightweight and designed to be efficient for testing API endpoints with configurable parameters. Here are some of its key features:\n\n* **Customizable Parameters**: Set the number of requests, concurrency level, retry limits, and more.\n* **Detailed Logging**: Keep track of HTTP status codes and response times.\n* **Email Notifications**: Get summaries of test results via email (optional).\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Latency Metrics**: Helps understand average latency of APIs\n* **Graceful Shutdown**: Handles interruptions smoothly.\n* **Multi-threaded by design**: Simulates multi-threaded concurrent requests to API Endpoints\n\nGitHub: [https://github.com/twentyone24/maelstrom](https://github.com/twentyone24/maelstrom)\n\nCheck it out if you’re interested. I’d love to hear any feedback or suggestions!\n\nCheers! Thanks for your time :-)",
+      "url": "https://www.reddit.com/r/bash/comments/1e8glqo/maelstrom_opensource_stress_test_tool_for_your/"
+    },
+    {
+      "id": "1djpfmr",
+      "title": "Problems with Indian real-estate",
+      "author": "Flashy-Weird8715",
+      "subreddit": "india",
+      "created_utc": 1718819594,
+      "score": 76,
+      "num_comments": 11,
+      "selftext": "→ PRS Legislative Research found 8 out of 10 land disputes in India are due to unclear titles.  \n→ The average dispute takes 30 years to resolve according to National Law University, Delhi.  \n  \nAfter doing a few real estate transactions, the things I have noticed are:\n\n1)There is way too much overhead in the form of registration fees, stamp duty, lawyer fees, bribes etc. In any deal, 10% of the price of the property be it land or house goes in covering these overheads. 2-5% brokerage fees are extra. So you could end up paying up to 15% extra in total. If this is an investment for you, your land price must increase by 15% before you breakeven.\n\nEarlier circles rates were very low, so people didn't care as much about these fees but now in many places, circle rates are actually more than the market rates. This can burn a massive hole in your pocket because all fees are a percentage of this.\n\n2) Following up on the previous point....buying below circle rate is problematic even if it's legitimitate. I had to cough up a huge amount of money in advance tax this year because of section 56(2)(X) as I bought a parcel of land 20% below circle rate last year. This is just adding salt to the wound because I already paid all the fees and duties based on circle rate.\n\n3) Real estate brokers will vehemently request you to pay money in cash. Don't pay the circle rate amount in cash no matter what. It's illegal to purchase any immovable property with more than 20k in cash. Sub-registrar should ideally refuse to register the property but they don't check anything and you will get notice from IT dept later. The sale deed itself may be nullified and invalidated in such cases.\n\n4) Check if there is any lien on the land. It's possible the owner may have taken a loan on this. Do not buy this unless and until the land owner clears the loan and gets an NOC for it. The land owner may request you to foot the money required to clear the loan outstanding. If you agree to do this, write down everything in a sale agreement along with the cheque number and get the sale agreement registered with the sub-registrar. Broker may insist on a notarized sale agreement to fool you but you must register it to get legal protection. Since the legal system in India is slow as molasses and agreements can often not be enforced, it's best if you avoid giving any money altogether before registration is done.\n\n5) Once you have paid the token money, ask the seller to produce the original title deed. He should have no objection to it. Do not be satisfied with a Xerox copy. If he has taken a loan on the land from the informal sector such as a local moneylender, there won't be any encumbrance on the land that will show up on official records but he won't be able to produce the original deed.\n\n6) Always verify the plot number of the plot you are being sold. Get the plot map from the tehsil or municipality and either verify it yourself if you know how to read maps or pay some money to the tehsildar or patwari or some other competent authority and take him to the site to get it verified in person. If you are shown one land by broker and then another land is registered in your name, you are done for and there is very little recourse later on.\n\n7) Always check for clear title of the land. Inherited land often has multiple stakeholders. Each stakeholder can individually sell off their share in the land without permission of the other stakeholders. Often the seller will show the best portion of the land to you to make the sale attractive and then the other stakeholders will raise a dispute after sale. Now you are screwed. You can't just take that juicy corner plot with road access and build your house as per your fancy and leave the crappy plots behind for others.\n\nIt should be kept in mind that you will become a joint tenant with all the stakeholders after sale and you will NOT have the right to claim any part of that land as exclusively your own. To mitigate this, there should be a written deed on stamp paper that mentions which portion of the land belongs to which stakeholder and it should be signed by all. Without this document, every stakeholder has equal rights to use all parts of the land equally. In addition, on the day of registration, all stakeholders must be present in the sub-registrar's office so that they don't raise a hue and cry after all is said and done.\n\n8) Get your property mutated as soon as registration is done. Don't dilly dally. Real estate sector in India is a mess as is the record keeping. Sale deeds can easily be falsified and it's not uncommon to find the same land sold to multiple people. Sub-registrar checks nothing before registering a deed. Later you find that multiple people are laying claim to the same piece of land. Indian judiciary will take 30 years to sort out that mess. Unless the property records show your name, the deed is of little value. So get your name mutated into the land records as fast as possible. Pay a little here if you have to in order to fast track it.\n\n9) Always hire a lawyer to do some basic due diligence. It will cost you not more than 5k and he will not only verify the title but also prepare the deed and help with the registration formalities. However, since land records are also available online in most places, you should do your own due diligence too. Whatever you see online is what the lawyer will see too. If the property is not in the seller's name, it should immediately raise a red flag. If it's in his ancestor's name, he should provide you with the succession certificate to proof that he has claim over the property.\n\n10) It's very tough to do a proper title verification when it comes to inherited land. So sit with the seller and try to draw the entire family tree in a visual manner on a plain piece of paper. The family tree should start with the original owner and then branch on to the inheritors. Verify this information with the other inheritors who are still alive (stakeholders). This is to make sure the seller didn't miss out on a brother or sister who may have a claim on that land. Now sit with the lawyer and figure out what percentage share of the land the seller actually has as per the family tree and whether it matches with the seller's claim. If seller claims that some stakeholders have sold their stake to him, ask him to produce the sale deeds and mutation certificates for the same. This is a long and arduous process. Take your time.\n\n11) Before registering and paying for any land, go to the tehsil office and request the ameen (land surveyor) to come to the site and measure the land in his official capacity. Some places may require you to fill up a form for this and submit the requisite fee. It's important you get this done. This is to make sure you are getting the exact measurements and land area seller promised you. Then buy some angles and barbed wires and ring fence the entire plot. Wait for a couple of weeks while you carry out the legal due diligence. If nobody shows up and creates a ruckus, then it's probably all good and you can proceed.\n\n12) Before finalizing a deal, be sure to ask the broker how much he is going to charge. 1-2% is the norm in most places but for small deals, the rate can go up to 4-6%. I got a rude shock when my broker asked for 5% after the registration was done for one of my deals. In another deal, broker didn't take any money, probably because he got his cut from the seller.\n\n13) Last but not the least, check if all land taxes have been paid for and all dues are cleared. Land tax is usually very little in most places, so that's not something you need to be worried about. But still why fork out an extra 10k or 20k later on because the previous owner didn't pay his dues?\n\nBuying land anywhere in India, especially in rural area is tough because the record keeping is so poor. Do as much due diligence as possible and leave the rest to fate.\n\nThis is the most sophisticated and technologically not-so-evloved  industry, and we're aware.   \nI'd like to change this in the next couple of years, with my expertise in tech and network in regional real-estate related gov offices. I'd love to listen to your feedback thoughts, and tips :)\n\nI'm leaving this long thread here for you to giving you some values as well.   \nI'd love to hear from you your experience with buying a land, and tips that might help others too :)",
+      "url": "https://www.reddit.com/r/india/comments/1djpfmr/problems_with_indian_realestate/"
+    },
+    {
+      "id": "1bbvwai",
+      "title": "Second chances grad CS admission",
+      "author": "Flashy-Weird8715",
+      "subreddit": "gradadmissions",
+      "created_utc": 1710135414,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "I've just applied to Purdue for my grad CS applications, and I got rejected.   \nI know that's a stupiest decision ever.  \n\n\nBut I seek your help this time, if there's any universities that has rolling basis admissions for graduate CS program.  \n\n\nMy profile:  \n8.77 CGPA  \n1 patent, 2 research papers  \n2yrs work experience  \n318 GRE, 105 TOEFL",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1bbvwai/second_chances_grad_cs_admission/"
+    },
+    {
+      "id": "1bbvvu5",
+      "title": "Second chances for grad cs applications",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ApplyingToCollege",
+      "created_utc": 1710135360,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I've just applied to Purdue for my grad CS applications, and I got rejected.   \nI know that's a stupiest decision ever.  \n\n\nBut I seek your help this time, if there's any universities that has rolling basis admissions for graduate CS program.  \n\n\nMy profile:  \n8.77 CGPA  \n1 patent, 2 research papers  \n2yrs work experience  \n318 GRE, 105 TOEFL",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1bbvvu5/second_chances_for_grad_cs_applications/"
+    },
+    {
+      "id": "1ao48js",
+      "title": "First offer 👀",
+      "author": "Flashy-Weird8715",
+      "subreddit": "gradadmissions",
+      "created_utc": 1707643937,
+      "score": 22,
+      "num_comments": 0,
+      "selftext": "Got into my safe university! I was concerned if I’d atleast get into one, even everyone else around had multiple offers. \n\nNow, that I have something in place, with enough patience, i wish y’all would get into your top choices as well & don’t worry, enjoy this phase!!",
+      "url": "https://i.redd.it/wifeszf5exhc1.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3qgj2p",
+      "body": "I use Skydo, and they also give FIRC for free.   \nthey charge flat fee 29$ per transaction. and pretty much happy with the service.\n\n(maybe to help you even better, I can share you my refferal link to save you two payments fee-free)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "developersIndia",
+      "created_utc": 1735135123,
+      "score": 1,
+      "link_id": "t3_1fz0s53",
+      "parent_id": "t3_1fz0s53"
+    },
+    {
+      "id": "m3qgidm",
+      "body": "I use Skydo, and they also give FIRC for free.   \nthey charge flat fee 29$ per transaction. and pretty much happy with the service.\n\n(maybe to help you even better, I can share you my refferal link to save you two payments fee-free)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "IndiaTax",
+      "created_utc": 1735135112,
+      "score": 1,
+      "link_id": "t3_1eth9qc",
+      "parent_id": "t3_1eth9qc"
+    },
+    {
+      "id": "m3qggww",
+      "body": "I use Skydo, and they also give FIRC for free. and my client is EU-based, but pays me in USD\n\n  \nthey charge flat fee 29$ per transaction. and pretty much happy with the service.\n\n(maybe to help you even better, I can share you my refferal link to save you two payments fee-free)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "IndiaTax",
+      "created_utc": 1735135090,
+      "score": 1,
+      "link_id": "t3_1g96xxt",
+      "parent_id": "t3_1g96xxt"
+    },
+    {
+      "id": "m3qgblu",
+      "body": "I use Skydo, and they also give FIRC for free.   \nthey charge flat fee 29$ per transaction. and pretty much happy with the service.\n\n(maybe to help you even better, I can share you my refferal link to save you two payments fee-free)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "india",
+      "created_utc": 1735135016,
+      "score": 1,
+      "link_id": "t3_1fw658h",
+      "parent_id": "t3_1fw658h"
+    },
+    {
+      "id": "m3qgau0",
+      "body": "I use Skydo, and they also give FIRC for free.   \nthey charge flat fee 29$ per transaction. and pretty much happy with the service.\n\n(maybe to help you even better, I can share you my refferal link to save you two payments fee-free)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "IndiaInvestments",
+      "created_utc": 1735135005,
+      "score": 1,
+      "link_id": "t3_ir7oxo",
+      "parent_id": "t3_ir7oxo"
+    },
+    {
+      "id": "luurjq9",
+      "body": "Yes, I had the same question couple months back, looking for one. My advice after a lot of research is, either go with Transferwise or Skydo. they have good services. apart from that, I personally have switched to skydo completely for their live fx rates and low fees (\\~30$ above 2k$ transaction).\n\nbut one thing I find a con switching from transferwise is, it takes around 1-2 days for the transaction, while transferwise hardly takes hours, but with additional fees. \n\nif you feel 1-2 days is fine, and also want to zero transaction fee for first two transactions, I can help you with my referral :)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "developersIndia",
+      "created_utc": 1730467879,
+      "score": 1,
+      "link_id": "t3_1fsqogd",
+      "parent_id": "t3_1fsqogd"
+    },
+    {
+      "id": "lk62h9b",
+      "body": "sure happy to help :)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ycombinator",
+      "created_utc": 1724763454,
+      "score": 1,
+      "link_id": "t3_190n2dx",
+      "parent_id": "t1_lk5tvsx"
+    },
+    {
+      "id": "lh8l2oj",
+      "body": "Thanks for your message :)\nThis makes me want to continue improving this, I’ll start on adding configurable HTTP verbs & payloads soon",
+      "author": "Flashy-Weird8715",
+      "subreddit": "kubernetes",
+      "created_utc": 1723186170,
+      "score": 1,
+      "link_id": "t3_1enb6og",
+      "parent_id": "t1_lh8ddf1"
+    },
+    {
+      "id": "lh548u1",
+      "body": "Noted, good addon :)\nI’d love to have this added on as an issue, if it’s not too much to ask for. but, rest assured will let you know once this live!",
+      "author": "Flashy-Weird8715",
+      "subreddit": "kubernetes",
+      "created_utc": 1723139009,
+      "score": 1,
+      "link_id": "t3_1enb6og",
+      "parent_id": "t1_lh53y4a"
+    },
+    {
+      "id": "le7uagh",
+      "body": "i've updated as per your comments, really helpful :)  \nGitHub: [https://github.com/twentyone24/maelstrom](https://github.com/twentyone24/maelstrom)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "bash",
+      "created_utc": 1721564887,
+      "score": 1,
+      "link_id": "t3_1e8glqo",
+      "parent_id": "t1_le7nrps"
+    },
+    {
+      "id": "le7nrps",
+      "body": "Thanks for your feedback mate :)  \nAppreciate your time, will have a note & keep you posted \n\nwould love if you star 🌟 (only if you want to bookmark / support) so others might discover it too",
+      "author": "Flashy-Weird8715",
+      "subreddit": "bash",
+      "created_utc": 1721561273,
+      "score": 1,
+      "link_id": "t3_1e8glqo",
+      "parent_id": "t1_le7jgi4"
+    },
+    {
+      "id": "l04jusg",
+      "body": "tfytfy",
+      "author": "Flashy-Weird8715",
+      "subreddit": "airpods",
+      "created_utc": 1713438265,
+      "score": 1,
+      "link_id": "t3_1c6vb30",
+      "parent_id": "t3_1c6vb30"
+    },
+    {
+      "id": "kut7qje",
+      "body": "I got rejected",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1710408495,
+      "score": 1,
+      "link_id": "t3_1afqqxi",
+      "parent_id": "t1_kut6rux"
+    },
+    {
+      "id": "ktk4226",
+      "body": "an hour ago, from the time I posted that",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1709695871,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kthh88i"
+    },
+    {
+      "id": "kthdx4o",
+      "body": "Got rejected. I applied for Computer Science MSc. Wish y'all luck, stay strong guys! regardless of the results.",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1709660948,
+      "score": 4,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ktg33bc",
+      "body": "Can you please share your profile, and if you applied with ESOP as well?",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1709644788,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktaaqvx"
+    },
+    {
+      "id": "kta2z5g",
+      "body": "I think we’ll only get results by the beginning of April, as mentioned in the ETHZ website",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1709548645,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kt9y8q2"
+    },
+    {
+      "id": "kt8y08x",
+      "body": "I’ve not received my ESOP admissions yet, and that we’re in march, it refers that I didn’t made it? Please advise \n\nI’ve applied for MSc Computer Science \nnon-EU",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1709523428,
+      "score": 3,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "krezgac",
+      "body": "Still waiting… no update yet",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1708497697,
+      "score": 1,
+      "link_id": "t3_1afqqxi",
+      "parent_id": "t1_kpn2ffe"
+    },
+    {
+      "id": "kpn2ffe",
+      "body": "Msc Computer Science\nNo updates yet",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ethz",
+      "created_utc": 1707489891,
+      "score": 3,
+      "link_id": "t3_1afqqxi",
+      "parent_id": "t3_1afqqxi"
+    },
+    {
+      "id": "kpg6371",
+      "body": "Thanks for sharing",
+      "author": "Flashy-Weird8715",
+      "subreddit": "Purdue",
+      "created_utc": 1707371728,
+      "score": 2,
+      "link_id": "t3_1ak4uvu",
+      "parent_id": "t1_kpg5q69"
+    },
+    {
+      "id": "kpf9m7c",
+      "body": "Hi OP \nCongratulation first of all!!\n\nI’m looking for Purdue as well, btw what program have you got into and when did you apply ?",
+      "author": "Flashy-Weird8715",
+      "subreddit": "Purdue",
+      "created_utc": 1707356883,
+      "score": 1,
+      "link_id": "t3_1ak4uvu",
+      "parent_id": "t3_1ak4uvu"
+    },
+    {
+      "id": "kk8dyl6",
+      "body": "I’d love to build this, interested to chat?",
+      "author": "Flashy-Weird8715",
+      "subreddit": "AppIdeas",
+      "created_utc": 1706602660,
+      "score": 1,
+      "link_id": "t3_j4g82k",
+      "parent_id": "t1_g7jdyw4"
+    },
+    {
+      "id": "kilghr5",
+      "body": "I recently sent 10kg rice to my brother in USA, last month with a courier that my friend reffered. it was smooth and faster. if you need their contact, happy to help",
+      "author": "Flashy-Weird8715",
+      "subreddit": "india",
+      "created_utc": 1705676636,
+      "score": 1,
+      "link_id": "t3_102bm6e",
+      "parent_id": "t1_j8wt101"
+    },
+    {
+      "id": "kgppqiz",
+      "body": "I’m a CTO, I’ve successfully worked on building & leading several successful startups, and even collaborated with a YC Startup (valued in top 100 Healthcare). \n\nReach out with your deck, let’s speak. If our synergies align with your idea :)",
+      "author": "Flashy-Weird8715",
+      "subreddit": "ycombinator",
+      "created_utc": 1704622477,
+      "score": 2,
+      "link_id": "t3_190n2dx",
+      "parent_id": "t3_190n2dx"
+    }
+  ]
+}

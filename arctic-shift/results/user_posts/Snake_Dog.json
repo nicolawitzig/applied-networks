@@ -1,0 +1,38 @@
+{
+  "username": "Snake_Dog",
+  "posts": [
+    {
+      "id": "1hidb3f",
+      "title": "Problem with OpenSCAD",
+      "author": "Snake_Dog",
+      "subreddit": "openscad",
+      "created_utc": 1734674268,
+      "score": 2,
+      "num_comments": 10,
+      "selftext": "Hey everybody\n\nI have a quick questing regarding OpenSCAD. I am very new to it and have a problem working with a model that I created. The model causes OpenSCAD to freeze and be very slow. I am wondering if this is a general Problem or if I am doing something completely wrong and therefore cause it to slow down.\n\nWhat does not seem to be the problem is the computing power of my machine since the CPU and Memory usage is nowhere near the limits when the problems appear.\n\n  \nThe code that I have and causes the problem looks something like:\n\n    height = 50;\n    outer_radius = 34;\n    wall_thickness = 2;\n    floor_thickness = 5;\n    inner_radius = outer_radius - wall_thickness;\n    hole_radius = 24;\n    ellipse_ratio = 2;\n    $fa = 0.5;\n    $fn = 100;\n    \n    scale([ellipse_ratio,1,1]){\n    difference() {\n    \n    \n    difference() {\n        cylinder(h = height, r = outer_radius);\n        translate([0, 0, wall_thickness])\n            cylinder(h = height - 2 * wall_thickness, r = inner_radius);\n        translate([0,0,-wall_thickness])\n            cylinder(h = height, r = hole_radius);\n        translate([-50, 0, floor_thickness])\n            cube([100, 100, 4]);\n    }\n    \n    fillet_radius = 5;\n    translate([0,0,height-fillet_radius])\n    rotate_extrude(angle = 360, convexity = 10)\n    translate([outer_radius-fillet_radius,0,0]) {\n        difference() {    \n            square(10);\n            translate([0,0,0]){\n                circle(fillet_radius);\n            }\n        }\n    }\n    \n    lower_fillet_radius = 3;\n    rotate([0,180,0])\n    translate([0,0,-lower_fillet_radius])\n    rotate_extrude(angle = 360, convexity = 10)\n    translate([outer_radius-lower_fillet_radius,0,0]) {\n        difference() {    \n            square(10);\n            translate([0,0,0]){\n                circle(lower_fillet_radius);\n            }\n        }\n    }\n    \n    translate([-10,hole_radius-3,-1]) cube([20,outer_radius-hole_radius+4,floor_thickness+2]);\n    }}\n\nBest Snake\\_Dog\n\n\n\n",
+      "url": "https://www.reddit.com/r/openscad/comments/1hidb3f/problem_with_openscad/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2y391e",
+      "body": "Oh I see, thank you very much. This solves my problem with the general app performance. However when I render the model I still want a higher resolution. Is it just normal that the remder process takes that long?",
+      "author": "Snake_Dog",
+      "subreddit": "openscad",
+      "created_utc": 1734675489,
+      "score": 1,
+      "link_id": "t3_1hidb3f",
+      "parent_id": "t1_m2y2x6v"
+    },
+    {
+      "id": "l5kzien",
+      "body": "I think it heavily depends on how easy learning is for you. I also had to finance my studies myself and did work during the semester and the semester breaks. However, my work pensum wasn't higher during the breaks than it was during the semester. For me it was quite tough as I would have needed more time for learning.\nBut I think if the studies are easy for you it is totally managable.\n\nHowever, in my honest opinion it is a real shame that ETH does not support part time studing. Don't get me wrong I think the ETH is a really great institution and for sure the best one you can go to if reputation is important for you. But if you are lookimg for a university that cares about their students and offers flexible plans for those who need/want to work and study part time I think there are better options than the ETH.",
+      "author": "Snake_Dog",
+      "subreddit": "ethz",
+      "created_utc": 1716620173,
+      "score": 1,
+      "link_id": "t3_1czun52",
+      "parent_id": "t3_1czun52"
+    }
+  ]
+}
