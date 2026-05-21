@@ -1,0 +1,303 @@
+{
+  "username": "Midshipfilly913",
+  "posts": [
+    {
+      "id": "1fsoyw6",
+      "title": "Duosonic with purpleheart fretboard ",
+      "author": "Midshipfilly913",
+      "subreddit": "Luthier",
+      "created_utc": 1727676970,
+      "score": 41,
+      "num_comments": 4,
+      "selftext": "",
+      "url": "https://i.redd.it/30b7befn2wrd1.jpeg"
+    },
+    {
+      "id": "1f836n3",
+      "title": "Should i start palmer over pickens? ",
+      "author": "Midshipfilly913",
+      "subreddit": "fantasyfootballadvice",
+      "created_utc": 1725378246,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "12 team ppr, 9th pick snake draft \n\nQb: Lamar Jackson\nRB: Jonathan Taylor\nRB: Isiah Pacheco\nWR: Deebo Samuel Sr\nWR: George Pickens\nTE: George Kittle\nFLX: Brian Robinson Jr\nFLX: Jerome Ford\n\nBench:\nZack Moss\nJosh Palmer\nCurtis Samuel\nBrandin Cooks\nTyler Conklin\nKirk Cousins\nMiles Sanders\n\n\nWho would you package in a trade as well?\n\n",
+      "url": "https://www.reddit.com/r/fantasyfootballadvice/comments/1f836n3/should_i_start_palmer_over_pickens/"
+    },
+    {
+      "id": "1f6v0z0",
+      "title": "[Yashica Electro 35 | Kodak Gold 200] Mexico City and my first roll",
+      "author": "Midshipfilly913",
+      "subreddit": "analog",
+      "created_utc": 1725241466,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Turned out okay given its my first time using film and it went through 3 CT scanners and 3 xrays",
+      "url": "https://www.reddit.com/gallery/1f6v0z0"
+    },
+    {
+      "id": "1ds7lx1",
+      "title": "Moving to Switzerland for my PhD, what do I need to know?",
+      "author": "Midshipfilly913",
+      "subreddit": "PersonalFinanceCanada",
+      "created_utc": 1719771012,
+      "score": 5,
+      "num_comments": 12,
+      "selftext": "I have not cared about my finances ever so this is all going to be brand new to me.\n\n1. I will be receiving a salary, so I need a swiss bank account. I was thinking of getting a UBS account? Is there a better option?\n2. How will taxes work, do i need to pay canadian taxes while I’m away?\n3. What do I do with my canadian money. Is it just a back up savings now? Should I invest it? I’m currently with a credit union",
+      "url": "https://www.reddit.com/r/PersonalFinanceCanada/comments/1ds7lx1/moving_to_switzerland_for_my_phd_what_do_i_need/"
+    },
+    {
+      "id": "1ddlqig",
+      "title": "scipy curve fit accuracy",
+      "author": "Midshipfilly913",
+      "subreddit": "learnpython",
+      "created_utc": 1718131576,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I am trying to fit a sextic function to my data but it isn't accurate. Even with specifying initial parameters. Any tips?\n\n    def sextic_function(x, a6, a5, a4, a3, a2, a1, a0):\n        return a6*x**6 + a5*x**5 + a4*x**4 + a3*x**3 + a2*x**2 + a1*x + a0\n    \n\n    # Fit a sextic function to the smoothed energy landscape\n                popt, pcov = curve_fit(sextic_function, bin_centers, Vx)\n                Vx_fitted = sextic_function(bin_centers, *popt)\n    \n\n\n\n  \n",
+      "url": "https://www.reddit.com/r/learnpython/comments/1ddlqig/scipy_curve_fit_accuracy/"
+    },
+    {
+      "id": "1c8auy2",
+      "title": "[Longines Admiral] Longines in the lab",
+      "author": "Midshipfilly913",
+      "subreddit": "Watches",
+      "created_utc": 1713568162,
+      "score": 22,
+      "num_comments": 4,
+      "selftext": "",
+      "url": "https://i.redd.it/chs25diwpivc1.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "ly5mznw",
+      "body": "Fwiw, I’m pretty sure any engineering courses need to be certified in Canada to count towards your engineering degree, so foreign exchanges aren’t typically “allowed”. At least it was the case when i was an undergrad in BC",
+      "author": "Midshipfilly913",
+      "subreddit": "ethz",
+      "created_utc": 1732135553,
+      "score": 1,
+      "link_id": "t3_1gv9gl8",
+      "parent_id": "t3_1gv9gl8"
+    },
+    {
+      "id": "lvpkp08",
+      "body": "Just two so I’ll probably chance it. Thank you!",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1730901253,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t1_lvooqtp"
+    },
+    {
+      "id": "lvjk70o",
+      "body": "Do i need a reservation for kokoro on a wednesday night?",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1730823575,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t3_17zkjtw"
+    },
+    {
+      "id": "lpt6ks6",
+      "body": "Thank you!",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1727789896,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t1_lpt0ca9"
+    },
+    {
+      "id": "lpsyjyd",
+      "body": "Just moved here to start my phd, is there a transit option where I can just pay for the year and not worry about zones or routes? Is that the personal ZVV networkpass? Its rather expensive, is there a cheaper option?",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1727786778,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t3_17zkjtw"
+    },
+    {
+      "id": "lpp3sz0",
+      "body": "Well that makes me outwardly pretentious, i want that to be hidden 😉",
+      "author": "Midshipfilly913",
+      "subreddit": "ethz",
+      "created_utc": 1727724399,
+      "score": 2,
+      "link_id": "t3_1fsxp01",
+      "parent_id": "t1_lpontl5"
+    },
+    {
+      "id": "lpo9b4t",
+      "body": "I feel your frustration, I had to turn down Cambridge for my PhD because I didn’t get enough funding to cover the international tuition. Now when I tell people where im from (North America) that I’m at ETH 99% have never heard of it. It’s a minor complaint because I’m doing research I love and in academia at least most people have heard of ETH, but sometimes I wish it was a bigger name back home",
+      "author": "Midshipfilly913",
+      "subreddit": "ethz",
+      "created_utc": 1727714778,
+      "score": 2,
+      "link_id": "t3_1fsxp01",
+      "parent_id": "t3_1fsxp01"
+    },
+    {
+      "id": "lpnxcku",
+      "body": "Thanks! Agreed on purple heart although padauk is quite pretty as well",
+      "author": "Midshipfilly913",
+      "subreddit": "Luthier",
+      "created_utc": 1727710894,
+      "score": 2,
+      "link_id": "t3_1fsoyw6",
+      "parent_id": "t1_lpm8mm5"
+    },
+    {
+      "id": "lpnx6ve",
+      "body": "I found it to be quite easy actually and a strikingly beautiful colour in person",
+      "author": "Midshipfilly913",
+      "subreddit": "Luthier",
+      "created_utc": 1727710843,
+      "score": 2,
+      "link_id": "t3_1fsoyw6",
+      "parent_id": "t1_lpm6uzb"
+    },
+    {
+      "id": "llk4kn0",
+      "body": "At least a month! Good luck! Mine turned out okay so heres hoping for yours too",
+      "author": "Midshipfilly913",
+      "subreddit": "labrats",
+      "created_utc": 1725498372,
+      "score": 2,
+      "link_id": "t3_1f9279p",
+      "parent_id": "t1_llk42xp"
+    },
+    {
+      "id": "lljtizj",
+      "body": "Ive had this at a different journal where they had conflicting reports from reviewers and went and got another",
+      "author": "Midshipfilly913",
+      "subreddit": "labrats",
+      "created_utc": 1725494236,
+      "score": 2,
+      "link_id": "t3_1f9279p",
+      "parent_id": "t3_1f9279p"
+    },
+    {
+      "id": "ll5hyze",
+      "body": "Thanks!",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1725288051,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t1_ll4pnt5"
+    },
+    {
+      "id": "ll30ugv",
+      "body": "Is living on joseftsrasse/ackerstrasse okay? Is it loud at night?",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1725242218,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t3_17zkjtw"
+    },
+    {
+      "id": "lf8ig9d",
+      "body": "I dont think this is worthy of a bee thread so, I’ll be moving to zurich for my phd from canada and have a prescription. What is the process like for a smooth transfer to continue my medication",
+      "author": "Midshipfilly913",
+      "subreddit": "zurich",
+      "created_utc": 1722110712,
+      "score": 1,
+      "link_id": "t3_17zkjtw",
+      "parent_id": "t3_17zkjtw"
+    },
+    {
+      "id": "lb5gmhr",
+      "body": "I do plan to return eventually but i will give them a call this week and see. I’ll need to double check salary vs stipend to it seems. Thanks!",
+      "author": "Midshipfilly913",
+      "subreddit": "PersonalFinanceCanada",
+      "created_utc": 1719852869,
+      "score": 1,
+      "link_id": "t3_1ds7lx1",
+      "parent_id": "t1_lb4cu0q"
+    },
+    {
+      "id": "lb5ggtf",
+      "body": "Thank you, I will do that this week. Is intention to return to canada important? I plan to",
+      "author": "Midshipfilly913",
+      "subreddit": "PersonalFinanceCanada",
+      "created_utc": 1719852820,
+      "score": 1,
+      "link_id": "t3_1ds7lx1",
+      "parent_id": "t1_lb1y05z"
+    },
+    {
+      "id": "lb5g91l",
+      "body": "Thank you! I had heard of ZKB but not post finance so i will look into that.",
+      "author": "Midshipfilly913",
+      "subreddit": "PersonalFinanceCanada",
+      "created_utc": 1719852749,
+      "score": 1,
+      "link_id": "t3_1ds7lx1",
+      "parent_id": "t1_lb25s1s"
+    },
+    {
+      "id": "lb1ff30",
+      "body": "Thanks! Seems i will need to pay income tax then",
+      "author": "Midshipfilly913",
+      "subreddit": "PersonalFinanceCanada",
+      "created_utc": 1719784311,
+      "score": -2,
+      "link_id": "t3_1ds7lx1",
+      "parent_id": "t1_lb0irge"
+    },
+    {
+      "id": "lb1fcwt",
+      "body": "I guess I will have residential ties from my drivers license/passport/bank account it seems. Thanks!",
+      "author": "Midshipfilly913",
+      "subreddit": "PersonalFinanceCanada",
+      "created_utc": 1719784288,
+      "score": 0,
+      "link_id": "t3_1ds7lx1",
+      "parent_id": "t1_lb0uu68"
+    },
+    {
+      "id": "l7p7ygr",
+      "body": "I didn't get on as an incoming phd student despite two first author papers and a conference presentation, although i was planning to take the scholarship to europe so maybe that had an effect",
+      "author": "Midshipfilly913",
+      "subreddit": "AskAcademia",
+      "created_utc": 1717867148,
+      "score": 2,
+      "link_id": "t3_1dakiiu",
+      "parent_id": "t1_l7l240o"
+    },
+    {
+      "id": "l5f295i",
+      "body": "When i use our femtosecond laser it smells like cooking meat",
+      "author": "Midshipfilly913",
+      "subreddit": "labrats",
+      "created_utc": 1716518876,
+      "score": 1,
+      "link_id": "t3_1cyeiwu",
+      "parent_id": "t3_1cyeiwu"
+    },
+    {
+      "id": "l0ga52s",
+      "body": "38 i believe, perfect size for my wrists imo",
+      "author": "Midshipfilly913",
+      "subreddit": "Watches",
+      "created_utc": 1713622211,
+      "score": 1,
+      "link_id": "t3_1c8auy2",
+      "parent_id": "t1_l0e2cr1"
+    },
+    {
+      "id": "l0dce9p",
+      "body": "As a gift to myself for defending my masters thesis and starting my PhD in the fall, I decided to treat myself while I was in Tokyo. Was browsing a market in Nakano and this silver bracelet called to me. All original, 1974 Longines Admiral. My first “nice” watch in my collection and i can’t stop staring at it. I told myself many years ago I would buy myself a Cartier Ballon Bleu at the end of my PhD but that may be a little too expensive so we’ll see what I end up getting in 4 years.",
+      "author": "Midshipfilly913",
+      "subreddit": "Watches",
+      "created_utc": 1713568172,
+      "score": 2,
+      "link_id": "t3_1c8auy2",
+      "parent_id": "t3_1c8auy2"
+    }
+  ]
+}

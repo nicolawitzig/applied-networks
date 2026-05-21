@@ -1,0 +1,723 @@
+{
+  "username": "MeatLasers",
+  "posts": [
+    {
+      "id": "1hmn2wb",
+      "title": "Sharpening speed skates somewhere in or near Zurich",
+      "author": "MeatLasers",
+      "subreddit": "zurich",
+      "created_utc": 1735214851,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Anyone any idea where in Zurich or near Zurich one can sharpen speed (ice) skates?\nI’m a bit hesitant to drop mine off at a place where normally figure or ice hockey skates are sharpened. \nOr maybe anyone that does it themselves that could help me out?",
+      "url": "https://www.reddit.com/r/zurich/comments/1hmn2wb/sharpening_speed_skates_somewhere_in_or_near/"
+    },
+    {
+      "id": "1h91ahw",
+      "title": "Loads of 2nd hand high-end tuners for sale: what to do with them?",
+      "author": "MeatLasers",
+      "subreddit": "diyaudio",
+      "created_utc": 1733602886,
+      "score": 1,
+      "num_comments": 9,
+      "selftext": "With the introduction of DAB and popularity of Spotify/internet radio, I see recently more and more pretty nice tuners on the 2nd hand market. \nWhat would be the best DIY use for these units? Volumio/MoOde servers? Any other ideas?",
+      "url": "https://www.reddit.com/r/diyaudio/comments/1h91ahw/loads_of_2nd_hand_highend_tuners_for_sale_what_to/"
+    },
+    {
+      "id": "1h52j67",
+      "title": "Does the world need the “is my turntable needle f**ked?” app?",
+      "author": "MeatLasers",
+      "subreddit": "turntables",
+      "created_utc": 1733165640,
+      "score": 65,
+      "num_comments": 52,
+      "selftext": "It feels like 90% of the posts here are: is my needle broken?\nIs that maybe something that could be put into an app with some machine learning? ",
+      "url": "https://www.reddit.com/r/turntables/comments/1h52j67/does_the_world_need_the_is_my_turntable_needle/"
+    },
+    {
+      "id": "1gzn9e0",
+      "title": "RPi shutdown/power up circuit - does it work? What should the resistor values be?",
+      "author": "MeatLasers",
+      "subreddit": "AskElectronics",
+      "created_utc": 1732553041,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "https://preview.redd.it/x5os4xiis23e1.png?width=842&format=png&auto=webp&s=cdc19da9f7ac293c053bb3c58447566b05c5c4d2\n\nI've tried to make my own latching circuit for properly powering on/off the RPi with a push button.   \nIn my device I've an always on 11V, which I'd like to tap into.  \nThe dt-overlay for Shutdown and PowerOff (PO) are meant to just use the default values. (Shutdown is active low, PowerOff is active high)\n\nA few questions:\n\n* Does this basically work? Any ways to simply optimize it?\n* What would you recommend as resistor values?\n* What about power up? I'd like to automatically 'reset' it to that the RPi remains powered off.\n* Should I de-bounce the button? (E.g. by adding a resistor after R1 and add a capacitor to GND? I'd be concerned this affects the power up sequence though.",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1gzn9e0/rpi_shutdownpower_up_circuit_does_it_work_what/"
+    },
+    {
+      "id": "1gtgkbi",
+      "title": "Aligning screw holes two STEP files",
+      "author": "MeatLasers",
+      "subreddit": "FreeCAD",
+      "created_utc": 1731858970,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Beginner here.\nI’ve now looked at and tried to replicate a few tutorials, but I don’t get this done properly. \nI’ve one Waveshare touchscreen Step file and one Raspberry Pi 4 Step file. I want to design an enclosure around it. \nThe first thing I’m trying is to put the RPI4 on the touchscreen and align the screw holes. \n\nMy hunch is that alignment is difficult because the screw holes of both things are not nice circles or cylinders with a well defined center, but rather a bunch of polygons making up the shapes.\n\nWhat is the strategy here? Should i first sketch circles with a clear center point in (or attached to) the STEP files, and then align those?  \nWhere do I start? Is the alignment tool all I need?",
+      "url": "https://www.reddit.com/r/FreeCAD/comments/1gtgkbi/aligning_screw_holes_two_step_files/"
+    },
+    {
+      "id": "1gr06di",
+      "title": "With Matt Gaetz now being selected as attorney general, the logical choice for White House press secretary is Alex, right?",
+      "author": "MeatLasers",
+      "subreddit": "alexjones",
+      "created_utc": 1731572143,
+      "score": 7,
+      "num_comments": 4,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/alexjones/comments/1gr06di/with_matt_gaetz_now_being_selected_as_attorney/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m42viwz",
+      "body": "What’s all this electronics for in a record player? Bitcoin mining?",
+      "author": "MeatLasers",
+      "subreddit": "AskElectronics",
+      "created_utc": 1735328465,
+      "score": 1,
+      "link_id": "t3_1hnkwlc",
+      "parent_id": "t3_1hnkwlc"
+    },
+    {
+      "id": "m42t7sf",
+      "body": "Drink it.\nIt’s awesome. It’s almost as good as a highland park 18 from the 70ties, which says something.",
+      "author": "MeatLasers",
+      "subreddit": "whisky",
+      "created_utc": 1735327725,
+      "score": 6,
+      "link_id": "t3_1hni9vn",
+      "parent_id": "t3_1hni9vn"
+    },
+    {
+      "id": "m40dttp",
+      "body": "How could I have missed this. Thanks a lot!",
+      "author": "MeatLasers",
+      "subreddit": "zurich",
+      "created_utc": 1735291977,
+      "score": 1,
+      "link_id": "t3_1hmn2wb",
+      "parent_id": "t1_m3x3rn8"
+    },
+    {
+      "id": "m3bw21a",
+      "body": "I’ve connected the RC5 inputs of my Marantz Receiver and CD player to an ESP32. It runs a small web server, with which I control the receiver and Cd player via my iPhone. I tuned this project a bit, but here’s a great start:\nhttps://github.com/samm-git/marantz-rc-esp32\nI have a small PCB for it. Let me know if you’re interested in the design files.",
+      "author": "MeatLasers",
+      "subreddit": "vintageaudio",
+      "created_utc": 1734897563,
+      "score": 1,
+      "link_id": "t3_1hjz8po",
+      "parent_id": "t1_m3akikj"
+    },
+    {
+      "id": "m307fjy",
+      "body": "The only point of whisky is drinking it.",
+      "author": "MeatLasers",
+      "subreddit": "whisky",
+      "created_utc": 1734713803,
+      "score": 16,
+      "link_id": "t3_1hihj6f",
+      "parent_id": "t1_m2zfo3e"
+    },
+    {
+      "id": "m2uxj40",
+      "body": "I like how start-up CEOs always know exactly how the world functions. \nStill, 95% of them run their companies into the ground, and it’s often not because there’s no customer.",
+      "author": "MeatLasers",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1734632869,
+      "score": 1,
+      "link_id": "t3_1hhts6n",
+      "parent_id": "t3_1hhts6n"
+    },
+    {
+      "id": "m1dr3v8",
+      "body": "Yeah. Small detail: buffalos were eating grass. As a cow is supposed to do. Now they all eat corn which makes them, indeed, fart a lot more and makes them feel miserable.",
+      "author": "MeatLasers",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1733849276,
+      "score": 6,
+      "link_id": "t3_1hb50u2",
+      "parent_id": "t3_1hb50u2"
+    },
+    {
+      "id": "m12mn68",
+      "body": "Where I live the prices are tumbling down.",
+      "author": "MeatLasers",
+      "subreddit": "diyaudio",
+      "created_utc": 1733684681,
+      "score": 1,
+      "link_id": "t3_1h91ahw",
+      "parent_id": "t1_m12co4p"
+    },
+    {
+      "id": "m10hjye",
+      "body": "The Revox B 260 would be an awesome Tuner to hack into. The service manual is the most extensive I’ve ever seen, and it is just so nicely build. \nAny other suggestions?",
+      "author": "MeatLasers",
+      "subreddit": "diyaudio",
+      "created_utc": 1733654020,
+      "score": 1,
+      "link_id": "t3_1h91ahw",
+      "parent_id": "t3_1h91ahw"
+    },
+    {
+      "id": "m109hq1",
+      "body": "I like it. It’s a bit a pity he doesn’t use the old voltage supply, which for a good Tuner should be very decent, certainly better than the external switches USB supply that he’s probably using. \n\nReusing the buttons is very neat, and I’m wondering whether it is possible to somehow reprint the text around the buttons?\n\nI have a bunch of DAC projects, maybe an idea would be to integrate all those DACs into a single tuner housing, and then be able to switch between them.",
+      "author": "MeatLasers",
+      "subreddit": "diyaudio",
+      "created_utc": 1733648576,
+      "score": 1,
+      "link_id": "t3_1h91ahw",
+      "parent_id": "t1_m0y7k81"
+    },
+    {
+      "id": "m0y1soc",
+      "body": "In big parts of Europe an FM tuner is or will soon be completely useless because of the introduction of DAB. In that sense it feels perfectly right to give such unit a ‘second life’.",
+      "author": "MeatLasers",
+      "subreddit": "diyaudio",
+      "created_utc": 1733612743,
+      "score": 1,
+      "link_id": "t3_1h91ahw",
+      "parent_id": "t1_m0xdexn"
+    },
+    {
+      "id": "m0x13m1",
+      "body": "I bought one for 20 bucks, and I’m so glad I bought it. Certain music just sounds so nice on it. There’s really something magical about it. \nBut I also heard from people that there can be quite a difference between units, which is not so surprising after about 30 years.",
+      "author": "MeatLasers",
+      "subreddit": "audiophile",
+      "created_utc": 1733600585,
+      "score": 2,
+      "link_id": "t3_1h8m36g",
+      "parent_id": "t1_m0w8lcc"
+    },
+    {
+      "id": "m0vf8dg",
+      "body": "PlayStation 1 - SCPH-1001 version.",
+      "author": "MeatLasers",
+      "subreddit": "audiophile",
+      "created_utc": 1733581763,
+      "score": 26,
+      "link_id": "t3_1h8m36g",
+      "parent_id": "t3_1h8m36g"
+    },
+    {
+      "id": "m095l87",
+      "body": "The only way this could be in any way justifiable is when he’d know about an impeding N-Korean attack.",
+      "author": "MeatLasers",
+      "subreddit": "korea",
+      "created_utc": 1733256689,
+      "score": 17,
+      "link_id": "t3_1h5wqzi",
+      "parent_id": "t3_1h5wqzi"
+    },
+    {
+      "id": "m06ne5z",
+      "body": "Include sponsored link to Ortofon -> profit.",
+      "author": "MeatLasers",
+      "subreddit": "turntables",
+      "created_utc": 1733224548,
+      "score": 5,
+      "link_id": "t3_1h52j67",
+      "parent_id": "t1_m05gi5l"
+    },
+    {
+      "id": "lzkz60t",
+      "body": "That’s what I do in XLS. I don’t trust myself and I don’t trust the software. \nI guess when people review my work they’ll be thinking I’m programming in LISP…",
+      "author": "MeatLasers",
+      "subreddit": "mathmemes",
+      "created_utc": 1732899705,
+      "score": 1,
+      "link_id": "t3_1h2m81w",
+      "parent_id": "t1_lzk69um"
+    },
+    {
+      "id": "lzbhu6e",
+      "body": "It’s kind of crazy to say things like that when you’re 23 years old.",
+      "author": "MeatLasers",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1732747751,
+      "score": 6,
+      "link_id": "t3_1h1ffwb",
+      "parent_id": "t3_1h1ffwb"
+    },
+    {
+      "id": "lyyjl89",
+      "body": "This would require that the button is hold until GPIO1 has a defined state, or am I wrong?",
+      "author": "MeatLasers",
+      "subreddit": "AskElectronics",
+      "created_utc": 1732565230,
+      "score": 1,
+      "link_id": "t3_1gzn9e0",
+      "parent_id": "t1_lyyhfms"
+    },
+    {
+      "id": "lyy54mq",
+      "body": "RPi zero 2 W.\nI also want to switch off the Buck and ADC, which runs on the same 5v supply. The device is probably only used 2 hours a week or so. \nAdditionally I see it as an opportunity to learn some stuff.",
+      "author": "MeatLasers",
+      "subreddit": "AskElectronics",
+      "created_utc": 1732560725,
+      "score": 2,
+      "link_id": "t3_1gzn9e0",
+      "parent_id": "t1_lyxlz5t"
+    },
+    {
+      "id": "ly84imj",
+      "body": "I’m not sure this exactly turned out as the agent, settler and individual David Hall expected it to be.",
+      "author": "MeatLasers",
+      "subreddit": "maybemaybemaybe",
+      "created_utc": 1732179617,
+      "score": 1,
+      "link_id": "t3_1gw92bn",
+      "parent_id": "t3_1gw92bn"
+    },
+    {
+      "id": "lxnkjhs",
+      "body": "How do I attach those center points to the step models?\nIt seems I need to create bodies for this? Does every step needs it own body, with those center points, then somehow attach each body to the step, and then align those bodies?",
+      "author": "MeatLasers",
+      "subreddit": "FreeCAD",
+      "created_utc": 1731878788,
+      "score": 1,
+      "link_id": "t3_1gtgkbi",
+      "parent_id": "t1_lxm0ecw"
+    },
+    {
+      "id": "lx9or6t",
+      "body": "I thought they bought him with the inventory!?",
+      "author": "MeatLasers",
+      "subreddit": "alexjones",
+      "created_utc": 1731681149,
+      "score": 0,
+      "link_id": "t3_1gr6lm0",
+      "parent_id": "t3_1gr6lm0"
+    },
+    {
+      "id": "lx1vp70",
+      "body": "Next time put on some clothes, damnit.",
+      "author": "MeatLasers",
+      "subreddit": "KidsAreFuckingStupid",
+      "created_utc": 1731567403,
+      "score": 2,
+      "link_id": "t3_1gqicll",
+      "parent_id": "t3_1gqicll"
+    },
+    {
+      "id": "lw58sv4",
+      "body": "It’s called a holiday.",
+      "author": "MeatLasers",
+      "subreddit": "politics",
+      "created_utc": 1731100190,
+      "score": 1,
+      "link_id": "t3_1gmnt97",
+      "parent_id": "t3_1gmnt97"
+    },
+    {
+      "id": "lw3z4kg",
+      "body": "They attempt to improve the sex life of the 40 million women that decided not to vote.",
+      "author": "MeatLasers",
+      "subreddit": "offbeat",
+      "created_utc": 1731086601,
+      "score": 0,
+      "link_id": "t3_1gmla8h",
+      "parent_id": "t3_1gmla8h"
+    },
+    {
+      "id": "lvrnosv",
+      "body": "Apparently a looooot of women didn’t vote.",
+      "author": "MeatLasers",
+      "subreddit": "WomenInNews",
+      "created_utc": 1730921758,
+      "score": 1,
+      "link_id": "t3_1gkt9p7",
+      "parent_id": "t3_1gkt9p7"
+    },
+    {
+      "id": "ltkjnx4",
+      "body": "He’s just asking questions.",
+      "author": "MeatLasers",
+      "subreddit": "chess",
+      "created_utc": 1729800713,
+      "score": 0,
+      "link_id": "t3_1gb9407",
+      "parent_id": "t3_1gb9407"
+    },
+    {
+      "id": "ltd04td",
+      "body": "Turn off the chat. If you want to play chess, play chess. When you want to talk, call your parents/grand parents.",
+      "author": "MeatLasers",
+      "subreddit": "chessbeginners",
+      "created_utc": 1729699454,
+      "score": 0,
+      "link_id": "t3_1gabt3h",
+      "parent_id": "t3_1gabt3h"
+    },
+    {
+      "id": "lqlpk8m",
+      "body": "1. E4 \n(According to AlphaZero)",
+      "author": "MeatLasers",
+      "subreddit": "chess",
+      "created_utc": 1728215279,
+      "score": 1,
+      "link_id": "t3_1fxe0ll",
+      "parent_id": "t3_1fxe0ll"
+    },
+    {
+      "id": "lp1a8jk",
+      "body": "If the point of this event was to virtue signal how nice Zurich is to cycling, then this event has done the ‘normal’ Zurich cyclists no favor.",
+      "author": "MeatLasers",
+      "subreddit": "zurich",
+      "created_utc": 1727365219,
+      "score": 1,
+      "link_id": "t3_1fofid4",
+      "parent_id": "t1_loprzg7"
+    },
+    {
+      "id": "lohn7sk",
+      "body": "This is from the time you still had to compile your own kernel…\nNot missing those days…",
+      "author": "MeatLasers",
+      "subreddit": "linux",
+      "created_utc": 1727074289,
+      "score": 2,
+      "link_id": "t3_1fn835r",
+      "parent_id": "t3_1fn835r"
+    },
+    {
+      "id": "loca8xx",
+      "body": "Great. \nIs the project open source available on GitHub?",
+      "author": "MeatLasers",
+      "subreddit": "esp32",
+      "created_utc": 1726999514,
+      "score": 24,
+      "link_id": "t3_1fmof0z",
+      "parent_id": "t3_1fmof0z"
+    },
+    {
+      "id": "lnrsm9w",
+      "body": "I bought an old Vespa after those all those XR types were preaching how to live, but then the weekend after flying to Bali. \nIf the idealists are hypocrites, well fuck it all.",
+      "author": "MeatLasers",
+      "subreddit": "zurich",
+      "created_utc": 1726683387,
+      "score": 2,
+      "link_id": "t3_1fjmlo9",
+      "parent_id": "t3_1fjmlo9"
+    },
+    {
+      "id": "llo9ahk",
+      "body": "The world just needs more good people with Atomic Bombs, you know.",
+      "author": "MeatLasers",
+      "subreddit": "Ultraleft",
+      "created_utc": 1725562950,
+      "score": 1,
+      "link_id": "t3_1f8oqs9",
+      "parent_id": "t1_llo8zg1"
+    },
+    {
+      "id": "llo8zg1",
+      "body": "I’ve always wanted to start an equivalent of the NRA: the IABA, which stands for the International Atomic Bomb association. Its goal would be to give every world citizen his/her own atomic bomb.  \nFor world peace, obviously.",
+      "author": "MeatLasers",
+      "subreddit": "Ultraleft",
+      "created_utc": 1725562852,
+      "score": 1,
+      "link_id": "t3_1f8oqs9",
+      "parent_id": "t3_1f8oqs9"
+    },
+    {
+      "id": "lkhceq3",
+      "body": "And then later you’ll go to the gym to workout?",
+      "author": "MeatLasers",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1724928142,
+      "score": -10,
+      "link_id": "t3_1f3ybyu",
+      "parent_id": "t1_lkh713x"
+    },
+    {
+      "id": "lhbwa4u",
+      "body": "Similar to my home office day.",
+      "author": "MeatLasers",
+      "subreddit": "maybemaybemaybe",
+      "created_utc": 1723233904,
+      "score": 1,
+      "link_id": "t3_1eo2jtx",
+      "parent_id": "t3_1eo2jtx"
+    },
+    {
+      "id": "lgzznmk",
+      "body": "I hope he keeps us regularly up to date on how this relationship is maturing. It’s off to a good start.",
+      "author": "MeatLasers",
+      "subreddit": "rareinsults",
+      "created_utc": 1723063033,
+      "score": 2,
+      "link_id": "t3_1emlytv",
+      "parent_id": "t3_1emlytv"
+    },
+    {
+      "id": "lgmbgzo",
+      "body": "But what did it teach him about B2B sales?!?\nSuch a cliffhanger…",
+      "author": "MeatLasers",
+      "subreddit": "LinkedInLunatics",
+      "created_utc": 1722871225,
+      "score": 1,
+      "link_id": "t3_1ekku4s",
+      "parent_id": "t3_1ekku4s"
+    },
+    {
+      "id": "ldrpw0o",
+      "body": "Make love to Matt Gaetz again!",
+      "author": "MeatLasers",
+      "subreddit": "TikTokCringe",
+      "created_utc": 1721309789,
+      "score": 1,
+      "link_id": "t3_1e55n6w",
+      "parent_id": "t1_ldjul1q"
+    },
+    {
+      "id": "lb9xg8h",
+      "body": "They are probably rebottled 3yo Canadian whisky. \nJapanese whisky… the biggest scam since Jim Murray rated that Yamazaki 12yo with 97 points.",
+      "author": "MeatLasers",
+      "subreddit": "whisky",
+      "created_utc": 1719923839,
+      "score": -49,
+      "link_id": "t3_1dtkfdb",
+      "parent_id": "t3_1dtkfdb"
+    },
+    {
+      "id": "laqggaq",
+      "body": "The global top protects the bond wires connecting the chip and the PCB.",
+      "author": "MeatLasers",
+      "subreddit": "AskElectronics",
+      "created_utc": 1719606900,
+      "score": 2,
+      "link_id": "t3_1dq73ew",
+      "parent_id": "t3_1dq73ew"
+    },
+    {
+      "id": "l9r3t5i",
+      "body": "That’s what liberation looks like.",
+      "author": "MeatLasers",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1719057990,
+      "score": 0,
+      "link_id": "t3_1dlq0lw",
+      "parent_id": "t3_1dlq0lw"
+    },
+    {
+      "id": "l85r7ez",
+      "body": "The Arduino needs an IR diode. The phone connects with the Arduino over WiFi. The Arduino runs the IR remote library.\n\nhttps://www.arduino.cc/reference/en/libraries/irremote/",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1718133088,
+      "score": 1,
+      "link_id": "t3_1ddgt97",
+      "parent_id": "t1_l85divs"
+    },
+    {
+      "id": "l85r31h",
+      "body": "The Arduino needs an IR diode. The phone connects with the Arduino over WiFi. The Arduino runs the IR remote library. \n\nhttps://www.arduino.cc/reference/en/libraries/irremote/",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1718133047,
+      "score": 1,
+      "link_id": "t3_1ddgt97",
+      "parent_id": "t3_1ddgt97"
+    },
+    {
+      "id": "l84plze",
+      "body": "Arduino with RF remote library controlled by mobile phone.",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1718120681,
+      "score": 1,
+      "link_id": "t3_1ddgt97",
+      "parent_id": "t3_1ddgt97"
+    },
+    {
+      "id": "l5amdim",
+      "body": "I presented a company strategy to the management team, with Ben Finegold’s key message: “trying is the beginning of failure”.",
+      "author": "MeatLasers",
+      "subreddit": "chess",
+      "created_utc": 1716452096,
+      "score": 3,
+      "link_id": "t3_1cy5i1q",
+      "parent_id": "t3_1cy5i1q"
+    },
+    {
+      "id": "l4wobvk",
+      "body": "Right…\nMaybe this give inspiration to more awesomeness. \nhttps://m.youtube.com/watch?v=sxxS3RKbGhU&pp=ygUXRnJlYWsgZWF0aW5nIHRvb3RocGFzdGU%3D",
+      "author": "MeatLasers",
+      "subreddit": "whisky",
+      "created_utc": 1716228462,
+      "score": 1,
+      "link_id": "t3_1cwlv6i",
+      "parent_id": "t3_1cwlv6i"
+    },
+    {
+      "id": "l4vot9e",
+      "body": "Yeah, he didn’t like care. That’s for sure",
+      "author": "MeatLasers",
+      "subreddit": "zurich",
+      "created_utc": 1716215680,
+      "score": 6,
+      "link_id": "t3_1cwbc4e",
+      "parent_id": "t1_l4vb8vz"
+    },
+    {
+      "id": "l3upvre",
+      "body": "First safe spaces, and now they make peace in the Middle East with their protests..\nThis great generation; what problem will they solve next?!",
+      "author": "MeatLasers",
+      "subreddit": "ethz",
+      "created_utc": 1715609628,
+      "score": -14,
+      "link_id": "t3_1cqxfb5",
+      "parent_id": "t3_1cqxfb5"
+    },
+    {
+      "id": "l3aa8yl",
+      "body": "I bought a (closed) bottle of late 70ties JW black a while ago. Absolutely amazing whisky. Very close to 70ties highland Park.\n70ties red label can very between average and amazing. \nI’d least do a smell test on this one before taking a big gulp…",
+      "author": "MeatLasers",
+      "subreddit": "whisky",
+      "created_utc": 1715264491,
+      "score": 1,
+      "link_id": "t3_1cntxhi",
+      "parent_id": "t3_1cntxhi"
+    },
+    {
+      "id": "l30g373",
+      "body": "Ben Nevis. \nA lot of Nikka whisky is probably rebottled Ben Nevis from Scotland, which is owned by Nikka.",
+      "author": "MeatLasers",
+      "subreddit": "whisky",
+      "created_utc": 1715104657,
+      "score": 3,
+      "link_id": "t3_1cme8v3",
+      "parent_id": "t3_1cme8v3"
+    },
+    {
+      "id": "l1sybc3",
+      "body": "I thought I needed to replace my mixer, amplifier, and CD player until I took the leap to buy what I thought was the extortionately priced deoxit. \n\nMan… if all my investments would have been that good…",
+      "author": "MeatLasers",
+      "subreddit": "BudgetAudiophile",
+      "created_utc": 1714406894,
+      "score": 2,
+      "link_id": "t3_1cfuif2",
+      "parent_id": "t3_1cfuif2"
+    },
+    {
+      "id": "l1sr7ps",
+      "body": "Wake up call: to switch to studying mechanical engineering.",
+      "author": "MeatLasers",
+      "subreddit": "Ultraleft",
+      "created_utc": 1714404480,
+      "score": 2,
+      "link_id": "t3_1cf17be",
+      "parent_id": "t3_1cf17be"
+    },
+    {
+      "id": "l00w4mv",
+      "body": "I read a lot. But this book is probably the one I’ve enjoyed most in the last 10 years.",
+      "author": "MeatLasers",
+      "subreddit": "vinyl",
+      "created_utc": 1713378483,
+      "score": 2,
+      "link_id": "t3_1c675io",
+      "parent_id": "t1_kzz6ib3"
+    },
+    {
+      "id": "kwhi5qs",
+      "body": "That’s not dust. That’s cocaine. Hence the techno.",
+      "author": "MeatLasers",
+      "subreddit": "turntables",
+      "created_utc": 1711374868,
+      "score": 3,
+      "link_id": "t3_1bn9oqn",
+      "parent_id": "t3_1bn9oqn"
+    },
+    {
+      "id": "kvjz2bn",
+      "body": "Chess.com’s chat is its most useless feature.",
+      "author": "MeatLasers",
+      "subreddit": "chessbeginners",
+      "created_utc": 1710839832,
+      "score": 9,
+      "link_id": "t3_1bia0t7",
+      "parent_id": "t3_1bia0t7"
+    },
+    {
+      "id": "kokt0tr",
+      "body": "Is there really worse than Belgium..\nWow..",
+      "author": "MeatLasers",
+      "subreddit": "MapPorn",
+      "created_utc": 1706876191,
+      "score": 1,
+      "link_id": "t3_1agc228",
+      "parent_id": "t3_1agc228"
+    },
+    {
+      "id": "koa337x",
+      "body": "I’m building a music server with Volumio with the Waveshare 3.5” with DSI interface.\nMy first impressions have been very good. But time will tell.",
+      "author": "MeatLasers",
+      "subreddit": "RetroPie",
+      "created_utc": 1706708808,
+      "score": 1,
+      "link_id": "t3_1ae50nh",
+      "parent_id": "t3_1ae50nh"
+    },
+    {
+      "id": "kk2zic6",
+      "body": "This topic I find fascinating.\nI think that for Mono it really doesn’t matter whether there is a strong cut off at 20kHz.\nBut what about stereo? \nHumans as ex-hunters are extremely capable of hearing the direction of sound. I didn’t calculate it, but could it be that the human ears would be able to hear phase differences that well extend what is possible with a 44.1kHz sampling rate?",
+      "author": "MeatLasers",
+      "subreddit": "oratory1990",
+      "created_utc": 1706519334,
+      "score": 1,
+      "link_id": "t3_18szy9x",
+      "parent_id": "t3_18szy9x"
+    },
+    {
+      "id": "kjijtzs",
+      "body": "What is the screen size?",
+      "author": "MeatLasers",
+      "subreddit": "RetroPie",
+      "created_utc": 1706196993,
+      "score": 1,
+      "link_id": "t3_19f8cau",
+      "parent_id": "t3_19f8cau"
+    },
+    {
+      "id": "kh1qlpo",
+      "body": "I would not start removing the capacitors yet, but first measure a few basic things (like the fuses), like all basic supply voltages.\nThe 5V to the tuner is for example always on, and also powers the microcontroller.\nIf you remove for example P13 from the PCB where also the fuses are and then measure the voltage between pin 3 and 4 when the system is plugged in.",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1704806902,
+      "score": 1,
+      "link_id": "t3_190v4ux",
+      "parent_id": "t1_kh0rxg4"
+    },
+    {
+      "id": "kh1q0sg",
+      "body": "Did you also check the 5V fuse, that is more to the middle bottom? This one should be removable.",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1704806636,
+      "score": 1,
+      "link_id": "t3_190v4ux",
+      "parent_id": "t1_kgy7g6j"
+    },
+    {
+      "id": "kgx6d4s",
+      "body": "Do the doors open and close?",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1704734837,
+      "score": 1,
+      "link_id": "t3_190v4ux",
+      "parent_id": "t3_190v4ux"
+    },
+    {
+      "id": "kgwlnwr",
+      "body": "There are also some fuses on the board on the back. Measure them with an ohm meter.",
+      "author": "MeatLasers",
+      "subreddit": "BangandOlufsen",
+      "created_utc": 1704727579,
+      "score": 1,
+      "link_id": "t3_190v4ux",
+      "parent_id": "t3_190v4ux"
+    }
+  ]
+}

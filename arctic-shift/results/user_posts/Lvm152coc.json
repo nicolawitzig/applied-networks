@@ -1,0 +1,2192 @@
+{
+  "username": "Lvm152coc",
+  "posts": [
+    {
+      "id": "1gf9t09",
+      "title": "Should I read the theoretical minimum by Susskind.",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1730247572,
+      "score": 13,
+      "num_comments": 15,
+      "selftext": "I like the idea of the series and the 4 things it goes over. I'm a high school student so would my level of maths be good enough? I was also considering reading the feynman lectures but have heard they're fairly complicated. Is there other books I should read instead?",
+      "url": "https://www.reddit.com/r/Physics/comments/1gf9t09/should_i_read_the_theoretical_minimum_by_susskind/"
+    },
+    {
+      "id": "1fh8hom",
+      "title": "How to control the vertical direction of my car in DAR",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1726391801,
+      "score": 4,
+      "num_comments": 6,
+      "selftext": "I managed to figure out how to turn, but often afterwards (Usually after turning right) my nose is practically horizontal so I just fly into the ground.",
+      "url": "https://www.reddit.com/r/RocketLeagueSchool/comments/1fh8hom/how_to_control_the_vertical_direction_of_my_car/"
+    },
+    {
+      "id": "1f4rhkx",
+      "title": "Diamond 2 2v2 analysis",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725012125,
+      "score": 9,
+      "num_comments": 18,
+      "selftext": "Hi, can someone have a look at this replay for me? If someone could point out mistakes, what I need to work on and how to work on it that would be great.",
+      "url": "https://v.redd.it/bzsoy44gyrld1"
+    },
+    {
+      "id": "1f1bxbe",
+      "title": "Diamond 2 2v2 Analysis",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1724634333,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi, could someone take a look at this replay for me. I know it's a long one so I don't expect anyone to watch the whole thing. If you could point out mistakes, what I need to work on and how to work on it that would be fantastic. \n\nI think I'm possibly a bit to hesitant, is that correct?",
+      "url": "https://v.redd.it/06zqy1xzqwkd1"
+    },
+    {
+      "id": "1f1b5zb",
+      "title": "Diamond 2 2v2 Analysis",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1724631979,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "Hi, could someone please take a look at this replay to see how I can improve? I realise this is quite long so dont feel any need to watch the whole thing. If anyone could point out mistakes, things to improve and how to improve them it would be much appreciated.\n\nI think I'm probably a bit hesitant to commit and felt my teammate was ballchasing a bit.",
+      "url": "https://www.reddit.com/r/RocketLeagueSchool/comments/1f1b5zb/diamond_2_2v2_analysis/"
+    },
+    {
+      "id": "1eff544",
+      "title": "More features in clash of clans api for clan leaders",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1722297897,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "At the moment the clash of clans api is pretty limited unless you're just doing data scraping. Could we have an expansion for leaders and Co-leaders to do things like:\n1. Promoting players.\n2. Handing out cwl bonuses.\n3. Better information about performance in war/cwl i.e stars, percentage, num of attacks.\n4. Reading chat which tags them specifically.\n5. Sending messages (Maybe).\n\nThese would make managing clans a lot easier, without opening up the api for everyone and avoid concerns about data scraping by unwanted parties",
+      "url": "https://www.reddit.com/r/ClashOfClans/comments/1eff544/more_features_in_clash_of_clans_api_for_clan/"
+    },
+    {
+      "id": "1e9akuw",
+      "title": "Help with connection took to long error",
+      "author": "Lvm152coc",
+      "subreddit": "webhosting",
+      "created_utc": 1721642880,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "I have a vps which has a webserver on it sitting behind nginx (For ssl reasons). When I ssh into the server, I can run the following curl commands:\n\ncurl [127.0.0.1](http://127.0.0.1)\n\ncurl [127.0.0.1:8080](http://127.0.0.1:8080)\n\ncurl domain\n\nAnd all give the response needed. However when I do this outside the server, I get a response took to long error.\n\nMy nginx config is this:\n\n\\`\\`\\`\n\nserver {\n\nlisten 80;\n\nlisten\\[::\\]:80;\n\nserver\\_name domain www.domain;\n\nlocation / {\n\nproxy\\_set\\_header X-Real-IP $remote\\_addr;\n\nproxy\\_set\\_header Host $http\\_host;\n\nproxy\\_http\\_version 1.1;\n\nproxy\\_pass [http://127.0.0.1:8080](http://127.0.0.1:8080);\n\n}\n\n\\`\\`\\`",
+      "url": "https://www.reddit.com/r/webhosting/comments/1e9akuw/help_with_connection_took_to_long_error/"
+    },
+    {
+      "id": "1e7vztm",
+      "title": "How do I do this",
+      "author": "Lvm152coc",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1721483144,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "(Complete beginner so sorry if mildly idiotic)\n\nWhat would I need to do to make a model for the following:\n\nEffectively making maths formulas and applying them. would be putting blocks together, executing it and getting a percentage accuracy result. Using this is it possible to get an optimal formula? \nThe process I'm imagining is this:\nPut formula together-> execute-> get accuracy-> optimise -> repeat.",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1e7vztm/how_do_i_do_this/"
+    },
+    {
+      "id": "1e5ljwy",
+      "title": "Solving this second order differential equation",
+      "author": "Lvm152coc",
+      "subreddit": "askmath",
+      "created_utc": 1721231335,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "(d\\^(2)r)/(dt\\^(2)) = -G(M+m)/r\\^2\n\n  \nWhere G, M and m are constants\n\nI saw a thread of someone solving it [here](http://www.physicsforums.com/showpost.php?p=2497264&postcount=8), but he makes some leaps I don't quite understand.\n\nHelp much appreciated!",
+      "url": "https://www.reddit.com/r/askmath/comments/1e5ljwy/solving_this_second_order_differential_equation/"
+    },
+    {
+      "id": "1e4qiyb",
+      "title": "Coverting a for loop to a differential equation",
+      "author": "Lvm152coc",
+      "subreddit": "askmath",
+      "created_utc": 1721141272,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "I have a program that solves the two body problem by incrementing time step by step.\nFor the sake of simplicity I'm simply trying to find the time of collision of two masses, separated by a one dimensional distance. Due to the nature of a \"step by step nature\" and non linear acceleration, I assume I need a differential equation. \n\nThe code can be found here: ",
+      "url": "https://github.com/lvm12/Two-Body-Problem"
+    },
+    {
+      "id": "1e34252",
+      "title": "Can big trees spawn in my ring?",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1720968423,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://i.redd.it/ge36fi3pyhcd1.jpeg"
+    },
+    {
+      "id": "1dzbn91",
+      "title": "Solving the classical two body problem",
+      "author": "Lvm152coc",
+      "subreddit": "AskPhysics",
+      "created_utc": 1720554523,
+      "score": 0,
+      "num_comments": 3,
+      "selftext": "What is the best method to solve this, I would like to do it using the two equations:\nF = (GMm)/r^2 ,\nF=ma\n\nI would assume there would be some differential equation/integration here due to non-linear acceleration. However I have become a bit stumped as it seems it bit circular.\nAny help is appreciated!",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1dzbn91/solving_the_classical_two_body_problem/"
+    },
+    {
+      "id": "1dyofpt",
+      "title": "Draw a divider between each row in a flow row",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1720483740,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "I have a quite a lot of items of different sizes in a row. Is there a way to draw a divider between each row?",
+      "url": "https://www.reddit.com/r/Kotlin/comments/1dyofpt/draw_a_divider_between_each_row_in_a_flow_row/"
+    },
+    {
+      "id": "1dyg7tr",
+      "title": "Draw under each row in flow row",
+      "author": "Lvm152coc",
+      "subreddit": "JetpackCompose",
+      "created_utc": 1720463353,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Is there an easy way to draw a divider under each row in a flow row?",
+      "url": "https://www.reddit.com/r/JetpackCompose/comments/1dyg7tr/draw_under_each_row_in_flow_row/"
+    },
+    {
+      "id": "1djw1c1",
+      "title": "Is the fx cg50 worth it for further maths a level?",
+      "author": "Lvm152coc",
+      "subreddit": "alevel",
+      "created_utc": 1718836268,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "I need to buy either a 991 ex or a cg50. Is the cg50 worth it for £100?",
+      "url": "https://www.reddit.com/r/alevel/comments/1djw1c1/is_the_fx_cg50_worth_it_for_further_maths_a_level/"
+    },
+    {
+      "id": "1d2j3fu",
+      "title": "Korge maths",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1716901815,
+      "score": 0,
+      "num_comments": 1,
+      "selftext": "I can't seem to access basic maths operation in my korge project such as `sqrt` or `pow`.\n\nThe build.gradle is just the one from their hello world template",
+      "url": "https://www.reddit.com/r/Kotlin/comments/1d2j3fu/korge_maths/"
+    },
+    {
+      "id": "1d16r2r",
+      "title": "Is this diagram correct?",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1716745423,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "Sorry this a stupid question/ has been answered elsewhere",
+      "url": "https://i.redd.it/c0nw26qj5t2d1.jpeg"
+    },
+    {
+      "id": "1cuhfwi",
+      "title": "Best books",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1715982977,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "Hi, looking for some book recommendations to do with Einstein's theories on gravity and relativity. In terms of math content I'm fairly comfortable with first year A level (Maths done by 17 year olds).",
+      "url": "https://www.reddit.com/r/Physics/comments/1cuhfwi/best_books/"
+    },
+    {
+      "id": "1cr74sx",
+      "title": "Please help (accidental soft lock?)",
+      "author": "Lvm152coc",
+      "subreddit": "StarWarsJediSurvivor",
+      "created_utc": 1715626368,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "Currently doing the quest \"Climb the mountain to the observatory\", following the rayvvis boss fight. I jumped down some hole, running past the door I was supposed to open and can't get out. There is a door that would provide a way back but is locked. I have attached photos please help, it took like 10 hours to beat rayvvis on jedi grand master.",
+      "url": "https://www.reddit.com/gallery/1cr74sx"
+    },
+    {
+      "id": "1cjz1x7",
+      "title": "Projectile motion simulation",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1714825278,
+      "score": 1,
+      "num_comments": 10,
+      "selftext": "Hello,\n\nCurrently working on a very simple projectile motion simulation (No air resistance), and getting some weird coordinate results. Is it an issue with my physics or code?\n\nThis function is run every time step (Set in constructor) and is used to map each object to its new value\n\n    private fun applyWorld(item: Item): Item{\n            //Time step in seconds\n            val t = throttleTime/1000.0\n            //Initial velocity\n            val u = item.velocity.magnitude\n            //Initial direction in radians\n            val theta = item.velocity.direction\n            //Initial velocity in x plane\n            val xu = u* cos(theta)\n            //Final velocity = initial velocity in x plane\n            val xv = u* cos(theta)\n            //Initial velocity in y plane\n            val yu = u* sin(theta)\n            /*Initial velocity in y plane\n            a = (v-u)/t\n            at = v-u\n            v = u +at\n            */\n            val yv = -gravity*t + yu\n            //New angle after time step\n            val alpha = atan(\n                (u*sin(theta)-gravity*t)/(\n                    u*cos(theta)\n                )\n            )\n            //New velocity using cosine rule\n            val v = sqrt(xv*xv + yv*yv -2*xv*yv* cos(PI/2))\n            //New x Coordinate\n            //As xv == xu as there is no air resistance \n            val xs = xv * t\n            /*New Y coordinate\n            s = (1/2)*(u+v)t\n             */\n            val ys = (1/2) * (yu+yv) * t\n            if (ys < 0) return item\n            return item.apply {\n                velocity = Vector(\n                    magnitude = v,\n                    direction = alpha\n                )\n                x = xs\n                y = ys\n            }\n        }\n\nI am using a small data class for a vector as so:\n\n    data class Vector(\n        val magnitude: Double,\n        val direction: Double\n    )\n\nDirection should (hopefully) be following a CAST diagram.\n\nAnd an item only contains the value that are applied in the final return.\n\nThe item is being launched at 10 m/s and 45 degress/ PI/4 radians\n\nHowever, will change x coordinate once and stop moving entirely",
+      "url": "https://www.reddit.com/r/Kotlin/comments/1cjz1x7/projectile_motion_simulation/"
+    },
+    {
+      "id": "1cg6qoq",
+      "title": "A level admissions requirements if already fluent in German",
+      "author": "Lvm152coc",
+      "subreddit": "ethz",
+      "created_utc": 1714415949,
+      "score": 4,
+      "num_comments": 4,
+      "selftext": "Is a language A level still required if I both hold German citizenship and can speak the language fluently?",
+      "url": "https://www.reddit.com/r/ethz/comments/1cg6qoq/a_level_admissions_requirements_if_already_fluent/"
+    },
+    {
+      "id": "1b4pn3d",
+      "title": "How to configure ktor server to use ssl certificate from certbot",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1709390071,
+      "score": 2,
+      "num_comments": 7,
+      "selftext": "The certificate exists on the ubuntu server and was generated by certbot without using webroot. How can I use the certificate in embedded server?",
+      "url": "https://www.reddit.com/r/Kotlin/comments/1b4pn3d/how_to_configure_ktor_server_to_use_ssl/"
+    },
+    {
+      "id": "194sosf",
+      "title": "Adding dependencies to a project without XCode.",
+      "author": "Lvm152coc",
+      "subreddit": "iOSProgramming",
+      "created_utc": 1705058181,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "I believe I have to edit project.pbxproj but not sure exactly how to.",
+      "url": "https://www.reddit.com/r/iOSProgramming/comments/194sosf/adding_dependencies_to_a_project_without_xcode/"
+    },
+    {
+      "id": "191xc28",
+      "title": "Apple in-app purchases",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1704751075,
+      "score": 4,
+      "num_comments": 5,
+      "selftext": "Is there an easy way to integrate apple in-app purchases into a kotlin/compose multiplayfrom project?",
+      "url": "https://www.reddit.com/r/Kotlin/comments/191xc28/apple_inapp_purchases/"
+    },
+    {
+      "id": "18x1lc2",
+      "title": "Adapt this filling to use egg?",
+      "author": "Lvm152coc",
+      "subreddit": "cookingforbeginners",
+      "created_utc": 1704232544,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Want to get rid of some stuff, anyways ideas on how to change this [recipe](https://www.jamieoliver.com/recipes/bread-recipes/speedy-folded-flatbread/) to have an egg based filling?",
+      "url": "https://www.reddit.com/r/cookingforbeginners/comments/18x1lc2/adapt_this_filling_to_use_egg/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m40iuk3",
+      "body": "Even under afd standards he would've been let in. He is a qualified doctor. Yes authorities should've handled it better when he was reported, but he was a doctor and we need doctors",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1735295369,
+      "score": 1,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m3vco9w"
+    },
+    {
+      "id": "m3cwa2l",
+      "body": "His motive is likely, judging by his Internet activity, that he dislikes Islam and feels the German government isn't harsh enough on them. Of course the Islamic terrorism is terrible, but that's not because it's Islamic but because it's terrorism. In germany there have also been enough attacks by right wing extremists, and to some extent left wing extremists. Let's not act like the only terrorism that happens is Islamic.",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734910113,
+      "score": 1,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m3cqpj2"
+    },
+    {
+      "id": "m3cvejk",
+      "body": "Except he's not an islamist?",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734909779,
+      "score": 1,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m3cqbqw"
+    },
+    {
+      "id": "m3cohn1",
+      "body": "This was an afd supporter. He was critical of Islam. He was critical of the German immigration system due to it being secular and believed it was to harsh on Arabic people and not harsh enough on Muslims. This wasn't due to mass migration, he was a trained doctor.",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734907202,
+      "score": -1,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m33xm48"
+    },
+    {
+      "id": "m3codn8",
+      "body": "This was an afd supporter. He was critical of Islam. He was critical of the German immigration system due to it being secular and believed it was to harsh on Arabic people and not harsh enough on Muslims. This wasn't due to mass migration, he was a trained doctor.",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734907162,
+      "score": 0,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m347f13"
+    },
+    {
+      "id": "m3coccq",
+      "body": "This was an afd supporter. He was critical of Islam. He was critical of the German immigration system due to it being secular and believed it was to harsh on Arabic people and not harsh enough on Muslims. This wasn't due to mass migration, he was a trained doctor.",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734907149,
+      "score": 0,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m327hd4"
+    },
+    {
+      "id": "m3coamz",
+      "body": "This was an afd supporter. He was critical of Islam. He was critical of the German immigration system due to it being secular and believed it was to harsh on Arabic people and not harsh enough on Muslims. This wasn't due to mass migration, he was a trained doctor.",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734907131,
+      "score": -1,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m328vq7"
+    },
+    {
+      "id": "m3co72f",
+      "body": "This was an afd supporter. He was critical of Islam. He was critical of the German immigration system due to it being secular and believed it was to harsh on Arabic people and not harsh enough on Muslims. This wasn't due to mass migration, he was a trained doctor.",
+      "author": "Lvm152coc",
+      "subreddit": "reformuk",
+      "created_utc": 1734907096,
+      "score": 1,
+      "link_id": "t3_1hiu47w",
+      "parent_id": "t1_m31q48i"
+    },
+    {
+      "id": "lwe1rh9",
+      "body": "How?",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1731232152,
+      "score": 1,
+      "link_id": "t3_1gnrs3k",
+      "parent_id": "t1_lwcz730"
+    },
+    {
+      "id": "lv3ljej",
+      "body": "Try kobweb",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1730591300,
+      "score": 8,
+      "link_id": "t3_1gi5g2g",
+      "parent_id": "t3_1gi5g2g"
+    },
+    {
+      "id": "luhww14",
+      "body": "Will check it out, cheers",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1730282710,
+      "score": 1,
+      "link_id": "t3_1gf9t09",
+      "parent_id": "t1_lugtgoj"
+    },
+    {
+      "id": "lug7pa7",
+      "body": "What's the level of maths required for the first volume of the feynmann lectures? Also what courses would you recommend?",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1730250961,
+      "score": 0,
+      "link_id": "t3_1gf9t09",
+      "parent_id": "t1_lug6ep6"
+    },
+    {
+      "id": "lug7ea7",
+      "body": "Just improve general knowledge on various major topics in physics to see what I like. I've done a fair bit on classical mechanics and special relativity but also want to see what quantum mechanics is about.",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1730250865,
+      "score": 1,
+      "link_id": "t3_1gf9t09",
+      "parent_id": "t1_lug68h0"
+    },
+    {
+      "id": "lug6d8b",
+      "body": "I'm familiar with most of those topics, the only one I'm shaky on is matrices. The rest are fine.",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1730250519,
+      "score": 3,
+      "link_id": "t3_1gf9t09",
+      "parent_id": "t1_lug52ta"
+    },
+    {
+      "id": "lufw3nn",
+      "body": "My uncle has cupid stunt",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1730247179,
+      "score": 7,
+      "link_id": "t3_1gf2arz",
+      "parent_id": "t3_1gf2arz"
+    },
+    {
+      "id": "lr7r1m7",
+      "body": "So I assume when creating connections it goes way up",
+      "author": "Lvm152coc",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1728541551,
+      "score": 1,
+      "link_id": "t3_1fzmkdk",
+      "parent_id": "t1_lr5q4ld"
+    },
+    {
+      "id": "lr5m8ms",
+      "body": "What's the effect on power consumption when running locally?",
+      "author": "Lvm152coc",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1728509076,
+      "score": 1,
+      "link_id": "t3_1fzmkdk",
+      "parent_id": "t3_1fzmkdk"
+    },
+    {
+      "id": "lpek22c",
+      "body": "D2 at about 550 when I peaked",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeague",
+      "created_utc": 1727560957,
+      "score": 1,
+      "link_id": "t3_1fr8y8e",
+      "parent_id": "t3_1fr8y8e"
+    },
+    {
+      "id": "lny6lm6",
+      "body": "I just watched your video, when are you supposed to use the combos?",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1726779419,
+      "score": 1,
+      "link_id": "t3_1fh8hom",
+      "parent_id": "t1_lnt0h5w"
+    },
+    {
+      "id": "lnsstz3",
+      "body": "It hasn't been necessary so far (only two weeks in) but it definitely makes some things easier ( maybe not £100 worth easier )",
+      "author": "Lvm152coc",
+      "subreddit": "alevel",
+      "created_utc": 1726694722,
+      "score": 2,
+      "link_id": "t3_1djw1c1",
+      "parent_id": "t1_lnsp0c8"
+    },
+    {
+      "id": "lnlhgc5",
+      "body": "I like that, will do that in my next project",
+      "author": "Lvm152coc",
+      "subreddit": "androiddev",
+      "created_utc": 1726592039,
+      "score": 2,
+      "link_id": "t3_1fi18s6",
+      "parent_id": "t1_lnjkg75"
+    },
+    {
+      "id": "lnh1ms8",
+      "body": "Is there a way to put dimensions into the material theme?",
+      "author": "Lvm152coc",
+      "subreddit": "androiddev",
+      "created_utc": 1726521839,
+      "score": 1,
+      "link_id": "t3_1fi18s6",
+      "parent_id": "t1_lne6392"
+    },
+    {
+      "id": "ln9723f",
+      "body": "Ok, I guess up left down is to go horizontal",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1726412064,
+      "score": 1,
+      "link_id": "t3_1fh8hom",
+      "parent_id": "t1_ln8vbyl"
+    },
+    {
+      "id": "ln83u1c",
+      "body": "Ok cheers",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1726395552,
+      "score": 1,
+      "link_id": "t3_1fh8hom",
+      "parent_id": "t1_ln81sa6"
+    },
+    {
+      "id": "ll7sonm",
+      "body": "What's the website?",
+      "author": "Lvm152coc",
+      "subreddit": "androidroot",
+      "created_utc": 1725315888,
+      "score": 2,
+      "link_id": "t3_1f727eb",
+      "parent_id": "t1_ll6mk8m"
+    },
+    {
+      "id": "lkpmh42",
+      "body": "Ok sent friend request",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725042074,
+      "score": 1,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lkphecz"
+    },
+    {
+      "id": "lkphdmq",
+      "body": "Hopefully, thanks!",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725040434,
+      "score": 2,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lkp5u6s"
+    },
+    {
+      "id": "lkphb6f",
+      "body": "Sure",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725040413,
+      "score": 1,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lkp21xz"
+    },
+    {
+      "id": "lko4com",
+      "body": "Sorry, the one at 2:30",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725024798,
+      "score": 3,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lknznvq"
+    },
+    {
+      "id": "lknz0e6",
+      "body": "That's fine, personally don't find one horrific.",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725022868,
+      "score": 2,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lknxu13"
+    },
+    {
+      "id": "lknyjdn",
+      "body": "What should I do in that situation instead, I feel it's one I often end up in?",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725022694,
+      "score": 2,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lknre18"
+    },
+    {
+      "id": "lknxen4",
+      "body": "Thanks for the in-depth analysis! Is the best way to improve my kick offs just to flip earlier so I can get a proper challenge?",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1725022275,
+      "score": 3,
+      "link_id": "t3_1f4rhkx",
+      "parent_id": "t1_lknhy55"
+    },
+    {
+      "id": "lk586a5",
+      "body": "Yeah I know and I forgot to buy it",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeague",
+      "created_utc": 1724747443,
+      "score": 1,
+      "link_id": "t3_1f1xh4h",
+      "parent_id": "t1_lk54vau"
+    },
+    {
+      "id": "lk3g84x",
+      "body": "I really hope they bring the bundesliga bundle back, I missed it and want to get my teams decal",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeague",
+      "created_utc": 1724716061,
+      "score": 0,
+      "link_id": "t3_1f1xh4h",
+      "parent_id": "t3_1f1xh4h"
+    },
+    {
+      "id": "lk37co2",
+      "body": "Yeah I'm d2: \"lvm12.\"",
+      "author": "Lvm152coc",
+      "subreddit": "RocketLeagueSchool",
+      "created_utc": 1724712823,
+      "score": 1,
+      "link_id": "t3_1f1zbs1",
+      "parent_id": "t3_1f1zbs1"
+    },
+    {
+      "id": "ljalx53",
+      "body": "Thank you boris",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1724283107,
+      "score": 1,
+      "link_id": "t3_1ey0r6t",
+      "parent_id": "t3_1ey0r6t"
+    },
+    {
+      "id": "lj90sjl",
+      "body": "Peak match attax",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1724264651,
+      "score": 1,
+      "link_id": "t3_1exacju",
+      "parent_id": "t1_lj7vxgf"
+    },
+    {
+      "id": "likzjh2",
+      "body": "Yes there is, generally at /api\n\nThe general one is [this](https://fantasy.premierleague.com/api/bootstrap-static).\nThere's others you can find fairly easily with a search.",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1723911198,
+      "score": 2,
+      "link_id": "t3_1eueo0j",
+      "parent_id": "t1_lik51ip"
+    },
+    {
+      "id": "lhym8pq",
+      "body": "It's more in the style of getting drunk off it but yeah",
+      "author": "Lvm152coc",
+      "subreddit": "EASportsFC",
+      "created_utc": 1723578311,
+      "score": 3,
+      "link_id": "t3_1erd8uf",
+      "parent_id": "t1_lhxyd51"
+    },
+    {
+      "id": "lg1t001",
+      "body": "Anthony's game has dimensions?",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1722551105,
+      "score": 2,
+      "link_id": "t3_1ehaexn",
+      "parent_id": "t1_lfyk3yp"
+    },
+    {
+      "id": "lfmhf0k",
+      "body": "Yeah I'm going to have a look at their source code for that, it was more the other things like promoting players and handing out bonuses for me",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1722331987,
+      "score": 1,
+      "link_id": "t3_1eff544",
+      "parent_id": "t1_lfmh4bw"
+    },
+    {
+      "id": "lfmg1y6",
+      "body": "Yeah but it's slightly convoluted, there isn't just a get clan war league performance sort of thing",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1722331051,
+      "score": 1,
+      "link_id": "t3_1eff544",
+      "parent_id": "t1_lfm6qy0"
+    },
+    {
+      "id": "lfkv5a8",
+      "body": "Yeah I agree, hence I would limit it to (co) leaders. Or just not add it all. However the other things would be more helpful.",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1722301186,
+      "score": 1,
+      "link_id": "t3_1eff544",
+      "parent_id": "t1_lfku4fj"
+    },
+    {
+      "id": "lfkv0vy",
+      "body": "It needs your api key, so I assume it could figure out your role when you make the request",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1722301139,
+      "score": 1,
+      "link_id": "t3_1eff544",
+      "parent_id": "t1_lfktu6j"
+    },
+    {
+      "id": "ley5lwb",
+      "body": "9",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1721948077,
+      "score": 1,
+      "link_id": "t3_1ebqv9e",
+      "parent_id": "t3_1ebqv9e"
+    },
+    {
+      "id": "ley4xhb",
+      "body": "11 Gcses + 2 level 3s (as, although easy) took 26 exams I think",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1721947825,
+      "score": 1,
+      "link_id": "t3_1ebrsrr",
+      "parent_id": "t3_1ebrsrr"
+    },
+    {
+      "id": "lev9sq1",
+      "body": "American football or normal football?",
+      "author": "Lvm152coc",
+      "subreddit": "learnprogramming",
+      "created_utc": 1721914263,
+      "score": 1,
+      "link_id": "t3_1ebqqbb",
+      "parent_id": "t3_1ebqqbb"
+    },
+    {
+      "id": "leg965i",
+      "body": "Haha thanks :)",
+      "author": "Lvm152coc",
+      "subreddit": "webhosting",
+      "created_utc": 1721685897,
+      "score": 1,
+      "link_id": "t3_1e9akuw",
+      "parent_id": "t1_lefxlbr"
+    },
+    {
+      "id": "lefxcse",
+      "body": "I don't actually have the certificate yet. But setting that up isn't a problem. I need the web server behind nginx as the webservwr doenst have nginx configured. Atm I've just wiped the vps and am going to start again.",
+      "author": "Lvm152coc",
+      "subreddit": "webhosting",
+      "created_utc": 1721681946,
+      "score": 1,
+      "link_id": "t3_1e9akuw",
+      "parent_id": "t1_lef0qbu"
+    },
+    {
+      "id": "le80y24",
+      "body": "Ok, replaced Bailey with Rogers,",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1721568041,
+      "score": 1,
+      "link_id": "t3_1e8j3pj",
+      "parent_id": "t1_le7zzjr"
+    },
+    {
+      "id": "le7zmrb",
+      "body": "RMT:\n\nAreola, Muric\n\nWhite, Gvardiol, Pau, Mykolenko, Davis\n\nFernandes, Foden, Odegaard, Nkunku, Bailey\n\nIsak, watkins, solanke",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1721567457,
+      "score": 2,
+      "link_id": "t3_1e8j3pj",
+      "parent_id": "t3_1e8j3pj"
+    },
+    {
+      "id": "le3i1gd",
+      "body": "Cheers",
+      "author": "Lvm152coc",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1721490983,
+      "score": 1,
+      "link_id": "t3_1e7vztm",
+      "parent_id": "t1_le3hgdo"
+    },
+    {
+      "id": "le3852y",
+      "body": "How do I come up with a model?",
+      "author": "Lvm152coc",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1721487372,
+      "score": 1,
+      "link_id": "t3_1e7vztm",
+      "parent_id": "t1_le31itp"
+    },
+    {
+      "id": "lduacc1",
+      "body": "There's certain endpoints to make transfers and stuff, but it's a pain to authenticate",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1721341299,
+      "score": 1,
+      "link_id": "t3_1dfvf00",
+      "parent_id": "t1_ldu3f4i"
+    },
+    {
+      "id": "ldt62zc",
+      "body": "How did you auth with the fpl api (To be able to reach endpoints that require logins)",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1721327236,
+      "score": 1,
+      "link_id": "t3_1dfvf00",
+      "parent_id": "t1_ldt5n4x"
+    },
+    {
+      "id": "ldt0tao",
+      "body": "Did you do authentication, currently spent the last couple of hours trying to get some authentication to work",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1721325509,
+      "score": 1,
+      "link_id": "t3_1dfvf00",
+      "parent_id": "t1_l8m6hsk"
+    },
+    {
+      "id": "ldndlk9",
+      "body": "Ok, cheers for you're help. Is it possible to use this to find the time for when r = 0?",
+      "author": "Lvm152coc",
+      "subreddit": "askmath",
+      "created_utc": 1721240697,
+      "score": 1,
+      "link_id": "t3_1e5ljwy",
+      "parent_id": "t1_ldncynr"
+    },
+    {
+      "id": "ldgx154",
+      "body": "Annoyingly I can't edit my post but I'll try to add details.\n\nI want to have a function r(t), where r is distance, and I'm fairly sure it'll involve some integrals due to non linear acceleration. My thinking was to effectively find dr using dt. However to find dr I need what the distance between them is at a time. So my function seems recursive l. Which is where I'm having an issue. \n\nIt's like this (i think):\ndr/dt = (k/r^2)t^2\n\nSo I guess how do i solve this?",
+      "author": "Lvm152coc",
+      "subreddit": "askmath",
+      "created_utc": 1721146592,
+      "score": 1,
+      "link_id": "t3_1e4qiyb",
+      "parent_id": "t1_ldgu4yn"
+    },
+    {
+      "id": "ldgv681",
+      "body": "Sorry, I realise it's not very clear. If at the moment I have a loop which every time step does something, and sums to a total, where the time step needs to tend to 0, how can I write an integral for it?",
+      "author": "Lvm152coc",
+      "subreddit": "askmath",
+      "created_utc": 1721145987,
+      "score": 1,
+      "link_id": "t3_1e4qiyb",
+      "parent_id": "t1_ldgu4yn"
+    },
+    {
+      "id": "ld5pctt",
+      "body": "Cool",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1720974282,
+      "score": 1,
+      "link_id": "t3_1dz61vh",
+      "parent_id": "t1_ld5k53v"
+    },
+    {
+      "id": "ld5j1zn",
+      "body": "Can big trees spawn in my ring?\n\nhttps://preview.redd.it/y1wrbp6m9icd1.jpeg?width=1291&format=pjpg&auto=webp&s=6fd55e9cc48ac1210c681da5e948303911b54cd4",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1720972095,
+      "score": 1,
+      "link_id": "t3_1dz61vh",
+      "parent_id": "t3_1dz61vh"
+    },
+    {
+      "id": "lcena12",
+      "body": "Cheers :)",
+      "author": "Lvm152coc",
+      "subreddit": "AskPhysics",
+      "created_utc": 1720556703,
+      "score": 1,
+      "link_id": "t3_1dzbn91",
+      "parent_id": "t1_lcehoyr"
+    },
+    {
+      "id": "lccjwu0",
+      "body": "I did actually find a solution to this using a custom layout",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1720531937,
+      "score": 1,
+      "link_id": "t3_1dyofpt",
+      "parent_id": "t1_lccdps9"
+    },
+    {
+      "id": "lcc2bzs",
+      "body": "Edited post to show solution, no idea why it worked lmao",
+      "author": "Lvm152coc",
+      "subreddit": "JetpackCompose",
+      "created_utc": 1720524025,
+      "score": 1,
+      "link_id": "t3_1dyg7tr",
+      "parent_id": "t1_lcb69l7"
+    },
+    {
+      "id": "lcbugpc",
+      "body": "How would that work?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1720519241,
+      "score": 1,
+      "link_id": "t3_1dyofpt",
+      "parent_id": "t1_lca13je"
+    },
+    {
+      "id": "lc4058k",
+      "body": "Haha, np. This had me stumped for ages, might as well help the next person.",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1720393477,
+      "score": 1,
+      "link_id": "t3_1d2j3fu",
+      "parent_id": "t1_lc3vnoo"
+    },
+    {
+      "id": "lbygcgg",
+      "body": "Mikhail Gorbachev",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1720303913,
+      "score": 1,
+      "link_id": "t3_1dwmipm",
+      "parent_id": "t3_1dwmipm"
+    },
+    {
+      "id": "l9whtuf",
+      "body": "Dw already ordered one",
+      "author": "Lvm152coc",
+      "subreddit": "alevel",
+      "created_utc": 1719150436,
+      "score": 1,
+      "link_id": "t3_1djw1c1",
+      "parent_id": "t1_l9ebx2p"
+    },
+    {
+      "id": "l9dsivp",
+      "body": "Out of interest,  what is it that makes it so good?",
+      "author": "Lvm152coc",
+      "subreddit": "alevel",
+      "created_utc": 1718838774,
+      "score": 1,
+      "link_id": "t3_1djw1c1",
+      "parent_id": "t1_l9doinj"
+    },
+    {
+      "id": "l95uv85",
+      "body": "There's two approaches:\n1: imagine a triangle, opposite is n+1, adjacent is n-1. Solve from there by finding sin theta\n\n2: use tan theta = sin theta/cos theta.\n    Then replace cos theta with sqrt(1-sin^2 theta) and rearrange",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1718722511,
+      "score": 2,
+      "link_id": "t3_1dis7ar",
+      "parent_id": "t1_l95u4ak"
+    },
+    {
+      "id": "l8nkiap",
+      "body": "I wrote [this](https://github.com/lvm12/FPLpredictor), a while ago. Might help with some processing of the api",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1718407179,
+      "score": 2,
+      "link_id": "t3_1dfvf00",
+      "parent_id": "t3_1dfvf00"
+    },
+    {
+      "id": "l8cggie",
+      "body": "Do we actually need to know anything dor geography paper 3? Like yeah theres the pre release which I moght as well learn. But past papers dont seem to have anything from the field trips",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1718234198,
+      "score": 2,
+      "link_id": "t3_1de2k6e",
+      "parent_id": "t3_1de2k6e"
+    },
+    {
+      "id": "l7owdbm",
+      "body": "Iteration/Kinematics",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717862795,
+      "score": 1,
+      "link_id": "t3_1dakv7a",
+      "parent_id": "t3_1dakv7a"
+    },
+    {
+      "id": "l7owdj0",
+      "body": "Iteration/Kinematics",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717862795,
+      "score": 1,
+      "link_id": "t3_1dakv7a",
+      "parent_id": "t3_1dakv7a"
+    },
+    {
+      "id": "l7lcorj",
+      "body": "Fair enough",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717797131,
+      "score": 1,
+      "link_id": "t3_1dacdqe",
+      "parent_id": "t1_l7l5h6u"
+    },
+    {
+      "id": "l7klm9w",
+      "body": "How are we doing fsmq",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717787449,
+      "score": 0,
+      "link_id": "t3_1dacdqe",
+      "parent_id": "t1_l7jcb5d"
+    },
+    {
+      "id": "l7j88b5",
+      "body": "* Cystic fibrosis is recessive\n* Therefore, two alleles need to mutate\n* So the phenotype is shown\n* 1/50 * 1/50 = 1/2500",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717770812,
+      "score": 5,
+      "link_id": "t3_1da3xc9",
+      "parent_id": "t1_l7j4e0q"
+    },
+    {
+      "id": "l74iizk",
+      "body": "Anyone do edexcel igcse middle east and russia?",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717535866,
+      "score": 1,
+      "link_id": "t3_1d7ypq2",
+      "parent_id": "t3_1d7ypq2"
+    },
+    {
+      "id": "l72gu0k",
+      "body": "Geography for literally anything",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717511174,
+      "score": 4,
+      "link_id": "t3_1d7qav8",
+      "parent_id": "t3_1d7qav8"
+    },
+    {
+      "id": "l6sykkd",
+      "body": "It would be better if the moved Critical Thinking AS Level to be a gcse.",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717354849,
+      "score": 1,
+      "link_id": "t3_1d680sw",
+      "parent_id": "t1_l6qsp9u"
+    },
+    {
+      "id": "l6oudz8",
+      "body": "Yeah, hooke pissed him off once and Newton burnt had all portraits of hooke and books by hooke burnt.",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717281590,
+      "score": 1,
+      "link_id": "t3_1d5jc1t",
+      "parent_id": "t1_l6n2fje"
+    },
+    {
+      "id": "l6nqbgm",
+      "body": "Just download an old version off apkmirror",
+      "author": "Lvm152coc",
+      "subreddit": "moddedandroidapps",
+      "created_utc": 1717266152,
+      "score": 1,
+      "link_id": "t3_1d5iw34",
+      "parent_id": "t3_1d5iw34"
+    },
+    {
+      "id": "l6ec6hj",
+      "body": "Fm, maths, physics, comp sci, Spanish for one year",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1717111355,
+      "score": 1,
+      "link_id": "t3_1d3sdqz",
+      "parent_id": "t3_1d3sdqz"
+    },
+    {
+      "id": "l68u7fy",
+      "body": "Has anyone noticed that the ai constantly has miracle turns. Like it'll need 20 points to win and just magically do it.",
+      "author": "Lvm152coc",
+      "subreddit": "dominion",
+      "created_utc": 1717023103,
+      "score": 2,
+      "link_id": "t3_1d3ax1e",
+      "parent_id": "t3_1d3ax1e"
+    },
+    {
+      "id": "l66utcp",
+      "body": "Would use a lot of memory",
+      "author": "Lvm152coc",
+      "subreddit": "minecraftsuggestions",
+      "created_utc": 1716998048,
+      "score": 1,
+      "link_id": "t3_1d2pjtb",
+      "parent_id": "t3_1d2pjtb"
+    },
+    {
+      "id": "l62o0s9",
+      "body": "I own a vps, if a group come together who can quickly code stuff then we can host on that",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716927266,
+      "score": 1,
+      "link_id": "t3_1d2lpz9",
+      "parent_id": "t3_1d2lpz9"
+    },
+    {
+      "id": "l62nysn",
+      "body": "I own a vps, if a group come together who can quickly code stuff then we can host on that",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716927247,
+      "score": 1,
+      "link_id": "t3_1d2lpz9",
+      "parent_id": "t1_l61v14f"
+    },
+    {
+      "id": "l60qv0h",
+      "body": "Fixed by updating to 5.4.0",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1716902109,
+      "score": 1,
+      "link_id": "t3_1d2j3fu",
+      "parent_id": "t3_1d2j3fu"
+    },
+    {
+      "id": "l5rrpug",
+      "body": "Mikhail Gorbachev",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716744820,
+      "score": 1,
+      "link_id": "t3_1d0ws8t",
+      "parent_id": "t3_1d0ws8t"
+    },
+    {
+      "id": "l5madpm",
+      "body": "ETH IN",
+      "author": "Lvm152coc",
+      "subreddit": "ManchesterUnited",
+      "created_utc": 1716648803,
+      "score": 1,
+      "link_id": "t3_1d0bjpj",
+      "parent_id": "t3_1d0bjpj"
+    },
+    {
+      "id": "l5axrra",
+      "body": "How has bro already got the picture",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716460418,
+      "score": 106,
+      "link_id": "t3_1cypasw",
+      "parent_id": "t3_1cypasw"
+    },
+    {
+      "id": "l55ge2w",
+      "body": "I got that",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716374319,
+      "score": 2,
+      "link_id": "t3_1cxx1w5",
+      "parent_id": "t1_l55g3kv"
+    },
+    {
+      "id": "l54r3jx",
+      "body": "Breaks out of the loop immediately, it can also be done using\n```\nwhile variable:\n    if condition:\n        variable = False",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716356303,
+      "score": 1,
+      "link_id": "t3_1cx92vn",
+      "parent_id": "t1_l52tzpi"
+    },
+    {
+      "id": "l51xd38",
+      "body": "Not necessarily, it's just away to hold two values, in a real program you would've made a custom class for this. Two variables is fine though",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716314511,
+      "score": 1,
+      "link_id": "t3_1cx92vn",
+      "parent_id": "t1_l51x3az"
+    },
+    {
+      "id": "l518z4e",
+      "body": "I just figured i'd float it in case the were",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716306042,
+      "score": 3,
+      "link_id": "t3_1cx92vn",
+      "parent_id": "t1_l5187p3"
+    },
+    {
+      "id": "l50x7qd",
+      "body": "Fuck that formatted horribly",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716301841,
+      "score": 37,
+      "link_id": "t3_1cx92vn",
+      "parent_id": "t1_l50x5ut"
+    },
+    {
+      "id": "l50x5ut",
+      "body": "team = [\"\",0.0]\nwhile True:\n    teamname = input(\"prompt\")\n    if teamname == \"stop\":\n        break\n    score = float(input(\"enter score\"))\n    if score > team[1]:\n        team = [teamname, score]\n\nprint(f\"{team[0]} won with {team[1]} points\")",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716301821,
+      "score": 76,
+      "link_id": "t3_1cx92vn",
+      "parent_id": "t3_1cx92vn"
+    },
+    {
+      "id": "l4zt3jo",
+      "body": "Probably going to need some eco-friendly wood veneers",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1716280634,
+      "score": 14,
+      "link_id": "t3_1cwnp5r",
+      "parent_id": "t1_l4yof46"
+    },
+    {
+      "id": "l4iysp2",
+      "body": "Ok, sounds good.",
+      "author": "Lvm152coc",
+      "subreddit": "Physics",
+      "created_utc": 1715987524,
+      "score": 1,
+      "link_id": "t3_1cuhfwi",
+      "parent_id": "t1_l4ircgd"
+    },
+    {
+      "id": "l427xy7",
+      "body": "Fr",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1715721008,
+      "score": 3,
+      "link_id": "t3_1crlz8e",
+      "parent_id": "t1_l3z9rio"
+    },
+    {
+      "id": "l3wde0g",
+      "body": "Is it actually down there? I thought that was a dead end lmao",
+      "author": "Lvm152coc",
+      "subreddit": "StarWarsJediSurvivor",
+      "created_utc": 1715630288,
+      "score": 1,
+      "link_id": "t3_1cr74sx",
+      "parent_id": "t1_l3wbkz3"
+    },
+    {
+      "id": "l3c17fn",
+      "body": "Same concept though surely",
+      "author": "Lvm152coc",
+      "subreddit": "android_devs",
+      "created_utc": 1715286432,
+      "score": 2,
+      "link_id": "t3_1cnrryn",
+      "parent_id": "t1_l3bwj2y"
+    },
+    {
+      "id": "l3bu9uj",
+      "body": "In the onActivityResult bit, you need to do\nval takeFlags = Intent.SOMETHING_ABOUT_PERSISTABLE_WRITE || Intent.SOMETHING_ABOUT_PERSISTABLE_READ\ncontentResolver.takePersistableUri(uri, takeFlags)",
+      "author": "Lvm152coc",
+      "subreddit": "android_devs",
+      "created_utc": 1715284085,
+      "score": 2,
+      "link_id": "t3_1cnrryn",
+      "parent_id": "t3_1cnrryn"
+    },
+    {
+      "id": "l30j6kv",
+      "body": "I ended just resolving the force on input, so could use rectangular coordinates for velocity, therefore didn't have to do trig every iteration.",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1715105743,
+      "score": 1,
+      "link_id": "t3_1cjz1x7",
+      "parent_id": "t1_l30fw81"
+    },
+    {
+      "id": "l30866j",
+      "body": "Nah don't worry, I figured stuff out now",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1715101899,
+      "score": 2,
+      "link_id": "t3_1cjz1x7",
+      "parent_id": "t1_l304l8u"
+    },
+    {
+      "id": "l2lh5m3",
+      "body": "Ok cheers",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1714855248,
+      "score": 1,
+      "link_id": "t3_1cjz1x7",
+      "parent_id": "t1_l2lbvkt"
+    },
+    {
+      "id": "l2kmfga",
+      "body": "Yes, but once resolved I might as well be using Cartesian",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1714844309,
+      "score": 0,
+      "link_id": "t3_1cjz1x7",
+      "parent_id": "t1_l2kd9kg"
+    },
+    {
+      "id": "l2kbptb",
+      "body": "But sure after the vectors have been resolved, I'm using Cartesian coordinates anyway?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1714840655,
+      "score": 0,
+      "link_id": "t3_1cjz1x7",
+      "parent_id": "t1_l2k285j"
+    },
+    {
+      "id": "l2jqr7v",
+      "body": "Ok",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1714833108,
+      "score": 1,
+      "link_id": "t3_1cjz1x7",
+      "parent_id": "t1_l2jgzwl"
+    },
+    {
+      "id": "l1u5lkl",
+      "body": "That only says that I don't need the certificate, I assume that means a language a level is still required?",
+      "author": "Lvm152coc",
+      "subreddit": "ethz",
+      "created_utc": 1714421639,
+      "score": 1,
+      "link_id": "t3_1cg6qoq",
+      "parent_id": "t1_l1twh8v"
+    },
+    {
+      "id": "l1i2bt2",
+      "body": "Wonderful",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1714226428,
+      "score": 2,
+      "link_id": "t3_1ce6rty",
+      "parent_id": "t1_l1hvq20"
+    },
+    {
+      "id": "l1hzyyw",
+      "body": "Ok nice",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1714225427,
+      "score": 1,
+      "link_id": "t3_1ce6rty",
+      "parent_id": "t1_l1hvv06"
+    },
+    {
+      "id": "l1hvp3h",
+      "body": "On questions where you need to draw a graph, should I use pencil or pen?",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1714223554,
+      "score": 3,
+      "link_id": "t3_1ce6rty",
+      "parent_id": "t3_1ce6rty"
+    },
+    {
+      "id": "l0lsud1",
+      "body": "Real",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1713712667,
+      "score": 1,
+      "link_id": "t3_1c9dp50",
+      "parent_id": "t1_l0lr1e0"
+    },
+    {
+      "id": "kzynf9s",
+      "body": "Fr, would rather have taken pre",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1713346106,
+      "score": 2,
+      "link_id": "t3_1c5vzm5",
+      "parent_id": "t1_kzx0i7t"
+    },
+    {
+      "id": "kzqrpri",
+      "body": "Further maths because I already do fsmq",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1713217715,
+      "score": 1,
+      "link_id": "t3_1c4tg03",
+      "parent_id": "t3_1c4tg03"
+    },
+    {
+      "id": "kz3g393",
+      "body": "What is RealDebird",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1712851948,
+      "score": 4,
+      "link_id": "t3_1c196r2",
+      "parent_id": "t1_kz2nuyx"
+    },
+    {
+      "id": "kz1sssg",
+      "body": "Can u install it if u modded it with snapenhance again",
+      "author": "Lvm152coc",
+      "subreddit": "moddedandroidapps",
+      "created_utc": 1712825561,
+      "score": 1,
+      "link_id": "t3_1c0yzwx",
+      "parent_id": "t1_kz01ozi"
+    },
+    {
+      "id": "kyzull8",
+      "body": "Re install snap enhanced, then delete but don't save data",
+      "author": "Lvm152coc",
+      "subreddit": "moddedandroidapps",
+      "created_utc": 1712790380,
+      "score": 2,
+      "link_id": "t3_1c0yzwx",
+      "parent_id": "t3_1c0yzwx"
+    },
+    {
+      "id": "kyzh8nv",
+      "body": "Perhaps mention talk to the council of Värnamo, or some media and get them to approach google?",
+      "author": "Lvm152coc",
+      "subreddit": "androiddev",
+      "created_utc": 1712785405,
+      "score": 3,
+      "link_id": "t3_1c0woaq",
+      "parent_id": "t3_1c0woaq"
+    },
+    {
+      "id": "kyzg77v",
+      "body": "Interested",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1712785039,
+      "score": 1,
+      "link_id": "t3_1c0lacd",
+      "parent_id": "t3_1c0lacd"
+    },
+    {
+      "id": "kyr99xq",
+      "body": "Cheers",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1712663971,
+      "score": 1,
+      "link_id": "t3_1bzd9k4",
+      "parent_id": "t1_kyp2res"
+    },
+    {
+      "id": "kyp19v1",
+      "body": "Sorry new to this could you ELI5",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1712620576,
+      "score": 2,
+      "link_id": "t3_1bzd9k4",
+      "parent_id": "t3_1bzd9k4"
+    },
+    {
+      "id": "kyofai5",
+      "body": "Secure folder",
+      "author": "Lvm152coc",
+      "subreddit": "GalaxyS24",
+      "created_utc": 1712612004,
+      "score": 2,
+      "link_id": "t3_1byqse4",
+      "parent_id": "t3_1byqse4"
+    },
+    {
+      "id": "kynbuy7",
+      "body": "What is the shortcuts feature?",
+      "author": "Lvm152coc",
+      "subreddit": "samsung",
+      "created_utc": 1712597913,
+      "score": 1,
+      "link_id": "t3_1byuzh4",
+      "parent_id": "t3_1byuzh4"
+    },
+    {
+      "id": "kyixvah",
+      "body": "https://open.spotify.com/playlist/7KSUihBRvaY8DtMoeaqN56?si=WTF0-ZN_Tb-vQu4-Dz_DWA&pi=e-RQWxCoEcSjKD",
+      "author": "Lvm152coc",
+      "subreddit": "spotify",
+      "created_utc": 1712524295,
+      "score": 1,
+      "link_id": "t3_1bxug3n",
+      "parent_id": "t3_1bxug3n"
+    },
+    {
+      "id": "kwgbf0t",
+      "body": "That's cool. Really wish I could meet them",
+      "author": "Lvm152coc",
+      "subreddit": "football",
+      "created_utc": 1711348968,
+      "score": 2,
+      "link_id": "t3_1bmv6vw",
+      "parent_id": "t1_kwf9mnv"
+    },
+    {
+      "id": "kwee3jq",
+      "body": "What did you think of union berlin?",
+      "author": "Lvm152coc",
+      "subreddit": "football",
+      "created_utc": 1711317170,
+      "score": 2,
+      "link_id": "t3_1bmv6vw",
+      "parent_id": "t3_1bmv6vw"
+    },
+    {
+      "id": "kw9a3xx",
+      "body": "Snapenhance",
+      "author": "Lvm152coc",
+      "subreddit": "moddedandroidapps",
+      "created_utc": 1711231787,
+      "score": 2,
+      "link_id": "t3_1bm2g30",
+      "parent_id": "t3_1bm2g30"
+    },
+    {
+      "id": "kw8q9mo",
+      "body": "What feature?",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1711224296,
+      "score": 1,
+      "link_id": "t3_1blddnm",
+      "parent_id": "t3_1blddnm"
+    },
+    {
+      "id": "kul6fo0",
+      "body": "Why has this been downvoted lmao",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1710281398,
+      "score": 1,
+      "link_id": "t3_1bcghw6",
+      "parent_id": "t1_kugvtiq"
+    },
+    {
+      "id": "kul2nvr",
+      "body": "Real",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1710280143,
+      "score": 2,
+      "link_id": "t3_1bcwix7",
+      "parent_id": "t1_kuiotac"
+    },
+    {
+      "id": "kul2mrv",
+      "body": "Same in fake legends",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1710280132,
+      "score": 1,
+      "link_id": "t3_1bcwix7",
+      "parent_id": "t3_1bcwix7"
+    },
+    {
+      "id": "kul0vb1",
+      "body": "Then press the big translate button",
+      "author": "Lvm152coc",
+      "subreddit": "GalaxyS24",
+      "created_utc": 1710279547,
+      "score": 1,
+      "link_id": "t3_1bcys9m",
+      "parent_id": "t1_kul0t3q"
+    },
+    {
+      "id": "kul0t3q",
+      "body": "When you press translate,  in the top right there's three dots, click that and then change source language",
+      "author": "Lvm152coc",
+      "subreddit": "GalaxyS24",
+      "created_utc": 1710279527,
+      "score": 1,
+      "link_id": "t3_1bcys9m",
+      "parent_id": "t3_1bcys9m"
+    },
+    {
+      "id": "kufkx16",
+      "body": "In the bit where you create the json on the client have json(Json{ ignoreUnknownKeys=true})",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1710194355,
+      "score": 1,
+      "link_id": "t3_1bc8h3i",
+      "parent_id": "t3_1bc8h3i"
+    },
+    {
+      "id": "ku9deog",
+      "body": "Fake legends",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1710098360,
+      "score": 1,
+      "link_id": "t3_1bbdg08",
+      "parent_id": "t3_1bbdg08"
+    },
+    {
+      "id": "ku4sdcu",
+      "body": "Install aero, then immediately uninstall. When it asks to keep data say no (Make sure you've made a copy of the com.whatsapp folder)",
+      "author": "Lvm152coc",
+      "subreddit": "moddedandroidapps",
+      "created_utc": 1710020887,
+      "score": 2,
+      "link_id": "t3_1bak4jh",
+      "parent_id": "t3_1bak4jh"
+    },
+    {
+      "id": "ku4eafb",
+      "body": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QGVY9QQP",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClansRecruit",
+      "created_utc": 1710015928,
+      "score": 1,
+      "link_id": "t3_1bah56f",
+      "parent_id": "t3_1bah56f"
+    },
+    {
+      "id": "ku4e9fl",
+      "body": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QGVY9QQP",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClansRecruit",
+      "created_utc": 1710015918,
+      "score": 1,
+      "link_id": "t3_1bapiaz",
+      "parent_id": "t3_1bapiaz"
+    },
+    {
+      "id": "ku4e84c",
+      "body": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QGVY9QQP",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClansRecruit",
+      "created_utc": 1710015905,
+      "score": 1,
+      "link_id": "t3_1baq0mi",
+      "parent_id": "t3_1baq0mi"
+    },
+    {
+      "id": "ktc1iug",
+      "body": "How do you go about automatic certificate renewal in that case?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1709578345,
+      "score": 1,
+      "link_id": "t3_1b4pn3d",
+      "parent_id": "t1_ktanv9k"
+    },
+    {
+      "id": "kt7pv3f",
+      "body": "Union berlin - probably take Tabakovic from hertha",
+      "author": "Lvm152coc",
+      "subreddit": "football",
+      "created_utc": 1709505660,
+      "score": 1,
+      "link_id": "t3_1b5iivv",
+      "parent_id": "t3_1b5iivv"
+    },
+    {
+      "id": "kt4lnto",
+      "body": "In gradle.properties try setting the one related to gradle cache to false",
+      "author": "Lvm152coc",
+      "subreddit": "learnprogramming",
+      "created_utc": 1709457961,
+      "score": 1,
+      "link_id": "t3_1b4h1os",
+      "parent_id": "t1_kt4hiea"
+    },
+    {
+      "id": "kt4g8bv",
+      "body": "Can I see the code?",
+      "author": "Lvm152coc",
+      "subreddit": "learnprogramming",
+      "created_utc": 1709454055,
+      "score": 1,
+      "link_id": "t3_1b4h1os",
+      "parent_id": "t1_kt43dqo"
+    },
+    {
+      "id": "kt2i3k1",
+      "body": "Judging by ehat the video goes through, gradle kotlin is fine",
+      "author": "Lvm152coc",
+      "subreddit": "learnprogramming",
+      "created_utc": 1709420440,
+      "score": 1,
+      "link_id": "t3_1b4h1os",
+      "parent_id": "t3_1b4h1os"
+    },
+    {
+      "id": "kt1q17h",
+      "body": "5",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1709410235,
+      "score": 2,
+      "link_id": "t3_1b4kgso",
+      "parent_id": "t3_1b4kgso"
+    },
+    {
+      "id": "kt1658p",
+      "body": "He made it to legend without attacking",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1709403070,
+      "score": 20,
+      "link_id": "t3_1b4lbh5",
+      "parent_id": "t1_kt0z36k"
+    },
+    {
+      "id": "kt110wr",
+      "body": "Ok cheers",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1709401238,
+      "score": 1,
+      "link_id": "t3_1b4pn3d",
+      "parent_id": "t1_kt0yqvm"
+    },
+    {
+      "id": "kt0xcfi",
+      "body": "So if I did something like\nlocation \"some-path\"{\n    pass-proxy \"https://localhost:8080\"\n}\nThat would be fine?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1709399918,
+      "score": 1,
+      "link_id": "t3_1b4pn3d",
+      "parent_id": "t1_kt0gjh0"
+    },
+    {
+      "id": "kt0g588",
+      "body": "How do you connect nginx to ktor/localhost?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1709393854,
+      "score": 1,
+      "link_id": "t3_1b4pn3d",
+      "parent_id": "t1_kt0bchd"
+    },
+    {
+      "id": "kt0ce1c",
+      "body": "8^2 = 6^2 + 4^2 - 2*4*6cosx\n64 = 36 + 16 - 48cosx\n64 = 52 - 48cosx\n12 = -48cosx\ncosx = 12/-48\nx = arccos 12/-48",
+      "author": "Lvm152coc",
+      "subreddit": "GCSE",
+      "created_utc": 1709392442,
+      "score": 1,
+      "link_id": "t3_1b4mnnp",
+      "parent_id": "t3_1b4mnnp"
+    },
+    {
+      "id": "ksz7ano",
+      "body": "Pretty sure it's even",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1709368182,
+      "score": 2,
+      "link_id": "t3_1b3wq4d",
+      "parent_id": "t1_kswxog6"
+    },
+    {
+      "id": "ksz75j7",
+      "body": "I'm th13 so when I sign up I basically get plummeted back down to 4.7k",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1709368076,
+      "score": 1,
+      "link_id": "t3_1b3wq4d",
+      "parent_id": "t1_ksvacdr"
+    },
+    {
+      "id": "kr6oyds",
+      "body": "Could we have some benefit be it cosmetic or actual gameplay for having legend trophies",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1708373128,
+      "score": 1,
+      "link_id": "t3_1auq62v",
+      "parent_id": "t3_1auq62v"
+    },
+    {
+      "id": "kr5uk92",
+      "body": "Wtf",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1708363087,
+      "score": 1,
+      "link_id": "t3_1au8pew",
+      "parent_id": "t3_1au8pew"
+    },
+    {
+      "id": "kqqbj9z",
+      "body": "Play hollerbach, I'd say get kral on permanent. Doekhi is basically the goat.",
+      "author": "Lvm152coc",
+      "subreddit": "FifaCareers",
+      "created_utc": 1708112098,
+      "score": 4,
+      "link_id": "t3_1ash6kb",
+      "parent_id": "t3_1ash6kb"
+    },
+    {
+      "id": "kqo60p9",
+      "body": "Golem bowlers witches",
+      "author": "Lvm152coc",
+      "subreddit": "ClashOfClans",
+      "created_utc": 1708081624,
+      "score": 1,
+      "link_id": "t3_1as4grp",
+      "parent_id": "t3_1as4grp"
+    },
+    {
+      "id": "kqg6vtg",
+      "body": "Why use it over ls patch?",
+      "author": "Lvm152coc",
+      "subreddit": "Magisk",
+      "created_utc": 1707949214,
+      "score": 1,
+      "link_id": "t3_1aqrkmz",
+      "parent_id": "t3_1aqrkmz"
+    },
+    {
+      "id": "kqacnic",
+      "body": "What did you end up doing?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1707857311,
+      "score": 1,
+      "link_id": "t3_z8wbgx",
+      "parent_id": "t3_z8wbgx"
+    },
+    {
+      "id": "kpx5gd7",
+      "body": "How to use strong skipping mode?",
+      "author": "Lvm152coc",
+      "subreddit": "androiddev",
+      "created_utc": 1707654649,
+      "score": 2,
+      "link_id": "t3_1an5emm",
+      "parent_id": "t1_kpwg0dy"
+    },
+    {
+      "id": "kpui8qu",
+      "body": "https://preview.redd.it/vqk1dax7auhc1.png?width=1080&format=pjpg&auto=webp&s=8e5a0a198ea0310034e43668c515e0a43a8125d0",
+      "author": "Lvm152coc",
+      "subreddit": "cats",
+      "created_utc": 1707606293,
+      "score": 1,
+      "link_id": "t3_1aniw2x",
+      "parent_id": "t3_1aniw2x"
+    },
+    {
+      "id": "koy3b04",
+      "body": "Fair",
+      "author": "Lvm152coc",
+      "subreddit": "spotify",
+      "created_utc": 1707088050,
+      "score": 1,
+      "link_id": "t3_1aizfsl",
+      "parent_id": "t1_koy0aae"
+    },
+    {
+      "id": "koxzvkt",
+      "body": "https://open.spotify.com/playlist/7KSUihBRvaY8DtMoeaqN56?si=tJF-EgJDQsaFnd69t7MQbA&pi=e-vVJMhv8TSi6B",
+      "author": "Lvm152coc",
+      "subreddit": "spotify",
+      "created_utc": 1707086729,
+      "score": 1,
+      "link_id": "t3_1aizfsl",
+      "parent_id": "t3_1aizfsl"
+    },
+    {
+      "id": "komckq5",
+      "body": "Is it fine if confirmed is false?",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1706897702,
+      "score": 1,
+      "link_id": "t3_b4d6gv",
+      "parent_id": "t1_kom151m"
+    },
+    {
+      "id": "koky35q",
+      "body": "Is [this](https://codelabs.developers.google.com/?text=WearOS) any use?",
+      "author": "Lvm152coc",
+      "subreddit": "JetpackCompose",
+      "created_utc": 1706878862,
+      "score": 2,
+      "link_id": "t3_1af8eo8",
+      "parent_id": "t1_kokpbyk"
+    },
+    {
+      "id": "koholh5",
+      "body": "Codelabs?",
+      "author": "Lvm152coc",
+      "subreddit": "JetpackCompose",
+      "created_utc": 1706821450,
+      "score": 2,
+      "link_id": "t3_1af8eo8",
+      "parent_id": "t3_1af8eo8"
+    },
+    {
+      "id": "kohnxte",
+      "body": "Been fine for me",
+      "author": "Lvm152coc",
+      "subreddit": "samsung",
+      "created_utc": 1706821228,
+      "score": 5,
+      "link_id": "t3_1agknej",
+      "parent_id": "t3_1agknej"
+    },
+    {
+      "id": "kohn91s",
+      "body": "I know I'm very late to the party but does this make the transfers?",
+      "author": "Lvm152coc",
+      "subreddit": "FantasyPL",
+      "created_utc": 1706821000,
+      "score": 1,
+      "link_id": "t3_b4d6gv",
+      "parent_id": "t1_ekc5lle"
+    },
+    {
+      "id": "kk0s179",
+      "body": "Exynos used to be the best but ok",
+      "author": "Lvm152coc",
+      "subreddit": "samsung",
+      "created_utc": 1706482870,
+      "score": 1,
+      "link_id": "t3_1ad75y5",
+      "parent_id": "t1_kjzla8s"
+    },
+    {
+      "id": "kk0bnuu",
+      "body": "It's not as simple as rewriting the code in another language, ios apps are structured differently as well",
+      "author": "Lvm152coc",
+      "subreddit": "revancedapp",
+      "created_utc": 1706477528,
+      "score": 3,
+      "link_id": "t3_1adbuea",
+      "parent_id": "t1_kjzzz97"
+    },
+    {
+      "id": "kjzek4s",
+      "body": "First shot of the game for him",
+      "author": "Lvm152coc",
+      "subreddit": "ManchesterUnited",
+      "created_utc": 1706466379,
+      "score": 7,
+      "link_id": "t3_1ad637q",
+      "parent_id": "t1_kjzegt1"
+    },
+    {
+      "id": "kjxq2es",
+      "body": "Are you using the latest betas?",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1706439213,
+      "score": 1,
+      "link_id": "t3_1ac8nbo",
+      "parent_id": "t1_kjxauqt"
+    },
+    {
+      "id": "kjtmjnx",
+      "body": "Yeah, I used to mess around with launchers all the time, but there just not as fluid as stock imo",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1706372966,
+      "score": 15,
+      "link_id": "t3_1ac8nbo",
+      "parent_id": "t1_kjt6r77"
+    },
+    {
+      "id": "kj3thsd",
+      "body": "Yes, but I think that works the old way, if you have a mac you can use native I message on android",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1705961080,
+      "score": 1,
+      "link_id": "t3_19bh7wz",
+      "parent_id": "t1_kj3qdzs"
+    },
+    {
+      "id": "kis1egf",
+      "body": "Scan on virus total",
+      "author": "Lvm152coc",
+      "subreddit": "ApksApps",
+      "created_utc": 1705778280,
+      "score": 1,
+      "link_id": "t3_19b3yue",
+      "parent_id": "t3_19b3yue"
+    },
+    {
+      "id": "kis04bw",
+      "body": "Also beeper mini works if you have a mac/rooted iphone",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1705777815,
+      "score": 1,
+      "link_id": "t3_19bh7wz",
+      "parent_id": "t3_19bh7wz"
+    },
+    {
+      "id": "kis02ev",
+      "body": "Just use WhatsApp?",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1705777796,
+      "score": 3,
+      "link_id": "t3_19bh7wz",
+      "parent_id": "t3_19bh7wz"
+    },
+    {
+      "id": "kin2ku8",
+      "body": "I think androiddev has some good courses",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1705696205,
+      "score": 2,
+      "link_id": "t3_19acjom",
+      "parent_id": "t3_19acjom"
+    },
+    {
+      "id": "ki676s6",
+      "body": "You trying to pirate, go to r/BitlifeRebels",
+      "author": "Lvm152coc",
+      "subreddit": "ApksApps",
+      "created_utc": 1705435077,
+      "score": 1,
+      "link_id": "t3_198bs1p",
+      "parent_id": "t3_198bs1p"
+    },
+    {
+      "id": "khokcjg",
+      "body": "Purely because I don't have access to a mac atm, but once I do o can obviously use xcode",
+      "author": "Lvm152coc",
+      "subreddit": "iOSProgramming",
+      "created_utc": 1705162276,
+      "score": 1,
+      "link_id": "t3_194sosf",
+      "parent_id": "t1_khnsv2n"
+    },
+    {
+      "id": "khk6agb",
+      "body": "Ok",
+      "author": "Lvm152coc",
+      "subreddit": "iOSProgramming",
+      "created_utc": 1705087263,
+      "score": 2,
+      "link_id": "t3_194sosf",
+      "parent_id": "t1_khjwmto"
+    },
+    {
+      "id": "khjogi6",
+      "body": "Project doesn't use xcode but want to add in app purchases",
+      "author": "Lvm152coc",
+      "subreddit": "iOSProgramming",
+      "created_utc": 1705081387,
+      "score": 1,
+      "link_id": "t3_194sosf",
+      "parent_id": "t1_khidvnh"
+    },
+    {
+      "id": "kh2lvke",
+      "body": "Will it require the user to have a stripe account?",
+      "author": "Lvm152coc",
+      "subreddit": "Kotlin",
+      "created_utc": 1704818756,
+      "score": 1,
+      "link_id": "t3_191xc28",
+      "parent_id": "t1_kh0ydzw"
+    },
+    {
+      "id": "kgnnoxf",
+      "body": "Try Corey schafer on yt",
+      "author": "Lvm152coc",
+      "subreddit": "learnprogramming",
+      "created_utc": 1704585367,
+      "score": 1,
+      "link_id": "t3_190ds52",
+      "parent_id": "t3_190ds52"
+    },
+    {
+      "id": "kg1zlas",
+      "body": "Cheers!",
+      "author": "Lvm152coc",
+      "subreddit": "cookingforbeginners",
+      "created_utc": 1704240984,
+      "score": 1,
+      "link_id": "t3_18x1lc2",
+      "parent_id": "t1_kg1y6ka"
+    },
+    {
+      "id": "kg1qf8x",
+      "body": "Ok thank you!",
+      "author": "Lvm152coc",
+      "subreddit": "cookingforbeginners",
+      "created_utc": 1704237490,
+      "score": 1,
+      "link_id": "t3_18x1lc2",
+      "parent_id": "t1_kg1lrz9"
+    },
+    {
+      "id": "kg15p1q",
+      "body": "Factory reset the phone",
+      "author": "Lvm152coc",
+      "subreddit": "androidapps",
+      "created_utc": 1704230116,
+      "score": 2,
+      "link_id": "t3_18wqnje",
+      "parent_id": "t3_18wqnje"
+    },
+    {
+      "id": "kg0ah2o",
+      "body": "https://github.com/tribalfs/GalaxyMaxHzPub",
+      "author": "Lvm152coc",
+      "subreddit": "samsung",
+      "created_utc": 1704219425,
+      "score": 2,
+      "link_id": "t3_18w9e2f",
+      "parent_id": "t1_kg01l11"
+    },
+    {
+      "id": "kg01caw",
+      "body": "Galaxy max hz",
+      "author": "Lvm152coc",
+      "subreddit": "samsung",
+      "created_utc": 1704216251,
+      "score": 1,
+      "link_id": "t3_18w9e2f",
+      "parent_id": "t3_18w9e2f"
+    },
+    {
+      "id": "kfw625k",
+      "body": "RemindMe! 1 day",
+      "author": "Lvm152coc",
+      "subreddit": "AndroidQuestions",
+      "created_utc": 1704147985,
+      "score": 1,
+      "link_id": "t3_18w4pcm",
+      "parent_id": "t3_18w4pcm"
+    }
+  ]
+}

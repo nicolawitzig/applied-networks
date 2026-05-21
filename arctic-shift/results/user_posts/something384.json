@@ -1,0 +1,128 @@
+{
+  "username": "something384",
+  "posts": [
+    {
+      "id": "1bejkaz",
+      "title": "Copper thief plugin for KiCAD 7/8",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710417775,
+      "score": 24,
+      "num_comments": 14,
+      "selftext": "I made a copper thieving plugin for KiCAD, which automatically replaces an unconnected zone with dots. The plugin is *loosely* based on mrussel42's code. For reasons why copper thieving might be beneficial, check these posts:  \n[https://electronics.stackexchange.com/questions/85633/what-is-copper-thieving-and-why-use-it](https://electronics.stackexchange.com/questions/85633/what-is-copper-thieving-and-why-use-it)\n\n[https://community.aisler.net/t/copper-distribution/2727](https://community.aisler.net/t/copper-distribution/2727)\n\nDownload here:  \n[https://github.com/marcsekz/kicad-copper-thief](https://github.com/marcsekz/kicad-copper-thief)  \n(If you are still using KiCAD 7: [https://github.com/marcsekz/kicad-copper-thief/releases/tag/kicad7](https://github.com/marcsekz/kicad-copper-thief/releases/tag/kicad7))\n\nexample:\n\nhttps://preview.redd.it/z93alflwgaoc1.png?width=1110&format=png&auto=webp&s=49e3e3802497662f4475ad6cbef540ac8f831e46",
+      "url": "https://www.reddit.com/r/KiCad/comments/1bejkaz/copper_thief_plugin_for_kicad_78/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lvw1sdb",
+      "body": "If your read the cited part, it is not actually about ownership, but rather about occupation - i.e. you are allowed to mount lights in the rooms you live in",
+      "author": "something384",
+      "subreddit": "Switzerland",
+      "created_utc": 1730984584,
+      "score": 3,
+      "link_id": "t3_1gl8nem",
+      "parent_id": "t1_lvvyv30"
+    },
+    {
+      "id": "lqzbv2o",
+      "body": "I made a screenshot to use later",
+      "author": "something384",
+      "subreddit": "PeterExplainsTheJoke",
+      "created_utc": 1728413478,
+      "score": 1,
+      "link_id": "t3_1fz2eeo",
+      "parent_id": "t1_lqyolet"
+    },
+    {
+      "id": "llg6k4r",
+      "body": "Hello, here is your reminder",
+      "author": "something384",
+      "subreddit": "CitiesSkylines",
+      "created_utc": 1725448528,
+      "score": 1,
+      "link_id": "t3_1f73gi0",
+      "parent_id": "t1_ll547ku"
+    },
+    {
+      "id": "l60xef9",
+      "body": "Do some research please: https://fees.vseth.ethz.ch/en",
+      "author": "something384",
+      "subreddit": "ethz",
+      "created_utc": 1716904833,
+      "score": 5,
+      "link_id": "t3_1d2dym7",
+      "parent_id": "t3_1d2dym7"
+    },
+    {
+      "id": "kuwhz50",
+      "body": "Hm interesting, apparently I was a bit too anxious about via spacing then, good to know! Then I guess this plugin mostly serves to spare me planning around stitching vias :D\nThanks for the info though, good to see some actual numbers",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710453719,
+      "score": 2,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kuuyl2q"
+    },
+    {
+      "id": "kuux75a",
+      "body": "Not yet but I'm on it, probably next week",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710435032,
+      "score": 2,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kuuwa3l"
+    },
+    {
+      "id": "kuun6zg",
+      "body": "Well, an improperly connected groundplane (i.e. not stitched through with vias frequently) is even worse, it creates an even bigger antenna that is now directly connected to your ground and introducing noise. Small unconnected copper dots don't really influence the circuit that much as you don't have a direct connection to them and due to their small size capacitive coupling is also minimal.\nYou can often see this technique used on production PCBs, for example the Intel x520 10gig network card (they use squares there which is also supported by the plugin).\nUsually on 4+ layer designs you don't pour ground on outer layers, only on selected inner layers, which would be continuous, uninterrupted grounds",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710431715,
+      "score": 2,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kuulh0r"
+    },
+    {
+      "id": "kuuin9d",
+      "body": "Not ground planes, but traces and footprints - they get in the way and you have to route around them. The concept of this script is that you can do your entire design as you would, and after that run the plugin to autogenerate stuff. You often cannot do that with vias, as they are bound to hit something on at least one layer",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710430196,
+      "score": 1,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kuugxp5"
+    },
+    {
+      "id": "kuubq2h",
+      "body": "I do that sometimes as well, but with denser designs I often cannot, as vias disturb all planes at the same position, while these only generate on outer layers, and top and bottom are independent. It's just more convenient IMO, but without the added benefit of stitched grounds.\n(Yes, technically my plugin can generate thieving on inner layers too, but I don't see a reason to do that)",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710427821,
+      "score": 3,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kuu7rvl"
+    },
+    {
+      "id": "kuuaoxi",
+      "body": "I like the fact that in return I learned about PCB design for vacuum",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710427463,
+      "score": 5,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kuu8k90"
+    },
+    {
+      "id": "kutvjj9",
+      "body": "Good point, it is already on my todo list, just didn't get round to doing it",
+      "author": "something384",
+      "subreddit": "KiCad",
+      "created_utc": 1710421778,
+      "score": 6,
+      "link_id": "t3_1bejkaz",
+      "parent_id": "t1_kutt14k"
+    }
+  ]
+}

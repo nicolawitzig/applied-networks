@@ -1,0 +1,2181 @@
+{
+  "username": "eternalpanic",
+  "posts": [
+    {
+      "id": "1ezfp17",
+      "title": "New day, new bike",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1724427031,
+      "score": 19,
+      "num_comments": 4,
+      "selftext": "Newly initiated gravel rider. Recently got myself a Rocky Mountain Solo Alloy 50 (2022) with some modifications (more ergonomic handlebars, 2by instead of 1by). Pretty happy so far. Was a bit late for sunrise but still pretty!",
+      "url": "https://www.reddit.com/gallery/1ezfp17"
+    },
+    {
+      "id": "1eni8s9",
+      "title": "1by to 2by on Rocky Mountain Solo",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1723153413,
+      "score": 0,
+      "num_comments": 12,
+      "selftext": "I'm in the process of buying a new gravel bike and would like to support my LBS. They are a Rocky Mountain dealer and have a [Solo Alloy 50](https://bikes.com/de-intl/products/solo-50-22) (2022) still on stock that they would give me at a greatly reduced price - it also fits me very well. The bike mechanic cautioned me however against the installed GRX 1x11 (and the handlebar) as climbing some of the steep Swiss hills around would be exhausting. I'm going to use it for a mix of tarmac and gravel, but not as a dropbar MTB and not as a racing gravel bike. He said he would check for options on installing a 2by shift but mentioned that the new GRX x12 are incompatible and require many changes on the bike. Alternatively, he is also checking for reduced [Solo Carbon 50](https://bikes.com/de-intl/products/solo-c50-23) (2023, with SRAM 1x11) bikes since I originally wanted a carbon frame.\n\nMaybe someone can help me with the following questions so that I have a second opinion to my LBS:\n\n\\* Any experiences with the 1x11 GRX set and steep hills (and medium fitness)? Should I just go for 1by anyway?\n\n\\* Any experiences with upgrading the 1x11 GRX shift to a setup with a wider rear cassette or 2by on that bike?\n\n\\* Would changing to 2by or a different cassette be easier with the SRAM set on the Carbon Solo 50?\n\n\\* Any experience on the difference between the Alu and Carbon version of the Solo 50 - mostly regarding comfort?\n\nThanks in advance for any insights!",
+      "url": "https://www.reddit.com/r/gravelcycling/comments/1eni8s9/1by_to_2by_on_rocky_mountain_solo/"
+    },
+    {
+      "id": "1akjesi",
+      "title": "Employer may not provide enough work",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707250633,
+      "score": 6,
+      "num_comments": 7,
+      "selftext": "I‘m working in a project-based company. Due to the nature of our work, there are fluctuations in workload.\n\nNow there are times when (many) employees in our department do not have enough work. Sometimes work from within the company materialises, but not always. I have always been able to get enough work in time but some people have racked up over 100 „minus“ hours. As a consequence of this, many of us work 80% or 90% to „soften the blow“. The company suggests to those that have minus hours to have them deducted from their 13th salary…which I always felt is a very dubious practice.\n\nNow my question is: How should I deal with this situation - if it arises in my case? How do we have to communicate towards our managers? Does anyone here have similar experiences?",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1akjesi/employer_may_not_provide_enough_work/"
+    },
+    {
+      "id": "1aeinsz",
+      "title": "Cat meets prickly cat",
+      "author": "eternalpanic",
+      "subreddit": "cats",
+      "created_utc": 1706599114,
+      "score": 6,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://i.redd.it/czbl5n2d3jfc1.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m469p4f",
+      "body": "Since they are still unable to handle this correctly: What helped me is to (after quitting Proton Drive) remove the group container that contains proton drive in \\~/Library/Group Containers/ (2SB5Z68H26.ch.protonmail.protondrive in my case), then remove the Proton Drive Cloud Storage provider in \\~/Library/CloudStorage/, then reinstall Proton Drive again, sign in etc.\n\nBeware: If you delete the CloudStorage location and there are unsynced changes in there, they will be lost.",
+      "author": "eternalpanic",
+      "subreddit": "ProtonDrive",
+      "created_utc": 1735380391,
+      "score": 1,
+      "link_id": "t3_1eyfe5m",
+      "parent_id": "t3_1eyfe5m"
+    },
+    {
+      "id": "m445jli",
+      "body": "I assume you’re comparing with Windows. I feel that macOS is really good at abstracting complicated stuff and expose the “common user” to some simple truths. macOS is in some ways also opinionated because “there are certain ways how things are done”. Windows on the other hand e.g., still has two different, overlapping system preferences, two snapshot tools and generally not a unified design language. Windows also tries to be an OS for mouse/keyboard systems and tablet systems alike (and I feel it does a terrible job at the latter). I feel it also exposes more settings to its users with a graphical interface.\nmacOS is very extendable though, if needed. And of course the terminal is immensely powerful and some settings can only be changed there.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1735344011,
+      "score": 3,
+      "link_id": "t3_1hnsjek",
+      "parent_id": "t3_1hnsjek"
+    },
+    {
+      "id": "m40cjd9",
+      "body": "No, Apple Silicon devices are tied to the owner or company (if enrolled in Apple Business Manager). Can still be used for parts.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735291092,
+      "score": 2,
+      "link_id": "t3_1hnaau5",
+      "parent_id": "t1_m409vf0"
+    },
+    {
+      "id": "m40cghm",
+      "body": "No, modern Apple devices with Apple Silicon or T2 chips can‘t be used anymore. They will still try to sell it on Facebook or Tutti because some people will never learn and buy stolen stuff - and then complain that it’s locked. That or they use it for parts.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735291038,
+      "score": 3,
+      "link_id": "t3_1hnaau5",
+      "parent_id": "t1_m4095wi"
+    },
+    {
+      "id": "m371gd0",
+      "body": "Yes, we are very much aware of that 🙃",
+      "author": "eternalpanic",
+      "subreddit": "MacOS",
+      "created_utc": 1734817070,
+      "score": 0,
+      "link_id": "t3_1hjd8g3",
+      "parent_id": "t1_m36vyu3"
+    },
+    {
+      "id": "m35r20q",
+      "body": "That is very curious. It is available in Switzerland. Even though we usually get treated the same as the EU when it comes to Apple.",
+      "author": "eternalpanic",
+      "subreddit": "MacOS",
+      "created_utc": 1734800748,
+      "score": 3,
+      "link_id": "t3_1hjd8g3",
+      "parent_id": "t3_1hjd8g3"
+    },
+    {
+      "id": "m2u8rbu",
+      "body": "Wie sit dr uf de Aktionsplan Radium cho? Nimmt mi Wunder wiu ig drmit brueflech ha z tue gha.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1734624277,
+      "score": 1,
+      "link_id": "t3_1hhva9r",
+      "parent_id": "t1_m2u1g28"
+    },
+    {
+      "id": "m2qa3rw",
+      "body": "Are you really sure about this?\n\nAccording to [Plex](https://support.plex.tv/articles/frequently-asked-questions-vod/):\n\n>Are you putting ads into my personal content?\n\n>Absolutely not! That would be a really terrible idea for many, many reasons. Your media collection—including your recorded movies and TV shows, home videos, photos, music collection, and more—will continue to stream to all of your devices, ad-free.\n\n>(If you see ads during content playback, then it means you’re streaming from our free, ad-supported service. If you thought you were streaming from a personal server and see ads, then it indicates that you must have mistakenly chosen our free service as the playback source instead of a personal server.)Are you putting ads into my personal content?  \nAbsolutely not! That would be a really terrible idea for many, many   \nreasons. Your media collection—including your recorded movies and TV   \nshows, home videos, photos, music collection, and more—will continue to   \nstream to all of your devices, ad-free.  \n(If you see ads during content playback, then it means you’re streaming from our free, ad-supported service. If you thought  \n you were streaming from a personal server and see ads, then it   \nindicates that you must have mistakenly chosen our free service as the   \nplayback source instead of a personal server.)",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734560101,
+      "score": 11,
+      "link_id": "t3_1hhd7w5",
+      "parent_id": "t3_1hhd7w5"
+    },
+    {
+      "id": "m2mh0qr",
+      "body": "This was asked before in this subreddit: [https://www.reddit.com/r/PleX/s/YB1ZjkCgzb](https://www.reddit.com/r/PleX/s/YB1ZjkCgzb)",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734504664,
+      "score": 5,
+      "link_id": "t3_1hgvuss",
+      "parent_id": "t3_1hgvuss"
+    },
+    {
+      "id": "m2hd0k0",
+      "body": "Ah gotcha. There’s a youtube video about Micromdm from the 2018 MacAdmins Conference that I used as a starting point. [Link](https://youtu.be/WGKT-PyHz6I?si=qw7idGZqBwDM7v9R). It doesn’t go into detail about things like adding via QR Code however.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734436733,
+      "score": 1,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t1_m2h9hal"
+    },
+    {
+      "id": "m2h57du",
+      "body": "I like the idea, but find it still suboptimal. Either you always have to mount the cam and stow it away again before/after use, or you only mount it when needed. But that again seems not like a great experience, e.g. if you get a videocall and first need to mount the cam.",
+      "author": "eternalpanic",
+      "subreddit": "macbookpro",
+      "created_utc": 1734432033,
+      "score": 1,
+      "link_id": "t3_1hedb8y",
+      "parent_id": "t1_m2525d6"
+    },
+    {
+      "id": "m2fvk4z",
+      "body": "Did you read the huge paragraph on the micromdm github repo where they *specifically* say that it is NOT a product? And that you will need a 300$/year subscription with Apple as a business just to get started?\n\nI’ve played around with micromdm in the past for fun, but be aware that you will have to develop the whole application logic around the micromdm binary. Or you can get yourself a free tier of Mosyle or similar.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734406331,
+      "score": 4,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t3_1hfwk97"
+    },
+    {
+      "id": "m2fup6j",
+      "body": "No that’s wrong afaik. You’ll need the Enterprise Developer Account to sign push certs.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734405994,
+      "score": 2,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t1_m2f4vux"
+    },
+    {
+      "id": "m2fudu6",
+      "body": "They want to implement their own MDM Server which requires an Apple Enterprise Developer Account which requires a business entity/DUNS.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1734405872,
+      "score": 2,
+      "link_id": "t3_1hfwk97",
+      "parent_id": "t1_m2esxr7"
+    },
+    {
+      "id": "m2870yu",
+      "body": "I just got a NUC 14 Pro, running Proxmox and Plex and the Arr’s in Containers and VMs. You can of course use Windows but you’ll just waste some resources. Also, since you didn’t mention it: Do you have your Plex media on a dedicated server/external disks?",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734297178,
+      "score": 1,
+      "link_id": "t3_1hf1nvp",
+      "parent_id": "t3_1hf1nvp"
+    },
+    {
+      "id": "m1zlmh4",
+      "body": "/media/ are normally mount points for (removable) media- is that the case for you? Are you mounting an external drive or an smb share? If so, it could be a permissions issue. If you put your video files in there on your own - i’m not sure this is the right folder.\n\nSecondly I’m not sure what user plex runs as. Since it runs as a daemon, it will most likely not run  with your privileges. If your media is on a shared mount, the easiest would be to change group permissions (i.e. mount the volume as a group in which both the plex user and your account are present with writing permissions).",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734163009,
+      "score": 1,
+      "link_id": "t3_1hdugs9",
+      "parent_id": "t3_1hdugs9"
+    },
+    {
+      "id": "m1qrlg4",
+      "body": "^ name of the wifi",
+      "author": "eternalpanic",
+      "subreddit": "PleX",
+      "created_utc": 1734033154,
+      "score": 3,
+      "link_id": "t3_1hcndl2",
+      "parent_id": "t1_m1piwog"
+    },
+    {
+      "id": "lzybczx",
+      "body": "Und noch etwas Weiteres: Ein (neueres, ab 2018 ca.) Macbook so zu kaufen ist eine sehr schlechte Idee. Wenn das Macbook noch an die Apple ID einer Person gebunden ist, muss diese das freigeben (wie bei einem iphone). Wenn du noch mehr Pech hast, wurde das Macbook z.B von einer Firma gestohlen und ist auf diese registriert. Auch in diesem Fall müsste die Firma das Macbook zuerst freigeben, sonst hast du einen Briefbeschwerer.\nDAS SYSTEM NEU INSTALLIEREN NÜTZT IN DIESEN FÄLLEN NICHTS!",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1733096463,
+      "score": 2,
+      "link_id": "t3_1h3xv14",
+      "parent_id": "t1_lzuk4n0"
+    },
+    {
+      "id": "lz1c3zq",
+      "body": "Very interesting insights, thanks!",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1732601987,
+      "score": 5,
+      "link_id": "t3_1gzwayn",
+      "parent_id": "t1_lz0k2v0"
+    },
+    {
+      "id": "ly2cigw",
+      "body": "It‘s you.\n\nAlso I don’t get the complaint - there‘s always the Macbook Air that is light and slim and has few ports. A common complaint about the 2016-2019 was (apart from the shitty keyboard), that there was no Magsafe and not enough ports - Especially compared to the earlier MBPs.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1732086461,
+      "score": 5,
+      "link_id": "t3_1gvj7wg",
+      "parent_id": "t3_1gvj7wg"
+    },
+    {
+      "id": "ly2atlf",
+      "body": "Are you for real? That’s a large group AND it’s not long till Christmas, i.e christmas dinners/parties everywhere. It will be difficult to find something.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1732085462,
+      "score": 5,
+      "link_id": "t3_1gv9nrl",
+      "parent_id": "t3_1gv9nrl"
+    },
+    {
+      "id": "lwww3t7",
+      "body": "DM‘d you.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1731504458,
+      "score": 1,
+      "link_id": "t3_1gqcqzw",
+      "parent_id": "t3_1gqcqzw"
+    },
+    {
+      "id": "luobsej",
+      "body": "One does not exclude the other. Also anecdotal evidence.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1730371633,
+      "score": 4,
+      "link_id": "t3_1gg8sv3",
+      "parent_id": "t1_luntnfn"
+    },
+    {
+      "id": "lt75wki",
+      "body": "What about the R console application? Does it also happen there? You can go ahead with „n“ while in the browser. It will show you which code line it currently is at.\nIf that works it probably is an RStudio issue. Does it just happen for a specific project/directory? \n\nIf the issues persists it‘s maybe a config problem with RStudio. According to the documentation, settings are stored in ~/.config/rstudio/\n\nSo maybe also delete that folder and try again.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1729616016,
+      "score": 1,
+      "link_id": "t3_1g95z5b",
+      "parent_id": "t1_lt72cou"
+    },
+    {
+      "id": "lt4vwxe",
+      "body": "So it‘s a problem with your install. And you can‘t narrow it down?\n\n- Does your code run on a different computer or in a docker container? => If yes => problem with your  install/environment\n- Does browser() work in a pure R console (no RStudio)? => if yes, problem with RStudio, if no, other problem\n- If it‘s a problem with R: Have you already reinstalled R or installed the newest version?\n- Are other programs also behaving erratically? => could be OS issues, could be corrupted hardware, especially RAM.\n\nAlso what OS and cpu architecture (x86/windows most likely or Apple ARM)?",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1729579370,
+      "score": 4,
+      "link_id": "t3_1g95z5b",
+      "parent_id": "t3_1g95z5b"
+    },
+    {
+      "id": "lt4te1e",
+      "body": "HPV and Herpes viruses are some of the easiest transmissible viruses there are i.e., you can quite easily get them orally. And yes, some strains of HPV can increase the risk for colorectal cancer (but also throat btw), but as others have pointed out, the risk is still pretty low.\nThe risks of getting complications from Herpes infections (which up to 90% of mankind have) or EBV (similar prevalence, causes mononucleosis - which can lead to autoimmune diseases) are higher.\n\nSO: Is this really about risks? Or do you just want to rant about condomless sex?",
+      "author": "eternalpanic",
+      "subreddit": "gay",
+      "created_utc": 1729577736,
+      "score": 1,
+      "link_id": "t3_1g97lhl",
+      "parent_id": "t1_lt46tyz"
+    },
+    {
+      "id": "lsjdqos",
+      "body": "„unlimited“ but then they basically cap it anway at 10 or 20 GB…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1729264352,
+      "score": 1,
+      "link_id": "t3_1g6e41g",
+      "parent_id": "t3_1g6e41g"
+    },
+    {
+      "id": "ls08ilm",
+      "body": "The only time I do that sometimes is on highways with multiple lanes if there is a traffic jam.\nOtherwise no. Vespas do it, but you can get into trouble if the police sees you.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1728977892,
+      "score": 1,
+      "link_id": "t3_1g3xgxb",
+      "parent_id": "t1_ls050j7"
+    },
+    {
+      "id": "ls01mlh",
+      "body": "1. There are motorbike park spots (free), but parking on sidewalks is also accepted as long as there is still enough space for pedestrians.\n\n2. On sunny days I also ride during autumn or maybe even winter, but rarely. I don’t use it to commute though. As someone else said - you‘d be miserable with the traffic jams. \n\n3. I know someone that goes to work everyday by motorbike, even when it rains or is cold. Personally I just don’t like ice/snow/leaves on tarmac; rain is fine.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1728973241,
+      "score": 1,
+      "link_id": "t3_1g3xgxb",
+      "parent_id": "t3_1g3xgxb"
+    },
+    {
+      "id": "lrzzq9y",
+      "body": "Perspective from Switzerland: Climate change is going to make skiing a bigger luxury than it already is and it will focus on few places that are high up. Even today, the amount of artificial snow is getting higher yearly - but you can’t produce snow anymore once temperatures don’t stay above freezing point.",
+      "author": "eternalpanic",
+      "subreddit": "skiing",
+      "created_utc": 1728972034,
+      "score": -1,
+      "link_id": "t3_1g3v7fh",
+      "parent_id": "t3_1g3v7fh"
+    },
+    {
+      "id": "lrshejx",
+      "body": "If you care about not spreading disinformation, please amend this bit in your post.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728858533,
+      "score": 3,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lro2n24"
+    },
+    {
+      "id": "lrsftbz",
+      "body": "True, but also OP didn’t take PrEP correctly. See comment in first thread.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728857965,
+      "score": 6,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lroz6up"
+    },
+    {
+      "id": "lrsfpr0",
+      "body": "OP admits in a comment above that he didn’t continue taking PrEP after a risk situation. His testimony in the original post is incorrect.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728857929,
+      "score": 3,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lrnzz5j"
+    },
+    {
+      "id": "lrsffrt",
+      "body": "Except…OP admits in a comment above that he didn’t take PrEP correctly/stopped taking it after a risk situation…",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1728857825,
+      "score": 4,
+      "link_id": "t3_1g2a6e0",
+      "parent_id": "t1_lrrih4a"
+    },
+    {
+      "id": "lrsddif",
+      "body": "So the story behind this is that it used to be a marketing gag by a Swiss company called Fluka that was bought by Sigma Aldrich. Nice to see they kept this!",
+      "author": "eternalpanic",
+      "subreddit": "labrats",
+      "created_utc": 1728857064,
+      "score": 14,
+      "link_id": "t3_1g2pob2",
+      "parent_id": "t3_1g2pob2"
+    },
+    {
+      "id": "lre9p8m",
+      "body": "OP states that CGNAT is used.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728645907,
+      "score": 1,
+      "link_id": "t3_1g15pdy",
+      "parent_id": "t1_lre7yyc"
+    },
+    {
+      "id": "lre87k7",
+      "body": "Yeah, that’s what I do. Using some lambda functions in AWS and a script on the router to update the DNS. Doesn’t change the problem that Sunrise uses CGNAT. But maybe they can ask to at least receive a public IPv4 address.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728645110,
+      "score": 1,
+      "link_id": "t3_1g15pdy",
+      "parent_id": "t1_lre44iq"
+    },
+    {
+      "id": "lre0i1l",
+      "body": "lol no. und chli fräch fingis ou…ig meine wes der als untermieter nid passt, de ziehsch halt us. dr houptmieter treit ja ou meh risiko.",
+      "author": "eternalpanic",
+      "subreddit": "schwiiz",
+      "created_utc": 1728640351,
+      "score": 2,
+      "link_id": "t3_1g14txe",
+      "parent_id": "t3_1g14txe"
+    },
+    {
+      "id": "lqqgui6",
+      "body": "I‘ve just been 2000km around Switzerland to Corsica and Sardinia and back with the MT-09 (so the big sister). I have the SLC mounts and the adventure rack. Works well but little protection from wind on high ways. In hindsight I do wonder if I should have gotten a tracer instead, but I do like the MT-09 smaller‘s footprint for day trips.\n\nhttps://preview.redd.it/w4ibati1q9td1.jpeg?width=3024&format=pjpg&auto=webp&s=a31c32606d2195a88d2dfeb5b8e216c16abebb3d",
+      "author": "eternalpanic",
+      "subreddit": "MT07",
+      "created_utc": 1728278083,
+      "score": 2,
+      "link_id": "t3_1fxt5g3",
+      "parent_id": "t3_1fxt5g3"
+    },
+    {
+      "id": "lq911rm",
+      "body": "Immobiliser have been around (at least in Europe) since the 90s…Also if you don’t have the red key, you have a problem. The red key is needed to (re)program new keys or to reset the immobiliser. Maybe check with your vendor/garage.",
+      "author": "eternalpanic",
+      "subreddit": "MT07",
+      "created_utc": 1728014051,
+      "score": 1,
+      "link_id": "t3_1fvbb18",
+      "parent_id": "t1_lq7rg96"
+    },
+    {
+      "id": "lq8vbvd",
+      "body": "Source for that? Never heard or used it like that before. The Swiss locales for computer systems defines the dot as decimal sign.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1728011553,
+      "score": 1,
+      "link_id": "t3_1fvar6x",
+      "parent_id": "t1_lq7iidg"
+    },
+    {
+      "id": "lq8ut14",
+      "body": "The part about the decimal separator is not true for German speaking Switzerland at least. We also the dot and it’s always very annoying that German locales do not use that.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1728011343,
+      "score": 1,
+      "link_id": "t3_1fvar6x",
+      "parent_id": "t1_lq6617x"
+    },
+    {
+      "id": "lq10z97",
+      "body": "disagree…Gravensteiner are the bestest",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1727898900,
+      "score": 3,
+      "link_id": "t3_1fuo5i9",
+      "parent_id": "t1_lq0u7uq"
+    },
+    {
+      "id": "lq10vit",
+      "body": "Gravensteiner? Cox Orange?",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1727898867,
+      "score": 2,
+      "link_id": "t3_1fuo5i9",
+      "parent_id": "t3_1fuo5i9"
+    },
+    {
+      "id": "lo66qfv",
+      "body": "That looks a lot like Emmentaler Kartoffelsuppe like my mum also makes it.\nhttps://www.swissmilk.ch/de/rezepte-kochideen/rezepte/KB_SP2004_100/emmentaler-kartoffelsuppe/\n\nAdditionally maybe with european caraway (and not cumin, as someone suggested).",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1726899889,
+      "score": 11,
+      "link_id": "t3_1flohpk",
+      "parent_id": "t3_1flohpk"
+    },
+    {
+      "id": "ln22unp",
+      "body": "I think it refers to the Dirac/Bra-Ket notation used to describe quantum mechanics phenomena. Above notation could be understood as a wave function of a quantum mechanic system.",
+      "author": "eternalpanic",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1726303282,
+      "score": 9,
+      "link_id": "t3_1fg2ajz",
+      "parent_id": "t1_ln1lst1"
+    },
+    {
+      "id": "lmmcg4k",
+      "body": "Isch i verschidene Sprache unterschiedlich greglet. Uf Französisch z.B. isch dr Abstand vorem ? normal (ou bi » «).",
+      "author": "eternalpanic",
+      "subreddit": "BUENZLI",
+      "created_utc": 1726069610,
+      "score": 5,
+      "link_id": "t3_1feaj4d",
+      "parent_id": "t1_lmlyde9"
+    },
+    {
+      "id": "lmm5tp6",
+      "body": "Ah ja genau…Raumplanung brauchen wir nicht..alles einzonen und wir bauen lieber EFH überall auf die grüne Wiese…prima Idee. Sieht man ja gerade im Aargau und im übrigen Mittelland…",
+      "author": "eternalpanic",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1726067502,
+      "score": 4,
+      "link_id": "t3_1fe9lcy",
+      "parent_id": "t1_lmlt5ox"
+    },
+    {
+      "id": "llx6k3m",
+      "body": "Oh yay another Ubiquiti product with half-baked software!",
+      "author": "eternalpanic",
+      "subreddit": "Ubiquiti",
+      "created_utc": 1725691887,
+      "score": 2,
+      "link_id": "t3_1fajd50",
+      "parent_id": "t3_1fajd50"
+    },
+    {
+      "id": "lllb896",
+      "body": "That‘s not how high the fine is. He „only“ has to pay 10k CHF (plus some additional costs). The whole rest is on probation, i.e. he doesn’t have to pay it now.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1725518246,
+      "score": 42,
+      "link_id": "t3_1f9f09i",
+      "parent_id": "t3_1f9f09i"
+    },
+    {
+      "id": "lld7fxp",
+      "body": "I have been going to Wheelhouse in K3 for 10 years or so. Fair, good price, never had to call in advance. They also never complained when I brought my Canyon bikes to repair. Bought a gravel bike there recently and still very happy.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1725397088,
+      "score": 1,
+      "link_id": "t3_1f84j52",
+      "parent_id": "t3_1f84j52"
+    },
+    {
+      "id": "ll1peou",
+      "body": "Sorry I just checked. It was 27%.",
+      "author": "eternalpanic",
+      "subreddit": "ethz",
+      "created_utc": 1725224205,
+      "score": 2,
+      "link_id": "t3_1f6dpsl",
+      "parent_id": "t1_ll1bss0"
+    },
+    {
+      "id": "ll16rbw",
+      "body": "17%. At least for the employee that bought me a new Mac with his discount.",
+      "author": "eternalpanic",
+      "subreddit": "ethz",
+      "created_utc": 1725217901,
+      "score": 2,
+      "link_id": "t3_1f6dpsl",
+      "parent_id": "t1_ll0k25j"
+    },
+    {
+      "id": "ll05kzy",
+      "body": "They do. Unless you get employee discount from Apple, there is nothing comparable. But also this is reddit so…",
+      "author": "eternalpanic",
+      "subreddit": "ethz",
+      "created_utc": 1725205589,
+      "score": 1,
+      "link_id": "t3_1f6dpsl",
+      "parent_id": "t1_lkzdqpi"
+    },
+    {
+      "id": "lksllma",
+      "body": "We always invited people separately to the WG casting. Even then it was usually quite difficult and not a guarantee that it really works out…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1725084397,
+      "score": 7,
+      "link_id": "t3_1f55dsj",
+      "parent_id": "t3_1f55dsj"
+    },
+    {
+      "id": "lkmpz6r",
+      "body": "This is the correct answer. There is no need to erase the System Volume and reinstall everything. New Macs keep their macOS System in a sealed volume/partition that is immutable. Everything else (Data) is on a writable volume. When you choose to EACAS (erase all content and settings), the keys to the data partition are destroyed and you end up with a brand new system. Takes few minutes.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1724997908,
+      "score": 1,
+      "link_id": "t3_1f4fyrn",
+      "parent_id": "t1_lkl08d3"
+    },
+    {
+      "id": "lkkf1se",
+      "body": "Yes, they are. But here they are found locally in higher concentrations.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1724964952,
+      "score": 1,
+      "link_id": "t3_1f3xmqt",
+      "parent_id": "t1_lkiciwn"
+    },
+    {
+      "id": "lken4vx",
+      "body": "There are 2 federal, 1 cantonal and 8 communal votes (in Zurich city) coming up. It might make sense to have one thread for the BVG reform and one for the biodiversity initiative?\n\nNB: You can find arguments of proponents and opponents in the parliament in the Voteinfo app (in DE, FR, IT, RM).",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1724882670,
+      "score": 2,
+      "link_id": "t3_1f3l3ka",
+      "parent_id": "t3_1f3l3ka"
+    },
+    {
+      "id": "lkegocj",
+      "body": "I only ever hear that from other Berndeutsch speakers though?",
+      "author": "eternalpanic",
+      "subreddit": "German",
+      "created_utc": 1724880541,
+      "score": 1,
+      "link_id": "t3_1f39viw",
+      "parent_id": "t1_lkdbweh"
+    },
+    {
+      "id": "lkc5rsu",
+      "body": "I got my permit this year with WS Bootschule and was very happy with all of the instructors there. Good sailing!",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1724851580,
+      "score": 2,
+      "link_id": "t3_1f39fwp",
+      "parent_id": "t3_1f39fwp"
+    },
+    {
+      "id": "lkbu37n",
+      "body": "Is the second picture from the Lavaux?",
+      "author": "eternalpanic",
+      "subreddit": "bikepacking",
+      "created_utc": 1724847086,
+      "score": 2,
+      "link_id": "t3_1f35dlp",
+      "parent_id": "t3_1f35dlp"
+    },
+    {
+      "id": "lkbiu4s",
+      "body": "When I read those statements, I always wonder if you guys are total machines or there is just no ascent where you live. I just got a 2x and on some steep, long hills, I wouldn’t survive with a 40 x 42.",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1724841743,
+      "score": 1,
+      "link_id": "t3_1f2cxa6",
+      "parent_id": "t1_lk63p6m"
+    },
+    {
+      "id": "ljo5jnf",
+      "body": "They do, from what I can see (but it’s only in [this](https://www.rentabike.ch/files/pdf1/uebersicht_preiseliste_rent_2024_web_de.pdf.pdf) PDF). So an eBike would be 274 CHF/7 days and then 29 CHF for every additional day.\n\nI got a used one from 2021 or 2022, but they had revised it before selling it to me.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1724482489,
+      "score": 1,
+      "link_id": "t3_1ezysbh",
+      "parent_id": "t1_ljo4vpq"
+    },
+    {
+      "id": "ljo485a",
+      "body": "I bought my second-hand ebike from rentabike (TdS Broadway). The Tour de Suisse and Flyer ebikes they use are quite high quality.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1724481620,
+      "score": 2,
+      "link_id": "t3_1ezysbh",
+      "parent_id": "t3_1ezysbh"
+    },
+    {
+      "id": "ljl3tfi",
+      "body": "Zurich, Switzerland. That’s the city’s local hill!",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1724437650,
+      "score": 1,
+      "link_id": "t3_1ezfp17",
+      "parent_id": "t1_ljl38t0"
+    },
+    {
+      "id": "ljc0d3b",
+      "body": "Did you even bother to read the leaflet they handed out in the whole neighbourhood? They did write they would work during nights…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1724303650,
+      "score": 15,
+      "link_id": "t3_1ey7k3x",
+      "parent_id": "t3_1ey7k3x"
+    },
+    {
+      "id": "lj2gd7s",
+      "body": "That is pretty crazy. I assume it is much harder for international students since they can‘t just visit a flat to check out if it‘s a match. Tbh when we were looking for flat mates, we only considered people that could visit in person (except once, but that was a friend of a friend). In general we always checked these points when we were looking for flat mates:\n\n* Who is the person? Do they have experience in living with other people?\n* Did they actually read our ad (what we write about the flat, about us…) and do they refer to that? or is it just a very generic email that is pretty void of information? (I realise that applying is frustrating and takes time, but no one likes copy-pastas)\n* Are they a fit with how we live?\n* Did they attach a photo? (Yes we are vain; yes it‘s common even for job applications in CH)\n* Could they move in at the date we wish for?\n\nBest of luck with the WG hunt to all of you!",
+      "author": "eternalpanic",
+      "subreddit": "ethz",
+      "created_utc": 1724172948,
+      "score": 3,
+      "link_id": "t3_1ewsu8t",
+      "parent_id": "t3_1ewsu8t"
+    },
+    {
+      "id": "livpu21",
+      "body": "Würd vilech ou no frage ob d Lüt ufnem Outomat glernt hei oder manuell.\n\nIg ha synerzyt öppe 12-15 lektione gha (manuell; chum dihei güebt). Outomat isch natürlech viu eifacher…",
+      "author": "eternalpanic",
+      "subreddit": "schwiiz",
+      "created_utc": 1724078631,
+      "score": 1,
+      "link_id": "t3_1evzvb7",
+      "parent_id": "t3_1evzvb7"
+    },
+    {
+      "id": "lif8slz",
+      "body": "Interesting, didn’t know that. I just checked our bill and there it‘s just 251 m3 of X m3 total for heating (at 93 m2). Seems we‘re billed the actual volume of the flat?",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1723823481,
+      "score": 2,
+      "link_id": "t3_1erebbw",
+      "parent_id": "t1_lie0biv"
+    },
+    {
+      "id": "li8o6lz",
+      "body": "You‘re right, we shouldn’t assume that people can‘t display HTML emails at all. But maybe we also shouldn’t assume that HTML and especially RTF emails are displayed correctly and that a specific font is shown to the user.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1723730282,
+      "score": 2,
+      "link_id": "t3_1esqw7i",
+      "parent_id": "t1_li8mx4c"
+    },
+    {
+      "id": "li8dtmc",
+      "body": "Our company uses Signature365 to manage signatures since we have different language versions. That also works on iOS e.g.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1723726504,
+      "score": 1,
+      "link_id": "t3_1esqw7i",
+      "parent_id": "t1_li85kj3"
+    },
+    {
+      "id": "li83pxs",
+      "body": "Does he know about text-only emails without formatting and that not every email client supports /displays RTF or HTML for security reasons? Maybe do prepare him for the reality that you have limited control about how someone sees an email, even if you use the same font everywhere.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1723722227,
+      "score": 8,
+      "link_id": "t3_1esqw7i",
+      "parent_id": "t1_li7v01g"
+    },
+    {
+      "id": "lhzc8by",
+      "body": "I mean you literally stayed during the whole heating period and gas prices were crazy high (as the media reported numerous times). It's also not the management's problem that you didn't bother to clear up if they would calculate the heating costs via square meters (which is usual) or if they can read out individual heatings/radiators (which is less usual and also not that fair because people in the 0/1 floor heat for the ones above, too). \n\nIt might not be a huge comfort but we also paid this year for the first time in almost 10 years due to the heating (also about 1000 CHF for 4Z) - but also got money back the years before.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1723587776,
+      "score": 1,
+      "link_id": "t3_1erebbw",
+      "parent_id": "t3_1erebbw"
+    },
+    {
+      "id": "lhz9z0y",
+      "body": "Did you check the period? Like...do you think they heat in summer?",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1723586983,
+      "score": 1,
+      "link_id": "t3_1erebbw",
+      "parent_id": "t1_lhyqvzw"
+    },
+    {
+      "id": "lhsx4n0",
+      "body": "This comment should be framed and titled \"Shifting baseline syndrome\"",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723494582,
+      "score": 22,
+      "link_id": "t3_1eqmfm5",
+      "parent_id": "t1_lhss2z5"
+    },
+    {
+      "id": "lhg8axp",
+      "body": "Ich hab gerade dieses Jahr eins auf [https://www.occasionsvelo.ch](https://www.occasionsvelo.ch) gekauft…Die verkaufen dort die Mietvelos von Rentabike. Die Bikes sind von Flyer oder TdS und qualitativ hochwertig und revidiert. Ich hab ein TdS Broadway Trapez von 2021 für knapp 2100 chf gekauft. Der Motor hat viel Drehmoment/„Pfupf“ und ich brauche das Velo auch für steile Hügel.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1723304615,
+      "score": 2,
+      "link_id": "t3_1eomk09",
+      "parent_id": "t3_1eomk09"
+    },
+    {
+      "id": "lhb01p8",
+      "body": "Why are you not happy with it if i can ask?",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1723223735,
+      "score": 1,
+      "link_id": "t3_1eni8s9",
+      "parent_id": "t1_lhah7r9"
+    },
+    {
+      "id": "lha6xgi",
+      "body": "I‘m probably also going for it (with the original 1by setup). My bike mechanic told me that swapping the necessary parts for a 2by setup would be an extra ca. 700$/€.",
+      "author": "eternalpanic",
+      "subreddit": "gravelcycling",
+      "created_utc": 1723214676,
+      "score": 1,
+      "link_id": "t3_1eni8s9",
+      "parent_id": "t1_lh9cwma"
+    },
+    {
+      "id": "lf9m8u7",
+      "body": "Made the peasants eat cake. Gay af.",
+      "author": "eternalpanic",
+      "subreddit": "gay_irl",
+      "created_utc": 1722126211,
+      "score": 11,
+      "link_id": "t3_1ednxr5",
+      "parent_id": "t1_lf95znm"
+    },
+    {
+      "id": "ldd0dcx",
+      "body": "Swisstopo in the App Stores. Also supports offline maps.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1721081738,
+      "score": 2,
+      "link_id": "t3_1e45g5n",
+      "parent_id": "t1_ldcxng9"
+    },
+    {
+      "id": "ldd054f",
+      "body": "Faulhorn is not accessible by car or public transport. If you don’t want to do a roundtrip you best leave the car somewhere and go from there. E.g leave the car in Interlaken, go from there to Axalp or Grindelwald, then go up to Faulhorn and back to Schynige Platte (worth it for the view). Do also check for the snow situation (swisstopo - closed hiking routes) before going for the hike. From Schynige Platte you can take the cablecar/train down and then go back to Interlaken.\n\nI have done axalp - faulhorn - schynige platte twice but both times with overnight stay at Faulhorn - waking up with view on the bernese alps included.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1721081654,
+      "score": 2,
+      "link_id": "t3_1e45g5n",
+      "parent_id": "t1_ldctdt8"
+    },
+    {
+      "id": "lc6mm32",
+      "body": "Yes, I think something around/above 3k is realistic. If you are eligible for an ASVZ membership you can also take the necessary courses there, but be warned that the spots are filled out really quickly (i didnt manage to get a spot two years in a row…) and the training takes longer than in small groups. The other option might be an intensive weekly course in Silvaplana but there you‘d incur extra costs for hotel/place to stay.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1720442483,
+      "score": 1,
+      "link_id": "t3_1dxd2fa",
+      "parent_id": "t1_lc66dw0"
+    },
+    {
+      "id": "lc5kzkv",
+      "body": "NB: They say one needs usually about 13-15 lessons on average. In the end I took 17 lessons and I already had had previous knowledge (some Laser sailing, open sea sailing). What takes some time to train are the manoeuvres (esp. anchoring, man over board, Aufschiessen an Boje) and the correct commands.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1720419216,
+      "score": 3,
+      "link_id": "t3_1dxd2fa",
+      "parent_id": "t1_lc5kigt"
+    },
+    {
+      "id": "lc5kigt",
+      "body": "I just had my exam last week and took classes at WS Bootschule in Enge (I had classes with all of the instructors). Can highly recommend them. Also great sporty boat. Pricing: 2h are 280 CHF (private lessons), 180 CHF (2 people - they will pool you according to your knowledge) or 140 chf (3 people). My advice: Private lessons can be quite efficient later on, but to understand how to treat the fore sail, it helps to be on the boat with others and ideally do the exam with them.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1720418910,
+      "score": 2,
+      "link_id": "t3_1dxd2fa",
+      "parent_id": "t3_1dxd2fa"
+    },
+    {
+      "id": "lawf06e",
+      "body": "No it’s not. Read the comment by MrMacintosh. The other comments are just wild wrong guesses. Basically if your story is true and the laptop wasn’t bought by your company, they added your laptop to their „inventory“ which is basically taking ownership of it.\n\nBtw: Apple does give companies a way to manage BYOD devices - this is not it. Tell your company to remove your computer from their MDM asap.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1719701587,
+      "score": 12,
+      "link_id": "t3_1drj1r7",
+      "parent_id": "t1_lavpv6o"
+    },
+    {
+      "id": "la8opis",
+      "body": "Recently got my 2023 already (city), but filled out the tax declaration early.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1719338908,
+      "score": 1,
+      "link_id": "t3_1do541i",
+      "parent_id": "t3_1do541i"
+    },
+    {
+      "id": "la0chfg",
+      "body": "Cafe Lochergut, unless they play loud music. Piazza at Idaplatz is also nice, especially outside. There are also a few other bars and cafes at Idaplatz.\n\nIf you want to be by the lakeside, you could go to Badi Enge.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1719206206,
+      "score": 3,
+      "link_id": "t3_1dmzsk3",
+      "parent_id": "t1_l9zahmb"
+    },
+    {
+      "id": "l9vrl43",
+      "body": "Additionally to what was already mentioned: The prices for household appliances you find on the internet don’t have much in common with how much they cost when they are part of a development. In big houses, household appliances easily cost 40-60% less than the list price.\nOf course that only works with specific brands/depending on contracts with those.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1719135382,
+      "score": 3,
+      "link_id": "t3_1dm6c29",
+      "parent_id": "t3_1dm6c29"
+    },
+    {
+      "id": "l9vhu0y",
+      "body": "At Lochergut, the bike light now switches to red when the light for cars goes green. It’s annoying, but that’s the consequence.\n\nAnd yet I see many other cyclists that still go straight ahead at Lochergut (with the rerouted traffic) when the light for cars (turning right on Seebahnstr) is green…",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1719128150,
+      "score": 1,
+      "link_id": "t3_1dkw2fj",
+      "parent_id": "t1_l9lhnzt"
+    },
+    {
+      "id": "l91yxvs",
+      "body": "R base functions are often not type and size stable (sapply is a good example), but tidyverse functions are (partially due to rlang, partially due to vctrs). R base functions are also often inconsistent in naming and in which order arguments are listed. Tidyverse functions all follow the same logic which makes piping possible in the first place. These things matter, especially for non-interactive use.\n\nOn the other hand, I‘m regularly annoyed about the tidyverse because functions are deprecated rather quickly and/or superseded.\n\nPersonally I do think that it would be increasingly difficult for new users to catch on to R without the ease that the tidyverse (especially including ggplot) brought to data analysis. I‘m aware that (based on) R still has a strong standing in stats and also natural sciences (e.g bioconductor), but I think tidyverse (because of its versatility) and data.table (because of its speed) gave R a breath of new life that it desperately needed.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1718656329,
+      "score": 1,
+      "link_id": "t3_1dgve87",
+      "parent_id": "t1_l91qsdq"
+    },
+    {
+      "id": "l91nk2k",
+      "body": "Rlang does address several shortcomings of base R though and it’s not necessarily about simplicity. IMO R might be quite obsolete nowadays if it weren’t for the tidyverse and data.table.\nAnd the introduction of the base pipe shows to me that maybe the R consortium did also realise they should move the language ahead.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1718652524,
+      "score": 1,
+      "link_id": "t3_1dgve87",
+      "parent_id": "t1_l8v15th"
+    },
+    {
+      "id": "l8eo3zg",
+      "body": "TSK or Scuba Viva have both guided dives.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1718275842,
+      "score": 2,
+      "link_id": "t3_1devjx0",
+      "parent_id": "t3_1devjx0"
+    },
+    {
+      "id": "l5ckswc",
+      "body": "Oh, I didn’t think I would see Le Labo so high up. Nice",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1716484212,
+      "score": 3,
+      "link_id": "t3_1cyqu4b",
+      "parent_id": "t1_l5b6iwo"
+    },
+    {
+      "id": "l5a761c",
+      "body": "Nume für öffentlichi usschribige. Oft gits aber ou es iladigsverfahre und teilwys direktvergabe.",
+      "author": "eternalpanic",
+      "subreddit": "schwiiz",
+      "created_utc": 1716441574,
+      "score": 1,
+      "link_id": "t3_1cxxdn4",
+      "parent_id": "t1_l561zig"
+    },
+    {
+      "id": "l5a71vv",
+      "body": "150K für direktvergabe, nid 50K oder?",
+      "author": "eternalpanic",
+      "subreddit": "schwiiz",
+      "created_utc": 1716441506,
+      "score": 3,
+      "link_id": "t3_1cxxdn4",
+      "parent_id": "t1_l56f2pd"
+    },
+    {
+      "id": "l4mb9ne",
+      "body": "Was süsch o geit isch we dr chuecheteig ir form\nhesch u de chli mehl ubd maizena verteilsch (u ersch nächär mit dr gable dr teig ischtäche). das hiuft we chüeche machsch mit frücht wo starch düe safte.",
+      "author": "eternalpanic",
+      "subreddit": "BUENZLI",
+      "created_utc": 1716050135,
+      "score": 4,
+      "link_id": "t3_1cuw5ku",
+      "parent_id": "t3_1cuw5ku"
+    },
+    {
+      "id": "l2d426s",
+      "body": "I‘m not so worried for my job because it depends lots on local regulations, contact and knowing (Swiss)German.\nI guess the question is if a) whatever job you do creates so much value for the business and they depend on certain specialists that they are fine with high salaries or b) if the job is focused on the Swiss market/requires the local context.\n\nWith that being said I don’t think that front/public-facing roles will be replaced, but backoffice jobs very much so.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714719074,
+      "score": 3,
+      "link_id": "t3_1cipjgd",
+      "parent_id": "t3_1cipjgd"
+    },
+    {
+      "id": "l2btqnu",
+      "body": "I‘m happy so far. Bought my bike there in 2019. A friend of mine has been with them for a longer time and was also happy. I can’t really compare them price-wise as I lack references.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1714696312,
+      "score": 1,
+      "link_id": "t3_1bthztw",
+      "parent_id": "t1_l2atqdd"
+    },
+    {
+      "id": "l22w5dm",
+      "body": "I‘m using [Keka](https://keka.io) for that.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1714564526,
+      "score": 2,
+      "link_id": "t3_1chk1h3",
+      "parent_id": "t3_1chk1h3"
+    },
+    {
+      "id": "l20w1mo",
+      "body": "depending on where OP lives…",
+      "author": "eternalpanic",
+      "subreddit": "gay",
+      "created_utc": 1714524115,
+      "score": 8,
+      "link_id": "t3_1ch0dmc",
+      "parent_id": "t1_l206efo"
+    },
+    {
+      "id": "l20npgs",
+      "body": "Not a historian, but a paleolimnologist here. We do know from ancient lake sediments and also conserved remains that there were stilt houses around/in perialpine lakes. So those settings definitely existed and from an aquatic perspective, living close to lakes makes lots of sense, as lake water provides an excellent resource of potable water.\nOn the other hand, pre-modern rivers looked very differently to many current ones, i.e., they were much less linearised and their flow could change across the landscape. In some cases, this also led to wetlands. While wetlands could provide very fertile soil (or peat), the free roaming of rivers could also be unpredictable (flooding) and wetlands in pre-modern times would attract insects as well (transmission of malaria!).\n\nUltimately, in either case, surrounding land is often connected to groundwater flows which is an important factor for agricultural use. Because of that, I doubt that the hypothesis in your question is (at least globally) correct.",
+      "author": "eternalpanic",
+      "subreddit": "AskHistorians",
+      "created_utc": 1714520861,
+      "score": 5,
+      "link_id": "t3_1cgwx06",
+      "parent_id": "t3_1cgwx06"
+    },
+    {
+      "id": "l1pyie7",
+      "body": "A company can fire you for any reason they want if they stay within the notice period. It doesn’t matter if you were employee of the month or the darling of everyone. Their reason for firing you seems bs, but again, doesn’t matter (if they didn’t fire you during sick leave or fristlos).\nHowever, if you do plan to get a Arbeitszeugnis and they write you a shitty one, having been employee of the month (if you can prove it) certainly can be helpful to argue for improvements in the Arbeitszeugnis.\n\nmy 5 cents: you’ve been there very shortly, employee rights are generally weak here and your boss doesn’t want to work with you for whatever reason - look for a new job and register with RAV immediately.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714351672,
+      "score": 10,
+      "link_id": "t3_1cfl4t9",
+      "parent_id": "t3_1cfl4t9"
+    },
+    {
+      "id": "l0up4hn",
+      "body": "Unfortunately sometimes it shows that Sharepoint also has been around for 25 years.\n\nTbh I understand every user that is confused by differences of OneDrive, Sharepoint, Teams because Microsoft seems to be unable and unwilling to provide consistent user experiences. Be it naming (Team/Teams/Groups/Sites), overlapping features (Syncing/Adding links to Onedrive) or limitations that no one nowadays understands (looking at you list/view sizes).\nGoogle Suite/Workplace IMO does a far better job of focusing on a certain feature set and doesn’t have to carry around features from 25 years.\nAt last, it also shows on the admin side of things. The MS365 admin centers with their sluggish ever-changing interfaces, constantly outdated help articles and settings that sometimes are not consistent between Powershell scripts and GUI changes are a nightmare compared to Google Suite.",
+      "author": "eternalpanic",
+      "subreddit": "sysadmin",
+      "created_utc": 1713852035,
+      "score": 9,
+      "link_id": "t3_1caoze5",
+      "parent_id": "t1_l0tfkf1"
+    },
+    {
+      "id": "l0sqsz7",
+      "body": "Ämmitau u im Oberaargou o",
+      "author": "eternalpanic",
+      "subreddit": "BUENZLI",
+      "created_utc": 1713821740,
+      "score": 3,
+      "link_id": "t3_1cah46v",
+      "parent_id": "t1_l0set8h"
+    },
+    {
+      "id": "l0ruj2w",
+      "body": "D Oberländer aber eher hardcore Stündeler",
+      "author": "eternalpanic",
+      "subreddit": "BUENZLI",
+      "created_utc": 1713808259,
+      "score": 16,
+      "link_id": "t3_1cah46v",
+      "parent_id": "t1_l0ruadv"
+    },
+    {
+      "id": "l0evlhd",
+      "body": "Stockerdocs (in Zurich city). Scott Watson is English and I highly recommend him.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1713594929,
+      "score": 1,
+      "link_id": "t3_1c8j32j",
+      "parent_id": "t3_1c8j32j"
+    },
+    {
+      "id": "kzs4nk9",
+      "body": "You can render HTML to PDF using pagedown::chrome_print(). I‘m using this to create parametrised quarto reports as PDFs. You can also use CSS styles to ensure that no page break happens after headings e.g.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1713238572,
+      "score": 1,
+      "link_id": "t3_1c4trc9",
+      "parent_id": "t3_1c4trc9"
+    },
+    {
+      "id": "kzjdgye",
+      "body": "I got Exos x20, since they are much cheaper in my country than Ironwolf Pro/WD Red Pro. They‘re a tad noisy though.",
+      "author": "eternalpanic",
+      "subreddit": "synology",
+      "created_utc": 1713105665,
+      "score": 5,
+      "link_id": "t3_1c3nen9",
+      "parent_id": "t1_kzj9yht"
+    },
+    {
+      "id": "kzdov0d",
+      "body": "What a naive view…with that in mind I could go to our smoking neighbours and tell them to stop smoking on the balcony since the smoke draws into our apartment. Or ask people to not flush the toilet at night because I can hear it etc.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1713014673,
+      "score": 0,
+      "link_id": "t3_1c313xc",
+      "parent_id": "t1_kzdlx7v"
+    },
+    {
+      "id": "kzdodmv",
+      "body": "If you want to ruin your neighbourly relationship, write an anonymous note. However, I think you’d be a massive twat doing that, especially since you only just moved in. And of course, they will quickly find out who wrote the note.\nI would try to talk to your neighbour and explain that the smoke gets into your whole apartment. Maybe they will switch to a gas grill or they could keep the hood on, so the fumes don’t travel that much. If they don’t care about your problem, you can still go to the landlord.\nBut know, in doing that as a new tenant, living there might become uncomfortable and said neighbour might try to nail you on any potential wrongdoing.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1713014461,
+      "score": 10,
+      "link_id": "t3_1c313xc",
+      "parent_id": "t3_1c313xc"
+    },
+    {
+      "id": "kz74pi3",
+      "body": "Ballenberg is a nice day trip.\n\nTraditional Swiss houses from the last centuries and some traditional trades shown there as well.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1712903526,
+      "score": 2,
+      "link_id": "t3_1c1clqa",
+      "parent_id": "t3_1c1clqa"
+    },
+    {
+      "id": "kxuw8ux",
+      "body": "Maybe just call them? I'm pretty sure that some of these positions are costs raised by your deliverer, not the customs. E.g. check this link: [https://www.preisueberwacher.admin.ch/pue/de/home/themen/hochpreisinsel---preispolitik/zollabfertigungsgebuehren.html](https://www.preisueberwacher.admin.ch/pue/de/home/themen/hochpreisinsel---preispolitik/zollabfertigungsgebuehren.html)",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1712154673,
+      "score": 1,
+      "link_id": "t3_1buqxwi",
+      "parent_id": "t3_1buqxwi"
+    },
+    {
+      "id": "kxp8ky9",
+      "body": "Sauna",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1712067533,
+      "score": 9,
+      "link_id": "t3_1btz5cj",
+      "parent_id": "t3_1btz5cj"
+    },
+    {
+      "id": "kxo1tus",
+      "body": "Lucchinetti near Bäckeranlage. They‘re a Yamaha shop mainly.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1712044034,
+      "score": 1,
+      "link_id": "t3_1bthztw",
+      "parent_id": "t3_1bthztw"
+    },
+    {
+      "id": "kxg08ya",
+      "body": "Russischer Salat. Used to be quite common in the German speaking countries, less so nowadays I guess. So maybe a generational thing.",
+      "author": "eternalpanic",
+      "subreddit": "europe",
+      "created_utc": 1711915729,
+      "score": 2,
+      "link_id": "t3_1bshkan",
+      "parent_id": "t1_kxftdik"
+    },
+    {
+      "id": "kx3j36z",
+      "body": "OP: That means that the Mac might be linked to a company/institution and you won’t be able to get rid of that by just reinstalling the system. Similar to how iphones are locked using an AppleID.",
+      "author": "eternalpanic",
+      "subreddit": "mac",
+      "created_utc": 1711713830,
+      "score": 16,
+      "link_id": "t3_1bqkvkg",
+      "parent_id": "t1_kx3bism"
+    },
+    {
+      "id": "kwnhqyl",
+      "body": "Mine is also a rather new one (DS 1821+) and I do see SMART data for my Exos x20 disks. Not a rackstation though.",
+      "author": "eternalpanic",
+      "subreddit": "synology",
+      "created_utc": 1711466137,
+      "score": 1,
+      "link_id": "t3_1bnan23",
+      "parent_id": "t1_kwn8kuy"
+    },
+    {
+      "id": "kwlwiln",
+      "body": "That‘s the scenario I‘m using (with an old mac mini as a plex server). It’s even fast enough to stream HDR 4K content from the NAS via a single GbE connection.",
+      "author": "eternalpanic",
+      "subreddit": "synology",
+      "created_utc": 1711435330,
+      "score": 2,
+      "link_id": "t3_1bnan23",
+      "parent_id": "t1_kwkw9dc"
+    },
+    {
+      "id": "kwlw7g0",
+      "body": "The rackstations only allow approved disks? I‘m running not officially supported disks (Exos x20) in my DS. There is an initial warning but that’s it.",
+      "author": "eternalpanic",
+      "subreddit": "synology",
+      "created_utc": 1711435097,
+      "score": 1,
+      "link_id": "t3_1bnan23",
+      "parent_id": "t1_kwj5rjm"
+    },
+    {
+      "id": "kwipx39",
+      "body": "NB: par\\_species in the YAML header of the Quarto document should be indented (it's a sub-element of params) - but I'm unable to show indented code here somehow.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1711389612,
+      "score": 1,
+      "link_id": "t3_1bksu8r",
+      "parent_id": "t1_kwiph3d"
+    },
+    {
+      "id": "kwiph3d",
+      "body": "Here is some sample code, but I used Quarto, not Rmarkdown. The principle should also work in Rmarkdown.\n\nTemplate document, e.g. `template.qmd:`\n\n`---`\n\n`title: Test`\n\n`params:`\n\n  `par_species: 'setosa'` \n\n`---`\n\n\n\n`# Parametrised document test`\n\n\n\n`\\`\\`\\`{r}`\n\n`iris_filtered <- subset(iris, Species == params$par_species)`\n\n\n\n`summary(iris_filtered)`\n\n`\\`\\`\\``\n\nYou can then create the report from another R file (or even the command line with the quarto binary) using `quarto_render`:\n\n`quarto::quarto_render(`\n\n`tmp_template,`\n\n`execute_params = list(par_species = species_list),`\n\n`output_format = \"html\",`\n\n`output_file = outputname.html`\n\n`)`\n\nWhere `tmp_template` is your template.qmd (in the same directory). Of course you can also let it run on a list of parameters, e.g. in a second script:\n\n  \n`species_list <- c(\"setosa\", \"versicolor\", \"virginica\")`\n\n\n\n`lapply(species_list, function(x) {`\n\n  `output_filename <- sprintf(\"prefix_%s.html\", x)`\n\n  `quarto::quarto_render(\"parametrised.qmd\", output_format = \"html\", output_file = output_filename, execute_params = list(par_species = x))`\n\n`})`\n\nFor your use case e.g., you could use the date or month as a parameter and then filter the data to be shown within the report. You can then also use sprintf() or similar, as shown above, to have HTML output files that follow a specific naming scheme. i've used this approach to create hundreds of different output files (that i then also converted to PDF in the process) with few quarto templates.\n\nOf course this does not yet solve the problem of integrating all data of all months in one dashboard/file.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1711389467,
+      "score": 1,
+      "link_id": "t3_1bksu8r",
+      "parent_id": "t1_kwg0sph"
+    },
+    {
+      "id": "kw0v2ga",
+      "body": "I‘m not sure I understand correctly: The output of the individual Rmd files are HTML Websites. There are three of those containing data for different months. You want however to have a fully dynamic dashboard where content changes upon switching a selection button?\n\nI don’t know if this kind of interactivity is possible with static Rmd output. You can either use something like quarto dashboards with Observable JS to integrate client interactivity or run a full dashboard on a shiny server.\n\nAlso a remark on making different files for each month: Instead you could run a base template file as a parametrised report. You then feed a list of months as a parameter to the rendering process and get the HTML files for each month.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1711101817,
+      "score": 2,
+      "link_id": "t3_1bksu8r",
+      "parent_id": "t3_1bksu8r"
+    },
+    {
+      "id": "kvbtlws",
+      "body": "I like the file transfer labels but I find the timers wildly inaccurate…especially if there’s a mix of both big files and many small files, it just becomes a frantic mess.\n\nThe zip explorer is nice but only works for zip files…macs on the other hand can also unpack compressed tar archives, which - at least for developers- sometimes is very handy. I use Keka on the mac to extract archives (no explorer though).\n\nWhat I really do like about Windows Explorer is the multi-screen support and the timeline view.",
+      "author": "eternalpanic",
+      "subreddit": "macapps",
+      "created_utc": 1710706018,
+      "score": 3,
+      "link_id": "t3_1bgskst",
+      "parent_id": "t1_kvbsg75"
+    },
+    {
+      "id": "kvbr4yr",
+      "body": "It is really one-sided though. I don’t get why Apple should just adapt everything the way Microsoft does it with Windows?\n\nWhile I agree that Finder has some annoying limitations, Quicklook e.g is amazing and lacks a native pendant in Windows. Also Windows Explorer still does not manage in 2024 to update  views if files are added from somewhere else (e.g a background process). There is still a persistent file lock in Windows that will fail scripts outputting data (when the file handle is open) while that is no problem in Unix/linux systems. Windows explorer STILL has no tabs. Windows Preview is a joke when it comes to the native support of file formats.",
+      "author": "eternalpanic",
+      "subreddit": "macapps",
+      "created_utc": 1710705146,
+      "score": 3,
+      "link_id": "t3_1bgskst",
+      "parent_id": "t1_kvas4dk"
+    },
+    {
+      "id": "kv17vc5",
+      "body": "City was actually completely renovated a few years ago. But it is often packed indeed.\n\nOtherwise Bläsi is sometimes quite empty.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1710529614,
+      "score": 14,
+      "link_id": "t3_1bfjllb",
+      "parent_id": "t3_1bfjllb"
+    },
+    {
+      "id": "kuypdz8",
+      "body": "What a hypocritical statement.\n\nConcerning oral sex: There is almost no risk to transmit HIV orally, even with cum. There are just no data to support that claim. What you can get though are tons of other STDs - and they are often asymptomatic! \n\nSecondly, from a point of sexual health, it just doesn’t matter what someone tells you about their health status (or even worse - what you silently assume) - it’s your own responsibility to protect yourself. And that means that you need to choose the level of protection you are comfortable with. If you do oral sex without condom - then you’re basically fine getting other STDs. Your call.\n\nThirdly, if one chooses to take elevated risks with a partner, both should absolutely get tested - and yes, then it’s time to come clean. Don’t do that and  you’re probably just happily spreading other STDs.  \n\nAnd lastly, about trust; I was once in the same situation that a date told me after 2 months that they were HIV+. I was also shocked, but at the same time this was when the dating got serious. I completely understand that HIV+ people wouldn’t want to share the news with people they don’t know well yet as the ramifications of being outed as HIV+ still can be great nowadays.",
+      "author": "eternalpanic",
+      "subreddit": "askgaybros",
+      "created_utc": 1710491282,
+      "score": 1,
+      "link_id": "t3_1besdu6",
+      "parent_id": "t1_kuvmme9"
+    },
+    {
+      "id": "kuw6f6p",
+      "body": "That was before they got rid of the car spaces on one side - and before they cut down several of the trees. Look different now.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1710449839,
+      "score": 3,
+      "link_id": "t3_1besaqu",
+      "parent_id": "t3_1besaqu"
+    },
+    {
+      "id": "kuqa1z3",
+      "body": "Tap water is potable in whole Switzerland. In some places it may contain higher mineral concentrations. Zurich city uses c. 2/3 of its water from Lake Zurich which is considered “soft” (i.e., fewer minerals), surrounding places usually use ground water, which has a different composition.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1710360963,
+      "score": 5,
+      "link_id": "t3_1be174c",
+      "parent_id": "t3_1be174c"
+    },
+    {
+      "id": "kupmmp7",
+      "body": "Funny enough we were in a similar situation last year when sailing in the aegean sea - going to Mykonos was an idea but due to strong Meltemi we didn’t make it there that time and went to Paros. No regrets!",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1710353280,
+      "score": 11,
+      "link_id": "t3_1bdukoh",
+      "parent_id": "t1_kupkdaa"
+    },
+    {
+      "id": "kupi6rg",
+      "body": "Paros is also quite nice…",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1710351849,
+      "score": 26,
+      "link_id": "t3_1bdukoh",
+      "parent_id": "t1_kupbigm"
+    },
+    {
+      "id": "kup25p5",
+      "body": "Was that written 20 years ago?",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1710346652,
+      "score": 42,
+      "link_id": "t3_1bdukoh",
+      "parent_id": "t3_1bdukoh"
+    },
+    {
+      "id": "ku8na5j",
+      "body": "geologists? there are plenty of open jobs at the moment in cantonal and communal environmental offices, geological survey offices/legacy pollution/building pollution firms in CH-DE.\nIt might be a bit harder for people fresh from uni without experiences.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1710089299,
+      "score": 1,
+      "link_id": "t3_1bbbbhz",
+      "parent_id": "t1_ku8i9u6"
+    },
+    {
+      "id": "ku8mumc",
+      "body": "In my field (engineering, environmental consulting), it’s still quite easy to find a job, mostly due to boomers being retired now. It’s also something that can’t be outsourced easily to other countries since one needs to speak local languages and understand local/swiss laws.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1710089147,
+      "score": 13,
+      "link_id": "t3_1bbbbhz",
+      "parent_id": "t3_1bbbbhz"
+    },
+    {
+      "id": "ktvojnk",
+      "body": "rm() removes objects from the environment.\nWhat is shown in the console is the history of commands. This persists even if objects have been removed.\n\nNot to be rude but you should take a basic R tutorial on how to write scripts and go from there.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1709876569,
+      "score": 1,
+      "link_id": "t3_1b94mz4",
+      "parent_id": "t3_1b94mz4"
+    },
+    {
+      "id": "ktkoidf",
+      "body": "When I was in my early twenties (now mid thirties), it started to become apparent that I would develop hair loss.\n\nI started using oral finasteride daily on recommendation of my dermatologist. I immediately got extremely dry eyes and had to stop taking it. I never tried topical minoxidil.\n\nAfter that, hair loss progressed and there were times I found it somewhat difficult to accept - especially when I started balding on the top. I did look into different options (several acquaintances of mine got a hair job done in Turkey) but ultimately came to terms with it and for now just keep the hair very short. I do have a nice beard though and that definitely helps.\n\nAnd talking about relationships: People have preferences, even within relationships. But I do think your partner should accept whatever you decide on this topic. My boyfriend of 3 years also preferred when I still wore my hair a bit longer, but he doesn’t mind now that the hair is very short.\n\nWhat also helped me put the topic into perspective is how my circle of friends/family/work colleagues in general deal with it: There are several men that rock a completely bald look and some of them I find to be very inspirational role models.\n\nI wish you all the best on your journey and hope you‘ll find a solution that works for you!",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1709705998,
+      "score": 1,
+      "link_id": "t3_1b7kckm",
+      "parent_id": "t3_1b7kckm"
+    },
+    {
+      "id": "kszo2uv",
+      "body": "It really depends on what you use a screen for IMO. I‘d rather have more affordable colour accurate screens, especially since there are always trade-offs between different improvements.\nAnd while I agree that a higher refresh rate is nice, accurate colours may be crucial for actual work.\nIt boils down to this sub IMO being very focused on the needs of PC gamers when it comes to monitors.",
+      "author": "eternalpanic",
+      "subreddit": "Monitors",
+      "created_utc": 1709380614,
+      "score": 1,
+      "link_id": "t3_1ax6ygn",
+      "parent_id": "t1_kszlo5u"
+    },
+    {
+      "id": "ksotos8",
+      "body": "I‘ve also encountered this weird issue a few times with RStudio, but never with RStudio Cloud. I had to restart RStudio to make it work again.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1709211946,
+      "score": 2,
+      "link_id": "t3_1b2yfk7",
+      "parent_id": "t3_1b2yfk7"
+    },
+    {
+      "id": "krx0wkj",
+      "body": "So you published your app on shinyapps.io and it does not work? Have you tried using the showcase mode to see where the problem is? [https://github.com/rstudio/shiny/issues/1131](https://github.com/rstudio/shiny/issues/1131)\n\nAlternatively I‘d try to publish a copy of your app where you removed most of the functionality. \n\nFinally you should also look at the logs in the shinyapps.io console.",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1708781799,
+      "score": 1,
+      "link_id": "t3_1ayproz",
+      "parent_id": "t1_krwynra"
+    },
+    {
+      "id": "krwaukk",
+      "body": "How did you “share” the app? Just using a file share is not enough. You need a dedicated shiny server running on a webserver that does the server-side R execution.\n\nIf you don’t have your own publicly accessible shiny server you’ll need to publish it to shinapps.io. Did you do that?",
+      "author": "eternalpanic",
+      "subreddit": "Rlanguage",
+      "created_utc": 1708765266,
+      "score": 6,
+      "link_id": "t3_1ayproz",
+      "parent_id": "t3_1ayproz"
+    },
+    {
+      "id": "krrxe6r",
+      "body": "I don’t get why this sub is so addicted to ever higher refresh rates…is this sub just about gaming monitors?\n\nI would be happy if there were more wide gamut colour accurate monitors with high dynamic ranges that don’t cost an arm and a leg.",
+      "author": "eternalpanic",
+      "subreddit": "Monitors",
+      "created_utc": 1708701687,
+      "score": 1,
+      "link_id": "t3_1ax6ygn",
+      "parent_id": "t3_1ax6ygn"
+    },
+    {
+      "id": "kr7gn3c",
+      "body": "Interestingly there is another thing that connects two of those villages:\n\n* In Lucens there was an experimental reactor that had a partial meltdown in 1969\n\n* Graben was the nuclear plant that never was: Due to massive protests plans to construct a nuclear plant at the Aare were stopped: [https://www.srf.ch/audio/zeitblende/wie-das-akw-graben-verhindert-wurde?id=12186921](https://www.srf.ch/audio/zeitblende/wie-das-akw-graben-verhindert-wurde?id=12186921)",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1708382268,
+      "score": 3,
+      "link_id": "t3_1auvwyp",
+      "parent_id": "t3_1auvwyp"
+    },
+    {
+      "id": "kqofssg",
+      "body": "Switzerland has had same-sex marriage since 2022 after a referendum to introduce it passed in 2021.",
+      "author": "eternalpanic",
+      "subreddit": "MapPorn",
+      "created_utc": 1708087345,
+      "score": 1,
+      "link_id": "t3_1as3x1x",
+      "parent_id": "t1_kqnu5z5"
+    },
+    {
+      "id": "kq42hqp",
+      "body": "The only things I still remember right now (went to watch it at a queer film festival when it premiered) are the eye candy and the snow lodge weekend that was so surreal and felt like a very polished ad for a luxury skiing destination.\nPlotwise I found it forgettable.",
+      "author": "eternalpanic",
+      "subreddit": "gaybros",
+      "created_utc": 1707761162,
+      "score": 1,
+      "link_id": "t3_1ap4kr6",
+      "parent_id": "t3_1ap4kr6"
+    },
+    {
+      "id": "kprwxxa",
+      "body": "Jenni is a very common name. [This](https://www.srf.ch/radio-srf-1/auf-den-spuren-eures-namens-jenni-jenny) excerpt from a radio programme (in Swiss German) reports that there are over 50 different places in German speaking Switzerland where Jenni/Jenny are of old origin.\nThe reason for that is that Jenni comes from Johannes which used to be a very common name - and eventually made it into a surname.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707569203,
+      "score": 6,
+      "link_id": "t3_1anei8y",
+      "parent_id": "t3_1anei8y"
+    },
+    {
+      "id": "kprgnxl",
+      "body": "1&2: Doesn‘t matter; 3: No; 4: If you put an empty vote in the envelope, it does increase the quorum, which is important in elections (to calculate majority).\nMost importantly: if you vote by mail, make sure that you signed the card/slip and - if applicable - put your filled out votes in the inner envelope.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1707557504,
+      "score": 10,
+      "link_id": "t3_1ancd9u",
+      "parent_id": "t3_1ancd9u"
+    },
+    {
+      "id": "kpphr7s",
+      "body": "Luggage into lockers, a walk through needle park, Lindenhof square, to the lake and back.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1707520777,
+      "score": 2,
+      "link_id": "t3_1an1au5",
+      "parent_id": "t3_1an1au5"
+    },
+    {
+      "id": "kpn3t55",
+      "body": "Gun use by police in Switzerland always leads to an investigation.\n\nThis article has some more information on the subject, and how often the Swiss police shoot. In the last 25 years 10 people were killed.\n\n[https://www.watson.ch/schweiz/international/352068453-geiselnahme-yverdon-wie-selten-die-schweizer-polizei-zur-waffe-greift](https://www.watson.ch/schweiz/international/352068453-geiselnahme-yverdon-wie-selten-die-schweizer-polizei-zur-waffe-greift)",
+      "author": "eternalpanic",
+      "subreddit": "worldnews",
+      "created_utc": 1707490425,
+      "score": 9,
+      "link_id": "t3_1amlb2t",
+      "parent_id": "t1_kpmuapd"
+    },
+    {
+      "id": "kpmooml",
+      "body": "Only Demeter CH. Demeter International has lesser policies.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707484043,
+      "score": 4,
+      "link_id": "t3_1ammk2u",
+      "parent_id": "t1_kpml37m"
+    },
+    {
+      "id": "kpmjdzw",
+      "body": "It has gotten better in the last 30 years, even for IP Suisse (= which is the minimum farmers need to achieve to receive subsidies), but there are still big differences between labels. In general Knospe/Bio Suisse has the strictest policies.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707481334,
+      "score": 17,
+      "link_id": "t3_1ammk2u",
+      "parent_id": "t3_1ammk2u"
+    },
+    {
+      "id": "kpbhjk9",
+      "body": "Potentially predatory journals.",
+      "author": "eternalpanic",
+      "subreddit": "science",
+      "created_utc": 1707306648,
+      "score": 8,
+      "link_id": "t3_1aki1cn",
+      "parent_id": "t1_kpbb2ql"
+    },
+    {
+      "id": "kpbf5p1",
+      "body": "There is now Asahi Linux for Apple Silicon Macs. Not closely feature complete, but there are people using it as a daily driver.\nSo I assume it should be possible to use UNIX or Linux on WoA machines.",
+      "author": "eternalpanic",
+      "subreddit": "hardware",
+      "created_utc": 1707305141,
+      "score": -3,
+      "link_id": "t3_1akxwgv",
+      "parent_id": "t1_kpbbszf"
+    },
+    {
+      "id": "kpb32pg",
+      "body": "thebrawnybrute on IG",
+      "author": "eternalpanic",
+      "subreddit": "gay_irl",
+      "created_utc": 1707296153,
+      "score": 15,
+      "link_id": "t3_1akwi7l",
+      "parent_id": "t1_kpatnw4"
+    },
+    {
+      "id": "kp8k0rj",
+      "body": "Yes, I'm an employee. I got legal insurance the moment my boss told me I shouldn't worry about minus hours because they would just dock it from the 13th salary lol.\n\nI'm aware it's not legal, I will contact the legal insurance too, but wanted to hear about similar experiences here.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707254978,
+      "score": 7,
+      "link_id": "t3_1akjesi",
+      "parent_id": "t1_kp8jijv"
+    },
+    {
+      "id": "kp8ge3w",
+      "body": "Good point yes",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707253782,
+      "score": 2,
+      "link_id": "t3_1akjesi",
+      "parent_id": "t1_kp8g0o3"
+    },
+    {
+      "id": "kp8fs0e",
+      "body": "engineering-consulting. I'm still to junior (lack of experience and references) but several senior employees have done that.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707253580,
+      "score": 3,
+      "link_id": "t3_1akjesi",
+      "parent_id": "t1_kp8f5k0"
+    },
+    {
+      "id": "kox766u",
+      "body": "For micropollutants like that you could probably use a passive sampler, so a tampon isn’t a bad idea! If you want to check at different sites if there is/was Rhodamine or not, you could maybe check the tampon extract with UV/VIS since Rhodamine UV is active (or using LC-MS if you know a facility that has one of those).\nI‘m not sure if there are specific reagent tests for that dye though.",
+      "author": "eternalpanic",
+      "subreddit": "environmental_science",
+      "created_utc": 1707076356,
+      "score": 2,
+      "link_id": "t3_1aivoma",
+      "parent_id": "t1_kox42nq"
+    },
+    {
+      "id": "kox1dmx",
+      "body": "Do you know what the compound is? Environmental agencies would usually use constant volume samplers if they would want to quantify something like that.",
+      "author": "eternalpanic",
+      "subreddit": "environmental_science",
+      "created_utc": 1707074299,
+      "score": 1,
+      "link_id": "t3_1aivoma",
+      "parent_id": "t3_1aivoma"
+    },
+    {
+      "id": "kosmqrv",
+      "body": "*woooosh*",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706997928,
+      "score": 4,
+      "link_id": "t3_1ai66dt",
+      "parent_id": "t1_kosk73b"
+    },
+    {
+      "id": "koplax8",
+      "body": "This comment section is a total shit show. The way some desperate dudes talk about women here is despicable. If I were a woman, I‘d keep far away from Tinder (and this sub) too.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706946163,
+      "score": 2,
+      "link_id": "t3_1ah3aiq",
+      "parent_id": "t3_1ah3aiq"
+    },
+    {
+      "id": "kolzfxl",
+      "body": "Storage is certainly an important part, but the timing and availability of fungicide application to prevent rot has an effect too. After all mould is caused by spores - and facilitated by a humid environment.\n\nCarbonyl what? That's an organic group, not a compound. Also not on the BLV PSM list of allowed pesticides.\n\nThe last paragraph is hogwash. Even if the EU-Bio standard is much less strict than Bio Suisse/Knospe, it does forbid the use of synthetic pesticides. Of course copper salts, which are not unproblematic, are still allowed. In the case of green-houses with little use of pesticides, the difference is less notable than for hors-sol of free vegetable cultures.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706893245,
+      "score": 2,
+      "link_id": "t3_1ah3jkp",
+      "parent_id": "t1_kolvwta"
+    },
+    {
+      "id": "koluxd6",
+      "body": "organic = Bio\n\nIt has very much something to do with the amount and types of plant protectants used.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706891695,
+      "score": 1,
+      "link_id": "t3_1ah3jkp",
+      "parent_id": "t1_kolbdqu"
+    },
+    {
+      "id": "kolpqy5",
+      "body": "That's crazy indeed. What could help is to store them in the dark so they don't sprout and in a cool place (but not in the fridge). I usually put some kitchen paper under the onions and spread them. I also remove bad ones from the bag.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706889895,
+      "score": 6,
+      "link_id": "t3_1ah3jkp",
+      "parent_id": "t1_kolbdca"
+    },
+    {
+      "id": "kocuhc9",
+      "body": "Pharmacy (but not cheaply). Will usually be 3% though. Keep in fridge, so it lasts longer.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706743409,
+      "score": 1,
+      "link_id": "t3_1afv3bj",
+      "parent_id": "t3_1afv3bj"
+    },
+    {
+      "id": "kobvva4",
+      "body": "For real? There is still a huge stigma out there and in some cases legal repercussions if someone is outed as HIV+. I understand every HIV+ person that does not disclose their status immediately.",
+      "author": "eternalpanic",
+      "subreddit": "askgaybros",
+      "created_utc": 1706731727,
+      "score": 1,
+      "link_id": "t3_19126tj",
+      "parent_id": "t1_kgsyk4r"
+    },
+    {
+      "id": "kobize0",
+      "body": "Another parking row, if not connected to this one, is not affected by the ban. These temporary bans usually are put there because of road work/maintenance/moves and the like.\nOn another note: this sign is not Parkverbot but Halteverbot, i.e., you’re not allowed to stop and e.g. unload your car.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706727457,
+      "score": 10,
+      "link_id": "t3_1afo8mr",
+      "parent_id": "t1_kobcrk9"
+    },
+    {
+      "id": "kobhruz",
+      "body": "As others have mentioned it’s a numbers game and the pets are certainly a big minus. Many apartments in Zurich never even get to the market, too - there is a lot of connections involved in finding a flat.\n\nAnd finally…I‘m sorry to tell you but depending on your nationality, you might have a much harder time to find an apartment - especially with eastern european and balkan names, it might be much harder.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706727061,
+      "score": 8,
+      "link_id": "t3_1afoeiy",
+      "parent_id": "t3_1afoeiy"
+    },
+    {
+      "id": "koaj35n",
+      "body": "Maybe also a „Patent Ochsner“ trash can.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706715163,
+      "score": 13,
+      "link_id": "t3_1afgjvw",
+      "parent_id": "t1_ko9x159"
+    },
+    {
+      "id": "ko9s5v3",
+      "body": "tutti?",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706703431,
+      "score": 1,
+      "link_id": "t3_1affbpt",
+      "parent_id": "t3_1affbpt"
+    },
+    {
+      "id": "ko9poqp",
+      "body": "The thing with the voicemail is really annoying. I hate that their advice is to manually turn voicemail off before holidays and back on when one returns.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706701969,
+      "score": 12,
+      "link_id": "t3_1affrjm",
+      "parent_id": "t1_ko9p5fa"
+    },
+    {
+      "id": "ko944nu",
+      "body": "The prices for skiing tickets in the US are absolutely crazy…but even here in Switzerland/Europe, skiing is becoming quite a luxury (for locals).\n\nThere are still subsidised ski vacation weeks with schools. But of course, it doesn’t help either, that snow doesn’t fall anymore in low places and that they need (expensive) artificial snowing equipment. So definitely becoming even more of a luxury thing.",
+      "author": "eternalpanic",
+      "subreddit": "skiing",
+      "created_utc": 1706686262,
+      "score": 2,
+      "link_id": "t3_1aevwst",
+      "parent_id": "t3_1aevwst"
+    },
+    {
+      "id": "ko90tz1",
+      "body": "As others have mentioned, fillings and the like are much cheaper abroad. Just be aware that if problems should arise (although this might be more of a problem with implants) you might have to go to a dentist here in the end anyway.\n\nSecondly - You knew of 2 cavities already and they found 3 new ones - have you been to dental hygiene/Kontrolle regularly the last few years? Because either you haven’t, or you should be worried about the degradation of your dental status or maybe the dentist indeed identified a false-positive.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706684031,
+      "score": 1,
+      "link_id": "t3_1af1z28",
+      "parent_id": "t3_1af1z28"
+    },
+    {
+      "id": "kkbbc7z",
+      "body": "Research as a career? You might need to pursue a PhD for that.\n\nI did my PhD in environmental sciences at a water research institute and am working now as an environmental consultant, mostly in water quality and water quantity management. I would say there are different path to hydrology. If you want to get into modelling, env. engineering might be a good path.",
+      "author": "eternalpanic",
+      "subreddit": "environmental_science",
+      "created_utc": 1706648083,
+      "score": 1,
+      "link_id": "t3_1aedban",
+      "parent_id": "t3_1aedban"
+    },
+    {
+      "id": "kkazbd8",
+      "body": "Wait that’s a thing? Are just certain drugs affected? Or even weed?",
+      "author": "eternalpanic",
+      "subreddit": "gay",
+      "created_utc": 1706644135,
+      "score": 27,
+      "link_id": "t3_1aemzzw",
+      "parent_id": "t1_kkayhyh"
+    },
+    {
+      "id": "kkauc7r",
+      "body": "It is just not that simple. First off, the alternatives are - somewhat counterintuitively, not always better. E.g. glass bottles instead of plastic bottles make sense energy-wise - if they are washed and reused and not have to be remelted. Aluminium is in most cases far worse than plastic since recycling is extremely energy-intensive. Cardboard needs to be much thicker and in order to seal an inertia-atmosphere, you need a layer of plastic anyway (e.g. Tetrapak) - which makes recycling very difficult and uneconomic.\n\nMeat has to be packaged in a vacuum or under Nitrogen-atmosphere if shelved - or it will rot very easily. additionally, the CO2 emissions of meat contained in a plastic container are around 100times of the CO2 eq. of the plastic itself.\n\nThat said plastic should be reduced and reused where possible (and its use taxed) - but there is a lack of knowledge and also some „feel-good“ efforts (e.g the straws or single-use plastic cutlery) that don’t have a big impact.\n\nAnd lastly, many people forget that there are plenty of conflict of interests. E.g., Zurich is quitting natural gas use for heatings and wants to replace it with „Fernwärme“ (remote heat).\n\nThat Fernwärme is produced by incineration in the KVA. The incineration does need a certain amount of easily combustible material - such as plastics.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706642492,
+      "score": 1,
+      "link_id": "t3_1adw6d5",
+      "parent_id": "t1_kka83y1"
+    },
+    {
+      "id": "kk6bskp",
+      "body": "https://www.srf.ch/audio/schwiiz-und-duetlich/i-liebe-di-ist-das-schweizerdeutsch",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706568591,
+      "score": 2,
+      "link_id": "t3_1ae7bot",
+      "parent_id": "t1_kk6aklv"
+    },
+    {
+      "id": "kk6akbx",
+      "body": "Geliebte means affair ;)",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706568159,
+      "score": 20,
+      "link_id": "t3_1ae7bot",
+      "parent_id": "t1_kk69ix9"
+    },
+    {
+      "id": "kk69zdy",
+      "body": "To me, there is a difference between „mini Fründin“ (girlfriend or old-fashioned for friend) and „e Fründin“ (always a friend).\nBut as mentioned before, this might be a generational thing too. Not sure how Gen Z or Gen A use it.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706567955,
+      "score": 4,
+      "link_id": "t3_1ae7bot",
+      "parent_id": "t1_kk66kch"
+    },
+    {
+      "id": "kk665xp",
+      "body": "Yeah it can also be used that way, especially in Standard German. I think Germans use it mostly (only?) that way.\n\nAs for Freund vs. Partner - I think that’s a bit up to personal taste. You can definitely use Partner/-in instead of boyfriend / girlfriend.\n\nAlso if you write (mostly in Standard German) „mein guter Freund“, it‘s also clear again that you mean a close friend (not a partner).",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706566619,
+      "score": 1,
+      "link_id": "t3_1ae7bot",
+      "parent_id": "t1_kk6589l"
+    },
+    {
+      "id": "kk64k8f",
+      "body": "Kolleg = mate\nein Freund = a friend\nmein Freund = my boyfriend\n\nMight also depend on age and other factors.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706566057,
+      "score": 60,
+      "link_id": "t3_1ae7bot",
+      "parent_id": "t3_1ae7bot"
+    },
+    {
+      "id": "kk54qs8",
+      "body": "I thought it was a joke until I almost finished the comment. Just wow.",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706554085,
+      "score": 3,
+      "link_id": "t3_1adrxyv",
+      "parent_id": "t1_kk3mf77"
+    },
+    {
+      "id": "kk545fg",
+      "body": "The post that probably inspired OP was an uninspired rant of a person feeling entitled to judge all of Switzerland‘s restaurants after two months.  I don’t know, but I can’t take that very seriously, even if I agree with some of the sentiments.\n\nSince this comment section is becoming another circle jerk I‘d like to suggest some restaurants of various cuisines in Zurich that I like - maybe some of you might also like them!\n\n* Filfl: Ethiopian/Erirtrean restaurant. The owner is very friendly and might offer you some liquor after dinner! \n* Barranco: Excellent (and pricey) Peruan restaurant\n* Yume Ramen: One of my favourite Ramen places in Zurich\n* Waidhof: Famous for the cordon-bleus and feels like a proper countryside restaurant\n* Parea: Upscale greek restaurant that doesn’t just serve the same deep-fried stuff you get everywhere else\n* La Côte: Definitely worth a visit for entrecôte\n* Con Gusto: Proper pizza napoletana\n* Knödl: As the name says - quite unique in Zurich\n* Marktküche: One of the vegan places to go (but pricey)\n* De Koreaner 59 (as the name says)\n* Hermanseck: Comfy Swiss restaurant \n* Kobal: Favourite Indian restaurant",
+      "author": "eternalpanic",
+      "subreddit": "Switzerland",
+      "created_utc": 1706553887,
+      "score": 1,
+      "link_id": "t3_1adrxyv",
+      "parent_id": "t3_1adrxyv"
+    },
+    {
+      "id": "kk4tbcg",
+      "body": "1970 chf, 4Z, Altbau, Kreis 3….but moved in in 2011. Some of the neighbours pay a lot more.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706550280,
+      "score": 1,
+      "link_id": "t3_1adr5ai",
+      "parent_id": "t3_1adr5ai"
+    },
+    {
+      "id": "kk0pffc",
+      "body": "I don’t. From my experience as a gay local, I‘d say gay men are on Grindr, Scruff, Romeo and Tinder, with Grindr being the most common. Other apps seem to be used by few people here.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706482045,
+      "score": 1,
+      "link_id": "t3_1acy775",
+      "parent_id": "t1_kjziodp"
+    },
+    {
+      "id": "kjzq0rn",
+      "body": "OP is clearly just trolling...",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706470367,
+      "score": 5,
+      "link_id": "t3_1acy775",
+      "parent_id": "t1_kjz0ias"
+    },
+    {
+      "id": "kjxzolw",
+      "body": "I have never tried an IKEA wardrobe, but I have gotten rid of a big mattress (not alone) and some smaller furniture pieces (including a half-rotten IKEA Kallax shelf). The cargo trams are open during (not so busy) early afternoon hours, so maybe the drivers also take that into account?",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706445668,
+      "score": 2,
+      "link_id": "t3_1ad1a7h",
+      "parent_id": "t1_kjxz58a"
+    },
+    {
+      "id": "kjxyrsn",
+      "body": "Since the idea of the Cargo- and eTram is to provide citizens that do not own a car with a possibility to get rid of everything that is too bulky or not appropriate for house trash, I would think that furniture very much fits the bill.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706445121,
+      "score": 6,
+      "link_id": "t3_1ad1a7h",
+      "parent_id": "t1_kjxyigr"
+    },
+    {
+      "id": "kjxxzgr",
+      "body": "\"Das Cargo-Tram und das E-Tram stehen Ihnen zur Verfügung, sofern Sie zu Fuss, mit dem Fahrrad oder öffentlichen Verkehrsmitteln unterwegs sind.\"\n\nIt's almost as if...you can transport those objects in question using public transport.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706444629,
+      "score": 4,
+      "link_id": "t3_1ad1a7h",
+      "parent_id": "t1_kjxxpzn"
+    },
+    {
+      "id": "kjxwvot",
+      "body": "Yes, it's even encouraged, e.g. for the [Cargo-Tram](https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/wo-wann-entsorgen/cargo-tram_und_e-tram.html)",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706443938,
+      "score": -6,
+      "link_id": "t3_1ad1a7h",
+      "parent_id": "t3_1ad1a7h"
+    },
+    {
+      "id": "kjxkttg",
+      "body": "Unfortunately it seems that, unless your landlord doesn't do anything soon, you'll have just to wait a few days : [https://www.mieterverband.ch/mv/politik-positionen/news/miettipps/recht-auf-20-grad-warme-stube.html](https://www.mieterverband.ch/mv/politik-positionen/news/miettipps/recht-auf-20-grad-warme-stube.html)\n\nIf it takes longer than that, I would call the Mieterverband to ask for further advice.\n\nIn any case you should inform your landlord asap of the situation. For the time being, you'll probably have to boil water to do dishes and rely on [Katzenwäsche](https://de.wikipedia.org/wiki/Katzenw%C3%A4sche), as of old.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706435395,
+      "score": 1,
+      "link_id": "t3_1acyjox",
+      "parent_id": "t3_1acyjox"
+    },
+    {
+      "id": "kjxi2lj",
+      "body": "I‘m not sure if you actually want suggestions or if this thread is just one giant circlejerk…but there are definitely some sex-positive parties for gay men: Explicit or Lush off the top of my head.\n\nThere are fewer regular gay clubs than they used to be though and the last sex club closed a few years ago. There are a few gay saunas left. There are definitely different „scenes“; e.g the Angels Parties (Circuit-like), more indie-places like Heldenbar or Crusoe, some parties for younger queer folks (e.g Offstream or Heaven), some that are Drag-themed (Kweerball e.g.).",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706433383,
+      "score": 23,
+      "link_id": "t3_1acy775",
+      "parent_id": "t1_kjxgpu0"
+    },
+    {
+      "id": "kju2j3c",
+      "body": "Btw regarding „public need“: We voted on the Kommunale Richtplan in 2021 (57.4%) which included some of the measures discussed in these comments, such as a switch from blue zones to private parking spots in garages and bicycle-speed-routes. So. I don’t know. Maybe the public need is less cars after all?",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706378811,
+      "score": 2,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjtxfzh"
+    },
+    {
+      "id": "kju1e9s",
+      "body": "Btw regarding „public need“: We voted on the Kommunale Richtplan in 2021 (57.4%) which included some of the measures discussed in these comments, such as a switch from blue zones to private parking spots in garages and bicycle-speed-routes.\nSo. I don’t know. Maybe the public need is less cars after all?",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706378402,
+      "score": 1,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t3_1ac938m"
+    },
+    {
+      "id": "kjtzc46",
+      "body": "I understood this post more as a criticism on the allocation of public space for the luxury of a minority (as u/fryxharry pointed out).\n\nI do strongly believe that there are people in this city that do need a car for work - but I also think that blue zone parking spots are so cheap that they entice people without a real need for a car to have one.\nThis is why I think it is sensible to raise prises like In Zurich, but to make sure that Handwerker/Gewerbe in the city have cheap and easy parking access.\nEveryone who has a motorised vehicle for fun (like me e.g.) can for all I care - pay a premium price on the free market.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706377657,
+      "score": 2,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjtxfzh"
+    },
+    {
+      "id": "kjty8oy",
+      "body": "Constructing private car spaces is mandatory for buildings of a certain size according to the PVO (Verordnung über private Fahrzeugabstellplätze): [PVO](https://www.stadt-zuerich.ch/content/dam/stzh/portal/Deutsch/AmtlicheSammlung/Erlasse/741/500/741.500_Parkplatzverordnung_10%20V3.pdf)\n\nIt also took me a while to find a parking spot in the centre of the city, and it is not spacious or cheap, but over the last decade in the city, I never have been as entitled as you to believe that I’m owed a cheap parking spot.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706377258,
+      "score": 1,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjtwgmz"
+    },
+    {
+      "id": "kjtvsxe",
+      "body": "So…limiting cars in the city of Zurich is not a public need? Have you looked at the votes in the last few years? At the constant traffic jams? Delusional.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706376378,
+      "score": 1,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjtt545"
+    },
+    {
+      "id": "kjtt74i",
+      "body": "From what I understand from the website of the city parliament, it’s currently being discussed in the parliamentary committee (for traffic?)",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706375421,
+      "score": 1,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjth8md"
+    },
+    {
+      "id": "kjtqvx0",
+      "body": "\nYour entitlement is just surreal",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706374575,
+      "score": 1,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjtj7lb"
+    },
+    {
+      "id": "kjtegfr",
+      "body": "https://www.20min.ch/story/540-statt-300-franken-fuer-blaue-zone-karte-preisueberwacher-uebt-kritik-259062498846",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706369838,
+      "score": 1,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjsyg0t"
+    },
+    {
+      "id": "kjtdln7",
+      "body": "there. took 5 seconds. all new buildings need private car spaces, so yes; there definitely are private garage car spaces!\n\nImmoScout24: Parkplatz (in Garage) zu mieten - Zürich. CHF 145.—\n\nhttps://www.immoscout24.ch/de/d/8192157?utm_campaign=is24_share_app&utm_medium=social_sharing&utm_source=iosshare",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706369499,
+      "score": 5,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjsxrmv"
+    },
+    {
+      "id": "kjsozp6",
+      "body": "NB: Most people don‘t urgently need blue zone spaces - they are just too cheap to splurge on garage spaces that are very much available - but much more expensive.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706357147,
+      "score": 9,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjso90a"
+    },
+    {
+      "id": "kjsopej",
+      "body": "I see plenty of vans/camping buses on blue zones with yearly cards that are never moved. And the public sponsors these people.\n\nSo no, I don’t see an issue if there were a transporter that is used as a public library or a garden. Not sure about the legality.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1706356956,
+      "score": 16,
+      "link_id": "t3_1ac938m",
+      "parent_id": "t1_kjso90a"
+    },
+    {
+      "id": "kjsnoiq",
+      "body": "Is there a chance that your boomer uncle didn’t know the concept of source taxation? 😅",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706356248,
+      "score": 16,
+      "link_id": "t3_1ac9308",
+      "parent_id": "t1_kjsnk2d"
+    },
+    {
+      "id": "kjseywv",
+      "body": "Exactly. Straw could be the stalks of wheat or rye. Straw was traditionally used for roofs, too.\n\nHay is grass from a lawn/meadow. It’s cut and laid out in the sun to dry (as wet grass would get mouldy). The dried hay then is stored (either in free form or compressed) to feed farm animals when there is no fresh grass. Depending on the location, there may be multiple cuts per year.",
+      "author": "eternalpanic",
+      "subreddit": "holdmycatnip",
+      "created_utc": 1706349761,
+      "score": 8,
+      "link_id": "t3_1ac473c",
+      "parent_id": "t1_kjse1b7"
+    },
+    {
+      "id": "kjmy21a",
+      "body": "Some things to consider IMO: \n\n* The usefulness of the smartphone in the long run depends on the possibility to install & update apps (especially ebanking, but also others) and if it can still be repaired (if there are parts for repair left).\n* Many Android phones don't receive updates for long - notable exceptions: Google's own phones (Pixel) and lately Samsung (maybe some others too, but better check). For iPhones, you can expect feature/major updates for about 6-7 years.\n* Especially iPhones tend to have a higher resell value (Second hand iphones can e.g. be found on revendo), but on the other hand also don't get cheap to buy quickly.\n* Transferring data/settings to a new phone is bliss on iOS and hit or miss on Android (e.g. Samsung has their own solution)",
+      "author": "eternalpanic",
+      "subreddit": "FrugalSwitzerland",
+      "created_utc": 1706262644,
+      "score": 8,
+      "link_id": "t3_1abe6b4",
+      "parent_id": "t3_1abe6b4"
+    },
+    {
+      "id": "kj20uux",
+      "body": "[https://www.nzz.ch/folio/kapitel-3-die-blochertaste-ld.1620129](https://www.nzz.ch/folio/kapitel-3-die-blochertaste-ld.1620129)",
+      "author": "eternalpanic",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1705939660,
+      "score": 47,
+      "link_id": "t3_19cvq8g",
+      "parent_id": "t1_kj20kei"
+    },
+    {
+      "id": "kiyf937",
+      "body": "It‘s to spot children and people from Aargau.",
+      "author": "eternalpanic",
+      "subreddit": "zurich",
+      "created_utc": 1705877144,
+      "score": 27,
+      "link_id": "t3_19cg06x",
+      "parent_id": "t3_19cg06x"
+    },
+    {
+      "id": "kiya2b8",
+      "body": "It’s hilarious that OP chooses Herpes simplex as an example that condoms do not protect from all STIs - as between 75-90% of all humans carry that virus anyway 🤪\nSo news flash: everyone has potentially an STI and there is no such thing as „safe sex“.",
+      "author": "eternalpanic",
+      "subreddit": "gay",
+      "created_utc": 1705875343,
+      "score": 1,
+      "link_id": "t3_19b9rbo",
+      "parent_id": "t3_19b9rbo"
+    },
+    {
+      "id": "kiqy86v",
+      "body": "It would probably be easier to fly 200km to the West and become French first 😅",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1705764338,
+      "score": 4,
+      "link_id": "t3_19bdppc",
+      "parent_id": "t1_kiqxflk"
+    },
+    {
+      "id": "kiqy36r",
+      "body": "As others have commented, it’s very difficult for non-EU citizens to find work here due to regulations.\n\nIt certainly is helpful that you are fluent in French - at least if you’d plan to study in the French speaking part. But even then, you would afaik not get a work permit afterwards.",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1705764283,
+      "score": 7,
+      "link_id": "t3_19bdppc",
+      "parent_id": "t1_kiqxjc5"
+    },
+    {
+      "id": "kiqxc05",
+      "body": "Since you are writing “fellow Eidgenossen”…do you have a Swiss passport?",
+      "author": "eternalpanic",
+      "subreddit": "askswitzerland",
+      "created_utc": 1705763996,
+      "score": 7,
+      "link_id": "t3_19bdppc",
+      "parent_id": "t3_19bdppc"
+    },
+    {
+      "id": "kik8tlx",
+      "body": "Outlook is such an infuriating experience to me. It is beyond me how Microsoft is unable to provide a consistent experience across their Outlook clients on different platforms (including Web). There are still so many functions that are missing or half-baked in the macOS or web version.",
+      "author": "eternalpanic",
+      "subreddit": "macapps",
+      "created_utc": 1705652016,
+      "score": 147,
+      "link_id": "t3_19adh18",
+      "parent_id": "t3_19adh18"
+    },
+    {
+      "id": "ki9ke2y",
+      "body": "Does ScreenFloat support recording key-strokes during screen recording (e.g. as an annotation)?",
+      "author": "eternalpanic",
+      "subreddit": "macapps",
+      "created_utc": 1705490516,
+      "score": 2,
+      "link_id": "t3_198s2lp",
+      "parent_id": "t3_198s2lp"
+    },
+    {
+      "id": "ki0xzms",
+      "body": "Give it back to the company that owns the Mac? \n\nThe computer is not bricked, it‘s just linked to the company‘s account. They will have to remove it from their account. Basically theft protection.",
+      "author": "eternalpanic",
+      "subreddit": "macsysadmin",
+      "created_utc": 1705354155,
+      "score": 27,
+      "link_id": "t3_197kcy6",
+      "parent_id": "t3_197kcy6"
+    }
+  ]
+}

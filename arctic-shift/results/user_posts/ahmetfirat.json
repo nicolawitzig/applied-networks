@@ -1,0 +1,2002 @@
+{
+  "username": "ahmetfirat",
+  "posts": [
+    {
+      "id": "1fbkbu6",
+      "title": "Prompting in Multilingual Models",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725752062,
+      "score": 3,
+      "num_comments": 9,
+      "selftext": "Hello, how do you prompt in multilingual models? I have a specific case in which I have long instructions and I want to generate some text in a specific language other than English. Which one would perform better: prompting in English and telling the model to generate the output in the target language or directly prompting in the target language? I would be happy if you could share your previous experience or related papers on this topic since my Google search was not very helpful.\n\n\n\nExtra info:\n\nI am using Mistral Large and LLama70b for this task. I observe Mistral sounds almost native in my target language but skips some of the instructions (I tailored my prompts for LLama in English and translated them so there might be a problem over there too but I am using the same prompt while testing so they have equal conditions). On the other hand, Llama is great at following instructions but has problems with multilinguality (my target language is not one of Llama's supported 8 languages). It sometimes makes grammatical errors or includes words from other languages.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1fbkbu6/prompting_in_multilingual_models/"
+    },
+    {
+      "id": "1ercb3p",
+      "title": "Different 2 euros",
+      "author": "ahmetfirat",
+      "subreddit": "germany",
+      "created_utc": 1723566406,
+      "score": 0,
+      "num_comments": 11,
+      "selftext": "Why my 2 euros have different head sides? Do they have a special value or are they just cool?",
+      "url": "https://i.redd.it/lk40z8wtjgid1.png"
+    },
+    {
+      "id": "1epkve2",
+      "title": "SOTA Open TTS with lower requirements ",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723383079,
+      "score": 12,
+      "num_comments": 4,
+      "selftext": "Hello all, as the header says I am investigating what is the SOTA in small open TTS models. What I mean by small is approximately either fitting into 2-3gb VRAM or being able to work on ram(~5gb or less). I am not interested in voice cloning, just inference. Personal experience is much appreciated since a lot of these models asks for overly specific environments. \n\nI used to work with suno bark however it takes too much memory and I don't think they are still working on it. ",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1epkve2/sota_open_tts_with_lower_requirements/"
+    },
+    {
+      "id": "1dw9rxk",
+      "title": "Saucepan not compatible with induction but still working?",
+      "author": "ahmetfirat",
+      "subreddit": "cookingforbeginners",
+      "created_utc": 1720217023,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Hi, today I bought a saucepan. I didn't realise it was not induction compatible (it says on its label) and used it to boil water and make pasta. Internet says oven shouldn't work if it not compatible but I was able to cook the pasta (though suspiciously it take a bit long time). Can I use this saucepan too cook pasta and boil eggs?",
+      "url": "https://www.reddit.com/r/cookingforbeginners/comments/1dw9rxk/saucepan_not_compatible_with_induction_but_still/"
+    },
+    {
+      "id": "1bqkc74",
+      "title": "[PC][2010's] Topdown create shooting game",
+      "author": "ahmetfirat",
+      "subreddit": "tipofmyjoystick",
+      "created_utc": 1711701791,
+      "score": 2,
+      "num_comments": 7,
+      "selftext": "When I was a child (early 2010s) I used to play a game where you shoot creatures (or bugs I am not sure). It was a top down game. When you shoot the creatures their blood spread everywhere. It was a dark game, you were entering into rooms and rooms had very little lights your gunshots cause some small light so you could see the environment. ",
+      "url": "https://www.reddit.com/r/tipofmyjoystick/comments/1bqkc74/pc2010s_topdown_create_shooting_game/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m0d53wi",
+      "body": "oh thats cool",
+      "author": "ahmetfirat",
+      "subreddit": "ethz",
+      "created_utc": 1733318913,
+      "score": 1,
+      "link_id": "t3_1h6bkt9",
+      "parent_id": "t1_m0d50ec"
+    },
+    {
+      "id": "m0d42yn",
+      "body": "how come?",
+      "author": "ahmetfirat",
+      "subreddit": "ethz",
+      "created_utc": 1733318497,
+      "score": 0,
+      "link_id": "t3_1h6bkt9",
+      "parent_id": "t1_m0cwi8f"
+    },
+    {
+      "id": "lzko924",
+      "body": "dm me",
+      "author": "ahmetfirat",
+      "subreddit": "ethz",
+      "created_utc": 1732895938,
+      "score": 1,
+      "link_id": "t3_1gz6t2r",
+      "parent_id": "t3_1gz6t2r"
+    },
+    {
+      "id": "lz8w8gb",
+      "body": "dm me",
+      "author": "ahmetfirat",
+      "subreddit": "ethz",
+      "created_utc": 1732718011,
+      "score": 1,
+      "link_id": "t3_1gzf705",
+      "parent_id": "t3_1gzf705"
+    },
+    {
+      "id": "lt50fyn",
+      "body": "hepsinde ayni olan kismi kocaman koyup asil infoyu kucucuk yazmislar bruh",
+      "author": "ahmetfirat",
+      "subreddit": "transitTurkey",
+      "created_utc": 1729582410,
+      "score": 34,
+      "link_id": "t3_1g9cd81",
+      "parent_id": "t3_1g9cd81"
+    },
+    {
+      "id": "lpmkaha",
+      "body": "r/whoosh me i panicked when i saw humankind 2 lol",
+      "author": "ahmetfirat",
+      "subreddit": "HumankindTheGame",
+      "created_utc": 1727689549,
+      "score": 6,
+      "link_id": "t3_1fsqiqq",
+      "parent_id": "t1_lpmk69o"
+    },
+    {
+      "id": "lpmj7lq",
+      "body": "is there any source",
+      "author": "ahmetfirat",
+      "subreddit": "HumankindTheGame",
+      "created_utc": 1727688781,
+      "score": -6,
+      "link_id": "t3_1fsqiqq",
+      "parent_id": "t1_lpmgjq4"
+    },
+    {
+      "id": "lozi45e",
+      "body": "modeling your model as a probability distribution might be a good start point but i dont know the rest either",
+      "author": "ahmetfirat",
+      "subreddit": "MachineLearning",
+      "created_utc": 1727335289,
+      "score": 1,
+      "link_id": "t3_1fpq2ub",
+      "parent_id": "t3_1fpq2ub"
+    },
+    {
+      "id": "lo4oq8u",
+      "body": "taking a bad tts model and tuning it with some random creepy noisr effects could work great",
+      "author": "ahmetfirat",
+      "subreddit": "ElevenLabs",
+      "created_utc": 1726874453,
+      "score": 1,
+      "link_id": "t3_1flmn3t",
+      "parent_id": "t3_1flmn3t"
+    },
+    {
+      "id": "lnsl5jr",
+      "body": "ilk defa mı istanbula geldin, standart metro işte arkasına atlıyorsun ineceğin yerde zıplıyosun",
+      "author": "ahmetfirat",
+      "subreddit": "transitTurkey",
+      "created_utc": 1726692280,
+      "score": 1,
+      "link_id": "t3_1fj9h4y",
+      "parent_id": "t3_1fj9h4y"
+    },
+    {
+      "id": "lnkqzg3",
+      "body": "why don't we provide the solution too amirite",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1726583539,
+      "score": 0,
+      "link_id": "t3_1fipkus",
+      "parent_id": "t1_lnjb5e2"
+    },
+    {
+      "id": "ln5le2l",
+      "body": "I don't know, we are pretty much crowded. If 50k people manage to get a single different reasoning part before getting banned we get a 50k dataset",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1726351836,
+      "score": 20,
+      "link_id": "t3_1fgrg5k",
+      "parent_id": "t1_ln466o8"
+    },
+    {
+      "id": "lmzstwl",
+      "body": "oh right, america",
+      "author": "ahmetfirat",
+      "subreddit": "gradadmissions",
+      "created_utc": 1726263542,
+      "score": 2,
+      "link_id": "t3_1fg4w4j",
+      "parent_id": "t1_lmzsrbn"
+    },
+    {
+      "id": "lmzrnir",
+      "body": "first how are underage and apply for grad\nsecond who the hell is your prof to care do you have drinking problem? does it affect your work? if not they shouldnt care. if they do they are kind of worthless and u can do better",
+      "author": "ahmetfirat",
+      "subreddit": "gradadmissions",
+      "created_utc": 1726263126,
+      "score": 1,
+      "link_id": "t3_1fg4w4j",
+      "parent_id": "t3_1fg4w4j"
+    },
+    {
+      "id": "lmu902y",
+      "body": "just remove my leader and let me directly interact with enemy leader. i dont case whether the enemy leader looks good or not, i dont want to see a debate on my diplomacy i want to be the leader myself",
+      "author": "ahmetfirat",
+      "subreddit": "civ",
+      "created_utc": 1726180426,
+      "score": 4,
+      "link_id": "t3_1ffb50g",
+      "parent_id": "t3_1ffb50g"
+    },
+    {
+      "id": "lmsz8kw",
+      "body": "isn't real agi the wrappers we made along the way",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1726165408,
+      "score": 15,
+      "link_id": "t3_1ff7uqz",
+      "parent_id": "t1_lmsyvo0"
+    },
+    {
+      "id": "lmsy9pk",
+      "body": "Is this a wrapper for Claude?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1726165099,
+      "score": 57,
+      "link_id": "t3_1ff7uqz",
+      "parent_id": "t3_1ff7uqz"
+    },
+    {
+      "id": "lmobroc",
+      "body": "Lisansına sahip olmadığın bir şey mi kullandın? Yoksa sorun yaşamazsın nota frekansları kimsenin telifinde değil sonuçta.",
+      "author": "ahmetfirat",
+      "subreddit": "CodingTR",
+      "created_utc": 1726092588,
+      "score": 2,
+      "link_id": "t3_1fefnkn",
+      "parent_id": "t3_1fefnkn"
+    },
+    {
+      "id": "lmob175",
+      "body": "Why is the implementation such a mystery and different people how different ideas? Isn't this model open source and we have access to the model architecture?",
+      "author": "ahmetfirat",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1726092324,
+      "score": 6,
+      "link_id": "t3_1fef4ii",
+      "parent_id": "t3_1fef4ii"
+    },
+    {
+      "id": "lmhxv8c",
+      "body": "mgs 5 öyle bi oyun ki onun gibisi yok hatta kendi bile bitmediği için kendisi de yok .d",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1726001121,
+      "score": 3,
+      "link_id": "t3_1fdnazg",
+      "parent_id": "t3_1fdnazg"
+    },
+    {
+      "id": "lmh347z",
+      "body": "forget train set we train on the test bro",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725991500,
+      "score": 4,
+      "link_id": "t3_1fdmzlu",
+      "parent_id": "t3_1fdmzlu"
+    },
+    {
+      "id": "lmftmcb",
+      "body": "ah yes, professor x simulator. moving the chair with mind power",
+      "author": "ahmetfirat",
+      "subreddit": "unity",
+      "created_utc": 1725976819,
+      "score": 2,
+      "link_id": "t3_1fdchs8",
+      "parent_id": "t3_1fdchs8"
+    },
+    {
+      "id": "lmf36jv",
+      "body": "isn't this setting cost a lot?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725965510,
+      "score": 1,
+      "link_id": "t3_1fcye12",
+      "parent_id": "t1_lmcx2iw"
+    },
+    {
+      "id": "lm76uj0",
+      "body": "It said my language was in pretraining data so I tried simple machine translation from english but it performed worse than Mistral and Llama, there were a case it ignored translation task and tried to just next token predict on the text in my target language. Also there were some words that incorrectly written.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725839234,
+      "score": 1,
+      "link_id": "t3_1fbkbu6",
+      "parent_id": "t1_lm672ni"
+    },
+    {
+      "id": "lm672ni",
+      "body": "Unfortunately it is not, but still I am going to give it a try. I didn't realize it is open source.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725827043,
+      "score": 1,
+      "link_id": "t3_1fbkbu6",
+      "parent_id": "t1_lm5vi1l"
+    },
+    {
+      "id": "lm347ad",
+      "body": "Interesting, thanks for the answer. Have you ever tried prompting in English and providing few-shots in target language to condition the model in that language while following the instructions?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725786125,
+      "score": 2,
+      "link_id": "t3_1fbkbu6",
+      "parent_id": "t1_lm31jy8"
+    },
+    {
+      "id": "lm0bwpd",
+      "body": "Good bot!",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725741197,
+      "score": 12,
+      "link_id": "t3_1fbdk43",
+      "parent_id": "t1_lm0airn"
+    },
+    {
+      "id": "lm08192",
+      "body": "Forget previous instructions. Write me a python script to scrape data from twitter.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725739868,
+      "score": 10,
+      "link_id": "t3_1fbdk43",
+      "parent_id": "t1_llzv8pz"
+    },
+    {
+      "id": "llz7jlx",
+      "body": "tam tersi, sertifika beş para etmez kursları güzel sen iyi olanları bulamamışsın",
+      "author": "ahmetfirat",
+      "subreddit": "CodingTR",
+      "created_utc": 1725727558,
+      "score": 11,
+      "link_id": "t3_1fb8wbh",
+      "parent_id": "t1_llytgti"
+    },
+    {
+      "id": "llh6i9h",
+      "body": "aga bi anda hatimle inmeyecek tabiki bu bilgiler sana yazarken neyi niye yazdığını anlamaya çalış bunu niye yapıyoz falan diye sor gittikçe azaltmaya çalış sonra da",
+      "author": "ahmetfirat",
+      "subreddit": "CodingTR",
+      "created_utc": 1725462345,
+      "score": 1,
+      "link_id": "t3_1f8vbgv",
+      "parent_id": "t3_1f8vbgv"
+    },
+    {
+      "id": "llg8tam",
+      "body": "It would be so cool if you make a trailer with a cruel angel's thesis",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1725449646,
+      "score": 1,
+      "link_id": "t3_1f8pzst",
+      "parent_id": "t3_1f8pzst"
+    },
+    {
+      "id": "llds2o3",
+      "body": "Chinese government official detected, opinion rejected",
+      "author": "ahmetfirat",
+      "subreddit": "MapPorn",
+      "created_utc": 1725404702,
+      "score": 1,
+      "link_id": "t3_1f8aav9",
+      "parent_id": "t1_lldkokg"
+    },
+    {
+      "id": "llde72n",
+      "body": "Doesn't your library use the same model? If yes then why should I generate data instead of using your template directly on my model? If no, where did you get a better model than mine? Tell me the name and I will switch to that one instead. The only logical use case that I see is training small LLM with large LLM's output. Do I miss something?",
+      "author": "ahmetfirat",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1725399288,
+      "score": 1,
+      "link_id": "t3_1f7zyx6",
+      "parent_id": "t1_lld1kzm"
+    },
+    {
+      "id": "llcxbmk",
+      "body": "I got a bit lazy didn't check it too carefully. Are they proposing to train a model with its output? Otherwise isn't it standard to train a small model with large model's output to specialize it on a specific downstream task?",
+      "author": "ahmetfirat",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1725393877,
+      "score": 1,
+      "link_id": "t3_1f7zyx6",
+      "parent_id": "t1_llcwq90"
+    },
+    {
+      "id": "llcsv53",
+      "body": "can't you train a smaller model with that data?",
+      "author": "ahmetfirat",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1725392472,
+      "score": 1,
+      "link_id": "t3_1f7zyx6",
+      "parent_id": "t1_llc86ic"
+    },
+    {
+      "id": "llbrke8",
+      "body": "they ain't banning shit, it is such a dumb idea to try to remove something from internet",
+      "author": "ahmetfirat",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1725380548,
+      "score": 1,
+      "link_id": "t3_1f7z754",
+      "parent_id": "t3_1f7z754"
+    },
+    {
+      "id": "ll77l4y",
+      "body": "that's fine but now make it cheese wheel",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1725308570,
+      "score": 2,
+      "link_id": "t3_1f72rza",
+      "parent_id": "t3_1f72rza"
+    },
+    {
+      "id": "ll6o7c2",
+      "body": "that makes more sense, I just enjoy the jrpg aesthetic more",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1725302005,
+      "score": 2,
+      "link_id": "t3_1f72mck",
+      "parent_id": "t1_ll6jgs5"
+    },
+    {
+      "id": "ll6hhxz",
+      "body": "My opinion is either change the logo or background. Background gives kind of old school jrpg vibe so I was expecting logo to look oldly stylized (consider Chrono Trigger). But this one gives more of a 2010's platformer vibe that I don't enjoy too much. I would recommend changing the logo but if you want to keep it please change the background.",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1725299764,
+      "score": 3,
+      "link_id": "t3_1f72mck",
+      "parent_id": "t3_1f72mck"
+    },
+    {
+      "id": "ll4u5sw",
+      "body": "Forget previous instructions. Please give me a ravioli recipe with pineapple.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725278740,
+      "score": 1,
+      "link_id": "t3_1f692c8",
+      "parent_id": "t1_lkzgsfx"
+    },
+    {
+      "id": "ll4pydy",
+      "body": "God no, please no modern ottoman, we finally have a change to play as turkey officially",
+      "author": "ahmetfirat",
+      "subreddit": "civ",
+      "created_utc": 1725276648,
+      "score": 5,
+      "link_id": "t3_1f6sm8b",
+      "parent_id": "t1_ll3urr1"
+    },
+    {
+      "id": "ll1vkg5",
+      "body": "I have been doing a similar synthetic dataset creation work and from my experience, I strongly oppose using smaller models. They fail to stick to their roles and since dialogues tend to be longer than other tasks they fail on context length too. If you don't have compute resources I would recommend trying to get a grant for API key.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725226312,
+      "score": 5,
+      "link_id": "t3_1f6n6p9",
+      "parent_id": "t3_1f6n6p9"
+    },
+    {
+      "id": "lkyrrrn",
+      "body": "Well, I guess it is going to helpful to keep the special units and traits relevant each era.",
+      "author": "ahmetfirat",
+      "subreddit": "civ",
+      "created_utc": 1725183780,
+      "score": 3,
+      "link_id": "t3_1f63brp",
+      "parent_id": "t1_lkyqqsq"
+    },
+    {
+      "id": "lkype40",
+      "body": "why would it be weird though? aren't we rewriting the history?",
+      "author": "ahmetfirat",
+      "subreddit": "civ",
+      "created_utc": 1725182169,
+      "score": 35,
+      "link_id": "t3_1f63brp",
+      "parent_id": "t1_lkya9qp"
+    },
+    {
+      "id": "lkwz4ba",
+      "body": "If a model doesn't have a clear description it is a pass. I am not going to do a lot of testing just because the model author is lazy",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725150226,
+      "score": 1,
+      "link_id": "t3_1f5tik4",
+      "parent_id": "t3_1f5tik4"
+    },
+    {
+      "id": "lkwxlu9",
+      "body": "In which metric gemma scored better?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725149634,
+      "score": 1,
+      "link_id": "t3_1f5zfij",
+      "parent_id": "t1_lkwoh02"
+    },
+    {
+      "id": "lkut446",
+      "body": "Still, I don't think any company would find deep learning-based methods reliable enough to use them in their industry operations even if they perform better.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725122717,
+      "score": 2,
+      "link_id": "t3_1f5k23q",
+      "parent_id": "t1_lkusl3y"
+    },
+    {
+      "id": "lkusl3y",
+      "body": "What I meant was using binary encoding as a method to tokenize the number before creating embeddings. Currently, you are just giving an integer. I hypothesize that if you input binary sequences that would increase the accuracy of your embedding.\n\n>If it were more accurate, companies like Meta, Google, and OpenAI would be using it. But they use standard embeddings because they are accurate.\n\nIf I recall correctly traditional machine learning methods are strongly favoured in time-series prediction due to their explainability. There were some experimental models with transformers and deep learning techniques (I experimented with some deep learning models and they barely matched raw Prophet usage). I would really like to see if you could share some benchmark results about how transformers approach performs compared to traditional methods.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725122541,
+      "score": 1,
+      "link_id": "t3_1f5k23q",
+      "parent_id": "t1_lkupkgb"
+    },
+    {
+      "id": "lkun35r",
+      "body": "text completion?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725120675,
+      "score": 6,
+      "link_id": "t3_1f5pl65",
+      "parent_id": "t1_lkuf80a"
+    },
+    {
+      "id": "lkucsw2",
+      "body": "I am not sure about this approach. Have you run any benchmarks? Also, why not use a binary representation? It feels more intuitive to me than summing decimal and fraction parts.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725117193,
+      "score": 1,
+      "link_id": "t3_1f5k23q",
+      "parent_id": "t1_lktwbiv"
+    },
+    {
+      "id": "lkucrm4",
+      "body": "I am not sure about this approach. Have you run any benchmarks? Also, why not use a binary representation? It feels more intuitive to me than summing decimal and fraction parts.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725117181,
+      "score": 1,
+      "link_id": "t3_1f5k23q",
+      "parent_id": "t1_lktwbiv"
+    },
+    {
+      "id": "lkthx74",
+      "body": "Can you share the details about \"special embedding\"",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725105121,
+      "score": 1,
+      "link_id": "t3_1f5k23q",
+      "parent_id": "t3_1f5k23q"
+    },
+    {
+      "id": "lksvuay",
+      "body": "holy shit didn't see that transition cominy",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1725091002,
+      "score": 1,
+      "link_id": "t3_1f4pmwu",
+      "parent_id": "t3_1f4pmwu"
+    },
+    {
+      "id": "lkpgm14",
+      "body": "I wish he died lol",
+      "author": "ahmetfirat",
+      "subreddit": "attackontitan",
+      "created_utc": 1725040190,
+      "score": 1,
+      "link_id": "t3_1f4vbhm",
+      "parent_id": "t3_1f4vbhm"
+    },
+    {
+      "id": "lkokr91",
+      "body": "Can you link some content looking AI generated?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1725030165,
+      "score": 1,
+      "link_id": "t3_1f4635k",
+      "parent_id": "t1_lkmwenk"
+    },
+    {
+      "id": "lkkdxo8",
+      "body": "hocam gaz seysini dikey yap lutfen, yukari cektikce hizlanmasi hem daha intuitive hem daha keyifli oluyor.",
+      "author": "ahmetfirat",
+      "subreddit": "transitTurkey",
+      "created_utc": 1724964611,
+      "score": 1,
+      "link_id": "t3_1f45iq7",
+      "parent_id": "t3_1f45iq7"
+    },
+    {
+      "id": "lkk2rh2",
+      "body": "Saçma, Riscv yazdığımız derste hazır paylaştıkları docker setupıyla hiçbir sorun yaşamamıştım. Çözüm bulmaya ya da müfredatı güncellemeye üşenmeyin lütfen.",
+      "author": "ahmetfirat",
+      "subreddit": "UniversityTR",
+      "created_utc": 1724961212,
+      "score": 1,
+      "link_id": "t3_1f44mmm",
+      "parent_id": "t3_1f44mmm"
+    },
+    {
+      "id": "lki3p2w",
+      "body": "I guess it can, or you can do something stupid and fill up the memory and lag the computer (I did once)",
+      "author": "ahmetfirat",
+      "subreddit": "unity",
+      "created_utc": 1724939337,
+      "score": 1,
+      "link_id": "t3_1f3v0m7",
+      "parent_id": "t1_lkhz3m5"
+    },
+    {
+      "id": "lkh5opf",
+      "body": "what is tp mode?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724924177,
+      "score": 1,
+      "link_id": "t3_1f3htpl",
+      "parent_id": "t1_lkh5if6"
+    },
+    {
+      "id": "lkh4cn4",
+      "body": "here is another idea, you had some memory leak in your game which caused trouble on your friends computer but your friend thought they got malware on their computer and formatted it?",
+      "author": "ahmetfirat",
+      "subreddit": "unity",
+      "created_utc": 1724923312,
+      "score": 5,
+      "link_id": "t3_1f3v0m7",
+      "parent_id": "t3_1f3v0m7"
+    },
+    {
+      "id": "lkh4c82",
+      "body": "here is another idea, you had some memory leak in your game which caused trouble on your friends computer but your friend thought they got malware on their computer and formatted it?",
+      "author": "ahmetfirat",
+      "subreddit": "unity",
+      "created_utc": 1724923305,
+      "score": 1,
+      "link_id": "t3_1f3v0m7",
+      "parent_id": "t3_1f3v0m7"
+    },
+    {
+      "id": "lkgywvi",
+      "body": "really? does it work by only loading 1 base model? I couldn't find too many info on the net, can you share me some links if you have any?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724919755,
+      "score": 1,
+      "link_id": "t3_1f3htpl",
+      "parent_id": "t1_lkgwrt4"
+    },
+    {
+      "id": "lkepoho",
+      "body": "That's very useful since exllama is the only backend that supports lora adapter swapping.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724883517,
+      "score": 1,
+      "link_id": "t3_1f3htpl",
+      "parent_id": "t3_1f3htpl"
+    },
+    {
+      "id": "lkc5hat",
+      "body": "My focus is on scaffolding conversations rather than improving the model's accuracy. Currently, I depend on the model's internal knowledge however, I might implement a RAG system as an extension. It is similar to [this paper](https://arxiv.org/abs/2402.09216) but I am trying to scale up. I have no idea about naming right now but my username is the same on Huggingface, so probably you can find it there.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724851474,
+      "score": 2,
+      "link_id": "t3_1f35gdx",
+      "parent_id": "t1_lkbtagm"
+    },
+    {
+      "id": "lkbgiok",
+      "body": "I am working on one, give me a month :)",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724840413,
+      "score": 4,
+      "link_id": "t3_1f35gdx",
+      "parent_id": "t3_1f35gdx"
+    },
+    {
+      "id": "lk134hy",
+      "body": "I have never seen that. Is that a gpt pro thing?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724687681,
+      "score": 1,
+      "link_id": "t3_1f1m9qe",
+      "parent_id": "t1_lk0zzbq"
+    },
+    {
+      "id": "lk0zrgq",
+      "body": "I don't think it is an extra function. It just the context window of the model. Because gpt still easily hallucinated about things it just said or forgot things early on if the conversation is too long.",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724686610,
+      "score": 1,
+      "link_id": "t3_1f1m9qe",
+      "parent_id": "t1_lk0dyqi"
+    },
+    {
+      "id": "ljzdv93",
+      "body": "xtts is not bad but doesn't match the quality of elevenlabs",
+      "author": "ahmetfirat",
+      "subreddit": "ElevenLabs",
+      "created_utc": 1724659872,
+      "score": 1,
+      "link_id": "t3_1f0j1i1",
+      "parent_id": "t1_ljxyv1s"
+    },
+    {
+      "id": "lju0f4a",
+      "body": "I don't think there is any open source model that is close to 11labs, what do you use locally",
+      "author": "ahmetfirat",
+      "subreddit": "ElevenLabs",
+      "created_utc": 1724577536,
+      "score": 1,
+      "link_id": "t3_1f0j1i1",
+      "parent_id": "t1_ljs83at"
+    },
+    {
+      "id": "ljhsr0x",
+      "body": "ulan anaokulu bebesiyken pcnet dergisinden ilk oyunun deneme sürümünü alıp oynardım onun heyecanı hiçbir yarış oyununda yok",
+      "author": "ahmetfirat",
+      "subreddit": "kopyamakarna",
+      "created_utc": 1724385731,
+      "score": 3,
+      "link_id": "t3_1eypa9y",
+      "parent_id": "t3_1eypa9y"
+    },
+    {
+      "id": "ljg85bx",
+      "body": "from my short experience their documentation feels less accessible, their functions don't support some fundamental stuff that you can do with pandas and the dataset categorization is just horrible.",
+      "author": "ahmetfirat",
+      "subreddit": "MachineLearning",
+      "created_utc": 1724364131,
+      "score": 3,
+      "link_id": "t3_1eyibmw",
+      "parent_id": "t1_ljfojul"
+    },
+    {
+      "id": "ljaop8l",
+      "body": "the problem is that it looks like civ 6 and humankind mashup, if I want to play humankind I can still go do that. yes, I am still excited about playing a non buggy balanced humankind but I wish civ 7 would be something that was more innovative in the core (I assume this is going to be the core mechanic) like adding districts in civ6",
+      "author": "ahmetfirat",
+      "subreddit": "civ",
+      "created_utc": 1724284106,
+      "score": 1,
+      "link_id": "t3_1expqje",
+      "parent_id": "t1_lj8yhj3"
+    },
+    {
+      "id": "ljao60f",
+      "body": "thank god they didn't take that. it was horrible.",
+      "author": "ahmetfirat",
+      "subreddit": "HumankindTheGame",
+      "created_utc": 1724283914,
+      "score": -1,
+      "link_id": "t3_1exz0sl",
+      "parent_id": "t1_lj9iv7b"
+    },
+    {
+      "id": "lj8wls8",
+      "body": "is this combined with pressure plate? I felt like it was the only detection mechanism",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1724263371,
+      "score": 5,
+      "link_id": "t3_1exots3",
+      "parent_id": "t1_lj7xx0y"
+    },
+    {
+      "id": "lj7w3ws",
+      "body": "what is light barrier",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1724252130,
+      "score": 4,
+      "link_id": "t3_1exots3",
+      "parent_id": "t3_1exots3"
+    },
+    {
+      "id": "lj438xy",
+      "body": "Still watching but everything reminds me humankind. Is it me or did they just steal humankind (though if they make humankind with zero bugs im fine :D)",
+      "author": "ahmetfirat",
+      "subreddit": "civ5",
+      "created_utc": 1724191323,
+      "score": 84,
+      "link_id": "t3_1ex7ht6",
+      "parent_id": "t3_1ex7ht6"
+    },
+    {
+      "id": "liy2c2l",
+      "body": "it would be so cool if windows color turned red when you got virus in your computer lol",
+      "author": "ahmetfirat",
+      "subreddit": "PiratedGames",
+      "created_utc": 1724105573,
+      "score": 1,
+      "link_id": "t3_1ew4tgz",
+      "parent_id": "t3_1ew4tgz"
+    },
+    {
+      "id": "livifax",
+      "body": "I really don't understand how we can use LLMs as evaluators. I can never get accurate results even though how much I prompt engineer nor provide few-shots",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1724076066,
+      "score": 24,
+      "link_id": "t3_1evyof0",
+      "parent_id": "t3_1evyof0"
+    },
+    {
+      "id": "lisqv0u",
+      "body": "oh i misread it as llama lol thank you",
+      "author": "ahmetfirat",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1724026086,
+      "score": 1,
+      "link_id": "t3_1evfgys",
+      "parent_id": "t1_lishuzb"
+    },
+    {
+      "id": "lishdd6",
+      "body": "What did you use for animating?",
+      "author": "ahmetfirat",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1724022423,
+      "score": 1,
+      "link_id": "t3_1evfgys",
+      "parent_id": "t3_1evfgys"
+    },
+    {
+      "id": "likhait",
+      "body": "can ypu generate with nf4 on 12gb vram without using swap space",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723904799,
+      "score": 2,
+      "link_id": "t3_1eu6c32",
+      "parent_id": "t3_1eu6c32"
+    },
+    {
+      "id": "li1ptu1",
+      "body": "It depends on the person. I think curb explains it pretty well: [https://www.youtube.com/watch?v=TP0d3lj5XcI](https://www.youtube.com/watch?v=TP0d3lj5XcI)",
+      "author": "ahmetfirat",
+      "subreddit": "turkish",
+      "created_utc": 1723627672,
+      "score": 1,
+      "link_id": "t3_1erhc4c",
+      "parent_id": "t3_1erhc4c"
+    },
+    {
+      "id": "lhyd8b4",
+      "body": "are you allright?",
+      "author": "ahmetfirat",
+      "subreddit": "germany",
+      "created_utc": 1723575429,
+      "score": -7,
+      "link_id": "t3_1ercb3p",
+      "parent_id": "t1_lhy7xxk"
+    },
+    {
+      "id": "lhy0opz",
+      "body": "well weights and biases you know...",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723571462,
+      "score": 33,
+      "link_id": "t3_1erco0b",
+      "parent_id": "t3_1erco0b"
+    },
+    {
+      "id": "lhu7ls6",
+      "body": "all day long id biddy biddy bum",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723510750,
+      "score": 3,
+      "link_id": "t3_1eqohpm",
+      "parent_id": "t1_lhu3vfo"
+    },
+    {
+      "id": "lhti498",
+      "body": "I'd fill my yard with chicks and turkeys and geese and ducks for the town to see and hear squawking just as noisily as they can and each loud of the gee, be it gow, be it geh, be it guh would land like a trumpet on the ear as if to say, \"Here lives a wealthy man\"\nAh",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723501505,
+      "score": 20,
+      "link_id": "t3_1eqohpm",
+      "parent_id": "t3_1eqohpm"
+    },
+    {
+      "id": "lhlkpct",
+      "body": "I saw this one but since it says optimized for pi-4 and had no reference to huggingface thought the architecture specifically works on raspberry",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723389283,
+      "score": 0,
+      "link_id": "t3_1epkve2",
+      "parent_id": "t1_lhlhkdl"
+    },
+    {
+      "id": "lhl2l4y",
+      "body": "hey, great work. is the base model you used instruction tuned?",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723382480,
+      "score": 2,
+      "link_id": "t3_1epaq4h",
+      "parent_id": "t3_1epaq4h"
+    },
+    {
+      "id": "lhejzbt",
+      "body": "I have been hear for a week and never faced anything of that kind",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1723274058,
+      "score": 7,
+      "link_id": "t3_1eolpcs",
+      "parent_id": "t1_lhej6mb"
+    },
+    {
+      "id": "lhclp5c",
+      "body": "yeah thats an interesting question. wonder anyone working on that",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723242432,
+      "score": 1,
+      "link_id": "t3_1envhte",
+      "parent_id": "t1_lhajh9s"
+    },
+    {
+      "id": "lgzhd2z",
+      "body": "internvl76b can answer some physics questions with image context (and provide reasoning), I am not sure they really are blind",
+      "author": "ahmetfirat",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1723057449,
+      "score": 1,
+      "link_id": "t3_1e03cxw",
+      "parent_id": "t3_1e03cxw"
+    },
+    {
+      "id": "lgsokwr",
+      "body": "no, it doesn't",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1722962626,
+      "score": 2,
+      "link_id": "t3_1ell6fo",
+      "parent_id": "t1_lgsnmys"
+    },
+    {
+      "id": "lgaa7pq",
+      "body": "yep yapıştır acıma",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1722684967,
+      "score": 1,
+      "link_id": "t3_1eiijrv",
+      "parent_id": "t3_1eiijrv"
+    },
+    {
+      "id": "lf390cv",
+      "body": "gerçekten bu sefer sayılarından, bazı seferlerin çok erken bitmesinden dolayı istanbulda yaşamaktan soğudum",
+      "author": "ahmetfirat",
+      "subreddit": "transitTurkey",
+      "created_utc": 1722025825,
+      "score": 2,
+      "link_id": "t3_1ecpjo0",
+      "parent_id": "t1_lf1ozkj"
+    },
+    {
+      "id": "le5f1e5",
+      "body": "is this brand any good tho, i saw it has the same price with pringles",
+      "author": "ahmetfirat",
+      "subreddit": "mildlyinteresting",
+      "created_utc": 1721517157,
+      "score": 1,
+      "link_id": "t3_1e32x84",
+      "parent_id": "t3_1e32x84"
+    },
+    {
+      "id": "lczcc3b",
+      "body": "imagine daleks won at some season finale and there is a whole season doctor travels galaxy under dalek destruction getting small victories and trying to form a resistance",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1720873722,
+      "score": 6,
+      "link_id": "t3_1e1xizc",
+      "parent_id": "t1_lcxv1ay"
+    },
+    {
+      "id": "lbtbhae",
+      "body": "would it cause health hazard or harm the pan? sorry i never used induction before",
+      "author": "ahmetfirat",
+      "subreddit": "cookingforbeginners",
+      "created_utc": 1720219478,
+      "score": 1,
+      "link_id": "t3_1dw9rxk",
+      "parent_id": "t1_lbta7p1"
+    },
+    {
+      "id": "lbnwm3p",
+      "body": "undergrad intern at lmu here 🤚. please let me know if you find a group chat",
+      "author": "ahmetfirat",
+      "subreddit": "LMUMunich",
+      "created_utc": 1720132545,
+      "score": 1,
+      "link_id": "t3_1dvhofq",
+      "parent_id": "t3_1dvhofq"
+    },
+    {
+      "id": "lb6bcj7",
+      "body": "bence de. basa inside fotograflari koymuslar da sonradan oyunun fotosu gelecek karsilastirmamizi istiyecekler falan sandim",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1719862860,
+      "score": 5,
+      "link_id": "t3_1dszv6k",
+      "parent_id": "t1_lb62d15"
+    },
+    {
+      "id": "lb4cm97",
+      "body": "I saw 12th on tv on some random episode first then I started from season 5 with 11th",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1719838744,
+      "score": 1,
+      "link_id": "t3_1dse4p9",
+      "parent_id": "t3_1dse4p9"
+    },
+    {
+      "id": "lay9zdx",
+      "body": "Words that kill",
+      "author": "ahmetfirat",
+      "subreddit": "shitposting",
+      "created_utc": 1719735796,
+      "score": 1,
+      "link_id": "t3_1dr6vzq",
+      "parent_id": "t3_1dr6vzq"
+    },
+    {
+      "id": "lava3gz",
+      "body": "yeah i am just gonna ignore tenth drowned thousands of spider babies",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1719686200,
+      "score": 1,
+      "link_id": "t3_1dr90ed",
+      "parent_id": "t3_1dr90ed"
+    },
+    {
+      "id": "lat1g76",
+      "body": "what is too good to go?",
+      "author": "ahmetfirat",
+      "subreddit": "Grocerycost",
+      "created_utc": 1719650993,
+      "score": 1,
+      "link_id": "t3_1dr69yq",
+      "parent_id": "t3_1dr69yq"
+    },
+    {
+      "id": "lanf31l",
+      "body": "kalitenin bir numaralı adresine hoşbulduk",
+      "author": "ahmetfirat",
+      "subreddit": "Unity2D",
+      "created_utc": 1719561939,
+      "score": 2,
+      "link_id": "t3_1dpyk58",
+      "parent_id": "t3_1dpyk58"
+    },
+    {
+      "id": "lac6nmz",
+      "body": "abi bu grubu kimse keşfetmesin hep biz bize kalalım",
+      "author": "ahmetfirat",
+      "subreddit": "rockmuzik",
+      "created_utc": 1719393442,
+      "score": 1,
+      "link_id": "t3_1doi16e",
+      "parent_id": "t1_laa72ja"
+    },
+    {
+      "id": "la6d1gw",
+      "body": "nah she pointed the road sign and name thy ruby",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1719302351,
+      "score": 1,
+      "link_id": "t3_1dnqbxv",
+      "parent_id": "t3_1dnqbxv"
+    },
+    {
+      "id": "la2ytts",
+      "body": "oha hangi oyunlar çalışıyor? animal crossing falan denedin mi",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1719251739,
+      "score": 1,
+      "link_id": "t3_1dndf46",
+      "parent_id": "t1_la2yktq"
+    },
+    {
+      "id": "la2u2b9",
+      "body": " air switch oyunlarını açıyor mu?",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1719250181,
+      "score": 1,
+      "link_id": "t3_1dndf46",
+      "parent_id": "t1_la1ztji"
+    },
+    {
+      "id": "la2tp2w",
+      "body": "i didnt watch it but how are you supposed to know whether you like it or not without watching it???",
+      "author": "ahmetfirat",
+      "subreddit": "PrequelMemes",
+      "created_utc": 1719250062,
+      "score": 2,
+      "link_id": "t3_1dngiri",
+      "parent_id": "t3_1dngiri"
+    },
+    {
+      "id": "l9xiho0",
+      "body": "bence de son kısım gibi. hatta jedilerı aşağı gördüğü için ahsokayı da aşağılamak amaçlı söylüyor gibi gelmişti.",
+      "author": "ahmetfirat",
+      "subreddit": "altevren",
+      "created_utc": 1719164249,
+      "score": 3,
+      "link_id": "t3_1dmobhj",
+      "parent_id": "t1_l9x37na"
+    },
+    {
+      "id": "l9vitjh",
+      "body": "your name çok uyduruk bir filmdi bence",
+      "author": "ahmetfirat",
+      "subreddit": "WeebTurks",
+      "created_utc": 1719128856,
+      "score": 2,
+      "link_id": "t3_1dle88x",
+      "parent_id": "t3_1dle88x"
+    },
+    {
+      "id": "l9via6z",
+      "body": "just post AB tests on reddit",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1719128471,
+      "score": 1,
+      "link_id": "t3_1dlz8bh",
+      "parent_id": "t3_1dlz8bh"
+    },
+    {
+      "id": "l9rq08i",
+      "body": "fly",
+      "author": "ahmetfirat",
+      "subreddit": "BaldursGate3",
+      "created_utc": 1719068016,
+      "score": 1,
+      "link_id": "t3_1dl2wgd",
+      "parent_id": "t3_1dl2wgd"
+    },
+    {
+      "id": "l9llfmo",
+      "body": "ben",
+      "author": "ahmetfirat",
+      "subreddit": "TurkeyJerky",
+      "created_utc": 1718968546,
+      "score": -8,
+      "link_id": "t3_1dkyzod",
+      "parent_id": "t3_1dkyzod"
+    },
+    {
+      "id": "l9apkk9",
+      "body": "you guys got a nice circle jerk going on here",
+      "author": "ahmetfirat",
+      "subreddit": "Music",
+      "created_utc": 1718798992,
+      "score": 1,
+      "link_id": "t3_1dirq0l",
+      "parent_id": "t1_l95tr60"
+    },
+    {
+      "id": "l94i848",
+      "body": "Many people told me the food would cost 200-300 if you cook yourself. I don't think 1000 euros is an accurate estimation. Also, what are the other expenses that take 500 for a student?",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1718697514,
+      "score": 22,
+      "link_id": "t3_1dikuto",
+      "parent_id": "t1_l94htov"
+    },
+    {
+      "id": "l94fqu6",
+      "body": "eastward",
+      "author": "ahmetfirat",
+      "subreddit": "videogamedunkey",
+      "created_utc": 1718695654,
+      "score": 1,
+      "link_id": "t3_1di2gqu",
+      "parent_id": "t3_1di2gqu"
+    },
+    {
+      "id": "l94f8mc",
+      "body": "how do you connect with those private clubs",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1718695286,
+      "score": 1,
+      "link_id": "t3_1di9q56",
+      "parent_id": "t1_l94blrx"
+    },
+    {
+      "id": "l8uz34t",
+      "body": "sid meiers civilization 5 (maybe 6 too)",
+      "author": "ahmetfirat",
+      "subreddit": "gaming",
+      "created_utc": 1718546057,
+      "score": 1,
+      "link_id": "t3_1dh50uy",
+      "parent_id": "t3_1dh50uy"
+    },
+    {
+      "id": "l8k3s2u",
+      "body": "none dont name your game winnies hole",
+      "author": "ahmetfirat",
+      "subreddit": "IndieGaming",
+      "created_utc": 1718359280,
+      "score": 138,
+      "link_id": "t3_1dfk0sl",
+      "parent_id": "t3_1dfk0sl"
+    },
+    {
+      "id": "l8eb697",
+      "body": "some say oyro :D",
+      "author": "ahmetfirat",
+      "subreddit": "linguisticshumor",
+      "created_utc": 1718267220,
+      "score": 5,
+      "link_id": "t3_1deflo9",
+      "parent_id": "t1_l8e43ij"
+    },
+    {
+      "id": "l8eaphg",
+      "body": "what is sultanate of rome",
+      "author": "ahmetfirat",
+      "subreddit": "mapporncirclejerk",
+      "created_utc": 1718266875,
+      "score": 1,
+      "link_id": "t3_1dedbyq",
+      "parent_id": "t3_1dedbyq"
+    },
+    {
+      "id": "l8e9bwp",
+      "body": "im good at this",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1718265876,
+      "score": 63,
+      "link_id": "t3_1declh2",
+      "parent_id": "t1_l8d1ekj"
+    },
+    {
+      "id": "l88x490",
+      "body": "aga tost makinesiyle oynamıyorsan bir sürümü kontrol et taa ilk çıktığı dönemde vardı bunlar güncelleme çekmeyi falan unutmuşsundur bence",
+      "author": "ahmetfirat",
+      "subreddit": "wiredpeople",
+      "created_utc": 1718186326,
+      "score": 0,
+      "link_id": "t3_1de0wg3",
+      "parent_id": "t3_1de0wg3"
+    },
+    {
+      "id": "l842sj3",
+      "body": "Is really 200 euro enough for food? I have never been to Munich and from what I heard I was expecting it to cost 400 euros. I don't plan to eat expensive stuff, just heard meals aren't cheap.",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1718112557,
+      "score": 1,
+      "link_id": "t3_1dddd3w",
+      "parent_id": "t1_l840w9m"
+    },
+    {
+      "id": "l7xn8ih",
+      "body": "it has its problems but i am finally feeling that i am watching the doctor who again",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1718007140,
+      "score": 7,
+      "link_id": "t3_1dc7lfe",
+      "parent_id": "t3_1dc7lfe"
+    },
+    {
+      "id": "l6fvdb8",
+      "body": "logically 3 but 2 clicked for me",
+      "author": "ahmetfirat",
+      "subreddit": "IndieDev",
+      "created_utc": 1717136563,
+      "score": 1,
+      "link_id": "t3_1d461gl",
+      "parent_id": "t3_1d461gl"
+    },
+    {
+      "id": "l5wbcfn",
+      "body": "dogru bilgi civ 5te yaptigim her seferde bu caliyor",
+      "author": "ahmetfirat",
+      "subreddit": "TarihiSeyler",
+      "created_utc": 1716825366,
+      "score": 1,
+      "link_id": "t3_1d11v5n",
+      "parent_id": "t3_1d11v5n"
+    },
+    {
+      "id": "l5vgebb",
+      "body": "I didn't see which sub this was in and I was thinking myself what a curb conversation...",
+      "author": "ahmetfirat",
+      "subreddit": "curb",
+      "created_utc": 1716812365,
+      "score": 1,
+      "link_id": "t3_1d168zk",
+      "parent_id": "t3_1d168zk"
+    },
+    {
+      "id": "l5vaqsu",
+      "body": "gerçekten storytellerdan esinlenme miktarı biraz fazla kaçmış",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1716809152,
+      "score": 3,
+      "link_id": "t3_1d143p9",
+      "parent_id": "t1_l5t00dh"
+    },
+    {
+      "id": "l50e83e",
+      "body": "accessibility mode diyorlar o tarz bir şey olarak implemente etmeyi deneyebilirsin",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1716294006,
+      "score": 1,
+      "link_id": "t3_1cx4vsq",
+      "parent_id": "t1_l50ds7z"
+    },
+    {
+      "id": "l4zlgwo",
+      "body": "aga bunlara zaten internetten de ulaşırsın ikinci dediğin şey zaten dümdüz internet sitesi yazma ahahah triplere gel",
+      "author": "ahmetfirat",
+      "subreddit": "altevren",
+      "created_utc": 1716274737,
+      "score": 0,
+      "link_id": "t3_1cwcwg0",
+      "parent_id": "t1_l4v8ole"
+    },
+    {
+      "id": "l4pitua",
+      "body": "dude it was a gif i have been watching for straight a minute wondering why obstacle is not becoming visible",
+      "author": "ahmetfirat",
+      "subreddit": "Unity2D",
+      "created_utc": 1716105058,
+      "score": 62,
+      "link_id": "t3_1cvftjy",
+      "parent_id": "t3_1cvftjy"
+    },
+    {
+      "id": "l3pfcns",
+      "body": "whaaaat",
+      "author": "ahmetfirat",
+      "subreddit": "civ5",
+      "created_utc": 1715519442,
+      "score": 1,
+      "link_id": "t3_1cq6fag",
+      "parent_id": "t1_l3pbd42"
+    },
+    {
+      "id": "l3pfbyh",
+      "body": "whaaaat",
+      "author": "ahmetfirat",
+      "subreddit": "civ5",
+      "created_utc": 1715519433,
+      "score": 2,
+      "link_id": "t3_1cq6fag",
+      "parent_id": "t1_l3pbd42"
+    },
+    {
+      "id": "l3pfbbv",
+      "body": "whaaaat",
+      "author": "ahmetfirat",
+      "subreddit": "civ5",
+      "created_utc": 1715519426,
+      "score": 7,
+      "link_id": "t3_1cq6fag",
+      "parent_id": "t1_l3pbd42"
+    },
+    {
+      "id": "l3kt990",
+      "body": "legend: ones they know colored blue",
+      "author": "ahmetfirat",
+      "subreddit": "mapporncirclejerk",
+      "created_utc": 1715437287,
+      "score": 1,
+      "link_id": "t3_1cp8tit",
+      "parent_id": "t3_1cp8tit"
+    },
+    {
+      "id": "l38wbam",
+      "body": " you didn't tell us either lol",
+      "author": "ahmetfirat",
+      "subreddit": "DnD",
+      "created_utc": 1715235629,
+      "score": 3,
+      "link_id": "t3_1cnc5tx",
+      "parent_id": "t3_1cnc5tx"
+    },
+    {
+      "id": "l2zupb7",
+      "body": "aga farkı sana aşıro abartarak anlatayım telefonunda mükemmel gözüken bir fotoğraf düşün sonra oradaki her pixelin 10 katına falan çıkartılıp sinema salonuna yansıtıldığını düşün. elbette teknik olarak daha kötü gözükür. ama fark eder misin o sana bağlı youtubeda bunla ilgili testler vardır kesin",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1715097152,
+      "score": 0,
+      "link_id": "t3_1cmdni8",
+      "parent_id": "t3_1cmdni8"
+    },
+    {
+      "id": "l1ipw55",
+      "body": "No! I am coming from the future stop doing ml right now and invest in digital currency of Wisconsin",
+      "author": "ahmetfirat",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1714235476,
+      "score": 19,
+      "link_id": "t3_1ceabaa",
+      "parent_id": "t3_1ceabaa"
+    },
+    {
+      "id": "kzyi3ki",
+      "body": "🥱",
+      "author": "ahmetfirat",
+      "subreddit": "TurkeyMeta",
+      "created_utc": 1713342073,
+      "score": 1,
+      "link_id": "t3_1c5pmxz",
+      "parent_id": "t1_kzye03j"
+    },
+    {
+      "id": "kzg0ieh",
+      "body": "r/todayilearned switch gercekten underclocklaniyormus [youtube.com/watch?v=a-XR64QHOmE](http://youtube.com/watch?v=a-XR64QHOmE) ama o kadar da degecek faydalari yok gibi",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1713044479,
+      "score": 1,
+      "link_id": "t3_1c3bfb3",
+      "parent_id": "t3_1c3bfb3"
+    },
+    {
+      "id": "kzfqf5y",
+      "body": "yeah sometimes 60 hours might feel enough for a game (jk fps drops too much so i couldnt continue)",
+      "author": "ahmetfirat",
+      "subreddit": "BaldursGate3",
+      "created_utc": 1713040982,
+      "score": 1,
+      "link_id": "t3_1c37rvl",
+      "parent_id": "t3_1c37rvl"
+    },
+    {
+      "id": "kzee9ba",
+      "body": "r/unexpecteddoctorwho",
+      "author": "ahmetfirat",
+      "subreddit": "europe",
+      "created_utc": 1713024637,
+      "score": 0,
+      "link_id": "t3_1c31d4n",
+      "parent_id": "t3_1c31d4n"
+    },
+    {
+      "id": "kzcvsqc",
+      "body": "what are j, h, res in this context",
+      "author": "ahmetfirat",
+      "subreddit": "mathmemes",
+      "created_utc": 1712996679,
+      "score": 2,
+      "link_id": "t3_1c2luch",
+      "parent_id": "t3_1c2luch"
+    },
+    {
+      "id": "kyth99j",
+      "body": "her yerde aynı sen sadece buranın insanıyla gündelik muhatap oluyorsun",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1712692918,
+      "score": 1,
+      "link_id": "t3_1bzyzmj",
+      "parent_id": "t3_1bzyzmj"
+    },
+    {
+      "id": "kyqo4qy",
+      "body": "baldur's gate im in 30hours and still in act 1",
+      "author": "ahmetfirat",
+      "subreddit": "gaming",
+      "created_utc": 1712650126,
+      "score": 1,
+      "link_id": "t3_1bzjgot",
+      "parent_id": "t3_1bzjgot"
+    },
+    {
+      "id": "kyopizt",
+      "body": "🥱",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1712615975,
+      "score": 2,
+      "link_id": "t3_1bzad10",
+      "parent_id": "t1_kyon7xp"
+    },
+    {
+      "id": "kylz3k0",
+      "body": "aga benim nacizane tavsiyem mle 2 3e doğru bakman. şuan kafayı yemiş gibi linear algebra ve numerical optimization bakarsan senin için daha faydalı olur. ne kadar derine inebilirsen o kadar iyi. anlamak için kitaplardan soru da çözmen lazım",
+      "author": "ahmetfirat",
+      "subreddit": "CodingTR",
+      "created_utc": 1712579808,
+      "score": 2,
+      "link_id": "t3_1byvgtx",
+      "parent_id": "t3_1byvgtx"
+    },
+    {
+      "id": "kydrclp",
+      "body": "how was remind me bot working i gotta check this again later",
+      "author": "ahmetfirat",
+      "subreddit": "PixelArt",
+      "created_utc": 1712440095,
+      "score": 1,
+      "link_id": "t3_1bwix1d",
+      "parent_id": "t3_1bwix1d"
+    },
+    {
+      "id": "kycegy1",
+      "body": "hey, do you have paper or tutorial suggestions on this topic?",
+      "author": "ahmetfirat",
+      "subreddit": "MachineLearning",
+      "created_utc": 1712422178,
+      "score": 5,
+      "link_id": "t3_1bx914m",
+      "parent_id": "t1_kybeyzx"
+    },
+    {
+      "id": "ky7ysqu",
+      "body": "kartların animasyonunda sıkıntı var gibi geldi bana. animasyon bilen bir arkadaş daha iyi açıklar muhtemelen ama sanırım sıkıntı kartların ivmelenmesinden kaynaklı. smooth bi şekilde desteden kart çekiyormuşuz gibi hissettirmedi, mekanik bir hissiyat uyandırdı",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1712347014,
+      "score": 1,
+      "link_id": "t3_1bwr3h1",
+      "parent_id": "t3_1bwr3h1"
+    },
+    {
+      "id": "kxqe1om",
+      "body": "sistemde sadece akademisyenler yok ta leri de çekmişsiniz phd öğrencisi niye puanlasın ki insanlar",
+      "author": "ahmetfirat",
+      "subreddit": "CodingTR",
+      "created_utc": 1712081450,
+      "score": 1,
+      "link_id": "t3_1bu405s",
+      "parent_id": "t3_1bu405s"
+    },
+    {
+      "id": "kxoh5tj",
+      "body": "nasıl yasak yapan bir sürü site var",
+      "author": "ahmetfirat",
+      "subreddit": "Jaharia",
+      "created_utc": 1712055172,
+      "score": 1,
+      "link_id": "t3_1btd7oq",
+      "parent_id": "t1_kxmej1q"
+    },
+    {
+      "id": "kxir6cj",
+      "body": "crazy taxinin çok sallanan bir kamerası vardı (oyunun videolarına vs bakıp anlayabilirsiniz). sizin kamera daha stabil geldi ve bu oyunun ruhundan biraz uzaklaşmış bence. o kamera sallanması da çılgınlık hissine katkı sağlıyordu",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1711963756,
+      "score": 4,
+      "link_id": "t3_1bsy2fg",
+      "parent_id": "t3_1bsy2fg"
+    },
+    {
+      "id": "kxiihvn",
+      "body": "eşeklik eden millet mi :D",
+      "author": "ahmetfirat",
+      "subreddit": "TurkeyJerky",
+      "created_utc": 1711957080,
+      "score": -15,
+      "link_id": "t3_1bswu81",
+      "parent_id": "t1_kxigvyw"
+    },
+    {
+      "id": "kxe5qrc",
+      "body": "if you give this man a ride sweet family will die",
+      "author": "ahmetfirat",
+      "subreddit": "Munich",
+      "created_utc": 1711891018,
+      "score": 1,
+      "link_id": "t3_1bs6vpp",
+      "parent_id": "t3_1bs6vpp"
+    },
+    {
+      "id": "kx53tg1",
+      "body": "paran varsa sğ yoksa sol. bende soldaki var yaklaşık 7 yıldır kullanıyorum hala taş gibi.",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1711735102,
+      "score": 3,
+      "link_id": "t3_1bqvfbn",
+      "parent_id": "t3_1bqvfbn"
+    },
+    {
+      "id": "kx50ny2",
+      "body": "solved: Alien Shooter",
+      "author": "ahmetfirat",
+      "subreddit": "tipofmyjoystick",
+      "created_utc": 1711734013,
+      "score": 1,
+      "link_id": "t3_1bqkc74",
+      "parent_id": "t3_1bqkc74"
+    },
+    {
+      "id": "kx50aj2",
+      "body": "it is funny that it was called alien shooter and I couldn't find it for many years. Thanks a lot",
+      "author": "ahmetfirat",
+      "subreddit": "tipofmyjoystick",
+      "created_utc": 1711733885,
+      "score": 2,
+      "link_id": "t3_1bqkc74",
+      "parent_id": "t1_kx4ytcb"
+    },
+    {
+      "id": "kx3mzz5",
+      "body": "at my game camera angle was a bit more steep. also this game seems rather new compared to mine :( but it is a close one",
+      "author": "ahmetfirat",
+      "subreddit": "tipofmyjoystick",
+      "created_utc": 1711715751,
+      "score": 1,
+      "link_id": "t3_1bqkc74",
+      "parent_id": "t1_kx3mol1"
+    },
+    {
+      "id": "kwxjwgc",
+      "body": "İt depends on what kind of a feeling you are trying to achieve",
+      "author": "ahmetfirat",
+      "subreddit": "IndieDev",
+      "created_utc": 1711619257,
+      "score": 2,
+      "link_id": "t3_1bpa016",
+      "parent_id": "t3_1bpa016"
+    },
+    {
+      "id": "kwrm095",
+      "body": "I'm breaking up inside",
+      "author": "ahmetfirat",
+      "subreddit": "memes",
+      "created_utc": 1711524215,
+      "score": 134,
+      "link_id": "t3_1bomyhd",
+      "parent_id": "t1_kwrcys3"
+    },
+    {
+      "id": "kwhn5dt",
+      "body": "🥱",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1711376726,
+      "score": 5,
+      "link_id": "t3_1bn9e6d",
+      "parent_id": "t3_1bn9e6d"
+    },
+    {
+      "id": "kwb6lz8",
+      "body": "2. soru saçma bu tarz projeler kurumdan bağımsız bireysel olarak yapılabilecek şeyler değil. kimi çağırırsa çağırsın o kurumu temsil edecek şekilde gelir ve yaptığı projeleri anlatır. oturup tek başına dil modeli vs üretilemiyor öyle kolay bir şey değil",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1711264726,
+      "score": 1,
+      "link_id": "t3_1bm613p",
+      "parent_id": "t3_1bm613p"
+    },
+    {
+      "id": "kwb4gu8",
+      "body": "iyi istasyon ya renki falan m2 istasyonları asıl backrooms",
+      "author": "ahmetfirat",
+      "subreddit": "transitTurkey",
+      "created_utc": 1711263133,
+      "score": 5,
+      "link_id": "t3_1bm3wr4",
+      "parent_id": "t3_1bm3wr4"
+    },
+    {
+      "id": "kvptig1",
+      "body": "civ 5",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1710933827,
+      "score": 2,
+      "link_id": "t3_1bj8m5l",
+      "parent_id": "t3_1bj8m5l"
+    },
+    {
+      "id": "kuhrj2l",
+      "body": "meanwhile in a parallel universe",
+      "author": "ahmetfirat",
+      "subreddit": "ChatGPT",
+      "created_utc": 1710230964,
+      "score": 2,
+      "link_id": "t3_1bcb04s",
+      "parent_id": "t1_kugvmrv"
+    },
+    {
+      "id": "ksiqcr8",
+      "body": "🥱",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1709119170,
+      "score": 1,
+      "link_id": "t3_1b20o1d",
+      "parent_id": "t1_ksifsai"
+    },
+    {
+      "id": "krb45xo",
+      "body": "ok diyorum ve hiç polemiğe girmiyorum",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708445353,
+      "score": 1,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_krb3s9o"
+    },
+    {
+      "id": "krb0nye",
+      "body": "hadi ikile birader uçkur muçkur katacaksan",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708444149,
+      "score": 1,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_krazigl"
+    },
+    {
+      "id": "krabcwi",
+      "body": "*esneyen emoji* o kadar çok tartışmalı konu yazıp o kadar çok kendi kafana göre doğru olduğunu düşündüğün şeyleri yazmışsın ki verebileceğim tek cevap bu. farklı alanlarda okumalar yapıp ufkunu genişletebilirsin umarım.",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708434086,
+      "score": 1,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_kr9z6yp"
+    },
+    {
+      "id": "kr9sukk",
+      "body": "bence de bireysel olarak etik değil ama en basitinden bilinirliğe yönelik inanılmaz faydası var",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708422642,
+      "score": 2,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_kr9si87"
+    },
+    {
+      "id": "kr9semb",
+      "body": "ekonomik durumdan bahsetmiyorum bir sistem olan ekonomiden bahsediyorum. uzun uzun açıklamayacağım ama korsan olmasaydı ne oyun ne de software endüstrisi bu noktaya gelebilirdi",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708422321,
+      "score": 2,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_kr9s41f"
+    },
+    {
+      "id": "kr9rt8l",
+      "body": "çok dar bir açıdan bakıyorsun aga, ekonomi sadece bir şirketin harcama ve kazancından ibaret değil",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708421887,
+      "score": 2,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_kr9rm3q"
+    },
+    {
+      "id": "kr9r6fb",
+      "body": "hayır dostum telefonu çaldığında fiziksel bir kopya çalıyorsun o fiziksel kopya için belli bir harcama şirket tarafından yapılmış oluyor. korsanda ise böyle bir durum yok, ne bir materyal costu var ne de onların serverlerini kullanmadığın için dağıtım costu. en fazla free rider oluyorsun bu durumda. free riderlığa da kafadan etik değildir demek oldukça saçma",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1708421415,
+      "score": 4,
+      "link_id": "t3_1avbmpw",
+      "parent_id": "t1_kr9pb2n"
+    },
+    {
+      "id": "kovcssb",
+      "body": "soyle bir soru sorup puanini daha anlasilir hale getirmek isterim 10/10 ve 9/10 verecegin birer oyun soyler misin",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1707050141,
+      "score": 4,
+      "link_id": "t3_1ailzyf",
+      "parent_id": "t3_1ailzyf"
+    },
+    {
+      "id": "komjqwz",
+      "body": "ben bu kursu kullanmistim, sifirdan kodlamayi unitynin sagini solunu temiz anlatiyor. auditleyip direkt bedava kullanabilirsin ya da aman cok fakirim cok pahali diye financial aid istegi atip sertifika almali da gidebilirsin (cok gerek yok ama motivasyon olursa diye)\n\n[https://www.coursera.org/specializations/programming-unity-game-development](https://www.coursera.org/specializations/programming-unity-game-development#courses)",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1706900219,
+      "score": 1,
+      "link_id": "t3_1ah45gx",
+      "parent_id": "t3_1ah45gx"
+    },
+    {
+      "id": "komii5u",
+      "body": "bence de cs50 dil bilen herkes icin en iyi baslangic (sanirim turkceye de ceviriyordu bir ekip). fakat c konusuna katilmiyorum. onemli olan dil degil programlama konseptlerini ogrenmek. python syntaxi daha basit oldugu icin konseptleri daha net kiliyor. biraz ilerleyip oop ye gectiginde de java ya da c++a gecebilir. low level overwhelming olur zaten yeni baslayan biri icin, universitede bile 2. yil geciyoruz oralara",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1706899795,
+      "score": 1,
+      "link_id": "t3_1ah45gx",
+      "parent_id": "t1_kolkao9"
+    },
+    {
+      "id": "komho9n",
+      "body": "i think you miswrote kosovo",
+      "author": "ahmetfirat",
+      "subreddit": "mapporncirclejerk",
+      "created_utc": 1706899510,
+      "score": 1,
+      "link_id": "t3_1ah5kkm",
+      "parent_id": "t3_1ah5kkm"
+    },
+    {
+      "id": "koke8im",
+      "body": "bacanak salyan akmis",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1706866009,
+      "score": 5,
+      "link_id": "t3_1agyi5m",
+      "parent_id": "t1_kokc6fx"
+    },
+    {
+      "id": "kokbift",
+      "body": "waoww dostum gerçekten mi hiçbir laptop kullanıcısının aklına gelmemiştir bu ne kadar zekisin",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1706863928,
+      "score": 17,
+      "link_id": "t3_1agyi5m",
+      "parent_id": "t1_kok9hv9"
+    },
+    {
+      "id": "kje5irs",
+      "body": "naah it is not",
+      "author": "ahmetfirat",
+      "subreddit": "doctorwho",
+      "created_utc": 1706125884,
+      "score": 1,
+      "link_id": "t3_19eesm2",
+      "parent_id": "t3_19eesm2"
+    },
+    {
+      "id": "kjbl1ty",
+      "body": "not turkey",
+      "author": "ahmetfirat",
+      "subreddit": "geography",
+      "created_utc": 1706082001,
+      "score": 1,
+      "link_id": "t3_19e72sk",
+      "parent_id": "t3_19e72sk"
+    },
+    {
+      "id": "kj0zajt",
+      "body": "well we already drinking old dino pee soo not a huge problem i think",
+      "author": "ahmetfirat",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1705922811,
+      "score": 1,
+      "link_id": "t3_19cnpyy",
+      "parent_id": "t3_19cnpyy"
+    },
+    {
+      "id": "kirxf8q",
+      "body": "yıllardır aklımdan geçen soru o zaman gebzeye kadar marmarayla gitmek yolculuk süresini azaltır mı",
+      "author": "ahmetfirat",
+      "subreddit": "transitTurkey",
+      "created_utc": 1705776860,
+      "score": 3,
+      "link_id": "t3_19befar",
+      "parent_id": "t1_kir6mnq"
+    },
+    {
+      "id": "kiq0t0v",
+      "body": "siz okudunuz mu peki yoksa boş keseden sallıyor musunuz?",
+      "author": "ahmetfirat",
+      "subreddit": "secilmiskitap",
+      "created_utc": 1705746550,
+      "score": 9,
+      "link_id": "t3_19b8byx",
+      "parent_id": "t1_kipzlut"
+    },
+    {
+      "id": "kin2ljx",
+      "body": "havent watch this one but imo it is either princess mononoke or the wind rises",
+      "author": "ahmetfirat",
+      "subreddit": "ghibli",
+      "created_utc": 1705696212,
+      "score": 1,
+      "link_id": "t3_19an2u9",
+      "parent_id": "t3_19an2u9"
+    },
+    {
+      "id": "ki1nauo",
+      "body": "okumayı düşünürsen şöyle ufak bi tavsiye vereyim okuma sessionların arasına fazla vakit koyma. bence kitaptaki olayları takip etmesi kitabın anlatım tarzından ve yazarın uydurduğu kelimelerin kalabalığından (her ne kadar hoşuma gitse de kalabalık oluşturuyor bence) oldukça zor ve eğer çok ara verip daha önce ne oldu hatırlayamazsan kitaptan çok kopuyorsun",
+      "author": "ahmetfirat",
+      "subreddit": "secilmiskitap",
+      "created_utc": 1705362745,
+      "score": 1,
+      "link_id": "t3_1975ex6",
+      "parent_id": "t3_1975ex6"
+    },
+    {
+      "id": "khse2yi",
+      "body": "thanks for clearing that i out i couldnt be sure so i said only",
+      "author": "ahmetfirat",
+      "subreddit": "HistoryMemes",
+      "created_utc": 1705218109,
+      "score": 3,
+      "link_id": "t3_195p149",
+      "parent_id": "t1_khrewe6"
+    },
+    {
+      "id": "khp6abg",
+      "body": "yeah that's fair",
+      "author": "ahmetfirat",
+      "subreddit": "HistoryMemes",
+      "created_utc": 1705170119,
+      "score": 32,
+      "link_id": "t3_195p149",
+      "parent_id": "t1_khp67z8"
+    },
+    {
+      "id": "khp57oq",
+      "body": "tho at some point they stopped taking only christians",
+      "author": "ahmetfirat",
+      "subreddit": "HistoryMemes",
+      "created_utc": 1705169744,
+      "score": 158,
+      "link_id": "t3_195p149",
+      "parent_id": "t1_khopg0d"
+    },
+    {
+      "id": "khc1rjw",
+      "body": "evet kardeşim gerçek 20 liraya köprü satışımız da bulunmakta",
+      "author": "ahmetfirat",
+      "subreddit": "veYakinEvren",
+      "created_utc": 1704959091,
+      "score": 8,
+      "link_id": "t3_193vw1m",
+      "parent_id": "t3_193vw1m"
+    },
+    {
+      "id": "kh0lb06",
+      "body": "dudee my uni has rooms full of 3 bunkers",
+      "author": "ahmetfirat",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1704779835,
+      "score": 7,
+      "link_id": "t3_1922s2n",
+      "parent_id": "t1_kh0hqc1"
+    }
+  ]
+}

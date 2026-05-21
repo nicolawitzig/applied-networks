@@ -1,0 +1,2292 @@
+{
+  "username": "asdfmoon2012",
+  "posts": [
+    {
+      "id": "1gu6k97",
+      "title": "Is installing WSL instead of running VMWare worth it on an old, low-end laptop?",
+      "author": "asdfmoon2012",
+      "subreddit": "bashonubuntuonwindows",
+      "created_utc": 1731941791,
+      "score": 6,
+      "num_comments": 17,
+      "selftext": "Title, basically\n\nFor more context, I need to run a Linux distro on my laptop, but need to keep Windows (I'm using Windows 10 btw). I currently have an Ubuntu virtual machine that takes up 25GB of memory and is running quite slow. My laptop has only 4GB of RAM (don't ask me anything...) and I want to clear out more space on my hard drive.\n\nMy plan was to destroy that disk image and run Debian using WSL. What I know so far is that I can't have a desktop environment on it but can run GUI apps (enough for me), and that it's recommended to have at least 8GB of RAM for using it. I couldn't find any info on how much memory it consumes since I'm running low on resources. Is it worth it to try to install WSL or should I ditch the plan altogether and keep running the VM?\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/bashonubuntuonwindows/comments/1gu6k97/is_installing_wsl_instead_of_running_vmware_worth/"
+    },
+    {
+      "id": "1ge0v6r",
+      "title": "Which lightweight user-friendly distribution should i run after running an Ubuntu virtual machine on my trash laptop + more small questions",
+      "author": "asdfmoon2012",
+      "subreddit": "linuxquestions",
+      "created_utc": 1730118797,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Basically, title\n\nI was (and still am) running an Oracle VM with an Ubuntu operating system on a Windows machine but since I'm running LOW on resources (I have an old AMD processor, but the system is 64-bit) I need to replace it with something lighter, and before you ask, YES I was running in on minimal resources (a 32gb disk image)\n\nI need a Linux distro that's easy to use, good for developers (I'm not doing anything TOO extreme so far so like, Arch Linux is not needed) and that's not taking a lot of resources (or at least less than Ubuntu). I've been looking at Linux Mint which requires a 20 GB disk image and I'm currently looking into Debian\n\nUnfortunately, running it as a main system instead of Windows 10 is not an option, but I've also been wondering about using WSL instead of a VM. Is it worth it?\n\nAnother random side question, could a shared Windows-Linux shared folder make a problem during the destruction of the old disk image. I haven't still looked into destroying a disk image but I hope moving it into the Recycle Bin will be enough 😭\n\n",
+      "url": "https://www.reddit.com/r/linuxquestions/comments/1ge0v6r/which_lightweight_userfriendly_distribution/"
+    },
+    {
+      "id": "1gdx3ks",
+      "title": "Which lightweight user-friendly distribution should i run after running an Ubuntu virtual machine on my trash laptop",
+      "author": "asdfmoon2012",
+      "subreddit": "linux4noobs",
+      "created_utc": 1730104004,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Repost, since I accidentally deleted the last one\n\nI was (and still am) running an Oracle VM with an Ubuntu operating system on a Windows machine but since I'm running LOW on resources (I have an old AMD processor, but the system is 64-bit) I need to replace it with something lighter, and before you ask, YES I was running in on minimal resources (a 32gb disk image)\n\nI need a Linux distro that's easy to use, good for developers (I'm not doing anything TOO extreme so far so like, Arch Linux is not needed) and that's not taking a lot of resources (or at least less than Ubuntu). I've been looking at Linux Mint which requires a 20 GB disk image and I'm currently looking into Debian\n\nUnfortunately, running it as a main system instead of Windows 10 is not an option, but I've also been wondering about using WSL instead of a VM. Is it worth it?\n\nAnother random side question, could a shared Windows-Linux shared folder make a problem during the destruction of the old disk image. I haven't still looked into destroying a disk image but I hope moving it into the Recycle Bin will be enough 😭\n\n",
+      "url": "https://www.reddit.com/r/linux4noobs/comments/1gdx3ks/which_lightweight_userfriendly_distribution/"
+    },
+    {
+      "id": "1gdm47c",
+      "title": "Which lightweight user-friendly distribution should i use after running an Ubuntu virtual machine on my trash laptop",
+      "author": "asdfmoon2012",
+      "subreddit": "linux4noobs",
+      "created_utc": 1730065472,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/linux4noobs/comments/1gdm47c/which_lightweight_userfriendly_distribution/"
+    },
+    {
+      "id": "1frzerz",
+      "title": "OS development i povezane oblasti - ima li vas",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1727596947,
+      "score": 13,
+      "num_comments": 4,
+      "selftext": "U suštini, još uvek sam student, ali me interesuju operativni sistemi. Znam da je potražnja sa bukvalnim razvojem operativnih sistema malo ograničena zbog same prirode oblasti, ali me interesuje kakve su prilike u toj branši i drugim povezanim oblastima (osim embedded, koliko sam upućen, cybersecurity se jednim delom oslanja na OS) što se tiče posla, uslova rada, prilike za napredak... Znam da nema puno ljudi u ovoj oblasti i nisam dosad upoznao nekoga ko jeste u njoj, ali mi je sama materija baš interesantna i nešto je čime bih voleo da se bavim (makar tangencijalno). Koje su još oblasti vezane za operativne sisteme, a da su manje poznate / manje popularne? Šta biste predložili da je dobar početak za učenje / odakle početi sa učenjem materije? Za sad imam dobro razumevanje arhitekture računara i relativno dobro znam asembler.\n\ni da, sorry ako post zvuči malo pogubljeno, ne znam ni ja šta bih trebao da pitam haha",
+      "url": "https://www.reddit.com/r/programiranje/comments/1frzerz/os_development_i_povezane_oblasti_ima_li_vas/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4jww21",
+      "body": "jako mid godina, s lične strane bar ne mogu da se žalim mislim da sam na pozitivnoj nuli u odnosu na početak ali sa svime što se izdešavalo naročito pad nadstrešnice imam osećaj da smo na nacionalnom nivou jako, jako, jako mentalno iscrpljeni od svega. verovatno su zato i ovi protesti toliko uzeli maha, jednostavno je svima sve preselo",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735580181,
+      "score": 1,
+      "link_id": "t3_1hppuff",
+      "parent_id": "t3_1hppuff"
+    },
+    {
+      "id": "m4j9wn3",
+      "body": "žali se na ,,gej film\" a nije se žalila na bunga bunga žurke prethodnih 20 godina",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735572939,
+      "score": 52,
+      "link_id": "t3_1hpmw0w",
+      "parent_id": "t3_1hpmw0w"
+    },
+    {
+      "id": "m4it80j",
+      "body": "a šta je s počiniocem na kraju? jel je prebačen u neku ustanovu?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735566822,
+      "score": 85,
+      "link_id": "t3_1hpmtex",
+      "parent_id": "t3_1hpmtex"
+    },
+    {
+      "id": "m4i6yxr",
+      "body": "kakva je magla ako nije bela ček šta",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735555193,
+      "score": 13,
+      "link_id": "t3_1hphxm7",
+      "parent_id": "t1_m4hsb7b"
+    },
+    {
+      "id": "m4e6mgy",
+      "body": "za te pare se ne može kupiti ni šupa na veterniku a ne tri života",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735498103,
+      "score": 30,
+      "link_id": "t3_1hozrdm",
+      "parent_id": "t1_m4dlxt5"
+    },
+    {
+      "id": "m40e27n",
+      "body": "ne nisu... najjeftiniji sečeni tost u lidlu je 120 din",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735292137,
+      "score": 11,
+      "link_id": "t3_1hn8gfs",
+      "parent_id": "t1_m40by7j"
+    },
+    {
+      "id": "m3v909c",
+      "body": "kao i linglong, i ostale investicije naših čeličnih prijatelja",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735217030,
+      "score": 34,
+      "link_id": "t3_1hmlywk",
+      "parent_id": "t1_m3uzgt4"
+    },
+    {
+      "id": "m3swyip",
+      "body": "šta god da radite NEMOJTE DA SE POMIRITE... to više nikad neće biti normalna veza, biće dužničko ropstvo",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735170303,
+      "score": 6,
+      "link_id": "t3_1hm95gi",
+      "parent_id": "t3_1hm95gi"
+    },
+    {
+      "id": "m3lp7k1",
+      "body": "zapravo i njih, samo bez đilasa",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1735053254,
+      "score": 3,
+      "link_id": "t3_1hldybq",
+      "parent_id": "t1_m3lfay9"
+    },
+    {
+      "id": "m3csydx",
+      "body": "možda neću morati da se odselim jednog dana *pušta suzu*",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1734908846,
+      "score": 85,
+      "link_id": "t3_1hk9d4o",
+      "parent_id": "t3_1hk9d4o"
+    },
+    {
+      "id": "m3cspq6",
+      "body": "> Опозиција која може на улицу да изведе 100 хиљада људи у Београд, може итекако да се потруди да тај људски капитал искористи за кампању.\n\n\novaj protest nije izvela opozicija. pitam se kako sve ovo formalizovati u izboru sledeće vlasti",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1734908756,
+      "score": 17,
+      "link_id": "t3_1hk9d4o",
+      "parent_id": "t1_m3cqx61"
+    },
+    {
+      "id": "m2op9fl",
+      "body": "nema harizmu, samo je užasno bahat a naš narod to voli",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1734542371,
+      "score": 3,
+      "link_id": "t3_1hh1c95",
+      "parent_id": "t1_m2o1u8j"
+    },
+    {
+      "id": "m1quj56",
+      "body": "od uvođenja wasma više nije jedini :)",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1734034081,
+      "score": 2,
+      "link_id": "t3_1hc3bzx",
+      "parent_id": "t1_m1nwvms"
+    },
+    {
+      "id": "m1owl7x",
+      "body": "🤍 za sve ljude kojima je politika unela svađu u kuću i donela podele između najbližih. srce mi se slama koliko su ljudi u našem najbližem okruženju zapravo okrutni i zli",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1734011520,
+      "score": 23,
+      "link_id": "t3_1hcl2xl",
+      "parent_id": "t3_1hcl2xl"
+    },
+    {
+      "id": "m1klhw9",
+      "body": "^^^ još jedna osoba koja više ne može da priča sa svojim ocem koliko je čovek prso od propagande i koliko se svađa čim otvori usta ",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1733945130,
+      "score": 9,
+      "link_id": "t3_1hbkybn",
+      "parent_id": "t3_1hbkybn"
+    },
+    {
+      "id": "m17nq3r",
+      "body": "posao policije nije da rade za korist države nego samo da čuvaju trenutni establišment",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1733761284,
+      "score": 31,
+      "link_id": "t3_1had6jo",
+      "parent_id": "t1_m17n0ve"
+    },
+    {
+      "id": "m10f43o",
+      "body": "izbori su im poništeni zato što je nađeno da je kandidat koji je pobedio imao milione botovanih pratilaca iz rusije na tiktoku...",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1733652365,
+      "score": 1,
+      "link_id": "t3_1h94bol",
+      "parent_id": "t1_m0y5amm"
+    },
+    {
+      "id": "m07xuvv",
+      "body": "isto sam pomislio, liči na rose mcgowan",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1733243140,
+      "score": 1,
+      "link_id": "t3_1h5msfz",
+      "parent_id": "t1_m070bd8"
+    },
+    {
+      "id": "lzzyo4v",
+      "body": "o ne jadan beton što su ga ofarbali crvenom bojom 😰😰😰",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1733120234,
+      "score": 24,
+      "link_id": "t3_1h4l9ul",
+      "parent_id": "t1_lzzi03e"
+    },
+    {
+      "id": "lyyifp4",
+      "body": "na svakom fakultetu se gube živci srećice",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1732564865,
+      "score": 1,
+      "link_id": "t3_1gyqq1c",
+      "parent_id": "t1_lysq7ls"
+    },
+    {
+      "id": "lystkel",
+      "body": "twitter je propao od kada ga je musk kupio, sada je još i ok u poređenju kakav je bii u 2022 ali ni blizu kakav je bio pre",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1732481913,
+      "score": 0,
+      "link_id": "t3_1gyn97v",
+      "parent_id": "t1_lyrplcn"
+    },
+    {
+      "id": "lyqegj7",
+      "body": "koliko ja znam - od lošijih ka boljim\n\n\ndomovi na kampusu - bajić i vlahović, ujedno i jedini domovi II kategorije, po dve sobe dele zajedničko kupatilo tako da je jedno kupatilo na njih 4\n\n\ndomovi na grbavici - feješ klara i 23. oktobar (ovaj drugi je samo ženski dom) stariji domovi ali relativni skoro renovirani, nisu tako veliki domovi, (nisam ni znao da je to studentski dom dok nisam jednom ispraćao nekoga) neki se žale da su sobe male\n\n\nsajmište - ne znam puno o njemu, mahom ga dobijaju medicinari jer je blizu medicinskog\n\n\ndomovi na limanu 3 - ćulum, car lazar i nikola tesla (odnosno domovi A, B i C) ovde treba ciljati, naročito na nikolu teslu koji je najnoviji dom i ima najveće sobe (mada dobiti ga kao brucoš je... malo drugačija priča) svaka soba ima svoje kupatilo i malu čajnu kuhinju",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1732452802,
+      "score": 6,
+      "link_id": "t3_1gyptei",
+      "parent_id": "t3_1gyptei"
+    },
+    {
+      "id": "lxwir5t",
+      "body": "calm your tits i'm just experimenting with my old laptop",
+      "author": "asdfmoon2012",
+      "subreddit": "bashonubuntuonwindows",
+      "created_utc": 1732009149,
+      "score": 2,
+      "link_id": "t3_1gu6k97",
+      "parent_id": "t1_lxwd3hu"
+    },
+    {
+      "id": "lxwim0b",
+      "body": "Great then I'm definitely using less that 25GB lol thank you",
+      "author": "asdfmoon2012",
+      "subreddit": "bashonubuntuonwindows",
+      "created_utc": 1732009050,
+      "score": 1,
+      "link_id": "t3_1gu6k97",
+      "parent_id": "t1_lxvy44g"
+    },
+    {
+      "id": "lxu2ob6",
+      "body": "How much disk space does your WSL2 consume?",
+      "author": "asdfmoon2012",
+      "subreddit": "bashonubuntuonwindows",
+      "created_utc": 1731970474,
+      "score": 1,
+      "link_id": "t3_1gu6k97",
+      "parent_id": "t1_lxrq534"
+    },
+    {
+      "id": "lxo1qty",
+      "body": "nešto me u vezi ovih naslovnih strana činu srećnim i tužnim u isto vreme... o galaksiji znam samo iz priča moje majke koja ju je redovno čitala... izgleda kao da su ljudi tada bili uzbuđeni i da su imali velika očekivanja od budućnosti koja dolazi a dočekao ih je rat, recesija i autokratija :(",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1731884538,
+      "score": 11,
+      "link_id": "t3_1gtj23h",
+      "parent_id": "t3_1gtj23h"
+    },
+    {
+      "id": "lxgrqr5",
+      "body": "well, besides the obvious good suprises (cgarli xcx, chappell roan) \n\n\ni loved the new fka twigs and i'm so excited for the album!!! all the songs she performed sound amazing, i think it will be my new favorite from her\n\n\nalso, LISA going solo. i didn't really pay a lot of attention to her in BLACKPINK but these new singles honestly blew me away. so catchy and on brand for her. i'm excited to see what she does next",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1731780208,
+      "score": 0,
+      "link_id": "t3_1gspkim",
+      "parent_id": "t3_1gspkim"
+    },
+    {
+      "id": "lxgpp0p",
+      "body": "both honestly",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1731779561,
+      "score": 11,
+      "link_id": "t3_1gspkim",
+      "parent_id": "t1_lxg1c1e"
+    },
+    {
+      "id": "lwgp0df",
+      "body": "rabies by borislav pekić, by far",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1731268790,
+      "score": 14,
+      "link_id": "t3_1go73wc",
+      "parent_id": "t1_lwgeu6r"
+    },
+    {
+      "id": "lvve9j4",
+      "body": "gde su mu bila muda kada je trebao da se ne udruži sa lažnom opozicijom?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730972203,
+      "score": 9,
+      "link_id": "t3_1glkczd",
+      "parent_id": "t1_lvvbnoj"
+    },
+    {
+      "id": "lvets9v",
+      "body": "ovo je tako naivno razmišljanje... republikanci možda jesu započeli manje ratova ali nisu prekinuli niti su se protivili ijednom ratu koji su demokrate započele. a prva trampova administracija, iako je diskutabilno kakve je ekonomske uticaje imala, je imala OGROMAN uticaj na socijalnu politiku na svetskom nivou gde se očigledno vidi zamah desničarske i autoritarne politike u celom svetu, gde je verovatno drugi najveći doprinos tome posle migrantske krize u evropi",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730753852,
+      "score": 12,
+      "link_id": "t3_1gjl5yd",
+      "parent_id": "t1_lverxba"
+    },
+    {
+      "id": "lvbioyx",
+      "body": ">Muškarci vole igrice? Pa? I muškarci su u početku isključivo nosili stikle, pa sad su one isključivo zenska stvar.\n\n\no moj Bože skoro kao da su rodne uloge veštačko konstruisana stvar i većinski nemaju veze sa biologijom ",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1730709525,
+      "score": 1,
+      "link_id": "t3_1gimfwz",
+      "parent_id": "t1_lv69ngl"
+    },
+    {
+      "id": "lv8l4ci",
+      "body": "kinda late to the thread, but i'd say the main concept is coming of age \"on the dark side of the american dream\" as the lyrics say. it's taking the hollywood glamour and americana kitcsh and painting a dark image inspired by her troubled youth",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1730666399,
+      "score": 1,
+      "link_id": "t3_1ge92r4",
+      "parent_id": "t1_lubg57d"
+    },
+    {
+      "id": "lv7ffv9",
+      "body": "sva muzika joj je jako kvalitetna [danica crnogorčević could never](https://youtu.be/KnGSVIZGkQo?si=oSGPTDcwbIEzKzu4)",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730653913,
+      "score": 1,
+      "link_id": "t3_1gielcv",
+      "parent_id": "t1_lv7ec5p"
+    },
+    {
+      "id": "lv7ctmb",
+      "body": "zašto se prepirem na redditu zašto je fka twigs bolja muzika od danice crnogorčević...",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730653133,
+      "score": 7,
+      "link_id": "t3_1gielcv",
+      "parent_id": "t3_1gielcv"
+    },
+    {
+      "id": "lv7cmc3",
+      "body": "jesi li zapravo odslušao pesmu ili si se zalepio za jedan stih koji si preveo sa google translate",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730653072,
+      "score": 1,
+      "link_id": "t3_1giby0w",
+      "parent_id": "t1_lv6u8a1"
+    },
+    {
+      "id": "lv6psze",
+      "body": "ne znam kako da ti ovo kažem ali samo zato što je pesma eksplicitna ne znači da je loša i manje vredna od neke druge koja nije",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730645987,
+      "score": 1,
+      "link_id": "t3_1giby0w",
+      "parent_id": "t1_lv6b412"
+    },
+    {
+      "id": "lv6adlw",
+      "body": "od kada šrafovi drže betonske konstrukcije???",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730640448,
+      "score": 20,
+      "link_id": "t3_1gilt8i",
+      "parent_id": "t3_1gilt8i"
+    },
+    {
+      "id": "lv686ci",
+      "body": "[takođe tekst pesme fka twigs](https://genius.com/Fka-twigs-home-with-you-lyrics)\n\n\nukucao si fka twigs songs i kliknuo si translate na prvu koja ti izašla molim te ne blamiraj se",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730639546,
+      "score": 2,
+      "link_id": "t3_1giby0w",
+      "parent_id": "t1_lv5x2o9"
+    },
+    {
+      "id": "lv5rv2g",
+      "body": "alternativni pop / rnb najviše (lana del rey, charli xcx, fka twigs...) malo alternativne iz 90ih (bjork, fiona apple, deftones) od domaće pomalo ex-yu rock i pomalo hitovi dvehiljaditih (za zezanje)\n\n\nhajde sad dekonstruiši",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730631385,
+      "score": 5,
+      "link_id": "t3_1giby0w",
+      "parent_id": "t1_lv5n1i8"
+    },
+    {
+      "id": "lv5kkf1",
+      "body": "pesma ne govori ni o čemu. nema nijedan istorijski motiv. užasno je repetitivna. sam tekst ne opisuje ništa jedino ima gomilu reči koje izazivaju reakciju, tzv. buzzwords. rimuje se samo radi rimovanja tako što se nabrajaju prezimena i imena manastira, opet bez konteksa nego samo kao buzzwords. vokalno, pesma je pregrubo otpevana za emociju koju bi trebala da prenese. melodija je isto repetitivna na nivou iznad tee tairović. previše intelektualizuje samu sebe.  ,,od prizrena do rumije\" još uvek mi nije jasno zašto su te dve lokacije spomenute osim toga što su buzzwords. da li sam rekao da je pesma preterano repetitivna i ima tri note?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730626515,
+      "score": 5,
+      "link_id": "t3_1giby0w",
+      "parent_id": "t1_lv5iq2o"
+    },
+    {
+      "id": "lv2quh5",
+      "body": "otprilike ceo sub",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1730580580,
+      "score": 6,
+      "link_id": "t3_1ghe19o",
+      "parent_id": "t3_1ghe19o"
+    },
+    {
+      "id": "lv2ovlu",
+      "body": "maltene i ne koristim pretragu. imam fiksne sajtove na koje stalno idem i njih tražim po urlu",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1730579934,
+      "score": 7,
+      "link_id": "t3_1ghwf0u",
+      "parent_id": "t3_1ghwf0u"
+    },
+    {
+      "id": "lv1gn6e",
+      "body": "pretpostaviću da nemaš loše namere. poginuli su juče kada je pala betnoska nadstrešnica na autobuskoj stanici u novom sadu",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730565841,
+      "score": 14,
+      "link_id": "t3_1ghwz6l",
+      "parent_id": "t1_lv1emky"
+    },
+    {
+      "id": "lv0t9ap",
+      "body": "nebitno sad to ima svega i svemu su nadenuli NEKO ime, sad konkretno mi ovo liči na demiseksualnost ali na kraju je na OP-ju da vidi da li se prepoznaje u tom opisu",
+      "author": "asdfmoon2012",
+      "subreddit": "AskSerbia",
+      "created_utc": 1730558064,
+      "score": 6,
+      "link_id": "t3_1ghrhw4",
+      "parent_id": "t1_lv0qd7u"
+    },
+    {
+      "id": "lv0olhv",
+      "body": "[da li možda ovaj opis rezonuje s tobom](https://en.m.wikipedia.org/wiki/Demisexuality)",
+      "author": "asdfmoon2012",
+      "subreddit": "AskSerbia",
+      "created_utc": 1730556419,
+      "score": 1,
+      "link_id": "t3_1ghrhw4",
+      "parent_id": "t1_lv0k6oc"
+    },
+    {
+      "id": "lv0obj9",
+      "body": "gledaj, nije isključeno, ali hajde prvo da vidimo ostale indikatore pre nego što zaključimo",
+      "author": "asdfmoon2012",
+      "subreddit": "AskSerbia",
+      "created_utc": 1730556317,
+      "score": 1,
+      "link_id": "t3_1ghrhw4",
+      "parent_id": "t1_luztui6"
+    },
+    {
+      "id": "luzt8de",
+      "body": "dobro, šta je sa ostalim aktivnostima? jel voliš fizički dodir? provođenje vremena s tom osobom? neki drugi vid poklanjanja pažnje? poljupci čine 1% aktivnosti ljudi u vezi",
+      "author": "asdfmoon2012",
+      "subreddit": "AskSerbia",
+      "created_utc": 1730540576,
+      "score": 8,
+      "link_id": "t3_1ghrhw4",
+      "parent_id": "t3_1ghrhw4"
+    },
+    {
+      "id": "luufhfl",
+      "body": "hajde to mi je još ok ako prikazuju neku estetiku ili tako (jer to jeste istinito realno haha) ali mi ide na živce kada preslikavaju neki stereotip na sve ljude u istočnoj evropi / balkanu kao brate izvini nismo sci alkosi i ne nosimo svi adidas 24/7 (nije kao da trenutno nosim staru adidas trenerku dok kucam ovo ali nebitni",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730463108,
+      "score": 9,
+      "link_id": "t3_1ggzj28",
+      "parent_id": "t1_lutstiy"
+    },
+    {
+      "id": "luuf53v",
+      "body": "jedno vreme sam ga gledao, travel blogovi su mu ok, ovo ostalo je smorio stvarno, ušao je u taj krug jutjubera koji su večito u fazonu kako su iz istočne evrope i svi prave jedne te iste videe deset puta samo što je perspektiva mali drugačija jer su iz različitih država ali opet 90% ista. što je jedan drugi komentar rekao - orijentalizam. jedino mi je nfkrz ostao interesantan od njih jer radi suprotno",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730462956,
+      "score": 1,
+      "link_id": "t3_1ggzj28",
+      "parent_id": "t3_1ggzj28"
+    },
+    {
+      "id": "lu6ax6j",
+      "body": "oba 💜",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1730123135,
+      "score": 3,
+      "link_id": "t3_1gdkl8f",
+      "parent_id": "t1_lu54z5i"
+    },
+    {
+      "id": "lttrbw4",
+      "body": "nisam znao da su mostar i trebinje na tipa 20 km od mora do tipa pre tri godine ",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1729935506,
+      "score": 2,
+      "link_id": "t3_1gbtqlw",
+      "parent_id": "t3_1gbtqlw"
+    },
+    {
+      "id": "lttnvit",
+      "body": "new plantation bi valjda bio prevod",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1729933231,
+      "score": 5,
+      "link_id": "t3_1gc16gk",
+      "parent_id": "t1_ltrw7sh"
+    },
+    {
+      "id": "lt5ax05",
+      "body": "malo kasnim ali evo me:\n\n\nsiit je zapravo softveraški smer, i trenutno je ubedljivo najjači smer na ftnu, za razliku od E2 nemaju ni oete ni fizike ni većinu automatičarskih predmeta, koji su zamenjeni stručnim predmetima vezanim za softversko inženjerstvo, veštačku inteligenciju i data science, i čuvene algoritme i strukture podataka koji se ovde pominju. neke stvari koje E2 radi tek u višim godinama siit radi u prvoj i drugoj",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1729589733,
+      "score": 1,
+      "link_id": "t3_1dbrq7x",
+      "parent_id": "t1_l7yh4yo"
+    },
+    {
+      "id": "lt544g4",
+      "body": "ne to je odvojeni smer već skoro 10 godina, nemaju oete uopšte, stručne predmete koje e2 ima u višim godinama oni imaju na prvoj / drugoj",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1729584992,
+      "score": 1,
+      "link_id": "t3_1dbrq7x",
+      "parent_id": "t1_lt52cgr"
+    },
+    {
+      "id": "lt505vf",
+      "body": "softversko inženjerstvo i informacione tehnologije, zapravo glavni softveraški smer na ftn",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1729582211,
+      "score": 1,
+      "link_id": "t3_1dbrq7x",
+      "parent_id": "t1_lt4ymfx"
+    },
+    {
+      "id": "lt4w2g7",
+      "body": "zapravo nisu, svako ko je iole dobar ode ili na siit ili na pmf rn",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1729579470,
+      "score": 1,
+      "link_id": "t3_1dbrq7x",
+      "parent_id": "t1_l9ovg9h"
+    },
+    {
+      "id": "lstpfbe",
+      "body": "r/selffuck",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1729422329,
+      "score": 1,
+      "link_id": "t3_1g7vnzj",
+      "parent_id": "t1_lstoy5r"
+    },
+    {
+      "id": "lsplwb7",
+      "body": "networking = nova reč za nepotizam, jednostavno je uvek bilo presudno da poznaješ ljude jer uvek će pre dati ponudu nekome koga znaju nego koga ne znaju\n\n\nšto se tiče kurseva to je prodavanje magle, najbolji način da upoznaš ljude... je da upoznaš ljude. nema tu govora tela ni ubeđivanja, i da ga ima to propadne u jednom trenutku jer na kraju se traži materija, ipak ne može te ni networking spasiti ako nemaš veze s poslom",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1729357634,
+      "score": 0,
+      "link_id": "t3_1g7b37b",
+      "parent_id": "t3_1g7b37b"
+    },
+    {
+      "id": "lsnk1bb",
+      "body": ">Ako ikada budem imao dece ako Bog da, svoju decu cu nauciti da se brane protiv nasilnika, nikada ne trpeti bilo kakve vrste torture, oni se hrane strahom zrtve ili potencijalne zrtve.\n\n\novde to više nije rešenje, vidiš da se napadaju oružjem od kojeg se teško možeš odbraniti goloruk. jesam za to da svi znaju bar osnove samoodbrane, ali to ovde više nije dovoljno. uostalom, to je opet problem u sebi  ZAŠTO umesto da se sistemski borimo protiv nasilja se opet prilogađovamo nasilnicima, oni će samo postati gori. ne može ni svako da se brani ili da posveti xy količine vremena učeći se samoodbranom",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1729323529,
+      "score": 1,
+      "link_id": "t3_1g6ktpn",
+      "parent_id": "t1_lskirry"
+    },
+    {
+      "id": "lsnjg7j",
+      "body": ">osim gimnazija\n\n\npress x to doubt",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1729323117,
+      "score": 2,
+      "link_id": "t3_1g6ktpn",
+      "parent_id": "t1_lsk3r90"
+    },
+    {
+      "id": "lsjfaz7",
+      "body": "sestro imaš diplomu imaš sasvim korektne projekte radila si prakse malo se specijalizuj za neki framework i nemaš čega da se brineš pola ovog suba nema veze sa programiranjem",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1729264852,
+      "score": 15,
+      "link_id": "t3_1g63zs5",
+      "parent_id": "t3_1g63zs5"
+    },
+    {
+      "id": "lrugjgv",
+      "body": "da li se ikada eth zürich oglasio povodom ovoga?? omg",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1728892834,
+      "score": 2,
+      "link_id": "t3_1g2wcf5",
+      "parent_id": "t1_lrrqhjj"
+    },
+    {
+      "id": "lrru2y3",
+      "body": "NE DAJ BOŽE da je neki fakultet teži od etfa doviđenja i to što je teško nije teško zato što je korisno već zato što se uči 20 elektronika koje nijednom programeru neće nikad trebati",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1728850572,
+      "score": 2,
+      "link_id": "t3_1g2ljto",
+      "parent_id": "t1_lrp9m3w"
+    },
+    {
+      "id": "lrp6cs0",
+      "body": "zašto svi odjednom dolate u srbiju i zašto ne dolazi nijedna osoba koju slušam... poslednji put kad je to bilo je kad je sevdaliza pevala u novom sadu još uvek sebi nisam oprostio što nisam tad otišao",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1728814120,
+      "score": 2,
+      "link_id": "t3_1g1wgmm",
+      "parent_id": "t3_1g1wgmm"
+    },
+    {
+      "id": "lroxd75",
+      "body": ">Jer, za razliku od ostatka sveta Kinezi i dalje drže do tradicionalnih vrednosti i hijerarhije gde se poštuje starija osoba.\nKinez NEMA ŠANSE da uvali starijoj osobi teži posao i mlađoj lakši posao. NEMA ŠANSE.\n\n\npa gde je taj divni kineski poslovođa da spase tu stariju ženicu koju ,,muče mlade tim liderke\" a da upravo tako BOLI GA UVO",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1728807857,
+      "score": 1,
+      "link_id": "t3_1g22b5x",
+      "parent_id": "t1_lrnmutl"
+    },
+    {
+      "id": "lrfibek",
+      "body": "+ većina tih open source mogućnosti su toliko složene da se i najspecijaloizovaniji programeri muče s njima, a prosečnoj osobi stvarno ne pravi nikakvu razliku",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1728662753,
+      "score": 0,
+      "link_id": "t3_1g15v7j",
+      "parent_id": "t1_lreb7cx"
+    },
+    {
+      "id": "lrfhn2l",
+      "body": "jednom sam imao huawei i taj telefon je posle dve godine jedva živ bio, aad imam samsung koji posle 4 godine radi isto kao prvog dana (malo mu je otišla baterija samo) NE POSTOJI SILA koja bi me ubedila da kupim kineski telefon opet",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1728662530,
+      "score": 1,
+      "link_id": "t3_1g15v7j",
+      "parent_id": "t1_lre1bbp"
+    },
+    {
+      "id": "lpme9x1",
+      "body": "90% diskografije jelene karleuše su prepevi",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1727685177,
+      "score": 1,
+      "link_id": "t3_1fsfgzh",
+      "parent_id": "t3_1fsfgzh"
+    },
+    {
+      "id": "lpk1zoz",
+      "body": "😔",
+      "author": "asdfmoon2012",
+      "subreddit": "ethz",
+      "created_utc": 1727645527,
+      "score": 1,
+      "link_id": "t3_1fse35f",
+      "parent_id": "t1_lpjvfcg"
+    },
+    {
+      "id": "lpbmwkr",
+      "body": "pitanje za ljude iz valjeva, kakvo je naselje peti puk? (u smislu kakvi su ljudi)",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1727521192,
+      "score": 2,
+      "link_id": "t3_1fr4zd4",
+      "parent_id": "t3_1fr4zd4"
+    },
+    {
+      "id": "lpbgaju",
+      "body": "username does NOT check out",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1727516690,
+      "score": 1,
+      "link_id": "t3_1fr9cht",
+      "parent_id": "t1_lpb7wnh"
+    },
+    {
+      "id": "loop2hu",
+      "body": "bait used to be believable",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1727183737,
+      "score": 18,
+      "link_id": "t3_1foaagt",
+      "parent_id": "t1_loocqtg"
+    },
+    {
+      "id": "loniztc",
+      "body": "clocked it. she was my fav artist when i was 12 and then i grew up",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1727159769,
+      "score": 34,
+      "link_id": "t3_1fny8qp",
+      "parent_id": "t1_lonati0"
+    },
+    {
+      "id": "lo17tlx",
+      "body": "hej i novi sad ima frušku goru",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726830812,
+      "score": 0,
+      "link_id": "t3_1fl74h5",
+      "parent_id": "t1_lo16uet"
+    },
+    {
+      "id": "lnk1qdc",
+      "body": ">levičarska\n\n\nneoliberalna, reč koju tražiš je neoloberalna. levica je protiv eksploatacije radnika",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726573806,
+      "score": 5,
+      "link_id": "t3_1fiwoyi",
+      "parent_id": "t1_lnk175b"
+    },
+    {
+      "id": "lngf2cb",
+      "body": "amazing. darker than her previous albums, but a completely different vibe, very bold, energetic and sexual, also more contemporary and urban but at the same time avantgarde",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1726514602,
+      "score": 1,
+      "link_id": "t3_1fi605x",
+      "parent_id": "t1_lnfrm7k"
+    },
+    {
+      "id": "lnfgt6e",
+      "body": "da li si znao da gej ljudi rade još dosta stvari osim što se seksaju",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726503617,
+      "score": 3,
+      "link_id": "t3_1fi1ka5",
+      "parent_id": "t1_lnegek7"
+    },
+    {
+      "id": "ln9rxsm",
+      "body": "novi sad je lep :)",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726418499,
+      "score": 12,
+      "link_id": "t3_1fhdpme",
+      "parent_id": "t3_1fhdpme"
+    },
+    {
+      "id": "ln88fv9",
+      "body": "neki radnici nemaju izbora ovde i za to treba da odgovara poslodavac a ne oni",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726398512,
+      "score": 13,
+      "link_id": "t3_1fh5ek3",
+      "parent_id": "t1_ln87wp3"
+    },
+    {
+      "id": "ln86tq9",
+      "body": "odeš na master / doktorat u inostranstvo rešen problem",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726397522,
+      "score": 15,
+      "link_id": "t3_1fh5ek3",
+      "parent_id": "t1_ln84f15"
+    },
+    {
+      "id": "ln86oal",
+      "body": "hahah to je samo lupljen broj verovatno sam stariji od tebe... videćeš da svet nikada, pa ni u prošlosti nije tako crno beo kao što misliš jednog dana",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726397429,
+      "score": 6,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln8223m"
+    },
+    {
+      "id": "ln81xa2",
+      "body": "da, bilo ih je, ima ih i uvek će ih biti",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726394217,
+      "score": 6,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln7zgis"
+    },
+    {
+      "id": "ln81tho",
+      "body": "u tom slučaju ne vara radnik državu već poslodavac, radnik će ispaštati posledicu toga što poslodavac vara sistem i što država nema nikakve kontrole nad time",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726394142,
+      "score": 9,
+      "link_id": "t3_1fh5ek3",
+      "parent_id": "t1_ln80f4y"
+    },
+    {
+      "id": "ln7yjrl",
+      "body": "šta je s ljudima koji rade remote? ili sa studentima kojih dva meseca neučenja može da košta stipendije? opet nije pokrivena gomila slučaja kojima se ovo uopšte ne isplati čak i uz ovo",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726391767,
+      "score": 56,
+      "link_id": "t3_1fh5ek3",
+      "parent_id": "t1_ln7v7bq"
+    },
+    {
+      "id": "ln7y4xw",
+      "body": ">muskarci koji odu na vojni rok sigurno se nece zapitati da li bi hteli da budu zena ili da se trpaju u bulju\n\n\n\num... jesi siguran u to 🥴 naročito za ovo drugo 🥴",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726391466,
+      "score": 8,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln7wvxn"
+    },
+    {
+      "id": "ln571az",
+      "body": "živote robijo taman kad sam mislio da ne mogu više da ne želim u vojsku",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726347208,
+      "score": 12,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln46ur9"
+    },
+    {
+      "id": "ln3gs25",
+      "body": "id sam pa dobrovoljno odsluži ne bacaj nas pod autobus",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726327761,
+      "score": 19,
+      "link_id": "t3_1fgntd1",
+      "parent_id": "t1_ln3bveg"
+    },
+    {
+      "id": "ln37ik4",
+      "body": "svi ti eldžibiti će sigurno da postanu ,,normalni\" ako ih strpamo dva meseca da budu okruženi samo muškarcima i da ih stavimo da se tuširaju zajedni GOLI svaki dan 😍",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726324632,
+      "score": 65,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln2ypzb"
+    },
+    {
+      "id": "ln374i5",
+      "body": "banovali su te 70 puta dosad molim te poslovi.infostud.com",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726324495,
+      "score": 30,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln2vtlp"
+    },
+    {
+      "id": "ln2d3bu",
+      "body": "ne zapravo ovo je sve suprotno od feminizma, prava feministkinja je protiv obrazaca muškosti koji su zasnovani na militarizmu i nasilju",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726310594,
+      "score": 59,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t1_ln2cbmb"
+    },
+    {
+      "id": "ln2czet",
+      "body": "treba da se ide u vojsku da se zna šta je muškarac šta je žena RANIĆU SE ",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726310522,
+      "score": 389,
+      "link_id": "t3_1fgj0rx",
+      "parent_id": "t3_1fgj0rx"
+    },
+    {
+      "id": "ln2cfai",
+      "body": "srpska katy perry",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726310154,
+      "score": 9,
+      "link_id": "t3_1fghubi",
+      "parent_id": "t3_1fghubi"
+    },
+    {
+      "id": "lmycnug",
+      "body": "štark i nije ni blizu... jedini dobar slatkiš koji swisslion još uvek proizvodi su oni dupli keksi",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726246284,
+      "score": 31,
+      "link_id": "t3_1ffz7lo",
+      "parent_id": "t3_1ffz7lo"
+    },
+    {
+      "id": "lmu9jry",
+      "body": "može li malo više info o studijama u cirihu i daljem životu tamo, preciznije kako si se finansirao tamo i dobio posao posle? jedna od stvari koje sam planirao za budućnost je master u švajcarskoj ali nemam nigde info o ovome od nekog našeg",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726180634,
+      "score": 31,
+      "link_id": "t3_1ffcd8k",
+      "parent_id": "t1_lmtuyu7"
+    },
+    {
+      "id": "lmrd8qu",
+      "body": "zapad nas iskorišćava, i kina, i rusija, i svi, zato što im je to dopušteno",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726146381,
+      "score": 20,
+      "link_id": "t3_1fezm1h",
+      "parent_id": "t1_lmrb3ox"
+    },
+    {
+      "id": "lmrcxi5",
+      "body": "tebi za elona? verujem",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726146258,
+      "score": 1,
+      "link_id": "t3_1fdxjf1",
+      "parent_id": "t1_lmqpu3s"
+    },
+    {
+      "id": "lmowaca",
+      "body": "prijalo mi je dok nije svaki dan cela mreža bila preplavljena rasizmom i homofobijom",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726100272,
+      "score": 1,
+      "link_id": "t3_1fdxjf1",
+      "parent_id": "t1_lmohmd6"
+    },
+    {
+      "id": "lmof2xp",
+      "body": "čudo jedno kako verujete čoveku koji proizvodi automobile koji se pale sami od sebe i koji je otkupio celu društvenu mrežu da bi širio nacizam po njoj",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726093789,
+      "score": 2,
+      "link_id": "t3_1fdxjf1",
+      "parent_id": "t1_lmm6cd3"
+    },
+    {
+      "id": "lmkwpye",
+      "body": "sve to zvuči lepo ali ne verujem nijednom proizvodu dotičnog gospodina",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1726048157,
+      "score": -1,
+      "link_id": "t3_1fdxjf1",
+      "parent_id": "t3_1fdxjf1"
+    },
+    {
+      "id": "lmh733q",
+      "body": "srđan verbić, ministar prosvete",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725992759,
+      "score": 11,
+      "link_id": "t3_1fdoadl",
+      "parent_id": "t1_lmh6ewv"
+    },
+    {
+      "id": "lmfeui6",
+      "body": "ljudi u IT jedino imaju prođu upravo zato što ne rade na srpskom tržištu već šire...",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725971167,
+      "score": 44,
+      "link_id": "t3_1fdfyrn",
+      "parent_id": "t1_lmfc825"
+    },
+    {
+      "id": "lm3761l",
+      "body": "i'm actually shocked because i genuinely not know a single person that \"stans\" or even seriously listens to him at most he's just someone people put on playlists ",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1725788128,
+      "score": 14,
+      "link_id": "t3_1fbrpls",
+      "parent_id": "t1_lm348fw"
+    },
+    {
+      "id": "lm35qyw",
+      "body": "samo jedna se otvoreno svakodnevno plasira svim građanima srbije u cilju zastrašivanja i ispiranja mozga i mislim da nije zapadna ",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725787166,
+      "score": 29,
+      "link_id": "t3_1fbsk5o",
+      "parent_id": "t1_lm35cf2"
+    },
+    {
+      "id": "lm35h50",
+      "body": "to nema veze sa time da li je neko gej ili ne već sa lošom organizacijom",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725786974,
+      "score": 10,
+      "link_id": "t3_1fbfl90",
+      "parent_id": "t1_lm2wka1"
+    },
+    {
+      "id": "lly4udn",
+      "body": "znao i verovatno ne vučemo poreklo iz indije već iz stepa istočne evrope ili sa kavkaza / anatoline",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725713379,
+      "score": 3,
+      "link_id": "t3_1famc39",
+      "parent_id": "t1_llxmwl7"
+    },
+    {
+      "id": "llwziwb",
+      "body": "romi pripadaju indo arijevskoj grupi naroda i vuku poreklo iz indije",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725687538,
+      "score": 6,
+      "link_id": "t3_1famc39",
+      "parent_id": "t1_llvcu9z"
+    },
+    {
+      "id": "llm8wfk",
+      "body": "asistenti na fakultetu čuveni po svojim ogromnim platama",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725538626,
+      "score": 7,
+      "link_id": "t3_1f9jrv8",
+      "parent_id": "t1_llm5jbv"
+    },
+    {
+      "id": "lktm0hh",
+      "body": "hvala što si to podelila sa razredom",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725107116,
+      "score": 3,
+      "link_id": "t3_1f5j158",
+      "parent_id": "t1_lktaizk"
+    },
+    {
+      "id": "lkt5vvo",
+      "body": "1) letovanje u crnoj gori kada sam imao 5 godina i kada sam silno hteo da idem na one pedoline i roditelji su mi pristali na to... nije ništa veliko ali ostalo mi je u lepom sećanju\n\n\n2) ako se i ovo računa, završetak osmog razreda, poslednji dan škole, svi trče na teren pored i pake baklje, slave, šta već... samo ja jurim kući koliko god me noge nose na drugu stranu i razmišljam kako sam konačno slobodan od tog odvratnog društva koje me je maltretiralo i odbacivalo svakog dana... došao sam kući, nije biko nikog, samo sam uzeo i odvio ride od lane del rey na najjaču moguću jačinu... ispostavilo se da mi ni u srednjoj školi neće biti nešto naročito bolje... ali taj momenat je bio čista poezija, možda ne najsrećnije sećanje ali sigurno najlepše",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725097844,
+      "score": 16,
+      "link_id": "t3_1f5j158",
+      "parent_id": "t3_1f5j158"
+    },
+    {
+      "id": "lkpmy0z",
+      "body": "izvinite ali to što pravite reklamu o zaštiti životne sredine pomoću AI generisanja snimka koje iziskuje apsurdne količine energije je, u najmanju ruku, hipokritično",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1725042223,
+      "score": 3,
+      "link_id": "t3_1f4zv91",
+      "parent_id": "t3_1f4zv91"
+    },
+    {
+      "id": "lkiz2x4",
+      "body": "isto... imam osećaj da se previše forsira neovizantijski stil",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724949048,
+      "score": 1,
+      "link_id": "t3_1f2c0qj",
+      "parent_id": "t1_lkhggl5"
+    },
+    {
+      "id": "lkf5hz1",
+      "body": "jedini imaginarni problem ovde je to što smatraš da je homoseksualnost problem.",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724888895,
+      "score": 15,
+      "link_id": "t3_1f3l54a",
+      "parent_id": "t1_lkf3qsf"
+    },
+    {
+      "id": "lkf1ltl",
+      "body": "nemam šta da kažem osim da želim svu sreću tvom drugu i da se izvuče iz te situacije. sam Bog zna kako mu je trenutno, prolazi kroz broj jedan strah većine lgbtq+ ljudi na ovom prostoru. srce mi se slama i nadam se da jednog dana više niko nigde neće morati da prolazi kroz takav pakao",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724887547,
+      "score": 22,
+      "link_id": "t3_1f3l54a",
+      "parent_id": "t3_1f3l54a"
+    },
+    {
+      "id": "lkf1406",
+      "body": "nisi ni za kakvu prisilu, samo u startu smatraš da su priapdnici lgbtq+ bolesni, čime u samom startu izopštavaš ljude iz društva, nisi za zabranu, ali se zalažeš za neko ,,izlečenje\" jer smatraš da su bolesni, samo jer osećaju nešto što ti ne osećaš, nisi za ograničenje, ali smatraš da je homoseksualnost neki problem koji treba biti rešen, samim tim targetiraš celu populaciju kao neki ,,problem\" ",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724887376,
+      "score": 20,
+      "link_id": "t3_1f3l54a",
+      "parent_id": "t1_lkeuxgh"
+    },
+    {
+      "id": "lkezbop",
+      "body": ">što se tiče tvog mišljenja, verujem da je onda po tebi isto tako normalno i to što se neko loži na drveće, pa dođe i trlja se o drvo jer pobogu to je (lupam sad) BILJOIZAM, ili na životinje npr ANIMALIZAM,\n\n\nnije normalno! zato što u gej odnosu učestvuju dve odrasle osobe koje su dale pristanak na to za razliku od čega god da si ovde napisao! hope this helps!",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724886767,
+      "score": 5,
+      "link_id": "t3_1f3l54a",
+      "parent_id": "t1_lkev0la"
+    },
+    {
+      "id": "lkexmif",
+      "body": ">sigurno ga ne bih gledao istim očima i jako mi je teško da zamislim da bih to prihvatio kod njega.\n\n\n\nmeni je ovo jako strašno. ako ne pružiš svom detetu oslonac i podršku, ko će drugi? zašto misliš da zaslužuje da bude prihvaćeno samo ako ispunjava neki kriterijum? kako možeš da zamisliš sebe da odbaciš sopstveni dete zbog nečega što nije biralo?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724886185,
+      "score": 38,
+      "link_id": "t3_1f3l54a",
+      "parent_id": "t1_lkeud4d"
+    },
+    {
+      "id": "lkewhns",
+      "body": "1) šta tu ima da se ,,pomogne\"\n\n\n2) ti centri za ,,preobraćanje\" NIKOME nisu ,,pomogli\", samo su istraumirali ljude za život i upropastili ih mentalno",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724885804,
+      "score": 37,
+      "link_id": "t3_1f3l54a",
+      "parent_id": "t1_lkev1f4"
+    },
+    {
+      "id": "lk5oitr",
+      "body": "bukv",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724757328,
+      "score": 2,
+      "link_id": "t3_1f1isjt",
+      "parent_id": "t1_lk5bj45"
+    },
+    {
+      "id": "lk5ohpx",
+      "body": "možda nije 100% u duhu pravoslavlja, ali meni su ovi barokni manastiri nešto najlepše što imamo u državi",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724757312,
+      "score": 2,
+      "link_id": "t3_1f2c0qj",
+      "parent_id": "t3_1f2c0qj"
+    },
+    {
+      "id": "ljzwpy4",
+      "body": "nepopularno mišljenje ali nije dragan nikolić bio toliko fizički lep više je imao fazon",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724671703,
+      "score": 10,
+      "link_id": "t3_1f1isjt",
+      "parent_id": "t1_ljzelng"
+    },
+    {
+      "id": "ljzw6zx",
+      "body": "[neironično vojvoda živojin mišić](https://i.pinimg.com/236x/54/2d/80/542d80dba0fc265199d75ceb9d05d1e9.jpg)\n\n\nod trenutnih rekao bih slaven došlo",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724671439,
+      "score": 31,
+      "link_id": "t3_1f1isjt",
+      "parent_id": "t3_1f1isjt"
+    },
+    {
+      "id": "ljp7h3h",
+      "body": "moja najbolja drugarica",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724505274,
+      "score": 1,
+      "link_id": "t3_1f01gr8",
+      "parent_id": "t3_1f01gr8"
+    },
+    {
+      "id": "ljidk7h",
+      "body": "više i ovo s opozicijom i ,,rasterivanjem naroda\" je svima probilo glavu. ako je ljudima toliko krivo da se protestu priključi političar kojeg ne vole do tačke da ne žele više da budu na protestu samo znači da im nije ni stalo do protesta",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724397476,
+      "score": 31,
+      "link_id": "t3_1eyzvaq",
+      "parent_id": "t1_ljhc0gj"
+    },
+    {
+      "id": "lj8f4w2",
+      "body": "that could've been SOPHIE...",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1724258026,
+      "score": 213,
+      "link_id": "t3_1exr82p",
+      "parent_id": "t1_lj85cjr"
+    },
+    {
+      "id": "lj75f4q",
+      "body": "zlatibor pa sto mesta prazno",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724242613,
+      "score": 6,
+      "link_id": "t3_1exl7ji",
+      "parent_id": "t3_1exl7ji"
+    },
+    {
+      "id": "lj756ht",
+      "body": "ne znam, ostali lokali u skadarliji su mi poprilično ok sa cenom",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724242511,
+      "score": 13,
+      "link_id": "t3_1exl7ji",
+      "parent_id": "t1_lj6mhqi"
+    },
+    {
+      "id": "lix73pm",
+      "body": "ah da jedini izbor novak đoković ili krimosi iz 90-ih 😍",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724095659,
+      "score": 6,
+      "link_id": "t3_1ew7jkq",
+      "parent_id": "t1_liwn9ge"
+    },
+    {
+      "id": "liw8u48",
+      "body": ">Činjenica - ima mnogo više takvih matematicara a Novak je jedan jedini.\n\n\nda, samo je poenta da nikome ne treba broj 1 teniser na svetu da im bude teniser, ali zato top 100 matematičara, pa i top 1000 (kako god da bi se matematičari rangirali, mislim da to nije baš moguće) su potrebni svetskim univerzitetima i institutima i sramotno je što kod nas takva deca nemaju nikakve šanse za prosperitet ili da vode naučno tehnološki napredak ove zemlje već za to moraju da idu van granica, često zauvek. primeri kao fon burg su retki, ostao je da bi učio sledeće generacije na srednjoškolskom nivou iako je mogao (i trebao) više",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724084741,
+      "score": 1,
+      "link_id": "t3_1ew1gv1",
+      "parent_id": "t1_liw091u"
+    },
+    {
+      "id": "liw4r1z",
+      "body": ">na moj život veći uticaj medalja Djokovica nego fizičara\n\n\n0 = 0",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1724083446,
+      "score": 5,
+      "link_id": "t3_1ew1gv1",
+      "parent_id": "t1_liw091v"
+    },
+    {
+      "id": "lipo5fe",
+      "body": "nije mi jasno kako je gruzija pri vrhu a jermenija pri dnu a poprilično su slične države",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723987292,
+      "score": 22,
+      "link_id": "t3_1ev7wpb",
+      "parent_id": "t3_1ev7wpb"
+    },
+    {
+      "id": "lip66ks",
+      "body": "kada se ovo već desilo sa linglongom svi su ćutali",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723978309,
+      "score": 32,
+      "link_id": "t3_1ev5keh",
+      "parent_id": "t3_1ev5keh"
+    },
+    {
+      "id": "lionur0",
+      "body": "ta dva se međusobno ne isključuju",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723965973,
+      "score": 5,
+      "link_id": "t3_1ev0y1b",
+      "parent_id": "t1_liokw8t"
+    },
+    {
+      "id": "lion1z5",
+      "body": "šta da kažem, uvek se nađu ,,prosvećeni\" koji žele da slušaju obe strane zato što misle da je sloboda govora kada dopustiš bilo kome da priča bez obzira koliko je ta ideja apsurdna i štetna i na prvom mestu BESMISLENA. sloboda govora je stvaranje atmosfere u kojem se svako oseća sigurno da iznese mišljenje na slobodno tržiste ideja i gde drugi mogu da sude da li je ideja dobra ili njesra, bar po meni",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723965455,
+      "score": 7,
+      "link_id": "t3_1ev0y1b",
+      "parent_id": "t1_liolxzm"
+    },
+    {
+      "id": "liom6kx",
+      "body": "nećeš te ljude nikad ,,preobratiti\", direktni sukob s njima je gubljenje vremena. ono što je potrebno je edukovati masu i argumentovati zašto grupa xy ne zaslužuje pažnju niti medijski prostor, što dalje povlači da je needukovana masa bez razvijenig kritičkog mišljenja jedan od najvećih problema današnjice jer je podložna svakakvoj propagandi, pa i poricanju holokausta o kojem ovde pričamo",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723964893,
+      "score": 6,
+      "link_id": "t3_1ev0y1b",
+      "parent_id": "t1_liol4st"
+    },
+    {
+      "id": "liol127",
+      "body": "to za demantovanje bi bilo super kada bi zapravo radilo ali očigledno u današnje vreme ne radi i uvek će se naći grupa koja će slepo podržavati ideju bilo da je dobra ili najgora na svetu... tako da ne radije bih sasekao to u korenu",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723964167,
+      "score": 12,
+      "link_id": "t3_1ev0y1b",
+      "parent_id": "t1_liokkx7"
+    },
+    {
+      "id": "liok74w",
+      "body": "mislim da ne moramo da čujemo drugu stranu ako je ona poklala 6 miliona nedužnih ljudi :/",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723963652,
+      "score": 26,
+      "link_id": "t3_1ev0y1b",
+      "parent_id": "t1_liojob3"
+    },
+    {
+      "id": "likutw4",
+      "body": "zapravo pravilnije bi bilo new plantation, kao što je naziv grada na latinskom neoplanta",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723909570,
+      "score": 2,
+      "link_id": "t3_1etmmmg",
+      "parent_id": "t1_lif764c"
+    },
+    {
+      "id": "li4c1ry",
+      "body": "kinda late to the party but this is what i have for serbia 🇷🇸\n\n\nfor pop icons we undoubtedly have [ceca](https://youtu.be/-fL-X-f1xBg?si=VIFSFmjqr8XoL3sl), she's basically the maddona of serbia and has been popular ever since the 90s, but at the same time a highly controversial figure due to her heavy links with paramilitary and mafia (her husband was the biggest serbian warlord during the yugoslav wars)\n\n\nnext (very debatably) pop icon is [jelena karleuša](https://youtu.be/SRwr4I4_cQg?si=8a78BDTOK4yOX1Oj), she started in 90s used to be very popular in the 00s but since then she is mostly relevant due to having beef with every living being in serbia and surrounding region and writing azealia banks level essays on her instagram stories (i would argue she's even worse than her 😭) she has always tried to be progressive and futuristic with her image and is one of the first public figures to support the LGBTQ+ community in serbia and to have a stan twitter fanbase 😭\n\n\nnow for the current main pop girls:\n\n\nthe most famous pop girl in the region rn is probably [aleksandra prijović](https://youtu.be/8Ym7kBN0eAY?si=Eg-O2xIO7PmfldFX) she's an amazing vocalist and is known for heartbreaking ballads, she has been filling arenas EVERYWHERE atp she's basically the taylor swift of serbia\n\n\nnext is [tea tairović](https://youtu.be/bor0Nuv90GY?si=uWMSdx9AgyWw8wgd) she's also a good vocalist and a great dancer too, her style of music is actually kinda 00s turbofolk throwback (which was an amazing time for pop music / turbofolk in serbia) and she gained popularity based on that\n\n\nfinally we have [milica pavlović](https://youtu.be/NJYMsitZPks?si=BkLMJuq9AazaEfrN) i don't really listen to her that much but she's probably makes the poppiest music out of these three",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1723662637,
+      "score": 2,
+      "link_id": "t3_1ernx2p",
+      "parent_id": "t3_1ernx2p"
+    },
+    {
+      "id": "li48h7e",
+      "body": "what about ayliva from current popstars? i've seen my geman twitter oomfs go crazy for her",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1723661510,
+      "score": 1,
+      "link_id": "t3_1ernx2p",
+      "parent_id": "t1_li1cslx"
+    },
+    {
+      "id": "li48864",
+      "body": "ayliva?",
+      "author": "asdfmoon2012",
+      "subreddit": "popheads",
+      "created_utc": 1723661433,
+      "score": 1,
+      "link_id": "t3_1ernx2p",
+      "parent_id": "t1_li1kmvx"
+    },
+    {
+      "id": "lhsw9ji",
+      "body": "jel sad svaka osoba koja sluša stranu muziku državni neprijatelj 😭",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723494318,
+      "score": 29,
+      "link_id": "t3_1eqn8zu",
+      "parent_id": "t1_lhsszzk"
+    },
+    {
+      "id": "lhqopz6",
+      "body": "oba su loša",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723468737,
+      "score": 1,
+      "link_id": "t3_1eq7opq",
+      "parent_id": "t1_lhpwj28"
+    },
+    {
+      "id": "lh99vor",
+      "body": "ja još ne mogu da se oporavim od onih vesti o otkazivanju koncerta taylor swift u beču zbog najave o terorističkom napadu... koja je ono tragedija mogla da bude",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723201793,
+      "score": 1,
+      "link_id": "t3_1enp2ro",
+      "parent_id": "t3_1enp2ro"
+    },
+    {
+      "id": "lh2agkj",
+      "body": "what's gay in walking in front of people in your underwear 😭",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723094637,
+      "score": 10,
+      "link_id": "t3_1emxf71",
+      "parent_id": "t1_lh28qn7"
+    },
+    {
+      "id": "lgyqmk9",
+      "body": "taj film ćemo gledati nikad bojim se",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1723049342,
+      "score": 12,
+      "link_id": "t3_1emblyf",
+      "parent_id": "t1_lgyktzy"
+    },
+    {
+      "id": "lgmiutu",
+      "body": "da samo što se njima ne uplaćuje penzioni fond niti staž niti bilo škoji benefit koji ostali što plaćaju porez dobijaju",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722873603,
+      "score": 0,
+      "link_id": "t3_1ekmmhf",
+      "parent_id": "t1_lgluclo"
+    },
+    {
+      "id": "lg3e94g",
+      "body": "nevezano ali moje mišljenje o sportu je nekako opalo još više posle ovog komentara",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722574387,
+      "score": -1,
+      "link_id": "t3_1ehmbu8",
+      "parent_id": "t1_lg0mol0"
+    },
+    {
+      "id": "lg05cug",
+      "body": ">Ivo Andric i Desanka Maksimovic se prevrcu u gorbu od toga sta se sve danas ne naziva piscem\n\n\nfun fact mir jam prethodi i andriću i desanki maksimović ",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722532164,
+      "score": 9,
+      "link_id": "t3_1ehh02p",
+      "parent_id": "t1_lfz92c1"
+    },
+    {
+      "id": "lg04ege",
+      "body": ">Isto imam headcanon da pošto Neda iz greha zna nemački ona za vreme rata postaje tajni agent koji prenosi tajne Nemaca partizanima, ali niko ne može da je prepozna zbog one perike. ;)\n\n\nmir jam serije headcannons al ti imaš slobodnog vremena 😭",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722531862,
+      "score": 4,
+      "link_id": "t3_1ehh02p",
+      "parent_id": "t1_lfzr778"
+    },
+    {
+      "id": "lfvphzx",
+      "body": "opravdanje za degutantno ponašanje: mi smo takav narod... okeeeej",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722462001,
+      "score": 27,
+      "link_id": "t3_1egwlae",
+      "parent_id": "t1_lfvjt7k"
+    },
+    {
+      "id": "lfsruu8",
+      "body": "slomio je nogu ne ruku",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722426538,
+      "score": 2,
+      "link_id": "t3_1egg91j",
+      "parent_id": "t1_lfs66pd"
+    },
+    {
+      "id": "lfofyle",
+      "body": "posle linglonga i zrenjanin će nadmašiti zrenjanin",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722359947,
+      "score": 56,
+      "link_id": "t3_1efy4ne",
+      "parent_id": "t1_lfob8d9"
+    },
+    {
+      "id": "lfil4w7",
+      "body": "r/NothingEverHappens",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722273414,
+      "score": 10,
+      "link_id": "t3_1ef3sxl",
+      "parent_id": "t1_lfigbaw"
+    },
+    {
+      "id": "lfhkhz4",
+      "body": "[zašto ne oba](https://images.24ur.com/media/images/424xX/May2010/60463580.jpg?v=d41d)",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722261241,
+      "score": 5,
+      "link_id": "t3_1eezlxb",
+      "parent_id": "t1_lfhjdeb"
+    },
+    {
+      "id": "lfh3s1r",
+      "body": "da ali ako ćemo da pričamo o arhitekturi očigledno nam je to najjači adut, a ne vračar historical",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722254206,
+      "score": 1,
+      "link_id": "t3_1ee42p1",
+      "parent_id": "t1_lfely26"
+    },
+    {
+      "id": "lfg0lic",
+      "body": "jel to isto važi i za brutalizam na zapadu (npr mnogi gradovi u velikoj britaniji) ili samo za nas?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722229228,
+      "score": 1,
+      "link_id": "t3_1ee42p1",
+      "parent_id": "t1_lfdjtw9"
+    },
+    {
+      "id": "lfcxen5",
+      "body": "ukucaj belgrade architecture na google i gledaj šta će ti izaći",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722185234,
+      "score": 8,
+      "link_id": "t3_1ee42p1",
+      "parent_id": "t1_lfc5d38"
+    },
+    {
+      "id": "lfbq0dt",
+      "body": "sve bi to bilo super samo što je beograd u svetu poznat po brutalističkoj arhitekturi i privlači gomile turista zbog toga, a ne po secesiji / art nouveau stilu u kojem je bio većinski izgrađen pre drugog svetskog grada. šteta je što su komunisti uništili taj deo nasleđa grada, i upravo zato je šteta uništiti i ovaj",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1722168118,
+      "score": 2,
+      "link_id": "t3_1ee42p1",
+      "parent_id": "t1_lfbofeg"
+    },
+    {
+      "id": "lf0qhui",
+      "body": "kratak odgovor: ne baš\n\n\ndugačak odgovor: zavisi od smera do smera i od fakulteta do fakulteta, ali uglavnom beograd i novi sad su istog ranga, za niš i kragujevac iskreno nisam čuo ali siguran sam da imaju dobre fakultete i odseke. jedna stvar koja se u na nekim fakultetima u beogradu preterano potencira su neki zastareli planovi i programi i veštačko otežavanje ispita i uslova studiranja, npr. MATF u beogradu i PMF NS smer matematika su oba dobri fakulteti, ali u novom sadu imaš više ispitnih rokova i prilagođen je programima u inostranstvu (osnovne i master su 3 + 2 a ne 4 + 1). dalje ETF SI i FTN SIIT su oba odlični smerovi s kojih izlaze stručnjaci ali na ETF svake godine od 240 studenata njih 36 je na budžetu (30 u prvoj god) dok na FTN je u prvoj godini od 80 njih 40 upada na budžet i mislim da u daljim godinama svi mogu upasti na budžet (ispravite me ako grešim)",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1721994822,
+      "score": 3,
+      "link_id": "t3_1ec8447",
+      "parent_id": "t3_1ec8447"
+    },
+    {
+      "id": "leuy65q",
+      "body": "metod tri koverte avokado edišn",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1721909564,
+      "score": 5,
+      "link_id": "t3_1ebhme1",
+      "parent_id": "t1_leugou1"
+    },
+    {
+      "id": "ldlr7p6",
+      "body": "ko je ovde uopšte pomenuo tejlor svift?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1721221273,
+      "score": -7,
+      "link_id": "t3_1e5b5t2",
+      "parent_id": "t1_ldlgyyj"
+    },
+    {
+      "id": "ldlaak7",
+      "body": "nije kul",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1721213357,
+      "score": -12,
+      "link_id": "t3_1e5b5t2",
+      "parent_id": "t1_ldl03ft"
+    },
+    {
+      "id": "ldla8x0",
+      "body": "u beogradu koji se raspada sa gradskim prevozom kad si u žurbi malo i nemaš",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1721213331,
+      "score": 6,
+      "link_id": "t3_1e5ap5o",
+      "parent_id": "t1_ldl41z3"
+    },
+    {
+      "id": "ldi9tfe",
+      "body": "koja epizoda sunđer boba je ovo",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1721162382,
+      "score": 8,
+      "link_id": "t3_1e4xrgz",
+      "parent_id": "t3_1e4xrgz"
+    },
+    {
+      "id": "ldgp5d2",
+      "body": ">Jedina firma gde sam dobio leetcode je svima nama cuvena firma sto ima \"8 krugova intervjua\", i hvala bogu sto tamo nisam upao, sad su u rasulu.\n\n\nkoja je firma u pitanju? nisam toliko upućen",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1721144034,
+      "score": 1,
+      "link_id": "t3_1e38or4",
+      "parent_id": "t1_ld78pyl"
+    },
+    {
+      "id": "ld1087m",
+      "body": "etf je dobar fakultet i ima smerove koji su trenutno popularni, ali jel toliko odudara od svih ostalih fakulteta u državi? ne, imaš gomilu drugih fakulteta i smerova koji su na nivou etfa (matf, ftn siit i e1 s vrha glave) dobar deo popularnosti etfa je što je u beogradu i šo ga bije glas da je ,,elitni fakultet\" zbog svoje težine... mada nekad to dobrim delom nije zbog gradiva već jer su ispiti veštački otežani i uslovi studiranja su surovi",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1720896738,
+      "score": 7,
+      "link_id": "t3_1e2guge",
+      "parent_id": "t3_1e2guge"
+    },
+    {
+      "id": "lctd50u",
+      "body": "ni njih ni za linglong... tišina",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1720780815,
+      "score": 1,
+      "link_id": "t3_1e1060l",
+      "parent_id": "t1_lcqq3qw"
+    },
+    {
+      "id": "lchmrti",
+      "body": "verovatno jer u inostranstvu osnovne studije uglavnom traju 3 godine a master 2 a ne 4+1 kao kod nas",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1720606519,
+      "score": 1,
+      "link_id": "t3_1dz85qs",
+      "parent_id": "t3_1dz85qs"
+    },
+    {
+      "id": "lc8qf9o",
+      "body": "love the caucasus, i would love to visit georgia one day (armenia too) also nutsa buzaladze was ROBBED on eurovision this year",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1720468423,
+      "score": 4,
+      "link_id": "t3_1dyfklu",
+      "parent_id": "t3_1dyfklu"
+    },
+    {
+      "id": "lbwxnfq",
+      "body": "ali zašto ide crystal castles u pozadini 😭😭😭",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1720284326,
+      "score": 4,
+      "link_id": "t3_1dwt1m1",
+      "parent_id": "t3_1dwt1m1"
+    },
+    {
+      "id": "lbqejtl",
+      "body": "da li si razmišljala možda da upišeš geodeziju / geoinformatiku?",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1720181677,
+      "score": 4,
+      "link_id": "t3_1dvvh0w",
+      "parent_id": "t3_1dvvh0w"
+    },
+    {
+      "id": "lblyyf2",
+      "body": "ako planiraš da se prebaciš pogledaj plan i program i vidi koji studijski program ima više zajedničkih predmeta sa psihologijom u prvoj godini",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1720107287,
+      "score": 1,
+      "link_id": "t3_1dv38zm",
+      "parent_id": "t3_1dv38zm"
+    },
+    {
+      "id": "lbccwdl",
+      "body": "političari zato što nisu omogućili pristojne uslove života. hope this helps 🤍",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1719953423,
+      "score": 0,
+      "link_id": "t3_1dtnsoc",
+      "parent_id": "t1_lbbmsm3"
+    },
+    {
+      "id": "lb9fjzh",
+      "body": "jel neko imao iskustva sa ovim A1 pametnim putnim osiguranjem? ići ću na neki put gde mi nije potrebno i interesuje me jel zaista može da se otkaže ili je to prevara",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1719913928,
+      "score": 2,
+      "link_id": "t3_1dtbmjm",
+      "parent_id": "t3_1dtbmjm"
+    },
+    {
+      "id": "lavlm56",
+      "body": "ftn definitivno, koliko ja znam nema ograničenja koliko studenata može biti na budžetu za razlimu od etfa, ispravite me ako grešim",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1719690470,
+      "score": 2,
+      "link_id": "t3_1dr7nz1",
+      "parent_id": "t1_laugymm"
+    },
+    {
+      "id": "la6u0y6",
+      "body": "bukvalno dao bih sve pare koje imam da odem na njen koncert",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1719313954,
+      "score": 1,
+      "link_id": "t3_1dn88vg",
+      "parent_id": "t1_la4dyfi"
+    },
+    {
+      "id": "la0yt2f",
+      "body": "ok nek sledeća britanska osoba koja dolazi bude charli xcx",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1719221851,
+      "score": -14,
+      "link_id": "t3_1dn88vg",
+      "parent_id": "t3_1dn88vg"
+    },
+    {
+      "id": "l9dhtut",
+      "body": "da zapravo...",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1718834626,
+      "score": 1,
+      "link_id": "t3_1disudx",
+      "parent_id": "t1_l983wgd"
+    },
+    {
+      "id": "l8wbcls",
+      "body": "ISKLJUČIVO hannah montana linux",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1718564629,
+      "score": 11,
+      "link_id": "t3_1dhc9ac",
+      "parent_id": "t3_1dhc9ac"
+    },
+    {
+      "id": "l8vz4ry",
+      "body": "zato što ono nije malo postrojenje za proizvodnju guma, ono je ceo kompleks fabrika veličine knez mihajlove, pri proizvodnji gume se oslabađa mnoštvo visoko toksičnih i mutagenih supstanci, što je ovde naročito loše jer se kompleks nalazi na obradivom zemljištu",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1718560057,
+      "score": 7,
+      "link_id": "t3_1dh3wio",
+      "parent_id": "t1_l8v7apa"
+    },
+    {
+      "id": "l8urzxq",
+      "body": "a šta je tek s linglongom koji je katastrofa jednake (možda i veće) razmere nego rio tinto ali se niko ne buni ni pola?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1718542814,
+      "score": 14,
+      "link_id": "t3_1dh3wio",
+      "parent_id": "t3_1dh3wio"
+    },
+    {
+      "id": "l88kq6n",
+      "body": "a gde će posle mga?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1718177320,
+      "score": 5,
+      "link_id": "t3_1ddji7y",
+      "parent_id": "t1_l86yxol"
+    },
+    {
+      "id": "l5vo9vh",
+      "body": "da zapravo, živeli bismo bolje kada narod ne bi bio 100% vremena bombardovan propagandom... mašiš poentu",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1716816218,
+      "score": 15,
+      "link_id": "t3_1d1nqi6",
+      "parent_id": "t1_l5vnfjn"
+    },
+    {
+      "id": "l5722c9",
+      "body": "koji je fazon sa ovim novim lancem supermarketa MixMart? (ili kako već) koliko gledam to je neki nemački lanac koji se bavi distribucijom istočnoevropskih proizvoda? stalno mi izlaze na instagramu i reklame su im nivoa svetofor ali sami proizvodi izgledaju interesantno... šta kažete",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1716397358,
+      "score": 2,
+      "link_id": "t3_1cxq7cg",
+      "parent_id": "t3_1cxq7cg"
+    },
+    {
+      "id": "l3t67iv",
+      "body": "pojeli + endovali breskvicu",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1715576149,
+      "score": 6,
+      "link_id": "t3_1cq7d4b",
+      "parent_id": "t3_1cq7d4b"
+    },
+    {
+      "id": "l3cnn9d",
+      "body": "znaš kako kažu u narodu: davljenik se za slamku hvata, a ovaj nečovek je to iskoristio",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1715294505,
+      "score": 12,
+      "link_id": "t3_1co9rs0",
+      "parent_id": "t1_l3cmtxn"
+    },
+    {
+      "id": "kzwre9i",
+      "body": "ovo nije ,,engleski sa srpskim akcentom\" ovo je pokušaj nekog jakog emocionalnog nastupa koji izgleda kao žalosna karikatura umesto da je normalno i smireno rekla ono što je imala kako doliči jednom članu evropskog parlamenta",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1713311030,
+      "score": 54,
+      "link_id": "t3_1c5rab4",
+      "parent_id": "t1_kzw5by2"
+    },
+    {
+      "id": "kznm344",
+      "body": "koliko ja znam jedini državni za to kod nas je beogradska politehnika, neka me neki ispravi ako grešim",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1713173624,
+      "score": 1,
+      "link_id": "t3_1c2nqoq",
+      "parent_id": "t3_1c2nqoq"
+    },
+    {
+      "id": "kz7w9cv",
+      "body": "kolonijalizam se otvoreno kritikuje i osuđuje u zapadnjačkim zemljama koliko god određeni ljudi ovde govore da se gura pod tepih",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1712921986,
+      "score": 5,
+      "link_id": "t3_1c25p95",
+      "parent_id": "t1_kz7sxqf"
+    },
+    {
+      "id": "kyw6nsw",
+      "body": "egipat prethodi antičkom periodu više nego što antički period prethodi nama",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1712736943,
+      "score": 5,
+      "link_id": "t3_1c01kwy",
+      "parent_id": "t1_kytt2qj"
+    },
+    {
+      "id": "kyiymj0",
+      "body": "ako je i novi sad u opticaju FTN SIIT je isto odličan izbor za manju cenu",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1712524574,
+      "score": 0,
+      "link_id": "t3_1by8fmh",
+      "parent_id": "t1_kyho9lv"
+    },
+    {
+      "id": "kxto69x",
+      "body": "jeste evo ETF je hiperboreja svi imaju platu 10000€ kad završe dok svi ostali zabodu biro 5 godina",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1712131498,
+      "score": 1,
+      "link_id": "t3_1btj8dq",
+      "parent_id": "t1_kxqqkv6"
+    },
+    {
+      "id": "kxdk34j",
+      "body": "ne al problem je što bukvalno ne možeš naći lepu odeću kod nas bez obzira na cenu na kraju je ljudima najlakše da kupuju skupe trenerke nego da razvijaju svoj stil",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1711877651,
+      "score": 1,
+      "link_id": "t3_1brppdp",
+      "parent_id": "t1_kxauvzy"
+    },
+    {
+      "id": "kwpr1k9",
+      "body": "ja još uvek čekam kada će opet nekog kvalitetnog pop izvođača i taj dan će očigledno biti nikad naravno poziva se samo 5 istih djeva u lrug",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1711493019,
+      "score": 1,
+      "link_id": "t3_1bociuq",
+      "parent_id": "t3_1bociuq"
+    },
+    {
+      "id": "kwbgq6m",
+      "body": "ja kad lažem",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1711272686,
+      "score": 11,
+      "link_id": "t3_1blx99n",
+      "parent_id": "t1_kwbgd3p"
+    },
+    {
+      "id": "kw7w74l",
+      "body": "ja ne znam gde vi iskopavate ove ljude ni zašto gomila ljudi na ovom subredditu ima potrebu da glumi apokaliptičku sektu kako ćemo svi u it da osatenemo na ulici i umremo od gladi",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1711213380,
+      "score": 7,
+      "link_id": "t3_1blp5i6",
+      "parent_id": "t3_1blp5i6"
+    },
+    {
+      "id": "kvm3ave",
+      "body": "slay",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1710872063,
+      "score": 9,
+      "link_id": "t3_1bin4im",
+      "parent_id": "t1_kvlojdu"
+    },
+    {
+      "id": "ku6vd27",
+      "body": "me and the girls",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1710054918,
+      "score": 1,
+      "link_id": "t3_1badoqc",
+      "parent_id": "t3_1badoqc"
+    },
+    {
+      "id": "ktuq71f",
+      "body": "!RemindMe 1 year",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1709861871,
+      "score": 1,
+      "link_id": "t3_1b6pa9w",
+      "parent_id": "t1_ktqjsnv"
+    },
+    {
+      "id": "ktp01jh",
+      "body": "jeste evo svi koji su završili ftn siit se sada toliko muče nemaju hleba da jedu i otišli su na bauštelu u nemačku da bi se prehranili",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1709771642,
+      "score": 5,
+      "link_id": "t3_1b6pa9w",
+      "parent_id": "t1_ktm9yll"
+    },
+    {
+      "id": "ktmxns7",
+      "body": "top 1 laž koju sma pročitao danas",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1709746325,
+      "score": 1,
+      "link_id": "t3_1b7d8ri",
+      "parent_id": "t1_ktmfe6j"
+    },
+    {
+      "id": "ks2mxk1",
+      "body": "jel se ovo u hrvatskoj uvodi vojni rok???? sad mi je izašlo ja ništa ne kontam samo da naši sad ne dobiju ideju poslednje što mi treba je vojska",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1708872976,
+      "score": 2,
+      "link_id": "t3_1azei3i",
+      "parent_id": "t3_1azei3i"
+    },
+    {
+      "id": "ks2mae6",
+      "body": ">Dating market je postao globalizovan. I zenska hipergamska,priskuititna priroda je oslobodjena, i bila je oslobodjena jos od seksualne revolucije...\n\n>Nek nam je bog u pomoci\n\nredditlije nemojte prosipati mizoginiju challenge failed",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1708872719,
+      "score": -2,
+      "link_id": "t3_1azmk3u",
+      "parent_id": "t1_ks278m0"
+    },
+    {
+      "id": "kqto8je",
+      "body": "ovo me je navelo na razmišljanje... koliko nepotrebnog otpada stvara konzumerizam povodom dana zaljubljenih",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1708169274,
+      "score": 95,
+      "link_id": "t3_1asz3l2",
+      "parent_id": "t3_1asz3l2"
+    },
+    {
+      "id": "kqowaq8",
+      "body": "možda upadam u teorije zavere ali počinjem da mislim da su ovakvi ljudi na twitteru podmetačina koja služi da odbiju ljude od levičarskih stranaka... pošto ih je previše",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1708094510,
+      "score": -16,
+      "link_id": "t3_1as9k5j",
+      "parent_id": "t3_1as9k5j"
+    },
+    {
+      "id": "kprs7xn",
+      "body": "melodija je ista kao 100 istih novokomponovanih etno pesama, produkcija je previše glasna i haotična, tekst još i nekako može da prođe, iako je jeftin pokušaj nacionalizma, a i pitanje je da li će breskvica pogoditi sve note kad bude uživo pevala",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1707566213,
+      "score": 24,
+      "link_id": "t3_1andmv4",
+      "parent_id": "t1_kprpuk9"
+    },
+    {
+      "id": "kpoaajt",
+      "body": "ja se iskreno nadam da će u veoma skorijoj budućnosti da se uvedu OGROMNE kazne za AI pornografiju, naročito što će se sad u SAD postaviti presedan nakon slučaja sa AI pornografijom taylor swift i što će onda verovatno i druge države (pa nadam se i srbija) ispratiti takvu odluku i u svojim zakonima",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1707505271,
+      "score": 39,
+      "link_id": "t3_1amsabg",
+      "parent_id": "t3_1amsabg"
+    },
+    {
+      "id": "kpipycj",
+      "body": "nažalost znam... pomislio sam da kaže jer je čovek koji je popularizovao tu tehniku amerikanac... mada ne znam nadam se da nije ono u pitanju",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1707417007,
+      "score": 1,
+      "link_id": "t3_1alwrr1",
+      "parent_id": "t1_kpip34q"
+    },
+    {
+      "id": "kpiofne",
+      "body": "kakve veze ima što je žena?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1707416505,
+      "score": 7,
+      "link_id": "t3_1alwrr1",
+      "parent_id": "t1_kpi1luu"
+    },
+    {
+      "id": "kpaz3qx",
+      "body": "1) učenici albanske nacionalnosti već mogu da pohađaju škole u bujanovcu i preševu na svom maternjem jeziku\n\n\n2) kakve veze ovo ima sa bilo čime 😭 jedno je SAD drugo smo mi ovde",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1707293140,
+      "score": 17,
+      "link_id": "t3_1akko00",
+      "parent_id": "t1_kpaxpjg"
+    },
+    {
+      "id": "kor57ki",
+      "body": "pov niste upoznali nijednu lgbtq+ osobu u životu",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706977862,
+      "score": 24,
+      "link_id": "t3_1ahxz6p",
+      "parent_id": "t1_koqxx3t"
+    },
+    {
+      "id": "kon5h9q",
+      "body": "ako si mislio na biomedicinski inženjering, s time tek nema posla",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1706907388,
+      "score": 3,
+      "link_id": "t3_1ah1nly",
+      "parent_id": "t1_kokt5hq"
+    },
+    {
+      "id": "koftvg2",
+      "body": "za koga su ti 2/3 inače?",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706798376,
+      "score": 3,
+      "link_id": "t3_1agb0wk",
+      "parent_id": "t1_kofsin6"
+    },
+    {
+      "id": "kofszce",
+      "body": "deveta isto",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706798025,
+      "score": 8,
+      "link_id": "t3_1agalm7",
+      "parent_id": "t1_kofk5gi"
+    },
+    {
+      "id": "koc2a7a",
+      "body": "kratak odgovor: ne\n\n\ndugačak odgovor: neeeeeeeeeeeeeeeeeeeeeee",
+      "author": "asdfmoon2012",
+      "subreddit": "StudentiSrbija",
+      "created_utc": 1706733832,
+      "score": 20,
+      "link_id": "t3_1afrk2x",
+      "parent_id": "t3_1afrk2x"
+    },
+    {
+      "id": "ko903yt",
+      "body": "depresivni su ali ćute",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706683572,
+      "score": 2,
+      "link_id": "t3_1aeyaf6",
+      "parent_id": "t1_kkbmj52"
+    },
+    {
+      "id": "kk8j7c5",
+      "body": "vasko žabata 😳😳😳",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706606661,
+      "score": 48,
+      "link_id": "t3_1ae7xx0",
+      "parent_id": "t1_kk89fav"
+    },
+    {
+      "id": "kjl9tdv",
+      "body": "vukov standardni jezik... je zasnovan... na narodnom dijalektu... srbije...",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706231120,
+      "score": 8,
+      "link_id": "t3_19fb230",
+      "parent_id": "t1_kjl6go3"
+    },
+    {
+      "id": "kjbzakq",
+      "body": "treba valjda malo i znati kako kod funkcioniše iznutra, nije poenta samo imati ugrađene funkcije za sve i koristiti sve napamet",
+      "author": "asdfmoon2012",
+      "subreddit": "programiranje",
+      "created_utc": 1706092572,
+      "score": 5,
+      "link_id": "t3_19dv0ty",
+      "parent_id": "t1_kjbqqv7"
+    },
+    {
+      "id": "kj7c7ve",
+      "body": "meni je prosto više postalo neverovatno koliko je ova žena zla",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1706022953,
+      "score": 1,
+      "link_id": "t3_19dmrn1",
+      "parent_id": "t3_19dmrn1"
+    },
+    {
+      "id": "kia6hy0",
+      "body": ">Za to vreme pravoslavne crkve od srednjeg veka pa do danas se grade u identičnom srednjevekovnom vizantijskom stilu.\n\n\npravoslavne crkve u vojvodini: am i a joke to you",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1705501622,
+      "score": 4,
+      "link_id": "t3_198svjp",
+      "parent_id": "t1_ki9uctq"
+    },
+    {
+      "id": "kgk8uai",
+      "body": "nevezani ali ovaj post je tako poetičan na čudan način 😭",
+      "author": "asdfmoon2012",
+      "subreddit": "serbia",
+      "created_utc": 1704531229,
+      "score": 2,
+      "link_id": "t3_18z4nz5",
+      "parent_id": "t3_18z4nz5"
+    }
+  ]
+}

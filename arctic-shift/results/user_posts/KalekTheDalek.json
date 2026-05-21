@@ -1,0 +1,88 @@
+{
+  "username": "KalekTheDalek",
+  "posts": [
+    {
+      "id": "194yyhi",
+      "title": "Day in the life of a true Brexit geezer",
+      "author": "KalekTheDalek",
+      "subreddit": "NorfFc",
+      "created_utc": 1705076492,
+      "score": 305,
+      "num_comments": 36,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/194bqav"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lu8hi01",
+      "body": "Yes exactly, regular switches are a great way to think about it to avoid some of the complexity behind transistors. There's even some examples of boolean adders and other logical circuits built using lego or water flow if you want to go down that rabbit hole :P\n\nJust one thing to be careful with when thinking using just switches and wire: if all the inputs are on, you essentially create a short circuit, so a (preferably very high to minimise power loss) resistor is needed somewhere along the circuit to a) restrict the current from destroying your power source + melting the wire and b) have the majority of the voltage drop across it providing you a reliable point at which to measure the output.",
+      "author": "KalekTheDalek",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1730147103,
+      "score": 1,
+      "link_id": "t3_1ge7dpa",
+      "parent_id": "t1_lu7ktc3"
+    },
+    {
+      "id": "lu7g08l",
+      "body": "Logic gates can be implemented in a wide variety of ways, not only electrically but also mechanically etc. However the go to method in modern electronics is using transistors, as explained very well here by Ben Eater:\n\n[https://www.youtube.com/watch?v=sTu3LwpF6XI](https://www.youtube.com/watch?v=sTu3LwpF6XI)\n\nTransistor circuits (in practice using CMOS technology [https://en.wikipedia.org/wiki/CMOS](https://en.wikipedia.org/wiki/CMOS) ) require low power and are easy to manufacture on silicon wafers at the microscopic scale.",
+      "author": "KalekTheDalek",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1730135913,
+      "score": 2,
+      "link_id": "t3_1ge7dpa",
+      "parent_id": "t3_1ge7dpa"
+    },
+    {
+      "id": "ltl9swq",
+      "body": "They wouldn't make an exception however you are guaranteed a place (based on the current rules) if you meet all the criteria for admission without the entrance exam + C1 German. \n\n\nIf you are dead set on going to the ETH, I would recommend dropping some of the A levels which arent needed, ie further maths and Cs (or just heavily prioritising the other 3). Doing German a level instead of Spanish might also be a good idea for extra practice. \n\n\nI could also recommend doing a gap year in a German speaking country, as this will help you massively and give you that last push towards C1. Make sure to book the exam early enough in advance. \n\n\n2026 would be too early in my opinion but with discipline and determination 2027-8 would definitely be possible and I wish you the best of luck.",
+      "author": "KalekTheDalek",
+      "subreddit": "ethz",
+      "created_utc": 1729809049,
+      "score": 3,
+      "link_id": "t3_1gba4wc",
+      "parent_id": "t3_1gba4wc"
+    },
+    {
+      "id": "lck3oka",
+      "body": "I had to pay just under 80 euros customs in Germany",
+      "author": "KalekTheDalek",
+      "subreddit": "zsaVoyager",
+      "created_utc": 1720639271,
+      "score": 2,
+      "link_id": "t3_1dzulrp",
+      "parent_id": "t1_lcjussn"
+    },
+    {
+      "id": "kk63aio",
+      "body": "Einige Hinweisen aus einem Übungsbuch:\n\n● Konzentrieren Sie sich nicht auf die einzelnen Details, sondern auf die Argumentationsstruktur und achten Sie dabei auf Formulierungen, wie Sie sie in den Vorübungen kennengelernt haben.  \n● Schreiben Sie beim Hören nicht mehr mit, als für die Antwort nötig ist.  \n● Ihre Antworten können Sie in Form von Stichwörtern oder kurzen Sätzen notieren.",
+      "author": "KalekTheDalek",
+      "subreddit": "German",
+      "created_utc": 1706565620,
+      "score": 1,
+      "link_id": "t3_199t21x",
+      "parent_id": "t3_199t21x"
+    },
+    {
+      "id": "kgi94vb",
+      "body": "In the United States and Canada he is known as “Where's Waldo”, in  Denmark he is “Holger”, in France he is “Charlie” in \"Où est Charlie\"  and in German “Walter”!  :O",
+      "author": "KalekTheDalek",
+      "subreddit": "ChatGPT",
+      "created_utc": 1704496872,
+      "score": 7,
+      "link_id": "t3_18z9a0j",
+      "parent_id": "t1_kgi8cue"
+    },
+    {
+      "id": "kgi2lmv",
+      "body": "\"Originally dubbed Wally by British creator and illustrator, Martin Handford, his moniker changed when he hopped over the pond to North America. Wally became Waldo. Why? Pretty simple really: Publishers around the world decided to give “Wally” a name that local readers would be familiar with, hence the minor tweak. \"",
+      "author": "KalekTheDalek",
+      "subreddit": "ChatGPT",
+      "created_utc": 1704494485,
+      "score": 5,
+      "link_id": "t3_18z9a0j",
+      "parent_id": "t1_kghbrna"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "username": "thetaharvest",
+  "posts": [
+    {
+      "id": "1fk6rsx",
+      "title": "Childcare recommendations for toddlers",
+      "author": "thetaharvest",
+      "subreddit": "ethz",
+      "created_utc": 1726702068,
+      "score": 2,
+      "num_comments": 5,
+      "selftext": "New PhD student with a toddler here. Any recommendations on childcare for toddler of about 20 months? \n\nIt sounds like kita/krippe is the right match. Besides location what are the things to watch for in terms of quality?",
+      "url": "https://www.reddit.com/r/ethz/comments/1fk6rsx/childcare_recommendations_for_toddlers/"
+    },
+    {
+      "id": "1awxi2e",
+      "title": "Threadripper temps and thoughts after two weeks",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708576300,
+      "score": 3,
+      "num_comments": 6,
+      "selftext": "My initial build is [here](https://www.reddit.com/r/threadripper/comments/1al0buz/lessons_learned_on_threadripper_7985wx_2x_rtx/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) and my latest fan configuration is [here](https://www.reddit.com/r/threadripper/comments/1avs7pt/comment/kripey8/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button). I kind of gave up on cable management.. without iCue link there's just too many fans and sata cables, plus the gpu power cables for this generation are just a terrible idea.\n\nThis thing absolutely crushes my scientific deep learning workloads, but if I need to reboot I have to plan 30m of downtime for boot up. Has any else has this issue? I'm pretty sure it has something to do with the RAM check at startup. Rock solid stability even with synthetic cpu and gpu stress running for extended periods of time. \n\nThe thing that caught me off guard is just how much heat this system gives off and how much air is moving through it just to keep temps reasonable-- 450 CFM in / 600 CFM out (estimated, probably lower through radiators). Also creates a hot spot in my home in the area around where my desk is setup.\n\nThe 420mm h170i is keeping CPU to 68 C under full load with GPUs going and 74 C with GPUs. \n\nMy RAM temp actually drops as CPU system load goes up, which seems to be a result of increased airflow from fans kikcing up a notch.\n\nOne thing I noticed is that the bios is capping Noctuas to 2500 RPM. There's another 500 RPM of headroom in there, but I can't even imagine how incredibly loud that would be and I don't plan on overclocking. \n\nI also have a problem I've never had before, which is a lot of the Windows programs that run under wine can only recognize/use 64 cores. \n\nOne last thing-- if you are running dual GPU you basically need a 20 amp circuit otherwise you'll pop your breaker the first time you push your system.\n\nOverall super happy with performance, but a little caught off by the heat generation.\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/threadripper/comments/1awxi2e/threadripper_temps_and_thoughts_after_two_weeks/"
+    },
+    {
+      "id": "1al0buz",
+      "title": "Lessons Learned on Threadripper 7985WX + 2x RTX 4090 Build",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707303347,
+      "score": 17,
+      "num_comments": 18,
+      "selftext": "Work in progress deep learning workstation for PhD and Civ 6 \n\n* Threadripper 7985WX\n* 512 GB vcolor DDR5-5600 (QVL listed)\n* Asus WRX90E-SAGE motherborad\n* 2x Asus Tuf Gaming OC RTX 4090\n* Corsair T700 4 TB\n* Corsair h170i LCD 420mm rad\n* 4x Samsung 860 Pro 2TB in RAID 10\n* EVGA T2 1600W PSU\n* Corsair DDR Cooler\n* Random brand DDR cooler with two fans\n* CableMod 3x 12vhpwr cable as I ran out of PCIe power ports.\n\nWhere I got lucky:\n\n* 2nd GPU rests perfectly and can pull air through HDD cage.\n\nSome things I wish I knew ahead of time:\n\n* 2nd card with big blowers ends up in x8 slot (should have just gotten AIO to conserve on space)\n* Corsair 1000D is large beautiful case but hdd cages are riveted and cable management is tough. Would go with one the Lian Li XL cases that support multiple rads if I was doing it again.\n* RAM runs hot. If you have DDR5 put a blower on it. It's a 20C difference. With this mobo I ended up using two different brands of blower, since the corsair blower is only one that fits with placement CPU power cables.\n* Chipset is running way hotter with limited airflow.\n* First run cold start up time is a killer... it takes 15m - 30m depending what changes were made. Reboots are fast. There might be ways to skip memory and hdd self tests to speed this up.\n* You gotta flip onboard VGA switch off otherwise things go funky.\n\nWhat's left:\n\n* Improve cable management\n* Move rear exhaust fan to front intake, move two corsair rad fans to exhaust replace all three rad fans with noctua 140mm ippc3000 fans in push pull (over kill)\n* h170i LCD can only be mounted in 90 deg off orientation. Going to have to run Windows VM to rotate\n\nMy favorite part:\n\n* Never building a desktop without IPMI again. The UI and Remote Control are slick. Life saver and makes sensor reading easy on linux.\n\nWhat I'm worried about:\n\n* Considering switching to bequiet 13 pro 1600w ATX 3.0 psu, for proper 12vhpwr cables without adapters.\n* PCPartPicker puts this at 1584W for the system. Had to find 20A circuit and still might pop breaker on training runs. \n\n&#x200B;\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/threadripper/comments/1al0buz/lessons_learned_on_threadripper_7985wx_2x_rtx/"
+    },
+    {
+      "id": "1aijj2s",
+      "title": "WRX90E-SAGE locks up when booting Ubuntu installer",
+      "author": "thetaharvest",
+      "subreddit": "ASUS",
+      "created_utc": 1707036639,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Everything stock, no problems in bios, disabled VGA switch, and startup gets past ACPI stage before entire machine locks up and becomes unresponsive.\n\nGoing to try pulling all but min amount of RAM next. \n\nHave RTX 4090 and have heard Nvidia drivers can interfere. May try using IPMI to do install as well.\n\nAny other suggestions / ideas?",
+      "url": "https://www.reddit.com/r/ASUS/comments/1aijj2s/wrx90esage_locks_up_when_booting_ubuntu_installer/"
+    },
+    {
+      "id": "1aczcdd",
+      "title": "Removing the feet on Lian Li Lancool 3 case for transportation",
+      "author": "thetaharvest",
+      "subreddit": "lianli",
+      "created_utc": 1706435908,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Is it possible? Is it easy? \n\nI have desktop carry case that is just a tad bit too short and if I could get the feet off it would make it easier to travel with.",
+      "url": "https://www.reddit.com/r/lianli/comments/1aczcdd/removing_the_feet_on_lian_li_lancool_3_case_for/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m0brngq",
+      "body": "I just got a GMMK 3 Pro Fullsize with the exact same key caps and Kailh Box Navy switches. It sounds fantastic, but I'm starting to get a lot of shine rather quickly for what is supposed to be double shot PBT. Did you have a similar issue with your keycaps?",
+      "author": "thetaharvest",
+      "subreddit": "MechanicalKeyboards",
+      "created_utc": 1733290377,
+      "score": 1,
+      "link_id": "t3_13gugs4",
+      "parent_id": "t1_jk1tped"
+    },
+    {
+      "id": "lntdqfj",
+      "body": "Having now made it to Klub der Sportfreunde and it is just as amazing as advertised and the coaches are great as well.",
+      "author": "thetaharvest",
+      "subreddit": "ethz",
+      "created_utc": 1726702166,
+      "score": 1,
+      "link_id": "t3_17cakm1",
+      "parent_id": "t1_k5vj098"
+    },
+    {
+      "id": "lnt7gr5",
+      "body": "It's in the [manual](https://dlcdnets.asus.com/pub/ASUS/mb/SocketsTR5/Pro_WS_WRX90E-SAGE_SE/E23789_Pro_WS_WRX90E-SAGE_SE_EM_V2_WEB.pdf?model=Pro%20WS%20WRX90E-SAGE%20SE). On page 1-2 its the top of two switches at the bottom just down and to to the right of the PCIe slots. #38",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1726699857,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_lnnbafh"
+    },
+    {
+      "id": "lmacd81",
+      "body": "I made it!",
+      "author": "thetaharvest",
+      "subreddit": "lianli",
+      "created_utc": 1725894571,
+      "score": 1,
+      "link_id": "t3_1aczcdd",
+      "parent_id": "t1_kjxtrf7"
+    },
+    {
+      "id": "lmab4zm",
+      "body": "I ended up using a corsair cooler for the top and some random dual 50mm from amazon on the bottom. The corsair cooler was the only one that fit with the power sockets.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1725894157,
+      "score": 1,
+      "link_id": "t3_1ajli1o",
+      "parent_id": "t1_lb1wmvw"
+    },
+    {
+      "id": "lmaayd5",
+      "body": "A little late to the game, but I hit this issue and it was a PITA. Hitting the reset and safe mode buttons didn't work. To be fair, I might have done something wrong as all my settings were preserved.\n\nWhat ended up working was pulling a stick (this got it to boot) and then reseating that RAM (I swapped the stick I pulled with another stick). I was then happily running back at EXPO speeds. \n\nThe original cause of the issue for me is my toddler discovered the rear PSU switch one evening and did toddler things with it (I have case power button disconnected for this reason).",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1725894094,
+      "score": 1,
+      "link_id": "t3_1arz7u8",
+      "parent_id": "t3_1arz7u8"
+    },
+    {
+      "id": "kws3sur",
+      "body": "Every time. Reboots are usually significantly faster.",
+      "author": "thetaharvest",
+      "subreddit": "ASUS",
+      "created_utc": 1711537271,
+      "score": 1,
+      "link_id": "t3_1aijj2s",
+      "parent_id": "t1_kwixx91"
+    },
+    {
+      "id": "kws3rvz",
+      "body": "Every time. Reboots are usually significantly faster.",
+      "author": "thetaharvest",
+      "subreddit": "ASUS",
+      "created_utc": 1711537255,
+      "score": 1,
+      "link_id": "t3_1aijj2s",
+      "parent_id": "t1_kwixx91"
+    },
+    {
+      "id": "ksz8mkn",
+      "body": "Also you have the 7970X, which a lot of people seem to be struggling to cool. I wonder if density of heat generation makes a difference (i.e 32 cores @ 4.8 GHz generating 350W TDP vs 64 cores @ 3.1 GHz generating 350W TDP). In theory shouldn't matter because of heat spreader, but who knows?",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1709369189,
+      "score": 1,
+      "link_id": "t3_1awxi2e",
+      "parent_id": "t1_kssb1pd"
+    },
+    {
+      "id": "ksz6svo",
+      "body": "What's your ambient temperature? I'm around 21C - 24C.\n\nWith stock fans on h170i 40C on the liquid seems a little high by about 6 C- 8C. Liquid is at 36 C for me right now with machine pretty close to idle (50 out 128 cores at \\~15% ), but it regularly 33C/34C when I get to it first thing in the morning at true idle.\n\nYour liquid temperature at idle is my liquid temperature when running Prime95 at maximum cpu power and heat (option 2) for a few minutes. I am also not undervolting.\n\nIMO, this suggests your contact is good, but your radiator must be having trouble pushing the hot air away. Push/pull will only help move air through your radiator, if the issue is getting in fresh air or getting it out of the case (i.e really aggressive dust filters, complicated multi-size radiator mounting pattern, or both) then temps will spike pretty fast as the radiators ability to transfer heat to the air is proportional to the temperature difference between the radiator and the air (i.e heat transfer formula). \n\nIf you are using stock fans on h170, they are fairly mediocre so any obstructions will cause problems. I only compared idle temps, before committing to Noctua iPPC fans (8+ mm H20/150CFM vs \\~2.5/77CFM for Corsair stock fans off the top of my head). \n\nIf running Prime95 or some other stress test doesn't result in uncomfortably warm blasting out of your case, you probably need to figure out where your airflow is limited (i.e intake, exhaust, other components dumping heat). When this thing is going full tilt it drives up my workspace temperatures several degrees and blasts me with hot air (desk funnels hot air right into my face at the moment).",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1709367812,
+      "score": 1,
+      "link_id": "t3_1awxi2e",
+      "parent_id": "t1_kssb1pd"
+    },
+    {
+      "id": "krqsn9a",
+      "body": "Ram blowers here: https://www.reddit.com/r/threadripper/s/574jzKuDiM. Also that post has build as well.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708681907,
+      "score": 1,
+      "link_id": "t3_1avs7pt",
+      "parent_id": "t1_krm2394"
+    },
+    {
+      "id": "krqscuf",
+      "body": "I got lucky and have a 20 Amp line run to two random places in my home, one of which is next to my desk.\n\nOther options might be having to spread across two 15 Amp circuits 😬\n\n30 minutes is probably too long, but I have gone and brewed matcha tea and come back to it still booting. So 10 - 15 minutes is likely.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708681698,
+      "score": 2,
+      "link_id": "t3_1awxi2e",
+      "parent_id": "t1_krkotzg"
+    },
+    {
+      "id": "krkmvpm",
+      "body": "Also, if I ever have a big chunk of time I will probably try a different case was looking at the Lian Li full towers, but something like the 7000X could work too. The 1000D could really use a refresh and better cable management.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708582825,
+      "score": 1,
+      "link_id": "t3_1avs7pt",
+      "parent_id": "t1_krirg1s"
+    },
+    {
+      "id": "krkmoen",
+      "body": "I did use the stock paste. From what I saw XTM70 performs really well and it doesn't dry out and need re-pasting. I did fine a tube of artic silver 5 buried in storage and was tempted to use that.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708582706,
+      "score": 1,
+      "link_id": "t3_1avs7pt",
+      "parent_id": "t1_krirg1s"
+    },
+    {
+      "id": "kripey8",
+      "body": "I have an 7985WX with dual 4090 RTX GPUs and the max temperature I reached during a system wide torture test is 78 C for the CPU and 77 C. When doing CPU alone the highest I've been able to get it is 68 C.\n\nMy setup is 6 x 120mm Thermaltake 12 Pure ARGB fans 2 x 120mm Noctua NF-12 PPC3000 for intake with the Noctuas positioned to blow over vr/chipset/ram. For rear exhaust I have 1 x 140mm Corsair AF-140 that I pulled off my radiator and 1 x 120mm Thermaltake 12 Pure RGB fan. I am using H170i Elite LCD (liquid maxes out around 42 C) with a 420mm radiator where I switched out all the radiator fans for 3 x 140mm Noctua NF-A14 PPC3000 fans. I am also using two separate RAM blowers to keep my RAM temps under control. I also have a 1 x 140 mm AF-140 fan up against the two 4090s to drive air in between them. \n\nWhat made a big difference for me was \\*\\*NOT\\*\\* using the Corsair commander to drive the CPU fans. I used the CPU\\_OPT fan header with a three way splitter to drive radiator fans and the CPU\\_FAN header to drive pump (if you do this make sure to stay within power ratings, which if IIRC is 36W per header). The Corsair commander is tuned to drive AF-140s, which means its PID controller gets all out of whack when paired with non-corsair fans (you can see this in a bunch of places online where people tried it).\n\nThe big downside is the noise. When the Noctua fans kick on in high gear it goes from silent to loud. Not quite aircraft carrier loud, but fans pushing 3 x 158.50 CFM at 6.58 mm H20 static pressure through a 420mm radiator is going to make some noise. The good thing is that unless I'm running intensive compute it is pretty darn silent. \n\nThe other downside is heat. The general vicinity of my desktop is probably a good 3 C higher under load and I have a constant warm breeze blowing up from underneath the desk into my face when it is cranking. If my case weren't so big I would put it on top of my desk, but the Obsidian 1000D is just such a chonker.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708554212,
+      "score": 1,
+      "link_id": "t3_1avs7pt",
+      "parent_id": "t3_1avs7pt"
+    },
+    {
+      "id": "kriianr",
+      "body": "I used vcolor ones off the QVL for 64 GB tested in 4 socket and 8 socket configuration",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708551882,
+      "score": 1,
+      "link_id": "t3_1ajli1o",
+      "parent_id": "t1_krah9rs"
+    },
+    {
+      "id": "kqwpc8x",
+      "body": "I have had no problems other than boots and reboots taking forever while it runs whatever memory test/tuning process. When I say forever I am talking 15 - 30min. Reboots are rare, but I am looking at how I can speed it up.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708209445,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kqkia9o"
+    },
+    {
+      "id": "kqwp27u",
+      "body": "Looks like it was $1599.99 per kit plus tax.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1708209348,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kqd6x4x"
+    },
+    {
+      "id": "kpr4v5y",
+      "body": "AMD version of Intel XMP profiles.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707548755,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kpmet3r"
+    },
+    {
+      "id": "kpghy6t",
+      "body": "Pytorch is my preferred source of suffering.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707379674,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kpekn29"
+    },
+    {
+      "id": "kpehxh7",
+      "body": "It’s on QVL list for 4x64 (part TR564G56D436), but says socket support for 4, I so I figured I would try it out. The kingston ram was slower so decided to try vcolor after reading about company (it’s established manufacturer trying to move up stack and have their own brand. Based out of taiwan.)",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707346424,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kpdj2gu"
+    },
+    {
+      "id": "kpeh8m1",
+      "body": "So [this](https://www.newegg.com/v-color-256gb/p/2SJ-004R-00014?item=9SIAMCMK3U4766) is what I ordered, but vcolor reached out as part of ordering process to confirm use on W790 chipset. When I told them about using 512 GB in WRX-90E they configured it for EXPO (didn’t even know that was possible).",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707346176,
+      "score": 1,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kpdj2gu"
+    },
+    {
+      "id": "kpe976s",
+      "body": "I actually had to install Ubuntu over IPMI remote kvm and cards showed up fine with drivers, but no output. Started working when I flipped the physical switch. It was a whole other odyssey getting cuda installed, but that is unrelates to the build.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707343356,
+      "score": 2,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kpbptd8"
+    },
+    {
+      "id": "kpe8cuy",
+      "body": "I should add this to the where I get lucky section. I used the part number from QVL to search Newegg. The current part with that number is actually for the W790 and when I ordered it vcolor reached out to confirm before shipping to make sure I was buying it for that specific platform. When I mentioned running 512 GB in WRX90E as it is on QVL they said they would modify it to add expo profiles. Didn’t even know that was possible— i know they are compatible, but expo profiles have more settings and I thought they were baked in.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707343088,
+      "score": 2,
+      "link_id": "t3_1al0buz",
+      "parent_id": "t1_kpcfm5p"
+    },
+    {
+      "id": "kpbcwv4",
+      "body": "Parts took longer than expected. Posted write up in r/threadripper ([here](https://www.reddit.com/r/threadripper/comments/1al0buz/lessons_learned_on_threadripper_7985wx_2x_rtx/)).\n\nThis thing puts out some heat.",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1707303595,
+      "score": 1,
+      "link_id": "t3_yaoepv",
+      "parent_id": "t1_kij1qlt"
+    },
+    {
+      "id": "kpb4x7i",
+      "body": "Keep on eye on your DDR5 temps. I have a very similar build on this motherboard (512 GB RAM/2 4090s) and I started tripping thermal alarms while idle. I had to buy two different types of RAM blowers and it dropped my RAM temps by 20 C (70C -> 50C).\n\nAlso sucks that they made slot 5 the x8 slot, so when you are using two big blowers you end up with one card running half speed. I'm hoping to switch one GPU to AIO to try and move other card up.",
+      "author": "thetaharvest",
+      "subreddit": "threadripper",
+      "created_utc": 1707297579,
+      "score": 2,
+      "link_id": "t3_1ajli1o",
+      "parent_id": "t1_kp1zdx7"
+    },
+    {
+      "id": "kp5bgge",
+      "body": "So initial boot times for 512 GB of RAM might be throwing me off. The first power on from an off state can take over 15 minutes.",
+      "author": "thetaharvest",
+      "subreddit": "ASUS",
+      "created_utc": 1707202978,
+      "score": 1,
+      "link_id": "t3_1aijj2s",
+      "parent_id": "t3_1aijj2s"
+    },
+    {
+      "id": "kp57c8o",
+      "body": "I just finished a similar identical system, except used Corsair 1000D, Asus TUF Gaming OC, and Corsair T700 4 TB, and Corsair h170i, and 512 GB of vcolor DDR5-5600.\n\nI ran into two issues:\n\n- Oversized blower means my 2nd 4090 got pushed to x8 slot\n\n- RAM runs so hot I had to drop a blower on RAM (20 C drop from 70c -> 50c)\n\n- I was reusing existing EVGA T2 1600 so ran out PCIe power ports had to buy cablemod 3 x 8 adapter.\n\n- Chipset fans are not keeping up, particularly where covered by GPU.\n\nThings I would do different: \n\n- Different case. Cable organization is tough and everything is riveted in so couldn’t do things like pull hdd case to make more space. \n\n- Buy AIO (don’t have time to mod water block on) and make sure case has space for three radiators so I don’t have to worry about redrive tuning and I can more efficiently use PCIe slots.",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1707200309,
+      "score": 1,
+      "link_id": "t3_19fkdjo",
+      "parent_id": "t3_19fkdjo"
+    },
+    {
+      "id": "kox9s62",
+      "body": "Quick update, something really funky is happening. I switched from an Ubuntu Startup Creator made bootable USB to a balenaEtcher OS X made USB and it started right up, but now I can only use IPMI remote control and NVIDIA card is not outputting video.\n\nThat said nvidia-smi is reporting everything is good so it seems to be some buried configuration issue somewhere :-/",
+      "author": "thetaharvest",
+      "subreddit": "ASUS",
+      "created_utc": 1707077279,
+      "score": 1,
+      "link_id": "t3_1aijj2s",
+      "parent_id": "t3_1aijj2s"
+    },
+    {
+      "id": "kkb0haz",
+      "body": ">linked here\n\nI got the h170i (h150i is listed) so it should be safe. Corsair's website also lists threadripper compatibility. I have the Obsidian 1000D so plenty of space.",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1706644519,
+      "score": 1,
+      "link_id": "t3_yaoepv",
+      "parent_id": "t1_kk87li8"
+    },
+    {
+      "id": "kk88ttw",
+      "body": "Have the parts waiting on travel case to house old system and Crucial T700 I forgot to order before I dive in. Just discovered I have one of the bad 980 Pro NVME drives so decided to upgrade while I was at it.",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1706599047,
+      "score": 1,
+      "link_id": "t3_yaoepv",
+      "parent_id": "t1_kj34ilr"
+    },
+    {
+      "id": "kk88m7o",
+      "body": "No worries always good to warn people. I got this case because it’s the only one that (1) fits in overhead (2) fits a top 420 mm radiator (3) fits an ATX board. I am dropping in my old threadripper system (3975WX + Asus Prime TRX40 + 128 GB of RAM) from an Obsidian 1000D case and I can just move radiator over without repasting.\n\nAs for the travel — I am traveling with my wife to do a PhD in Europe in AI. Will try and argue it’s a shared carry-on 22x14x9 times two along 14 in dimension. If they make me gate check, I will just pull the card and put in an anti-static bag in bookbag. \n\nIf this works successfully for an international fight it’s going to make me real sad that you can’t get a full sized EATX (technically EEB motherboard) in there.",
+      "author": "thetaharvest",
+      "subreddit": "lianli",
+      "created_utc": 1706598902,
+      "score": 1,
+      "link_id": "t3_1aczcdd",
+      "parent_id": "t1_kjxtrf7"
+    },
+    {
+      "id": "kjxsmzy",
+      "body": "Thank you! Fingers crossed, I'm going to try to get it into this case: [https://www.amazon.com/gp/product/B0BNH936FH](https://www.amazon.com/gp/product/B0BNH936FH) \n\nIf the feet come off it should definitely fit. If I'm lucky it will squeeze in as is.",
+      "author": "thetaharvest",
+      "subreddit": "lianli",
+      "created_utc": 1706441070,
+      "score": 1,
+      "link_id": "t3_1aczcdd",
+      "parent_id": "t1_kjxqmak"
+    },
+    {
+      "id": "kjhf18d",
+      "body": "Adding a USB-C USB hub in between fixed it for me. Directly connecting just refused to work.",
+      "author": "thetaharvest",
+      "subreddit": "MacOS",
+      "created_utc": 1706176885,
+      "score": 1,
+      "link_id": "t3_145yby8",
+      "parent_id": "t1_kgxdvzf"
+    },
+    {
+      "id": "kjdz0ro",
+      "body": "I am having the exact same problem, except it started this week when my work finally forced an upgrade to Ventura. I have tried flipping the USB cable, tried several different USB cables, confirmed they all work with my desktop. \n\nIt seems to be related to directly connecting to the KVM. If I use USB-C hub and then connect to the KVM it seems to work fine, which is really annoying as it clutters the desk even more.",
+      "author": "thetaharvest",
+      "subreddit": "MacOS",
+      "created_utc": 1706123768,
+      "score": 1,
+      "link_id": "t3_145yby8",
+      "parent_id": "t3_145yby8"
+    },
+    {
+      "id": "kj34ilr",
+      "body": "I saw 7000-series Threadrippers were coming and decided to wait on ASUS WRX90E-SAGE. \n\nI will share a build update soon as I should have my parts by end of the month-- had to special order the RAM from Taiwan to get to 512 GB of DDR5-5600. I don't know how long v-color will stay this awesome and whether it only applies to people dropping big $ on ECC RDIMMs, but they emailed me after I got my order to confirm where I was using the RAM and are somehow modifying it to have EXPO profile instead of XMP.\n\nASUS Pro WS WRX90E-SAGE  \nThreadripper 7985WX (clock speed drop for another 32 cores in 7995WX didn't seem worth it, also not in stock).  \nH170i AIO Elite LCD XT (we'll see if this is compatible)  \n512 GB (8 x 64 GB, 1 DPC) of v-color DDR5-5600  \n2 x Asus TUF 4090 OC Edition  \nEVGA SuperNOVA 1600 T2  \n2 TB Samsung 980 Pro M2 (nvme)  \n2 TB RAID 10 Samsung 860 Pro ( 4 x 1 TB)  \n4 TB RAID 0 Samsung 860 Pro  (2 x 2 TB)\n\nI wanted to make a really big RAID 10 array with the disks I had unfortunately, it doesn't look like it is supported :(  \n\n\nThe other issue I'm worried about is that it's unclear if H170i AIO will be compatible. In theory, strx4 coolers are compatible for mounting on strx5 and H150i is on motherboard QVL, but will see if it pans out.   \n\n\nIf you are ordering for strx5 socket make sure strx4 is listed on compatibility list. The H170i with QX140 fans (higher static pressure the AF140) doesn't not list it strx4 and does not seem to come with the bracket (it might be possible to buy).",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1705952823,
+      "score": 1,
+      "link_id": "t3_yaoepv",
+      "parent_id": "t1_kij1qlt"
+    },
+    {
+      "id": "ki851hf",
+      "body": "As I commented in another thread Gear 2 solved this with stock voltages for XMP profile (plus some uncore, but it might not be necessary). Now have all 128 GB running on stock XMP profile.",
+      "author": "thetaharvest",
+      "subreddit": "overclocking",
+      "created_utc": 1705460140,
+      "score": 1,
+      "link_id": "t3_cj4ypn",
+      "parent_id": "t1_khxf2f4"
+    },
+    {
+      "id": "ki84s11",
+      "body": "4 years too late but after a week I was able to get 128 GB stable at DDR4-4000. \n\nThe key pieces were (1) bios update (2) Gear 2 if your motherboard has it. I have extra uncore volatage but will be playing around with it tonight. My theory is that boards OC mesh on Skylake-X when selecting DDR4-4000 option. Gear 2 was listed as 100:133 cpu clock to dram frequency. Once I set this system was rock solid with a 24-hour prime 95 at stock everything else (maybe 5 AVX offset). I suspect this is way more stable since mesh can run slower than 1:1 w/ RAM. \n\nBefore that I couldn’t run 5 minutes of Prime95 at stock CPU with 14 AVX offset and XMP profile without Prime95 blowing up or entire PC locking up no matter how much voltage I gave everything.",
+      "author": "thetaharvest",
+      "subreddit": "overclocking",
+      "created_utc": 1705460037,
+      "score": 1,
+      "link_id": "t3_caeg18",
+      "parent_id": "t1_etbs3ru"
+    },
+    {
+      "id": "khxf2f4",
+      "body": "Know this is an old thread, but I am working on getting 128 GB of 4000 CL19 RAM with an Asus Rampage VI Extreme Omega, cannot get it to run without AVX-512 errors. At first I thought it was CPU, but after setting offset to -14, I tried lowering RAM to 3000 and got stability (as measured by being able to run Prime95 overnight without errors). I was actually able to use tweaks described in this thread to get it up 3200 (with only 1 error overnight on a super large FFT). Biggest thing seems to be that Skylake-X needs uncore juice of 400mv to get there with 128 GB of RAM. VCCSA and VCCIO have minimal impact on Skylake-X since uncore is what is actually driving memory controller.",
+      "author": "thetaharvest",
+      "subreddit": "overclocking",
+      "created_utc": 1705295978,
+      "score": 1,
+      "link_id": "t3_cj4ypn",
+      "parent_id": "t1_ew39629"
+    },
+    {
+      "id": "khxf00e",
+      "body": ">L support said 3200 should be fine on a 9980XE for 128GB RAM. I am currently in the process of talking to engineers at ASUS to see if this problem is related to the motherboard or not because I've tried 3 sets of RAM already.\n\nKnow this is an old thread, but I am working on getting 128 GB of 4000 CL19 RAM with an Asus Rampage VI Extreme Omega, cannot get it to run without AVX-512 errors. At first I thought it was CPU, but after setting offset to -14, I tried lowering RAM to 3000 and got stability (as measured by being able to run Prime95 overnight without errors). I was actually able to use tweaks described in this thread to get it up 3200 (with only 1 error overnight on a super large FFT). Biggest thing seems to be that Skylake-X needs uncore juice of 400mv to get there with 128 GB of RAM. VCCSA and VCCIO have minimal impact on Skylake-X since uncore is what is actually driving memory controller.",
+      "author": "thetaharvest",
+      "subreddit": "overclocking",
+      "created_utc": 1705295943,
+      "score": 1,
+      "link_id": "t3_cj4ypn",
+      "parent_id": "t1_ew39629"
+    },
+    {
+      "id": "kh3yovt",
+      "body": "Also one other thing… don’t go for the max core thread ripper it’s boatloads of $$ and is clocked down significantly. If you go one or two steps down you can get 4GHz base clock instead of 2.5GHz for 96 core version (current gen). Even 7985wx still runs at 3.2GHz.  Don’t go too far down or you lose lanes / ram capacity (iirc).",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1704834747,
+      "score": 1,
+      "link_id": "t3_yaoepv",
+      "parent_id": "t1_kfs6jt0"
+    },
+    {
+      "id": "kh3xkzj",
+      "body": "Probably not the fluid sims you are thinking, but it does involve a lot of Navier-Stokes and PDEs. https://en.m.wikipedia.org/wiki/Computational_fluid_dynamics",
+      "author": "thetaharvest",
+      "subreddit": "buildapc",
+      "created_utc": 1704834383,
+      "score": 1,
+      "link_id": "t3_yaoepv",
+      "parent_id": "t1_kfs6jt0"
+    }
+  ]
+}

@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import colorsys
 import json
+import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -117,6 +118,35 @@ def extract_interactions(
                 if src not in classified_users and dst not in classified_users:
                     continue
                 interactions.append(Interaction(src=src, dst=dst, subreddit=subreddit))
+    return interactions
+
+
+_MENTION_RE = re.compile(r"(?<![A-Za-z0-9])u/([A-Za-z0-9_\-]+)")  # matches u/username, not inside a word
+
+
+def extract_mention_interactions(
+    user_posts_dirs: list[Path],
+    classified_users: set[str],
+) -> list[Interaction]:
+    """Scan comment bodies for u/username mentions; emit edge src→mentioned user when either is classified."""
+    interactions: list[Interaction] = []
+    for posts_dir in user_posts_dirs:
+        for json_file in posts_dir.glob("*.json"):
+            with open(json_file) as f:
+                data = json.load(f)
+            for comment in data.get("comments", []):
+                src = comment.get("author", "")
+                if not src or src == "[deleted]":
+                    continue
+                body = comment.get("body", "")
+                subreddit = comment.get("subreddit", "")
+                for match in _MENTION_RE.finditer(body):
+                    dst = match.group(1)
+                    if src == dst:
+                        continue
+                    if src not in classified_users and dst not in classified_users:
+                        continue
+                    interactions.append(Interaction(src=src, dst=dst, subreddit=subreddit))
     return interactions
 
 
@@ -291,6 +321,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--min-weight", type=int, default=1, help="Min interactions for an edge to be included")
     p.add_argument("--resolution", type=float, default=1.0, help="Louvain resolution — higher = more smaller communities")
     p.add_argument("--include-unknown", action="store_true", default=False, help="Include unknown-voice users that interact with at least one classified user")
+    p.add_argument("--no-coparticipant", action="store_true", default=False, help="Exclude co-participation edges (same-post commenters); keep only direct replies and u/ mentions")
+    p.add_argument("--no-mentions", action="store_true", default=False, help="Exclude u/username mention edges")
     return p.parse_args()
 
 
@@ -316,11 +348,22 @@ def main() -> None:
     interactions = extract_interactions(posts_dirs, index, classified_users)
     print(f"  {len(interactions)} direct reply interactions")
 
-    print("Extracting co-participation interactions...")
-    post_commenters = build_post_commenters_index(posts_dirs)
-    copart = extract_coparticipant_interactions(post_commenters, classified_users)
-    interactions += copart
-    print(f"  {len(copart)} co-participation interactions ({len(interactions)} total)")
+    if not args.no_coparticipant:
+        print("Extracting co-participation interactions...")
+        post_commenters = build_post_commenters_index(posts_dirs)
+        copart = extract_coparticipant_interactions(post_commenters, classified_users)
+        interactions += copart
+        print(f"  {len(copart)} co-participation interactions ({len(interactions)} total)")
+    else:
+        print("  Skipping co-participation interactions (--no-coparticipant)")
+
+    if not args.no_mentions:
+        print("Extracting u/ mention interactions...")
+        mentions = extract_mention_interactions(posts_dirs, classified_users)
+        interactions += mentions
+        print(f"  {len(mentions)} mention interactions ({len(interactions)} total)")
+    else:
+        print("  Skipping mention interactions (--no-mentions)")
 
     print("Building interaction graph...")
     graph = build_interaction_graph(interactions, voice_map, args.min_weight)

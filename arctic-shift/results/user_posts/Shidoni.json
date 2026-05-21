@@ -1,0 +1,2142 @@
+{
+  "username": "Shidoni",
+  "posts": [
+    {
+      "id": "1hoguxd",
+      "title": "Common life experiences that are close to ME/CFS",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1735424285,
+      "score": 48,
+      "num_comments": 38,
+      "selftext": "Say you are mild/moderate, what common life experiences would you use to explain to any random person the general feeling you have with CFS on a daily basis ?\n\nFor me, the malaise you experience after the peak of a flu and before recovery + the day after pulling an all nighter.",
+      "url": "https://www.reddit.com/r/cfs/comments/1hoguxd/common_life_experiences_that_are_close_to_mecfs/"
+    },
+    {
+      "id": "1g77jsy",
+      "title": "\"cohabitant\" dans un contrat de bail",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1729340053,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "Chers amis connaisseurs du droit du bail,\n\nCertains de mes colocataires sont devenus locataires principaux en remplacement des anciens qui sont partis de l'appartement. Jusqu'alors j'étais lié par un contrat de sous location.\n\nUn nouveau contrat a été établi par la régie pour l'occasion et les contrats entre les colocataires non présents sur le contrat de bail principal et les locataires principaux (il y en a deux) restent encore a être établis.\n\nPour moi il n'y a rien de compliqué, il s'agit d'établir des contrats de sous-location. Toutefois, une de mes locataires principales tergiverse, car sur le contrat principal, mes autres colocataires et moi sommes cités comme \"cohabitants\". Cela perturbe ma locataire principale, car elle considère que la régie n'accepterai pas de sous-location et elle ne veut pas nous présenter comme sous-locataires.\n\nPour moi, on est de fait des sous-locataires comme d'habitude et il n'y a pas d'autre statut juridique dans le droit du bail. Ce que je comprends du contrat principal c'est que la régie nous a accepté individuellement comme sous-locataires et que rien nous empêche d'établir des contrats de sous-location tout en respectant certaines conditions. C'est juste que ma locataire principale ne veut pas nommer le contrat en \"contrat de sous-location\" mais \"contrat de colocation\" et ne surtout pas présenter noa contrats à la régie.\n\nVoilà, comment comprenez vous la situation?\n\n",
+      "url": "https://www.reddit.com/r/suisse/comments/1g77jsy/cohabitant_dans_un_contrat_de_bail/"
+    },
+    {
+      "id": "1dpyho2",
+      "title": "Differentiating PEM and overtraining/under eating/poor sleep",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1719513153,
+      "score": 6,
+      "num_comments": 5,
+      "selftext": "I am soon meeting with my GP over CFS and PEM. Even though I :\n- have to lay in bed 3-4 hours during the day due to intensive fatigue\n- have weak muscles\n- have brain fog\n- have stiff muscles\n- have sore muscles,\nI still manage to exercise, even though I feel I don't perform well.\n\nI am absolutely sure my GP will ask me if I overtrain . And I am not sure how to convince her  that it is not the case. What's the difference anyways ? Lately I figured it gets relatively (but not entirely) better if I don't exercise.",
+      "url": "https://www.reddit.com/r/cfs/comments/1dpyho2/differentiating_pem_and_overtrainingunder/"
+    },
+    {
+      "id": "1dghdgb",
+      "title": "ME/CFS in a physically active person",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718456165,
+      "score": 53,
+      "num_comments": 82,
+      "selftext": "Hi,\n\nAfter many years of doctor visits, tests and attempts at improving my symptoms, I've come to the conclusion I might have ME/CFS. At least I match the NICE/ICC criterias.\n\nHowever I am trying to understand how differently people are affected, especially depending on level of physical exertion.\n\nEven though I can be bed bound multiple hours a day, I can still cycle and climb each week. Downside is I become absolutely trashed after physical exertion. To me this seems counterintuitive/paradoxal to see this on a ME/CFS affected person.\n\nI have to say I was already reasonably active before I started to complain about chronic fatigue.\n\nSo yeah. Can someone having ME/CFS be somewhat active anyways ? ",
+      "url": "https://www.reddit.com/r/cfs/comments/1dghdgb/mecfs_in_a_physically_active_person/"
+    },
+    {
+      "id": "1cs7d3r",
+      "title": "La bourdonnette à velo...",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715731785,
+      "score": 11,
+      "num_comments": 18,
+      "selftext": "Bonjour à tous,\n\nAujourd'hui encore, je me fais effleurer à vélo par une voiture dans la direction UNIL -> Malley. Quand je dis effleurer : 5cm à tout casser. Si je faisais le moindre petit écart, je tombais. C'est récurrent : aussi près que ça, ça m'arrive 1 à 2x par mois. \n\nJe vous conseille vivement d'écrire, comme moi, au corps de police de Lausanne pour qu'ils fassent quelque chose. Plus on est, plus ils seront réactifs.\n\nBtw, j'ai noté la plaque d'immatriculation du chauffard. Vu que je n'ai pas de preuve, ça ne vaut pas la peine de le dénoncer n'est-ce pas ?",
+      "url": "https://www.reddit.com/r/Lausanne/comments/1cs7d3r/la_bourdonnette_à_velo/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3lmb1n",
+      "body": "Your qemu init arguments seem fine to me.\n\n  \nSeeing the Linux backtrace you provided makes me suspect that QEMU doesn't simulate EL2, or it has not been properly configured for some reason. If you look closely, you see that Linux:\n\n\\-  has properly handled the syscall triggered by the insmod command for your Linux kernel module\n\n\\- has handled an undefined exception resulting from the execution of the hvc instruction. Seeing the linux kernel executing the `el1h_64_sync_handler` function shows that the hvc instruction has been executed in EL1 in the init function of your linux kernel module but the control flow got back to Linux, still in EL1. Then it panics right away because it doesn't know how to handle an exception resulting from an hvc instruction. \n\nTo me, it appears that for some unkwown reason there is no configured EL2 exception handler.\n\nOut of curiosity, do you see the \\`virt\\` extension in the \"Features\" line in the output of : \n\n\\`\\`\\`bash\n\ncat /proc/cpuinfo\n\n\\`\\`\\`",
+      "author": "Shidoni",
+      "subreddit": "arm",
+      "created_utc": 1735052180,
+      "score": 2,
+      "link_id": "t3_1hl8ykc",
+      "parent_id": "t1_m3lh2bz"
+    },
+    {
+      "id": "m3kmge8",
+      "body": "Just a wild guess here. Perhaps QEMU doesn't emulate EL2 in your case, and that's why you get an unhandled exception from Linux in EL1. Maybe a missing argument at initialization to enable EL2 ? This is just a wild guess, haven't looked in detail ehat your problem might be.",
+      "author": "Shidoni",
+      "subreddit": "arm",
+      "created_utc": 1735033358,
+      "score": 2,
+      "link_id": "t3_1hl8ykc",
+      "parent_id": "t3_1hl8ykc"
+    },
+    {
+      "id": "m2e3gfk",
+      "body": "Dans les faits, tu peux prendre TOUS les transports publics terrestres (à l'exception de tout ou partie des lignes touristiques) se trouvant dans la ou les zones pour lesquelles tu as acheté ton ticket ou ton abonnement.\nTu peux voyager en illimité, dans toutes les directions que tu souhaites, durant toute la période de validité de ton ticket/abonnement, tant que tu reste dans les zones concernées.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1734383680,
+      "score": 2,
+      "link_id": "t3_1hflsrc",
+      "parent_id": "t3_1hflsrc"
+    },
+    {
+      "id": "m1qas32",
+      "body": "Caution is advised. To my knowledge, no independent researcher besides the producer of this supplement itself (Terra Biological LLC) studied its effects.\n\nI say let's wait first.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1734027975,
+      "score": 5,
+      "link_id": "t3_1hck8qi",
+      "parent_id": "t3_1hck8qi"
+    },
+    {
+      "id": "lyem9oh",
+      "body": "imho, grimper.ch because it has a better quantity/price ratio. It's a bit more expensive than cube but much bigger. The quality of the routes are the same.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1732278927,
+      "score": 0,
+      "link_id": "t3_1gx6dsl",
+      "parent_id": "t3_1gx6dsl"
+    },
+    {
+      "id": "lxttm50",
+      "body": "Here you go, have a nice read : https://www.fedlex.admin.ch/eli/cc/2007/758/en#art_34\n\ntl;dr : you're fine. What counts is whether you hold a residence permit uninterrupted. Not whether you have a job uninterrupted.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1731967550,
+      "score": 2,
+      "link_id": "t3_1gubirb",
+      "parent_id": "t3_1gubirb"
+    },
+    {
+      "id": "lwrmk1p",
+      "body": "Connais-tu l'ombudscom ? https://fr.ombudscom.ch/\n\nC'est l'organe de conciliation relatif aux télécommunications.\n\nTu pourrais emmener sunrise devant cet organe avec toi pour tenter de régler la chose à l'amiable. Tu auras l'opportunité d'énoncer les faits et d'avoir in fine une proposition d'accord de l'ombudscom sur la chose (demander ou non la fin du contrat pour service non fourni).",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1731428083,
+      "score": 4,
+      "link_id": "t3_1gpk76b",
+      "parent_id": "t3_1gpk76b"
+    },
+    {
+      "id": "lwaaxbt",
+      "body": "In the current context, the OP fears that the landlord could punitively terminate the lease for asserting his/her rights on having a defect solved. \n\nThe subject here is about abusive termination. This art. 271a of the code of obligations is absolutely clear on the fact that terminating a lease because the tenant asserted his/her rights is challengeable (in french, the term used in the CO is \"le congé est abusif si...\" -> \"the termination is considered abusive if...\").\n\nIn the very same art. 271a, it goes even further : it is stipulated that if the matter goes in front of a conciliation commission or court, and a decision goes in favor of the tenant, he/she is protected against any termination for 3 years (except for just motives). \n\nSo no, the landlord cannot terminate a contract just like that. There are conditions to be respected as stated in art. 271a. I challenge you to prove the contrary, given the content of this article.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1731176892,
+      "score": 5,
+      "link_id": "t3_1gn4sty",
+      "parent_id": "t1_lwa6ubq"
+    },
+    {
+      "id": "lw9pxs9",
+      "body": "There is this procedure to put pressure on the landlord, which is called in french : \"consignation de loyer\". It means putting the monthly rent in a special account provided by the public institution of your canton responsible for \"consignation de loyer\", until the landlord fixes the defect.\n\n Here is how it goes if you want to use that :\n1) establish the fact that there is a defect (your water problem) and notify the landlord\n2) if after multiple recalls the defect has not yet been solved, give a formal notice of your intent to \"consigner le loyer\" and give a reasonable deadline.\n3) if the deadline has passed, make the request to the institution, they will provide an account number on which you pay the rent, and from that moment you do not pay to the landlord anymore.\n4) once the defect is repaired, the rent from this account goes to the landlord and you pay your rent normally to the landlord.\n\nHere is the geneva canton explaining how it works :\nhttps://justice.ge.ch/fr/theme/consignation-des-loyers\n\nUse the procedure provided by your canton.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1731170184,
+      "score": 3,
+      "link_id": "t3_1gn4sty",
+      "parent_id": "t3_1gn4sty"
+    },
+    {
+      "id": "lw9igjl",
+      "body": "Your claim is wrong and not backed up by any source.\n\nTermination can be challenged, in particular if the tenant is asserting claims arising under the lease in good faith :\nhttps://www.fedlex.admin.ch/eli/cc/27/317_321_377/en#art_271_a",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1731167735,
+      "score": 4,
+      "link_id": "t3_1gn4sty",
+      "parent_id": "t1_lw9aodu"
+    },
+    {
+      "id": "lvrj129",
+      "body": "The answer you are looking for is in this paragraph :\n\n\"Vous en êtes toutefois dispensé-e :\n[...]\n- si vous séjournez en Suisse uniquement pour y faire des études et dès lors vous n'y avez pas de domicile civil.\"\n\nWhich is most probably your case if you have a B permit for studies.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1730920487,
+      "score": 1,
+      "link_id": "t3_1gl0mle",
+      "parent_id": "t3_1gl0mle"
+    },
+    {
+      "id": "luqeljs",
+      "body": "Tu écris ton post sous le coup de l'émotion. C'est l'impression que ça me fait.\n\nSur le fond je suis d'accord que, bien qu'un SUV donne l'impression d'un meilleur confort pour son utilisateur, sa présence est bien évidemment détrimentale aux autres en terme de sécurité, de place, de consommation d'énergie et de pollution. \n\nJe ne vois comme solution qu'une action de la puissance publique.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1730398033,
+      "score": 10,
+      "link_id": "t3_1ggjszh",
+      "parent_id": "t3_1ggjszh"
+    },
+    {
+      "id": "ltht1u5",
+      "body": "Je ne comprends pas ce que tu comprends pas.\n\nSur un marché locatif tendu, les locaraires n'ont AUCUN pouvoir de négociation. 1) tu as très peu de choix, et 2) quand il y a une offre, elle est hyper chère.\n\nLe droit répond très bien à cette situation : \n\n\nArt. 270 du code des obligations\n\n1 Lorsque le locataire estime que le montant du loyer initial est abusif au sens des art. 269 et 269a, il peut le contester devant l’autorité de conciliation dans les 30 jours qui suivent la réception de la chose et en demander la diminution:\n\na.\n    s’il a été contraint de conclure le bail par nécessité personnelle ou familiale ou *en raison de la situation sur le marché local du logement et des locaux commerciaux*, ou\nb.\n    *si le bailleur a sensiblement augmenté le loyer initial pour la même chose par rapport au précédent loyer.*",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1729768561,
+      "score": 5,
+      "link_id": "t3_1gau9ee",
+      "parent_id": "t1_lthayay"
+    },
+    {
+      "id": "ltd8gjo",
+      "body": "Il y a tout un bordel sur le calcul du seuil à partir duquel tu peux avoir les subsides. Les 10%, on ne les base pas sur le revenu brut ni revenu net. Mais sur le revenu \"déterminant\". C'est le revenu net moins certaines charges, comme les enfants, le transport etc.\n\nCela m'étonnerait pas que dans une famille comme celle d'OP on a une prime tournant autour des 1000 chf ou plus.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1729701985,
+      "score": 1,
+      "link_id": "t3_1gaf0ia",
+      "parent_id": "t1_ltd76hv"
+    },
+    {
+      "id": "lt7aajk",
+      "body": "I remember this rule as well but do you know where this is stated so that OP has a definitive answer ?",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1729617370,
+      "score": 1,
+      "link_id": "t3_1g905wq",
+      "parent_id": "t1_lt79n3e"
+    },
+    {
+      "id": "lt75vbx",
+      "body": "Depends. Are you in first year, the \"propédeutique\" ? then no :\n https://docs.google.com/document/d/e/2PACX-1vRxTNRLQ7Qczg1_kYrZC2qWpYpQAIrR29jnKMo1Kkr0iHfeUG4NJfHE4gOiBBcIvt_bv75kL1b8n-Co/pub\n\nAt art. 4.3, retaking courses you passed (grade a above 4.0) is forbidden.\n\nOutside of first year, I don't see anything forbidding or allowing it.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1729616004,
+      "score": 2,
+      "link_id": "t3_1g905wq",
+      "parent_id": "t3_1g905wq"
+    },
+    {
+      "id": "lt0tzbh",
+      "body": "Did you officially leave switzerland ? Meaning you announced to the office of residents of you city that you leaved switzerland ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1729526118,
+      "score": 2,
+      "link_id": "t3_1g8srpw",
+      "parent_id": "t3_1g8srpw"
+    },
+    {
+      "id": "lsolu28",
+      "body": "Je précise que ma locataire principale pense qu'il y a d'autres relations contractuelles possibles que la colocation solidaire (tout le monde est en relation directe avec le bailleur) et la sous-location.\n\nDe facto, le bail qui a été établi est un contrat de colocation solidaire mais SEULEMENT entre deux de mes colocataires et le bailleur. Moi, je n'ai aucune relation contractuelle avec le bailleur. Je ne suis pas nommé comme co-contractant dans le contrat et je n'ai rien signé, comme pour d'autres de mes colocataires.\n\n Comme je n'ai rien vu d'autre dans le CO et la doctrine que la colocation solidaire et la sous-location comme relation contractuelle possible, et vu que je ne suis pas co-contractant avec mes locataires principaux, il ne me reste que la sous-location vis à vis des locataires principaux qui est possible.\n\nMa question est donc : existe-t-il une autre forme de relation contractuelle dont je n'ai pas connaissance ?",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1729344993,
+      "score": 1,
+      "link_id": "t3_1g77jsy",
+      "parent_id": "t3_1g77jsy"
+    },
+    {
+      "id": "lsoj3zi",
+      "body": "La régie a volontairement établi un contrat où les deux locataires ayant un revenu venant d'un travail sont responsables vis à vis du bailleur. Les autres n'ont de fait aucune obligation contractuelle vis à vis du bailleur. Nous nous étions proposés comme colocataires solidairement responsables mais le bailleur en a décidé autrement.\n\nPour la question de la sous-location vs colocation solidaire, de mon avis, ce n'est pas un sujet pertinent car les droits et obligations de la sous-locations sont clairement définis dans le code des obligations. De plus il y a pas mal de rotations car nous sommes principalement étudiants. Ça faciliterait justement la vie du bailleur plutôt que d'aller d'avenant en avenant sur une colocation solidaire.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1729343848,
+      "score": 1,
+      "link_id": "t3_1g77jsy",
+      "parent_id": "t1_lsohnw8"
+    },
+    {
+      "id": "lrvatzi",
+      "body": "Ah c'est pas peanuts si l'abo est un abo general je le conçois. Par contre un abo mobilis 11+12 junior à 500 chf par an, sur un budget à 20 000 par an, c'est 2.5 % de ton budget. Je trouve ça raisonnable. EN PLUS, Lausanne offre des bons de réduction pour les jeunes : https://www.lausanne.ch/apps/actualites/Next/serve.php?id=293&kind=recueil\n\nIl y a d'autres postes où tu payes bien plus comme le loyer et la bouffe. Pourquoi éviter de payer le transport ? parce que tu peux. C'est plus difficile pour le loyer, la bouffe et l'abo telephonique.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1728910681,
+      "score": 3,
+      "link_id": "t3_1g3a4q7",
+      "parent_id": "t1_lrunea8"
+    },
+    {
+      "id": "lrujaci",
+      "body": "ça j'arrive pas à comprendre. Tu as bien un loyer, de la bouffe et d'autres achats essentiels à payer non ? Tout ça te coute facilement 20 000 par an. Si tu as du mal à payer tout ça, je comprends. Mais si tu arrives, tu peux te permettre un abo. C'est peanuts par rapport au budget annuel.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1728894923,
+      "score": 2,
+      "link_id": "t3_1g3a4q7",
+      "parent_id": "t1_lrufbbp"
+    },
+    {
+      "id": "lr8rrga",
+      "body": "It isn't legal to do that. Early termination is a right. Fees restrict this right therefore they are not legal.",
+      "author": "Shidoni",
+      "subreddit": "geneva",
+      "created_utc": 1728564081,
+      "score": 4,
+      "link_id": "t3_1g0fxez",
+      "parent_id": "t3_1g0fxez"
+    },
+    {
+      "id": "lq6c8xv",
+      "body": "C'est la HES à temps partiel que vous faites avec tes collègues ?\n\nMon conseil : \n\nUne lettre formelle destinée à la directrice, co-signée par le plus d'élèves possibles et si possible des profs qui vous soutiennent dans votre démarche. Dénoncez avec force que les horaires annoncés avnt le début du semestre doivent être tenus jusqu'au bout et que le non respect des ces horaires, et vous le soulignez bien, ont des conséquences pénibles pour vous.\n\nSi la directrice ne bouge pas, passez au niveau supérieur en écrivant à la rectrice de la HES-SO. https://people.hes-so.ch/fr/profile/2723943600-luciana-vaccaro",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1727979577,
+      "score": 28,
+      "link_id": "t3_1fvckf2",
+      "parent_id": "t3_1fvckf2"
+    },
+    {
+      "id": "loijrqu",
+      "body": "Really depends on the bike. I find my tern vektron S10 super sturdy, has plenty of gears, normal bosch engine and has load capacity. It's not cheap at all though.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1727094353,
+      "score": 1,
+      "link_id": "t3_1fnhlf9",
+      "parent_id": "t1_loiakxq"
+    },
+    {
+      "id": "lo51bqv",
+      "body": "Do you consider normal to pay the agency indirectly  through your rent AND pay additionnal fees ? \n\nUnfortunately for us there is nothing illegal according to the law to do this. However, and fortunately for us, \"anticipated termination fees\" are absolutely illegal. Terminating a tenancy earlier than the end of term is an imperative right for the tenant and therefore cannot be conditionned by a fee.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1726879477,
+      "score": 1,
+      "link_id": "t3_1flij4u",
+      "parent_id": "t1_lo3wdna"
+    },
+    {
+      "id": "lo4zfp3",
+      "body": "On est tous d'accord que sur le fond on est déja en train de payer la régie au travers de notre loyer. \n\nLe contrat-cadre RULV l'a bien spécifié dans son article 8 que le bailleur prend en charge les frais d'établissement de contrat. Malheureusement le canton de Vaud n'a pas pu déclarer la RULV de force obligatoire dans son entiereté, l'article 8 étant écarté : [https://www.lexfind.ch/tolv/110683/fr](https://www.lexfind.ch/tolv/110683/fr)",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1726878716,
+      "score": 3,
+      "link_id": "t3_1flij4u",
+      "parent_id": "t1_lo3yick"
+    },
+    {
+      "id": "lo31m22",
+      "body": "Exact same service ? No.\n\nMVNOs usually provide their users lower priority in case of network congestion. However this doesn't hapoen often unless you are in a big crowd.",
+      "author": "Shidoni",
+      "subreddit": "askswitzerland",
+      "created_utc": 1726854278,
+      "score": 3,
+      "link_id": "t3_1flcgpk",
+      "parent_id": "t3_1flcgpk"
+    },
+    {
+      "id": "lo1p4k2",
+      "body": "Je ne dis pas le contraire. C'est une solution parmis d'autres, et je le sais, les effets n'apparaissent que sur le long terme. Personellement je n'opposerai pas responsabilité personelle vs responsabilité des entreprises/politiques. Pour moi elles sont complémentaires. Par exemple sur les déplacements à pied et à vélo quand la situation s'y prête (typiquement campagne vs ville), il y a une part de responsabilité des politiques de les  rendre possible (notamment niveau sécurité/aménagement dans la circulation) et une part de responsabilité de l'individu dans son choix entre la voiture, les TP, le vélo, ou le déplacement à pied.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1726838291,
+      "score": 1,
+      "link_id": "t3_1fklusr",
+      "parent_id": "t1_lo1nalk"
+    },
+    {
+      "id": "lnwt50p",
+      "body": "La prévention, une solution parmis d'autres.\n\nLa grande majorité des coûts se trouvent chez les séniors (50+) pour des maladies cardiovasculaires, neurologiques, cancers etc. Pour beaucoup de ces affections, on sait et on peut réduire les risques d'apparation. \n\nMeilleure alimentation et augmentation de l'activité physique, c'est là où il faudrait travailler : \n- Que les particuliers privilégient les déplacements à pied et à vélo quand ils le peuvent. Que les politiques aménagent la circulation de sorte que le déplacement à pied et à vélo soit accessible aux plus de gens possibles.\n- Encourager une culture du sport.\n- Réduire l'accès aux aliments trop riches, ou au moins sensibiliser mieux.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1726760224,
+      "score": 7,
+      "link_id": "t3_1fklusr",
+      "parent_id": "t3_1fklusr"
+    },
+    {
+      "id": "lndyhnx",
+      "body": "I've had bad experience with Salt because they tried to increase the price mid contract. I was pissed because we agreed on a price on a contract and they couldn't wait until the next term. I terminated the contract with one month notice because of that.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1726481682,
+      "score": 2,
+      "link_id": "t3_1fhfe3v",
+      "parent_id": "t1_lndfyax"
+    },
+    {
+      "id": "lndxrcj",
+      "body": "Wingo is an MVNO. A virtual network carrier. It uses the physical infrastructure of an other provider. \n\nIn case of congestion, there is data priorization among users. Normally MVNO customers don't have priority.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1726481195,
+      "score": 1,
+      "link_id": "t3_1fhfe3v",
+      "parent_id": "t1_lndg1nl"
+    },
+    {
+      "id": "ln2grk2",
+      "body": "Oui, c'est ce qui est arrivé chez moi. Ils peuvent justifier une augmentation au prochain terme du contrat par des travaux de rénovation.\n\nToutefois nous avons réussi à la contester en arguant que le loyer est probablement déja abusif et que le propriétaire ne donne pas les chiffres exacts drs coûts de la rénovation. Résultat : la commission de conciliation a reconnu que les travaux ont donné une plue-value, mais l'augmentationde loyer liée est considéré à 0 chf. Du coup, pas d'augmentation pour nous.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1726312869,
+      "score": 1,
+      "link_id": "t3_1fd31fw",
+      "parent_id": "t3_1fd31fw"
+    },
+    {
+      "id": "lmxw90t",
+      "body": "Mes parents ont construit une maison de ce type, dite \"passive\". J'y ai vécu pendant 5 avant de partir de la maison familiale.\n\nDans l'ensemble ça marche très bien et je trouve le principe impressionant. Effectivement, la maison se comporte comme un thermos et la plupart du temps on ne gèle pas en hiver ni ne suffoque en été.\n\nL'hiver, on profite de la chaleur émise par les appareils électroménagers, la chaleur corporelle et les rayons du soleil pour avoir une température convenable. Ce qui est génial, c'est la ventilation mécanique double flux qui nous permet d'éviter d'avoir à ventiler nous même et perdre à coup sûr de la chaleur. MAIS, on peut être tributaire de la meteo, surtout pendant des journées consécutives de ciel nuageux. On a un petit chauffage d'appoint électrique pour ces périodes là. \n\nL'été, la chaleur ne rentre que très peu, et on profite de la nuit pour tout ouvrir en grand pour laisser s'échapper la chaleur accumulée durant la journée. Effectivement, on tourne à 26 degrés en pic de chaleur en intérieur.\n\nLes + : le confort, car très peu de variation de température, et les grandes économies d'énergie.\nLes - : la discipline nécessaire sur l'ouverture prolongée des portes et fenêtres et la descente ou non des volets.",
+      "author": "Shidoni",
+      "subreddit": "france",
+      "created_utc": 1726240995,
+      "score": 9,
+      "link_id": "t3_1ffqxwq",
+      "parent_id": "t3_1ffqxwq"
+    },
+    {
+      "id": "lm9uwox",
+      "body": "Essaye le service social Place Chauderon 4 à Lausanne pour vous faire accompagner en attendant. Il devraient pouvoir vous aider un minimum.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1725888478,
+      "score": 3,
+      "link_id": "t3_1fcn343",
+      "parent_id": "t3_1fcn343"
+    },
+    {
+      "id": "ll6eyde",
+      "body": "this might be helpful :\n\nhttps://www.ge.ch/actualite/trouver-mon-numero-identification-fiscale-nif-7-09-2017\n\nFrom what I understand, your social security number (I guess the one from Canada) could be the \"numero fiscal\". The AVS number is the social security number when you reside in switzerland. But here you are on a temporary stay so, if I am not mistaken, you will not have yet an AVS number. This leaves your canadian social security number as an option to consider.\n\nBut you know what ? Have a quick call with your bank and I am sure everything will be clarified in a matter of minutes ;)",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1725298927,
+      "score": 2,
+      "link_id": "t3_1f7cjug",
+      "parent_id": "t3_1f7cjug"
+    },
+    {
+      "id": "lkzd5vq",
+      "body": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_269\n\nThere are limits. If you need exact numbers on what is considered \"abusive yield\", you need to look at legal precedents from the federal court.",
+      "author": "Shidoni",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725195560,
+      "score": 2,
+      "link_id": "t3_1f6cspg",
+      "parent_id": "t1_lkz9b45"
+    },
+    {
+      "id": "lkz9186",
+      "body": "You are the owner of appartment, right ?",
+      "author": "Shidoni",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725193790,
+      "score": 1,
+      "link_id": "t3_1f6cspg",
+      "parent_id": "t1_lkz7g5m"
+    },
+    {
+      "id": "lkz7ndw",
+      "body": "See :\n\nhttps://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_262\n\nSubrenting is de facto allowed as long as you don't make any abuse out of it.",
+      "author": "Shidoni",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725193145,
+      "score": 8,
+      "link_id": "t3_1f6cspg",
+      "parent_id": "t1_lkz74lv"
+    },
+    {
+      "id": "lkyskhn",
+      "body": "Salut,\n\nJe ne suis pas juriste.\nTu peux te taper le code des obligations pour les lois : https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr\n\nJe ne vois aucun problème pour deux particuliers de se prêter de l'argent.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1725184318,
+      "score": 2,
+      "link_id": "t3_1f6anbu",
+      "parent_id": "t3_1f6anbu"
+    },
+    {
+      "id": "lk86z3t",
+      "body": "«According to the Federal Court, a maximum return of 3.75 percent is currently permitted for a rental apartment.»\n\nThis is the key to what is considered an abusive rent when the law allows you to challenge the rent.\n\nBut how many people know how to calculate this return ? You need : price of acquisition of your building, equity payed by the owner when taking a mortgage, total living surface area, taxes payed for the property, mortgage rate. \n\nGreat. But once you know how to calculate the return... How tf do you find the acquisition price of the building and equity ? Land registry ? Unless you live in geneva for instance, those informations are private. So you're f*****.\n\nThe system is broken. In theory, the law is super protective of tenants with regard to abusive rent. In practice, crucial information is hidden from you. The only way to contest is where there are sign like : previous tenants have successfully contested a rent increase recently, because the landlord was unable to justify that the rent was not already abusive ; more than10 % increase from last landlord... and that's it ?\n\nIt's broken.",
+      "author": "Shidoni",
+      "subreddit": "zurich",
+      "created_utc": 1724788294,
+      "score": 2,
+      "link_id": "t3_1f1ksb2",
+      "parent_id": "t3_1f1ksb2"
+    },
+    {
+      "id": "ljlt35j",
+      "body": "Here is another option : renting\n\nSee https://www.recyclo.bike/location/\n\nCheapest option is 50 chf first month then 5 chf every additional month. Lights and lock are included. Service of the bike is also included. So if you plan to stay say 5 years, you would pay approx 350 chf.\n\nCons :\n- you don't own your bike\n- might be more expensive for you if you are capable of servicing your bike yourself.\n\nPros\n- you don't do the servicing of your bike.\n- you don't need to try to resell your bike once you're done with your studies",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1724445865,
+      "score": 1,
+      "link_id": "t3_1ezim6v",
+      "parent_id": "t3_1ezim6v"
+    },
+    {
+      "id": "lj7pzvr",
+      "body": "It's not an easy situation. Every year it's the same. \nLausanne has 0.5% vacancy, so it's really tense.\n\nA few ideas : \n- Older people/pensioners tend to have appartments too big for them. They could have the potential to rent a room. However I don't know how you could reach them easily.\n- Look further away from Lausanne and suburbs. Maybe try Cossonay-Penthalaz or cities/villages along the LEB train line.\n- Postulate, postulate and postulate on posts you see on FB.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1724250184,
+      "score": 2,
+      "link_id": "t3_1exod21",
+      "parent_id": "t3_1exod21"
+    },
+    {
+      "id": "liuwrtj",
+      "body": "I have not seen a distinction in the law between EU and non EU. But, IANAL.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1724067183,
+      "score": 1,
+      "link_id": "t3_1bt6cq0",
+      "parent_id": "t1_liuwlec"
+    },
+    {
+      "id": "liuvmu8",
+      "body": "Additionnaly, I suppose you must show that you \"integrated well\". As a french I didn't have to do that so I am not sure how that works.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1724066608,
+      "score": 1,
+      "link_id": "t3_1bt6cq0",
+      "parent_id": "t1_liuvbn4"
+    },
+    {
+      "id": "lirn116",
+      "body": "See the fedlex link I posted (english version available). Your student years count AFTER 2 years with durable B permit.\n\nSaid differently : you need minimum 2 years with durable B permit before applyinh for C permit AND the sum of years under student B permit and durable B permit must be 5.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1724011664,
+      "score": 2,
+      "link_id": "t3_1bt6cq0",
+      "parent_id": "t1_lirl0eq"
+    },
+    {
+      "id": "liosvzm",
+      "body": "Pour ce qui est de la physio, normalement tu dois être assuré en Suisse dans le cadre de tes études et donc une grande partie des factures seront payées pour toi par ton assurance.\n\nPour ce qui est du logement, c'est un autre problème dont je n'ai pas vraiment de solution. Persévères, surtout sur les groupes FB de bouche à oreille.\n\nCourage !",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1723969353,
+      "score": 5,
+      "link_id": "t3_1euyd6x",
+      "parent_id": "t3_1euyd6x"
+    },
+    {
+      "id": "lilxcg1",
+      "body": "They'll write to you by post just in time don't worry.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1723923020,
+      "score": 1,
+      "link_id": "t3_1eujsh8",
+      "parent_id": "t3_1eujsh8"
+    },
+    {
+      "id": "lidjmwm",
+      "body": "which is true, I agree. But here we are talking about what drives the increase in the past years. According to this study, the aging of tje population is not the biggest factor supposedly.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1723797329,
+      "score": 1,
+      "link_id": "t3_1erzg67",
+      "parent_id": "t1_libgkrb"
+    },
+    {
+      "id": "li2fo54",
+      "body": "A recent study made by CSS showed that, supposedly, the main driver of costs increases in health is the price of new medical technologies.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1723640550,
+      "score": 16,
+      "link_id": "t3_1erzg67",
+      "parent_id": "t1_li2a6ag"
+    },
+    {
+      "id": "li22ljs",
+      "body": "I doubt you can't be a subtenant without paying a rent. To me, nothing prevents you from establishing a sublet contract with 0 chf rent. This is my understanding from the law.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1723635014,
+      "score": 1,
+      "link_id": "t3_1ery692",
+      "parent_id": "t1_li1yrbj"
+    },
+    {
+      "id": "li228v3",
+      "body": "Administration likes to have things official. They want a proof of where you live. Doesn't cost anything to write a sublet contract between you and your gf. It's even best if you actually stay on the long run at gf place.\n\nA few things to know : \n- you should notify your landlord about the subtenancy by providing the subtenancy contract. The landlord \n can only refuse if there are major inconveniences stemming from the contract (mainly absuive profit from the main tenant and subtenancy lease being valid after the end of the main lease)\n- Nothing prevents you from putting 0 chf as the rent payed by you.\n- You get the same rights as a main tenant but now your landlord is your gf.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1723634843,
+      "score": 2,
+      "link_id": "t3_1ery692",
+      "parent_id": "t3_1ery692"
+    },
+    {
+      "id": "lhxfaba",
+      "body": "J'ai un vélo électrique que j'utilise\n entre autre pour aller sur le campus epfl/unil depuis Lausanne (centre ville). Un des meilleurs investissements que j'ai fais ces dernières années. Dans mon cas, comme j'ai prévu de bien l'entretenir et le faire durer entre 5 et 10 ans, ça me revient moins cher sur le long terme que le coût des TP. En plus je suis totalement indépendant des TP.\n\nLes batteries sont de grande capacité. A 500Wh, si tu monte pas mal, attends toi à 80km d'autonomie. Tu en a presque deux fois plus sur du plat. Tu peux donc recharger ta batterie (qui sont la grande majorité du temps amovibles) une fois par semaine, chez toi, sur du 230V.\n\nSache que Lausanne offre des subventions à l'achat de vélos electriques jusqu'à hauteur de 1000 chf:\n\nhttps://www.equiwatt-lausanne.ch/scooter-velo-electrique-et-batterie-de-velo/\n\nÀ vérifier si ça s'applique aussi aux habitants de l'agglomération de Lausanne.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1723564742,
+      "score": 1,
+      "link_id": "t3_1er9n8z",
+      "parent_id": "t1_lhx3j19"
+    },
+    {
+      "id": "lhqa591",
+      "body": "Your case seems to be a bit special then.\n\nWhat's your study plan at EPFL ? Are you just starting your master at epfl or are you doing the continuation of your master at EPFL ? Is your thesis planned at EPFL or in your german university ? Is a mandatory internship supposed to take place in your study plan ?",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1723462345,
+      "score": 1,
+      "link_id": "t3_1eoclmk",
+      "parent_id": "t1_lhq95j6"
+    },
+    {
+      "id": "lhq8y3n",
+      "body": "As far as I know, there are no paid positions for master students at EPFL in labs (at least in IC).\n\nHave you checked for positions on the ISAcademia portal ? I see 427 openings for me in CS.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1723461737,
+      "score": 1,
+      "link_id": "t3_1eoclmk",
+      "parent_id": "t1_lhq8ini"
+    },
+    {
+      "id": "lhpxsvm",
+      "body": "Migros Metropole near the coffee machine",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1723455021,
+      "score": 5,
+      "link_id": "t3_1eq8ydw",
+      "parent_id": "t3_1eq8ydw"
+    },
+    {
+      "id": "lhpqpmb",
+      "body": "If you're looking for paid internships, whether it is for the mandatory internship or the thesis, I strongly advise you to apply at companies. \n\nIs there a reason why you would want to do that in an epfl lab ?",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1723450167,
+      "score": 1,
+      "link_id": "t3_1eoclmk",
+      "parent_id": "t3_1eoclmk"
+    },
+    {
+      "id": "lhgs3cp",
+      "body": "Here the official, unbiased comparison tool provided by the federal government : \n\nhttps://www.priminfo.admin.ch/fr/praemien",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1723311349,
+      "score": 2,
+      "link_id": "t3_1eoqgxm",
+      "parent_id": "t3_1eoqgxm"
+    },
+    {
+      "id": "lhgmgu1",
+      "body": "OP how long did she live with you ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1723309430,
+      "score": 2,
+      "link_id": "t3_1eowm7w",
+      "parent_id": "t3_1eowm7w"
+    },
+    {
+      "id": "lhgki29",
+      "body": "I disagree with a few comments telling to call the police.\n\nThe first thing I would advise is, by principle, give her enough time to move out if she doesn't have an alternative just yet.\n\nIf you are the one on the lease, and she lived with you long enough, she might be considered legally as a subtenant. Subtenants have rights like regular tenants with regard to period of notice. By default, it's 3 months. Again, by principle, I would advise you to give her a termination notice in writing so that you have paper proof in the future in case you need it in front of a conciliation instance or the police.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1723308769,
+      "score": 40,
+      "link_id": "t3_1eowm7w",
+      "parent_id": "t3_1eowm7w"
+    },
+    {
+      "id": "lftk08r",
+      "body": "Living in a hilly swiss city. E-Bikes are everywhere. The infrastructure is there (whatever some people think). E-Bikes are subsidized up to 500 swiss francs (same number in american dollars). From my perspective I see great enthousiasm towards this mode of transportation.\n\n\nHere are the main advantages I identified for using E-Bikes inside the city where I live :\n\n- Cheapest way of commuting. If you properly maintain your E-bike long enough (in my case more than 4-5 years), it becomes quite cheaper than PT.\n\n- Energy efficiency which contributes to both money and energy savings.\n\n- Health. By contributing in two ways : globally by reducing pollution in the city and individually by making you move moderetaly almost every day.\n\n- Trafic reduction.\n\nDisadvantages :\n- sharing the road with cars\n\n- having to put more effort with adapted clothing when it rains.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1722437391,
+      "score": 2,
+      "link_id": "t3_1egii4q",
+      "parent_id": "t3_1egii4q"
+    },
+    {
+      "id": "lfohwn4",
+      "body": "Hah lol ! I think those criterias should be definitely pushed in CS for TAs x)",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1722360542,
+      "score": 3,
+      "link_id": "t3_1efpj6l",
+      "parent_id": "t1_lfohm74"
+    },
+    {
+      "id": "lfohdze",
+      "body": "Then it changed from back in 2014-2016. All professors I was in contact with required 5.5. I guess it depends on the prof.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1722360385,
+      "score": 1,
+      "link_id": "t3_1efpj6l",
+      "parent_id": "t1_lfoh1vd"
+    },
+    {
+      "id": "lfne97v",
+      "body": "Email the professor directly to show your interest. As a rule of thumb, only try to apply if you had at least 5.5 in the course.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1722347830,
+      "score": 1,
+      "link_id": "t3_1efpj6l",
+      "parent_id": "t3_1efpj6l"
+    },
+    {
+      "id": "lfif1fj",
+      "body": "\"Meilleur abonnement\", c'est pas très clair. Le meilleur abonnement pour un usage sera peut être moins bon pour un autre usage. \n\nClarifie et on pourra mieux t'aider.\n\nEn attendant Galaxus Mobile propose 3 offres dont le \"basic\" commence à 14chf environ + une réduction si tu es étudiant.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1722271465,
+      "score": 1,
+      "link_id": "t3_1ecn56c",
+      "parent_id": "t3_1ecn56c"
+    },
+    {
+      "id": "lfdfwmo",
+      "body": "6700 ?!! je n'y crois pas une seule seconde. C'est le salaire de début de carrière d'un ingénieur Computer Science. \n\nUn médecin gagne beaucoup plus que ça dans les 10 000 chf par mois. Je ne vois pas pourquoi un dentiste soit beaucoup moins bien payé que dans d'qutres spécialités.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1722191514,
+      "score": 2,
+      "link_id": "t3_1eecn2r",
+      "parent_id": "t1_lfdeu1y"
+    },
+    {
+      "id": "lfdb7mf",
+      "body": "J'ai du mal à croire qu'un dentiste en suisse soit moins bien lotis qu'en france rapporté au coût de la vie.\n\nLes prix pratiqués en Suisse sont tout simplement indécents. Mon ex avait besoin de soins dentaires et sont devis donnait un montant d'environ 1900 chf. En france, elle a déboursé 250 euros.\n\nPeut-être que les suisses viennent se faire soigner en France voisine pour alléger la facture et donc c'est pour cela que la patientèle est difficile à trouver en suisse (romande) ? En vrai j'en sais rien...",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1722189904,
+      "score": 7,
+      "link_id": "t3_1eecn2r",
+      "parent_id": "t3_1eecn2r"
+    },
+    {
+      "id": "lf76kaz",
+      "body": "I would say interpret those stats as a trend for CS graduates, not only those from EPFL.\n\nIn my previous job my french colleagues didn't have any trouble getting CS jobs in switzerland.\n\nThe CS job markwt isnvery international from my pov.\n\nEven a Fachhochschule degree is fine no problem.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1722093468,
+      "score": 1,
+      "link_id": "t3_1ec4ps4",
+      "parent_id": "t1_lf75tj3"
+    },
+    {
+      "id": "lf17s69",
+      "body": "Ok. It's just that apparently it's a hassle for companies to hire non EU citizens in switzerland as it requires them to make a lot of paperwork, compared to a EU citizen.\n\nFrom my POV it shouldn't be too hard to find a job in CS in Switzerland. The last time I checked the stats from an EPFL survey, EPFL CS graduates (swiss and non swiss people) have a job on average 6 weeks after graduating. https://www.epfl.ch/about/recruiting/wp-content/uploads/2023/10/Survey-report-on-the-professional-integration-of-EPFL-graduates-2021.pdf",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1722001850,
+      "score": 1,
+      "link_id": "t3_1ec4ps4",
+      "parent_id": "t1_lf0up25"
+    },
+    {
+      "id": "lexlp53",
+      "body": "Are EU or non EU citizen ? That makes all the difference.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721941108,
+      "score": 3,
+      "link_id": "t3_1ec4ps4",
+      "parent_id": "t3_1ec4ps4"
+    },
+    {
+      "id": "lej8e7m",
+      "body": "Galaxus mobile (Sunrise network),\n\n19 chf per month, 16 if you register as a student.\n\nUnlimited data, calls and sms in Switzerland + 1GB in Europe per month. You are free to terminate at the end of each month.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721737782,
+      "score": 1,
+      "link_id": "t3_1e9vhue",
+      "parent_id": "t3_1e9vhue"
+    },
+    {
+      "id": "ldyswv0",
+      "body": "Well thanks for doubting my sincerity :)\n\nOf course there are disgusting people. You can have luck or not. But to say there's always a disgusting person...",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721413033,
+      "score": 1,
+      "link_id": "t3_1e3rnqj",
+      "parent_id": "t1_ldbdovg"
+    },
+    {
+      "id": "lds31gh",
+      "body": "Accessory expenses are not specified in the tenancy agreement. However a neighbour with an appartement identical in size pays 200 chf per month for that.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721314395,
+      "score": 2,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_lds1t02"
+    },
+    {
+      "id": "ldr5ecq",
+      "body": "I'll give you the example of where I live :\n\n1857 building, bought by our landlord in 2019. We got info during a rent increase dispute that the terrain of the building has been bought for roughly 5.1 mil. There is around 600-650m2 of living surface. We live in a 100m2 appartement and pay around 2700 per month all included.\n\nAccording to you, what is the profit, given that the mortgage covers 80% of the investment ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721300621,
+      "score": 2,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ldr446c"
+    },
+    {
+      "id": "ldq66ii",
+      "body": "sure",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721278285,
+      "score": 1,
+      "link_id": "t3_1e4hlpr",
+      "parent_id": "t1_ldofrnk"
+    },
+    {
+      "id": "ldku5qr",
+      "body": "Went to HEIG, worked after getting my bachelor, went through the passerelle HES, then Master at epfl.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721202703,
+      "score": 1,
+      "link_id": "t3_1e4hlpr",
+      "parent_id": "t1_ldis2pt"
+    },
+    {
+      "id": "ldfc11l",
+      "body": "Hey\n\nDon't beat yourself up. In 2016 I failed after 4 years as well in IC. You'll be fine. There are other options to consider in the mean time.\n\nFast forward today, I only need to do my master thesis next semester and I am done with epfl :)",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721121838,
+      "score": 6,
+      "link_id": "t3_1e4hlpr",
+      "parent_id": "t3_1e4hlpr"
+    },
+    {
+      "id": "ldcgsip",
+      "body": "How come you will not be able to pay in time ? Can't you pay online ?",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721075156,
+      "score": 1,
+      "link_id": "t3_1e42jdq",
+      "parent_id": "t3_1e42jdq"
+    },
+    {
+      "id": "ldbngsl",
+      "body": "Master is much more focused on practice than in the bachelor. More projects, more things to deliver. \n\nBut then I am biased. I worked between the bachelor at heig-vd and the master at epfl. I found the master much easier than the bachelor as you are more disciplined and able to filter out unnecessary information. You basically become more efficient. \nI had the tendancy to try to learn everything but now I know what information and what tasks to prioritize.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721065767,
+      "score": 1,
+      "link_id": "t3_1e3xob7",
+      "parent_id": "t1_ldbmdef"
+    },
+    {
+      "id": "ldbcvel",
+      "body": "Let's assume that owners will be more likely to sell their property due to the reasons you provided. Don't you think it's a good thing in a country like switzerland that has one of the lowest (if not the lowest) ownership rate in europe ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721062365,
+      "score": 3,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ldalylm"
+    },
+    {
+      "id": "ldb9uob",
+      "body": "Whatever man... You come here and treat others like they are idiots, refuse to respond to critiques to your claims (that are incompletely backed up) and then refuse to debate. How uncivilised.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721061391,
+      "score": 3,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ldb6lut"
+    },
+    {
+      "id": "ldb1h84",
+      "body": "2012-2016. Failed at the end of my bachelor. Algorithms with Ola Svenson. Reoriented to Heig-vd.\n\nIt was quite demanding. I was on edge all the time. Hopefully they correctly readjusted the number of credits per course.\n\nBe aware of SwEnt (formerly SwEng). It's really demanding (but feasible). The problem with this course is that they are not taking into account that you have other courses and homeworks in parallel.\n\nCurrently finishing my epfl master, normally this winter. So if you fail, don't loose hope.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721058669,
+      "score": 3,
+      "link_id": "t3_1e3xob7",
+      "parent_id": "t3_1e3xob7"
+    },
+    {
+      "id": "ldaxqn4",
+      "body": "Please calm down. I read on one of your other comments that you claim being an economist. If that is true, your behaviour doesn't make you credible. You should be able to at least explain, cite, develop your arguments without considering everyone as idiots. You are not giving a good impression at all.\n\nRegarding your articles. I've read them (don't be so sure about yourself :p ). In summary it claims the same as what you said in a previous comment. Fine. I have however multiple doubts :\n- the citation of scientific literature is very scarce\n- The context of those studies/claims is in some cities in the USA. My question is : do the conclusions apply to european countries which have different policies ?\n- one of the arguments against rent control is it prevents incetives for construction and maintenance. Let's focus on maintenance. In switzerland, maintenance costs are already taken into account before calculating the allowed net profit. I fail to see how owners are not incentivized.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721057448,
+      "score": 1,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ldajoq3"
+    },
+    {
+      "id": "ldahsqi",
+      "body": "I understand you think people are dumb. I am sorry you feel that way. But could you still provide the source of your assertions ? It is in general the duty of the one making claims to provide evidence. Where are those studies ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721051928,
+      "score": 1,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ldag56w"
+    },
+    {
+      "id": "ldaebk8",
+      "body": "Please explain why. \n\nHere it's only about enforcing the already existing law. Excessive profit is not permitted yet there is no enforcement.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721050581,
+      "score": 2,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_lda3ppp"
+    },
+    {
+      "id": "ldadvvk",
+      "body": "Please develop ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721050408,
+      "score": 3,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ld9wx0q"
+    },
+    {
+      "id": "ldaddkj",
+      "body": "Unprofitable as ? The initiative doesn't call for a stop on profits. It simply demands the enforcement of the law. Profit is not illlegal, its excessiveness is.\n\nIf the the goal is to have rents covering the costs of construction, mortgage, taxes etc + a permissible profit, how does that impede construction ? Real estate is basically risk free ! Profit will always be possible !",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721050205,
+      "score": 6,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ld9x755"
+    },
+    {
+      "id": "ldac5fe",
+      "body": "The law is already there. Excessive profits are forbidden. The initiative wants enforcement of the law. Most of the rents are already illegal and tenants are left alone to contest them.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1721049705,
+      "score": 6,
+      "link_id": "t3_1e3s6sk",
+      "parent_id": "t1_ld9xgm1"
+    },
+    {
+      "id": "ld9v85o",
+      "body": "Living in flatshare can be both amazing and complicated. \n\nAmazing because you have company.\n\nComplicated because you will always have different expectations between you and flatmates regarding the cleaning and the way of doing things. \n\nSo it's really important to (learn to) communicate at all times and make compromises if necessary.",
+      "author": "Shidoni",
+      "subreddit": "EPFL",
+      "created_utc": 1721041598,
+      "score": 4,
+      "link_id": "t3_1e3rnqj",
+      "parent_id": "t3_1e3rnqj"
+    },
+    {
+      "id": "lcj20qe",
+      "body": "I'll share you my own experience as a former EU student here in switzerland.\n\nThe only thing you have to worry about when paying any form of taxes is the visitor's tax (in french, \"taxe de séjour\"). This applies if you are in switzerland for studies only. As soon as you start working (whether you study or not at the same time), you don't have to pay the tax for duration of you work. This was my experience from 2012 to 2018. If you work with a B permit you'll pay taxes indirectly through your employer (it is the one responsible for collecting the tax, and you don't have to declare anything). As soon as you become a true resident (a C permit) that's when you will make your tax declaration).\n\nBe aware that I was a former EU student that is now on  a residency permit (C). The law might have changed since but I am not aware of it.",
+      "author": "Shidoni",
+      "subreddit": "ethz",
+      "created_utc": 1720627385,
+      "score": 2,
+      "link_id": "t3_1dzxuf2",
+      "parent_id": "t3_1dzxuf2"
+    },
+    {
+      "id": "lc67h1b",
+      "body": "Highly effective strategy : tell them that you will not renew your contract. They will come up with an offer very fast.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1720434488,
+      "score": 1,
+      "link_id": "t3_1dy58mn",
+      "parent_id": "t3_1dy58mn"
+    },
+    {
+      "id": "lbwbj6s",
+      "body": "Ce n'est pas un musée que je te propose mais, si tu veux vivre une expérience, pourquoi pas des randonnées en montagne ? Certaines sont à couper le souffle !\n\nDu plus proche de Lausanne au plus loin (non exhaustif) :\n- Rochers de Naye / Dent de Jaman\n- Mirroir d'argentine\n- Bisse de Savièse\n- Oeschinensee",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1720276150,
+      "score": -4,
+      "link_id": "t3_1dwq14w",
+      "parent_id": "t3_1dwq14w"
+    },
+    {
+      "id": "lbcxir2",
+      "body": "hmm qui sait avec toute cette propreté ça cache peut-être quelque chose...",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719960614,
+      "score": 2,
+      "link_id": "t3_1dtwuo4",
+      "parent_id": "t1_lbcx9tt"
+    },
+    {
+      "id": "lbcvvyv",
+      "body": "Je suis ton voisin :p\n\nA quand la version pot d'aromat dans r/suisse ?",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719960014,
+      "score": 4,
+      "link_id": "t3_1dtwuo4",
+      "parent_id": "t1_lbcvcqg"
+    },
+    {
+      "id": "lbcu0ym",
+      "body": "Je suis d'accord et je pense que cela est dû à plusieurs raisons. La suisse francophone est petite, et les immigrés qui cherchent à s'y installer ont l'air de monopoliser un peu le sub. \n\nJ'irai jusqu'à dire que les suisses en général sont probablement moins expressifs ce qui se traduit par moins d'intéractions sur le sub...",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719959324,
+      "score": 6,
+      "link_id": "t3_1dtwuo4",
+      "parent_id": "t1_lbcsybt"
+    },
+    {
+      "id": "lbcsfgd",
+      "body": "Non il y a clairement une différence r/suisse et air france. Sur ce dernier on parle politique, histoires perso, travail, pots de mayonnaise...",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719958734,
+      "score": 22,
+      "link_id": "t3_1dtwuo4",
+      "parent_id": "t1_lbcqsdg"
+    },
+    {
+      "id": "lb5zmwm",
+      "body": "cher.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719859018,
+      "score": 2,
+      "link_id": "t3_1dt018p",
+      "parent_id": "t3_1dt018p"
+    },
+    {
+      "id": "lb44q22",
+      "body": "Did I say the VAT covers the costs of universities ? No. My point is stating that foreign students get an education for free is a lie. \n\nNothing forbids a swiss to study abroad in an EU country with low semester fees and come back with a degree. It goes both ways.",
+      "author": "Shidoni",
+      "subreddit": "ethz",
+      "created_utc": 1719835047,
+      "score": 3,
+      "link_id": "t3_1dspsn0",
+      "parent_id": "t1_lb433fy"
+    },
+    {
+      "id": "lb43emp",
+      "body": "Perhaps it doesn't cover all of it, but stating that studying in switzerland is gratis is a lie.\n\nI just don't get this argument though. The vast majority of students come from the EU. Swiss people are totally able to study abroad in the EU also for a ridiculously low semester fee and cost of living depending on where you go. It goes both ways.",
+      "author": "Shidoni",
+      "subreddit": "ethz",
+      "created_utc": 1719834382,
+      "score": 3,
+      "link_id": "t3_1dspsn0",
+      "parent_id": "t1_lb42q6f"
+    },
+    {
+      "id": "lb42831",
+      "body": "uuuh, students are also taxpayers from paying the VAT on a daily basis. Paying for groceries, paying the rent, paying for services, paying for leisure... All of this is money coming from outside of Switzerland thanks to students.",
+      "author": "Shidoni",
+      "subreddit": "ethz",
+      "created_utc": 1719833767,
+      "score": 5,
+      "link_id": "t3_1dspsn0",
+      "parent_id": "t1_lb3xpl9"
+    },
+    {
+      "id": "laks5gu",
+      "body": "I am pretty sure I match the required criterias. In addition to what I already said before I have : \n- unrefreshing sleep, occasionaly insomnia, trouble falling asleep, trouble waking up\n- very stiff muscles in the morning\n- chronic runny nose, coughing after physical exercise, occasionaly headaches\n- feeling hot in bed\n- heavy breathing\n- nausea/lack of appetite\n\nA simple task like vacuuming the floor forces me to lay down for a while after I am done.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1719519770,
+      "score": 2,
+      "link_id": "t3_1dpyho2",
+      "parent_id": "t1_laknb6o"
+    },
+    {
+      "id": "la1ff4j",
+      "body": "Before considering CFS/ME I always thought chronic anxiety/stress played a significant role in my chronic fatigue.\n\nAfter years of introspection and observation, it turns out that the effect anxiety <-> fatigue goes both ways. Fatigue does fuel anxiety (\" Oh boy I feel so exhausted this morning. Will I be able to get things done today ?\"). Stress then causes more fatigue. I am then forced to pace.\n\nAnxiety/stress is very easy to blame when trying to find the source of many problems. It's not that easy though.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1719231723,
+      "score": 10,
+      "link_id": "t3_1dnbkku",
+      "parent_id": "t3_1dnbkku"
+    },
+    {
+      "id": "l9qw280",
+      "body": "A chauderon c'est pire que ça. En heure de pointe bien sûr. Je le sais j'y habite.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719053338,
+      "score": 1,
+      "link_id": "t3_1dlq477",
+      "parent_id": "t1_l9qvuso"
+    },
+    {
+      "id": "l9quumv",
+      "body": "> Cela dit je ne trouve pas que les pays voisins soit tellement plus calme. On klaxonne tres peu comparer aux français par exemple.\n\nJ'ai une expérience totalement différente. A chauderon à Lausanne par exemple, aucune discipline sur le klaxon. Soit c'est pour réveiller quelqu'un au téléphone, soit c'est pour tenter de faire avancer la colonne (lol) quand il y a clairement un blocage plus loin. \n\nDans la jungle parisienne j'étais choqué à quel point le klaxon était peu utilisé par rapport au centre ville de Lausanne.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1719052516,
+      "score": 1,
+      "link_id": "t3_1dlq477",
+      "parent_id": "t1_l9qhwht"
+    },
+    {
+      "id": "l9p52nv",
+      "body": "I am apparently \"mild\". After I climb, my muscles (especially back and shoulders) get horrendously stiff, sore and weak the day after. I have to wait a week before it gets better again.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1719016782,
+      "score": 2,
+      "link_id": "t3_1dl3cvx",
+      "parent_id": "t3_1dl3cvx"
+    },
+    {
+      "id": "l91667b",
+      "body": "J'adore la logique /s : tu portes pas de casque, donc on a encore plus le droit de te mettre en danger.",
+      "author": "Shidoni",
+      "subreddit": "france",
+      "created_utc": 1718646684,
+      "score": 2,
+      "link_id": "t3_1di0qjz",
+      "parent_id": "t1_l90zk6z"
+    },
+    {
+      "id": "l8viidk",
+      "body": "I recently acquired a garmin watch. Still need to record enough data to know where I stand with regard to HR zones.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718553779,
+      "score": 2,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8vi6zs"
+    },
+    {
+      "id": "l8v3zkt",
+      "body": "You summarized my current mindset perfectly !",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718548092,
+      "score": 2,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8sj5xx"
+    },
+    {
+      "id": "l8shky3",
+      "body": "It measures physical capacity. Important in sports medicine and cardiology. \n\nThere have been studies suggesting that a repeated CPET could show a deterioration of physical capacity after physical exertion.\n\nSee https://me-pedia.org/wiki/Two-day_cardiopulmonary_exercise_test",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718495179,
+      "score": 1,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8sf9zi"
+    },
+    {
+      "id": "l8s1qmr",
+      "body": "What do I need to be careful of ? Isn't the goal to do 2 regular CPETs and calculate deltas ?",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718488379,
+      "score": 1,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8rz1qy"
+    },
+    {
+      "id": "l8rmqa1",
+      "body": "I'll have to do with my local university hospital here in switzerland ^^\n\nbtw, how much costs a CPET in the USA ? Here it's around 230-250 chf (chf and $ have same values)",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718482477,
+      "score": 6,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8rm9ri"
+    },
+    {
+      "id": "l8r9joj",
+      "body": "I am aware that the 2 day CPET isn't proof for ME/CFS. However, from my understanding, it seems sufficient to show an anomaly if there is one.\n\nI have a father who is an orthopedist and does a bit of sports medicine. Unfortunately he doesn't understand my condition and keeps repeating that physical activity is important and that I need to maintain my condition. Which... makes sense coming from him and other MPs, right ? At the same time he is not aware of ME/CFS and I have suggested him multiple times to read on the subject. He has now, but I don't feel like he agrees I have that. I feel like the only way to convince him, and my GP along the way, is to show numbers. In that case with a 2 day CPET.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718477351,
+      "score": 2,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8qy57q"
+    },
+    {
+      "id": "l8qx572",
+      "body": "I did buy an ebike last year. Especially because my place has difficult hills. I guess it was for my own good then.\n\nRegarding climbing I can tell you that I get excessive soreness/pain in my muscles after said activity. Even though I have been regular every week for the past 4 years. I thought it would pass with some conditionning, but it hasn't. Guess I'll have to climb extremely easy routes and increase difficulty gradually until I find a threshold.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718472348,
+      "score": 1,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8qt2jz"
+    },
+    {
+      "id": "l8qio18",
+      "body": "It has been 7 years for me. Unfortunately I increased physical activity over the years because it helped me so much with mental health. I really need to know if it's worthwhile to stop so I am currently trying to schedule a 2 day CPET.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718466425,
+      "score": 2,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8qi3qt"
+    },
+    {
+      "id": "l8qhtg2",
+      "body": " The thing is I love sports. It is super helpful for mental health. If I had to stop physical exercise entirely this would be challenging. I'll pace myself first I think. And also do this 2 day CPET to see whether physical exertion results in functional impairment.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718466063,
+      "score": -17,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8qh5nl"
+    },
+    {
+      "id": "l8qcxg3",
+      "body": "> \"There's nothing wrong with me, it's all in my head!\" And then sometimes I'll crash in that afternoon.\n\nDamn, how many times I told this to myself.\n\nI am currently trying to schedule a 2 day CPET at the nearest University hosptial. Hopefully I'll be able to find objective measures to help obtain disability insurance.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718463943,
+      "score": 21,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8qbhbf"
+    },
+    {
+      "id": "l8qbcu5",
+      "body": "That's scary to hear. I really hope one day we will understand this condition once and for all. \n\nIt's also sad to hear because I love sports. I am still trying to find what my energy envelope is.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718463248,
+      "score": 13,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8q0m6a"
+    },
+    {
+      "id": "l8qabu1",
+      "body": "How do you feel when you exercice or in general when your heart rate accelerates a bit ? Does it temporarely help with fatigue ? \n\nBecause I do feel better during exercise and shortly after. Then it's a hard crash. I need to lay down.",
+      "author": "Shidoni",
+      "subreddit": "cfs",
+      "created_utc": 1718462794,
+      "score": 21,
+      "link_id": "t3_1dghdgb",
+      "parent_id": "t1_l8q033s"
+    },
+    {
+      "id": "l8g53u1",
+      "body": "Still 4199 $ tho, hope you find one on discount. Good luck !",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1718296703,
+      "score": 1,
+      "link_id": "t3_1decogn",
+      "parent_id": "t1_l8g4v4q"
+    },
+    {
+      "id": "l8fjy6w",
+      "body": "yep, it does",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1718289605,
+      "score": 1,
+      "link_id": "t3_1decogn",
+      "parent_id": "t1_l8fb6kr"
+    },
+    {
+      "id": "l8eukvj",
+      "body": "Sadly the S10 is even more expensive than the brompton :( I got mine with a discount, otherwise too expensive for me.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1718279292,
+      "score": 1,
+      "link_id": "t3_1decogn",
+      "parent_id": "t1_l8cw3zh"
+    },
+    {
+      "id": "l8c81ma",
+      "body": "Don't know your budget, but here is one that is quite expensive but pretty damn good : tern Vektron S10, wich has the performance line bosch engine. Absolutely no problem on crazy hills, can carry around 125kg (cargo and rider), the 500 wh battery can give you more than 150kms on completely flat paths but around 60kms if your path has mainly hills. Weighs 22 Kg.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1718230950,
+      "score": 2,
+      "link_id": "t3_1decogn",
+      "parent_id": "t3_1decogn"
+    },
+    {
+      "id": "l8c3e6o",
+      "body": "You would be surprised by how much money is invested with no return. 90 % of startups fail. Investors gonna invest anyways because when they find the one, the return on investment will greatly offset the money spent in failed startups.",
+      "author": "Shidoni",
+      "subreddit": "Futurology",
+      "created_utc": 1718229215,
+      "score": 1,
+      "link_id": "t3_1dddmc7",
+      "parent_id": "t1_l8byom9"
+    },
+    {
+      "id": "l8a9nt8",
+      "body": "Oh man, you don't need to go far to see there is a problem with medication prices. \n\n1 simple example : \n- 38.25 chf for sertralin 50mg, 30pces, in switzerland https://compendium.ch/fr/product/1089699-sertraline-sandoz-eco-cpr-pell-50-mg\n- 4.10 euros for sertralin 50mg, 28 pces, in France https://www.vidal.fr/medicaments/gammes/sertraline-zydus-france-28444.html",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1718207221,
+      "score": 2,
+      "link_id": "t3_1de48es",
+      "parent_id": "t1_l89dsto"
+    },
+    {
+      "id": "l85rew9",
+      "body": "I specialize in computer architectures. If what they present on their website is what is supposed to give a 100x boost, I am sorry to announce that the technologies they present already exist in current CPUs.",
+      "author": "Shidoni",
+      "subreddit": "Futurology",
+      "created_utc": 1718133158,
+      "score": 11,
+      "link_id": "t3_1dddmc7",
+      "parent_id": "t3_1dddmc7"
+    },
+    {
+      "id": "l84h7f0",
+      "body": "It always has been with a psychiatrist. It's those with psychologists that are now reembursed",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1718117839,
+      "score": 1,
+      "link_id": "t3_1dcj1h3",
+      "parent_id": "t1_l7zhjji"
+    },
+    {
+      "id": "l81kacv",
+      "body": "T'as pas vu le röstigraben de ba***d sur les primes ?",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1718064252,
+      "score": 22,
+      "link_id": "t3_1dd03tf",
+      "parent_id": "t1_l81j4n0"
+    },
+    {
+      "id": "l7zlvae",
+      "body": "> Overall I think the general consensus is that something must be done, we can't just sit around and \"what if\" and \"but what about\" for all eternity. People are aware about our precious nature and they are aware about climate change. It's a conflict of interests that will always be there, so you gotta make someone unhappy.\n\nThis paragraph applies so well to health costs. Nevertheless, still no reform in sight.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1718039403,
+      "score": 2,
+      "link_id": "t3_1dcpigx",
+      "parent_id": "t1_l7zjgm7"
+    },
+    {
+      "id": "l7y6x2n",
+      "body": "And if you need to talk in the mean time, you don't wait and reach out to us",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1718020142,
+      "score": 8,
+      "link_id": "t3_1dcj1h3",
+      "parent_id": "t1_l7y6bcz"
+    },
+    {
+      "id": "l7y4erl",
+      "body": "Consultation psychiatrique de Chauderon : 021 314 00 50\n\nLa main tendue : 143\n\nUrgences psychiatriques du CHUV 0848 133 133\n\nDon't wait, call, talk. Share anything you need to share. There is no shame or anything. \n\nYou got this my dude ! *Virtual hug*",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1718018823,
+      "score": 126,
+      "link_id": "t3_1dcj1h3",
+      "parent_id": "t3_1dcj1h3"
+    },
+    {
+      "id": "l7tq7ma",
+      "body": "Avec une telle différence de primes entre cantons, forcément que cela n'allait pas passer. Tu payes moins, t'as moins envie de payer pour les autres. \n\nMais cette vision est beaucoup trop simpliste à mon avis. Déja, nous payons avant tout pour nos ainés. Nos primes financent LARGEMENT les soins des personnes de plus de 50 ans et c'est normal vu qu'à cet âge notre santé se deteriore. C'est facilememt vérifiable dans les statistiques de l'OFS. A cet âge, les couts proviennet principalement de pathologies cardio-vasculaires, de cancers et de pathologies neurologiques. Ces couts pèsent largement dans nos primes quels que soient le canton et ils sont inevitables. \n\nAinsi je doute fortement que les disparités latino-germaniques dans les primes trouvent totalement  leur orgine dans des comportements supposément differents entre les groupes en questions.  Quid des différences de démographie entre cantons ? De la disponibilité des technologies de pointe couteuses selon les cantons ? De l'environnement différent entre ville/campagne ?",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1717946579,
+      "score": 0,
+      "link_id": "t3_1dbr0ou",
+      "parent_id": "t3_1dbr0ou"
+    },
+    {
+      "id": "l7t4a12",
+      "body": "Yes. \n\nAnd I would argue everything is done here so that everything is made difficult for the consumer to know their rights.\n1) On many topics, the law is ambiguous\n2) Nothing really is done to make the understanding of the law clearly accessible to the xommon citizen in a comprehensive manner. Compare https://www.ch.ch and https://www.service-public.fr/. It's day and night.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1717937535,
+      "score": 2,
+      "link_id": "t3_1d8q1pv",
+      "parent_id": "t1_l7sr51l"
+    },
+    {
+      "id": "l7ctub9",
+      "body": "Arguments qui vont aller en ta faveur : demander la preuve que certains points de l'augmentation (charges d'exploitation et travaux à plus value) sont justifiés -> les régies ne les fournissent pas, ce qui pousse la commission à proposer une augmentation réduite  lire nulle.\n\nRappel : l'augmentation de l'IPC ne se répercute qu'à 40% et non pas 100 %.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1717672613,
+      "score": 2,
+      "link_id": "t3_1d9c9mg",
+      "parent_id": "t3_1d9c9mg"
+    },
+    {
+      "id": "l7chjiv",
+      "body": "Hmmm taking 20min as a source ? meh.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1717664587,
+      "score": 1,
+      "link_id": "t3_1d8q1pv",
+      "parent_id": "t1_l78kv55"
+    },
+    {
+      "id": "l7ch5gj",
+      "body": "Article 257h of Code of Obligations : \n\n\"The landlord or lessor must inform the tenant or lessee of works and inspections in good time and take all due account of the latter’s interests when they are carried out; all claims of the tenant or lessee for reduction of the rent (Art. 259d) and for damages (Art. 259e) are reserved.\"\n\n\"The latter's interest\". I guess holidays count.\n\nIf you give reasonable options to the Regie, to me that's fine.\n\nAlso at least in Wadt it's considered \"in good time\" to be notified at least 5 days in advance. (RULV)",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1717664300,
+      "score": 1,
+      "link_id": "t3_1d8q1pv",
+      "parent_id": "t3_1d8q1pv"
+    },
+    {
+      "id": "l7c260s",
+      "body": "Profites-en pour demander si ta carte d'identité angolaise en olus du permis C est suffisant. Ils pourraient te faire payer ce document de voyage temporaire alors que tu peux l'éviter.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1717653729,
+      "score": 1,
+      "link_id": "t3_1d8ujuf",
+      "parent_id": "t1_l7bvccy"
+    },
+    {
+      "id": "l7bwk90",
+      "body": "Je parlais des commentaires, pas la publication.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1717650330,
+      "score": 1,
+      "link_id": "t3_1d8ujuf",
+      "parent_id": "t1_l7bv6os"
+    },
+    {
+      "id": "l7a5it3",
+      "body": "Une petite recherche avant de commenter n'importe quoi ça ne fait pas de mal :\n\nhttps://www.geneve.ch/themes/culture/bibliotheques/interroge/reponses/est-il-possible-de-voyager-en-avion-uniquement-un-permis-c\n\nOui il te faut ton permis C (c'est ta preuve de résidence en Suisse, plus largement dans l'espace schengen) mais comme ce n'est pas véritablement une pièce d'identité, ta carte d'identité angolaise fera l'affaire).",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1717623430,
+      "score": 2,
+      "link_id": "t3_1d8ujuf",
+      "parent_id": "t3_1d8ujuf"
+    },
+    {
+      "id": "l78ylxd",
+      "body": "Les jardins",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1717609050,
+      "score": 3,
+      "link_id": "t3_1d8rlzj",
+      "parent_id": "t3_1d8rlzj"
+    },
+    {
+      "id": "l71eg4u",
+      "body": "My man, I know that in switzerland a car costs between 10 to 15k swiss francs per year in : gas, parking, maintenance, insurance, road taxes + initial cost of the car.\n\nAn ebike will cost you one order of magnitude less than a car.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1717491774,
+      "score": 2,
+      "link_id": "t3_1d7momt",
+      "parent_id": "t3_1d7momt"
+    },
+    {
+      "id": "l6tc851",
+      "body": "Oui gros pet de cerveau 😅\nPar an je voulais dire !",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1717359942,
+      "score": 3,
+      "link_id": "t3_1d6k1s6",
+      "parent_id": "t1_l6t85uk"
+    },
+    {
+      "id": "l6syc8j",
+      "body": "Attention à ne pas idéaliser non plus le salaire suisse. Regarde ce qu'il te restera après le paiement du loyer, de l'assurance-maladie, des frais de transports, du coût de l'alimentaire etc.\n\nPour te donner une idée, avec la petite franchise à 300 chf, l'AM coûtera entre 500 et 600 chf par mois par personne. A la plus haute franchise, ça tourne autour de 350 chf par mois.\n\nUn 3.5 pièces tourne autour de 1500-2000 chf par mois à Lausanne par exemple.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1717354764,
+      "score": 4,
+      "link_id": "t3_1d6k1s6",
+      "parent_id": "t3_1d6k1s6"
+    },
+    {
+      "id": "l6shv3r",
+      "body": "D'expérience les lieux de grimpe indoor (Totem, le cube, Beaulieu-grimper.ch) ont du potentiel pour se faire des connaissances qui peuvent se transformer en amitiés, tout en faisant du sport. Il y a une composante communautaire très forte dans le milieu.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1717348716,
+      "score": 5,
+      "link_id": "t3_1d6f4ln",
+      "parent_id": "t3_1d6f4ln"
+    },
+    {
+      "id": "l4wx0ny",
+      "body": "BDU365, performance line 3rd gen. I see now that these parts are for BDU4XX. I have no problem servicing myself. Does it break the warranty if done by a regular user ?",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716231538,
+      "score": 1,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4wvixp"
+    },
+    {
+      "id": "l4wu8pb",
+      "body": "Are these the corresponding parts we are talking about  ?\n\nhttps://www.galaxus.ch/fr/s3/product/bosch-ebike-kit-de-maintenance-bdu4xx-plastique-graisse-pour-roulements-20g-incluse-velo-electrique--34547588\n\nAnf you say doable at home ?",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716230559,
+      "score": 1,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4w8rvg"
+    },
+    {
+      "id": "l4wu7w1",
+      "body": "Are these the corresponding parts we are talking about  ?\n\nhttps://www.galaxus.ch/fr/s3/product/bosch-ebike-kit-de-maintenance-bdu4xx-plastique-graisse-pour-roulements-20g-incluse-velo-electrique--34547588\n\nAnf you say doable at home ?",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716230551,
+      "score": 2,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4w8rvg"
+    },
+    {
+      "id": "l4w0lob",
+      "body": "Assuming its design is bomb proof, doesn't mean it is people proof. Maintenance errors, manufacture issues can cause a product that is vulnerable. That is to be expected with any product, even the best ones. What matter's to me is whether the company is an ass or not with the warranty",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716220049,
+      "score": 4,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4vzq5j"
+    },
+    {
+      "id": "l4vyt9n",
+      "body": "Confirmation bias. You see people complaining, but not those who have a working engine under rain. One must be careful not to make conclusions that fast.\nHowever it's nice to stay vigilent and consider the possibility of real problems.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716219406,
+      "score": 4,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4vp8en"
+    },
+    {
+      "id": "l4vwou3",
+      "body": "I believe you. Doesn't mean all those engines are perfect (because yours has resisted 20000 kms under rain) nor crap. It's just one sample over hundreds of thousands of them. You'll need a full study to draw any conclusion.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716218628,
+      "score": 7,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4vw3vb"
+    },
+    {
+      "id": "l4vtwa1",
+      "body": "Do you know what models are affected by this flaw ?",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716217593,
+      "score": 2,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4vh4jh"
+    },
+    {
+      "id": "l4vqtzx",
+      "body": "I've seen there and there stories of water contamination on bosch motors. \n\nHowever that's clearly not enough to draw any final conclusion. Yes it's odd to see those engines get wet from the inside. But unless we get enough info of what really happened with them (type and frequency of exposure to water, high pressure washing, improper service, improper sealing, manufacture problem...) I find it too soon to accuse any brand of poor design or manufacture problems. \n\nIn conclusion, I neither confirming nor infirming any claims we see there and there. I am just saying : I don't know, unless we get more info.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716216446,
+      "score": 3,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4vnbf6"
+    },
+    {
+      "id": "l4v8gzj",
+      "body": "It is totally possible that the engine was not properly sealed and that rain came in. \n\nHowever have you considered the possibility that the customer used a pressure washer on the bike ?",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716208796,
+      "score": 17,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t3_1cwcvzi"
+    },
+    {
+      "id": "l4v6xba",
+      "body": "Whatever the company, Shimano, Bosch, Bafang... let's just give the benefit of the doubt ? We can't generalize on a few occurences. If rain is the culprit and it happens on a ratio of 1 over, let's say, 10 000 engines, no need to raise the alarm. If it's way more than that, then yes, there is a problem.",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1716208047,
+      "score": 20,
+      "link_id": "t3_1cwcvzi",
+      "parent_id": "t1_l4v01co"
+    },
+    {
+      "id": "l4qtah2",
+      "body": "Whether some progress is essential or not is definitely worth discussing between us. Not all progress we had in the past are equally positive to humanity.\n\nInternet/infirmation systems help with : efficient and fast communication, promoting education,  better access to information, better access to public services etc. Of course now the main usage is for leisure. But getting rid of internet because we lived without it before ? Nah.\n\nAir travel for holidays : shortens transportation duration and is cheaper (though having no fuel taxation makes it incomparable). Banning air travel (as it is today !) is a much smaller loss to humanity than loosing Internet.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716131846,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4qhasw"
+    },
+    {
+      "id": "l4qi29i",
+      "body": "I have nothing against electric planes with green energy sources. At all. Like you said, it remains to be seen and with the limited time we have to avoid messing up with our climate I don't want to take a huge gamble when we have nothing guaranteeing us that it will happen in time . While being an engineer myself, I don't want to put too much trust on the industry to come up with a solution that fast.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716127277,
+      "score": 0,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4qhasw"
+    },
+    {
+      "id": "l4qhf7e",
+      "body": "For planes ? Where do you store energy even with nuclear ?\n\nNuclear is also not renewable with its limited uranium resources on earth. Clean, but not sustainable on the long term. Besides Nuclear power plants are extra expensive and long to build. See Flamanville's new EPR reactor. What a fiasco.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716127000,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4qbnk6"
+    },
+    {
+      "id": "l4qgxwv",
+      "body": "> Finally, all your other points have nothing to do with my comment.\n\nThe root of the problem really is having to travel that far and consider it an \"essential\" need while alternative destinations and modes of transport exist. 30 years ago it was still definitely not a need before air travel became extra cheap. We created a new need that is unsustainable. Whatever our (diverging) points of view, at least realise that it is not possible to sustain this much air travel with the soon limited supply of petrol.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716126786,
+      "score": 0,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4qekut"
+    },
+    {
+      "id": "l4q9m7d",
+      "body": "I am sorry but flying or not for holidays is a VERY easy choice to make when there are alternative modes of transportation in europe. On the contrary, asking a low wage worker to abandon its thermal engine car or transition to an electric car  to go to work is a much more complex question and needs thinking.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716123396,
+      "score": 0,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4oe546"
+    },
+    {
+      "id": "l4q4z3q",
+      "body": "We will have to deal with degrowth. Unless we find a suitable alternative to petrol, we cannot sustain our lifestyle today when petrol will become scarce and expensive. \n\nAnd well you are right with the impact it will have with poor people. To me transitionning necessarily means dealing with inequalities.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716120956,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4odkgb"
+    },
+    {
+      "id": "l4q1bhg",
+      "body": "Absolutely fine to research electric planes. However time is pressing. So far we still don't have the technology to electrify planes (especially energy storage) and we don't have any hope to get something in the near future.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716118836,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4npxlq"
+    },
+    {
+      "id": "l4q0rr6",
+      "body": "How pretentious. So far we have not found a proper way to store energy produced by cheap renewables. We don't have enough lithium to incorporate in the whole car and truck fleet in the world.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716118493,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4pjr9r"
+    },
+    {
+      "id": "l4pus84",
+      "body": "To me it's always a matter of money. Half of french people earn less than 2000 per month. Transitioning costs. Ask those people to transition to an electric car, ask them to reduce their thermal car usage while they don't have another choice to go to work. Of course they will oppose any cost increase incurred by transitionning. I don't think it's this demographic group that travels the most by plane.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716114397,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4ptvwy"
+    },
+    {
+      "id": "l4pt6zy",
+      "body": "Let's take an example : all car infrastructure in some french cities. If everyone takes their car to commute or for leisure, is it because they chose to do so or because they lack options because of lack of collective-level decision making that could propose.more.cycling infrastructure, more buses, more trams, metros etc ? \n\nMany times it's not a decision from an individual to use their thermal car but a lack of (already existing) alternative proposed by the collectivity. Perhaps the democratic will is there, but the government doesn't act for whatever reason.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716113187,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4psdcf"
+    },
+    {
+      "id": "l4psktb",
+      "body": "Constructing high speed rail networks is a collective decision. Constructing cycle infrastructure to promote cycling in city-centers is a collective decision. Banning thermal cars is a collective decision. Whether we want it or not, if we want improvements we need collective-level decision making. But not for everything. Our individual behaviour changes something.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716112715,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4pq4jh"
+    },
+    {
+      "id": "l4ps7th",
+      "body": "I am all for more high speed train connections intra-europe, especially towards the east\n. Here is a unavoidable, collective decision.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716112438,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4pqukg"
+    },
+    {
+      "id": "l4pqrhf",
+      "body": "Man, I never said high-speed trains are to be banned or something.\n\nFor cars it's more complicated with the production of litjium batteries. We don't have an unlimited supply of lithium.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716111273,
+      "score": 3,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4pqa9h"
+    },
+    {
+      "id": "l4pqjiv",
+      "body": "Energy storage is still a problem. There is still no alternative to the good ol' jet engine + kerosene combination. Do you see a viable alternative in the future ?\n\nFor cars, do you see it as viable to electrify the whole car pool ? We don't have an unlimited lithium supply.\n\nTo store energy produced by renewables, with what ?",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716111095,
+      "score": 2,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4pq298"
+    },
+    {
+      "id": "l4ppt54",
+      "body": "Lol, plane travelling as a fundamental comfort. \n\nAgain, with falling petrol production degrowth is unavoidable.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716110507,
+      "score": 0,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4p38o2"
+    },
+    {
+      "id": "l4ppfed",
+      "body": "Climate change is undeniable. So yes, we must improve.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716110204,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4p3b6i"
+    },
+    {
+      "id": "l4pp9yo",
+      "body": "Do you refute climate change ?\n\nBesides france, among other european democracies, has banned some air travels inside the country and banned thermal engine cars for 2040 (for france)",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716110084,
+      "score": 2,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4p4lky"
+    },
+    {
+      "id": "l4pot3u",
+      "body": "Growth has been dependent on petrol. It is petrol that enabled this massive growth in the last century. Do you know a viable alternative to petrol that will provide as much energy and thus the productivity we have today ?",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716109715,
+      "score": 2,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4oy49r"
+    },
+    {
+      "id": "l4polir",
+      "body": "It's not a matter of wanting degrowth or not. Unless we find an alternative to petrol, degrowth is unavoidable. After reaching the peak of production of petrol, there is no way we will be able to accomodate the current trend of plane travelling. Even with no sensitivity to climate matter, plane travelling along many other things is NOT sustainable.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716109551,
+      "score": 2,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4p31rj"
+    },
+    {
+      "id": "l4oa7mz",
+      "body": "My country's emissions worldwide is minuscule.\nMy own emission's are minuscule compared to my entire country.\n\nEasy to blame on others. There is no single entity taking a big in part in emissions. Yet every actor, every sector, every individual has some responsibility.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716079576,
+      "score": 0,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4njsoq"
+    },
+    {
+      "id": "l4o8xhr",
+      "body": "Let's see it this way: in France, transport is by far the biggest emitter in greenhouse gases. Not energy production thanks to nuclear. Air traffic is part of transport. On what grounds do you say we should not cut emissions on air trafic because it is \"marginal\" but we should on trucks, cars, buses etc ?\n\nBtw my country's emissions are marginal compared to the rest of the world. Let's not do anything about it ! China is the polluter not me ! /s\nMy neighbour has an SUV, I shouldn't try to lower my emissions by using PT as much as possible or bike. /s\n\nClearly childish behaviour.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716078997,
+      "score": 2,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4mlfpb"
+    },
+    {
+      "id": "l4ny37v",
+      "body": "2.8 % of worldwide emissions alone. Besides airplanes, there are cargo ships, cars, buses, trains running on diesel, trains running on non green electricity, trucks...\nAnd yet air travel emitts 2.8 % ALONE.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716074195,
+      "score": 1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4nr04e"
+    },
+    {
+      "id": "l4nund6",
+      "body": "In the current system, efficiency doesn't necessarily means less consumption. Generally, it results in a shift of where energy is consumed. \n\nPlanes became more efficient, but at the same time number of planes sold very year by Boeing and Airbus has increased continuously. Being more efficient but having more planes flying is definitely not an improvement.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716072672,
+      "score": 4,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4nncx4"
+    },
+    {
+      "id": "l4nsy5s",
+      "body": "You know what's not marginal ? Transport emission in the whole world. Actually the biggest emitter. Air travel is part of this. Should it get a free pass but not all other mode of transports ? On what grounds ?\n\nSee ? Marginality of emissions in a field is irrelevant. It's just throwing accountability on something else.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716071916,
+      "score": -1,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4nr04e"
+    },
+    {
+      "id": "l4nqgbm",
+      "body": "You can make everything marginal. Thinking like this prevents everyone's accountabilty.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716070831,
+      "score": -5,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4nnio1"
+    },
+    {
+      "id": "l4mqjib",
+      "body": "Are you saying there were no options before plane travel became accessible to the common folks ? Autobuses and sleeper trains were already existing and still exist today. Planes did not create new routes within Europe, they shortened them.\n\nBesides, it is highly possible that in the near future plane travel will become too expensive like before because of the rarefaction of petroleum. It is highly likely that we will have to travel less or have to bear with longer trips.",
+      "author": "Shidoni",
+      "subreddit": "europe",
+      "created_utc": 1716056129,
+      "score": -13,
+      "link_id": "t3_1cuy48f",
+      "parent_id": "t1_l4ma6kq"
+    },
+    {
+      "id": "l4ku4i6",
+      "body": "> I can understand their reasoning of « our taxes shouldn’t pay for the education of foreigners », some of which go back to working in their home country.\n\nWhich to me is odd. First, nothing prevents swiss people from studying abroad and come back like some foreigners do when studying in switzerland. Universities in switzerland are not the only ones in europe having low taxes. \nSecond, switzerland still profits from foreigner students consuming in the country : food, rent, leisure, transport. All this money to pay those comes from outside of switzerland.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1716024834,
+      "score": 0,
+      "link_id": "t3_1cues9w",
+      "parent_id": "t1_l4klv0z"
+    },
+    {
+      "id": "l4cw1q0",
+      "body": "Passage du cycliste dans l'angle mort du camion dans les deux cas ? \n\nJ'ai vois parfois des inconscients à Lausanne passer sur la droite des bus qui s'apprêtent à tourner à droite. Ne jamais faire ça purée.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715890992,
+      "score": 2,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l4ctnu8"
+    },
+    {
+      "id": "l4crs19",
+      "body": "Ah sur une route normale ?là je suis d'accord. Si j'ai un camion derrière moi, à la prochaine opportunité je m'arrête à l'écart pour laisser passer. \n\n> Car 1 ou 2 cycliste écraser par la remorque d'un camion c'est deja trop\n\nAh merde...",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715889444,
+      "score": 2,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l4cqfph"
+    },
+    {
+      "id": "l4cngvv",
+      "body": "Sur l'infrastructure, on est absolument d'accord. Il faut dans l'idéal des pistes avec séparateur.\n\nPour le reste, je peux comprendre la frustration que cela engendre de suivre un cycliste sans pouvoir le dépasser  sans danger. Et rouler à 15kmh avant l'entrée d'autoroute est un peu exagéré, je le conçois.\n\nMais ce que tu proposes, se mettre sur le bas côté, ou rester planté à l'intersection pour laisser passer, est hyper dangereux. Faisons un tour ensemble à la bourdo, je te prête mon deuxième velo et appliquons ta proposition. On va tous les deux chier dans notre froc, je te le promets.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715887885,
+      "score": 2,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l4ckka6"
+    },
+    {
+      "id": "l482l9n",
+      "body": "L'absence d'infrastructure adéquate est la racine du problème, on est bien d'accord. Mais ce n'est pas une raison pour certains de risquer de renverser un cycliste. \nJe suis très reconnaissant de ta conduite prudente dans cette situation. C'est ce que je ferais aussi (j'ai egalement le permis) dans la même situation.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715811603,
+      "score": 4,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l457m7q"
+    },
+    {
+      "id": "l481eeh",
+      "body": "T'as une source ? Jusqu'à maintenant je n'ai rien trouvé de probant",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715811140,
+      "score": 1,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l4816gd"
+    },
+    {
+      "id": "l46gdf8",
+      "body": "Je fais pareil dans le sens malley -> unil. Mais dans le sens unil -> malley, ça me paraît risqué.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715791259,
+      "score": 3,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l46cy8v"
+    },
+    {
+      "id": "l455jfz",
+      "body": "Il y aurait un projet de réaménagement du carrefour et des jonctions d'autoroute :\n\nhttp://a1-goulet-crissier.ofrou.ch/nouveaux-amenagements/nouvelles-jonctions.html\n\nD'après les images, ça va être réamenagé pour les cyclistes aussi.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715773584,
+      "score": 3,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t3_1cs7d3r"
+    },
+    {
+      "id": "l44ud68",
+      "body": "Je n'ai pas l'impression que la main courante existe en Suisse, non ?",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715767023,
+      "score": 3,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l43814b"
+    },
+    {
+      "id": "l44txy5",
+      "body": "J'ai vraiment envie de le faire... seulement pour le passage à bourdonnette. C'est illégal si tu filmes en continu. Pour seulement un endroit spécifique, possible que non. mais comme IANAL...",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1715766723,
+      "score": 0,
+      "link_id": "t3_1cs7d3r",
+      "parent_id": "t1_l445wlu"
+    },
+    {
+      "id": "l3i8x6p",
+      "body": "it's highly likely that the rent is already abusive according tonthe federal law. Owners bet on the ignorance of the tenants to not contest a potentially abusive rent.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1715385204,
+      "score": 3,
+      "link_id": "t3_1cp071i",
+      "parent_id": "t1_l3hmgxe"
+    },
+    {
+      "id": "l3hmgu4",
+      "body": "ALWAYS contest the initial rent. Tell that to the new tenant. Provide her/him the previous rent increase.\n\nAlways ask for a net return calculation. The federal law is clear on the fact that rents should not give the owner an abusive net return.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1715376053,
+      "score": 4,
+      "link_id": "t3_1cp071i",
+      "parent_id": "t3_1cp071i"
+    },
+    {
+      "id": "l3fe1pi",
+      "body": "No one on the streets = foxes crossing the road every night",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1715346793,
+      "score": 2,
+      "link_id": "t3_1cnovnj",
+      "parent_id": "t3_1cnovnj"
+    },
+    {
+      "id": "l24xu05",
+      "body": "Oui, je peux comprendre que certaines pistes sont mal pensées. Mais de là à généraliser...\n\nCertains changements récents ont été bien pensés :\nRendre une rue à sens unique pour les automobilistes mais pas pour les cyclistes, supprimer une voie automobile pour la donner aux cyclistes et/ou bus...",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1714591482,
+      "score": 1,
+      "link_id": "t3_1ch1sqh",
+      "parent_id": "t1_l24vecn"
+    },
+    {
+      "id": "l208qu2",
+      "body": "Il y a peut-être moins de vélo que dans d'autres villes, mais en comparaison la proportion d'e-bikes est grandement supérieur à Lausanne (logique) que Zurich. J'étais assez frappé par le peu d'e-bikes lors de ma derniere visite.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1714515105,
+      "score": 5,
+      "link_id": "t3_1ch1sqh",
+      "parent_id": "t1_l1zvi2r"
+    },
+    {
+      "id": "l1zz2fo",
+      "body": "Il y a du bon et du mauvais sur Lausanne.\n\nLe mauvais : \n Pour Bourdonnette, je te rejoins sur ce point. Chaque semaine j'ai au moins un fou furieux qui me frôle à l'entrée d'autoroute en face du M1. La pire fois c'était 10cm de mon guidon, le gars à 60kmh.\n\nBel air, pour tourner à gauche rue Mauborget. Quelle connerie ce carrefour. \n\nEn arrivant en montée sur l'énorme carrefour du Dominos. Les gens changent de file au dernier moment sans cligno. Oh et le pire : ne jamais rouler sur le droite d'une voiture prête à tourner à gauche, même si tu es dans ta voie cycliste. Combien de fois j'ai failli me faire percuter parce qu'un automobiliste fais un écart sur la droite pour tourner à gauche. En tabt que conducteur je ne comprends comment les gens n'ont pas conscience de l'environnement. Du coup t'anticipe et tu te mets toujours entre deux voitures meme si tu es dans ta propre voie separee. Ils vont mordre sur ta voie. \n\nLes rues où il n'y a pas la place pour un(e) automobiliste et un(e) cycliste en parallèle. Certains conducteurs font parfois du forcing. Moi je me permets de leur faire signe de la main de ralentir et je ne m'empêche pas de circuler au milieu de la voie pour éviter de me faire dépasser. C'est ça où je risque de me faire prendre en étau.\n\nLe carrefour de Chauderon, depuis le pont pour aller direction Boston. T'as beau faire signe de la main que tu veux prendre la voie de gauche, t'es tributaire du bon vouloir des autres dans leur voie qui va tout droit.\n\nLes cons qui parquent sur une piste cyclable, les warnings allumés\n\nLe bon :\nLa descente very Malley depuis Montelly. La voie cycliste séparée est top.\n\nLes cédez le passage à droite au feu rouge ! A utiliser avec parcimonie et en respectant la priorité des piétons.\n\nLa grande majorité des rues qui ont une piste cyclable, ce qui est mieux que rien.",
+      "author": "Shidoni",
+      "subreddit": "Lausanne",
+      "created_utc": 1714511610,
+      "score": 15,
+      "link_id": "t3_1ch1sqh",
+      "parent_id": "t3_1ch1sqh"
+    },
+    {
+      "id": "kzaadgu",
+      "body": "The fuck is wrong with you",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1712952794,
+      "score": 6,
+      "link_id": "t3_1c2bprc",
+      "parent_id": "t1_kza1s7n"
+    },
+    {
+      "id": "kxqvwy2",
+      "body": "How though... Appointments are confidential so it's hard to tell what items on the bill were actually performed or not. I would push for a fixed rate per minute spent with the doctor, whatever act he/she performs.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1712087323,
+      "score": 3,
+      "link_id": "t3_1bu5xgy",
+      "parent_id": "t1_kxqv3ll"
+    },
+    {
+      "id": "kxqp0gm",
+      "body": "I had my GP overbill me a few months ago. Something like 250 chf for 30 min of her time. Which I find insane. How would you prevent that ? (FR) Prestation \"au forfait\" ?",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1712085059,
+      "score": 3,
+      "link_id": "t3_1bu5xgy",
+      "parent_id": "t3_1bu5xgy"
+    },
+    {
+      "id": "kxk761w",
+      "body": "This is a misconception I often see. Years as a student count after working 2 years continuously after your studies.\n\nSource is here at alinea 5 : https://www.fedlex.admin.ch/eli/cc/2007/758/fr#art_34",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1711987684,
+      "score": 1,
+      "link_id": "t3_1bt6cq0",
+      "parent_id": "t1_kxk4nza"
+    },
+    {
+      "id": "kx4t15h",
+      "body": "80km on average, 500Wh battery, hilly paths, 21Kg foldable ebike, Bosch performance line. On flat roads, 120km",
+      "author": "Shidoni",
+      "subreddit": "ebikes",
+      "created_utc": 1711731388,
+      "score": 1,
+      "link_id": "t3_1bqrem7",
+      "parent_id": "t3_1bqrem7"
+    },
+    {
+      "id": "kvxhd96",
+      "body": "In Lausanne, la soupe populaire :\n\nhttps://www.meresofia.ch/structures/la-soupe-populaire/",
+      "author": "Shidoni",
+      "subreddit": "askswitzerland",
+      "created_utc": 1711047163,
+      "score": 10,
+      "link_id": "t3_1bkahk8",
+      "parent_id": "t3_1bkahk8"
+    },
+    {
+      "id": "kvqi59q",
+      "body": "Bon courage pour ta recherche. Tu en auras besoin !  Le taux de vacance des logements à Lausanne est autour de 0.5%.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1710944478,
+      "score": 2,
+      "link_id": "t3_1bjbukl",
+      "parent_id": "t3_1bjbukl"
+    },
+    {
+      "id": "kv2f6me",
+      "body": "I don't understand why fellow cyclists argue that stopping for pedestrians and then go is tiresome for them and they prefer being \"lazy\". \n\nI already have to stop for red lights. So why would I make a fuss about stopping when pedestrians have to cross ?",
+      "author": "Shidoni",
+      "subreddit": "askswitzerland",
+      "created_utc": 1710545299,
+      "score": 1,
+      "link_id": "t3_1bffkkr",
+      "parent_id": "t3_1bffkkr"
+    },
+    {
+      "id": "kuz82bn",
+      "body": "Tu dis que tu es sous-locataire ? En temps normal ça devrait être le locataire principal qui doit faire les démarches, pas toi. Toi tu n'es pas lié directement au bailleur. Si tu veux faire les choses dans l'ordre, tu devrais donner ton préavis au locataire qui se trouve sur le contrat de bail. Mais il n'habite plus l'appsrtement si je comprends bien...",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1710503540,
+      "score": 5,
+      "link_id": "t3_1bfbi30",
+      "parent_id": "t3_1bfbi30"
+    },
+    {
+      "id": "ktyi74m",
+      "body": "Et c'est tout à fait nornal car les propriétaires payent deja la régie pour l'administration. Sinon tu payerais en double.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1709925044,
+      "score": 2,
+      "link_id": "t3_1b98r1h",
+      "parent_id": "t1_ktyhwbn"
+    },
+    {
+      "id": "ktyhj83",
+      "body": "Si tu as ton bail dans le canton de vaud, l'établissement du bail est à la charge du bailleur. Il faut citer l'article 8a des \"Règles et usages locatifs du canton de vaud\"\n\nPour les autres cantons j'ignore si de telles dispositions existent.",
+      "author": "Shidoni",
+      "subreddit": "suisse",
+      "created_utc": 1709924822,
+      "score": 1,
+      "link_id": "t3_1b98r1h",
+      "parent_id": "t3_1b98r1h"
+    },
+    {
+      "id": "krp90ab",
+      "body": "What is stated on your contract ? Did you get the service you asked for ? Is the monthly cost on the contract matching what you paid in the past years ?\n\nIf feel this is fishy, tell them that you are ready to ask for conciliation at the OMBUDSCOM.\nhttps://fr.ombudscom.ch/",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1708652824,
+      "score": 3,
+      "link_id": "t3_1axbnua",
+      "parent_id": "t3_1axbnua"
+    },
+    {
+      "id": "krowt1w",
+      "body": "I have been to a commission de conciliation. What happens is you will be given time to motivate your refusal for a rent increase or why the increase is too much. When you are done, the Prefet asks a few questions to the landlord/representative. Either you find an agreement right away or the Prefet concludes that no agreement was possible. If no agreement is possible, the Prefet and its juges-assesseurs make a proposition for both parties. If neither party refuses the proposition, it's effects are applied.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1708648202,
+      "score": 1,
+      "link_id": "t3_1axh713",
+      "parent_id": "t3_1axh713"
+    },
+    {
+      "id": "krovmhi",
+      "body": "Prefecture de Lausanne, prefecture de Morges... Look it up. They exist, and it is the place where a commission de conciliation takes place.",
+      "author": "Shidoni",
+      "subreddit": "Switzerland",
+      "created_utc": 1708647748,
+      "score": 1,
+      "link_id": "t3_1axh713",
+      "parent_id": "t1_kro9elt"
+    }
+  ]
+}

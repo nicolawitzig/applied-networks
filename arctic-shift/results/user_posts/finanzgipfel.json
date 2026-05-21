@@ -1,0 +1,619 @@
+{
+  "username": "finanzgipfel",
+  "posts": [
+    {
+      "id": "1fdk4au",
+      "title": "The Schwab Debit Card that will refund all ATM fees worldwide",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725980778,
+      "score": 19,
+      "num_comments": 8,
+      "selftext": "Charles Schwab International offers a Debit Card to Swiss customers that gives you:\n\n* Unlimited free ATM withdrawals in any country\n* Refund of any fees imposed by the ATM directly\n\nWhat does that mean? In some countries like the US, Australia or Mexico most ATMs will charge an additional withdrawal fee. Say you're withdrawing the equivalent of 100 CHF, the ATM will add another 5 CHF on top as their fee.\n\nIn Europe that's less common. But you will still find it at ATMs that aren't owned by a major bank, like Euronet. \n\nWhen you withdraw money with the Schwab Debit Card that additional fee will immediately be refunded back into your account. So you can use whatever ATM without ever paying an extra fee.\n\nIt's also worth mentioning that there is no foreign transaction fee for ATM withdrawals. The rate you get is good. But if you do regular card payments, a 1% fee will apply.\n\n**So what are the drawbacks?**\n\nTwo big ones. First, Schwab requires you to have a 25k USD minimum initial deposit. Now, I know multiple people that never deposited that much and their account is still open. So do with that information what you want. And there's no requirement to always keep 25k USD in the account. Keep a balance of 1000 or more and you shouldn't have any issues.\n\nThe second big drawback is that the account is in Dollars. So you cannot keep Swiss Francs in there. There is a Swiss IBAN where you can deposit your Francs. But they will automatically get converted to USD with a 1% fee.\n\nTo avoid this, you can use a cheaper service like Wise or Interactive Brokers to exchange CHF->USD and then transfer it into Schwab.\n\n  \nSo there are definitely some hoops to jump through. This account isn't a no-brainer for every Swiss person. But if you travel a lot, especially outside of Europe and in cash heavy societies, it can absolutely be worth it. Also, Schwab is a decent second broker to buy US ETFs if you for some reason don't want to keep everything in IBKR.\n\nMy full review of Schwab International is here: [https://finanzgipfel.ch/blog/schwab-international-review/](https://finanzgipfel.ch/blog/schwab-international-review/)\n\n",
+      "url": "https://www.reddit.com/r/SwissPersonalFinance/comments/1fdk4au/the_schwab_debit_card_that_will_refund_all_atm/"
+    },
+    {
+      "id": "1eg7jsh",
+      "title": "Experiences with Schwab as secondary broker next to IBKR",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722380550,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "At some point I would like to diversify away from only using IBKR. While assets are safe in case of an IBKR insolvency, I figure it won't hurt to spread assets across two brokers. I only buy international ETFs. Don't care about individual stocks.\n\nWould you recommend Charles Schwab as the secondary broker?",
+      "url": "https://www.reddit.com/r/SwissPersonalFinance/comments/1eg7jsh/experiences_with_schwab_as_secondary_broker_next/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lrca3lf",
+      "body": "First, I think it's important to define what a credit and what a debit card is. Both can be MasterCard or Visa. Both can be used to pay online or abroad. The old Maestro and VPay cards known as EC Cards are largely a thing of the past. Now everything is either MasterCard, Visa or rarely Amex. Debit just means you can spend whatever money you have in an account connected to the card. Credit means you get a fixed credit limit (like 3000 francs) that you can spend. You then get a bill at the end of the month for that amount.\n\nNow to your question. For spending in foreign currencies, you never want to use a Swiss credit card. All Swiss credit cards have high fees (multiple percent) for foreign transactions. Even the ones that claim to have no foreign transaction fees. They just come with hidden fees in the form of a terrible exchange rate. Looking at you, Migros Cumulus Visa. The best you can get as a credit card is the **UBS Key4 cards** with no foreign transaction fee and a 0.5% exchange rate markup. But the card comes as part of a paid UBS banking package. So it's not free.\n\nIf you want the lowest fees for international payments, you want a Debit Card. Good options are:\n\n* Neon\n* Wise (Transferwise)\n* Revolut\n* Radicant\n\nAll are *roughly* equal in terms of perks and fees. So pick whatever suits you best. Neon and Radicant are proper Swiss bank accounts. Revolut and Wise are foreign, but offer you a way to send Swiss francs via bank transfer.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1728607472,
+      "score": 1,
+      "link_id": "t3_1g0f2t3",
+      "parent_id": "t3_1g0f2t3"
+    },
+    {
+      "id": "lmlr1g8",
+      "body": "With frequent travel in cash heavy societies that impose ATM fees makes this card very useful. Central America for example.\n\nIf you don't travel to such places, the card isn't that useful.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1726062552,
+      "score": 1,
+      "link_id": "t3_1fdk4au",
+      "parent_id": "t1_lmi9jti"
+    },
+    {
+      "id": "lmhvyo9",
+      "body": ">On the topic of using IBKR to exchange money, if this is done too often, they can lock the functionality for you. Technically they only offer the exchange so you can buy shares, ETFs etc. in foreign currency.\n\nIf you use IBKR exclusively for this, yes. If you already have a portfolio with them and don't exchange huge sums the risk is minimal.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1726000543,
+      "score": 1,
+      "link_id": "t3_1fdk4au",
+      "parent_id": "t1_lmgtwpy"
+    },
+    {
+      "id": "lmgrzzf",
+      "body": "Yes, Switzerland is officially supported",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725987989,
+      "score": 3,
+      "link_id": "t3_1fdk4au",
+      "parent_id": "t1_lmgq1r9"
+    },
+    {
+      "id": "lmgmsjn",
+      "body": "Not a bad option nowadays actually. Especially if you plan on buying Swiss stocks.\n\nFor US ETFs Interactive Brokers is still cheaper.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725986347,
+      "score": 1,
+      "link_id": "t3_1fckjd9",
+      "parent_id": "t1_lmgbq1b"
+    },
+    {
+      "id": "lmg240g",
+      "body": "I seem to remember that VIAC has higher limit of Swiss equities vs Finpension. So you can have a more international portfolio with Finpension?",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725979700,
+      "score": 0,
+      "link_id": "t3_1f9xy7m",
+      "parent_id": "t1_llspzi4"
+    },
+    {
+      "id": "lmg1tcb",
+      "body": "They're all bad",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725979602,
+      "score": 1,
+      "link_id": "t3_1f9xy7m",
+      "parent_id": "t1_llrdf04"
+    },
+    {
+      "id": "lmg1fom",
+      "body": "Swissquote is expensive. IBKR is cheaper and does all you'll ever need.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725979477,
+      "score": 1,
+      "link_id": "t3_1fckjd9",
+      "parent_id": "t3_1fckjd9"
+    },
+    {
+      "id": "lmg0bqc",
+      "body": "Revolut, Wise and Neon are all *roughly* equal. Can't go wrong with either. More info (self plug): [https://finanzgipfel.ch/en/blog/swiss-creditcards-without-exchange-fees/](https://finanzgipfel.ch/en/blog/swiss-creditcards-without-exchange-fees/)\n\nA few more things to keep in mind:\n\n* None of these are Credit Cards. If you plan on renting Rental Cars or staying in US hotels, also bring a real credit card for the deposit\n* You will want more than one card, **especially** if you travel solo. Cards can get stolen or lost. So keep a backup, ideally outside of your wallet\n\nOne less known option is the Schwab International Debit Card. It allows unlimited free ATM withdrawals and also refunds all additional ATM fees. In some countries like Mexico or Guatemala all ATMs charge an extra withdrawal fee that you cannot get around. This Debit card will immediately refund you the full fee.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725979107,
+      "score": 2,
+      "link_id": "t3_1fcmxpv",
+      "parent_id": "t3_1fcmxpv"
+    },
+    {
+      "id": "llnir5y",
+      "body": ">Could I keep them in IB without being taxed on Gains whilst living in Germany?\n\nYou're not taxed on unrealized gains anyways. You'd have to check with Interactive Brokers, but I think you could keep them.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725554579,
+      "score": 1,
+      "link_id": "t3_1f72w5k",
+      "parent_id": "t1_ll4jtlr"
+    },
+    {
+      "id": "llnieo0",
+      "body": "An Emergency Fund ist not just about unemployment. Your car might get wrecked, you might need to urgently return from a vacation or anyone of a thousand other unexpected events could occur. Can your fund be smaller than that of an American? Sure, but you should still have thousands saved.",
+      "author": "finanzgipfel",
+      "subreddit": "eupersonalfinance",
+      "created_utc": 1725554471,
+      "score": 25,
+      "link_id": "t3_1f9qdrp",
+      "parent_id": "t3_1f9qdrp"
+    },
+    {
+      "id": "ll4hfwy",
+      "body": "Any good templates for someone that sucks at Excel?\n\nI don't care about tracking income or automatic bank account connections.\n\nI want a simple list where I can enter all expenses and associate a category to them. And an overview where I see how much I've spent in total and per category in a given month.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725271503,
+      "score": 1,
+      "link_id": "t3_1f5qg85",
+      "parent_id": "t1_lkusz6t"
+    },
+    {
+      "id": "ll4h3r0",
+      "body": "Completely agree. No better broker out there for Swiss residents.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725271277,
+      "score": 2,
+      "link_id": "t3_1f6sz0f",
+      "parent_id": "t1_ll3lr6k"
+    },
+    {
+      "id": "ll4h1q4",
+      "body": ">VTI / VXUS in Interactive Brokers: sell before moving and buy similar ETFs while in Germany (to avoid Capital Gains tax)?\n\nIs keeping it as-is and changing the domicile in IBKR to your new German address not an option?\n\n>1st & 2nd Pillar (no 3rd pillar): move 2nd pillar to a Vested account in CH. Any consideration regarding 1st Pillar?\n\nSince you're moving to an EU country I don't think there is anything you can do regarding 1st and 2nd pillar. Unless you've paid in more than mandatory.\n\n>Severance payment from company in CH: I believe it is important to receive it whilst registered in CH, to avoid high German taxation. Would you have any other recommendation?\n\nGenerally speaking, I agree. There might be an exception that it can still be taxed in Switzerland even after moving, but I'm not sure on that.\n\n>Am I forgetting something to minimize losses with the move?\n\nIf you plan to cash out stocks, do that before moving to Germany cause of capital gains. If you are sure you'll move back to Switzerland in a few years, there might be some additional things you can do. But I'm not aware of them.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1725271240,
+      "score": 1,
+      "link_id": "t3_1f72w5k",
+      "parent_id": "t3_1f72w5k"
+    },
+    {
+      "id": "lijo86x",
+      "body": "Embarrassing for one of the richest countries in the world frankly",
+      "author": "finanzgipfel",
+      "subreddit": "Switzerland",
+      "created_utc": 1723891222,
+      "score": 1,
+      "link_id": "t3_1eqduns",
+      "parent_id": "t1_lhs95a1"
+    },
+    {
+      "id": "lijo2od",
+      "body": "Revolut, Wise, Neon or Radicant. All are decent. Neon has slighly higher fees for transactions, with Radicant ATM withdrawals are expensive.\n\nRevolut or Wise are the all-around best options imo. But they're not proper Swiss bank accounts. So only recommended for travel.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723891123,
+      "score": 1,
+      "link_id": "t3_1etlnfo",
+      "parent_id": "t3_1etlnfo"
+    },
+    {
+      "id": "lijnwj7",
+      "body": "The ZKB Debit at 0.84% must be an outlier. The fees are \"1.25 % vom Transaktionsbetrag, maximal CHF 1.50 pro Transaktion\"\n\nSo it must have been an expensive transactions. For everyday purchases abroad the card isn't suitable at all.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723891012,
+      "score": 1,
+      "link_id": "t3_1etlnfo",
+      "parent_id": "t1_lie3m2f"
+    },
+    {
+      "id": "lijnmxo",
+      "body": "There is a minimal currency conversion fee. It's complex, but the fee is around 0,002% with a 2 USD minimum.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723890836,
+      "score": 1,
+      "link_id": "t3_1euc906",
+      "parent_id": "t1_lijaf0r"
+    },
+    {
+      "id": "lijnj3c",
+      "body": "Neon is a decent broker if you're inexperienced and want to invest some pocket money. For anything more serious IBKR simply can't be beaten.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723890768,
+      "score": 1,
+      "link_id": "t3_1etsauy",
+      "parent_id": "t3_1etsauy"
+    },
+    {
+      "id": "lijncjl",
+      "body": "Not quite. No added fee but the currency spread is still 0.5%. That's the lowest you'll get on any credit card, but the Neon or Revolut are even lower. See: [https://finanzgipfel.ch/en/blog/best-student-bank-accounts/](https://finanzgipfel.ch/en/blog/best-student-bank-accounts/)",
+      "author": "finanzgipfel",
+      "subreddit": "ethz",
+      "created_utc": 1723890647,
+      "score": 1,
+      "link_id": "t3_1eqism0",
+      "parent_id": "t1_lhtgso2"
+    },
+    {
+      "id": "lijn9f6",
+      "body": "ZKB and UBS offer the best accounts for students imo. I compared them here: [https://finanzgipfel.ch/en/blog/best-student-bank-accounts/](https://finanzgipfel.ch/en/blog/best-student-bank-accounts/)",
+      "author": "finanzgipfel",
+      "subreddit": "ethz",
+      "created_utc": 1723890590,
+      "score": 1,
+      "link_id": "t3_1est9t2",
+      "parent_id": "t1_lid88mt"
+    },
+    {
+      "id": "lhps2nc",
+      "body": "Virtually every bank has a free offering (including credit cards) for students. But my pick would be ZKB. What sets it apart: great app and Stucard which will get you discounts in a ton of places.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723451096,
+      "score": 2,
+      "link_id": "t3_1epj6qi",
+      "parent_id": "t3_1epj6qi"
+    },
+    {
+      "id": "lhprz1h",
+      "body": "Accurate haha",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723451027,
+      "score": 2,
+      "link_id": "t3_1eq7xqr",
+      "parent_id": "t1_lhpqvs2"
+    },
+    {
+      "id": "lg08ppc",
+      "body": "Thanks. VTI is a great ETF I would absolutely invest in.\n\nCan I ask how you are funding Schwab? The best way I see is using IBKR to convert CHF to USD and then forwarding it to Schwab. But not sure if IBKR would tolerate that long-term.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722533208,
+      "score": 1,
+      "link_id": "t3_1eg7jsh",
+      "parent_id": "t1_lfu8i5r"
+    },
+    {
+      "id": "lfzo7mb",
+      "body": "Fair enough. I never had this card on the radar since CHF 500 annual fee for an additional .5% cashback isn't worth it for anyone but the highest of the highest spenders.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722526767,
+      "score": 1,
+      "link_id": "t3_1efzj7e",
+      "parent_id": "t1_lfufybl"
+    },
+    {
+      "id": "lfttg18",
+      "body": "Care to share which Swiss card this is?",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722440455,
+      "score": 1,
+      "link_id": "t3_1efzj7e",
+      "parent_id": "t1_lfs3epo"
+    },
+    {
+      "id": "lfttc83",
+      "body": "Thanks. Can you share which ETFs you are holding with Schwab? And can you top up CHF like on IBKR or only USD to make purchases?\n\n>To all the comments talking about separated assets, etc. Yes, you will very, very likely get all your assets back in case of trouble with IBKR. However, that can take a while. If you depend on access to your assets for any reason (FIRE/supplemental income, big purchases, emergency fund/short-term bonds, etc.) having them split out will at least allow you to access parts of your assets while you're waiting for the rest to get resolved.\n\nThis is it. People are saying \"keep it simple, you're overthinking\". But in my case over 90% of my net worth is in IBKR. I just don't wanna risk anything.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722440421,
+      "score": 1,
+      "link_id": "t3_1eg7jsh",
+      "parent_id": "t1_lfsc25y"
+    },
+    {
+      "id": "lftsy56",
+      "body": "We are talking about having 95% of my net worth handled by one company. The additional effort is more than worth the diversification to me.\n\nYes, assets are separate, but ultimately still tracked by IBKR. So if they have a meltdown it might take months until you can access your assets again.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722440297,
+      "score": 1,
+      "link_id": "t3_1eg7jsh",
+      "parent_id": "t1_lfrvnbz"
+    },
+    {
+      "id": "lfqev4p",
+      "body": "Radicant, Neon oder Revolut sind alles gute Optionen. Wise ist auch solide, aber der Wechselkurs ist minimal schlechter.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722383060,
+      "score": 1,
+      "link_id": "t3_1eefg53",
+      "parent_id": "t3_1eefg53"
+    },
+    {
+      "id": "lfq8fgz",
+      "body": "This is the Amex Platinum?",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722380703,
+      "score": 1,
+      "link_id": "t3_1ee1wcq",
+      "parent_id": "t1_lfouoqm"
+    },
+    {
+      "id": "lfq83ro",
+      "body": "Which is your secondary broker?",
+      "author": "finanzgipfel",
+      "subreddit": "eupersonalfinance",
+      "created_utc": 1722380585,
+      "score": 1,
+      "link_id": "t3_1eegmdh",
+      "parent_id": "t1_lfe2age"
+    },
+    {
+      "id": "lfq7o66",
+      "body": "The risk is minimal. FSCS is for cash, not investments. Your investments *should* be safe even in case of insolvency.\n\nBut still, there's no harm in diversifying between broker. I'd open an account with a new broker and start investing there from now on. Schwab might be a solid choice.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722380430,
+      "score": 1,
+      "link_id": "t3_1ee4zs0",
+      "parent_id": "t3_1ee4zs0"
+    },
+    {
+      "id": "lfq6hh6",
+      "body": "Worth mentioning that the 4.75% are only for USD. The CHF interest is below 2%",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722380005,
+      "score": 2,
+      "link_id": "t3_1efef28",
+      "parent_id": "t1_lfnn97p"
+    },
+    {
+      "id": "lfq60dc",
+      "body": "With Interactive Brokers you are gonna pay a 0.002% fee for currency conversion. If you are concerned about cost there is really no reason to use another broker.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722379835,
+      "score": 3,
+      "link_id": "t3_1eg5wub",
+      "parent_id": "t3_1eg5wub"
+    },
+    {
+      "id": "lfq5eiq",
+      "body": "There are no crazy rewards in Switzerland. The best you can get is 1% cashback. If you want to maximize your strategy, use the Swisscard Cashback Amex whereever accepted and the Certo One for retailers like LIDL.\n\nI wrote a little comparison here: [https://finanzgipfel.ch/en/blog/best-swiss-credit-card/](https://finanzgipfel.ch/en/blog/best-swiss-credit-card/)",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1722379615,
+      "score": 1,
+      "link_id": "t3_1efzj7e",
+      "parent_id": "t3_1efzj7e"
+    },
+    {
+      "id": "ld1oik7",
+      "body": "There are saving accounts with around 1% APY. You won't find 4.5% anywhere because the Swiss Franc holds its value better than USD.\n\nRaiffeisen, WIR Bank and LLB have solid offerings ranging from 1 to 1.8% APY. At LLB you can also deposit USD to get 4.75% APY.\n\nMore infos here: [https://finanzgipfel.ch/en/blog/swiss-savings-accounts-comparison-best-interest-rates/](https://finanzgipfel.ch/en/blog/swiss-savings-accounts-comparison-best-interest-rates/)",
+      "author": "finanzgipfel",
+      "subreddit": "askswitzerland",
+      "created_utc": 1720905725,
+      "score": 2,
+      "link_id": "t3_1e2jutw",
+      "parent_id": "t3_1e2jutw"
+    },
+    {
+      "id": "lcynlgg",
+      "body": "Then it becomes a question on how soon and how much money you will need for a downpayment. If you plan on buying a house in the next 5 years I would not put the 100k into an ETF. Look at high interest saving or bonds.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720857858,
+      "score": 1,
+      "link_id": "t3_1e1d36q",
+      "parent_id": "t1_lct7n54"
+    },
+    {
+      "id": "lcyngdu",
+      "body": "Yeah, not uncommon for people to not have kids and some nephews inherit it all",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720857762,
+      "score": 1,
+      "link_id": "t3_1e1njju",
+      "parent_id": "t1_lcvpvdn"
+    },
+    {
+      "id": "lchbpih",
+      "body": "Have a serious conversation with this guy. But I wouldn't be surprised if there wasn't even any ill will behind it. Often these brokers really believe what they're selling is good.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720598819,
+      "score": 2,
+      "link_id": "t3_1dz9mjp",
+      "parent_id": "t1_lce1zhw"
+    },
+    {
+      "id": "lchblan",
+      "body": "Nothing illegal is happening. Rest assure you, these big companies know very well how they can deceive you while still remaining 100% complaint.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720598736,
+      "score": 3,
+      "link_id": "t3_1dz9mjp",
+      "parent_id": "t1_lcerhw4"
+    },
+    {
+      "id": "lc67twd",
+      "body": "Either you are underpaid or you have no industry experience or research that's relevant to the company.",
+      "author": "finanzgipfel",
+      "subreddit": "Switzerland",
+      "created_utc": 1720434714,
+      "score": 0,
+      "link_id": "t3_1dy3jgj",
+      "parent_id": "t1_lc5z1lv"
+    },
+    {
+      "id": "lc67lev",
+      "body": "Makes sense, thanks",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720434565,
+      "score": 1,
+      "link_id": "t3_1dxlb0a",
+      "parent_id": "t1_lc61nca"
+    },
+    {
+      "id": "lc5yz3i",
+      "body": "The ZKB Free package is incredible. Pair it with one of the many free Credit Cards out there (Certo, Swisscard Cashback, Migros Cumulus) and a card for abroad (Revolut/Neon) and you're golden. All for a grand total of 0 francs a year.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720428663,
+      "score": 6,
+      "link_id": "t3_1dxlb0a",
+      "parent_id": "t1_lc2dldt"
+    },
+    {
+      "id": "lc5yur4",
+      "body": "What made you choose Radicant over the other free options?",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720428579,
+      "score": 1,
+      "link_id": "t3_1dxlb0a",
+      "parent_id": "t1_lc2d8xh"
+    },
+    {
+      "id": "lc5ysd2",
+      "body": "ZKB has great English service too",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720428533,
+      "score": 2,
+      "link_id": "t3_1dxlb0a",
+      "parent_id": "t1_lc2rpin"
+    },
+    {
+      "id": "lc5yqcw",
+      "body": "Genau. Neon ist nicht schlecht für Investments, aber IBKR ist deutlich besser. Wenn schon ein Wechsel, dann doch gleich zur besten Option.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720428494,
+      "score": 2,
+      "link_id": "t3_1dy2ses",
+      "parent_id": "t1_lc5ues1"
+    },
+    {
+      "id": "lc5yl7i",
+      "body": "What's your aversion to dating an American? Tons of Americans would love to move to Europe at some point.",
+      "author": "finanzgipfel",
+      "subreddit": "EuropeFIRE",
+      "created_utc": 1720428394,
+      "score": 1,
+      "link_id": "t3_1dwlrll",
+      "parent_id": "t1_lbvy3w3"
+    },
+    {
+      "id": "lbkjw0t",
+      "body": "Better than IBKR?",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720082057,
+      "score": 1,
+      "link_id": "t3_1dv04yf",
+      "parent_id": "t1_lbkfj98"
+    },
+    {
+      "id": "lbkjugc",
+      "body": "I wouldn't worry for doing it once",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720082025,
+      "score": 2,
+      "link_id": "t3_1dv04yf",
+      "parent_id": "t1_lbkdjbb"
+    },
+    {
+      "id": "lbkjtlq",
+      "body": "This. IBKR is by far the cheapest for large sums.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1720082009,
+      "score": 3,
+      "link_id": "t3_1dv04yf",
+      "parent_id": "t1_lbkavbz"
+    },
+    {
+      "id": "lbfe8cv",
+      "body": "Finland is mainland Europe",
+      "author": "finanzgipfel",
+      "subreddit": "EuropeFIRE",
+      "created_utc": 1720006319,
+      "score": -1,
+      "link_id": "t3_1du0b56",
+      "parent_id": "t1_lbe2fl9"
+    },
+    {
+      "id": "lb9i9x4",
+      "body": "You should clarify in your original post that this is a 2 person budget. Changes a lot of things.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1719915761,
+      "score": 1,
+      "link_id": "t3_1ds5wp7",
+      "parent_id": "t1_lb5ugxw"
+    },
+    {
+      "id": "lb9i7ni",
+      "body": "I mean fair play. To each their own. But what we can agree on is that OP should cut down on entertainment spending. If you don't want to pirate, only subscribe to one platform at a time and switch them every 6 months to get new content.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1719915720,
+      "score": 2,
+      "link_id": "t3_1ds5wp7",
+      "parent_id": "t1_lb0p0ej"
+    },
+    {
+      "id": "l1tc4vd",
+      "body": "As a student you won't have to worry about fees, since basically all Swiss banks offer everything for free to students.\n\nAs a foreigner I would go with UBS since they know best how to deal with you. If you have a proper student visa (registered in your canton) and aren't a US citizen you shouldn't enocunter any problems.\n\nI don't know what \"transfer loads of money\" means for you. Let's assume we're talking a few thousand each month to cover living costs, I would use Transferwise. It's one of the cheapest way to transfer your SGD to CHF.",
+      "author": "finanzgipfel",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714411561,
+      "score": 1,
+      "link_id": "t3_1cfzx6t",
+      "parent_id": "t3_1cfzx6t"
+    },
+    {
+      "id": "l1ipk27",
+      "body": "Assuming you have a decent income it makes complete sense to max out the Säule 3a. Chose Finpension or VIAC. Select a strategy that's heavy on global stocks. I go with Global 100. That's it.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1714235351,
+      "score": 4,
+      "link_id": "t3_1cegvv5",
+      "parent_id": "t3_1cegvv5"
+    },
+    {
+      "id": "l0x5kyd",
+      "body": "I have yet to see good reason anywhere of going with a Swiss bank instead of IBKR.\n\nAt 10+ million invested, maybe? But at that point I doubt you're asking Reddit for advice.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1713894303,
+      "score": 1,
+      "link_id": "t3_1c7dhbl",
+      "parent_id": "t3_1c7dhbl"
+    },
+    {
+      "id": "l0x51ha",
+      "body": "Agreed. It's the best card for paying abroad. As low fee as it gets.\n\nDefinitely make sure to carry a real credit card too. Not just for car rentals and hotel deposits. But also as a backup in case you lose the Neon card. The Cumulus Credit Card doesn't charge any foreign transaction fees and gives you some free ATM withdrawl. The exchange rate is worse tho, so Neon is always my first choice.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1713894119,
+      "score": 1,
+      "link_id": "t3_1c7zxbz",
+      "parent_id": "t1_l0bc7xa"
+    },
+    {
+      "id": "l0x4atu",
+      "body": "Bank WIR Sparkonto Plus has the best rate at 1.8% up to 500k. wiLLBe is also a solid choice.",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1713893870,
+      "score": 1,
+      "link_id": "t3_1c9e20s",
+      "parent_id": "t3_1c9e20s"
+    },
+    {
+      "id": "l0x3ve7",
+      "body": "2 - aren't you a self-employed contractor at that point?",
+      "author": "finanzgipfel",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1713893726,
+      "score": 1,
+      "link_id": "t3_1cay8np",
+      "parent_id": "t1_l0v63ht"
+    }
+  ]
+}

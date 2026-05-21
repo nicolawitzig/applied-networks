@@ -1,0 +1,1719 @@
+{
+  "username": "recursive_tree",
+  "posts": [
+    {
+      "id": "1d2l0tz",
+      "title": "BGP routing software for mac os X",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1716907049,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/networking/comments/1d2l0tz/bgp_routing_software_for_mac_os_x/"
+    },
+    {
+      "id": "1ax8s5d",
+      "title": "Goon invasion announced after SEA ends",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708614892,
+      "score": 99,
+      "num_comments": 129,
+      "selftext": "As diligent readers of this subreddit know, the so-called south-eastern agreement regarding the southeast has ended yesterday. A year ago, the leaders of all major blocs have agreed to leave the southeast open for new alliances to move in, take space and experience nullsec.  \n\n\nFor more details, there is the original announcements: [https://www.reddit.com/r/Eve/comments/118ky3m/the\\_south\\_eastern\\_agreement/](https://www.reddit.com/r/Eve/comments/118ky3m/the_south_eastern_agreement/)\n\nIt comes at no surprise that after a year of peace a new war is about to unfold:\n\nAs hacked intelligence bots from the fraternity secret service seem to indicate, the impossible might become true: **The leaders of the alliances residing in the southeast have, contrary to all expectations, declared war on goons.**\n\nA leaked ping seems to confirm this:\n\n*\"@everyone With the SEA ending last Wednesday, the times are changing, and war is on the horizon. Over the last year, we have been building up our alliances and training PVP skills. Now it is time to put this to the test.*\n\n*Effectively from now on, we have set all our new allies Siege Green, WOMP and GCLUB blue while Sleep Reapers and TAMA will follow soon. Beginning from Thursday evening, we will go on a deployment to exterminate goons. With the SEA having ended, the chance of us getting invaded is higher than ever. This is why we have decided to go on a preemptive strike against our enemies.\"*\n\nFurthermore, the Exec of the ZERG REBORN! alliance confirmed this in an exclusive interview:\n\n\"It is better to be on the offense than on the defense, even if the chances of success look slim at first glance\".\n\nLarge movements of capitals and ships, together with a lone Brave Atron, have been spotted moving towards T5ZI-S over Pandemic Horde's jump bridge network spanning the SEA area, leading to speculation that the war might escalate to unprecedented levels.",
+      "url": "https://www.reddit.com/r/Eve/comments/1ax8s5d/goon_invasion_announced_after_sea_ends/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3sa5av",
+      "body": "We aim for full score, but we aren’t quite sure if we have the time during a match. It might need more optimization after the regionals in January.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1735161129,
+      "score": 1,
+      "link_id": "t3_1hamph3",
+      "parent_id": "t1_m3ippw1"
+    },
+    {
+      "id": "m3c5aq3",
+      "body": "Are the speeds throttled for everything or just some websites/applications/... when having the VPN off?",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1734900668,
+      "score": 1,
+      "link_id": "t3_1hk79iw",
+      "parent_id": "t3_1hk79iw"
+    },
+    {
+      "id": "m2nzwsi",
+      "body": "It is not unusal that they show a short teaser for the next season at competitions, but I can't confirm this one is real either.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1734534135,
+      "score": 3,
+      "link_id": "t3_1hh1ifd",
+      "parent_id": "t1_m2nu9a3"
+    },
+    {
+      "id": "m1xq7h4",
+      "body": "This is one of the reasons we are using python. you can just copy the code out manually if the software breaks.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1734131619,
+      "score": 2,
+      "link_id": "t3_1hdgp1q",
+      "parent_id": "t3_1hdgp1q"
+    },
+    {
+      "id": "m1ofd80",
+      "body": "It is a bit older, but here you go: [https://www.youtube.com/watch?v=J6TzD7Mz7hU](https://www.youtube.com/watch?v=J6TzD7Mz7hU)",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1734003569,
+      "score": 1,
+      "link_id": "t3_1hc0oy1",
+      "parent_id": "t1_m1lnq52"
+    },
+    {
+      "id": "m1d4vs6",
+      "body": "We use PID-controllers and acceleration when driving. For us, that is enough to be successful.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1733841928,
+      "score": 1,
+      "link_id": "t3_1hamph3",
+      "parent_id": "t3_1hamph3"
+    },
+    {
+      "id": "m19frxa",
+      "body": "I agree full PID is overkill. But P alone is also not enough. With just a P-Controller, there will be an equilibrium between the error and the correction applied. That error will not be zero. See the following simulation of a P-Controller and play around with the values. The model is simplified in that there is no overshoot, but it still illustrates the picture. If `e_natural` is not zero, you cannot get the error reliably to zero without significantly increasing kp. Also try kp=e_natural and see the results.\n```\n# P-Controller\ne_natural = 1       # natural error because the robot doesn't drive straight\ne = 0               # assume we are perfectly aligned at the start\nkp = 0.99           # the proportional correction factor\niterations = 100000 # iterations, \"how long you drive\". Increase this to see that the result doesn't really change\n\nfor x in range(iterations):\n    e = e_natural - kp*e\n    print(e)\n```\n\nNow compare this with the simulation of a PI\n    \n```\n# PI-Controller\ne_natural = 1       # natural error because the robot doesn't drive straight\ne = 0               # assume we are perfectly aligned at the start\nkp = 0.1            # the proportional correction factor\nki = 0.01           # the integral correction factor\niterations = 100000 # iterations, \"how long you drive\". Increase this to see that the result doesn't really change\ni = 0\n\nfor x in range(iterations):\n    e = e_natural - kp*e - ki*i\n    i += e\n    print(e)\n```\n  \nIt does get asymptotically close to zero, so at least theortically there is real accuraccy to be gained by using a PI-controller. A useful trick is to no reset the i-value every distance you drive, but instead continue using the value from the last drive.\n\nI do agree that in reality, you can often get by with a P-controller though.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1733781123,
+      "score": 1,
+      "link_id": "t3_1h6oj6n",
+      "parent_id": "t1_m0hgjyk"
+    },
+    {
+      "id": "m191nab",
+      "body": "I appreciated that you take the effort to provide help, but is there any reason it has to be in DMs instead of in responses? In DMs, noone else can see the discussions, even if it interested other people, as for example PeanutNo7337 commented.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1733776740,
+      "score": 3,
+      "link_id": "t3_1had6w4",
+      "parent_id": "t1_m17z4lh"
+    },
+    {
+      "id": "m190zkr",
+      "body": "I see two ways:   \n  \nAdapt to the kids. If they want to be a laid-back team \"playing with lego\", so be it. If the motivation of the kids is not there, you cannot do much about it. (Although things like having a more experienced FLL/FRC/FTC team come by, showing youtube videos of high-scoring FLL runs, or showing them how the team was successful in previous seasons (e.g. their trophies) can help to motivate them)\n\n  \nAlternatively, communicate more clearly that this is not just \"playing with lego\". That some effort and motivation is expected, that FLL is research AND robotics, not just the one you prefer.\n\nYou seem to be coaching a rather large group. If it is too much, you might also consider limiting the number of teams/students. Especially if you want to build a somewhat competitive team, being able to pick people can lead to more motivated team members.\n\n  \nYou talk about sensor usage: I'd say your kids are just about in the range where I'd they are old enough to start understadning and using sensors. On the other hand, color sensors are getting less and less useful every year due to lines being in places where they aren't useful. That leaves gyro sensors, which are a bit harder and more math-intense to use. With pybricks, we've also seen a out-of-the-box drive base that has been getting better and better, so the need for complicated gyro controlled driving systems has been getting smaller. Lastly, using sensor is no prerequisite for being successful. I know FLL has changed a lot since 17/18 Hydro Dynamics, but back then we got max point just using \"dumb\" driving blocks. I'm not saying sensor are not needed anymore, but you can do suprisingly well without them.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1733776538,
+      "score": 2,
+      "link_id": "t3_1had6w4",
+      "parent_id": "t3_1had6w4"
+    },
+    {
+      "id": "m0l6vwq",
+      "body": "Official answer: if it isn't completly in the base, you can't take it. Inofficial answer: When the judge isn't looking as closely, just move it a centimeter more. They can't punish you more than by refusing to give the points you shouldn't be getting anyways.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1733427572,
+      "score": -1,
+      "link_id": "t3_1h77jrv",
+      "parent_id": "t3_1h77jrv"
+    },
+    {
+      "id": "m071167",
+      "body": "I really like these ones: [https://www.migros.ch/en/product/703727900000](https://www.migros.ch/en/product/703727900000)",
+      "author": "recursive_tree",
+      "subreddit": "ethz",
+      "created_utc": 1733231508,
+      "score": 1,
+      "link_id": "t3_1h5m3x3",
+      "parent_id": "t3_1h5m3x3"
+    },
+    {
+      "id": "lzv4p6j",
+      "body": "Getting lost on the first few fleets is completly normal, nothing \"incompetent\" about it. Your CEO is right though, most spies have more eve experience and know how to move with a fleet.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1733058021,
+      "score": 1,
+      "link_id": "t3_1h3hf52",
+      "parent_id": "t1_lzqsr1j"
+    },
+    {
+      "id": "lz55ie5",
+      "body": "I didn't know undersea cables float above the sea? Still a nice graphic though",
+      "author": "recursive_tree",
+      "subreddit": "FiberOptics",
+      "created_utc": 1732657188,
+      "score": 0,
+      "link_id": "t3_1h0jqjk",
+      "parent_id": "t3_1h0jqjk"
+    },
+    {
+      "id": "lz38ump",
+      "body": "Link zkill and I’ll send you 7 more",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1732636165,
+      "score": 1,
+      "link_id": "t3_1h01aui",
+      "parent_id": "t1_lz24irh"
+    },
+    {
+      "id": "lz34dlz",
+      "body": "I’m in my first year right now. Lectures are in german, but exercises, scripts and about half of all TAs are in English .\n\nAlso, don’t expect much time for anything but eth",
+      "author": "recursive_tree",
+      "subreddit": "ethz",
+      "created_utc": 1732634740,
+      "score": 1,
+      "link_id": "t3_1h0cy26",
+      "parent_id": "t3_1h0cy26"
+    },
+    {
+      "id": "lz33lce",
+      "body": "We use these: https://www.jumbo.ch/de/maschinen-werkstatt/werkstatt-keller/aufbewahrung/sortiments—kleinteilmagazine/allit-sortimentskasten—55–295–37-cm/p/4380781 They are a bit on the more expensive side, but being able to take individual compartments out is great for pins and stuff so you don’t have to reach across the table all the time. We also have a few chaos boxes for cleaning up without having to sort everything all the time (and because we have too much lego).",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1732634487,
+      "score": 3,
+      "link_id": "t3_1h0cytd",
+      "parent_id": "t3_1h0cytd"
+    },
+    {
+      "id": "lyw79md",
+      "body": "Not a SSD in a traditional sense, but also flash storage:\n\n  \nPeople in here are always talking about how bad cheap USB sticks are. Out of curiosity, I decided to test that. I bought two 128GB sticks from Sandisk for about 15CHF each. I set them up in BTRFS raid 1 with weekly scrubs. They were used as backup storage for a minecraft server, writing about 5GB/day. After 5 months the first stick started showing some errors when scrubbing. After one month more, I started getting unrecoverable errors since the other one started failing too.",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1732536432,
+      "score": 3,
+      "link_id": "t3_1gzfrdr",
+      "parent_id": "t3_1gzfrdr"
+    },
+    {
+      "id": "lysj8ff",
+      "body": "Yes, it is allowed. Every sucessful team I know does it. Check youtube for examples.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1732478763,
+      "score": 4,
+      "link_id": "t3_1gyzol4",
+      "parent_id": "t3_1gyzol4"
+    },
+    {
+      "id": "lygkmfy",
+      "body": "At this scale, tape might slowly be economical. You should at least do the math.",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1732302482,
+      "score": 1,
+      "link_id": "t3_1gw10gk",
+      "parent_id": "t3_1gw10gk"
+    },
+    {
+      "id": "ly9x90q",
+      "body": "Does a container count as one item? If so, fill it with abyssal officer mods",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1732210228,
+      "score": 1,
+      "link_id": "t3_1gv9e70",
+      "parent_id": "t3_1gv9e70"
+    },
+    {
+      "id": "lxqcux6",
+      "body": "I'd argue that even before QUIC OSI doesn't really represent the reality. Layer 5 and 6 are already kind of difficult to keep apart from layer 7.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1731921650,
+      "score": 9,
+      "link_id": "t3_1gtzi1a",
+      "parent_id": "t3_1gtzi1a"
+    },
+    {
+      "id": "lxb87qt",
+      "body": "I think this was the intention behind BRM, but the implementation just isn’t what it could have been.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1731697844,
+      "score": 3,
+      "link_id": "t3_1gs0ua1",
+      "parent_id": "t1_lxb1tus"
+    },
+    {
+      "id": "lx8w16p",
+      "body": "We do t-shirts",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1731669510,
+      "score": 4,
+      "link_id": "t3_1grmp76",
+      "parent_id": "t3_1grmp76"
+    },
+    {
+      "id": "lwwrhmv",
+      "body": "You can build your own versions of LWJGL and stuff though. I did it once with version 1.8.9 on a RPI 3. It is a bit of a hassle to get it going, but it did work well leaving aside the performance issues.",
+      "author": "recursive_tree",
+      "subreddit": "factorio",
+      "created_utc": 1731502576,
+      "score": 0,
+      "link_id": "t3_1gq8tit",
+      "parent_id": "t1_lwwi5dd"
+    },
+    {
+      "id": "lwtbi9w",
+      "body": "You guys have windows?  \nYour HG D 5.1",
+      "author": "recursive_tree",
+      "subreddit": "ethz",
+      "created_utc": 1731447052,
+      "score": 12,
+      "link_id": "t3_1gpmztr",
+      "parent_id": "t3_1gpmztr"
+    },
+    {
+      "id": "lwjxfld",
+      "body": "I don't know FLL Explore, but coming from FLL Chanllenge I'm pretty sure the kids have to do it",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1731314289,
+      "score": 2,
+      "link_id": "t3_1gojt34",
+      "parent_id": "t3_1gojt34"
+    },
+    {
+      "id": "lwgxr6p",
+      "body": "wrong sub. \n\nBut since I use them at home: In my experience, you need to power cycle them every few months. Have you tried that?",
+      "author": "recursive_tree",
+      "subreddit": "FiberOptics",
+      "created_utc": 1731271415,
+      "score": 1,
+      "link_id": "t3_1gnb5qr",
+      "parent_id": "t3_1gnb5qr"
+    },
+    {
+      "id": "lw7vcyb",
+      "body": "The season was super powered, not powered up",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1731137920,
+      "score": 2,
+      "link_id": "t3_1gn140t",
+      "parent_id": "t1_lw77hzz"
+    },
+    {
+      "id": "lvyp4wk",
+      "body": "and worst-case, huge wheels are also quite good.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1731013026,
+      "score": 2,
+      "link_id": "t3_1gk3630",
+      "parent_id": "t1_lvi6u4g"
+    },
+    {
+      "id": "lvyoza9",
+      "body": "We have noticed that it varies greatly with different gyros. Our robot had 2 gyros. We did this to detect drift, but then we noticed that it's always the same gyro drifting. So we did some tests. Of the three gyros we own, we have 1 that drifts a lot, one that sometimes drifts and one that almost never drifts (except when you shake it during initialization). So if you have multiple gyros, I'd recomment trying another one to see if that one is better.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1731012982,
+      "score": 1,
+      "link_id": "t3_1gkn39b",
+      "parent_id": "t3_1gkn39b"
+    },
+    {
+      "id": "lvynpj2",
+      "body": "As others have said, you can implement your own launcher. You have one main program. It runs a menu. With one button, you can click through all your runs and with another you can start a run. Runs are own blocks or functions depending if you use scratch or python. Once the own block terminates, you can move your custom launcher to the next run.\n\n  \nI really recommend this over the suggestion to have a wait-for-a-button-press without the ability to select the run. Being at the table is very stressful, mistakes do happen and robots don't always work. So the flexibilty is worth a lot.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1731012623,
+      "score": 2,
+      "link_id": "t3_1glu1jv",
+      "parent_id": "t3_1glu1jv"
+    },
+    {
+      "id": "lvovjt4",
+      "body": "If you need security, you should go for actual security(radius or smth) and not security by obscurity. People might figure out they just have to set a VLAN to get it working.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1730892819,
+      "score": 46,
+      "link_id": "t3_1gkwczo",
+      "parent_id": "t3_1gkwczo"
+    },
+    {
+      "id": "lvivwak",
+      "body": "Depending on how you read that rule, you are allowed to use a microSD card like a lego brick. It doesn't work as a weight though.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1730816013,
+      "score": 2,
+      "link_id": "t3_1gk3630",
+      "parent_id": "t1_lvid8pr"
+    },
+    {
+      "id": "lvhz5m5",
+      "body": "In general, you will have to build and design your own code and robot. Guides like you mentioned can help to get started and can act as a base for modifications, but they are not a finished solution. Same for the code: You need to see the the examples as something to look at to get an idea how something could be solved.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1730800648,
+      "score": 2,
+      "link_id": "t3_1gjxf2u",
+      "parent_id": "t3_1gjxf2u"
+    },
+    {
+      "id": "lvhvje2",
+      "body": "It is not the idea of the competition that you just ask for solutions. The goal is to come up with solutions by yourself. I will not provide you with a solution, but if you are really out of ideas, maybe check youtube, there are probably already some videos of runs there.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1730798144,
+      "score": 1,
+      "link_id": "t3_1gk2m9p",
+      "parent_id": "t3_1gk2m9p"
+    },
+    {
+      "id": "lvbl07k",
+      "body": "You can use different programs, but I can recommend to write one big program with a launcher for the runs. Then you can do things like auto-advancing to the next run after completion, or detecting the attachment with a color sensor.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1730711176,
+      "score": 1,
+      "link_id": "t3_1giabmo",
+      "parent_id": "t3_1giabmo"
+    },
+    {
+      "id": "luzjij7",
+      "body": "There is no reason to have this conversation in DMs",
+      "author": "recursive_tree",
+      "subreddit": "FiberOptics",
+      "created_utc": 1730533535,
+      "score": 2,
+      "link_id": "t3_1gh9lwo",
+      "parent_id": "t1_luw8i18"
+    },
+    {
+      "id": "luzjbt7",
+      "body": "Username checks out",
+      "author": "recursive_tree",
+      "subreddit": "FiberOptics",
+      "created_utc": 1730533398,
+      "score": 9,
+      "link_id": "t3_1ghqpag",
+      "parent_id": "t3_1ghqpag"
+    },
+    {
+      "id": "lutuyie",
+      "body": "In that case, have you considered just getting a new connection from an ISP?",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1730451211,
+      "score": 2,
+      "link_id": "t3_1gh0kho",
+      "parent_id": "t1_luttclq"
+    },
+    {
+      "id": "lupgszn",
+      "body": "This is totally fine. In general, you just need to be able to reasonably justify how it relates to the challenge question.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1730387474,
+      "score": 1,
+      "link_id": "t3_1ggfcko",
+      "parent_id": "t3_1ggfcko"
+    },
+    {
+      "id": "luccibo",
+      "body": "The connection is per-customer from your home to the ISP's first router/switch, but from there on to the broader internet it is shared. Google oversubscription.",
+      "author": "recursive_tree",
+      "subreddit": "FiberOptics",
+      "created_utc": 1730207130,
+      "score": 4,
+      "link_id": "t3_1getue5",
+      "parent_id": "t3_1getue5"
+    },
+    {
+      "id": "lu531xo",
+      "body": "You have left out the question. What do you want to know?",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1730099759,
+      "score": 3,
+      "link_id": "t3_1gdw4j6",
+      "parent_id": "t3_1gdw4j6"
+    },
+    {
+      "id": "lu04rh4",
+      "body": "You can run multiple VLANs to a RPI. On the switch, set the pi's port to tagged and configure the RPI to send tagged traffic out.",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1730034696,
+      "score": 3,
+      "link_id": "t3_1gd84xk",
+      "parent_id": "t3_1gd84xk"
+    },
+    {
+      "id": "ltprgra",
+      "body": "The bread looks horrible but otherwise why not?",
+      "author": "recursive_tree",
+      "subreddit": "StupidFood",
+      "created_utc": 1729877111,
+      "score": 1,
+      "link_id": "t3_1gb5kxp",
+      "parent_id": "t3_1gb5kxp"
+    },
+    {
+      "id": "lthpm08",
+      "body": "We remove the missions every week, it is not an issue.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1729766766,
+      "score": 1,
+      "link_id": "t3_1g90ah5",
+      "parent_id": "t3_1g90ah5"
+    },
+    {
+      "id": "lt6hg9l",
+      "body": "This is one of the reasons my team uses text based programming. If your team is at a stage where they use my blocks, the team members probably could learn python as well.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1729608424,
+      "score": 1,
+      "link_id": "t3_1g8spvd",
+      "parent_id": "t3_1g8spvd"
+    },
+    {
+      "id": "lsczunu",
+      "body": "If you've already implement the dynamic DNS system: Add a simple, cheap computer that is always on like a raspberry pi or old desktop. But if it is a new deployment, also VPN as others said.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1729171874,
+      "score": 2,
+      "link_id": "t3_1g5dv1b",
+      "parent_id": "t3_1g5dv1b"
+    },
+    {
+      "id": "lrkti0i",
+      "body": "No, it is basically the normal game but once you are through with that you can leave the planet and do the DLC stuff. In the same save",
+      "author": "recursive_tree",
+      "subreddit": "factorio",
+      "created_utc": 1728746951,
+      "score": 1,
+      "link_id": "t3_1g2207w",
+      "parent_id": "t1_lrkrpyx"
+    },
+    {
+      "id": "lrjm8o8",
+      "body": "The rules say no. However, we have still done it once and nobody said anything until the world championship. If you do it, just be prepared to remove them when asked to.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1728727453,
+      "score": 1,
+      "link_id": "t3_1fzqt75",
+      "parent_id": "t3_1fzqt75"
+    },
+    {
+      "id": "lrh8ju5",
+      "body": "It looks like you've been trying to add IPv6 to a existing server. In that case, you usually also have to add the address to the interface. Also make sure to check your firewall settings, if your hosting provider has one.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1728683540,
+      "score": 2,
+      "link_id": "t3_1g1k22n",
+      "parent_id": "t3_1g1k22n"
+    },
+    {
+      "id": "lqldt3c",
+      "body": "Use the RAM to make a huge, crazy fast ram-only filesystem",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1728207791,
+      "score": 4,
+      "link_id": "t3_1fxavqe",
+      "parent_id": "t3_1fxavqe"
+    },
+    {
+      "id": "lqfxbxr",
+      "body": "Fusion splices are way more reliable. I don’t know that particular splicer model, but for 200$ it is probably worth it, especially compared to the size of the project.",
+      "author": "recursive_tree",
+      "subreddit": "FiberOptics",
+      "created_utc": 1728128785,
+      "score": 2,
+      "link_id": "t3_1fwobc9",
+      "parent_id": "t3_1fwobc9"
+    },
+    {
+      "id": "lqaa370",
+      "body": "What do I have money for if I don’t even have to buy the expansion?",
+      "author": "recursive_tree",
+      "subreddit": "factorio",
+      "created_utc": 1728041888,
+      "score": 1,
+      "link_id": "t3_1fvwfme",
+      "parent_id": "t3_1fvwfme"
+    },
+    {
+      "id": "lq728ss",
+      "body": "have some fun and r/homelab",
+      "author": "recursive_tree",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1727987771,
+      "score": 25,
+      "link_id": "t3_1fvhg0o",
+      "parent_id": "t3_1fvhg0o"
+    },
+    {
+      "id": "lppfc9g",
+      "body": "If I understand you right, you want to appear as if you are accessing the internet from a mobile network in the US? This is generally not possible without actually being connected to that network in the US. (unless you hijack their routes, but good luck doing that lol. you will make a lot of people very angry, if you even manage to do it in the first place)\n\nAlso because of physics, you will always have some latency when crossing the atlantic.\n\n  \nIf you are really serious, buy a phone with a t-mobile subscription, place it somewhere with a good signal, create a hotspot and connect a device that acts as a router. Definately not something you can do on a cloud server.\n\nGetting IP rotation is impossible with this, but you shouldn't need that anyways unless your doing sketchy things.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1727727995,
+      "score": 5,
+      "link_id": "t3_1ft5537",
+      "parent_id": "t3_1ft5537"
+    },
+    {
+      "id": "lpitdse",
+      "body": "Have you considered just being a good neighbor and make peace again?",
+      "author": "recursive_tree",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1727631594,
+      "score": 30,
+      "link_id": "t3_1fs9pig",
+      "parent_id": "t3_1fs9pig"
+    },
+    {
+      "id": "lpislxx",
+      "body": "I like mikrotik",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1727631370,
+      "score": 1,
+      "link_id": "t3_1fs6oxm",
+      "parent_id": "t3_1fs6oxm"
+    },
+    {
+      "id": "lpisgyn",
+      "body": "Are you aware of the intel 13th and 14th gen issues and have you considered the impact on your use case? Instead of a expensive motherboard just for 10g networking, you could also consider a pcie card",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1727631328,
+      "score": 1,
+      "link_id": "t3_1fs80ao",
+      "parent_id": "t3_1fs80ao"
+    },
+    {
+      "id": "lpimad0",
+      "body": "I guess you have to use the API for that",
+      "author": "recursive_tree",
+      "subreddit": "hetzner",
+      "created_utc": 1727629449,
+      "score": 1,
+      "link_id": "t3_1fpb4mh",
+      "parent_id": "t3_1fpb4mh"
+    },
+    {
+      "id": "lod1yj1",
+      "body": "With 3d printing, you have to be careful with the weight or it will have to be massive. It might even be worth it to get it produced from sheet metal",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1727013428,
+      "score": 1,
+      "link_id": "t3_1fmiiza",
+      "parent_id": "t3_1fmiiza"
+    },
+    {
+      "id": "lo6jhhc",
+      "body": "But then why the Re 460 and 450?",
+      "author": "recursive_tree",
+      "subreddit": "trains",
+      "created_utc": 1726908589,
+      "score": 1,
+      "link_id": "t3_1fjnw2b",
+      "parent_id": "t1_lnpj6qu"
+    },
+    {
+      "id": "lo14an1",
+      "body": "In this price range, you probably have to go used",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1726828886,
+      "score": 1,
+      "link_id": "t3_1fl512d",
+      "parent_id": "t3_1fl512d"
+    },
+    {
+      "id": "lo0b84x",
+      "body": "In my experience, the microsoft cloud office products are all quite sluggish performance wise",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1726809766,
+      "score": 17,
+      "link_id": "t3_1fl1x5g",
+      "parent_id": "t1_lnzwncq"
+    },
+    {
+      "id": "lo0akh7",
+      "body": "That sounds like a server running on paper. Make sure your farm works on paper before building it.",
+      "author": "recursive_tree",
+      "subreddit": "technicalminecraft",
+      "created_utc": 1726809392,
+      "score": 4,
+      "link_id": "t3_1fl2q0r",
+      "parent_id": "t1_lnzykpj"
+    },
+    {
+      "id": "lnp878d",
+      "body": "When I was younger, I could afford it but I couldn’t pay it because I had no way to pay on the internet. My parents didn’t want to help me with spending money for games either.",
+      "author": "recursive_tree",
+      "subreddit": "factorio",
+      "created_utc": 1726644489,
+      "score": 3,
+      "link_id": "t3_1fjmhxu",
+      "parent_id": "t3_1fjmhxu"
+    },
+    {
+      "id": "lndfsi2",
+      "body": "No, there are no penalties. If the full team doesn’t participate, make sure to communicate this with the organizers so they can schedule the day accordingly",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1726468172,
+      "score": 4,
+      "link_id": "t3_1fhxvlq",
+      "parent_id": "t3_1fhxvlq"
+    },
+    {
+      "id": "ln4xhcu",
+      "body": "The issue is latency, which tailscale can't solve",
+      "author": "recursive_tree",
+      "subreddit": "hetzner",
+      "created_utc": 1726344259,
+      "score": 1,
+      "link_id": "t3_1fgq4yx",
+      "parent_id": "t1_ln4g0wh"
+    },
+    {
+      "id": "lmu3gdo",
+      "body": "Regarding that inspection zone, do you know how much they scored to put that into perspective? I can just come with a robot that solves a single mission and I'll fit the inspection zone in 1 second. But since it is the world festival, it is probablly not bad, so indeed impressive!",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1726178424,
+      "score": 1,
+      "link_id": "t3_1fep0u4",
+      "parent_id": "t1_lmp5ux9"
+    },
+    {
+      "id": "lmeuii1",
+      "body": "You don’t have to process one packet at a time though. You can make multiple forwarding decisions at the same time by overlapping the processing of multiple packets. If you want to read more, look up pipelining in computer architecture.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1725959873,
+      "score": 11,
+      "link_id": "t3_1fd7fjv",
+      "parent_id": "t1_lmen166"
+    },
+    {
+      "id": "llxivlk",
+      "body": "I’d add tunnels like wireguard. Yes, underneath they probably use ethernet, but the traffic in the tunnel itself in the case of wireguard is only IP without ethernet.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1725700401,
+      "score": 1,
+      "link_id": "t3_1fagovt",
+      "parent_id": "t1_llwpyme"
+    },
+    {
+      "id": "llskfq4",
+      "body": "Have you considered looking at last year's projects?",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1725629930,
+      "score": 1,
+      "link_id": "t3_1f99eh3",
+      "parent_id": "t1_llpyj95"
+    },
+    {
+      "id": "lllrela",
+      "body": "In my experience as a ex-team member and now coach, finding an innovation project is one of the biggest challenges. It is really something your team should do themselves instead of taking it from reddit.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1725529440,
+      "score": 5,
+      "link_id": "t3_1f99eh3",
+      "parent_id": "t3_1f99eh3"
+    },
+    {
+      "id": "lksnp2q",
+      "body": "Nobody will engage a garmur unless he is a garmur counter",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1725085692,
+      "score": 2,
+      "link_id": "t3_1f5bf5m",
+      "parent_id": "t3_1f5bf5m"
+    },
+    {
+      "id": "lkocuot",
+      "body": "I’d personally go for mikrotik, but anything works that has the features. You only get the expensive switches because you need speed, reliability or features; that doesn’t matter as much for a random switch on a guys desk.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1725027662,
+      "score": 5,
+      "link_id": "t3_1f4v0wt",
+      "parent_id": "t3_1f4v0wt"
+    },
+    {
+      "id": "lkoblaq",
+      "body": "This is pretty much why I only fly t1 frigates in FW",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1725027250,
+      "score": 7,
+      "link_id": "t3_1f4s4za",
+      "parent_id": "t3_1f4s4za"
+    },
+    {
+      "id": "lknm1gm",
+      "body": "Just google it. There are plenty or reports. I don't know about the POE variant in particular since I bought the non-POE version.",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1725017560,
+      "score": 2,
+      "link_id": "t3_1f4oyu3",
+      "parent_id": "t1_lkn2gvh"
+    },
+    {
+      "id": "lkn1725",
+      "body": "No it doesn’t. I’m doing exactly what OP is asking for through a NATed connection",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1725005064,
+      "score": 1,
+      "link_id": "t3_1f4mgio",
+      "parent_id": "t1_lkmrdx0"
+    },
+    {
+      "id": "lkn0hk5",
+      "body": "Are you aware of the RB5009’s issues with using the sfp+ and 2.5g port at the same time? It might not affect you, but you should check",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1725004592,
+      "score": 1,
+      "link_id": "t3_1f4oyu3",
+      "parent_id": "t3_1f4oyu3"
+    },
+    {
+      "id": "lkmqpqp",
+      "body": "It depends if your upstream’s upstream also supports jumbo frames. You need to have jumbo frames all the way to the destination. As a quick check, you can use ping with a size of 9k and the don’t fragment option to see if it works.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1724998353,
+      "score": 9,
+      "link_id": "t3_1f4nqti",
+      "parent_id": "t3_1f4nqti"
+    },
+    {
+      "id": "lkhfj8k",
+      "body": "You can shut it down when you don't need it though, as you won't be labbing 24/7",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1724929741,
+      "score": 1,
+      "link_id": "t3_1f3ggvq",
+      "parent_id": "t1_lket0qt"
+    },
+    {
+      "id": "lkhf7x2",
+      "body": "The ESI docs (esi.evetech.net) say whether it is a u32 or a u64",
+      "author": "recursive_tree",
+      "subreddit": "evetech",
+      "created_utc": 1724929583,
+      "score": 4,
+      "link_id": "t3_1f3s6gk",
+      "parent_id": "t3_1f3s6gk"
+    },
+    {
+      "id": "ljza33o",
+      "body": "item in a container (including ships for that matter): the location id is the item id of the container  \nitem in a npc station/citadel: the location id is the id of the station/citadel",
+      "author": "recursive_tree",
+      "subreddit": "evetech",
+      "created_utc": 1724657242,
+      "score": 1,
+      "link_id": "t3_1f1hzez",
+      "parent_id": "t3_1f1hzez"
+    },
+    {
+      "id": "lif6cyy",
+      "body": "It might need more rsm but try it before you upgrade",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1723822714,
+      "score": 2,
+      "link_id": "t3_1etm0r5",
+      "parent_id": "t3_1etm0r5"
+    },
+    {
+      "id": "lif37z1",
+      "body": "Now imagine you are from a country with a different phone number length",
+      "author": "recursive_tree",
+      "subreddit": "programminghorror",
+      "created_utc": 1723821719,
+      "score": 1,
+      "link_id": "t3_1esxpvf",
+      "parent_id": "t3_1esxpvf"
+    },
+    {
+      "id": "lhps5wm",
+      "body": "Yes, I’ve had it on a eviction. It is a pleasant surprise if you’ve only got half the fleet through the first hole.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1723451156,
+      "score": 1,
+      "link_id": "t3_1ep4y6d",
+      "parent_id": "t3_1ep4y6d"
+    },
+    {
+      "id": "lhppyct",
+      "body": "SeAT can do this! Although having a private seat install just for this is probably overkill",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1723449646,
+      "score": 9,
+      "link_id": "t3_1eq5upv",
+      "parent_id": "t1_lhplil3"
+    },
+    {
+      "id": "lh9rj4r",
+      "body": "avoid bling and 0.5 systems. Also zkill to watch where ganks happen",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1723209390,
+      "score": 3,
+      "link_id": "t3_1env83c",
+      "parent_id": "t1_lh98s5f"
+    },
+    {
+      "id": "lh8st35",
+      "body": "I’m currently using a proxy that records all my traffic to discord for archiving. I won’t have a complete archive from this, but everything I’ve ever seen. https://github.com/Roachbones/discordless",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1723191192,
+      "score": 5,
+      "link_id": "t3_1ena9r0",
+      "parent_id": "t1_lh74s2i"
+    },
+    {
+      "id": "lh2uwan",
+      "body": "I will RMT the isk to fund my plex addiction",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1723107419,
+      "score": 1,
+      "link_id": "t3_1emk8ma",
+      "parent_id": "t3_1emk8ma"
+    },
+    {
+      "id": "lh0cxjl",
+      "body": "Just start talking as slow as possible and you are already half bernese",
+      "author": "recursive_tree",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723067219,
+      "score": 1,
+      "link_id": "t3_1efmlam",
+      "parent_id": "t3_1efmlam"
+    },
+    {
+      "id": "lh0a7fy",
+      "body": "If you do it before they reopen the base tunnel, you can even enjoy the views of the gotthard mountain line!",
+      "author": "recursive_tree",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723066334,
+      "score": 1,
+      "link_id": "t3_1egg2he",
+      "parent_id": "t1_lfryh9a"
+    },
+    {
+      "id": "lgzyucs",
+      "body": "We’d need to know how much you’ll travel. A half fare card is almost always worth it, and a GA only if you travel a lot or want the luxury of having one ticket for everything.",
+      "author": "recursive_tree",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723062783,
+      "score": 1,
+      "link_id": "t3_1ehy76l",
+      "parent_id": "t3_1ehy76l"
+    },
+    {
+      "id": "lgzwdfr",
+      "body": "Rega is for medical emergencies. Bad weather is not a medical emergency and no reason to call rega. If you get injured by the weather, that is something different .",
+      "author": "recursive_tree",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723062038,
+      "score": 1,
+      "link_id": "t3_1ei5t93",
+      "parent_id": "t3_1ei5t93"
+    },
+    {
+      "id": "lgzqk3h",
+      "body": "Since it hasn’t been mentioned yet: ragusa",
+      "author": "recursive_tree",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723060267,
+      "score": 1,
+      "link_id": "t3_1elg8jv",
+      "parent_id": "t3_1elg8jv"
+    },
+    {
+      "id": "lgxc7it",
+      "body": "If you want quality, no nonsense internet, init7. Cheaper ones, anyone will do",
+      "author": "recursive_tree",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723032138,
+      "score": 2,
+      "link_id": "t3_1em8dky",
+      "parent_id": "t3_1em8dky"
+    },
+    {
+      "id": "lfu4a9v",
+      "body": "Sadly, we no longer exist",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1722443894,
+      "score": 2,
+      "link_id": "t3_1eg22ja",
+      "parent_id": "t1_lfr9t5t"
+    },
+    {
+      "id": "lftwpp5",
+      "body": "If possible multiple servers in each region, otherwise you might need to do some testing.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1722441488,
+      "score": 1,
+      "link_id": "t3_1egko0k",
+      "parent_id": "t3_1egko0k"
+    },
+    {
+      "id": "ld4568r",
+      "body": "I do it and it works great",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1720947623,
+      "score": 2,
+      "link_id": "t3_1e2p274",
+      "parent_id": "t3_1e2p274"
+    },
+    {
+      "id": "lcvwhn3",
+      "body": "It will do the job, but an old router will do it too. Use what you already have or what uses less power",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1720813816,
+      "score": 1,
+      "link_id": "t3_1e1gdag",
+      "parent_id": "t3_1e1gdag"
+    },
+    {
+      "id": "lc6ho6x",
+      "body": "Small 4 port usb hub with 4 usb stick with raid 1?",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1720440167,
+      "score": 1,
+      "link_id": "t3_1dxuzrc",
+      "parent_id": "t3_1dxuzrc"
+    },
+    {
+      "id": "lbqpibx",
+      "body": "Most programming language will do the job, there is no secret network programming language. Some might be more optimal because of performance or their ecosystem, while you might be more productive in another because you already know it. As the first comment already says, python is relatively slow, but you already seem to know it. It is your choice in the end.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1720186541,
+      "score": 2,
+      "link_id": "t3_1dvx7xs",
+      "parent_id": "t1_lbqonfc"
+    },
+    {
+      "id": "lb9s6vh",
+      "body": "These passengers trains are rarely uncoupled",
+      "author": "recursive_tree",
+      "subreddit": "BitchImATrain",
+      "created_utc": 1719921346,
+      "score": 1,
+      "link_id": "t3_1dsy3cy",
+      "parent_id": "t1_lb5kmdn"
+    },
+    {
+      "id": "laubkud",
+      "body": "You can take the average of the distance the wheels move. Works quite well if you PID is tuned right. Also to start out, a p-controller might be enough",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1719673800,
+      "score": 1,
+      "link_id": "t3_1dq26tw",
+      "parent_id": "t1_laskcso"
+    },
+    {
+      "id": "lat1vgb",
+      "body": "I’m currently doing the same thing as an experiment and third backup, although with fewer sticks. Despite what everyone says, even after a year it is still working great",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1719651276,
+      "score": 1,
+      "link_id": "t3_1dqq7k0",
+      "parent_id": "t3_1dqq7k0"
+    },
+    {
+      "id": "lat109a",
+      "body": "My host-shared folder for my windows VM is called michaelsoft binbows twodrive",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1719650700,
+      "score": 1,
+      "link_id": "t3_1dqxk6c",
+      "parent_id": "t3_1dqxk6c"
+    },
+    {
+      "id": "ladibpv",
+      "body": "Since minecraft is all singlecore, maybe also consider the i3 14100",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1719415213,
+      "score": 1,
+      "link_id": "t3_1dozjje",
+      "parent_id": "t3_1dozjje"
+    },
+    {
+      "id": "la6fw5k",
+      "body": "As far as i know, we are probably on the higher side in terms of time we allocate, but again, we are ambitious and aim to go to international tournaments. I'd say it is totally doable with less time assuming lower expectations. However, I think something like an afternoon per week(3-4h) is probably required. You need to figure this out for your own team though. \n\nRegarding your question about professional coaches vs parents, I and my co-coach are old team members that can't let go the competition and that want to let others enjoy the experience of participating in FLL. We get paid some money, but not enough to make it worthwhile as a job, for making money literally any other job would be better.\n\n  \nWe have a room in a school we can use on saturdays in return for providing the old fields for the school's robotics group(they don't participate in FLL). A living room as you suggested will work too assuming there is enough space.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1719304437,
+      "score": 1,
+      "link_id": "t3_1dnf0fa",
+      "parent_id": "t1_la3trd5"
+    },
+    {
+      "id": "la3l8lf",
+      "body": "I'm currently coaching my team directly after getting to old. It is sometimes difficult, but it is doable. What I've found to help is having something like a book with me so I have something to do instead of just watching the team members work(and interfering because I see something that could be solved better).",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1719259166,
+      "score": 1,
+      "link_id": "t3_1dcmpra",
+      "parent_id": "t1_l847hpm"
+    },
+    {
+      "id": "la3jn6p",
+      "body": "I can't really help you with engineering curiculum, but regarding weekly progress checks, I can share our team's plan throughout the year. That might help with time management. However, please note that we are a pretty experienced team, so we don't need much introduction to mechanics etc. Also, we usually meet every saturday 9:30-16:30, but if you are less ambitious you can do it with less time.\n\nAugust: Getting to know each other, assembling the field, robot game strategy, creating the software\n\nSeptember: Building the robot game, creating the software, finding a project. The goal is to have a project at the latest by the end of the month\n\nOctober: Continue building the robot, do the project (content-wise)\n\nNovember: Create a presentation for the research project, have a first version of the robot game (meaning everything is built, but reliability doesn't matter yet)\n\nDecember: Finishing touches on the project, making the robot game more reliable, training for the competition\n\nJanuary: More training and the competition\n\n  \nFor mentors, we usually have old team members. While as a new team, you obviouly don't have that, participants that have grown too old are always useful with their competition-specific knowledge.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1719258643,
+      "score": 1,
+      "link_id": "t3_1dnf0fa",
+      "parent_id": "t3_1dnf0fa"
+    },
+    {
+      "id": "l9wthgr",
+      "body": "As long as it is lego, it is fine. For example, you could use the lego rubber bands and make a knot in them.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1719155044,
+      "score": 6,
+      "link_id": "t3_1dmnwq4",
+      "parent_id": "t3_1dmnwq4"
+    },
+    {
+      "id": "l9wtab2",
+      "body": "Copy&Paste to a text file.\n\nAlso, I think llsp3 is just a zip file with a differend file extension, if you want to build something custom.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1719154968,
+      "score": 1,
+      "link_id": "t3_1dm39xi",
+      "parent_id": "t3_1dm39xi"
+    },
+    {
+      "id": "l9hegpo",
+      "body": "There is usually a number up to n drives per case or something like that",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1718900843,
+      "score": 0,
+      "link_id": "t3_1djyssp",
+      "parent_id": "t1_l9fi3be"
+    },
+    {
+      "id": "l9a0knx",
+      "body": "We sometimes use tape that we stick on a table. That way, you don’t always have to get new maps. Otherwise you can print them in a copyshop",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1718782805,
+      "score": 1,
+      "link_id": "t3_1cwyofp",
+      "parent_id": "t3_1cwyofp"
+    },
+    {
+      "id": "l99z9ea",
+      "body": "Why can’t cisco and arista and co just post a price on their websites. I know you might get discounts and whatnot, but if a router is roughly 2000 or 20000 makes a difference",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1718781862,
+      "score": 8,
+      "link_id": "t3_1dj5f3k",
+      "parent_id": "t3_1dj5f3k"
+    },
+    {
+      "id": "l94fl93",
+      "body": "vultr offers bgp peerings with their virtual private servers if I’m right",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1718695539,
+      "score": 1,
+      "link_id": "t3_1dhiu36",
+      "parent_id": "t3_1dhiu36"
+    },
+    {
+      "id": "l8f9sp6",
+      "body": "What is the value of this TCP vs UDP article compared to already existing writeups? It reads like a search engine optimization article generated by chatgpt.",
+      "author": "recursive_tree",
+      "subreddit": "networking",
+      "created_utc": 1718285913,
+      "score": 1,
+      "link_id": "t3_1d9x2nu",
+      "parent_id": "t1_l7j067i"
+    },
+    {
+      "id": "l8el5io",
+      "body": "Getting a package you can trust, e.g. not getting SMR without knowing it, and support and warranty that is not just on paper for marketing. However, these additional services should be balanced against the price point, we are not willing to spend much more for it. \n\nRunWithIronWolf Seagate",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1718274018,
+      "score": 1,
+      "link_id": "t3_1de9zkn",
+      "parent_id": "t3_1de9zkn"
+    },
+    {
+      "id": "l7hjert",
+      "body": "You will need some plugins for this. I’m not sure if they all exist exactly as you describe them here, but it is doable on both platforms. You might need to develop or modify a plugin though.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1717737622,
+      "score": 1,
+      "link_id": "t3_1d97iks",
+      "parent_id": "t1_l7f8uin"
+    },
+    {
+      "id": "l7hizum",
+      "body": "It is not true that you can’t go above 500 characters. In fact, I know people that run 4000. However at around 500 chars the resource usage of seat starts to grow, so that you might not be able to run it on the cheapest server anymore.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1717737381,
+      "score": 1,
+      "link_id": "t3_1d97iks",
+      "parent_id": "t1_l7f9xnp"
+    },
+    {
+      "id": "l7cxadn",
+      "body": "Wireguard is easy to set up and does exactly this",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1717674394,
+      "score": 1,
+      "link_id": "t3_1d8xoqb",
+      "parent_id": "t3_1d8xoqb"
+    },
+    {
+      "id": "l7ctcay",
+      "body": "What do you want to do? Manage discord access, search for spies, etc?",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1717672337,
+      "score": 1,
+      "link_id": "t3_1d97iks",
+      "parent_id": "t3_1d97iks"
+    },
+    {
+      "id": "l7ct4tx",
+      "body": "Yes, it is still being updated. However it is true that activity isn’t that high and we could use more people working on it.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1717672223,
+      "score": 2,
+      "link_id": "t3_1d97iks",
+      "parent_id": "t1_l7bfvnn"
+    },
+    {
+      "id": "l6vmfav",
+      "body": "If you only run a router, you really don’t need all that much storage(for os+config). 2GB ram should also be enough, but I’m less sure",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1717397904,
+      "score": 2,
+      "link_id": "t3_1d6y6br",
+      "parent_id": "t3_1d6y6br"
+    },
+    {
+      "id": "l6118lz",
+      "body": "I'd really consider including some fast SSD storage, even if it is just 10TB for the data you are currently working on. \n\nAnd make sure to have a backup plan for everything",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1716906338,
+      "score": 1,
+      "link_id": "t3_1d2i45u",
+      "parent_id": "t3_1d2i45u"
+    },
+    {
+      "id": "l60sdms",
+      "body": "you might want to look at cold cure splicing",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1716902759,
+      "score": 2,
+      "link_id": "t3_1d2i5go",
+      "parent_id": "t3_1d2i5go"
+    },
+    {
+      "id": "l5qgwh9",
+      "body": "Program something to automate it",
+      "author": "recursive_tree",
+      "subreddit": "DataHoarder",
+      "created_utc": 1716725521,
+      "score": 2,
+      "link_id": "t3_1d0kmgd",
+      "parent_id": "t3_1d0kmgd"
+    },
+    {
+      "id": "l4fnl3p",
+      "body": "What is the molea cemetery ?",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1715940914,
+      "score": 3,
+      "link_id": "t3_1cu05qv",
+      "parent_id": "t3_1cu05qv"
+    },
+    {
+      "id": "l4cfjtn",
+      "body": "on linux, you could use a udev rule that runs a script when the card is inserted. That script would copy the contents of the card to the NAS",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1715885101,
+      "score": 2,
+      "link_id": "t3_1ctebrl",
+      "parent_id": "t3_1ctebrl"
+    },
+    {
+      "id": "l4cdncj",
+      "body": "Yes. I'm actually running a USB stick raid array on my server in the hopes of catching a failing drive and having to replace it.",
+      "author": "recursive_tree",
+      "subreddit": "homelab",
+      "created_utc": 1715884437,
+      "score": 4,
+      "link_id": "t3_1cteplc",
+      "parent_id": "t3_1cteplc"
+    },
+    {
+      "id": "l27hupc",
+      "body": "For more bandwidth, I can really recommend hetzner",
+      "author": "recursive_tree",
+      "subreddit": "selfhosted",
+      "created_utc": 1714629770,
+      "score": 1,
+      "link_id": "t3_15z8tdn",
+      "parent_id": "t1_jxg6xm5"
+    },
+    {
+      "id": "l1x5f93",
+      "body": "I actually click on the videos to find the content, but I always read the article myself. They are often linked in the description.",
+      "author": "recursive_tree",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1714473396,
+      "score": 1,
+      "link_id": "t3_1cg5lda",
+      "parent_id": "t3_1cg5lda"
+    },
+    {
+      "id": "l1ria0q",
+      "body": "yes, but that laptop is approaching 5 years and the new models don't support it anymore. I think I'd rather save up that money to buy a new, better laptop",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1714383724,
+      "score": 1,
+      "link_id": "t3_1cdzbjt",
+      "parent_id": "t1_l1kf5zr"
+    },
+    {
+      "id": "l1ib2ju",
+      "body": "It’s not great on my 2019 intel mbp, but I keep playing so it can’t be that bad?",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1714229918,
+      "score": 2,
+      "link_id": "t3_1cdzbjt",
+      "parent_id": "t3_1cdzbjt"
+    },
+    {
+      "id": "l1bn4st",
+      "body": "Here are my opionions on your suggestions:\n\n1. It is usally easier to directly build the attachments as you can try them out instead of designing them in a 3D modeling program and then building them. For documentation it might be a good idea (I haven't tried), but it probably takes a lot of time, especially with larger attachments.\n\n2. I don't know that app\n\n3. We use it as a todo list, if you do it thourough it is great, otherwise still a good idea.\n\n4. What is this?\n\n5. We use google drive for our documents. A shared file storage like this is definetely a must. I'd say 75% of our files are related to the research project.\n\n6. You probably want git on something like github for your code if you are using python or something similar. We have also used git for the research project when we created a webiste/app",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1714119711,
+      "score": 2,
+      "link_id": "t3_1cd5x3u",
+      "parent_id": "t3_1cd5x3u"
+    },
+    {
+      "id": "l070x2r",
+      "body": "Didn't you know that our valued FC Rexan Darkstar is also a talented ping pong player? Of course he won't interrupt his training just for a fleet!",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1713470648,
+      "score": 6,
+      "link_id": "t3_1c7bilw",
+      "parent_id": "t3_1c7bilw"
+    },
+    {
+      "id": "l00ztyr",
+      "body": "OP is so salty, almost as if he had to divert to reddit because he couldn't do anything against GCLUB ingame.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1713379731,
+      "score": -1,
+      "link_id": "t3_1c69g3v",
+      "parent_id": "t3_1c69g3v"
+    },
+    {
+      "id": "kxzo9n3",
+      "body": "Don't approach the Bustard, it has smartbombs fitted!",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1712225040,
+      "score": 1,
+      "link_id": "t3_1bv92z5",
+      "parent_id": "t3_1bv92z5"
+    },
+    {
+      "id": "kvgtj6d",
+      "body": "We do it too. It hasn't caused issue at the last competition, but it doesn't mean it won't for the next.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1710788395,
+      "score": 1,
+      "link_id": "t3_1bhs5yu",
+      "parent_id": "t3_1bhs5yu"
+    },
+    {
+      "id": "kveanw7",
+      "body": "Most of the time, the mat is glued down during competitions. if you still rip it up, I guess that qualifies as intentionally destroying mission equipment?",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1710746737,
+      "score": 4,
+      "link_id": "t3_1bhgmye",
+      "parent_id": "t3_1bhgmye"
+    },
+    {
+      "id": "kv6px3y",
+      "body": "Per default, EVE doesn't download the full game. Instead, it downloades the core of the game and then whatever it needs as it goes. If you are limited in terms of data, make sure to enable the \"download full game\" option in your launcher. That will be a 10GB+ download though, so I guess you have to wait until you're out of the ocean.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1710620787,
+      "score": 3,
+      "link_id": "t3_1bgdyop",
+      "parent_id": "t3_1bgdyop"
+    },
+    {
+      "id": "kuzxkdc",
+      "body": "As far as I know, the ev3 has a single core processor. By using multiple threads, you will most likely slo things down since it has to perform more expensive context switches between threads.\n\nMy team uses a custom multitasking solution using one thread and many non-blocking microthreads.(effectively resulting in cooperative multitasking).",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1710513889,
+      "score": 2,
+      "link_id": "t3_1bew5mz",
+      "parent_id": "t3_1bew5mz"
+    },
+    {
+      "id": "kuzwai8",
+      "body": "Because it might not offer the customizability and features needed. As far as I know, it is quite common to have a custom implementation from the teams I’ve talked to.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1710513441,
+      "score": 1,
+      "link_id": "t3_1bew5mz",
+      "parent_id": "t1_kux3as7"
+    },
+    {
+      "id": "ku1jnhj",
+      "body": "I used a free one from an event to have the skills to get trig standings for my freighter alt",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1709970780,
+      "score": 1,
+      "link_id": "t3_1b9vgr2",
+      "parent_id": "t3_1b9vgr2"
+    },
+    {
+      "id": "ktr322v",
+      "body": "As if ACLs can't be cached. This is a stupid excuse.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1709810884,
+      "score": 1,
+      "link_id": "t3_1b8dzrj",
+      "parent_id": "t1_ktp4cwy"
+    },
+    {
+      "id": "kt9pq1g",
+      "body": "FLL rules and tournaments are sometimes slightly different depending on the country and even competition. It can be annoying, but you have to learn to live with it.\n\n  \nThe robotgame scoring method you described here is indeed how it is in Germany. Here is the complete picture how it works:\n\nThere are 3 preliminary rounds. The best score of these round count. Your placement in preliminary rounds count for the FLL Champion, but not for the robot game award. The best 4 or 8 teams from the preliminary rounds qualify for the finals, and the winner of the finals wins the robot game award.\n\nCalling the finals \"just for fun\" is unfortunate, but I can see where they are coming from(it doesn't count for the overall scores)",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1709538891,
+      "score": 5,
+      "link_id": "t3_1b5szga",
+      "parent_id": "t3_1b5szga"
+    },
+    {
+      "id": "ksyq6zv",
+      "body": "Did you configure ME and bonuses correctly?",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1709356904,
+      "score": 1,
+      "link_id": "t3_1b4c4h2",
+      "parent_id": "t3_1b4c4h2"
+    },
+    {
+      "id": "ksu9ecb",
+      "body": "That’s the only thing he does: hunting at ships",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1709294725,
+      "score": 1,
+      "link_id": "t3_evb997",
+      "parent_id": "t1_ksp1dzi"
+    },
+    {
+      "id": "ks892q6",
+      "body": "You might still be on the old launcher.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708961473,
+      "score": 1,
+      "link_id": "t3_1azq5sm",
+      "parent_id": "t3_1azq5sm"
+    },
+    {
+      "id": "krr1az9",
+      "body": "Under the rare species protection act, you are not allowed to bully them.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708687772,
+      "score": 1,
+      "link_id": "t3_1ax8s5d",
+      "parent_id": "t1_krqkkx3"
+    },
+    {
+      "id": "krnb3sn",
+      "body": "You could try to gank haulers and hope they drop the right thing",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708628632,
+      "score": 3,
+      "link_id": "t3_1awrqet",
+      "parent_id": "t1_krn7mpn"
+    },
+    {
+      "id": "krmmuy4",
+      "body": "oh no",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708620098,
+      "score": 12,
+      "link_id": "t3_1ax8s5d",
+      "parent_id": "t1_krmm9ie"
+    },
+    {
+      "id": "krmk8o6",
+      "body": "I mean that why you are here, right?",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708619229,
+      "score": 2,
+      "link_id": "t3_1ax8s5d",
+      "parent_id": "t1_krmk1vq"
+    },
+    {
+      "id": "krmab56",
+      "body": "Unfortunately I haven't been able to attend ceema's r/eve memeing classes yet, so I'm afraid I can only post low quality memes",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708615860,
+      "score": 29,
+      "link_id": "t3_1ax8s5d",
+      "parent_id": "t1_krm9a5i"
+    },
+    {
+      "id": "kr5vjt9",
+      "body": "If you are motivated, sure, why not continue the project. It is always sad when projects die when the season is over.\n\nI think the fsingenium team did continue their research project, at least there was something on youtube: [https://www.youtube.com/watch?v=kQ2S9Y4SGZ0](https://www.youtube.com/watch?v=kQ2S9Y4SGZ0)  \n\n\nThe team I'm coaching has also take up a research project from a previous year to continue it this season.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1708363412,
+      "score": 2,
+      "link_id": "t3_1auqur2",
+      "parent_id": "t3_1auqur2"
+    },
+    {
+      "id": "kr5ukxu",
+      "body": "World Class was way before the spike prime and therefore primelessons.org.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1708363093,
+      "score": 1,
+      "link_id": "t3_1auqur2",
+      "parent_id": "t1_kr5qkq5"
+    },
+    {
+      "id": "kqt4w4y",
+      "body": "It depends. If you want to fix bad standings, so that. But if you want good caldari standings for e.g. missions, do that",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1708155921,
+      "score": 2,
+      "link_id": "t3_1assw5s",
+      "parent_id": "t1_kqt1xtr"
+    },
+    {
+      "id": "kqav539",
+      "body": "You weren't even the worst. I've also seen a team that did -15",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1707863587,
+      "score": 1,
+      "link_id": "t3_1akqj7g",
+      "parent_id": "t3_1akqj7g"
+    },
+    {
+      "id": "kpxaiob",
+      "body": "We meet almost every Saturday from 9:30 to 16:30 during the season, plus the robotics guys usually meet on Wednesday afternoon for around 3 hours. Motivation has never really been a problem for us, but we are also quite strict about recruitment and only take motivated people.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1707657261,
+      "score": 2,
+      "link_id": "t3_1ao3tgh",
+      "parent_id": "t3_1ao3tgh"
+    },
+    {
+      "id": "kp2mr9b",
+      "body": "Even back when what you said mattered, we once did pretty good by telling them we get max points with essentially the advanced driving base.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1707163622,
+      "score": 1,
+      "link_id": "t3_1ajctsi",
+      "parent_id": "t1_kp09fcj"
+    },
+    {
+      "id": "kof5f71",
+      "body": "No, but it might not be the best idea if you care about staying unbanned",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1706786323,
+      "score": 1,
+      "link_id": "t3_1afsvwu",
+      "parent_id": "t1_kodawyq"
+    },
+    {
+      "id": "kjpqbrg",
+      "body": "According to the rules, stickers are not allowed, although it often isn't enforced, especially on the lower level tournaments.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1706303472,
+      "score": 1,
+      "link_id": "t3_1abnauv",
+      "parent_id": "t3_1abnauv"
+    },
+    {
+      "id": "kjn1no1",
+      "body": "The idea of teams might be good, but how microsoft realized it makes it unusable",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1706265316,
+      "score": 1,
+      "link_id": "t3_19eho1a",
+      "parent_id": "t1_kjgbh2z"
+    },
+    {
+      "id": "kj6yww6",
+      "body": "yes. I had so little DPS in my tackle condor that my corp mates asked if I've already killed the heron after shooting it for 3 minutes.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1706017684,
+      "score": 1,
+      "link_id": "t3_19d1o1f",
+      "parent_id": "t1_kj2nh0g"
+    },
+    {
+      "id": "kikijcz",
+      "body": "Make Amarrica Grr Again!",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1705659270,
+      "score": 1,
+      "link_id": "t3_199p1iw",
+      "parent_id": "t1_kigjbhw"
+    },
+    {
+      "id": "kih6esz",
+      "body": "I don't know. I'm just doing some math",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1705605539,
+      "score": 1,
+      "link_id": "t3_196tad5",
+      "parent_id": "t1_kia8p3y"
+    },
+    {
+      "id": "ki5z6wv",
+      "body": "Of course you can detect it while standing still, I was refering to while the robot is out and driving.\n\nWe use micropython on ev3dev for programming.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1705432471,
+      "score": 2,
+      "link_id": "t3_192sn58",
+      "parent_id": "t1_ki5rlcq"
+    },
+    {
+      "id": "khyuyfp",
+      "body": "Ishtar crabbing is maybe 50 mil/h. A day has 24 hours minus downtime and the time it takes to start your bots, so make it 23.5 hours a day for crabbing. On three accounts, this gives you 2.35B per day.",
+      "author": "recursive_tree",
+      "subreddit": "Eve",
+      "created_utc": 1705328339,
+      "score": 1,
+      "link_id": "t3_196tad5",
+      "parent_id": "t3_196tad5"
+    },
+    {
+      "id": "khsrknp",
+      "body": "It is lego, so you never have to follow instructions and there is not just one correct way to solve things. However, if you are new or inexperienced and feel you need instructions, getting the expansaion set is probably the easiest way.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1705227994,
+      "score": 1,
+      "link_id": "t3_190abe9",
+      "parent_id": "t3_190abe9"
+    },
+    {
+      "id": "khsrdb9",
+      "body": "We usually check whether the gyros are working just before the start of the run and unplug and replug if it drifts. Additionally, we have two gyros. This means we can detect drift, however we can't find which gyro is drifting automatically. When we detct a drift, we can unplug a sensor and our code continues to work, so we can react fast. While we haven't studied it much yet, it also seems that some gyros are more prone to drifting than others. If you have multiple gyros, it might be worth to check if some are more reliable than others.",
+      "author": "recursive_tree",
+      "subreddit": "FLL",
+      "created_utc": 1705227842,
+      "score": 1,
+      "link_id": "t3_192sn58",
+      "parent_id": "t3_192sn58"
+    }
+  ]
+}

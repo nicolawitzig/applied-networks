@@ -1,0 +1,3177 @@
+{
+  "username": "wraith-mayhem",
+  "posts": [
+    {
+      "id": "1hm589e",
+      "title": "RSL Christmas Video",
+      "author": "wraith-mayhem",
+      "subreddit": "robotics",
+      "created_utc": 1735148743,
+      "score": 6,
+      "num_comments": 1,
+      "selftext": "Santa's Little Helper",
+      "url": "https://youtu.be/XIO0LRt0E4A?si=n_78bNK7OoAFpC25"
+    },
+    {
+      "id": "1gpfgvf",
+      "title": "Delay ic for inrush-current pre-charge",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1731396894,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "Hi all. I am using a lot of high side switches to enable / disable a battery powered load in the 24 - 48v region. As the load mostly contains of motor drivers and dcdc converter, the capacitors tend to be big and we often use a separate pre-charge path with a resistor to control the inrush current.\nFor me it was strange to see that there are no dedicated ic's to create a short delay to switch from the pre-charge path to the main path. I was thinking of an ic which sets an output pin if triggered, then after a while (settable via capacitor) another one. Both are resetted when triggered again. And it should run from the battery power (>25v).\nIs this really such a fringe application that there is no dedicated ic for that?\nIn the past, we built special circuits which does that, consisting of ldos, timer ics and whatnot. It is a lot of parts. It works, but a dedicated ic would be awesome.\n\nHow do you solve this problem? Why is there not such a dedicated ic for that?\nThanks",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1gpfgvf/delay_ic_for_inrushcurrent_precharge/"
+    },
+    {
+      "id": "1gf6d6r",
+      "title": "Copper Core PCB routing",
+      "author": "wraith-mayhem",
+      "subreddit": "Altium",
+      "created_utc": 1730238147,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi all. I am thinking to use the newish PCB stackup from JLCPCB with the solid copper core. It is a one sided PCB where special areas could be made connectable through the prepreg onto the core and solderable with SMD parts. They are plated through.\nI want to use the core to double as a GND plane as well as heat sink, and I think it is a neat project. The thing is, I dont know how to do that in Altium. I know that I may need to specify, which areas are plated through and solderable, but how can I route something in Altium (e.g. GND here) so that no rats nest appears and also no DRC errors occur? How would one do that?\nThank you",
+      "url": "https://www.reddit.com/r/Altium/comments/1gf6d6r/copper_core_pcb_routing/"
+    },
+    {
+      "id": "1g0cq2x",
+      "title": "Measure magnetic flux in a closed circuit",
+      "author": "wraith-mayhem",
+      "subreddit": "AskPhysics",
+      "created_utc": 1728542378,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all. We are building a setup which consists of permanent magnets and coils inside a closed magnetic circuit. We will magnetize also a permanent magnet, so that ots remanence changes. To verify it, it would be great to somehow measure the flux inside it, but without airgap...\nThe materials are extremly nonlinear, and it would be good to not change the flux too much by measuring it. But a destructive method might be possible if its the only option.\nIs this even possible to do so? And if so, what method can be used?\n",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1g0cq2x/measure_magnetic_flux_in_a_closed_circuit/"
+    },
+    {
+      "id": "1fedgkc",
+      "title": "High output current opamp sanity check",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1726069729,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "Hi all. I want to use the high current OPA549 to generate some high current/voltage pulses.\nI intend to use it with a single 55V high power supply, and generate onboard -5V via charge pump. The negative 5V is only there to get the output to 0V as it is not a rail-to-rail opamp.\nI intend to supply a load connected to the output in reference to GND. It should be possible to supply up to 10A with only positive voltages at the input.\nJust as a sanity check, this does work, right? The high current will be supplied from the PS, goes through the internal high side, into the load and back, right?\nSo there is no current going through the negative charge pump?\nI use an inductive load. Thanks",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1fedgkc/high_output_current_opamp_sanity_check/"
+    },
+    {
+      "id": "1f34mo7",
+      "title": "Can you recommend a good noodle soup restaurant (not ramen)",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724832090,
+      "score": 9,
+      "num_comments": 19,
+      "selftext": "Hi all. I would like to eat again some authentic noodle soups. I liked the Chinese and SEA noodle soups very much, but in my opinion they are hatd to find here.\nThere are a lot of ramen places, khao soi in Tifins i know as well as pho bo in Saigon. Are there other places for simple, delicious noodle soups?\nAs mentioned in the title, i am not interested in ramen but in other noodle soups. Thank you",
+      "url": "https://www.reddit.com/r/zurich/comments/1f34mo7/can_you_recommend_a_good_noodle_soup_restaurant/"
+    },
+    {
+      "id": "1eqhcd3",
+      "title": "How do you ensure, that people keep the shared workspaces clean?",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1723478019,
+      "score": 8,
+      "num_comments": 14,
+      "selftext": "Ho all. I work in an university environment, but i had the same issues in the industry as well.\nWe have some shared workspaces (soldering, mechanical and material) and most of the time, people using them leave a mess. They take stuff from the spaces away, use consumables and do not reorder spent / empty materials and just leave stuff there when they are finished working.\nThe thing is, the shared spaces and in a room where no permanent oversigt is and all people have access outside of office hours.\nIt is very cool in my opinion so that we will not heavily police the users, and are welcoming and non restrictive.\nOn the other hand, the state is at it is now. To be fair, it is not extremly bad, but it annoys me nonetheless...\nHow are you doing it? Resctrict access after misbehaviour? Fine people? Or are there better, more constructive ways? Would a \"cleaner\" work culture help? What do you do at your job?\nThanks",
+      "url": "https://www.reddit.com/r/ElectricalEngineering/comments/1eqhcd3/how_do_you_ensure_that_people_keep_the_shared/"
+    },
+    {
+      "id": "1epvthn",
+      "title": "Very loud cabin noise on highway in Opel Astra H",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723411235,
+      "score": 3,
+      "num_comments": 10,
+      "selftext": "Hi all. I have an Astra H, 1.8l gas engine from 2008, and since I have it bought used in 2011, I noticed that the cabin noise is very high. Espacially on the highway.\nIt is a general noise, so not something which sounds broken, just the cars design in general.\nI think, it is mainly the engine as it starts to get very loud after 3000 rpm / 100 km/h and it gets extremly loud after 4000 rpm / 140 km/h...\nIt is noticeable as i need to turn the radios volume up every time i want to hear someone speak, or when i almost cant hear my child on the backseat on the highway.\nI tried to add a sound dampening mat on the inside of the hood, but it did nothing noticeable (i measured about 2db reducement in the higher frequencies).\nI think it is mainly the engine as when I cluch on the highway, the roll and wind noise is kind of ok. Also loud but ok. As for the roll noise, i could buy special tires i guess.\n\nI think it is strange because i tried to read about it, but nobody else seems to have this problem? So is it just my Astra? Or is yours also loud on the highway?\nAnd if so, did you do something specific about is which helped with it?\nThanks in advance",
+      "url": "https://www.reddit.com/r/opel/comments/1epvthn/very_loud_cabin_noise_on_highway_in_opel_astra_h/"
+    },
+    {
+      "id": "1eau9sw",
+      "title": "Coffe Table from Friends TV Show",
+      "author": "wraith-mayhem",
+      "subreddit": "findfurnitureID",
+      "created_utc": 1721801822,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all. We are looking for a new coffee table, and the one in the TV show Friends would be perfect for us.\nUnfortunatly, I don't know who designed it or where I could buy it. It kind of looks like Herman Miller because of the legs, but it is not available on their website.\nI especially like the frosted glass top: there are similar models online without the glass.\nThank you",
+      "url": "https://i.redd.it/8xtm1cdtseed1.png"
+    },
+    {
+      "id": "1e7q0we",
+      "title": "Coffee Table from Joeys and Chandlers apartment",
+      "author": "wraith-mayhem",
+      "subreddit": "howyoudoin",
+      "created_utc": 1721460292,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "Hi all. We are thinking of buying a new coffee table, abe I always found the one in Joeys apartment (in the back) pretty neat.\nDoes anybody knows what brand it is, and maybe even what model?\nIt has a tainted glass top, and a wooden frame and legs similar to some Herman Miller furniture.\nI tried google but without sucess...\nThanks in advance",
+      "url": "https://www.reddit.com/r/howyoudoin/comments/1e7q0we/coffee_table_from_joeys_and_chandlers_apartment/"
+    },
+    {
+      "id": "1e72rm0",
+      "title": "I envy the person with enough spare change to buy this",
+      "author": "wraith-mayhem",
+      "subreddit": "LV426",
+      "created_utc": 1721392837,
+      "score": 17,
+      "num_comments": 13,
+      "selftext": "It would be awesome to own this. My wife would not be happy I guess",
+      "url": "https://propstoreauction.com/lot-details/index/catalog/397/lot/137976?url=%2Fauctions%2Fcatalog%2Fid%2F397"
+    },
+    {
+      "id": "1e6wt41",
+      "title": "Coffee Table from Joeys Apartment",
+      "author": "wraith-mayhem",
+      "subreddit": "friends_tv_show",
+      "created_utc": 1721369564,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hi all. We are thinking of buying a new coffee table, abe I always found the one in Joeys apartment (in the back) pretty neat.\nDoes anybody knows what brand it is, and maybe even what model?\nIt has a tainted glass top, and a wooden frame and legs similar to some Herman Miller furniture.\nI tried google but without sucess...\nThanks in advance",
+      "url": "https://www.reddit.com/r/friends_tv_show/comments/1e6wt41/coffee_table_from_joeys_apartment/"
+    },
+    {
+      "id": "1dgbwmt",
+      "title": "On wett kein Bünzli me sii",
+      "author": "wraith-mayhem",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718433891,
+      "score": 104,
+      "num_comments": 46,
+      "selftext": "",
+      "url": "https://i.redd.it/8rnmwba8mo6d1.jpeg"
+    },
+    {
+      "id": "1d4wmbc",
+      "title": "ETH, again?",
+      "author": "wraith-mayhem",
+      "subreddit": "ethz",
+      "created_utc": 1717164813,
+      "score": 104,
+      "num_comments": 90,
+      "selftext": "",
+      "url": "https://i.redd.it/kr4aqdmnar3d1.jpeg"
+    },
+    {
+      "id": "1cwq113",
+      "title": "Why does multiple exposures of special effects models look better?",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1716238117,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Hi all. I was unsure about the phasing of this question.\nIn the book Future Noir about the filming of Blade Runner it was mentioned, that they have built a computerized rig which allowed them to make multiple exposures of the same scene. They then used this to have multiple passes of a model, once only with e.g. the headlights, one with only some other lights of the model, one with only the background lit and so on. This method was also mentioned in other movies where models are involved. Especially where they used this motorized rig to do so.\n\nNow, I saw Adam Savage this week talk about a miniature for a recent Star Wars project and they as well talked about the ability to have their model light up certain elements only for multiple passes...\n\nSo, why is that? Why not have everything light up together in one go? What is lost by doing so and gained by doing it this way?\n\nThanks",
+      "url": "https://www.reddit.com/r/movies/comments/1cwq113/why_does_multiple_exposures_of_special_effects/"
+    },
+    {
+      "id": "1crq96a",
+      "title": "Possible cons when using Auto-MDIX",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715687604,
+      "score": 14,
+      "num_comments": 46,
+      "selftext": "Hi all. I have a design where an Ethernet PHY can be configured to have Auto-MDIX (default) MDI or MDIX. I was wondering, where would it be beneficial to NOT choose Auto-MDIX? Would there be a scenario?\nWhile searching the internet, it was never explained and I only found articles what Auto-MDIX is, but not when to not use it.\nFrankly, no scenario comes to my mind, but the PHY is also targeted for industrial applications, so is there maybe a use case there? Maybe you can enlighten me? Thanks in advance",
+      "url": "https://www.reddit.com/r/networking/comments/1crq96a/possible_cons_when_using_automdix/"
+    },
+    {
+      "id": "1c6woqg",
+      "title": "Learn a new skill while traveling",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1713422456,
+      "score": 0,
+      "num_comments": 11,
+      "selftext": "Hi all. I might travel for a longer time soon, and I was thinking if I can use the idle times to put to good use and learn a new skill. I was thinking about learning an instrument, especially the piano. If I really do this and carry a small keyboard with me will be seen.\nThe last time I was learning to solve a rubiks cube.\nI really want to use my free time with something meaningful not just browsing reddit...\n\nAre you doing the same? Plan to learn something new? Or not?",
+      "url": "https://www.reddit.com/r/travel/comments/1c6woqg/learn_a_new_skill_while_traveling/"
+    },
+    {
+      "id": "1c591mu",
+      "title": "Best route by car from Switzerland to Croatia: via Munich or Milan?",
+      "author": "wraith-mayhem",
+      "subreddit": "Europetravel",
+      "created_utc": 1713248241,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all\n\nI will soon go to Croatia by car from Switzerland, and I am wondering what the best route might be. \nAccording to Maps, I have two options;\n1. Via Munich, Ljubliana, 820km\n2. Via Milan, Trieste, 830km\n\nI drove once the Munich route which was nice, but there is alsways some traffic around Munich. Also, in Austria and Slovenia there is the requirement of highway vignette.\nWould the Milan route offer any advantage? Or is the traffic around Milan as jammed as Munich? There are also means to pay highway tolls in Italy... \n\nWhat would you do? Does it even matter?\nThank you in advance",
+      "url": "https://www.reddit.com/r/Europetravel/comments/1c591mu/best_route_by_car_from_switzerland_to_croatia_via/"
+    },
+    {
+      "id": "1alq9c9",
+      "title": "Your experiences with OSP surface finish",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1707377467,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hi all. I was wondering what your experiences with OSP are? Are you using it and why/why not?\n\nHow are you using them for plated mounting holes? I think, if OSP is there, it does not conduct, right?\n\nI also got conflicting information: when you have OSP and solder onto a pad, will the OSP evaporate and the solder will go directly onto the raw copper pad underneath, correct? Why is it then \"not usable for a lot of rework\" as some sources say?",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1alq9c9/your_experiences_with_osp_surface_finish/"
+    },
+    {
+      "id": "19cqel3",
+      "title": "John Boyegas accent in They Cloned Tyrone",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1705909430,
+      "score": 1,
+      "num_comments": 11,
+      "selftext": "I saw a lot of posts discussing the usage of american accents of british people or vice versa (or any other English accent for that matter) and how bad they are sometimes are.\n\nI am a non native English speaker and I was wondering, how good John Boyegas \"slang\" accent is in They Cloned Tyrone. I would think, it is hard to first do an American accent and on top a slang-type as well and it may sound off coming from a British actor.\n\nI was also impressed how Idris Elba sounded in The Wire as I was not aware that he was Brutish, but again, as a non-native speaker I would of course miss the nuances which may give it away?",
+      "url": "https://www.reddit.com/r/movies/comments/19cqel3/john_boyegas_accent_in_they_cloned_tyrone/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4fm6v1",
+      "body": "Maybe go to a convention on the market youvare targeting and talk to the people there in real life about it. This i can recommend.",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1735514130,
+      "score": 4,
+      "link_id": "t3_1hp8cr6",
+      "parent_id": "t3_1hp8cr6"
+    },
+    {
+      "id": "m4fl3w2",
+      "body": "Maybe something way out of the common famous narrative, but when i was in the hospital grounds of Rijeka in Croatia, this felt a lot of Cyberpunk to me: they have way too limited space so they just added a lot of containes and vents and add ons to the original housings and everything is overcrowded still...\nThis is for me cyberpunk: technology advances so fast that the common people struggle to keep up und just slap something together. Just cobble something up",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1735513774,
+      "score": 1,
+      "link_id": "t3_1hp67us",
+      "parent_id": "t3_1hp67us"
+    },
+    {
+      "id": "m4e7hjh",
+      "body": "This is how to do it!",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1735498362,
+      "score": 1,
+      "link_id": "t3_1ho2ii9",
+      "parent_id": "t1_m4ae84m"
+    },
+    {
+      "id": "m36cjbl",
+      "body": "Love it!",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1734808141,
+      "score": 2,
+      "link_id": "t3_1hjdoj2",
+      "parent_id": "t3_1hjdoj2"
+    },
+    {
+      "id": "m2vl7wl",
+      "body": "Grey mode",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1734640460,
+      "score": 1,
+      "link_id": "t3_1hgvcyp",
+      "parent_id": "t3_1hgvcyp"
+    },
+    {
+      "id": "m2p6zm5",
+      "body": "I would try to route the wires as differential 120r impedance lines. There are plenty of calculators to show you how to do that based on your specific stackup.\n\nThe reason is, that the drivers and receivers are already built with this spacific internal impedance, and by doing this, the so called signal inegrity is respected.\n\nIt actually does not matter if you are on a pcb or just connected with wires. On a pcb the distances are just shorter and there is a lot of potential shielding and the grounds are usually connected, so the risk is smaller that something goes wrong. But the can bus has a somewhat higher datarate, so signal integrity is always important. Also to minimize potential errors",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1734547917,
+      "score": 2,
+      "link_id": "t3_1hh87jp",
+      "parent_id": "t3_1hh87jp"
+    },
+    {
+      "id": "m2izjd9",
+      "body": "Why is this not save for work?",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1734458201,
+      "score": 1,
+      "link_id": "t3_1hft4ke",
+      "parent_id": "t3_1hft4ke"
+    },
+    {
+      "id": "m2bfsfv",
+      "body": "Wow, very harsh. Even the thought of it looks like Megalopolis is a pretty bad movie",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1734350649,
+      "score": 2,
+      "link_id": "t3_1hfd060",
+      "parent_id": "t3_1hfd060"
+    },
+    {
+      "id": "m1x4c3u",
+      "body": "This is the only one",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1734124090,
+      "score": 1,
+      "link_id": "t3_1hdjcmt",
+      "parent_id": "t1_m1whf0t"
+    },
+    {
+      "id": "m1ptrg0",
+      "body": "Is this ROS 2? Then use a unique ROS_DOMAIN_ID to isolate your system.",
+      "author": "wraith-mayhem",
+      "subreddit": "robotics",
+      "created_utc": 1734022723,
+      "score": 1,
+      "link_id": "t3_1h9gfdc",
+      "parent_id": "t3_1h9gfdc"
+    },
+    {
+      "id": "m1l0cvy",
+      "body": "Ja voll, bi öis isches zimli isi, z.b. schind chan logischerwis i de kita wärendem gspröch si, au de elter wo scho im chindsgi isch...\nKitas sind es glücksspiel",
+      "author": "wraith-mayhem",
+      "subreddit": "BUENZLI",
+      "created_utc": 1733949534,
+      "score": 1,
+      "link_id": "t3_1h7wz3h",
+      "parent_id": "t1_m0ojjj2"
+    },
+    {
+      "id": "m0wp9gt",
+      "body": "The 'victims' should know the risk, i mean, this is far from a stable investment.\nThey kind of deserved it",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1733596865,
+      "score": 340,
+      "link_id": "t3_1h8w6iy",
+      "parent_id": "t1_m0wokn8"
+    },
+    {
+      "id": "m0wo1xf",
+      "body": "Its not that sad",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1733596490,
+      "score": 454,
+      "link_id": "t3_1h8w6iy",
+      "parent_id": "t1_m0w1oxk"
+    },
+    {
+      "id": "m0uclkv",
+      "body": "Tbh, i dont think there are a lot of jobs solely for assembler.\nIt is not very hard, but it requires a very good understanding of cpu architecture.\nI learned assembler a long time ago and i only used it once or twice for debugging purposes. But i would not recommend learning it for job reasons. But it is very fun and a cool hobby and it deepens the understaning of cpu architecture and optimizing vode / understanding it",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1733561224,
+      "score": 0,
+      "link_id": "t3_1h8m3y9",
+      "parent_id": "t3_1h8m3y9"
+    },
+    {
+      "id": "m0rs466",
+      "body": "Wow, pretty wrong meme format for that",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1733520411,
+      "score": 1,
+      "link_id": "t3_1h8c57e",
+      "parent_id": "t3_1h8c57e"
+    },
+    {
+      "id": "m0fjvtn",
+      "body": "Haha, he will get raped",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1733346291,
+      "score": 1,
+      "link_id": "t3_1h616hs",
+      "parent_id": "t3_1h616hs"
+    },
+    {
+      "id": "lzrb236",
+      "body": "A bottle of vodka",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732995618,
+      "score": 1,
+      "link_id": "t3_1h3e35a",
+      "parent_id": "t3_1h3e35a"
+    },
+    {
+      "id": "lzl6m8g",
+      "body": "E.g. the turkey",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732902251,
+      "score": 1,
+      "link_id": "t3_1h2nuuz",
+      "parent_id": "t3_1h2nuuz"
+    },
+    {
+      "id": "lzgv3le",
+      "body": "I remember it and i remember liking it a lot but honestly i can't recall anything plot wise. Need to watch it again",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1732829564,
+      "score": 6,
+      "link_id": "t3_1h22u32",
+      "parent_id": "t3_1h22u32"
+    },
+    {
+      "id": "lze1seg",
+      "body": "Should be 1999",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732791404,
+      "score": 2,
+      "link_id": "t3_1h1h9u6",
+      "parent_id": "t3_1h1h9u6"
+    },
+    {
+      "id": "lzbbuyg",
+      "body": "When someone hands me work",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732745708,
+      "score": 1,
+      "link_id": "t3_1h0ojfh",
+      "parent_id": "t3_1h0ojfh"
+    },
+    {
+      "id": "lz9gj2p",
+      "body": "To make it cheaper, cant you just use the bottom layer so, that it would be the other half? Then you only need to order one pcb, top layer populated is left side, bottom is right.\n\nThis would be a pretty nice cost saving thing. It looks likes, it may work actually.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1732724678,
+      "score": 2,
+      "link_id": "t3_1h12x4u",
+      "parent_id": "t3_1h12x4u"
+    },
+    {
+      "id": "lyh4c5n",
+      "body": "How to spot someone who is still using internet explorer",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1732308748,
+      "score": 29,
+      "link_id": "t3_1gxhvwr",
+      "parent_id": "t3_1gxhvwr"
+    },
+    {
+      "id": "lyenu31",
+      "body": "Ok, i was a little bit dramatic. But in my company actually somebody was shocked with such a crane control which ran on mains voltage. It reminded me of that",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1732279628,
+      "score": 1,
+      "link_id": "t3_1gwt5zf",
+      "parent_id": "t1_lyeiv5a"
+    },
+    {
+      "id": "lyedztd",
+      "body": "\"Very badly wired and may shock you\"",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1732274719,
+      "score": 1,
+      "link_id": "t3_1gwt5zf",
+      "parent_id": "t3_1gwt5zf"
+    },
+    {
+      "id": "lyb04vs",
+      "body": "The quiet earth",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1732221902,
+      "score": 6,
+      "link_id": "t3_1gwoojj",
+      "parent_id": "t3_1gwoojj"
+    },
+    {
+      "id": "lyaz8m1",
+      "body": "CoFeFe",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1732221628,
+      "score": 5,
+      "link_id": "t3_1gwp4sx",
+      "parent_id": "t3_1gwp4sx"
+    },
+    {
+      "id": "ly9e5oi",
+      "body": "Only grape grapes",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732203827,
+      "score": 2,
+      "link_id": "t3_1gwcgab",
+      "parent_id": "t1_ly92x6q"
+    },
+    {
+      "id": "ly9e4z7",
+      "body": "Only grape grapes",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732203800,
+      "score": -2,
+      "link_id": "t3_1gwcgab",
+      "parent_id": "t1_ly92x6q"
+    },
+    {
+      "id": "ly9e4kt",
+      "body": "Only grape grapes",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1732203784,
+      "score": 32,
+      "link_id": "t3_1gwcgab",
+      "parent_id": "t1_ly92x6q"
+    },
+    {
+      "id": "lxgzain",
+      "body": "Same with us politics",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1731782612,
+      "score": 5,
+      "link_id": "t3_1gsonj7",
+      "parent_id": "t3_1gsonj7"
+    },
+    {
+      "id": "lx88hxv",
+      "body": "I am that guy. I was so disappointed that the memes even got worse after it",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1731655552,
+      "score": 1,
+      "link_id": "t3_1grqm8f",
+      "parent_id": "t3_1grqm8f"
+    },
+    {
+      "id": "lwthorz",
+      "body": "Everything is a sex toy when you are brave enough",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1731448976,
+      "score": 1,
+      "link_id": "t3_1gpe1v8",
+      "parent_id": "t3_1gpe1v8"
+    },
+    {
+      "id": "lwteefy",
+      "body": "Schär? This means scissor... what does it mean in your language?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1731447977,
+      "score": 2,
+      "link_id": "t3_1gpppan",
+      "parent_id": "t3_1gpppan"
+    },
+    {
+      "id": "lwte4z6",
+      "body": "I guess, there is not a better solution to that. The not so nice thing with that is that the basic functionality only works with software. \nThe basical functionality anyways works with software, but you maybe know what i mean.\nLet me propose that",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1731447897,
+      "score": 1,
+      "link_id": "t3_1gpfgvf",
+      "parent_id": "t1_lws06zz"
+    },
+    {
+      "id": "lwrk6jj",
+      "body": "Thank you very much. This is of course the best idea an when there is a mcu available by far the best solution.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1731427329,
+      "score": 1,
+      "link_id": "t3_1gpfgvf",
+      "parent_id": "t1_lwr2zr0"
+    },
+    {
+      "id": "lwb3bjx",
+      "body": "Peak asso",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1731186096,
+      "score": 2,
+      "link_id": "t3_1gna9k0",
+      "parent_id": "t3_1gna9k0"
+    },
+    {
+      "id": "lwb1ht0",
+      "body": "Wow, you would never guess was i was thinking reading sketch",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1731185499,
+      "score": 2,
+      "link_id": "t3_1gnjdgd",
+      "parent_id": "t3_1gnjdgd"
+    },
+    {
+      "id": "lw9fciy",
+      "body": "The best thing about this mess is that i don't live there.",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1731166697,
+      "score": 53,
+      "link_id": "t3_1gn88t6",
+      "parent_id": "t3_1gn88t6"
+    },
+    {
+      "id": "lw2klt4",
+      "body": "Rage bait",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1731070550,
+      "score": 36,
+      "link_id": "t3_1gmh2iv",
+      "parent_id": "t3_1gmh2iv"
+    },
+    {
+      "id": "lvwc1fr",
+      "body": "How do you actually let the converter control the current? Most boost converter control the output voltage for a certain voltage...\nWhen its a puse current control, then you can have the led in series to the L or to gnd, not vin.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1730988294,
+      "score": 1,
+      "link_id": "t3_1glq48a",
+      "parent_id": "t1_lvwa0e2"
+    },
+    {
+      "id": "lvv2kxt",
+      "body": "It looks like an Astra H to me, kind of",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1730964632,
+      "score": 2,
+      "link_id": "t3_1glcgv0",
+      "parent_id": "t1_lvumpsv"
+    },
+    {
+      "id": "lvsd4c0",
+      "body": "I can",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1730928673,
+      "score": 1,
+      "link_id": "t3_1gkl2zc",
+      "parent_id": "t3_1gkl2zc"
+    },
+    {
+      "id": "lvs35si",
+      "body": "How to spot someone who uses still internet explorer",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730925975,
+      "score": 0,
+      "link_id": "t3_1gl2cx2",
+      "parent_id": "t3_1gl2cx2"
+    },
+    {
+      "id": "lvrzxyy",
+      "body": "I love concemtrading",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730925103,
+      "score": -1,
+      "link_id": "t3_1gl5et1",
+      "parent_id": "t1_lvrn10o"
+    },
+    {
+      "id": "lvkboxu",
+      "body": "Again this post? Are you a bot which posts the same post every 4 days?",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1730831546,
+      "score": 6,
+      "link_id": "t3_1gkdeqn",
+      "parent_id": "t3_1gkdeqn"
+    },
+    {
+      "id": "lverwow",
+      "body": "She takes my hathaway",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730753305,
+      "score": 137,
+      "link_id": "t3_1gjj8bw",
+      "parent_id": "t3_1gjj8bw"
+    },
+    {
+      "id": "lv5cb42",
+      "body": "Ok, that makes sense. So you basycally recommend that i don't see the rats nest anymore.\nAnd what about drc? Just disable it for the gnd net?",
+      "author": "wraith-mayhem",
+      "subreddit": "Altium",
+      "created_utc": 1730620649,
+      "score": 1,
+      "link_id": "t3_1gf6d6r",
+      "parent_id": "t1_lv4w091"
+    },
+    {
+      "id": "lv30b2u",
+      "body": "Isn't this a trick question as the opamp is not powered at all?",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1730583810,
+      "score": 0,
+      "link_id": "t3_1ghwu89",
+      "parent_id": "t3_1ghwu89"
+    },
+    {
+      "id": "luwcalu",
+      "body": "It is the same but instead pressing the shift button, the one next to it was used",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1730485980,
+      "score": 2,
+      "link_id": "t3_1ggsehb",
+      "parent_id": "t1_luvgvad"
+    },
+    {
+      "id": "luuu9xe",
+      "body": "This looks like a creep on a beach filming girls from far away... and caught a funny scene",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1730468835,
+      "score": 40,
+      "link_id": "t3_1gh5prm",
+      "parent_id": "t3_1gh5prm"
+    },
+    {
+      "id": "luu6ewr",
+      "body": "Even with 6'10 or 7'10, calling them female Oap would still be single",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1730458592,
+      "score": 12,
+      "link_id": "t3_1ggsehb",
+      "parent_id": "t1_lutzv0n"
+    },
+    {
+      "id": "lurddry",
+      "body": "But then you will give forth to your children which is nice. Of course only half of them, the other half comes from the tats of your partner obviously",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730409151,
+      "score": 1,
+      "link_id": "t3_1gg7sva",
+      "parent_id": "t1_lur7xy0"
+    },
+    {
+      "id": "lur7rnz",
+      "body": "And tattoos",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730407289,
+      "score": 2,
+      "link_id": "t3_1gg7sva",
+      "parent_id": "t1_lur6rjt"
+    },
+    {
+      "id": "lupf4vj",
+      "body": "Maybe its mother or grandmother was actually impaled and it just inherited it? Then its not such a cool story anymore.",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730386937,
+      "score": -2,
+      "link_id": "t3_1gg7sva",
+      "parent_id": "t3_1gg7sva"
+    },
+    {
+      "id": "lul32ph",
+      "body": "Analog discovery 2 or 3",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1730320957,
+      "score": 0,
+      "link_id": "t3_1gf5gvv",
+      "parent_id": "t3_1gf5gvv"
+    },
+    {
+      "id": "lujjx1o",
+      "body": "Double ass",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1730304799,
+      "score": 1,
+      "link_id": "t3_1gf9b6n",
+      "parent_id": "t3_1gf9b6n"
+    },
+    {
+      "id": "lu8pry6",
+      "body": "I like this comic, but the end is not that scary",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730149590,
+      "score": 1,
+      "link_id": "t3_1ge5184",
+      "parent_id": "t3_1ge5184"
+    },
+    {
+      "id": "lu75ojy",
+      "body": "You can do it as those ai pins are doing, maybe with a projection which projects the screen to any surface or the hand or so.",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1730132832,
+      "score": 1,
+      "link_id": "t3_1ge676g",
+      "parent_id": "t3_1ge676g"
+    },
+    {
+      "id": "lu73vs7",
+      "body": "Same as Slovenia and Austria. They are mostly concerned regarding specific nationalities and car plates. With a German car plate you should be fine.\nThere was no check between Croatia and Slovenia, but i used a very small crossing, maybe thats why.",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1730132288,
+      "score": 2,
+      "link_id": "t3_1gdww2c",
+      "parent_id": "t1_lu6m88e"
+    },
+    {
+      "id": "lu532kc",
+      "body": "Half-adders are only half the fun",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1730099771,
+      "score": 1,
+      "link_id": "t3_1gdr9ai",
+      "parent_id": "t3_1gdr9ai"
+    },
+    {
+      "id": "lu03oqp",
+      "body": "The OOP clearly has never shaved his face before",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1730034234,
+      "score": 55,
+      "link_id": "t3_1gda74d",
+      "parent_id": "t3_1gda74d"
+    },
+    {
+      "id": "ltzaiez",
+      "body": "Yeah, right? After drying them on a line or hanger, they are flat enought hat i never need to press them.\n\nHow can anybody wrinkle up a shirt like this? Try it in ball form?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1730017121,
+      "score": 1,
+      "link_id": "t3_1gd0e9p",
+      "parent_id": "t1_lty2i4b"
+    },
+    {
+      "id": "ltutddq",
+      "body": "I think it is the personal interaction, which you dont have with the free stuff",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1729953304,
+      "score": 9,
+      "link_id": "t3_1gckdmp",
+      "parent_id": "t1_ltueuk4"
+    },
+    {
+      "id": "ltq1c05",
+      "body": "Because of the imperial system",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1729880101,
+      "score": 1,
+      "link_id": "t3_1gbxcbj",
+      "parent_id": "t3_1gbxcbj"
+    },
+    {
+      "id": "lto0zqc",
+      "body": "There is so much wrong in one picture",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1729855937,
+      "score": 2,
+      "link_id": "t3_1gbrrkv",
+      "parent_id": "t3_1gbrrkv"
+    },
+    {
+      "id": "ltkng70",
+      "body": "I like that every wire has their own heartbeat, looks neat",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1729801843,
+      "score": 1,
+      "link_id": "t3_1gba5lp",
+      "parent_id": "t3_1gba5lp"
+    },
+    {
+      "id": "ltj46fg",
+      "body": "This is what you should do, as it is just a symbol.\nI see too often that people use actual pin arrangements on microcontrollers and ic's in the schematic as they are in the actual device, where you cant read the schematic after it is wired up. This drives me crazy and is totally unnessesary",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1729785374,
+      "score": 3,
+      "link_id": "t3_1gax272",
+      "parent_id": "t1_lthkgq2"
+    },
+    {
+      "id": "lth1ail",
+      "body": "Bad AI art",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1729751084,
+      "score": 3,
+      "link_id": "t3_1gav23d",
+      "parent_id": "t3_1gav23d"
+    },
+    {
+      "id": "ltedsi7",
+      "body": "Exactly! AI memes get instant downvote",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1729714602,
+      "score": 1,
+      "link_id": "t3_1gajuaq",
+      "parent_id": "t1_ltebdxb"
+    },
+    {
+      "id": "ltbpbln",
+      "body": "Yes, i wanted to ask the same thing! Do they just shit on sparkling water as they did not come up with a better word for C?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1729682825,
+      "score": 1,
+      "link_id": "t3_1g9ygdt",
+      "parent_id": "t1_ltahzxe"
+    },
+    {
+      "id": "ltavcte",
+      "body": "Either an anti theft tag or some other tag used to identify it during production or retail.\nWith this kind of tags, the energy source comes from the reader itself.\n\nAs there is clearly no battery there, the thing itself cannot do anything, so regardless what it was used for you should not be concerned.",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1729663740,
+      "score": 2,
+      "link_id": "t3_1g9ugq1",
+      "parent_id": "t3_1g9ugq1"
+    },
+    {
+      "id": "lsyqnxq",
+      "body": "I very much hope OP didn't want to use a pic of Madonna and god confused her with Marilyn...",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1729489063,
+      "score": 15,
+      "link_id": "t3_1g8dqvo",
+      "parent_id": "t1_lsy58qw"
+    },
+    {
+      "id": "lsv5zjs",
+      "body": "Nice!\nYou could swap out the Chevy logo with a Opel or Vauxhall one, then you have something truly unique at your location",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1729442923,
+      "score": 7,
+      "link_id": "t3_1g82749",
+      "parent_id": "t3_1g82749"
+    },
+    {
+      "id": "lsfbgdq",
+      "body": "I could try that, i guess i have some at work i could use. I just used the small nail scissors and that was a mess, thus the trimmer. But i will use the shears the next time, thanks for the tip!",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1729198759,
+      "score": 3,
+      "link_id": "t3_1g5m2kx",
+      "parent_id": "t1_lsdl31g"
+    },
+    {
+      "id": "lsdk2kp",
+      "body": "After i finally found a good trimmer i will never go back to a scissor, never again. Too much pain and hassle",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1729178702,
+      "score": 12,
+      "link_id": "t3_1g5m2kx",
+      "parent_id": "t1_lscq3fb"
+    },
+    {
+      "id": "lrbg3vv",
+      "body": "How does this work? If nobody is behind you, you have to wait until there is somebody comes and orders until you can go?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1728596305,
+      "score": 1,
+      "link_id": "t3_1g0ggsu",
+      "parent_id": "t3_1g0ggsu"
+    },
+    {
+      "id": "lr3wx92",
+      "body": "Her mouth is way too small for me...",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1728489458,
+      "score": -5,
+      "link_id": "t3_1fztr7l",
+      "parent_id": "t3_1fztr7l"
+    },
+    {
+      "id": "lr2jvax",
+      "body": "Hi there. I have now implemented it with the enable pin and it works loke a charm. Thank you very much again",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1728469618,
+      "score": 2,
+      "link_id": "t3_1fedgkc",
+      "parent_id": "t1_lmmmu5k"
+    },
+    {
+      "id": "lqsgr5a",
+      "body": "In addition to the other commenter, you short either the inputs or outputs, this cant work. With shorted lines, you dont have 1 or 0 anymore",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1728315111,
+      "score": 11,
+      "link_id": "t3_1fy8spl",
+      "parent_id": "t3_1fy8spl"
+    },
+    {
+      "id": "lqrqhr5",
+      "body": "I very much enjoy Salvation for the idea. This is the logical next step in the franchise: humans against robots in a postapocalyptic setting. They should do more with that!\n\nWe had way too much \"robot goes to present time to kill future human leader\" type of movies.\n\nOne was good, and T2 a new spin on it, so after that they should directly have gone into the future and do a good story for once",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1728305783,
+      "score": 6,
+      "link_id": "t3_1fy5xdh",
+      "parent_id": "t1_lqroej0"
+    },
+    {
+      "id": "lqrd7de",
+      "body": "\"Old movie\" :(",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1728299520,
+      "score": 9,
+      "link_id": "t3_1fxzb5c",
+      "parent_id": "t3_1fxzb5c"
+    },
+    {
+      "id": "lqhuo5g",
+      "body": "She needs to check if its true",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1728153285,
+      "score": -11,
+      "link_id": "t3_1fwwrrg",
+      "parent_id": "t3_1fwwrrg"
+    },
+    {
+      "id": "lqh4cwj",
+      "body": "Yeah, right? It is also not the first time i see a super mario speedrun in this sub... is this a bot?",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1728144899,
+      "score": 6,
+      "link_id": "t3_1fwrpf2",
+      "parent_id": "t1_lqgz17d"
+    },
+    {
+      "id": "lqf62o5",
+      "body": "Is she from Switzerland?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1728110220,
+      "score": 3,
+      "link_id": "t3_1fwey69",
+      "parent_id": "t3_1fwey69"
+    },
+    {
+      "id": "lqbo2e3",
+      "body": "I would second that totally! This is absolutly doable and it was done using the rpi cm4 module: the hard (and honestly unnessesary difficulat) part is on the module, the rest you can do yourself with a medium difficulty",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1728059805,
+      "score": 1,
+      "link_id": "t3_1ft9h0d",
+      "parent_id": "t1_lpr4gii"
+    },
+    {
+      "id": "lq3lo32",
+      "body": "Thank you very much. This is actually a nice idea, do something local",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1727936951,
+      "score": 1,
+      "link_id": "t3_1c6woqg",
+      "parent_id": "t1_lq3hjib"
+    },
+    {
+      "id": "lpxpsue",
+      "body": "I read somewhere that this happened, but in another take, and the one we see is a take Tarantino did afterwards because he liked the idea of it",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1727848398,
+      "score": 8,
+      "link_id": "t3_1fu4p63",
+      "parent_id": "t1_lpwtla3"
+    },
+    {
+      "id": "lpnm39q",
+      "body": "Imagine building a controller so bad it gets a whole submarine to implode",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1727707143,
+      "score": 1,
+      "link_id": "t3_1fswlja",
+      "parent_id": "t3_1fswlja"
+    },
+    {
+      "id": "lpnjy1z",
+      "body": "Imagine making not liking children or dogs your whole personality",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1727706404,
+      "score": -8,
+      "link_id": "t3_1fsvmms",
+      "parent_id": "t3_1fsvmms"
+    },
+    {
+      "id": "lpm1w5r",
+      "body": "Why not use a one stage charge pump (voltage double) to increase the gate voltage to about 5v? Just by toggling the mcu pin? This is very easy and working well when you do not need to have a fast turn on and off time",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1727676449,
+      "score": 2,
+      "link_id": "t3_1fshmgn",
+      "parent_id": "t3_1fshmgn"
+    },
+    {
+      "id": "lplzzfi",
+      "body": "The real lession learned here that people have no new ideas and post the same meme every week",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1727675239,
+      "score": 1,
+      "link_id": "t3_1fshhf8",
+      "parent_id": "t3_1fshhf8"
+    },
+    {
+      "id": "lp3493h",
+      "body": "You need to check on the website. Of corsa e is not mentioned, just use the search bar for corsa e",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1727385898,
+      "score": 1,
+      "link_id": "t3_1flf5wn",
+      "parent_id": "t1_lp30n4i"
+    },
+    {
+      "id": "lp1xute",
+      "body": "I downloaded this: https://www.thingiverse.com/thing:1336815\nAnd just printed it out with a 3d printer. Do you have access to one? Maybe a collegue or at your company?",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1727372509,
+      "score": 1,
+      "link_id": "t3_1flf5wn",
+      "parent_id": "t1_lox2zm3"
+    },
+    {
+      "id": "lp1e4ls",
+      "body": "You could add a beeper and a emergency and clear button. When a false fall is detected, it starts to beep and needs to be activly cleared by the user to not trigger an actual alarm. By not doing so, the fall was real and it will alert emergency if the user is knocked out. The emergency button in addition can be used when a fall is not detected, or any other non-fall emergency by the user.",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1727366419,
+      "score": 1,
+      "link_id": "t3_1fp8x7g",
+      "parent_id": "t3_1fp8x7g"
+    },
+    {
+      "id": "lp1cd57",
+      "body": "This does not apply just for niggas, others also like to sleep as well like this",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1727365875,
+      "score": 216,
+      "link_id": "t3_1fpyk5t",
+      "parent_id": "t3_1fpyk5t"
+    },
+    {
+      "id": "lp1bx4t",
+      "body": "I would also guess that",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1727365739,
+      "score": 1,
+      "link_id": "t3_1fpz1jf",
+      "parent_id": "t1_lp19az3"
+    },
+    {
+      "id": "lovcde3",
+      "body": "Where is this picture taken? It looks like some kind of the famous chinese ghost cities.",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1727278791,
+      "score": 1,
+      "link_id": "t3_1fokrv2",
+      "parent_id": "t3_1fokrv2"
+    },
+    {
+      "id": "lovar3h",
+      "body": "Guinea Pig 2: a Flower of Flesh and Blood\n\nIt shows very accuratly how fragile the human body is and how twisted the human mind can be",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1727278282,
+      "score": -1,
+      "link_id": "t3_1fp6nfn",
+      "parent_id": "t3_1fp6nfn"
+    },
+    {
+      "id": "lova9mr",
+      "body": "Onlyfans",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1727278129,
+      "score": 2,
+      "link_id": "t3_1fp5jsa",
+      "parent_id": "t3_1fp5jsa"
+    },
+    {
+      "id": "lotbv6k",
+      "body": "It is strange that OP does not get that.",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1727243604,
+      "score": 106,
+      "link_id": "t3_1foue1t",
+      "parent_id": "t1_lot8thd"
+    },
+    {
+      "id": "long2n5",
+      "body": "Lets see how it actually behaves when i build it up this week... could be that it blows right up",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1727157907,
+      "score": 1,
+      "link_id": "t3_1fedgkc",
+      "parent_id": "t1_lompvzn"
+    },
+    {
+      "id": "loie1r1",
+      "body": "Its not and you know it",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1727091741,
+      "score": 3,
+      "link_id": "t3_1fngg1s",
+      "parent_id": "t1_loi3y2i"
+    },
+    {
+      "id": "lo6y2lf",
+      "body": "He actually is. Almost all men i know have a partner, an none of them are the \"top 10%\" as stated here. This is just wrong and a lazy excuse",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1726918300,
+      "score": 23,
+      "link_id": "t3_1fm0czb",
+      "parent_id": "t1_lo6xas1"
+    },
+    {
+      "id": "lo31xfx",
+      "body": "Yes, i have downloaded it from thingiverse and printed it out, worked like a chrm and still in use",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1726854378,
+      "score": 1,
+      "link_id": "t3_1flf5wn",
+      "parent_id": "t3_1flf5wn"
+    },
+    {
+      "id": "lo1o8a2",
+      "body": "Rain-Man levels are required",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1726837953,
+      "score": 1,
+      "link_id": "t3_1fkwko9",
+      "parent_id": "t1_lo0u4jv"
+    },
+    {
+      "id": "lo1nyen",
+      "body": "It always has been",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1726837850,
+      "score": 0,
+      "link_id": "t3_1fl9697",
+      "parent_id": "t3_1fl9697"
+    },
+    {
+      "id": "lnxe7g8",
+      "body": "Twisted",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1726766883,
+      "score": 2,
+      "link_id": "t3_1fkmwte",
+      "parent_id": "t1_lnx58jk"
+    },
+    {
+      "id": "lnx42a0",
+      "body": "Do they get pity tho? Or do they just think they get it? Or do the get it from the other guys with a complex in the same bubble?",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1726763721,
+      "score": 3,
+      "link_id": "t3_1fkmwte",
+      "parent_id": "t1_lnww2p3"
+    },
+    {
+      "id": "lndhk6f",
+      "body": "This is way too accurate",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1726469383,
+      "score": 1,
+      "link_id": "t3_1fhu46c",
+      "parent_id": "t3_1fhu46c"
+    },
+    {
+      "id": "lndhfqb",
+      "body": "I like the office they are working in. Soo much space.\nI almost looks like.... stupid",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1726469299,
+      "score": 1,
+      "link_id": "t3_1fhv3pm",
+      "parent_id": "t3_1fhv3pm"
+    },
+    {
+      "id": "ln2d5w3",
+      "body": "Could it be an episode of Outer Limits? The one, where every soldier is drugged to see the other side as aliens, but in fact they were also drugged Asians, and both sides think they fight against an alien invasion?",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1726310640,
+      "score": 1,
+      "link_id": "t3_1ffs831",
+      "parent_id": "t3_1ffs831"
+    },
+    {
+      "id": "lms662u",
+      "body": "On the tip of my head i guess, the core loss consists of eddy currents (frequency dependant) and stray field (not frequency dependant).\nSo you can check what is the frequency influence given the numbers and this will give you the eddy currents",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1726156281,
+      "score": 1,
+      "link_id": "t3_1ff3e9j",
+      "parent_id": "t3_1ff3e9j"
+    },
+    {
+      "id": "lmqaags",
+      "body": "\"Thats why it tasted so familiar\"",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1726123719,
+      "score": 140,
+      "link_id": "t3_1fetf4n",
+      "parent_id": "t3_1fetf4n"
+    },
+    {
+      "id": "lmq8iso",
+      "body": "My review would be \"its really good, recommend it\"",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1726122554,
+      "score": 4,
+      "link_id": "t3_1fen6fp",
+      "parent_id": "t3_1fen6fp"
+    },
+    {
+      "id": "lmmta7n",
+      "body": "Thanks for the hint regarding rise times: i will use a slope / waveform via AWG for different rise and fall times, so this should be ok.\n\nBut thanks for the hint regarding the enable pin. I also thought of that and this is maybe really a good idea! I guess, i can get the AWG to output a trigger pulse during the ramp to enable the opamp. I think, this is a viable solution :)\n\nI think, it would be complicated to use a second opamp as the whole application is a little bit complicater as mentioned above.\n\nI will check the enable pin solution, thank you very much!",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1726074983,
+      "score": 2,
+      "link_id": "t3_1fedgkc",
+      "parent_id": "t1_lmmmu5k"
+    },
+    {
+      "id": "lmkc5ts",
+      "body": "Also when you press the cd button repeatatly?",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1726033882,
+      "score": 1,
+      "link_id": "t3_1fdnvvg",
+      "parent_id": "t1_lmieg41"
+    },
+    {
+      "id": "lmhwln4",
+      "body": "But luckily not any more in Novi Happy, right?",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1726000737,
+      "score": 4,
+      "link_id": "t3_1fdp05l",
+      "parent_id": "t1_lmhktyz"
+    },
+    {
+      "id": "lmh9kbc",
+      "body": "Yes, just do it repeatatly and eventually it shows up. But it did also show up in my older cd30 (without mp3), so just showing up doesnt mean you have it actually",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1725993547,
+      "score": 1,
+      "link_id": "t3_1fdnvvg",
+      "parent_id": "t1_lmh3gv9"
+    },
+    {
+      "id": "lmbo7wa",
+      "body": "He will finish, but not just college but also on her. Good for him",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1725910401,
+      "score": 1,
+      "link_id": "t3_1fcv91s",
+      "parent_id": "t3_1fcv91s"
+    },
+    {
+      "id": "lm4u5a1",
+      "body": "This brings back bad memories... it is nice that ai girlfriends are not that judgemental",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1725811890,
+      "score": 2,
+      "link_id": "t3_1fbzxi2",
+      "parent_id": "t3_1fbzxi2"
+    },
+    {
+      "id": "lm3cdbc",
+      "body": "Wow, Facebook...",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1725791534,
+      "score": 5,
+      "link_id": "t3_1fbu00p",
+      "parent_id": "t3_1fbu00p"
+    },
+    {
+      "id": "llzq267",
+      "body": "When he says, she can finish everywhere",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1725733703,
+      "score": 3,
+      "link_id": "t3_1fbc6sx",
+      "parent_id": "t3_1fbc6sx"
+    },
+    {
+      "id": "lluewrv",
+      "body": "When you have an ir camera, you mght see it right away",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1725651447,
+      "score": 6,
+      "link_id": "t3_1fanlye",
+      "parent_id": "t1_llueprm"
+    },
+    {
+      "id": "lllavq1",
+      "body": "In addition, the ac does not actually prevent the current from dropping. You will have the same drop as when you work directly with dc. You got this wrong somehow.\nWorking directly wirh dc is much easier, less parts and more components available.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1725518090,
+      "score": 1,
+      "link_id": "t3_1f9aeih",
+      "parent_id": "t3_1f9aeih"
+    },
+    {
+      "id": "llla6ri",
+      "body": "Superconduction of room temperature materials",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1725517753,
+      "score": 4,
+      "link_id": "t3_1f99hbo",
+      "parent_id": "t3_1f99hbo"
+    },
+    {
+      "id": "lll9yro",
+      "body": "Its poo and pee.\n\nIts a metaphor of letting go .first from your body, then when you flush forever",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1725517610,
+      "score": 1,
+      "link_id": "t3_1f9cw5v",
+      "parent_id": "t1_llkr9at"
+    },
+    {
+      "id": "lli0dxt",
+      "body": "So, you can just add them together? Like, why not?\nOr use an active voltage adder with an opamp to have a driven output as well as adding some gain if you like.\n\nJust to say, it is possible, but impossible to say how as we dont know anything about your problem. What is the signal source and the sink? What frequencies? Why you wanna do this?",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1725471891,
+      "score": 5,
+      "link_id": "t3_1f8z7vh",
+      "parent_id": "t3_1f8z7vh"
+    },
+    {
+      "id": "llha54e",
+      "body": "This and Skibidi Toilet movie. Nothing against ST, but not as a movie",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1725463527,
+      "score": 1,
+      "link_id": "t3_1f8utlj",
+      "parent_id": "t1_llh414u"
+    },
+    {
+      "id": "llfzpeq",
+      "body": "This is actually not true, especially in the long run and a bad advice.\nA healthy relationship is something when you talk when there are issues, not just wait and sitting it out.",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1725444646,
+      "score": 12,
+      "link_id": "t3_1f8nudt",
+      "parent_id": "t3_1f8nudt"
+    },
+    {
+      "id": "lla5e2e",
+      "body": "Me too",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1725357059,
+      "score": 56,
+      "link_id": "t3_1f7utbl",
+      "parent_id": "t1_lla4hs3"
+    },
+    {
+      "id": "ll4oytl",
+      "body": "I don't know why you are downvoted as I also only heard that 50 Shades is Twilight fanfiction.\nI guess it could have some other smaller influences (Grey) but apart from that, I never heard anything regarding Secretary.",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1725276121,
+      "score": 3,
+      "link_id": "t3_1f6vn9a",
+      "parent_id": "t1_ll3g1t5"
+    },
+    {
+      "id": "ll4o76e",
+      "body": "And it works great",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1725275695,
+      "score": 4,
+      "link_id": "t3_1f726hz",
+      "parent_id": "t1_ll4d388"
+    },
+    {
+      "id": "lkwdrvs",
+      "body": "Stop trying to make American Football happen in Europe\nIts not going to happen",
+      "author": "wraith-mayhem",
+      "subreddit": "u_RTLPLUS_",
+      "created_utc": 1725142092,
+      "score": 1,
+      "link_id": "t3_1f3ygxn",
+      "parent_id": "t3_1f3ygxn"
+    },
+    {
+      "id": "lkjw3ak",
+      "body": "I will even be later (tomorrow)",
+      "author": "wraith-mayhem",
+      "subreddit": "LV426",
+      "created_utc": 1724959124,
+      "score": 2,
+      "link_id": "t3_1f47hc7",
+      "parent_id": "t3_1f47hc7"
+    },
+    {
+      "id": "lkjjqi3",
+      "body": "I see Astra H, I upvote",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1724955276,
+      "score": 19,
+      "link_id": "t3_1f46zwl",
+      "parent_id": "t3_1f46zwl"
+    },
+    {
+      "id": "lki3dn8",
+      "body": "Thank you",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724939231,
+      "score": 2,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkfyivz"
+    },
+    {
+      "id": "lkcprqd",
+      "body": "Thanks",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724858052,
+      "score": 1,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkb6rzk"
+    },
+    {
+      "id": "lkcpq2j",
+      "body": "Thank you",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724858038,
+      "score": 1,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkb8lae"
+    },
+    {
+      "id": "lkcpov8",
+      "body": "Thank you, i am sometimes in Lucerne, so i will check it out then",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724858027,
+      "score": 1,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkbdbsd"
+    },
+    {
+      "id": "lkcpm28",
+      "body": "Thank you!",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724858003,
+      "score": 1,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkbvqwh"
+    },
+    {
+      "id": "lkcpd3p",
+      "body": "I will check it out regardless, but thanks for the input. When i'm just a little hungry then",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724857927,
+      "score": 1,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkbjoqn"
+    },
+    {
+      "id": "lkcp6iq",
+      "body": "Thank you for the suggestion",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724857871,
+      "score": 2,
+      "link_id": "t3_1f34mo7",
+      "parent_id": "t1_lkb4l5o"
+    },
+    {
+      "id": "ljvwc1f",
+      "body": "It is cruel when ots an orphanage kindergarden",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1724606749,
+      "score": 1,
+      "link_id": "t3_1f0ld9i",
+      "parent_id": "t3_1f0ld9i"
+    },
+    {
+      "id": "ljl4n3a",
+      "body": "Linke in a row or in total over a long time?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1724437914,
+      "score": 2,
+      "link_id": "t3_1ezdtd0",
+      "parent_id": "t3_1ezdtd0"
+    },
+    {
+      "id": "ljffeih",
+      "body": "As long as you dont switch it off...",
+      "author": "wraith-mayhem",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1724354964,
+      "score": 54,
+      "link_id": "t3_1eyqz6k",
+      "parent_id": "t3_1eyqz6k"
+    },
+    {
+      "id": "lj3m8ti",
+      "body": "The picture kinda does not match the text...",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1724185913,
+      "score": 1,
+      "link_id": "t3_1ex42og",
+      "parent_id": "t3_1ex42og"
+    },
+    {
+      "id": "lj0x6jn",
+      "body": "Update: today there was a news article in Tages Anzeiger, that they found 120 stoles phones on a person crossing the border to Italy. Maybe you will get your phone back after all.",
+      "author": "wraith-mayhem",
+      "subreddit": "zurich",
+      "created_utc": 1724153694,
+      "score": 2,
+      "link_id": "t3_1esr224",
+      "parent_id": "t3_1esr224"
+    },
+    {
+      "id": "lior4hh",
+      "body": "I think, he knew from the beginning that she was not his son",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1723968169,
+      "score": 1,
+      "link_id": "t3_pyyegn",
+      "parent_id": "t1_lioqit7"
+    },
+    {
+      "id": "lijqa6e",
+      "body": "What restaurant does have this? That makes no sense",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1723892493,
+      "score": 1,
+      "link_id": "t3_1eueahf",
+      "parent_id": "t3_1eueahf"
+    },
+    {
+      "id": "lijq67f",
+      "body": "In my experience, when there is a group pic as profile, then it is ALWAYS the least attractive",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1723892425,
+      "score": 1607,
+      "link_id": "t3_1euecx3",
+      "parent_id": "t3_1euecx3"
+    },
+    {
+      "id": "li166f8",
+      "body": "Hm, sounds like there is not mich to do...\n\nI guess i can install some soundproofing in the foot area and try to do between engine and cell, but there is very space and i am nor sure if i can fit something there.\n\nMaybe i just need to live with it if nothing works...",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723615160,
+      "score": 1,
+      "link_id": "t3_1epvthn",
+      "parent_id": "t1_lhrp4vh"
+    },
+    {
+      "id": "li15y7z",
+      "body": "I did only measure the noise once before and after installing the hood mat. I dont remember which phone i have used. I have used a noise spectrum, and the noise got lowered in the middle to high frequencies, but i dont remember which range.\nWhy? What would i gain to do a measurement? Such a test is quickly done",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723615025,
+      "score": 1,
+      "link_id": "t3_1epvthn",
+      "parent_id": "t1_lhsjio0"
+    },
+    {
+      "id": "lhre15f",
+      "body": "So, you think adding sound proofing under the foot well will lower the noise significantly? Should i remove the floor mat for that, or should i just affach it to all visible metal? Would it dampen the sound significally or just a little? It is very hard for me to judge...",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723477410,
+      "score": 1,
+      "link_id": "t3_1epvthn",
+      "parent_id": "t1_lhpq1hy"
+    },
+    {
+      "id": "lhrdkyd",
+      "body": "Thanks for the suggestion. I think i will try that next to the sound proofing",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723477265,
+      "score": 1,
+      "link_id": "t3_1epvthn",
+      "parent_id": "t1_lhpul9s"
+    },
+    {
+      "id": "lhnis6c",
+      "body": "Hm, but wouldn this came up with the regular inspection from the mechanic? I mean, it was always this lod.\nBut a very good suggestuon, i guess i can check this! Thank you",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723413040,
+      "score": 1,
+      "link_id": "t3_1epvthn",
+      "parent_id": "t1_lhnicxf"
+    },
+    {
+      "id": "lhnfi7f",
+      "body": "This is something i am very much considering doing as well, but i think the main issue is the engine as I mentioned, when I engage the clutch at 140, the noise is not that bad anymore. But thanks for the input",
+      "author": "wraith-mayhem",
+      "subreddit": "opel",
+      "created_utc": 1723411894,
+      "score": 1,
+      "link_id": "t3_1epvthn",
+      "parent_id": "t1_lhnf2kt"
+    },
+    {
+      "id": "lh2nasg",
+      "body": "It actually doesnt matter, as the other comment also said. When you use a single supply, you need to have everything around 0.5 times the power supply, so a lot of adding and removing biases. Also, the bias itself need to be stable.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1723102429,
+      "score": 3,
+      "link_id": "t3_1emypaz",
+      "parent_id": "t3_1emypaz"
+    },
+    {
+      "id": "lh2lxex",
+      "body": "No eyebrows in real life???",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1723101538,
+      "score": 1,
+      "link_id": "t3_1emzc46",
+      "parent_id": "t3_1emzc46"
+    },
+    {
+      "id": "lgsmqow",
+      "body": "Somebody just asked him a question and he assaulted the other guy suddnly? What a wiener.",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1722962062,
+      "score": 9,
+      "link_id": "t3_1ell2fm",
+      "parent_id": "t3_1ell2fm"
+    },
+    {
+      "id": "lgis0nq",
+      "body": "Would the blue door also directly fix the error of not choosing the red door immediatly?",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1722810823,
+      "score": 1,
+      "link_id": "t3_1ejwld0",
+      "parent_id": "t3_1ejwld0"
+    },
+    {
+      "id": "lfdtm8w",
+      "body": "I thought so as well. Is mr fusion just an upside down coffee grunder?",
+      "author": "wraith-mayhem",
+      "subreddit": "LV426",
+      "created_utc": 1722196330,
+      "score": 1,
+      "link_id": "t3_1eed94v",
+      "parent_id": "t1_lfdppbx"
+    },
+    {
+      "id": "lfdtea4",
+      "body": "I thought so as well. Is mr fusion just an upside down coffee grunder?",
+      "author": "wraith-mayhem",
+      "subreddit": "LV426",
+      "created_utc": 1722196254,
+      "score": 6,
+      "link_id": "t3_1eed94v",
+      "parent_id": "t1_lfdppbx"
+    },
+    {
+      "id": "leuvqmn",
+      "body": "Or more controversly, my boner could be in someone elses blood.\nAt least once per month...",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1721908459,
+      "score": 1,
+      "link_id": "t3_1ebr1l1",
+      "parent_id": "t3_1ebr1l1"
+    },
+    {
+      "id": "leu0qpy",
+      "body": "Just dont use LoRa specifically, as it is a very ultra liw latency and low bandwidth protocol targeted for short messages like metering... a far cry from anything like the internet.",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1721889299,
+      "score": 1,
+      "link_id": "t3_1eba422",
+      "parent_id": "t1_lernbde"
+    },
+    {
+      "id": "leqbkgf",
+      "body": "This is something only poor people say. As well as \"you are as old as you feel\" which is only said by old people or \"there are different kinds of intelligence\" said only by dumb people.",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1721838702,
+      "score": 1,
+      "link_id": "t3_1eb375i",
+      "parent_id": "t3_1eb375i"
+    },
+    {
+      "id": "leq8sio",
+      "body": "It is not very clear, where the counter putput goes to",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1721837824,
+      "score": 1,
+      "link_id": "t3_1eapsn4",
+      "parent_id": "t3_1eapsn4"
+    },
+    {
+      "id": "legif7f",
+      "body": "Because you made about a hundert posts about them when everybody else does not care about some strangers private business",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1721689198,
+      "score": 9,
+      "link_id": "t3_1e9rfcg",
+      "parent_id": "t1_legg1an"
+    },
+    {
+      "id": "legi5g5",
+      "body": "Wow, i am shocked to see this guys post history... sad does not really describe it",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1721689099,
+      "score": 13,
+      "link_id": "t3_1e9rfcg",
+      "parent_id": "t1_lege9xw"
+    },
+    {
+      "id": "le86428",
+      "body": "\"Funny police shooting\": haha, it was just a toy gun the boy had, haha",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1721570216,
+      "score": 0,
+      "link_id": "t3_1e8cohk",
+      "parent_id": "t1_le6qlhg"
+    },
+    {
+      "id": "le4zuwb",
+      "body": "Yes, thank you. I even have such a table at work, but the cool legs and the glass top would be awesome. I guess, IKEA has something similar to what you found.",
+      "author": "wraith-mayhem",
+      "subreddit": "howyoudoin",
+      "created_utc": 1721511021,
+      "score": 1,
+      "link_id": "t3_1e7q0we",
+      "parent_id": "t1_le2qjbw"
+    },
+    {
+      "id": "le2p075",
+      "body": "https://preview.redd.it/0kkrl4a46odd1.png?width=1080&format=pjpg&auto=webp&s=56e0c011ac3a04fbb259801a2095b36853eb4d8d",
+      "author": "wraith-mayhem",
+      "subreddit": "howyoudoin",
+      "created_utc": 1721479409,
+      "score": 1,
+      "link_id": "t3_1e7q0we",
+      "parent_id": "t1_le2ob8p"
+    },
+    {
+      "id": "ldh002b",
+      "body": "Or some kind of a infinity symbol tattoo",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1721147556,
+      "score": 6,
+      "link_id": "t3_1e4s608",
+      "parent_id": "t3_1e4s608"
+    },
+    {
+      "id": "ldgzspx",
+      "body": "I would also like to know as i did not understand one word",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1721147490,
+      "score": 1,
+      "link_id": "t3_1e4141s",
+      "parent_id": "t3_1e4141s"
+    },
+    {
+      "id": "lcyh7rc",
+      "body": "OP is very obviously no engineer or works in tech",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1720853534,
+      "score": 13,
+      "link_id": "t3_1e1qydd",
+      "parent_id": "t3_1e1qydd"
+    },
+    {
+      "id": "lcuw4eb",
+      "body": "It is very impressive tho that he publicly announces with a big flag that he wants to fuck another guy. Respect for that at least",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1720801976,
+      "score": 1,
+      "link_id": "t3_1e1jwbg",
+      "parent_id": "t3_1e1jwbg"
+    },
+    {
+      "id": "lcuonui",
+      "body": "Yes",
+      "author": "wraith-mayhem",
+      "subreddit": "u_Parkcityhostel",
+      "created_utc": 1720799580,
+      "score": 3,
+      "link_id": "t3_1dogsek",
+      "parent_id": "t3_1dogsek"
+    },
+    {
+      "id": "lci73vg",
+      "body": "The winner in history is always the good guy of course",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1720616692,
+      "score": 2,
+      "link_id": "t3_1dzuunm",
+      "parent_id": "t3_1dzuunm"
+    },
+    {
+      "id": "lchrep3",
+      "body": "Flood the complete top layer with vcc. This may help to automatically connect almost all of it.\nYou can then add very short vcc traces on the bottom there to connect islands and left open pads.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1720609335,
+      "score": 2,
+      "link_id": "t3_1dzrhy7",
+      "parent_id": "t3_1dzrhy7"
+    },
+    {
+      "id": "lc8zarw",
+      "body": "It is kinda freaky having your shoes on in bed",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1720471283,
+      "score": 2,
+      "link_id": "t3_1dy9o9z",
+      "parent_id": "t3_1dy9o9z"
+    },
+    {
+      "id": "lbw6k0p",
+      "body": "You should know as you are a guy apparently",
+      "author": "wraith-mayhem",
+      "subreddit": "Memes_Of_The_Dank",
+      "created_utc": 1720274157,
+      "score": 0,
+      "link_id": "t3_1dwlkm3",
+      "parent_id": "t3_1dwlkm3"
+    },
+    {
+      "id": "lbn0opk",
+      "body": "Its not that bad, just weird and made for shock value",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1720120587,
+      "score": 5,
+      "link_id": "t3_1dvec72",
+      "parent_id": "t1_lbmxx3i"
+    },
+    {
+      "id": "lbm3yke",
+      "body": "Its definatly not 12v. 9v also not, as some current flows rhrough the transistor, but not enougth for 0v as 1meg is big. This leaves 5v.\nElimination when you have no calculator",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1720109047,
+      "score": 5,
+      "link_id": "t3_1dv8h3s",
+      "parent_id": "t1_lblsx2b"
+    },
+    {
+      "id": "lapam78",
+      "body": "Yes, right? And its not even that funny",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1719592643,
+      "score": 5,
+      "link_id": "t3_1dqmsap",
+      "parent_id": "t1_lap34uo"
+    },
+    {
+      "id": "laof6ka",
+      "body": "No, i mean from what device",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1719581824,
+      "score": 2,
+      "link_id": "t3_1dplvax",
+      "parent_id": "t1_lao2a4e"
+    },
+    {
+      "id": "lakpzm1",
+      "body": "Where is this from?\nI am aware of some hearing aid accessories which wace the very same tx tank circuit. There it is used during production to tune the transmit frequency as the coil has quite a tolerance being this size.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1719519076,
+      "score": 1,
+      "link_id": "t3_1dplvax",
+      "parent_id": "t3_1dplvax"
+    },
+    {
+      "id": "laecq4z",
+      "body": "Haha",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1719425266,
+      "score": 1,
+      "link_id": "t3_1dp1v0d",
+      "parent_id": "t3_1dp1v0d"
+    },
+    {
+      "id": "la86zjb",
+      "body": "I love that there are no flying cars, actualyy. This is more the future we are heading currently",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1719333100,
+      "score": 2,
+      "link_id": "t3_1do3lve",
+      "parent_id": "t3_1do3lve"
+    },
+    {
+      "id": "la620n2",
+      "body": "Is it the video or OP posting it?",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1719294831,
+      "score": 3,
+      "link_id": "t3_1dno8t5",
+      "parent_id": "t1_la5r2gl"
+    },
+    {
+      "id": "l9r0nrd",
+      "body": "And you can't afford an umbrella",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1719056214,
+      "score": 1,
+      "link_id": "t3_1dlg5bv",
+      "parent_id": "t3_1dlg5bv"
+    },
+    {
+      "id": "l9lcwi2",
+      "body": "It was renesas",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718963137,
+      "score": 1,
+      "link_id": "t3_1dkze3b",
+      "parent_id": "t1_l9l9tyr"
+    },
+    {
+      "id": "l9iqnc2",
+      "body": "It is called \"making fun of them\", not worshipping. You have there something confused",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1718916653,
+      "score": 1,
+      "link_id": "t3_1dkcfpb",
+      "parent_id": "t1_l9hi4bo"
+    },
+    {
+      "id": "l9ipzje",
+      "body": "This picture looks like it belongs to r/sadcringe",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1718916431,
+      "score": 2,
+      "link_id": "t3_1dkk69b",
+      "parent_id": "t3_1dkk69b"
+    },
+    {
+      "id": "l9ip8ff",
+      "body": "Same. And all women are my favourite genders...",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1718916178,
+      "score": 4,
+      "link_id": "t3_1dkjllr",
+      "parent_id": "t1_l9idpr4"
+    },
+    {
+      "id": "l9fdtw2",
+      "body": "Creepage for sure not, as there is normally dc 0v between them so there is nothing to creep.\nOnly for transients, but those will be shortened via the cap, so actually i would not do it. If you have space enough, you can use 1kv functional isolation for clearance",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718865494,
+      "score": 3,
+      "link_id": "t3_1djtqyq",
+      "parent_id": "t1_l9f90ed"
+    },
+    {
+      "id": "l9cf3fl",
+      "body": "OP doesn't mate enough",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1718821295,
+      "score": -1,
+      "link_id": "t3_1djbpp6",
+      "parent_id": "t3_1djbpp6"
+    },
+    {
+      "id": "l8bn8c4",
+      "body": "I am still waiting on the next season!",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1718223672,
+      "score": 3,
+      "link_id": "t3_1ddy6pr",
+      "parent_id": "t1_l88myzb"
+    },
+    {
+      "id": "l7knh3x",
+      "body": "The Adventures of Priscilla, Queen of the Desert",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1717788084,
+      "score": 1,
+      "link_id": "t3_1dafx4h",
+      "parent_id": "t3_1dafx4h"
+    },
+    {
+      "id": "l7dzl1x",
+      "body": "I am today old to learn the the dd, ss stands for drain and source and ee, cc for emitter and collector respectivly...",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1717689024,
+      "score": 10,
+      "link_id": "t3_1d9ihpn",
+      "parent_id": "t3_1d9ihpn"
+    },
+    {
+      "id": "l7c6jm0",
+      "body": "I would recommend that too, when you are working only on one project. But working on several projects in parallel i had my difficulties with that and i switched to an ipad with stylus.\nSo i got for every projects my own notepad",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1717656622,
+      "score": 1,
+      "link_id": "t3_1d96o9n",
+      "parent_id": "t1_l7bncsm"
+    },
+    {
+      "id": "l6o4kwf",
+      "body": "There are some nudist camping grounds, but i dont know about hotels.\nOne i know is Lanterna in Istria near Poreč. I was never in one but i know them from passing by, so i dont know if they are any \"good\".",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1717271567,
+      "score": 2,
+      "link_id": "t3_1d5ujtz",
+      "parent_id": "t1_l6o150g"
+    },
+    {
+      "id": "l6o0g1l",
+      "body": "There are a LOT of nudist beaches in Croatia",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1717270007,
+      "score": 10,
+      "link_id": "t3_1d5ujtz",
+      "parent_id": "t3_1d5ujtz"
+    },
+    {
+      "id": "l6h9wlm",
+      "body": "Wörms",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1717164897,
+      "score": 1,
+      "link_id": "t3_1d4fk53",
+      "parent_id": "t1_l6e118y"
+    },
+    {
+      "id": "l6afnu0",
+      "body": "Wow, I thought so too!",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1717050046,
+      "score": 1,
+      "link_id": "t3_1d3qr8e",
+      "parent_id": "t1_l697zq6"
+    },
+    {
+      "id": "l5pppoy",
+      "body": "You think so? And why is that? Was there a clue in the movie? As i did not get that at all...",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1716705822,
+      "score": 1,
+      "link_id": "t3_pyyegn",
+      "parent_id": "t1_l5p778l"
+    },
+    {
+      "id": "l57bwfg",
+      "body": "Edit I Ja, which is I believe from Serbia. A Cyberpunk animated movie which is pretty nice",
+      "author": "wraith-mayhem",
+      "subreddit": "Cyberpunk",
+      "created_utc": 1716400642,
+      "score": 6,
+      "link_id": "t3_1cy0zs0",
+      "parent_id": "t3_1cy0zs0"
+    },
+    {
+      "id": "l4zikt5",
+      "body": "Thank you for your answer. So, they did not expose the same film with multiple passes but individual ones and conbined them in post? This makes sense, i did not get that from the book. Thank you",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1716272650,
+      "score": 1,
+      "link_id": "t3_1cwq113",
+      "parent_id": "t1_l4xh2n8"
+    },
+    {
+      "id": "l4zido8",
+      "body": "Ok, this also makes sense as they can change the focus for ecery lit thing individually",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1716272508,
+      "score": 1,
+      "link_id": "t3_1cwq113",
+      "parent_id": "t3_1cwq113"
+    },
+    {
+      "id": "l4mz316",
+      "body": "The twtherwd drones i know eun on a 400v system because of the exact problems you described. \nSo if safety os your concern, then buy an off the shelf solution and don't build it yourself",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1716059483,
+      "score": 1,
+      "link_id": "t3_1cuylkx",
+      "parent_id": "t3_1cuylkx"
+    },
+    {
+      "id": "l4cnee8",
+      "body": "Because you hurt yourself?",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1715887860,
+      "score": 1,
+      "link_id": "t3_1ctim6k",
+      "parent_id": "t1_l4cc1on"
+    },
+    {
+      "id": "l46awcw",
+      "body": "Oh really? And why dont you just leave them on auto?",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715789400,
+      "score": 1,
+      "link_id": "t3_1crq96a",
+      "parent_id": "t1_l45tean"
+    },
+    {
+      "id": "l41qixz",
+      "body": "I was under the impression that is enough when only one supports it? So you are saying, that both need to support it for it to work?",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715715167,
+      "score": 1,
+      "link_id": "t3_1crq96a",
+      "parent_id": "t1_l40pgw3"
+    },
+    {
+      "id": "l40io7a",
+      "body": "In an application note from Cisco (i believe) I read that even if only one device supports Auto-MDIX, then the rx tx pairs will be correctly set by this device and it would work. So, you are saying, this is not true? Or only not true for 10-Half?\nI am just curious, as my device will not encounter old 10-Half devices, but still, would be interesting to know.",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715700316,
+      "score": 2,
+      "link_id": "t3_1crq96a",
+      "parent_id": "t1_l404drb"
+    },
+    {
+      "id": "l40hl56",
+      "body": "Yes, of course. My question was more like what issues to expect",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715699945,
+      "score": 2,
+      "link_id": "t3_1crq96a",
+      "parent_id": "t1_l40c81c"
+    },
+    {
+      "id": "l3zqhw1",
+      "body": "It is actually no thought experiment, but an actual device I am building right now with dedicated ICs, abd the question came up.\n\nSo, you are saying, when creating a loop, then Auto-MDIX is not very helping and could mess the system up? I need to look into this, thank you.",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715689683,
+      "score": 1,
+      "link_id": "t3_1crq96a",
+      "parent_id": "t1_l3zpamq"
+    },
+    {
+      "id": "l3zq4b9",
+      "body": "So you are saying there might be the case by using old tech? I will use 100mbit only, but with modern hardware, so I might be safe. I could change it anyways, but I was just wondering",
+      "author": "wraith-mayhem",
+      "subreddit": "networking",
+      "created_utc": 1715689510,
+      "score": 3,
+      "link_id": "t3_1crq96a",
+      "parent_id": "t1_l3zp1y7"
+    },
+    {
+      "id": "l3weazr",
+      "body": "Adam Savage from Mythbusters did exactly that in a build of a lamp on his Tested channel: he opened it up and saw, that the actual led after the ac-dc was using 12v, so he just used a 12v converter and supplied it after the ac-dc directly to the led.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1715630600,
+      "score": 1,
+      "link_id": "t3_1cqk926",
+      "parent_id": "t1_l3tr2el"
+    },
+    {
+      "id": "l3bshya",
+      "body": "This will not work, sorry",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1715283484,
+      "score": 3,
+      "link_id": "t3_1co5bwu",
+      "parent_id": "t3_1co5bwu"
+    },
+    {
+      "id": "l36rctq",
+      "body": "Do cops actually ask the driver why they think they were stopped or is this just a movie /tv thing?",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1715201951,
+      "score": 11,
+      "link_id": "t3_1cnbsjj",
+      "parent_id": "t3_1cnbsjj"
+    },
+    {
+      "id": "l1hh21l",
+      "body": "Hehe, true. I just looked at his post history... sad",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1714215727,
+      "score": 4,
+      "link_id": "t3_1cdw57s",
+      "parent_id": "t1_l1g20hx"
+    },
+    {
+      "id": "l0qikct",
+      "body": "You know, I am sonething of a scientist as well",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1713791179,
+      "score": 1,
+      "link_id": "t3_1ca6yun",
+      "parent_id": "t3_1ca6yun"
+    },
+    {
+      "id": "l05p5r6",
+      "body": "Nice, I can imagine",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1713454797,
+      "score": 1,
+      "link_id": "t3_1c6woqg",
+      "parent_id": "t1_l05lw92"
+    },
+    {
+      "id": "l04hqee",
+      "body": "No of course not. I might stay at apartments and hotels.\nI am a decent human being",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1713437031,
+      "score": 1,
+      "link_id": "t3_1c6woqg",
+      "parent_id": "t1_l04bpw8"
+    },
+    {
+      "id": "l04b1ve",
+      "body": "Also something i will do of course. I am not talking about the airport or plane only. I mean to travel for 1 year, so at the time between the flights i mean.",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1713432529,
+      "score": 1,
+      "link_id": "t3_1c6woqg",
+      "parent_id": "t1_l047cev"
+    },
+    {
+      "id": "l04awds",
+      "body": "That is true. \n\nAs for the cube, there is nothing meaningful about it.",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1713432415,
+      "score": 1,
+      "link_id": "t3_1c6woqg",
+      "parent_id": "t1_l0404fv"
+    },
+    {
+      "id": "l016qsl",
+      "body": "So, this is a school assigment?\n\nYou also need a cc and cv mode when charging a battery. I dont know if this chip provides this...",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1713382006,
+      "score": 1,
+      "link_id": "t3_1c6asqf",
+      "parent_id": "t1_l003kol"
+    },
+    {
+      "id": "kzzrrcm",
+      "body": "Hard to say as there is no info on your requirements and the parts itself.\n\nBut the most imprtant question: why do you need to build a dcdc converter?",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1713365055,
+      "score": 1,
+      "link_id": "t3_1c6asqf",
+      "parent_id": "t3_1c6asqf"
+    },
+    {
+      "id": "kzvmnrg",
+      "body": "So.... congratulation?",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1713296761,
+      "score": 0,
+      "link_id": "t3_1c5mmza",
+      "parent_id": "t1_kzvgkfu"
+    },
+    {
+      "id": "kzvkpc2",
+      "body": "Yes, just look at those fingers",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1713296123,
+      "score": 4,
+      "link_id": "t3_1c5dcjo",
+      "parent_id": "t1_kzuffuy"
+    },
+    {
+      "id": "kzuw8ux",
+      "body": "The gun is when you run out of money and get some at a gas station?",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1713287981,
+      "score": 5,
+      "link_id": "t3_1c5izby",
+      "parent_id": "t3_1c5izby"
+    },
+    {
+      "id": "kzpegwv",
+      "body": "I will, thank you",
+      "author": "wraith-mayhem",
+      "subreddit": "Louisvuitton",
+      "created_utc": 1713201139,
+      "score": 1,
+      "link_id": "t3_1buwvkn",
+      "parent_id": "t1_kzp1dg2"
+    },
+    {
+      "id": "kzp0t6f",
+      "body": "Ah, that explaines the totally random chat request",
+      "author": "wraith-mayhem",
+      "subreddit": "Louisvuitton",
+      "created_utc": 1713196533,
+      "score": 1,
+      "link_id": "t3_1buwvkn",
+      "parent_id": "t1_ky6dmji"
+    },
+    {
+      "id": "kzez2uq",
+      "body": "They look like molex microfit /minifit / megafit. But hard to say without measurements",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1713031651,
+      "score": 1,
+      "link_id": "t3_1c33lgt",
+      "parent_id": "t3_1c33lgt"
+    },
+    {
+      "id": "kzdbh8m",
+      "body": "I wouldnt drink from a sream honestly there is a lot of agriculture",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1713007949,
+      "score": 1,
+      "link_id": "t3_1c2hyo2",
+      "parent_id": "t1_kzabw18"
+    },
+    {
+      "id": "kza4k2y",
+      "body": "Dont be on grindr all the time then",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1712950796,
+      "score": 1,
+      "link_id": "t3_1c22zkb",
+      "parent_id": "t3_1c22zkb"
+    },
+    {
+      "id": "kz9jtkd",
+      "body": "Crazy that you are able to spot hin!",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1712943729,
+      "score": 2,
+      "link_id": "t3_1c2c9oh",
+      "parent_id": "t1_kz939rh"
+    },
+    {
+      "id": "kz92rgw",
+      "body": "I mean this: https://en.m.wikipedia.org/wiki/Charge_pump",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1712938029,
+      "score": 2,
+      "link_id": "t3_1c1vake",
+      "parent_id": "t1_kz8wjbz"
+    },
+    {
+      "id": "kz8d1dw",
+      "body": "You can also use a charge pump, which is much safer",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1712929181,
+      "score": 4,
+      "link_id": "t3_1c1vake",
+      "parent_id": "t3_1c1vake"
+    },
+    {
+      "id": "kz49igw",
+      "body": "I would add them, if there is a chance of an esd pulse. Alternativly, you can add capacitors to each pin if the circuit petmitts it. \n\nOr use a small series resistor, or ferrite bead. But this of course depends on the circuit you want to connect on the terminal block.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1712861537,
+      "score": 1,
+      "link_id": "t3_1c1etov",
+      "parent_id": "t3_1c1etov"
+    },
+    {
+      "id": "kyyuy6a",
+      "body": "I guess, not anymore...",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1712777969,
+      "score": 1,
+      "link_id": "t3_1c0sq59",
+      "parent_id": "t3_1c0sq59"
+    },
+    {
+      "id": "kytb85n",
+      "body": "Is this still counting as a conspiracy or is it just stupid?",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1712690925,
+      "score": 1,
+      "link_id": "t3_1bzb50t",
+      "parent_id": "t3_1bzb50t"
+    },
+    {
+      "id": "kyqe5gs",
+      "body": "Yes, and we encountered issues with reference designs multiple times.\nIt is a good starting point, but not a product",
+      "author": "wraith-mayhem",
+      "subreddit": "electronics",
+      "created_utc": 1712642845,
+      "score": 5,
+      "link_id": "t3_1byvn3u",
+      "parent_id": "t1_kyouulw"
+    },
+    {
+      "id": "kyo6jy3",
+      "body": "Who says you have to?",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1712608907,
+      "score": 2,
+      "link_id": "t3_1byrus6",
+      "parent_id": "t3_1byrus6"
+    },
+    {
+      "id": "ky24ff8",
+      "body": "El Hopaness Romtic",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1712258604,
+      "score": 1,
+      "link_id": "t3_1bv37nu",
+      "parent_id": "t3_1bv37nu"
+    },
+    {
+      "id": "kx5ohp7",
+      "body": "I would recommend metric M8 or M12 connectors, as they are cheap, rugged, and you can buy a lot of off the shelf cables in various lengths. Highly recommend those!",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1711743238,
+      "score": 1,
+      "link_id": "t3_1bqr4u8",
+      "parent_id": "t3_1bqr4u8"
+    },
+    {
+      "id": "kx5oh7y",
+      "body": "I would recommend metric M8 or M12 connectors, as they are cheap, rugged, and you can buy a lot of off the shelf cables in various lengths. Highly recommend those!",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1711743232,
+      "score": 2,
+      "link_id": "t3_1bqr4u8",
+      "parent_id": "t3_1bqr4u8"
+    },
+    {
+      "id": "kw95sk5",
+      "body": "Also in freaks and geeks, right?",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1711230115,
+      "score": 1,
+      "link_id": "t3_1blp2p8",
+      "parent_id": "t1_kw6i1gs"
+    },
+    {
+      "id": "kvskogh",
+      "body": "According to the cast list above, Winston got a PhD now???",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1710969132,
+      "score": 1,
+      "link_id": "t3_1bjdpf8",
+      "parent_id": "t3_1bjdpf8"
+    },
+    {
+      "id": "kvavr29",
+      "body": "Actually not, as a character can be multidimensional without a love interest imho.\nAs a normal human being is as well, and actually boring if a love interest or romance is the only defining thing",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1710694198,
+      "score": 1,
+      "link_id": "t3_18jswmt",
+      "parent_id": "t1_kva7ivv"
+    },
+    {
+      "id": "kv9qz6f",
+      "body": "You know what the word \"average\" means, right? Normally, half of the population is below the average, it is not like \"average\" is kind of a lower bound",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1710677801,
+      "score": 1,
+      "link_id": "t3_1bgq9r7",
+      "parent_id": "t1_kv8ve6l"
+    },
+    {
+      "id": "kv9qewq",
+      "body": "There was a brief moment when i was happy to see a real meme template, but the text is again some political thing...\n\nAre people not funny anymore? Whats up with you?",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1710677479,
+      "score": 3,
+      "link_id": "t3_1bge3gn",
+      "parent_id": "t3_1bge3gn"
+    },
+    {
+      "id": "kupx3pf",
+      "body": "Yes, exactly. It is fun to see something like this in the wild.\nIt is always amazing how to save costs and the world of ultra high volume and extremly low cost is fascinating",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1710356706,
+      "score": 3,
+      "link_id": "t3_1bdo6s3",
+      "parent_id": "t1_kupbsrn"
+    },
+    {
+      "id": "kunvux0",
+      "body": "Cool, a single sided pcb where the second layer is the carbon conducting paste for the buttons! Saved halve a penny there",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1710330470,
+      "score": 10,
+      "link_id": "t3_1bdo6s3",
+      "parent_id": "t3_1bdo6s3"
+    },
+    {
+      "id": "kunpv23",
+      "body": "I would use a capacitive voltage divider, followed by a lso for 3.3v for the power supply and a triac for switching, provided that you dont have inductive loads.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1710327061,
+      "score": 1,
+      "link_id": "t3_1bdepx7",
+      "parent_id": "t3_1bdepx7"
+    },
+    {
+      "id": "ktw1u0r",
+      "body": "In addition, i would increase the annular ring to the size of the screw head. This way, the screw does not damage the solder resist and you will make sure, it will not short anything",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1709884776,
+      "score": 2,
+      "link_id": "t3_1b928rl",
+      "parent_id": "t1_ktt1zqi"
+    },
+    {
+      "id": "ktd63n4",
+      "body": "Wow, a year later going through all you comments. I very much appreciate your effort to answer all of them!",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1709591750,
+      "score": 2,
+      "link_id": "t3_wbw46z",
+      "parent_id": "t1_ktakn7x"
+    },
+    {
+      "id": "ktd5rsi",
+      "body": "Why do you have the component values instead of the reference designators on the silkscreen? Normally the ref des are used so you can change a value and dont have to change the pcb...\nAlso, the comments for the signals are under the esp32 module which are useless when assembled... move them outside",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1709591637,
+      "score": 2,
+      "link_id": "t3_1b60ddm",
+      "parent_id": "t3_1b60ddm"
+    },
+    {
+      "id": "ktd4v5m",
+      "body": "Its not emi related, but i would add a radius on the two inner corner of the pcb as the pcb manufacturing house cannot produce a right angle corner by milling...\n1mm radius will for sure be ok i guess",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1709591323,
+      "score": 1,
+      "link_id": "t3_1b60ddm",
+      "parent_id": "t3_1b60ddm"
+    },
+    {
+      "id": "kpjp8xb",
+      "body": "In what universe is this a normal chain of events?",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1707428805,
+      "score": 4,
+      "link_id": "t3_1am6udt",
+      "parent_id": "t3_1am6udt"
+    },
+    {
+      "id": "kpjnx0u",
+      "body": "Especiqlly as it does absolutly not look like that at this moment",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1707428341,
+      "score": 1,
+      "link_id": "t3_1alrcc5",
+      "parent_id": "t1_kph1cnh"
+    },
+    {
+      "id": "kpjmtkg",
+      "body": "This is no sadcrindge",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1707427971,
+      "score": 10,
+      "link_id": "t3_1alyici",
+      "parent_id": "t3_1alyici"
+    },
+    {
+      "id": "kpgf4qj",
+      "body": "Hope nobody extends this picture with the Jacked Off Kennedy",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1707377656,
+      "score": 1,
+      "link_id": "t3_1ala8bz",
+      "parent_id": "t3_1ala8bz"
+    },
+    {
+      "id": "kp6di20",
+      "body": "Just a thought: did you consider do the bottom up method by buying used stuff or lending them from friends to see, if you actually need the stuff? I mean, why buying a stove when you dont want to cook, or a tent when you discover that a tarp is enougth? I guess then you will invest money there where you actually need it and invest more which is important to your specific needs?",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1707227541,
+      "score": 2,
+      "link_id": "t3_1ajzlnw",
+      "parent_id": "t3_1ajzlnw"
+    },
+    {
+      "id": "kp0j25o",
+      "body": "Wow, for sure a bot, check out the post history, all totally random posts at the same time.",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1707134627,
+      "score": 3,
+      "link_id": "t3_1aja5ky",
+      "parent_id": "t1_kozunnc"
+    },
+    {
+      "id": "kp0ivex",
+      "body": "Me too, about 1 month ago, exact the same one",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1707134514,
+      "score": 2,
+      "link_id": "t3_1aja5ky",
+      "parent_id": "t1_kp0hwe2"
+    },
+    {
+      "id": "kowipo0",
+      "body": "There are for sure standards, but i dont know them... does not your company or customer provide them via requirements?",
+      "author": "wraith-mayhem",
+      "subreddit": "ECE",
+      "created_utc": 1707067781,
+      "score": 2,
+      "link_id": "t3_1aimejf",
+      "parent_id": "t3_1aimejf"
+    },
+    {
+      "id": "kocijsx",
+      "body": "Then diodes are for sure the simpler solution",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1706739197,
+      "score": 2,
+      "link_id": "t3_1aflg2u",
+      "parent_id": "t1_kocf8yi"
+    },
+    {
+      "id": "koatket",
+      "body": "Yes its reasonable when the power loss on the diodes are ok for you. If not, consider a so called power mux, its an ic which controls ideal diodes made from mosfets.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1706718886,
+      "score": 3,
+      "link_id": "t3_1aflg2u",
+      "parent_id": "t1_koapv5u"
+    },
+    {
+      "id": "ko91055",
+      "body": "I think you are absolutly correct and the secondary side of the transformer is certanly around 36Vac which gives 50Vdc after rectification.\n\nI on the other hand meant the transformer input: this is certanly mains voltage (110 or 230vac) according to OPs comments and there you for sure need to check the clearance. The whole point if this circuit is to convert mains voltage to 50Vdc.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1706684143,
+      "score": 1,
+      "link_id": "t3_1adxgt5",
+      "parent_id": "t1_kk9s0hh"
+    },
+    {
+      "id": "kk881j8",
+      "body": "On the primary side",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1706598514,
+      "score": 6,
+      "link_id": "t3_1adxgt5",
+      "parent_id": "t1_kk81pmt"
+    },
+    {
+      "id": "kjeqh75",
+      "body": "Same here, i was surprized to not see Johnny Galeckys name in the end credits of season 4, and the resemblence is crazy!",
+      "author": "wraith-mayhem",
+      "subreddit": "totallylookslike",
+      "created_utc": 1706132680,
+      "score": 1,
+      "link_id": "t3_gg1qsj",
+      "parent_id": "t1_ki27icd"
+    },
+    {
+      "id": "kjdafld",
+      "body": "Git pull",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1706113779,
+      "score": 5,
+      "link_id": "t3_19eh9js",
+      "parent_id": "t3_19eh9js"
+    },
+    {
+      "id": "kj9a30s",
+      "body": "But OP has apparently internet as he was posting, and this manual is available on the internette.\n\nBut anyways, you know what i meant by my comment",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1706046301,
+      "score": 1,
+      "link_id": "t3_19dsgmi",
+      "parent_id": "t1_kj940dv"
+    },
+    {
+      "id": "kj8b3mf",
+      "body": "Yes i thought the same. Why asking here when one can check the manual?",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1706034820,
+      "score": 5,
+      "link_id": "t3_19dsgmi",
+      "parent_id": "t1_kj82x7i"
+    },
+    {
+      "id": "kj3fza7",
+      "body": "More like inceldar",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1705956603,
+      "score": 1,
+      "link_id": "t3_19cg8np",
+      "parent_id": "t3_19cg8np"
+    },
+    {
+      "id": "kj0izab",
+      "body": "Thanks. I can imagine, it is really hard to do a great accent.",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1705910703,
+      "score": 1,
+      "link_id": "t3_19cqel3",
+      "parent_id": "t1_kj0iark"
+    },
+    {
+      "id": "kj0hhuf",
+      "body": "Cool to know. I also think, he did not talk a lot on the movie, maybe thats a benefit to this",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1705909667,
+      "score": 4,
+      "link_id": "t3_19cqel3",
+      "parent_id": "t1_kj0hd1z"
+    },
+    {
+      "id": "kiyqw3q",
+      "body": "Is marketing also included? I always assumed marketing costs are extra on top, thats why a movie needs to make double its budget to be profitable...",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1705881368,
+      "score": 1,
+      "link_id": "t3_19cej7m",
+      "parent_id": "t1_kiy4sib"
+    },
+    {
+      "id": "kiy2vvv",
+      "body": "Cool new video Internet Explorer",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1705872892,
+      "score": 43,
+      "link_id": "t3_19c9gjh",
+      "parent_id": "t3_19c9gjh"
+    },
+    {
+      "id": "kiy2mrv",
+      "body": "During startup of the microcontroller, the pins are not yet in open drain configuration and will see the full input voltage, regardless if it is 100v or 30v which is both too much. Also, 0.5a is way too much for a pin, they can normally sink not more than 20ma.\n\nI would for sure add a protection zener diode parallel to each pin to protect it for overvoltages.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1705872806,
+      "score": 2,
+      "link_id": "t3_19c78h5",
+      "parent_id": "t3_19c78h5"
+    },
+    {
+      "id": "kit908t",
+      "body": "Just very curious: why exactly those from all of them? They are not the most special ones i guess... why them?",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1705794271,
+      "score": 1,
+      "link_id": "t3_19bi9o4",
+      "parent_id": "t3_19bi9o4"
+    },
+    {
+      "id": "kihzhmn",
+      "body": "By reading your posts, i would recommend to use a normal 650w power supply, and have it outside of the pc and just use long wires to connect it. When you beautify the wires a bit (wire harness etc) this would look still nice, and you would have no powwr supply inside. Just like a charger for your phone.",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1705615257,
+      "score": 1,
+      "link_id": "t3_199ebgy",
+      "parent_id": "t3_199ebgy"
+    },
+    {
+      "id": "kiggv83",
+      "body": "In my opinion, you should not bring a pillow.",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1705596930,
+      "score": 2,
+      "link_id": "t3_199mb6m",
+      "parent_id": "t1_kif5s0a"
+    },
+    {
+      "id": "ki54bj0",
+      "body": "Why even bother to go in the first place when they only play on their phones?",
+      "author": "wraith-mayhem",
+      "subreddit": "thatHappened",
+      "created_utc": 1705422433,
+      "score": 94,
+      "link_id": "t3_1985eh0",
+      "parent_id": "t1_ki4xlig"
+    },
+    {
+      "id": "ki0xtxr",
+      "body": "Mirrors aren't real",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1705354103,
+      "score": 1,
+      "link_id": "t3_1972ta7",
+      "parent_id": "t3_1972ta7"
+    },
+    {
+      "id": "khv53ev",
+      "body": "Sims 4 is their help",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1705264841,
+      "score": 80,
+      "link_id": "t3_196owq3",
+      "parent_id": "t1_khv3vz7"
+    },
+    {
+      "id": "khtj2b3",
+      "body": "The cotopaxi allpa series is awesome",
+      "author": "wraith-mayhem",
+      "subreddit": "backpacking",
+      "created_utc": 1705244019,
+      "score": 1,
+      "link_id": "t3_1965jw8",
+      "parent_id": "t3_1965jw8"
+    },
+    {
+      "id": "khpf93h",
+      "body": "They are mostly broken: i found a lot where the towel was going inside of the dispenser again!\nI need to pull usually like crazy until it gets loose again (and it sounds as if something breaks inside). Then it finally looks like the one in the pic. They look really ugly like this and i always wonder, who designs such things, especially when they are always broken...",
+      "author": "wraith-mayhem",
+      "subreddit": "ethz",
+      "created_utc": 1705173261,
+      "score": 3,
+      "link_id": "t3_195p503",
+      "parent_id": "t3_195p503"
+    },
+    {
+      "id": "khnwvv9",
+      "body": "Looks like some crazy pink vibrators in the back",
+      "author": "wraith-mayhem",
+      "subreddit": "memes",
+      "created_utc": 1705152216,
+      "score": 6,
+      "link_id": "t3_195kek8",
+      "parent_id": "t3_195kek8"
+    },
+    {
+      "id": "khdmyl0",
+      "body": "ET when I was a child",
+      "author": "wraith-mayhem",
+      "subreddit": "movies",
+      "created_utc": 1704989413,
+      "score": 1,
+      "link_id": "t3_1940iow",
+      "parent_id": "t3_1940iow"
+    },
+    {
+      "id": "kh9opmr",
+      "body": "There is also the widly used io-link standard, which uses a 4-20ma current loop and adds digital modulation on top.\n\nActually, if its just a simple sensor, you might use directly a 4-20ma sensor. This only needs 2 wires and they are off the shelf... i guess, why not?",
+      "author": "wraith-mayhem",
+      "subreddit": "AskElectronics",
+      "created_utc": 1704922713,
+      "score": 1,
+      "link_id": "t3_193c2ye",
+      "parent_id": "t3_193c2ye"
+    },
+    {
+      "id": "kh2hip8",
+      "body": "I think bringing a tent and choose camping sites, this should work. Or sleep in the train when travelling.",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1704817265,
+      "score": 1,
+      "link_id": "t3_191svg5",
+      "parent_id": "t3_191svg5"
+    },
+    {
+      "id": "kh21jem",
+      "body": "Why are you planning for 3 days Lauterbrunnen and nothing else in CH? Do you plan something specific there?",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1704811508,
+      "score": 2,
+      "link_id": "t3_191rsug",
+      "parent_id": "t3_191rsug"
+    },
+    {
+      "id": "kgc4wam",
+      "body": "I dont know, is it? Or was this test held multiple times until the outcome was what the creator wanted and showed only this incident? We dont know that.\n\nWhat was this \"experiment\" actually to prove anyways? What was their question which they wanted to be asked by this experiment?",
+      "author": "wraith-mayhem",
+      "subreddit": "sadcringe",
+      "created_utc": 1704403469,
+      "score": 1,
+      "link_id": "t3_18xtypg",
+      "parent_id": "t1_kg78c8g"
+    },
+    {
+      "id": "kfyvxw0",
+      "body": "I also have always a plain spoon in my backpack which came handy a lot of times.",
+      "author": "wraith-mayhem",
+      "subreddit": "travel",
+      "created_utc": 1704198419,
+      "score": 15,
+      "link_id": "t3_18wkfq1",
+      "parent_id": "t1_kfyjhav"
+    }
+  ]
+}

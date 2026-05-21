@@ -1,0 +1,181 @@
+{
+  "username": "bsaverio",
+  "posts": [
+    {
+      "id": "1hjva0s",
+      "title": "Game-Theoretic Model Predictive Control explained",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1734859913,
+      "score": 8,
+      "num_comments": 0,
+      "selftext": "A cool video explaining the intersection of game theory and model predictive control, aiming at fair and efficient sharing of critical scarse resources. \n\nMore info and links here\n\nhttps://nccr-automation.ch/news/2024/lets-play-safe-and-fair",
+      "url": "https://youtu.be/FkDRctSIAm4?feature=shared"
+    },
+    {
+      "id": "1gpvfbm",
+      "title": "Automatic Control Laboratory (IfA) Open house next Tuesday 19 November 2024",
+      "author": "bsaverio",
+      "subreddit": "ethz",
+      "created_utc": 1731445396,
+      "score": 8,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://i.redd.it/qljx0b8ubj0e1.png"
+    },
+    {
+      "id": "1dqs1uc",
+      "title": "Computational Control course material now online",
+      "author": "bsaverio",
+      "subreddit": "ethz",
+      "created_utc": 1719602970,
+      "score": 14,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://bsaver.io/COCO"
+    },
+    {
+      "id": "1dqkh28",
+      "title": "Computational Control course at ETH Zurich - online resources",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1719583632,
+      "score": 160,
+      "num_comments": 27,
+      "selftext": "",
+      "url": "https://bsaver.io/COCO"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lunlmv1",
+      "body": "I am a senior scientist at ETH. \n\nI am absolutely concerned about the effect of these kind of regulations on individuals (each with their own life and stories) and on the academic community at large. \n\nHowever, at least when it comes to graduate education, this is not a ban. I just hired a PhD student from China and a postdoc from Russia. The only effect of this regulation was to have Export Control to review the job description and the CV of the person.",
+      "author": "bsaverio",
+      "subreddit": "ethz",
+      "created_utc": 1730354049,
+      "score": 5,
+      "link_id": "t3_1gfvull",
+      "parent_id": "t3_1gfvull"
+    },
+    {
+      "id": "lbsu29p",
+      "body": "Here is an example in case you don’t have a ChatGPT paid account\n\nhttps://chatgpt.com/share/ac2a3628-904e-43bc-bee3-3d050ef130a7",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1720213024,
+      "score": 2,
+      "link_id": "t3_1dqkh28",
+      "parent_id": "t1_lb2n1r5"
+    },
+    {
+      "id": "laq5kg5",
+      "body": "The course is offered every Spring to 3rd year B.Sc. students and to M.Sc. students. I am happy to answer questions if anybody is interested.",
+      "author": "bsaverio",
+      "subreddit": "ethz",
+      "created_utc": 1719603110,
+      "score": 5,
+      "link_id": "t3_1dqs1uc",
+      "parent_id": "t3_1dqs1uc"
+    },
+    {
+      "id": "lapb0uu",
+      "body": "Ahah thanks! I am just giving back a little bit.",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1719592777,
+      "score": 5,
+      "link_id": "t3_1dqkh28",
+      "parent_id": "t1_lap4yyp"
+    },
+    {
+      "id": "lapay0r",
+      "body": "There is a username and password on the web page, does it work?",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1719592750,
+      "score": 3,
+      "link_id": "t3_1dqkh28",
+      "parent_id": "t1_laoyzcw"
+    },
+    {
+      "id": "lapatdz",
+      "body": "Thanks!\nThat’s the idea. Although this is still an introductory course, each of these topics (MPC, identification, RL, etc) easily deserve their own course clearly. \nHopefully the students get a comparative view on these methods and learn strength and weaknesses, so they can choose which are the good candidates for different control problems. \n\nI tell the students that no company will hire them because they know how to code an MPC controller or how to implement RL. They assume that either you know that or you learn it if needed. They hire them as control experts that can tell what control strategy is the most adequate for the problems they have. Hopefully the course train them to do that.",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1719592709,
+      "score": 7,
+      "link_id": "t3_1dqkh28",
+      "parent_id": "t1_laow3fv"
+    },
+    {
+      "id": "lap6tnv",
+      "body": "We do have tutorials with solutions (code and exercises). I am a bit hesitant to share those because the course is young and the material is limited, and that is the same material I need to use for the exams… \n\nI’ll talk with the TA and see if we can put together something.",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1719591375,
+      "score": 6,
+      "link_id": "t3_1dqkh28",
+      "parent_id": "t1_lap5sxn"
+    },
+    {
+      "id": "laoknar",
+      "body": "Hi all, I am hoping this does not count as advertisement because I am not getting anything from this :)\n\nI have been teaching the Computational Control course at ETH Zurich for a couple of years. The course is a new take on control engineering education, as we decided to replace some classical control design methods with an overview on computational control tools, that is, all control solutions that are implemented through a computer in closed loop with the plant.\n\nNow that the material is more or less polished, I decided to make slides and videos available online for everybody. More material may follow soon. I would love to hear comments from students that decide to have a look at the course.",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1719583846,
+      "score": 57,
+      "link_id": "t3_1dqkh28",
+      "parent_id": "t3_1dqkh28"
+    },
+    {
+      "id": "l99xnum",
+      "body": "I am a senior scientist and a PI at ETH. I would strongly recommend to discuss that with your host. Even a small contribution (that we can easily charge on some funds) would make a big difference for you. \n\nFirst things I can think of:\n- TAing for some courses. We pay something like 30 chf per hour. Your visa needs to allow it. \n- Paying travel costs\n- A una tantum contribution to help you with the move. \n\nI know it’s not an easy thing to negotiate, but at least let them know that you are struggling a bit to find an inexpensive solution. We are all aware that short term stays in Zurich are very expensive.",
+      "author": "bsaverio",
+      "subreddit": "ethz",
+      "created_utc": 1718780757,
+      "score": 30,
+      "link_id": "t3_1djbsd6",
+      "parent_id": "t1_l99wwho"
+    },
+    {
+      "id": "kzv9r4g",
+      "body": "I have always files the w8ben form as a postdoc in the US, because it allows to apply the tax treaty with your country (which usually allows to get your postdoc salary tax free, depending on the country).",
+      "author": "bsaverio",
+      "subreddit": "postdoc",
+      "created_utc": 1713292468,
+      "score": 1,
+      "link_id": "t3_1c4udyv",
+      "parent_id": "t3_1c4udyv"
+    },
+    {
+      "id": "kzstn3x",
+      "body": "You are facing a very concrete problem in power engineering: there is not easy, reliable, accessible model of the power grid in its entirety, and local controllers (those located at individual generators) need to regulate voltage and frequency without this knoweldge. \n\nI would probably focus on frequency control, because simpler models are available (swing equations) and dynamics are better understood. \n\nYou could look at primary or secondary frequency control. The first one is made of individual local controllers at each generator and has the task of limiting the frequency error at steady state when the load in the grid changes. It has a proprortional-like behavior. The second of has the task of being the frequency back to the nominal value and controlling the power exchange between areas. It has an integral-like behavior. \n\nYou could start from these papers which I think give a more control theoretic perspective on the design of these loops, compared to power systems textbooks. \n\nhttps://ieeexplore.ieee.org/abstract/document/9216012\n\nhttps://ieeexplore.ieee.org/abstract/document/8550060\n\nDon’t look at the specific original contributions of these papers but rather at the problem formulation.",
+      "author": "bsaverio",
+      "subreddit": "ControlTheory",
+      "created_utc": 1713254165,
+      "score": 2,
+      "link_id": "t3_1c5abac",
+      "parent_id": "t3_1c5abac"
+    },
+    {
+      "id": "kzsl3qh",
+      "body": "I am an ETH lecturer, maybe I can share what I think is expected from us. \n\nI would consider such a behavior very inappropriate and racist. \n\nI disagree with those that say that it’s mostly bad humor. That is definitely a component, but I would classify this attitude as racist because it has clear discriminatory consequences. Think of it this way: is his prejudice only affecting the jokes he makes or also his decisions? If he had to assign TA duties, would his prejudice against Chinese people affect his decision? When he reviews a scientific paper, does he look at the work of Chinese authors in the same way as others?\n\nWe don’t have enough information to know the answer to these questions, but the comments he made in public settings make me suspect that his racism may have consequences.",
+      "author": "bsaverio",
+      "subreddit": "ethz",
+      "created_utc": 1713248054,
+      "score": 46,
+      "link_id": "t3_1c4w1d2",
+      "parent_id": "t3_1c4w1d2"
+    },
+    {
+      "id": "kzku52b",
+      "body": "I am currently looking for a postdoc, so I want to tell you the other side of the story. \n\nThe position is open, I received some terrible applications, and some good ones. I am trying to to coordinate with another person that will be involved in the project so that we make a decision together. Finding a moment to look at the applications together will take a week. Then we kind of agree on a couple of very good ones and we decide to schedule a zoom call with them, which is scheduled in one-two weeks. \n\nThey both do well, although we are not 100% sure. One, in particular, has quite some red flags. For the other one we ask for some references (another week). One of the past supervisors replies that he is happy *to talk*. It could mean that they want to warn us off the records, or maybe they simply like to give their comments in person. In any case, that will also require time. \n\nAt this point, we have a good candidate that seems to tick all the boxes and, for what we know, may also be applying somewhere else. We should not assume that they will accept if we make an offer. \n\nMeanwhile, other applicants that, in our opinion, rank just a tad below, have been waiting for weeks. If they ask for more info, there is not much we can say. I try to reply and be transparent, but at that point we just hope that they are patient and remain available if things don’t work out. \n\nWith this in mind, I would just consider those radio silences as a possibility that may or may not realize. I know it’s not great. Keep applying until someone is a bit more responsive and shortlists you. It is also OK to push a bit and ask, I never felt that those repeated requests were unmotivated, I have always completely understood what these applicants were going through.",
+      "author": "bsaverio",
+      "subreddit": "postdoc",
+      "created_utc": 1713124426,
+      "score": 8,
+      "link_id": "t3_1c3s6ii",
+      "parent_id": "t3_1c3s6ii"
+    }
+  ]
+}

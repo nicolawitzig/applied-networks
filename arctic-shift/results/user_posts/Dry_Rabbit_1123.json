@@ -1,0 +1,296 @@
+{
+  "username": "Dry_Rabbit_1123",
+  "posts": [
+    {
+      "id": "1fwavar",
+      "title": "Matt Shumer \"sorry\" for Reflectio-n 70B\n",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1728078713,
+      "score": 0,
+      "num_comments": 10,
+      "selftext": "> My reproduction of Reflectio-n 70B from Sahil’s dataset and training scripts is now complete, and unfortunately, the model didn’t achieve the benchmarks originally reported. I’m disappointed that this seems to be the final outcome, especially given how promising the results looked when we decided to launch last month and how excited I was to share it with the community. In retrospect, that excitement and launch was premature and I am thankful to the open-source AI community for all of their help in testing and working on it, even if this current iteration of the project may be at its end.  \n   \n> I am going to continue testing the model to see if there’s anything I missed just to make sure we’ve exhausted all options, and even if this model doesn’t live up to its initial hype, I’m still going to continue working on the reflection tuning concept because I believe it will be a leap forward for the technology. I’m sorry it turned out this way and will be more careful as we move forward from this.  \n  \n> Assuming my reproduction is accurate, I’ll share more details on the entire timeline soon.\n\n[https://x.com/mattshumer\\_/status/1842313328166907995](https://x.com/mattshumer_/status/1842313328166907995)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1fwavar/matt_shumer_sorry_for_reflection_70b/"
+    },
+    {
+      "id": "1fwaufb",
+      "title": "Matt Shumer \"sorry\" for Reflection 70B",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1728078647,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1fwaufb/matt_shumer_sorry_for_reflection_70b/"
+    },
+    {
+      "id": "1fuaylu",
+      "title": "Anyone using reward models (RM) like Qwen-2.5-Math-RM-72B?",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1727855958,
+      "score": 6,
+      "num_comments": 3,
+      "selftext": "VLLM recently added support for the Qwen-2.5-Math-RM-72B reward model (https://github.com/vllm-project/vllm/pull/8896).\n\nThe model description on Huggingface states\n\nhttps://huggingface.co/Qwen/Qwen2.5-Math-RM-72B:\n> Qwen2.5-Math-RM-72B is specifically designed to guide the Qwen2.5-Math model throughout the training process by offering more granular feedback on the quality of reasoning and intermediate steps, ultimately facilitating more robust model improvements.\n\nThe user @noamgat endorses reward models in another PR on vllm:\n\nhttps://github.com/vllm-project/vllm/issues/8967:\n> Reward models are an important tool in NLP / AI workflows, especially in agentic flows which use them to verify quality of intermediate outputs, or rank between several attempts at performing a single task.\n\n\nI myself have always thought of reward models as tools for RLHF, but never considered their potential to complement LLMs in practice.\n\nHas anyone here used reward models in conjunction with LLMs? Or on their own? What do you use them for? How well do they work?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1fuaylu/anyone_using_reward_models_rm_like_qwen25mathrm72b/"
+    },
+    {
+      "id": "1dpvv4d",
+      "title": "\"Glazing over security\" - Another blog post by Carlini on the failures of the Glaze team.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "aiwars",
+      "created_utc": 1719506651,
+      "score": 16,
+      "num_comments": 8,
+      "selftext": "",
+      "url": "https://spylab.ai/blog/glaze/"
+    },
+    {
+      "id": "1dkkpwt",
+      "title": "A new paper breaks all existing protections against AI style copying --- Glaze does not protect artists.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "ArtistLounge",
+      "created_utc": 1718913014,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Yesterday, the paper [Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI](https://arxiv.org/abs/2406.12027) got released. It shows that some simple countermeasures can completely disable art protection tools like Glaze.\n\nI'd like to raise awareness among artists that unfortunately, AI protection tools like Glaze do not offer lasting protection against AI style copying. More important, they likely never will, because of the crucial first-mover disadvantage: **Once an artist publishes an image, it's out and cannot be modified.** Therefore, AI art thieves will always have a technical advantage over artists.\n\n\\[Disclaimer: I'm one of the authors of the paper, AMA!\\]",
+      "url": "https://www.reddit.com/r/ArtistLounge/comments/1dkkpwt/a_new_paper_breaks_all_existing_protections/"
+    },
+    {
+      "id": "1dkglh4",
+      "title": "New paper: Off-the-shelf tools can completely disable Glaze protection against AI --- artists vulnerable.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "ArtistLounge",
+      "created_utc": 1718902675,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "/r/StableDiffusion/comments/1dju6jb/new_paper_offtheshelf_tools_can_completely/"
+    },
+    {
+      "id": "1dju6jb",
+      "title": "New paper: Off-the-shelf tools can completely disable Glaze finetuning protection --- artists vulnerable.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1718831475,
+      "score": 97,
+      "num_comments": 33,
+      "selftext": "# Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI\n\n\n\nPaper: [https://arxiv.org/abs/2406.12027](https://arxiv.org/abs/2406.12027)  \n  \nCode is publicly available: [https://github.com/ethz-spylab/robust-style-mimicry](https://github.com/ethz-spylab/robust-style-mimicry)\n\nDigestible Twitter thread: [https://x.com/florian\\_tramer/status/1803455275644432791](https://x.com/florian_tramer/status/1803455275644432791)\n\nMain figure from the paper:\n\n[Figure 1: Artists are vulnerable to style mimicry from generative models finetuned on their art.Existing protection tools add small perturbations to published artwork to prevent mimicry \\(Shan et al.,2023a; Liang et al., 2023; Van Le et al., 2023\\). However, these protections fail against robust mimicrymethods, giving a false sense of security and leaving artists vulnerable. Artwork by @nulevoy \\(StasVoloshin\\), reproduced with permission.](https://preview.redd.it/mw7mzwm8gl7d1.png?width=2012&format=png&auto=webp&s=0120cbcfe591dd71dbbfa53aa7f8bf7965c85381)\n\nDisclaimer: I'm one of the authors. AMA :)",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1dju6jb/new_paper_offtheshelf_tools_can_completely/"
+    },
+    {
+      "id": "1djnyrw",
+      "title": "Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "aiArt",
+      "created_utc": 1718815908,
+      "score": 4,
+      "num_comments": 2,
+      "selftext": "[https://arxiv.org/abs/2406.12027](https://arxiv.org/abs/2406.12027)\n\n\n\nThis is a paper that shows how one can easily circumvent existing finetuning protections like Glaze with off-the-shelf tools. \\[Disclaimer: I'm one of the authors. AMA :)\\]\n\n  \nThere's a digestible Twitter thread on the paper here:\n\n[https://x.com/florian\\_tramer/status/1803455275644432791](https://x.com/florian_tramer/status/1803455275644432791)\n\n  \nMain Figure from the paper:\n\nhttps://preview.redd.it/eeml4izy5k7d1.png?width=2053&format=png&auto=webp&s=f840b048e12879873338b63c1c7cdf713f1d98bf\n\nCode is available online: [https://github.com/ethz-spylab/robust-style-mimicry](https://github.com/ethz-spylab/robust-style-mimicry)",
+      "url": "https://www.reddit.com/r/aiArt/comments/1djnyrw/adversarial_perturbations_cannot_reliably_protect/"
+    },
+    {
+      "id": "1djhz96",
+      "title": "Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718800216,
+      "score": 42,
+      "num_comments": 20,
+      "selftext": "",
+      "url": "https://arxiv.org/abs/2406.12027"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lvhuw6j",
+      "body": "Where did you see that?",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1730797701,
+      "score": 5,
+      "link_id": "t3_1gjzd1i",
+      "parent_id": "t1_lvhk79h"
+    },
+    {
+      "id": "ltx66p7",
+      "body": "For counting tokens, I recommend https://tiktokenizer.vercel.app/. It gives you an exact count and let's you choose the model. Not sure if it leaks the data, though.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1729981534,
+      "score": 5,
+      "link_id": "t3_1gcvehn",
+      "parent_id": "t3_1gcvehn"
+    },
+    {
+      "id": "ls1tcqp",
+      "body": "please make use of punctuation in future comments.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1729005439,
+      "score": 37,
+      "link_id": "t3_1g43eed",
+      "parent_id": "t1_ls1ix3a"
+    },
+    {
+      "id": "lovmw5c",
+      "body": "Hi Matt! With \"external benchmarks\" I meant \"evaluations of Molmo from third parties\". \n\n  \nTable 1 seems to only list multimodal benchmarks. With \"text-only\" I meant benchmarks like MMLU, IFEval, Zebra Logic Bench, etc.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1727282085,
+      "score": 6,
+      "link_id": "t3_1fp5gut",
+      "parent_id": "t1_lov623b"
+    },
+    {
+      "id": "lov25a6",
+      "body": "Any external benchmarks yet? Especially on text-only data?",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1727275559,
+      "score": 4,
+      "link_id": "t3_1fp5gut",
+      "parent_id": "t3_1fp5gut"
+    },
+    {
+      "id": "l9di3j3",
+      "body": "1. The latter. Generally, in adversarial machine learning, the one who moves first is always at a disadvantage. In this case, artists who try to protect their images are the ones who move first. Therefore, we expected to find \\*some\\* way of breaking these protections. But it took us a couple weeks of trial and error to discover the best-performing method in the paper (Noisy Upscaling). \n\n  \n2. We use SD 2.1 for consistency with prior work: All protections that we survey run studies on SD 2.1. But we definitely expect results to generalize over different diffusion models.\n\n  \n3. I have not yet looked at Nightshade, but will add it to my list and get back to you with my thoughts!\n\n\n\n> this  sub's viewpoint on these \"protections.\"\n\nI'm new to this sub , curious to hear what is the general sentiment here towards tools like Glaze, Mist, etc?",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1718834729,
+      "score": 48,
+      "link_id": "t3_1dju6jb",
+      "parent_id": "t1_l9dcm4x"
+    },
+    {
+      "id": "l9cpyzz",
+      "body": "Disclaimer: I'm one of the authors. AMA :)",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718824976,
+      "score": 6,
+      "link_id": "t3_1djhz96",
+      "parent_id": "t3_1djhz96"
+    },
+    {
+      "id": "l9bz3ff",
+      "body": "Main figure from the paper:\n\nhttps://preview.redd.it/rgrghk2a6k7d1.png?width=2053&format=png&auto=webp&s=f70bce1bab032d3c4dd87095eb6616f7df76b3f8",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "aiArt",
+      "created_utc": 1718815949,
+      "score": 1,
+      "link_id": "t3_1djnyrw",
+      "parent_id": "t3_1djnyrw"
+    },
+    {
+      "id": "l9atst7",
+      "body": "Code's also available online:\n\n[https://github.com/ethz-spylab/robust-style-mimicry](https://github.com/ethz-spylab/robust-style-mimicry)",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718800948,
+      "score": 9,
+      "link_id": "t3_1djhz96",
+      "parent_id": "t3_1djhz96"
+    },
+    {
+      "id": "l9at2ux",
+      "body": "Main figure from the paper:\n\nhttps://preview.redd.it/be464dtnwi7d1.png?width=2719&format=png&auto=webp&s=27db6c2499fd9f54acd72db5929c4cf8f1e0f05a",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718800624,
+      "score": 14,
+      "link_id": "t3_1djhz96",
+      "parent_id": "t3_1djhz96"
+    },
+    {
+      "id": "l917qo2",
+      "body": "Interesting! Do you have any data / anecdotal experience on the reliability of your error-tolerant parser with common chat APIs? Also, I guess this depends on how well you craft your prompt to make the model adhere to your format?",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718647190,
+      "score": 1,
+      "link_id": "t3_1di2r2x",
+      "parent_id": "t1_l910n7h"
+    },
+    {
+      "id": "l9145vt",
+      "body": "While you're at it, there's also lm-format-enforcer ;)",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718646029,
+      "score": 3,
+      "link_id": "t3_1di2r2x",
+      "parent_id": "t1_l912w5f"
+    },
+    {
+      "id": "l910wwq",
+      "body": "This overview is missing SGLang, neat otherwise.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718644943,
+      "score": 3,
+      "link_id": "t3_1di2r2x",
+      "parent_id": "t3_1di2r2x"
+    },
+    {
+      "id": "l90zuzl",
+      "body": "Great stuff! How does BAML manage to get structured output from proprietary APIs like OpenAI? Afaik, this is a rather fundamental limitation of Outlines.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718644595,
+      "score": 2,
+      "link_id": "t3_1di2r2x",
+      "parent_id": "t3_1di2r2x"
+    },
+    {
+      "id": "l8n3l89",
+      "body": "Do you have any intuition or explanation for the superior benchmark performance?",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1718400328,
+      "score": 8,
+      "link_id": "t3_1dfzkh3",
+      "parent_id": "t3_1dfzkh3"
+    },
+    {
+      "id": "kpwt2ya",
+      "body": "Hi everyone! I talked to someone who got accepted, and he told me of the following necessary condition to get accepted:\n\n**You need endorsements by at least three different ETH AI Center professors.**\n\nEndorsement means *\"I would like to hire this PhD student\".*\n\n*\"I would like to interview this PhD student\"* is not enough.\n\nI hope this information is helpful for future applicants.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "ethz",
+      "created_utc": 1707646797,
+      "score": 2,
+      "link_id": "t3_197bjcy",
+      "parent_id": "t3_197bjcy"
+    },
+    {
+      "id": "koexonc",
+      "body": "Just got rejected too.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "ethz",
+      "created_utc": 1706780647,
+      "score": 1,
+      "link_id": "t3_197bjcy",
+      "parent_id": "t1_kjuhuj9"
+    },
+    {
+      "id": "kjizuha",
+      "body": "Got in, but no fellowship.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "EPFL",
+      "created_utc": 1706202461,
+      "score": 1,
+      "link_id": "t3_19dne5b",
+      "parent_id": "t1_kjivyp8"
+    },
+    {
+      "id": "kj2fh75",
+      "body": "Mixtral doesn't have a system prompt.",
+      "author": "Dry_Rabbit_1123",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1705944553,
+      "score": 5,
+      "link_id": "t3_19cz32i",
+      "parent_id": "t1_kj2bvwn"
+    }
+  ]
+}

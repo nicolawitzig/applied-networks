@@ -1,0 +1,378 @@
+{
+  "username": "mlgngrlbs",
+  "posts": [
+    {
+      "id": "1du6ohp",
+      "title": "Where do you \"draw the line\" between Admin and Developer Tasks?",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1719984452,
+      "score": 16,
+      "num_comments": 34,
+      "selftext": "There was a recent thread about BA/Admin/Dev (https://www.reddit.com/r/salesforce/comments/1drefrk/are\\_the\\_bsaadmin\\_dev\\_roles\\_all\\_going\\_to\\_merge/) and the consensus seemed to me that Developer Tasks = Coding.\n\nThis is not how I looked at this in the past and I wanted to ask around how the community sees this. \n\nIn my opinion, flows are low code development so you are a developer if that is your main job. For sure not a senior one, but I would not expect an Admin to spend the main part of their day creating automation based on business requirements. \n\nTo me, Admin tasks are more on the configuration of the platform (Lead Assignment Rules, eMail alerts, etc.) rather than creating new solutions.\n\nIs my view of the Admin tasks too narrow?",
+      "url": "https://www.reddit.com/r/salesforce/comments/1du6ohp/where_do_you_draw_the_line_between_admin_and/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m0vtp95",
+      "body": "I believe you can register later as long as you have your efforts documented. Not providing the documentation of your job search will lead to a longer waiting period before you receive the money.",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1733586787,
+      "score": 1,
+      "link_id": "t3_1h8q8ar",
+      "parent_id": "t1_m0vnf3l"
+    },
+    {
+      "id": "m0vfu2i",
+      "body": "I get where you are coming from. A lot of Swiss people treat going to the RAV like something which is super demeaning and will force you to take a low wage job. My personal experience was okay. RAV was not very helpful but also not pushy. I guess they will get pushier the longer you are unemployed. They made me take a course which sounded useless but was quite alright. I still use the CV template I made there.\n\nI would recommend that you contact them immediately and document all efforts you are undertaking to get a new job. Your are required to search for a new job as soon as you know that your old contract is terminated. If you were to start only once you are unemployed, you will get cuts to your unemployment money.",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1733581987,
+      "score": 2,
+      "link_id": "t3_1h8q8ar",
+      "parent_id": "t3_1h8q8ar"
+    },
+    {
+      "id": "lzdd0ml",
+      "body": "At least for France and Germany, the issue is social security contributions.",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1732775785,
+      "score": 28,
+      "link_id": "t3_1h1psba",
+      "parent_id": "t3_1h1psba"
+    },
+    {
+      "id": "lyfitfj",
+      "body": "Mir händ letdschends öises Huus gechauft. Mir händ mehr Uufwand daruuf verwändet ä Bank zfinde die dä Priis finanziert als der Priis zu verhandle. Am Ende isch der Bsitzer massiv im Vorteil.",
+      "author": "mlgngrlbs",
+      "subreddit": "schwiiz",
+      "created_utc": 1732290839,
+      "score": 1,
+      "link_id": "t3_1gx3fan",
+      "parent_id": "t3_1gx3fan"
+    },
+    {
+      "id": "lvlayib",
+      "body": "Since you asked, some good places in Olten: I think, the Flügelrad has the best Cordon Bleu in Switzerland. Verena has excellent vegatarian food. Potala has great vegetarian Momos. ",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1730841851,
+      "score": 5,
+      "link_id": "t3_1gkg5ea",
+      "parent_id": "t1_lvl6m6t"
+    },
+    {
+      "id": "lsdmoqv",
+      "body": "Not Coperet...",
+      "author": "mlgngrlbs",
+      "subreddit": "ethz",
+      "created_utc": 1729179541,
+      "score": 1,
+      "link_id": "t3_1g5kdvv",
+      "parent_id": "t3_1g5kdvv"
+    },
+    {
+      "id": "llibg6f",
+      "body": "https://help.salesforce.com/s/articleView?id=sf.perm_user_access_policies.htm&type=5",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1725475612,
+      "score": 2,
+      "link_id": "t3_1f8kkqx",
+      "parent_id": "t1_llglznc"
+    },
+    {
+      "id": "llf843i",
+      "body": "Permission Sets are designed for this. Less troublesome than deploying the complete profile. Also FLS will move completely to permission sets, so you have less technical debt this way.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1725426415,
+      "score": 4,
+      "link_id": "t3_1f8kkqx",
+      "parent_id": "t3_1f8kkqx"
+    },
+    {
+      "id": "like593",
+      "body": "I wondered why there where so many ads for this on YouTube. Now I know...",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1723903602,
+      "score": 19,
+      "link_id": "t3_1eui7t3",
+      "parent_id": "t3_1eui7t3"
+    },
+    {
+      "id": "lc04289",
+      "body": "What's the issue with this? It's using a feature as intended...",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1720330683,
+      "score": 6,
+      "link_id": "t3_1dx5ds3",
+      "parent_id": "t3_1dx5ds3"
+    },
+    {
+      "id": "lae3rzc",
+      "body": "Thank you! We were facing the same issues and I was completely stumped.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1719422357,
+      "score": 1,
+      "link_id": "t3_1dove3g",
+      "parent_id": "t1_lacgxkm"
+    },
+    {
+      "id": "l8pu6yi",
+      "body": "Until after I watched my first Jorbs video",
+      "author": "mlgngrlbs",
+      "subreddit": "slaythespire",
+      "created_utc": 1718454857,
+      "score": 8,
+      "link_id": "t3_1dgg9t5",
+      "parent_id": "t3_1dgg9t5"
+    },
+    {
+      "id": "l5lcb6c",
+      "body": "I heard from a friend that he quit the hiring process due to how bad it was.\n\n\nAnother friend works there and he says that the culture is bad but he plans to stick around for a few more years to be qualified for a more senior position.",
+      "author": "mlgngrlbs",
+      "subreddit": "askswitzerland",
+      "created_utc": 1716630088,
+      "score": 3,
+      "link_id": "t3_1d03ta0",
+      "parent_id": "t3_1d03ta0"
+    },
+    {
+      "id": "l4uv2vl",
+      "body": "I think you have to buy the ticket Milan-Chiasso on the homepage of SBB. International tickets cannot be bought on the App.",
+      "author": "mlgngrlbs",
+      "subreddit": "askswitzerland",
+      "created_utc": 1716201356,
+      "score": 4,
+      "link_id": "t3_1cwc6kp",
+      "parent_id": "t3_1cwc6kp"
+    },
+    {
+      "id": "l3wanwu",
+      "body": "Happy to hear that it worked out for you. I can only speak from my personal experience and not much has changed in my bubble.\n\nI have heard the stories that big pharma companies were moving towards MSc instead of PhD 7 years ago and at least from my experience not much has changed.\n\nRegarding your points, I see things differently but I am biased.\n\na)+c) You do not hire someone with a PhD for the chemical knowledge they acquired during their PhD studies, except for niche applications like route finding. The knowledge they acquired in their BSc/MSc is sufficient, as you pointed out. You hire them for the proven ability to independently acquire knowledge and execute on it. Also, a PhD graduate is in their late 20s, early 30s. You make them sound like boomers :)\n\nb) Where I work, a PhD means a pay increase of about 20% in the starting salary. Not nothing but certainly not economically viable if you consider the additional years at uni.",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1715629368,
+      "score": 1,
+      "link_id": "t3_1cqwtr3",
+      "parent_id": "t1_l3w4u9n"
+    },
+    {
+      "id": "l3umjtj",
+      "body": "Chemistry is a special case. A MSc in Chemistry is not a great qualification to look for a job because you compete with PhD chemists.",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1715608359,
+      "score": 7,
+      "link_id": "t3_1cqwtr3",
+      "parent_id": "t1_l3u6fm0"
+    },
+    {
+      "id": "l3t97ow",
+      "body": "The millions are mailing lists which they likely bought somewhere else. The article says that there were \"tens of thousands\" subscriber accounts exposes. This seems more reasonable.",
+      "author": "mlgngrlbs",
+      "subreddit": "technology",
+      "created_utc": 1715578008,
+      "score": 32,
+      "link_id": "t3_1cqou2f",
+      "parent_id": "t1_l3t3keu"
+    },
+    {
+      "id": "l394e5h",
+      "body": "Is DevOps Center an option for you? https://help.salesforce.com/s/articleView?id=sf.devops_center_overview.htm&type=5",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1715241635,
+      "score": -1,
+      "link_id": "t3_1cnrrzk",
+      "parent_id": "t3_1cnrrzk"
+    },
+    {
+      "id": "l391cwo",
+      "body": "I just realized that my motivational songs are not that big on complex lyrics, but I wanted to share them anyway. I guess the beat is what gets me motivated.\n\nWorkout: [Pumping Iron Power](https://www.youtube.com/watch?v=qnzurkSGBCs) or [Pump It](https://www.youtube.com/watch?v=OnzkhQsmSag)\n\nGeneral Psych Up: [Here comes the Pain Train](https://www.youtube.com/watch?v=6lOqgFu7XJw) or [Voyage](https://www.youtube.com/watch?v=sl_pxCAcJz4)",
+      "author": "mlgngrlbs",
+      "subreddit": "AskMen",
+      "created_utc": 1715239293,
+      "score": 2,
+      "link_id": "t3_1cnll5f",
+      "parent_id": "t3_1cnll5f"
+    },
+    {
+      "id": "l2pqs7l",
+      "body": "Lol... you act as if you are paid to build your network on the companies dime.\n\nThis is exactly what Salesforce is meant to do. Risk management for the company in case the Sales team leaves.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1714930732,
+      "score": 16,
+      "link_id": "t3_1ckweyb",
+      "parent_id": "t3_1ckweyb"
+    },
+    {
+      "id": "l2cqr1i",
+      "body": "You can change the label of the columns by creating a custom report for the required object.\nhttps://help.salesforce.com/s/articleView?id=000382735&type=1",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1714710766,
+      "score": 4,
+      "link_id": "t3_1cizit8",
+      "parent_id": "t3_1cizit8"
+    },
+    {
+      "id": "l17x77u",
+      "body": "I just checked. You would not be breaking the law for going over the allowed weekly work hours. It is the duty of the employer to check whether you are employed somewhere else.\n\n[https://www.seco.admin.ch/seco/de/home/Publikationen\\_Dienstleistungen/Publikationen\\_und\\_Formulare/Arbeit/Arbeitsbedingungen/Merkblatter\\_und\\_Checklisten/merkblatt-mehrfachbeschaeftigung-beim-gleichen-bzw--bei-mehreren.html](https://www.seco.admin.ch/seco/de/home/Publikationen_Dienstleistungen/Publikationen_und_Formulare/Arbeit/Arbeitsbedingungen/Merkblatter_und_Checklisten/merkblatt-mehrfachbeschaeftigung-beim-gleichen-bzw--bei-mehreren.html)\n\nHowever, I don't know what the situation is if you lie about this to any of your employers.",
+      "author": "mlgngrlbs",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714061498,
+      "score": 2,
+      "link_id": "t3_1ccpeqq",
+      "parent_id": "t3_1ccpeqq"
+    },
+    {
+      "id": "kyskenb",
+      "body": "We discussed the plan with several banks while we were chosing our mortage partner. All of them said it was possible. We talked to ZKB, Baloise and the Alternative Bank. The estimates for the increase in value ranged from 50% to 66% of the renovation costs. \n\nFull disclaimer: We are not done renovating, so no reevaluation has taken place.",
+      "author": "mlgngrlbs",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1712681833,
+      "score": 1,
+      "link_id": "t3_1bzkstj",
+      "parent_id": "t1_kysgozn"
+    },
+    {
+      "id": "kys2nc6",
+      "body": "We bought our house and told our bank that we plan to rennovate so that we do not have to pay for the amortization. They told us to inform them as soon as we are done so that they can reevaluate the house.",
+      "author": "mlgngrlbs",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1712675712,
+      "score": 2,
+      "link_id": "t3_1bzkstj",
+      "parent_id": "t3_1bzkstj"
+    },
+    {
+      "id": "kusq3uz",
+      "body": "I would say that I misstyped and meant Ca instead of Co",
+      "author": "mlgngrlbs",
+      "subreddit": "chemistry",
+      "created_utc": 1710395582,
+      "score": 21,
+      "link_id": "t3_1beduot",
+      "parent_id": "t3_1beduot"
+    },
+    {
+      "id": "kqpk6zh",
+      "body": "We implemented pdfbutler this year. They are considerably cheaper than Conga. Their service team was great during our implementation.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1708102883,
+      "score": 2,
+      "link_id": "t3_1arvo3k",
+      "parent_id": "t3_1arvo3k"
+    },
+    {
+      "id": "kqpk01u",
+      "body": "Be careful - S-Docs has some limitations when it comes to special characters. We had to stop our S-Docs project because formatting got messed up with special characters.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1708102816,
+      "score": 2,
+      "link_id": "t3_1arvo3k",
+      "parent_id": "t1_kqmfv7x"
+    },
+    {
+      "id": "kqjjks6",
+      "body": "Well I guess its of to Southern Europe then... 10kCHF/year not unrealistic. For instance, an insurance for the house can cost 1kCHF/year. Otherwise you run the risk that you lose everything in a fire.",
+      "author": "mlgngrlbs",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1708010136,
+      "score": 1,
+      "link_id": "t3_1arbmz8",
+      "parent_id": "t1_kqjhj76"
+    },
+    {
+      "id": "kqjh87l",
+      "body": "If you don't maintain your property it will decrease in value or at least not increase. \nYou were asking about the financial implications, so I assumed that you want the house to increase in value. Also, if your do not maintain e.g. your heater, it will break much sooner than if its properly checked by a professional.",
+      "author": "mlgngrlbs",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1708009251,
+      "score": 1,
+      "link_id": "t3_1arbmz8",
+      "parent_id": "t1_kqiy1p9"
+    },
+    {
+      "id": "kqil2jf",
+      "body": "Purely looking on capital gains it is unlikely to be better than investing. If you are planning to withdraw 200k, then I assume the mortgage will be 800k.\n- You will have to pay back 133k over the next 15 years. \n- You will have to pay interest on the mortgage.\n- You will have to pay for the maintenace of the house (1-3% of the value of the house)",
+      "author": "mlgngrlbs",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1707992784,
+      "score": 7,
+      "link_id": "t3_1arbmz8",
+      "parent_id": "t3_1arbmz8"
+    },
+    {
+      "id": "kqaa7z1",
+      "body": "Salesforce relies heavily on a network of implementation partners. For any new org, I think it is almost mandatory to have a consultant to support you.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1707856496,
+      "score": 61,
+      "link_id": "t3_1aq3l0f",
+      "parent_id": "t3_1aq3l0f"
+    },
+    {
+      "id": "kj1sq21",
+      "body": "Show him this picture: https://www.reddit.com/r/funny/comments/zk9vf/unbearable_problems/ it's a corny pun but it made someone laugh in my old lab",
+      "author": "mlgngrlbs",
+      "subreddit": "chemistry",
+      "created_utc": 1705936777,
+      "score": 8,
+      "link_id": "t3_19cwq0j",
+      "parent_id": "t3_19cwq0j"
+    },
+    {
+      "id": "kipqn77",
+      "body": "If (and that is a strong if) you find a suitable piece of land, you will require a permit for the construction. That means plans made by a professional. Electrical installations will have to be checked by a professional as well. \nFixing up an old house might be easier, since you generally don't need permits for interior work which does not increase the living space.\n\nImo, the biggest issue will be the land. There is a shortage of housing almost everywhere. If you want to match the offer of a professional developer, you will have to reach deep into your pockets.",
+      "author": "mlgngrlbs",
+      "subreddit": "Switzerland",
+      "created_utc": 1705738884,
+      "score": 11,
+      "link_id": "t3_19b326l",
+      "parent_id": "t3_19b326l"
+    },
+    {
+      "id": "kicm88y",
+      "body": "I had flow components randomly break before (looking exactly the same as your screenshot) but not with the global constants. Flow builder has really become buggier with the last release.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1705531052,
+      "score": 3,
+      "link_id": "t3_1999epw",
+      "parent_id": "t3_1999epw"
+    },
+    {
+      "id": "kh0w35z",
+      "body": "If the target is a fixed value, you can simply add a reference line to a chart. I guess the best chart would be a line chart since these can be cumulative and show the increase over time.",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1704786762,
+      "score": 2,
+      "link_id": "t3_192413a",
+      "parent_id": "t1_kh0ng7o"
+    },
+    {
+      "id": "kh0kchi",
+      "body": "Isn't the pipeline just the sum of all open Opportunities?",
+      "author": "mlgngrlbs",
+      "subreddit": "salesforce",
+      "created_utc": 1704779299,
+      "score": 1,
+      "link_id": "t3_192413a",
+      "parent_id": "t3_192413a"
+    }
+  ]
+}

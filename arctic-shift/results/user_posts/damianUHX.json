@@ -1,0 +1,4413 @@
+{
+  "username": "damianUHX",
+  "posts": [
+    {
+      "id": "1gab7cp",
+      "title": "I just completed Quest 64 -- It's not only bad.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729691859,
+      "score": 82,
+      "num_comments": 59,
+      "selftext": "I just completed Quest 64. I wonder why I played through the whole game. In most parts the game is terrible, but it's not only bad. My thoughts:\n\nThe bad things first:  \n\n* The landscapes are bland, No detail anywhere. \n* Often I could not find out where I came from because all looks the same. \n* The game is unbalanced, there are magics that are useless where others are overpowered. \n* Too few hints where to go, I wandered around a lot. There's no deep tactic in fights. \n* The always same 3 spells work for everything in the game. Too many random encounters. \n\nBut somehow I liked it because it does things differently than other games:\n\n* The idea of the fighting system is interesting, as it mixes in the environment and some realtime elements.  \n* No cash or shops, just people who give you items for free. \n* Different level-up system. It gives you much freedom what elements to power up.  \n* The only  RPG with N64 Graphics. They have some charm.\n\nWhen you read a walkthrough the game can be quite enjoyable:\n\n* Look at the maps. So you can minimize the random battles. \n* Know what to power up, so you don't have to grind.\n\nI started to use a walkthrough after about 30% of the game. If I started using it right from the beginning it could have saved me a lot of stupid wandering around and grinding. The game can then be completed in around 6 hours which makes it quite entertaining.",
+      "url": "https://www.reddit.com/r/n64/comments/1gab7cp/i_just_completed_quest_64_its_not_only_bad/"
+    },
+    {
+      "id": "1ew855g",
+      "title": "Do you consider Einhänder as a timeless masterpiece?",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1724089529,
+      "score": 36,
+      "num_comments": 28,
+      "selftext": "I've been playing Einhänder from time to time. It was never one of my all time favorite shoot 'em ups, though there are many outstanding qualities the game has. I think that Square knows a lot about making good games but not specifically about shmups. My thoughts:\n\nThe soundtrack is outstanding. Every track fits the scene and offers something memorable.  \n\nThe graphics have a good unique art style. Great use of the camera. It's a pleasure to watch each level. I miss some 2d elements/textures like more detailed skies.\n\nThe levels has some very interesting patterns, especially the bosses which all require different tactics.\n\nThe bullet and enemy patterns have less depth as other games. In many places I think the patterns are quite uninspired.\n\nThe visibility of bullets is not good. I often get hit by bullets I didn't see. There's often no warning when enemies shoot.\n\nThe extra weapons are diverse and add some tactics but the collecting and switching is not that intuitive. I often collect the wrong weapon reseting all my collected ammo.\n\nOverall a very good game imo. What are your thoughts?\n\n",
+      "url": "https://www.reddit.com/r/shmups/comments/1ew855g/do_you_consider_einhänder_as_a_timeless/"
+    },
+    {
+      "id": "1euejev",
+      "title": "Please destroy my rhythm bullet hell",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723890399,
+      "score": 18,
+      "num_comments": 11,
+      "selftext": "",
+      "url": "https://v.redd.it/zlpvoolza7jd1"
+    },
+    {
+      "id": "1etr9we",
+      "title": "Please destroy the Steam page of my rhythm bullet hell game",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1723820938,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "",
+      "url": "https://store.steampowered.com/app/2202400/SoundStorm/"
+    },
+    {
+      "id": "1etqvjj",
+      "title": "Please destroy my bullet hell rhythm game",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723820023,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://www.youtube.com/watch?v=80npcUYmapc"
+    },
+    {
+      "id": "1etokls",
+      "title": "SoundStorm: Rhythm Bullet Hell",
+      "author": "damianUHX",
+      "subreddit": "WebGames",
+      "created_utc": 1723814290,
+      "score": 4,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://soundstorm.uhx.ch/"
+    },
+    {
+      "id": "1dv48hn",
+      "title": "Sharing my webapp  that does 2 simple image manipulation tasks I repeatedly needed for creating assets for my game. Maybe it's helpful for you as well.",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1720090914,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "* Split the image in 4 pieces and rearrange them. So you can glue the borders together to make infinite repeating textures.  \n\n\n\n[Before](https://preview.redd.it/yuwr6wqyfhad1.png?width=300&format=png&auto=webp&s=3cacbd684b47638f6728abdcacfc7c48fc1cd46c)\n\n[After](https://preview.redd.it/7xutbm5zfhad1.png?width=300&format=png&auto=webp&s=674de1c1a265c714630b9a539dcfba0c095a729c)\n\n* Transform a normalmap to an lighting-overlay. This can be used to make animations in Spine Animation look more plastic.   \n\n\n\n[Before](https://preview.redd.it/r5oy0at4ghad1.png?width=188&format=png&auto=webp&s=7dea994d80d2ec2a7d3ecbfcecc58cb45988fc9c)\n\n[After](https://preview.redd.it/lyptd5x5ghad1.png?width=188&format=png&auto=webp&s=08ba565279754f6e321f254e90ac91ac48b37ceb)\n\n* Please note that if multiple users use this app at the same time uploaded images can be overwritten by others. In very rare cases you will see a image from someone else manipulated instead of your own. In this case: Just try again.\n\n  \nYou can also host this app on your own server. The source code is public domain and can be found [here](https://github.com/damianuhx/image-manipulation).",
+      "url": "https://www.reddit.com/r/IndieDev/comments/1dv48hn/sharing_my_webapp_that_does_2_simple_image/"
+    },
+    {
+      "id": "1din8jn",
+      "title": "I always thought these dozens of capsule toy machines in Niaowu look out of place. But this photo is real.",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1718705951,
+      "score": 35,
+      "num_comments": 5,
+      "selftext": "",
+      "url": "https://i.redd.it/6fn1f8j63b7d1.jpeg"
+    },
+    {
+      "id": "1d5k5hc",
+      "title": "A Marathon Infinity scenario I made 24 years ago",
+      "author": "damianUHX",
+      "subreddit": "Marathon",
+      "created_utc": 1717238257,
+      "score": 64,
+      "num_comments": 12,
+      "selftext": "I found an old Marathon Infinity scenario I made 24 years ago (must have been 18 years old then)  when cleaning up my old source codes. \n\nYou can download the scenario here: [https://github.com/damianuhx/2048](https://github.com/damianuhx/2048)\n\nIt features 16 stages that are mostly not well polished/tested but feature some very original mechanics and use of the engine. The game is extremely challenging. It can be played with Aleph One and with the level select cheat you can try some of these stages. All the story and explanations are in German.\n\n\n\nThe scenario features:\n\n- Background Music at some places (you need to switch to 8-bit sounds to hear them, 16-bit sounds resulted in too big file sizes when using them for music)\n\n- 6 Bosses: Some enemies where modified to be bosses. They need a special tactic to defeat them (e.g. blasting invincible enemies with the rocket launcher into the lava or shooting switches for elevotor presses)\n\n- A autoscrolling railshooter arcade stage. (turn off running and use sidestep to dodge, physics were modified to make the player move in one direction all the time without the possibility to move)\n\n- Elevator stages where the elevator keeps moving while doors with spawning enemies open.\n\n",
+      "url": "https://www.reddit.com/r/Marathon/comments/1d5k5hc/a_marathon_infinity_scenario_i_made_24_years_ago/"
+    },
+    {
+      "id": "1d1pnum",
+      "title": "Please destroy my second attempt of making a trailer for my rhythm  bullet hell game, too.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716810453,
+      "score": 4,
+      "num_comments": 18,
+      "selftext": "",
+      "url": "https://www.youtube.com/watch?v=Q0Muh6F0qF8"
+    },
+    {
+      "id": "1ceb9l5",
+      "title": "SoundStorm (Bullet Hell Rhythm Game)",
+      "author": "damianUHX",
+      "subreddit": "WebGames",
+      "created_utc": 1714213262,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "",
+      "url": "https://soundstorm.uhx.ch/"
+    },
+    {
+      "id": "1bdt2y4",
+      "title": "Are there different cores for physical adapters for cardridges and for romfiles?",
+      "author": "damianUHX",
+      "subreddit": "AnaloguePocket",
+      "created_utc": 1710340731,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "I got an Analogue Pocket some weeks ago. Great device. \n\nI installed openFPGA on it and I am a bit confused by there cores for physical cardridges and romfiles.\n\nIs it possible that the cores from the openFPGA are differnt ones than the ones that are loaded when I start a cardridge? For instance all those great screen filters when playing a GBA game from cardridge are not there when I boot the GBA core from openFPGA. There is also no Lynx core, though a lynx adapter is sold. So I guess these are different core-sets.\n\nWhy are the cores for physical cardridges not available for use with the roms on my sd card? Is this a licence issue or is the core adapted for physical cardridges and thus can't play romfiles? \n\nDoes anyone know more about this issue?",
+      "url": "https://www.reddit.com/r/AnaloguePocket/comments/1bdt2y4/are_there_different_cores_for_physical_adapters/"
+    },
+    {
+      "id": "1awh3fd",
+      "title": "How to treat a friend with dangerously high drug consume?",
+      "author": "damianUHX",
+      "subreddit": "Drugs",
+      "created_utc": 1708534753,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I Have a friend who takes too much drugs. I'm talking about half a gram of amphetamine every day in combination of several liters of beer and some dl of vodka. And from time to time weed, lsd, ganja and others -- but those are not problematic. \n\nHe's still able to earn his living (at least to some part), but his responsibility is getting worse and worse (he never shows up at an agreed time or completes a promised task) and there's absolutely no intention of changing anything. Though he already jumped out of the window of the 3rd floor twice some years ago and was in hostpital and psychiatry afterwards.\n\nI have no idea how to deal with that situation: On one hand he does not want to know anything about his problems and it's impossible to help him. On the other hand his life might be at risk and somebody should do something.\n\nSo I wanted to ask here what to do in such a situation? Does anyone have a similar story of a friend with similar drug abuse? How would you help him without doing too much? What's the best thing I can do in such a situation?",
+      "url": "https://www.reddit.com/r/Drugs/comments/1awh3fd/how_to_treat_a_friend_with_dangerously_high_drug/"
+    },
+    {
+      "id": "1atuoo7",
+      "title": "Suikoden 2 or Xenogears -- Which should be my next JRPG?",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1708264723,
+      "score": 4,
+      "num_comments": 10,
+      "selftext": "I do not play a lot of games that have a long playtime but from time to time I love to play a JRPG because of the story and setting. The combat system is also important. Because I don't play them very often it usually takes me some months to complete. I played so far through Final Fantasy 7, 9,  10, Tales of Phantasia, Lunar Eternal Blue, Chrono Trigger, Grandia, Panzer Dragoon Saga and I enjoyed all of them. \n\nNow I want to start with a new retro JRPG on the PS1 and most likely it will be either Suikoden 2 or Xenogears. Those seem to be very great games with a lot of fans. Now I'm wondering which one I should choose.\n\nA lot of people name Xenogears as one of the best stories ever with philosophical meaning. For me it's a big plus when I see a meaning in the story. I like the 3d graphics when you can turn the camera and look around. The very long playtime of 50+ hours is not my taste, as I'm not playing too often. So I'm wondering if I will ever complete this game.\n\nSuikoden 2 looks great. The pixel art is outstanding and there seems to be a big variety of scenery and enemies. The game looks very beautiful and made with love. But the world is 2d and generally looks like all the SNES JRPGs. So I miss the technical innovation.\n\nThe combat system of both look solid but nothing special. I like combat systems that are innovative and interesting, they keep me interested in the game. But it should not be too complicated with a lot of items you have to know about. For me it's important that when I did not play the game for some weeks, that I still know where to go and what to do. The more linear the better.\n\nWhat game would you recommend?",
+      "url": "https://www.reddit.com/r/psx/comments/1atuoo7/suikoden_2_or_xenogears_which_should_be_my_next/"
+    },
+    {
+      "id": "1andi60",
+      "title": "What Keywords Would Describe My Position/Skills Best?",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1707561267,
+      "score": 4,
+      "num_comments": 3,
+      "selftext": "I'm in the web development since 10+ years and I always worked for small companies or start-ups that did not have structures with clear responsibilities. I  did everything related to the digital development and ecosystem. As I want to look for a new job I was wondering how I can describe my profile in a few words.  I'm not familiar with the structures of professional IT companies. So I'm wondering  how you would describe my profile in a few words.\n\nI made the frontends and backends of several web applications so could call myself a \"full stack developer\". \n\nI hosted everything and made the server run. (not  much, but I can install and run a LAMP server on linux)\n\nI made and discussed possible solutions with users and stakeholders. I analysed the situation and gathered the information I needed. This conceptional work is usually done by so-called \"project managers\", right?\n\nI made support for everyone that it works. I wrote manuals and explained it to the user. What a supporter usually does. \n\nI made research of the current system and  added custom (3rd party) softwares or hardwares to include them in the IT ecosystem system.\n\nI don't have experience with large scale projects. Unit tests, overengineered OOP, Jira, Docker etc. was never an option for what I did.\n\nHow would you describe my profile in a few words?\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/webdev/comments/1andi60/what_keywords_would_describe_my_positionskills/"
+    },
+    {
+      "id": "199qqsy",
+      "title": "Is your shmup engine time based or position based?",
+      "author": "damianUHX",
+      "subreddit": "shmupdev",
+      "created_utc": 1705586326,
+      "score": 4,
+      "num_comments": 2,
+      "selftext": "I always built my own shmup engines and for me it was always clear, that sprites and background should spawn at a certain time. As everything scrolls automatically everything happens at a gived time. So i set a specific time to every sprite when it should be cast.\n\nWhen I looked at other shmup tutorials or engines they usually worked with positions of objects. Like every other type of game. Sprites spawn when the screen is at a specific position.\n\nThat‘s why I want to ask here what approach did you choose when making your shmup?",
+      "url": "https://www.reddit.com/r/shmupdev/comments/199qqsy/is_your_shmup_engine_time_based_or_position_based/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4ijn2k",
+      "body": "I always felt that the stage has an effect on the number of powerups. The later the stage, the more powerups. But the number of powerups you already collected has an effect, too. Perhaps a mix of both.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1735562516,
+      "score": 1,
+      "link_id": "t3_1hoshe6",
+      "parent_id": "t3_1hoshe6"
+    },
+    {
+      "id": "m3qlrvc",
+      "body": "the only r-type I ever completed.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1735137690,
+      "score": 1,
+      "link_id": "t3_1hlsj4f",
+      "parent_id": "t3_1hlsj4f"
+    },
+    {
+      "id": "m3kvnob",
+      "body": "you can use smartbombs to prevent the chain from being broken.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1735039506,
+      "score": 1,
+      "link_id": "t3_1hkwnuy",
+      "parent_id": "t3_1hkwnuy"
+    },
+    {
+      "id": "m30eac8",
+      "body": "xbox version is better",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734716077,
+      "score": 1,
+      "link_id": "t3_1hil99d",
+      "parent_id": "t1_m2zt422"
+    },
+    {
+      "id": "m2stifw",
+      "body": "The 50/60hz is determined by the genesis. The problem can be the game made for the wrong refresh rate. E.g. when you connect a PAL sega cd to an american genesis and play a pal game that only works in 50hz.",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1734601156,
+      "score": 1,
+      "link_id": "t3_1hh8e55",
+      "parent_id": "t1_m2peve5"
+    },
+    {
+      "id": "m2sbcmo",
+      "body": "yes, on steam. nothing special about my setup, xbox pro controller. on a 576p 32“ crt. (just asking myself: why not using an arcade stick)",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734589325,
+      "score": 2,
+      "link_id": "t3_1hh24xd",
+      "parent_id": "t1_m2opmzw"
+    },
+    {
+      "id": "m2o60y7",
+      "body": "world of illusion in 2 player coop",
+      "author": "damianUHX",
+      "subreddit": "Megadrive",
+      "created_utc": 1734536206,
+      "score": 1,
+      "link_id": "t3_1hga9i0",
+      "parent_id": "t3_1hga9i0"
+    },
+    {
+      "id": "m2o0eur",
+      "body": "I also enjoy this game a lot. Interesting mechanics and good difficulty. Not too overwhelming but also not boring.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734534311,
+      "score": 3,
+      "link_id": "t3_1hh24xd",
+      "parent_id": "t3_1hh24xd"
+    },
+    {
+      "id": "m2bfd0r",
+      "body": "I like saturn 3d graphics",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1734350415,
+      "score": 1,
+      "link_id": "t3_1hfh3le",
+      "parent_id": "t3_1hfh3le"
+    },
+    {
+      "id": "m27xaix",
+      "body": "yes, of course it‘s not that simple and depends on the game and system. but it‘s a good rule if you don‘t want to dive too deep.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734294077,
+      "score": 2,
+      "link_id": "t3_1heiodq",
+      "parent_id": "t1_m26flwt"
+    },
+    {
+      "id": "m26ewmf",
+      "body": "yes, modern consoles are similar to pcs. The older the system, the less input lag.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734276348,
+      "score": 2,
+      "link_id": "t3_1heiodq",
+      "parent_id": "t1_m267atw"
+    },
+    {
+      "id": "m266uun",
+      "body": "yes. the power switch cuts the current. There‘s no standby that keeps the memory.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1734273264,
+      "score": 7,
+      "link_id": "t3_1hetqkn",
+      "parent_id": "t3_1hetqkn"
+    },
+    {
+      "id": "m266ekq",
+      "body": "Yes. A modern computer hardware has billions of transistors in all those high tech chips. This takes some time for the signal to be processed. Compared to the primitive architecture of old 68000 cpus and directly wired input periphals this takes more time. I‘d say that a computer has a minimum of 50ms input lag and a screen 10ms. This is 3 frames more lag. if you compare a game in mame with original hardware or FPGA you will see the difference.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734273080,
+      "score": 3,
+      "link_id": "t3_1heiodq",
+      "parent_id": "t1_m260rg7"
+    },
+    {
+      "id": "m25xipj",
+      "body": "any new system has input lag compared to old arcade pcbs and consoles. but consoles do not always have more input lag than modern pcs.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734269161,
+      "score": 1,
+      "link_id": "t3_1heiodq",
+      "parent_id": "t3_1heiodq"
+    },
+    {
+      "id": "m22b84s",
+      "body": "I think the lack of checkpoints is what made this masterpiece less popular than it could have been. irem gameplay works better with checkpoints.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1734206955,
+      "score": 1,
+      "link_id": "t3_1he33xl",
+      "parent_id": "t3_1he33xl"
+    },
+    {
+      "id": "m1p5ajm",
+      "body": "You can play as sonic and fight the first boss of the boy… Did‘t know that…",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1734014779,
+      "score": 3,
+      "link_id": "t3_1hcf0n1",
+      "parent_id": "t3_1hcf0n1"
+    },
+    {
+      "id": "m1p2c1p",
+      "body": "I played this game multiple times and I don‘t think it‘s that bad. It‘s been a long time but I think I even completed it on the lowest difficulty level and also won fights on normal\n\nYou need to find a way to trick the AI. I remember taking the fighter with the long snaketail that has a jump-attack special move. I think I combined this with the low slide attack. Can‘t remember the details, but it‘s not impossible.",
+      "author": "damianUHX",
+      "subreddit": "SEGA32X",
+      "created_utc": 1734013702,
+      "score": 1,
+      "link_id": "t3_1hcffzp",
+      "parent_id": "t3_1hcffzp"
+    },
+    {
+      "id": "m1og2h4",
+      "body": "I doubt anyone has ever completed the game. The physics are broken. Even the first act is a torture. Sonic is so slow, he can‘t even run uphills.",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1734003963,
+      "score": 5,
+      "link_id": "t3_1hcf0di",
+      "parent_id": "t1_m1nog2m"
+    },
+    {
+      "id": "m1hzztg",
+      "body": "For a beginner I‘d recommend: gradius V ps2, border down for dc.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1733908244,
+      "score": 2,
+      "link_id": "t3_1hbap07",
+      "parent_id": "t3_1hbap07"
+    },
+    {
+      "id": "m1e6ir0",
+      "body": "good game (scrapyard dog)",
+      "author": "damianUHX",
+      "subreddit": "atarilynx",
+      "created_utc": 1733854088,
+      "score": 2,
+      "link_id": "t3_1hayvw4",
+      "parent_id": "t3_1hayvw4"
+    },
+    {
+      "id": "m16kbzf",
+      "body": "Mr. bones (saturn)",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1733746013,
+      "score": 4,
+      "link_id": "t3_1ha09co",
+      "parent_id": "t3_1ha09co"
+    },
+    {
+      "id": "m101rdc",
+      "body": "Ps2 has a nice library: gradius v, r-type final, homura, gigawing generations, gradius V, contra (the second one, forgot the subtitle) are good exclusives. and a lot of ports like the 4 cave shooters, many psikyo games and more. Gradius V (developed by treasure) ist a must play. GET IT!",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1733643412,
+      "score": 1,
+      "link_id": "t3_1h96vnx",
+      "parent_id": "t3_1h96vnx"
+    },
+    {
+      "id": "m0jw04b",
+      "body": "Silpheed and Android Assault are my favorites. Robo aleste is nice but feels unfinished. Keyo is ok, but I‘m missing the gameflow. Lords of thunder is one of my favorite retro shmups of all consoles but the pc engine version is the way to go there because of the better color palette, but it‘s a good port. Sol feace is ok, too, somehow I always come back to it.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1733413172,
+      "score": 3,
+      "link_id": "t3_1h6t9io",
+      "parent_id": "t3_1h6t9io"
+    },
+    {
+      "id": "m0jtqed",
+      "body": "it‘s like the next step in the donpachi series. Imagine donpachi, dodonpachi, daiohjou as evolutions of the genre and you know what to expect from the next title saidaioujou.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1733412443,
+      "score": 2,
+      "link_id": "t3_1h6tchv",
+      "parent_id": "t3_1h6tchv"
+    },
+    {
+      "id": "m008q3f",
+      "body": "A hidden gem!",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1733126391,
+      "score": 3,
+      "link_id": "t3_1h4henu",
+      "parent_id": "t3_1h4henu"
+    },
+    {
+      "id": "lyxlk98",
+      "body": "In the european union CRTs are forbidden due to energy saving issues :-(",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1732554729,
+      "score": 3,
+      "link_id": "t3_1gzm5lm",
+      "parent_id": "t3_1gzm5lm"
+    },
+    {
+      "id": "ly8i6yv",
+      "body": "the music was composed by yuzo koshiro who also made the soundtrack for streets of rage. he will soon launch a new game for the genesis called earthion.",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1732188349,
+      "score": 2,
+      "link_id": "t3_1gvwi1a",
+      "parent_id": "t3_1gvwi1a"
+    },
+    {
+      "id": "ly3qjqw",
+      "body": "vulgus",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1732113140,
+      "score": 2,
+      "link_id": "t3_1gvo97e",
+      "parent_id": "t3_1gvo97e"
+    },
+    {
+      "id": "lxxjll4",
+      "body": "freesound.org",
+      "author": "damianUHX",
+      "subreddit": "indiegames",
+      "created_utc": 1732026821,
+      "score": 3,
+      "link_id": "t3_1gut3fc",
+      "parent_id": "t3_1gut3fc"
+    },
+    {
+      "id": "lxwakcd",
+      "body": "pulseman\ndevil hunter yoko\nspellcaster 2\nmidnight resistance\ngranada\npanorama cotton",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1732003611,
+      "score": 5,
+      "link_id": "t3_1guplmz",
+      "parent_id": "t3_1guplmz"
+    },
+    {
+      "id": "lxkyi2h",
+      "body": "sometimes a magnetic source can cause this.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1731845076,
+      "score": 2,
+      "link_id": "t3_1gt22hu",
+      "parent_id": "t3_1gt22hu"
+    },
+    {
+      "id": "lxhz7pj",
+      "body": "I also don‘t really understand the boss hp system. Even after 20 years of playing it.\n\nI‘m pretty sure that the purple explosions indicate that the enemy is successfully hit. So only when there is a purple explosion your shot hits the enemy at the right spot. The spots can change with the phase.\n\nthe boss in the video with many arms: you need to destroy the arms first. the lowest arm is very hard to shoot because it‘s mostly out of bounds.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1731794318,
+      "score": 3,
+      "link_id": "t3_1gswb7e",
+      "parent_id": "t3_1gswb7e"
+    },
+    {
+      "id": "lxh63cz",
+      "body": "Thats normal. \n\nI think it has to do with the screenrseolutions of those consoles being not the full size of the tv screen.\n\nThe only possibility I know to get rid of this is a external screen shifter device.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1731784788,
+      "score": 1,
+      "link_id": "t3_1gsuiyr",
+      "parent_id": "t3_1gsuiyr"
+    },
+    {
+      "id": "lxh4gsh",
+      "body": "Though post 2000 games may be more elaborate, in the time before was when all the concepts where invented. So I‘d go with the older games. They are more original.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1731784267,
+      "score": 2,
+      "link_id": "t3_1gss1c7",
+      "parent_id": "t3_1gss1c7"
+    },
+    {
+      "id": "lxepho2",
+      "body": "rgb and yuv are both called component. but rgb is not supported anymore in modern tvs.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1731748441,
+      "score": 2,
+      "link_id": "t3_1gshinr",
+      "parent_id": "t1_lxeffv4"
+    },
+    {
+      "id": "lxec80u",
+      "body": "right is better. it has one seperate cable for each color (component, rgb) while the left has all colors in one cable (composite)",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1731739867,
+      "score": 8,
+      "link_id": "t3_1gshinr",
+      "parent_id": "t3_1gshinr"
+    },
+    {
+      "id": "lx88gkr",
+      "body": "in terms of graphics „p 47 aces“ is similar. but the gameplay is medicore.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1731655531,
+      "score": 2,
+      "link_id": "t3_1grjh00",
+      "parent_id": "t3_1grjh00"
+    },
+    {
+      "id": "lx2jy3f",
+      "body": "the 6 button pads are quite sought after and expensive. so the price is ok.",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1731583188,
+      "score": 2,
+      "link_id": "t3_1gqxmke",
+      "parent_id": "t3_1gqxmke"
+    },
+    {
+      "id": "lwyv804",
+      "body": "I also was surprised how great it is. Probably the most precise d-pad ever.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1731527195,
+      "score": 2,
+      "link_id": "t3_1gqej78",
+      "parent_id": "t3_1gqej78"
+    },
+    {
+      "id": "lwwe57h",
+      "body": "RestInPieces",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1731495844,
+      "score": 1,
+      "link_id": "t3_1gphz2a",
+      "parent_id": "t3_1gphz2a"
+    },
+    {
+      "id": "lww8wnk",
+      "body": "I buy every railshooter!",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1731492508,
+      "score": 4,
+      "link_id": "t3_1gq655f",
+      "parent_id": "t3_1gq655f"
+    },
+    {
+      "id": "lwk835e",
+      "body": "https://laseractive.wordpress.com",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1731321572,
+      "score": 5,
+      "link_id": "t3_1goeg02",
+      "parent_id": "t3_1goeg02"
+    },
+    {
+      "id": "lwk7xnb",
+      "body": "you need to recap that thing. It most likely won‘t work anymore without recapping.",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1731321471,
+      "score": 7,
+      "link_id": "t3_1goeg02",
+      "parent_id": "t3_1goeg02"
+    },
+    {
+      "id": "lwk7sqq",
+      "body": "yes, there are about 20 games. even some good ones. rocket coaster, hyperion, road blaster, time gal, triad stone, don quixote, pyramid patrol, jb harold: chicago blues. but they all cost a fortune (between 100$ and 1000$) time gal was even sold for 3000$.",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1731321380,
+      "score": 4,
+      "link_id": "t3_1goeg02",
+      "parent_id": "t1_lwi0zd7"
+    },
+    {
+      "id": "lwk13oo",
+      "body": "this game never hooked on me. the levels are very long and I always feel having taken the wrong weapon.",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1731316810,
+      "score": 1,
+      "link_id": "t3_1gone28",
+      "parent_id": "t3_1gone28"
+    },
+    {
+      "id": "lweb65z",
+      "body": "I think the release informations are not always correct. I thought fifa 96 is pal only. darxide too and pitfall was also released in europe. not 100% sure though.",
+      "author": "damianUHX",
+      "subreddit": "SEGA32X",
+      "created_utc": 1731238324,
+      "score": 1,
+      "link_id": "t3_1gnnmt2",
+      "parent_id": "t3_1gnnmt2"
+    },
+    {
+      "id": "lwe8pzz",
+      "body": "it takes a bit of practise to aim and dodge. remember the pattern, its always the same. when you get close use the light saber as early as you can to inflict as many hits as possible.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1731236775,
+      "score": 1,
+      "link_id": "t3_1gndk4n",
+      "parent_id": "t3_1gndk4n"
+    },
+    {
+      "id": "lw8sfb1",
+      "body": "when seeing those screenshots it‘s hard to believe this game was developed for the saturn… they did‘t even use the color pallette.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1731157996,
+      "score": 2,
+      "link_id": "t3_1gn93jb",
+      "parent_id": "t3_1gn93jb"
+    },
+    {
+      "id": "lw8936v",
+      "body": "pulseman after completing stage 1 on genesis/megadrive.",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1731147056,
+      "score": 3,
+      "link_id": "t3_1gn6hrj",
+      "parent_id": "t3_1gn6hrj"
+    },
+    {
+      "id": "lw824p9",
+      "body": "Quake II",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1731142363,
+      "score": 1,
+      "link_id": "t3_1gmuzz7",
+      "parent_id": "t3_1gmuzz7"
+    },
+    {
+      "id": "lw817bk",
+      "body": "panzer in german can mean tank or also armor. however a dragon is a „drache“. so it‘s not really German.",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1731141741,
+      "score": 2,
+      "link_id": "t3_1gmms2r",
+      "parent_id": "t1_lw67ha9"
+    },
+    {
+      "id": "lw4137w",
+      "body": "it was done by a quite famous japanese keyboard artist who insisted on having the levels done before he finalised the music that its perfect synchronized.",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1731087169,
+      "score": 1,
+      "link_id": "t3_1gmms2r",
+      "parent_id": "t1_lw3zrid"
+    },
+    {
+      "id": "lw3y0g1",
+      "body": "the chinch connector is for the rf signal, not the audio. it can be ignored.",
+      "author": "damianUHX",
+      "subreddit": "SEGA",
+      "created_utc": 1731086274,
+      "score": 1,
+      "link_id": "t3_1gmf2k8",
+      "parent_id": "t1_lw215uu"
+    },
+    {
+      "id": "lw3xa82",
+      "body": "scart connectors pins very often are slightly moved that the connector does not fit anymore. try to find out which pins dont fit into the tv and bend them a little that the connector fits.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1731086063,
+      "score": 10,
+      "link_id": "t3_1gmmf41",
+      "parent_id": "t1_lw3tm4e"
+    },
+    {
+      "id": "lw3watl",
+      "body": "panzer dragoon",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1731085776,
+      "score": 6,
+      "link_id": "t3_1gmms2r",
+      "parent_id": "t3_1gmms2r"
+    },
+    {
+      "id": "lvvqgpf",
+      "body": "The last tree. \n\nBut this was a long time ago and you must be very lucky.",
+      "author": "damianUHX",
+      "subreddit": "SoloDevelopment",
+      "created_utc": 1730979535,
+      "score": 2,
+      "link_id": "t3_1glmumf",
+      "parent_id": "t3_1glmumf"
+    },
+    {
+      "id": "lvi3uzv",
+      "body": "Nights",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1730803684,
+      "score": 27,
+      "link_id": "t3_1gk2m2k",
+      "parent_id": "t3_1gk2m2k"
+    },
+    {
+      "id": "lvhz7i4",
+      "body": "doom 1993 or 2018?",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1730800684,
+      "score": 1,
+      "link_id": "t3_1gjc64o",
+      "parent_id": "t1_lvc5lnt"
+    },
+    {
+      "id": "lvhugo2",
+      "body": "there is a 3rd daytona called „circuit edition“ where the gameplay is proper. It‘s very rare and looks almost identical. but the gameplay is good.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1730797406,
+      "score": 1,
+      "link_id": "t3_1gj5n8v",
+      "parent_id": "t1_lvcwxc2"
+    },
+    {
+      "id": "lvbmnot",
+      "body": "shadows",
+      "author": "damianUHX",
+      "subreddit": "indiegames",
+      "created_utc": 1730712353,
+      "score": 2,
+      "link_id": "t3_1gixsid",
+      "parent_id": "t3_1gixsid"
+    },
+    {
+      "id": "lvbl6dj",
+      "body": "sega rally and daytona championship edition",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1730711300,
+      "score": 2,
+      "link_id": "t3_1gj5n8v",
+      "parent_id": "t3_1gj5n8v"
+    },
+    {
+      "id": "lv5k9h2",
+      "body": "yes. enjoyed mostly games from epyx: california games, electrocop, slime world, chips challenge, gates of zendocon and blue lightning. and scrapyard dog as only non rpyx game that was good. I had also some other non-epyx games that were not as much fun.",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1730626302,
+      "score": 1,
+      "link_id": "t3_1ghxpnu",
+      "parent_id": "t3_1ghxpnu"
+    },
+    {
+      "id": "lv5jtbu",
+      "body": "there are some pal games that are perfectly optimized for 50hz 288p resolution: sega rally and nights for example. they are better on pal.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1730625985,
+      "score": 2,
+      "link_id": "t3_1gieu6z",
+      "parent_id": "t1_lv5jk0o"
+    },
+    {
+      "id": "lv5i9f4",
+      "body": "some animations in the background (eg the cow) would be nice",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1730624887,
+      "score": 1,
+      "link_id": "t3_1gi2npn",
+      "parent_id": "t3_1gi2npn"
+    },
+    {
+      "id": "lv094v1",
+      "body": "sin & punishment",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1730550046,
+      "score": 2,
+      "link_id": "t3_1ghuvlp",
+      "parent_id": "t3_1ghuvlp"
+    },
+    {
+      "id": "luzy0py",
+      "body": "I‘m pretty sure you just need to change the wii‘s resolution in system settings to 480i. This is also what the error message says.\n\nSome games (even european versions) were simply not adapted to pal 50hz 576i resolution because almost every pal tv supports 60hz. in this case the resolution must be switched to 60hz 480i.",
+      "author": "damianUHX",
+      "subreddit": "wii",
+      "created_utc": 1730543783,
+      "score": 2,
+      "link_id": "t3_1ghjcor",
+      "parent_id": "t3_1ghjcor"
+    },
+    {
+      "id": "luzxa0l",
+      "body": "great game. the psx version is not the best but enjoyable. I think in the later stages the fps drops a lot that I switched to the mac version.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1730543296,
+      "score": 2,
+      "link_id": "t3_1ghr00k",
+      "parent_id": "t3_1ghr00k"
+    },
+    {
+      "id": "luoi8cl",
+      "body": "hire an artist.\n\nthe graphics are not apealing. though there are some nice effects. overall it looks like a student used some built in textures and icons from ms paint.\n\nthe game itself does not look too bad though.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1730374948,
+      "score": 11,
+      "link_id": "t3_1ggbdtn",
+      "parent_id": "t3_1ggbdtn"
+    },
+    {
+      "id": "lul2c7c",
+      "body": "sin & punishment",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1730320745,
+      "score": 3,
+      "link_id": "t3_1gfvtw7",
+      "parent_id": "t3_1gfvtw7"
+    },
+    {
+      "id": "luc11hy",
+      "body": "one of my all time favorites: treasures first game with so many ideas… an absolute masterpiece in every way.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1730202399,
+      "score": 6,
+      "link_id": "t3_1geroxh",
+      "parent_id": "t1_lubv2mm"
+    },
+    {
+      "id": "luc0s9t",
+      "body": "Atomic runner chelnov",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1730202281,
+      "score": 1,
+      "link_id": "t3_1geroxh",
+      "parent_id": "t3_1geroxh"
+    },
+    {
+      "id": "luc0r88",
+      "body": "This game is better than it looks!",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1730202268,
+      "score": 1,
+      "link_id": "t3_1geroxh",
+      "parent_id": "t1_lubx9kr"
+    },
+    {
+      "id": "luc0nck",
+      "body": "It may look great but the leveldesign is nowhere near other run snd guns unfortunately.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1730202217,
+      "score": 0,
+      "link_id": "t3_1geroxh",
+      "parent_id": "t1_lubvoff"
+    },
+    {
+      "id": "lu6wrtd",
+      "body": "that‘s normal on pal televisions. the only method I know to avoid that is using an external screen shifter. i.e. an external electronic device .",
+      "author": "damianUHX",
+      "subreddit": "Megadrive",
+      "created_utc": 1730130133,
+      "score": 1,
+      "link_id": "t3_1gdxuk1",
+      "parent_id": "t3_1gdxuk1"
+    },
+    {
+      "id": "lu6vo0h",
+      "body": "Sin & punishment is great, but you need an import adapter.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1730129797,
+      "score": 2,
+      "link_id": "t3_1ge4mmo",
+      "parent_id": "t3_1ge4mmo"
+    },
+    {
+      "id": "lu1098j",
+      "body": "based on actua golf and sega ww soccer: did you try actua soccer?",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1730045755,
+      "score": 3,
+      "link_id": "t3_1gdcxvc",
+      "parent_id": "t3_1gdcxvc"
+    },
+    {
+      "id": "lu100dg",
+      "body": "what about rpgs like grandia?",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1730045677,
+      "score": 6,
+      "link_id": "t3_1gdcxvc",
+      "parent_id": "t3_1gdcxvc"
+    },
+    {
+      "id": "lu0as1g",
+      "body": "The beginning was so great and then there was so much repetitive searching for needles in the hay.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1730037150,
+      "score": 3,
+      "link_id": "t3_1gd8fqm",
+      "parent_id": "t1_lu014d6"
+    },
+    {
+      "id": "ltz36hd",
+      "body": "shadow of the colossus",
+      "author": "damianUHX",
+      "subreddit": "gaming",
+      "created_utc": 1730012188,
+      "score": 2,
+      "link_id": "t3_1gcyqak",
+      "parent_id": "t3_1gcyqak"
+    },
+    {
+      "id": "ltz2eri",
+      "body": "this is indeed very spooky",
+      "author": "damianUHX",
+      "subreddit": "pics",
+      "created_utc": 1730011689,
+      "score": 1,
+      "link_id": "t3_1gczcl1",
+      "parent_id": "t3_1gczcl1"
+    },
+    {
+      "id": "ltn6nud",
+      "body": "the pixel structure of crts looks better for low textures. and there‘s no lag.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729837302,
+      "score": 1,
+      "link_id": "t3_1gbn3rx",
+      "parent_id": "t3_1gbn3rx"
+    },
+    {
+      "id": "ltckt71",
+      "body": "There is actually a good romhack of quest 64. Never tried it myself though.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729694730,
+      "score": 12,
+      "link_id": "t3_1gab7cp",
+      "parent_id": "t1_ltcji6s"
+    },
+    {
+      "id": "ltcj6lt",
+      "body": "Yes, I always welt they needed another 2 years to complete the game. Some doors just don't open until you completed a task somewhere else. How should I know this, it's nowhere indicated. With the walkthrough it's ok.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729694216,
+      "score": 2,
+      "link_id": "t3_1gab7cp",
+      "parent_id": "t1_ltcill1"
+    },
+    {
+      "id": "ltcie08",
+      "body": "Even if you understand that: In narrow caves this sometimes does not work properly and I still went into the wrong direction.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729693962,
+      "score": 1,
+      "link_id": "t3_1gab7cp",
+      "parent_id": "t1_ltchzio"
+    },
+    {
+      "id": "lt2pwd1",
+      "body": "There was the story of someone who left his super nintendo turned on for 30 years because he didnt want to lose his save state.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729546907,
+      "score": 2,
+      "link_id": "t3_1g8tn0s",
+      "parent_id": "t3_1g8tn0s"
+    },
+    {
+      "id": "lszoecl",
+      "body": "Sin & punishment.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1729510830,
+      "score": 1,
+      "link_id": "t3_1g8fdw2",
+      "parent_id": "t3_1g8fdw2"
+    },
+    {
+      "id": "lsuq6mg",
+      "body": "Eigengrau",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1729437839,
+      "score": 2,
+      "link_id": "t3_1g7sfo9",
+      "parent_id": "t3_1g7sfo9"
+    },
+    {
+      "id": "lsu8rz6",
+      "body": "GTA, GTA 2, GTA 3, GTA san andreas, GTA 4, GTA 5.",
+      "author": "damianUHX",
+      "subreddit": "gaming",
+      "created_utc": 1729431693,
+      "score": 1,
+      "link_id": "t3_1g7i8ky",
+      "parent_id": "t3_1g7i8ky"
+    },
+    {
+      "id": "lsu6t56",
+      "body": "Charge and blast\n\nVirtua striker 2 (the last real arcade soccer)\n\nVirtua fighter 3tb\n\nCosmic smash\n\nChuchu rocket (multyplayer) \n\naerowings",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1729430902,
+      "score": 1,
+      "link_id": "t3_1g7cw81",
+      "parent_id": "t3_1g7cw81"
+    },
+    {
+      "id": "lsq6yzo",
+      "body": "I live aerowings in 4 player coop",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1729364562,
+      "score": 1,
+      "link_id": "t3_1g6xokd",
+      "parent_id": "t3_1g6xokd"
+    },
+    {
+      "id": "lsq6txm",
+      "body": "aerowings",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1729364515,
+      "score": 1,
+      "link_id": "t3_1g6xokd",
+      "parent_id": "t3_1g6xokd"
+    },
+    {
+      "id": "lsouk4z",
+      "body": "I also think it‘s a good game concidering the budget.\n\nI personally liked niaowu better than bailu village. simply because the thematic of capsule toys, gambing, restaurants and arcade machienes fit better in a city than a small village somewhere in the mountains you can only reach by walking 2 days by foot. This always seemed out of place to me.",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1729348317,
+      "score": 4,
+      "link_id": "t3_1g6v04w",
+      "parent_id": "t3_1g6v04w"
+    },
+    {
+      "id": "lshfe65",
+      "body": "The game has some qualities that make it an interesting experience: the jumping mechanic where you look down to precicely stomp on an enemy, the complex plattform structures and the only 3d game with high res graphics.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1729228835,
+      "score": 2,
+      "link_id": "t3_1g66hf9",
+      "parent_id": "t3_1g66hf9"
+    },
+    {
+      "id": "lse5ve3",
+      "body": "32x",
+      "author": "damianUHX",
+      "subreddit": "SEGA",
+      "created_utc": 1729185593,
+      "score": 2,
+      "link_id": "t3_1g5mxeo",
+      "parent_id": "t3_1g5mxeo"
+    },
+    {
+      "id": "ls204oh",
+      "body": "I just gave the game a try and stage 13 was unlocked after completing stage 12. I think you encountered some sort of bug or broken rom. Do you use the original cardridge or an everdrive? Try to use a different rom version.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1729007618,
+      "score": 1,
+      "link_id": "t3_1g3hhlq",
+      "parent_id": "t1_ls172a6"
+    },
+    {
+      "id": "ls1501y",
+      "body": "It seems like somy polygons are not loaded. It could be a data problem: cd rom or disc that read corrupt data. Have you tried onother disc or drive or an ODE? If the problem persists it couldbe the ram. I don‘t think it‘s the VDP itself as most polygons are fine.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1728996806,
+      "score": 1,
+      "link_id": "t3_1g3ovya",
+      "parent_id": "t3_1g3ovya"
+    },
+    {
+      "id": "ls10g26",
+      "body": "sunset riders",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1728994876,
+      "score": 11,
+      "link_id": "t3_1g42cf8",
+      "parent_id": "t1_ls0ukv6"
+    },
+    {
+      "id": "ls10b96",
+      "body": "Dangun fever on: „The enemy is here inside my soul“ https://youtu.be/X1geljm6jtI?si=h8Lj95OpEeWZs68i",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1728994816,
+      "score": 1,
+      "link_id": "t3_1g42cf8",
+      "parent_id": "t3_1g42cf8"
+    },
+    {
+      "id": "ls0zspk",
+      "body": "You can select the stage by pressing right and left. Is it possible that you just have to cycle back to stage 13 by pressing left or right? Because stage 13 is unlocked, I can see it for a split second. \n\nI played through it multiple times on the dc and I can‘t remember any special goals for proceding.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1728994588,
+      "score": 1,
+      "link_id": "t3_1g3hhlq",
+      "parent_id": "t3_1g3hhlq"
+    },
+    {
+      "id": "lrl8aug",
+      "body": "My experience and observation of taking lsd for a too long time regularly is that you stop to build patterns and structures in your head. You just live in the world you are. When you do this for multiple years you won‘t build up anything in your life and have problems with earning money and finding your place in society. In the end you become unhappy as you don‘t reach anything in life.",
+      "author": "damianUHX",
+      "subreddit": "LSD",
+      "created_utc": 1728751991,
+      "score": 2,
+      "link_id": "t3_1g1xej9",
+      "parent_id": "t3_1g1xej9"
+    },
+    {
+      "id": "lrk31lq",
+      "body": "damals wurde es von vielen verrissen weil es kein gameplay hätte und man nur primitive padbewegungen ausführen müsse.",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1728736898,
+      "score": 1,
+      "link_id": "t3_1g1v6dr",
+      "parent_id": "t1_lrjilfv"
+    },
+    {
+      "id": "lrjdd55",
+      "body": "Heavy rain",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1728721067,
+      "score": 1,
+      "link_id": "t3_1g1v6dr",
+      "parent_id": "t3_1g1v6dr"
+    },
+    {
+      "id": "lrfu26q",
+      "body": "It runs fine with 110v, I never had issues with any 100v console I connected to 110v. Even not 20 years later\n\nBut people with knowledge in electronics say that it‘s wearing out less when you just use 100v.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1728666568,
+      "score": 2,
+      "link_id": "t3_1g1e878",
+      "parent_id": "t3_1g1e878"
+    },
+    {
+      "id": "lqrjuye",
+      "body": "looks great. but it‘s not a game yet.",
+      "author": "damianUHX",
+      "subreddit": "IndieGameDevs",
+      "created_utc": 1728302875,
+      "score": 1,
+      "link_id": "t3_1fxmdcm",
+      "parent_id": "t3_1fxmdcm"
+    },
+    {
+      "id": "lqrj4vt",
+      "body": "I know hippie people that live with that amount of money. they rent a room in a cave for chf 100 and don‘t buy anything but food. But if you want to have a normal life you should earn more.",
+      "author": "damianUHX",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728302534,
+      "score": 3,
+      "link_id": "t3_1fy4ycn",
+      "parent_id": "t3_1fy4ycn"
+    },
+    {
+      "id": "lqr2gvi",
+      "body": "Most bullet hells",
+      "author": "damianUHX",
+      "subreddit": "gaming",
+      "created_utc": 1728292663,
+      "score": 1,
+      "link_id": "t3_1fxqtg3",
+      "parent_id": "t3_1fxqtg3"
+    },
+    {
+      "id": "lqr21oi",
+      "body": "I thought plasmas should not be turned…",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1728292359,
+      "score": 3,
+      "link_id": "t3_1fxsvq9",
+      "parent_id": "t3_1fxsvq9"
+    },
+    {
+      "id": "lqmw7du",
+      "body": "yes. dreamcast is also a great console.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1728231536,
+      "score": 7,
+      "link_id": "t3_1fxjdmo",
+      "parent_id": "t3_1fxjdmo"
+    },
+    {
+      "id": "lqgdmbo",
+      "body": "will it support the paddle controller?",
+      "author": "damianUHX",
+      "subreddit": "MasterSystem",
+      "created_utc": 1728135859,
+      "score": 1,
+      "link_id": "t3_1fwndxo",
+      "parent_id": "t3_1fwndxo"
+    },
+    {
+      "id": "lqbkljb",
+      "body": "reminds me of cotton.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1728058688,
+      "score": 2,
+      "link_id": "t3_1fvplvc",
+      "parent_id": "t3_1fvplvc"
+    },
+    {
+      "id": "lqbjtu8",
+      "body": "I mean the region lock was on dreamcast. Not on saturn. on saturn there is no region lock.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1728058439,
+      "score": 1,
+      "link_id": "t3_1fw1juw",
+      "parent_id": "t1_lqbj3lc"
+    },
+    {
+      "id": "lqbika2",
+      "body": "This is on the dreamcast. Sega of US wanted to sell their own guns. So they prohibited Jap/pal guns to work with their US games.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1728058035,
+      "score": 1,
+      "link_id": "t3_1fw1juw",
+      "parent_id": "t3_1fw1juw"
+    },
+    {
+      "id": "lq45umz",
+      "body": "I don‘t. All the answers chat gpt has given me so far were wrong. On stack overflow it is forbidden to post from chat gpt as it will give you good sounding solutions that are wrong. I work in a very small company where no unit tests and reviews are done. so no need for that.\n\nI didnt test other software as chat gpt though. And never tried it for metatasks like documentation. After reading to other answers I will probably try…",
+      "author": "damianUHX",
+      "subreddit": "developer",
+      "created_utc": 1727951177,
+      "score": 1,
+      "link_id": "t3_1fuxxle",
+      "parent_id": "t3_1fuxxle"
+    },
+    {
+      "id": "lptez3v",
+      "body": "Just started my first playthrough yesterday. Made me laugh many times.",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1727792870,
+      "score": 3,
+      "link_id": "t3_1ftmzt1",
+      "parent_id": "t3_1ftmzt1"
+    },
+    {
+      "id": "lpmat0k",
+      "body": "the exact same thing happened to me about 15 years ago. also some pixels of the last boss in espgaluda were left. never tried it again since. still have no 1cc in a cave game.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1727682624,
+      "score": 1,
+      "link_id": "t3_1fsmo4p",
+      "parent_id": "t3_1fsmo4p"
+    },
+    {
+      "id": "lphwi6o",
+      "body": "Is it only the gameboy core or also on other cores. The lcd display has like 10 times more pixels as the gameboy so It‘s weird that it matches exactly one pixel on the gameboy. If you look at it with a lens you will find out if it matches exactly a gb pixel (software or fpga problem) or if it‘s a bit bigger/smaller (screen problem).",
+      "author": "damianUHX",
+      "subreddit": "AnaloguePocket",
+      "created_utc": 1727620859,
+      "score": 4,
+      "link_id": "t3_1fs06ol",
+      "parent_id": "t3_1fs06ol"
+    },
+    {
+      "id": "lowjcfr",
+      "body": "I can relate to your situation and I think this is quite comon among software developers. It‘s also called imposter syndrome. \n\nI think these are all good traits for a software developer because you can never think enough about an issue to implement the best solution. \n\nafter 20 years of experience I can tell you that the perfect code does not exist, if it does the task it‘s fine. and try to reserve free time (at least one day) when you don‘t think about code and meet people.",
+      "author": "damianUHX",
+      "subreddit": "developer",
+      "created_utc": 1727292149,
+      "score": 0,
+      "link_id": "t3_1fpbr4z",
+      "parent_id": "t3_1fpbr4z"
+    },
+    {
+      "id": "loi9d2m",
+      "body": "battle bakraid has a cheat for changing the color palette of the bullets.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1727089374,
+      "score": 2,
+      "link_id": "t3_1fn3aec",
+      "parent_id": "t3_1fn3aec"
+    },
+    {
+      "id": "locat8z",
+      "body": "Bullet hells and arcade games. Arcade games are built to have maximum fun in a minimum of time. Look out for retro arcade ports of companies like sega, capcom, taito, konami, namco etc…",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1726999900,
+      "score": 1,
+      "link_id": "t3_1fmfxse",
+      "parent_id": "t3_1fmfxse"
+    },
+    {
+      "id": "lo6rq1a",
+      "body": "As far as I remember from my father who repaired cd players for 30 years: A laser also has to be adjusted, you can‘t simply replace it, you also need some fine tuning to set it in place. \n\nof course there can also other problems causing this. as caps usually aren‘t a problem in saturns so the probability of recapping a saturn helps is not that high.\n\nnot sure about my knowledge, so please correct me if someone knows better…",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1726914390,
+      "score": 2,
+      "link_id": "t3_1flzodr",
+      "parent_id": "t3_1flzodr"
+    },
+    {
+      "id": "lo3opyp",
+      "body": "good games that are not expensive.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1726861793,
+      "score": 2,
+      "link_id": "t3_1flja8p",
+      "parent_id": "t3_1flja8p"
+    },
+    {
+      "id": "lnwx74h",
+      "body": "it‘s certainly possible (with a lower resolution of 640x480) but I doubt anyone will reprogram the game for the dreamcast. For the creators there aren‘t enough buyers on the dreamcast to be a financial success and a fanmade game would lack the assets and rights.",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1726761531,
+      "score": 5,
+      "link_id": "t3_1fkni73",
+      "parent_id": "t3_1fkni73"
+    },
+    {
+      "id": "lnqwlu0",
+      "body": "The black color of ps1 cds is just for decoration. The color does not affect the readability when using an original playstation.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1726673329,
+      "score": 35,
+      "link_id": "t3_1fju7p8",
+      "parent_id": "t3_1fju7p8"
+    },
+    {
+      "id": "lnq1is7",
+      "body": "Depends on the type of game: If you need a real environment with physics and everything: use an enhine because you won‘t be able to build everything on your own. If it‘s more a classic arcade game you sure can do everything yourself. I used pixi.js for my bullet hell game.",
+      "author": "damianUHX",
+      "subreddit": "gamedev",
+      "created_utc": 1726662309,
+      "score": 1,
+      "link_id": "t3_1fjqup1",
+      "parent_id": "t3_1fjqup1"
+    },
+    {
+      "id": "lnffc9l",
+      "body": "Twinkle Star Sprites",
+      "author": "damianUHX",
+      "subreddit": "neogeo",
+      "created_utc": 1726503142,
+      "score": 4,
+      "link_id": "t3_1fi2zzp",
+      "parent_id": "t3_1fi2zzp"
+    },
+    {
+      "id": "ln8ubx7",
+      "body": "Arcade games because you cant waste too much time with em",
+      "author": "damianUHX",
+      "subreddit": "SoloDevelopment",
+      "created_utc": 1726407945,
+      "score": 1,
+      "link_id": "t3_1fgks3d",
+      "parent_id": "t3_1fgks3d"
+    },
+    {
+      "id": "lmw82w0",
+      "body": "You can  convert any [Kaneko Super Nova System](https://www.system16.com/hardware.php?id=807) game... There are some cheap gals panic on that system.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1726212367,
+      "score": 2,
+      "link_id": "t3_1ff8tup",
+      "parent_id": "t1_lmuix5k"
+    },
+    {
+      "id": "lmmpd6l",
+      "body": "I think most games mentioned here may be easy but there‘s too much going on for a beginner. I‘d suggest to start more simple with games with less bullets. I don‘t know what is on switch, but layer section or batsugun come to my mind.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1726073738,
+      "score": 2,
+      "link_id": "t3_1fe841r",
+      "parent_id": "t3_1fe841r"
+    },
+    {
+      "id": "lmf0xbj",
+      "body": "From a graphical perspective it looks amateurish.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1725964181,
+      "score": 1,
+      "link_id": "t3_1fcpum8",
+      "parent_id": "t3_1fcpum8"
+    },
+    {
+      "id": "lm2x8e6",
+      "body": "Is this real???",
+      "author": "damianUHX",
+      "subreddit": "SEGA",
+      "created_utc": 1725781510,
+      "score": 3,
+      "link_id": "t3_1fbnx2e",
+      "parent_id": "t3_1fbnx2e"
+    },
+    {
+      "id": "llyf599",
+      "body": "It‘s also my first playtrough. I like that you can‘t get lost because you are locked to certain areas until youve done a certain thing. so it‘s perfect for a casual story based game. in snatcher I often got lost and read a walkthrough.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1725717654,
+      "score": 5,
+      "link_id": "t3_1fb764d",
+      "parent_id": "t1_llyeh4k"
+    },
+    {
+      "id": "llye6g9",
+      "body": "Policenauts",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1725717279,
+      "score": 9,
+      "link_id": "t3_1fb764d",
+      "parent_id": "t3_1fb764d"
+    },
+    {
+      "id": "llxy2yk",
+      "body": "there‘s nothing that stands out. it‘s a solid project, you‘ve done well. But a game needs something to hook some people. Like a unique setting or a special gimmick. Your game does not seem to have any of it.",
+      "author": "damianUHX",
+      "subreddit": "SoloDevelopment",
+      "created_utc": 1725710108,
+      "score": 66,
+      "link_id": "t3_1fb4d7i",
+      "parent_id": "t3_1fb4d7i"
+    },
+    {
+      "id": "llahff5",
+      "body": "In general it looks good but I miss some very crucial information: what are the game mechanics? Is it a superfast action shooter or a turn based chess-like strategy game. I have no idea what game to expect.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1725363774,
+      "score": 6,
+      "link_id": "t3_1f7xjfv",
+      "parent_id": "t3_1f7xjfv"
+    },
+    {
+      "id": "ll5jrfo",
+      "body": "you can play my game here https://soundstorm.uhx.ch",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1725288655,
+      "score": 1,
+      "link_id": "t3_1f6eee2",
+      "parent_id": "t1_ll54iku"
+    },
+    {
+      "id": "ll12fq7",
+      "body": "I just had another try. I think it is better than a year ago. \n\nThe biggest issue  is imho the missing visual indicators for enemies and bullets. Often I can't see if something is an enemy or just background. An outline filter for all enemies could help, so I know that everything surrounded by a color is an enemy, if the enemy is in the background (i.e. can't hit you yet) you can change the color. Also a clear indicator for shots would be nice. I mostly got hit in the first 2 stages because I didn't see something. And I missed the warp portal in stage 2 because I thought it's deadly. And particle effects when a shot hits the ground or the orb cancels enemy bullets etc. would be nice.\n\nThe other thing is that many enemy formations leave a cheap option to avoid it (i.e. flying at the top or bottom). More enemies or enemies that act towards the position of the player could change this. In the 3rd stage I always run out of ammo. I couldn't find out where to find enough ammo. It is very difficult to aim and enemy shots are so fast that it's hard to dodge. Some polish according to playtester's feedback could help. If you watch someone playing the game live you'll probably notice a lot of things.\n\nLast but not least: If there were more checkpoints (e.g. every 30 seconds) it would be less frustrating to retry some parts.\n\nI really like the variety of the game. Every stage is something completely different.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1725216436,
+      "score": 2,
+      "link_id": "t3_1f6eee2",
+      "parent_id": "t1_ll0h7nq"
+    },
+    {
+      "id": "ll0mjyc",
+      "body": "I need to play it again to specify more in detail. I think you may already have improved some issues.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1725211121,
+      "score": 3,
+      "link_id": "t3_1f6eee2",
+      "parent_id": "t1_ll0h7nq"
+    },
+    {
+      "id": "lkzpjpj",
+      "body": "I will have another try. I really liked the diversity of all the levels but to be honest: the gameplay was dull and unpolished. As I‘m developing a shmup myself I know how hard it is to make all aspects of a game good, so kudos for finishing a game.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1725200234,
+      "score": 4,
+      "link_id": "t3_1f6eee2",
+      "parent_id": "t3_1f6eee2"
+    },
+    {
+      "id": "lkibxb0",
+      "body": "since 15 years no crts are produced and theres a huge fanbase. So it will increase in value every year.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1724941997,
+      "score": 3,
+      "link_id": "t3_1f3tl54",
+      "parent_id": "t3_1f3tl54"
+    },
+    {
+      "id": "ljzkdew",
+      "body": "I don‘t get the point of this. What is all this text trying to say? Just that the 32x and genesis depend on each other? Groundbreaking news, no one would have ever guessed that those systems are technically connected … when you connect them…",
+      "author": "damianUHX",
+      "subreddit": "SEGA32X",
+      "created_utc": 1724664380,
+      "score": 1,
+      "link_id": "t3_1f1cb61",
+      "parent_id": "t3_1f1cb61"
+    },
+    {
+      "id": "ljoagv0",
+      "body": "I don‘t think this hadn’t changed anything. People wanted 3d at that time and 2d games were perceived as inferior.\n\nI think they should have kept the 32x longer and bring a more mature 3d console with more budget later.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1724485830,
+      "score": 7,
+      "link_id": "t3_1ezz4xh",
+      "parent_id": "t3_1ezz4xh"
+    },
+    {
+      "id": "ljcvuwq",
+      "body": "I actually like the game and the trailer though I think some parts in the trailer look a bit cheap. but it‘s hard to put the finger on it. With slightly better timing and cut of zhe scenes it could perhaps look more professional.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1724323441,
+      "score": 2,
+      "link_id": "t3_1exzir0",
+      "parent_id": "t3_1exzir0"
+    },
+    {
+      "id": "lj8i7j9",
+      "body": "yes exactly. it changes so much!",
+      "author": "damianUHX",
+      "subreddit": "SoloDevelopment",
+      "created_utc": 1724258972,
+      "score": 1,
+      "link_id": "t3_1exmoyv",
+      "parent_id": "t1_lj7orgj"
+    },
+    {
+      "id": "lj76ybk",
+      "body": "With lighting you can improve a lot. Direction and sources of light on textures, shadows and shaders etc. This is a big chapter, so I would start to read about light in games.",
+      "author": "damianUHX",
+      "subreddit": "SoloDevelopment",
+      "created_utc": 1724243246,
+      "score": 1,
+      "link_id": "t3_1exmoyv",
+      "parent_id": "t3_1exmoyv"
+    },
+    {
+      "id": "lj24vxq",
+      "body": "Dä best zürcher „witz“ findi am ian constable sin hit hippiekacke, oder besser hipsterkacke:\n\nhttps://youtu.be/vEOapL-HJPE?si=5AF1wl3vfRa5zhAs",
+      "author": "damianUHX",
+      "subreddit": "schwiiz",
+      "created_utc": 1724169356,
+      "score": 2,
+      "link_id": "t3_1ewnmrj",
+      "parent_id": "t3_1ewnmrj"
+    },
+    {
+      "id": "lj20tlk",
+      "body": "Never paid attention to that game but it seems like worth checking out. I like the isometric view.",
+      "author": "damianUHX",
+      "subreddit": "TurboGrafx",
+      "created_utc": 1724168100,
+      "score": 1,
+      "link_id": "t3_1ewue6w",
+      "parent_id": "t3_1ewue6w"
+    },
+    {
+      "id": "lj0wlul",
+      "body": "I think the bundle is fine as you get all good lightgun shooters and 2 guns for coop action. In the end you have to know on what you want to spend your money… You could also buy just one gun and a saroo card that can play ALL saturn games from an SD card.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1724153423,
+      "score": 3,
+      "link_id": "t3_1ewsje2",
+      "parent_id": "t1_lj0v1og"
+    },
+    {
+      "id": "lj0wfwh",
+      "body": "I think the bundle is fine as you get all good lightgun shooters and 2 guns for coop action. In the end you have to know on what you want to spend your money… You could also buy just one gun and a saroo card that can play ALL saturn games from an SD card.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1724153344,
+      "score": 1,
+      "link_id": "t3_1ewsje2",
+      "parent_id": "t3_1ewsje2"
+    },
+    {
+      "id": "lj0tzso",
+      "body": "Yes: If you have a CRT. Price is ok. Games are great.\n\nIf you don‘t have a CRT I would buy the saturn mouse instead, which should be compatible with those games.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1724152150,
+      "score": 1,
+      "link_id": "t3_1ewsje2",
+      "parent_id": "t3_1ewsje2"
+    },
+    {
+      "id": "lixea1c",
+      "body": "I had more than one with a page that was much worse. Wishlist dtats are odd as they only update once a day. Its like all wishlists until midnight are processed the next day. Time can vary. Be aware of this when observing your counts go up.\n\nBy the way: I was impressed by your game and wishlisted it. It seems to be an egoshooter with bullet hell elements. Didn‘t read the description though, just looked at the gifs.",
+      "author": "damianUHX",
+      "subreddit": "SoloDevelopment",
+      "created_utc": 1724097867,
+      "score": 2,
+      "link_id": "t3_1ewal4w",
+      "parent_id": "t3_1ewal4w"
+    },
+    {
+      "id": "liw7kr4",
+      "body": "Extras that are collected should show what you collected.  \nShot enemies should have bigger explosions.  \nDead animation of the player.  \nStars that are bullets are very unusual. Make a flashing outline or something that I can see what can hit me.  \n\n\nBy the way: I also made a shmup engine in C 20 years ago. It was all a mess in just one file but it worked and I learned to code: [https://github.com/damianuhx/dominogemu](https://github.com/damianuhx/dominogemu)",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1724084342,
+      "score": 1,
+      "link_id": "t3_1ew37j5",
+      "parent_id": "t1_liw443g"
+    },
+    {
+      "id": "liw1e90",
+      "body": "Is this a mix of Tetris and a Shmup? Looks experimental in many ways which I like.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1724082397,
+      "score": 2,
+      "link_id": "t3_1eur8ww",
+      "parent_id": "t3_1eur8ww"
+    },
+    {
+      "id": "livzt0d",
+      "body": "I just beat the first level.\n\nI like the music and also the bullet patterns are interesting sometimes. \n\nThe game feels like a very early prototype to me. There are no sound effects and visual indicators for many things are missing. It took me some time to find out what are enemies and what are extras.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1724081908,
+      "score": 1,
+      "link_id": "t3_1ew37j5",
+      "parent_id": "t3_1ew37j5"
+    },
+    {
+      "id": "livoemc",
+      "body": "Space channel 5",
+      "author": "damianUHX",
+      "subreddit": "gamecollecting",
+      "created_utc": 1724078149,
+      "score": 2,
+      "link_id": "t3_1evsski",
+      "parent_id": "t3_1evsski"
+    },
+    {
+      "id": "liqaub1",
+      "body": "Thanks for your feedback. The thematic is psychedelic, so it does not have to make sense and the majority of people likes it, though there are some that'd prefer more realistic settings and different art style -- like you suggested. The backgrounds make visual feedback, but it's not as flashy as in other games. I personally don't like the artstyle of many flashy psychedelic games. I prefer a more subtle approach. When you play it full screen it's flashy enough.\n\nYour suggestion of interaction is already made. In this video I removed the sound effects as they were perceived as too chaotic in a video. You have to press the button on the beat and a sound plays then. I'm thinking of making different sounds depending on when you press the button. I also thought of having to press different buttons depending on the beat, but I think this will just make the game too complicated. Perhaps in a successor...",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723995583,
+      "score": 0,
+      "link_id": "t3_1euejev",
+      "parent_id": "t1_limi2z1"
+    },
+    {
+      "id": "lipkjwh",
+      "body": "The chassis wont be a problem. There are many technically skilled people that can repair those. So it will just be a matter of money. \n\nthe tubes however will be hard or even impossible to repair as they are vacum tubes that need high tech factories to produce them. Once a vacum is gone you can‘t simply recreate it. Over time air will enter the tubes. I really hope there will be a solution to that problem.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1723985858,
+      "score": 43,
+      "link_id": "t3_1ev7ybf",
+      "parent_id": "t3_1ev7ybf"
+    },
+    {
+      "id": "lipcgnr",
+      "body": "you can still add something unique whenever you have an idea. It‘s a solid base.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723981913,
+      "score": 1,
+      "link_id": "t3_1eutiq8",
+      "parent_id": "t1_limojpj"
+    },
+    {
+      "id": "liop8u7",
+      "body": "Thank you. This will definitely help me improve it.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1723966898,
+      "score": 1,
+      "link_id": "t3_1etr9we",
+      "parent_id": "t1_limuv2y"
+    },
+    {
+      "id": "lilx2c0",
+      "body": "the shield regenerates instantly if you successfully reflect at least one bullet. if you miss you wait some secs.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723922914,
+      "score": 2,
+      "link_id": "t3_1euejev",
+      "parent_id": "t1_lils8yy"
+    },
+    {
+      "id": "lilpogl",
+      "body": "Thanks for the nice words. If you want to try the first stage: [https://soundstorm.uhx.ch/](https://soundstorm.uhx.ch/)\n\nI will  try to use faster music in the trailer to make people more exited. \n\nSome people seem to not like hand-drawn artstyle. It's very uncommon in this genre. But many people also like it a lot.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723920264,
+      "score": 2,
+      "link_id": "t3_1euejev",
+      "parent_id": "t1_lil96v3"
+    },
+    {
+      "id": "lilojd3",
+      "body": "I actually made a fast paced trailer with more variety  before but it seemed to be too wild: [https://www.youtube.com/watch?v=80npcUYmapc](https://www.youtube.com/watch?v=80npcUYmapc)\n\nThats why I tried to make it more slowly now, but you are right: it's now too slow now. I will add more variety but I have to synchronize the other stages with the same music that this works.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1723919864,
+      "score": 1,
+      "link_id": "t3_1euejev",
+      "parent_id": "t1_likzbbj"
+    },
+    {
+      "id": "lilnnns",
+      "body": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/80npcUYmapc?si=m8Zad95InNEQvs4l\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "author": "damianUHX",
+      "subreddit": "test",
+      "created_utc": 1723919557,
+      "score": 0,
+      "link_id": "t3_1eun63k",
+      "parent_id": "t3_1eun63k"
+    },
+    {
+      "id": "lil7874",
+      "body": "Rez",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1723913877,
+      "score": 2,
+      "link_id": "t3_1eufy6u",
+      "parent_id": "t3_1eufy6u"
+    },
+    {
+      "id": "lij8hum",
+      "body": "Thanks for your feedback.\n\nI made a trailer that was more like you suggested before and there prople didn‘t understand the concept as it was too fast and wild. Perhaps something in between.\n\nThe notes in the capsule are there that people see the rhythm and bullets in the capsule before they see the page. But it might look amateurish at this point.\n\nPeople playing the game are really enjoying it but I still have to figure out how I can make an apealing shop page :-/",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1723880495,
+      "score": 2,
+      "link_id": "t3_1etr9we",
+      "parent_id": "t1_lihs4f0"
+    },
+    {
+      "id": "lih71uy",
+      "body": "I usually hate stealth games but this is a masterpiece.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1723846242,
+      "score": 2,
+      "link_id": "t3_1etxgag",
+      "parent_id": "t3_1etxgag"
+    },
+    {
+      "id": "li90eai",
+      "body": "I have one and like it a lot because there are some surprisingly good original games on it. A lot of railshooters with prerendered backgrounds, interactive movies and adventures. But they all cost between 100$ and 1000$.",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1723734257,
+      "score": 1,
+      "link_id": "t3_1esllq4",
+      "parent_id": "t3_1esllq4"
+    },
+    {
+      "id": "li2nq2v",
+      "body": "one of the few games I don‘t know what could have been done better.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1723643467,
+      "score": 5,
+      "link_id": "t3_1erzavh",
+      "parent_id": "t3_1erzavh"
+    },
+    {
+      "id": "lhz1nvh",
+      "body": "Psyduck is a pokemon. The duck in these pictures is that pokemon.",
+      "author": "damianUHX",
+      "subreddit": "psytrance",
+      "created_utc": 1723584123,
+      "score": 1,
+      "link_id": "t3_1er91ot",
+      "parent_id": "t3_1er91ot"
+    },
+    {
+      "id": "lhytz0d",
+      "body": "Life is strange: True colors",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1723580740,
+      "score": 1,
+      "link_id": "t3_1er1p3a",
+      "parent_id": "t3_1er1p3a"
+    },
+    {
+      "id": "lhkm4av",
+      "body": "different. its now mainly a jump and run with few shmup sequences",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1723374235,
+      "score": 11,
+      "link_id": "t3_1ephscw",
+      "parent_id": "t3_1ephscw"
+    },
+    {
+      "id": "lhkm07f",
+      "body": "Virtua racing.\n\nI personally also like chaotix and zaxxon very much. but they are not everyones cup of tea.\n\nTempo is also worth mentioning.",
+      "author": "damianUHX",
+      "subreddit": "SEGA32X",
+      "created_utc": 1723374167,
+      "score": 10,
+      "link_id": "t3_1ephtgm",
+      "parent_id": "t3_1ephtgm"
+    },
+    {
+      "id": "lhhyxc0",
+      "body": "I temember it as a great looking fun shmup that is unbalanced unfortunately. the weapons can power up too much.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1723326315,
+      "score": 2,
+      "link_id": "t3_1eoqvt1",
+      "parent_id": "t3_1eoqvt1"
+    },
+    {
+      "id": "lhbzbj4",
+      "body": "18",
+      "author": "damianUHX",
+      "subreddit": "psytrance",
+      "created_utc": 1723234885,
+      "score": 2,
+      "link_id": "t3_1enravv",
+      "parent_id": "t3_1enravv"
+    },
+    {
+      "id": "lhbsks9",
+      "body": "markham comes to my mind…",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1723232719,
+      "score": 1,
+      "link_id": "t3_1eo89o1",
+      "parent_id": "t3_1eo89o1"
+    },
+    {
+      "id": "lh323nk",
+      "body": "this bashing comes from poorly optimised games: the bottleneck of the n64 was the texturefillrate. so games that were ported from other systems without optimisation often had lower texture quality and less polygons than the playstation.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1723112068,
+      "score": 1,
+      "link_id": "t3_1emq9x8",
+      "parent_id": "t3_1emq9x8"
+    },
+    {
+      "id": "lgfzbf2",
+      "body": "I use js for my game. You can port any js web game to a native app for windows, mac, linux, xbox, ios and android using electron or capacitor. You won‘t be able to use it for nintenfo switch or ps5 however. also the professional game engines unity, unreal or godot dont support js. but there are popular js engines like phaser.\n\nIn short: unless you want to relese your game on consoles you are fine using js for games. as js has a different logic as all OOP languages like C++ I‘d focus on one language at a time.",
+      "author": "damianUHX",
+      "subreddit": "learnprogramming",
+      "created_utc": 1722774919,
+      "score": 1,
+      "link_id": "t3_1ejplga",
+      "parent_id": "t3_1ejplga"
+    },
+    {
+      "id": "lgfkg5i",
+      "body": "trinitrons have sharper more square pixels. when you look at it with a lense you will see the difference in pixel structure.",
+      "author": "damianUHX",
+      "subreddit": "crtgaming",
+      "created_utc": 1722766329,
+      "score": 0,
+      "link_id": "t3_1ej9p1m",
+      "parent_id": "t3_1ej9p1m"
+    },
+    {
+      "id": "lg57qyd",
+      "body": "castle of illusions",
+      "author": "damianUHX",
+      "subreddit": "SEGAGENESIS",
+      "created_utc": 1722608613,
+      "score": 2,
+      "link_id": "t3_1ehqqdj",
+      "parent_id": "t3_1ehqqdj"
+    },
+    {
+      "id": "lfyj8m6",
+      "body": "sakura wars",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1722511126,
+      "score": 1,
+      "link_id": "t3_1eh49z7",
+      "parent_id": "t3_1eh49z7"
+    },
+    {
+      "id": "lftw4hw",
+      "body": "witcher 3",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1722441304,
+      "score": 1,
+      "link_id": "t3_1egnich",
+      "parent_id": "t3_1egnich"
+    },
+    {
+      "id": "lfsgiib",
+      "body": "I‘m nor sure if you can just order one game. You have to ask for conditions here: https://pceworks.wordpress.com",
+      "author": "damianUHX",
+      "subreddit": "TurboGrafx",
+      "created_utc": 1722420257,
+      "score": 1,
+      "link_id": "t3_1efs7hg",
+      "parent_id": "t1_lfodvqv"
+    },
+    {
+      "id": "lfsgbae",
+      "body": "Yes. Now they are because in the past people sold them as originals when they where exact copies of the original games.",
+      "author": "damianUHX",
+      "subreddit": "TurboGrafx",
+      "created_utc": 1722420128,
+      "score": 3,
+      "link_id": "t3_1efs7hg",
+      "parent_id": "t1_lfqiucd"
+    },
+    {
+      "id": "lfnnabu",
+      "body": "it‘s hard to tell the difference between original and repros by PCE works. so you will most likely be cheated. So why not buy a reproduction from PCE works in the first place? It‘s just $25.\n\nThe game itself is visually stunning and has solid gameplay. Good game but not outstanding.",
+      "author": "damianUHX",
+      "subreddit": "TurboGrafx",
+      "created_utc": 1722350867,
+      "score": 1,
+      "link_id": "t3_1efs7hg",
+      "parent_id": "t3_1efs7hg"
+    },
+    {
+      "id": "lfml4cc",
+      "body": "fire emblem",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1722334449,
+      "score": 1,
+      "link_id": "t3_1ef7ynh",
+      "parent_id": "t3_1ef7ynh"
+    },
+    {
+      "id": "lfcxd5f",
+      "body": "Shenmue is very slow paced. You can‘t play it fast and you have to wait all the time. This is what some people love and others hate.",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1722185219,
+      "score": 2,
+      "link_id": "t3_1ee43ni",
+      "parent_id": "t3_1ee43ni"
+    },
+    {
+      "id": "lf6balg",
+      "body": "I didn‘t get into it until\nI resalized that the voice navigation is crucial to the gameplay. A unique timeless masterpiece that will soon get a remake by indie developer andreas scholl (I think this is his name, not sure)",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1722080284,
+      "score": 2,
+      "link_id": "t3_1ecq1g0",
+      "parent_id": "t3_1ecq1g0"
+    },
+    {
+      "id": "lf66x69",
+      "body": "I think it‘s a good game. A bit too much grinding in my taste, but when you know how to earn money and play it on easy it‘s a great game.",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1722077670,
+      "score": 1,
+      "link_id": "t3_1ecuj6t",
+      "parent_id": "t3_1ecuj6t"
+    },
+    {
+      "id": "lf0qkm9",
+      "body": "MUSHA aleste",
+      "author": "damianUHX",
+      "subreddit": "SEGA",
+      "created_utc": 1721994858,
+      "score": 2,
+      "link_id": "t3_1ecffrs",
+      "parent_id": "t3_1ecffrs"
+    },
+    {
+      "id": "lea1r4a",
+      "body": " cyberpunk kann man gut als egoshooter spielen. Dann hat man ein durchschnittliches spiel mit 10 stunden spielzeit.",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1721593617,
+      "score": 3,
+      "link_id": "t3_1e8t1k4",
+      "parent_id": "t3_1e8t1k4"
+    },
+    {
+      "id": "lea1chf",
+      "body": "I like that they have their own style. They always tried to do domething new and be true to their vision.\n\nJust started enemy zero and it‘s really a new experience of horror games.\n\nHowever, I feel the flow of the games could be better. The gameplay is not polished enough to be a timeless masterpiece.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1721593483,
+      "score": 3,
+      "link_id": "t3_1e8rrge",
+      "parent_id": "t3_1e8rrge"
+    },
+    {
+      "id": "le7qf1c",
+      "body": "After 20 years playing it I still totally agree. Probably the deepest game mechanics ever.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1721562807,
+      "score": 3,
+      "link_id": "t3_1e8k9op",
+      "parent_id": "t3_1e8k9op"
+    },
+    {
+      "id": "le4cb4a",
+      "body": "Super Mario Maker, build levels others can play.\n\nDreams for ps4. You can build your own game with it.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1721502110,
+      "score": 3,
+      "link_id": "t3_1e7zpl4",
+      "parent_id": "t3_1e7zpl4"
+    },
+    {
+      "id": "le24xcd",
+      "body": "sometimes a higher dose is even better for first timers as you can be sure that you will enter the other world. I know people who took not enough the first time and they just felt uncomfortable.",
+      "author": "damianUHX",
+      "subreddit": "LSD",
+      "created_utc": 1721467063,
+      "score": 2,
+      "link_id": "t3_1e7r4yg",
+      "parent_id": "t3_1e7r4yg"
+    },
+    {
+      "id": "ldy6wxr",
+      "body": "Electron is basically a chrome browser packed with your webapp. If you can‘t afford building an app for every os it is a good choice. It takes some resources but will run fine. Of course it‘s nice to have native apps but the costs are higher than the benefits. I use it myself for a webgame I made and it runs very well in electron/steam. I would‘t care anout such things unless there is a strong reason.",
+      "author": "damianUHX",
+      "subreddit": "linuxquestions",
+      "created_utc": 1721405804,
+      "score": 0,
+      "link_id": "t3_1e6yybs",
+      "parent_id": "t3_1e6yybs"
+    },
+    {
+      "id": "ldngp58",
+      "body": "Is this a game? I cant see any gameplay.",
+      "author": "damianUHX",
+      "subreddit": "IndieGaming",
+      "created_utc": 1721241677,
+      "score": 1,
+      "link_id": "t3_1e5eygi",
+      "parent_id": "t3_1e5eygi"
+    },
+    {
+      "id": "ldnfqv2",
+      "body": "The concept seems innovative and fun to play. I put it on my wishlist. \n\nWhen it comes to graphics I feel you could add some more things. Like some bitmaps or shaders.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1721241377,
+      "score": 2,
+      "link_id": "t3_1e0qkth",
+      "parent_id": "t3_1e0qkth"
+    },
+    {
+      "id": "ldne8qr",
+      "body": "I really like the idea but the game is very low quality at this point: Graphics are low quality and don't fit together, there are serious UX problems: The dialog to buy things covers the scene, the gameplay is uninteresting and there is no goal to achieve. I suggest to buy some assets that it looks acceptable. Have a lot of testplayer and see what you can improve in the mechanics. The buy system needs a big overhaul. But really nice idea, I like it.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1721240901,
+      "score": 2,
+      "link_id": "t3_1e54412",
+      "parent_id": "t3_1e54412"
+    },
+    {
+      "id": "ldftgox",
+      "body": "There are so many good but not famous musicians in the world that will allow you to use their music. Go on soundcloud and get in contact with musicians you like.",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1721132238,
+      "score": 3,
+      "link_id": "t3_1e4l063",
+      "parent_id": "t3_1e4l063"
+    },
+    {
+      "id": "ldfgntw",
+      "body": "vampire survivor",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1721124973,
+      "score": 1,
+      "link_id": "t3_1e4hbcb",
+      "parent_id": "t3_1e4hbcb"
+    },
+    {
+      "id": "lda30ki",
+      "body": "If the cloudes would move it would look even better.",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1721045679,
+      "score": 7,
+      "link_id": "t3_1e3q5bx",
+      "parent_id": "t3_1e3q5bx"
+    },
+    {
+      "id": "ld77ry4",
+      "body": "One of the best games ever made. All sections have a good length, it‘s never too long and always new things happen. There are rpg elements but not too complex, the fights always offer something new and there are a lot of memorable moments.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1720993461,
+      "score": 2,
+      "link_id": "t3_1e3de4a",
+      "parent_id": "t3_1e3de4a"
+    },
+    {
+      "id": "ld73fs8",
+      "body": "Nights into dreams. It‘s by the sonic makers and it makes right exactly what you dislike in sonic games.",
+      "author": "damianUHX",
+      "subreddit": "ShouldIbuythisgame",
+      "created_utc": 1720991941,
+      "score": 2,
+      "link_id": "t3_1e33ury",
+      "parent_id": "t3_1e33ury"
+    },
+    {
+      "id": "ld0x6ra",
+      "body": "R-type final",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720895636,
+      "score": 1,
+      "link_id": "t3_1e1rehi",
+      "parent_id": "t3_1e1rehi"
+    },
+    {
+      "id": "lchwc9v",
+      "body": "The transparency is best imagined as follows. There are multiple drawing layers that can be overlayed with variable transparency. Its not the polygons that are transparent but the whole layer. So transparencies are only possible if they affect the whole layer.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1720611919,
+      "score": 3,
+      "link_id": "t3_1dzgzr5",
+      "parent_id": "t3_1dzgzr5"
+    },
+    {
+      "id": "lceni6x",
+      "body": "für trainsim world 4 chasch d‘steckene luzern-sursee, chur-arosa und d‘berninalinie chaufe und selber fahre. \n\nich lueg no getn führerstandsmitfahrte uf youtube.",
+      "author": "damianUHX",
+      "subreddit": "schwiiz",
+      "created_utc": 1720556775,
+      "score": 2,
+      "link_id": "t3_1dz7oc5",
+      "parent_id": "t3_1dz7oc5"
+    },
+    {
+      "id": "lc7ajcg",
+      "body": "I have similar differences between free licences and people that launched the game. I don‘t know how steam counts the numbers but I would say that most people with free licences havent downloaded the game.",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1720451523,
+      "score": 3,
+      "link_id": "t3_1dy9n14",
+      "parent_id": "t3_1dy9n14"
+    },
+    {
+      "id": "lc629l1",
+      "body": "I don‘t understand why this answer was downvoted. Batsugun is for me the link between the classic toaplan shmups and the cave bullet hells starting with donpachi. I also know other people saying that. So why do people disagree here?",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720430980,
+      "score": 1,
+      "link_id": "t3_1dxwmuc",
+      "parent_id": "t1_lc5f3ah"
+    },
+    {
+      "id": "lbrz860",
+      "body": "5htp. Würkt wahrnehmigsverstärkend und so werdet langwiligi sache spannender.",
+      "author": "damianUHX",
+      "subreddit": "schwiiz",
+      "created_utc": 1720202585,
+      "score": 1,
+      "link_id": "t3_1dvel6a",
+      "parent_id": "t3_1dvel6a"
+    },
+    {
+      "id": "lblp22s",
+      "body": "Waterslides",
+      "author": "damianUHX",
+      "subreddit": "AskReddit",
+      "created_utc": 1720103765,
+      "score": 1,
+      "link_id": "t3_1dv45rl",
+      "parent_id": "t3_1dv45rl"
+    },
+    {
+      "id": "lbkx5ps",
+      "body": "Yes. You can ask me directly.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720091068,
+      "score": 1,
+      "link_id": "t3_1dtuw6m",
+      "parent_id": "t1_lbi3yfl"
+    },
+    {
+      "id": "lbhaa6w",
+      "body": "You can use a supergun as well, it‘s the same experience. With consolized I meant a supergun that is directly built in the arcade board. People not familiar with arcade hardware often want such an all in one solution, thats why I suggested consolized. But a supergun is even better as you can also use it with other boards.\n\nThe pgm has a module slot by standard. So it‘s very easy to change games.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720030804,
+      "score": 2,
+      "link_id": "t3_1dtuw6m",
+      "parent_id": "t1_lbgyvkh"
+    },
+    {
+      "id": "lbh7xdk",
+      "body": "White label is not bad. It‘s really complaining on a very high level. I played white label for 10 years  on the ps2 and switched to black kabel when I got the pgm conversion.  The only difference I noticed is that in black label I feel it‘s possible to chain the whole stage while in white label there are places I have no idea how to keep the chain. But also in black label I‘m not able to fully chain any stage. My chains are slightly longer though.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720030042,
+      "score": 1,
+      "link_id": "t3_1dtuw6m",
+      "parent_id": "t1_lbgxjsu"
+    },
+    {
+      "id": "lbgx22j",
+      "body": "I have one for my cabinet. The board itself is quite common and can be found for 100$. The conversions‘ price depends on who makes them for you. It‘s certainly not cheap with several hundred of dollars you‘ll pay at the end, but when it will be a game you plan to play regularly for a long time it might be worth it. My boards never broke so far.\n\nI think dodonpachi daiohjou is one of the deepest shmups ever created. Even after 20 years it‘s still interesting to play. So whatever version you choose for you: it‘s a good choice.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720026511,
+      "score": 2,
+      "link_id": "t3_1dtuw6m",
+      "parent_id": "t1_lbgt3j6"
+    },
+    {
+      "id": "lbfi3sq",
+      "body": "Have you ever thought about getting a consolized PGM with a conversion of the game? There are also espgaluda, ketsui and bee storm for the system.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720008238,
+      "score": 1,
+      "link_id": "t3_1dtuw6m",
+      "parent_id": "t3_1dtuw6m"
+    },
+    {
+      "id": "lbfhqr0",
+      "body": "The ps2 port is great and also features modes to practice. But it has only white label. As a beginner you won‘t notice the difference but when playing on high score and making chains there are some frustrating parts in white label. Black label is simply more polished when it comes to scoring. I personally would prefer the ps2 version because of the CRT and the simpler hardware behind with less input lag. But the black label version and quality of life features are worth buying as well. The game has 2 ranking values which are invisible on the ps2.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1720008061,
+      "score": 1,
+      "link_id": "t3_1dtuw6m",
+      "parent_id": "t3_1dtuw6m"
+    },
+    {
+      "id": "lba4475",
+      "body": "Ich glaube es sind sehr wenige spiele wo es einen unterschied macht. Habe bei mir auch nie etwas bemerkt. Aber es gibt ausnahmen. Vermutlich findest du irgendwo im internet eine liste davon.",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1719926627,
+      "score": 1,
+      "link_id": "t3_1dthdvz",
+      "parent_id": "t1_lb9rkhj"
+    },
+    {
+      "id": "lb9moix",
+      "body": "Nur das erste japanische modell nutzt gar keine emulation. Die europäischen varianten, die abwärtskompatibel sind haben zwar die originsale emotion engine (gpu) verbaut, emulieren aber den CPU weshalb nicht ganz alle spiele 1:1 laufen.",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1719918444,
+      "score": 0,
+      "link_id": "t3_1dthdvz",
+      "parent_id": "t1_lb9hzx4"
+    },
+    {
+      "id": "lb9m9oc",
+      "body": "Falls dein TV einen Component/YUV eingang hat (YCbCr) kannst du dir einfach ein solches kabel für die ps2 kaufen.",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1719918206,
+      "score": 2,
+      "link_id": "t3_1dthdvz",
+      "parent_id": "t3_1dthdvz"
+    },
+    {
+      "id": "lb4tigp",
+      "body": "Shenmue",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1719845214,
+      "score": 1,
+      "link_id": "t3_1dsto7d",
+      "parent_id": "t3_1dsto7d"
+    },
+    {
+      "id": "layomar",
+      "body": "I know that I can play both in full screen. Perhaps you have to open an included setup tool to activate it. Sometimes the full screen option is not inside the in game option menu but some kind of external tool.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1719746193,
+      "score": 2,
+      "link_id": "t3_1drfxlb",
+      "parent_id": "t3_1drfxlb"
+    },
+    {
+      "id": "lakr2xk",
+      "body": "Sharknado",
+      "author": "damianUHX",
+      "subreddit": "AskReddit",
+      "created_utc": 1719519427,
+      "score": 1,
+      "link_id": "t3_1dpzrkp",
+      "parent_id": "t3_1dpzrkp"
+    },
+    {
+      "id": "lak7lmc",
+      "body": "It’s horizontal but Thunderforce 3 is affordable, easy and great. \n\nI also think axelay on the super nes could fit the bill. There‘s an easy option.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1719513116,
+      "score": 1,
+      "link_id": "t3_1dpo6x5",
+      "parent_id": "t3_1dpo6x5"
+    },
+    {
+      "id": "lahngq3",
+      "body": "Warhawk on the Atari ST",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1719473563,
+      "score": 2,
+      "link_id": "t3_1dp9za0",
+      "parent_id": "t3_1dp9za0"
+    },
+    {
+      "id": "la817ld",
+      "body": "I like the idea and also the mood but I have no idea what the game is like and what topics are covered. I want to know if it‘s fun and if the topics match what I have to learn in school.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1719331176,
+      "score": 1,
+      "link_id": "t3_1do1xkw",
+      "parent_id": "t3_1do1xkw"
+    },
+    {
+      "id": "la2ud1h",
+      "body": "Ich mach das sit 20 jahr täglich. Erst eimal hät ä übermotivierti Kontrolleurin uf dä forchbahn mir gseit dass das illegal seg, dass au füess ohni socke uf dä polster nöd erlaubt sind. Aber das wird sust eigentli immer akzeptiert. Hät no nie öpper es problem gha demit sust.",
+      "author": "damianUHX",
+      "subreddit": "schwiiz",
+      "created_utc": 1719250281,
+      "score": 4,
+      "link_id": "t3_1dne5y1",
+      "parent_id": "t3_1dne5y1"
+    },
+    {
+      "id": "la2timh",
+      "body": "I liked the logic of vue.js but I always felt the use of all those concept is more complex that it should be. When I heared about svelte I knew that this is exactly what I always wished for. And though there are still things that need some time to understand I feel that this is the absolute minimum of concepts you have to learn to make a single page application. It‘s so much easier to understand whats going on behind the scene which makes debugging so much easier.",
+      "author": "damianUHX",
+      "subreddit": "sveltejs",
+      "created_utc": 1719250004,
+      "score": 1,
+      "link_id": "t3_1dna9cw",
+      "parent_id": "t3_1dna9cw"
+    },
+    {
+      "id": "l9x9ibj",
+      "body": "For human brains it‘s easier to process things that are falling from top down. This is what is more natural. So I think for most people horizontal shmups are easier to control. Hotizontal shmups can have an environment with floors and walls which can make them more versatile.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1719160972,
+      "score": 1,
+      "link_id": "t3_1dmcldq",
+      "parent_id": "t3_1dmcldq"
+    },
+    {
+      "id": "l9qu6ik",
+      "body": "realising that humans are dumb when it comes to coding is already a big step forward.",
+      "author": "damianUHX",
+      "subreddit": "learnprogramming",
+      "created_utc": 1719052041,
+      "score": 1,
+      "link_id": "t3_1dlb1x5",
+      "parent_id": "t3_1dlb1x5"
+    },
+    {
+      "id": "l954rvm",
+      "body": "this is actually a camping site in France",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1718712109,
+      "score": 2,
+      "link_id": "t3_1din8jn",
+      "parent_id": "t1_l953xjw"
+    },
+    {
+      "id": "l82vau6",
+      "body": "I don‘t think there is another opinion as B.",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1718086506,
+      "score": 47,
+      "link_id": "t3_1dd6pt8",
+      "parent_id": "t3_1dd6pt8"
+    },
+    {
+      "id": "l80etb7",
+      "body": "With a stick it‘s more like sports as you move your whole arm und not just your thumb.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1718049028,
+      "score": 1,
+      "link_id": "t3_1dcolgk",
+      "parent_id": "t3_1dcolgk"
+    },
+    {
+      "id": "l80cpn7",
+      "body": "As far as I know it doesn‘t matter what ground a button is connected. The ground is just needed for the current to flow. But on the pad you need to find out which is the ground and which the actual signal. This wasn‘t clear for me when looking at pics of the pad pcb. But you can find out.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1718048321,
+      "score": 1,
+      "link_id": "t3_1dcnvnx",
+      "parent_id": "t1_l7zt52t"
+    },
+    {
+      "id": "l7z68wl",
+      "body": "evian isch am genfersee",
+      "author": "damianUHX",
+      "subreddit": "schwiiz",
+      "created_utc": 1718034150,
+      "score": 1,
+      "link_id": "t3_1dcfew3",
+      "parent_id": "t1_l7xvmqo"
+    },
+    {
+      "id": "l7z5qvl",
+      "body": "As far as I know is every button  a connector. When you press a button you conect the 2 parts below. So when soldering the two pins of a arcade button to those parts it should work. It does not matter which one is the ground. For the stick you might only have one ground that you can connect, so here you can make 4 wires out of it and connect it to every direction.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1718033980,
+      "score": 3,
+      "link_id": "t3_1dcnvnx",
+      "parent_id": "t3_1dcnvnx"
+    },
+    {
+      "id": "l7yw5hf",
+      "body": "For me pixi-light was too complicated so I adapted this normal map example as a filter. [https://codepen.io/ivanpopelyshev/pen/jOWLjKd](https://codepen.io/ivanpopelyshev/pen/jOWLjKd)",
+      "author": "damianUHX",
+      "subreddit": "pixijs",
+      "created_utc": 1718030666,
+      "score": 1,
+      "link_id": "t3_1dcjqng",
+      "parent_id": "t3_1dcjqng"
+    },
+    {
+      "id": "l7s75co",
+      "body": "In version A the extra lives you get by score are not automatically awarded but dropped as items. So you can actually miss your well earned extra lives.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1717915643,
+      "score": 1,
+      "link_id": "t3_1d9a016",
+      "parent_id": "t3_1d9a016"
+    },
+    {
+      "id": "l7s5ply",
+      "body": "This is the best indie game I ever played. The game mechanics are so original and fun. I really don‘t know any other game that can compete with this. Not even the best treasure games.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1717914676,
+      "score": 5,
+      "link_id": "t3_1dbbond",
+      "parent_id": "t3_1dbbond"
+    },
+    {
+      "id": "l7psos6",
+      "body": "The description is good. Straight to the point. The trailer does not look good, it‘s too long and boring and did not catch me. I also think the graphics need some polish. There are prople that can tell you more in detail what you can change in order to achieve that.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1717875120,
+      "score": 1,
+      "link_id": "t3_1dbaa64",
+      "parent_id": "t3_1dbaa64"
+    },
+    {
+      "id": "l7ezc0s",
+      "body": "I'm using Sprite Illuminator to create my normal maps.",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1717700769,
+      "score": 6,
+      "link_id": "t3_1d9fiih",
+      "parent_id": "t1_l7cyuce"
+    },
+    {
+      "id": "l7cvpk4",
+      "body": "Shenmue.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1717673592,
+      "score": 1,
+      "link_id": "t3_1d9cr39",
+      "parent_id": "t3_1d9cr39"
+    },
+    {
+      "id": "l7c9qlp",
+      "body": "my weed friends always called it „power stoned“",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1717658831,
+      "score": 1,
+      "link_id": "t3_1d901q9",
+      "parent_id": "t3_1d901q9"
+    },
+    {
+      "id": "l793wow",
+      "body": "the game starts with 3 tries and gives you one try for the first 1’000 and every 2‘000 points. The score is only added when you complete the stage. So you can‘t grind for infinte extra lifes on certain acts.\n\nThe game has some tactical/puzzle elements. With the right strategy it can become quite easy.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1717610824,
+      "score": 2,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l78w2ef"
+    },
+    {
+      "id": "l78p62d",
+      "body": "wow, thanks a lot. I hope you enjoy it and I will think about how I can improve the trailer to make it more appealing from watching..:",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1717605865,
+      "score": 1,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l78db17"
+    },
+    {
+      "id": "l77u42m",
+      "body": "I see 2 issues with this game:\n\nThe bullets appear to suddenly and I have no time to react. What about an animation of one second before the bullet appears?\n\nThe gun powers up too slowly. You still have only one shot while the screen is filled with enemies. I have no chance of destroying an enemy with this power. How about making more enemies appear as soon as the gun is better?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1717595145,
+      "score": 3,
+      "link_id": "t3_1d8piyq",
+      "parent_id": "t3_1d8piyq"
+    },
+    {
+      "id": "l76x2zx",
+      "body": "I use an app called Spine: [https://esotericsoftware.com/](https://esotericsoftware.com/)\n\nIt's not cheap (300$+) but the app is good and all exports to pixi.js worked without any issues. It just works. \n\nThere is a good plugin for pixi and the support and community is there. I made a lot of research and would say this is the best solution for making spine animations in pixi.",
+      "author": "damianUHX",
+      "subreddit": "pixijs",
+      "created_utc": 1717577633,
+      "score": 1,
+      "link_id": "t3_acjtle",
+      "parent_id": "t3_acjtle"
+    },
+    {
+      "id": "l76vp2g",
+      "body": "Thanks for your feedback and yes I play bullet hells regularly. In cave shooters I usually reach the last stage with one credit. I also played rhythm games a lot, but not so much anymore. But I know how challenging games in these genres look and feel :-)\n\nMy game is a new concept by combining both mechanics gameplaywise. So I can't demand the highest skills from the player as no one has ever played a game mechanic similar to this. There might be rhythm shoot em ups where the rhythm is decorative (like shapes and beats or rez) or where you do rhythm and dodging at the same time in parallel (like Noisz) but there is really no other game where the rhythm and bulletpatterns are combined. So both parts may look simple, but in combination they are not!\n\nAs the game was too easy for some skilled shmup players I added harder difficulty modes. This trailer was taken from the harder \"serious\" difficulty level. There is even a harder \"insane\" difficulty. I think the game looks easier in this video than it is, as I know exactly were and how to deflect the bullets it looks like there are not many. But when you don't you will have a hell of a challenge to dodge. It's like when you watch someone playing an Irem game like R-type it also looks very easy, but when you play it it's hard as hell. When testing the hardest diffiulty it took me hours to beat a section in the last level.\n\nBy the way: The shield only recharges if you hit at least one bullet. So if you are ever off you will have to wait some secs for the shield to recharge. So you can't cheat through.\n\nYour opinion is really important, as there are a lot of players that think like you. Your wish is the experience I wanted to create and a people who actually play it mostly think I succeeded. But showing this in a trailer is really hard as people don't know a game with a similar mechanic and can't imagine how the game plays. I even got the feedback that it's not possible to know how the game feels without playing it. You can play the first stage demo here: [https://soundstorm.uhx.ch](https://soundstorm.uhx.ch) and sign up for playtest where also harder stages will be available.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1717576587,
+      "score": 1,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l734i0p"
+    },
+    {
+      "id": "l71qr56",
+      "body": "you should add way more contrast between the sprites and the backgrounds. Add some glow effect to the sprites and make the backgrounds more blury with less saturated colors.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1717499917,
+      "score": 2,
+      "link_id": "t3_1d7uabu",
+      "parent_id": "t3_1d7uabu"
+    },
+    {
+      "id": "l6z5llk",
+      "body": "Dodonpachi Dai Ou Jou is one of the hardest fair games I know. If you play it on score it's  the most demanding game I know. I play it since 20 years from time to time and can reach the last level and chain some parts. As a beginner try something easier. I started to like it after 10 playing easier shmups for 10 years. Before it was too much for me.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1717451679,
+      "score": 1,
+      "link_id": "t3_1d73kkm",
+      "parent_id": "t3_1d73kkm"
+    },
+    {
+      "id": "l6tei6s",
+      "body": "Valiant Hearts",
+      "author": "damianUHX",
+      "subreddit": "jeuxvideo",
+      "created_utc": 1717360788,
+      "score": 2,
+      "link_id": "t3_1d6a9tb",
+      "parent_id": "t3_1d6a9tb"
+    },
+    {
+      "id": "l6seo2w",
+      "body": "Eigengrau. A shmup that changes the mechanics every minute.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1717347526,
+      "score": 1,
+      "link_id": "t3_1d6g0x0",
+      "parent_id": "t3_1d6g0x0"
+    },
+    {
+      "id": "l6rzwwg",
+      "body": "I probably have 50 pcbs but I will sell most of them as they need a lot of space for just one game. And if something is broken it can be hard to fix as there are so many different systems. Since some years there‘s FPGA hardware emulation which runs mostly identical to the hardware originals. The pcb is inside the cabinet and you can‘t see it anyways. So I don‘t want to keep them anymore - besides some multigame boards.\n\nThe x68000 gives me more, as you have a computer, keyboard etc. It‘s a full system with dedicated periphals. But I need to repair my second drive right now. In general x68000 are causing a lot of issues. Capacitors need to be replaced and magnetical discs are unstable.\n\nIn the end it depends on your taste. There are some really great multigame pcbs. If you like streetfighter a CPS2 multi might be for you.",
+      "author": "damianUHX",
+      "subreddit": "sharpx68000",
+      "created_utc": 1717341960,
+      "score": 2,
+      "link_id": "t3_1d6d868",
+      "parent_id": "t1_l6robfo"
+    },
+    {
+      "id": "l6rnnn3",
+      "body": "I have both and it depends on your preferences. The X68000 can play a lot of games on one system and has great audio quality. \n\nArcade boards usually just have one game on a board (there are some boards that can be converted to play all games of this boardtype like capcom cps 2, taito f3 or neogeo mvs) and the audio is often not so good as in arcades you won‘t notice anyways.\n\nArcade games usually have higher quality and are the original version.\n\nSo if you wan‘t few games to play a lot i‘d suggest arcade. If you prefer a huge library with also lowbudget/hobby titles i‘d go with the 68000. There are of course also some really good high quality games on the 68000.",
+      "author": "damianUHX",
+      "subreddit": "sharpx68000",
+      "created_utc": 1717337086,
+      "score": 2,
+      "link_id": "t3_1d6d868",
+      "parent_id": "t3_1d6d868"
+    },
+    {
+      "id": "l6oohen",
+      "body": "It's made by Treasure. They are famous for their original gameplay on many Sega Megadrive and Saturn Games (Gunstar Heroes, Radiant Silvergun etc...). They developed Wario World for Nintendo.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1717279155,
+      "score": 2,
+      "link_id": "t3_1d5q8sk",
+      "parent_id": "t1_l6nst8y"
+    },
+    {
+      "id": "l6oo2a7",
+      "body": "Smashing Drive",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1717278988,
+      "score": 1,
+      "link_id": "t3_1d5q8sk",
+      "parent_id": "t3_1d5q8sk"
+    },
+    {
+      "id": "l6ol4tc",
+      "body": "Hm, I had error first too, but then it worked with the fileset I uploaded to github... Does anyone else have that issue?",
+      "author": "damianUHX",
+      "subreddit": "Marathon",
+      "created_utc": 1717277828,
+      "score": 1,
+      "link_id": "t3_1d5k5hc",
+      "parent_id": "t1_l6oknrk"
+    },
+    {
+      "id": "l6okgkz",
+      "body": "I'd like to do that, but I don't think I'll have the time for that. I think there are a lot of cool things in it, but it's just to hard.",
+      "author": "damianUHX",
+      "subreddit": "Marathon",
+      "created_utc": 1717277562,
+      "score": 3,
+      "link_id": "t3_1d5k5hc",
+      "parent_id": "t1_l6mb37q"
+    },
+    {
+      "id": "l6ojcaz",
+      "body": "Thanks for playing my scenario. Feels good. :-)\n\nOh, the Yeti should die after 2 baths of lava. I think if you used very few rockets you need some more rockets to bring the HP to zero. It has a lot of health but it vulnerable to lava, so rockets also hurt a bit but can't defeat the yeti. So you basically defeated it, never thought that someone is able to do that. You might be the first person besides me who could do the trick.\n\nAnd yes, there needed to be a lot more hints in the labyrinth stages. I would do a lot of things more accessible today.",
+      "author": "damianUHX",
+      "subreddit": "Marathon",
+      "created_utc": 1717277123,
+      "score": 2,
+      "link_id": "t3_1d5k5hc",
+      "parent_id": "t1_l6o9au3"
+    },
+    {
+      "id": "l6maugw",
+      "body": "Sega made some great 50hz conversions that look better than the 60hz originals because of the higher resolution: sega rally, nights, story of thor 2 and panzer dragoon zwei are some examples. The best version of those games is PAL 50hz. The pal versions of those games cant be played on a 60hz system.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1717246610,
+      "score": 2,
+      "link_id": "t3_1d4yfug",
+      "parent_id": "t1_l6huv10"
+    },
+    {
+      "id": "l6j3z5j",
+      "body": "I think the game has a lot of charm but fails to make a player interested. I agree with most of what has already been written but I don't think the slow paced gameplay is a problem. There are many people who play to relax and this game seems wo offer relaxing activities. However the trailer does not present them in a good way. I don't want to have sands in my eyes or listen to a singing snake the way you are advertising this. Perhaps you find a more appealing way to describe the activities like \"enjoy watching sandy worlds with a lot of things to discover like singing snakes\".",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1717188203,
+      "score": 2,
+      "link_id": "t3_1d4x7h9",
+      "parent_id": "t3_1d4x7h9"
+    },
+    {
+      "id": "l6gkor7",
+      "body": "It‘s good. \n\nThe description could come to the point earlier. It‘s not good to start the description with story details. Make a catchy intro sentene that describes the gameplay. E.g explore a mysterious world in this action jump and run.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1717153942,
+      "score": 1,
+      "link_id": "t3_1d4pofg",
+      "parent_id": "t3_1d4pofg"
+    },
+    {
+      "id": "l6bejuh",
+      "body": "The video material is fine. Just write some sentences about what the gameplay wants you to do. This could be: Solve puzzles, dodge bullets and shoot enemies, explore the dungeon or whatever you do gameplaywise  in this game. As a player I want to know how the game plays and what tasks I will have to do. Sentences like \"use magic\" don't tell me if I use magic like shooting in a bullet hell or for solving puzzles in a slow paced adventure. From the video I would say I do both in this game but if the trailer tells me this explicitly this would help me a lot to understand the gameplay.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1717072625,
+      "score": 2,
+      "link_id": "t3_1d2wokc",
+      "parent_id": "t1_l68mzuw"
+    },
+    {
+      "id": "l66cihj",
+      "body": "Eigengrau - a shoot em up where the game mechanics change all the time.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1716991485,
+      "score": 2,
+      "link_id": "t3_1d39qgv",
+      "parent_id": "t3_1d39qgv"
+    },
+    {
+      "id": "l66bw2z",
+      "body": "Not bad for a free game.\n\nFrom the description I can‘t immediately tell what type of game this is. Is it an action game or a puzzle game? The trailer talks a lot about what I can do in the game, but I still don‘t know how it feels playing it.\n\nIn general it looks very solid.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1716991242,
+      "score": 2,
+      "link_id": "t3_1d2wokc",
+      "parent_id": "t3_1d2wokc"
+    },
+    {
+      "id": "l6566hq",
+      "body": "I can see a lot of cool things but it does not look harmonic. It often feels like different graphic styles / color pallettes that don't fit together. I think if a graphician goes trough your game he can tell you what graphics you have to adjust to make a scene graphically consistent. I'm not an expert here, but I know that there are people that can tell you exactly what elements are off and how they should be adjusted.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716967300,
+      "score": 2,
+      "link_id": "t3_1d2skva",
+      "parent_id": "t3_1d2skva"
+    },
+    {
+      "id": "l61753a",
+      "body": "I will keep that in mind when rearranging the trailer. Thank you.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716908551,
+      "score": 2,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5zvvqi"
+    },
+    {
+      "id": "l609l8r",
+      "body": "Sin & Punishment",
+      "author": "damianUHX",
+      "subreddit": "n64",
+      "created_utc": 1716893250,
+      "score": 1,
+      "link_id": "t3_1d1krgy",
+      "parent_id": "t3_1d1krgy"
+    },
+    {
+      "id": "l5ztf20",
+      "body": "Detroit: Become human. A ten hour movie where you make multiple decisions a minute and they mostly affect the story. A true masterpiece.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1716881305,
+      "score": 1,
+      "link_id": "t3_1d21u7b",
+      "parent_id": "t3_1d21u7b"
+    },
+    {
+      "id": "l5zkfp4",
+      "body": "I will keep that in mind.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716874937,
+      "score": 1,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5xpj7n"
+    },
+    {
+      "id": "l5zkd0l",
+      "body": "It‘s very hard to show in a video how the game feels. Pleople actually playing it are totally in the rhythm and surprised how well everything works. Shapes and beats is a different type of game as the music is only decoration like in sounddodger. In Soundstorm the music is pat of the bullet patterns. But it‘s very hard to show this in a video. Any ideas?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716874887,
+      "score": 1,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5ywsz1"
+    },
+    {
+      "id": "l5xh2k6",
+      "body": "I see. There are a lot of bullet hells out there that have bullet canceling mechanics that trivialize the danger. Reflecting bullets is a quite common mechanic.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716840893,
+      "score": 2,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5xd5pd"
+    },
+    {
+      "id": "l5wrdy2",
+      "body": "elite beat agents for the nintendo ds",
+      "author": "damianUHX",
+      "subreddit": "rhythmgames",
+      "created_utc": 1716831279,
+      "score": 3,
+      "link_id": "t3_1d1o38d",
+      "parent_id": "t3_1d1o38d"
+    },
+    {
+      "id": "l5wlkv6",
+      "body": "Thank you for your advice. I thought about these things too. It‘s not that simple to synchronise all levels with the same music. Maybe I can reduce to two different tracks. \n\nAlso finding good sfx for every music track takes some time and noone mentioned this before. But personally I totally agree that this could be a big improvement.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716829136,
+      "score": 1,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5wfkpk"
+    },
+    {
+      "id": "l5wkwkz",
+      "body": "It‘s a crossover of bullet hell and rhythm game. So both parts were simplified to make them work together. In the trailer it probably looks like less bullets as I cancel them all the time. You are the first person that does not see it as a bullet hell.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716828891,
+      "score": 2,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5wc8dx"
+    },
+    {
+      "id": "l5vwxx0",
+      "body": "Cosmic Race.   \n\n\nThis is what Wikipedia writes about this game:  \n  \n*Cosmic Race* is notorious for being one of the [worst video games](https://en.wikipedia.org/wiki/List_of_video_games_notable_for_negative_reception) of all time. Criticisms of the game include the strange controls (the player must press the R1 button to move forward), the poor graphics that were taken from the PlayStation [developer's kit](https://en.wikipedia.org/wiki/Software_development_kit), and the poor [collision detection](https://en.wikipedia.org/wiki/Collision_detection).^(\\[)[*^(citation needed)*](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)^(\\])\n\n[*Next Generation*](https://en.wikipedia.org/wiki/Next_Generation_(magazine)) reviewed the game, rating it one star out of five, and stated that \"Although there are only a few titles available on the PlayStation, it is obvious, in comparison, that *Cosmic Race* is substandard on almost every level. The graphics are childish and uninspired and the control is entirely awkward. If all were right with the world, this game would never have been made.\"[^(\\[2\\])](https://en.wikipedia.org/wiki/Cosmic_Race#cite_note-NGencr-3)\n\nThe game was reviewed in [*Game Players*](https://en.wikipedia.org/wiki/Game_Players) issue #88, published September 1996, which was the last issue published under the name \"*Game Players*.\" In it, the reviews section was prefaced (as usual) with a list of the possible ratings (0.0-10.0). In each issue ratings 1.0-10.0 would have humorous real world analogs. The rating of 0.0 had been described for quite a while as simply \"*Cosmic Race*.\" Since this was the final issue of *Game Players* under its original name, they decided to commemorate the occasion by finally giving the game a proper review. The review was written by Chris Charla, who bemoaned long loading times, poor graphics which were taken directly from the PlayStation [SDK](https://en.wikipedia.org/wiki/Software_development_kit) (\"your mom could do better graphics than this. Seriously.\"), a non-intuitive control system, and a complete lack of [collision detection](https://en.wikipedia.org/wiki/Collision_detection) (allowing you to \"fly under the world\").[^(\\[4\\])](https://en.wikipedia.org/wiki/Cosmic_Race#cite_note-GPcr-5)",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1716819882,
+      "score": 3,
+      "link_id": "t3_1d1lugf",
+      "parent_id": "t3_1d1lugf"
+    },
+    {
+      "id": "l5vm1w2",
+      "body": "I actually like this game. The controls and camera are weird, but once you master it it allows you to do plattforming action like in no other 3d game. The graphics look primitive but you have a great viewing distance and high resolution (the only ps1 high res game afaik)",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1716815199,
+      "score": 4,
+      "link_id": "t3_1d1lugf",
+      "parent_id": "t1_l5uvgzi"
+    },
+    {
+      "id": "l5vjwyp",
+      "body": "Thank you. I will vheck those games. \n\nThe mechanics are that you reflect the bullets exactly on the beat. The bullets are flashing to indicate when you can reflect them. It‘s something unconventional so I might need to explain this more explicitely.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716814170,
+      "score": 2,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t1_l5vh5y9"
+    },
+    {
+      "id": "l5vjt02",
+      "body": "Thank you. I will vheck those games. \n\nThe mechanics are that you reflect the bullets exactly on the beat. The bullets are flashing to indicate when you can reflect them. It‘s something unconventional so I might need to explain this more explicitely.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716814117,
+      "score": 1,
+      "link_id": "t3_1d1pnum",
+      "parent_id": "t3_1d1pnum"
+    },
+    {
+      "id": "l5lj7co",
+      "body": "sonic triple trouble for the game gear",
+      "author": "damianUHX",
+      "subreddit": "SonicTheHedgehog",
+      "created_utc": 1716635203,
+      "score": 2,
+      "link_id": "t3_1d059tf",
+      "parent_id": "t3_1d059tf"
+    },
+    {
+      "id": "l5lhjq5",
+      "body": "in shenmue 2 the time does stop whe playing an arcade game. this ruined the whole experience for me.",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1716634063,
+      "score": 3,
+      "link_id": "t3_1czz55k",
+      "parent_id": "t1_l5jx46u"
+    },
+    {
+      "id": "l5gpc26",
+      "body": "Good thing. Hope this helps people to get into shmups. Many shmups are too difficult for normal gamers.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1716554744,
+      "score": 3,
+      "link_id": "t3_1czdb8e",
+      "parent_id": "t3_1czdb8e"
+    },
+    {
+      "id": "l5gmree",
+      "body": " The 32x could have been a good gap filler until a mature 3d console was developed.",
+      "author": "damianUHX",
+      "subreddit": "SEGA32X",
+      "created_utc": 1716553581,
+      "score": 8,
+      "link_id": "t3_1czid9q",
+      "parent_id": "t3_1czid9q"
+    },
+    {
+      "id": "l5gmlf4",
+      "body": "The saturn was different from the architecture. The polygon count was lower but had additional playfields and higher polygon quality. I prefer saturn 3d capabilities over the psx .",
+      "author": "damianUHX",
+      "subreddit": "SEGA32X",
+      "created_utc": 1716553504,
+      "score": 4,
+      "link_id": "t3_1czid9q",
+      "parent_id": "t1_l5gjkcp"
+    },
+    {
+      "id": "l5ggzeu",
+      "body": "Gal Gun 2\n\nYou shoot anime gitls highly attracted to you with pheromon shots to calm them down.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1716550747,
+      "score": 1,
+      "link_id": "t3_1cz1mn4",
+      "parent_id": "t3_1cz1mn4"
+    },
+    {
+      "id": "l55jj9r",
+      "body": "analogue sticks work surprisingly well. I use them when there‘s no good dpad.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1716376169,
+      "score": 1,
+      "link_id": "t3_1cxezt0",
+      "parent_id": "t3_1cxezt0"
+    },
+    {
+      "id": "l50hvou",
+      "body": "there are some appealing elements: i like the setting and character design. but it does not seem to be a game yet. gameplaywise it looks more like a completed unity tutorial.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1716295697,
+      "score": 8,
+      "link_id": "t3_1cx6n5k",
+      "parent_id": "t3_1cx6n5k"
+    },
+    {
+      "id": "l5009wq",
+      "body": "The first one has more challenging gameplay and better music. Zwei has better framerate and is more more polished. The first panzer dragoon feels unfinished in the later levels.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1716286099,
+      "score": 2,
+      "link_id": "t3_1cwq52h",
+      "parent_id": "t3_1cwq52h"
+    },
+    {
+      "id": "l4hya2k",
+      "body": "I like the graphics style. Especially the color palette. High artistic value.\n\nAlso the trailer is well made with a good timing of scenes.\n\nThe trailer however does not get me into the game. I don't know what I am and what I have to do. \n\nI think the trailer could be half the length. The scenes in the second part look very similar to those in the first part.\n\nThe part where I see my level ups is out of place between the other scenes. Perhaps you can show the level up in game?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715973462,
+      "score": 4,
+      "link_id": "t3_1cuau19",
+      "parent_id": "t3_1cuau19"
+    },
+    {
+      "id": "l4fd3pc",
+      "body": "I like railshooters like Gamera 2000 and Vanark",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1715933105,
+      "score": 1,
+      "link_id": "t3_1ctloru",
+      "parent_id": "t3_1ctloru"
+    },
+    {
+      "id": "l4at8st",
+      "body": "super mario",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1715864173,
+      "score": 74,
+      "link_id": "t3_1ctbqsa",
+      "parent_id": "t3_1ctbqsa"
+    },
+    {
+      "id": "l49tmo1",
+      "body": "all the reviews I read are saying the same thing. perhaps you did‘t compare it with other versions?",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1715841504,
+      "score": 1,
+      "link_id": "t3_1cslod1",
+      "parent_id": "t1_l475s61"
+    },
+    {
+      "id": "l46chhb",
+      "body": "unfortunately it is a very poor port besides the great 3d effect: poor framerate and ugly scaling.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1715789942,
+      "score": 1,
+      "link_id": "t3_1cslod1",
+      "parent_id": "t1_l4620tp"
+    },
+    {
+      "id": "l460dng",
+      "body": "it‘s a surprisingly good game. the screenshots don‘t show this, but it‘s perfectly balanced and has a great gamedesign.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1715785806,
+      "score": 7,
+      "link_id": "t3_1cslod1",
+      "parent_id": "t3_1cslod1"
+    },
+    {
+      "id": "l45befo",
+      "body": "animations are not easy and I can‘t say what you have to do that it looks good. important is that everytime you shoot or kill someone it is satisfying. Shooting should cause some sort of recoil and a particle effect. Dieing should have multiple images of the person falling with particle effects for blood. Look at other games to see how they do it.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715776327,
+      "score": 1,
+      "link_id": "t3_1cs2xsr",
+      "parent_id": "t1_l458q5t"
+    },
+    {
+      "id": "l44za0b",
+      "body": "side scroll beat em ups like turtles in time or streets of rage",
+      "author": "damianUHX",
+      "subreddit": "retrogaming",
+      "created_utc": 1715770211,
+      "score": 1,
+      "link_id": "t3_1csc21a",
+      "parent_id": "t3_1csc21a"
+    },
+    {
+      "id": "l44vj3g",
+      "body": "Add animations for shooting and dieing and it dill look a lot better…",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715767825,
+      "score": 1,
+      "link_id": "t3_1cs2xsr",
+      "parent_id": "t3_1cs2xsr"
+    },
+    {
+      "id": "l44uuxx",
+      "body": "Shenmue",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1715767362,
+      "score": 2,
+      "link_id": "t3_1cs4ns2",
+      "parent_id": "t3_1cs4ns2"
+    },
+    {
+      "id": "l44ukui",
+      "body": "From the graphical perspective it looks very unprofessional: sprites don‘t look appealing and environments are empty. there are also some environment-detection problems: the stone suddenly is in the hole and the player once stands inside the wall.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715767169,
+      "score": 2,
+      "link_id": "t3_1crzleh",
+      "parent_id": "t3_1crzleh"
+    },
+    {
+      "id": "l44k99h",
+      "body": "I think they use java because in the time they started with their software java was popular and there is no need to change the whole code base. I know that banks making software since 80‘s are still using fortran.",
+      "author": "damianUHX",
+      "subreddit": "learnprogramming",
+      "created_utc": 1715759323,
+      "score": 1,
+      "link_id": "t3_1cs1jr0",
+      "parent_id": "t3_1cs1jr0"
+    },
+    {
+      "id": "l3zqg2f",
+      "body": "The game looks good. I like the weapons, they seem to be original and different from each other. Also the bullet patterns. It seems to be an interesting challenge. The trailer itself is not as appealing as it clould be. What are the feelings/experience of playing this game. Whats the progress system and whats my goal as a player? What message should the trailer have?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715689660,
+      "score": 3,
+      "link_id": "t3_1crqc95",
+      "parent_id": "t3_1crqc95"
+    },
+    {
+      "id": "l3zp64s",
+      "body": "It looks really good in most aspects. gsmrplay looks smooth and graphics are appealing. I didn‘t like the sound of the players gun and there could be more personality and memorable things in the levels.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715689075,
+      "score": 8,
+      "link_id": "t3_1crq6rl",
+      "parent_id": "t3_1crq6rl"
+    },
+    {
+      "id": "l3q6j7e",
+      "body": "ah, ok. ai didnt get that from the trailer.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715530577,
+      "score": 5,
+      "link_id": "t3_1cq8dwo",
+      "parent_id": "t1_l3pu1az"
+    },
+    {
+      "id": "l3pr5pj",
+      "body": "I like the mood of the trailer but it doesn‘t make me interested in the game. I can‘t see how the game works and the pixel art does not look beautiful. I‘d ask pixel artists if you can use their work for the cards.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715524594,
+      "score": 11,
+      "link_id": "t3_1cq8dwo",
+      "parent_id": "t3_1cq8dwo"
+    },
+    {
+      "id": "l3p1cg0",
+      "body": "survivor games don‘t require much skills. they‘re more a strategic game what weapons to upgrade und collecting things. shmups are the essence of motoric skills you train over years or even decades.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1715511539,
+      "score": 1,
+      "link_id": "t3_1cpg77v",
+      "parent_id": "t1_l3osw1r"
+    },
+    {
+      "id": "l3mbeg9",
+      "body": "people here don‘t like games like vampire survivor.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1715458876,
+      "score": 3,
+      "link_id": "t3_1cpg77v",
+      "parent_id": "t3_1cpg77v"
+    },
+    {
+      "id": "l3k1pu5",
+      "body": "The scenery looks nice, but the combat looks cheap. The animations and effects in combat are not polished enough that it looks good.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1715422555,
+      "score": 3,
+      "link_id": "t3_1cp6ohd",
+      "parent_id": "t3_1cp6ohd"
+    },
+    {
+      "id": "l39mt45",
+      "body": "For me the most important thing that I learned was to clearly define the range of my work. I always worked at small companies or startups with no experience in software development. They usually think you‘re a magician that can create miracles out of nothing. But a software is always just a representation of actual bussiness logic or content. When the bussiness logic does not work or you don‘t get any content your software does not either. I should always have defined that limitations from the beginning.",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1715254430,
+      "score": 1,
+      "link_id": "t3_1cngf0o",
+      "parent_id": "t3_1cngf0o"
+    },
+    {
+      "id": "l342e85",
+      "body": "Eigengrau.\n\nA shoot em up that changes it’s mechanics every minute.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1715165565,
+      "score": 9,
+      "link_id": "t3_1cmzu0n",
+      "parent_id": "t3_1cmzu0n"
+    },
+    {
+      "id": "l2z4s1g",
+      "body": "panzer dragoon saga",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1715087623,
+      "score": 7,
+      "link_id": "t3_1clr5p1",
+      "parent_id": "t1_l2z2uyy"
+    },
+    {
+      "id": "l2pb3ff",
+      "body": "the reason for such spines is that in japanese stores space is limited. the games are stored with the side facing the customer. these spines make the side a bit larger. so the title can be written with slightly bigger letters.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1714925064,
+      "score": 3,
+      "link_id": "t3_1ckqntr",
+      "parent_id": "t3_1ckqntr"
+    },
+    {
+      "id": "l2paodn",
+      "body": "As a beginner it‘s better to take a lot. When you only take little you won‘t make the step to the other world and you will just feel uncomfortable. take more and choose a setting where you feel comfortable.",
+      "author": "damianUHX",
+      "subreddit": "shrooms",
+      "created_utc": 1714924906,
+      "score": 1,
+      "link_id": "t3_1ckrile",
+      "parent_id": "t3_1ckrile"
+    },
+    {
+      "id": "l2pa35e",
+      "body": "detroid: become human.",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1714924683,
+      "score": 1,
+      "link_id": "t3_1ckq7vb",
+      "parent_id": "t3_1ckq7vb"
+    },
+    {
+      "id": "l2of3t8",
+      "body": "if you don‘t want to use a MVVM framework like vue.js or simular it‘s still a good plugin for certain things. It lost popularity because the core conccept is outdated and replaced by modern data binding logics.",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1714911499,
+      "score": 1,
+      "link_id": "t3_1ckpegc",
+      "parent_id": "t3_1ckpegc"
+    },
+    {
+      "id": "l2ld76w",
+      "body": "yes, It must be some kind of bug. after I quit and reopened the game I wanted to start from stage 14. so I touched that swuare but nothing happened. only touching the first square worked.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714853796,
+      "score": 2,
+      "link_id": "t3_1ck4cab",
+      "parent_id": "t1_l2l6tw4"
+    },
+    {
+      "id": "l2l3ug0",
+      "body": "with the direct link I could download it. sometimes the cache for searching needs some time to be recreated. so your game might not appear in searches.\n\nFeedback for the game:\n-levels are original and good.\n-visual feedback should be improved: the conquering of planets is hard to see, also tapping buttons has no feedback. \n-it should be possible to cancel a shot. \n-ai seems to be passive when I do not shoot.\n-the levels end too abrupt. there should be a animation before the level disappears.\n-the flow of the whole experience could be improved.\n\nthe core of the game is good. I like playing it.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714850375,
+      "score": 1,
+      "link_id": "t3_1ck4cab",
+      "parent_id": "t1_l2kyz8j"
+    },
+    {
+      "id": "l2kyg0c",
+      "body": "I couldn‘t find it in the playstore. Might there be restrictions or cache issues? Do you have a link?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714848477,
+      "score": 2,
+      "link_id": "t3_1ck4cab",
+      "parent_id": "t1_l2kvwl6"
+    },
+    {
+      "id": "l2kvyfa",
+      "body": "I came to similar conclusions. The perfect solution can‘t be done, it‘s ok when you know about the downsides of your solution and know when it‘s worth to restructure something.",
+      "author": "damianUHX",
+      "subreddit": "learnprogramming",
+      "created_utc": 1714847610,
+      "score": 1,
+      "link_id": "t3_1cjxqzb",
+      "parent_id": "t3_1cjxqzb"
+    },
+    {
+      "id": "l2kusxq",
+      "body": "that sounds like an interesting concept. is the game already available?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714847209,
+      "score": 2,
+      "link_id": "t3_1ck4cab",
+      "parent_id": "t1_l2ksd60"
+    },
+    {
+      "id": "l2ktbdl",
+      "body": "I really love how the voice is guiding me through the game.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1714846687,
+      "score": 1,
+      "link_id": "t3_1ck51v2",
+      "parent_id": "t3_1ck51v2"
+    },
+    {
+      "id": "l2ks44p",
+      "body": "the game looks ugly. but somehow I like this. I would look at the graphics from a distance and think of the color palette you want to use. What‘s the impression a setting should make. Make the colors harmonic. You can use shaders/filters/effects for this.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714846273,
+      "score": 3,
+      "link_id": "t3_1ck472l",
+      "parent_id": "t3_1ck472l"
+    },
+    {
+      "id": "l2kqb0g",
+      "body": "this seems to be a very promising game for my taste. I‘m not into mobile games and don‘t know how common such games are. the mechanics seem to be interesting and relaxing. I feel I can do this for ages. The graphics are minimalistic but nice. \n\nI didn‘t understand what the goal in this game is. I can aim and shoot. But what for? What do I gave to achieve? The trailer could explain the mechanics more clearly and even make the watcher engaged.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714845649,
+      "score": 2,
+      "link_id": "t3_1ck4cab",
+      "parent_id": "t3_1ck4cab"
+    },
+    {
+      "id": "l2koptc",
+      "body": "looks quite good. I felt that the dash move is missing a sound effect. the enemy and bullet patterns don‘t seem to be well thought out. but the concept works really well. promising game.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714845099,
+      "score": 2,
+      "link_id": "t3_1cju51g",
+      "parent_id": "t3_1cju51g"
+    },
+    {
+      "id": "l2kmps7",
+      "body": "the game does not look like a finished game. the engine, graphics and game mechanics are good but it feels too empty. a lot of more detail is needed in many aspects. but I really like your game and see some really interesting mechanics in it.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714844407,
+      "score": 2,
+      "link_id": "t3_1ck31es",
+      "parent_id": "t3_1ck31es"
+    },
+    {
+      "id": "l2jwx5j",
+      "body": "C++ is a complete different logic than js. I startes to switch about 15 years ago. First i thought js is the worst language ever until I understood the logic. Now I think it‘s the best language ever.",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1714835429,
+      "score": 0,
+      "link_id": "t3_1cjz0e2",
+      "parent_id": "t3_1cjz0e2"
+    },
+    {
+      "id": "l2ijvqg",
+      "body": "didn't know satazius (and wolflame) are available for dreamcast. satazius is a really great game!",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1714810142,
+      "score": 2,
+      "link_id": "t3_1cjqpgv",
+      "parent_id": "t3_1cjqpgv"
+    },
+    {
+      "id": "l2ijpca",
+      "body": "People are more relaxed and less overdressed as in Zurich. Definitely a good place to live.",
+      "author": "damianUHX",
+      "subreddit": "ethz",
+      "created_utc": 1714810009,
+      "score": 8,
+      "link_id": "t3_1cjii8f",
+      "parent_id": "t3_1cjii8f"
+    },
+    {
+      "id": "l2ijc8m",
+      "body": "Thanks a lot for this project and the great documentation. I will try it out as soon as I have time!",
+      "author": "damianUHX",
+      "subreddit": "vuejs",
+      "created_utc": 1714809732,
+      "score": 2,
+      "link_id": "t3_1cjei7k",
+      "parent_id": "t3_1cjei7k"
+    },
+    {
+      "id": "l2fvttf",
+      "body": "the top story based games on the saturn are very expensive or only available as translation hacks: panzer dragoon saga, shining force 3, grandia, policenauts, magic knight rayearth, guardian heroes, burning rangers.\n\nfrom the affordable ones you could check out dark savior or story of thor 2…",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1714763805,
+      "score": 4,
+      "link_id": "t3_1cjga1j",
+      "parent_id": "t3_1cjga1j"
+    },
+    {
+      "id": "l2dgyig",
+      "body": "the effects look nice and I think the gameplay could be interesting. but I can‘t see how the game is supposed to work. some explanations about the mechanics could help…",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714728660,
+      "score": 6,
+      "link_id": "t3_1cj04ud",
+      "parent_id": "t3_1cj04ud"
+    },
+    {
+      "id": "l2d843m",
+      "body": "you‘re missing the gamegear and nintendo switch releases :-)",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1714721998,
+      "score": 1,
+      "link_id": "t3_1cibx72",
+      "parent_id": "t3_1cibx72"
+    },
+    {
+      "id": "l23jf61",
+      "body": "I don‘t know a game that has a different resolution in a pal megadrive game. the resultion and refresh rate is determined by the console, not the game. on saturn there were some games that where adapted to the pal resolution. but I don‘t know such a game for the megadrive.",
+      "author": "damianUHX",
+      "subreddit": "Megadrive",
+      "created_utc": 1714574217,
+      "score": 2,
+      "link_id": "t3_1chl6tr",
+      "parent_id": "t1_l23ee1b"
+    },
+    {
+      "id": "l23iood",
+      "body": "The syntax is very readable.",
+      "author": "damianUHX",
+      "subreddit": "learnprogramming",
+      "created_utc": 1714573946,
+      "score": 1,
+      "link_id": "t3_1ch6tfk",
+      "parent_id": "t3_1ch6tfk"
+    },
+    {
+      "id": "l23icrx",
+      "body": "dodonpachi daioujou",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1714573824,
+      "score": 1,
+      "link_id": "t3_1ch3w4q",
+      "parent_id": "t3_1ch3w4q"
+    },
+    {
+      "id": "l1xqzmp",
+      "body": "Post xour game on alphabetagamer",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1714483825,
+      "score": 1,
+      "link_id": "t3_1cgd4rr",
+      "parent_id": "t3_1cgd4rr"
+    },
+    {
+      "id": "l1xqpyt",
+      "body": "I made a custom css plugin to always hide the video recommendations by adding display: none property to that element.",
+      "author": "damianUHX",
+      "subreddit": "learnprogramming",
+      "created_utc": 1714483718,
+      "score": 2,
+      "link_id": "t3_1cgfftp",
+      "parent_id": "t3_1cgfftp"
+    },
+    {
+      "id": "l1xpou4",
+      "body": "for me the biggest downside was to get some apps to work. as there are so many distros/configuarations it‘s possible that one app has problems with your setup. so you need some basic knowledge to make it work. I personally struggled with the nvidia drivers until I found a distro where it‘s preinstalled. And davinci resolve needed dome extra configuaration. But it was worth the struggle. My quality of life has significantly improved.",
+      "author": "damianUHX",
+      "subreddit": "linuxquestions",
+      "created_utc": 1714483309,
+      "score": 3,
+      "link_id": "t3_1cgq362",
+      "parent_id": "t3_1cgq362"
+    },
+    {
+      "id": "l1mar0l",
+      "body": "Thank you for your feedback. \n\nYes, the weird noise flash can be confusing. I think I will adjust the pre-announce of it and make it flash the whole time at maximum intensity.",
+      "author": "damianUHX",
+      "subreddit": "WebGames",
+      "created_utc": 1714296219,
+      "score": 1,
+      "link_id": "t3_1ceb9l5",
+      "parent_id": "t1_l1m9wxp"
+    },
+    {
+      "id": "l1m8xws",
+      "body": "I agree. with ok, I meant it's trying the right thing. but general quality is very low.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714294848,
+      "score": 1,
+      "link_id": "t3_1cejg34",
+      "parent_id": "t1_l1j14kz"
+    },
+    {
+      "id": "l1jhxs2",
+      "body": "did you understand how the mechanics work?",
+      "author": "damianUHX",
+      "subreddit": "WebGames",
+      "created_utc": 1714246011,
+      "score": 1,
+      "link_id": "t3_1ceb9l5",
+      "parent_id": "t1_l1je7gf"
+    },
+    {
+      "id": "l1iz8rh",
+      "body": "the video is ok, just try hundreds of such videos until it gets noticed. the general quality of the game seems average at this state. you probably have a long way to go.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714238980,
+      "score": -3,
+      "link_id": "t3_1cejg34",
+      "parent_id": "t3_1cejg34"
+    },
+    {
+      "id": "l1erl82",
+      "body": "the game does not seem to offer something new and exiting. it looks like a completed tutorial and not like a completed game. If you add more elements it might turn out more appealing.",
+      "author": "damianUHX",
+      "subreddit": "hobbygamedev",
+      "created_utc": 1714165455,
+      "score": 1,
+      "link_id": "t3_1cdvt79",
+      "parent_id": "t3_1cdvt79"
+    },
+    {
+      "id": "l1efdoj",
+      "body": "it does exactly what a framework should do. angular is overengineered and react does not really help you building the app.",
+      "author": "damianUHX",
+      "subreddit": "vuejs",
+      "created_utc": 1714161144,
+      "score": 1,
+      "link_id": "t3_1cds1n9",
+      "parent_id": "t3_1cds1n9"
+    },
+    {
+      "id": "l1clcs5",
+      "body": "LSD dream emulator",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1714138358,
+      "score": 10,
+      "link_id": "t3_1cdgyd8",
+      "parent_id": "t3_1cdgyd8"
+    },
+    {
+      "id": "l1747nc",
+      "body": "It looks like vampire survivor with ducks. Quite solid, but I can‘t see why I should care about this game when I alteady own vampire survivor. In The second half of the trailer I lost interest, but I can‘t tell exactly why. It seems to become unprofessional and unfinished in the second half. Just a personal impression. The font looks cheap.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1714051580,
+      "score": 5,
+      "link_id": "t3_1ccq17n",
+      "parent_id": "t3_1ccq17n"
+    },
+    {
+      "id": "l0axvoq",
+      "body": "scorcher is one of my favorites on the system. once you understand the mechanics it‘s an absolute masterpiece. a hidden gem.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1713537252,
+      "score": 3,
+      "link_id": "t3_1c7hd7x",
+      "parent_id": "t1_l087u21"
+    },
+    {
+      "id": "l0axg7z",
+      "body": "darius II. the 3 screens simply look awful when scaled to the saturn screensize and resolution.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1713537100,
+      "score": 2,
+      "link_id": "t3_1c7hd7x",
+      "parent_id": "t3_1c7hd7x"
+    },
+    {
+      "id": "l0ahnpe",
+      "body": "great work. it works really well.\n\nI think a threshold could improve it even more. e.g when rotating it should only start to rotate after you rotated it once for at least 10 degrees. or start moving only after you moved it 10 pixels once.",
+      "author": "damianUHX",
+      "subreddit": "vuejs",
+      "created_utc": 1713531018,
+      "score": 1,
+      "link_id": "t3_1c3sx5u",
+      "parent_id": "t3_1c3sx5u"
+    },
+    {
+      "id": "l07a5vz",
+      "body": "I know that the source code was lost for a lot of sega games in that area, but I don‘t know about sega rally.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1713473685,
+      "score": 2,
+      "link_id": "t3_1c75smn",
+      "parent_id": "t1_l069ta7"
+    },
+    {
+      "id": "l05nxn8",
+      "body": "if you do not have the source code and level files are not stored as readable files but merged into the compiled executable it‘s very hard or even impossible to add levels. all the games are compiled as executables for the hardware which are only customisable in a limited way. what can be modified depends on how the game is built.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1713454386,
+      "score": 11,
+      "link_id": "t3_1c75smn",
+      "parent_id": "t3_1c75smn"
+    },
+    {
+      "id": "kz86ly4",
+      "body": "but it‘s playable. you can download it.",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1712926655,
+      "score": 11,
+      "link_id": "t3_1c270zs",
+      "parent_id": "t1_kz8675t"
+    },
+    {
+      "id": "kyxyh43",
+      "body": "alternating current (coming from the power plug) is actually also 50hz or 60hz. That‘s why it‘s called alternating current. it changes from positive to negative 50/60 times a second. The frequeny of the television was made the same frequency to avoid interferences. There are some exceptions where the current is 50hz and the tv is 60hz like korea or as I just read in the comments parts of japan.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1712767048,
+      "score": 8,
+      "link_id": "t3_1c0o5eu",
+      "parent_id": "t1_kyxsuiw"
+    },
+    {
+      "id": "kyxycsr",
+      "body": "alternating current (coming from the power plug) is actually also 50hz or 60hz. That‘s why it‘s called alternating current. it changes from positive to negative 50/60 times a second. The frequeny of the television was made the same frequency to avoid interferences. There are some exceptions where the current is 50hz and the tv is 60hz like korea or as I just read in the comments parts of japan.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1712767006,
+      "score": 3,
+      "link_id": "t3_1c0o5eu",
+      "parent_id": "t3_1c0o5eu"
+    },
+    {
+      "id": "kyrnwxu",
+      "body": "The original rainbow cotton on dc was not well regarded because of the controls. The analogue stick was very sensitive and aiming required high pecision. I personally liked this, but most people didn‘t. The remake will have new control options. So this should‘t be an issue anymore.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1712670352,
+      "score": 2,
+      "link_id": "t3_1byu0wp",
+      "parent_id": "t1_kylk5a5"
+    },
+    {
+      "id": "kyb8r7y",
+      "body": "for me it looks appealing. I like the setting and color palette. But something is missing that I would remember the game.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1712405382,
+      "score": 2,
+      "link_id": "t3_1bx5uxf",
+      "parent_id": "t3_1bx5uxf"
+    },
+    {
+      "id": "kyb4gyn",
+      "body": "It really looks good (graphics and gameplay). I just wishlisted it.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1712402957,
+      "score": 1,
+      "link_id": "t3_1bx1i0p",
+      "parent_id": "t3_1bx1i0p"
+    },
+    {
+      "id": "ky6fh3t",
+      "body": "Not bad at all. I think shadows and normal maps could improve the visuals a lot.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1712328546,
+      "score": 2,
+      "link_id": "t3_1bwhwpo",
+      "parent_id": "t3_1bwhwpo"
+    },
+    {
+      "id": "kxoxoou",
+      "body": "Carmageddon",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1712063322,
+      "score": 1,
+      "link_id": "t3_1btnei9",
+      "parent_id": "t3_1btnei9"
+    },
+    {
+      "id": "kx8hvvs",
+      "body": "This short game made me laugh multiple times. I like it :-)",
+      "author": "damianUHX",
+      "subreddit": "WebGames",
+      "created_utc": 1711794338,
+      "score": 1,
+      "link_id": "t3_1bdxdmd",
+      "parent_id": "t3_1bdxdmd"
+    },
+    {
+      "id": "kx3uwbd",
+      "body": "all the graphic assets together don‘t result in a beautiful image. The single sprites arre not bad, but all sprites together don‘t feel hormonic. Ask a graphics expert how you can achieve this.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1711719221,
+      "score": 2,
+      "link_id": "t3_1bq066e",
+      "parent_id": "t3_1bq066e"
+    },
+    {
+      "id": "kx3klpa",
+      "body": "g vector on the sega saturn",
+      "author": "damianUHX",
+      "subreddit": "gaming",
+      "created_utc": 1711714596,
+      "score": 1,
+      "link_id": "t3_1bqlfbf",
+      "parent_id": "t3_1bqlfbf"
+    },
+    {
+      "id": "kx3cufc",
+      "body": "The game and trailer look very good. I think it takes too long to get to the point. after 30 seconds you could cut about a minute of the video.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1711710294,
+      "score": 2,
+      "link_id": "t3_1bpzg7y",
+      "parent_id": "t3_1bpzg7y"
+    },
+    {
+      "id": "kwmlirb",
+      "body": "wolflame",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1711453107,
+      "score": 1,
+      "link_id": "t3_1bnq5bx",
+      "parent_id": "t3_1bnq5bx"
+    },
+    {
+      "id": "kwgmv5l",
+      "body": "Nights into dreams, or isn‘t this cheap anymore?",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1711357885,
+      "score": 1,
+      "link_id": "t3_1bmt8fw",
+      "parent_id": "t3_1bmt8fw"
+    },
+    {
+      "id": "kva5lt1",
+      "body": "reminds me of a game called „bazaru degozaru no geemu degozaru“ on pc engine. perhaps you can get some inspiration from there…",
+      "author": "damianUHX",
+      "subreddit": "IndieDev",
+      "created_utc": 1710684639,
+      "score": 1,
+      "link_id": "t3_1bguo0z",
+      "parent_id": "t3_1bguo0z"
+    },
+    {
+      "id": "kv3zd7j",
+      "body": "it‘s a very small company where I made all the IT work. so there‘s trust.",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1710573403,
+      "score": 1,
+      "link_id": "t3_1bf8c2n",
+      "parent_id": "t1_kv1tsog"
+    },
+    {
+      "id": "kv187s3",
+      "body": "I like the visuals. And it also might be an interesting game. But I don't know anything about what the game is. What you write is very little and could mean anything, I haven't got a single clue if it is an action or a puzzle game.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMySteamPage",
+      "created_utc": 1710529729,
+      "score": 1,
+      "link_id": "t3_1b93r4o",
+      "parent_id": "t3_1b93r4o"
+    },
+    {
+      "id": "kuz1v2d",
+      "body": "The animations look good, also the backgrounds are nice. Solid quality. I‘m wondering the sprites are so small. It looks like a one on one combat game without any environment like walls or plattforms. The scale of the sprites, however, is like in a metroidvania. Without platforms and walls the world looks quite empty with this sprite-size.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1710500097,
+      "score": 4,
+      "link_id": "t3_1bfabf8",
+      "parent_id": "t3_1bfabf8"
+    },
+    {
+      "id": "kuyuk02",
+      "body": "I count my coding time x2. For every hour of coding I need another hour to structure things in my head while eg. going for a walk. Lucky I‘m allowed to do that. So my answer would be 4 hours.",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1710495177,
+      "score": 4,
+      "link_id": "t3_1bf8c2n",
+      "parent_id": "t3_1bf8c2n"
+    },
+    {
+      "id": "kuynu6b",
+      "body": "Finally I understand how the game works! Last time I was totally confused.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1710490091,
+      "score": 1,
+      "link_id": "t3_1beqwcs",
+      "parent_id": "t3_1beqwcs"
+    },
+    {
+      "id": "kutnozw",
+      "body": "on ps2 I'd recommend the time crisis games, vampire night and ninja assault.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1710418219,
+      "score": 1,
+      "link_id": "t3_1behsx6",
+      "parent_id": "t1_kutdb5c"
+    },
+    {
+      "id": "kutci32",
+      "body": "on the psx there‘s just time crisis and time crisis project titan that I would recommend. There‘s also a game called horned owl, but this does not work with the namco gun. Then there‘s crypt killer and rescue shot that are ok games. On the ps2 there are much better lightgun shooters.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1710411835,
+      "score": 2,
+      "link_id": "t3_1behsx6",
+      "parent_id": "t3_1behsx6"
+    },
+    {
+      "id": "kustkdp",
+      "body": "I like the idea and the storyline of the trailer. Its something unique I will remember. The graphical quality of some elements is a bit too trashy sometimes. The fonts and color of the text don‘t look professional. The arms of the player use too much space. Oh, and I can‘t see that this should be a horrorgame. But it attracted me.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1710397918,
+      "score": 2,
+      "link_id": "t3_1be3xbg",
+      "parent_id": "t3_1be3xbg"
+    },
+    {
+      "id": "kussa0u",
+      "body": "actually he wanted to make 16 chapters, not games. a game is 2-3 chapters, so he wanted to make about 7 shenmues.",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1710397027,
+      "score": 15,
+      "link_id": "t3_1bebne7",
+      "parent_id": "t1_kusry7t"
+    },
+    {
+      "id": "kuqe0yn",
+      "body": "Good game, good trailer, perhaps a bit too long.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1710362251,
+      "score": 1,
+      "link_id": "t3_1bdwj1f",
+      "parent_id": "t3_1bdwj1f"
+    },
+    {
+      "id": "kuqdkna",
+      "body": "I read that there‘s a limit of 300 folders. but I don‘t know if this is still true in later versions.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1710362105,
+      "score": 1,
+      "link_id": "t3_1be14op",
+      "parent_id": "t3_1be14op"
+    },
+    {
+      "id": "kudmwuk",
+      "body": "Just learned about a distro called „nobara“ which is a fedora linux set up especially for gaming including virtual box. might be what you‘re looking for.",
+      "author": "damianUHX",
+      "subreddit": "linux_gaming",
+      "created_utc": 1710171021,
+      "score": 1,
+      "link_id": "t3_1bc2d0s",
+      "parent_id": "t3_1bc2d0s"
+    },
+    {
+      "id": "ku8eqwo",
+      "body": "this game is a masterpiece. it‘s made with do much love (and humor)",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1710086247,
+      "score": 2,
+      "link_id": "t3_1banitl",
+      "parent_id": "t3_1banitl"
+    },
+    {
+      "id": "ku7fmr3",
+      "body": "thank you. just installed it and it‘s exactly what I was looking for.",
+      "author": "damianUHX",
+      "subreddit": "Fedora",
+      "created_utc": 1710069565,
+      "score": 3,
+      "link_id": "t3_1baf6oa",
+      "parent_id": "t1_ku6jed7"
+    },
+    {
+      "id": "ku7bg21",
+      "body": "looks correct. try to find what does not fit and bend that part.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1710066554,
+      "score": 1,
+      "link_id": "t3_1bb6m9d",
+      "parent_id": "t3_1bb6m9d"
+    },
+    {
+      "id": "ku3d3p2",
+      "body": "Super tempo",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1710003474,
+      "score": 4,
+      "link_id": "t3_1bakvnx",
+      "parent_id": "t3_1bakvnx"
+    },
+    {
+      "id": "ku2rlhc",
+      "body": "shmups like zero gunner 2, gigawing, border down, under defeat.\n\nbit also cosmic smash or rez could be interesting for you",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1709995849,
+      "score": 2,
+      "link_id": "t3_1bagod0",
+      "parent_id": "t3_1bagod0"
+    },
+    {
+      "id": "ku2qyf3",
+      "body": "lightgundhooters if you have a crt:\nhouse of the dead 2\nconfidential mission\nvirtua cop 2\ndeath crimson ox",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1709995602,
+      "score": 2,
+      "link_id": "t3_1bagod0",
+      "parent_id": "t3_1bagod0"
+    },
+    {
+      "id": "ku2qrpj",
+      "body": "Charge‘n‘blast",
+      "author": "damianUHX",
+      "subreddit": "dreamcast",
+      "created_utc": 1709995531,
+      "score": 4,
+      "link_id": "t3_1bagod0",
+      "parent_id": "t3_1bagod0"
+    },
+    {
+      "id": "ku2qgvd",
+      "body": "the quality of the trailer is great. but I can‘t link it to actual gameplay.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1709995412,
+      "score": 2,
+      "link_id": "t3_1b9yknr",
+      "parent_id": "t3_1b9yknr"
+    },
+    {
+      "id": "ku2prig",
+      "body": "Kandria",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1709995136,
+      "score": 1,
+      "link_id": "t3_1bahxfb",
+      "parent_id": "t3_1bahxfb"
+    },
+    {
+      "id": "ku2pkar",
+      "body": "I also just installed fedora on my new gaming laptop. really very sleek, what a relieve after strugling hours with all this windows bloatware. there are still some issues with proprietary nvidia drivers and proton, but I will get there.",
+      "author": "damianUHX",
+      "subreddit": "Fedora",
+      "created_utc": 1709995055,
+      "score": 6,
+      "link_id": "t3_1baf6oa",
+      "parent_id": "t3_1baf6oa"
+    },
+    {
+      "id": "ktweid1",
+      "body": "Life is strange: true colors",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1709893985,
+      "score": 1,
+      "link_id": "t3_1b9ip06",
+      "parent_id": "t3_1b9ip06"
+    },
+    {
+      "id": "ktqnfpf",
+      "body": "the trailer looks more like a gameplay video. the game looks very interesting and the mechanics seem to be well thought out. but after watching this trailer I have no idea what I do in this game. who am I? what‘s my goal? by what means?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1709799788,
+      "score": 1,
+      "link_id": "t3_1b89ker",
+      "parent_id": "t3_1b89ker"
+    },
+    {
+      "id": "ktllg74",
+      "body": "bulk slash\nShinrei Jusatsushi Tarōmaru\nSuper tempo",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1709728220,
+      "score": 6,
+      "link_id": "t3_1b7x0sl",
+      "parent_id": "t3_1b7x0sl"
+    },
+    {
+      "id": "ksqee5h",
+      "body": "armed police batrider",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1709232119,
+      "score": 5,
+      "link_id": "t3_1b2spn7",
+      "parent_id": "t3_1b2spn7"
+    },
+    {
+      "id": "ksqdru0",
+      "body": "it‘s at least an all time classic. easy to learn and hard to master. you get immediately into the game but even 20 years later i‘m still coming back to it sometimes. probably the best learning curve ever. and from a technical/graphical perspective it‘s great too.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1709231914,
+      "score": 3,
+      "link_id": "t3_1b31dwn",
+      "parent_id": "t3_1b31dwn"
+    },
+    {
+      "id": "ksd3k6w",
+      "body": "Zelda",
+      "author": "damianUHX",
+      "subreddit": "zocken",
+      "created_utc": 1709035242,
+      "score": 1,
+      "link_id": "t3_1b17ig0",
+      "parent_id": "t3_1b17ig0"
+    },
+    {
+      "id": "krxr8cl",
+      "body": "The trailer and the game are not bad. Solid quality.\n\nI think it‘s too long and advertising too many things I don‘t think are true. Fot me the game‘s concept look very standard. I don‘t believe it when it says „a complete new way to play“ because I can‘t see whats different than in many other game.\n\nIt seems that the game tries to be too many things. The advertised aspects look half-baked and uninspired. I recommend to pick fewer aspects to advertise but make them more polished. What‘s the unique selling point of your game?",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1708792335,
+      "score": 2,
+      "link_id": "t3_1ayw07c",
+      "parent_id": "t3_1ayw07c"
+    },
+    {
+      "id": "krxo8mg",
+      "body": "Agasul",
+      "author": "damianUHX",
+      "subreddit": "schwiiz",
+      "created_utc": 1708791267,
+      "score": 58,
+      "link_id": "t3_1ayxsha",
+      "parent_id": "t3_1ayxsha"
+    },
+    {
+      "id": "kr1gvx5",
+      "body": "The animations and lighting is nice. It's already at a good level. \n\nIf the player would accelerate and brake not from 0 to maximum in one frame it could look much better. When you start walking or stop that this should take a split second. Especially the wall jumps could look nicer if the player would stick at the wall for a split second istead of immediatly jumping away.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1708288962,
+      "score": 1,
+      "link_id": "t3_1attmc5",
+      "parent_id": "t3_1attmc5"
+    },
+    {
+      "id": "kr1fkxy",
+      "body": "Vasara",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1708288498,
+      "score": 5,
+      "link_id": "t3_1au23xo",
+      "parent_id": "t3_1au23xo"
+    },
+    {
+      "id": "kqzvuau",
+      "body": "thanks a lot. this was exactly the information i needed. I will go with suikoden 2.",
+      "author": "damianUHX",
+      "subreddit": "psx",
+      "created_utc": 1708268828,
+      "score": 3,
+      "link_id": "t3_1atuoo7",
+      "parent_id": "t1_kqzrai9"
+    },
+    {
+      "id": "kqzo21r",
+      "body": "A good source for innovative retrogames with special mechanics is: [http://www.hardcoregaming101.net/](http://www.hardcoregaming101.net/)",
+      "author": "damianUHX",
+      "subreddit": "IndieGaming",
+      "created_utc": 1708265478,
+      "score": 2,
+      "link_id": "t3_1at86sb",
+      "parent_id": "t3_1at86sb"
+    },
+    {
+      "id": "kqvoc4p",
+      "body": "I also think it‘s very hard, as it needs some time to find out if a new innovative gameplay is really good. I mostly listen to recommendations of people who share my taste.",
+      "author": "damianUHX",
+      "subreddit": "IndieGaming",
+      "created_utc": 1708197051,
+      "score": 3,
+      "link_id": "t3_1at86sb",
+      "parent_id": "t3_1at86sb"
+    },
+    {
+      "id": "kqtvrx5",
+      "body": "gradius V",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1708173636,
+      "score": 13,
+      "link_id": "t3_1asz1z0",
+      "parent_id": "t3_1asz1z0"
+    },
+    {
+      "id": "kqpevqx",
+      "body": "now I feel very proud of my 14 copies I sold 😄",
+      "author": "damianUHX",
+      "subreddit": "gamedev",
+      "created_utc": 1708101089,
+      "score": 2,
+      "link_id": "t3_1arznj4",
+      "parent_id": "t3_1arznj4"
+    },
+    {
+      "id": "kqde6gc",
+      "body": "I feel companies are looking too much for a certain keyword/language rather than conceptual abilities to understand the tech stack of the company.",
+      "author": "damianUHX",
+      "subreddit": "webdev",
+      "created_utc": 1707910440,
+      "score": 1,
+      "link_id": "t3_1aqj9nh",
+      "parent_id": "t3_1aqj9nh"
+    },
+    {
+      "id": "kqac7ot",
+      "body": "Life is Strange",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1707857164,
+      "score": 1,
+      "link_id": "t3_1apzkxh",
+      "parent_id": "t3_1apzkxh"
+    },
+    {
+      "id": "kq84b1v",
+      "body": "twinkle tale (genesis/megadrive)",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1707828256,
+      "score": 1,
+      "link_id": "t3_1apncps",
+      "parent_id": "t3_1apncps"
+    },
+    {
+      "id": "kpha99z",
+      "body": "I prefer saturn 3d always to psx 3d. no matter how bad the framerate is. the texture distortion and gaps between the polygons on the psx are always worse.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1707398363,
+      "score": 3,
+      "link_id": "t3_1altuwi",
+      "parent_id": "t3_1altuwi"
+    },
+    {
+      "id": "kph9puf",
+      "body": "the power of the saturn depends on how good you can use the second processor that is for the perspective of the drawing layers. a good example are fighting games like virtua fighter 2 or dead or alive. they both run in 480i high res. this is because the playfields can be used for the floor and backgrounds. so the main processor only has to draw the 2 fighters.",
+      "author": "damianUHX",
+      "subreddit": "SegaSaturn",
+      "created_utc": 1707398114,
+      "score": 11,
+      "link_id": "t3_1altuwi",
+      "parent_id": "t3_1altuwi"
+    },
+    {
+      "id": "kp6a9a2",
+      "body": "Burnout 3",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1707226111,
+      "score": 2,
+      "link_id": "t3_1ak6h9z",
+      "parent_id": "t3_1ak6h9z"
+    },
+    {
+      "id": "kp6a3f3",
+      "body": "the game is a masterpiece. one of my all time favs.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1707226035,
+      "score": 2,
+      "link_id": "t3_1aj8tb2",
+      "parent_id": "t3_1aj8tb2"
+    },
+    {
+      "id": "kouxc32",
+      "body": "the gun/hook is covering too much of the screen. I would place it more towards the bottom of the screen.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1707039112,
+      "score": 2,
+      "link_id": "t3_1ahsmn9",
+      "parent_id": "t3_1ahsmn9"
+    },
+    {
+      "id": "koepup8",
+      "body": "I think it's a very good game. Considering the budget Yu had  there's not much to complain. It's still Shenmue: The pacing is very slow which I think is the reason for bad reviews. People want more action nowadays, but for me this is exactly the reason I like the game...",
+      "author": "damianUHX",
+      "subreddit": "Shenmue",
+      "created_utc": 1706774620,
+      "score": 5,
+      "link_id": "t3_1ag0uzn",
+      "parent_id": "t3_1ag0uzn"
+    },
+    {
+      "id": "ko97e9b",
+      "body": "I don‘t know if your engine allows shaders. Else you can also prerender it. Basically I would just make some pixels darker and lighter instead of having all the same color. If you look at the app „sprite illuminator“ by „code and web“ you get an idea what I mean.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1706688582,
+      "score": 2,
+      "link_id": "t3_1ae5r0q",
+      "parent_id": "t1_kkcfgv5"
+    },
+    {
+      "id": "kkaek2z",
+      "body": "The graphics look nice and original, I just think they could look more plastic with a minimum of effort. Make lighting and shadows. e.g normalmap filters or other shaders etc…",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1706637339,
+      "score": 3,
+      "link_id": "t3_1ae5r0q",
+      "parent_id": "t3_1ae5r0q"
+    },
+    {
+      "id": "kjz35nd",
+      "body": "Invest more time in placing all objects that it‘s an interesting challenge.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1706462448,
+      "score": 1,
+      "link_id": "t3_1acgo40",
+      "parent_id": "t1_kjyxu6d"
+    },
+    {
+      "id": "kjxp6q8",
+      "body": "I like the controls and mechanics. But I feel that the level is unfinished and needs a lot of polish and substance.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1706438574,
+      "score": 1,
+      "link_id": "t3_1acgo40",
+      "parent_id": "t3_1acgo40"
+    },
+    {
+      "id": "kjxoui5",
+      "body": "trigger heart exelica (dreamcast, arcade)\neigengrau (steam, switch)\npsyvariar (ps2, arcade, steam)",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1706438325,
+      "score": 3,
+      "link_id": "t3_1acjvxm",
+      "parent_id": "t3_1acjvxm"
+    },
+    {
+      "id": "kjtkgdd",
+      "body": "god of war ragnarök",
+      "author": "damianUHX",
+      "subreddit": "gamingsuggestions",
+      "created_utc": 1706372177,
+      "score": 1,
+      "link_id": "t3_1aca9ru",
+      "parent_id": "t3_1aca9ru"
+    },
+    {
+      "id": "kjstrhe",
+      "body": "though I cant find out how the gameplay works it looks fun and original.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1706360123,
+      "score": 1,
+      "link_id": "t3_1ac9rsj",
+      "parent_id": "t3_1ac9rsj"
+    },
+    {
+      "id": "kjn2wha",
+      "body": "ritalin is amphetamine (also called speed in drug language). when you have stress your body already produces a lot of a similar neurotransmitter. the only good reason to take ritalin is when you are not stressed enough to be productive…",
+      "author": "damianUHX",
+      "subreddit": "UZH",
+      "created_utc": 1706266203,
+      "score": 1,
+      "link_id": "t3_14i38xm",
+      "parent_id": "t3_14i38xm"
+    },
+    {
+      "id": "kjn24th",
+      "body": "I like the style and animations. The animations seem to be original with style. Sometimes I feel they need some more polish or feel odd. during some animations it feels odd when the character also moves. There could also be some more frames per animation. I cant judge the gameplay from this video. seems solid though.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1706265658,
+      "score": 1,
+      "link_id": "t3_1abf76h",
+      "parent_id": "t3_1abf76h"
+    },
+    {
+      "id": "kj1mlrt",
+      "body": "Eigengrau. A shmup with more gameplay ideas than all AAA games from the last 10 years together",
+      "author": "damianUHX",
+      "subreddit": "IndieGaming",
+      "created_utc": 1705934449,
+      "score": 1,
+      "link_id": "t3_19caxb9",
+      "parent_id": "t3_19caxb9"
+    },
+    {
+      "id": "kj1kgld",
+      "body": "I haven‘t played it yet, just looked the video. It looks solid, the scenery is nice, I like the movement of the camera, controls seem good. However I feel that something is still missing. Always the same enemies and background. I think for a full game you need to add more substance and different elements.",
+      "author": "damianUHX",
+      "subreddit": "DestroyMyGame",
+      "created_utc": 1705933587,
+      "score": 6,
+      "link_id": "t3_19cvtb5",
+      "parent_id": "t3_19cvtb5"
+    },
+    {
+      "id": "kiaedgs",
+      "body": "I found the answer: its not possible with a reasonable effort. the guy who ported crosscode is a programmer genius and it took him almost as long as to reprogramm the game.",
+      "author": "damianUHX",
+      "subreddit": "gamedev",
+      "created_utc": 1705504592,
+      "score": 1,
+      "link_id": "t3_10yosug",
+      "parent_id": "t3_10yosug"
+    },
+    {
+      "id": "kia9btv",
+      "body": "I found the answer: its not possible with a rwsdonable effort. the guy who ported crosscode is a programmer genius and it took him almost as long as to reprogramm the game.",
+      "author": "damianUHX",
+      "subreddit": "gamedev",
+      "created_utc": 1705502728,
+      "score": 1,
+      "link_id": "t3_10yosug",
+      "parent_id": "t3_10yosug"
+    },
+    {
+      "id": "khiqx7l",
+      "body": "i like scanlines with 50% brightness. so you have some kind of raster but don‘t blur the graphics.",
+      "author": "damianUHX",
+      "subreddit": "shmups",
+      "created_utc": 1705069694,
+      "score": 2,
+      "link_id": "t3_194krg5",
+      "parent_id": "t3_194krg5"
+    }
+  ]
+}

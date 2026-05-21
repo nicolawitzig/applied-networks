@@ -1,0 +1,248 @@
+{
+  "username": "trembel12",
+  "posts": [
+    {
+      "id": "1f32xqz",
+      "title": "Efficiently finding eigenvector of largest real eigenvalue",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724824938,
+      "score": 22,
+      "num_comments": 16,
+      "selftext": "Dear all,\n\nI'm trying to efficiently compute the eigenvector belonging to the largest, real (i.e. Im==0) eigenvalue of a 7x7 real square matrix (neither symmetric nor normal).\n\nSo far I tried Inverse Iteration (with knowledge of the eigenvalue), which works well with double precision (double) but results in a singular matrix for single precision (float) (deviating more from the largest eigenvalue is not an option, as it would converge to a wrong eigenpair).\n\nGram iteration work in most cases, but sometimes converges to a complex eigenvalue that is larger in magnitude than the largest real one.\n\nThe implementation should in the end run on a small microcontroller, that's why it is important to run using float (due to the available floating point unit).\n\nNot sure if this is the righ subreddit, but I'll try it :)",
+      "url": "https://www.reddit.com/r/math/comments/1f32xqz/efficiently_finding_eigenvector_of_largest_real/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2y8xxp",
+      "body": "TinyssimoYOLO:\n\nhttps://arxiv.org/abs/2306.00001",
+      "author": "trembel12",
+      "subreddit": "embedded",
+      "created_utc": 1734679021,
+      "score": 1,
+      "link_id": "t3_1hi6uhc",
+      "parent_id": "t3_1hi6uhc"
+    },
+    {
+      "id": "m2oufmj",
+      "body": "A colleague of me implemented such a tool, licensed partially under MIT (e.g. FreeRTOS implementation), partially under GPL3 (webtool).\n\n[https://github.com/schilkp/Tonbandgeraet](https://github.com/schilkp/Tonbandgeraet)\n\nDocumentation and Demo can be found here:  \n[https://schilk.co/projects/tonbandgeraet/](https://schilk.co/projects/tonbandgeraet/)  \n[https://schilk.co/Tonbandgeraet/docs/index.html](https://schilk.co/Tonbandgeraet/docs/index.html)\n\n*Tonbandgerät's core is a small, portable, trace event generator and handler written in C and designed for embedded systems. It requires minimal porting and configuration, and features multiple backends for gathering and transmitting traces.*\n\n*It can be used both with an RTOS, or in bare-metal environments to instrument user code and track hardware events by tracing interrupts. Full tracing of FreeRTOS tasks and resources is also supported out-of-the-box.*\n\n*Tonbandgerät is based on a simple custom binary trace format designed to be both compact and fairly fast to encode. Recorded traces can be viewed in Google's in-browser perfetto after conversion with the provided CLI tool or in-browser converter.*",
+      "author": "trembel12",
+      "subreddit": "embedded",
+      "created_utc": 1734543995,
+      "score": 2,
+      "link_id": "t3_1hgwzw4",
+      "parent_id": "t3_1hgwzw4"
+    },
+    {
+      "id": "m17f62h",
+      "body": "Lush - https://scottlocklin.wordpress.com/2024/11/19/lush-my-favorite-small-programming-language/",
+      "author": "trembel12",
+      "subreddit": "lisp",
+      "created_utc": 1733758515,
+      "score": 3,
+      "link_id": "t3_1ha59i7",
+      "parent_id": "t3_1ha59i7"
+    },
+    {
+      "id": "lwsyowp",
+      "body": "Apollo is rather difficult to get started. STM32 is okish, but less documentation than nRF. I've never tried the silabs.",
+      "author": "trembel12",
+      "subreddit": "embedded",
+      "created_utc": 1731442844,
+      "score": 3,
+      "link_id": "t3_1gpu33n",
+      "parent_id": "t1_lwsyffq"
+    },
+    {
+      "id": "lwsyffq",
+      "body": "I'd suggest the nRF52, a lot of online ressources and good tutorials (e.g. novelbits).",
+      "author": "trembel12",
+      "subreddit": "embedded",
+      "created_utc": 1731442764,
+      "score": 26,
+      "link_id": "t3_1gpu33n",
+      "parent_id": "t3_1gpu33n"
+    },
+    {
+      "id": "luppsz5",
+      "body": "Are there any requirements? I mean you could transmit your data with 1 Byte per second, so the ESP32 would work very well..",
+      "author": "trembel12",
+      "subreddit": "embedded",
+      "created_utc": 1730390311,
+      "score": 1,
+      "link_id": "t3_1gghcxn",
+      "parent_id": "t3_1gghcxn"
+    },
+    {
+      "id": "ltqtpu2",
+      "body": "I got the x-t with the grip (and 23mm lens)👍 but usually when mountaineering, I'm happy without grip as its quite smaller and lighter",
+      "author": "trembel12",
+      "subreddit": "pentax",
+      "created_utc": 1729888982,
+      "score": 1,
+      "link_id": "t3_13juznf",
+      "parent_id": "t1_ltnlhl5"
+    },
+    {
+      "id": "lpz53mt",
+      "body": "Its the professor. At ITET it's usually 4-5.",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1727877097,
+      "score": 1,
+      "link_id": "t3_15h3akh",
+      "parent_id": "t1_lpvdeiq"
+    },
+    {
+      "id": "lprw17k",
+      "body": "That's a bit wrong. Sometimes the permit does not allow you to work more than 15h per week if you got the permit as a student. As Swiss, you never have this issue.",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1727763514,
+      "score": -1,
+      "link_id": "t3_1fsfp9q",
+      "parent_id": "t1_lpmseh7"
+    },
+    {
+      "id": "lnoxv6b",
+      "body": "Sorry, didn't see your reply. Prof. J f. Faist",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1726637708,
+      "score": 1,
+      "link_id": "t3_1ff6cxd",
+      "parent_id": "t1_lmxbkpy"
+    },
+    {
+      "id": "lnjgo9b",
+      "body": "I had a very similar issue, haplened to me only in 'ADV' mode (usually accidentally, when the selector switched). For me the solution was a simple FW upgrade.\nThe issue is also marked as solved in the release notes of Ver.5.01\n\nOthers had this same issue:\nhttps://www.dpreview.com/forums/thread/4715662",
+      "author": "trembel12",
+      "subreddit": "fujifilm",
+      "created_utc": 1726560558,
+      "score": 1,
+      "link_id": "t3_1fiomh6",
+      "parent_id": "t3_1fiomh6"
+    },
+    {
+      "id": "lmwtfyv",
+      "body": "Absolutely (at leasg for me)",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1726226351,
+      "score": 2,
+      "link_id": "t3_1ff6cxd",
+      "parent_id": "t1_lmtqyp0"
+    },
+    {
+      "id": "lmtli36",
+      "body": "For me the book of Griffiths helped a lot. If you are more proficient in german than english: there is a pretty good translation of the book available.",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1726172598,
+      "score": 3,
+      "link_id": "t3_1ff6cxd",
+      "parent_id": "t3_1ff6cxd"
+    },
+    {
+      "id": "lmkd98z",
+      "body": "no one will remeber - ETH is just to big 😅",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1726034540,
+      "score": 1,
+      "link_id": "t3_1fca123",
+      "parent_id": "t1_lmayp8t"
+    },
+    {
+      "id": "lkk22au",
+      "body": "its more about the complex one, were the magnitude isacomposed of sqrt(re^2 + im^2), so a large imaginary part can lead to a lrge eigenvalue.",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724960999,
+      "score": 1,
+      "link_id": "t3_1f32xqz",
+      "parent_id": "t1_lki2l8a"
+    },
+    {
+      "id": "lke9qpx",
+      "body": "the Gram method works, they point out very late in the paper that you can replace the step by G gettivg GG (search for eigenvalue/pair/vector to find the section). I'll try both, thanks.",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724878072,
+      "score": 1,
+      "link_id": "t3_1f32xqz",
+      "parent_id": "t1_lkcwiw6"
+    },
+    {
+      "id": "lke9izz",
+      "body": "exactly, this would be power iteration but converges to the largest in magnitude.",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724877964,
+      "score": 1,
+      "link_id": "t3_1f32xqz",
+      "parent_id": "t1_lkdxs0k"
+    },
+    {
+      "id": "lkbnryr",
+      "body": "I should better have stated 'ill-conditioned'. As I don't want to solve the linear system in each iteration, I compute the inverse once at the begin, and afterwards its only a matrix \\* vector multiplication in each iteration.\n\nThanks for the insight, I'll look into them (my math is not that strong anymore, although solid theoretical background I'm and EE engineer).",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724844259,
+      "score": 2,
+      "link_id": "t3_1f32xqz",
+      "parent_id": "t1_lkbkm6g"
+    },
+    {
+      "id": "lkbn9bq",
+      "body": "Getting the eigenvalue first is only my \"last\" option, as it is already computationally expensive. Same applies to gaussian elimination. \n\nAs mentioned, this needs to run on a microcontroller, running with a frequency < 50 MHz, and keeping a low latency and therefore low-power consumption is crucial. Even if it does not seem like a high cost, it is. Such systems typically are most of the time in sleep mode (power consumption \\~ 1microwatt), and are only awake when computing (power consumption \\~ 10milliwatt). To allow for a very long battery lifetime, I target a end consumption below 10 microwatt when running the algorithm once per 10 seconds. This means, the algorithms should not take longer than 9 milliseconds, which means 450'000 cycles (\\~ operations) on a very non-optimized platform if you compare it to a normal laptop.\n\nInverse iteration is a very prominent iterative algorithm of finding eigenpairs: [https://mathreview.uwaterloo.ca/archive/voli/1/panju.pdf](https://mathreview.uwaterloo.ca/archive/voli/1/panju.pdf)",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724844011,
+      "score": 5,
+      "link_id": "t3_1f32xqz",
+      "parent_id": "t1_lkbbefo"
+    },
+    {
+      "id": "lkbks4v",
+      "body": "Best would be to have an algorithm automatically leading to the eigenvector belonging to the largest eigenvalue. However, as computing eigenvalues is less expensive than eigenvector, an option is to get all eigenvalues and then specifically getting the eigenvector of the largest real one.  \nGram Iteration is very new and not the same as Arnoldi iteration. It can be found here: [https://proceedings.mlr.press/v202/delattre23a.html](https://proceedings.mlr.press/v202/delattre23a.html)\n\nI will look into the QR-Algorithm by Golub and van Loan, thanks a lot!",
+      "author": "trembel12",
+      "subreddit": "math",
+      "created_utc": 1724842770,
+      "score": 2,
+      "link_id": "t3_1f32xqz",
+      "parent_id": "t1_lkbd9sh"
+    },
+    {
+      "id": "lkazya5",
+      "body": "I can't really tell about EPFL, but at ETH also the semester is intense, especially in the first year.\n\nAlso, at ETH the bachelor studies are in german, so you need german knowledge.",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1724829195,
+      "score": 8,
+      "link_id": "t3_1f32o03",
+      "parent_id": "t3_1f32o03"
+    },
+    {
+      "id": "lj7k9u2",
+      "body": "I wouldn't say laziness. I did multiple exams myself (although not MC). Usually, the summer is already quite stressful due to a lot of paper and research deadline. The general approach to solve tasks is earliest deadline first, thus the exam correction has to wait, until more time for correction, advising grades, ... is available. So I would say its more procrastination than laziness.",
+      "author": "trembel12",
+      "subreddit": "ethz",
+      "created_utc": 1724248252,
+      "score": 2,
+      "link_id": "t3_1ex4l8x",
+      "parent_id": "t1_lj3m30b"
+    },
+    {
+      "id": "kie91mv",
+      "body": "on SRF the bring it in German/swiss-german (two commentors). RSI in italian.\n\nHowever, they just bring the race(s) (sometimes only MotoGP).\n\nAs a Swiss, I usually hopped over to ServusTV, as I liked their commentary more. ast year, MotoGP + Moto2 + Moto3 had geoblock, WSBK, SSP and SSP300 not.",
+      "author": "trembel12",
+      "subreddit": "motogp",
+      "created_utc": 1705554472,
+      "score": 2,
+      "link_id": "t3_1994z15",
+      "parent_id": "t1_kiclvnb"
+    }
+  ]
+}

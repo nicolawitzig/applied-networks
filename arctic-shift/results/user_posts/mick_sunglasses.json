@@ -1,0 +1,68 @@
+{
+  "username": "mick_sunglasses",
+  "posts": [
+    {
+      "id": "199vrg1",
+      "title": "What are great alternatives to KDE?",
+      "author": "mick_sunglasses",
+      "subreddit": "archlinux",
+      "created_utc": 1705599549,
+      "score": 47,
+      "num_comments": 127,
+      "selftext": "I have been using KDE for the past years and am gnerally very happy with it. I'll have to set up a new laptop soon and I'd be curious to try out a new desktop environment. what are your favorites?",
+      "url": "https://www.reddit.com/r/archlinux/comments/199vrg1/what_are_great_alternatives_to_kde/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "llgxl4p",
+      "body": "agree!  \nif you're deciding between math and CS, I would always go for math. its much easier picking up programming than picking up math. i did math bsc and msc while working as a programmer on the side. have been working for years in reasearch (academia and industry) doing modeling and ML. there are way too many data scientists out there that don't have a solid understanding in math and end up being almost useless in any serious project",
+      "author": "mick_sunglasses",
+      "subreddit": "ethz",
+      "created_utc": 1725459391,
+      "score": 5,
+      "link_id": "t3_1f8t07s",
+      "parent_id": "t1_llgublc"
+    },
+    {
+      "id": "leijkm3",
+      "body": "I was in a similar position as you before I started my PhD. I don't' know exactly how bad your grades are, if they really are so bad that it looks like you don't really know your stuff, it might be a much more serious problem. In any case, here is what I did and how it worked. \n\n- just before finishing my masters I wrote emails to a whole bunch of professors that i was somewhat interested in working together asking them for a quick 15 minute chat. i only mentioned that i am about to finish my masters and want to orient myself (maybe mentioning that PhD is an option for me). I did NOT immediatly apply for a PhD position or asked for an interview. \n\n- most professors where happy to give me 15 minutes of their time and i asked about their research focus, explained a little about my situation and what i am interested in\n\n- I asked them for advice and their thoughts. Most were super helpful, recommended me other people to talk to or even other universities that might be interesting for me. \n\n- With one of the professors i got along quite well, he did something somewhat different from my masters (I did maths and numerics, he was more into bio and electrical engineering), so i asked him if it was possible to first to a few months work at his lab as a scientific assistant to see if i am interested in this field. He was more than happy to accommodate me and i ended up doing my phd in his lab. \n\nSo in short: if you cant impress with your grades, impress with your personality and interest\n\ngood luck man! let me know if you have any questions",
+      "author": "mick_sunglasses",
+      "subreddit": "ethz",
+      "created_utc": 1721723667,
+      "score": 3,
+      "link_id": "t3_1e9bp1g",
+      "parent_id": "t3_1e9bp1g"
+    },
+    {
+      "id": "kuo180o",
+      "body": "yeah, they look like warts.... might want to get some wart remover....these things can spread",
+      "author": "mick_sunglasses",
+      "subreddit": "mildyinteresting",
+      "created_utc": 1710333094,
+      "score": 22,
+      "link_id": "t3_1bdq2wx",
+      "parent_id": "t3_1bdq2wx"
+    },
+    {
+      "id": "ktlhajl",
+      "body": "I think it depends heavily on what your goal with data science is. Do you want to just be able to do some cool projects here and there and use it in your own PhD work, or are you planning on eventually working as a professional data scientist? \n\nif you just want to use DS for your own little projects, then i would go ahead with your self-learning. you can get some hands-on experience and focus on exactly those techniques that you like or need or just find cool. \n\nif you are planning to eventually work in data science, I would strongly recommend to get a proper, full degree. make sure you find a full-time degree that gives you all the necessary math and programming background. if you really want to get serious about data science, these backgrounds are very important, and (in my experience) most of shorter, part-time degrees tend to not give enough attention to these basics. \n\nI have worked in academia and industry in data-science, statistics and modeling positions. many data-scientists that in interviewed and worked together came from a non-math (sometimes even non-tech) field with a masters in data science. many of them lacked any serious math background or programming skills, which made it almost impossible for them to be of any real use in real-projects. it was also very frustrating for them when they realized that writing scalable, reliable code and develop tailored and performative DS models is very different from writing up some jupyter notebooks",
+      "author": "mick_sunglasses",
+      "subreddit": "learnpython",
+      "created_utc": 1709725967,
+      "score": 2,
+      "link_id": "t3_1b7itql",
+      "parent_id": "t3_1b7itql"
+    },
+    {
+      "id": "kihbr7m",
+      "body": "thanks guys, thats a lot of input : )   \ni am somewhat curious to try out a window manager and it seems that i3wm is the one most people prefer. however, to be honest, it does look like i would have to invest a significant amount of time to setting it up and getting to a state where i can work efficiently.   \n\n\nThe laptop i have to set up is a new working laptop and i have to be rather productive right from the start. I would mostly program in different languages with different IDE's and do all the usual office stuff.   \n\n\nSo it seems that sticking to a DM for now is probably the most feasible option. right now i think i either stay with kde or try out xfce... i guess i'm a little bit worried to get sucked down the rabbit hole of tiling WMs...",
+      "author": "mick_sunglasses",
+      "subreddit": "archlinux",
+      "created_utc": 1705607302,
+      "score": 2,
+      "link_id": "t3_199vrg1",
+      "parent_id": "t3_199vrg1"
+    }
+  ]
+}

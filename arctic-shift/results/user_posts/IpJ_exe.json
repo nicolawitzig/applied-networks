@@ -1,0 +1,80 @@
+{
+  "username": "IpJ_exe",
+  "posts": [
+    {
+      "id": "1eri6je",
+      "title": "Research as a non-mit undergrad",
+      "author": "IpJ_exe",
+      "subreddit": "mit",
+      "created_utc": 1723580599,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "I'm a computer engineering student from Brazil with 2 years of experience in aerial robotics, mostly focusing on localization, mapping, and computer vision for UAVs. My grades aren’t great, but I’ve worked on some cool projects and even snagged a few awards at an international robotics competition to balance things out. Still, I feel way behind the level of the PhD and master’s work I see coming out of MIT. I'm really looking for advice on how to land research opportunities at MIT’s robotics department as an undergrad and how I can better align my studies to make that happen. My goal is to collaborate with and learn from the professors whose papers I’ve been reading.\n\nAny advice would be appreciated greatly",
+      "url": "https://www.reddit.com/r/mit/comments/1eri6je/research_as_a_nonmit_undergrad/"
+    },
+    {
+      "id": "1b78s6j",
+      "title": "6\" + Ardupilot Build",
+      "author": "IpJ_exe",
+      "subreddit": "fpv",
+      "created_utc": 1709654527,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I'm looking for some recommendations on 6\" frames with enough room to fit a Pixhawk 6C mini FC (39mm x 53.3mm) in the bottom plate. I don't intend to carry a Gopro or a fpv transmission system, the idea is to replace that for a Depth Camera and a Raspberry Pi. I'm initially thinking about  Shen Drones Thicc 2.0, but I need more options. Any help would be appreciated!\n",
+      "url": "https://www.reddit.com/r/fpv/comments/1b78s6j/6_ardupilot_build/"
+    },
+    {
+      "id": "1b78p30",
+      "title": "6\" + Ardupilot build",
+      "author": "IpJ_exe",
+      "subreddit": "Multicopter",
+      "created_utc": 1709654347,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Multicopter/comments/1b78p30/6_ardupilot_build/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2cro6j",
+      "body": "I also wanted to know",
+      "author": "IpJ_exe",
+      "subreddit": "ethz",
+      "created_utc": 1734368794,
+      "score": -3,
+      "link_id": "t3_1hfkle2",
+      "parent_id": "t3_1hfkle2"
+    },
+    {
+      "id": "li2jjtv",
+      "body": "Got it! Could you recommend some summer programs for undergrads for me to consider?\n\nThanks for the help",
+      "author": "IpJ_exe",
+      "subreddit": "mit",
+      "created_utc": 1723641987,
+      "score": 1,
+      "link_id": "t3_1eri6je",
+      "parent_id": "t1_li1s609"
+    },
+    {
+      "id": "li07crt",
+      "body": "Makes sense, do you think the chances are similarly low for attending summer camps, internships or programs from MIT as an external undergrad?",
+      "author": "IpJ_exe",
+      "subreddit": "mit",
+      "created_utc": 1723599343,
+      "score": 1,
+      "link_id": "t3_1eri6je",
+      "parent_id": "t1_lhzg39o"
+    },
+    {
+      "id": "l2rtslz",
+      "body": "I'm planning on moving to 4in1 ESC's as well, but I haven't tried yet.I think you might be interested in these links:\n\nhttps://discuss.ardupilot.org/t/4-1-esc-to-pixhawk-6c/113669/12?\n\nhttps://discuss.ardupilot.org/t/pixhawk-2-4-8-with-4-in-1-esc/38729\n\nBasically, you have to make sure you're using the port that supports Dshot and connect M1-M4, connecting voltage and current pins to a different port is also needed. I think it's for monitoring purposes, could be wrong tho",
+      "author": "IpJ_exe",
+      "subreddit": "fpv",
+      "created_utc": 1714960451,
+      "score": 2,
+      "link_id": "t3_1ckj8yy",
+      "parent_id": "t3_1ckj8yy"
+    }
+  ]
+}

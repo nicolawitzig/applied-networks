@@ -1,0 +1,392 @@
+{
+  "username": "rah_whos_that",
+  "posts": [
+    {
+      "id": "1h4x5fi",
+      "title": "Forslag til I-emne som omhandler digitale kretser, FPGA, etc",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1733152356,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "Går data. Synes digitale kretser, arkitektur i datamskiner, FPGA, osv er kult. Trenger et I-emne, og tenker det er fin mulighet til å lære mer om dette. Forslag til fag som ikke krever masse forkunnskaper jeg antageligvis ikke har? Takk :-)",
+      "url": "https://www.reddit.com/r/ntnu/comments/1h4x5fi/forslag_til_iemne_som_omhandler_digitale_kretser/"
+    },
+    {
+      "id": "1fv1qlx",
+      "title": "Richy, all goals in the 20/21 season",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1727938130,
+      "score": 89,
+      "num_comments": 9,
+      "selftext": "",
+      "url": "https://v.redd.it/3awvkv25nhsd1"
+    },
+    {
+      "id": "1ftms3o",
+      "title": "Sommerjobb og lønn",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1727785484,
+      "score": 30,
+      "num_comments": 18,
+      "selftext": "Jeg er så heldig at jeg har fått flere sommerjobbtilbud. Tilbudet som virker faglig mest interessant gir også en betraktelig lavere lønn på hele 63kr mindre per time. Det er også 43kr mindre enn jeg fikk betalt i fjor. Lønn er selvfølgelig en sekundær faktor når det kommer til et internship, men jeg skal ikke legge skjul på at det sitter langt inne å gå ned i lønnsstigen. \n\n\n\nDet jeg rett og slett lurer på er om noen har erfaring med å spørre om forbedret lønn for en internship stilling. Jeg er litt skeptisk ettersom 1. jeg antar det er ønskelig fra bedriften sin side å tilby lik lønn til alle interns, og sånn er det, og 2. det er litt goofy å ønske høyere lønn når det allerede er mange om beinet på disse stillingene og de utvilsomt har en sterk kandidat lenger ned på listen som kan kontaktes.\n\n\n\nTakk",
+      "url": "https://www.reddit.com/r/ntnu/comments/1ftms3o/sommerjobb_og_lønn/"
+    },
+    {
+      "id": "1fsr2gh",
+      "title": "root partition too small, help wanted",
+      "author": "rah_whos_that",
+      "subreddit": "archlinux",
+      "created_utc": 1727686704,
+      "score": 3,
+      "num_comments": 11,
+      "selftext": "I decided to test the arch install script when I set up my new laptop. It recommended to have a separate home and root partition, and to use 20 GB's for the root partition. I have never bothered with a separate root partition, but hey,  these are probably sensible defaults, I might as well try it.\n\nNow, a few month afterwards my root partition is constantly full. It means I am unable to download any new packages. I have nuked as much as possible from the root partition, including unused pacman package caches. I have gotten by for some time, but this is treating the symptom, not the actual problem.\n\n  \nSo now I want to fix the actual problem. My initial idea is to increase the root partition. Is this viable? What other solutions do I have, other than re-installing the system ofc.\n\n  \nThanks",
+      "url": "https://www.reddit.com/r/archlinux/comments/1fsr2gh/root_partition_too_small_help_wanted/"
+    },
+    {
+      "id": "1e44quw",
+      "title": "Macro that prints all struct members",
+      "author": "rah_whos_that",
+      "subreddit": "C_Programming",
+      "created_utc": 1721074054,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Many higher-level languages have built-in functionality to print the values of members of structs/classes/whatevers. This is very handy for quickly dumping the state of struct objects, but can become quite tedious to write. I know Rust achieves this using a macro. I am no preprocessor wizard, so I was wondering if anyone know of a way to achieve a quick and dirty dump of a struct through a macro",
+      "url": "https://www.reddit.com/r/C_Programming/comments/1e44quw/macro_that_prints_all_struct_members/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3q4iqo",
+      "body": "Uenig. Det er en moderne sykdom at man bare skal hoppe på et studieløp bare fordi man har karakterene. Har du snittet til integrert master blir det aldri noe problem å få snittet til å ta en master etter en bachelor heller.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1735128139,
+      "score": 5,
+      "link_id": "t3_1hly536",
+      "parent_id": "t1_m3pvriu"
+    },
+    {
+      "id": "m3q4ccm",
+      "body": "Spørsmålet er egentlig om du synes det teoretiske er interessant, og om du tror akademika er noe for deg. Jeg studerte først bachelor. Jeg kunne lett gått ut i jobb, men synes teoretisk datavitenskap er kjempe spennende og valgte å studere mer. Jeg tror ikke valget å ta master er økonomisk gunstig for meg. Jeg er også skeptisk til at det åpner mange dører som ellers ville vært lukket.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1735128020,
+      "score": 2,
+      "link_id": "t3_1hly536",
+      "parent_id": "t3_1hly536"
+    },
+    {
+      "id": "m34sa9m",
+      "body": "matte 2",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1734787434,
+      "score": 2,
+      "link_id": "t3_1hj75d7",
+      "parent_id": "t3_1hj75d7"
+    },
+    {
+      "id": "m0cc5e7",
+      "body": "Ingeniør-emne. På siving må man ha et emne fra en annen ingeniør disiplin enn sin egen.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1733302669,
+      "score": 2,
+      "link_id": "t3_1h4x5fi",
+      "parent_id": "t1_m069low"
+    },
+    {
+      "id": "m0cc3dm",
+      "body": "Takk",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1733302630,
+      "score": 1,
+      "link_id": "t3_1h4x5fi",
+      "parent_id": "t1_m0686lp"
+    },
+    {
+      "id": "m01lj7u",
+      "body": "Du trenger ikke å bestå faget for å ha rett til studentboligen. Også: [https://en.wikipedia.org/wiki/XY\\_problem](https://en.wikipedia.org/wiki/XY_problem)",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1733152120,
+      "score": 10,
+      "link_id": "t3_1h4vp4r",
+      "parent_id": "t3_1h4vp4r"
+    },
+    {
+      "id": "lyjtx67",
+      "body": "For areas where people use C and Rust, runtime performance is likely to be the dominating concern",
+      "author": "rah_whos_that",
+      "subreddit": "ProgrammingLanguages",
+      "created_utc": 1732350039,
+      "score": 3,
+      "link_id": "t3_1gx5owp",
+      "parent_id": "t1_lyg7kvn"
+    },
+    {
+      "id": "lw9hegv",
+      "body": "It's like, a midfield of Gana, Mangala and Doucs is never going to create anything when West Ham sit deep. Bring on Harrison Armstrong not arsed",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1731167383,
+      "score": 6,
+      "link_id": "t3_1gnbloy",
+      "parent_id": "t3_1gnbloy"
+    },
+    {
+      "id": "lv16nsd",
+      "body": "Toothless",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1730562582,
+      "score": 3,
+      "link_id": "t3_1ghy0n5",
+      "parent_id": "t3_1ghy0n5"
+    },
+    {
+      "id": "ltzarp1",
+      "body": "I find some of the ideas from Serenum interesting: [https://samhsmith.com/serenum/](https://samhsmith.com/serenum/)",
+      "author": "rah_whos_that",
+      "subreddit": "RISCV",
+      "created_utc": 1730017293,
+      "score": 2,
+      "link_id": "t3_1gcxizs",
+      "parent_id": "t3_1gcxizs"
+    },
+    {
+      "id": "ltn75n2",
+      "body": "Helst en uke før om det lar seg gjøre, men blir ofte noen eksamener hvor jeg kun har et par dager",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1729837604,
+      "score": 3,
+      "link_id": "t3_1gazqf4",
+      "parent_id": "t3_1gazqf4"
+    },
+    {
+      "id": "lsozf1j",
+      "body": "Away support outstanding",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1729350011,
+      "score": 14,
+      "link_id": "t3_1g7990t",
+      "parent_id": "t3_1g7990t"
+    },
+    {
+      "id": "lq3nnys",
+      "body": "19/20 season, not 20/21 !!!!",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1727938312,
+      "score": 21,
+      "link_id": "t3_1fv1qlx",
+      "parent_id": "t3_1fv1qlx"
+    },
+    {
+      "id": "lpxwjg5",
+      "body": "Det er mulig, men det er litt avhengig av erfaringer og ferdigheter du har opparbeidet deg utenfor studie. Innenfor data kjenner jeg flere, meg selv inkludert, som fikk internship etter første klasse. Gjengangeren var at vi alle hadde en del erfaring og ferdigheter å vise til. Jeg vil også påstå data og IT skiller seg litt ut her ettersom det faktisk er mulig å skape verdi for en bedrift ganske tidlig i løpet.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1727852748,
+      "score": 1,
+      "link_id": "t3_1ftsk2b",
+      "parent_id": "t3_1ftsk2b"
+    },
+    {
+      "id": "lpt0bqz",
+      "body": "Faktisk ikke. Enormt konsulenthus.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1727787489,
+      "score": 8,
+      "link_id": "t3_1ftms3o",
+      "parent_id": "t1_lpszg7v"
+    },
+    {
+      "id": "lpsyp4h",
+      "body": "Nei, da har jeg ikke forklart meg tydelig nok. Det er 63kr lavere timebetalt på det tilbudet jeg anser som mest faglig interessant, og et annet tilbud jeg har fått",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1727786837,
+      "score": 10,
+      "link_id": "t3_1ftms3o",
+      "parent_id": "t1_lpsxrpy"
+    },
+    {
+      "id": "lp598m7",
+      "body": "Bare tøv. Aldri vært normen.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1727417370,
+      "score": 1,
+      "link_id": "t3_1fq2qvf",
+      "parent_id": "t1_lp29u3a"
+    },
+    {
+      "id": "lo7ksjo",
+      "body": "New favourite player get in thereeeee",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1726927985,
+      "score": 5,
+      "link_id": "t3_1fm3def",
+      "parent_id": "t3_1fm3def"
+    },
+    {
+      "id": "ln34qfk",
+      "body": "For de som ikke tror bachelor er lettere, ta en titt på [Siv.ing](http://Siv.ing) statistikk eksamen og bachelor statistikk eksamen. Gjelder forøvrig også for mattekursene. Fysikk virker å være relativ likt.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1726323620,
+      "score": 0,
+      "link_id": "t3_1fg6c71",
+      "parent_id": "t1_ln18tfe"
+    },
+    {
+      "id": "lm5ide2",
+      "body": "What specifically makes Odin \"explicitly game/graphics oriented\" rather than general-purpose?",
+      "author": "rah_whos_that",
+      "subreddit": "ProgrammingLanguages",
+      "created_utc": 1725819487,
+      "score": 4,
+      "link_id": "t3_1fbsfxg",
+      "parent_id": "t1_lm54ivt"
+    },
+    {
+      "id": "lm51hf8",
+      "body": "What makes you say Odin is not general-purpose?",
+      "author": "rah_whos_that",
+      "subreddit": "ProgrammingLanguages",
+      "created_utc": 1725814254,
+      "score": 3,
+      "link_id": "t3_1fbsfxg",
+      "parent_id": "t1_lm30ogv"
+    },
+    {
+      "id": "ljpi7a2",
+      "body": "Ha, I knew it wouldn't take long before people wrote off the new guys (who haven't even started a single game ...)",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1724509405,
+      "score": 1,
+      "link_id": "t3_1f05sqo",
+      "parent_id": "t1_ljphzfu"
+    },
+    {
+      "id": "likvttu",
+      "body": "No serious side gives relies on the likes of Keane, Holgate and Young in 2024",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1723909916,
+      "score": 8,
+      "link_id": "t3_1eui3bx",
+      "parent_id": "t3_1eui3bx"
+    },
+    {
+      "id": "likpycn",
+      "body": "It's dissapointing that these are the same exact issues we saw last season",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1723907896,
+      "score": 2,
+      "link_id": "t3_1eui3bx",
+      "parent_id": "t3_1eui3bx"
+    },
+    {
+      "id": "lhgew1w",
+      "body": "All respect to Dobbin, but its not even funny how much more ready that Iroegbunam is. Wouldn't mind at all if he starts next weekend",
+      "author": "rah_whos_that",
+      "subreddit": "Everton",
+      "created_utc": 1723306866,
+      "score": 26,
+      "link_id": "t3_1eow3rh",
+      "parent_id": "t3_1eow3rh"
+    },
+    {
+      "id": "ldcc9re",
+      "body": "Stemmer nok dette. Det er også tydeligvis mulig å søke om støtte fra NAV. Da kan må få inntel 60% av lønn dekket.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1721073708,
+      "score": 2,
+      "link_id": "t3_1e3tb3h",
+      "parent_id": "t1_ldaeebr"
+    },
+    {
+      "id": "l84dn6b",
+      "body": "Var på faddergruppe med OP. Snodig type. Satt i hjørne og synes synd på seg selv. Gjorde alt vi kunne for å engasjere han og få han med på ting. Etter noen pils gikk han på rare rants. Ben shapiro greier og sånn",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1718116603,
+      "score": 3,
+      "link_id": "t3_1dchj3e",
+      "parent_id": "t3_1dchj3e"
+    },
+    {
+      "id": "ky85vf5",
+      "body": "Falsk dikotomi, så dette er egentlig helt uinteressant. Mener du virkelig det enten er alderspoeng eller et liv utenfor arbeid?",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1712349443,
+      "score": 3,
+      "link_id": "t3_1bwoq7d",
+      "parent_id": "t1_ky7u36l"
+    },
+    {
+      "id": "ky7l0kz",
+      "body": "Den samme kostnaden eksisterer allerede for de som må ta opp fag som følge av de kunstige høye snittene nettop på grunn av alderspoeng. Så at det blir netto dyrere for staten har jeg vanskelig for å se for meg.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1712342343,
+      "score": 2,
+      "link_id": "t3_1bwoq7d",
+      "parent_id": "t1_ky7hiyl"
+    },
+    {
+      "id": "kwrxh9w",
+      "body": "Nå risikerer jeg å høres pretensiøs ut, men det er ganske greit å få høyt snitt på ingeniør bachelor på NTNU.",
+      "author": "rah_whos_that",
+      "subreddit": "ntnu",
+      "created_utc": 1711533081,
+      "score": 2,
+      "link_id": "t3_1bo7qfx",
+      "parent_id": "t3_1bo7qfx"
+    },
+    {
+      "id": "kuedbx4",
+      "body": "Rejected from MSc CS just 30 minutes ago. Good luck to everyone still waiting for their decisions.",
+      "author": "rah_whos_that",
+      "subreddit": "ethz",
+      "created_utc": 1710179952,
+      "score": 8,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ku49tan",
+      "body": "Not heard back from the admissions office yet, but this has me a bit worried as my stats are quite similar. Only difference is that where I am enrolled now is the highest ranked in the country despite being ranked worse than Purdue",
+      "author": "rah_whos_that",
+      "subreddit": "ethz",
+      "created_utc": 1710014390,
+      "score": 5,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ku3x32g"
+    },
+    {
+      "id": "ktxetp2",
+      "body": "Why do you think ETH sends out admissions/rejections in small batches like this? The wait is killing me !",
+      "author": "rah_whos_that",
+      "subreddit": "ethz",
+      "created_utc": 1709911984,
+      "score": 9,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    }
+  ]
+}

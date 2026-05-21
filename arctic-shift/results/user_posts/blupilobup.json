@@ -1,0 +1,252 @@
+{
+  "username": "blupilobup",
+  "posts": [
+    {
+      "id": "1hmmpkp",
+      "title": "How do you recognize good leather?",
+      "author": "blupilobup",
+      "subreddit": "AskACobbler",
+      "created_utc": 1735213321,
+      "score": 15,
+      "num_comments": 31,
+      "selftext": "How do you recognize good leather, that will last and age well? Is it in the color? The way the material stretches, bends etc.? \n\nHow are good vs. bad leathers produced? What makes here a difference? \n\nSometimes I see comments like “bad leather” or “fake leather” and was wondering what’s all about",
+      "url": "https://www.reddit.com/r/AskACobbler/comments/1hmmpkp/how_do_you_recognize_good_leather/"
+    },
+    {
+      "id": "1ekvdej",
+      "title": "Fume Extractor for Hobbyist",
+      "author": "blupilobup",
+      "subreddit": "soldering",
+      "created_utc": 1722882890,
+      "score": 1,
+      "num_comments": 15,
+      "selftext": "I’ve been reading about fume extractors thinking it would be a good idea to purchase one even if soldering at hobbyist level. I’ve been going through the report linked in the wiki of this sub (https://www.hse.gov.uk/research/rrpdf/rr900.pdf). My main findings were that:\n(1) Air Boxes with Carbon Filters aren’t really good\n(2) HEPA filtering solutions with a tube (“downdraught bench”) are good\n\nNow (2) are quite expensive (for example: https://www.weller-tools.com/us/en/filtration/products/solder-fumes/zero-smog-el).\n\nMy budget would more be like under 300€.\n\nMy 2 questions are:\n- what do you think about the Weller Zero Smog Shield Pro? It has an EPA 10 filter (and no HEPA). Is it good enough for hobby soldering at home? Any experience with it?\n- would you prefer the Weller just mentioned or a cheaper one by Vevor but with HEPA?\n- I could also route the fumes through an open window, is that any better? I saw the DIY variants but I was wondering if the sucking is powerful enough. \n\nThanks for your help",
+      "url": "https://www.reddit.com/r/soldering/comments/1ekvdej/fume_extractor_for_hobbyist/"
+    },
+    {
+      "id": "1c1kcgo",
+      "title": "Automatic Bluetooth devices configuration",
+      "author": "blupilobup",
+      "subreddit": "Fedora",
+      "created_utc": 1712855191,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I’ve read a bit about bluetooth on Linux. I learned that Bluetooth devices have an associated class number that specify what kind of capabilities it has (play music, receive files etc.) For example Bluetooth speakers are advertised as “being able to play music” and, say Spotify, will recognize the device as being an audio sink. \n\nNow I wonder how Fedora advertises itself in the Bluetooth protocol, because if I connect to my Fedora laptop from my phone, I’m able to play music and if I connect to my laptop with my tablet, I’m able to send files (that will appear in some folders). How does this automatic (and very convenient) device configuration work? Does the sending device advertise what kind of data it is sending? \n\nThanks for your help and sorry if my wording is not technically precise",
+      "url": "https://www.reddit.com/r/Fedora/comments/1c1kcgo/automatic_bluetooth_devices_configuration/"
+    },
+    {
+      "id": "1bysp17",
+      "title": "Grub not booting Debian after WOL",
+      "author": "blupilobup",
+      "subreddit": "linuxquestions",
+      "created_utc": 1712564898,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Grub not booting Debian after WOL\n\nI’m seeking for your help as I don’t know where to look for the solution of this problem. I installed Debian 12 on a ThinkPad X230 to experiment a bit with home servers. The installation is working fine. \n\nI then enabled Wake-On-Lan and tried booting from my phone, but Grub boots into the command line and does not start the Kernel. From there, I can boot manually, specifying the location of the kernel etc… without any issue.\n\nI’ve tried performing an update-grub after booting manually from the grub command line, but it does not solve the problem. \n\nBut I’ve noticed something that might be the cause of this behavior: in the BIOS under Boot Order, I selected the entry called “debian”, whereas under “Network Boot” I can only select the SSD where I installed Debian (that is “SSD Samsung…”) and there is no entry called “debian”.\n\nIf I select “SSD Samsung” instead of “debian” under Boot Order, I get the same behavior when powering the laptop from the button. \n\nWhat is happening here? How did the Debian Installer create the debian entry showing up in the BIOS (I’m not speaking about the Debian entry of Grub)? What is different when selecting “debian” and the SSD it’s installed on in the BIOS? \nWhat confuses me is the fact that Grub is starting but not considering the grub.cfg\n\nThanks for your help!",
+      "url": "https://www.reddit.com/r/linuxquestions/comments/1bysp17/grub_not_booting_debian_after_wol/"
+    },
+    {
+      "id": "1byirj5",
+      "title": "Grub not booting Debian after WOL",
+      "author": "blupilobup",
+      "subreddit": "debian",
+      "created_utc": 1712532388,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "I’m seeking for your help as I don’t know where to look for the solution of this problem. I installed Debian 12 on a ThinkPad X230 to experiment a bit with home servers. The installation is working fine. \n\nI then enabled Wake-On-Lan and tried booting from my phone, but Grub boots into the command line and does not start the Kernel. From there, I can boot manually, specifying the location of the kernel etc… without any issue.\n\nI don’t understand why Grub works fine when powering the laptop from its power on button but fails after WOL.\n\nI’ve tried performing an update-grub after booting manually from the grub command line, but it does not solve the problem. \n\nBut I’ve noticed something that might be the cause of this behavior: in the BIOS under Boot Order, I selected the entry called “debian”, whereas under “Network Boot” I can only select the SSD where I installed Debian (that is “SSD Samsung…”) and there is no entry called “debian”.\n\nIf I select “SSD Samsung” instead of “debian” under Boot Order, I get the same behavior when powering the laptop from the button. \n\nWhat is happening here? How did the Debian Installer create the debian entry showing up in the BIOS (I’m not speaking about the Debian entry of Grub)? What is different when selecting “debian” and the SSD it’s installed on in the BIOS? \nWhat confuses me is the fact that Grub is starting but not considering the grub.cfg\n\nThanks for your help!",
+      "url": "https://www.reddit.com/r/debian/comments/1byirj5/grub_not_booting_debian_after_wol/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m28fmqw",
+      "body": "You can sell them on namesky if you want to.",
+      "author": "blupilobup",
+      "subreddit": "nearprotocol",
+      "created_utc": 1734299939,
+      "score": 1,
+      "link_id": "t3_1heyuth",
+      "parent_id": "t3_1heyuth"
+    },
+    {
+      "id": "lnw4we9",
+      "body": "Yes it’s a thing. It’s offered by many FH in Switzerland, such as the ZHdK. And it’s pretty standard to become a classical or a jazz musician",
+      "author": "blupilobup",
+      "subreddit": "ethz",
+      "created_utc": 1726751779,
+      "score": 3,
+      "link_id": "t3_1fkjnh3",
+      "parent_id": "t1_lnw4bz4"
+    },
+    {
+      "id": "lm0bgcu",
+      "body": "“Interesting as fuck” very accurate",
+      "author": "blupilobup",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1725741043,
+      "score": 3,
+      "link_id": "t3_1fb6m1g",
+      "parent_id": "t3_1fb6m1g"
+    },
+    {
+      "id": "lidnbvl",
+      "body": "My tips would be:\n- stick to the rule “on Sunday, I worked through all exercise sheets of the week”. Especially in the first semester (because of the short learnphase)\n- Try hard to solve the exercises, but if you’re completely stuck (like you tried a few hours), admit it, go to the next task, read the master solution when it comes out and retry after that on your own. Some exercises are very hard if you’ve never seen them, and it absolutely fine to fail at solving them. I’d even say it’s normal to fail at solving them. Learn them with the solution.\n- in the Lernphase: redo the sheets, solve past exams.\n-in the exam: start by doing the easy exercises, they will give you the passing grade. If you don’t solve everything it’s fine.\n\nGood work will be rewarded. And then you’ll start seeing how you can prepare better according to your learning style and so on.",
+      "author": "blupilobup",
+      "subreddit": "ethz",
+      "created_utc": 1723799776,
+      "score": 0,
+      "link_id": "t3_1et800i",
+      "parent_id": "t3_1et800i"
+    },
+    {
+      "id": "lgqnxlj",
+      "body": "Great details! Thanks for sharing your knowledge. I’ll think about that. I’ll do that or buy a not so expensive 3-layer solution.",
+      "author": "blupilobup",
+      "subreddit": "soldering",
+      "created_utc": 1722931837,
+      "score": 1,
+      "link_id": "t3_1ekvdej",
+      "parent_id": "t1_lgq2txz"
+    },
+    {
+      "id": "lgocrei",
+      "body": "Yes, extracting the fumes out through the window might be my best option in terms of protection and Budget. To be fair, the Weller I mentioned also has some active carbon (foam I believe).",
+      "author": "blupilobup",
+      "subreddit": "soldering",
+      "created_utc": 1722894607,
+      "score": 1,
+      "link_id": "t3_1ekvdej",
+      "parent_id": "t1_lgo3w8l"
+    },
+    {
+      "id": "lgoc1fm",
+      "body": "Thanks for the information. I think it might be possible to do something decent on my own. The hard part would be testing. Like how do you know if your system is filtering correctly? I’d expect good brands like Weller to have some sort of quality tests or standards they follow. I’ll do some more research on how these things are built. Actually I wonder why they are so expensive",
+      "author": "blupilobup",
+      "subreddit": "soldering",
+      "created_utc": 1722894364,
+      "score": 1,
+      "link_id": "t3_1ekvdej",
+      "parent_id": "t1_lgo0mgi"
+    },
+    {
+      "id": "lgoayca",
+      "body": "That’s a good tip, I was just concerned about it getting on the way if I want to add once a microscope to the setup",
+      "author": "blupilobup",
+      "subreddit": "soldering",
+      "created_utc": 1722894005,
+      "score": 1,
+      "link_id": "t3_1ekvdej",
+      "parent_id": "t1_lgnghl2"
+    },
+    {
+      "id": "lgoabe8",
+      "body": "Thanks for the reply. For my budget, it looks like routing the fumes through the window is the best option.",
+      "author": "blupilobup",
+      "subreddit": "soldering",
+      "created_utc": 1722893795,
+      "score": 1,
+      "link_id": "t3_1ekvdej",
+      "parent_id": "t1_lgnfsut"
+    },
+    {
+      "id": "l4qhwxi",
+      "body": "You don’t need high specs for studying, as you will mainly browse the internet, read pdf’s, write E-Mails etc… I wouldn’t buy the last generations as you will not notice the difference. A T14, T14s or T16 Gen 1 or Gen 2 would be enough. \n\nIf you want to pay less for basically the same thing, you should buy a barely used second hand laptop. There are plenty of them on sale and you’d save 1000$…",
+      "author": "blupilobup",
+      "subreddit": "thinkpad",
+      "created_utc": 1716127213,
+      "score": 3,
+      "link_id": "t3_1cvn7xy",
+      "parent_id": "t3_1cvn7xy"
+    },
+    {
+      "id": "l0rm1yh",
+      "body": "Ah I did not understand that you couldn’t boot your USB. Good you found a fix",
+      "author": "blupilobup",
+      "subreddit": "Fedora",
+      "created_utc": 1713805373,
+      "score": 1,
+      "link_id": "t3_1ca6ixn",
+      "parent_id": "t1_l0rgcds"
+    },
+    {
+      "id": "l0rcbso",
+      "body": "Could it be that the windows installer messed up with your boot loader? You can try restoring it from a live usb with Fedora Workstation installed. Boot onto the USB and log in into Wi-Fi. Open a terminal\n\nIf you think this is the case: you may want to try performing a reinstall of Grub from a Live Environment. \n\nMake a USB Live Installation Media with fedora Workstation and boot on it. Login to Wi-Fi. Go to a terminal. Perform a chroot in your disk install and reinstall grub from there\n\n```\nsudo mount -o subvol=root /dev/nvme0n1p3 /mnt/\nsudo mount /dev/nvme0n1p2 /mnt/boot\nsudo mount /dev/nvme0n1p1 /mnt/boot/efi\n\nsudo mount -o bind /dev /mnt/dev\nsudo mount -o bind /sys /mnt/sys\nsudo mount -o bind /proc /mnt/proc\nsudo mount -o bind /run /mnt/run\nsudo mount -o bind /sys/firmware/efi/efivars /mnt/sys/firmware/efi/efivars\n\nchroot /mnt\n\nmount -a\n\ndnf reinstall shim-* grub2-*\n\ngrub2-mkconfig -o /boot/grub2/grub.cfg\n\nefibootmgr -c -d /dev/nvme0n1p1 -p 1 -L Fedora -l '\\EFI\\fedora\\shimx64.efi.efi'\n\n```\n\nI hope your other partitions remained untouched from the Windows Installer. \n\nLast resort you can mount your /home and backup your important data and make a reinstall of the system.",
+      "author": "blupilobup",
+      "subreddit": "Fedora",
+      "created_utc": 1713802048,
+      "score": 1,
+      "link_id": "t3_1ca6ixn",
+      "parent_id": "t3_1ca6ixn"
+    },
+    {
+      "id": "kzdvkxx",
+      "body": "Not an answer to your question, but if you’re concerned about battery life, tlp might be worth a look. It has nice settings to disable all sort of stuff",
+      "author": "blupilobup",
+      "subreddit": "debian",
+      "created_utc": 1713017531,
+      "score": 1,
+      "link_id": "t3_1c08ptu",
+      "parent_id": "t3_1c08ptu"
+    },
+    {
+      "id": "kyodgfn",
+      "body": "This is not how people make money online but how they lose it",
+      "author": "blupilobup",
+      "subreddit": "AskReddit",
+      "created_utc": 1712611349,
+      "score": 1,
+      "link_id": "t3_1byy52s",
+      "parent_id": "t1_kym8fpb"
+    },
+    {
+      "id": "kyo8aol",
+      "body": "I think there might be some terminology issue. The setting in my Bios specifies “select top priority of the boot priority order when waking from LAN” and I can choose an SSD. It’s not fetching the bootable files from the network in this case (like in PXE etc..) But the terminology is unfortunate, thanks for the clarification. I added some pictures here, because it’s probably much clearer with them: https://postimg.cc/gallery/wjc89nj",
+      "author": "blupilobup",
+      "subreddit": "debian",
+      "created_utc": 1712609509,
+      "score": 1,
+      "link_id": "t3_1byirj5",
+      "parent_id": "t1_kymu4hj"
+    },
+    {
+      "id": "kym3tb0",
+      "body": "Thanks for your answer.\n\nI would think so, as Grub works perfectly if the computer is started from the power button. It only makes this when booting using WOL. \n\n“Network Boot” is a setting in my Bios, not in the Grub. Whatever I choose there will boot when waking up from LAN.",
+      "author": "blupilobup",
+      "subreddit": "debian",
+      "created_utc": 1712581907,
+      "score": 1,
+      "link_id": "t3_1byirj5",
+      "parent_id": "t1_kylwi5x"
+    },
+    {
+      "id": "krxx150",
+      "body": "You can also use distro-box to run packages from other distributions",
+      "author": "blupilobup",
+      "subreddit": "framework",
+      "created_utc": 1708794364,
+      "score": 1,
+      "link_id": "t3_1ay4imn",
+      "parent_id": "t1_krsrat6"
+    },
+    {
+      "id": "kjodffy",
+      "body": "6. The newly mined block gets broadcasted into the Bitcoin network. Upon receiving that block, nodes update their UTXO set (by removing the outputs that appear in the transactions included in the block) from their UTXO set.",
+      "author": "blupilobup",
+      "subreddit": "nearprotocol",
+      "created_utc": 1706286798,
+      "score": 1,
+      "link_id": "t3_1abgvhw",
+      "parent_id": "t1_kjnnmvt"
+    },
+    {
+      "id": "kiq6nll",
+      "body": "Smart contracts are programs in a distributed computer. They are linked to an account (that is: they have an address). You can communicate with them by sending requests (some data) to that address. They are written in Solidity and compiled down to code that is executed by the EVM (Ethereum Virtual Machine). Because of the underlying infrastructure (the blockchain), smart contracts have particularities compared to conventional programs, like they cannot be easily changed (though they are techniques to upgrade smart contracts), you have to pay a fee to execute code on the blockchain (kind of proportional to the amount of computations you want to do), etc.",
+      "author": "blupilobup",
+      "subreddit": "ethereum",
+      "created_utc": 1705750885,
+      "score": 9,
+      "link_id": "t3_19b9m1g",
+      "parent_id": "t3_19b9m1g"
+    }
+  ]
+}

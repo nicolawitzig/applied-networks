@@ -1,0 +1,4598 @@
+{
+  "username": "PetitArvine",
+  "posts": [
+    {
+      "id": "1gsv9ea",
+      "title": "SRF zum Främdschäme",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731786250,
+      "score": 81,
+      "num_comments": 15,
+      "selftext": "Wer hät dem Impact-Fuzzi erlaub zur bestä Sändeziit sin absolut unterirdische Biitrag zur Bahnpolizei uusztrahle. Das chunt mir vor wie en 12-Jährige, wo irgendöppis für sini Schüelerziitig zämebastlet hät. Kei richtigi Hintergrundrecherchä, nur es paar iibländeti Schlagziile us de 20 min. Im ganze Biitrag redt eigentlich nur ein Polizist. Und gfilmt händs gfühlt öppe 3 h nur am Züri HB. De “Reporter” muen immer sini völlig unnötige / unprofessionellä Kommentär iistreue, wie z.B. dass er bim Rauche ufem Perron verwütscht worde seg, oder dass sie etzt dänn sine Kifferkollegä chönted über de Wäg laufe. Für so öppis / öppert zahl ich doch kei Gebühre!",
+      "url": "https://www.reddit.com/r/BUENZLI/comments/1gsv9ea/srf_zum_främdschäme/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4kisw9",
+      "body": "Go to the youth hostel in Wollishofen.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1735586870,
+      "score": 1,
+      "link_id": "t3_1hppm9h",
+      "parent_id": "t3_1hppm9h"
+    },
+    {
+      "id": "m4exfk0",
+      "body": "Is the perspectives always the same? Are the shovels all of the same type? Why is it necessary to automate this task? I mean, the operator can easily tell when he’s moving a broken shovel.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735506258,
+      "score": 1,
+      "link_id": "t3_1hp3fl9",
+      "parent_id": "t3_1hp3fl9"
+    },
+    {
+      "id": "m4chltx",
+      "body": "Heb Pfrässi, du Gummihals.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735476227,
+      "score": -1,
+      "link_id": "t3_1hov2t9",
+      "parent_id": "t3_1hov2t9"
+    },
+    {
+      "id": "m4cg6sq",
+      "body": "That’s exactly how dating works - for the female players.",
+      "author": "PetitArvine",
+      "subreddit": "meirl",
+      "created_utc": 1735475445,
+      "score": 29,
+      "link_id": "t3_1hoovxx",
+      "parent_id": "t3_1hoovxx"
+    },
+    {
+      "id": "m4cffjm",
+      "body": "Everyone back then wanted to be on TV. Home videos were definitely a thing long before TikTok.",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1735475017,
+      "score": -7,
+      "link_id": "t3_1hot46o",
+      "parent_id": "t1_m4cdmxl"
+    },
+    {
+      "id": "m4cafdb",
+      "body": "It’s not just irrational. What I hear is: “hey, over here; I’ve seen it too; notice me; I’m neither perpetrator nor immediate victim of the situation, but I so badly want to be featured in a way.”",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1735472018,
+      "score": -3,
+      "link_id": "t3_1hot46o",
+      "parent_id": "t1_m4c9wc9"
+    },
+    {
+      "id": "m4c9ceo",
+      "body": "Shocked people turn very quiet and don’t go: “oh-my-gawd, aaawh.”",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1735471328,
+      "score": -17,
+      "link_id": "t3_1hot46o",
+      "parent_id": "t1_m4c8zba"
+    },
+    {
+      "id": "m4c7tkz",
+      "body": "I don’t understand why people would scream or shout *omg* in such a situation. Like, what are you trying to accomplish? If there’s something you can do about it, do it. Otherwise, shut up and get to safety.",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1735470356,
+      "score": -14,
+      "link_id": "t3_1hot46o",
+      "parent_id": "t3_1hot46o"
+    },
+    {
+      "id": "m4c62tn",
+      "body": "All of them.",
+      "author": "PetitArvine",
+      "subreddit": "funnyvideos",
+      "created_utc": 1735469233,
+      "score": 5,
+      "link_id": "t3_1hongaq",
+      "parent_id": "t1_m4bz8tk"
+    },
+    {
+      "id": "m48j13m",
+      "body": "I mean, at inference time you only have present and past frames available, so yes, there is a natural sequence of events. I don’t quite understand what you mean by shuffling keystrokes - please provide the reference. Regardless, you only know for sure if an approach works when you try it for yourself.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735414228,
+      "score": 1,
+      "link_id": "t3_1ho38mn",
+      "parent_id": "t1_m47fr5c"
+    },
+    {
+      "id": "m47885p",
+      "body": "Keystroke prediction for stand-stills won't work, since you need to know velocity and acceleration of the car, leading up to the point of action. I think what you could try is to merge the embedding vectors for every frame with the respective keystrokes, then run something like a recurrent neural network with context window of, say, five frames.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735398610,
+      "score": 2,
+      "link_id": "t3_1ho38mn",
+      "parent_id": "t1_m46saco"
+    },
+    {
+      "id": "m46piqv",
+      "body": "You need to provide more info about said dataset and the game in question.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735390349,
+      "score": 1,
+      "link_id": "t3_1ho38mn",
+      "parent_id": "t3_1ho38mn"
+    },
+    {
+      "id": "m46omvn",
+      "body": "Trotzdem chömed nur B oder D in Frag. Die andere beide sind offesichtlich frei erfunde.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1735389866,
+      "score": 43,
+      "link_id": "t3_1ho45w8",
+      "parent_id": "t1_m46mesv"
+    },
+    {
+      "id": "m46nftk",
+      "body": "Depending on which format I loaded into it, it was either way too condensed or too fragmented. The ONNX graph was also dead wrong in some places; but maybe they fixed it since.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735389199,
+      "score": 2,
+      "link_id": "t3_1hn1krm",
+      "parent_id": "t1_m43g6p7"
+    },
+    {
+      "id": "m46aedg",
+      "body": "Deez Nuts\n\n⣿⣿⣿⣿⣿⣿⡿⠛⣛⣛⣛⣛⣛⣛⣛⣛⣛⣛⡛⠛⠿⠿⢿⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⡿⢃⣴⣿⠿⣻⢽⣲⠿⠭⠭⣽⣿⣓⣛⣛⣓⣲⣶⣢⣍⠻⢿⣿⣿\n⣿⣿⣿⡿⢁⣾⣿⣵⡫⣪⣷⠿⠿⢿⣷⣹⣿⣿⣿⢲⣾⣿⣾⡽⣿⣷⠈⣿⣿\n⣿⣿⠟⠁⣚⣿⣿⠟⡟⠡⠀⠀⠀⠶⣌⠻⣿⣿⠿⠛⠉⠉⠉⢻⣿⣿⠧⡙⢿\n⡿⢡⢲⠟⣡⡴⢤⣉⣛⠛⣋⣥⣿⣷⣦⣾⣿⣿⡆⢰⣾⣿⠿⠟⣛⡛⢪⣎⠈\n⣧⢸⣸⠐⣛⡁⢦⣍⡛⠿⢿⣛⣿⡍⢩⠽⠿⣿⣿⡦⠉⠻⣷⣶⠇⢻⣟⠟⢀\n⣿⣆⠣⢕⣿⣷⡈⠙⠓⠰⣶⣤⣍⠑⠘⠾⠿⠿⣉⣡⡾⠿⠗⡉⡀⠘⣶⢃⣾\n⣿⣿⣷⡈⢿⣿⣿⣌⠳⢠⣄⣈⠉⠘⠿⠿⠆⠶⠶⠀⠶⠶⠸⠃⠁⠀⣿⢸⣿\n⣿⣿⣿⣷⡌⢻⣿⣿⣧⣌⠻⢿⢃⣷⣶⣤⢀⣀⣀⢀⣀⠀⡀⠀⠀⢸⣿⢸⣿\n⣿⣿⣿⣿⣿⣦⡙⠪⣟⠭⣳⢦⣬⣉⣛⠛⠘⠿⠇⠸⠋⠘⣁⣁⣴⣿⣿⢸⣿\n⣿⣿⣿⣿⣿⣿⣿⣷⣦⣉⠒⠭⣖⣩⡟⠛⣻⣿⣿⣿⣿⣿⣟⣫⣾⢏⣿⠘⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣍⡛⠿⠿⣶⣶⣿⣿⣿⣿⣿⣾⣿⠟⣰⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣤⣭⣍⣉⣛⣋⣭⣥⣾⣿⣿",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735380864,
+      "score": 1,
+      "link_id": "t3_1hntnko",
+      "parent_id": "t3_1hntnko"
+    },
+    {
+      "id": "m45xk4w",
+      "body": "*Güsel",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1735372272,
+      "score": 1,
+      "link_id": "t3_1hnzil6",
+      "parent_id": "t3_1hnzil6"
+    },
+    {
+      "id": "m43fqx1",
+      "body": "It was a dig at Netron, not your tool, which I have yet to try.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735335055,
+      "score": 3,
+      "link_id": "t3_1hn1krm",
+      "parent_id": "t1_m43bdpl"
+    },
+    {
+      "id": "m4369ey",
+      "body": "It is enough to conduct standard business. It is not enough to stand out between all the generic eateries.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735331961,
+      "score": 3,
+      "link_id": "t3_1hnn4n5",
+      "parent_id": "t1_m435mrb"
+    },
+    {
+      "id": "m41zh24",
+      "body": "Lower your expectations.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1735318273,
+      "score": 11,
+      "link_id": "t3_1hnj1i7",
+      "parent_id": "t3_1hnj1i7"
+    },
+    {
+      "id": "m41i5oe",
+      "body": "https://interhockey.ch/merchandising/#stores",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735312526,
+      "score": 1,
+      "link_id": "t3_1hndpqn",
+      "parent_id": "t3_1hndpqn"
+    },
+    {
+      "id": "m40c12a",
+      "body": "De hät sini U-Hose aber immerna ah.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1735290752,
+      "score": 19,
+      "link_id": "t3_1hnawfj",
+      "parent_id": "t3_1hnawfj"
+    },
+    {
+      "id": "m4025qb",
+      "body": "Except, it seems actually usable.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1735284215,
+      "score": 4,
+      "link_id": "t3_1hn1krm",
+      "parent_id": "t1_m3zan8p"
+    },
+    {
+      "id": "m4013bp",
+      "body": "You’re not a regular immigrant, you’re here because Ukraine isn’t currently safe for civilians. But one day you will have to return and help building it back up. Don’t make yourself too comfortable.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735283547,
+      "score": -10,
+      "link_id": "t3_1hn10d5",
+      "parent_id": "t3_1hn10d5"
+    },
+    {
+      "id": "m3zzv8a",
+      "body": "Smells fishy, and not because of the Sushi. Stay clear of this guy, he’s using you.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735282803,
+      "score": 0,
+      "link_id": "t3_1hn3ldo",
+      "parent_id": "t3_1hn3ldo"
+    },
+    {
+      "id": "m3y7u75",
+      "body": "Tbf, I believe they’re *only* defending Kursk for now.",
+      "author": "PetitArvine",
+      "subreddit": "ukraine",
+      "created_utc": 1735255695,
+      "score": -1,
+      "link_id": "t3_1hmx8lr",
+      "parent_id": "t1_m3xsec7"
+    },
+    {
+      "id": "m3x8iz0",
+      "body": "Update?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735243449,
+      "score": 1,
+      "link_id": "t3_1hm9ggb",
+      "parent_id": "t3_1hm9ggb"
+    },
+    {
+      "id": "m3x7vg1",
+      "body": "r/me_irl",
+      "author": "PetitArvine",
+      "subreddit": "ask",
+      "created_utc": 1735243226,
+      "score": 2,
+      "link_id": "t3_1hmntyc",
+      "parent_id": "t1_m3ve845"
+    },
+    {
+      "id": "m3wis5f",
+      "body": "It depends more on the actual type of work you’ll be doing and for which company. Title alone doesn’t convey the whole responsibility and added value.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735234952,
+      "score": 6,
+      "link_id": "t3_1hmt9yt",
+      "parent_id": "t3_1hmt9yt"
+    },
+    {
+      "id": "m3w2k73",
+      "body": "I read that in Ralph Wiggum‘s voice.",
+      "author": "PetitArvine",
+      "subreddit": "me_irl",
+      "created_utc": 1735229465,
+      "score": 57,
+      "link_id": "t3_1hmnheo",
+      "parent_id": "t3_1hmnheo"
+    },
+    {
+      "id": "m3v8twi",
+      "body": "Soft autumn.",
+      "author": "PetitArvine",
+      "subreddit": "coloranalysis",
+      "created_utc": 1735216933,
+      "score": -2,
+      "link_id": "t3_1hmf9an",
+      "parent_id": "t3_1hmf9an"
+    },
+    {
+      "id": "m3v8d4d",
+      "body": "This is the way!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1735216674,
+      "score": 0,
+      "link_id": "t3_1hmm5si",
+      "parent_id": "t3_1hmm5si"
+    },
+    {
+      "id": "m3uz2qz",
+      "body": "I wasn’t joking - look it up.",
+      "author": "PetitArvine",
+      "subreddit": "Funnymemes",
+      "created_utc": 1735210740,
+      "score": 1,
+      "link_id": "t3_1hmbayo",
+      "parent_id": "t1_m3uwnwc"
+    },
+    {
+      "id": "m3uwiwf",
+      "body": "They *are* the same company but different front ends for different item categories.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735208979,
+      "score": 2,
+      "link_id": "t3_1hmgsoj",
+      "parent_id": "t1_m3utsim"
+    },
+    {
+      "id": "m3uu4n4",
+      "body": "> omg some people really think its so easy to relocate to Germany\n\n2.5 M something *refugees* beg to differ.",
+      "author": "PetitArvine",
+      "subreddit": "germany",
+      "created_utc": 1735207297,
+      "score": -3,
+      "link_id": "t3_1hmksjs",
+      "parent_id": "t1_m3uslz3"
+    },
+    {
+      "id": "m3utg9s",
+      "body": "Try again, dipping the cloth in DI water first.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1735206815,
+      "score": 1,
+      "link_id": "t3_1hml5kr",
+      "parent_id": "t3_1hml5kr"
+    },
+    {
+      "id": "m3udv7j",
+      "body": "Galaxus / Digitec. Does he have any toys like a gaming console? He might appreciate accessories that go with it, e.g. a replacement battery for the controller. Regardless, the nicest gift is to know that someone deeply cares about you. I, personally, always rejoice at handwritten letters.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735195637,
+      "score": 3,
+      "link_id": "t3_1hmgsoj",
+      "parent_id": "t3_1hmgsoj"
+    },
+    {
+      "id": "m3u8oj7",
+      "body": "*Her, Winnie is a girl.",
+      "author": "PetitArvine",
+      "subreddit": "Funnymemes",
+      "created_utc": 1735192419,
+      "score": 1,
+      "link_id": "t3_1hmbayo",
+      "parent_id": "t1_m3t8v3y"
+    },
+    {
+      "id": "m3t1ea8",
+      "body": "https://www.cancer.org/cancer/risk-prevention/infections/infections-that-can-lead-to-cancer/viruses.html",
+      "author": "PetitArvine",
+      "subreddit": "biology",
+      "created_utc": 1735172111,
+      "score": 2,
+      "link_id": "t3_1hmawl1",
+      "parent_id": "t1_m3t0ir7"
+    },
+    {
+      "id": "m3t0apg",
+      "body": "It is a DNA virus which arguably plays a role in carcinogenesis, if not in humans then certainly in lab animals. HCC (liver cancer) is maybe a better known (hepatitis) virus-associated type of cancer. In any case, foreign cells would be quickly eliminated, either by the conditions in the digestive system (enzymes, pH, bile) or then by the host immune system. That is, unless they themselves are infected with something more.",
+      "author": "PetitArvine",
+      "subreddit": "biology",
+      "created_utc": 1735171661,
+      "score": 4,
+      "link_id": "t3_1hmawl1",
+      "parent_id": "t1_m3sw67u"
+    },
+    {
+      "id": "m3svrri",
+      "body": "A mass of cells *is* largely proteins. And no, it would not do any harm, unless it is producing SV40 or some other oncogenic virus.",
+      "author": "PetitArvine",
+      "subreddit": "biology",
+      "created_utc": 1735169816,
+      "score": 25,
+      "link_id": "t3_1hmawl1",
+      "parent_id": "t1_m3sscse"
+    },
+    {
+      "id": "m3shhb2",
+      "body": "Silver.",
+      "author": "PetitArvine",
+      "subreddit": "coloranalysis",
+      "created_utc": 1735164005,
+      "score": 6,
+      "link_id": "t3_1hma00b",
+      "parent_id": "t3_1hma00b"
+    },
+    {
+      "id": "m3shd09",
+      "body": "You'll look like a very pretentious snob. But I don't think anyone will assault you.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735163959,
+      "score": 0,
+      "link_id": "t3_1hm3x79",
+      "parent_id": "t3_1hm3x79"
+    },
+    {
+      "id": "m3sge5b",
+      "body": "Good choice. Btw: My cost estimate stems from a recent bill I payed, which included an EKG and some blood work. Since I don't know what tests they will run on you, I thought this might be a good reference.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735163581,
+      "score": 2,
+      "link_id": "t3_1hm9ggb",
+      "parent_id": "t1_m3sfm39"
+    },
+    {
+      "id": "m3serz3",
+      "body": "I would say 250.- is a solid guess, provided that you find a general practitioner. Please don't strain the hospital ER - you are not terminally ill. Depending on where you are, there might be a walk-in clinic nearby, we call *permanence*.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735162951,
+      "score": 7,
+      "link_id": "t3_1hm9ggb",
+      "parent_id": "t3_1hm9ggb"
+    },
+    {
+      "id": "m3sdcjy",
+      "body": "Not the worst this week. I'll give it a 2/10 for providing month and budget.\n\n>We like \\[…\\] getting to know local people.\n\nHa! Dream on!",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735162386,
+      "score": 17,
+      "link_id": "t3_1hm9d5s",
+      "parent_id": "t3_1hm9d5s"
+    },
+    {
+      "id": "m3rd3w5",
+      "body": "You have mountains on virtually every lake.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735148744,
+      "score": 0,
+      "link_id": "t3_1hm453u",
+      "parent_id": "t3_1hm453u"
+    },
+    {
+      "id": "m3qehl4",
+      "body": "Da häts mer doch glatt d’Schoggimilch dur d’Nase truckt.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1735134067,
+      "score": 11,
+      "link_id": "t3_1hlzvob",
+      "parent_id": "t3_1hlzvob"
+    },
+    {
+      "id": "m39cko4",
+      "body": "They’re wildly different in size..",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734856545,
+      "score": 3,
+      "link_id": "t3_1hju3kb",
+      "parent_id": "t1_m39c1f4"
+    },
+    {
+      "id": "m39ceao",
+      "body": "Was the deposit in a frozen account? Do you have confirmation it was ever released?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734856417,
+      "score": 1,
+      "link_id": "t3_1hjoxi6",
+      "parent_id": "t3_1hjoxi6"
+    },
+    {
+      "id": "m39bit9",
+      "body": "> […] *for example* in cities like Zürich.\n\nDon’t pretend like you have considered any other place in the country or any other country in Europe. You don’t even aspire to work in a specific field or for a specific company. You have zero cultural ties to the place. All you want is money and you’re even too lazy to make yourself familiar with the geography. There’s plenty of engineers who know how to use Google Maps - why should we hire you?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734855783,
+      "score": 2,
+      "link_id": "t3_1hju3kb",
+      "parent_id": "t3_1hju3kb"
+    },
+    {
+      "id": "m36xnca",
+      "body": "A GPA of 3.0 from a generic Italian institution sucks ass. Everybody knows that you get unlimited tries (even if you passed). I haven't met a single Italian here without a perfect 110/110; one of them also told me that cheating is rampant over there.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734815673,
+      "score": 6,
+      "link_id": "t3_1hjdqdd",
+      "parent_id": "t3_1hjdqdd"
+    },
+    {
+      "id": "m36x3vb",
+      "body": "Brockenhaus",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734815473,
+      "score": 6,
+      "link_id": "t3_1hjip7q",
+      "parent_id": "t3_1hjip7q"
+    },
+    {
+      "id": "m36udtu",
+      "body": "Bold of you to assume I need the respect of an 18 y/o simpleton.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734814478,
+      "score": 1,
+      "link_id": "t3_1hixwcg",
+      "parent_id": "t1_m36k9v1"
+    },
+    {
+      "id": "m36t81a",
+      "body": "And no one here cares about your wants or needs. All you've stated so far is that you want a cushy job in the highly competitive market of a country you know nothing about; probably after seeing some misleading reels on TikTok. Yet, you've failed to demonstrate the unique value that you would bring to our already thriving society. You really think we'd have to go as far as Brazil to find a replacement for our retiring history teachers? That's nothing short of juvenile naïvety and arrogance.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734814060,
+      "score": 1,
+      "link_id": "t3_1hixwcg",
+      "parent_id": "t1_m36kycy"
+    },
+    {
+      "id": "m36ihij",
+      "body": "There's a thing called accountability. You need to open an account.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734810201,
+      "score": 1,
+      "link_id": "t3_1hjgy6a",
+      "parent_id": "t1_m36h2cn"
+    },
+    {
+      "id": "m36guub",
+      "body": "Tough luck  ¯⁠\\\\\\\\⁠\\_⁠(⁠ツ⁠)⁠\\\\\\_⁠/⁠¯",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734809623,
+      "score": 0,
+      "link_id": "t3_1hjgy6a",
+      "parent_id": "t3_1hjgy6a"
+    },
+    {
+      "id": "m36fkc3",
+      "body": "The naiveté is > 9000",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734809172,
+      "score": 1,
+      "link_id": "t3_1hilr88",
+      "parent_id": "t3_1hilr88"
+    },
+    {
+      "id": "m36etpe",
+      "body": "Maybe we’re not racist enough; people are still flocking in by the (hundreds of) thousands every year",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734808926,
+      "score": 2,
+      "link_id": "t3_1hiv1jy",
+      "parent_id": "t1_m3259hd"
+    },
+    {
+      "id": "m36bfpy",
+      "body": "You need us more than we need you. I’m not worried at all about a shortage of wannabe historians.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734807761,
+      "score": 1,
+      "link_id": "t3_1hixwcg",
+      "parent_id": "t1_m338uw1"
+    },
+    {
+      "id": "m36abfp",
+      "body": "For someone who strives to be a scholar, you sure have a hard time spelling the name of our country correctly.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734807388,
+      "score": 1,
+      "link_id": "t3_1hixwcg",
+      "parent_id": "t1_m32f6kk"
+    },
+    {
+      "id": "m36a6cd",
+      "body": "For someone who strives to be a scholar, you sure have a hard time spelling the name of our country correctly.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734807339,
+      "score": 1,
+      "link_id": "t3_1hixwcg",
+      "parent_id": "t3_1hixwcg"
+    },
+    {
+      "id": "m35a7da",
+      "body": "lol",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734794787,
+      "score": 3,
+      "link_id": "t3_1hjb8uj",
+      "parent_id": "t3_1hjb8uj"
+    },
+    {
+      "id": "m34utup",
+      "body": "Äuä!!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734788593,
+      "score": 2,
+      "link_id": "t3_1him1v3",
+      "parent_id": "t3_1him1v3"
+    },
+    {
+      "id": "m34u3r1",
+      "body": "Because money.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734788266,
+      "score": 2,
+      "link_id": "t3_1hj7ehz",
+      "parent_id": "t1_m34q6rk"
+    },
+    {
+      "id": "m34ddfy",
+      "body": "Find a job first…",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734779114,
+      "score": 5,
+      "link_id": "t3_1hj7ehz",
+      "parent_id": "t1_m34c3ej"
+    },
+    {
+      "id": "m349pcc",
+      "body": "Entweder Du schämsch Dich oder nöd - es isch uf jede Fall nöd strafbar. Ich finds uf jede Fall guet, dass Du Dich tuesch iibringe und nöd eifach im Sälbstmitleid versuurisch.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1734776700,
+      "score": 0,
+      "link_id": "t3_1hj6gps",
+      "parent_id": "t3_1hj6gps"
+    },
+    {
+      "id": "m3484s3",
+      "body": "Wear is to be expected and accounted for in the rent. I don't think you are liable if these damages occurred over the damages accrued over the course of 10 years.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734775665,
+      "score": 7,
+      "link_id": "t3_1hj5n47",
+      "parent_id": "t3_1hj5n47"
+    },
+    {
+      "id": "m33ybe8",
+      "body": "Sägemer au nöd; genauso wenig wie *atmen*.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1734769060,
+      "score": 1,
+      "link_id": "t3_1hi1wuz",
+      "parent_id": "t1_m33gry5"
+    },
+    {
+      "id": "m31cnzx",
+      "body": "Heb Pfrässi, Du Gummihals!",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1734727631,
+      "score": -7,
+      "link_id": "t3_1hiqfc9",
+      "parent_id": "t3_1hiqfc9"
+    },
+    {
+      "id": "m2z5n9e",
+      "body": "Da chunts mer grad opsi, wänni das lise.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1734699849,
+      "score": 5,
+      "link_id": "t3_1hi1wuz",
+      "parent_id": "t1_m2yv5r2"
+    },
+    {
+      "id": "m2wiihz",
+      "body": "Mac2sell.net",
+      "author": "PetitArvine",
+      "subreddit": "macbookpro",
+      "created_utc": 1734651637,
+      "score": 1,
+      "link_id": "t3_1hi3ro7",
+      "parent_id": "t3_1hi3ro7"
+    },
+    {
+      "id": "m2wgkm4",
+      "body": "Needs more JPEG.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734650909,
+      "score": 2,
+      "link_id": "t3_1hi5yjl",
+      "parent_id": "t3_1hi5yjl"
+    },
+    {
+      "id": "m2w5uos",
+      "body": "Ich wott s'*Z* und s'*uf* zrugg ha! D'Lüüt säged nur na *zu*/*in* oder *nach*.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1734647100,
+      "score": 3,
+      "link_id": "t3_1hi1wuz",
+      "parent_id": "t3_1hi1wuz"
+    },
+    {
+      "id": "m2w5f7a",
+      "body": "Ich han lang nöd gwüsst, dass es passendi Wort git für das, woni scho länger tüf i mir ine gspüre. Merci!",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1734646953,
+      "score": 3,
+      "link_id": "t3_1hi1wuz",
+      "parent_id": "t1_m2vo3t5"
+    },
+    {
+      "id": "m2vupo9",
+      "body": "I believe we both read a different post.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734643469,
+      "score": 1,
+      "link_id": "t3_1hi1vde",
+      "parent_id": "t1_m2vu4ln"
+    },
+    {
+      "id": "m2vue51",
+      "body": "Irgendwänn tätowier ich mir das na uf d’Brust =D",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734643369,
+      "score": 1,
+      "link_id": "t3_1hi1vde",
+      "parent_id": "t1_m2vj01p"
+    },
+    {
+      "id": "m2vt9u5",
+      "body": "What help,m? OP wasn’t asking for help. He just came here to tell us all how awful we are. What kind of replies did you expect to read? They are actually very temperate - I could say of a whole lot of really nasty shit about the Indians. But I’m not going to r/India and post it there.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734643015,
+      "score": 0,
+      "link_id": "t3_1hi1vde",
+      "parent_id": "t1_m2vrsxz"
+    },
+    {
+      "id": "m2vlaz7",
+      "body": "Oh noo.. anyway",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734640487,
+      "score": 1,
+      "link_id": "t3_1hi1vde",
+      "parent_id": "t3_1hi1vde"
+    },
+    {
+      "id": "m2t7bfm",
+      "body": "The 1TB SSD is faster, though.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734609793,
+      "score": -1,
+      "link_id": "t3_1hhpthi",
+      "parent_id": "t1_m2t415x"
+    },
+    {
+      "id": "m2mknkx",
+      "body": "Äuä scho",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734506914,
+      "score": 1,
+      "link_id": "t3_1he7ofr",
+      "parent_id": "t1_m23m4pd"
+    },
+    {
+      "id": "m2mkjj2",
+      "body": "Hoch-Ybrig",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1734506842,
+      "score": 4,
+      "link_id": "t3_1hgw2p1",
+      "parent_id": "t3_1hgw2p1"
+    },
+    {
+      "id": "m2kfijy",
+      "body": "Oh really? What evidence are they referring to? What are the quality (hochwertige) parameters? I can bring anything to the lab and run some tests; congrats, they managed to verify that you're not actively intoxicating yourself with their product - where health claims? Veganism is a lifestyle, not a scientific theory.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734474745,
+      "score": 1,
+      "link_id": "t3_1hghu8r",
+      "parent_id": "t1_m2jtdy0"
+    },
+    {
+      "id": "m2keeu4",
+      "body": "Medical grade only means extra pure; it has nothing to do with efficacy. Many mundane compounds, such as sugars, are also available in medical grade, but they don't automagically have elicit therapeutic effects. It only means that they are e.g. safe for injection.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734474379,
+      "score": 1,
+      "link_id": "t3_1hghu8r",
+      "parent_id": "t1_m2kbr6j"
+    },
+    {
+      "id": "m2kcqa8",
+      "body": "Sauce?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734473821,
+      "score": -1,
+      "link_id": "t3_1hghu8r",
+      "parent_id": "t1_m2k6bf0"
+    },
+    {
+      "id": "m2k9kmj",
+      "body": "> […] some friction […] attempt to move it.\n\nOnly the man is pulling like a retard. That cat is only holding back. Pulling a hemp rope across an edge is a lot of friction.",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1734472784,
+      "score": 0,
+      "link_id": "t3_1hgc1wo",
+      "parent_id": "t1_m2j21w7"
+    },
+    {
+      "id": "m2k90rn",
+      "body": "Yes, that’s why the rope doesn’t move in either direction.",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1734472609,
+      "score": 1,
+      "link_id": "t3_1hgc1wo",
+      "parent_id": "t1_m2ipzkj"
+    },
+    {
+      "id": "m2k84nf",
+      "body": "None, because it’s compete hogwash.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734472327,
+      "score": -2,
+      "link_id": "t3_1hghu8r",
+      "parent_id": "t3_1hghu8r"
+    },
+    {
+      "id": "m2k59tc",
+      "body": "Gold 🥇 eine vu mine Lehrer hät immer devo gschwätzt, dass’er wiedermal irgendöppis isch go *posten*",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734471418,
+      "score": 1,
+      "link_id": "t3_1he7ofr",
+      "parent_id": "t1_m2jh4dy"
+    },
+    {
+      "id": "m2gly63",
+      "body": "Unterschätze nie die verbissenen Lulatsche!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734419173,
+      "score": 2,
+      "link_id": "t3_1hfgaws",
+      "parent_id": "t1_m2b770y"
+    },
+    {
+      "id": "m2d6je5",
+      "body": "lol, your tuition fees are a joke compared to what the government pays for each and every student.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1734373457,
+      "score": -4,
+      "link_id": "t3_1hfixbg",
+      "parent_id": "t3_1hfixbg"
+    },
+    {
+      "id": "m2arpz4",
+      "body": "Send it to Louis Rossmann.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734334786,
+      "score": 1,
+      "link_id": "t3_1hf8e46",
+      "parent_id": "t3_1hf8e46"
+    },
+    {
+      "id": "m2506lr",
+      "body": "M1, hands down. The Air doesn’t have fans and that small chassis cannot dissipate enough heat to really push its performance.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734248091,
+      "score": 2,
+      "link_id": "t3_1henad5",
+      "parent_id": "t3_1henad5"
+    },
+    {
+      "id": "m24yur2",
+      "body": "Are you referring to and older models? Because this new black is fairly resistant as compared to space gray.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734247220,
+      "score": 4,
+      "link_id": "t3_1hekvg5",
+      "parent_id": "t1_m24kvh5"
+    },
+    {
+      "id": "m24ymz7",
+      "body": "Don’t worry. It’ll fade after a while (the behavior, not the Macbook).",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734247081,
+      "score": 8,
+      "link_id": "t3_1hekvg5",
+      "parent_id": "t1_m24ky3i"
+    },
+    {
+      "id": "m24y2o6",
+      "body": "gägu",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246717,
+      "score": 1,
+      "link_id": "t3_1he7ofr",
+      "parent_id": "t1_m24vyjg"
+    },
+    {
+      "id": "m24xw31",
+      "body": "Ihr händ beidi rächt.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246604,
+      "score": 5,
+      "link_id": "t3_1he7ofr",
+      "parent_id": "t1_m21prwl"
+    },
+    {
+      "id": "m24xrhj",
+      "body": "ume",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246523,
+      "score": 2,
+      "link_id": "t3_1he7ofr",
+      "parent_id": "t3_1he7ofr"
+    },
+    {
+      "id": "m24xojz",
+      "body": "Nei, Usländer gönd *uf* Vladivostok.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246472,
+      "score": 1,
+      "link_id": "t3_1he0ba3",
+      "parent_id": "t1_m20c459"
+    },
+    {
+      "id": "m24xdyp",
+      "body": "Ich gsehnä, Dis Mami isch genauso unberächebar gsi, wie miis.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246288,
+      "score": 6,
+      "link_id": "t3_1he0n2x",
+      "parent_id": "t1_m20uisl"
+    },
+    {
+      "id": "m24x8qb",
+      "body": "Ich han au scho en wüeschte ghebet..",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246197,
+      "score": 1,
+      "link_id": "t3_1he0n2x",
+      "parent_id": "t1_m22usxy"
+    },
+    {
+      "id": "m24x2ip",
+      "body": "Hie ine wird kei Änglisch gredt!",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734246089,
+      "score": 1,
+      "link_id": "t3_1he0n2x",
+      "parent_id": "t1_m23647v"
+    },
+    {
+      "id": "m24vn4t",
+      "body": "Swiss-German: The fact that it doesn’t have a written form; and AI is still terrible at imitating, as much as every non-native. It’s also more melodic/gentle than high German.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1734245210,
+      "score": 2,
+      "link_id": "t3_1heheuc",
+      "parent_id": "t3_1heheuc"
+    },
+    {
+      "id": "m22qhso",
+      "body": "1. …\n\n2. …\n\n3. …\n\n4. …\n\n5. …",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1734212372,
+      "score": 1,
+      "link_id": "t3_1hebu8v",
+      "parent_id": "t3_1hebu8v"
+    },
+    {
+      "id": "m22mdl9",
+      "body": "Can you confirm that you actually just put the computer to sleep and not log-out or restart? Are the apps really terminated, i.e. the white dot underneath their icon has disappeared from the dock? Does it also happen in safe mode? Do you have power nap activated? Read this: [https://support.apple.com/en-us/102318](https://support.apple.com/en-us/102318)",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734210917,
+      "score": 1,
+      "link_id": "t3_1he7ak6",
+      "parent_id": "t1_m22dg7p"
+    },
+    {
+      "id": "m22gxbj",
+      "body": "Bullet Ants.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1734208977,
+      "score": 4,
+      "link_id": "t3_1hebq34",
+      "parent_id": "t3_1hebq34"
+    },
+    {
+      "id": "m22gra1",
+      "body": "\\-5",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1734208917,
+      "score": 1,
+      "link_id": "t3_1hebtqc",
+      "parent_id": "t3_1hebtqc"
+    },
+    {
+      "id": "m22gkl4",
+      "body": "\\*Blase, es git kein Grund jede zweit Begriff z'veränglische.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1734208852,
+      "score": -4,
+      "link_id": "t3_1he0n2x",
+      "parent_id": "t1_m2046b3"
+    },
+    {
+      "id": "m22dh7p",
+      "body": "Or Cmd + Q",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734207756,
+      "score": 1,
+      "link_id": "t3_1he7ak6",
+      "parent_id": "t1_m21kj0c"
+    },
+    {
+      "id": "m22caom",
+      "body": "I am confused by your imprecise language - apps and windows are not tabs. If you want to share your screen, take a screenshot because that's what it was invented for; though in this case, a video recording would have been more appropriate since we can't see any of the\n\n>\\[…\\] tabs all disappear and restart.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734207333,
+      "score": 1,
+      "link_id": "t3_1he7ak6",
+      "parent_id": "t1_m22b00g"
+    },
+    {
+      "id": "m22ay58",
+      "body": "The 18th century.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1734206857,
+      "score": 1,
+      "link_id": "t3_1he44fo",
+      "parent_id": "t3_1he44fo"
+    },
+    {
+      "id": "m229yu0",
+      "body": "Why did you photograph the screen, if you knew how to do it? Also, I really don't get what you're trying to convey. All I can see is an empty Chrome in the back. What tabs are you referring to?",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734206511,
+      "score": 1,
+      "link_id": "t3_1he7ak6",
+      "parent_id": "t1_m228set"
+    },
+    {
+      "id": "m2286z8",
+      "body": "Judy Dench",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1734205887,
+      "score": 51,
+      "link_id": "t3_1hea2vt",
+      "parent_id": "t3_1hea2vt"
+    },
+    {
+      "id": "m227c5k",
+      "body": "Christopher Walken.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1734205587,
+      "score": 115,
+      "link_id": "t3_1hea2vt",
+      "parent_id": "t3_1hea2vt"
+    },
+    {
+      "id": "m2273m0",
+      "body": "*Chaplin",
+      "author": "PetitArvine",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1734205505,
+      "score": 4,
+      "link_id": "t3_1he9z3x",
+      "parent_id": "t1_m226di2"
+    },
+    {
+      "id": "m226wvj",
+      "body": "If it has the *trust me bro* quality seal it must be real.",
+      "author": "PetitArvine",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1734205441,
+      "score": 9,
+      "link_id": "t3_1he9z3x",
+      "parent_id": "t1_m225e1o"
+    },
+    {
+      "id": "m226ns8",
+      "body": "I actually fantasized about that a lot. I would build a massive fortress with my bare hands. That or scavenging.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1734205353,
+      "score": 1,
+      "link_id": "t3_1he5lxe",
+      "parent_id": "t3_1he5lxe"
+    },
+    {
+      "id": "m225zdp",
+      "body": "Gold.",
+      "author": "PetitArvine",
+      "subreddit": "coloranalysis",
+      "created_utc": 1734205120,
+      "score": 5,
+      "link_id": "t3_1he6hrx",
+      "parent_id": "t3_1he6hrx"
+    },
+    {
+      "id": "m21yf0d",
+      "body": "I’d use the pin to pick my handcuffs.",
+      "author": "PetitArvine",
+      "subreddit": "Boots",
+      "created_utc": 1734202528,
+      "score": 23,
+      "link_id": "t3_1he900i",
+      "parent_id": "t1_m21vvcp"
+    },
+    {
+      "id": "m21pywv",
+      "body": "Cmd + Shift + 4",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734199639,
+      "score": 2,
+      "link_id": "t3_1he7ak6",
+      "parent_id": "t3_1he7ak6"
+    },
+    {
+      "id": "m20j98t",
+      "body": "*How*, not *what*..",
+      "author": "PetitArvine",
+      "subreddit": "Satisfyingasfuck",
+      "created_utc": 1734184098,
+      "score": 38,
+      "link_id": "t3_1he2sx0",
+      "parent_id": "t1_m20hwbe"
+    },
+    {
+      "id": "m20iheq",
+      "body": "But they only turn super-sayan when they are super angry..",
+      "author": "PetitArvine",
+      "subreddit": "labrats",
+      "created_utc": 1734183753,
+      "score": 3,
+      "link_id": "t3_1hdoxsa",
+      "parent_id": "t1_m1zmix6"
+    },
+    {
+      "id": "m20fjuf",
+      "body": "I think it really depends on the resolution of your images and the effective number of parameters in the final model and the optimizations you can leverage (e.g. lower-precision formats). But I would guestimate around 1s / image on your average CPU. After reading a bit more you might want to consider the hybrid [MaxViT family](https://github.com/google-research/maxvit) as well.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1734182410,
+      "score": 2,
+      "link_id": "t3_1he1e8k",
+      "parent_id": "t1_m20dcj9"
+    },
+    {
+      "id": "m20bcr3",
+      "body": "2020 is right around the time when they became popular. Since I rarely get the opportunity to work with an abundance of images, take it from someone more experienced (I'm still more of a CNN guy): [https://community.aws/content/2oU2nqcfEBnMPU5slpscunWcLZM/vision-transformers-for-image-classification-a-deep-dive](https://community.aws/content/2oU2nqcfEBnMPU5slpscunWcLZM/vision-transformers-for-image-classification-a-deep-dive)\n\n[https://www.nature.com/articles/s41598-024-63094-9](https://www.nature.com/articles/s41598-024-63094-9)",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1734180325,
+      "score": 1,
+      "link_id": "t3_1he1e8k",
+      "parent_id": "t1_m2099jt"
+    },
+    {
+      "id": "m20941r",
+      "body": "With such a large dataset, lean towards vision transformers; except when the input resolution becomes large - then maybe ConvNext. It also depends on the inference speed you wish to have and what hardware is at your disposal.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1734179082,
+      "score": 4,
+      "link_id": "t3_1he1e8k",
+      "parent_id": "t3_1he1e8k"
+    },
+    {
+      "id": "m207q4i",
+      "body": "But that requires tooling which is expensive af. Only thing I can imagine is someone was painting on off-the-shelf caps. But OP specifically mentioned different materials. Then again, I’m no manufacturing expert.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734178259,
+      "score": 1,
+      "link_id": "t3_1he0xu3",
+      "parent_id": "t1_m2071pf"
+    },
+    {
+      "id": "m205jyj",
+      "body": "I would go to a Payot and ask there. Maybe you get lucky with some type of comic book.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734176910,
+      "score": 2,
+      "link_id": "t3_1he13qi",
+      "parent_id": "t3_1he13qi"
+    },
+    {
+      "id": "m203zzg",
+      "body": "Neither, they are just toed shoes.",
+      "author": "PetitArvine",
+      "subreddit": "labrats",
+      "created_utc": 1734175896,
+      "score": 3,
+      "link_id": "t3_1hdkoqu",
+      "parent_id": "t3_1hdkoqu"
+    },
+    {
+      "id": "m203x96",
+      "body": "I don't know about key caps specifically; but there are a bunch of 3D print-shops. And they can also assist you in the design process.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734175846,
+      "score": 1,
+      "link_id": "t3_1he0xu3",
+      "parent_id": "t3_1he0xu3"
+    },
+    {
+      "id": "m1zwbij",
+      "body": "You are the person who would announce a big party and then offload all the planning and expenses onto your guests. Bonus points if you show up 2 h late.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734170541,
+      "score": 2,
+      "link_id": "t3_1hduhyp",
+      "parent_id": "t1_m1znqdk"
+    },
+    {
+      "id": "m1zvz8j",
+      "body": "Dayum, this some 4D Chess recommendation.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734170295,
+      "score": 1,
+      "link_id": "t3_1hduhyp",
+      "parent_id": "t1_m1znz1k"
+    },
+    {
+      "id": "m1zlp6h",
+      "body": "[https://music.apple.com/ch/album/globi-und-kasperli/1483707619](https://music.apple.com/ch/album/globi-und-kasperli/1483707619)",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734163056,
+      "score": 1,
+      "link_id": "t3_1hdhrv5",
+      "parent_id": "t3_1hdhrv5"
+    },
+    {
+      "id": "m1zkt5y",
+      "body": "Do we look like your personal holiday planer? Do me a favour and search for the keywords \"trip itinerary\" in r/askswitzerland. Yeah, that's what we have to deal with on a daily basis..",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734162484,
+      "score": 6,
+      "link_id": "t3_1hduhyp",
+      "parent_id": "t3_1hduhyp"
+    },
+    {
+      "id": "m1zjqbm",
+      "body": "Regel Nr. (1)",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1734161754,
+      "score": 5,
+      "link_id": "t3_1hddicy",
+      "parent_id": "t3_1hddicy"
+    },
+    {
+      "id": "m1zjis3",
+      "body": "Ignorantia legis non excusat.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1734161606,
+      "score": 4,
+      "link_id": "t3_1hdi7kc",
+      "parent_id": "t3_1hdi7kc"
+    },
+    {
+      "id": "m1zjbao",
+      "body": "I find the best data for my model.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1734161463,
+      "score": 1,
+      "link_id": "t3_1hd8p3t",
+      "parent_id": "t3_1hd8p3t"
+    },
+    {
+      "id": "m1zixnj",
+      "body": ">\\[…\\] no suitable domestic employees **or citizens of states with which an agreement on the free movement of workers has been concluded** can be found for the job.\n\nPlease stop spreading this misinformation. There is no discrimination between the Swiss and anyone else from the EU/EFTA.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734161209,
+      "score": 0,
+      "link_id": "t3_1hbaam0",
+      "parent_id": "t1_m1hcjo4"
+    },
+    {
+      "id": "m1zeymg",
+      "body": "The server in Interlaken, probably wasn’t Swiss and only spoke Chinese or Arabic, lmao",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734158640,
+      "score": 3,
+      "link_id": "t3_1hdnmts",
+      "parent_id": "t3_1hdnmts"
+    },
+    {
+      "id": "m1zeo96",
+      "body": "No, in Bern you say “Grüessech”",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1734158461,
+      "score": -2,
+      "link_id": "t3_1hdnmts",
+      "parent_id": "t1_m1zb11l"
+    },
+    {
+      "id": "m1qrg0y",
+      "body": "I’m a bit torn. 256 GB SSD is too little, but so is 8 GB Ram. Ideally you would have 16 GB Ram with 1 TB storage, since the larger drives are also faster. In any case, do *not* buy a used intel machine.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1734033107,
+      "score": 3,
+      "link_id": "t3_1hcsy8h",
+      "parent_id": "t3_1hcsy8h"
+    },
+    {
+      "id": "m1nkxvf",
+      "body": "3-4 weeks.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733983919,
+      "score": 2,
+      "link_id": "t3_1hc4tyo",
+      "parent_id": "t3_1hc4tyo"
+    },
+    {
+      "id": "m1nkjfz",
+      "body": "Dayum",
+      "author": "PetitArvine",
+      "subreddit": "meirl",
+      "created_utc": 1733983694,
+      "score": 2,
+      "link_id": "t3_1hc81h7",
+      "parent_id": "t1_m1mmjfs"
+    },
+    {
+      "id": "m1irp0q",
+      "body": "Frag die Mods.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733923884,
+      "score": 6,
+      "link_id": "t3_1hbtbib",
+      "parent_id": "t3_1hbtbib"
+    },
+    {
+      "id": "m1hydpa",
+      "body": "So when you make a sandwich you put the ham perpendicular and not in-between two slices of bread?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733907120,
+      "score": 3,
+      "link_id": "t3_1haqs6p",
+      "parent_id": "t1_m1hqf0m"
+    },
+    {
+      "id": "m1hgxrc",
+      "body": "M4 Pro, but get the 1 TB upgrade; it not only has more capacity but is also faster.",
+      "author": "PetitArvine",
+      "subreddit": "macbook",
+      "created_utc": 1733896298,
+      "score": 1,
+      "link_id": "t3_1hbgzsu",
+      "parent_id": "t3_1hbgzsu"
+    },
+    {
+      "id": "m1hdwtl",
+      "body": "I wonder if we have enough SWE from abroad already.. hm..",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733894735,
+      "score": 5,
+      "link_id": "t3_1hbaam0",
+      "parent_id": "t3_1hbaam0"
+    },
+    {
+      "id": "m1hcapo",
+      "body": "Yes, it’s a stop light violation and there’s no margin for that. SFr. 250.- is the *standard* fine - it can become more expensive if you were causing a dangerous situation through recklessness. The camera is objective and unbiased, unlike patrol troopers.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733893935,
+      "score": 7,
+      "link_id": "t3_1hbiblv",
+      "parent_id": "t1_m1gupsg"
+    },
+    {
+      "id": "m1h6pd4",
+      "body": "w(w(w(tf)tf)tf)",
+      "author": "PetitArvine",
+      "subreddit": "mathmemes",
+      "created_utc": 1733891352,
+      "score": 5,
+      "link_id": "t3_1haz94m",
+      "parent_id": "t1_m1e9rnc"
+    },
+    {
+      "id": "m1gtqzb",
+      "body": "You already admitted to doing something wrong - so why not own up to it?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733885993,
+      "score": 5,
+      "link_id": "t3_1hbiblv",
+      "parent_id": "t3_1hbiblv"
+    },
+    {
+      "id": "m1f8o3j",
+      "body": "Food, lots of food.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1733865893,
+      "score": 1,
+      "link_id": "t3_1har3kr",
+      "parent_id": "t3_1har3kr"
+    },
+    {
+      "id": "m1eou2m",
+      "body": "Noch lange nicht.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733859760,
+      "score": 3,
+      "link_id": "t3_1hb8gf9",
+      "parent_id": "t1_m1eo9d6"
+    },
+    {
+      "id": "m1ekt64",
+      "body": "Too nuanced; needs more outrage!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733858510,
+      "score": -1,
+      "link_id": "t3_1hb8gf9",
+      "parent_id": "t1_m1ek5lg"
+    },
+    {
+      "id": "m1ekjuz",
+      "body": "Säg das mal all denä Wuetbürger wo de Artikel nöd gläse händ..",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733858430,
+      "score": 29,
+      "link_id": "t3_1hb8gf9",
+      "parent_id": "t1_m1eh0gs"
+    },
+    {
+      "id": "m1ek6q7",
+      "body": "No one. It is but one of many ideas on how to economize. Even if the public transportation will be affected, it’s not over the whole proclaimed sum. Why won’t anyone actually read the article before voicing your strong opinions??",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733858317,
+      "score": 5,
+      "link_id": "t3_1hb8gf9",
+      "parent_id": "t1_m1eipua"
+    },
+    {
+      "id": "m1brnlq",
+      "body": "They will ask you to apply for other positions in the meantime..",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733814793,
+      "score": 1,
+      "link_id": "t3_1ha84h3",
+      "parent_id": "t3_1ha84h3"
+    },
+    {
+      "id": "m1bknhg",
+      "body": "It flows between the platforms, like a river sandwich. Yes, our civil engineers are the best.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733810684,
+      "score": 96,
+      "link_id": "t3_1haqs6p",
+      "parent_id": "t3_1haqs6p"
+    },
+    {
+      "id": "m1bjzp5",
+      "body": "*My wife and I",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733810322,
+      "score": -2,
+      "link_id": "t3_1hak09i",
+      "parent_id": "t3_1hak09i"
+    },
+    {
+      "id": "m19fkv5",
+      "body": "Tip Nr. 1: Tip Nr. 1: Dégage!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733781061,
+      "score": 0,
+      "link_id": "t3_1haj7nq",
+      "parent_id": "t1_m199xbp"
+    },
+    {
+      "id": "m19awf3",
+      "body": "You probably have not been around 20 years ago, when someone with OP’s skillset would have had 5 offers to choose from after 30 applications. You have nothing to compare against.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733779592,
+      "score": 2,
+      "link_id": "t3_1hah1mu",
+      "parent_id": "t1_m193nhd"
+    },
+    {
+      "id": "m19237d",
+      "body": "More Kirsch.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733776877,
+      "score": 2,
+      "link_id": "t3_1ha7wwv",
+      "parent_id": "t3_1ha7wwv"
+    },
+    {
+      "id": "m190fle",
+      "body": "What do you mean *even* locals. *Especially* locals..",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733776365,
+      "score": 13,
+      "link_id": "t3_1hah1mu",
+      "parent_id": "t1_m18p3rf"
+    },
+    {
+      "id": "m18l4u0",
+      "body": "Fun fact, long passwords are more secure than complicated ones (provided that they don’t appear in any wordlist as such).",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733771619,
+      "score": 6,
+      "link_id": "t3_1hafb3w",
+      "parent_id": "t1_m18bdy4"
+    },
+    {
+      "id": "m182dz6",
+      "body": "Underrated.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733765864,
+      "score": 1,
+      "link_id": "t3_1habtde",
+      "parent_id": "t1_m17i46l"
+    },
+    {
+      "id": "m15ovl0",
+      "body": "Leonard Euler himself has outline its map.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733725524,
+      "score": 2,
+      "link_id": "t3_1h9gjqs",
+      "parent_id": "t1_m10nom8"
+    },
+    {
+      "id": "m15ko7r",
+      "body": "The F-Test for regression analysis tests, whether the improved fit of a model is worth the additional complexity. If the difference is small, you pick the model with fewer parameters.",
+      "author": "PetitArvine",
+      "subreddit": "ask",
+      "created_utc": 1733723213,
+      "score": 1,
+      "link_id": "t3_1h9y5yi",
+      "parent_id": "t3_1h9y5yi"
+    },
+    {
+      "id": "m11b0h8",
+      "body": "Computer says noo..",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733669249,
+      "score": 2,
+      "link_id": "t3_1h9jag4",
+      "parent_id": "t3_1h9jag4"
+    },
+    {
+      "id": "m10mwqm",
+      "body": "Also, it has all the good universities",
+      "author": "PetitArvine",
+      "subreddit": "labrats",
+      "created_utc": 1733657550,
+      "score": 1,
+      "link_id": "t3_1h8yt6n",
+      "parent_id": "t1_m0yhr29"
+    },
+    {
+      "id": "m10kmxd",
+      "body": "Spend at least 3 h outside (the home) every day. Make a work schedule and cross-off two tasks on your to-do list, no matter how small and trivial they may be. Go through all your insurance papers and other subscriptions and see if there is room for optimization (which you don’t even have to perform on the same day). Watch educational videos on youtube and see if you can improve your existing skill set; if your a carpenter get inspiration from DIY tutorials (they sometimes have very sophisticated stuff). Cook every meal fresh, which has the added benefit of being healthy.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733656063,
+      "score": 5,
+      "link_id": "t3_1h9g2bw",
+      "parent_id": "t1_m10jf41"
+    },
+    {
+      "id": "m10jlbx",
+      "body": "..and your employer should grant you the time-off, but he doesn’t have to pay for it - unless there is a home-office arrangement you both could agree on.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733655375,
+      "score": 5,
+      "link_id": "t3_1h9evre",
+      "parent_id": "t1_m10ivbk"
+    },
+    {
+      "id": "m10jaw3",
+      "body": "This but a pre-print on bioRxiv. Let’s see the peer-reviewed publication first.",
+      "author": "PetitArvine",
+      "subreddit": "labrats",
+      "created_utc": 1733655184,
+      "score": 3,
+      "link_id": "t3_1h9eehi",
+      "parent_id": "t3_1h9eehi"
+    },
+    {
+      "id": "m10is3y",
+      "body": "Stop gaming, quit alcohol and caffeine and any recreational drugs you might be taking on top. It takes about a week to wear off but with a clear mind you’ll be surprised how sharp yet relaxed the thinking becomes. I’m not even saying you have to abandon the lifestyle for good but at least until you sort out your problems.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733654841,
+      "score": 8,
+      "link_id": "t3_1h9g2bw",
+      "parent_id": "t3_1h9g2bw"
+    },
+    {
+      "id": "m10hms4",
+      "body": "As silly as it sounds, *you* aren’t unable to work, the kid is. So yes, it makes a difference in the law.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733654073,
+      "score": 3,
+      "link_id": "t3_1h9evre",
+      "parent_id": "t3_1h9evre"
+    },
+    {
+      "id": "m10azmc",
+      "body": "What privilege would I have in OP’s home country that he didn’t get here?",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733649585,
+      "score": 1,
+      "link_id": "t3_1h99ej1",
+      "parent_id": "t1_m108efj"
+    },
+    {
+      "id": "m10ater",
+      "body": "Aha, ich bin es Arschloch, will ich uufzeiget han, dass de OP schamlos d’Reglä vu de PFZ missachtet. Das isch es Armuetszügnis für Dis Verständnis vum Völkerrächt. d’SVP  hät grundsätzlich öppis gäge d’PFZ, nöd nur dass Gsetz z’befolge sind. Dänk mal über de Nasespitz uus.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733649469,
+      "score": 1,
+      "link_id": "t3_1h99ej1",
+      "parent_id": "t1_m107zpa"
+    },
+    {
+      "id": "m107e25",
+      "body": "No.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733647144,
+      "score": 2,
+      "link_id": "t3_1h98vhu",
+      "parent_id": "t3_1h98vhu"
+    },
+    {
+      "id": "m105rvx",
+      "body": "This is not up to your discretion. You forced your way in illegally.\n\n>Stellensuchende brauchen für einen Aufenthalt von b**is zu drei Monaten **keine Bewilligung. Wenn die Stellensuche mehr als drei Monate dauert, müssen sich die Stellensuchenden bei der zuständigen Behörde anmelden; dies gilt auch, wenn sie den Leistungsexport einer ausländi- schen Arbeitslosenversicherung in Anspruch nehmen. Sie erhalten eine Kurzaufenthaltsbewilli- gung EU/EFTA, die auf d**rei Monate befristet ist.** Eine Kurzaufenthaltsbewilligung für Stellensuchende wird erteilt, wenn s**ie über die für den Unterhalt notwendigen finanziellen Mittel verfügen.**",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733646053,
+      "score": -4,
+      "link_id": "t3_1h99ej1",
+      "parent_id": "t1_m0zeh0l"
+    },
+    {
+      "id": "m1050b1",
+      "body": ">I'm an idiot and I did my first job on the black \\[…\\]\n\nNo, you're a criminal because you overstayed without a permit and you're cheating regular people who contribute their fair share to public services. Do you even have health insurance? How did you manage to get an apartment and a bank account??",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733645539,
+      "score": 3,
+      "link_id": "t3_1h99ej1",
+      "parent_id": "t3_1h99ej1"
+    },
+    {
+      "id": "m103zwi",
+      "body": "How accurately drawn are those shapes? This may be a case where traditional CV performs better than ANN.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1733644866,
+      "score": 2,
+      "link_id": "t3_1h94g4a",
+      "parent_id": "t3_1h94g4a"
+    },
+    {
+      "id": "m0w9pp9",
+      "body": "How exactly did you arrive at this age range? I would start walking to school all by myself at around 7 years of age. And I rarely see any 4-5 y/o on the streets. I think your estimate is a bit off.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733591944,
+      "score": 3,
+      "link_id": "t3_1h8u3qe",
+      "parent_id": "t3_1h8u3qe"
+    },
+    {
+      "id": "m0w4mp4",
+      "body": "Too long, didn’t read.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733590326,
+      "score": 0,
+      "link_id": "t3_1h8sqmr",
+      "parent_id": "t3_1h8sqmr"
+    },
+    {
+      "id": "m0v9ik3",
+      "body": "\\> Should i wait with RAV until im done with my german thing \\[…\\]\n\nNo.\n\n \\> \\[…\\] is there a benefit of applying straight away?\n\n  \nYes.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733579524,
+      "score": 6,
+      "link_id": "t3_1h8q8ar",
+      "parent_id": "t3_1h8q8ar"
+    },
+    {
+      "id": "m0v2blh",
+      "body": "OP is one of them snooty *visionaries* who has no clue what is actually required to make a product.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733576444,
+      "score": 2,
+      "link_id": "t3_1h7w1v9",
+      "parent_id": "t1_m0qivys"
+    },
+    {
+      "id": "m0v1jsq",
+      "body": "What’s your own background?",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1733576089,
+      "score": 1,
+      "link_id": "t3_1h7w16j",
+      "parent_id": "t3_1h7w16j"
+    },
+    {
+      "id": "m0urnpq",
+      "body": "The lamp with the hardware of a mac studio (M4 Ultra) inside.",
+      "author": "PetitArvine",
+      "subreddit": "mac",
+      "created_utc": 1733570873,
+      "score": 1,
+      "link_id": "t3_1h7rgb7",
+      "parent_id": "t3_1h7rgb7"
+    },
+    {
+      "id": "m0urdiw",
+      "body": "*approved",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1733570707,
+      "score": 1,
+      "link_id": "t3_1h7cfls",
+      "parent_id": "t3_1h7cfls"
+    },
+    {
+      "id": "m0udf8m",
+      "body": "Who says I'm in a bad mood, asshole?!",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733561783,
+      "score": 36,
+      "link_id": "t3_1h8ody4",
+      "parent_id": "t3_1h8ody4"
+    },
+    {
+      "id": "m0ry1r3",
+      "body": "Maybe you should have mentioned in the opening statement that this whole fuzz was about SFr. 20.-",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733522379,
+      "score": 3,
+      "link_id": "t3_1h83b8m",
+      "parent_id": "t1_m0qgq7x"
+    },
+    {
+      "id": "m0rx041",
+      "body": "Dadezue dallt mur grad nur de Klassiker iih: https://youtu.be/pWBjl-jPcVM?feature=shared",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1733522030,
+      "score": 2,
+      "link_id": "t3_1h88ndt",
+      "parent_id": "t3_1h88ndt"
+    },
+    {
+      "id": "m0rvn2t",
+      "body": "We have enough skilled workers already - no need for more.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733521575,
+      "score": -8,
+      "link_id": "t3_1h827jn",
+      "parent_id": "t1_m0r1muv"
+    },
+    {
+      "id": "m0rtjfz",
+      "body": "Gibs zu, Du willst Dich einfach vor dem Militär drücken, Du Schmarotzer.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1733520880,
+      "score": -3,
+      "link_id": "t3_1h7yxgb",
+      "parent_id": "t1_m0pe1po"
+    },
+    {
+      "id": "m0rpr2v",
+      "body": "How old are you now?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733519631,
+      "score": 1,
+      "link_id": "t3_1h8agn5",
+      "parent_id": "t3_1h8agn5"
+    },
+    {
+      "id": "m0p2cph",
+      "body": "In the same vein you’re either on time or you’re late - no in between.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733486994,
+      "score": 5,
+      "link_id": "t3_1h7yxhv",
+      "parent_id": "t1_m0owxn3"
+    },
+    {
+      "id": "m0o5bbg",
+      "body": "Are you transforming the data in any way?",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1733466384,
+      "score": 0,
+      "link_id": "t3_1h7uxjm",
+      "parent_id": "t3_1h7uxjm"
+    },
+    {
+      "id": "m0l8ig5",
+      "body": "Computer says noo..",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1733428076,
+      "score": 1,
+      "link_id": "t3_1h7hc5a",
+      "parent_id": "t3_1h7hc5a"
+    },
+    {
+      "id": "m0l0f8u",
+      "body": "*content* isch nöd Schwiizerdütsch..",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1733425584,
+      "score": 1,
+      "link_id": "t3_1h6dvnm",
+      "parent_id": "t3_1h6dvnm"
+    },
+    {
+      "id": "m0kfe37",
+      "body": "What about the conda build?",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1733419174,
+      "score": 3,
+      "link_id": "t3_1h7c281",
+      "parent_id": "t3_1h7c281"
+    },
+    {
+      "id": "m0i49vi",
+      "body": "Wage will not be a topic in the first round. But also, everyday we have local engineers complaining that they cannot find employment. Can you turn shit into gold, or why are the companies still trying to recruit more people from abroad..?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733381022,
+      "score": 1,
+      "link_id": "t3_1h4z1dq",
+      "parent_id": "t3_1h4z1dq"
+    },
+    {
+      "id": "m0i0ano",
+      "body": "What’s that got to do with Switzerland? Also, it’s completely retarded BS.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733378795,
+      "score": 7,
+      "link_id": "t3_1h72ecl",
+      "parent_id": "t3_1h72ecl"
+    },
+    {
+      "id": "m0hujt6",
+      "body": "Hiltl was the first vegetarian restaurant in Europe.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733375874,
+      "score": 0,
+      "link_id": "t3_1h6royk",
+      "parent_id": "t3_1h6royk"
+    },
+    {
+      "id": "m0hu469",
+      "body": "Army service",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1733375668,
+      "score": 7,
+      "link_id": "t3_1h70cmx",
+      "parent_id": "t3_1h70cmx"
+    },
+    {
+      "id": "m0h4zih",
+      "body": "*z’Züri",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1733365462,
+      "score": 1,
+      "link_id": "t3_1h6ov0n",
+      "parent_id": "t1_m0facvd"
+    },
+    {
+      "id": "m0few0o",
+      "body": "You.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733344830,
+      "score": -1,
+      "link_id": "t3_1h6mkl7",
+      "parent_id": "t1_m0fe4jw"
+    },
+    {
+      "id": "m0fdx4l",
+      "body": "Oh fuck off.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733344541,
+      "score": 0,
+      "link_id": "t3_1h6mkl7",
+      "parent_id": "t1_m0esx8u"
+    },
+    {
+      "id": "m0fdk1v",
+      "body": "Are you registered with RAV? You are entitled to unemployment benefits if you don't find anything within 120 days after graduating. Also, have a look at the jobs advertised here: [https://www.job-room.ch/home/job-seeker](https://www.job-room.ch/home/job-seeker)",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733344431,
+      "score": 3,
+      "link_id": "t3_1h6mkl7",
+      "parent_id": "t3_1h6mkl7"
+    },
+    {
+      "id": "m0fb5rb",
+      "body": "Heb s'Loch du verdammti Bride!",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1733343703,
+      "score": 2,
+      "link_id": "t3_1h6ov0n",
+      "parent_id": "t3_1h6ov0n"
+    },
+    {
+      "id": "m0eneqz",
+      "body": "You had me at Sociology & Anthropology.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733336594,
+      "score": 3,
+      "link_id": "t3_1h6ilvs",
+      "parent_id": "t3_1h6ilvs"
+    },
+    {
+      "id": "m0c0eak",
+      "body": "We freeze the cells in 90 % FBS / 10 % DMSO. Cooling down slowly at 1 degree Celsius per minute. This can be achieved, for example, by placing the cryovials in a thick insulation of polyurethane.",
+      "author": "PetitArvine",
+      "subreddit": "labrats",
+      "created_utc": 1733295102,
+      "score": 3,
+      "link_id": "t3_1h65ss7",
+      "parent_id": "t3_1h65ss7"
+    },
+    {
+      "id": "m0b9ya8",
+      "body": ">I need to learn it fast\n\nI'd like to hear the backstory.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733282677,
+      "score": 7,
+      "link_id": "t3_1h65t80",
+      "parent_id": "t3_1h65t80"
+    },
+    {
+      "id": "m09feqe",
+      "body": "Maybe you should learn to communicate your thoughts better.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733259722,
+      "score": 0,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t1_m09bj84"
+    },
+    {
+      "id": "m09axlo",
+      "body": "Go to Sion.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733258347,
+      "score": 1,
+      "link_id": "t3_1h5sl9b",
+      "parent_id": "t3_1h5sl9b"
+    },
+    {
+      "id": "m09a9eo",
+      "body": "Kontext?",
+      "author": "PetitArvine",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1733258138,
+      "score": 2,
+      "link_id": "t3_1h5noa8",
+      "parent_id": "t3_1h5noa8"
+    },
+    {
+      "id": "m098z2q",
+      "body": "You can edit your post, you know?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733257739,
+      "score": 1,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t1_m097v6m"
+    },
+    {
+      "id": "m098pmt",
+      "body": "That’s the case in most bigger cities where there’s the highest concentration of bus stops and people who are likely to complain on reddit. The odds were really big.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733257659,
+      "score": -2,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t1_m0984mp"
+    },
+    {
+      "id": "m097zxx",
+      "body": "You did not mention that anywhere in your opening post. I’m not going read through all the nested replies.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733257438,
+      "score": -2,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t1_m096mbv"
+    },
+    {
+      "id": "m0972tc",
+      "body": "Why didn’t you open with that rather crucial information?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733257152,
+      "score": 2,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t1_m06jv9t"
+    },
+    {
+      "id": "m09602r",
+      "body": "No need for excuses - he did nothing wrong.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733256817,
+      "score": 0,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t1_m08uve0"
+    },
+    {
+      "id": "m094r4k",
+      "body": "The next bus is just 7 min away. The old woman was certainly not late to anything, but maybe two or more of the passengers, and all the additional passengers, which the bus was going to pick up along the route, were. In additions, there’s other vehicles halting at the same stop and a 5 s later departure can mean waiting another minute at the traffic light.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733256428,
+      "score": -1,
+      "link_id": "t3_1h5juu8",
+      "parent_id": "t3_1h5juu8"
+    },
+    {
+      "id": "m06664f",
+      "body": "It depends on the field, the university, the department and more factors. If the thesis comprises lab work and data analysis it is much more difficult to write something up about failed experiments. You would think that both quality and quantity increase, as you progress through the different diploma (BA/BSc, MA/MSc, PhD) but i’ve the seen bachelor’s theses which would have passed a PhD defense and PhD theses which should have failed but didn’t. There is no conclusive answer to your question - anything can happen.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733212926,
+      "score": 3,
+      "link_id": "t3_1h5afrd",
+      "parent_id": "t3_1h5afrd"
+    },
+    {
+      "id": "m02ocsh",
+      "body": "Und das glaubst Du auch noch..",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1733164554,
+      "score": 2,
+      "link_id": "t3_1h4z086",
+      "parent_id": "t1_m02me37"
+    },
+    {
+      "id": "m02d982",
+      "body": "Natürlich sind das Lampen, Du Spasst!",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1733161109,
+      "score": 2,
+      "link_id": "t3_1h4z086",
+      "parent_id": "t1_m02cnjs"
+    },
+    {
+      "id": "m02c99g",
+      "body": "Mit einer extra Prise Cadmium.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733160797,
+      "score": 1,
+      "link_id": "t3_1h4u6cy",
+      "parent_id": "t1_m01f73g"
+    },
+    {
+      "id": "m02c17m",
+      "body": "Ich weiss jetzt nicht, ob Du das ernsthaft in Betracht ziehst, aber wenn, dann wäre der sicher nicht nach oben offen.",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1733160727,
+      "score": 1,
+      "link_id": "t3_1h4z086",
+      "parent_id": "t1_m026wee"
+    },
+    {
+      "id": "m004ejm",
+      "body": "Wälschland, Dütschschwiiz, Bündnerland, Tessin.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733123628,
+      "score": 4,
+      "link_id": "t3_1h4otes",
+      "parent_id": "t3_1h4otes"
+    },
+    {
+      "id": "lzzwqlt",
+      "body": "Or take them to a rugby match.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733119170,
+      "score": 1,
+      "link_id": "t3_1h455wd",
+      "parent_id": "t1_lzwys9h"
+    },
+    {
+      "id": "lzzrbxo",
+      "body": "ZHAW is a joke. You’ll have no issues being accepted, but is it really worth it?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733116360,
+      "score": 4,
+      "link_id": "t3_1h4g7yg",
+      "parent_id": "t3_1h4g7yg"
+    },
+    {
+      "id": "lzws594",
+      "body": "Yes.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733078887,
+      "score": 1,
+      "link_id": "t3_1h44iac",
+      "parent_id": "t1_lzwedcc"
+    },
+    {
+      "id": "lzwd8xb",
+      "body": "Meow",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733074351,
+      "score": 3,
+      "link_id": "t3_1h47wjv",
+      "parent_id": "t1_lzwbj6e"
+    },
+    {
+      "id": "lzwa444",
+      "body": "Assuming that you will spend the same amount of time preparing lectures, this is right around median wage; probably above average on the countryside. But you in absolute numbers its very little to support yourself.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733073379,
+      "score": 2,
+      "link_id": "t3_1h47wjv",
+      "parent_id": "t3_1h47wjv"
+    },
+    {
+      "id": "lzw8oe3",
+      "body": "The number of unworthy individuals is over 9000.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1733072924,
+      "score": 5,
+      "link_id": "t3_1h461sh",
+      "parent_id": "t1_lzvv1bw"
+    },
+    {
+      "id": "lzw8atn",
+      "body": "Colorado is a lot like Switzerland.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733072802,
+      "score": 1,
+      "link_id": "t3_1h42bwg",
+      "parent_id": "t3_1h42bwg"
+    },
+    {
+      "id": "lzw1604",
+      "body": "Will you *please* read the document that you’re referencing?!",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733070526,
+      "score": 5,
+      "link_id": "t3_1h44iac",
+      "parent_id": "t1_lzvwpbj"
+    },
+    {
+      "id": "lzvz5t2",
+      "body": "Not every Swiss is alike and you’re only live together for a week. For most of us it takes time to open up. Likewise, it takes time to develop full blown resentment. Expect a polite but not overly intimate stay.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733069869,
+      "score": 1,
+      "link_id": "t3_1h455wd",
+      "parent_id": "t3_1h455wd"
+    },
+    {
+      "id": "lzvve59",
+      "body": "You’re wrong about the priority queue: https://www.reddit.com/r/askswitzerland/s/TnxyiPNC05",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733068615,
+      "score": 1,
+      "link_id": "t3_1h44iac",
+      "parent_id": "t1_lzvp6m5"
+    },
+    {
+      "id": "lzvt77r",
+      "body": "You just cited yourself..",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733067864,
+      "score": 1,
+      "link_id": "t3_1h41lqf",
+      "parent_id": "t1_lzvrjru"
+    },
+    {
+      "id": "lzv50gp",
+      "body": "How so?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1733058178,
+      "score": 4,
+      "link_id": "t3_1h41lqf",
+      "parent_id": "t1_lzv1bqa"
+    },
+    {
+      "id": "lzu968m",
+      "body": "There’s no unique in one of the most touristy destinations of the whole country. Zermatt is located in a dead-end valley. You have to leave your car in Täsch. All train connections are routed via Visp and/or Brig. Those informations are widely available online. What else is available is the complete train schedule. Go to Sion if you need the nightlife yet stay close. But theoretically you can day-trip from anywhere to anywhere - the country is not that big.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733037823,
+      "score": 2,
+      "link_id": "t3_1h3r5du",
+      "parent_id": "t1_lzt932k"
+    },
+    {
+      "id": "lzt5ktb",
+      "body": "Can't you cancel the pending transaction in your e-banking? It should not be executed before Monday morning.",
+      "author": "PetitArvine",
+      "subreddit": "germany",
+      "created_utc": 1733019133,
+      "score": 1,
+      "link_id": "t3_1h3oc8k",
+      "parent_id": "t3_1h3oc8k"
+    },
+    {
+      "id": "lzt32k5",
+      "body": "At least 20 years - probably more.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1733018176,
+      "score": 1,
+      "link_id": "t3_1h3s8a5",
+      "parent_id": "t3_1h3s8a5"
+    },
+    {
+      "id": "lzt2vi9",
+      "body": "You're like the 100th poster asking the same question this month alone. Use the search bar you lazy bum.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733018100,
+      "score": 6,
+      "link_id": "t3_1h3r5du",
+      "parent_id": "t3_1h3r5du"
+    },
+    {
+      "id": "lzrm11w",
+      "body": "You're not a man of culture, it seems.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732999161,
+      "score": 1,
+      "link_id": "t3_1h3jj0g",
+      "parent_id": "t1_lzrhdgv"
+    },
+    {
+      "id": "lzrlipl",
+      "body": "You.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732999000,
+      "score": 4,
+      "link_id": "t3_1h3jr1s",
+      "parent_id": "t3_1h3jr1s"
+    },
+    {
+      "id": "lzrhw9e",
+      "body": "Depends on how handsome you are.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1732997844,
+      "score": 1,
+      "link_id": "t3_1h3keug",
+      "parent_id": "t3_1h3keug"
+    },
+    {
+      "id": "lzrh0ac",
+      "body": "Computer says noo...",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732997551,
+      "score": 1,
+      "link_id": "t3_1h3jj0g",
+      "parent_id": "t3_1h3jj0g"
+    },
+    {
+      "id": "lzrcwzp",
+      "body": "Just stfu. I’m not arguing with someone who cannot tell the difference between an airline and a country.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732996228,
+      "score": 1,
+      "link_id": "t3_1h3iqmp",
+      "parent_id": "t1_lzr86rm"
+    },
+    {
+      "id": "lzr39vt",
+      "body": "Swiss belongs to Lufthansa. Pose your question in r/askgermany.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732993099,
+      "score": -1,
+      "link_id": "t3_1h3iqmp",
+      "parent_id": "t3_1h3iqmp"
+    },
+    {
+      "id": "lzr1ex5",
+      "body": "Trop tard.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732992491,
+      "score": 3,
+      "link_id": "t3_1h3hm3l",
+      "parent_id": "t1_lzqz8g1"
+    },
+    {
+      "id": "lzr0buh",
+      "body": "Of course they’re fucking good! Now finish the Fondue, you peasant!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732992144,
+      "score": 1,
+      "link_id": "t3_1h3hm3l",
+      "parent_id": "t1_lzqui93"
+    },
+    {
+      "id": "lzqv85d",
+      "body": "https://preview.redd.it/dfywdpqiy24e1.jpeg?width=1005&format=pjpg&auto=webp&s=aedd534b3d069251d5dd23f3b7cf1a49ae9783df",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732990514,
+      "score": 2,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqu6ok"
+    },
+    {
+      "id": "lzqtcc4",
+      "body": "No.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732989928,
+      "score": 1,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqt1r5"
+    },
+    {
+      "id": "lzqsd1b",
+      "body": "¯\\\\_(ツ)_/¯",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732989612,
+      "score": 1,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqrnbt"
+    },
+    {
+      "id": "lzqrh1d",
+      "body": "Do not wrong the bündner Nusstorte!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732989329,
+      "score": 24,
+      "link_id": "t3_1h3hm3l",
+      "parent_id": "t1_lzqp965"
+    },
+    {
+      "id": "lzqqp5z",
+      "body": "I’m just saying it is, bro!",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732989080,
+      "score": 1,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqp65z"
+    },
+    {
+      "id": "lzqqodh",
+      "body": "I’m just saying it is.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732989073,
+      "score": 1,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqp65z"
+    },
+    {
+      "id": "lzqqe75",
+      "body": "*four official languages",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732988982,
+      "score": 3,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqprvv"
+    },
+    {
+      "id": "lzqpxv0",
+      "body": "I believe the University of Bielefeld is leading the international rankings year after year. Some say it’s but an urban legend, but I know a guy who git accepted and he returned with x-ray vision. Needless to say, we burned him at the stake for witchcraft.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732988837,
+      "score": 1,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t1_lzqoifq"
+    },
+    {
+      "id": "lzqoy87",
+      "body": "mjam",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732988514,
+      "score": 10,
+      "link_id": "t3_1h3hm3l",
+      "parent_id": "t1_lzqo7f1"
+    },
+    {
+      "id": "lzqob77",
+      "body": "Switzerland is the most undeveloped country in Europe regarding public infrastructure. When you say Physics people understand physicist and think you are a medical professional - imagine the disappointment when they learn that you cannot cure cancer. There’s only one school in the entire country, funded by U.S. foreign aide; they take 20 new students every year to teach them the art of blacksmithing and to play the lute. I think it’s best if you try further north.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732988304,
+      "score": 3,
+      "link_id": "t3_1h3hkpg",
+      "parent_id": "t3_1h3hkpg"
+    },
+    {
+      "id": "lzqn61b",
+      "body": "/thread",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732987926,
+      "score": 28,
+      "link_id": "t3_1h3hm3l",
+      "parent_id": "t1_lzqn0iz"
+    },
+    {
+      "id": "lzqjccp",
+      "body": "Ich bin au kei Truube ;-)",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732986655,
+      "score": 3,
+      "link_id": "t3_1h3awo3",
+      "parent_id": "t1_lzqisgg"
+    },
+    {
+      "id": "lzqiybb",
+      "body": "Ich hab mir grad etwas auf Youtube angehört und muss sagen, es klingt für mich wie Luxemburgisch. Ich bekunde generell wenig Mühe mit anderen Dialekten, aber davon verstehe ich nur jeden zweiten Satz. Wenn ich gleichzeitig den Text dazu lese sind es vllt. 70-80 %.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732986527,
+      "score": 2,
+      "link_id": "t3_1h3gkq1",
+      "parent_id": "t3_1h3gkq1"
+    },
+    {
+      "id": "lzqf9yc",
+      "body": "Uusgezeichnetii Wahl 👌🏻",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732985295,
+      "score": 3,
+      "link_id": "t3_1h3awo3",
+      "parent_id": "t1_lzqdqry"
+    },
+    {
+      "id": "lzqcv3d",
+      "body": "Pose estimation.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1732984479,
+      "score": 1,
+      "link_id": "t3_1h3duw6",
+      "parent_id": "t3_1h3duw6"
+    },
+    {
+      "id": "lzqc9dl",
+      "body": "*Phishing",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732984272,
+      "score": 4,
+      "link_id": "t3_1h3awo3",
+      "parent_id": "t3_1h3awo3"
+    },
+    {
+      "id": "lzq9psc",
+      "body": "*keinere",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732983402,
+      "score": 7,
+      "link_id": "t3_1h3cn7q",
+      "parent_id": "t1_lzq94mr"
+    },
+    {
+      "id": "lzq8t9m",
+      "body": "Nöd nur bir letschte Frag. *Soziale* schriibt mer z.B. chlii, wänns i dä Mitti vum Satz staht, wills es adjektiv isch..",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732983088,
+      "score": 1,
+      "link_id": "t3_1h3cn7q",
+      "parent_id": "t1_lzq0zvo"
+    },
+    {
+      "id": "lzq82js",
+      "body": "Und es müesst heisse an welchen Orten..",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732982830,
+      "score": 3,
+      "link_id": "t3_1h3cn7q",
+      "parent_id": "t1_lzq2x3d"
+    },
+    {
+      "id": "lzq7di5",
+      "body": "*keiner davon. Mir wännd doch dass de Emir richtig läse und schriibe lernt.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732982586,
+      "score": 10,
+      "link_id": "t3_1h3cn7q",
+      "parent_id": "t1_lzps7eg"
+    },
+    {
+      "id": "lzpv9mo",
+      "body": "Did I understand you correctly, you want to go to Zermatt on the morning of the 25th and travel east? Why not from Chur to Zermatt?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732978132,
+      "score": 2,
+      "link_id": "t3_1h36d43",
+      "parent_id": "t1_lzptyng"
+    },
+    {
+      "id": "lzp2pot",
+      "body": "The metric system is officially the default in the U.S. It’s just that many people can’t shake old habits.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1732963128,
+      "score": 2,
+      "link_id": "t3_1h39lig",
+      "parent_id": "t3_1h39lig"
+    },
+    {
+      "id": "lzp1rcq",
+      "body": "*fuse",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732962474,
+      "score": 1,
+      "link_id": "t3_1h39q18",
+      "parent_id": "t1_lzp1n3f"
+    },
+    {
+      "id": "lzotl39",
+      "body": "Are you sure you will be able to enjoy the time-out with the baby keeping you busy?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732956822,
+      "score": 1,
+      "link_id": "t3_1h2rp7x",
+      "parent_id": "t3_1h2rp7x"
+    },
+    {
+      "id": "lzotbwq",
+      "body": "The best kind of correct.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732956647,
+      "score": 1,
+      "link_id": "t3_1h2z2pa",
+      "parent_id": "t1_lzorv82"
+    },
+    {
+      "id": "lzos61q",
+      "body": "Yes",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732955848,
+      "score": 1,
+      "link_id": "t3_1h336ic",
+      "parent_id": "t3_1h336ic"
+    },
+    {
+      "id": "lzorkif",
+      "body": "Go to magnificent Olten <3",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732955442,
+      "score": 1,
+      "link_id": "t3_1h36cgx",
+      "parent_id": "t3_1h36cgx"
+    },
+    {
+      "id": "lzor5vu",
+      "body": "Immigration",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1732955165,
+      "score": 1,
+      "link_id": "t3_1h19y7x",
+      "parent_id": "t3_1h19y7x"
+    },
+    {
+      "id": "lzoolc0",
+      "body": "The notice period during probation is 7 days, even if you got fired before starting. Ask them if they need your services for one week or whether they'll compensate you without any work. And yes, you can always go to RAV. The circumstances of your unemployment only matter to determine the monetary benefits you're getting.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732953452,
+      "score": 8,
+      "link_id": "t3_1h2z2pa",
+      "parent_id": "t3_1h2z2pa"
+    },
+    {
+      "id": "lzoli5s",
+      "body": "What exactly is your concern with the GE? That you won’t catch it on time? Where do you plan to get on?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732951454,
+      "score": 2,
+      "link_id": "t3_1h36d43",
+      "parent_id": "t3_1h36d43"
+    },
+    {
+      "id": "lzol12v",
+      "body": "r/askswitzerland",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732951150,
+      "score": 1,
+      "link_id": "t3_1h25mmv",
+      "parent_id": "t1_lzojmnj"
+    },
+    {
+      "id": "lzokfnv",
+      "body": "I think it depends a bit on the rest of your apparel. Leave the MAGA hat at home and go easy on the prepper on the prepper gear. But no-one here takes offence at the camo alone.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732950773,
+      "score": 2,
+      "link_id": "t3_1h35ksi",
+      "parent_id": "t3_1h35ksi"
+    },
+    {
+      "id": "lzojpp6",
+      "body": "Well played👏🏼👏🏼",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732950312,
+      "score": 4,
+      "link_id": "t3_1h35ksi",
+      "parent_id": "t1_lzode3g"
+    },
+    {
+      "id": "lzna27y",
+      "body": "Maths",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1732929464,
+      "score": 2,
+      "link_id": "t3_1h2s1e3",
+      "parent_id": "t3_1h2s1e3"
+    },
+    {
+      "id": "lzn8yiv",
+      "body": "Anyway",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732929015,
+      "score": 2,
+      "link_id": "t3_1h2pzng",
+      "parent_id": "t1_lzlwzvx"
+    },
+    {
+      "id": "lzn7t71",
+      "body": "Wo ist da der Bezug zur Schweiz??",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732928547,
+      "score": 1,
+      "link_id": "t3_1h25mmv",
+      "parent_id": "t3_1h25mmv"
+    },
+    {
+      "id": "lzlpyi1",
+      "body": "About a week.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1732908848,
+      "score": 1,
+      "link_id": "t3_1h2c88l",
+      "parent_id": "t3_1h2c88l"
+    },
+    {
+      "id": "lzlhymq",
+      "body": "Did they ban search bars where you’re from?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732906102,
+      "score": -1,
+      "link_id": "t3_1h2pw00",
+      "parent_id": "t3_1h2pw00"
+    },
+    {
+      "id": "lzlgtbb",
+      "body": "Expect your deportation letter in the mail soon.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1732905714,
+      "score": 4,
+      "link_id": "t3_1h2oag8",
+      "parent_id": "t1_lzklus0"
+    },
+    {
+      "id": "lzgl2a9",
+      "body": ">How competitive is the job market in Switzerland \\[…\\]\n\nIt's over 9000.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732826162,
+      "score": 1,
+      "link_id": "t3_1h1wl9s",
+      "parent_id": "t3_1h1wl9s"
+    },
+    {
+      "id": "lzg5uvy",
+      "body": "800-1500.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732820932,
+      "score": 5,
+      "link_id": "t3_1h20pdy",
+      "parent_id": "t1_lzg3b0a"
+    },
+    {
+      "id": "lzdeo0g",
+      "body": "Yes there is. Do you have residency in Switzerland throughout the rest of the year? Do you pay taxes and health insurance premiums in Switzerland?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732776704,
+      "score": 1,
+      "link_id": "t3_1h1psba",
+      "parent_id": "t1_lzddt9h"
+    },
+    {
+      "id": "lzde8th",
+      "body": "You’re completely missing the point. It’s about the cost of living.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732776469,
+      "score": 9,
+      "link_id": "t3_1h1psba",
+      "parent_id": "t1_lzddxnb"
+    },
+    {
+      "id": "lzd6rzw",
+      "body": "Das isch s’Problem vu denä im Tigerschlitz.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732772474,
+      "score": 1,
+      "link_id": "t3_1h0zwkh",
+      "parent_id": "t3_1h0zwkh"
+    },
+    {
+      "id": "lzd6juq",
+      "body": "\\* quite easy",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732772362,
+      "score": 1,
+      "link_id": "t3_1h17tpe",
+      "parent_id": "t1_lz9ee46"
+    },
+    {
+      "id": "lzd5yh8",
+      "body": "The things that get you a PhD nowadays.. smh",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732772068,
+      "score": 3,
+      "link_id": "t3_1h11f1s",
+      "parent_id": "t3_1h11f1s"
+    },
+    {
+      "id": "lzauiu4",
+      "body": "Here’s one. But you’ll have to translate it yourself. \nhttps://reisememo.ch/schweiz/wanderung-braunwald-oberblegisee",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732740224,
+      "score": 2,
+      "link_id": "t3_1h1b8tf",
+      "parent_id": "t1_lza8a5s"
+    },
+    {
+      "id": "lzat6ot",
+      "body": "You’re missing the point. OP has a job, with or without the contract, and he is entitled to all the minimum benefits if he shows up on day one.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732739802,
+      "score": 2,
+      "link_id": "t3_1h17vm0",
+      "parent_id": "t1_lza7ryu"
+    },
+    {
+      "id": "lzask4f",
+      "body": "I’m Swiss, born and raised. I’ve received my current contract first day on the job. Granted, I was getting a bit nervous, as this is definitely unusual. But give them a chance. After two days of work I would insist on it and not return before it’s settled.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732739604,
+      "score": 1,
+      "link_id": "t3_1h17vm0",
+      "parent_id": "t3_1h17vm0"
+    },
+    {
+      "id": "lzacmmx",
+      "body": "You misspelled *deported*",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732734585,
+      "score": 2,
+      "link_id": "t3_1h1b8tf",
+      "parent_id": "t1_lza9s11"
+    },
+    {
+      "id": "lzaavnr",
+      "body": "Totally agree, this is the place you wanna go.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732734037,
+      "score": 1,
+      "link_id": "t3_1h1b8tf",
+      "parent_id": "t1_lza9rvs"
+    },
+    {
+      "id": "lzaa9a9",
+      "body": "Alternatively:\nSchweiz, Suisse, Svizzera, Svizra, or Confoederatio Helvetica",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732733843,
+      "score": 2,
+      "link_id": "t3_1h1b8tf",
+      "parent_id": "t1_lza9p3u"
+    },
+    {
+      "id": "lza9e5e",
+      "body": "Repeat after me: S-w-i-t-z-e-r-l-a-n-d",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732733577,
+      "score": 2,
+      "link_id": "t3_1h1b8tf",
+      "parent_id": "t3_1h1b8tf"
+    },
+    {
+      "id": "lza98bv",
+      "body": "Isch das ächt eso aazeigt wordä? xD",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732733526,
+      "score": 10,
+      "link_id": "t3_1h1bpo9",
+      "parent_id": "t3_1h1bpo9"
+    },
+    {
+      "id": "lza2l1r",
+      "body": "Again, I don’t know where you are reading this.\n\n> Vorrang geniessen Schweizerinnen und Schweizer, Ausländerinnen und Ausländer mit Niederlassungsbewilligung (Ausweis C), Ausländerinnen und Ausländer mit Aufenthaltsbewilligung (Ausweis B, inkl. anerkannte Flüchtlinge), die zu einer Erwerbstätigkeit berechtigt sind, Ausländerinnen und Ausländer mit einer vorläufigen Aufnahme (Ausweis F), Personen, denen vorübergehender Schutz gewährt wurde und die eine Bewilligung zur Aufnahme einer Erwerbstätigkeit besitzen (Ausweis S) sowie alle Personen aus Staaten, mit denen ein Freizügigkeitsabkommen geschlossen wurde (Ausweis L und B).\n\nWe (Swiss) are literally on par with all the EU/EFTA people or anyone that holds one of the aforementioned visa.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732731470,
+      "score": 1,
+      "link_id": "t3_1h187yw",
+      "parent_id": "t1_lza1nit"
+    },
+    {
+      "id": "lza16ey",
+      "body": "That’s factually wrong. There is no hiring priority for Swiss citizens. But sectors with high unemployment have to submit open positions to the RAV a bit in advance to give the unemployed residents (including foreigners) a head start. That’s it, that’s all.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732731036,
+      "score": 1,
+      "link_id": "t3_1h187yw",
+      "parent_id": "t1_lz9yhlt"
+    },
+    {
+      "id": "lza03nf",
+      "body": "1. Maybe\n2. No\n3. Yes\n4. Depends. Everyone struggles, including locals. The more people try and force their way in, the more difficult it gets for everyone. 30 is a rookie number, you gotta pump this number up.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732730707,
+      "score": 1,
+      "link_id": "t3_1h187yw",
+      "parent_id": "t3_1h187yw"
+    },
+    {
+      "id": "lz7mvh0",
+      "body": "A billion dollars. It’s virtually impossible to destroy this kind of wealth without actively trying.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1732693969,
+      "score": 1,
+      "link_id": "t3_1h0y2za",
+      "parent_id": "t3_1h0y2za"
+    },
+    {
+      "id": "lz7l3kq",
+      "body": "Touché",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732692865,
+      "score": 2,
+      "link_id": "t3_1h0y0i4",
+      "parent_id": "t1_lz7jwku"
+    },
+    {
+      "id": "lz7iqmj",
+      "body": "You realize the legend of William Tell *is* fictional, right?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732691425,
+      "score": 32,
+      "link_id": "t3_1h0y0i4",
+      "parent_id": "t1_lz7g8mt"
+    },
+    {
+      "id": "lz7ile4",
+      "body": "I will watch it only for Ben Kingsley <3",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732691338,
+      "score": 2,
+      "link_id": "t3_1h0y0i4",
+      "parent_id": "t3_1h0y0i4"
+    },
+    {
+      "id": "lz7cjjp",
+      "body": "*registered letter",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732687893,
+      "score": 2,
+      "link_id": "t3_1h0i75d",
+      "parent_id": "t1_lz4c5ee"
+    },
+    {
+      "id": "lz1dx0q",
+      "body": "House MD. I don’t know why I find it comforting.",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1732603000,
+      "score": 1,
+      "link_id": "t3_1gzrl3t",
+      "parent_id": "t3_1gzrl3t"
+    },
+    {
+      "id": "lz1b2fs",
+      "body": "This would not have changed your situation.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732601417,
+      "score": 4,
+      "link_id": "t3_1gzpvuy",
+      "parent_id": "t1_lyzr0w4"
+    },
+    {
+      "id": "lz18tuq",
+      "body": ">I don't want to feel like the idiotic tourist who doesn't care at all about the country, I want to feel like I'm respecting the country and the people there.\n\nDon't worry about that. You fill find that there's already a bunch of idiotic immigrants who don't care about the country or its people. Speaking only English will not attract any (further) attention.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732600226,
+      "score": 0,
+      "link_id": "t3_1h00gsd",
+      "parent_id": "t3_1h00gsd"
+    },
+    {
+      "id": "lyyzjdx",
+      "body": "[bett1.ch](http://bett1.ch)",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732570114,
+      "score": 1,
+      "link_id": "t3_1gzom91",
+      "parent_id": "t3_1gzom91"
+    },
+    {
+      "id": "lyyogol",
+      "body": "And in the end, you had to pay 3 % compensation from your salary for 11 years.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732566731,
+      "score": 4,
+      "link_id": "t3_1gzrm8i",
+      "parent_id": "t1_lyyi5i0"
+    },
+    {
+      "id": "lyy6fze",
+      "body": "This wouldn’t fly in front of a court. Ask him to adjust the bill or you don’t pay. He can also not kick you out in retaliation.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732561127,
+      "score": 17,
+      "link_id": "t3_1gzpvuy",
+      "parent_id": "t3_1gzpvuy"
+    },
+    {
+      "id": "lyxuay2",
+      "body": ">Think for yourself.\n\nYes, I am thinking for myself, whereas you didn't read the flaunted document or you don't understand what's written there. It directly contradicts your previous statement in several ways. The first one being:\n\n>To date no specific studies of the effect of induction hobs on health have been carried out.\n\nJust because something is regulated doesn't mean it's dangerous. Quite the opposite, actually; things that are regulated typically adhere to more rigorous safety standards. \n\n>Current densities cannot be measured directly in the body.  \n\n\nMeaning they had to be calculated via proxy and simulations. Reference values were recorded in close range (30 cm) and they decay according to the inverse square law. But to be on the safe side: \n\n>The permissible current density is 50 times lower than the level at which the nerves and muscles are stimulated.\n\nAnd this neurostimulation is one of the main concerns, alongside e.g. pacemaker interference, which answers your last question. Nowhere does it say anything about vitamin degradation or similar.\n\nFor the sake of the argument, let's assess the plausibility of your statement. Physical phenomena which directly break chemical bonds are excessive heat or ionising radiation. The electromagnetic oscillations emitted by induction stoves are in the low radio frequency range, hence not ionizing at all. You are exposed to much higher doses throughout the day from all the WIFI stations, cell phone antennas and high-voltage overhead rail lines, than during the brief period spent in the kitchen. It is known that some (not all) vitamins degrade when being cooked, but you would certainly notice if your organs were cooked at a distance. In addition, neither of the two forces specifically target only the vitamins in your body. Instead, you'd expect generalised damage across different tissue. This doesn't even address the laughable idea that short-term exposure causes lasting vitamin deficiency, so severe that you hair starts falling out in clumps.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732557385,
+      "score": 1,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t1_lywvwke"
+    },
+    {
+      "id": "lyxj8xr",
+      "body": "Do you even speak German?",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732554009,
+      "score": 5,
+      "link_id": "t3_1gzj1a7",
+      "parent_id": "t3_1gzj1a7"
+    },
+    {
+      "id": "lyxixrh",
+      "body": "Yes, your visa can be revoked.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732553914,
+      "score": 0,
+      "link_id": "t3_1gzj1a7",
+      "parent_id": "t1_lywt3eq"
+    },
+    {
+      "id": "lyxhqnn",
+      "body": "On a student visa, you can only work 15 h a week.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732553549,
+      "score": 2,
+      "link_id": "t3_1gzj1a7",
+      "parent_id": "t3_1gzj1a7"
+    },
+    {
+      "id": "lyvez6u",
+      "body": "Taken screenshots? You know that video sequences that are composed of frames that can be edited individually, right? I recommend using CVAT for this purpose which allows Ou to export the labels in various formats, including YOLO.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1732518615,
+      "score": 4,
+      "link_id": "t3_1gz92du",
+      "parent_id": "t3_1gz92du"
+    },
+    {
+      "id": "lyv9hp2",
+      "body": "Bullshit!!!",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732515446,
+      "score": 3,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t1_lytd22x"
+    },
+    {
+      "id": "lyt7x86",
+      "body": "Anything with a screen and internet.",
+      "author": "PetitArvine",
+      "subreddit": "ask",
+      "created_utc": 1732486401,
+      "score": 10,
+      "link_id": "t3_1gz2w0a",
+      "parent_id": "t3_1gz2w0a"
+    },
+    {
+      "id": "lyt6nc2",
+      "body": "I have hair, never had lice. Not pubic nor elsewhere.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1732485977,
+      "score": 1,
+      "link_id": "t3_1gyzblm",
+      "parent_id": "t1_lyt6eer"
+    },
+    {
+      "id": "lyt42fc",
+      "body": "Oder =/= health problem. You anyway have more foreign organisms in and on you than actual bodily cells. Shaving won't change that.",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1732485140,
+      "score": 0,
+      "link_id": "t3_1gyzblm",
+      "parent_id": "t1_lyso865"
+    },
+    {
+      "id": "lysu8s7",
+      "body": ">\\[…\\] so it's not genetics contributing to my hair loss lol\n\nWhy are you taking DHT blockers then..?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732482119,
+      "score": 3,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t1_lystuuy"
+    },
+    {
+      "id": "lysts21",
+      "body": "So many superstitious misleading bs in the comments. Why don't you want to hear what your dermatologist has to say? He has more experience and knowledge than all the twaddlers here combined. I can imagine that hard water may change the appearance of hair to some extent, but it does not, absolutely not, cause hair loss. There's tons of reasons that could potentially contribute to your situation; don't follow down this path until you haven't ruled out any alternatives.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732481979,
+      "score": 3,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t3_1gyp729"
+    },
+    {
+      "id": "lysrya7",
+      "body": "lol",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732481425,
+      "score": 1,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t1_lyrgtms"
+    },
+    {
+      "id": "lysrtt7",
+      "body": "Did she suspend birth control at the same time?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732481387,
+      "score": 1,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t1_lyq7yav"
+    },
+    {
+      "id": "lysrfc4",
+      "body": "The water quality has nothing to do with the DHT sensitivity of your hair follicles. I know hair loss can be devastating, but the problem is you, or more precisely, your genes.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732481267,
+      "score": 3,
+      "link_id": "t3_1gyp729",
+      "parent_id": "t1_lyr7san"
+    },
+    {
+      "id": "lyspkbz",
+      "body": "I seriously question your sanity. These two events are 12 hours apart. Whatever else you've been up to yesterday evening (drinking) might have triggered your migraine equally well.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732480707,
+      "score": 2,
+      "link_id": "t3_1gz0omj",
+      "parent_id": "t3_1gz0omj"
+    },
+    {
+      "id": "lysln56",
+      "body": "I cling onto a .mac address since 2002.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732479507,
+      "score": 2,
+      "link_id": "t3_1gz03n3",
+      "parent_id": "t3_1gz03n3"
+    },
+    {
+      "id": "lysjpv7",
+      "body": "Focus on one location. You'll need one(1) combined day to travel to your destination, settle in and departure. This leaves you with one(1) day to explore the area, one(1) day of hiking or whatever, and one(1) day for any unforeseen activity or simply relaxing.\n\n>if anyone has advice on activities and food that would be appreciated too.\n\nIt doesn't work like that. Use the search bar or google for inspiration and come back with what you like. Then, and only then someone might point you in the right direction. We are not professional tourist guides and we don't earn any money for handing out recommendations. If you want the sincere help of a local, you've got to put in the effort first.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732478911,
+      "score": 8,
+      "link_id": "t3_1gyzxzn",
+      "parent_id": "t3_1gyzxzn"
+    },
+    {
+      "id": "lysgwww",
+      "body": "Green? All you can hope for is white. The rest will be mud. Consider [Villa Honegg](https://www.nzz.ch/english/a-swiss-hotel-becomes-famous-due-to-skillful-use-of-influencers-ld.1751142), as five-star superior boutique hotel with a world-famous infinity pool overlooking lake Lucerne. You can see the city lights at night with good weather. Or you ask one of the providers of 2-day ski tours (climping untapped mountaints with skis) which would have the best view at night.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732478056,
+      "score": 1,
+      "link_id": "t3_1gyyods",
+      "parent_id": "t3_1gyyods"
+    },
+    {
+      "id": "lyse2cs",
+      "body": "Wenn da was schief gelaufen ist, wist Du von Ricardo sicherlich nach einer Weile wieder freigeschaltet werden. Dass Du sogleich ein neues Konto eröffnet hast halte ich für einen Fehler, weil es den Eindruck erweckt, als wolltest Du die Regeln umgehen. Ich verstehe Dein Bedürfnis den Frust irgendwo rauszulassen, aber wir können Dir da wirklich nicht weiterhelfen. Wenn Ricardo beschliesst, dass Du ihre Platform nicht (mehr) nutzen darfst, dann ist das so und muss nicht vor irgendeinem Gericht begründet werden.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732477186,
+      "score": 1,
+      "link_id": "t3_1gvq6c8",
+      "parent_id": "t1_lysbx8q"
+    },
+    {
+      "id": "lypkoqd",
+      "body": "Did you read OP's statement thoroughly. It's not about individual learning styles. It's about him only studying for the test. This is very adolescent behaviour and tells me you don't actually know why you're enrolled in the program.",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732434831,
+      "score": -1,
+      "link_id": "t3_1gxwn8m",
+      "parent_id": "t1_lyl55lb"
+    },
+    {
+      "id": "lypim62",
+      "body": ">Just germans \\[…\\]",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732433605,
+      "score": 2,
+      "link_id": "t3_1gyl30f",
+      "parent_id": "t1_lypfmob"
+    },
+    {
+      "id": "lypi55j",
+      "body": "Why don't you use their existing model to create your own dataset if you want to learn how to build such models? This is valuable knowledge and you have to understand that companies won't make their USP publicly available. Same way GPT as such is open source, but how exactly OpenAI trained it to achieve their first ChatGPT remains elusive, let alone the deployed weights.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1732433324,
+      "score": 1,
+      "link_id": "t3_1gy80j6",
+      "parent_id": "t3_1gy80j6"
+    },
+    {
+      "id": "lypefez",
+      "body": "Dis Problem isch, dass Du eifach nöd chasch läse. Du bisch genau eine vu denä reaktionäre Glöhn, woni im letste Satz beschriebe han.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732431125,
+      "score": 1,
+      "link_id": "t3_1guybnc",
+      "parent_id": "t1_lynwlki"
+    },
+    {
+      "id": "lykqawp",
+      "body": ">Ich bitte um Ihr Verständnis, dass ich an dieser Stelle nicht zu viele Details nennen kann…\n\nVerständnis abgelehnt. Ich nehme an, es ist dasselbe unkooperative verhalten, welches Dich überhaupt erst in diese Lage gebracht hat.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732368833,
+      "score": 2,
+      "link_id": "t3_1gxzd8s",
+      "parent_id": "t3_1gxzd8s"
+    },
+    {
+      "id": "lyko6yz",
+      "body": "Cheibe glatt!",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1732367923,
+      "score": 3,
+      "link_id": "t3_1gxxjms",
+      "parent_id": "t1_lyke322"
+    },
+    {
+      "id": "lyknpx7",
+      "body": "The real world is not an exam sheet! At the end of your studies, you should be able to apply the majority of concepts creatively. This requires advanced intuition that builds up through constant practice, and solid foundations, so that you don't make silly beginner mistakes in the field and waste everyone's time. You probably feel very smug for the fact that you can get passing grades doing the bare minimum - no one cares about that but you. If anything it only signals a lack of grit. You will have to perform constantly on the job, and not only twice a year during the examination sessions. Get your head out of your ass!",
+      "author": "PetitArvine",
+      "subreddit": "ethz",
+      "created_utc": 1732367715,
+      "score": -12,
+      "link_id": "t3_1gxwn8m",
+      "parent_id": "t3_1gxwn8m"
+    },
+    {
+      "id": "lykk28w",
+      "body": "What I don't understand is, do you need the cutouts of the Waldos to be able to animate them in your app? Or will you have to handle unseen pictures at inference time? In case of the former, how many images do you have? The masks could easily be prepared using something like the trial version of photoshop. SAM is only impressive upon first glance, but if you look closely, these edges are far from perfect. In case of the latter, does something happen in the app, only when a Waldo is clicked? I'm referring you to the official documentation to figure out how the masks are to be retrieved. After that you can work with lookup tables and weighted additions of the numpy arrays.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1732366036,
+      "score": 1,
+      "link_id": "t3_1gv12ah",
+      "parent_id": "t1_ly39mcg"
+    },
+    {
+      "id": "lyk6p0h",
+      "body": "Das ist nicht legal und Deine Freundin kann Mietzinsreduktion dafür verlangen, sofern sie belegen kann, wie lange dieser Zustand schon anhält und wann Sie beim Vermieter reklamiert hat. Es gibr gesetzlich vorgeschriebene Mindesttemperaturen, die sich jedoch nach Raum unterscheiden. Soweit ich weiss, darf das Schlafzimmer über Nacht auch etwas Kühler werden, aber 16 C sind definitiv zu tief.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732358398,
+      "score": 2,
+      "link_id": "t3_1gxwmz3",
+      "parent_id": "t3_1gxwmz3"
+    },
+    {
+      "id": "lyjq4f7",
+      "body": "Pfuus guet! Merci für Din Iisatz!",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1732347605,
+      "score": 5,
+      "link_id": "t3_1gxtjpy",
+      "parent_id": "t3_1gxtjpy"
+    },
+    {
+      "id": "lyjpn9i",
+      "body": "Befristete Arbeitsverträge unterliegen weder einer Probezeit noch einer Möglichkeit ordentlich zu kündigen. Die Arbeitsverträge enden somit nicht mit einer Kündigung, sondern durch Zeitablauf des befristeten Vertrags. Beide Parteien (Arbeitgeber und Arbeitnehmer) müssen somit ihren Vertrag bis zum Enddatum erfüllen. Mittels einer ausdrücklichen Vereinbarung ist es auch möglich, eine Probezeit und frühzeitige Kündigungsmöglichkeit zu vereinbaren.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732347303,
+      "score": 1,
+      "link_id": "t3_1gv0y7m",
+      "parent_id": "t3_1gv0y7m"
+    },
+    {
+      "id": "lyjoday",
+      "body": "What do you mean by impenetrable? Can you not break into the substance, or simply not deep enough? Load-bearing walls can be made of steel-reinforced concrete and you could be hitting steel. Otherwise you just need a better (hammer) drill.",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1732346516,
+      "score": 3,
+      "link_id": "t3_1gxtko9",
+      "parent_id": "t3_1gxtko9"
+    },
+    {
+      "id": "lyjmycj",
+      "body": "\\*life",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732345644,
+      "score": 1,
+      "link_id": "t3_1gx74dj",
+      "parent_id": "t1_lyepge1"
+    },
+    {
+      "id": "lyjlpqu",
+      "body": ">\\[…\\] \"normale\" gläubige \\[…\\]\n\nDie \"normalgläubige\" interessiert niemert. Das sind eifach Mitläufer us Bequemlichkeit, wo nie aktiv öppis für oder gäge z.B. ärä [Scharia-Polizei](https://www.focus.de/politik/islamische-religionspolizei-scharia-polizei-bedeutung-und-hintergruende_id_259883972.html) würed unternäh. Aber je meh's vu denä git, desto stärcher fühled sich au die wükli problematische Subjekt, wo dänn ebä u.A. Attentat planed.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732344910,
+      "score": 1,
+      "link_id": "t3_1guybnc",
+      "parent_id": "t1_lyjd4v4"
+    },
+    {
+      "id": "lyjjwty",
+      "body": "\\*wer. Es git im Schwiizerdütsch kein Akkusativ",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732343864,
+      "score": 1,
+      "link_id": "t3_1guybnc",
+      "parent_id": "t1_ly0tesf"
+    },
+    {
+      "id": "lyikqlj",
+      "body": "Ehrlich gesagt bin ich froh zu hören, dass man bei Ricardo nicht einfach beliebig ein neues Konto eröffnen kann, zumal ich da auch schon beschissen wurde und die Täter im Ausland nicht belangt werden konnten. Ob du dir etwas hast zu schulden kommen lassen sei mal dahin gestellt. Was genau erwartest Du jetzt von uns? Wir sind nicht Ricardo's Kundendienst.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732327530,
+      "score": 1,
+      "link_id": "t3_1gvq6c8",
+      "parent_id": "t3_1gvq6c8"
+    },
+    {
+      "id": "lyh4dne",
+      "body": ">I know I'm being lowballed really badly. The idea is to enter the market\n\nThere's already plenty of people at your skill level here, and beyond - you're nothing special. They all had your brilliant idea and are now making each other and the local workforce miserable.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732308762,
+      "score": 0,
+      "link_id": "t3_1gx74dj",
+      "parent_id": "t1_lyh0y7p"
+    },
+    {
+      "id": "lygzy93",
+      "body": "Fuck you, big time! Because of people like you Swiss SEs struggle with layoffs and finding entry level jobs in their own home country..",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732307340,
+      "score": 1,
+      "link_id": "t3_1gx74dj",
+      "parent_id": "t1_lyf27gq"
+    },
+    {
+      "id": "lygx9uy",
+      "body": "80 for a family of 3 is ludicrous, especially in Zürich. You'll need an apartment which starts at SFr. 2400.- / Mt, provided that you even find one in due time.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732306475,
+      "score": 2,
+      "link_id": "t3_1gx74dj",
+      "parent_id": "t3_1gx74dj"
+    },
+    {
+      "id": "lygvlp4",
+      "body": "80k for an entire family of 3 is ludicrous.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732305933,
+      "score": 1,
+      "link_id": "t3_1gx74dj",
+      "parent_id": "t3_1gx74dj"
+    },
+    {
+      "id": "lygv1ic",
+      "body": " What's wrong with any of the four official national languages?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732305755,
+      "score": 1,
+      "link_id": "t3_1gx1htb",
+      "parent_id": "t3_1gx1htb"
+    },
+    {
+      "id": "lygtp9u",
+      "body": "[https://www.sbb.ch/en/tickets-offers/tickets/guests-abroad/inspiration.html](https://www.sbb.ch/en/tickets-offers/tickets/guests-abroad/inspiration.html)",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732305329,
+      "score": 1,
+      "link_id": "t3_1gxc71d",
+      "parent_id": "t3_1gxc71d"
+    },
+    {
+      "id": "lygoyl1",
+      "body": "What about these ultrasound deterrents for wild animals, or a dog whistle? Kids hear this high-pitched noise and it is really annoying.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732303842,
+      "score": 1,
+      "link_id": "t3_1gx5dp0",
+      "parent_id": "t1_lyephst"
+    },
+    {
+      "id": "lygo9yr",
+      "body": "Yeet the children!",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732303627,
+      "score": 1,
+      "link_id": "t3_1gx5dp0",
+      "parent_id": "t3_1gx5dp0"
+    },
+    {
+      "id": "lyebmwt",
+      "body": "Warum haben die SBB beim geringsten Schnee Verspätung? Ein Lokführer antwortet\n\nhttps://www.tagesanzeiger.ch/schnee-schweiz-warum-haben-die-sbb-bei-schneefall-immer-verspaetung-151422594638?gift_token=a574d8b46efa",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732273315,
+      "score": 19,
+      "link_id": "t3_1gwlv3q",
+      "parent_id": "t1_lyaoj27"
+    },
+    {
+      "id": "lydo7sp",
+      "body": "S’gliiche chasch au über de Privatvercher säge, mit all denä Lölis, wo gester ihri Chärre mit Summerpneu händ müesse aaschiebe.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732258356,
+      "score": 15,
+      "link_id": "t3_1gx1jux",
+      "parent_id": "t3_1gx1jux"
+    },
+    {
+      "id": "ly28oye",
+      "body": "Ich tat, was ich in so einer Situation immer tue: fernsehen.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732084238,
+      "score": 7,
+      "link_id": "t3_1gv8kw6",
+      "parent_id": "t3_1gv8kw6"
+    },
+    {
+      "id": "ly27vpx",
+      "body": "Don’t.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732083782,
+      "score": 2,
+      "link_id": "t3_1gvcmm2",
+      "parent_id": "t3_1gvcmm2"
+    },
+    {
+      "id": "ly27gae",
+      "body": "Did you not pay your tutoring lessons?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1732083542,
+      "score": 21,
+      "link_id": "t3_1gv9qt7",
+      "parent_id": "t3_1gv9qt7"
+    },
+    {
+      "id": "lxzq9mh",
+      "body": "What an original endeavor..",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732050676,
+      "score": 4,
+      "link_id": "t3_1gv7ka2",
+      "parent_id": "t3_1gv7ka2"
+    },
+    {
+      "id": "lxzoiz5",
+      "body": "Ganz eifach: Migros = Gierig; das hät System.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732050151,
+      "score": 2,
+      "link_id": "t3_1gv2b5h",
+      "parent_id": "t1_lxyvqgb"
+    },
+    {
+      "id": "lxzo0gb",
+      "body": "Nöd gemein, sondern illegal.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732049997,
+      "score": 8,
+      "link_id": "t3_1gv2b5h",
+      "parent_id": "t1_lxyjeee"
+    },
+    {
+      "id": "lxzmtb2",
+      "body": "+1 für *Billet*",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1732049642,
+      "score": 3,
+      "link_id": "t3_1gv1oih",
+      "parent_id": "t1_lxybogr"
+    },
+    {
+      "id": "lxzkd9p",
+      "body": "Häsch de Tweet mal gläse? De isch vergliichswiis harmlos, wämmer bedänkt, was de Glarner au scho uselah hät. Er hät de Islam als Religion / Ideologie aagriffe, und wämmer ehrlich sind, sind alli Religione scheisse, aber de Islam ganz bsunders.",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1732048913,
+      "score": 6,
+      "link_id": "t3_1guybnc",
+      "parent_id": "t1_lxyls12"
+    },
+    {
+      "id": "lxz9ry0",
+      "body": "Ah, you’re a total beginner. Maybe you should explain to us, how you managed to segment the Waldos and share one of the segmentation masks you’ve got. Are you familiar with programming, and if so, which libraries do you use? If not, which image editing tools are at your disposal? Do you have ImageJ?",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1732045714,
+      "score": 2,
+      "link_id": "t3_1gv12ah",
+      "parent_id": "t1_lxz67px"
+    },
+    {
+      "id": "lxyw6sw",
+      "body": "Connected components, my friend.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1732041614,
+      "score": 2,
+      "link_id": "t3_1gv12ah",
+      "parent_id": "t3_1gv12ah"
+    },
+    {
+      "id": "lxvz0f8",
+      "body": "Manners",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1731996652,
+      "score": 1,
+      "link_id": "t3_1gunzx6",
+      "parent_id": "t3_1gunzx6"
+    },
+    {
+      "id": "lxu3qnu",
+      "body": ">Will be moving soon to Zurich as my partner studies there.\n\nAre you married? Because if you're not married, you're not moving here.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731970830,
+      "score": 2,
+      "link_id": "t3_1gu0s18",
+      "parent_id": "t3_1gu0s18"
+    },
+    {
+      "id": "lxu3jib",
+      "body": "\"I could care less.\"",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1731970763,
+      "score": 1,
+      "link_id": "t3_1gucp4b",
+      "parent_id": "t3_1gucp4b"
+    },
+    {
+      "id": "lxu1rch",
+      "body": "badum tsss",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731970170,
+      "score": 3,
+      "link_id": "t3_1guht0u",
+      "parent_id": "t3_1guht0u"
+    },
+    {
+      "id": "lxu14pe",
+      "body": "[https://www.herrurs.ch/produkt-kategorie/pu/](https://www.herrurs.ch/produkt-kategorie/pu/)",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731969965,
+      "score": 1,
+      "link_id": "t3_1gubybd",
+      "parent_id": "t3_1gubybd"
+    },
+    {
+      "id": "lxtfhrv",
+      "body": "Had me in the first half, ngl.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731963264,
+      "score": 2,
+      "link_id": "t3_1gsjqp5",
+      "parent_id": "t1_lxrayhc"
+    },
+    {
+      "id": "lxterey",
+      "body": "I think it’s most accurate if we merge both our translations.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731963046,
+      "score": 2,
+      "link_id": "t3_1gtdx8m",
+      "parent_id": "t1_lxqjh5x"
+    },
+    {
+      "id": "lxt668t",
+      "body": "You want to go skiing, but you cannot even board a train??",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731960424,
+      "score": 1,
+      "link_id": "t3_1gu1tjv",
+      "parent_id": "t3_1gu1tjv"
+    },
+    {
+      "id": "lxq0tdv",
+      "body": "*hack* means: “please draft us a comprehensive itinerary, as we’re too lazy to do it ourselves. We will consider it, or maybe not, because we’re also too lazy to update you or even upvote.”",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731913725,
+      "score": 3,
+      "link_id": "t3_1gtdx8m",
+      "parent_id": "t1_lxmyc2y"
+    },
+    {
+      "id": "lxpzjh3",
+      "body": "I mean.. this sub is for answering the questions of people who are curious about the country, its culture, traditions, history, democracy, and its current standing in world affairs. But 99 % of the posts come from dipshits like you, who cannot be bothered to read up on anything, before booking a trip with the aim of having their whole itinerary planned out by us. Do your homework, formulate your question(s) more carefully, and maybe you’ll get some insightful answer. And don’t forget to say thank you.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731912945,
+      "score": 2,
+      "link_id": "t3_1gpmx2a",
+      "parent_id": "t1_lxodzat"
+    },
+    {
+      "id": "lxpuijk",
+      "body": "Hä? Was hät das etzt mitem Musk z’tue? Ich han nur gseit, dass’es die Sändig schlächt produziert isch gsi. z’SRF hät aber au gueti Sache. Nöd alles, wo eim nöd gfallt isch ä “*LÜgeNpREsSe*”.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731910040,
+      "score": 7,
+      "link_id": "t3_1gsv9ea",
+      "parent_id": "t1_lxns1kg"
+    },
+    {
+      "id": "lxm7oe4",
+      "body": "Jugoschlüssel",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731863044,
+      "score": -1,
+      "link_id": "t3_1gtggaa",
+      "parent_id": "t3_1gtggaa"
+    },
+    {
+      "id": "lxly0ap",
+      "body": "Is every search bar banned where you’re from?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731859847,
+      "score": 6,
+      "link_id": "t3_1gtdx8m",
+      "parent_id": "t3_1gtdx8m"
+    },
+    {
+      "id": "lxl22t3",
+      "body": "I see. Withdrawn..",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1731847066,
+      "score": 1,
+      "link_id": "t3_1gtbu4b",
+      "parent_id": "t1_lxl1z1u"
+    },
+    {
+      "id": "lxl2089",
+      "body": "Aso bi mir gahts.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731847027,
+      "score": 2,
+      "link_id": "t3_1gta86d",
+      "parent_id": "t3_1gta86d"
+    },
+    {
+      "id": "lxl1ges",
+      "body": "Aren’t you taxed at the source?",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1731846733,
+      "score": -1,
+      "link_id": "t3_1gtbu4b",
+      "parent_id": "t1_lxkz9zh"
+    },
+    {
+      "id": "lxl08e8",
+      "body": "You really think that all the Turks who love Erdogan or the German and Italian diaspora who only came from the money, and doesn’t have any roots here, would act in Switzerland’s best interest? If anything goes sideways, they’re the first to jump ship. Also, they have a fundamentally different understanding on democracy and public affairs.",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1731846056,
+      "score": -2,
+      "link_id": "t3_1gtbu4b",
+      "parent_id": "t3_1gtbu4b"
+    },
+    {
+      "id": "lxkz55k",
+      "body": "You can apply for naturalization, join the military and fill proper tax declarations, if voting is important to you.",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1731845443,
+      "score": -2,
+      "link_id": "t3_1gtbu4b",
+      "parent_id": "t1_lxkxjxv"
+    },
+    {
+      "id": "lxk7zl8",
+      "body": "Ladeflächi z’Züri isch tüür; für das müestisch hünevill Uschankas verchaufe.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1731827783,
+      "score": 1,
+      "link_id": "t3_1gqy8jy",
+      "parent_id": "t1_lx1uhba"
+    },
+    {
+      "id": "lxk7sen",
+      "body": "Hani au grad wellä Vorschlah. Oder im Brocki oder susch en second hand Chleiderlade.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1731827660,
+      "score": 1,
+      "link_id": "t3_1gqy8jy",
+      "parent_id": "t1_lx366bv"
+    },
+    {
+      "id": "lxk49ea",
+      "body": "I hate small talk and meaningful conversations require you to get to know the other person, asking thoughtful questions, thoroughly processing their answers and making yourself vulnerable. If I spent all that energy for every tourist who wants to talk, I’d be drained all the time.",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1731825580,
+      "score": 3,
+      "link_id": "t3_1gszfo9",
+      "parent_id": "t3_1gszfo9"
+    },
+    {
+      "id": "lxk3mgp",
+      "body": "Hit the road, Jack!",
+      "author": "PetitArvine",
+      "subreddit": "basel",
+      "created_utc": 1731825235,
+      "score": 1,
+      "link_id": "t3_1gszfo9",
+      "parent_id": "t1_lxjmg0b"
+    },
+    {
+      "id": "lxjzf9q",
+      "body": "Wämmers eifach ganz wür sii lah wärs sogar na billiger.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731823001,
+      "score": 12,
+      "link_id": "t3_1gsv9ea",
+      "parent_id": "t1_lxjvvvv"
+    },
+    {
+      "id": "lxjy3tz",
+      "body": "Schlimmer als v*orwurfsvoll* find ich *unreflektiert* und *fuul*. Ich han s'Gfüel,die Sozi-Reporter bereitet sich keis bitzli uf sonä \"Recherchä\" vor und verschwändet demit Ziit vu dä porträtierte und vu de Zueschauer. Das isch wie det, wos de Wemuth mal zum Katastropheschutz is Militär gschickt händ und er 3 Täg lang nur de Lätsch gmacht hät - völlig despektierlich und chindisch.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731822351,
+      "score": 8,
+      "link_id": "t3_1gsv9ea",
+      "parent_id": "t1_lxicmsj"
+    },
+    {
+      "id": "lxhz3g6",
+      "body": "Technically correct",
+      "author": "PetitArvine",
+      "subreddit": "ask",
+      "created_utc": 1731794279,
+      "score": 3,
+      "link_id": "t3_1gsx8gk",
+      "parent_id": "t1_lxhspvy"
+    },
+    {
+      "id": "lxho5ic",
+      "body": "AFAIK, the LD50 for caffeine is 10 g",
+      "author": "PetitArvine",
+      "subreddit": "RandomThoughts",
+      "created_utc": 1731790677,
+      "score": 1,
+      "link_id": "t3_1gst5fm",
+      "parent_id": "t3_1gst5fm"
+    },
+    {
+      "id": "lxhgrnr",
+      "body": "Was möchtest Du Dir denn genau machen lassen? Es gibt doch bestimmt eine Kühlung ab der Stange, die Du selber einbauen kannst. Auch meinte ich mal gelesen zu haben, dass die gar nicht unbedingt besser kühlen als ein gute Lüfter.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731788263,
+      "score": 1,
+      "link_id": "t3_1gqa9vq",
+      "parent_id": "t3_1gqa9vq"
+    },
+    {
+      "id": "lxh43m1",
+      "body": "Ebefalls besser wie PInKLe",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1731784150,
+      "score": 2,
+      "link_id": "t3_1gsockm",
+      "parent_id": "t1_lxh2sol"
+    },
+    {
+      "id": "lxh2wnf",
+      "body": "Donald Trump",
+      "author": "PetitArvine",
+      "subreddit": "AskReddit",
+      "created_utc": 1731783765,
+      "score": 2,
+      "link_id": "t3_1gspmw0",
+      "parent_id": "t3_1gspmw0"
+    },
+    {
+      "id": "lxgxfmp",
+      "body": "Yes, number of good quality matches; maybe in combination with a classifier. However, if you can limit the class of objects to only coffee mugs, and you have a large enough dataset, I'd suggest you pre-train a siamese network.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731782021,
+      "score": 2,
+      "link_id": "t3_1gss9zo",
+      "parent_id": "t1_lxgqsfh"
+    },
+    {
+      "id": "lxgr78j",
+      "body": "It’s not fair for all the Swiss neuroscience graduates who have a really hard time getting hired, because the companies always find someone like you, across the border, who’s willing (and able) to accept such lowball offers.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731780035,
+      "score": 1,
+      "link_id": "t3_1gphqxi",
+      "parent_id": "t3_1gphqxi"
+    },
+    {
+      "id": "lxgoyme",
+      "body": "\\*cosine, the magic word is cosine similarity. Otherwise you’ll suffer the curse of dimensionality. What do you mean by *better*? Faster? More accurate? The alternatives would be template matching or bags of (custom) words. Also, the SIFT patent has expired, so you might want to try this as well.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731779328,
+      "score": 2,
+      "link_id": "t3_1gss9zo",
+      "parent_id": "t3_1gss9zo"
+    },
+    {
+      "id": "lxgms2p",
+      "body": "Not much you can do. He cannot prohibit you from subletting the entire flat, but he can dissolve the main contract before your return.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731778637,
+      "score": 5,
+      "link_id": "t3_1gss4vr",
+      "parent_id": "t3_1gss4vr"
+    },
+    {
+      "id": "lxglk77",
+      "body": "Bloody idiots.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731778249,
+      "score": 0,
+      "link_id": "t3_1gpmx2a",
+      "parent_id": "t3_1gpmx2a"
+    },
+    {
+      "id": "lxgld5y",
+      "body": "Du meinsch spoitze..?",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1731778186,
+      "score": 3,
+      "link_id": "t3_1gsockm",
+      "parent_id": "t1_lxg90o0"
+    },
+    {
+      "id": "lxgkdva",
+      "body": "How dare they speak the language of their people in their own house. We really should all be more accommodating in our daily routine and speak English or even Vietnamese if there is even one person present who might not follow otherwise. /s You get to live in one of the most developed countries on planet earth. Be grateful and integrate.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731777874,
+      "score": 0,
+      "link_id": "t3_1gsrhdt",
+      "parent_id": "t3_1gsrhdt"
+    },
+    {
+      "id": "lxgfxyz",
+      "body": "Shops tend to close a bit earlier on Christmas eve - typically around 6 pm. The major retailers reopen on the 27th, but some smaller boutiques remain closed until the 3rd of January. Shopping just before Christmas isn’t fun, because everyone scrambles to get their last-minute presents.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731776440,
+      "score": 2,
+      "link_id": "t3_1gsq5dp",
+      "parent_id": "t3_1gsq5dp"
+    },
+    {
+      "id": "lxfx68c",
+      "body": "Das heisst \\*Brünzle, *gopfätammihueresiech*",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1731770196,
+      "score": 36,
+      "link_id": "t3_1gsockm",
+      "parent_id": "t3_1gsockm"
+    },
+    {
+      "id": "lxfgz54",
+      "body": "Yup",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731763885,
+      "score": 1,
+      "link_id": "t3_1grswnp",
+      "parent_id": "t1_lxf701x"
+    },
+    {
+      "id": "lxf6otj",
+      "body": "Heb Pfrässi, Du Gummihals.",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731758994,
+      "score": 3,
+      "link_id": "t3_1gskr51",
+      "parent_id": "t3_1gskr51"
+    },
+    {
+      "id": "lxf3xhl",
+      "body": "Did they ban the search bar in your country?",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731757483,
+      "score": 1,
+      "link_id": "t3_1gpgc99",
+      "parent_id": "t3_1gpgc99"
+    },
+    {
+      "id": "lxf1ira",
+      "body": "Maroni 🌰",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731756084,
+      "score": 1,
+      "link_id": "t3_1gpy9ms",
+      "parent_id": "t3_1gpy9ms"
+    },
+    {
+      "id": "lxf1g1z",
+      "body": "Not anymore; they changed it.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731756041,
+      "score": 1,
+      "link_id": "t3_1gpy9ms",
+      "parent_id": "t1_lx5fxbd"
+    },
+    {
+      "id": "lxf02j3",
+      "body": "Whatever you do, don’t start a public mud fight. Take responsibility for the things that were truly not perfect that night and ignore the added insults and exaggerations. You other customers are not all idiots, they can read between the lines themselves. Maybe you can say something along the lines that you will address their experience in the next staff briefing.",
+      "author": "PetitArvine",
+      "subreddit": "smallbusiness",
+      "created_utc": 1731755221,
+      "score": 1,
+      "link_id": "t3_1gs8fdh",
+      "parent_id": "t3_1gs8fdh"
+    },
+    {
+      "id": "lxez0st",
+      "body": "Feminist for me, not for thee.",
+      "author": "PetitArvine",
+      "subreddit": "careerguidance",
+      "created_utc": 1731754596,
+      "score": 2,
+      "link_id": "t3_1grtlre",
+      "parent_id": "t3_1grtlre"
+    },
+    {
+      "id": "lxeyj8t",
+      "body": "This is a very difficult one, since there’s so much going on in this scene. The people and all the beach utensils are so far away that it’s virtually impossible to construct meaningful features that disgusting the two. Maybe you can try something like a high-pass filtering and then apply an empirical model that estimates how many blobs in the image are actual humans.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731754300,
+      "score": 1,
+      "link_id": "t3_1gpo2vs",
+      "parent_id": "t1_lwst5k2"
+    },
+    {
+      "id": "lxexnzz",
+      "body": "You already posted this in [r/askswitzerland](https://www.reddit.com/r/askswitzerland/s/xljO1QjHRi) What’s wrong with all the replies you received there?",
+      "author": "PetitArvine",
+      "subreddit": "geneva",
+      "created_utc": 1731753773,
+      "score": 1,
+      "link_id": "t3_1gr9og7",
+      "parent_id": "t3_1gr9og7"
+    },
+    {
+      "id": "lxexfy6",
+      "body": "If you really want to learn sth, you should try and solve the same problem with different approaches, including the classic - I’m thinking Viola & Jones - then compare them against each other. You will have to convert the dataset to different formats and maybe do some additional labeling. This makes for 80 % of the *real* work outside of research, and since you probably have not curated that dataset yourself it’s also a great practice.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731753633,
+      "score": 1,
+      "link_id": "t3_1gsjytp",
+      "parent_id": "t3_1gsjytp"
+    },
+    {
+      "id": "lxewjr9",
+      "body": "Welcome to the life of a data / cv scientist.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731753077,
+      "score": 3,
+      "link_id": "t3_1gsjqp5",
+      "parent_id": "t3_1gsjqp5"
+    },
+    {
+      "id": "lxe7u4g",
+      "body": "Gotthardstrasse 11, 6438 Ibach",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731737482,
+      "score": 2,
+      "link_id": "t3_1grswnp",
+      "parent_id": "t1_lxdncgl"
+    },
+    {
+      "id": "lxe59hg",
+      "body": "Not really your age, but I would go with: “was machsch nach de Schuel?” And if they say: “nüt, werum?” you can propose a benign activity, such as going to watch Lucy (the Christmas lights). Just make sure to ask on November 21st.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731736236,
+      "score": 1,
+      "link_id": "t3_1gs91vm",
+      "parent_id": "t3_1gs91vm"
+    },
+    {
+      "id": "lx7w4a2",
+      "body": "It \\*reminds you.",
+      "author": "PetitArvine",
+      "subreddit": "zurich",
+      "created_utc": 1731649149,
+      "score": 1,
+      "link_id": "t3_1grb2px",
+      "parent_id": "t1_lx53279"
+    },
+    {
+      "id": "lx7tqfu",
+      "body": "No, they deduct the contributions, because you get paid 70 % of your previous salary after you have been terminated. But you can go to RAV regardless.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731648042,
+      "score": 1,
+      "link_id": "t3_1grb05z",
+      "parent_id": "t1_lx56ipg"
+    },
+    {
+      "id": "lx4wcd5",
+      "body": "Residence permit for only 4 months??",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731612734,
+      "score": 1,
+      "link_id": "t3_1gr56on",
+      "parent_id": "t3_1gr56on"
+    },
+    {
+      "id": "lx4vl4y",
+      "body": "You should raise this issue with the travel agency that sold you the tour ticket. Did you inform your guide about the accident? Were you the only passengers on that bus? I would not have waited 30 min for a no-show either.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731612504,
+      "score": 3,
+      "link_id": "t3_1gr9r9t",
+      "parent_id": "t3_1gr9r9t"
+    },
+    {
+      "id": "lx4t8ju",
+      "body": "One does not unilaterally decide to move to Switzerland.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731611791,
+      "score": 1,
+      "link_id": "t3_1gr8xhj",
+      "parent_id": "t3_1gr8xhj"
+    },
+    {
+      "id": "lx4sqx1",
+      "body": "RAV and ALV are two separate things. You can be registered with the former without any rights to the latter",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731611640,
+      "score": 2,
+      "link_id": "t3_1grb05z",
+      "parent_id": "t1_lx4j4jo"
+    },
+    {
+      "id": "lx4ai6v",
+      "body": "Pizza auf dem Weihnachtsmarkt??",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731606107,
+      "score": 1,
+      "link_id": "t3_1gr1v8r",
+      "parent_id": "t3_1gr1v8r"
+    },
+    {
+      "id": "lx1ux4u",
+      "body": "Why are you limited to those two options? Mac mini is supposed to be stationary - you don't carry it with you.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731566943,
+      "score": 1,
+      "link_id": "t3_1gqj9rg",
+      "parent_id": "t3_1gqj9rg"
+    },
+    {
+      "id": "lwtc8xi",
+      "body": ">In neuerer Zeit deutet das Bundesgericht an, dass eine natürliche Vermutung für die Missbräuchlichkeit spricht bei einer Erhöhung gegenüber dem Vormietzins um erheblich mehr als 10%.\n\nYou don't need to worry. Terminating the contract because you dared to contest it is also illegal.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731447297,
+      "score": 23,
+      "link_id": "t3_1gpvap5",
+      "parent_id": "t3_1gpvap5"
+    },
+    {
+      "id": "lwtabxf",
+      "body": "[Husky Lodge Muotathal](https://www.erlebniswelt.ch/huskies/). You're welcome. They even have a children's [birthday party package](https://www.erlebniswelt.ch/huskies/husky-angebote/angebot-sommer/kindergeburtstag-mit-huskyerlebnis/).",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731446659,
+      "score": 3,
+      "link_id": "t3_1gpvkpq",
+      "parent_id": "t3_1gpvkpq"
+    },
+    {
+      "id": "lwst5k2",
+      "body": "Impossible to say without seeing the images.",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731441130,
+      "score": 1,
+      "link_id": "t3_1gpo2vs",
+      "parent_id": "t3_1gpo2vs"
+    },
+    {
+      "id": "lwpklwd",
+      "body": "How much mold are we speaking about? If it’s only a little and it took a while to grow, handle it yourself. If the entire wall is plastered and/or it keeps resurfacing all the time, the wall needs a special paint job and you should have the landlord deal with that.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731391590,
+      "score": 1,
+      "link_id": "t3_1gp2rv9",
+      "parent_id": "t3_1gp2rv9"
+    },
+    {
+      "id": "lwml181",
+      "body": "Schowieder technisch korräkt. Hei, was isch au hüt los?",
+      "author": "PetitArvine",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1731352920,
+      "score": 8,
+      "link_id": "t3_1goouv2",
+      "parent_id": "t1_lwlhldl"
+    },
+    {
+      "id": "lwm9h1f",
+      "body": "Total rubbish.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731349408,
+      "score": 1,
+      "link_id": "t3_1go70tc",
+      "parent_id": "t1_lwgavr8"
+    },
+    {
+      "id": "lwjr4zf",
+      "body": "Were you working more than 100 % combined? Do both employers know of the respective other?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731310145,
+      "score": 1,
+      "link_id": "t3_1gobzsz",
+      "parent_id": "t3_1gobzsz"
+    },
+    {
+      "id": "lwg389g",
+      "body": "Never give away money to a stranger on the internet. You have absolutely no reason to believe their story.",
+      "author": "PetitArvine",
+      "subreddit": "bern",
+      "created_utc": 1731262296,
+      "score": 1,
+      "link_id": "t3_1gm0yrh",
+      "parent_id": "t1_lvyu96o"
+    },
+    {
+      "id": "lwg1g2m",
+      "body": "I’m not sharing free advice with someone who probably has their own fund manager at the bank.",
+      "author": "PetitArvine",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1731261756,
+      "score": -1,
+      "link_id": "t3_1gn7q3c",
+      "parent_id": "t3_1gn7q3c"
+    },
+    {
+      "id": "lwfx1kz",
+      "body": "Have you tried a band-notch filter?",
+      "author": "PetitArvine",
+      "subreddit": "computervision",
+      "created_utc": 1731260440,
+      "score": 3,
+      "link_id": "t3_1go5ugf",
+      "parent_id": "t3_1go5ugf"
+    },
+    {
+      "id": "lwf8vcr",
+      "body": "Right? Who needs a lawyer when you have the second hand opinion of a bunch of bored internet users?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731252840,
+      "score": 1,
+      "link_id": "t3_1go2usw",
+      "parent_id": "t1_lwf8ejy"
+    },
+    {
+      "id": "lwf2o4p",
+      "body": "I drive rental cars across the border every year. Wasn’t aware or fined because of any limitations yet.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731250751,
+      "score": 1,
+      "link_id": "t3_1gmf3rb",
+      "parent_id": "t3_1gmf3rb"
+    },
+    {
+      "id": "lwf2atq",
+      "body": "Shut up and take my money!",
+      "author": "PetitArvine",
+      "subreddit": "interesting",
+      "created_utc": 1731250623,
+      "score": 2,
+      "link_id": "t3_1go1os6",
+      "parent_id": "t3_1go1os6"
+    },
+    {
+      "id": "lwf0fat",
+      "body": ">\\[…\\] it was also verbally agreed \\[…\\]\n\nTranslation: the notice period is six months.\n\nYou can ask her to renew her promise in an E-Mail; that way you'll have a record of the agreement. Otherwise just find her a successor and move on.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731249967,
+      "score": 1,
+      "link_id": "t3_1gmh1lq",
+      "parent_id": "t3_1gmh1lq"
+    },
+    {
+      "id": "lwezjdl",
+      "body": "https://gprivate.com/6e60i",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731249648,
+      "score": 1,
+      "link_id": "t3_1gnvxbf",
+      "parent_id": "t3_1gnvxbf"
+    },
+    {
+      "id": "lwextb7",
+      "body": "Sagen wir’s mal so. Wenn Du um 15:00 geschrieben hast, dass Du zuhause bist, die Antwort kam postwendend (z.B. 15:15) und um Punkt 16:00 steht der Handwerker vor der Tür - Deine Schuld. Wenn Du um 10 Uhr behauptet hast zuhause zu sein, bis um 15 Uhr gewartet hast und dann zur Arbeit gefahren bist - seine Schuld. Wenn er Dir den Termin aber schon um 13 Uhr mitgeteilt hat und Du hast einfach nicht darauf reagiert - Deine Schuld.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731249006,
+      "score": 1,
+      "link_id": "t3_1gkf8t4",
+      "parent_id": "t1_lvl2mjv"
+    },
+    {
+      "id": "lwewofs",
+      "body": "Wann genau wurden die letzten zwei Nachrichten verschickt? Also Deine und dann die Antwort vom Vermieter? Hättest Du noch Zeit gehabt umzukehren oder wenigstens zu antworten, dass Du gegangen bist und z.B. erst um 19 Uhr zurückkommst? Wenn ich als Vermieter mich so speditiv um die Anliegen meiner Mieter kümmern würde, eine feste Terminzusage habe und dann noch unnötige Leerkosten berappen muss, dann wäre ich auch sauer. Aber er kann natürlich nicht ohne Dein zutun irgendetwas deichseln um dann die Verantwortung von sich zu schieben. Ich würde erst einmal die Originalrechnung anfordern. Ein Handwerker geht auch nicht einfach wortlos wieder weg, sondern ruft erst Dich und/oder den Vermieter an, der ihm mit seinem Passepartout (und Deinem Einverständnis) hätte Einlass gewähren können.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731248571,
+      "score": 1,
+      "link_id": "t3_1gkf8t4",
+      "parent_id": "t3_1gkf8t4"
+    },
+    {
+      "id": "lweqc11",
+      "body": "Your engineers have probably acquired very particular skills related to your technology. I’m also *headhunted* frequently, but those are all recruiters, desperate to meet the quota for their shortlist, regardless of whether any candidate will be hired in the end. I would never risk my job to secure the commission of these leeches.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731246012,
+      "score": 1,
+      "link_id": "t3_1glkt8k",
+      "parent_id": "t1_lvvmdsc"
+    },
+    {
+      "id": "lwepm1x",
+      "body": "They might have many positions advertised, many of which are never filled with newcomers.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731245706,
+      "score": 1,
+      "link_id": "t3_1glkt8k",
+      "parent_id": "t1_lvv69da"
+    },
+    {
+      "id": "lweojti",
+      "body": "The positions you were talking about were only open to Master’s graduates on paper. Without direct ties to the decision makers, they would always go to someone with a PhD and/or several years of experience because there’s so many of those who try to get a foothold in the Swiss job market, and the pressure isn’t going to decrease any time soon. You need to leverage transferable skills and be open to work in adjacent fields or below your skill level. The longer you stay unemployed, and thus out of the loop, the more difficult it gets. Also, use that extra time to learn new things, gather additional certificates and do volunteer work.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731245242,
+      "score": 1,
+      "link_id": "t3_1glkt8k",
+      "parent_id": "t3_1glkt8k"
+    },
+    {
+      "id": "lwdzl4s",
+      "body": "It’s spelled S-w-i-t-z-e-r-l-a-n-d, for fuck sake.",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731230675,
+      "score": 6,
+      "link_id": "t3_1gnwlk1",
+      "parent_id": "t1_lwdyabp"
+    },
+    {
+      "id": "lwdz89g",
+      "body": "5 years? Those are rookie numbers. I know people who’ve lived for 20+ in a foreign country and still don’t speak the local language.",
+      "author": "PetitArvine",
+      "subreddit": "germany",
+      "created_utc": 1731230435,
+      "score": 4,
+      "link_id": "t3_1gnlmhm",
+      "parent_id": "t3_1gnlmhm"
+    },
+    {
+      "id": "lwb4xby",
+      "body": "Schriibt *Läbe* seit aber *Lebä*..",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731186625,
+      "score": 1,
+      "link_id": "t3_1gkvmbb",
+      "parent_id": "t3_1gkvmbb"
+    },
+    {
+      "id": "lwb3e5y",
+      "body": "Häsch gmeint: \"\\[…\\] halte, was sie verspricht?\"",
+      "author": "PetitArvine",
+      "subreddit": "BUENZLI",
+      "created_utc": 1731186120,
+      "score": 17,
+      "link_id": "t3_1gnjrzy",
+      "parent_id": "t3_1gnjrzy"
+    },
+    {
+      "id": "lwapbrq",
+      "body": "Is this another one of these crafty attempts to sneak into the country or are you already a resident?",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731181504,
+      "score": 1,
+      "link_id": "t3_1gjqevb",
+      "parent_id": "t3_1gjqevb"
+    },
+    {
+      "id": "lw891lv",
+      "body": "Das heisst \\*poste, *heilandsacknamal*",
+      "author": "PetitArvine",
+      "subreddit": "schwiiz",
+      "created_utc": 1731147027,
+      "score": 1,
+      "link_id": "t3_1glmpiq",
+      "parent_id": "t3_1glmpiq"
+    },
+    {
+      "id": "lw88hyv",
+      "body": "ROG Zephyrus G14",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731146662,
+      "score": 1,
+      "link_id": "t3_1gmg6za",
+      "parent_id": "t3_1gmg6za"
+    },
+    {
+      "id": "lw87ff8",
+      "body": "Du kommst hier nicht rein.",
+      "author": "PetitArvine",
+      "subreddit": "askswitzerland",
+      "created_utc": 1731145947,
+      "score": -2,
+      "link_id": "t3_1gn6nzx",
+      "parent_id": "t3_1gn6nzx"
+    },
+    {
+      "id": "lw86yid",
+      "body": "Zernez",
+      "author": "PetitArvine",
+      "subreddit": "Switzerland",
+      "created_utc": 1731145628,
+      "score": 1,
+      "link_id": "t3_1gkjazx",
+      "parent_id": "t3_1gkjazx"
+    },
+    {
+      "id": "lw7s52u",
+      "body": "Has to be Dark Dragonite (Team Rocket, 1999-2000)",
+      "author": "PetitArvine",
+      "subreddit": "PokemonTCG",
+      "created_utc": 1731135897,
+      "score": 1,
+      "link_id": "t3_1gmnri7",
+      "parent_id": "t3_1gmnri7"
+    }
+  ]
+}

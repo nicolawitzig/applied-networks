@@ -1,0 +1,46 @@
+{
+  "username": "pup_k",
+  "posts": [],
+  "comments": [
+    {
+      "id": "m4furz2",
+      "body": "I applied with a much weaker background and got in.\n(I ended up going to UCL instead though)",
+      "author": "pup_k",
+      "subreddit": "EPFL",
+      "created_utc": 1735516986,
+      "score": 1,
+      "link_id": "t3_1hotnm4",
+      "parent_id": "t3_1hotnm4"
+    },
+    {
+      "id": "m27yfyx",
+      "body": "The CV looks super nice!\n\nIf you want to keep the statement at the beginning I would make it a bit more specific (it sounds a bit generic) and indent it (or not) consistently.\n\nCheers and best of luck (:",
+      "author": "pup_k",
+      "subreddit": "EPFL",
+      "created_utc": 1734294452,
+      "score": 2,
+      "link_id": "t3_1hbpqra",
+      "parent_id": "t3_1hbpqra"
+    },
+    {
+      "id": "m25x9zp",
+      "body": "Do you know what this person was told when contacted?",
+      "author": "pup_k",
+      "subreddit": "ethz",
+      "created_utc": 1734269045,
+      "score": 1,
+      "link_id": "t3_1h80u1q",
+      "parent_id": "t1_m1vsa0e"
+    },
+    {
+      "id": "kwp5b27",
+      "body": "Yes I would say that's correct!\n\nThe reason that it works is because the linearity of the expected value, meaning E(X+Y) = E(X) + E(Y), works even if X and Y are dependant on each other.\n\nSo in this case you could think you have 8 random variables, where each of them is 0 if they are not being cheated on and 1 if they are being cheated on. These variables are not independent, but this doesn't matter if we are summing them in expected value. Then, you just sum the expectation of all of them (25%) and you get the answer that is 2.\n\nCheers (:",
+      "author": "pup_k",
+      "subreddit": "3Blue1Brown",
+      "created_utc": 1711485707,
+      "score": 1,
+      "link_id": "t3_agcjdk",
+      "parent_id": "t1_i60nj5o"
+    }
+  ]
+}

@@ -1,0 +1,985 @@
+{
+  "username": "OutOfCharm",
+  "posts": [
+    {
+      "id": "1hdh5mt",
+      "title": "How to defer loading yasnippet properly to save startup time?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1734110279,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "I found this way of loading yasnippet eats a lot of startup time (~ 0.2s):\n```\n(use-package yasnippet\n  :ensure t\n  :config\n  (yas-reload-all)\n  (add-hook 'prog-mode-hook #'yas-minor-mode))\n```\nHow could I defer loading it and trigger it only enters into a `prog mode`?",
+      "url": "https://www.reddit.com/r/emacs/comments/1hdh5mt/how_to_defer_loading_yasnippet_properly_to_save/"
+    },
+    {
+      "id": "1fbu536",
+      "title": "Any successful story of active inference (free energy principle)?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725788939,
+      "score": 19,
+      "num_comments": 24,
+      "selftext": "While free energy principle aims to develop a unified framework for perception and control through surprise minimization, there are little empirical results to show its promise as far as I know. Does anyone have heard some of its successful applications to the continuous control problems with image input or at least some classical control problems?  ",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1fbu536/any_successful_story_of_active_inference_free/"
+    },
+    {
+      "id": "1dr60en",
+      "title": "Is scaling law really a law?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719647298,
+      "score": 7,
+      "num_comments": 19,
+      "selftext": "First off, it narrows down to the Transformer but not other architectures. One question raises, is its current empirical findings applicable to MLPs? Secondly, more evidence have shown that when model size gets larger, there indeed has a turning point after which the loss begins to go up. So, what's the point to believe it can scale indefinitely? What I can see is that the data side really hits a limit. And the improvement of LLM comes much more from other aspects like data cleaning etc.",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1dr60en/is_scaling_law_really_a_law/"
+    },
+    {
+      "id": "1dr5ts6",
+      "title": "Why can't transformer work with small data size?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719646468,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "Is attention module inherently difficult to model relationships among words or experiences when their number is small? What might be the bottleneck, small update ratio or insufficient data to reveal true **word (or data) frequency?**",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1dr5ts6/why_cant_transformer_work_with_small_data_size/"
+    },
+    {
+      "id": "1d9kfp0",
+      "title": "What's the point of \"explore using sampled commands\" in RL upside down?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1717686404,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "After the behavior function is updated, RL upside down selects best top k recent episodes and aggregates the information from them to propose target commands being the mean of the sum of rewards and horizon of those elite episodes. Then those commands are used for generating more episodes to be added into the replay buffer. But I noticed when generating the episode, the initial state is the reset state, which means the trajectory onward may be totally irrelevant to those commands because those newly-seen states may not lead to those proposed commands, resulting the random sampled actions. In this regard, does RL upside down count on the generalization of the neural network to get a higher reward trajectory? Otherwise I don't understand how it works.",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1d9kfp0/whats_the_point_of_explore_using_sampled_commands/"
+    },
+    {
+      "id": "1cghtpj",
+      "title": "NUS or UCL, for CS PhD",
+      "author": "OutOfCharm",
+      "subreddit": "nus",
+      "created_utc": 1714444265,
+      "score": 1,
+      "num_comments": 9,
+      "selftext": "Greetings to all! I am an international student. And I have received PhD offers from both NUS and UCL in CS, specifically dedicating in machine learning. They are both great universities and also fully-funded. However, I still have some concerns. For NUS, my research interest aligns well to my POI. But if my future career aspiration is being a research scientist in big companies, i.e. DeepMind, will choosing UCL a go?  ",
+      "url": "https://www.reddit.com/r/nus/comments/1cghtpj/nus_or_ucl_for_cs_phd/"
+    },
+    {
+      "id": "1c8wkt5",
+      "title": "How to render math in eww (especially on wiki)",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1713637002,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "There is nothing more than what tells from the title.",
+      "url": "https://www.reddit.com/r/emacs/comments/1c8wkt5/how_to_render_math_in_eww_especially_on_wiki/"
+    },
+    {
+      "id": "1buzk64",
+      "title": "Alternatives to expand-region.el for more bounds",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1712167572,
+      "score": 4,
+      "num_comments": 4,
+      "selftext": "[https://github.com/magnars/expand-region.el](expand-region) supports parenthesis ```()```, squares ```[]``` and double quotes ```\"\"``` for inside and outside selection. But it seems that it doesn't support ```{}, <>, ''```. Is there any package making some improvement on this aspect?",
+      "url": "https://www.reddit.com/r/emacs/comments/1buzk64/alternatives_to_expandregionel_for_more_bounds/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3usepb",
+      "body": "Emacs fella!",
+      "author": "OutOfCharm",
+      "subreddit": "thinkpad",
+      "created_utc": 1735206068,
+      "score": 6,
+      "link_id": "t3_1hmkivh",
+      "parent_id": "t3_1hmkivh"
+    },
+    {
+      "id": "m33b9pa",
+      "body": "disable PSR to make the cursor not lagging.",
+      "author": "OutOfCharm",
+      "subreddit": "thinkpad",
+      "created_utc": 1734755709,
+      "score": 4,
+      "link_id": "t3_1hixtjl",
+      "parent_id": "t3_1hixtjl"
+    },
+    {
+      "id": "m20b0cg",
+      "body": "\\> That's not actually true. Have you ever been to various cultures you'd see that different individuals are prone to different traits.\n\nGood, keep up with your bias from a few samples in the real world. By that logic, being racist should be attributed to the traits of specific groups, and any gun violence or robbery should be as well.\n\n\\> I'd say that while indeed some schools do, most don't.\n\nOnce again, you begin with exaggeration and then narrow it down to another speculative statement. You are **circulating** unverified misinformation to reinforce your traits!\n\n\\> Different countries have different educational systems. If you just say \"some student\" then you get to the questions I listed above. Providing information and context is part of what one should do at an international conference yes.\n\nA single example should never be generalized to a broader population, regardless of the students' origin. Even more concerning, this single example has not been validated by any credible source.\n\n\\> It's not misleading at all. Also as I already explained above, raising awareness isn't spreading hatred.\n\nRaising awareness can be achieved in many ways, except the way that spreads stereotypes and misunderstanding, as these can have a profound impact on fostering hatred.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734180140,
+      "score": 2,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1zzxqq"
+    },
+    {
+      "id": "m1zxghe",
+      "body": "First off, individuals from a particular culture or educational system are not inherently prone to academic misconduct. Second, the claim that Chinese schools do not teach ethics is unfounded and appears to be an exaggeration. Third, why should it matter which country a student comes from? Is it necessary to conflate a potential cause with ethnicity or nationality at an international conference? Finally, why must raising awareness be done in such a misleading way, one that has the potential to spread hatred?",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734171359,
+      "score": 1,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1zv01p"
+    },
+    {
+      "id": "m1zv83y",
+      "body": "That's good. You are aware that this difference can cause misunderstanding.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734169749,
+      "score": -2,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1zsg93"
+    },
+    {
+      "id": "m1ztlfx",
+      "body": "Certainly, you can bring attention to the cultural and political level, which is a problem that warrants the effort of every country. But what the speaker intends to convey is a spread of stereotyping. How could you generalize from a student misusing AI tool (which by the way is not verified to be a truth) to a broader of innocent scholars? Stop spreading hatred; it does not help in resolving this shared issue.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734168568,
+      "score": -3,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1zsb2w"
+    },
+    {
+      "id": "m1zqfiu",
+      "body": "I think it is not conducive to exaggerate the rare and potentially accumulable event to a broader spectrum, which is what did by the speaker. You also admitted that the academic misconduct is everywhere, there is no point to single out a specific nationality.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734166346,
+      "score": -4,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1zpa0v"
+    },
+    {
+      "id": "m1zoell",
+      "body": "So, this is your personal take, right? And there is no evidence from the speaker of what you said. Don't confuse the government with academia; not everyone is interested in politics.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734164911,
+      "score": -7,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1znctr"
+    },
+    {
+      "id": "m1zmf05",
+      "body": "Can you elaborate on which ideology it is and what it entails? And is there any evidence from the speaker or beyond?",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734163529,
+      "score": 6,
+      "link_id": "t3_1hdxbru",
+      "parent_id": "t1_m1zjzqq"
+    },
+    {
+      "id": "m1zkh26",
+      "body": "Thanks for your explanation, learned a lot! Actually when I refer to \"narrower version\", I was thinking of that they are more explicit conditions to trigger a package, whereas defer simply does nothing unless there are actions from a user or internal reference among packages, which may not work as intended since the boundary is sometimes unclear.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1734162260,
+      "score": 1,
+      "link_id": "t3_1hdh5mt",
+      "parent_id": "t1_m1zj1f1"
+    },
+    {
+      "id": "m1z8i5s",
+      "body": "So whenever there is a :bind, :command, or :hook inside the use-package, the package will be lazy loaded?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1734154813,
+      "score": 1,
+      "link_id": "t3_1hdh5mt",
+      "parent_id": "t1_m1wamet"
+    },
+    {
+      "id": "m1z7y8e",
+      "body": "Sorry for my late reply. Thank you for your help, it now works.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1734154509,
+      "score": 1,
+      "link_id": "t3_1hdh5mt",
+      "parent_id": "t1_m1w13o9"
+    },
+    {
+      "id": "m1okdqr",
+      "body": "If this comes true, it will be a killer feature for the machine learning community and beyond. Can't wait to see how it unfolds!",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1734006221,
+      "score": 3,
+      "link_id": "t3_1hccvoj",
+      "parent_id": "t1_m1ncnsg"
+    },
+    {
+      "id": "lxlr0z8",
+      "body": "Seems reasonable to use LORA over policy network. But the question is how you manage to \"increase\" the amount of biased data towards those \"rare\" failure cases?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731857458,
+      "score": 1,
+      "link_id": "t3_1gtb77g",
+      "parent_id": "t1_lxl38f2"
+    },
+    {
+      "id": "lxjz0k3",
+      "body": "The first two have experiments with pure intrinsic rewards. You can continue to read other papers, they mainly focus on intrinsic rewards.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731822792,
+      "score": 1,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t1_lxjxplh"
+    },
+    {
+      "id": "lxjrtyy",
+      "body": "I will list a few for your reference:\n\n1. [Smirl: Surprise Minimizing Reinforcement Learning In Unstable Environments](https://arxiv.org/pdf/1912.05510)\n2. [BYOL-Explore: Exploration by Bootstrapped Prediction](https://arxiv.org/pdf/2206.08332)\n3. [Is Curiosity All You Need? On the Utility of Emergent Behaviours from Curious Exploration](https://arxiv.org/pdf/2109.08603)\n4. [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960)\n5. [Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning](https://arxiv.org/pdf/1509.08731)\n6. [Unsupervised Real-Time Control through Variational Empowerment](https://arxiv.org/pdf/1710.05101)\n7. [Model-Based Active Exploration](http://proceedings.mlr.press/v97/shyam19a/shyam19a.pdf)",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731819277,
+      "score": 2,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t1_lxjpnnr"
+    },
+    {
+      "id": "lxjp4om",
+      "body": "Yes, it is any method without external rewards.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731818029,
+      "score": 1,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t1_lxgld7c"
+    },
+    {
+      "id": "lxgj9xp",
+      "body": "RL can be supervised by external \"reward\" but also self-supervised by intrinsic motivation (e.g. curiosity, empowerment, uncertainty etc.), so there is no strict distinction.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731777517,
+      "score": 1,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t1_lxg6uuw"
+    },
+    {
+      "id": "lxe37o0",
+      "body": "Intrinsic motivation isn't categorized as \"external\" as well.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731735268,
+      "score": 1,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t1_lxde26x"
+    },
+    {
+      "id": "lx7v7em",
+      "body": "Why must one care about what he says? It is important to be critical of all kinds of arguments, discerning what seems right or wrong. In the future, deep learning might become obsolete, as might RL. Both have their pros and cons until we can find a more efficient system that closely approximates intelligence.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731648721,
+      "score": 15,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t3_1grk1lb"
+    },
+    {
+      "id": "lx7ueev",
+      "body": "Can you elaborate more how synaptic plasticity allows for continual learning?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1731648349,
+      "score": 2,
+      "link_id": "t3_1grk1lb",
+      "parent_id": "t1_lx7rzrp"
+    },
+    {
+      "id": "lsh9zpb",
+      "body": "I don't think the advocacy of freedom is an issue here. Instead, it is the antique-like looking, performance lagging, and lack of a good defaults that draw new users back. In addition, I think the attitude \"it's fine just the way it is\" is not wrong but I agree it is not good. As it is like a stubborn excuse that tries to justify the current situation. Ultimately, with an ease, appealing and engaging starting point, the users can try to build stuffs on their own to not only make emacs on-par with VS Code but also better than VS Code, that's what the emacs attempting to convey - the full control of your editor.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1729225901,
+      "score": 1,
+      "link_id": "t3_1g5t9h7",
+      "parent_id": "t1_lsgygxk"
+    },
+    {
+      "id": "lsguv9b",
+      "body": "If the first three could be resolved, I believe emacs will strike back.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1729219064,
+      "score": 1,
+      "link_id": "t3_1g5t9h7",
+      "parent_id": "t1_lseh74z"
+    },
+    {
+      "id": "lsguko5",
+      "body": "David Silver's RL course is good to start.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1729218946,
+      "score": 1,
+      "link_id": "t3_1g5leg1",
+      "parent_id": "t1_lserm0p"
+    },
+    {
+      "id": "ls2jqej",
+      "body": "Meow is powerful. I built a layer-wise [keymapping](https://github.com/MagiFeeney/scamx) that resembles to the default keybindings of emacs.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1729013839,
+      "score": 5,
+      "link_id": "t3_1g445v9",
+      "parent_id": "t3_1g445v9"
+    },
+    {
+      "id": "ls0gbkm",
+      "body": "Decompose the addition into subgoals?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1728983451,
+      "score": 1,
+      "link_id": "t3_1g3hdrt",
+      "parent_id": "t3_1g3hdrt"
+    },
+    {
+      "id": "lrjtsmd",
+      "body": "If you are seeking for a PhD position, do good research and accumulate publications. If you have other intents, don't bother applying.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1728732271,
+      "score": 2,
+      "link_id": "t3_1g1wgby",
+      "parent_id": "t3_1g1wgby"
+    },
+    {
+      "id": "lqa65u6",
+      "body": "You mean that the reconstruction term might be important for TD-MPC which in practice doesn't have?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1728039884,
+      "score": 1,
+      "link_id": "t3_1fvckc1",
+      "parent_id": "t1_lq937hi"
+    },
+    {
+      "id": "lmk818g",
+      "body": "My two cents:\n\n1. find a supervisor or a PhD student who is willing to work with you, better have shared interests (This step is important, because for most people, their first research experience largely determined their future research direction).  \n2. read papers about RL, be critical and ask questions frequently, possibly making it a research question worth exploring and people think highly of.  \n3. practice coding, reproduce some popular algorithms on you own, ultimately can quickly turn your ideas into code.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1726031507,
+      "score": 2,
+      "link_id": "t3_1fdz4jl",
+      "parent_id": "t3_1fdz4jl"
+    },
+    {
+      "id": "lmjyzuu",
+      "body": "Thanks for sharing. Those results look promising. My research is open to active inference, and I will keep a close eye on it.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1726027074,
+      "score": 2,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lmgvfuc"
+    },
+    {
+      "id": "lm933f6",
+      "body": "Yes. The main issue here is that you cannot distinguish \"good\" or \"bad\" from single metric. Like for your first example, ```P(die | s, not eat)``` is very high, leading to low entropy, which contradicts to surprise mimimization as we don't prefer that consequence. Furthermore, consider the second example that you mentioned, suppose we are at a state ```s``` of being hungry, the only actions we can choose are either ```eat (E)``` or ```not eat (NE)```, then there are two cases, ```P(s' = more hungry | s, a = NE)``` and ```P(s' = satisfied | s, a=E)```, clearly both are in high probability, but we prefer the latter. However, surprise minimization fails to distinguish those two cases.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725874307,
+      "score": 1,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lm8ux08"
+    },
+    {
+      "id": "lm8uck5",
+      "body": "After reading this paper, I am more convinced that surprise minimization alone is not sufficient for solving a control problem. It encourages exploitation about what has been known, but doesn't deal well with exploration. That's why when surprise minimization is integrated with some intrinsic rewards, it can induce more natural gait movements.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725868002,
+      "score": 1,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lm71tcg"
+    },
+    {
+      "id": "lm4u2xy",
+      "body": "But FEP does provide insights on how to learn a world model that needs to quickly adapt to the changes of environment (that's the meaning of minimizing prediction error). However, it is weird that the policy should also minimize the prediction error rather than maximizing rewards. And that prompts me to combine the FEP with \"control as inference\" framework so that we can have both worlds.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725811871,
+      "score": 2,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lm4o13i"
+    },
+    {
+      "id": "lm49sar",
+      "body": "So I want to hear about your opinion on matching to the desired ones (active inference) versus maximizing cumulative rewards (RL). The problem of the former is that if you want agent to match some goals you have to let it find goals in the first step, whereas RL can hardcode that into reward function. And I don't think minimizing the prediction error helps find goals.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725805483,
+      "score": 1,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lm47xgf"
+    },
+    {
+      "id": "lm43wnv",
+      "body": "So basically you could let rewards (both the extrinsic and intrinsic) as desired observations, then you want to minimize the prediction error wrt the future sum of rewards. But how about the policy? Could it use the approximated rewards to select better actions? Because originally the policy is used to help minimize the prediction error rather than directly maximizing rewards.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725803533,
+      "score": 1,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lm3xgnz"
+    },
+    {
+      "id": "lm424w6",
+      "body": "Any reference paper for solving a entropy-regularized POMDP?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1725802924,
+      "score": 2,
+      "link_id": "t3_1fbu536",
+      "parent_id": "t1_lm3p9qy"
+    },
+    {
+      "id": "llqpk2j",
+      "body": "Second this.\n\n```\n# -*- mode: snippet -*-\n# name: frac\n# key: f\n# --\n\\frac{${1:}}{${2:}}$0\n```\n\n```\n# -*- mode: snippet -*-\n# name : limit\n# key: lim\n# --\n\\lim_{$1}$0\n```",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1725593697,
+      "score": 2,
+      "link_id": "t3_1fa4byc",
+      "parent_id": "t1_llqkmjm"
+    },
+    {
+      "id": "lhwta0b",
+      "body": "So it has to wait until the end to know the true state?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1723557682,
+      "score": 1,
+      "link_id": "t3_1er21m5",
+      "parent_id": "t1_lhvsf4r"
+    },
+    {
+      "id": "lekera3",
+      "body": "I think tree-sitter is not necessary if using built-in sexp expression with better key maps.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1721752390,
+      "score": 1,
+      "link_id": "t3_1e9gr81",
+      "parent_id": "t1_lee4j93"
+    },
+    {
+      "id": "ldr82w1",
+      "body": "I think you can check danijar's twitter about the change of Dreamer-V3, it summarizes where has been modified.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1721302036,
+      "score": 1,
+      "link_id": "t3_1e67w8p",
+      "parent_id": "t3_1e67w8p"
+    },
+    {
+      "id": "ldanqf3",
+      "body": "I use emacs bindings in a modal way, that is, scamx, a package on top of meow. I never find vi's keybindings efficient, why the hell you need at least three keys when following the so-called vi's syntax. Most keybindings in scamx only require one press, few need two. And ultimately you can have navigation, sexp manipulation and window management sharing one layer.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1721054067,
+      "score": 1,
+      "link_id": "t3_1e3b5i0",
+      "parent_id": "t3_1e3b5i0"
+    },
+    {
+      "id": "ld2r04l",
+      "body": "You can also use average reward formulation, which will account the horizon in your sparse reward scenario.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1720921332,
+      "score": 1,
+      "link_id": "t3_1e2eqg8",
+      "parent_id": "t1_ld1kq5r"
+    },
+    {
+      "id": "lcho0j8",
+      "body": "I guess it's because PPO uses observation normalization, which might not work well on top of the representation states.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1720607313,
+      "score": 1,
+      "link_id": "t3_1dyzi9z",
+      "parent_id": "t3_1dyzi9z"
+    },
+    {
+      "id": "lb32ovs",
+      "body": "Can you provide some examples (better papers) on this?",
+      "author": "OutOfCharm",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1719810153,
+      "score": 1,
+      "link_id": "t3_1ds8gzm",
+      "parent_id": "t1_lb2wfli"
+    },
+    {
+      "id": "lb2wvak",
+      "body": "We cannot draw a line between few versions, right？If scaling is the solution, why not scale it further? (though compute is the bottleneck, but if it is deemed to not have marginal benefits then people should be willing to do that). Most works are trying to improve the performance with a box of tricks along the same axis of parameters size at least from the current trend. There is no doubt that there are bigger models under training by large companies, but people might also realize that scaling alone won't suffice.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719806977,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lb2uud8"
+    },
+    {
+      "id": "lb2rbm8",
+      "body": "What I really want to express is that the improvement of LLMs can be very compound when strengthened from many different angles, and surely the model can get bigger, but it could be more difficult to tell how much benefits are from scaling.\n\nAnd I mean no offense to any individual, I greatly appreciate the knowledge and clarification from gwern. I just feel scaling can't be the only solution towards general intelligence. There are more fundamental aspects needed to explore and tackle, from visual percepts, attention, memory and learning. Again, I am not against scaling as it is already very useful at its current stage. But I hope we can see both the strengths and costs of scaling, and pave a way for a deeper understanding of the underlying mechanism of intelligence.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719804234,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lb2b9fz"
+    },
+    {
+      "id": "lb2nldu",
+      "body": "Yes. It might partially explain why transformers do not work as expected for model-based RL. It still needs new architectures for better suiting the low data scenario, which I think is sufficient for solving real world problems (as indicated by animals), and scaling with more data can eventually be a bonus.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719802509,
+      "score": 1,
+      "link_id": "t3_1dr5ts6",
+      "parent_id": "t1_lb0hp0o"
+    },
+    {
+      "id": "lax6a0h",
+      "body": "I can't agree with \"scaling up makes the model more sample-efficient in training\". It's like solving a problem with brutal force by enumerating all possible cases. It's meaningless to say efficiency when data size is varying.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719713268,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lavtci8"
+    },
+    {
+      "id": "laufy2t",
+      "body": "That's a fair comparison. Let's see what's the limit of scaling.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719675338,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lau71wr"
+    },
+    {
+      "id": "latdmk5",
+      "body": "FYI, paredit suffices because it can automatically identify what bounds you are in or nearest.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1719658851,
+      "score": 1,
+      "link_id": "t3_1dq852m",
+      "parent_id": "t1_latbue0"
+    },
+    {
+      "id": "lat99r8",
+      "body": "The statement of \"the more data the deeper understanding\" is true, because for your gravitational force example, children need to input the real world example to get a sense of it. However, in the same low-data regime, the transformer is incomparably inefficient at utilizing the data. But from another perspective, the human brain is incapable of handling massive data. So I believe there should be a trade-off and interpolation.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719656188,
+      "score": 1,
+      "link_id": "t3_1dr5ts6",
+      "parent_id": "t1_lat4kjd"
+    },
+    {
+      "id": "lat8bzu",
+      "body": "I am also afraid that any improvements from other aspects would be accounted to the \"scaling\", which is hugely misleading.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719655579,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lat4evj"
+    },
+    {
+      "id": "lat83bv",
+      "body": "I agree. The scaling claim is too fragile to be true as long as there are enough computes to falsify it. But the contrary thing is that no one has that many computes, so the hype will continue to raise more funding.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719655423,
+      "score": 2,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_lat4evj"
+    },
+    {
+      "id": "lat1dp0",
+      "body": "I'm not sure where I have encountered one paper in which it depicts a U curve in terms of model loss w.r.t. the parameter size. Unfortunately I have not bookmarked. There might be some recall bias.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719650946,
+      "score": 1,
+      "link_id": "t3_1dr60en",
+      "parent_id": "t1_laszxtm"
+    },
+    {
+      "id": "lana0j9",
+      "body": "I think it doesn't make sense. REINFORCE indeed has a parametrized policy network, while DQN doesn't. In you case, DDPG would be more related because it maintains a delayed policy target network. But the problem is, DDPG uses both the policy target and Q target to produce a stabler TD target for TD learning, rather than policy learning. In contrast, REINFORCE doesn't perform TD learning at all so it is meaningless to have a policy target.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719558492,
+      "score": 2,
+      "link_id": "t3_1dpqokh",
+      "parent_id": "t1_lajml5i"
+    },
+    {
+      "id": "lan8yu1",
+      "body": "One straightforward question is that can LLM judge novelty beyond the grid game?  Like for continuous state space, how could it \"know\" whether it is a surprise? So I think this renders its application limited.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719557823,
+      "score": 1,
+      "link_id": "t3_1dq6hq9",
+      "parent_id": "t3_1dq6hq9"
+    },
+    {
+      "id": "lan8jfk",
+      "body": "I think you can try paredit. Specifically go out of the bounds using ```paredit-backward-up``` and ```paredit-forward-up```, or move inside the expression with ```paredit-backward-down``` and ```paredit-forward-down```.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1719557553,
+      "score": 1,
+      "link_id": "t3_1dq852m",
+      "parent_id": "t3_1dq852m"
+    },
+    {
+      "id": "lajdrpg",
+      "body": "So you want to turn REINFORCE into an actor-critic algorithm?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1719503466,
+      "score": 1,
+      "link_id": "t3_1dpqokh",
+      "parent_id": "t3_1dpqokh"
+    },
+    {
+      "id": "l9lk82u",
+      "body": "For your purpose, you could either make a delete map then bind it to a key in the normal mode; or you create another layer but should be care about the back-and-forth between the normal mode and your customized mode, which usually requires a key to exit from the customized mode to normal mode. Since I once tried to develop a new keybindings that fit my need on top of meow, the same procedures could be useful for you, please refer to [scamx-convert.el](https://github.com/MagiFeeney/scamx/blob/main/scamx-convert.el) and [scamx-anchor.el](https://github.com/MagiFeeney/scamx/blob/main/scamx-anchor.el) for example.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1718967857,
+      "score": 2,
+      "link_id": "t3_1dkwugw",
+      "parent_id": "t3_1dkwugw"
+    },
+    {
+      "id": "l8v34i5",
+      "body": "You are legend!",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1718547744,
+      "score": 3,
+      "link_id": "t3_1dgonk9",
+      "parent_id": "t1_l8v2vqd"
+    },
+    {
+      "id": "l8uzqum",
+      "body": "Interesting work! I wonder how the reward function is designed, out of some reference or based on your knowledge?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1718546338,
+      "score": 4,
+      "link_id": "t3_1dgonk9",
+      "parent_id": "t1_l8r8xme"
+    },
+    {
+      "id": "l7ry1ou",
+      "body": "You can bind some keys in meow to built-in functions ```up-list``` and ```backward-up-list``` for jumping lists.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1717909770,
+      "score": 1,
+      "link_id": "t3_1dbj69n",
+      "parent_id": "t3_1dbj69n"
+    },
+    {
+      "id": "l6rd6af",
+      "body": "Gumbel max is related to argmax whereas Gumbel softmax to softmax.",
+      "author": "OutOfCharm",
+      "subreddit": "MachineLearning",
+      "created_utc": 1717332306,
+      "score": 1,
+      "link_id": "t3_1d3hadp",
+      "parent_id": "t1_l67b4e4"
+    },
+    {
+      "id": "l6kxbi1",
+      "body": "Isn't magit default to motion? What's the point here as long as you don't override too much of magit's keybindings?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1717216637,
+      "score": 1,
+      "link_id": "t3_1d4zh8m",
+      "parent_id": "t1_l6km3wu"
+    },
+    {
+      "id": "l2o1ke0",
+      "body": "I simply found there is a room for improvement over vim's modal editing. If you want to do this inside vim, it won't be easy. However, emacs allows you to build from ground up with its capacity of customization.\n\nThe core problems of emacs regarding popularity IMO are that, on one hand, it doesn't take serious consideration of selling itself; on the other hand, it lacks a user friendly template at the starting point that everyone can build upon. I really want the developers of the emacs can take off the historical legacy, and be bold to prune unnecessary aspects.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1714902683,
+      "score": 3,
+      "link_id": "t3_1ckm3yu",
+      "parent_id": "t3_1ckm3yu"
+    },
+    {
+      "id": "l27vg6e",
+      "body": "Let's seeee.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714639721,
+      "score": 1,
+      "link_id": "t3_1cia0r3",
+      "parent_id": "t1_l27tds9"
+    },
+    {
+      "id": "l27spc8",
+      "body": "What is the advantages over MLPs have you observed?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714637601,
+      "score": 3,
+      "link_id": "t3_1cia0r3",
+      "parent_id": "t3_1cia0r3"
+    },
+    {
+      "id": "l1xa1yz",
+      "body": "Hopefully this [paper](https://arxiv.org/pdf/2303.01240) can give you some insights where you can refer to the \"conservative Bellman operator\" as defined in the paper. For discrete case, the uniform distribution $\\\\frac{1}{n}$ will vanish from both sides, then you recover to the maximum entropy framework.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714476101,
+      "score": 1,
+      "link_id": "t3_1cglgra",
+      "parent_id": "t1_l1x9cs5"
+    },
+    {
+      "id": "l1x9cs5",
+      "body": "I think it will reduce to the maximum entropy case similar to SAC, but only accounts for the immediate reward. You can have a equivalent expression to what the code called \"reference free\" by applying the KL divergence with a uniform distribution. So, it encourages exploration.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1714475723,
+      "score": 1,
+      "link_id": "t3_1cglgra",
+      "parent_id": "t3_1cglgra"
+    },
+    {
+      "id": "l1wp5t1",
+      "body": "For privacy sake, I am afraid that I am unable to reveal the sub-field as it is easier to narrow down the professors' name.",
+      "author": "OutOfCharm",
+      "subreddit": "nus",
+      "created_utc": 1714461483,
+      "score": 1,
+      "link_id": "t3_1cghtpj",
+      "parent_id": "t1_l1wd9pe"
+    },
+    {
+      "id": "l1w8s86",
+      "body": "I haven't chatted with my POI since there needs a rotation at year 1 (but planning to do so early), but consulted few current students in the lab, knowing that the atmosphere is pretty good and I would have more freedom on my side.  Regarding UCL, though sharing the overall research direction, it is not as tightly related to the research questions that I want to answer in the future as NUS. So yes, there has to be a trade-off.",
+      "author": "OutOfCharm",
+      "subreddit": "nus",
+      "created_utc": 1714451445,
+      "score": 1,
+      "link_id": "t3_1cghtpj",
+      "parent_id": "t1_l1w4z5w"
+    },
+    {
+      "id": "l1vpc1r",
+      "body": "what if you want to keep connection on ssh?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1714442920,
+      "score": 1,
+      "link_id": "t3_1cfw5zq",
+      "parent_id": "t1_l1t39r9"
+    },
+    {
+      "id": "l0x0get",
+      "body": "Only ```x``` with my cusomized modal editing.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1713892588,
+      "score": 1,
+      "link_id": "t3_1cav5n7",
+      "parent_id": "t3_1cav5n7"
+    },
+    {
+      "id": "kymkef6",
+      "body": "magit for sure.",
+      "author": "OutOfCharm",
+      "subreddit": "linux",
+      "created_utc": 1712588252,
+      "score": 57,
+      "link_id": "t3_1byzigk",
+      "parent_id": "t3_1byzigk"
+    },
+    {
+      "id": "kxia8gq",
+      "body": "But this is a sampling-based approach without knowing the dynamics, right?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711951025,
+      "score": 1,
+      "link_id": "t3_1bs9hsm",
+      "parent_id": "t1_kxgvar7"
+    },
+    {
+      "id": "kxf3zrv",
+      "body": "Thank you!",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711904141,
+      "score": 1,
+      "link_id": "t3_1bs9hsm",
+      "parent_id": "t1_kxf2s2f"
+    },
+    {
+      "id": "kxezolt",
+      "body": "Interesting idea of \"goal\\_distance\" variable. Do you have any reference for this approach?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1711902599,
+      "score": 1,
+      "link_id": "t3_1bs9hsm",
+      "parent_id": "t1_kxerozn"
+    },
+    {
+      "id": "kuuxctj",
+      "body": "Turning emacs into a magit-like program. Emacs allows me to rebind everything I like.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1710435083,
+      "score": 2,
+      "link_id": "t3_1benj4g",
+      "parent_id": "t3_1benj4g"
+    },
+    {
+      "id": "kuctcqk",
+      "body": "Alright, so how to choose the desired return?",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1710158536,
+      "score": 1,
+      "link_id": "t3_1bbavui",
+      "parent_id": "t1_ku9ms83"
+    },
+    {
+      "id": "ku0yv0q",
+      "body": "I use \\[scamx\\](https://github.com/MagiFeeney/scamx) built on top of meow, but in a different philosophy.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1709959071,
+      "score": 1,
+      "link_id": "t3_1b9vqxp",
+      "parent_id": "t3_1b9vqxp"
+    },
+    {
+      "id": "kp78dfp",
+      "body": "Dreamer-v3 official repo supports vector input...",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1707239009,
+      "score": 3,
+      "link_id": "t3_1akcyjs",
+      "parent_id": "t3_1akcyjs"
+    },
+    {
+      "id": "kp0weon",
+      "body": "I believe temporal difference learning with linear function approximation is a good topic which gives you a quick feedback when conducting experiments.",
+      "author": "OutOfCharm",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1707141344,
+      "score": 1,
+      "link_id": "t3_1ajgagr",
+      "parent_id": "t3_1ajgagr"
+    },
+    {
+      "id": "kovtq9w",
+      "body": "As an emacs user, I suggest you trying it. Especially [meow](https://github.com/meow-edit/meow) package.",
+      "author": "OutOfCharm",
+      "subreddit": "neovim",
+      "created_utc": 1707058540,
+      "score": 1,
+      "link_id": "t3_1aim16u",
+      "parent_id": "t3_1aim16u"
+    },
+    {
+      "id": "kjo5a88",
+      "body": "Thanks for your attention. I actually haven't tried general.el out yet. And I am pretty satisfied with my current setup.",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1706284002,
+      "score": 2,
+      "link_id": "t3_164b371",
+      "parent_id": "t1_kjo1lsi"
+    },
+    {
+      "id": "kjcg80r",
+      "body": "Did you hear anything back?",
+      "author": "OutOfCharm",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706102342,
+      "score": 1,
+      "link_id": "t3_19dnv0v",
+      "parent_id": "t1_kj749mr"
+    },
+    {
+      "id": "ki526ui",
+      "body": "Isn't there an \\`emacs-mode\\` in evil if I remember correctly, binded by \\`C-z\\`?",
+      "author": "OutOfCharm",
+      "subreddit": "emacs",
+      "created_utc": 1705421709,
+      "score": 2,
+      "link_id": "t3_1985v89",
+      "parent_id": "t3_1985v89"
+    },
+    {
+      "id": "khstvc5",
+      "body": "Good luck! I believe it's a bit tough.",
+      "author": "OutOfCharm",
+      "subreddit": "ethz",
+      "created_utc": 1705229705,
+      "score": 2,
+      "link_id": "t3_1969x0p",
+      "parent_id": "t1_khsn3nd"
+    },
+    {
+      "id": "khsk6y2",
+      "body": "which lab?",
+      "author": "OutOfCharm",
+      "subreddit": "ethz",
+      "created_utc": 1705222512,
+      "score": 2,
+      "link_id": "t3_1969x0p",
+      "parent_id": "t3_1969x0p"
+    },
+    {
+      "id": "khbi3sq",
+      "body": "Did you receive an interview before the decision release?",
+      "author": "OutOfCharm",
+      "subreddit": "EPFL",
+      "created_utc": 1704947685,
+      "score": 2,
+      "link_id": "t3_18z1pfe",
+      "parent_id": "t1_kgj4uku"
+    }
+  ]
+}

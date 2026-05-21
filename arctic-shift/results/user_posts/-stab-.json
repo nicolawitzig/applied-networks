@@ -1,0 +1,211 @@
+{
+  "username": "-stab-",
+  "posts": [
+    {
+      "id": "1gyn1he",
+      "title": "It's time to take it a step further.",
+      "author": "-stab-",
+      "subreddit": "dankmemes",
+      "created_utc": 1732440032,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://i.redd.it/wjk8wzqfht2e1.jpeg"
+    },
+    {
+      "id": "1ggombk",
+      "title": "Jupyter notebook compact layout",
+      "author": "-stab-",
+      "subreddit": "vscode",
+      "created_utc": 1730407525,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey everyone!\n\nI often use a split screen layout in VS Code with a Jupyter notebook and some other stuff. On my laptop, this gets a bit tight, so I will take any horizontal space I can get.\n\nIs there a way to reduce or completely get rid of the space on the left of a code cell? It seems like the 'run' button and the cell number could well be moved somewhere else. For example, the cell number inside the cell like the other information and the run button above like the other buttons.\n\nThe 'run' button can also just be gone for all I care.\n\nI would also be interested in reducing the spacing on the right.\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/vscode/comments/1ggombk/jupyter_notebook_compact_layout/"
+    },
+    {
+      "id": "1ggogf3",
+      "title": "Jupyter notebook compact layout",
+      "author": "-stab-",
+      "subreddit": "vscode",
+      "created_utc": 1730407091,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hey everyone!\n\nI often use a split screen setup in VS Code with Jupyter notebooks and other stuff. On my laptop, this gets a bit tight, so I'll take every bit of horizontal space I can get.\n\nIs there a way to reduce or completely get rid of the space on the left side of the code cell? It seems like the 'run' button and the cell number really do not need to be there. They could just above like the other buttons and inside the cell like the \"python\" label on the bottom right or something.\n\nThe 'run' button can also just be gone for all I care.\n\nI'm also interested in reducing the space on the right side.\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/vscode/comments/1ggogf3/jupyter_notebook_compact_layout/"
+    },
+    {
+      "id": "1fz0x0n",
+      "title": "How to properly use Pluto notebooks",
+      "author": "-stab-",
+      "subreddit": "Julia",
+      "created_utc": 1728397141,
+      "score": 20,
+      "num_comments": 5,
+      "selftext": "I'm new to Julia and am currently trying out Pluto notebooks. There are a lot of things I like about them, but I have a few questions. (I'm coming from Python and Jupyter)\n\n1. Why can't I just throw several statements in one cell? On the Pluto website, I read that this should help you write less buggy code. It is however not explained why, and I have no idea how wrapping them into a `begin ... end` makes me write better code. I suspect the idea is to work with functions more?\n2. Why are `println` outputs shown in this terminal thing, and not just in the \"normal\" cell output? And how can I write a function that prints stuff to the normal output? (For example, the Optim.jl package seems to be able to do that.)\n3. Is there an easy way to quickly restart Julia? Or do I have to restart Pluto for that?\n4. Can I change the default code highlighting? The default colors are less than ideal for certain visual impairments.\n\nThank you in advance!",
+      "url": "https://www.reddit.com/r/Julia/comments/1fz0x0n/how_to_properly_use_pluto_notebooks/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2uqz0h",
+      "body": "As far as I know, \"\\] activate\" only works in the REPL (Terminal).\n\nYou can either just install DataFrames from the terminal the way you seem to be used to or do it directly in your script using\n\n    using Pkg\n    Pkg.add(\"DataFrames\") \n    using DataFrames",
+      "author": "-stab-",
+      "subreddit": "Julia",
+      "created_utc": 1734630687,
+      "score": 3,
+      "link_id": "t3_1hhyebl",
+      "parent_id": "t3_1hhyebl"
+    },
+    {
+      "id": "m1ud3xw",
+      "body": "Like others have said, some info about your setup would be helpful.\n\nIf you use anaconda, use ‚conda install numpy‘. Otherwise wou might have to use pip3 instead of pip.",
+      "author": "-stab-",
+      "subreddit": "learnpython",
+      "created_utc": 1734088667,
+      "score": 2,
+      "link_id": "t3_1hd9hr3",
+      "parent_id": "t1_m1uccyn"
+    },
+    {
+      "id": "m0ojh6d",
+      "body": "The speed of light is roughly 300‘000‘000 m/s. So 0.001% of that is still pretty fast with:\n- 3’000 m/s\n- 10‘800 km/h\n- 17’380 mph",
+      "author": "-stab-",
+      "subreddit": "FunnyAnimals",
+      "created_utc": 1733475150,
+      "score": 3,
+      "link_id": "t3_1h7moh3",
+      "parent_id": "t1_m0nyjm8"
+    },
+    {
+      "id": "m06xil0",
+      "body": "\\[LANGUAGE: Julia\\]\n\nRegex? Never heard of it!\n\n[My solution](https://github.com/fab-u/AOC2024/blob/main/day3/day3.jl) could probably be optimized by a lot but im quite happy with it.",
+      "author": "-stab-",
+      "subreddit": "adventofcode",
+      "created_utc": 1733229938,
+      "score": 2,
+      "link_id": "t3_1h5frsp",
+      "parent_id": "t3_1h5frsp"
+    },
+    {
+      "id": "m029t0c",
+      "body": "Well it‘s a pretty hard lego set ok?!",
+      "author": "-stab-",
+      "subreddit": "funny",
+      "created_utc": 1733160028,
+      "score": 1,
+      "link_id": "t3_1h3p9n6",
+      "parent_id": "t1_lzsf2pq"
+    },
+    {
+      "id": "m01m932",
+      "body": "Ah nice, I already thought `readlines(open(\"input.txt\", \"r\"))` looked a bit clunky when i wrote it.\n\nI will also definitely use `eachindex` in the future! But I don't get a message when doing it the way I did, do you have any idea why? (I use Julia 1.10 in VS Code with the extension)\n\nAnyway, thank you a lot!",
+      "author": "-stab-",
+      "subreddit": "adventofcode",
+      "created_utc": 1733152370,
+      "score": 1,
+      "link_id": "t3_1h4ncyr",
+      "parent_id": "t1_m0135cq"
+    },
+    {
+      "id": "m00s1cj",
+      "body": "\\[LANGUAGE: Julia\\]\n\nSolution by force. I'm still new to Julia and always happy about suggestions :)\n\n    reports = [parse.(Int, split(line)) for line in readlines(open(\"input.txt\", \"r\"))]\n    \n    function \n    is_safe\n    (report::Vector{Int})\n        grad = diff(report) \n        return all(x -> abs(x) <= 3, grad) && (all(x -> x > 0, grad) || all(x -> x < 0, grad))\n    end\n    \n    n_safe = 0\n    n_also_safe_if_you_trust_the_engineers = 0\n    \n    for report in reports\n        if is_safe(report)\n            global n_safe += 1\n        else\n            for i in 1:length(report)\n                if is_safe(report[setdiff(1:end, i)])\n                    global n_also_safe_if_you_trust_the_engineers += 1\n                    break\n                end\n            end\n        end\n    end\n    \n    println(\"Part 1: \", n_safe)\n    println(\"Part 2: \", n_safe + n_also_safe_if_you_trust_the_engineers)",
+      "author": "-stab-",
+      "subreddit": "adventofcode",
+      "created_utc": 1733139251,
+      "score": 2,
+      "link_id": "t3_1h4ncyr",
+      "parent_id": "t3_1h4ncyr"
+    },
+    {
+      "id": "lzvopuq",
+      "body": "Firstly, I think that my browser is probably the app I share the most sensitive data in. So yes, for me privacy in the browser is more important than pretty much anywhere else.\n\nBut second of all, you write that \"we\" are using WhatsApp, Instagram ect. But I think many if not most people who are concerned about privacy in their browser are also concerned about their privacy on those platforms. Many don't use at least some of those things because of this.\n\nIn the end, you will just have to decide for yourself what software you want to use. What data can they collect from you? Is it worth the privacy \"loss\"? Are there competitive privacy-oriented alternatives? I also use apps that collect data from me, but I think it's good to ask those questions to yourself before you do.",
+      "author": "-stab-",
+      "subreddit": "browsers",
+      "created_utc": 1733066309,
+      "score": 1,
+      "link_id": "t3_1h42a2g",
+      "parent_id": "t3_1h42a2g"
+    },
+    {
+      "id": "lzvfewi",
+      "body": "\\[LANGUAGE: Julia\\]\n\n    # Get file content\n    file = open(\"numbers.txt\", \"r\")\n    \n    content = split.(readlines(file))\n    get_sorted\n    (n) = sort(parse.(Int, getindex.(content, n)))\n    A, B = get_sorted.([1,2]) \n    # get sorted integer vectors of both columns\n    \n    # Part 1: distance between lists\n    distance = sum(abs.(A - B))\n    println(\"Distance between lists: $(distance)\")\n\nFor the second part, I used the sorted vectors to easily reuse already counted numbers. Also, the counting can be done faster in sorted vectors, since not every number has to be checked. (could be improved further)\n\n    # Part 2: similarity score\n    function similarity_score(A, B)\n        score, a_previous, count_previous = 0, 0, 0\n        for a in A\n            if a == a_previous \n                count = count_previous\n            else \n                count = 0\n                for b in B\n                    if a == b\n                        count += 1\n                    elseif b > a\n                        break \n                    end\n                end\n            end\n            \n            score += a * count\n            count_previous, a_previous = count, a\n        end\n        return score\n    end\n    \n    println(\"Similarity score: $(similarity_score(A, B))\")",
+      "author": "-stab-",
+      "subreddit": "adventofcode",
+      "created_utc": 1733062764,
+      "score": 2,
+      "link_id": "t3_1h3vp6n",
+      "parent_id": "t3_1h3vp6n"
+    },
+    {
+      "id": "lzox8cu",
+      "body": "Ok thanks! It's pretty weird because on my laptop it doesn't work, but on my desktop it does (both macOS)",
+      "author": "-stab-",
+      "subreddit": "zen_browser",
+      "created_utc": 1732959345,
+      "score": 2,
+      "link_id": "t3_1gark8n",
+      "parent_id": "t1_lzkcdxu"
+    },
+    {
+      "id": "lzjg0uq",
+      "body": "I have the same issue right now. Did you find a solution?",
+      "author": "-stab-",
+      "subreddit": "zen_browser",
+      "created_utc": 1732874424,
+      "score": 1,
+      "link_id": "t3_1gark8n",
+      "parent_id": "t3_1gark8n"
+    },
+    {
+      "id": "ludv5je",
+      "body": "Yeah i think so. Normally every non ethz address has a disclaimer in outlook. This one does not.",
+      "author": "-stab-",
+      "subreddit": "ethz",
+      "created_utc": 1730224437,
+      "score": 1,
+      "link_id": "t3_1gewxcs",
+      "parent_id": "t1_luda5ty"
+    },
+    {
+      "id": "lso5nhq",
+      "body": "What's 6r+AI? Never seen that.",
+      "author": "-stab-",
+      "subreddit": "mathmemes",
+      "created_utc": 1729337565,
+      "score": 2,
+      "link_id": "t3_1g71kl6",
+      "parent_id": "t3_1g71kl6"
+    },
+    {
+      "id": "lsjec1z",
+      "body": "As mentioned by u/Frequent_Ad_3444, the VMP website is a very good resource!\n\nOther than that, the books by Thomas Michaels on Analysis 1 & 2 are very good for practicing techniques. They are sold in the ETH store but you might also be able to find used ones. Maybe at the VSETH bücherbörse.",
+      "author": "-stab-",
+      "subreddit": "ethz",
+      "created_utc": 1729264542,
+      "score": 4,
+      "link_id": "t3_1g6j0vl",
+      "parent_id": "t3_1g6j0vl"
+    },
+    {
+      "id": "lsf58ey",
+      "body": "Have you [installed Python](https://www.python.org/downloads/)? If so, it might also be helpful to install the Python extension for VS Code.",
+      "author": "-stab-",
+      "subreddit": "learnpython",
+      "created_utc": 1729196769,
+      "score": 3,
+      "link_id": "t3_1g5zsoj",
+      "parent_id": "t3_1g5zsoj"
+    },
+    {
+      "id": "lsf3ml9",
+      "body": "Yes. And when using the Julia extension for VS Code you can just type something like \"\\\\Sigma\" and hit enter. It will automatically insert the symbol.",
+      "author": "-stab-",
+      "subreddit": "ProgrammingLanguages",
+      "created_utc": 1729196261,
+      "score": 8,
+      "link_id": "t3_1g5zmdv",
+      "parent_id": "t1_lsezy29"
+    }
+  ]
+}

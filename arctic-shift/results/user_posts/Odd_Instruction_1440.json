@@ -1,0 +1,39 @@
+{
+  "username": "Odd_Instruction_1440",
+  "posts": [
+    {
+      "id": "1enm4m4",
+      "title": "Master thesis at ETH from an outside university student",
+      "author": "Odd_Instruction_1440",
+      "subreddit": "ethz",
+      "created_utc": 1723163812,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hi everyone, i'm a master student from a university in italy and was wondering if it was possible do the thesis at ETH (from my side it is possible, our university allows it but i don't know if ETH allows it). Have you ever seen someone from an outside university do their thesis at ETH, and if so how hard is to achieve that and where can i have more information? thank you in advance for the replies!!",
+      "url": "https://www.reddit.com/r/ethz/comments/1enm4m4/master_thesis_at_eth_from_an_outside_university/"
+    },
+    {
+      "id": "1bb6kl6",
+      "title": "Notion change date autonomously",
+      "author": "Odd_Instruction_1440",
+      "subreddit": "Notion",
+      "created_utc": 1710063808,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hi everyone, here is the scenario i would like to accomplish:  \ni have a database we some task, and each task have a planned date in order to complete that task.  \nFor example i have a task that is planned for today, but for some reason i can't do it,  i would like that the planned date field would automatically change when tomorrow come, basically i want something like:  \n**max(today, planned date)**\n\nso if i am not able to do it in the planned date, in the next day, the planned date change automatically in \"today\" (next day),\n\nif the planned date hasn't come yet i want to keep it to the original planned date",
+      "url": "https://www.reddit.com/r/Notion/comments/1bb6kl6/notion_change_date_autonomously/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "kuks5kk",
+      "body": "Hi first of all thank you very much!  \nthis formula do what i described, but i forgot to mention something,   \ni'm viewing the table as a calendar with the planned day property, so for each day i have the planned task.  \n  \nbut i would also like to move the task from one day to another, and that's where the problem arise, because i can't move the task if i view the calendar with the formula props,   \nmeanwhile if i view the calendar with the planned date property i can't see the automatic update\n\ndo you have another solution?",
+      "author": "Odd_Instruction_1440",
+      "subreddit": "Notion",
+      "created_utc": 1710276588,
+      "score": 1,
+      "link_id": "t3_1bb6kl6",
+      "parent_id": "t1_kub0xp6"
+    }
+  ]
+}

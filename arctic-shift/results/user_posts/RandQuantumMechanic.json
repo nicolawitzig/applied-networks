@@ -1,0 +1,260 @@
+{
+  "username": "RandQuantumMechanic",
+  "posts": [
+    {
+      "id": "1bsiypy",
+      "title": "First build in a long time (~1000 euro without GPU or CPU cooler)",
+      "author": "RandQuantumMechanic",
+      "subreddit": "buildmeapc",
+      "created_utc": 1711914282,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hey everyone, happy easter if you celebrate! So, I recently won a rtx 4080 in a competition, but I haven't built a PC in 10 years... I want to make the most of the GPU, and I am willing to spend around 1000 euro/dollars for the other components. \n\nI will use the PC for gaming, in particular some VR - but I am not a stickler for ultra-high resolution/settings. I don't do video editing, but do some 3d modelling and a lot of programming. I think a 14th gen i7 would be enough though, since my work computer/computing cluster is what I use for any extremely intensive simulations. It just needs to feel snappy and have enough oomph for the occasional experiment with ML. I am  also going to hide it beneath my desk, so it doesn't have to look good, and can be as big as it needs to be case-wise (I also have a Noctua NH-D15 cooler available to me for free). I would be willing to try AMD CPUs, but I likely won't be upgrading this machine, outside of potential extra RAM/storage.  \n\nI tried making a build, but I am quite lost with case/motherboards/ram speeds/PSU combos, Any help would be greatly appreciated! ",
+      "url": "https://www.reddit.com/r/buildmeapc/comments/1bsiypy/first_build_in_a_long_time_1000_euro_without_gpu/"
+    },
+    {
+      "id": "1bdtgte",
+      "title": "[H] Amazon.com 250$ GC [W] Paypal 80%/Amazon.de GC",
+      "author": "RandQuantumMechanic",
+      "subreddit": "giftcardexchange",
+      "created_utc": 1710341718,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I recently won an online hackathon and got a US Amazon gift card, but I live in Germany, so I can't use it. Thanks! ",
+      "url": "https://www.reddit.com/r/giftcardexchange/comments/1bdtgte/h_amazoncom_250_gc_w_paypal_80amazonde_gc/"
+    },
+    {
+      "id": "1bd3dx2",
+      "title": "[H] 250$ Amazon.com Gift Card [W] Paypal or Amazon.de Gift Card (best offer)",
+      "author": "RandQuantumMechanic",
+      "subreddit": "giftcardexchange",
+      "created_utc": 1710265351,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/giftcardexchange/comments/1bd3dx2/h_250_amazoncom_gift_card_w_paypal_or_amazonde/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m1hseok",
+      "body": "On the point made in your first paragraph, I definitely agree quantum mechanics isn't taught well in most schools! Now, technically speaking the only way we can know that a quantum system has a particular quantum state is to assume that we start at a known baseline (say |0> state for a Qubit) which you can do reliably enough. Now you do some unknown operation O on this state . Now the state is in |?>, you can measure it on the quantum computer once and unless the operation was Identity (doing nothing) you will get a 0 or a 1, upon such an outcome, the state from that point on is 100% 0 or 1 respectively. Before then, assuming you could only ever perform O once, you could never know what |?> was (assuming you don't know O). now, if you could perform O any number of times, always resetting your Qubit to |0> and then perform O you can get statistics on how 0 or 1 the |?> is. This is actually not enough information to decide what the state is, since you still do not know the phase of the Qubit, then you have to be able to do other known operations to do something called tomography (in essence you rotate the Qubit so that although you can only measure the 0 1 axis, the rotation allows you to measure the + - axis for example).\n\n\nI hope this wasn't too jargony, but yeah, some things in science are very, very complicated and unintuitive, and sadly without the learning you can only get the cliff notes version, and to be fair, it's also human nature to only accept an explanation that they think they get already, since holding a wrong understanding of quantum mechanics has 0 impact on your life unless you are actually doing it for work and being judged for it, then it's unlikely to matter and one will assume they get something while it's actually wrong. So that's why a lot of people don't try to engage that much, because it's a bit pointless to a lot of people. I like it though, and I'm happy people try to do so.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1733903092,
+      "score": 2,
+      "link_id": "t3_1hb0jc3",
+      "parent_id": "t1_m1hgypq"
+    },
+    {
+      "id": "m1cl3of",
+      "body": "Although it's true that the state encoded on the qubits collapses when measured, that's not the issue that makes them \"too fragile\", in fact by the postulates of quantum mechanics it's impossible to do a measurement and not collapse the state of what is being measured. The problem lies in unintended (and to a large extent, unavoidable under all but the most ideal circumstances) environmental interactions that alter the Qubit state. To this end you can make the qubits better, but you'll likely always need error correction or something to truly get anything useful or of a machine, save for some potential algorithms that happen to both be a bit resilient to noise due to a large number of measurements and also better than classical algorithms despite the overhead in gathering the additional data required for what is called error mitigation.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1733833767,
+      "score": 13,
+      "link_id": "t3_1hb0jc3",
+      "parent_id": "t3_1hb0jc3"
+    },
+    {
+      "id": "lovas13",
+      "body": "I think that when quantum computers become useful (I say when because the next statement assumes they become useful, technically no one knows if there really will be a practical advantage), they will also be at the very least technical-user-friendly with regards to how they can be integrated into a business solution, by that I mean that it will be more like using tensorflow/pytorch rather than the almost assembly language level we have now. Which means that as long as you have competent software engineers they should be able to integrate them into existing code using them where they shine most. At the same time, it could be that QCs will only be useful to solve very complex problem instances that you need an answer  to once in a while and not as a real time device. In this scenario it is likely that you again have to write code and pay for computing time much like you would with a GPU-cloud or other HPC/server compute and just wait for the answer (i.e. think training a neural net). I am sure that for most classes of common problems a normal software developer could do this using whatever Q-API is available in future, as they wouldn't need to know the knitty gritty details just like we don't care about LAPAK/BLAS subroutines going on under the hood. \n\nSo... my answer is have good software engineers I suppose! Maybe pay for a course to teach them how to use quantum software when it makes sense to use it. \n\nThis advice is only good insofar as your business doesn't depend on being the first to get some computational advantage, hence why banks, energy companies and chemical/pharma companies may invest in in-house researchers in this area.  For them if quantum computers don't pan out, the few million or so $$ per person they paid in salary for a team of 3-5 people for 10 years probably isn't a big problem regardless.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1727278291,
+      "score": 2,
+      "link_id": "t3_1fp64cq",
+      "parent_id": "t3_1fp64cq"
+    },
+    {
+      "id": "lo0v66m",
+      "body": "On my end, this is the path I took, my bachelor's had nothing to do with my master's and my PhD had nothing to do with my master's (okay, you could argue that there was some tangential relation going from computational/experimental particle accelerator-based light sources to experimental laser physics to quantum theory) and it went more or less fine. It's quite rare (depending on the field, of course) that your master's will contribute much to the field - that is completely dependent on the particular project your particular group happens to want a master's student on more than any contribution you would make out of the blue (usually, there are no hard rules here).",
+      "author": "RandQuantumMechanic",
+      "subreddit": "AskAcademia",
+      "created_utc": 1726822979,
+      "score": 9,
+      "link_id": "t3_1fl7f0a",
+      "parent_id": "t3_1fl7f0a"
+    },
+    {
+      "id": "lnwfaxu",
+      "body": "Would this student be comfortable writing that this was the case and signing it? Usually the journal will not share evidence with the other authors. ",
+      "author": "RandQuantumMechanic",
+      "subreddit": "AskAcademia",
+      "created_utc": 1726755532,
+      "score": 1,
+      "link_id": "t3_1fkh0oy",
+      "parent_id": "t1_lnvkjkd"
+    },
+    {
+      "id": "lnvgyj8",
+      "body": "I mean, he has burned his bridge with you as far as I can tell! I would write to the journal editor directly if you have proof of your involvement (overleaf is a git repository with all the associated git history, so you can clone it through git). This is such an annoying thing to do since having one extra author somewhere in the middle comes at no real additional cost to anyone.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "AskAcademia",
+      "created_utc": 1726740398,
+      "score": 48,
+      "link_id": "t3_1fkh0oy",
+      "parent_id": "t3_1fkh0oy"
+    },
+    {
+      "id": "lnsajc0",
+      "body": "In general, the quality of results in the presence of noise is directly related to the various error rates. If the error rate is not 0 (and there is no error correction) eventually the state in the quantum computer will become the fully mixed state that when measured, will result in any possible value with equal probability (potentially skewed by relaxation towards the ground state). With the current stat of hardware, having a depth that is so much deeper than even the square of the number of qubits (a heuristic at which point noise from every qubit in the machine will have leaked into every other part) you expect the error to dominate at current levels. In your case I think you are well passed the point at which you reach the mixed state at a depth of 2000. Maybe you can try some circuit compression/approximation, but this is why algorithms like grover's are for the fault-tolerant machines!  Try running in a simulator scaling the error rates to see the effect of this.  \ntl;dr you definitely expect to be completely overwhelmed by noise.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "Qiskit",
+      "created_utc": 1726689009,
+      "score": 2,
+      "link_id": "t3_1fjvsa3",
+      "parent_id": "t3_1fjvsa3"
+    },
+    {
+      "id": "lnneue8",
+      "body": "I had another job all that time so I wasn't in a rush XD  I even got a free trip to Paris out of it, so I'm pretty happy",
+      "author": "RandQuantumMechanic",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726614457,
+      "score": 3,
+      "link_id": "t3_1fj3lck",
+      "parent_id": "t1_lnmgqvn"
+    },
+    {
+      "id": "lnma4v3",
+      "body": "It was because they first contacted me before the role was open and then strung me along for a whole year until it was open, and then after the full day on-site (which was also delayed due to summer holidays) they gave me that reason. I am sure they didn't like something else, but yeah, one sentence reason after that process was mildly insulting to say the least.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726601027,
+      "score": 3,
+      "link_id": "t3_1fj3lck",
+      "parent_id": "t1_lnm41d3"
+    },
+    {
+      "id": "lnln4ee",
+      "body": "Yeah, I get you - I had a year long process with a French start up, and although they did not ghost me, they definitely took it way too far and then eliminated me for a really cheap reason that they should have been able to tell me a long time before (years of experience). In my case it wasn't that bad, since I already had other nicer offers on the table, but basically, I think you may be better off looking in Germany. Good luck!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726593823,
+      "score": 4,
+      "link_id": "t3_1fj3lck",
+      "parent_id": "t3_1fj3lck"
+    },
+    {
+      "id": "lnllj68",
+      "body": "Although I can't predict your future, I can definitely say that with enough curiosity and enthusiasm anyone with a similar trajectory can do it if they want, just make sure to leave Italy when you can, if not for the masters (from a financial perspective this can be hard, although there are quite a few masters with a salary for quantum stuff) certainly for the PhD ;)",
+      "author": "RandQuantumMechanic",
+      "subreddit": "quantum",
+      "created_utc": 1726593329,
+      "score": 1,
+      "link_id": "t3_1ffptka",
+      "parent_id": "t1_lnldkvg"
+    },
+    {
+      "id": "lnl8z8e",
+      "body": "People switch from chemistry to biology at the PhD level - and I think that's a much harder switch than the one you might do. Also, it's only a bachelor's, you can do the masters in physics afterwards and I'm sure you'll pick everything up. Honestly if you do research you'll have to learn completely new things for the PhD so honestly, unless you decide to do something very specific like ultra high vacuum particle accelerator based experimental physics, you'll probably be fine, and I'd say someone probably could even do that with a bachelors in math and masters in physics!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "quantum",
+      "created_utc": 1726589340,
+      "score": 2,
+      "link_id": "t3_1ffptka",
+      "parent_id": "t1_lmwpcs5"
+    },
+    {
+      "id": "lmwikkj",
+      "body": "In my opinion it is probably a better foundation than studying theoretical physics directly. I am sure you will have the chance to do some courses that are more focused in that direction throughout your degree though.",
+      "author": "RandQuantumMechanic",
+      "subreddit": "quantum",
+      "created_utc": 1726219834,
+      "score": 1,
+      "link_id": "t3_1ffptka",
+      "parent_id": "t3_1ffptka"
+    },
+    {
+      "id": "lmmowhu",
+      "body": "This is really impressive work, as someone who is doing full quantum dynamics on quantum computers, this and the work in Sydney has been a breath of fresh air!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1726073591,
+      "score": 4,
+      "link_id": "t3_1fdl627",
+      "parent_id": "t3_1fdl627"
+    },
+    {
+      "id": "lk6tgee",
+      "body": "I'm glad! ",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1724772720,
+      "score": 1,
+      "link_id": "t3_1f1cxt3",
+      "parent_id": "t1_lk6i1os"
+    },
+    {
+      "id": "lk6hyg3",
+      "body": "There's also this python implementation in this repository of both qpixl and a parallel version from a follow up paper\n\n\nhttps://github.com/HeidelbergQuantum/ParallelQPIXL",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1724769000,
+      "score": 2,
+      "link_id": "t3_1f1cxt3",
+      "parent_id": "t3_1f1cxt3"
+    },
+    {
+      "id": "lejteh7",
+      "body": "Just read and review your paper yourself and submit, what's the worst that can happen? Put yourself as corresponding author and you'll be the only one to be contacted about anything! You can do this after sending an email to your prod saying that you'll submit in two weeks if you get no review/reply. I did it once, either y like a charm!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "AskAcademia",
+      "created_utc": 1721745559,
+      "score": 4,
+      "link_id": "t3_1ea3nz3",
+      "parent_id": "t3_1ea3nz3"
+    },
+    {
+      "id": "lefdyby",
+      "body": "I mean, your friend is a bit of an inconsiderate... something, PhD positions are plentiful and the number of candidates is vanishingly small for most positions (maybe not at ETH, but I doubt people are flocking in for highly specific positions). If you are dead set on ETH then you might be in a for a tougher time, but if you broaden your horizon to UZ, EPFL, Basel, Geneva... there is no doubt you will get something. If you expand to Germany then you are certain.\n\n The important thing is to do something you are very curious about! And most PhDs are project driven, so you usually don't have to do your own proposal. The important thing is that you are comfortable with reading a lot and have perseverance. Intelligence is good, but not nearly as important as passion and curiosity. I mean, you might not come up with the best solution, but sometimes a solution is good enough - the best solution is usually something that a certain type of person will do when an existing solution isn't good enough!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "ethz",
+      "created_utc": 1721675809,
+      "score": 2,
+      "link_id": "t3_1e9bp1g",
+      "parent_id": "t3_1e9bp1g"
+    },
+    {
+      "id": "kznhfo2",
+      "body": "Personally with 3D printing for personal purposes I tend not to care about minor imperfections like this when they don't harm functionality, but I encourage the road to perfection. \n\nThere are a couple of things that can be done for consistency - for example, changes in printing speed (As has been mentioned in other comments) can cause the surface to have different finishes (textures) due to the rate of cooling being different (this is somewhat material dependent, but always present when comparing extremes). \n\nThe other issue is structural, tall thin structures are indeed not stable, and so have to be designed around by either adding ribs (in fusion), thicker walls, or even a 'wavyness' in the wall. \n\nFor the highest quality prints you want to go in the speed settings and set all of the speeds (except for maybe infill and top/bottom surfaces, and inner walls can be different too) to be the same as the overhang speed, you can set the overhang speed to be the same for all overhang types - usually this is ok if the overhangs are short (like for the small circles you have) and that aren't 'free floating'. This mixed with a more appropiate structure should fix all the problems you seem to be getting. To be fair, I have printed a box like yours without doing anything but setting the speed to be consistent for almost flawless results, obviously with a bit of sacrifice on the time it takes. Happy printing!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "BambuLab",
+      "created_utc": 1713170091,
+      "score": 1,
+      "link_id": "t3_1c3kai1",
+      "parent_id": "t3_1c3kai1"
+    },
+    {
+      "id": "kxie8nc",
+      "body": "That's right - thanks for the suggestions! They look pretty good :D ",
+      "author": "RandQuantumMechanic",
+      "subreddit": "buildmeapc",
+      "created_utc": 1711953863,
+      "score": 1,
+      "link_id": "t3_1bsiypy",
+      "parent_id": "t1_kxh0jro"
+    },
+    {
+      "id": "kv52se3",
+      "body": "If it's indeed the case that the watch has two clocks in it and not a clock and date, the crappy design is in the two watches in one feature!",
+      "author": "RandQuantumMechanic",
+      "subreddit": "CrappyDesign",
+      "created_utc": 1710598412,
+      "score": -4,
+      "link_id": "t3_1bg6hyh",
+      "parent_id": "t3_1bg6hyh"
+    },
+    {
+      "id": "kqclx9b",
+      "body": "Do you mean secure from quantum computing decryption or that you use a quantum computer for security?",
+      "author": "RandQuantumMechanic",
+      "subreddit": "QuantumComputing",
+      "created_utc": 1707889949,
+      "score": 3,
+      "link_id": "t3_1aqcgmu",
+      "parent_id": "t3_1aqcgmu"
+    }
+  ]
+}

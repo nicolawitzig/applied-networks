@@ -1,0 +1,886 @@
+{
+  "username": "LumosDRSG",
+  "posts": [],
+  "comments": [
+    {
+      "id": "ly78go7",
+      "body": "The ones you are missing are those of the form 12n+9.\n\nAny number can be written as (6a±b) for b = 0,1,2,3. Then, (6a±b)\\^2 = 36a\\^2 ± 12a\\*b + b\\^2 = 12\\*(3a\\^2±a\\*b) + b\\^2, which for 0,1,2,3 give you something of the form 12n+0,1,4,9.\n\nSimilar statements are true for other numbers.\n\n[https://en.wikipedia.org/wiki/Modular\\_arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic) may be helpful.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1732162137,
+      "score": 7,
+      "link_id": "t3_1gw7bb4",
+      "parent_id": "t3_1gw7bb4"
+    },
+    {
+      "id": "lv76jo7",
+      "body": "It is the number of letters o in the following square\n```\noooooooooo\noooooooooo\noooooooooo\noooooooooo\noooooooooo\noooooooooo\noooooooooo\noooooooooo\noooooooooo\noooooooooo\n```",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1730651252,
+      "score": 21,
+      "link_id": "t3_1giqm2o",
+      "parent_id": "t3_1giqm2o"
+    },
+    {
+      "id": "lux642l",
+      "body": "I have never heard of squigonometry until now. According to [the Wikipedia page](https://en.wikipedia.org/wiki/Squigonometry), it looks like the squine and cosquine can be defined through differential equations. This makes me think that an appropriate strategy should use the differential equation definition.\n\nI will do the proof for p=2 (standard sine and cosine) and leave a potential generalization to you:\n\nLet S(x) = 2sin(x)cos(x) and C(x) = cos\\^2(x) - sin\\^2(x). Using the properties of sin and cos, one can verify that S'(x) = 2C(x), and C'(x) = -2S(x). These are precisely the differential equations satisfied by sin(2x) and cos(2x). One can further check that S(0)=0=sin(2\\*0) and C(0)=1=cos(2\\*0). Since they solve the same differential equations, and have the same initial conditions, one finds that S(x)=sin(2x) and C(x)=cos(2x).",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1730495479,
+      "score": 3,
+      "link_id": "t3_1ggqzax",
+      "parent_id": "t3_1ggqzax"
+    },
+    {
+      "id": "lurtyjm",
+      "body": "If by shape, you mean eccentricity (without asking about orientation or scale), then yes.",
+      "author": "LumosDRSG",
+      "subreddit": "desmos",
+      "created_utc": 1730415153,
+      "score": 16,
+      "link_id": "t3_1ggn3z8",
+      "parent_id": "t1_lurce1g"
+    },
+    {
+      "id": "ltah303",
+      "body": "The parts of the sky that are blue are those where the sun is not in the direct line of sight. The reason they look blue is that the light of the sun that was \"about to miss\" scatters towards you. The other wavelengths (e.g. yellow/red) continue in the same direction instead, and are not scattered towards your eyes.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1729656191,
+      "score": 1,
+      "link_id": "t3_1ga06qr",
+      "parent_id": "t1_ltac1eg"
+    },
+    {
+      "id": "lta6iw6",
+      "body": "[https://spaceplace.nasa.gov/blue-sky/en/](https://spaceplace.nasa.gov/blue-sky/en/)\n\nIt has nothing to do with reflection off of water or the moon. You can verify this by recognizing that the sky is blue even when there is no water anywhere near you, and that the night looks the same regardless of whether you can see the moon.\n\nDuring the day, the shines a lot of light onto the planet. This light passes through the atmosphere, which is all the air that we feel and that goes up for many miles above the Earth. Due to the properties of blue light, it gets scattered more. So when light from the sun reaches the atmosphere around you, the atmosphere scatters blue light everywhere, making the atmosphere itself look blue.\n\nAt night, the sky is dark, because that is what the absence of light looks like.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1729651713,
+      "score": 8,
+      "link_id": "t3_1ga06qr",
+      "parent_id": "t3_1ga06qr"
+    },
+    {
+      "id": "lmd0lre",
+      "body": "I do not have access to the pdf you linked, but you should consider watching this video:\n\n[https://youtu.be/Y0aOxj5lrKY](https://youtu.be/Y0aOxj5lrKY)\n\nAt 16:24 it considers a \"triangle wave road\", which when rotated by 45 degrees is a staircase.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1725926605,
+      "score": 2,
+      "link_id": "t3_1fd2vr1",
+      "parent_id": "t3_1fd2vr1"
+    },
+    {
+      "id": "lltqmta",
+      "body": "\"I don't really get how people expect to communicate any \\[...\\] information with math\"\n\nThe math I do is a process for communicating statements about a fundamental property of some axiomatic system. In the same way that I use the English language to communicate about my emotions, I use a mathematical language to communicate what I mean to say about the consequences of some rules. The proofs I write communicate validity, my scratchwork communicates outlines of ideas, my discussions with people communicate the bigger picture of what is happening.\n\nThe argument given in a proof, or a paper with many proofs, tells a story of how reasoning from a person, and properties of the system, over the course of twists and turns, comes to a conclusion that someone else will pick up from.\n\nThe process of learning related areas of mathematics feels like learning a new (related) language, and the process of transforming objects or properties between them feels like translation.\n\n---\n\ni don't get why people say music is like a \"language\"\n\nI swear i saw this SO OFTEN when looking for info about musicians online. They'd all be like \"writing music has nothing to do with playing the music you know. In high school, you're just following sheet music and playing notes, but in reality, math is like a language you have to learn\"\n\nNow, I get when people say math is like a language - after all, you can convey a huge range of ideas and reasoning using a variety of visual or written arguments, all without relying on the vagueness of english. I don't really get how people expect to communicate any reasoning with music (unless you encode the logic, make some mapping between logical symbols and notes and then play those notes - that would be one way i guess).\n\n\\[I don't know enough about music to parody this paragraph\\]\n\nOf course they could be referring to musical notation which is like a language you have to learn first, but like come on.. calling musical notation a “language” feels like a stretch. In this case \"orthography\" would be a more fitting term. Standardized orthography is important so there is no ambiguity, but it's just a tool. Actual music is the stuff behind it. I don't see how i could tell a story the same way in music as in literature or math.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1725643637,
+      "score": 2,
+      "link_id": "t3_1fakcqp",
+      "parent_id": "t3_1fakcqp"
+    },
+    {
+      "id": "lk56e2u",
+      "body": "Your teacher is wrong, your reasoning is correct.\n\ne.g. [equation 3.13 in this book](https://openstax.org/books/university-physics-volume-1/pages/3-4-motion-with-constant-acceleration)",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1724746307,
+      "score": 1,
+      "link_id": "t3_1f29id1",
+      "parent_id": "t1_lk52zyh"
+    },
+    {
+      "id": "lk4t0fz",
+      "body": "You said you feel like it's not. Can you justify that with some calculations?\n\nYou can start with calculating how far the car gets to reach the top speed (constant acceleration). Then, you can see how long it takes for the car to traverse the rest of the way.\n\nAdding these together will give you the answer.\n\nAlso, try r/AskPhysics next time.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1724737358,
+      "score": 8,
+      "link_id": "t3_1f29id1",
+      "parent_id": "t3_1f29id1"
+    },
+    {
+      "id": "lj54u1l",
+      "body": "This is a semantics question, and not a math question. Does the absence of light in an area count as a physical manifestation of a shape? Why does one care about thickness when thinking of such representations? etc. \n\nNeither of you are right or wrong until you define what you mean precisely. Once you define it precisely, who is right and wrong will be obvious.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1724204735,
+      "score": 11,
+      "link_id": "t3_1exd97l",
+      "parent_id": "t3_1exd97l"
+    },
+    {
+      "id": "lj52l7v",
+      "body": "Sounds interesting. Can you post some publications related to this topic in the comments? I'm quite curious, but it's hard to give any insights without a little more context.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1724203911,
+      "score": 6,
+      "link_id": "t3_1excvv1",
+      "parent_id": "t3_1excvv1"
+    },
+    {
+      "id": "liscr2m",
+      "body": "https://vseth.ethz.ch/organisations/\n\nThis is the place to start to see if the organization you are interested in already exists. If not, then VSETH are the right people to get in touch with to understand the procedures for making something of your own.",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1724020637,
+      "score": 8,
+      "link_id": "t3_1evla2j",
+      "parent_id": "t3_1evla2j"
+    },
+    {
+      "id": "licqkex",
+      "body": "I think you are getting a little lost on the analogy to tension.\n\nThe current predictions of general relativity state that the universe wants to be almost flat everywhere. The \"almost\" is parametrized by the [cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant). However, many cosmological models exist which treat things differently.\n\nIt takes time for gravity to propagate (since it propagates at the speed of light), so you end up having problems once things are very far away. Not only is gravity weak at large distances, but it will also just take a long time for the gravitational effects to reach it. In particular, since the universe far enough away from us is moving faster than the speed of light, gravitational effects from beyond that point will never reach us.\n\nIf you want more answers, and want to have something to ask a search engine, then you should study general relativity beyond the basic analogy that is often presented.",
+      "author": "LumosDRSG",
+      "subreddit": "HypotheticalPhysics",
+      "created_utc": 1723780454,
+      "score": 7,
+      "link_id": "t3_1etevdd",
+      "parent_id": "t3_1etevdd"
+    },
+    {
+      "id": "lhuiugt",
+      "body": "[https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach\\_experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)\n\nThe only experiment in the article linked was done in 1922",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1723514988,
+      "score": 10,
+      "link_id": "t3_1eqsobd",
+      "parent_id": "t3_1eqsobd"
+    },
+    {
+      "id": "lhj3phl",
+      "body": "You're right, the other room itself is illuminated, so some of the light is being reflected from every surface (e.g. from bright walls). However, the strength of light being reflected off of a bright wall is still much weaker than the strength of an actual light source.\n\nThe shadows are darker than the lit areas the same way that a night with a full moon is darker than daytime.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1723342660,
+      "score": 45,
+      "link_id": "t3_1ep883a",
+      "parent_id": "t1_lhj2wpu"
+    },
+    {
+      "id": "lhitblv",
+      "body": "Light travels in straight lines, so when a small light source passes through a small gap it can only reach the places it can reach through the gap, which end up as a small strip. When there are many light sources, you have many such strips of light.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1723338282,
+      "score": 197,
+      "link_id": "t3_1ep883a",
+      "parent_id": "t3_1ep883a"
+    },
+    {
+      "id": "lhi0h9n",
+      "body": "Fair, that's what I was going for in my second bullet point about some people who do math and are presumptuous about their ability without understanding the subject area.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1723326885,
+      "score": 11,
+      "link_id": "t3_1ep1pr7",
+      "parent_id": "t1_lhhsmlh"
+    },
+    {
+      "id": "lhhjygj",
+      "body": "I think the perspective that what you call \"complex systems science\" is valid. The strategies necessary to describe complex systems by studying rules for their parts does exist throughout different fields: statistical physics/mechanics in physics, connecting micro/macroeconomics, etc.\n\nI think the tension comes about from many differently sized groups of people:\n\n- some people who do not do math are presumptuous about their ability to understand complex systems, and end up doing pseudo-science with tools they do not understand\n\n- some people who do do math are presumptuous about their ability to understand complex systems, and end up doing pseudo-science with tools they understand but with assumptions that don't actually reflect the system\n\n- some people who do not do math are frustrated with people who do math trying to fix problems in their field, because they assume that math will not be the solution\n\n- some people who do math are frustrated with people who do not do math, because they assume that them not doing math means their field is not scientific\n\n(I made this list up based on some easy-to-digest 'streotypes', of course reality is more complex)\n\nI agree that research is pretty insular, and that these kinds of inter-disciplinary directions of research suffer as a result. If you understand the context that your research lives in, and make an effort to understand your rigorous tools, understand the less-rigorous assumptions, and communicate this context to the people around you, I think your motivation will be able to carry you to do successful things.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1723321052,
+      "score": 90,
+      "link_id": "t3_1ep1pr7",
+      "parent_id": "t3_1ep1pr7"
+    },
+    {
+      "id": "lgtu38i",
+      "body": "When working with numbers that are not non-negative integers, the definition of the factorial is replaced with the Gamma function:\n\n[https://en.wikipedia.org/wiki/Gamma\\_function](https://en.wikipedia.org/wiki/Gamma_function)",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1722975413,
+      "score": 35,
+      "link_id": "t3_1elrt16",
+      "parent_id": "t3_1elrt16"
+    },
+    {
+      "id": "lgkku9b",
+      "body": "Here is my go to method in response to a similar question some time ago:\n\n>Consider the following algorithm for a human D6: Think of any 5 digit number. Find the remainder when dividing by 7. If it is 0 try again.\n\n>Though we are good at identifying patterns and the distribution of 5 digit numbers we generate is certainly not uniform, most of that is lost since (to our minds) numbers modulo 7 do not have a clear pattern.\n\n>Thus, this creates a decent pseudo-random number generator.\n\n>It can be improved by thinking of numbers with even more digits and dividing by larger factors. The only limit is your memory and arithmetic ability!\n\n[https://www.reddit.com/r/math/comments/17y1v5r/comment/k9r3v4z/](https://www.reddit.com/r/math/comments/17y1v5r/comment/k9r3v4z/)\n\n[https://www.reddit.com/r/math/comments/z3hw7a/comment/ixmohpm/?utm\\_source=share&utm\\_medium=web2x&context=3](https://www.reddit.com/r/math/comments/z3hw7a/comment/ixmohpm/?utm_source=share&utm_medium=web2x&context=3)",
+      "author": "LumosDRSG",
+      "subreddit": "askmath",
+      "created_utc": 1722840353,
+      "score": 1,
+      "link_id": "t3_1ejtcka",
+      "parent_id": "t3_1ejtcka"
+    },
+    {
+      "id": "lgfdqet",
+      "body": "Most people here have likely had at most one experience going through a graduate program, and have only ever seen people at their own program, so unless they are an admissions coordinator or a professor that looks through applications they are unlikely to know the comparisons.\n\nMy understanding is that the comparison between universities does matter. If you are going into a master's degree, then you should be aiming to excel wherever you go, and it is better to excel at a more well-reputed university.\n\nI went to ETH Zurich for my Master's, and strong students in theoretical physics struggle with applications in academia even wtih the relative prestige the name carries. I would not give up such a benefit in such a competitive field.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1722761651,
+      "score": 4,
+      "link_id": "t3_1ejqg90",
+      "parent_id": "t3_1ejqg90"
+    },
+    {
+      "id": "lg3kiay",
+      "body": "The only calculation for which there is enough information to make an approximate result is that of how much energy is needed to flip the car over.\n\nIn order to flip a car over, the car needs to have at least enough energy to be knocked over on the side. A car on the side has its center of mass halfway up the width, \\~1m.\n\nThe amount of energy necessary to flip the car is thus mass\\*10m/s\\^2\\*1m.\n\nThe amount of energy the car starts with is mass\\*(speed)\\^2/2.\n\nTherefore, the speed necessary for the crash to flip is sqrt(20) m/s \\~ 10 mph.\n\n---\n\nThus, if the conditions are perfect, only \\~10mph are necessary.\n\nOf course, energy is lost due to many factors (crumpling of the car, moving the car instead of flipping it, the collision not being perfectly elastic etc.) so the minimum speed could be higher. However, these factors cannot be accounted for and so there isn't a calculation to do to what you ask.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1722577893,
+      "score": 2,
+      "link_id": "t3_1ei1hpy",
+      "parent_id": "t3_1ei1hpy"
+    },
+    {
+      "id": "lez3rl6",
+      "body": "What?",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1721961541,
+      "score": 10,
+      "link_id": "t3_1ecd462",
+      "parent_id": "t3_1ecd462"
+    },
+    {
+      "id": "lenyq9h",
+      "body": "1. Storing digital information as photons.\n\n* Ok, sounds good, we have the technology: [https://en.wikipedia.org/wiki/Fiber-optic\\_cable](https://en.wikipedia.org/wiki/Fiber-optic_cable) . This does not revolutionize data transmission, since it already exists and is widely used.\n\n2. Keeping photons in motion\n\n* Yes, that's how photons work, they do always stay in motion. I don't understand what part of this is an idea.\n\n3. Storing photons in continuous rotation for weightless and nearly unlimited data storage\n\n* How are you storing the photons? How are you reading the information? How do you store a large amount of information without disrupting the information that is already present? What do you mean by continuous rotation?\n\nIt's hard for me to form thoughts about this because you didn't really give me much to think about. I think this can be improved further by suggesting something that does more than reiterate known concepts, and then attach one sentence that does not make sense without an explanation.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1721798882,
+      "score": 2,
+      "link_id": "t3_1eat9bh",
+      "parent_id": "t3_1eat9bh"
+    },
+    {
+      "id": "ldqq72j",
+      "body": "If you set the update speed to be slower, you can more carefully experiment and see which part of the application of forces leads to problems.\n\nThe issue that I run into is that the way you implement having a 'fixed point' is by applying a velocity that directs the point to approach the correct value. However, the way you implement that velocity causes it to overshoot the desired position. If it overshoots the position by a larger amount than the distance it started at, then it will exponentially overshoot more and more, until everything breaks. Consider rewriting this part of the simulation.",
+      "author": "LumosDRSG",
+      "subreddit": "desmos",
+      "created_utc": 1721290748,
+      "score": 5,
+      "link_id": "t3_1e64kzy",
+      "parent_id": "t3_1e64kzy"
+    },
+    {
+      "id": "ld330hs",
+      "body": "The area and perimeter were never equal. What you really had was (area) = (perimeter) \\* (1 cm).\n\nThe perimeter gets 2.54 times smaller when switching to inches, but the area gets 2.54\\^2 times smaller.\n\nAlso, this is the wrong sub, use r/learnmath or r/askmath.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1720926211,
+      "score": 4,
+      "link_id": "t3_1e2rt16",
+      "parent_id": "t3_1e2rt16"
+    },
+    {
+      "id": "lcmx3dt",
+      "body": "The answer to this question depends on your location. Based on your post history, it sounds like you are in Mexico, which I know little about, so it is hard to help since I don't know what the system looks like. I suggest you speak with a supervisor you had for some project (final project in your bachelor degree? supervisor for master's thesis?) and see what they say.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1720678366,
+      "score": 1,
+      "link_id": "t3_1e0hbvu",
+      "parent_id": "t3_1e0hbvu"
+    },
+    {
+      "id": "lckrbph",
+      "body": "Generally, the laws that govern the dynamics of a system only depend on the position and the derivative of the position. As a result, if we write down (x,v) as the two variables, the laws are:\n\nd/dt x = v\n\nd/dt v = (acceleration due to whatever is happening)\n\nHigher derivatives do not come up, unless you have some strange system where the equations of motion depend on them.\n\nThe dimension of the phase space is the number of coordinates that you keep track of. In a 3-dimensional physical space, a free particle has 3 position coordinates and 3 velocity coordinates. The number of dimensions needed to fully describe a particular system is just the number of coordinates you need to describe exactly what is going (minus symmetries which you might not care about).",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1720646562,
+      "score": 1,
+      "link_id": "t3_1e06x8v",
+      "parent_id": "t3_1e06x8v"
+    },
+    {
+      "id": "lceg1bl",
+      "body": "I received it as well.",
+      "author": "LumosDRSG",
+      "subreddit": "LenovoLegion",
+      "created_utc": 1720554424,
+      "score": 2,
+      "link_id": "t3_1dza4rn",
+      "parent_id": "t3_1dza4rn"
+    },
+    {
+      "id": "lcbpd05",
+      "body": "Yes, you'll do just fine. If you stay at or below 30 credits you will definitely manage. Those are some great choices!\n\nHaving a few high-credit-requirement courses is nice because you will have the time to focus on covering the interesting material. I would even encourage you to go a bit above the 30 credits: it is easy to pull back and deregister from the courses you find most tough or least interesting, it is hard to start attending new courses if you miss the first weeks if you realize you underestimated how much you want to take.",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1720515646,
+      "score": 3,
+      "link_id": "t3_1dyxip7",
+      "parent_id": "t3_1dyxip7"
+    },
+    {
+      "id": "lc44vac",
+      "body": "It is hard to tell from your description alone.\n\nI would imagine (and hope) that an introductory physics course includes the right amount of *math problems* to test your *conceptual* understanding, without wasting your time on rote work.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1720395296,
+      "score": 2,
+      "link_id": "t3_1dxtwny",
+      "parent_id": "t3_1dxtwny"
+    },
+    {
+      "id": "lc3w7b5",
+      "body": "[https://en.m.wikipedia.org/wiki/First-order\\_logic#Equality\\_and\\_its\\_axioms](https://en.m.wikipedia.org/wiki/First-order_logic#Equality_and_its_axioms)\n\nSuppose A=B and C=D. Due to substitution for functions (A+C) = (B+C) = (B+D), where we first substituted A for B and then C for D. Due to transitivity, (A+C)=(B+D).\n\nSimilar arguments can be made for other operations.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1720391986,
+      "score": 5,
+      "link_id": "t3_1dxsssm",
+      "parent_id": "t3_1dxsssm"
+    },
+    {
+      "id": "lbi8paz",
+      "body": "I have never done a standalone lab course, and I was able to get into a graduate program I am happy with to do theoretical/mathematical physics. It is hard to judge how much the absence of a lab course from my curriculum affected the admission; I imagine it is very little. (Given your past posts, it seems you are in the US; I did a BSc and MSc in Europe before starting graduate school in the US. Perhaps the expectations for a US BSc are more specific and missing a lab course would look out of ordinary? It sounds unlikely, but I cannot be certain.)\n\nI am not disappointed that I missed out on doing labs, I am perfectly happy treating physics as an abstract outlet for mathematics. Of course, your perspective may differ and it can certainly be helpful to have some hands on work to really judge whether you like it, and also to have a more tangible way to see the empirical processes of science.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1720042401,
+      "score": 5,
+      "link_id": "t3_1dup98w",
+      "parent_id": "t3_1dup98w"
+    },
+    {
+      "id": "lbex1ew",
+      "body": "The information that suggests the 30 November deadline seems to be newly updated:\n\nDecember 2023: [https://web.archive.org/web/20231205174346/https://ethz.ch/en/studies/master/application/dates.html](https://web.archive.org/web/20231205174346/https://ethz.ch/en/studies/master/application/dates.html)\n\nApril 2024: [https://web.archive.org/web/20240424141820/https://ethz.ch/en/studies/master/application/dates.html](https://web.archive.org/web/20240424141820/https://ethz.ch/en/studies/master/application/dates.html)\n\nIt is possible that this is a recent change that they have not yet propagated to all of the application pages.\n\nWe are not the admissions office, contact them if the precise date is critical to you.",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1719995179,
+      "score": 2,
+      "link_id": "t3_1du8zek",
+      "parent_id": "t3_1du8zek"
+    },
+    {
+      "id": "lbef0op",
+      "body": "Ah that's right, I somehow missed how one triangle could reach each of the other two.\n\nAll that is left to show that all larger integers can be reached is to construct a solution for 8. Then, with a solution for 6,7, and 8, all higher integers can be reached by splitting one triangle into 4.",
+      "author": "LumosDRSG",
+      "subreddit": "maths",
+      "created_utc": 1719983451,
+      "score": 2,
+      "link_id": "t3_1du2zai",
+      "parent_id": "t1_lbea9dj"
+    },
+    {
+      "id": "lbe215h",
+      "body": "Let N be the number of triangles you wish to end up with.\n\nThe corners of the equilateral triangle you start with must be the corners of the triangles you end up with. As a result, the location of 3 of the N triangles are fixed to begin with.\n\nThe remaining shape is either:\n\n- a new equilateral triangle if the side lengths of the triangles you chose are all 1/2 the original length. this reduces the problem to cutting the remaining triangle into N-3\n\n- a diamond shape with four 120 degree angles and one 60 degree angle. the 60 degree angle must correspond to an extra triangle, drawing which leaves you with either a hexagon (six 120 degree angles) or a quadrilateral (two 120 degree angles and two 60 degree angles). in either case, you end up with at least 7 triangles (4 already drawn, and 3 more from the quadrilateral).\n\n- a hexagon with 120 degree angles. a hexagon like that needs at least 6 triangles, since each side can only be connected to a single triangle. therefore, you end up with at least 9 triangles.\n\nTherefore, if your goal is 5 triangles, none of the remaining shapes fit (since the first case leaves you needing to split a triangle into two triangles, and the latter cases require too many). The same is true for 6 as far as I can tell, so I don't know where you got that it is possible for every integer afterwards; can you provide an explanation or source that clears that up? Thereafter, one can definitely construct 7,10, ... , 3n+1 triangles, but I am not sure about the rest.",
+      "author": "LumosDRSG",
+      "subreddit": "maths",
+      "created_utc": 1719976898,
+      "score": 3,
+      "link_id": "t3_1du2zai",
+      "parent_id": "t3_1du2zai"
+    },
+    {
+      "id": "lbdoipd",
+      "body": "Immediately. The dimension of the space is not fixed to begin with. It is only fixed later by making specific requirements of the theory, e.g. by requiring that there are no negative-norm states.\n\nMy answer is from memory having taken an introductory course a year ago, consider [https://math.berkeley.edu/\\~kwray/papers/string\\_theory.pdf](https://math.berkeley.edu/~kwray/papers/string_theory.pdf) for some more detail. A relevant passage is at the bottom of page 70.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1719971209,
+      "score": 1,
+      "link_id": "t3_1du1zt9",
+      "parent_id": "t3_1du1zt9"
+    },
+    {
+      "id": "lbc8nre",
+      "body": "There isn't really a simple answer to a 'why?' question like this.\n\nGravity is just proportional to mass, and we have observed this, and it is often [accurate to describe it using a simple equation](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation). Sometimes, it is useful to be much more precise, and [use general relativity](https://en.wikipedia.org/wiki/Einstein_field_equations). In this case, a potential answer to your question is \"because mass has a lot of energy, and since energy bends space-time, having a lot of energy bends it more, and so we observe stronger gravity\". However, this just pushes the question to asking \"why does energy bend space-time\".\n\nYou could easily ask the analogous question of electromagnetism: \"why is the electric field stronger with a larger amount of charge?\" or of any empirically found physical rule.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1719952052,
+      "score": 2,
+      "link_id": "t3_1dtvje6",
+      "parent_id": "t3_1dtvje6"
+    },
+    {
+      "id": "lb3jvh9",
+      "body": "You would only need Zone 110. This will cost 87CHF monthly or 809CHF yearly: https://www.zvv.ch/zvv/en/travelcards-and-tickets/travelcards/networkpass.html",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1719821529,
+      "score": 8,
+      "link_id": "t3_1dsncy3",
+      "parent_id": "t3_1dsncy3"
+    },
+    {
+      "id": "lalxmmr",
+      "body": "The normal force between the two cars that prevents them from being inside of each other.\n\nPush on an object in real life, you will feel it push back. If you push your hand into a wall, your hand will stop because the wall is pushing back against your muscles.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1719534588,
+      "score": 1,
+      "link_id": "t3_1dq4izy",
+      "parent_id": "t1_lalnw4y"
+    },
+    {
+      "id": "lalwuj6",
+      "body": "I lived there during my first year of my Physics MSc.\n\nOthers have already commented on how it is so competitive that it is worth taking this option that is, in the grand scheme of things, pretty good!\n\nI just wanted to add that the area around was nice (at least for what I pay attention to). The Coop is right outside your door, bus stops that lead to Hongg within 15 minutes and Zentrum within 30, and a pleasant and popular trail through the forest to the lake North of you (Katzensee).\n\nThe only concern I would have is living with so many people, but such is life in student housing and I hope with a little luck you will find people you are comfortable with.\n\n---\n\nI lived in the Student Village right next to Living Science in my second year.\n\nNaturally, being on campus was nice, especially since as a physics student all of my courses and the group with which I did my thesis were on the same campus.\n\nAs you point out, Living Science has a long waitlist (which was only recently added, previously you had to know or find someone moving out to take their spot!) I would not take any chances with it; if you aren't guaranteed a spot for September, it is pretty unlikely enough would move out before the end of the semester for the waitlist to advance. Perhaps you will have a spot by January/February and be able to move in after your Woko contract expires.",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1719534284,
+      "score": 1,
+      "link_id": "t3_1dpllvp",
+      "parent_id": "t3_1dpllvp"
+    },
+    {
+      "id": "lalk41b",
+      "body": "When the collision happens, Car A will immediately slow down, so your comment about having zero net force is only correct before the collision. \n\nDuring the collision, they both exert a lot of force on each other very quickly until Car B is moving at least as fast as Car A.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1719529462,
+      "score": 1,
+      "link_id": "t3_1dq4izy",
+      "parent_id": "t3_1dq4izy"
+    },
+    {
+      "id": "l9yfqrp",
+      "body": "This really depends on the geometry of the problem and precisely how much weight each bag is holding, and what part of the surface of the bag is exerting the force on the rest of the object. I do not see what this has to do with the center of mass; I'd rather think of this as finding the equilibrium where the forces and torques cancel out, and then calculating the pressure by dividing by area.\n\nImagining this in two dimensions, with the bags exerting forces on opposite ends of the rover, assuming that both forces are pointed directly up relative to gravity, the two bags would be exerting the same force. Otherwise, there would not be a balance of torque, and the rover would spin until they do exert the same force.\n\nHowever, those assumptions don't need to be true.\n\nMaybe, because the rover is between the bags, the forces are angled inwards a bit. Then the one that is closer to the bottom of the slope makes a shallower angle, and would indeed need to be larger than the one near the top of the slope for the torque to be balanced. Thus, one might believe that the bottom bag would need to have more pressure for the larger angled force.\n\nMaybe, because the rover rests largely on the bottom bag, it flattens that bag out more. As a result, the area of the bottom bag is greater, which means it can achieve larger forces with a smaller pressure. Thus, one might believe that the bottom bag would need to have less pressure for the same force due to larger area.\n\n---\n\nUltimately, I guess you are technically right, that making things sloped removes a lot of the hard-to-answer questions about angles of forces and asymmetry of the bags. But, the rover itself is probably asymmetrical, so those questions would exist anyway in one form or another ¯\\\\\\_(ツ)\\_/¯",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1719176114,
+      "score": 1,
+      "link_id": "t3_1dmvjrm",
+      "parent_id": "t3_1dmvjrm"
+    },
+    {
+      "id": "l9un8d1",
+      "body": "In order for the dimensional analysis to work out, the denominator of the fraction inside the square root should be (h-bar \\^ 2), so that may explain the strange symbol there.\n\nOther than that, this means nothing to me. I do not understand what is meant by \"probability of the vehicle achieving faster-than-light travel\". What vehicle? Undergoing what process? Why is that process probabilistic? What physical theory are you working with that allows for objects with mass to travel faster than light?\n\nPhysics is not about formulas you give as a final result; physics is about the combination of context and setup and a mathematical derivation that describes the result of such a setup. If you do not provide such context, the formula is not meaningful.\n\nFeel free to give a more detailed description that answers the questions I give if you have an answer to the questions above. Please include relevant sources for background reading on the topic of probabalistic FTL travel. I look forward to it!",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1719110303,
+      "score": 16,
+      "link_id": "t3_1dmb4i2",
+      "parent_id": "t3_1dmb4i2"
+    },
+    {
+      "id": "l92une0",
+      "body": "You're right! I am missing the constant you labeled 'b' in your comment. Thanks for pointing it out.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1718668026,
+      "score": 2,
+      "link_id": "t3_1di16bq",
+      "parent_id": "t1_l92k8u9"
+    },
+    {
+      "id": "l92etzb",
+      "body": "Consider the number of people (dy) that get on/off during a travel interval (dx).\n\nThe number of people getting on is constant (same at each stop), let that constant be 1 without loss of generality (vertical scaling).\n\nThe number of people getting off is proportional to the number of people on the bus (each them has a chance of leaving), and inversely proportional to the amount of stops left (fewer stops left means more likely that the current stop is their chosen one). Let the total length of the bus line be 1 without loss of generality (horizontal scaling), so the number of people getting off is y/(1-x).\n\nThus, we can write dy = \\[1 - y/(1-x)\\]dx.\n\nYour curve is a rescaled solution to this differential equation.\n\n[https://www.wolframalpha.com/input?i=Runge-Kutta+method%2C+dy%2Fdx+%3D+1-y%2F%281-x%29%2C+y%280%29+%3D+0%2C+from+0+to+1%2C+h+%3D+.05](https://www.wolframalpha.com/input?i=Runge-Kutta+method%2C+dy%2Fdx+%3D+1-y%2F%281-x%29%2C+y%280%29+%3D+0%2C+from+0+to+1%2C+h+%3D+.05)\n\n(There is probably some way to ask Wolfram to give the analytical solution, but I can't be bothered to figure it out right now)",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1718661882,
+      "score": 5,
+      "link_id": "t3_1di16bq",
+      "parent_id": "t3_1di16bq"
+    },
+    {
+      "id": "l8strzs",
+      "body": "Same issue on the Pixel 8. Quite a shame that even the .apk does not work.",
+      "author": "LumosDRSG",
+      "subreddit": "Subterfuge",
+      "created_utc": 1718500685,
+      "score": 1,
+      "link_id": "t3_zcgsco",
+      "parent_id": "t1_izpz18p"
+    },
+    {
+      "id": "l7b4k5y",
+      "body": "The number of digits in a real number is countably infinite.\n\nThe number of different options for each digit is finite.\n\nThe quantity of real numbers is uncountably infinite.\n\nNow: real number -> chess game, number of digits -> number of turns, number of different options for each -> number of possible moves each turn",
+      "author": "LumosDRSG",
+      "subreddit": "mathematics",
+      "created_utc": 1717637161,
+      "score": 10,
+      "link_id": "t3_1d955co",
+      "parent_id": "t1_l7b3so1"
+    },
+    {
+      "id": "l6z97cp",
+      "body": "If the typographical hints bother you, then just ignore them. Having a clear convention where vectors have a typographical hint associated with them is useful in the same way that using greek letters vs. latin letters for different contexts is useful. Of course you can just state what your objects refer to every time, but it helps (experienced) readers skip the parts that are understood by using mental shortcuts.\n\nIn physics, it is sometimes unhelpful to think of equations as \"definitions of functions\". Instead, they are defining relationships between variables that can each be varied. E = Q/r\\^2 is the same thing as Q = E\\*r\\^2 is the same thing as r = (Q/E)\\^(1/2); you're not going to write E(Q,r) and Q(E,r) and r(Q,E) every time though.",
+      "author": "LumosDRSG",
+      "subreddit": "mathematics",
+      "created_utc": 1717453011,
+      "score": 2,
+      "link_id": "t3_1d737wa",
+      "parent_id": "t1_l6xfujm"
+    },
+    {
+      "id": "l6z82t2",
+      "body": "Given they define the frequency by \"number of cycles in a period of 1 second\", I think the intent is that length refers to 'distance traveled by the wave in 1 second'; exactly as you suggest with 'counting the number of maxima'.\n\nIt is technically 'trivial', but for someone still in school it can be cool to rotate the concepts around in their head. I hope the OP can use this to see that their reasoning is correct, and to practice having clear explanations.\n\nIt can be surprising how many things are obvious once you explain them the right way.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1717452588,
+      "score": 8,
+      "link_id": "t3_1d7gln5",
+      "parent_id": "t1_l6z669h"
+    },
+    {
+      "id": "l6sq0ig",
+      "body": "Yes. There are a collection of questions brought about by experimental data now where theoretical explanations are lacking. New data gets found and published, and it has been an effort of the physics community to find explanations that match the results of existing theories while also explaining the discrepancies found today.\n\nWhat comes to mind for me are a lot of questions in cosmology, where experimental data is clear on our understanding being incomplete, but no single theory can confidently explain the discrepancy.\n\nI imagine the same is true in laboratories that do more hands on experiments with \"physical effects\" as you describe, perhaps in the realm of condensed matter.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1717351702,
+      "score": 3,
+      "link_id": "t3_1d6j3pq",
+      "parent_id": "t3_1d6j3pq"
+    },
+    {
+      "id": "l5j97w0",
+      "body": "I will not give a rigorous proof, but I will give a quick example of how going through the small cases reveals Fibonacci numbers.\n\nLet us write the current state of the game as (C,Q) where C is the number of remaining coins and Q is the maximum quota. For each (C,Q), we can determine whether the position is winning for the person who is about to play or for the other player. Note that Q is always >=2 since the quota is doubled.\n\nIf Q >= C, then the current player wins (since they can take all the coins).\n\nNow, we alternate seeing what position force you to lose, and what positions allow you to force your opponent to lose:\n\n**With {(3,1),(3,2),(2,1)} you are forced to lose by bringing the position down to Q >= C.**\n\nWith (4,Q) you can win by bringing the position to (3,2).\n\n**With (5,Q) you are forced to lose by bringing the position to either (4,Q) or Q >= C.**\n\nWith (6,Q) you can win by bringing the position to (5,Q).\n\nWith (7,Q) you can win by bringing the position to (5,Q).\n\n**With (8,Q) you lose because either you bring the position to (6,Q) or (7,Q), or you bring the position to Q >= C.**\n\nWith (9,Q) you can win by bringing the position to (8,Q).\n\nWith (10,Q) you can win by bringing the position to (8,Q).\n\nWith (11,Q>=3) you can win by bringing the position to (8,Q). With (11,Q<=2) you lose, since you are forced to bring it to (9,Q) or (10,Q).\n\nWith (12,Q) you can win by bringing the position to (11,2).\n\n**With (13,Q) you lose because either you bring the position to (9/10/11,Q>=4) or (12,Q) or Q >= C.**\n\n**---**\n\nA more careful analysis is necessary to prove the pattern, but from here one might get enough of a glimpse to see it.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1716588814,
+      "score": 3,
+      "link_id": "t3_1czu6no",
+      "parent_id": "t3_1czu6no"
+    },
+    {
+      "id": "l4zrtjk",
+      "body": "As far as I can tell, this is a rushed and confusing review of an approach to ODEs. It then gives examples of two unrelated differential equations that are known in neuroscience and cosmology. Then, just for fun, it lists a few numerical methods. Finally, it makes a vague conclusion about how the fields can learn from each other and how one can seek a differential equation that describes both. Then, it divulges into rushed details about 5 other numerical methods or known results in chaos theory.\n\nMy judgement is that there is nothing new or interesting; definitely no new math, and no physics.\n\n---\n\nI'm glad you had fun with your experiment with neural networks, but please remember that the way they are trained prevents them from reasonably extrapolating beyond the data they were trained with, and so using them for finding \"new theories\" is not a great strategy. If you find something it produced that you think is new, it is likely either something that you didn't know about, or something that the neural network wrote in a manner so confusing you didn't recognize it.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1716279615,
+      "score": 3,
+      "link_id": "t3_1cx2dfp",
+      "parent_id": "t3_1cx2dfp"
+    },
+    {
+      "id": "l4hsspo",
+      "body": "You should give a bit more detail about what you mean by \"simulate\".\n\nDo you mean write computer code? In this case I don't see why scaling down is necessary at all, just use the correct values in SI units for everything.\n\nDo you mean that you're building a physical model (e.g. those examples with a rubber sheet)? In this case you'll need to go into a bit more detail, but you can tune your scaling by thinking of F = mv\\^2 / r for a circular orbit. Scaling down the distances fixes the radius you want, the way you mediate forces fixes F, and then depending on how you choose the mass will fix the necessary velocities (in some sense fixing how much you scale time). You can compare this to how oceans can be simulated, where because gravity is fixed and distances become smaller, time movves 'faster' (https://youtu.be/SFkoLYrJGCM or https://youtu.be/i70wkxmumAw).\n\nOtherwise, I'm not sure what simulate might mean. Feel free to go into more detail and there may be a more precise answer.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1715971525,
+      "score": 3,
+      "link_id": "t3_1cuccrn",
+      "parent_id": "t3_1cuccrn"
+    },
+    {
+      "id": "l479r5z",
+      "body": "I am aware of these scientists, but their work is from over a century ago. The lack of well-known modern examples is telling of how physics and the environment where research is done has changed.\n\nThough it may perhaps be inspiring to hear of great minds who overcame the odds, I think it is disingenuous to make this comparison to an average person today, hence why I said I am not aware of anyone.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1715801310,
+      "score": 1,
+      "link_id": "t3_1cp0l11",
+      "parent_id": "t1_l3hrssh"
+    },
+    {
+      "id": "l3pr8zg",
+      "body": "This sounds similar to something like [https://en.wikipedia.org/wiki/Parallel\\_task\\_scheduling](https://en.wikipedia.org/wiki/Parallel_task_scheduling) . I don't know anything about research or important results in this field, but maybe this is a good place to start for your investigation.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1715524630,
+      "score": 1,
+      "link_id": "t3_1cocxjh",
+      "parent_id": "t3_1cocxjh"
+    },
+    {
+      "id": "l3jv6qp",
+      "body": "[https://en.wikipedia.org/wiki/Hyperoperation](https://en.wikipedia.org/wiki/Hyperoperation)\n\n[https://www.reddit.com/r/math/comments/acoigm/what\\_would\\_this\\_concept\\_be\\_called/](https://www.reddit.com/r/math/comments/acoigm/what_would_this_concept_be_called/)",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1715417462,
+      "score": 3,
+      "link_id": "t3_1cogey6",
+      "parent_id": "t3_1cogey6"
+    },
+    {
+      "id": "l3hsa0h",
+      "body": "One might say these are degrees of freedom that are \"removed\" from the problem, because you know that these are quantities that cannot change during the time evolution.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1715378301,
+      "score": 2,
+      "link_id": "t3_1cohtyc",
+      "parent_id": "t1_l3f8pvp"
+    },
+    {
+      "id": "l3hoyt0",
+      "body": "Unfortunately, I am not personally aware of research contributed by anyone who doesn't at least have an undergraduate degree. Even if you go through the rare and competitive route of research outside of academia, skipping a graduate program, you will certainly be required to have an undergraduate certification.\n\nYou should look into seeking accommodations and help by your university. Your choice of words (\"undergrad\") makes it sound like you are in the US; as far as I know many American schools have provisions to help neurodivergent students. Good luck!",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1715377010,
+      "score": 1,
+      "link_id": "t3_1cp0l11",
+      "parent_id": "t3_1cp0l11"
+    },
+    {
+      "id": "l3es9w0",
+      "body": "Often, this refers to having as many conserved charges as half of the dimension of the phase space.\n\nA pendulum's state is defined by its angle and angular speed (2-dimensional phase space); it conserves energy (1 conserved charge); so it is integrable.\n\nA double pendulum's state is defined by the angle and angular speed of each arm (4-dimensional phase space); it conserves only energy (1 conserved charge); so it is chaotic.\n\nSee [https://en.wikipedia.org/wiki/Liouville%E2%80%93Arnold\\_theorem](https://en.wikipedia.org/wiki/Liouville%E2%80%93Arnold_theorem) for a specific example of why having this many conserved charges is useful. Essentially, with N conserved charges, paths in the 2N-dimensional phase space are restricted to N-dimensional submanifolds. On these manifolds, the equations of motion are trivial.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1715335566,
+      "score": 22,
+      "link_id": "t3_1cohtyc",
+      "parent_id": "t1_l3elovl"
+    },
+    {
+      "id": "l39xmva",
+      "body": "In your particular example, 340 / 60 is 34 / 6 and can be done in your head from there\n\nIn general, you can make a good guess quickly. 344 / 61? Well 61\\*6 = 366 is easy to see. So 344 / 61 = 6 - (366-344)/61 = 6 - 22/61 = 5 + 49/61.\n\nAnything more should be left to computers. When do you need to do long division without a calculator anyway?",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1715259533,
+      "score": 9,
+      "link_id": "t3_1cnwhb4",
+      "parent_id": "t3_1cnwhb4"
+    },
+    {
+      "id": "l2i2ioj",
+      "body": "Yes. Time dilation means objects moving quickly experience less time.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1714798373,
+      "score": 1,
+      "link_id": "t3_1cjrxxv",
+      "parent_id": "t3_1cjrxxv"
+    },
+    {
+      "id": "l2dtric",
+      "body": "If you are 100% sure you're doing year 1 entry (and not skipping the first year, which is possible to do), that sounds tough if not impossible depending on the structure of your program. Most programs are based off of taking consecutive classes in a sequence that build up, so you can't really skip anything without missing out on the prerequisites.\n\nI would suggest contacting the Teaching Office or Student Support team for your department (e.g. [the emails on this page for physics](https://www.wiki.ed.ac.uk/display/pastudentinfo/Contacts#Contacts-to)). They may be able to answer your question more decisively, or put you in contact with an Academic Advisor that would help you make a plan for your degree.\n\nBest of luck.",
+      "author": "LumosDRSG",
+      "subreddit": "Edinburgh_University",
+      "created_utc": 1714736495,
+      "score": 2,
+      "link_id": "t3_1cj6dg1",
+      "parent_id": "t3_1cj6dg1"
+    },
+    {
+      "id": "l1np889",
+      "body": "Putting aside that the other commenters already mentioned about how this is unrelated to quantum gravity...\n\nAnd putting aside how the \"complex series of equations \\[with spacetime\\]\" are fundamentally different from springs...\n\nAnd putting aside the fact that even Newtonian gravity does not have a quadratic potential as a spring would...\n\nYou are suggesting solving an N-body problem with quadratic potentials by (???), pointing out that the quadratic potentials are spring-like? You're not technically wrong, but what is the insight here besides calling things spring-like?\n\nThe N-body problem is an obstacle because when you have more than 2 bodies, the motion becomes chaotic. As far as I understand, this doesn't suddenly become easier by calling the interactions spring-like.\n\nPlease feel free to link me to a manuscript that goes into detail on how solutions for the N-body problem can be found using your approach ;)",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1714320890,
+      "score": 4,
+      "link_id": "t3_1cf9k6w",
+      "parent_id": "t3_1cf9k6w"
+    },
+    {
+      "id": "l1n0uds",
+      "body": "[https://en.wikipedia.org/wiki/Superdense\\_coding](https://en.wikipedia.org/wiki/Superdense_coding)\n\n\"After having performed one of the operations described above, Alice can send her entangled qubit to Bob using a quantum network through some conventional physical medium.\"\n\nIndeed, the point is that you physically send a qubit. The crucial detail is that by sending *one* (entangled) qubit, you transmit *two* bits of information.\n\nAs far as I recall from my QIT course 2 years ago, superdense coding is an example of an upper bound on how much classical information can be transmitted through a quantum channel.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1714311481,
+      "score": 15,
+      "link_id": "t3_1cf6fd7",
+      "parent_id": "t3_1cf6fd7"
+    },
+    {
+      "id": "l1fhz6u",
+      "body": "Please classify the Calabi-Yau manifolds.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1714175758,
+      "score": 8,
+      "link_id": "t3_1ce0aiz",
+      "parent_id": "t3_1ce0aiz"
+    },
+    {
+      "id": "l1fd4a3",
+      "body": "Rounding is about bringing it to the closer number.\n\n2.4683 is closer to 2.46834733 than 2.4684 is.\n\nThe only reason you are taught to \"round up on 5\", is because 0.5(???) is guaranteed to closer to 1 than to 0 (or at worst, they are equally close).",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1714173821,
+      "score": 13,
+      "link_id": "t3_1cdzmxd",
+      "parent_id": "t3_1cdzmxd"
+    },
+    {
+      "id": "l1enb4e",
+      "body": "Water has zero calories that your body can use as part of the process for generating ATP, e.g. through [the Krebs Cycle](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/krebs-cycle).\n\nOf course, water has plenty of physical energy stored with in. It has the energy from its temperature (jiggling of the whole molecule, essentially kinetic), from it being bonded (chemical bonds, essentially potential energy like in a spring), and the energy from having massive things in it (mass \\~ energy).\n\n---\n\nThis has nothing to do with liquids taking the form of their container. That is just a combination of being too weakly bonded to be a solid (so it spreads out), but too strongly bonded so it still has a high density (unlike a gas), so gravity pulls it down and spreads it out at the floor of a container.\n\n---\n\nWater can also move, but still fill a container... so clearly kinetic energy is not involved in whatever deduction you're trying to make.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1714163905,
+      "score": 2,
+      "link_id": "t3_1cdvnhp",
+      "parent_id": "t3_1cdvnhp"
+    },
+    {
+      "id": "l19339x",
+      "body": "It is true that\n\n10\\^n = (1+10+...+10\\^{n-1})\\*9 + 1\n\ne.g. 1000 = 111\\*9 + 1\n\nTherefore, in order for something to be a multiple of 9, the extra 1s must also add up to 9. The number of extra 1s is precisely the sum of the digits.\n\n  \nMore concisely, any number represented in base 10 with digits a\\_n can be written as\n\na\\_n\\*10\\^n + ... + a\\_1\\*10 + a\\_0 = (...)\\*9 + a\\_n + ... + a\\_1 = a multiple of 9 + the sum of the digits = a multiple of 9\n\nso the sum of the digits is a multiple of 9.\n\n  \n[Here is a Khan Academy video](https://www.khanacademy.org/math/in-in-class-6th-math-cbse/x06b5af6950647cd2:playing-with-numbers/x06b5af6950647cd2:tests-for-divisibility/v/the-why-of-the-9-divisibility-rule) I found with a quick google search if you prefer a video explanation.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1714077918,
+      "score": 2,
+      "link_id": "t3_1cd1l2n",
+      "parent_id": "t3_1cd1l2n"
+    },
+    {
+      "id": "l18lqqm",
+      "body": "There are 6 independent cases. In 3 of them she is older than Charlie, in 3 of them she is older than Bob, and in 2 of them she is older than both.\n\nWhat is the probability Alice is older the Charlie? 3 of 6 cases = 1/2\n\nWhat is the probability Alice is older than Charlie if she is older than Bob? 2 out of the 3 cases = 2/3",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1714072220,
+      "score": 4,
+      "link_id": "t3_1ccyx08",
+      "parent_id": "t3_1ccyx08"
+    },
+    {
+      "id": "l0pp7jq",
+      "body": "The point of relativity, is that there is no absolute reference frame, and no absolute speed. Light doesn't move at the speed of light in \\*a\\* reference frame, light moves at the speed of light in \\*all\\* reference frames. [https://en.wikipedia.org/wiki/Special\\_relativity](https://en.wikipedia.org/wiki/Special_relativity)\n\nWith your two ships, you described their speeds in a stationary reference frame. Changing your reference frame to one of the ships, you'll find that the other ship is \\*not\\* moving away faster than the speed of light. [https://en.wikipedia.org/wiki/Velocity-addition\\_formula](https://en.wikipedia.org/wiki/Velocity-addition_formula)\n\nThere is no absolute speed, so there is no unique answer to how fast the Earth is moving. You pick a reference frame useful for your measurement, model, or question, and then you figure it out.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1713773336,
+      "score": 16,
+      "link_id": "t3_1ca51ns",
+      "parent_id": "t3_1ca51ns"
+    },
+    {
+      "id": "kze66dz",
+      "body": "The energy generated by the turbine will be proportional to the energy carried by the water, since it is not stated otherwise. (One might imagine a turbine with some friction to overcome, in which case the proportion of energy lost is greater for weaker forces).\n\nThe energy carried by the water is proportional to its weight, and to its height. The rest of the question is not decidable since there is not enough information. I will assume that the question is about power, rather than energy (or in other words, one is asking about the energy in some span of time).\n\nIs the amount of water per unit time the same in both cases? Then its definitely the second. But the question implies that there is 'more water' in the first case. Then, the question is whether the ratio of masses of water is greater than the ratio of heights. Without that information, it cannot be decided.\n\nYour English is fine; your physics question is not well defined. I wonder what discussion you were hoping to achieve; perhaps I am missing something.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1713021650,
+      "score": 3,
+      "link_id": "t3_1c340tu",
+      "parent_id": "t3_1c340tu"
+    },
+    {
+      "id": "kyi3p1h",
+      "body": "Depending on what you mean by \"from the real world\" and \"theoretical problem\", it sounds like broadly (mathematical) physics is one of many directions to look in.\n\nHowever, given you already know the school you are starting at, and you know your own skillset best, that you take a look at your department and the people present. With some effort and thought, you can narrow things down to the people you feel are most inspired by theory. Then contact existing graduate students in their group or the professors themselves and see if their motivations align with what you hope to have for yourself.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1712513616,
+      "score": 10,
+      "link_id": "t3_1byar7x",
+      "parent_id": "t3_1byar7x"
+    },
+    {
+      "id": "kxgl2r1",
+      "body": "ETH is a strong and prestigious institution for students. I, and everyone I've met, has had a broadly positive experience.  \n  \nMy takeaway from this video is that there are systemic challenges for the researchers at the highest level, and the institution does not deal with those challenges well. Of course the incident covered in the video is not alone, and shouldn't not be kept in mind, but it is not something the average student (especially at the BSc/MSc level) will deal with.\n\nIf you are applying for a BSc/MSc, I would not take these matters into account (except maybe as a personal choice to not endorse a potentially problematic institution).\n\nIf you are applying for a PhD, then you should look into your potential supervisors, and ask them about the culture they experience in their research group.\n\nIf you are applying for a higher position, then I cannot help you (but also what are you doing on this subreddit lol).",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1711923407,
+      "score": 6,
+      "link_id": "t3_1bse1wu",
+      "parent_id": "t1_kxgk0u9"
+    },
+    {
+      "id": "kxf34id",
+      "body": "This seems like it [https://youtu.be/Ua\\_BhZ0pl30](https://youtu.be/Ua_BhZ0pl30)",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1711903835,
+      "score": 12,
+      "link_id": "t3_1bse1wu",
+      "parent_id": "t3_1bse1wu"
+    },
+    {
+      "id": "kw6r3zv",
+      "body": "As far as I know, most computer science communication happens here https://discord.com/invite/eth-dinfk\n\n(I'm not in D-INFK myself so ¯\\_(ツ)_/¯)",
+      "author": "LumosDRSG",
+      "subreddit": "ethz",
+      "created_utc": 1711196827,
+      "score": 1,
+      "link_id": "t3_1blq2qo",
+      "parent_id": "t1_kw6qr6w"
+    },
+    {
+      "id": "kvcrfja",
+      "body": "BSc means Bachelor of Science.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1710718354,
+      "score": 2,
+      "link_id": "t3_1bhb3xd",
+      "parent_id": "t1_kvco6yi"
+    },
+    {
+      "id": "kub6ibw",
+      "body": "No one here can speak for your chances, because the system for admission is not transparent.\n\nIf you have appropriate background in the [coursework desired from the program](https://www.ed.ac.uk/studying/postgraduate/degrees/index.php?r=site/view&edition=2024&id=818), then I would say you have a great shot. I do not know what Mechanical Engineering programs cover anywhere near the full list of the physics requirements, and for that reason the website points out \"Degrees in engineering, chemistry, geosciences, etc, are unlikely to be suitable preparation for this programme.\"\n\nOn top of the standard requirements of theoretical physics, quantum gravity is a very challenging field that requires understanding quantum field theory, general relativity, and often other fields depending on the approach (quantum information, statistical physics, etc.). Quantum field theory alone takes two semester to learn, which means you need to go into the programme prepared to take it immediately if you want to have it done by the time you do your dissertation.\n\nIf your Mechanical Engineering program included all of the necessary prerequisites for theoretical physicists, and more, then you have a great shot!\n\nYour experience with programming is helpful, but it will not be a deciding factor at any rate.",
+      "author": "LumosDRSG",
+      "subreddit": "Edinburgh_University",
+      "created_utc": 1710122517,
+      "score": 1,
+      "link_id": "t3_1bbi1ha",
+      "parent_id": "t3_1bbi1ha"
+    },
+    {
+      "id": "ku2h9pu",
+      "body": "If you are passed down a problem that is relevant to physics, but that doesn't require physics, it is possible to do interesting work without having any intuition. Quantum physics is very broad, and the frontiers of current research are full of questions that don't require a background. If you are interested in mathematical physics, I believe it is possible for you to find groups in math departments that don't expect any physics background where the problems will be passed down and you will learn physics through osmosis of interacting with physicists.\n\nHowever, I would say that long term, if you want to have a sense of what problems physicists ask, and what tools come up, and see what your work is contributing to, you should try to understand physics from the ground up. This may skip auxiliary topics like fluid dynamics, but understanding things like statistical physics and especially electromagnetism is crucial for what goes on in modern research.\n\nOn one hand, I do not believe you would find much success in developing intuition without problem solving. Just like with mathematics, deep understanding comes from thinking about the problem yourself (instead of reading or listening to someone else's thoughts), and that requires solving problems. With your mathematical background, the details will be simple, and you should be able to efficiently get a feeling for how things work.\n\nUnfortunately, I do not have book recommendations (all my coursework was through lecture notes), but just about any well-respected resource you find online should be fine. Good luck!",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1709991517,
+      "score": 12,
+      "link_id": "t3_1bahimq",
+      "parent_id": "t3_1bahimq"
+    },
+    {
+      "id": "ktz9q29",
+      "body": "In general, these are all synonyms and are used interchangeably with the precise meaning depending on context.\n\nYou might find it common that universities (e.g. this [Edinburgh course catalog](http://www.drps.ed.ac.uk/19-20/dpt/cx_sb_phys.htm)) use \"quantum mechanics\" to what is covered by more introductory courses (Schrodinger equation, wavefunctions, Dirac notation), and \"quantum theory\" refers to things closer on the frontier (Path integrals, relativistic QM, quantum field theory).\n\nAs far as I know, the distinction is only as a shorthand when speaking about coursework, and not as actual technical terms in science.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1709934341,
+      "score": 11,
+      "link_id": "t3_1b9zszj",
+      "parent_id": "t3_1b9zszj"
+    },
+    {
+      "id": "ks0f6hw",
+      "body": "Can you cite a few sources, either for the experiments you are trying to explain with your framework, or thought experiments that inspire a new direction of ideas? Have you read any scientific literature, or even checked something like Wikipedia for existing analogies and connections between gravity and EM theories? Does your theoretical framework include mathematically robust predictions, and does it match existing, well-understood results at familiar scales?\n\nIf the answer to some of these questions is yes, then you should feel comfortable sharing with us, we would love to hear an experimentally relevant, well-thought through, or mathematically robust theory!\n\nIf the answer to all these questions is no, then you have some work to do before any reasonable working scientist will want to listen to you. Good luck!",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1708828190,
+      "score": 24,
+      "link_id": "t3_1azclar",
+      "parent_id": "t3_1azclar"
+    },
+    {
+      "id": "krb8yqh",
+      "body": "Unless I am misunderstanding the premise, it seems most obvious to do rotation only about the center of mass of the rod.\n\nIf the motion of the center of mass in your 2d space is handled by your linear motion, then you don't need to consider rotations about any other point.\n\nA rod rotating around a distant point is the same thing as the center of mass moving in a circle, while the rod rotates about the center of mass.",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1708446997,
+      "score": 1,
+      "link_id": "t3_1aveo1l",
+      "parent_id": "t3_1aveo1l"
+    },
+    {
+      "id": "kqlkrvm",
+      "body": "Consider the answers given to this question before:\n\n[https://math.stackexchange.com/questions/136637/what-is-a-basis-for-the-vector-space-of-continuous-functions](https://math.stackexchange.com/questions/136637/what-is-a-basis-for-the-vector-space-of-continuous-functions)\n\nIt suggests using a [Schauder basis](https://en.wikipedia.org/wiki/Schauder_basis), that is, a basis with an infinite sum.\n\nA suitable such basis for continuous functions (as suggested on the Stack exchange) is defined using a Fourier transform.\n\nYour suggestion seems a bit challenging to make work since the coefficients would be infinitesimal.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1708035084,
+      "score": 8,
+      "link_id": "t3_1arr8ve",
+      "parent_id": "t3_1arr8ve"
+    },
+    {
+      "id": "kqgwad3",
+      "body": "There exist exact formulas for the perimeter of the ellipse involving elliptic integrals. If you want to find an exact formula, you should study those. [(Here is an example of a source for this)](https://maa.org/sites/default/files/pdf/upload_library/2/Rice-2013.pdf)  \nThere exist approximate formulas for the perimeter of the ellipse that are closed form. If you want to study approximations that are closed form, you should study those. [(Here are some examples I found with a quick google search, you could likely find a better source given a few more minutes)](https://www.cuemath.com/measurement/perimeter-of-ellipse/)  \nWhat you have found might roughly correspond to a known closed form approximation, or be a coincidence at worst. Your passion and drive for experimentation is admirable; the next step is to do math carefully and to start with asking 'why?', and not end with it. Good luck, and have fun.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1707959050,
+      "score": 7,
+      "link_id": "t3_1aqw8th",
+      "parent_id": "t3_1aqw8th"
+    },
+    {
+      "id": "kq99p7l",
+      "body": "That is not an equation, that is called [scientific notation](https://en.wikipedia.org/wiki/Scientific_notationhttps://en.wikipedia.org/wiki/Scientific_notation).\n\nIt contains the same notation, but uses a power of 10 to more compactly store an answer that may be too large or small, and makes it easier to figure the order of magnitude when multiplying things.\n\nIf you are not happy with it, be my guest and write 602300000000000000000000 instead of 6.023\\*10\\^23 next time you use Avogadro's number.",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1707844286,
+      "score": 3,
+      "link_id": "t3_1apyd90",
+      "parent_id": "t3_1apyd90"
+    },
+    {
+      "id": "kpuc367",
+      "body": "How is this a corollary of the binomial theorem?\n\nA messenger conveying a bit with 1/2 successful chance just output a random bit (so the source is irrelevant, whether it is direct or through coin-flipping messengers or through any other means)",
+      "author": "LumosDRSG",
+      "subreddit": "math",
+      "created_utc": 1707603829,
+      "score": 3,
+      "link_id": "t3_1anouln",
+      "parent_id": "t1_kpu6fy7"
+    },
+    {
+      "id": "kjt962d",
+      "body": "[https://en.wikipedia.org/wiki/Many-worlds\\_interpretation](https://en.wikipedia.org/wiki/many-worlds_interpretation)",
+      "author": "LumosDRSG",
+      "subreddit": "Physics",
+      "created_utc": 1706367670,
+      "score": 2,
+      "link_id": "t3_1acahhe",
+      "parent_id": "t1_kjt7vwl"
+    }
+  ]
+}

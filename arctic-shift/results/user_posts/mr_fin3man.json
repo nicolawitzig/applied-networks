@@ -1,0 +1,39 @@
+{
+  "username": "mr_fin3man",
+  "posts": [
+    {
+      "id": "1h4g144",
+      "title": "some doubts about PhD admission",
+      "author": "mr_fin3man",
+      "subreddit": "ethz",
+      "created_utc": 1733093590,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "Hi all,\n\nI’m an MSc Computational Engineering student in Germany, currently working on my thesis in computational fluid dynamics. I’m considering ETH Zurich for a PhD and have a few questions:\n\n**Profile**:\n\n* GPA: 5.4 (expected 5.5-5.6). Some low grades bring it down, but my core area (fluid dynamics) grades are perfect.\n* Publications: 2 (in theoretical physics). My thesis (more relevant to the PhD) might lead to another paper, but it will likely  be published after graduation. For recommendation, I have 2-3 professors who are happy with my work.\n* Work Experience: 2 years as a Reservoir Engineer at an international company. Planning to contact one specific professor with a similar experience, who is still doing research in this area.  \n\n**Questions**:\n\n1. How much weight does GPA carry for PhD admissions? Do you know examples of admitted students and their approximate GPAs (with and without publications)?\n2. Do publications in slightly unrelated area (like my physics papers) still help with admission, especially in offsetting GPA concerns? \n3. Does my profile look sufficient overall? Any recommendations (for improving profile or application) from your experience?\n4. When is the ideal time to apply for a PhD to minimize delays between graduation and starting date of PhD? The later I apply, the better profile I have (regarding GPA and publications). But, this increases risk of delays (e.g. paperwork takes time).\n\nI’d appreciate your insights!",
+      "url": "https://www.reddit.com/r/ethz/comments/1h4g144/some_doubts_about_phd_admission/"
+    },
+    {
+      "id": "1ds2w4p",
+      "title": "[StarCCM DEM] modelling particle break up without particle clumps",
+      "author": "mr_fin3man",
+      "subreddit": "CFD",
+      "created_utc": 1719758182,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Is there any way to model the particle break up in StarCCM with Parallel bonds? I use table injection to inject my packed bed formed from spherical particles in one time instant. To create this bed I ran other DEM sphere particle fall under gravity and waited them to settle before exporting the data.\n\nWhat I need is to create bonded packed rock bed (made of spheres) that will be drilled and rock fragments will be taken out of the domain. I can do this to some degree with Particle Clumps, but when I increase number of particles above 10-15k, this gives me memory error. \n\nSo then I tried Parallel bonds which activate Simple Failure and other particle breakup model (as in Particle clump), I assign some bond strength and successfully inject 20-30k particles in the domain quickly. But Parallel bond model require bond creation start and stop times, so even if the bonds break, when broken particles collide they reattach to each other, until bond stop time ends, which is not desired. You can stop bond creation after few time steps, but this leaves unbonded particles  behind. \n\n",
+      "url": "https://www.reddit.com/r/CFD/comments/1ds2w4p/starccm_dem_modelling_particle_break_up_without/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lzyoiwt",
+      "body": "5.5 out 6.0 (6.0 is best, below 4.0 is fail)",
+      "author": "mr_fin3man",
+      "subreddit": "ethz",
+      "created_utc": 1733101086,
+      "score": 0,
+      "link_id": "t3_1h4g144",
+      "parent_id": "t1_lzynfe4"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "username": "Flockifox",
+  "posts": [
+    {
+      "id": "1gd8rxs",
+      "title": "Do they kick out if there are more of them?",
+      "author": "Flockifox",
+      "subreddit": "ethz",
+      "created_utc": 1730028141,
+      "score": 8,
+      "num_comments": 9,
+      "selftext": "Hello, I started with my bsc in mechanical this autumn. I heard from a few people that the exams will be harder because we are 24% more people than last year and they need to filter.  \nFrom the stats about 60%-70% passed each year. Do you think this percentage will be lower this year?",
+      "url": "https://www.reddit.com/r/ethz/comments/1gd8rxs/do_they_kick_out_if_there_are_more_of_them/"
+    },
+    {
+      "id": "1dcyxbu",
+      "title": "[PCB review request] Nrf52 Board (rev. 2 :))",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1718059478,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "Hello everyone!\n\nI recently printed my first PCB, and it actually worked! Thank you all for your help. Now, I'm back with the second revision and excited to share the updates.\n\nFist: what is it?  \nI'm building a \"man overboard\" detection device. Everyone on the ship wears one, and if a device suddenly disconnects, it signals that someone is missing. This alerts everyone else on board. It's designed for long cruises where someone might be on a night shift alone or for families with young children.\n\nHere's what's changed (I'll link the old post below for reference):\n\n1. **Waterproofing**: Added wireless charging to maintain waterproofing.\n2. **Battery**: Switched from a 18650 to a LiPo battery for a thinner design.\n3. **Buzzer**: Changed from an active piezo buzzer to a passive one.\n4. **Module**: Moved from an Nrf52820 to an Nrf52805 module as I don't need the extras from the 820 version.\n5. **Size**: Made everything smaller and replaced all 1206 components with 0603 components.\n6. **Schematic**: Simplified the schematic for better clarity and ease of understanding. (hopefully)\n\nI'm a bit paranoid about U3, the TPS63001 buck-boost converter. I think I followed the schematic guide in the datasheet, but I would really appreciate it if someone more knowledgeable could take a look at it. The relevant details are on page 16 of the datasheet (link below).\n\nI will also provide the schematic as pdf if the image resolution isn't enough. The link is also below.\n\nThe board has two layers: the top layer is a ground layer, and the bottom is a +3.3V layer.\n\nHere are the links:\n\n* **Datasheet U3 (TPS63001)**: [Datasheet Link](https://www.ti.com/lit/ds/symlink/tps63001.pdf)\n* **Old Post**: [Old Post Link](https://www.reddit.com/r/PrintedCircuitBoard/comments/1bt2x8c/pcb_review_request_nrf52_board/)\n* **Schematic PDF** [Swisstansfer Link](https://www.swisstransfer.com/d/0b3e840c-431c-452b-bf84-05e7df6d3618). [WeTransfer Link](https://we.tl/t-PasD5jPhAt)\n\nThanks in advance for your feedback!\n\nhttps://preview.redd.it/losdscbpmt5d1.png?width=2339&format=png&auto=webp&s=5ae331a140242764e7a519e03f9bd21d5e423eb5\n\nThe board has 2 layers. The top layer is a ground layer and the bottom is a +3.3V one.\n\nhttps://preview.redd.it/59f139wklt5d1.png?width=1503&format=png&auto=webp&s=739be8ffecac35646467fde5e019934905462101\n\nhttps://preview.redd.it/x66z24tilt5d1.png?width=1424&format=png&auto=webp&s=139cf88645a1430bd1ac61f6db0ef85b24a7e9c5\n\nhttps://preview.redd.it/gc3ml5pdlt5d1.png?width=483&format=png&auto=webp&s=76e312b5df1297b9a257ac0e376b4abdf3dcbd46\n\nhttps://preview.redd.it/6jsxybcblt5d1.png?width=508&format=png&auto=webp&s=0f6a88f12e54e6b3d6db0d110d444a070076027f\n\n  \n",
+      "url": "https://www.reddit.com/r/PrintedCircuitBoard/comments/1dcyxbu/pcb_review_request_nrf52_board_rev_2/"
+    },
+    {
+      "id": "1cl44xu",
+      "title": "nrf connect learning about BLE",
+      "author": "Flockifox",
+      "subreddit": "embedded",
+      "created_utc": 1714950148,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "I'm trying to build an application that utilities BLE using the new nrf connect sdk for a nrf52820 soc.  \nI can't find any good place to learn. The examples provided are just cluttered.  \nI only want to establish a connection between my nrf device (peripheral) and a central and exchange some data. That shouldn't be that hard right?  \nThanks a lot if you can hint me to some resources where I can learn more",
+      "url": "https://www.reddit.com/r/embedded/comments/1cl44xu/nrf_connect_learning_about_ble/"
+    },
+    {
+      "id": "1bt2x8c",
+      "title": "[PCB review request] Nrf52 Board",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711975919,
+      "score": 7,
+      "num_comments": 20,
+      "selftext": "A week ago I made a post. My board was full of errors. I think I have fixed them now.\n\nIn summery:\n\n* moved from esp32 to nrf52 module for power efficiency\n* removed OLED for power efficiency\n* replaced AMS1117 with TPS63001\n* Changed to NMOS only and removed the BJT.\n* Added a pulldown resistor to the NMOS gate.\n* I don't use the auto router anymore.\n\n&#x200B;\n\nBut: I still do some de bouncing, because if I can fix it in hardware, it will make it easier in software later. \n\nThank you very much for the review. I would be very happy if you could take another look. I know that the routing is not top of the line because this is my first time routing. But I think it should work?\n\nFirst thread: ( I'm doing a new post because it is basically a new board and I somehow can only upload one image in the comments and I don't want to spam.)\n\n[https://www.reddit.com/r/PrintedCircuitBoard/comments/1boje8g/design\\_review\\_request\\_battery\\_powered\\_esp32\\_mini/](https://www.reddit.com/r/PrintedCircuitBoard/comments/1boje8g/design_review_request_battery_powered_esp32_mini/) \n\nhttps://preview.redd.it/xgvhh3ge5vrc1.png?width=2339&format=png&auto=webp&s=ad97f5c851d7941af749aef058f4e8d91eb3ae2c\n\nhttps://preview.redd.it/kp4xs9un5vrc1.png?width=2231&format=png&auto=webp&s=c24c920b0fa79ed2b2e5f582b10ac9685e74a086\n\nhttps://preview.redd.it/emvjwu4k5vrc1.png?width=2227&format=png&auto=webp&s=4b2beee3bf4b6b870f0b3c8ae616263d6341ee33\n\nhttps://preview.redd.it/z735oc236vrc1.png?width=975&format=png&auto=webp&s=f32dd53440452b6755199ddb16e6871bba771e0b\n\nhttps://preview.redd.it/18aqrja56vrc1.png?width=966&format=png&auto=webp&s=3e845fbfa4bf0f76a07729adb4d2875bfd323e0c",
+      "url": "https://www.reddit.com/r/PrintedCircuitBoard/comments/1bt2x8c/pcb_review_request_nrf52_board/"
+    },
+    {
+      "id": "1boje8g",
+      "title": "[Design Review Request] - Battery powered ESP32 Mini for BLE Application",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711487816,
+      "score": 3,
+      "num_comments": 6,
+      "selftext": "Hey! I always wanted to design my own circuit board and now I have done it. I'm basically building a dead man's switch using Bluetooth Low Energy. I am using an ESP32 mini IC and a MCP73871T-2CCI/ML IC to charge a Li-Ion cell. I also added a buzzer and a vibration motor.\n\nI would really appreciate it if you could take a look at this and see if I have made any (common) mistakes. I read here that the auto router is not that good, but I tried it by hand and it was probably worse. So I used it.\n\nI hope you can give me some feedback. Thank you very much!\n\n(I hope I added all the files needed)\n\nImages:  \n1) Schematic  \n2) 2D Top  \n3) 3D Bottom  \n4) PCB Top  \n5) PCB Both  \n5) PCB Bottom\n\n[Schematic](https://preview.redd.it/4x5zd3xbvqqc1.png?width=1653&format=png&auto=webp&s=c048bc196234bd47d44798ef9e57cd5218cb1efe)\n\n[2D Top Layer](https://preview.redd.it/qvpu7rhyuqqc1.png?width=1182&format=png&auto=webp&s=cbe64e6ceefeb9b9d926a131f4775d091de1c6c5)\n\n[2D Bottom Layer](https://preview.redd.it/xwrxr9yyuqqc1.png?width=1176&format=png&auto=webp&s=a758e2e3769039fb583cba146965cbbce573789a)\n\nhttps://preview.redd.it/xernixpe1rqc1.png?width=948&format=png&auto=webp&s=f92779c44992654f579951a067994b2e596de020\n\nhttps://preview.redd.it/ltx7e43r1rqc1.png?width=948&format=png&auto=webp&s=4cfd512e71b91e3b0649c339bcee40ee048f166e\n\nhttps://preview.redd.it/mtvc6lrt1rqc1.png?width=948&format=png&auto=webp&s=c1aabd824adabd0defacd8b8e738b0f5e2cc8c3b",
+      "url": "https://www.reddit.com/r/PrintedCircuitBoard/comments/1boje8g/design_review_request_battery_powered_esp32_mini/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lu0s3pw",
+      "body": "That is encouraging. Thank you very much!",
+      "author": "Flockifox",
+      "subreddit": "ethz",
+      "created_utc": 1730043179,
+      "score": 1,
+      "link_id": "t3_1gd8rxs",
+      "parent_id": "t1_lu0p1q1"
+    },
+    {
+      "id": "ltzutbg",
+      "body": "Well if you want to self host you will have to put a bit of effort in. but you can use one of many install scripts that make it faster. if you trust them or not is your thing. [https://github.com/pterodactyl-installer/pterodactyl-installer](https://github.com/pterodactyl-installer/pterodactyl-installer)",
+      "author": "Flockifox",
+      "subreddit": "selfhosted",
+      "created_utc": 1730029984,
+      "score": 7,
+      "link_id": "t3_1gd90ve",
+      "parent_id": "t1_ltzu4ca"
+    },
+    {
+      "id": "ltzti8f",
+      "body": "pterodactyl",
+      "author": "Flockifox",
+      "subreddit": "selfhosted",
+      "created_utc": 1730029275,
+      "score": 7,
+      "link_id": "t3_1gd90ve",
+      "parent_id": "t3_1gd90ve"
+    },
+    {
+      "id": "l83czo8",
+      "body": "You indeed have a point. Thanks for clarifying. I couldn't find anything at my local ship accessory seller and thought to diy would be a nice gadget. But you are right. It is to dangerous to do. I'm not a electrical engineer and I'm not qualified to do that. Thanks for the clarification!",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1718099203,
+      "score": 1,
+      "link_id": "t3_1dcyxbu",
+      "parent_id": "t1_l83aav2"
+    },
+    {
+      "id": "l8350xz",
+      "body": "Hey! Thanks for your reply and concerns. I've thought a lot about this, and as a sailor, I want to clarify that I'll only use this device on my own boat. I specifically built it for situations where someone has a night shift, and I, as the skipper, can't always be awake.\n\nTo clarify, this device is not meant to replace any safety equipment but to add an extra layer of safety. A friend of mine experienced a situation where someone fell overboard at night. They were wearing a life jacket, but it took a while to find them. Luckily, this happened close to shore, but it could have been much worse.\n\nThe device is designed to be attached to life jackets, so there's no confusion about replacing them. Additionally, the device is built to fail safely; if water gets in, it disables the device, disconnecting it. The main node is a robust onboard computer specifically made for use on a ship.\n\nI hope this clarifies my intentions.",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1718093330,
+      "score": 1,
+      "link_id": "t3_1dcyxbu",
+      "parent_id": "t1_l830vk5"
+    },
+    {
+      "id": "l36q8wq",
+      "body": "Hey! I'm new to nordic but the material is great. Thank you very much!",
+      "author": "Flockifox",
+      "subreddit": "embedded",
+      "created_utc": 1715201576,
+      "score": 2,
+      "link_id": "t3_1cl44xu",
+      "parent_id": "t1_l2rreju"
+    },
+    {
+      "id": "l36q2am",
+      "body": "Thank you very much! I looked into it and it awesome",
+      "author": "Flockifox",
+      "subreddit": "embedded",
+      "created_utc": 1715201516,
+      "score": 1,
+      "link_id": "t3_1cl44xu",
+      "parent_id": "t1_l2r7d06"
+    },
+    {
+      "id": "kxqhpgm",
+      "body": "Oh sorry yes indeed. I fixed it now! Thank you very much!",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712082664,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxpdlj1"
+    },
+    {
+      "id": "kxowx1c",
+      "body": "Oh ups.. Thank you very much!",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712062998,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxmxk0u"
+    },
+    {
+      "id": "kxlyipx",
+      "body": "Nordic says it is fine!",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712009079,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxl6ewu"
+    },
+    {
+      "id": "kxltl97",
+      "body": "Hey! Thank you. I'm soldering everything by hand and since I'm not very experienced in smd soldering I tough it would be a good idea to start with some bigger footprints. Once I'm more comfortable I will likely do a revision with smaller footprints.",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712007273,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxlny7k"
+    },
+    {
+      "id": "kxl6ewu",
+      "body": "I will do that, magic smoke doesn't sound very pleasing",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711999448,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxl5w2j"
+    },
+    {
+      "id": "kxl47mf",
+      "body": "https://preview.redd.it/6skii3rz2xrc1.png?width=1043&format=png&auto=webp&s=7cc6879c84cbed30099e76c2790cf6b09eff3173\n\nHey! I now read into it. But just to confirm it. Would that setup work?",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711998705,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxkosna"
+    },
+    {
+      "id": "kxkr4vs",
+      "body": "Thank you very much! I will look into it and try to fix it",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711994340,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxkosna"
+    },
+    {
+      "id": "kxkqvij",
+      "body": "Does that mean that it is fine to let it like it is or do I need to change something? I also looked again into de documentation of the module and it also states there that it can be powered with 5V",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711994256,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxk5eok"
+    },
+    {
+      "id": "kxjo7ij",
+      "body": "Thank you very much again for all that valuable Feedback. I will go fix it again.  \nThank you also for the resource about debouncing. I will read into it!",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711981021,
+      "score": 1,
+      "link_id": "t3_1bt2x8c",
+      "parent_id": "t1_kxjmzz8"
+    },
+    {
+      "id": "kxgnx1v",
+      "body": "Thank you very much for all the advice!",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711924502,
+      "score": 1,
+      "link_id": "t3_1boje8g",
+      "parent_id": "t1_kx0acg3"
+    },
+    {
+      "id": "kwvmvju",
+      "body": "Thank you very much. I just started all over again. I will use a MS44SF2-nRF52820 as chip. I do want to have a good working product that I can use.  \nI will also start reading into the Nordic SDK. Thank you very much for the hint.",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711582829,
+      "score": 1,
+      "link_id": "t3_1boje8g",
+      "parent_id": "t1_kwuf5pu"
+    },
+    {
+      "id": "kwpo76a",
+      "body": "Hey! First of all, thank you so much for your time and effort. I'm really new to all this and it's quite overwhelming. \n\nI'm sorry for making so many completely avoidable mistakes, I'll correct them as soon as possible. \n\nI've looked at the nrf52 series but I'm not sure how easy they are to program. I'm familiar with the Arduino ecosystem and thought that might help me get it working. I will reconsider my choice after doing more research. I knew that eps's were bad with power consumption, but I didn't know they were this bad. \n\nI am also going to do more research into doing the traces myself. Hopefully I can get better results. \n\nThank you very much for pointing out all the other mistakes and the valuable feedback.",
+      "author": "Flockifox",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1711492019,
+      "score": 2,
+      "link_id": "t3_1boje8g",
+      "parent_id": "t1_kwpkqdr"
+    }
+  ]
+}

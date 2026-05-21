@@ -1,0 +1,406 @@
+{
+  "username": "ysenngard",
+  "posts": [],
+  "comments": [
+    {
+      "id": "m0q8xeo",
+      "body": "Then it's unlikely this is coming from tasks. If you don't have Google Tasks or Google Calendar installed it must've been something else. \n\nAre you using Google Keep?\nDo you have any different Calendar or Tasks like apps installed?",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1733502890,
+      "score": 1,
+      "link_id": "t3_1h7mxvu",
+      "parent_id": "t3_1h7mxvu"
+    },
+    {
+      "id": "lxghcms",
+      "body": "Note that you can already create aliases by using + in gmail. \n\nE.g. myself+netflix@gmail.com would forward mail to myself@gmail.com.\n\nHowever, an alias that cannot be deducated to the actual email would still be great.",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1731776897,
+      "score": 24,
+      "link_id": "t3_1gspm7k",
+      "parent_id": "t3_1gspm7k"
+    },
+    {
+      "id": "lvk7x1y",
+      "body": "Are the tasks available in the google tasks app or are they missing there as well?",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1730830469,
+      "score": 1,
+      "link_id": "t3_1gk0gtw",
+      "parent_id": "t3_1gk0gtw"
+    },
+    {
+      "id": "lu6fzv9",
+      "body": "Where do you view the Tasks? Calendar? Sidebar in Calendar? Tasks' fullscreen view?\n\nDo I understand that you can still see the tasks but it's just not visible that they're subtasks?",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1730124861,
+      "score": 1,
+      "link_id": "t3_1ge0f1w",
+      "parent_id": "t3_1ge0f1w"
+    },
+    {
+      "id": "lth1fyp",
+      "body": "Not sure I entirely understand what you mean? \nYou want to open Tasks from Chrome, so you go to tasks.google.com and then it opens the Tasks App instead, right?",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1729751177,
+      "score": 1,
+      "link_id": "t3_1gagrwj",
+      "parent_id": "t3_1gagrwj"
+    },
+    {
+      "id": "lth1331",
+      "body": "That's not possible ATM.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1729750956,
+      "score": 1,
+      "link_id": "t3_1gals9v",
+      "parent_id": "t3_1gals9v"
+    },
+    {
+      "id": "lmmyr8d",
+      "body": "You can delete one occurrence of a recurring task in Google Calendar.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1726076706,
+      "score": 1,
+      "link_id": "t3_1feecm1",
+      "parent_id": "t3_1feecm1"
+    },
+    {
+      "id": "lkyo9if",
+      "body": "Tasks has a public api, you can use that with your custom front-end.\n\nhttps://developers.google.com/tasks/reference/rest",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1725181416,
+      "score": 1,
+      "link_id": "t3_1f61hiu",
+      "parent_id": "t3_1f61hiu"
+    },
+    {
+      "id": "lh9ydyd",
+      "body": "Descriptions store up to 8192 characters.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1723211840,
+      "score": 1,
+      "link_id": "t3_1ens110",
+      "parent_id": "t3_1ens110"
+    },
+    {
+      "id": "le3wrx1",
+      "body": "There is a dedicated Tasks sidebar available. \n\nHowever, tasks are currently not visible in the Calendar sidebar. To see them in the side you'll have to open the Tasks sidebar.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1721496374,
+      "score": 2,
+      "link_id": "t3_1e7wxfm",
+      "parent_id": "t3_1e7wxfm"
+    },
+    {
+      "id": "lda7iev",
+      "body": "Just curious :) \n\nAre you correlating traffic on your webpage with views, comments, sales or ad income? AFAIK around 50% of the internet's traffic is robot traffic. So traffic does not necessarily mean much.\n\nWhat metrics are you using? \nAre you sure that most of your traffic was coming from Google Search?",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1721047748,
+      "score": 15,
+      "link_id": "t3_1e3smq4",
+      "parent_id": "t3_1e3smq4"
+    },
+    {
+      "id": "ld41kz3",
+      "body": "No, that's not possible with Google Tasks. Once you create a task it will stay in your list until you delete it or complete it.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1720945162,
+      "score": 2,
+      "link_id": "t3_1e2qxnd",
+      "parent_id": "t3_1e2qxnd"
+    },
+    {
+      "id": "lcgzp7w",
+      "body": "If you think thats a bug, then you can raise that in their issue tracker:\n[issue trscker](https://issuetracker.google.com/savedsearches/566277?s=modified_time:desc&p=1)",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1720590940,
+      "score": 1,
+      "link_id": "t3_1d3h6da",
+      "parent_id": "t1_lcf9ay2"
+    },
+    {
+      "id": "lcevzax",
+      "body": "Yes, Google Tasks does not show recurring tasks in advance. However, you can see individual instances in Google Calendar.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1720559434,
+      "score": 1,
+      "link_id": "t3_1d3h6da",
+      "parent_id": "t1_lccdwtu"
+    },
+    {
+      "id": "lbsq3r6",
+      "body": "Giving more context, I work in FAANG and the imposter syndrome is strong. Still, if you want to get far in my Org (not research) you have to be a well rounded engineer. Means, have a good base, communicate!!!!!! and ship whats needed.",
+      "author": "ysenngard",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1720211655,
+      "score": 2,
+      "link_id": "t3_1dvo1s7",
+      "parent_id": "t1_lbqblr4"
+    },
+    {
+      "id": "lbqblr4",
+      "body": "The best engineers I know actually don't code in their personal life. A good engineer is not someone who obsesses over technology but rather does what has to be done. \n\nSo please don't have to compare yourself to the extremes. If you can communicate, have a good technical foundation and are capable of completing your work then you got everything you need to be good engineer.",
+      "author": "ysenngard",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1720180183,
+      "score": 17,
+      "link_id": "t3_1dvo1s7",
+      "parent_id": "t3_1dvo1s7"
+    },
+    {
+      "id": "lbl5tqk",
+      "body": "I might not always be quicker, but you can always pay me.",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1720095729,
+      "score": 17,
+      "link_id": "t3_1duc53i",
+      "parent_id": "t1_lbiqczj"
+    },
+    {
+      "id": "lbfogci",
+      "body": "In Gemini, go to Settings > Extensions > Disable \"Google Workspace\"",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1720011067,
+      "score": 305,
+      "link_id": "t3_1duc53i",
+      "parent_id": "t3_1duc53i"
+    },
+    {
+      "id": "lbfob9k",
+      "body": "I am not sure about the data stealing part. The data is stored in Gmail (which is Google) and Gemini (Google) is accessing it so it can provide you better answers based on your context. But I agree that you should be able to turn that off if you dont want that.\n\nIn Gemini go to Settings > Extensions > Disable \"Google Workspace\"",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1720011007,
+      "score": 13,
+      "link_id": "t3_1duc53i",
+      "parent_id": "t1_lbfmr8x"
+    },
+    {
+      "id": "lbel1qm",
+      "body": "Tasks are always relative to your timezone when you created  them. This is not a bug but intended.\n\nCurrently you unfortunately cannot change this behavior.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1719987027,
+      "score": 2,
+      "link_id": "t3_1du4y51",
+      "parent_id": "t3_1du4y51"
+    },
+    {
+      "id": "lb2qh7t",
+      "body": "I am not sure anybody really cares about that, do they? I can see that a list of projects might make sense but I think nobody ever asked me for my GitHub. IMO if you can contribute to established open source projects, then it might be worth showing. Otherwise, I assume the products I'd create for my clients would be in a private repo.\n\nMaybe it's a good indicator when hiring a rather junior engineer? To see that they're actually capable of producing code? \n\nBut I don't know how the freelancing market is at the moment.",
+      "author": "ysenngard",
+      "subreddit": "Switzerland",
+      "created_utc": 1719803835,
+      "score": 1,
+      "link_id": "t3_1drfd71",
+      "parent_id": "t1_lauzts6"
+    },
+    {
+      "id": "lavric0",
+      "body": "Awesome. If you can do that consistently - great! \n\nCool that you have that much experience already. I just hope you don't overestimate your experience and end up burnt out.\n\nPlease don't forget that your EFZ and BMS will be worth more in the long run than any quick buck you might be able to make right now. Doesn't matter how good your grades are as long as you pass them. Also, consider doing at least a bachelors (in your case I'd suggest part time).",
+      "author": "ysenngard",
+      "subreddit": "Switzerland",
+      "created_utc": 1719692621,
+      "score": 3,
+      "link_id": "t3_1drfd71",
+      "parent_id": "t1_laviafi"
+    },
+    {
+      "id": "laveane",
+      "body": "Thats awesome.\n\nBut why would I pay you 200 CHF an hour for something you don't have any certificate that proves competence (like an EFZ, a bachelors, a masters or 15 years of experience at companies). Also an interest in programming is not working experience. Being very strict, even the time during the apprenticeship does usually not count as working experience.\n\nAgain, don't get me wrong. You will probably stand out among your peers in school. If you keep going like that you will get further in a shorter time in your career. \n\nAlso regarding your experience so far. Checkout dunning kruger effect ;)",
+      "author": "ysenngard",
+      "subreddit": "Switzerland",
+      "created_utc": 1719687757,
+      "score": 7,
+      "link_id": "t3_1drfd71",
+      "parent_id": "t1_lav43zp"
+    },
+    {
+      "id": "lavbao8",
+      "body": "Depends on what you want to provide. Keep in mind that you're doing an apprenticeship and that your time is limited. So you probably won't have much time to do meetings during the week at reasonable hours. If I were in your position I would try to find local and small businesses. Preferably providing small and static products.\n\nAnother advice for you since you're still quite young and ambitious. When you do side hustles, you're also somewhat accountable for what you produce. And in today's world just being able to code the thing is rarely the whole deal. You will have to do some project management. You will have to think about security, deployment, monitoring and also being responsive with your customers. Your product might have an outage while you're in school or at work. When will you be able to respond in such cases? Also, normally you need to get permission to do any work for other businesses. At least some contracts state something like that.",
+      "author": "ysenngard",
+      "subreddit": "Switzerland",
+      "created_utc": 1719686649,
+      "score": 2,
+      "link_id": "t3_1drfd71",
+      "parent_id": "t3_1drfd71"
+    },
+    {
+      "id": "l67zqul",
+      "body": "What issues did you experience?",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1717012144,
+      "score": 2,
+      "link_id": "t3_1d3h6da",
+      "parent_id": "t3_1d3h6da"
+    },
+    {
+      "id": "l57frqf",
+      "body": "Awesome! 👍🏻",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1716401942,
+      "score": 1,
+      "link_id": "t3_1cxhv4h",
+      "parent_id": "t1_l57fi5l"
+    },
+    {
+      "id": "l57drx8",
+      "body": "Were you inspired by the Tasks Fullscreen view in Calendar? Looks familiar 😁",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1716401267,
+      "score": 1,
+      "link_id": "t3_1cxhv4h",
+      "parent_id": "t3_1cxhv4h"
+    },
+    {
+      "id": "l4crino",
+      "body": "Hmmm so Google is forced to indicate when a link is shown because someone paid for it. You've probably noticed the \"sponsored\" label somewhere at the top of the link. \n\nIf you find something malicious on your page then you should report it. There's a three dot menu on the link that allows you to report the ad.",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1715889349,
+      "score": 8,
+      "link_id": "t3_1ctj58q",
+      "parent_id": "t1_l4cio6d"
+    },
+    {
+      "id": "l1d43tr",
+      "body": "If the tasks are unassigned, then you won't see them outside of the space. Only if they are assigned they will appear in the Tasks app itself.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1714145016,
+      "score": 1,
+      "link_id": "t3_1cdmtqe",
+      "parent_id": "t3_1cdmtqe"
+    },
+    {
+      "id": "l0y2p75",
+      "body": "You cannot share tasks with other people.\n\nHowever, if you are a customer of Google Workspace you can assign Tasks to your coworkers through Google Chat spaces or shared Google Docs.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1713905289,
+      "score": 1,
+      "link_id": "t3_1cb97sv",
+      "parent_id": "t3_1cb97sv"
+    },
+    {
+      "id": "l047yis",
+      "body": "Google Tasks is not integrated with Siri.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1713430220,
+      "score": 1,
+      "link_id": "t3_1c6r8a1",
+      "parent_id": "t3_1c6r8a1"
+    },
+    {
+      "id": "kz4ytit",
+      "body": "Yeah, might've been an accidental transaction lol",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1712869778,
+      "score": 1,
+      "link_id": "t3_1c142rr",
+      "parent_id": "t1_kz0t7lq"
+    },
+    {
+      "id": "kz33a1h",
+      "body": "You mean you can assign Tasks through Google Chat spaces or Google Docs? Otherwise Tasks does not support assigning a task to someone directly.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1712847722,
+      "score": 2,
+      "link_id": "t3_19a10lh",
+      "parent_id": "t1_kiiaji7"
+    },
+    {
+      "id": "kz325u5",
+      "body": "No, its not possible.",
+      "author": "ysenngard",
+      "subreddit": "GoogleTasks",
+      "created_utc": 1712847351,
+      "score": 1,
+      "link_id": "t3_1bux9fo",
+      "parent_id": "t3_1bux9fo"
+    },
+    {
+      "id": "kwiivkc",
+      "body": "No.",
+      "author": "ysenngard",
+      "subreddit": "ethz",
+      "created_utc": 1711387339,
+      "score": 1,
+      "link_id": "t3_17j2chk",
+      "parent_id": "t1_kwhb0qr"
+    },
+    {
+      "id": "kuoc2r4",
+      "body": "2024.07.0",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1710337585,
+      "score": 1,
+      "link_id": "t3_1bbgcc8",
+      "parent_id": "t1_kun7xck"
+    },
+    {
+      "id": "kukju81",
+      "body": "Interesting, I am using the latest available version. When I touch an event for about 1.5 seconds it expands a little bit, after that I can move it wherever I want. A normal short touch will open the event. How does that behave for you? \n\nDoes it slightly expand for you as well when you keep pressing it?",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1710273664,
+      "score": 1,
+      "link_id": "t3_1bbgcc8",
+      "parent_id": "t1_kugr9p1"
+    },
+    {
+      "id": "kuff7qr",
+      "body": "Who owns the event? I assume its an event with multiple people invited. If the owner didnt allow the \"invitees\" to modify the event cannot be moved by them except by the owner.",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1710192444,
+      "score": 1,
+      "link_id": "t3_1bbgcc8",
+      "parent_id": "t3_1bbgcc8"
+    },
+    {
+      "id": "krzjkyz",
+      "body": "Google SWE here and I completely agree. Communication is key. I do interviews for FTEs and you wont believe how many interviewees are just sitting there in complete silence. \n\nTake a deep breath, collect your thoughts and ask questions to clarify the problem. You're not expected to be a god. Good luck!! :)",
+      "author": "ysenngard",
+      "subreddit": "google",
+      "created_utc": 1708815350,
+      "score": 7,
+      "link_id": "t3_1az0ja1",
+      "parent_id": "t1_kry9xxw"
+    },
+    {
+      "id": "ki72t0v",
+      "body": "Well, it's certainly doable. I had two weeks to prepare and I am far from a DSA expert. Solving every question on leetcode won't benefit you. If you speed-run through hundreds of questions without reflecting or actually learning something, then you'll just burn out.\n\nThe design interview is tougher, it's a huge benefit if you have working experience. I am not sure how you would reliably practice that without working on the job or coming straight from uni.\n\nTLDR; IMO it's doable, best is maybe between 1-3 weeks. Don't prepare for months, you'll just burn out.",
+      "author": "ysenngard",
+      "subreddit": "ethz",
+      "created_utc": 1705445626,
+      "score": 1,
+      "link_id": "t3_17j2chk",
+      "parent_id": "t1_khvw15d"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "username": "mlx11",
+  "posts": [
+    {
+      "id": "1cg3zl2",
+      "title": "Move running docker containers inside cluster",
+      "author": "mlx11",
+      "subreddit": "docker",
+      "created_utc": 1714409414,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "I have two raspberry pis that work together in a cluster and run both multiple docker containers. In order to do load balancing, I want to be able to move running docker containers from one pi to the other in a way that's invisible to the applications (e.g. a database) inside the container. \n\nI looked at docker commit to implement this but I am unsure whether this is the best solution as it seems not to be designed for host changing.\n\nDoes somebody know of a better solution for moving running docker containers or does somebody have experience with docker commit?",
+      "url": "https://www.reddit.com/r/docker/comments/1cg3zl2/move_running_docker_containers_inside_cluster/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lx2bz0u",
+      "body": "salary claims have priority (up to 6 months) -> they are paid before other debta -> you most likeley gst your money. \n\nI'd recomend you to start a Betreibung. This costs you less than CHF100.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1731578165,
+      "score": 1,
+      "link_id": "t3_1gqss1o",
+      "parent_id": "t1_lx1twf0"
+    },
+    {
+      "id": "lx2bnl2",
+      "body": "This! \n\nSmall addition: 6 months of unpaid salaries are prioritized in a liquidation event i.e. they are paid out before other non-prioritized claims like e.g rent, suppliers, ... are paid out. \n\nThis means that even if he doesn't have enough money to pay all his debts the sallary is most likrly still paid out in full.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1731577952,
+      "score": 9,
+      "link_id": "t3_1gqss1o",
+      "parent_id": "t1_lx1t2ft"
+    },
+    {
+      "id": "lt9cszf",
+      "body": "Are there certain apps where the gui doesn't work? I never had problems with a gui. However, I only use vscode and vivado regularly.",
+      "author": "mlx11",
+      "subreddit": "wsl2",
+      "created_utc": 1729641140,
+      "score": 1,
+      "link_id": "t3_1g7mvim",
+      "parent_id": "t1_lssi2el"
+    },
+    {
+      "id": "lt35ga9",
+      "body": "Clearly check your work contract whether the IP actally belongs to you. I live in Switzerland and the standard contracts here say that all IP \"in the field of the job\" belongs to the company. The justification is that it's simply not possible to say whether you had this idea while working or not.",
+      "author": "mlx11",
+      "subreddit": "startups",
+      "created_utc": 1729552345,
+      "score": 1,
+      "link_id": "t3_1g8g1aq",
+      "parent_id": "t3_1g8g1aq"
+    },
+    {
+      "id": "lt343vh",
+      "body": "Converible loan agreement. \n\nSomebody gives your company a loan which is not supposed to be paid back in cash but in equity. This means that, at a trigger event detailed in the contract (usually the next funding round), the loan is repaid in shares (usually with a discount). \n\nExample: \nCLA for 100k, 25% discount, 10% interest per year, triggered at next funding round.\nThe company gets 100k cash through this. Let's assume there's a funding round of 500k at a 2M pre-money valuation 1 year later.  The CLA provider is treated in this round as if he invests 143k (100k + 10% interest + 30% discount ). So your post-round cap-table will look like this: \n\ninvestor: 20% \nCLA 5.72%\nYou: 74.38%\n\nIt's getting a bit late here so the math might be wrong :D",
+      "author": "mlx11",
+      "subreddit": "ycombinator",
+      "created_utc": 1729551865,
+      "score": 8,
+      "link_id": "t3_1g8uple",
+      "parent_id": "t1_lt27bvh"
+    },
+    {
+      "id": "lt1785m",
+      "body": "Angels do whatever they want. I'm sure there are some that invest at idea-stage. However, your valuation will probably be supper low. If you're lucky, you'll find a CLA with a big discount.",
+      "author": "mlx11",
+      "subreddit": "ycombinator",
+      "created_utc": 1729530213,
+      "score": 13,
+      "link_id": "t3_1g8uple",
+      "parent_id": "t3_1g8uple"
+    },
+    {
+      "id": "lsnqtnw",
+      "body": "Is there a bus stop there? I dont know that DLC in detail but I think you need a bus stop to connect the variety theater to your tourists.",
+      "author": "mlx11",
+      "subreddit": "anno",
+      "created_utc": 1729328321,
+      "score": 1,
+      "link_id": "t3_1g6wnai",
+      "parent_id": "t3_1g6wnai"
+    },
+    {
+      "id": "ls84sx1",
+      "body": "Ich habe keine Ahnung von Mietrecht in Deutschland, aber wie will der Vermiter wissen wie die Wohnung eingerichtet ist bzw. wie du Strom nutzt? \nIch sehe drei Möglichkeiten: \n1. alles bullshit\n2. dein Mitbewohner will dich raus haben\n3. der Vermieter war in der Wohnung",
+      "author": "mlx11",
+      "subreddit": "wohnen",
+      "created_utc": 1729097246,
+      "score": 3,
+      "link_id": "t3_1g4uami",
+      "parent_id": "t3_1g4uami"
+    },
+    {
+      "id": "lq4d4r0",
+      "body": "Great explenation. Just a small detail to add about glaciers: \n\nA tour on a glacier can be easy in e.g. september when the glacier is naked because you don't need to secure yourself. The exact same glacier can be extreamly dangerous in spring when it's covered in snow. Keep this in mind. \n\nOf course normal hiking routes depend on the season as well. But usually the dangers are somewhat obvious. This often isn't the case for glaciers.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1727955228,
+      "score": 4,
+      "link_id": "t3_1fv2lax",
+      "parent_id": "t1_lq41j39"
+    },
+    {
+      "id": "lp5aacb",
+      "body": "And why do you think it's EPFLs job to find you an internship?",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1727418022,
+      "score": 2,
+      "link_id": "t3_1fpx5so",
+      "parent_id": "t1_lp10yw4"
+    },
+    {
+      "id": "lgi44zf",
+      "body": "I had the exact same problem (same phone) on BEKB-Twint two days ago. I called the support and after the standard bullshit procedure (yes, I restarted the phone... yes, I reinstalled the app...) the support could solve it as follows: \n\n1. I deinstalled the app\n2. they deleted my twint account in their system\n3. I reinstalled the app and re-registered as if I never used twint before. \n\nThis solved it. The only problem is that I lost the twint history and all outstanding requests.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1722802360,
+      "score": 1,
+      "link_id": "t3_1ek1qjs",
+      "parent_id": "t3_1ek1qjs"
+    },
+    {
+      "id": "lfy1jnt",
+      "body": "I liked Mountford in l8near algebra a couple years ago.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1722500103,
+      "score": 1,
+      "link_id": "t3_1ehb0ot",
+      "parent_id": "t3_1ehb0ot"
+    },
+    {
+      "id": "lfo1dx2",
+      "body": "makes sense. thanks",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1722355383,
+      "score": 2,
+      "link_id": "t3_1efq1z3",
+      "parent_id": "t1_lfn4ls3"
+    },
+    {
+      "id": "lfmxa7j",
+      "body": "Do you have a source/justification why an IPA ultrasonic bath is bad? This is standard procedures in all cleanrooms I've been to.",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1722341036,
+      "score": 3,
+      "link_id": "t3_1efq1z3",
+      "parent_id": "t1_lfmtiij"
+    },
+    {
+      "id": "lfhoxl8",
+      "body": "Yes, power consumption is lower during tumbling. I am not an expert on this so I don't know by how much though. This most likely depends on how your cells are wired among other factors. \n\nTo verify the antenna deployment you have two options   \n1. theoretical (see what forces might be present due to the tumpling and try to assess their effect  \n2. testing (as close to reality as possible)\n\nI'd recommend you to look at it theoretically and then try to do some rudimentary testing like e.g. deploying the antennas on a spinning table.",
+      "author": "mlx11",
+      "subreddit": "cubesat",
+      "created_utc": 1722262834,
+      "score": 2,
+      "link_id": "t3_1eex1pz",
+      "parent_id": "t1_lfha8jp"
+    },
+    {
+      "id": "lfh4bg5",
+      "body": "Welcome to the world of trade-offs :D\n\nI think it's important to consider what happens if the cubesat does not have enough power to detumble. Are the solar panels able to produce enough power to detumble the cubesat even if it's tumbling? Is it possible that the antennas don't deploy correctly because of the tumbling?   \nTo answer such questions, I'd recommend you to run simulations on what will happen for scenario 1 and 2 and then decide based on how likely you think the triggering events are.",
+      "author": "mlx11",
+      "subreddit": "cubesat",
+      "created_utc": 1722254468,
+      "score": 3,
+      "link_id": "t3_1eex1pz",
+      "parent_id": "t3_1eex1pz"
+    },
+    {
+      "id": "l8gbmhz",
+      "body": "My cofounder went through exactly this. Drop me a dm and we can tell you more about it. We are in Vaud (epfl) and this is partially a cantonal thing -> there will be some differences but the general thing should be similar.",
+      "author": "mlx11",
+      "subreddit": "ethz",
+      "created_utc": 1718298856,
+      "score": 1,
+      "link_id": "t3_1dd5e7w",
+      "parent_id": "t3_1dd5e7w"
+    },
+    {
+      "id": "l5l92y9",
+      "body": "not even close. A factor of 2 over 3 funding rounds. More is possible if the company fused with an other one.",
+      "author": "mlx11",
+      "subreddit": "startups",
+      "created_utc": 1716627528,
+      "score": 2,
+      "link_id": "t3_1d037bc",
+      "parent_id": "t1_l5kz8fr"
+    },
+    {
+      "id": "l3rtmah",
+      "body": "The answer to your question depends on the level at which we are looking at them.\n\nOn higher abstraction level, they are the same thing and they use the same physical phenomena. Some are just bigger which allows them to e.g. conduct more current. \n\nOn a low level, the two implementations drastically differ in how they are actually implemented in silicon. Big transistors are not just scaled-up smaller transistors. However, we don't care about this difference for most practical applications.",
+      "author": "mlx11",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1715553494,
+      "score": 5,
+      "link_id": "t3_1cqjid1",
+      "parent_id": "t3_1cqjid1"
+    },
+    {
+      "id": "l2gfpzu",
+      "body": "you can build an antenna, connect it to a SDR (software defined radio, can be bought for 50$) and receive satellite images for free",
+      "author": "mlx11",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1714772096,
+      "score": 3,
+      "link_id": "t3_1cj8yq8",
+      "parent_id": "t3_1cj8yq8"
+    },
+    {
+      "id": "l2gd7oy",
+      "body": "Take away the leasing part and you basically described how the system works in Switzerland. \n\nEverybody can have solar cells on their roof and simultaneously be connected to the grid. You then pay/get paid the difference between the used and produced energy (it is slightly more complex than this phrase in reality due to different prices for buy/sell at different times).",
+      "author": "mlx11",
+      "subreddit": "startups",
+      "created_utc": 1714771150,
+      "score": 1,
+      "link_id": "t3_1cfyq7q",
+      "parent_id": "t3_1cfyq7q"
+    },
+    {
+      "id": "l1by3s0",
+      "body": "I'd look at how to optimise the code. Music samples are basically time series -> they can be loaded partially (maybe you need to change format for this). \n\nIf you request your data early enough, this should run on less (maybe 1/100 for an order of magnitude) RAM that the filesize of the samples.",
+      "author": "mlx11",
+      "subreddit": "embedded",
+      "created_utc": 1714127507,
+      "score": 1,
+      "link_id": "t3_1cbcomr",
+      "parent_id": "t1_l1blu8k"
+    },
+    {
+      "id": "l1bl3w8",
+      "body": "may I ask where the 32GB RAM requirement is coming from? there is a correlation between RAM and compitational power but there might be 16GB computers that outperforms a 32GB RAM one depending on the application.",
+      "author": "mlx11",
+      "subreddit": "embedded",
+      "created_utc": 1714118196,
+      "score": 1,
+      "link_id": "t3_1cbcomr",
+      "parent_id": "t1_l1bewv2"
+    },
+    {
+      "id": "l1bdu3d",
+      "body": "You can easily add a 32GB RAM module to them, you just don't have any improvement over 16GB because that's the maximum the processor can support. \nSo AliExpress has a N100 with 32GB of RAM in it. It's just not particularly useful",
+      "author": "mlx11",
+      "subreddit": "embedded",
+      "created_utc": 1714113080,
+      "score": 1,
+      "link_id": "t3_1cbcomr",
+      "parent_id": "t1_l1296zo"
+    },
+    {
+      "id": "l16whs7",
+      "body": "Just FYI because I think noone mentioned it in this thread: Zürich is the city with the most English activities in Switzerland. Escape rooms, theaters, ..., most can be found in English. It's an hour from Luzern so it ahould ve in reach.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1714048400,
+      "score": 3,
+      "link_id": "t3_1ccmydu",
+      "parent_id": "t3_1ccmydu"
+    },
+    {
+      "id": "kzsh3c6",
+      "body": "Most bachelor courses are in French. However, in the end it's always math.\n\nI am swiss german myself, got a 3.5 in my French matura, and then attended epfl. The first couple of weeks of the semester are always hard because there's a lot of new vocabulary to learn, but afterwards you'll be fine.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1713245435,
+      "score": 1,
+      "link_id": "t3_1c4skx9",
+      "parent_id": "t3_1c4skx9"
+    },
+    {
+      "id": "kzdbf5e",
+      "body": "ETHZ teaches those things pretty nicely. Plus students can do chip design for projects and thesis.",
+      "author": "mlx11",
+      "subreddit": "FPGA",
+      "created_utc": 1713007914,
+      "score": 9,
+      "link_id": "t3_1c2ywtd",
+      "parent_id": "t3_1c2ywtd"
+    },
+    {
+      "id": "kycn1kv",
+      "body": "Mouser is able to ship from texas to Switzerland in 2 days. So I would assume they are super fast in the US as well. Most likely, mouser has all your components as well.",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712425214,
+      "score": 1,
+      "link_id": "t3_1bwkh1f",
+      "parent_id": "t1_ky6mjvk"
+    },
+    {
+      "id": "kycmra2",
+      "body": "I think they are talking about the stencil.",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1712425113,
+      "score": 2,
+      "link_id": "t3_1bwkh1f",
+      "parent_id": "t1_kybyv49"
+    },
+    {
+      "id": "ky2qgse",
+      "body": "I wouldn't replace those capacitors if there is no clear indication that they are the reason of your problems. Most likely, the GPU works fine with one of them not attached. \n\nCan you somehow further characterice the problem? Is the power stable? Does the error appear instantly, or after a certain part of the chip is powered up?",
+      "author": "mlx11",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1712265574,
+      "score": 7,
+      "link_id": "t3_1bvwe6d",
+      "parent_id": "t3_1bvwe6d"
+    },
+    {
+      "id": "kttizo8",
+      "body": "All those posting that cameras have a 3-7km/h tolerance. Be aware that those tolerances aren't there because they are nice. They are there because the camera might measure 3-7km/h more than you're actually going (with a certain low probability, most likely 3 or 6 sigma). \n\nYou will be fine most of the time assuming that the camera is accurate and the tolerance is in your favor. However, if you want to be 100% safe, don't do that.",
+      "author": "mlx11",
+      "subreddit": "Switzerland",
+      "created_utc": 1709845150,
+      "score": 29,
+      "link_id": "t3_1b92z8k",
+      "parent_id": "t3_1b92z8k"
+    },
+    {
+      "id": "krd7hqw",
+      "body": "There is a program called \"swiss universities\" in the army. If you are a sgt or lt, you can leave 4 (I think) weeks earlier and you get 5 additional holidays. This results in you missing 2 weeks of the semester which is manageable.",
+      "author": "mlx11",
+      "subreddit": "askswitzerland",
+      "created_utc": 1708470419,
+      "score": 1,
+      "link_id": "t3_1avnk65",
+      "parent_id": "t3_1avnk65"
+    },
+    {
+      "id": "kpwscb2",
+      "body": "I know that the spacecraft team has a program specifically designed for younger students (cansat). Rocket team jas a similar.thing I think. \nJust write to the associations, they are usually quite nice.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1707646340,
+      "score": 2,
+      "link_id": "t3_1ancm5j",
+      "parent_id": "t3_1ancm5j"
+    },
+    {
+      "id": "kos03gm",
+      "body": "I once had a fake compinent with pcbway. But otherwise they are fine",
+      "author": "mlx11",
+      "subreddit": "PrintedCircuitBoard",
+      "created_utc": 1706989295,
+      "score": 1,
+      "link_id": "t3_1aharlh",
+      "parent_id": "t1_koo2c1b"
+    },
+    {
+      "id": "khd6yxz",
+      "body": "If I remember correctly tou're not allowed to sublet. But I know many people who did it and noone got any problems.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1704983635,
+      "score": 1,
+      "link_id": "t3_193y072",
+      "parent_id": "t1_khd020t"
+    },
+    {
+      "id": "khcz7od",
+      "body": "as far as I know you can not cancel the fmel room over summer and then get a new one for the next semester. \n\nBut you can keep it even if you're not in Switzerland. It still costs rent then though.",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1704980435,
+      "score": 3,
+      "link_id": "t3_193y072",
+      "parent_id": "t1_khcw2bn"
+    },
+    {
+      "id": "khcqdgj",
+      "body": "if you live in an fmel room with a shared kitchen you pay around CHF 600 (I paid 530) for rent per month. You should add around CHF 300 for food and 300 for other stuff like e.g. public transport. This results in around 1200 per month (the calculation is rather generous, 1k might be enough). \n\nYou are allowed to work for 15 hours per week. If you do this as a student assistent, you'll earn CHF 25 per hour. This results in up to around CHF 1600 per month which is sufficuent to live in Lausanne. However, be aware that \n\n1. you might not find 15 hours of work at that rate\n2. most people strugle to work 15 hours a week next to full-time studies.\n3. I don't recommmend you to work during the first year. Most people have enough with studying. \n\nKeep in mind that there is a long summer break of around 2 months. You'll be able to work more during that time or to leave Switzerland (which might save you some money).",
+      "author": "mlx11",
+      "subreddit": "EPFL",
+      "created_utc": 1704976237,
+      "score": 3,
+      "link_id": "t3_193y072",
+      "parent_id": "t3_193y072"
+    }
+  ]
+}

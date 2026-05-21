@@ -1,0 +1,1661 @@
+{
+  "username": "TheGilrich",
+  "posts": [
+    {
+      "id": "1e4zh5h",
+      "title": "Internet over Coax (MoCa?) in new apartment",
+      "author": "TheGilrich",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1721162951,
+      "score": 1,
+      "num_comments": 8,
+      "selftext": "Hi  \nI'm moving into a new apartment (one unit in a bigger building) and need some input in how to best distribute wired Internet access into all rooms. I have the following infrastructure available:  \n\n\n* Fiber socket in the living room\n\n[fiber optic socket in living room](https://preview.redd.it/yhh627gixxcd1.jpg?width=3000&format=pjpg&auto=webp&s=3632b3dc7a3017f03c9e73811140edee75a1c410)\n\n* Coax sockets in each room\n\n[coax sockets in each room](https://preview.redd.it/p17son0nxxcd1.jpg?width=3000&format=pjpg&auto=webp&s=db5629890b2c1dac4dae24ac825e947474bd42f7)\n\n* Coax splitter inside my unit (5-1006 MHz)\n\nhttps://preview.redd.it/se51raitxxcd1.jpg?width=3000&format=pjpg&auto=webp&s=694e1c6a8f2546e8f325e6105a790e253d6ba367\n\nI read up on coax cabling as I didn't have any experience with it and found this subreddit and posts about MoCa 2.5 adapters. It seems to be a viable option to me, especially because I have a splitter inside my apartment, meaning that cable runs would be rather short and I can control what leaves my network.\n\nSo, I see two options:\n\n1.  use the existing coax cables. My setup would then look like this:\n\n\n\n\\[Optical Fiber Outlet\\] \n\n|\n\n\\[Router\\]\n\n|\n\n\\[MoCA 2.5 Adapter\\]\n\n|\n\n\\[Coax Outlet Living Rooom\\]\n\n|\n\n\\[5-Way Coax Splitter\\]\n\n/                       |                   \\\\    \n\n/                        |                      \\\\    \n\n \\[Coax Dining Room\\]     \\[Coax Bedroom 1\\]   \\[Coax Bedroom 2\\]\n\n|                                  |                                   |              \n\n  \\[MoCA 2.5 Adapter\\]  \\[MoCA 2.5 Adapter\\]  \\[MoCA 2.5 Adapter\\]\n\n|                                   |                                  |\n\n\\[Device\\]                    \\[Device\\].                    \\[Device\\]\n\n\n\nFor this option I have some questions:\n\n* Will this work?\n   * can I supply the Internet signal via one of the \"output\" ports of the splitter?\n* I want to prevent my network to bleed over into other units in the building. Can I just disconnect the coax cable labelled \"in\" on the splitter?\n* My splitter says 5-1006 Mhz. Is this enough for MoCa 2.5 or do I need to replace it?\n   * Will then the cables be the bottleneck?\n\nMy second option would be to remove the cables (it seems like they are inside nice plastic pipes inside the wall) and put a switch where the coax splitter is now. Since I don't have a power outlet where the coax splitter is, I would have to use a PoE powered switch. This would be the cleaner solution imo but the problem is that it is uncertain if I can pull this off. I don't own the apartment and would need permission from my landlord. Also, I have never run Ethernet cables (or any other) myself and would need to get  a professional.\n\nWhat are your thoughts? What's the better option?",
+      "url": "https://www.reddit.com/r/HomeNetworking/comments/1e4zh5h/internet_over_coax_moca_in_new_apartment/"
+    },
+    {
+      "id": "1c0nn8e",
+      "title": "Ferry accident Puntarenas <-> Paquera",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1712761175,
+      "score": 2,
+      "num_comments": 8,
+      "selftext": "Hi\nWe're on our way to Paquera from Uvita. Our host in Paquera just informed us that the ferry had an accident yesterday and is no longer operating. What happened?\nAlso, what is the best way to get to guanacaste from the south now? Google maps shows that the road over the puente the la amistad is temporarily closed. Is this true?\nAll inputs appreciated.",
+      "url": "https://www.reddit.com/r/CostaRicaTravel/comments/1c0nn8e/ferry_accident_puntarenas_paquera/"
+    },
+    {
+      "id": "19abcll",
+      "title": "Bullfighting Guanacaste",
+      "author": "TheGilrich",
+      "subreddit": "costarica",
+      "created_utc": 1705641210,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "I'm in Costa Rica right now and would like to see one of the rodeos/bull fighting fiestas. I'm located in the Guanacaste region. Where do I find when a rodeo takes place in Nicoya/Nosara/Santa Cruz etc.?",
+      "url": "https://www.reddit.com/r/costarica/comments/19abcll/bullfighting_guanacaste/"
+    },
+    {
+      "id": "18y8qnk",
+      "title": "Getting to Utila from San Pedro Sula",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1704358962,
+      "score": 1,
+      "num_comments": 7,
+      "selftext": "Hi  \nI have a trip to Utila coming up and I'm currently checking flights. One option I have is to fly into San Pedro Sula (SAP) airport on mainland Honduras and then take a small turbo prop aircraft to Utila operated by CM airlines. It seems that this won't be a proper transit flight and will have to clear immigration in SAP and then re-enter through security to take my connection to Utila. I will have 2 hours between flights. Will this be enough time? Anything else I have to consider?",
+      "url": "https://www.reddit.com/r/scuba/comments/18y8qnk/getting_to_utila_from_san_pedro_sula/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m45jv04",
+      "body": "Member, if you'll use it somewhat often.",
+      "author": "TheGilrich",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735364506,
+      "score": 1,
+      "link_id": "t3_1ei7jaf",
+      "parent_id": "t3_1ei7jaf"
+    },
+    {
+      "id": "m43sbek",
+      "body": "Solved it be this but abstracted away the renaming and printed the errors directly. Also, I made a single pass only.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1735339255,
+      "score": 2,
+      "link_id": "t3_1hnb969",
+      "parent_id": "t3_1hnb969"
+    },
+    {
+      "id": "m3s3qnm",
+      "body": "Classic difficulty increase on day 12.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1735158674,
+      "score": 2,
+      "link_id": "t3_1hm6acv",
+      "parent_id": "t3_1hm6acv"
+    },
+    {
+      "id": "m3q5uv3",
+      "body": "You can work for FAANG and be neither.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1735129031,
+      "score": 12,
+      "link_id": "t3_1hlt31k",
+      "parent_id": "t1_m3p42bc"
+    },
+    {
+      "id": "m3fy1la",
+      "body": "Liveaboard or, if you prefer landbased, Dahab with Scuba Seekers.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1734965256,
+      "score": 1,
+      "link_id": "t3_1hkmjs0",
+      "parent_id": "t3_1hkmjs0"
+    },
+    {
+      "id": "m33df9j",
+      "body": "They did. The second 6 picosecond cheat shows this.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734756761,
+      "score": 1,
+      "link_id": "t3_1hihdbj",
+      "parent_id": "t1_m30hwn6"
+    },
+    {
+      "id": "m30u5mh",
+      "body": "I did the same. This puzzle could be explained better.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734721332,
+      "score": 1,
+      "link_id": "t3_1hidbxx",
+      "parent_id": "t1_m2y2ztl"
+    },
+    {
+      "id": "m300i5o",
+      "body": "So much this. It clear up both things. Start and end are on the path and it takes two steps (picoseconds) to perform the cheat.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734711500,
+      "score": 1,
+      "link_id": "t3_1himrxg",
+      "parent_id": "t1_m2zz186"
+    },
+    {
+      "id": "m2sk97b",
+      "body": "No. Shearwater doesn't even put GPS in their computers.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1734594809,
+      "score": 4,
+      "link_id": "t3_1hhdss7",
+      "parent_id": "t1_m2qky1b"
+    },
+    {
+      "id": "m2sjqov",
+      "body": "There is not much to learn. Slap an \"@cache\" on your recursive function and be done.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734594475,
+      "score": 10,
+      "link_id": "t3_1hhm5ro",
+      "parent_id": "t1_m2sipyt"
+    },
+    {
+      "id": "m2scnxr",
+      "body": "That's on them. Why do they even need 400 insanely long patterns?!",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734590085,
+      "score": 47,
+      "link_id": "t3_1hhmg51",
+      "parent_id": "t3_1hhmg51"
+    },
+    {
+      "id": "m2s8b9e",
+      "body": "\\[LANGUAGE: Python\\]  \nEasy day. Just used Recursion with memoization.  \n[https://pastebin.com/M4Cduk8u](https://pastebin.com/M4Cduk8u)",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734587625,
+      "score": 1,
+      "link_id": "t3_1hhlb8g",
+      "parent_id": "t3_1hhlb8g"
+    },
+    {
+      "id": "m2mk9gn",
+      "body": "Excellent. Thats much smarter. This way the grid remains untouched between binary search iterations.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734506664,
+      "score": 1,
+      "link_id": "t3_1hguacy",
+      "parent_id": "t1_m2mgrun"
+    },
+    {
+      "id": "m2mhns1",
+      "body": "Exactly. I implemented OR instead of XOR. 🥲",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734505050,
+      "score": 6,
+      "link_id": "t3_1hgsqr5",
+      "parent_id": "t1_m2me4mg"
+    },
+    {
+      "id": "m2mhhfz",
+      "body": "Lol, exactly my thoughts. I opend the puzzle: \"yay, no grid\". Scrolled further down: \"Nevermind 😑\".",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734504944,
+      "score": 19,
+      "link_id": "t3_1hgvalf",
+      "parent_id": "t3_1hgvalf"
+    },
+    {
+      "id": "m2metl2",
+      "body": "Is there a clever way to add and remove corruptions when doing a binary search?\nBetter than just looping?",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734503387,
+      "score": 1,
+      "link_id": "t3_1hguacy",
+      "parent_id": "t1_m2m77q7"
+    },
+    {
+      "id": "m2bycwq",
+      "body": "Unlikely, they all passed part 1 where the correct computation of the safety factor is required.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734358898,
+      "score": 8,
+      "link_id": "t3_1hfh07l",
+      "parent_id": "t1_m2bfwd8"
+    },
+    {
+      "id": "m26hbz4",
+      "body": "It doesn't work. I had this idea but it's useless for my input.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734277228,
+      "score": 1,
+      "link_id": "t3_1he0g67",
+      "parent_id": "t1_m20df2w"
+    },
+    {
+      "id": "m22vzxo",
+      "body": "Pretty much",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1734214345,
+      "score": 1,
+      "link_id": "t3_1guwd5c",
+      "parent_id": "t1_m224n5j"
+    },
+    {
+      "id": "m1vx10f",
+      "body": "Had the same issue computing the inverse matrix and using it to compute the unknowns. Using Cramers rule directly it worked fine.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734110213,
+      "score": 1,
+      "link_id": "t3_1hd9k6c",
+      "parent_id": "t1_m1vvr36"
+    },
+    {
+      "id": "m1ukwwh",
+      "body": "Was my first idea, too!\nI didn't follow through. Cool to see, that it works.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1734092922,
+      "score": 2,
+      "link_id": "t3_1hd4wda",
+      "parent_id": "t1_m1thdbl"
+    },
+    {
+      "id": "m1iuzf4",
+      "body": "Which they said they didn't...",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733925193,
+      "score": 7,
+      "link_id": "t3_1hbmu6q",
+      "parent_id": "t1_m1irjvg"
+    },
+    {
+      "id": "m1i4low",
+      "body": "How is this possible. Doesn't it require 2^75 * 64bits ~ 300 zettabytes?",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733911473,
+      "score": 6,
+      "link_id": "t3_1hbmu6q",
+      "parent_id": "t1_m1hn2rj"
+    },
+    {
+      "id": "m0opcsw",
+      "body": "I'm really wondering why all the inputs allow a comparison based sort to work. I don't think that updates that only fix the middle number would have been that hard to construct.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733479136,
+      "score": 1,
+      "link_id": "t3_1h7jbqu",
+      "parent_id": "t1_m0ll8sb"
+    },
+    {
+      "id": "m0oowv3",
+      "body": "Why do you think it implies that?",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733478842,
+      "score": 1,
+      "link_id": "t3_1h7jbqu",
+      "parent_id": "t1_m0lx31u"
+    },
+    {
+      "id": "m0m7j7s",
+      "body": "Yeah, the pages need to be in a total order for this solution to work. I'm not sure that the middle number that has to be right implies this. We could have results where the middle page has rules to all other pages (half of them before, half after) but the remaining pages could be unordered between themselves. \n\nStill, given that this approach works means that the input was nicer than it had to be.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733439141,
+      "score": 2,
+      "link_id": "t3_1h73c98",
+      "parent_id": "t1_m0ikkcf"
+    },
+    {
+      "id": "m0m6ew4",
+      "body": "Luckil, I saw this coming and did a sort per test case.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733438767,
+      "score": 1,
+      "link_id": "t3_1h73c98",
+      "parent_id": "t3_1h73c98"
+    },
+    {
+      "id": "m0jqxx3",
+      "body": "Nice solution but it requires a total order on the elements. If there were two elements with no rule between them this code would fail.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1733411532,
+      "score": 1,
+      "link_id": "t3_1h71eyz",
+      "parent_id": "t1_m0i09b0"
+    },
+    {
+      "id": "lzfcknr",
+      "body": "Switched from the Atomic Frameless to the Fourth Element Seeker. Very happy with the change.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1732811393,
+      "score": 1,
+      "link_id": "t3_1h1gxb7",
+      "parent_id": "t1_lzc16vw"
+    },
+    {
+      "id": "lyad6ov",
+      "body": "And GPS",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1732214950,
+      "score": 1,
+      "link_id": "t3_1guwd5c",
+      "parent_id": "t1_ly7nnxm"
+    },
+    {
+      "id": "luhbyhp",
+      "body": "Die Anzahl Personen pro Wohnung ist heute schon gesetzlich eingeschränkt. Und für Schäden haftet so oder so der Mieter",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1730268498,
+      "score": 1,
+      "link_id": "t3_1geq7vy",
+      "parent_id": "t1_lucwvuj"
+    },
+    {
+      "id": "ltjhffy",
+      "body": "Just heavier. Lookup the weight and strap some coins to your wrist.",
+      "author": "TheGilrich",
+      "subreddit": "withings",
+      "created_utc": 1729789327,
+      "score": 1,
+      "link_id": "t3_krxpuv",
+      "parent_id": "t1_ltj6gjl"
+    },
+    {
+      "id": "ltibmjs",
+      "body": "All good. It definitely feels heavy, imo.",
+      "author": "TheGilrich",
+      "subreddit": "withings",
+      "created_utc": 1729776290,
+      "score": 1,
+      "link_id": "t3_krxpuv",
+      "parent_id": "t1_ltiayg1"
+    },
+    {
+      "id": "lthec0u",
+      "body": "Who started this trend of using POV incorrectly?",
+      "author": "TheGilrich",
+      "subreddit": "JustGuysBeingDudes",
+      "created_utc": 1729759706,
+      "score": 632,
+      "link_id": "t3_1gaxlb2",
+      "parent_id": "t3_1gaxlb2"
+    },
+    {
+      "id": "lsv2tzm",
+      "body": "Waze is better than Google Maps, imho.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1729441930,
+      "score": 1,
+      "link_id": "t3_1g7sq7z",
+      "parent_id": "t3_1g7sq7z"
+    },
+    {
+      "id": "lsiuw0j",
+      "body": "Really nice video btw! What lake is it?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1729257968,
+      "score": 1,
+      "link_id": "t3_1g5zt91",
+      "parent_id": "t1_lsibw42"
+    },
+    {
+      "id": "lshjoh4",
+      "body": "Why would any of the English names apply to Austria?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1729231383,
+      "score": 1,
+      "link_id": "t3_1g5zt91",
+      "parent_id": "t1_lsgbcxh"
+    },
+    {
+      "id": "lshji1e",
+      "body": "Austrians speak German. In German Crayfish are called Flusskrebs which translates to river crab.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1729231271,
+      "score": 4,
+      "link_id": "t3_1g5zt91",
+      "parent_id": "t1_lsf2qtv"
+    },
+    {
+      "id": "lry0k74",
+      "body": "I learnt it the same way. But my instructor taught me that this onoy applies if you can go straight and right at the crossroads. If you can only go right, you shouldn't block cyclists because they will also turn with you and not be in danger.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1728942588,
+      "score": 2,
+      "link_id": "t3_1g3oi0z",
+      "parent_id": "t1_lrxfxjt"
+    },
+    {
+      "id": "lr50zal",
+      "body": "I want to give them another chance. They were apparehtly all sick when I turned up. I mooked months ahead.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1728502280,
+      "score": 1,
+      "link_id": "t3_1fzthra",
+      "parent_id": "t1_lr4pt7m"
+    },
+    {
+      "id": "lr505xm",
+      "body": "Thanks for the detailed answer! Really appreciate it. I stayed at Wirthaus Sonne before but I'll check out zur Nixe for sure!",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1728502016,
+      "score": 1,
+      "link_id": "t3_1fzthra",
+      "parent_id": "t1_lr4xfxp"
+    },
+    {
+      "id": "lr4qz6k",
+      "body": "I was planning on staying in Weyregg and dive with Under Pressure. How do they compare?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1728499085,
+      "score": 1,
+      "link_id": "t3_1fzthra",
+      "parent_id": "t1_lr4ekrk"
+    },
+    {
+      "id": "lr3w0gz",
+      "body": "Attersee looks amazing. Will book a trip for the next year. How's the visibility in spring?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1728489168,
+      "score": 1,
+      "link_id": "t3_1fzthra",
+      "parent_id": "t1_lr3scmi"
+    },
+    {
+      "id": "lo41mc3",
+      "body": "Maybe because json.Marshal still uses reflection to figure out what MarshalJSON method to call.  So you get the overhead of reflection and an extra function call.",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1726866059,
+      "score": 2,
+      "link_id": "t3_1flap0d",
+      "parent_id": "t1_lo3hxh3"
+    },
+    {
+      "id": "lmwp9t3",
+      "body": "Argo has a gitops-engine repo on Github.",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1726224106,
+      "score": 1,
+      "link_id": "t3_1ffoth2",
+      "parent_id": "t3_1ffoth2"
+    },
+    {
+      "id": "lmk7j9z",
+      "body": "\"If a type exists only to implement an interface and will never have exported methods beyond that interface, there is no need to export the type itself.\"\n\nThen above assumption is not given and hence the explanation is not applicable here.",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1726031236,
+      "score": 1,
+      "link_id": "t3_1fcxwzz",
+      "parent_id": "t1_lmi5ihx"
+    },
+    {
+      "id": "lme4c20",
+      "body": "Why is LimitReader public then?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1725942520,
+      "score": 9,
+      "link_id": "t3_1fcxwzz",
+      "parent_id": "t1_lmbru3t"
+    },
+    {
+      "id": "lme491k",
+      "body": "Then why is LimitReader even exported? Why not keep it internal?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1725942476,
+      "score": 1,
+      "link_id": "t3_1fcxwzz",
+      "parent_id": "t1_lmbs3f8"
+    },
+    {
+      "id": "ll3jk13",
+      "body": "Don't delete posts with answers that might be useful for others.",
+      "author": "TheGilrich",
+      "subreddit": "PleX",
+      "created_utc": 1725250504,
+      "score": 5,
+      "link_id": "t3_1f6txvy",
+      "parent_id": "t1_ll2zs6e"
+    },
+    {
+      "id": "lkyagnc",
+      "body": "So another typemwould then include Base as anonymousmfield? Can I not implement the interface from a different package with a type that also has a method mustImplement? Why am I forced to use Base?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1725172354,
+      "score": 2,
+      "link_id": "t3_1f5xqtp",
+      "parent_id": "t1_lkwoizq"
+    },
+    {
+      "id": "lksr0e4",
+      "body": "Shanger?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1725087790,
+      "score": 1,
+      "link_id": "t3_1f50jk3",
+      "parent_id": "t1_lksevqi"
+    },
+    {
+      "id": "lgd25h0",
+      "body": "We do that at work. Copy the bin directly to scratch. We haven't set up certs and time zones. I guess it depends on your workload if you need that?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1722721867,
+      "score": 1,
+      "link_id": "t3_1eixd6h",
+      "parent_id": "t1_lgacabo"
+    },
+    {
+      "id": "lg3lwiy",
+      "body": "It's scammy that monthly layments still subscribe you for a year but to be fair that's communicated on their website.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1722578717,
+      "score": 2,
+      "link_id": "t3_1ehf02e",
+      "parent_id": "t1_lg15lte"
+    },
+    {
+      "id": "lg02jy3",
+      "body": "Mine's on my chest D ring.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1722531285,
+      "score": 2,
+      "link_id": "t3_1egu677",
+      "parent_id": "t3_1egu677"
+    },
+    {
+      "id": "ldly966",
+      "body": "Can you still close the door with the carpet inbetween bathroom an hallway?\nIn anycase, it looks a little out of place, imo.",
+      "author": "TheGilrich",
+      "subreddit": "malelivingspace",
+      "created_utc": 1721223973,
+      "score": 1,
+      "link_id": "t3_1e5bos0",
+      "parent_id": "t3_1e5bos0"
+    },
+    {
+      "id": "ldlmfha",
+      "body": "Making an AMD CPU Intel compatible. Smart.",
+      "author": "TheGilrich",
+      "subreddit": "HolUp",
+      "created_utc": 1721219283,
+      "score": 3,
+      "link_id": "t3_1e567iv",
+      "parent_id": "t3_1e567iv"
+    },
+    {
+      "id": "ldl1pmx",
+      "body": "Thanks for the links.",
+      "author": "TheGilrich",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1721207899,
+      "score": 2,
+      "link_id": "t3_1e4zh5h",
+      "parent_id": "t1_ldjs6qq"
+    },
+    {
+      "id": "ldl1owc",
+      "body": "Great! That was my plan. Thanks for confirming.",
+      "author": "TheGilrich",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1721207885,
+      "score": 1,
+      "link_id": "t3_1e4zh5h",
+      "parent_id": "t1_ldj7x9x"
+    },
+    {
+      "id": "ldimapg",
+      "body": "Thanks for the links. Much appreciated. \nDo I need use the \"in\" port of a splitter for the connection going to my router or can the signal jump between \"out\" ports?",
+      "author": "TheGilrich",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1721166545,
+      "score": 1,
+      "link_id": "t3_1e4zh5h",
+      "parent_id": "t1_ldii3ya"
+    },
+    {
+      "id": "ld5mchv",
+      "body": "Weird way to describe England fans flying to the game.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1720973253,
+      "score": 29,
+      "link_id": "t3_1e34dn7",
+      "parent_id": "t3_1e34dn7"
+    },
+    {
+      "id": "ld1px9i",
+      "body": "500",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1720906262,
+      "score": 2,
+      "link_id": "t3_1e2ks01",
+      "parent_id": "t3_1e2ks01"
+    },
+    {
+      "id": "lcyghyq",
+      "body": "In Switzerland, yes. I pay DAN just because I want to support them.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1720853072,
+      "score": 1,
+      "link_id": "t3_1e1v5yh",
+      "parent_id": "t1_lcwwi6r"
+    },
+    {
+      "id": "lcphgph",
+      "body": "Tears of Guthix",
+      "author": "TheGilrich",
+      "subreddit": "natureporn",
+      "created_utc": 1720720118,
+      "score": 3,
+      "link_id": "t3_1e0i25s",
+      "parent_id": "t3_1e0i25s"
+    },
+    {
+      "id": "lch25yh",
+      "body": "This, protected cells don't fit in my charger.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1720592451,
+      "score": 1,
+      "link_id": "t3_1dzctn6",
+      "parent_id": "t1_lcf8p36"
+    },
+    {
+      "id": "lcgyzzc",
+      "body": "The aluminium plate is perfectly fine for doubles. I actually only use my SS plate for diving mono in my drysuit.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1720590529,
+      "score": 3,
+      "link_id": "t3_1dzepe3",
+      "parent_id": "t1_lcfk73w"
+    },
+    {
+      "id": "lbxpa8p",
+      "body": "I want to see a fist fight between the coaches instead of penalty.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1720293866,
+      "score": 218,
+      "link_id": "t3_1dwwk2n",
+      "parent_id": "t3_1dwwk2n"
+    },
+    {
+      "id": "lbmpp50",
+      "body": "They are the same. An interface is an abstraction over a set of types. You can either define the set explicitly (your first example) or via methods that need to be present (second example).",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1720116677,
+      "score": 14,
+      "link_id": "t3_1dv72h6",
+      "parent_id": "t1_lbm5h3m"
+    },
+    {
+      "id": "lblmv2y",
+      "body": "None whatsoever.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1720102949,
+      "score": 2,
+      "link_id": "t3_1dv3d0b",
+      "parent_id": "t1_lbl8yha"
+    },
+    {
+      "id": "lbkz3lf",
+      "body": "I use [neon-free.ch](neon-free.ch)",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1720092198,
+      "score": 8,
+      "link_id": "t3_1dv3d0b",
+      "parent_id": "t3_1dv3d0b"
+    },
+    {
+      "id": "lbgmxq6",
+      "body": "Wird im Master noch viel schlimmer. Ich fand den Bachelor eigentlich noch gut strukturiert und mit gutem Material.",
+      "author": "TheGilrich",
+      "subreddit": "ethz",
+      "created_utc": 1720023231,
+      "score": 2,
+      "link_id": "t3_1duaxa9",
+      "parent_id": "t1_lbfqzw1"
+    },
+    {
+      "id": "lb4l0px",
+      "body": "Went to Zurich Dental. No complaints.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1719842147,
+      "score": 1,
+      "link_id": "t3_1dsnzvz",
+      "parent_id": "t3_1dsnzvz"
+    },
+    {
+      "id": "lb0ic8x",
+      "body": "Nice post. I use this pattern quite often.",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1719772441,
+      "score": 4,
+      "link_id": "t3_1ds6lcq",
+      "parent_id": "t3_1ds6lcq"
+    },
+    {
+      "id": "lasn7ww",
+      "body": "It would help to know where you live.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1719641394,
+      "score": 1,
+      "link_id": "t3_1dr0kcf",
+      "parent_id": "t3_1dr0kcf"
+    },
+    {
+      "id": "laqmegn",
+      "body": "Forgot to slap her back?",
+      "author": "TheGilrich",
+      "subreddit": "AskMen",
+      "created_utc": 1719608990,
+      "score": 1,
+      "link_id": "t3_1dqcw0n",
+      "parent_id": "t1_lape8en"
+    },
+    {
+      "id": "laqhl1n",
+      "body": "Thanks!",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1719607290,
+      "score": 1,
+      "link_id": "t3_1dpfz28",
+      "parent_id": "t1_lapvnx0"
+    },
+    {
+      "id": "laidj17",
+      "body": "Nice post. I really like the clean look of your page. What framework are you using?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1719490015,
+      "score": 2,
+      "link_id": "t3_1dpfz28",
+      "parent_id": "t3_1dpfz28"
+    },
+    {
+      "id": "labvl9r",
+      "body": "Why go from France to Rome and back to France?",
+      "author": "TheGilrich",
+      "subreddit": "solotravel",
+      "created_utc": 1719385456,
+      "score": 3,
+      "link_id": "t3_1do88oq",
+      "parent_id": "t3_1do88oq"
+    },
+    {
+      "id": "labsy44",
+      "body": "I did my 2022 taxes in February 2023. Still waiting.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1719383696,
+      "score": 2,
+      "link_id": "t3_1do541i",
+      "parent_id": "t1_la84pdi"
+    },
+    {
+      "id": "la3c2nx",
+      "body": "I use the 90l for warm water gear including wet suit",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1719256112,
+      "score": 1,
+      "link_id": "t3_1dn69kk",
+      "parent_id": "t3_1dn69kk"
+    },
+    {
+      "id": "l9w3ts8",
+      "body": "Damn, and I was feeling unlucky because I'm waiting for my 2022 bill.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1719143601,
+      "score": 9,
+      "link_id": "t3_1dmi8kg",
+      "parent_id": "t1_l9vs0kz"
+    },
+    {
+      "id": "l9r3j5t",
+      "body": "For example right now 1000CHF buys you 1080$ with Postfinance but 1108$ with neon.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1719057837,
+      "score": 1,
+      "link_id": "t3_1dimxpl",
+      "parent_id": "t1_l9qy25n"
+    },
+    {
+      "id": "l9qwdww",
+      "body": "They don't add a markup to currency conversions. You save a lot of money compared to regular banks.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1719053555,
+      "score": 1,
+      "link_id": "t3_1dimxpl",
+      "parent_id": "t1_l9qss4d"
+    },
+    {
+      "id": "l9olvt4",
+      "body": "10k is achievable without FAANG companies. Google is more than 15k.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1719008868,
+      "score": 2,
+      "link_id": "t3_1dkq31o",
+      "parent_id": "t1_l9ojo1p"
+    },
+    {
+      "id": "l9iords",
+      "body": "One of the main use cases of MM2 is migration. Also, the target can be configured differently than the source. Also the name can be different. But I don't know if you can migrate to a topic on the same cluster.",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1718916019,
+      "score": 1,
+      "link_id": "t3_1djw351",
+      "parent_id": "t1_l9if5l5"
+    },
+    {
+      "id": "l9gx7lu",
+      "body": "Regarding the collapsing, my IDE only collapses error propagations. Handling is of course much more code and is not hidden. That would indeed be a bad idea.",
+      "author": "TheGilrich",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1718895091,
+      "score": 2,
+      "link_id": "t3_1dk81gz",
+      "parent_id": "t1_l9gq7xt"
+    },
+    {
+      "id": "l9gd03n",
+      "body": "I think treating errors like any other type is quite genius. Besides, any half decent IDE hides these if blocks.",
+      "author": "TheGilrich",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1718887446,
+      "score": 1,
+      "link_id": "t3_1dk81gz",
+      "parent_id": "t1_l9gbbky"
+    },
+    {
+      "id": "l9gcnz4",
+      "body": "What does this do differently than Kafka Mirror Maker?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1718887298,
+      "score": 1,
+      "link_id": "t3_1djw351",
+      "parent_id": "t3_1djw351"
+    },
+    {
+      "id": "l9cgnxy",
+      "body": "Using the card abroad is one of the biggest benefits of neon over regular banks, tough.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1718821821,
+      "score": 1,
+      "link_id": "t3_1dimxpl",
+      "parent_id": "t1_l95xzoy"
+    },
+    {
+      "id": "l99qjla",
+      "body": "Yes, you want it to be splash proof, no cardboard in the walls and regular suitcases often have compartments which are too small and make it hard to pack scuba gear. E.g. you want the full lenght for packing fins but many regular bags add a compartment to the tip or bottom for shoes, etc.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718776107,
+      "score": 2,
+      "link_id": "t3_1dimf7d",
+      "parent_id": "t1_l96h03e"
+    },
+    {
+      "id": "l99paqs",
+      "body": "I have the same. Very happy and enough space.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718775339,
+      "score": 1,
+      "link_id": "t3_1dimf7d",
+      "parent_id": "t1_l94zts9"
+    },
+    {
+      "id": "l95w4qb",
+      "body": "Ja ist klar. Rechnungen zahlen ist nicht so schwer. Mehrseitige Auszüge. 😂",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1718722936,
+      "score": 2,
+      "link_id": "t3_1di49ct",
+      "parent_id": "t1_l94o5h8"
+    },
+    {
+      "id": "l8ysnz8",
+      "body": "Came here say SF Tech, too. \nI just had my TNT Pro custom made with all the features for 3800 CHF.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718605495,
+      "score": 2,
+      "link_id": "t3_1dgv39n",
+      "parent_id": "t1_l8ymv41"
+    },
+    {
+      "id": "l8v0atp",
+      "body": "Of course you did.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718546573,
+      "score": 1,
+      "link_id": "t3_1dgjknx",
+      "parent_id": "t1_l8uycae"
+    },
+    {
+      "id": "l8ttnc3",
+      "body": "It's a practicality issue. You can't really hold it up to deflate and breath from it at the same time.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718519844,
+      "score": 1,
+      "link_id": "t3_1dgjknx",
+      "parent_id": "t1_l8s3jhc"
+    },
+    {
+      "id": "l8rivhm",
+      "body": "Also, you can't operate your BC while breathing from the corrugated hose. That's really bad, because you most likely want to ascend in an OOA case.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718480991,
+      "score": 1,
+      "link_id": "t3_1dgjknx",
+      "parent_id": "t1_l8qsoh5"
+    },
+    {
+      "id": "l8jn2l7",
+      "body": "What separate backplate?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1718347529,
+      "score": 1,
+      "link_id": "t3_1dfbxfb",
+      "parent_id": "t1_l8i8z2g"
+    },
+    {
+      "id": "l7q38zv",
+      "body": "They are available in Europe. My LDS have them.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717879240,
+      "score": 1,
+      "link_id": "t3_1dacyla",
+      "parent_id": "t3_1dacyla"
+    },
+    {
+      "id": "l7dnwbs",
+      "body": "It doesn't matter what local rules apply to you. I'm talking about the DACH region which is also where OP lives. Fact remains, many LDS around here won't allow you to dive with a single first stage. Given that OP specifically asked about two first stages I assume some authority advised him to buy that.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717685112,
+      "score": 1,
+      "link_id": "t3_1d884fv",
+      "parent_id": "t1_l7cl1jq"
+    },
+    {
+      "id": "l7ccbdo",
+      "body": "Or you carry your own backup second stage and abort the dive without an emergency. \nI don't have a strong opinion on this btw, but dive shops in the region certainly do.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717660710,
+      "score": 1,
+      "link_id": "t3_1d884fv",
+      "parent_id": "t1_l7c48qn"
+    },
+    {
+      "id": "l7c2xfh",
+      "body": "If your first stage froze what do you think is going to happen to your buddy's when two divers breath off of it?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717654219,
+      "score": 1,
+      "link_id": "t3_1d884fv",
+      "parent_id": "t1_l78lm6v"
+    },
+    {
+      "id": "l77m4y4",
+      "body": "In Europe I recommend going Apeks. They have great fully sealed regs. Many tech divers here dive two DS4, or DST first stages with XTX50 second stages.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717591946,
+      "score": 1,
+      "link_id": "t3_1d884fv",
+      "parent_id": "t3_1d884fv"
+    },
+    {
+      "id": "l77ltvd",
+      "body": "Dive Rite is not a thing in Europe.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717591814,
+      "score": 2,
+      "link_id": "t3_1d884fv",
+      "parent_id": "t1_l75wv7f"
+    },
+    {
+      "id": "l77llv2",
+      "body": "The problem from my experience is that many shops won't take you diving if you don't have two first stages.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717591718,
+      "score": 2,
+      "link_id": "t3_1d884fv",
+      "parent_id": "t1_l76yzs1"
+    },
+    {
+      "id": "l6r92ga",
+      "body": "Just fyi, it's probably one of the most expensive places to learn how to dive. Hotels, food and transport cost a lot.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1717330122,
+      "score": 2,
+      "link_id": "t3_1d66y2m",
+      "parent_id": "t3_1d66y2m"
+    },
+    {
+      "id": "l66g014",
+      "body": "I was so astonished when visiting Central America that so many people just blast their Tiktok/Insta/Youtube on deafening volume in public transport.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1716992790,
+      "score": 1,
+      "link_id": "t3_1d2uq0k",
+      "parent_id": "t1_l65dczv"
+    },
+    {
+      "id": "l5ucni2",
+      "body": "They also don't account for health insurance premiums rising uncontrollably. This is definitely noticeable for people.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1716785149,
+      "score": 5,
+      "link_id": "t3_1d0wh46",
+      "parent_id": "t1_l5tc8jj"
+    },
+    {
+      "id": "l5akatm",
+      "body": "Yes exactly, I just was genuinely surprised that it is used like that.",
+      "author": "TheGilrich",
+      "subreddit": "nottheonion",
+      "created_utc": 1716450526,
+      "score": 2,
+      "link_id": "t3_1cx6y2g",
+      "parent_id": "t1_l520mgz"
+    },
+    {
+      "id": "l5ak558",
+      "body": "Grew up in countryside (St. Gallen) and have lived in Zurich now for 10 years. I've never heard that word. Maybe it's a demographic thing.",
+      "author": "TheGilrich",
+      "subreddit": "nottheonion",
+      "created_utc": 1716450408,
+      "score": 1,
+      "link_id": "t3_1cx6y2g",
+      "parent_id": "t1_l52bmrx"
+    },
+    {
+      "id": "l51g43t",
+      "body": "Am Swiss and never heard Bimbo used like that.",
+      "author": "TheGilrich",
+      "subreddit": "nottheonion",
+      "created_utc": 1716308522,
+      "score": 28,
+      "link_id": "t3_1cx6y2g",
+      "parent_id": "t1_l50q1yz"
+    },
+    {
+      "id": "l4l2eyu",
+      "body": "Your app sucks. No way to sugar coat this. I have countless problems with this app. Just now, I figured out that casting to Chromecast does not work for RSS podcasts. Terrible app.",
+      "author": "TheGilrich",
+      "subreddit": "YoutubeMusic",
+      "created_utc": 1716030395,
+      "score": 1,
+      "link_id": "t3_1c0s3xs",
+      "parent_id": "t3_1c0s3xs"
+    },
+    {
+      "id": "l4f1ifl",
+      "body": "Literally what they said.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1715924889,
+      "score": 10,
+      "link_id": "t3_1cthpuv",
+      "parent_id": "t1_l4clnw3"
+    },
+    {
+      "id": "l449nig",
+      "body": "For real. It's comical what people are driving in the US/Canada.",
+      "author": "TheGilrich",
+      "subreddit": "malelivingspace",
+      "created_utc": 1715751930,
+      "score": 20,
+      "link_id": "t3_1cs202w",
+      "parent_id": "t1_l43ufyl"
+    },
+    {
+      "id": "l418yhq",
+      "body": "That's the opposite of what op asked for, no?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1715709107,
+      "score": 8,
+      "link_id": "t3_1crp7p0",
+      "parent_id": "t1_l40o6wd"
+    },
+    {
+      "id": "l3uuqv3",
+      "body": "I don't know where in India you're from but from my experience driving in India is infinitely more terrible than driving in Costa Rica.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1715611422,
+      "score": 6,
+      "link_id": "t3_1cqrh2f",
+      "parent_id": "t3_1cqrh2f"
+    },
+    {
+      "id": "l3jmksm",
+      "body": "Apeks",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1715410974,
+      "score": 1,
+      "link_id": "t3_1cp7i9u",
+      "parent_id": "t1_l3iylwk"
+    },
+    {
+      "id": "l36rboo",
+      "body": "Funny that you mention Black Tap. I went twice because of all the hype and was disappointed both times. Not good - sorry. \n\nI don't know how it was years ago. The last 3 years I've been here were really good imo.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1715201940,
+      "score": 1,
+      "link_id": "t3_1cmfmfr",
+      "parent_id": "t1_l35vr61"
+    },
+    {
+      "id": "l33irrr",
+      "body": "Please explain food variety. What can you not get?",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1715150943,
+      "score": 3,
+      "link_id": "t3_1cmfmfr",
+      "parent_id": "t1_l30ah5j"
+    },
+    {
+      "id": "l31etfm",
+      "body": "These two are my favourite cenotes. They're hard to compare. So different.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1715116668,
+      "score": 1,
+      "link_id": "t3_1cmeela",
+      "parent_id": "t1_l30scwn"
+    },
+    {
+      "id": "l2diyrn",
+      "body": "Die Tram",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1714730115,
+      "score": 3,
+      "link_id": "t3_1cj24z0",
+      "parent_id": "t1_l2ddy6k"
+    },
+    {
+      "id": "l24kcz4",
+      "body": "I can only do lake diving at home and I regularly partake in Lake cleanups. There's an organization that runs them.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1714586864,
+      "score": 3,
+      "link_id": "t3_1chhrmx",
+      "parent_id": "t3_1chhrmx"
+    },
+    {
+      "id": "l1v05od",
+      "body": "Intercultura in Sámara had a lot of kids. Immersion classes. It's right at the beach, relaxed and you can surf.",
+      "author": "TheGilrich",
+      "subreddit": "costarica",
+      "created_utc": 1714432900,
+      "score": 1,
+      "link_id": "t3_1cg4ne3",
+      "parent_id": "t3_1cg4ne3"
+    },
+    {
+      "id": "l1qvi8h",
+      "body": "I wouldn't skip Monteverde. It's uniquely different and I loved it there very much. La Fortuna has probably more things to do but I liked the rainforest in Monteverde better.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1714367405,
+      "score": 2,
+      "link_id": "t3_1cfm5ag",
+      "parent_id": "t3_1cfm5ag"
+    },
+    {
+      "id": "l0o9tgm",
+      "body": "My mama tica just put my Swiss army knife to the 15 others she already had, lol.",
+      "author": "TheGilrich",
+      "subreddit": "costarica",
+      "created_utc": 1713745599,
+      "score": 3,
+      "link_id": "t3_1c9sgc3",
+      "parent_id": "t1_l0nhwwu"
+    },
+    {
+      "id": "l0g08mn",
+      "body": "Thank you! That makes a lot of sense.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1713618215,
+      "score": 1,
+      "link_id": "t3_1c81x2k",
+      "parent_id": "t1_l0f2e5o"
+    },
+    {
+      "id": "l0ei5yi",
+      "body": "What does hot swap mean in this case?",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1713587073,
+      "score": 2,
+      "link_id": "t3_1c81x2k",
+      "parent_id": "t1_l0ch9s3"
+    },
+    {
+      "id": "l07b5um",
+      "body": "Yeah fuck San Jose",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1713474008,
+      "score": 1,
+      "link_id": "t3_1c6b1yi",
+      "parent_id": "t1_l037i2j"
+    },
+    {
+      "id": "l00wpyk",
+      "body": "On the contrary. I love driving here. The main roads are great and the mountain paths are fun to drive. This might be hard for people only used to drive on highways and other big, straight roads.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1713378684,
+      "score": 6,
+      "link_id": "t3_1c6b1yi",
+      "parent_id": "t3_1c6b1yi"
+    },
+    {
+      "id": "kzyt78z",
+      "body": "Provided the ferry runs again. There was an accident last week.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1713350090,
+      "score": 1,
+      "link_id": "t3_1c60jp0",
+      "parent_id": "t1_kzykf47"
+    },
+    {
+      "id": "kzyt43z",
+      "body": "The ferry had an accident last week. Not sure if it's back in operation.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1713350036,
+      "score": 1,
+      "link_id": "t3_1c60jp0",
+      "parent_id": "t1_kzxvxcq"
+    },
+    {
+      "id": "kzxvptw",
+      "body": "Cause La Puente de la Amistad is closed. It even shows on your map.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1713327603,
+      "score": 20,
+      "link_id": "t3_1c60jp0",
+      "parent_id": "t3_1c60jp0"
+    },
+    {
+      "id": "kzmowz8",
+      "body": "They buy pay the butcher in cash and he doesn't give a receipt either.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1713151789,
+      "score": 4,
+      "link_id": "t3_1c40onb",
+      "parent_id": "t1_kzkv7df"
+    },
+    {
+      "id": "kzfr5a7",
+      "body": "Adobe or Vamos. \nPeriod.",
+      "author": "TheGilrich",
+      "subreddit": "costarica",
+      "created_utc": 1713041230,
+      "score": 2,
+      "link_id": "t3_1c30kgw",
+      "parent_id": "t3_1c30kgw"
+    },
+    {
+      "id": "kzayfb5",
+      "body": "The perdix has transmitter capabilities, too.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1712961595,
+      "score": 2,
+      "link_id": "t3_1c2f6ph",
+      "parent_id": "t1_kz9mydc"
+    },
+    {
+      "id": "kz6jjvz",
+      "body": "Does it allow setting defaults? If not, does it use the zero value for unset fields?",
+      "author": "TheGilrich",
+      "subreddit": "golang",
+      "created_utc": 1712891727,
+      "score": 3,
+      "link_id": "t3_1c1eijj",
+      "parent_id": "t3_1c1eijj"
+    },
+    {
+      "id": "kz0s81h",
+      "body": "Yes, online. Here: https://coonatramar.com/",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1712803616,
+      "score": 1,
+      "link_id": "t3_1c0nn8e",
+      "parent_id": "t1_kz0cq4o"
+    },
+    {
+      "id": "kyyuq96",
+      "body": "Thanks for the link.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1712777899,
+      "score": 1,
+      "link_id": "t3_1c0nn8e",
+      "parent_id": "t1_kyy2dwv"
+    },
+    {
+      "id": "kyyuopr",
+      "body": "Thanks, made it onto this ferry.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1712777885,
+      "score": 2,
+      "link_id": "t3_1c0nn8e",
+      "parent_id": "t1_kyy4zqs"
+    },
+    {
+      "id": "kyq2s8y",
+      "body": "This is spot on",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1712636091,
+      "score": 1,
+      "link_id": "t3_1byzim8",
+      "parent_id": "t1_kyozrtw"
+    },
+    {
+      "id": "kyq2610",
+      "body": "Unterstrass is more central and actually feels like living in the city. For running you can use the Irchel Park. Affoltern is more quiet and surrounded by forests. E.g Käferberg. Definitely better for running.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1712635766,
+      "score": 18,
+      "link_id": "t3_1bzirsc",
+      "parent_id": "t3_1bzirsc"
+    },
+    {
+      "id": "kyf5bis",
+      "body": "No cert needed. Dos Ojos is even for OWD divers.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1712460379,
+      "score": 0,
+      "link_id": "t3_1bxns5u",
+      "parent_id": "t1_kyf3ij6"
+    },
+    {
+      "id": "kxxbro5",
+      "body": "What???\nHow has this so many upvotes?",
+      "author": "TheGilrich",
+      "subreddit": "AskMen",
+      "created_utc": 1712183071,
+      "score": 3,
+      "link_id": "t3_1buynh0",
+      "parent_id": "t1_kxvzpr3"
+    },
+    {
+      "id": "kxld0ds",
+      "body": "No",
+      "author": "TheGilrich",
+      "subreddit": "solotravel",
+      "created_utc": 1712001645,
+      "score": 1,
+      "link_id": "t3_1bssazw",
+      "parent_id": "t1_kxkyj2d"
+    },
+    {
+      "id": "kxl7hko",
+      "body": "I think all Migros stores have a recycling wall. Not only the big ones.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1711999804,
+      "score": 9,
+      "link_id": "t3_1bt4xbx",
+      "parent_id": "t1_kxjr6rr"
+    },
+    {
+      "id": "kv8n88m",
+      "body": "Why even exchange? Fly in and get local money at te ATM.",
+      "author": "TheGilrich",
+      "subreddit": "zurich",
+      "created_utc": 1710650138,
+      "score": 9,
+      "link_id": "t3_1bgfryh",
+      "parent_id": "t1_kv6vwfo"
+    },
+    {
+      "id": "ku3wbey",
+      "body": "Been to all three. For diving, the Red Sea is by far the best.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1710009858,
+      "score": 2,
+      "link_id": "t3_1banwkk",
+      "parent_id": "t3_1banwkk"
+    },
+    {
+      "id": "ku3v92g",
+      "body": "I'm currently on the Cayman Islands for diving and spend 300$+ per night for a mediocre hotel. Do it if you like it! It's a nice change from bunks and sharing rooms.",
+      "author": "TheGilrich",
+      "subreddit": "solotravel",
+      "created_utc": 1710009509,
+      "score": 1,
+      "link_id": "t3_1bac4p3",
+      "parent_id": "t3_1bac4p3"
+    },
+    {
+      "id": "kqn24e8",
+      "body": "I use Wifi 6 and it works fine. Single SSID.",
+      "author": "TheGilrich",
+      "subreddit": "withings",
+      "created_utc": 1708056171,
+      "score": 1,
+      "link_id": "t3_1arubx2",
+      "parent_id": "t3_1arubx2"
+    },
+    {
+      "id": "kqm1jkp",
+      "body": "I did not. Called, texted them, sent emails, Twitter and Instagram messages and got no answer. Very unprofessional.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1708041264,
+      "score": 1,
+      "link_id": "t3_1arnom7",
+      "parent_id": "t1_kql8uhq"
+    },
+    {
+      "id": "kqm0nvk",
+      "body": "oneight",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1708040928,
+      "score": 7,
+      "link_id": "t3_1artl8g",
+      "parent_id": "t3_1artl8g"
+    },
+    {
+      "id": "kqj5dfg",
+      "body": "From my experience they are extremely strict about these deadlines and don't give a flying fuck about you as a student.",
+      "author": "TheGilrich",
+      "subreddit": "ethz",
+      "created_utc": 1708004424,
+      "score": 3,
+      "link_id": "t3_1are6im",
+      "parent_id": "t3_1are6im"
+    },
+    {
+      "id": "kpevo1m",
+      "body": "I hear Paquera is the spot to go. Friday is new moon.",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1707351493,
+      "score": 1,
+      "link_id": "t3_1alfeby",
+      "parent_id": "t3_1alfeby"
+    },
+    {
+      "id": "kotj7x8",
+      "body": "I love this place. Speft 6 weeks here and will be back. Pura vida!",
+      "author": "TheGilrich",
+      "subreddit": "CostaRicaTravel",
+      "created_utc": 1707011171,
+      "score": 7,
+      "link_id": "t3_1aic4je",
+      "parent_id": "t3_1aic4je"
+    },
+    {
+      "id": "ko8vjaa",
+      "body": "Fuck Padi for teaching this shit.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1706680763,
+      "score": 6,
+      "link_id": "t3_1af0i22",
+      "parent_id": "t1_ko7wsrv"
+    },
+    {
+      "id": "kisq7ib",
+      "body": "Can you expand on the drysuit problem? I have no issues with mine.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1705787350,
+      "score": 1,
+      "link_id": "t3_19bhrkb",
+      "parent_id": "t1_kirwiw1"
+    },
+    {
+      "id": "kinxnb6",
+      "body": "Thanks! will check it out.",
+      "author": "TheGilrich",
+      "subreddit": "costarica",
+      "created_utc": 1705707185,
+      "score": 1,
+      "link_id": "t3_19abcll",
+      "parent_id": "t1_kikpanx"
+    },
+    {
+      "id": "kinxjl4",
+      "body": "Thanks for the reply. I'll go to santa cruz tomorrow.",
+      "author": "TheGilrich",
+      "subreddit": "costarica",
+      "created_utc": 1705707145,
+      "score": 1,
+      "link_id": "t3_19abcll",
+      "parent_id": "t1_kijurcs"
+    },
+    {
+      "id": "ki8x0ut",
+      "body": "That behavior didn't prompt you to investigate the the upper left corner? Should be easy to debug.",
+      "author": "TheGilrich",
+      "subreddit": "adventofcode",
+      "created_utc": 1705473703,
+      "score": 2,
+      "link_id": "t3_19865z0",
+      "parent_id": "t3_19865z0"
+    },
+    {
+      "id": "kglbn5r",
+      "body": "I have the exact same setup minus the light in the middle. I use Backscatter MW4300 lights.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1704554557,
+      "score": 2,
+      "link_id": "t3_18zz806",
+      "parent_id": "t1_kgl8j3u"
+    },
+    {
+      "id": "kgiwjxf",
+      "body": "Thanks for building and improving this. My feedback was meant in a constructive manner. I think this site has great potential and I'll definitely use it.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1704505802,
+      "score": 1,
+      "link_id": "t3_18wq5bj",
+      "parent_id": "t1_kgesd3o"
+    },
+    {
+      "id": "kgarz5y",
+      "body": "That would also work for me. Did you feel safe? I heard some horror stories about Honduras.",
+      "author": "TheGilrich",
+      "subreddit": "scuba",
+      "created_utc": 1704386961,
+      "score": 1,
+      "link_id": "t3_18y8qnk",
+      "parent_id": "t1_kgah0ir"
+    },
+    {
+      "id": "kgaqphd",
+      "body": "Quickly checked and I found some flats that are not from a Genossenschaft. I reported them. Other than that, great work.",
+      "author": "TheGilrich",
+      "subreddit": "Switzerland",
+      "created_utc": 1704386520,
+      "score": 1,
+      "link_id": "t3_18wq5bj",
+      "parent_id": "t3_18wq5bj"
+    }
+  ]
+}

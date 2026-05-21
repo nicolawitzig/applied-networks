@@ -1,0 +1,183 @@
+{
+  "username": "Kaptvr",
+  "posts": [
+    {
+      "id": "1hjumku",
+      "title": "[Textbook exercise] Work done on blocks connected by a string on a pulley",
+      "author": "Kaptvr",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734856728,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Hello, i am stuck on a exercise from university physics textbook.\n\nTwo blocks are connected by a very light string passing over a massless and frictionless pulley. A 20.0 N block moves 75.0 cm to the right and a 12.0 N block moves 75.0 cm downward. Find the total work done on each one (a) if there is no friction between the table and the 20.0 N block, and (b) if μs = 0.500 and μk = 0.325 between the table and the 20.0 N block.\n\nI've tried to do part (a) with a free-body diagram and force sum assuming the X axis is the direction in which the blocks move and g is positive. I came up with the net force for the 12.0 N block to be 12.0 N in the +X direction, because there is no friction between the 20.0 N block so there isn't any force in -X direction. In that case the total work done on the 12.0 N block would equal 12.0 N * 0,75 m = 9.0 J, but the answer is different (from the answers appendix).\n\nI assume i've made a mistake in the free-body diagram and there is something to be done with the tension force. I would be happy with just a hint on how to do this.",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1hjumku/textbook_exercise_work_done_on_blocks_connected/"
+    },
+    {
+      "id": "1g6bptb",
+      "title": "Adiabatic processes in Carnot cycle ",
+      "author": "Kaptvr",
+      "subreddit": "AskPhysics",
+      "created_utc": 1729232905,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "Hello everyone.\n\nCurrently I'm reading Einstein's Fridge by Paul Sen. It's a popular science book about thermodynamics and so my question might be silly because i don't know all of the nuances just yet, but anyway.\n\nIn the Carnot cycle at the end of the isothermal expansion, when we need to lower the temperature of the gas to that of the sink, instead of expanding it adiabatically couldn't we just connect it to the sink? The gas cools down and we get straight to stage 3, isothermal compression. The same goes for adiabatic compression to heat up the gas, we would connect it straight to the furnace.\n\nDoing so would eliminate stages 2 and 4, the net work will remain the same, because the gain from stage 2 equals loss from stage 4, they cancel each out anyway.",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1g6bptb/adiabatic_processes_in_carnot_cycle/"
+    },
+    {
+      "id": "1f1iquw",
+      "title": "Joining long strips",
+      "author": "Kaptvr",
+      "subreddit": "BeginnerWoodWorking",
+      "created_utc": 1724659224,
+      "score": 3,
+      "num_comments": 6,
+      "selftext": "Hello everybody, i'm building a canoe and need to join long, narrow strips of ash for the gunwales. I tried to glue them together as shown in the photo, but the joint broke as i tried to put the inwale in place. Is there a better way to join such strips or do i just need to try again but better?",
+      "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1f1iquw/joining_long_strips/"
+    },
+    {
+      "id": "1e253h3",
+      "title": "BO3710 carbon brushes",
+      "author": "Kaptvr",
+      "subreddit": "Makita",
+      "created_utc": 1720857767,
+      "score": 2,
+      "num_comments": 9,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/1e253h3"
+    },
+    {
+      "id": "1czun52",
+      "title": "Finding time to work and study",
+      "author": "Kaptvr",
+      "subreddit": "ethz",
+      "created_utc": 1716582931,
+      "score": 3,
+      "num_comments": 12,
+      "selftext": "Hi,\n\nthis question has been asked many times but i want to specify. I plan to study physics and start with a bachelor's degree. Would it be manageable to work during the semester part time, let's say 8 hours weekly, and during the summer break full time (40 hours weekly for 3 months) and have time to prepare for the exams?\n\nI know during the break you're supposed to study for the exams, but i would have to finance my studies alone. It would suck to drop out after the first semester because of this so i'm asking in advance if this is a feasible option. I would love to know if any of you were able to achieve this. ",
+      "url": "https://www.reddit.com/r/ethz/comments/1czun52/finding_time_to_work_and_study/"
+    },
+    {
+      "id": "1cug06m",
+      "title": "Fizyka zaocznie",
+      "author": "Kaptvr",
+      "subreddit": "Polska",
+      "created_utc": 1715979180,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Cześć, czy ktoś byłby w stanie powiedzieć jak wygląda sytuacja ze studiowaniem fizyki zaocznie w Polsce? Czy jest w ogóle taka możliwość?\n\nEwentualnie czy oferują studia niestacjonarne w Niemczech, bo przeglądałem strony ich uniwersytetów i nie natknąłem się na takie coś.",
+      "url": "https://www.reddit.com/r/Polska/comments/1cug06m/fizyka_zaocznie/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m39t4xd",
+      "body": "All right, works out, thanks.",
+      "author": "Kaptvr",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734868490,
+      "score": 1,
+      "link_id": "t3_1hjumku",
+      "parent_id": "t1_m39rfjm"
+    },
+    {
+      "id": "m39qyhh",
+      "body": "Right, thanks, i've calculated the acceleration using only the mass of the smaller block instead of both of them. And what about that second part with varying coefficient of friction, i don't think calculus would be necessary. Like you need 10 N of force to overcome the static friction and that leaves you with 2 N for the acceleration, but right after it moves you have 5,5 N for acceleration. I suppose assuming some time t for which the friction goes from static to kinetic is wrong.",
+      "author": "Kaptvr",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734867009,
+      "score": 1,
+      "link_id": "t3_1hjumku",
+      "parent_id": "t1_m39iyyn"
+    },
+    {
+      "id": "lsj1xbe",
+      "body": "Thanks, I'll have to read up more on entropy to feel it i guess.",
+      "author": "Kaptvr",
+      "subreddit": "AskPhysics",
+      "created_utc": 1729260482,
+      "score": 1,
+      "link_id": "t3_1g6bptb",
+      "parent_id": "t3_1g6bptb"
+    },
+    {
+      "id": "lk52qs4",
+      "body": "I clamped them between two plywood boards, first clamping the outside so that it doesn't move out of position, then i clamped the joint itself",
+      "author": "Kaptvr",
+      "subreddit": "BeginnerWoodWorking",
+      "created_utc": 1724743777,
+      "score": 1,
+      "link_id": "t3_1f1iquw",
+      "parent_id": "t1_lk3l54c"
+    },
+    {
+      "id": "lk0lqm6",
+      "body": "It's a polyurethane D4 wood glue but i think i prepared the surface poorly, that's why it snapped",
+      "author": "Kaptvr",
+      "subreddit": "BeginnerWoodWorking",
+      "created_utc": 1724681948,
+      "score": 3,
+      "link_id": "t3_1f1iquw",
+      "parent_id": "t1_lk0hfor"
+    },
+    {
+      "id": "ld5ytte",
+      "body": "After installing the same brushes it is working so it wasn't broken i guess, maybe the wire was out of place.\n\n\nThanks.",
+      "author": "Kaptvr",
+      "subreddit": "Makita",
+      "created_utc": 1720977490,
+      "score": 1,
+      "link_id": "t3_1e253h3",
+      "parent_id": "t3_1e253h3"
+    },
+    {
+      "id": "ld3yern",
+      "body": "I think it looks fine, i took saturday off and today after installing the brushes again it works. I guess the wire was just out of place and didn't close the circuit ",
+      "author": "Kaptvr",
+      "subreddit": "Makita",
+      "created_utc": 1720943021,
+      "score": 1,
+      "link_id": "t3_1e253h3",
+      "parent_id": "t1_lczlid1"
+    },
+    {
+      "id": "lcytr0t",
+      "body": "My mistake, i didn't post the text :p",
+      "author": "Kaptvr",
+      "subreddit": "Makita",
+      "created_utc": 1720862189,
+      "score": 1,
+      "link_id": "t3_1e253h3",
+      "parent_id": "t1_lcyt0ap"
+    },
+    {
+      "id": "lcytons",
+      "body": "Looks like i posted only the pictures lol. My problem is that my sander suddenly stopped working, after a break it was fine for a minute and then it stopped again and i was wondering if it is caused by the brushes. They are about 1 cm long, how do you guys think?",
+      "author": "Kaptvr",
+      "subreddit": "Makita",
+      "created_utc": 1720862143,
+      "score": 1,
+      "link_id": "t3_1e253h3",
+      "parent_id": "t3_1e253h3"
+    },
+    {
+      "id": "l5kwyfg",
+      "body": "Thanks for the input ",
+      "author": "Kaptvr",
+      "subreddit": "ethz",
+      "created_utc": 1716618339,
+      "score": 1,
+      "link_id": "t3_1czun52",
+      "parent_id": "t3_1czun52"
+    },
+    {
+      "id": "kstr3iv",
+      "body": "Yesterday i built a pc on MSI B550-A pro with ASRock rx6700xt, if i lay it on its side will i prevent GPU sag?",
+      "author": "Kaptvr",
+      "subreddit": "buildapc",
+      "created_utc": 1709281944,
+      "score": 1,
+      "link_id": "t3_1b3jndl",
+      "parent_id": "t3_1b3jndl"
+    }
+  ]
+}

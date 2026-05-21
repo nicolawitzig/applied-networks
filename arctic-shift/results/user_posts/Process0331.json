@@ -1,0 +1,59 @@
+{
+  "username": "Process0331",
+  "posts": [
+    {
+      "id": "1ef19qg",
+      "title": "Hi guys, I have made a plot to choose a student insurance, hope someone like it.",
+      "author": "Process0331",
+      "subreddit": "ethz",
+      "created_utc": 1722264136,
+      "score": 26,
+      "num_comments": 2,
+      "selftext": "https://preview.redd.it/6nndrjkbzgfd1.png?width=876&format=png&auto=webp&s=6d5be4c81fc33f35bfa1372971e47de0b124d4f1\n\n[https://colab.research.google.com/drive/1mU7rm8yHnmuyipfZxySAOQn1itU19Ltv#scrollTo=B\\_8kiN3gkxwE&uniqifier=1](https://colab.research.google.com/drive/1mU7rm8yHnmuyipfZxySAOQn1itU19Ltv#scrollTo=B_8kiN3gkxwE&uniqifier=1)",
+      "url": "https://www.reddit.com/r/ethz/comments/1ef19qg/hi_guys_i_have_made_a_plot_to_choose_a_student/"
+    },
+    {
+      "id": "1dbyi67",
+      "title": "[Latex] How to enable Helix synctex backward searching.",
+      "author": "Process0331",
+      "subreddit": "HelixEditor",
+      "created_utc": 1717952470,
+      "score": 5,
+      "num_comments": 0,
+      "selftext": "Synctex allow us navigate to .tex position by click the related part in PDF.\n\nIn zathura+neovim, it can be achieved by RPC call [https://rossknapman.com/posts/nvimvimtexzathura/](https://rossknapman.com/posts/nvimvimtexzathura/)\n\nAnd something similar has been discussed in [https://github.com/helix-editor/helix/issues/387](https://github.com/helix-editor/helix/issues/387), but it seems need to wait the plugin system landed.\n\nNow, I do that by adding this to zathurarc, which restart helix everytime:\n`set synctex-editor-command \"hxtex +%{line} %{input}\"`\n\n```\n#!/bin/bash\n# cons: will kill all hx process, and flickery happens when restart the helix.\nkillall hx >/dev/null 2>&1\nhx \"$@\"\n```\nDoes anyone has a better solution?",
+      "url": "https://www.reddit.com/r/HelixEditor/comments/1dbyi67/latex_how_to_enable_helix_synctex_backward/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lex8r3l",
+      "body": "Hi, are u already in Zurich right now. I am native mandarin speaker studying in UZH with my low confidence on my spoken English. Glad to be ur friend.",
+      "author": "Process0331",
+      "subreddit": "zurich",
+      "created_utc": 1721937033,
+      "score": 2,
+      "link_id": "t3_1d8lriq",
+      "parent_id": "t3_1d8lriq"
+    },
+    {
+      "id": "lay8rll",
+      "body": "rafting in thw river, u can buy a boat with 30chf.",
+      "author": "Process0331",
+      "subreddit": "zurich",
+      "created_utc": 1719734917,
+      "score": 1,
+      "link_id": "t3_1dr7c0z",
+      "parent_id": "t3_1dr7c0z"
+    },
+    {
+      "id": "l86mr7n",
+      "body": "introverted is not a problem, I don't think u\n should change it on purpose, just be yourself and follow your heart.",
+      "author": "Process0331",
+      "subreddit": "zurich",
+      "created_utc": 1718143835,
+      "score": 3,
+      "link_id": "t3_1ddnl7j",
+      "parent_id": "t3_1ddnl7j"
+    }
+  ]
+}

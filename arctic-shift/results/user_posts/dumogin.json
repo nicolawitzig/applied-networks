@@ -1,0 +1,418 @@
+{
+  "username": "dumogin",
+  "posts": [
+    {
+      "id": "1ajqkeb",
+      "title": "Is Device Firmware Configuration Interface (DFCI) Management outside of Surface dead?",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1707164715,
+      "score": 3,
+      "num_comments": 6,
+      "selftext": "I recently started researching how to manage the UEFI for settings for a customer that mainly uses Lenovo (and HP in the past) devices that are setup with AutoPilot. Since they only need to block access to UEFI I looked at [DFCI (Device Firmware Configuration)](https://learn.microsoft.com/en-us/autopilot/dfci-management) but none of the big OEMs namely HP, Dell and Lenovo support it.\n\nThe Lenovo rep told me that the DFCI is basically dead because the API is too limited. But they offered me to licenses for their ThinkShield RSVP service at $5 per device for three years. HP seems to offer a similar service but I'm not sure if they charge for it (yet). At least to me it looks like that these OEMs probably won't implement DFCI ever and want to sell their own service instead. I don't know what the situation with Dell is.\n\nDo any of you have more insight into this?\n\nThis made me realise that drivers and firmware still suck outside of Surface. I hoped that Microsoft releasing the Surface and AutoPilot would have a positive impact on the driver and firmware situation in the Windows world. While I it did at least now drivers and firmware can be managed with Windows Update. I don't think it did enough. We still have feature creep in the firmware, drivers and OEM software. Sadly I don't see this changing anytime soon.\n\nTLDR: Lenovo rep told me DFCI is dead because its API is too limited and Lenovo sells a similar service. Do people here know more about this?",
+      "url": "https://www.reddit.com/r/Intune/comments/1ajqkeb/is_device_firmware_configuration_interface_dfci/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m41z0mn",
+      "body": "You have to implement this yourself [IClonable](https://learn.microsoft.com/en-us/dotnet/api/system.icloneable?view=net-9.0) doesn’t specify what kind of copy it returns.\n\nSo you need to to implement a Clone() method that returns a deep copy of the object.\n\nThis is probably more efficient than serializing and deserializing your object and the right way to do this.",
+      "author": "dumogin",
+      "subreddit": "PowerShell",
+      "created_utc": 1735318126,
+      "score": 1,
+      "link_id": "t3_1hngxqe",
+      "parent_id": "t3_1hngxqe"
+    },
+    {
+      "id": "m3kq3q2",
+      "body": "> I think that I shall never see\nA graph more lovely than a tree.\n\n> A tree whose crucial property\n\n> Is loop-free connectivity.\n> A tree that must be sure to span\n> So packets can reach every LAN.\n> First, the root must be selected.\n> By ID, it is elected.\n> Least cost paths from root are traced.\n> In the tree, these paths are placed.\n> A mesh is made by folks like me,\n> Then bridges find a spanning tree.\n> — Radia Perlman *Algorhyme*",
+      "author": "dumogin",
+      "subreddit": "homelab",
+      "created_utc": 1735035827,
+      "score": 6,
+      "link_id": "t3_1hkpss1",
+      "parent_id": "t1_m3gjy62"
+    },
+    {
+      "id": "lq6617x",
+      "body": "European countries generally use a comma instead of a dot as a decimal separator. \n\nBut the grouping separator isn‘t the same for all European countries. In Switzerland we use the apostrophe (1‘000‘000,00). But Germany for example uses dots (1.000.000,00).",
+      "author": "dumogin",
+      "subreddit": "mac",
+      "created_utc": 1727977627,
+      "score": 12,
+      "link_id": "t3_1fvar6x",
+      "parent_id": "t1_lq5nzo7"
+    },
+    {
+      "id": "lpnkcxo",
+      "body": "Yeah these calculations suck and are basically made up. The $ 100 million cost for SC2 was false reporting by the WSJ at the time. We don't know how much Blizzard spent on SC2. Blizzard didn't make $60 of revenue per copy sold. There is regional pricing and margins for stores and distributors to consider. And after the first year (or earlier) most games get regular discounts.\n\nAlso If you look at the financial report of that year WoW and CoD were over 60% of Activision Blizzards revenue that year. WoW cost them $240 million that year and made them $1300 million. According to their financial statements WoW made like $700 million in profits.\n\nWe can't know for sure if the profits from that pony were higher than SC2, but profits from WoW micro-transactions outside of subscriptions was very likely higher than the profits from SC2 in that year.",
+      "author": "dumogin",
+      "subreddit": "wow",
+      "created_utc": 1727706549,
+      "score": 2,
+      "link_id": "t3_1fs5nw9",
+      "parent_id": "t1_lpiya4i"
+    },
+    {
+      "id": "lpnes1q",
+      "body": "On Diablo Immortal they probably did. With Warcraft Rumble I wouldn't be so sure. \n\nIf you are Candy Crush or Clash of Clans you print money but if you are smaller your profit margins drop rapidly. And to keep your game profitable you have to spend a lot of money on advertisement to keep acquiring new customers and get existing customers spend money in your game.",
+      "author": "dumogin",
+      "subreddit": "wow",
+      "created_utc": 1727704555,
+      "score": 1,
+      "link_id": "t3_1fsfwkg",
+      "parent_id": "t1_lpkoljx"
+    },
+    {
+      "id": "lotlwzp",
+      "body": "> I don't think I would mind getting worse grades at this point because what is the point of grades beyond BP anyways but I would prefer not to fail something.\n\nThey might be relevant depending on your masters or when applying for an internship.\n\nI wouldn't force myself to do a side-project if you don't have anything you are passionate about. If you want to gain practical experience it's probably better to look for an internship or a small part-time job. Since this will teach you how to work on a project in a professional environment. There are companies in Zurich that are hiring students and know what they can expect of them.",
+      "author": "dumogin",
+      "subreddit": "ethz",
+      "created_utc": 1727250168,
+      "score": 1,
+      "link_id": "t3_1fopc5q",
+      "parent_id": "t3_1fopc5q"
+    },
+    {
+      "id": "lnjv69x",
+      "body": "You have been able to make calls from macOS for at least three years now. You can just click on phone number in your contacts or one that is linked on a website or email.",
+      "author": "dumogin",
+      "subreddit": "mac",
+      "created_utc": 1726570430,
+      "score": 1,
+      "link_id": "t3_1fiahrm",
+      "parent_id": "t1_lnigglv"
+    },
+    {
+      "id": "lm92fb3",
+      "body": "[As long it's not a dog I don't care.](https://www.youtube.com/watch?v=EMSrjJngnkY)",
+      "author": "dumogin",
+      "subreddit": "Switzerland",
+      "created_utc": 1725873829,
+      "score": 2,
+      "link_id": "t3_1fcj8sv",
+      "parent_id": "t3_1fcj8sv"
+    },
+    {
+      "id": "lm92cis",
+      "body": "Not gonna happen since there are no pictures of Muhammed.",
+      "author": "dumogin",
+      "subreddit": "Switzerland",
+      "created_utc": 1725873775,
+      "score": 0,
+      "link_id": "t3_1fcj8sv",
+      "parent_id": "t1_lm8ubb1"
+    },
+    {
+      "id": "llvntpj",
+      "body": "> Your explanation still leaves out the same details I was asking for. If you have 64GB of ram, and you have 5GB of anon pages in memory, why does that hurt performance for other anon pages?\n\nIf your memory is mostly free it doesn't really matter.\n\n> Why does a section of memory not being reclaimed but also not being touched lead to a page fault in the near future?\n\nBecause if it isn't accessed it could be swapped out and used for active processes (or prefetching). This way you can use the memory more efficiently.\n\n> Is it possible maybe I don't understand the meaning of the word \"reclaim\" in this context?\n\nIf there are enough free pages the system doesn't have to reclaim any pages. [This description of reclaim](https://docs.kernel.org/admin-guide/mm/concepts.html#reclaim) is pretty great.",
+      "author": "dumogin",
+      "subreddit": "linux",
+      "created_utc": 1725666895,
+      "score": 1,
+      "link_id": "t3_1fa5jcq",
+      "parent_id": "t1_lluyd56"
+    },
+    {
+      "id": "llu9df8",
+      "body": "> I don't understand why the chance of successful long term reclamation is low, or why that is bad, or why it can cause page thrashing. Is it that keeping things in memory contributes to memory fragmentation? \n\nThis is bad because if a reclamation isn't long term leads to a page fault in the near future which is an expensive operation. When a page fault occurs the CPU has to retrieve data from storage which takes up a lot of clock cycles.\n\nThe probability of a successful long-term page reclamation is lower, because there are two (four if you can private and shared) types of memory mappings anonymous mappings and file mappings. File mappings map a file to memory and these pages can always be reclaimed because the data is available in storage. Anonymous mappings aren't backed by a file, they only exist in memory. If you have swap the system can swap anonymous pages and then reclaim this memory. This gives the memory manager of your OS more memory to work with. The article describes why this is an advantage.",
+      "author": "dumogin",
+      "subreddit": "linux",
+      "created_utc": 1725649650,
+      "score": 3,
+      "link_id": "t3_1fa5jcq",
+      "parent_id": "t1_llstzzz"
+    },
+    {
+      "id": "lj801gw",
+      "body": "I‘ve been using the new Outlook for a few years now because I switched to a MacBook and it‘s perfectly fine.",
+      "author": "dumogin",
+      "subreddit": "sysadmin",
+      "created_utc": 1724253349,
+      "score": 1,
+      "link_id": "t3_1exqvah",
+      "parent_id": "t3_1exqvah"
+    },
+    {
+      "id": "l80r1ys",
+      "body": "Have you seen how Marvel movies are made? Almost everything is CGI. So we already kind of live in that reality.",
+      "author": "dumogin",
+      "subreddit": "diablo4",
+      "created_utc": 1718053116,
+      "score": 1,
+      "link_id": "t3_1dbzju6",
+      "parent_id": "t1_l7uxf7e"
+    },
+    {
+      "id": "l4uxfj6",
+      "body": "Was the Horizon: Zero Dawn port bad? I remember it running flawlessly while looking amazing on my old setup on a i7-3700 and GTX 970.",
+      "author": "dumogin",
+      "subreddit": "gaming",
+      "created_utc": 1716202881,
+      "score": 1,
+      "link_id": "t3_1cv218g",
+      "parent_id": "t1_l4n2bm2"
+    },
+    {
+      "id": "l30rkea",
+      "body": "Yes there is an easy way to do this on a FortiGate. Just make a policy for the required domain names that foes certificate inspection.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1715108663,
+      "score": 2,
+      "link_id": "t3_1cm7uot",
+      "parent_id": "t1_l30cyeh"
+    },
+    {
+      "id": "l1yildx",
+      "body": "No it doesn't. The CPU cache is there to prevent the CPU from accessing memory. DRAM is way too slow to feed a modern CPU with data.\n\nThe main memory is used for caching by the OS and storage drivers in most modern systems.",
+      "author": "dumogin",
+      "subreddit": "mac",
+      "created_utc": 1714493575,
+      "score": 2,
+      "link_id": "t3_1cg4kie",
+      "parent_id": "t1_l1xliy1"
+    },
+    {
+      "id": "l127dua",
+      "body": "It was released a long time ago. It's called Arcania: Gothic 4.",
+      "author": "dumogin",
+      "subreddit": "BaldursGate3",
+      "created_utc": 1713974091,
+      "score": 2,
+      "link_id": "t3_1cbsntr",
+      "parent_id": "t1_l112asp"
+    },
+    {
+      "id": "kxiumbp",
+      "body": "I‘m interested in reading this.",
+      "author": "dumogin",
+      "subreddit": "golang",
+      "created_utc": 1711966216,
+      "score": 1,
+      "link_id": "t3_1bsx6kb",
+      "parent_id": "t3_1bsx6kb"
+    },
+    {
+      "id": "kvi3xwk",
+      "body": "> immutable\n\nArrays aren't immutable. Arrays only have a fixed size. The data in an array can be mutated.\n\nBut you are right a String object is immutable objects. So if you want to replace a character in a string the result of this modifications returns a new object. This is because .NET stores strings in the internal pool which contains the references to  every unique string literal. So if you declare the same string multiple times in your program the variables will all point to the same string object in memory. \n\nI mostly learned about strings in Java and .net is pretty similar. [This article](https://davidlim2007.wordpress.com/2018/06/20/some-notes-on-c-strings/) explains strings in .net pretty well.",
+      "author": "dumogin",
+      "subreddit": "PowerShell",
+      "created_utc": 1710804537,
+      "score": 3,
+      "link_id": "t3_1bhw4is",
+      "parent_id": "t1_kvhjhpa"
+    },
+    {
+      "id": "kuq28nn",
+      "body": "> Allows you to apply a POSIX compliant approach\n\nCould you please elaborate what you mean by that? I don‘t understand how POSIX is in any way related to PowerShell (except that it runs on macOS which is a POSIX certified OS).",
+      "author": "dumogin",
+      "subreddit": "PowerShell",
+      "created_utc": 1710358401,
+      "score": 1,
+      "link_id": "t3_1bdx1bk",
+      "parent_id": "t1_kupyjie"
+    },
+    {
+      "id": "ktwzxqg",
+      "body": "The problem is you can't really compare the two. Exchange was developed as an internet facing application from the start.\n\nAnd using it for O365 still required Microsoft to make massive changes (just look at the changes in every major version since Exchange 2010 and think of them in the context of Microsoft building Office 365). It's also relatively easy to deploy compared to CM.\n\nAlso Intune wasn't developed as a replacement for CM it was released as a relatively simple alternative cloud alternative to CM for small and medium businesses. From there it became Microsofts MDM solution for managing iOS and Android devices and they integrated it into SCCM.\n\nSo no it isn't a waste of money because Intune gave Microsft access a part of the market that will never buy SCCM. And it was also an upsell for their existing CM customers that want a MDM for Android and iOS.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1709906448,
+      "score": 1,
+      "link_id": "t3_1b91jry",
+      "parent_id": "t1_ktt5fly"
+    },
+    {
+      "id": "ktan5pd",
+      "body": "One of the big reasons Microsoft is making addons is because they fear antitrust action. They already had to unbundle Teams from MS 365 in the EU.\n\nThey would probably be happy with creating a pricing ladder that makes you buy an E5 license for most of your users if you are a midsized or big company.",
+      "author": "dumogin",
+      "subreddit": "devops",
+      "created_utc": 1709559925,
+      "score": 5,
+      "link_id": "t3_1b61o08",
+      "parent_id": "t1_ktab7y7"
+    },
+    {
+      "id": "krwj9o9",
+      "body": "Microsoft offering Jamf integration for Intune is pretty telling about the state of managing Macs with Intune.",
+      "author": "dumogin",
+      "subreddit": "sysadmin",
+      "created_utc": 1708771383,
+      "score": 1,
+      "link_id": "t3_1axy0tq",
+      "parent_id": "t1_krrivaf"
+    },
+    {
+      "id": "krwi5bz",
+      "body": "Because Task Scheduler has been used for built-in background tasks (defragmentation, trim and a lot more) on every Windows installation since Windows Vista?\n\nIt offers tons of options for triggers, logging, permission and more. If it doesn’t work for something basic like a login script it‘s likely that you are doing something wrong.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1708770582,
+      "score": 2,
+      "link_id": "t3_1ayc08s",
+      "parent_id": "t1_krwch5h"
+    },
+    {
+      "id": "krnjtyc",
+      "body": "If you don’t have insurance that covers it there might be another option: If a student you know broke it their personal liability insurance might cover most of the cost depending on their insurance policy. Just ask the friends that sat next to you and maybe offer them to cover half of the cost.",
+      "author": "dumogin",
+      "subreddit": "ethz",
+      "created_utc": 1708631463,
+      "score": 1,
+      "link_id": "t3_1ax1rjs",
+      "parent_id": "t3_1ax1rjs"
+    },
+    {
+      "id": "kr6ugiw",
+      "body": "I would recommend b), you learn a lot more math during the matura so you will have an easier time at the start. There is also the possibility of finishing an apprenticeship in [2 instead of 4 years](https://www.find-your-future.ch/de/berufslehre/verkuerzte-lehre/way-up/) if you have the matura.",
+      "author": "dumogin",
+      "subreddit": "ethz",
+      "created_utc": 1708374957,
+      "score": 1,
+      "link_id": "t3_1aumlm0",
+      "parent_id": "t3_1aumlm0"
+    },
+    {
+      "id": "kqtdlh4",
+      "body": "This API only supports changing the password, not setting the password if there is none.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1708162323,
+      "score": 1,
+      "link_id": "t3_1ajqkeb",
+      "parent_id": "t1_kqrs866"
+    },
+    {
+      "id": "kqr6h1u",
+      "body": "There are only two ways to set it without user interaction for Lenovo:\n- By ordering the devices with the BIOS password of your choice set in the factory. Them you either wait 6-8 weeks or pay for airfreight.\n- By using Lenovos Cloud Management Tool which is ran by Absolute (which seems to be reasonably priced). To get this you habe to talk to the Lenovo sales team.\n\nIf you stage your devices with PXE you can activate a special mode which only let‘s you boot of the network and allows you to set the password in WinPE through a script.\n\nAnd the last option is to set it manually and after it‘s set you can change it using a script.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1708122856,
+      "score": 1,
+      "link_id": "t3_1ajqkeb",
+      "parent_id": "t1_kpfsleb"
+    },
+    {
+      "id": "kpj96eo",
+      "body": "Not sure if it is an issue that people are aware of but it's definitely possible in StarCraft. I remember map hacks being pretty common.",
+      "author": "dumogin",
+      "subreddit": "Stormgate",
+      "created_utc": 1707423401,
+      "score": 6,
+      "link_id": "t3_1am09vu",
+      "parent_id": "t1_kpj14cc"
+    },
+    {
+      "id": "kphx3xy",
+      "body": "I like the macOS virtual desktops more than virtual desktops on Windows. I personally never felt the need to rename them and switching between spaces and pinning applications to spaces works way better on macOS.\n\nOn Windows I always had the issue that when I restarted my virtual desktops would be all messed up and sometimes even when plugging in to my monitor had this effect. Not sure if this is fixed on Windows 11 but I doubt it.",
+      "author": "dumogin",
+      "subreddit": "MacOS",
+      "created_utc": 1707407341,
+      "score": 2,
+      "link_id": "t3_1alw08o",
+      "parent_id": "t3_1alw08o"
+    },
+    {
+      "id": "kp87krx",
+      "body": "Yeah but what is their market share compared to HP, Lenovo and Dell for business laptops? At least here it's only these three and maybe a Surface or Mac. \n\nThese OEMs adopting a similar strategy to Microsoft and Surface to firmware and drivers would probably make their devices more stable and secure in the long run. But I definitely agree that it's profitable to them and something they can use to sell their devices to enterprise or government customers. We definitely told some customers to put some obscure HP feature in to the requirements for a bid so it was easier for us to get the contract.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1707250876,
+      "score": 1,
+      "link_id": "t3_1ajqkeb",
+      "parent_id": "t1_kp3waor"
+    },
+    {
+      "id": "kp84vht",
+      "body": "We are trying to set the BIOS password to lock down the UEFI. Ideally without having to touch the device.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1707249973,
+      "score": 2,
+      "link_id": "t3_1ajqkeb",
+      "parent_id": "t1_kp6f3pg"
+    },
+    {
+      "id": "koattg6",
+      "body": "> 1200$\n\nDo they really deliver a solid product at that price? Sure salaries in India are lower but they aren't that much lower especially for competent programmers.",
+      "author": "dumogin",
+      "subreddit": "webdev",
+      "created_utc": 1706718975,
+      "score": 8,
+      "link_id": "t3_1affaoj",
+      "parent_id": "t1_koag028"
+    },
+    {
+      "id": "kk8u2te",
+      "body": "And then Linus continues to help the guy improve these changes over the next few days. So yes the first e-mail might be a bit abrasive but he also takes a lot of time explaining what he wants change, how he wants it changed and why it should be changed.\n\nTo the people that want to tell their colleagues off. Don't forget to do the second part as well.",
+      "author": "dumogin",
+      "subreddit": "programming",
+      "created_utc": 1706614589,
+      "score": 73,
+      "link_id": "t3_1aekjwg",
+      "parent_id": "t3_1aekjwg"
+    },
+    {
+      "id": "kjfjjde",
+      "body": "How will this be monetized? I don't see how a small company can develop a text editor and give it away for free. Will the editor be used in a bigger product or will there be additional paid features?",
+      "author": "dumogin",
+      "subreddit": "rust",
+      "created_utc": 1706143007,
+      "score": 8,
+      "link_id": "t3_19emhsi",
+      "parent_id": "t3_19emhsi"
+    },
+    {
+      "id": "kj7q952",
+      "body": "AAA single player, AAA multiplayer and games like Palworld are there to stay. The question is only how the market will be split up.\n\nThere is a huge part of the market that only plays AAA single player games. You could call it the \"casual\" audience or dad/mom gamers. If you only release service games you won't be able to sell a console to this demographic anymore. So while these productions might become smaller and/or less in number they are here to stay.",
+      "author": "dumogin",
+      "subreddit": "stocks",
+      "created_utc": 1706027818,
+      "score": 5,
+      "link_id": "t3_19dnpw5",
+      "parent_id": "t1_kj7d6d7"
+    },
+    {
+      "id": "kj4cpg3",
+      "body": "There is a policy to pin programs to the taskbar.",
+      "author": "dumogin",
+      "subreddit": "Intune",
+      "created_utc": 1705968064,
+      "score": 1,
+      "link_id": "t3_19czl7a",
+      "parent_id": "t1_kj3hypw"
+    },
+    {
+      "id": "kifgpy1",
+      "body": "> trotzern, sogar auf sek1 nivea gibt es problem (wen auch wesentlich weniger). intressanterweise auf matura nivea hats nicht solche krassen probleme.\n\nUm an einer Maturitätsschule zu unterrichte benötigt man einen Masterabschluss von einer Universität und eine 2-3 Semester lange Zusatzausbildung in Pädagogik und Didaktik. Für Uniabgänger, die nicht den akademischen Weg beschreiten wollen oder können, kann dies also eine durchaus attraktive Alternative sein. Und es hat viel mehr potentielle Bewerber.\n\nWenn man an der Volksschule mit einem Unimaster unterrichten muss und den gleichen Lohn wie ein PH-Abgänger erhalten will, muss man nochmals ein Bachelorstudium an der PH machen. Ich denke hier sollte man reagieren und Personen mit Uniabschluss einen einfacheren Weg an die Volksschule zu bieten. \n\n> obschon man sagen kann, dass es bände spricht wen meine lehrerfreunde sagen, dass es unmöglich ist ein 100% pensum zu übernehmen, da neben dem unterrichten noch alles mögliche in das pensum reingeschoben wird, von meetings, zu speziellen gruppen, zu elterngespräche, zu weiterbildungen, etc etc etc\n\nDas ist sicherlich ein Problem. Während der Schulzeit gibt es oft Phasen in denen Überzeit aufgebaut wird, welche dann in der Ferienzeit abgebaut werden kann. Dies macht wirkliche Teilzeitarbeit schwierig.",
+      "author": "dumogin",
+      "subreddit": "Switzerland",
+      "created_utc": 1705583010,
+      "score": 1,
+      "link_id": "t3_19971ns",
+      "parent_id": "t1_kiexbs8"
+    },
+    {
+      "id": "khcyzw9",
+      "body": "Yes it doesn't make sense. Threadripper 7000 was only released one or two months ago and there wasn't really a replacement for it unless you went for server CPU's or OEM workstations.\n\nAlso upgrading your machine takes time and I bet you won't do that during the merge window you'll probably do that when there is some downtime.",
+      "author": "dumogin",
+      "subreddit": "linux",
+      "created_utc": 1704980342,
+      "score": 6,
+      "link_id": "t3_193pgqa",
+      "parent_id": "t1_khc5vf8"
+    },
+    {
+      "id": "kgx3sxx",
+      "body": "I have heard in interviews that CDPR is working with Epic to bring their object streaming tech to Unreal. So we might see the best of CDPR combined with the best of Unreal.\n\nI definitely think that their move to Unreal was a big risk since their REDEngine handles seamless open worlds with almost no load times better than everyone else in the business.\n\nCyberpunk 2077 is still one of the most impressive if not the most impressive game I have ever seen.",
+      "author": "dumogin",
+      "subreddit": "BaldursGate3",
+      "created_utc": 1704733975,
+      "score": 1,
+      "link_id": "t3_191gytf",
+      "parent_id": "t1_kgw8kp7"
+    }
+  ]
+}

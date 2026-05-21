@@ -1,0 +1,211 @@
+{
+  "username": "vocdex",
+  "posts": [
+    {
+      "id": "1esblib",
+      "title": "Show physical card at check-in or not?",
+      "author": "vocdex",
+      "subreddit": "TurkishAirlines",
+      "created_utc": 1723666747,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi everyone,   \nI bought tickets for my parents who will be travelling from my home country to Europe. I paid with my debit Visa card. I read somewhere that TK passengers were asked to present the physical card with which the payment was made. Is this still happening? Or does this policy only apply to tickets purchased with a credit card ?  \nI am extremely worrief that they might get denied at the check-in. ",
+      "url": "https://www.reddit.com/r/TurkishAirlines/comments/1esblib/show_physical_card_at_checkin_or_not/"
+    },
+    {
+      "id": "19a3sow",
+      "title": "Doing full-time internships during semester period in a different European country as a non-EU international student",
+      "author": "vocdex",
+      "subreddit": "germany",
+      "created_utc": 1705619266,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hello, as you can see from the title, I am in a unique situation :)  \nI am a non-EU international student and recently got accepted to two research internships in Zurich and Vienna. The issue is that both of the internships happen during summer semester (May-July) and (July-August).\n\n1. If these research schools provide visa for short-term employment in respective countries, what happens to my residence permit in Germany? How do I even get a Swiss visa while in Germany?\n2. Does me being abroad during the semester have any consequences on my status as a student in Germany? I am planning to complete the courses online since attendance is not mandatory and during internship period, I will not be in Germany. I will come for exams only. \n3. Another option is taking a semester leave from university and complete the internships.  In this case, will I be able to keep my residence permit while being on a leave of absence?\n\nWould appreciate any insights on this matter. Thank you!",
+      "url": "https://www.reddit.com/r/germany/comments/19a3sow/doing_fulltime_internships_during_semester_period/"
+    },
+    {
+      "id": "196sva4",
+      "title": "[D] [R] Causality and model-based RL: possible connection?",
+      "author": "vocdex",
+      "subreddit": "MachineLearning",
+      "created_utc": 1705272880,
+      "score": 7,
+      "num_comments": 1,
+      "selftext": "Hey everyone! I've been diving into the world of model-based Reinforcement Learning (RL) and its relationship with causal inference, and I find myself intrigued yet slightly puzzled.(Please let me know if my understanding makes sense at all)\n\nOn the one hand, model-based RL, with its focus on learning the dynamics of an environment, seems to naturally lend itself to answering \"what if\" questions. The ability to predict the outcomes of actions without actual real-world trials feels very much like causal inference. But then, does this mean model-based RL is inherently capable of full-blown causal inference?\n\nMy understanding is that causal inference not only involves predicting outcomes (interventions) but also delving into counterfactual reasoning - understanding what would have happened under different past actions. I'm wondering how well model-based RL handles this aspect, given its dependency on the accuracy and completeness of the learned model.\n\nI'm curious about the community's thoughts on this:\n\n1. Are there any limitations to the kind of causal questions that a model-based RL system can answer?\n2. How might integrating explicit causal models into model-based RL frameworks enhance their capabilities?\n\nWould love to hear your insights or any relevant research that could shed light on this intersection!",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/196sva4/d_r_causality_and_modelbased_rl_possible/"
+    },
+    {
+      "id": "196sq7x",
+      "title": "Causality and model-based RL: possible connection?",
+      "author": "vocdex",
+      "subreddit": "MachineLearning",
+      "created_utc": 1705272523,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/196sq7x/causality_and_modelbased_rl_possible_connection/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2p52aj",
+      "body": "I am curious about this too. Senior researchers like Yoshua Bengio, Bernhard Schölkopf often emphasize the importance of causality and have written quite a few papers on it [\\[Towards Causal Representation Learning\\]](https://arxiv.org/abs/2102.11107)\n\nAs someone outside this subfield, however,  I have no idea how those ideas are currently implemented in realistic settings. For example, can transformers learn causal relationships, or can an RL agent discover causal structure in environment interactions and ignore spurrious correlations? Did somebody already try to add causality in such settings?\n\nI would appreciate if someone who has the necessary knowledge could direct us to actual  applications of causality. Thanks!",
+      "author": "vocdex",
+      "subreddit": "MachineLearning",
+      "created_utc": 1734547319,
+      "score": 4,
+      "link_id": "t3_1hh32u8",
+      "parent_id": "t3_1hh32u8"
+    },
+    {
+      "id": "lzkqu49",
+      "body": "Sorry to be so out of topic, but what’s i3? It doesn’t refer to Core i3 processors, does it?",
+      "author": "vocdex",
+      "subreddit": "thinkpad",
+      "created_utc": 1732896835,
+      "score": 1,
+      "link_id": "t3_1h23n84",
+      "parent_id": "t3_1h23n84"
+    },
+    {
+      "id": "lyvq6ix",
+      "body": "Hiking, playing sports, finding activities on Meet-up platform, or just going to a nice cafe and reading a book :) ",
+      "author": "vocdex",
+      "subreddit": "AskAGerman",
+      "created_utc": 1732525866,
+      "score": 1,
+      "link_id": "t3_1gze3pb",
+      "parent_id": "t3_1gze3pb"
+    },
+    {
+      "id": "liar71u",
+      "body": "Sorry, can i ask how you find a parking space online? Is there an app for it? Thanks!",
+      "author": "vocdex",
+      "subreddit": "erlangen",
+      "created_utc": 1723754058,
+      "score": 1,
+      "link_id": "t3_1espl3o",
+      "parent_id": "t1_li8vxzd"
+    },
+    {
+      "id": "lc36zj2",
+      "body": "Anything from AnnenMayKantereit, Berge, Max Giesinger",
+      "author": "vocdex",
+      "subreddit": "German",
+      "created_utc": 1720382944,
+      "score": 1,
+      "link_id": "t3_1dxgcfk",
+      "parent_id": "t3_1dxgcfk"
+    },
+    {
+      "id": "ky2ma4b",
+      "body": "Just take it, it's a lot harder to find a place on your own and the price also won't differ that much",
+      "author": "vocdex",
+      "subreddit": "Tuebingen",
+      "created_utc": 1712264224,
+      "score": 14,
+      "link_id": "t3_1bvxvvi",
+      "parent_id": "t3_1bvxvvi"
+    },
+    {
+      "id": "kwzylqc",
+      "body": "I think you are referring to this pdf:  \n[https://phd.pages.ist.ac.at/wp-content/uploads/sites/27/2019/12/ISTernship-101.pdf](https://phd.pages.ist.ac.at/wp-content/uploads/sites/27/2019/12/ISTernship-101.pdf)  \nWhat you are saying kinda makes sense ;)",
+      "author": "vocdex",
+      "subreddit": "REU",
+      "created_utc": 1711653200,
+      "score": 1,
+      "link_id": "t3_1bht23e",
+      "parent_id": "t1_kwyve79"
+    },
+    {
+      "id": "kwyrhen",
+      "body": "Just got my rejection letter too :)",
+      "author": "vocdex",
+      "subreddit": "REU",
+      "created_utc": 1711638957,
+      "score": 1,
+      "link_id": "t3_1bo5pnh",
+      "parent_id": "t1_kwyq1rg"
+    },
+    {
+      "id": "kwyq1rg",
+      "body": "Sorry to hear that. What lab was it?",
+      "author": "vocdex",
+      "subreddit": "REU",
+      "created_utc": 1711638467,
+      "score": 1,
+      "link_id": "t3_1bo5pnh",
+      "parent_id": "t1_kwyd54l"
+    },
+    {
+      "id": "kv4ayr1",
+      "body": "From my experience, Google Student Researcher program only accepts PhD students who are about to graduate or in their final years(from what I was told by  3-4 senior PhD students who interned there). I think you got a very good profile but ML research is just competitive now",
+      "author": "vocdex",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1710582627,
+      "score": 1,
+      "link_id": "t3_1bfij8x",
+      "parent_id": "t3_1bfij8x"
+    },
+    {
+      "id": "ks993lj",
+      "body": "Thanks for sharing your stats, it really helps! Now I know I need to apply to more places :)",
+      "author": "vocdex",
+      "subreddit": "MachineLearning",
+      "created_utc": 1708973369,
+      "score": 2,
+      "link_id": "t3_1b0ia76",
+      "parent_id": "t1_ks8uxbs"
+    },
+    {
+      "id": "ks8ejz4",
+      "body": "Seems like I am not the only one in a similar situation...\n\nI think the market is just bad right now and/or most of the positions are focused on LLM and GenAI craze. Having done previous internships in other areas of ML, I thought it would be easier to get offers. I was wrong. I have been searching working/internship positions over the last 2 months. More than 200 applications in, 2 interviews, no offer yet.",
+      "author": "vocdex",
+      "subreddit": "MachineLearning",
+      "created_utc": 1708963358,
+      "score": 1,
+      "link_id": "t3_1b0ia76",
+      "parent_id": "t3_1b0ia76"
+    },
+    {
+      "id": "kpu7rsn",
+      "body": "IMPRS program at University of Tübingen. Tübingen is a great place for all machine learning, including RL. \n\n[https://imprs.is.mpg.de/](https://imprs.is.mpg.de/)",
+      "author": "vocdex",
+      "subreddit": "reinforcementlearning",
+      "created_utc": 1707602132,
+      "score": 2,
+      "link_id": "t3_1an9gwm",
+      "parent_id": "t3_1an9gwm"
+    },
+    {
+      "id": "kjs6sb9",
+      "body": " Since your GPA is lower than 3.0 (out of 4.0), find some schools that has lower CGPA requirements or doesn't have any .  Germans are pretty strict about CGPA cut-off)",
+      "author": "vocdex",
+      "subreddit": "studyAbroad",
+      "created_utc": 1706343593,
+      "score": 1,
+      "link_id": "t3_1ab9x9n",
+      "parent_id": "t1_kjreltu"
+    },
+    {
+      "id": "kjq5oeo",
+      "body": "If you pass the minimum GPA requirement and what you studies during undergrad matches the program prerequisite subjects, you'll get in. Your past internships, LoR, SoP don't matter that much as they do for US applications.\n\n I would recommend applying to \"safe schools\" with lower GPA requirements as well",
+      "author": "vocdex",
+      "subreddit": "studyAbroad",
+      "created_utc": 1706308821,
+      "score": 1,
+      "link_id": "t3_1ab9x9n",
+      "parent_id": "t3_1ab9x9n"
+    },
+    {
+      "id": "khvvuxf",
+      "body": "20 students out of 2500 applicants for whole SSRF. That's like 0.8 % chance :)",
+      "author": "vocdex",
+      "subreddit": "ethz",
+      "created_utc": 1705274063,
+      "score": 2,
+      "link_id": "t3_193lkbc",
+      "parent_id": "t1_khtg9ui"
+    }
+  ]
+}

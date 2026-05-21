@@ -1,0 +1,990 @@
+{
+  "username": "giantZorg",
+  "posts": [
+    {
+      "id": "1g39pj6",
+      "title": "Rerolled a second Fiddle quest",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1728887296,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "I just finished the Fiddle quest to beat a 5+ star adventure, and then rerolled the daily quest. But instead of a different daily quest, I got the Fiddle quest again, but without a time limit. Thanks for another diamond vault I guess?",
+      "url": "https://www.reddit.com/r/LegendsOfRuneterra/comments/1g39pj6/rerolled_a_second_fiddle_quest/"
+    },
+    {
+      "id": "1e6m395",
+      "title": "New keyword or bug?",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1721336546,
+      "score": 8,
+      "num_comments": 5,
+      "selftext": "",
+      "url": "https://i.redd.it/6j1319p6dcdd1.jpeg"
+    },
+    {
+      "id": "1aoi06x",
+      "title": "White to play, checkmate in 1 move",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1707684249,
+      "score": 77,
+      "num_comments": 91,
+      "selftext": "&#x200B;\n\n[White to play](https://preview.redd.it/00185cqlp0ic1.jpg?width=1285&format=pjpg&auto=webp&s=fe35477ce88951792679fedd074c3d38432c7c20)\n\nOne of the most memorable checkmate in one problems to me, taken from [Polgar, training in 5333+1 positions](https://www.amazon.com/Chess-training-5333-1-positions/dp/B008YGFPRA).",
+      "url": "https://www.reddit.com/r/chess/comments/1aoi06x/white_to_play_checkmate_in_1_move/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m41wrrq",
+      "body": "Ich han mal en Analyse für passabene gmacht gha, Self checkout isch grundsätzlich s gliche System mit andere Parameter (zumindescht vor es paae Jahr so gsi). Als Modellparameter hets Anzahl Korrekture und Stornierige, glaube Warewert und en Trustlevel. Alles usserd em Warewert und em Trustlevel isch dadebi statistisch nöd signifikant gsi, aber trotzdem im Modell (vili Korrekture -> Rescan sehr wahrschinlich).\n\n\nDass en grössere Warechorb ehner en Fehler het isch en eifachi Wahrschinlichkeitsrächnig. De Trustlevel funktioniert per Supercard und vorallem bim Passabene, ohni Supercard gits en Defaultwert, wännd korrekt zahlsch mit Supercard sinkt d Wahrschinlichkeit für zuekünftigi Rescans.",
+      "author": "giantZorg",
+      "subreddit": "Switzerland",
+      "created_utc": 1735317404,
+      "score": 2,
+      "link_id": "t3_1hnh5b0",
+      "parent_id": "t3_1hnh5b0"
+    },
+    {
+      "id": "m4182ig",
+      "body": "Some advice then, don't care too much for the eval bar. I remember when I entered my first tournament games where I thought I played well (~1500 elo fide at the time?) into the computer, and was amazed how the eval would always swing 0.5-0.8 after every move as we expectedly didn't play like the computers would.\n\n\nIn your game, I really like that you played d5 (open the center if opponent is underdeveloped). Now learn from this experience and do it better the next time. That's the secret of improving, practice repeatedly.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1735308725,
+      "score": 1,
+      "link_id": "t3_1hneul6",
+      "parent_id": "t1_m416cby"
+    },
+    {
+      "id": "m4154xq",
+      "body": "Something to keep in mind, the evaluation is only valid if you can find the correct continuation. In your case, the +3.5 only applies if you see through the tactical motifs present (I might get it in a classical game, but I don't think I'd find it in faster time). But even without it, you still have a very favorable position sticking to 'general principle' moves here.\n\n\nThis would indicate training tactics, specifically opening to midgame tactics if it occurs frequently. Note that you often need some tactics to press an advantage after an opponent mistake. What helped me was studying common sacrifices (I had a good book about it, helped a lot to get a feel for what works and why and what not), and playing aggressive openings (king's gambit in my case) to practice highly tactical and volatile situations. As a d4 player originally, this was a weak point I've had and I do think this helped me a lot.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1735307508,
+      "score": 1,
+      "link_id": "t3_1hneul6",
+      "parent_id": "t3_1hneul6"
+    },
+    {
+      "id": "m4048z1",
+      "body": "https://en.m.wikipedia.org/wiki/Rook_and_bishop_versus_rook_endgame",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1735285558,
+      "score": -5,
+      "link_id": "t3_1hn0y47",
+      "parent_id": "t1_m3zwrio"
+    },
+    {
+      "id": "m3zh4ym",
+      "body": "If I remember correctly, the R+B against R from any starting position takes with best play up to 55 moves until you either checkmate or take the rook, so it is a theoretically drawn endgame",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1735273210,
+      "score": -15,
+      "link_id": "t3_1hn0y47",
+      "parent_id": "t3_1hn0y47"
+    },
+    {
+      "id": "m39iefj",
+      "body": "We have to select an entity out of a list of candidate entities. You would then either generate probabilities through a model or a scoring function that can be used to select the top choice and provide an estimated confidence. With GPT however, this becomes \"it's that one\", which is actually fine there as the additional context we can easily feed into GPT through the prompt noticably improves overall performance, and the business objective was to maximize performance (at almost any cost).\n\n\nWe'll probably train a transformer model now to retroactively calculate an approximate confidence, but it's quite the eye-opener for the PM that GPT doesn't give him everything he wants/needs and that there are actual tradeoffs.",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1734860797,
+      "score": 45,
+      "link_id": "t3_1hjtsb5",
+      "parent_id": "t1_m39f0gr"
+    },
+    {
+      "id": "m39a0em",
+      "body": "We also have a PM heavily pushing GPT into all our ML pipelines, so we added it to one of the steps where it actually made sense and improved our metrics. Then he comes and asks for a confidence/probability score on the GPT answer as you would get from ML (in this case transformer) models and I'm facepalming.",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1734854694,
+      "score": 81,
+      "link_id": "t3_1hjtsb5",
+      "parent_id": "t3_1hjtsb5"
+    },
+    {
+      "id": "m37dbn8",
+      "body": "Indeed, but belt logic is very visual and relaxing to me, while circuit logic feels like work. Some logic is needed, how you do it should be up to everyone themself",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734821480,
+      "score": 2,
+      "link_id": "t3_1hjh96e",
+      "parent_id": "t1_m3795mq"
+    },
+    {
+      "id": "m372vfq",
+      "body": "I did the same thing, just smaller (fewer crushers, and only basic crushing). I will admit, it took like 4 iterations to get it working properly, but that's part of the fun for me.\n\n\nI knew I would need a bigger ship than with circuitry, so I set up the platform production and built something else for the first version.",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734817589,
+      "score": 3,
+      "link_id": "t3_1hjh96e",
+      "parent_id": "t1_m371st1"
+    },
+    {
+      "id": "m3715l0",
+      "body": "https://preview.redd.it/uo9vtil8t98e1.png?width=1200&format=png&auto=webp&s=34db4fb9245c6d62215049c69cbb6fa8dd47b0a6\n\nBasically a combination of separate rings and priority splitters to deal with overflow. Certainly not as efficient as it could be done with circuitry, but that's fine by me",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734816959,
+      "score": 5,
+      "link_id": "t3_1hjh96e",
+      "parent_id": "t1_m36yqno"
+    },
+    {
+      "id": "m36sn4a",
+      "body": "As with many things, try it out and decide yourself.\n\n\nI personally don't enjoy circuitry, as I do enough coding on the normal job. I like the visual aspect of all items being entities, and to control the flow with splitters so that's how I play the game. It's certainly not space optimal, but space was never a concern in this game. My Aquilo runner is also doing fine without any circuitry or quality.",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734813847,
+      "score": 2,
+      "link_id": "t3_1hjh96e",
+      "parent_id": "t3_1hjh96e"
+    },
+    {
+      "id": "m36ry4z",
+      "body": "Where do you think they are necessary? I'm about to launch to the solar edge without any circuitry because I don't enjoy setting them up",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734813595,
+      "score": 2,
+      "link_id": "t3_1hjh96e",
+      "parent_id": "t1_m36ip6m"
+    },
+    {
+      "id": "m31mu2j",
+      "body": "Practice, practice and more practice, not just playing games.\n\nYou don't need a coach at your level (most likely), maybe someone who would give you some training material, but in general the value of a coach is that he shows you in which (level appropriate) areas you need to practice to improve.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1734731125,
+      "score": 1,
+      "link_id": "t3_1hiuhlo",
+      "parent_id": "t3_1hiuhlo"
+    },
+    {
+      "id": "m2phmfk",
+      "body": "If there is not enough space, then the space station must grow (at least that is my approach)",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734551260,
+      "score": 1,
+      "link_id": "t3_1hh3noy",
+      "parent_id": "t1_m2osa8j"
+    },
+    {
+      "id": "m2phb3o",
+      "body": "Combinators. I like that Factorio is very visual (everything item is an entity), and don't want to bother with them",
+      "author": "giantZorg",
+      "subreddit": "factorio",
+      "created_utc": 1734551153,
+      "score": 1,
+      "link_id": "t3_1hh3noy",
+      "parent_id": "t3_1hh3noy"
+    },
+    {
+      "id": "m2gs7ww",
+      "body": "b, d, e and g are always won as there are no stalemates present. Push the king in on the promotion square, then bring the king closer, repeat until you can take the pawn.\n\nWith the pawn on the a or h file, this doesn't work. Take e.g. a black pawn on e2 and the king on f1, then the white queen check on f3 forces the king in front of the pawn as you otherwise take the pawn. If you do the same with the pawn an a2 and King on a1 with the black queen on b3, you cannot move the king as it would be stalemate. With the pawn on c2/f2, black can move the king into the edge (a1/h1), and if you take the pawn, it is stalemate again while still threatening to promote the queen, so you cannot move the king.\n\nThe part about it being still won with the king being close is because then there are some mating patterns where you allow the pawn to promote. If e.g. black has a pawn on a2 and the king on b1, and the white king is on b3, then you can checkmate black after promotion on d1-h1 or c2. Similar with the pawn being on c2, if the king can get to b3, you can allow the pawn promotion and checkmate black (generally with the queen on a2) when the king goes to a1.",
+      "author": "giantZorg",
+      "subreddit": "chessbeginners",
+      "created_utc": 1734423164,
+      "score": 2,
+      "link_id": "t3_1hfil5m",
+      "parent_id": "t1_m2g92ds"
+    },
+    {
+      "id": "m1e3zs3",
+      "body": "Back when I had more free time and played regularly, a lot of games were either on weekday evenings (start at 19.45, 4h) or Saturday (start at 14.00, 6h) at around 2000 elo rating. In these situations, making me play for 30 more minutes to prove I can win from a position we both know I will win is just annoying as I want to go home and sleep/have dinner with family. It is a bit different during tournaments, and for shorter time formats (anything under 30 minutes), but if you make me mate you K+Q against K, I will consider it disrespectful.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1733853301,
+      "score": 1,
+      "link_id": "t3_1hb5u5x",
+      "parent_id": "t3_1hb5u5x"
+    },
+    {
+      "id": "m1bybmx",
+      "body": "This one is hard, as you don't really have good ways to progress your position (it is rather locked up). On the plus side, the pawns on their own don't do much yet as black still needs some time to bring in more pieces for an effective attack, so you have some time to maneuver.\n\nIn general, when you are ahead in development, you would want to open up the position to make your better developed pieces count. I'd be looking at either b4 or f4 in order to attack the black center. Both benefit from your knight being on d5, so that should happen anyways. Afterwards, Ne1 with either Nc2, a3, b4 is an option, or g3, Ng2, Kh1, f4 is another plan. If black plays Be6, Qd7 going for a long castle, b4 is better, otherwise I'd probably try to play f4. As black, I'd probably not castle at all, but play something like Be6, Nh6, Kd7, Qf/g8.",
+      "author": "giantZorg",
+      "subreddit": "chessbeginners",
+      "created_utc": 1733819192,
+      "score": 1,
+      "link_id": "t3_1hav5j8",
+      "parent_id": "t3_1hav5j8"
+    },
+    {
+      "id": "m179qul",
+      "body": "The major cities are not the problem, but try to go somewhere a bit outside with public transport and you get why Italians love cars",
+      "author": "giantZorg",
+      "subreddit": "Switzerland",
+      "created_utc": 1733756669,
+      "score": 8,
+      "link_id": "t3_1ha997x",
+      "parent_id": "t1_m170m68"
+    },
+    {
+      "id": "m178om8",
+      "body": "It could go something like 1. ...Qd5 2. Qf1 e4 3. Bg2 (taking the pawn loses the rock after Bxh3) exd4+ 4. Kd1/2 dxc3+  \nWhite king completely exposed, black should be able to mop it up easily",
+      "author": "giantZorg",
+      "subreddit": "chessbeginners",
+      "created_utc": 1733756297,
+      "score": 2,
+      "link_id": "t3_1h9wes9",
+      "parent_id": "t1_m15wrjo"
+    },
+    {
+      "id": "m177c59",
+      "body": "I'd take the pre-igniter (and some repairs/fuel). The other options don't really help you that much in this situation.",
+      "author": "giantZorg",
+      "subreddit": "ftlgame",
+      "created_utc": 1733755822,
+      "score": 36,
+      "link_id": "t3_1habaeb",
+      "parent_id": "t3_1habaeb"
+    },
+    {
+      "id": "m05zi0m",
+      "body": "It's not only elderly, the young iphone/ipad/touchscreen generation also doesn't acquire the same computer skills as those who dealt with them in the 1990/2000s did",
+      "author": "giantZorg",
+      "subreddit": "Switzerland",
+      "created_utc": 1733208750,
+      "score": 4,
+      "link_id": "t3_1h51x89",
+      "parent_id": "t1_m04060n"
+    },
+    {
+      "id": "lzkzrwy",
+      "body": "Maybe try for data engineering if it interests you? I'd consider your video processing at least somewhat relevant if I were to hire for it.",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1732899917,
+      "score": 0,
+      "link_id": "t3_1h2hyql",
+      "parent_id": "t3_1h2hyql"
+    },
+    {
+      "id": "lzkgyut",
+      "body": "I've been recommending it to my team members for years, simplifies what it should, and doesn't attempt to do the things you need the terminal anyways",
+      "author": "giantZorg",
+      "subreddit": "ProgrammerHumor",
+      "created_utc": 1732893302,
+      "score": 6,
+      "link_id": "t3_1h2gcct",
+      "parent_id": "t1_lzjnpa2"
+    },
+    {
+      "id": "lysjl93",
+      "body": "Kf7 instead of Bg7",
+      "author": "giantZorg",
+      "subreddit": "chessbeginners",
+      "created_utc": 1732478873,
+      "score": 1,
+      "link_id": "t3_1gyysk6",
+      "parent_id": "t1_lysawc5"
+    },
+    {
+      "id": "lya0wlf",
+      "body": "Is jedes Jahr so, bim erschte Schnee blibsch besser grad dehei",
+      "author": "giantZorg",
+      "subreddit": "Switzerland",
+      "created_utc": 1732211298,
+      "score": 31,
+      "link_id": "t3_1gwk6uh",
+      "parent_id": "t1_ly9wg27"
+    },
+    {
+      "id": "lwrqv1m",
+      "body": "Funny enough, for me it's exactly opposite (probably what playing OTB for many years does). I just can't get myself to care and think the same with for a game on the screen compared to a real board.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1731429433,
+      "score": 9,
+      "link_id": "t3_1gpnu1u",
+      "parent_id": "t1_lwrpx3p"
+    },
+    {
+      "id": "lvinfwy",
+      "body": "Very much depends on what you need to do. You probably just have to try it out and see where it makes sense for you (and your team) and where not. If you have a functional workflow, OOP tends to make things overly complicated. If you need to keep track of states, functional programming becomes a headache.",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1730812986,
+      "score": 1,
+      "link_id": "t3_1gk4s66",
+      "parent_id": "t3_1gk4s66"
+    },
+    {
+      "id": "luu2k52",
+      "body": "Based on my personal experience reviewing CVs, I really liked the pictures as I could associate the content of the CV (skills, experiences, etc.) to a person/face. Whenever I had to read a CV without picture, it felt more that I was evaluating a robot, not a person.\n\nMaybe I'm just used to the pictures as I've seen way more CVs with than without, but I do think without it something is missing.",
+      "author": "giantZorg",
+      "subreddit": "Switzerland",
+      "created_utc": 1730456342,
+      "score": 3,
+      "link_id": "t3_1ggyknl",
+      "parent_id": "t3_1ggyknl"
+    },
+    {
+      "id": "lubfd5x",
+      "body": "[https://leagueoflegends.fandom.com/wiki/Relics\\_(The\\_Path\\_of\\_Champions)#List\\_of\\_Relics](https://leagueoflegends.fandom.com/wiki/Relics_(The_Path_of_Champions)#List_of_Relics) check source for rare or epic  \np2w relics: [https://leagueoflegends.fandom.com/wiki/Relics\\_(The\\_Path\\_of\\_Champions)#Bundle-Exclusive\\_Relics](https://leagueoflegends.fandom.com/wiki/Relics_(The_Path_of_Champions)#Bundle-Exclusive_Relics)",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1730189374,
+      "score": 0,
+      "link_id": "t3_1gepa7o",
+      "parent_id": "t3_1gepa7o"
+    },
+    {
+      "id": "lu5lix4",
+      "body": "I used Caitlyn, I guess with her p2w relic, full build and berserk buckle",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1730112182,
+      "score": 9,
+      "link_id": "t3_1gdyuk0",
+      "parent_id": "t3_1gdyuk0"
+    },
+    {
+      "id": "ltwdofc",
+      "body": "Don't know about CS, but in chemistry it was possible (even officially upportred) by taking master courses in the 6th semester. Not many did thiugh in the end as it was quite stressful",
+      "author": "giantZorg",
+      "subreddit": "ethz",
+      "created_utc": 1729971939,
+      "score": 3,
+      "link_id": "t3_1gcj7xa",
+      "parent_id": "t3_1gcj7xa"
+    },
+    {
+      "id": "lttface",
+      "body": "I've used Caitlin (4 stars, p2w cait relic  echoes and full build) and won with an absolute Yugi moment where I had one card left in the deck at round start of my attack turn (before draw) and could only win if that card was a Caitlyn",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1729927749,
+      "score": 1,
+      "link_id": "t3_1gcbrl7",
+      "parent_id": "t3_1gcbrl7"
+    },
+    {
+      "id": "lttajq0",
+      "body": "Except for the refugees scenario, I never sign child labor out of principle (playing on extreme) as well as some other laws, namely the snow pit, and it works out just fine generally.",
+      "author": "giantZorg",
+      "subreddit": "Frostpunk",
+      "created_utc": 1729924817,
+      "score": 1,
+      "link_id": "t3_1gc6s80",
+      "parent_id": "t1_ltrf2me"
+    },
+    {
+      "id": "lrls1tj",
+      "body": "Someone hasn't met duplicate Zed before",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1728758472,
+      "score": 4,
+      "link_id": "t3_1g26iqk",
+      "parent_id": "t1_lrlr97a"
+    },
+    {
+      "id": "lqkzo8c",
+      "body": "On the other side, our DevOps team think they have to dictate how data engineering has to be done, which results in the viggest mess I've seen to date with noone except the DevOps team being happy about it.",
+      "author": "giantZorg",
+      "subreddit": "devops",
+      "created_utc": 1728198075,
+      "score": 1,
+      "link_id": "t3_1fwwn07",
+      "parent_id": "t3_1fwwn07"
+    },
+    {
+      "id": "lpxmcbg",
+      "body": "The same applies to basically all chemicals, europe has the REACH regulation where depending on quantity produced a producer has to prove different levels of safety",
+      "author": "giantZorg",
+      "subreddit": "ShitAmericansSay",
+      "created_utc": 1727846349,
+      "score": 12,
+      "link_id": "t3_1fty9g0",
+      "parent_id": "t1_lpvlv91"
+    },
+    {
+      "id": "lp5rno8",
+      "body": "There's basically no one in the medical system who profits/has an interest in medical costs going down/not rising, so as long as people/the state pays the bills, no one will want to change anything.",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1727429950,
+      "score": 10,
+      "link_id": "t3_1fqjcdg",
+      "parent_id": "t3_1fqjcdg"
+    },
+    {
+      "id": "loti7r8",
+      "body": "There is also canonically a woman engineer that you rescue from one of the failed building sites in the last autumn (https://frostpunk.fandom.com/wiki/Effie\\_MacLachlan)",
+      "author": "giantZorg",
+      "subreddit": "Frostpunk",
+      "created_utc": 1727247629,
+      "score": 10,
+      "link_id": "t3_1forzmz",
+      "parent_id": "t1_losk735"
+    },
+    {
+      "id": "lnuus2r",
+      "body": "In the village I grew up at some point they put up signs around the village entry that said that parking outside thr marked spaces is forbidden, and then also gave out fines for people who did. Probably after they built the big parking garage so people would use it",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1726725188,
+      "score": 3,
+      "link_id": "t3_1fk41t2",
+      "parent_id": "t3_1fk41t2"
+    },
+    {
+      "id": "lnj3c9r",
+      "body": "Wasn't it at least chilly to work, cold is already too cold?",
+      "author": "giantZorg",
+      "subreddit": "Frostpunk",
+      "created_utc": 1726551500,
+      "score": 7,
+      "link_id": "t3_1fiqidu",
+      "parent_id": "t1_lnj0mw3"
+    },
+    {
+      "id": "lnei3jy",
+      "body": "I'd think a big issue with making things fun in PvP vs. PvE is that in PvE, you only have to consider the person playing, while in PvP you also have to consider the fun of the player playing against you (because you will also be that person). It happens sometimes with some PoC interactions that I really feel how they are fun and interesting, but at the same time would hate if I'd have to play against it (like e.g. image waiting against Chemtech Duplicator Nami play to finish, or Chemtech Duplicator Veigar doing 30+ nexus damage at burst speed). I know PoC is not directly comparable to PvP, but it does make me realize how much harder it is to make something fun for both sides of the game.",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1726491483,
+      "score": 9,
+      "link_id": "t3_1fi3cgm",
+      "parent_id": "t3_1fi3cgm"
+    },
+    {
+      "id": "ln2mjv9",
+      "body": "You can. However, you'll most likely get less benefits from the signing effects, and if I remember correctly the effect cards you add are quite harsh. Might be worth the risk for some particular social dispute cards or starting populations, I think I'd usually start with the child shelters, adds a good event card and prevents them from getting sick",
+      "author": "giantZorg",
+      "subreddit": "Frostpunk",
+      "created_utc": 1726315970,
+      "score": 3,
+      "link_id": "t3_1fghnyy",
+      "parent_id": "t3_1fghnyy"
+    },
+    {
+      "id": "lm8lwse",
+      "body": "I think I used Jinx here as well, the PSA here is that Loose Cannon's Payload is an ETB effect and gets triggered every round",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1725862212,
+      "score": 4,
+      "link_id": "t3_1fcguww",
+      "parent_id": "t3_1fcguww"
+    },
+    {
+      "id": "lm5tw14",
+      "body": "Didn't stop me the last time to use the old and tested method of 'just use Asol', won't stop me this time as well",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1725823002,
+      "score": 26,
+      "link_id": "t3_1fc1x5h",
+      "parent_id": "t3_1fc1x5h"
+    },
+    {
+      "id": "lkvmh6o",
+      "body": "Back when I was a youth chess trainer at my local club, we practiced mate with K+Q vs K or K+R vs K often. It's quite frequent at the beginner level for games to end in this board state without them knowing how to actually end",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1725132629,
+      "score": 13,
+      "link_id": "t3_1f5v0ii",
+      "parent_id": "t3_1f5v0ii"
+    },
+    {
+      "id": "lkb8cst",
+      "body": "Not quite, after Kf8 comes Bh6 with checkmate. If you play Bxg6, black can play Bf6",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1724835054,
+      "score": 2,
+      "link_id": "t3_1f34x7g",
+      "parent_id": "t1_lkb70a0"
+    },
+    {
+      "id": "lk6a94o",
+      "body": "The law states that you should avoid excessive emissions. Growing up, we lived somewhere where every house was single family with garden and as long as you don't burn trash, nobody cares. I live in am appartment in the city (with garden). We don't ask anyone for permission, but use low-smoke coal. If we made barbeque like with my parents (using the wood from the garden) though we'd probably get complains.",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1724766350,
+      "score": 1,
+      "link_id": "t3_1f2fjb2",
+      "parent_id": "t3_1f2fjb2"
+    },
+    {
+      "id": "ljtueeu",
+      "body": "I had a similar feeling after beating her with Ornn (first try, needed for Freljord as I had already used Ashe and Voli for the initial 5)",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1724573371,
+      "score": 7,
+      "link_id": "t3_1f0r133",
+      "parent_id": "t3_1f0r133"
+    },
+    {
+      "id": "ljprniu",
+      "body": "I think my father phrased it the same way, although in our case we knew it was coming (old age)",
+      "author": "giantZorg",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1724512735,
+      "score": 2,
+      "link_id": "t3_1eznqxs",
+      "parent_id": "t3_1eznqxs"
+    },
+    {
+      "id": "ljkkvtl",
+      "body": "I'd suggest Eddie, Nami and Kaisa (at least those were my picks iirc)",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1724431656,
+      "score": 2,
+      "link_id": "t3_1eyqvdl",
+      "parent_id": "t3_1eyqvdl"
+    },
+    {
+      "id": "lim7hut",
+      "body": "In addition to all the other suggestions, I also like them on Norra",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1723926617,
+      "score": 25,
+      "link_id": "t3_1euoyma",
+      "parent_id": "t3_1euoyma"
+    },
+    {
+      "id": "lidpybz",
+      "body": "Get's even better with the \"create a fleeting copy of me in hand\" item",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1723801510,
+      "score": 2,
+      "link_id": "t3_1et66e3",
+      "parent_id": "t3_1et66e3"
+    },
+    {
+      "id": "li319er",
+      "body": "If you select the right list of words, you can actually locate where people grew up almost down to the village. We did this experiment with our class back in Gymnasium and it was astonishingly accurate, but I can't provide any source on how to obtain the proper list.",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1723647952,
+      "score": 4,
+      "link_id": "t3_1erym01",
+      "parent_id": "t3_1erym01"
+    },
+    {
+      "id": "lgw36xn",
+      "body": "I'm working on a similar task (although visualization is not necessary), but with 3-4 million documents. My current approach is to load them into a graph DB with weighted edges (and a distance cutoff) and then use graph-based clustering algorithms. These also come with visulization suites, they just take a very long time to run for me.",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1723005368,
+      "score": 3,
+      "link_id": "t3_1elx6r6",
+      "parent_id": "t1_lgw1fsq"
+    },
+    {
+      "id": "lgw11jq",
+      "body": "How large is your corpus?",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1723004312,
+      "score": 1,
+      "link_id": "t3_1elx6r6",
+      "parent_id": "t3_1elx6r6"
+    },
+    {
+      "id": "lgtrp98",
+      "body": "Given the probability for a single check and the sheer volume of self-checkout transactions, this is bound to happen to someone by random chance.\n\n\nDid they find anything in the first few controls (and you used the Supercard)? And of the most influential factors determining whether to do a check is the trust level assigned to your supercard (or a default value if no supercard is used)?",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722974675,
+      "score": 3,
+      "link_id": "t3_1eljkk8",
+      "parent_id": "t3_1eljkk8"
+    },
+    {
+      "id": "lgtpl6e",
+      "body": "Removing items is a factor for the algorithm. Although I once had to do an analysis to optimize these parameters and this one has no predictive power at all.",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722974029,
+      "score": 4,
+      "link_id": "t3_1eljkk8",
+      "parent_id": "t1_lgsstld"
+    },
+    {
+      "id": "lfavmid",
+      "body": "I like it on Morgana and Varus, also Volibear but that one is probably just personal preference and not needed",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1722147991,
+      "score": 6,
+      "link_id": "t3_1ee0wth",
+      "parent_id": "t3_1ee0wth"
+    },
+    {
+      "id": "lelgnes",
+      "body": "Looks interesting. Are you looking for someone working full-time or can it also be done part-time?",
+      "author": "giantZorg",
+      "subreddit": "ethz",
+      "created_utc": 1721764264,
+      "score": 2,
+      "link_id": "t3_1eaez1g",
+      "parent_id": "t3_1eaez1g"
+    },
+    {
+      "id": "lej0q9p",
+      "body": "This here is peak heart of the fluft: [https://preview.redd.it/the-first-deck-i-crafted-when-the-game-released-was-a-poro-v0-09zocl8vy6ab1.jpg?width=1080&crop=smart&auto=webp&s=52008e370b4bf683a7e15e2f83881ca47b886bba](https://preview.redd.it/the-first-deck-i-crafted-when-the-game-released-was-a-poro-v0-09zocl8vy6ab1.jpg?width=1080&crop=smart&auto=webp&s=52008e370b4bf683a7e15e2f83881ca47b886bba)",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1721734239,
+      "score": 3,
+      "link_id": "t3_1ea15lf",
+      "parent_id": "t3_1ea15lf"
+    },
+    {
+      "id": "ldyf90c",
+      "body": "That's above reddit's paygrade I'm afraid",
+      "author": "giantZorg",
+      "subreddit": "jobs",
+      "created_utc": 1721408561,
+      "score": 10,
+      "link_id": "t3_1e78d9x",
+      "parent_id": "t3_1e78d9x"
+    },
+    {
+      "id": "ldtzcqc",
+      "body": "Fun fact, the german word \"Erfüllung\" has like 15 possible english words, in this context probably fruition or fulfillment",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1721336735,
+      "score": 10,
+      "link_id": "t3_1e6m395",
+      "parent_id": "t3_1e6m395"
+    },
+    {
+      "id": "ldf30qc",
+      "body": "\\*raises hand\\*\n\nThe region I was most anxious for was actually Freljord, as I used both Ashe as well as Volibear in the initial 5 runs so my choice was between Ornn and Gnar. Went with Ornn in the end, which went surprisingly smooth (first try victory).",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1721115465,
+      "score": 1,
+      "link_id": "t3_1e4blrw",
+      "parent_id": "t3_1e4blrw"
+    },
+    {
+      "id": "lc0es6h",
+      "body": "You did not just throw thrash in my sea.",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1720337723,
+      "score": 5,
+      "link_id": "t3_1dwwsgi",
+      "parent_id": "t1_lbymlpq"
+    },
+    {
+      "id": "lav9uki",
+      "body": "It's very good in decks that go wide very fast. I remember having it in an Aurelion Sol run with Norra where I didn't get anything else worthwile powerwise. Stacked up Ichor early to 10 dmg per round, then just used the weak units as chump blockers. At the last draw, my sole Norra was staring down a full board of stat-doubled champions, but won anyways because of this power.",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1719686106,
+      "score": 3,
+      "link_id": "t3_1dravty",
+      "parent_id": "t1_latvy0s"
+    },
+    {
+      "id": "l9bdsd0",
+      "body": "Not exactly the newest series out there (or I'm just getting old), but I liked [numb3rs](https://en.wikipedia.org/wiki/Numbers_(TV_series)) and it might fit",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1718808721,
+      "score": 2,
+      "link_id": "t3_1djjc14",
+      "parent_id": "t3_1djjc14"
+    },
+    {
+      "id": "l8mj1d5",
+      "body": "Max health % damage is quite standard on tanks, so that they don't need to buy damage items to still do enough damage so you can't just ignore them",
+      "author": "giantZorg",
+      "subreddit": "leagueoflegends",
+      "created_utc": 1718393208,
+      "score": 15,
+      "link_id": "t3_1dfx1yj",
+      "parent_id": "t1_l8mchuh"
+    },
+    {
+      "id": "l858imb",
+      "body": "Put the 'stun enemy board on lvl up' relic on her, then you can disable their board for multiple turns in a row while scaling up your board. You can also add the rally on lvl up relict in addition if you like it",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1718126929,
+      "score": 4,
+      "link_id": "t3_1ddiztv",
+      "parent_id": "t1_l855og0"
+    },
+    {
+      "id": "l7useti",
+      "body": "The only contender would be perfected manaflow",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1717960062,
+      "score": 36,
+      "link_id": "t3_1dbz1iw",
+      "parent_id": "t1_l7uf1cj"
+    },
+    {
+      "id": "l7c9cup",
+      "body": "I remember a run where I got to \"upgrade\" the heavy ion to an Ion Blast II halfway through sector 1 (hard mode), which together with the heavy laser carried me far into the run.",
+      "author": "giantZorg",
+      "subreddit": "ftlgame",
+      "created_utc": 1717658559,
+      "score": 4,
+      "link_id": "t3_1d8nub3",
+      "parent_id": "t1_l77h55p"
+    },
+    {
+      "id": "l3qbs3o",
+      "body": "Sure",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1715532587,
+      "score": 1,
+      "link_id": "t3_1cpxdis",
+      "parent_id": "t1_l3pk2h1"
+    },
+    {
+      "id": "l3qbnpv",
+      "body": "I'll have a look tomorrow on the train to work",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1715532541,
+      "score": 2,
+      "link_id": "t3_1cpxdis",
+      "parent_id": "t1_l3q4uo1"
+    },
+    {
+      "id": "l3os61y",
+      "body": "Yes, but keep in mind that if you don't live in Switzerland, I can only give some general advice that might not hold up in different parts of the world (e.g. a CV in the german speaking countries is expected to have a photo, which I've heard is very discouraged in some other countries)",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1715504641,
+      "score": 2,
+      "link_id": "t3_1cpxdis",
+      "parent_id": "t1_l3or4c4"
+    },
+    {
+      "id": "l3orsgs",
+      "body": "We'd also have been on waiting lists for at least half a year if we went there through Hausarzt.\n\n\nUsually there is a Sprechstunde/Walk-in at the hospitals psychology department (e.g. https://www.psychologie.uzh.ch/de/bereiche/hea/klipfor/praxisstelle/walkin.html). My wife went there and explained her issues and why it's an emergency for her to get it fixed (you might need to act up a little if necessary, but I don't think so), we got the medication I think a month later",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1715504346,
+      "score": 1,
+      "link_id": "t3_1cpxdis",
+      "parent_id": "t1_l3oqm3h"
+    },
+    {
+      "id": "l3opj60",
+      "body": "You can send me your resume if you want some feedback on it (german or english would both work). At least historically, employment gaps are seen as very bad for Swiss employers (probably moreso than in other countries), which means you (or your CV repsectively) need to tell a story around them.\n\n\nHaving recently hired someone in Zürich, I will say that there is quite some competition out there for data jobs, specially for junior/mid-level positions. If you have little passion (for either tech, the company or the work in particular), it usually shows latest in the interviews (I suspect also in the CV) and will make it very hard to get a job in the current environment.\n\n\nHaving read through some other posts of yours, did you every get around talking to a psychologist? My wife also had issues with focussing/concentrating, and her situation improved a lot once we went.",
+      "author": "giantZorg",
+      "subreddit": "cscareerquestions",
+      "created_utc": 1715502606,
+      "score": 7,
+      "link_id": "t3_1cpxdis",
+      "parent_id": "t3_1cpxdis"
+    },
+    {
+      "id": "l300mx8",
+      "body": "Regarding the elo system (https://en.m.wikipedia.org/wiki/Elo_rating_system#Theory), it is correct that the only thing that matters is the difference between two elo numbers. This is then used to get the expectation value for a game.\nIn concrete terms: Someone rated 200 points higher than his opponent will get 75% of the points when playing many games. This holds for all elo levels.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1715099247,
+      "score": 1,
+      "link_id": "t3_1cm8itg",
+      "parent_id": "t3_1cm8itg"
+    },
+    {
+      "id": "kzo5tud",
+      "body": "Assuming that the mushrooms are equally distributed among the 31 cards, the chances of not winning on the next opponent draw is 10\\^(-1162)",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1713184996,
+      "score": 40,
+      "link_id": "t3_1c4jul6",
+      "parent_id": "t3_1c4jul6"
+    },
+    {
+      "id": "kwy1da5",
+      "body": "Not sure about Nami. You might run it as a third relic after inner beast/troll kings crown and grand general's counterplan, but I'd still prefer to run chemtech duplicator.",
+      "author": "giantZorg",
+      "subreddit": "PathofChampions",
+      "created_utc": 1711629152,
+      "score": 1,
+      "link_id": "t3_1bprhk7",
+      "parent_id": "t3_1bprhk7"
+    },
+    {
+      "id": "kuuzc9o",
+      "body": "If I remember correctly, enraged Yeti had thief's tools. There are usually many of them on the board, nabbing all your strong cards, which meant you almost couldn't stall them and had to aggro them down or lose.",
+      "author": "giantZorg",
+      "subreddit": "PathofChampions",
+      "created_utc": 1710435720,
+      "score": 3,
+      "link_id": "t3_1be8m53",
+      "parent_id": "t1_kutyslk"
+    },
+    {
+      "id": "kusmv4r",
+      "body": "They also nerfed the Yeti fight at the same time",
+      "author": "giantZorg",
+      "subreddit": "PathofChampions",
+      "created_utc": 1710393575,
+      "score": 5,
+      "link_id": "t3_1be8m53",
+      "parent_id": "t1_kus9kzv"
+    },
+    {
+      "id": "kqj2fdv",
+      "body": "If you are a completionist who wants a full relic collection, then yes. Otherwise not really.",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1708003100,
+      "score": 21,
+      "link_id": "t3_1arc1z2",
+      "parent_id": "t3_1arc1z2"
+    },
+    {
+      "id": "kqd41gl",
+      "body": "I look forward to her getting added to POC, should be any patch now.",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1707902969,
+      "score": 18,
+      "link_id": "t3_1aqhc14",
+      "parent_id": "t3_1aqhc14"
+    },
+    {
+      "id": "kpzp1e9",
+      "body": "The beautiful thing to me is that there is only one possible move black could have made.",
+      "author": "giantZorg",
+      "subreddit": "chess",
+      "created_utc": 1707687202,
+      "score": 14,
+      "link_id": "t3_1aoi06x",
+      "parent_id": "t1_kpzksrr"
+    },
+    {
+      "id": "kpg31oh",
+      "body": "Same for Karma who gets her old deck depending on difficulty. I remember she was in the first weeklies and instant PTSD when she played Aurora porealis.",
+      "author": "giantZorg",
+      "subreddit": "PathofChampions",
+      "created_utc": 1707369973,
+      "score": 30,
+      "link_id": "t3_1ally5y",
+      "parent_id": "t1_kpfrahy"
+    },
+    {
+      "id": "kp19ve5",
+      "body": "20th century",
+      "author": "giantZorg",
+      "subreddit": "askswitzerland",
+      "created_utc": 1707146790,
+      "score": 6,
+      "link_id": "t3_1ajgmlx",
+      "parent_id": "t1_kp16m7r"
+    },
+    {
+      "id": "kouccvv",
+      "body": "I'd probably try a MARS model (https://en.m.wikipedia.org/wiki/Multivariate_adaptive_regression_spline)",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1707024943,
+      "score": 1,
+      "link_id": "t3_1aidlhy",
+      "parent_id": "t3_1aidlhy"
+    },
+    {
+      "id": "kj7fkq3",
+      "body": "It used to be the only consistent way of getting epic wildcards.",
+      "author": "giantZorg",
+      "subreddit": "LegendsOfRuneterra",
+      "created_utc": 1706024153,
+      "score": 1,
+      "link_id": "t3_19d9yi2",
+      "parent_id": "t1_kj4sq10"
+    },
+    {
+      "id": "kiunbss",
+      "body": "My skip level boss recently told me (after the current boss made a big mess, leading to several people leaving), that going forward she will actually prefer people with family for her team management positions. Having children teaches a lot of skills that are directly applicable to people management.",
+      "author": "giantZorg",
+      "subreddit": "antiwork",
+      "created_utc": 1705814391,
+      "score": 5,
+      "link_id": "t3_19bsbz2",
+      "parent_id": "t3_19bsbz2"
+    },
+    {
+      "id": "kikdi5l",
+      "body": "You can decompile the .pyc file rather easily (source: Had to do that once when I accidentially deleted a .py file in something that was not git-tracked (stupid me))",
+      "author": "giantZorg",
+      "subreddit": "learnpython",
+      "created_utc": 1705655494,
+      "score": 1,
+      "link_id": "t3_199zmjh",
+      "parent_id": "t1_kijph5f"
+    },
+    {
+      "id": "kh8d3er",
+      "body": "While I agree Hull 2 is really bad in terms of damage per energy/scrap invested, it's one of the best weapons in the \"get a crew kill by completely rendering O2 offline via fire and breaches\" category.",
+      "author": "giantZorg",
+      "subreddit": "ftlgame",
+      "created_utc": 1704907046,
+      "score": 1,
+      "link_id": "t3_1935czg",
+      "parent_id": "t3_1935czg"
+    },
+    {
+      "id": "kh21qqy",
+      "body": "Out of the last 3 hires, one worked as a lone data scientist before. It's not really an important factor, technical/people/presentation skills are way more important",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1704811587,
+      "score": 2,
+      "link_id": "t3_191lftm",
+      "parent_id": "t1_kh0wtlj"
+    },
+    {
+      "id": "kgx2fk3",
+      "body": "Whenever I was involved in hiring new juniors, a significant proportion of applicants were the lone data scientist in a snall company looking for a position in a bigger team to get the guidance of senior people. Bit I only saw applicants past the initial filtering so that moght skew my perception.",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1704733504,
+      "score": 7,
+      "link_id": "t3_191lftm",
+      "parent_id": "t3_191lftm"
+    },
+    {
+      "id": "kgejdnm",
+      "body": "It's pretty normal I think. With time, you just get better at accepting what you know and don't know and get the confidence that if you encounter something you don't know, you will learn it in reasonable time if really necessary.",
+      "author": "giantZorg",
+      "subreddit": "datascience",
+      "created_utc": 1704439816,
+      "score": 80,
+      "link_id": "t3_18z0sbu",
+      "parent_id": "t3_18z0sbu"
+    },
+    {
+      "id": "kg9sse8",
+      "body": "I really like the Hull laser, specially the mk 2. Give it a little support midgame (any laser/flak/ion will do), and it gives you consistent crew kills by completely disabling O2 with breaches and fire. Needs more defences than usual, but you also get higher rewards to aquire said defenses.",
+      "author": "giantZorg",
+      "subreddit": "ftlgame",
+      "created_utc": 1704372735,
+      "score": 2,
+      "link_id": "t3_18y3tpi",
+      "parent_id": "t1_kg8mlo2"
+    }
+  ]
+}

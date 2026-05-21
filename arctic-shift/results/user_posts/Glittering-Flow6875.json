@@ -1,0 +1,697 @@
+{
+  "username": "Glittering-Flow6875",
+  "posts": [
+    {
+      "id": "1hfcifo",
+      "title": "[1 YoE, AI Engineer, Research Assistant, Germany]",
+      "author": "Glittering-Flow6875",
+      "subreddit": "resumes",
+      "created_utc": 1734328216,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "I’m preparing to apply for a research assistant position with a professor whose work aligns with my interests. I don’t have any formal research experience, but I’ve worked on several technical projects. I’ve tailored my resume to highlight these projects and relevant skills, but I’m looking for feedback on how to make it more suitable. Any advice on improving the CV would be appreciated. Thanks.\n\nhttps://preview.redd.it/uf4e035xf57e1.jpg?width=1241&format=pjpg&auto=webp&s=01c5ae3c4a6cb714ca3ecbc653a311fafbbbd3c3\n\n",
+      "url": "https://www.reddit.com/r/resumes/comments/1hfcifo/1_yoe_ai_engineer_research_assistant_germany/"
+    },
+    {
+      "id": "1hfcgq3",
+      "title": "[1.5 YoE, AI Engineer, Research Assistant, Germany]",
+      "author": "Glittering-Flow6875",
+      "subreddit": "resumes",
+      "created_utc": 1734328047,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/resumes/comments/1hfcgq3/15_yoe_ai_engineer_research_assistant_germany/"
+    },
+    {
+      "id": "1hfc65j",
+      "title": "Approaching a professor to express interest in joining their research projects",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734326969,
+      "score": 0,
+      "num_comments": 13,
+      "selftext": "I am an Indian national interested in collaborating with a German professor whose research and projects closely align with my interests. Although I don't have prior formal research experience, I have worked extensively on various projects and am eager to contribute to their work. How should I approach them via email, and what are my chances of being considered for collaboration?",
+      "url": "https://www.reddit.com/r/academia/comments/1hfc65j/approaching_a_professor_to_express_interest_in/"
+    },
+    {
+      "id": "1hdyhix",
+      "title": "Where can I look for AI research fellowship for recent undergraduates?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734164775,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hey everyone, I'm a recent undergrad from India looking to get into AI research. Does anyone know where I can find fellowship opportunities or programs that are open to recent graduates? Any advice or resources would be awesome!",
+      "url": "https://www.reddit.com/r/academia/comments/1hdyhix/where_can_i_look_for_ai_research_fellowship_for/"
+    },
+    {
+      "id": "1hav5bo",
+      "title": "Looking for Research Internship/Assistantship Opportunities",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1733810288,
+      "score": 0,
+      "num_comments": 3,
+      "selftext": "I recently graduated(bachelors) in 2024 with a degree in AI and Data Science and I'm currently working as an Associate AI Engineer. I want to shift into research in AI, before pursuing my master's in 2026. While I have a solid profile with lots of projects under my belt, I don’t have any published papers yet. I'm looking for research internships or assistantships especially in the EU, with professors who are open to international applicants (I'm from India). I’m not sure where to start or how to find such opportunities, so if anyone has any advice or knows of places that offer research positions for people like me, it’d be a huge help!",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1hav5bo/looking_for_research_internshipassistantship/"
+    },
+    {
+      "id": "1gx1quc",
+      "title": "How can I generate multiple videos with same character without distortion in Hailuoai?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "StableDiffusion",
+      "created_utc": 1732257594,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I want to create story-themed videos like kid waking up and the same kid brushing his teeth using ai video generator and im using Hailuoai. But theres no seeding and it creates a lot of distrotion. What could be the solution to create an ai generated video without causing much distortation and using the same character for multiple sequences of videos? thank you",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1gx1quc/how_can_i_generate_multiple_videos_with_same/"
+    },
+    {
+      "id": "1fabzi0",
+      "title": "How do I bundle fastapi and electron-vite react app into a single executable application?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "reactjs",
+      "created_utc": 1725619136,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/reactjs/comments/1fabzi0/how_do_i_bundle_fastapi_and_electronvite_react/"
+    },
+    {
+      "id": "1fa8lra",
+      "title": "How to bundle fastapi backend and electron-vite into an executable?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "electronjs",
+      "created_utc": 1725604440,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I used electron-builder which created an exe file but upon running it didnt run uvicorn tho my index.ts electron file has the code to execute the uvicorn command\n\n    import { app, shell, BrowserWindow, ipcMain } from 'electron'\n    import { join } from 'path'\n    \n    import { electronApp, optimizer, is } from '@electron-toolkit/utils'\n    import icon from '../../resources/icon.png?asset'\n    const path = require('path')\n    const { exec } = require('child_process')\n    const os = require('os')\n    const url = require('url')\n    let serverProcess\n    \n    const mongoDBPath = path.join(__dirname, '../mongodb/bin/mongod')\n    const mongoDataPath = path.join(__dirname, '../mongod/data')\n    \n    function createWindow(): void {\n      const mainWindow = new BrowserWindow({\n        minWidth: 1920,\n        minHeight: 1080,\n        show: false,\n        autoHideMenuBar: true,\n        ...(process.platform === 'linux' ? { icon } : {}),\n        webPreferences: {\n          preload: join(__dirname, '../preload/index.js'),\n          sandbox: false,\n          contextIsolation: false,\n          nodeIntegration: true\n        }\n      })\n    \n      mainWindow.maximize()\n    \n      mainWindow.on('ready-to-show', () => {\n        mainWindow.show()\n      })\n    \n      mainWindow.webContents.setWindowOpenHandler((details) => {\n        shell.openExternal(details.url)\n        return { action: 'deny' }\n      })\n    \n      console.log(\n        url.format({\n          pathname: path.join(__dirname, '../renderer/index.html'),\n          protocol: 'file:',\n          slashes: true\n        })\n      )\n      if (is.dev && `${process.env['ELECTRON_RENDERER_URL']}`) {\n        mainWindow.loadURL(`${process.env['ELECTRON_RENDERER_URL']}`)\n      \n      } else {\n        mainWindow.loadURL(\n          url.format({\n            pathname: path.join(__dirname, '../renderer/index.html'),\n            protocol: 'file:',\n            slashes: true\n          })\n        )\n      }\n    }\n    \n    \n    app.whenReady().then(() => {\n      let dbPath\n      if (os.platform() === 'win32') {\n        dbPath = mongoDataPath\n      } else {\n        dbPath = __dirname + '/mongodb/data'\n      }\n    \n      // Start MongoDB server\n      const mongodbCommand =\n        os.platform() === 'win32' ? `${mongoDBPath} --dbpath ${dbPath}` : `mongod --dbpath ${dbPath}`\n    \n      const mongodbProcess = exec(mongodbCommand)\n      mongodbProcess.stdout.on('data', (data) => console.log(`mongodb stdout: ${data}`))\n      mongodbProcess.stderr.on('data', (data) => console.error(`mongodb stderr: ${data}`))\n      // Start FastAPI server\n      serverProcess = exec('uvicorn main:app --host 0.0.0.0 --port 8000', {\n        cwd: path.join(__dirname, '../../../backend')\n      })\n      serverProcess.stdout.on('data', (data) => console.log(`fastapi stdout: ${data}`))\n      serverProcess.stderr.on('data', (data) => console.error(`fastapi stderr: ${data}`))\n    \n      // Set app user model id for windows\n      electronApp.setAppUserModelId('com.electron')\n    \n      // Default open or close DevTools by F12 in development\n      // and ignore CommandOrControl + R in production.\n      app.on('browser-window-created', (_, window) => {\n        optimizer.watchWindowShortcuts(window)\n      })\n    \n      // IPC test\n      ipcMain.on('ping', () => console.log('pong'))\n    \n      createWindow()\n    \n      app.on('activate', function () {\n        if (BrowserWindow.getAllWindows().length === 0) createWindow()\n      })\n    })\n    \n    // Closing Window\n    app.on('window-all-closed', () => {\n      if (process.platform !== 'darwin') {\n        serverProcess.kill('SIGTERM')\n        app.quit()\n      }\n    })\n    \n    \n    ",
+      "url": "https://www.reddit.com/r/electronjs/comments/1fa8lra/how_to_bundle_fastapi_backend_and_electronvite/"
+    },
+    {
+      "id": "1f9dhe2",
+      "title": "Where can i buy asus rog 150W adapter from online?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GadgetsIndia",
+      "created_utc": 1725509087,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/GadgetsIndia/comments/1f9dhe2/where_can_i_buy_asus_rog_150w_adapter_from_online/"
+    },
+    {
+      "id": "1ei0kak",
+      "title": "Does this account for a year's budget or the total program (i.e., 2 years)?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1722571071,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "https://preview.redd.it/odn8z3w3c6gd1.png?width=1149&format=png&auto=webp&s=486f3652eb089db7eba67e8f74178b8b7b8c090f\n\n",
+      "url": "https://www.reddit.com/r/ucla/comments/1ei0kak/does_this_account_for_a_years_budget_or_the_total/"
+    },
+    {
+      "id": "1ei0ivn",
+      "title": "Does this amount to a year's budget or for the total program (ie 2 years)?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1722570942,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "https://preview.redd.it/68iacvlrb6gd1.png?width=1149&format=png&auto=webp&s=5765e3649c68168a79385b038ec9d11717aa28f0\n\n",
+      "url": "https://www.reddit.com/r/ucla/comments/1ei0ivn/does_this_amount_to_a_years_budget_or_for_the/"
+    },
+    {
+      "id": "1ehdrcn",
+      "title": "Help me find universities in US",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722509847,
+      "score": 0,
+      "num_comments": 12,
+      "selftext": "I'm an international student with 9.11 cgpa in AI/DS bachelors (t150 in the country). I'm planning on applying for MSCS with AI spl. for Fall 25. I have to give my  GRE and aiming for 330+ with Q-168+.  \nI have a paper publication under review and planning to publish one more within a month.  \nI have around 5 projects and have worked for a year as AI intern and will be working as AI Developer for a year.\n\nSuggest me universities that are ranked under 30 in the country with good job prospect so that I dont have to worry about taking a loan.",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1ehdrcn/help_me_find_universities_in_us/"
+    },
+    {
+      "id": "1e34m7w",
+      "title": "Factors that get you into UCLA MSCS?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1720969866,
+      "score": 5,
+      "num_comments": 2,
+      "selftext": "What are the factors or points that qualify someone for ucla mscs admission apart from their undergrad college's reputation/ranking/tier?",
+      "url": "https://www.reddit.com/r/ucla/comments/1e34m7w/factors_that_get_you_into_ucla_mscs/"
+    },
+    {
+      "id": "1dy62b8",
+      "title": "Running a Marquee using Tailwind CSS",
+      "author": "Glittering-Flow6875",
+      "subreddit": "css",
+      "created_utc": 1720436482,
+      "score": 0,
+      "num_comments": 1,
+      "selftext": "I'm trying to run a marquee but the text making scroll bar and is not cropping up to the window size, also how can i toggle between pause and play and replay to pause it right at the position it is.\n\n    /** @type {import('tailwindcss').Config} */\n    export default {\n      content: [\"./index.html\", \"./src/**/*.{js,ts,jsx,tsx}\"],\n      theme: {\n        extend: {\n          backgroundImage: {\n            'speechtrain': \"url('./src/assets/speechtrain/background.png')\"\n          },\n          animation: {\n            marquee: \"marqueeAnimation linear infinite\",\n          },\n          keyframes: {\n            marqueeAnimation: {\n              \"0%\": { transform: \"translateX(100%)\" },\n              \"100%\": { transform: \"translateX(-100%)\" },\n            },\n          },\n        },\n      },\n      plugins: [],\n    };\n    \n    \n    \n    \n    \n    \n    import { useState, useEffect } from \"react\";\n    import { useNavigate, useLocation } from \"react-router-dom\";\n    \n    import exit from \"../assets/readingLab/exit.png\";\n    import record from \"../assets/readingLab/record.png\";\n    import playpause from \"../assets/readingLab/playpause.png\";\n    import replay from \"../assets/readingLab/replay.png\";\n    \n    const ReadingLabDisplay = () => {\n      const navigate = useNavigate();\n      const location = useLocation();\n    \n      const [selectedLines, setSelectedLines] = useState<string[]>([]);\n      const [speed, setSpeed] = useState<string>(\"\");\n    \n      const [marqueeAnimation, setMarqueeAnimation] = useState(false);\n    \n      const toggleMarqueeAnimation = () => {\n        setMarqueeAnimation(!marqueeAnimation);\n      };\n    \n      useEffect(() => {\n        // Parse query params or state from location object\n        const queryParams = new URLSearchParams(location.search);\n        const lines = queryParams.get(\"lines\");\n        const speed = queryParams.get(\"speed\");\n    \n        // Set selected lines and speed from query params\n        if (lines) {\n          setSelectedLines(lines.split(\",\"));\n        }\n        if (speed) {\n          setSpeed(speed+'000');\n        }\n      }, [location.search]);\n    \n      const handleExitClick = () => {\n        navigate(`/readinglab`); // Navigate back to the previous page\n      };\n    \n      return (\n        <div className=\"flex flex-col w-screen h-screen bg-[#088BE5] text-white justify-between\">\n          <div className=\"flex justify-end\"><button\n            className=\"justify-end h-max w-max mt-20 mr-20\"\n            onClick={handleExitClick}\n          >\n            <img src={exit} alt=\"Exit icon\" />\n          </button></div>\n          <div\n            className={`flex w-[100vw] justify-end overflow-hidden ${\n              marqueeAnimation ? \"animate-marquee\" : \"\"\n            }`}\n            style={{ animationDuration: `${speed}ms` }}\n          >\n            <div className=\"flex items-center\">\n              {selectedLines.length > 0 ? (\n                <div className=\"text-8xl whitespace-nowrap\">\n                  {selectedLines.map((line, index) => (\n                    <span key={index} className=\"mr-4\">\n                      {line}\n                    </span>\n                  ))}\n                </div>\n              ) : (\n                <div>No lines selected</div>\n              )}\n            </div>\n          </div>\n          {/* Control buttons */}\n          <div className=\"flex w-full justify-center gap-3 mb-20\">\n            <img src={record} alt=\"Record icon\" className=\"h-[50px] w-[50px]\" />\n            <button onClick={toggleMarqueeAnimation}>\n              <img\n                src={playpause}\n                alt=\"Play/Pause icon\"\n                className=\"h-[50px] w-[50px]\"\n              />\n            </button>\n            <button\n              onClick={() => {\n                toggleMarqueeAnimation();\n                setMarqueeAnimation(false);\n              }}\n              className=\"bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-full\"\n            >\n              <img src={replay} alt=\"Replay icon\" className=\"h-[50px] w-[50px]\" />\n            </button>\n          </div>\n        </div>\n      );\n    };\n    \n    export default ReadingLabDisplay;",
+      "url": "https://www.reddit.com/r/css/comments/1dy62b8/running_a_marquee_using_tailwind_css/"
+    },
+    {
+      "id": "1dy61mk",
+      "title": "Running a Marquee using Tailwind CSS",
+      "author": "Glittering-Flow6875",
+      "subreddit": "tailwindcss",
+      "created_utc": 1720436431,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I'm  trying to run a marquee but the text making scroll bar and is not cropping up to the window size, also how can i toggle between pause and play and replay to pause it right at the position it is.\n\n    /** @type {import('tailwindcss').Config} */\n    export default {\n      content: [\"./index.html\", \"./src/**/*.{js,ts,jsx,tsx}\"],\n      theme: {\n        extend: {\n          backgroundImage: {\n            'speechtrain': \"url('./src/assets/speechtrain/background.png')\"\n          },\n          animation: {\n            marquee: \"marqueeAnimation linear infinite\",\n          },\n          keyframes: {\n            marqueeAnimation: {\n              \"0%\": { transform: \"translateX(100%)\" },\n              \"100%\": { transform: \"translateX(-100%)\" },\n            },\n          },\n        },\n      },\n      plugins: [],\n    };\n\n\n\n    \n    \n    \n    import { useState, useEffect } from \"react\";\n    import { useNavigate, useLocation } from \"react-router-dom\";\n    \n    import exit from \"../assets/readingLab/exit.png\";\n    import record from \"../assets/readingLab/record.png\";\n    import playpause from \"../assets/readingLab/playpause.png\";\n    import replay from \"../assets/readingLab/replay.png\";\n    \n    const ReadingLabDisplay = () => {\n      const navigate = useNavigate();\n      const location = useLocation();\n    \n      const [selectedLines, setSelectedLines] = useState<string[]>([]);\n      const [speed, setSpeed] = useState<string>(\"\");\n    \n      const [marqueeAnimation, setMarqueeAnimation] = useState(false);\n    \n      const toggleMarqueeAnimation = () => {\n        setMarqueeAnimation(!marqueeAnimation);\n      };\n    \n      useEffect(() => {\n        // Parse query params or state from location object\n        const queryParams = new URLSearchParams(location.search);\n        const lines = queryParams.get(\"lines\");\n        const speed = queryParams.get(\"speed\");\n    \n        // Set selected lines and speed from query params\n        if (lines) {\n          setSelectedLines(lines.split(\",\"));\n        }\n        if (speed) {\n          setSpeed(speed+'000');\n        }\n      }, [location.search]);\n    \n      const handleExitClick = () => {\n        navigate(`/readinglab`); // Navigate back to the previous page\n      };\n    \n      return (\n        <div className=\"flex flex-col w-screen h-screen bg-[#088BE5] text-white justify-between\">\n          <div className=\"flex justify-end\"><button\n            className=\"justify-end h-max w-max mt-20 mr-20\"\n            onClick={handleExitClick}\n          >\n            <img src={exit} alt=\"Exit icon\" />\n          </button></div>\n          <div\n            className={`flex w-[100vw] justify-end overflow-hidden ${\n              marqueeAnimation ? \"animate-marquee\" : \"\"\n            }`}\n            style={{ animationDuration: `${speed}ms` }}\n          >\n            <div className=\"flex items-center\">\n              {selectedLines.length > 0 ? (\n                <div className=\"text-8xl whitespace-nowrap\">\n                  {selectedLines.map((line, index) => (\n                    <span key={index} className=\"mr-4\">\n                      {line}\n                    </span>\n                  ))}\n                </div>\n              ) : (\n                <div>No lines selected</div>\n              )}\n            </div>\n          </div>\n          {/* Control buttons */}\n          <div className=\"flex w-full justify-center gap-3 mb-20\">\n            <img src={record} alt=\"Record icon\" className=\"h-[50px] w-[50px]\" />\n            <button onClick={toggleMarqueeAnimation}>\n              <img\n                src={playpause}\n                alt=\"Play/Pause icon\"\n                className=\"h-[50px] w-[50px]\"\n              />\n            </button>\n            <button\n              onClick={() => {\n                toggleMarqueeAnimation();\n                setMarqueeAnimation(false);\n              }}\n              className=\"bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-full\"\n            >\n              <img src={replay} alt=\"Replay icon\" className=\"h-[50px] w-[50px]\" />\n            </button>\n          </div>\n        </div>\n      );\n    };\n    \n    export default ReadingLabDisplay;",
+      "url": "https://www.reddit.com/r/tailwindcss/comments/1dy61mk/running_a_marquee_using_tailwind_css/"
+    },
+    {
+      "id": "1dxeuxh",
+      "title": "Do i need to study 1000+ words to score 160+ on verbal?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GRE",
+      "created_utc": 1720353483,
+      "score": 7,
+      "num_comments": 7,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/GRE/comments/1dxeuxh/do_i_need_to_study_1000_words_to_score_160_on/"
+    },
+    {
+      "id": "1dr5p8p",
+      "title": "Remote Research Collaboration Opportunities - Where to Find or How to Join?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1719645941,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Could you please suggest any platforms, communities, or specific subreddits where I can find people who are interested in conducting research together or where researchers might be looking for remote collaborators? Additionally, any advice on how to approach potential collaborators or mentors would be greatly appreciated.\n\n",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1dr5p8p/remote_research_collaboration_opportunities_where/"
+    },
+    {
+      "id": "1dhyjuc",
+      "title": "Keeping myself updated?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1718632203,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Like the title suggests, how can i keep myself updated with the upcoming ml techniques or algorithms, if one has to learn ML and DL, they start w supervised and unsupervised n their types but after that where should they go?",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1dhyjuc/keeping_myself_updated/"
+    },
+    {
+      "id": "1dfkrcu",
+      "title": "How do I start to write a research paper?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1718348388,
+      "score": 3,
+      "num_comments": 10,
+      "selftext": "The project I'm working on rn has speech synthesis and other applications of NLP and I'm planning to write research papers related to that. I havent written any proper research paper yet and I dont know where to start. \n\nDo I need to know math other than the essentials? \n\nWhat would be the first step to write a research paper in this topic?",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1dfkrcu/how_do_i_start_to_write_a_research_paper/"
+    },
+    {
+      "id": "1dezsn8",
+      "title": "What would make a good essay?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ApplyingToCollege",
+      "created_utc": 1718287455,
+      "score": 2,
+      "num_comments": 5,
+      "selftext": "What do you think are the factors that make an essay outstanding and serves it purpose?",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1dezsn8/what_would_make_a_good_essay/"
+    },
+    {
+      "id": "1de4ruw",
+      "title": "Seeking advice regarding MSCS (AI track) application at UIUC\n",
+      "author": "Glittering-Flow6875",
+      "subreddit": "UIUC",
+      "created_utc": 1718193192,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "I'm an international student and have graduated from a tier 3 college with 9.11 CGPA.\n\nI have coauthored a conference paper and planning to do around two research papers in this year and have done some(3-4) good projects based on NLP and Deep Learning.\n\nI have one year internship experience at an AI startup and will be working full time for a year at the same as AI Engineer.\n\nWhat are my chances of getting into MSCS program and can you suggest me tips that could boost my chances of getting admitted to this program? Thankyou",
+      "url": "https://www.reddit.com/r/UIUC/comments/1de4ruw/seeking_advice_regarding_mscs_ai_track/"
+    },
+    {
+      "id": "1de4lgk",
+      "title": "Seeking advice regarding MSCS (AI track) application at NYU",
+      "author": "Glittering-Flow6875",
+      "subreddit": "nyu",
+      "created_utc": 1718192569,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/nyu/comments/1de4lgk/seeking_advice_regarding_mscs_ai_track/"
+    },
+    {
+      "id": "1de0xqn",
+      "title": "Seeking advice regarding MSCS application at ETHZ",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ethz",
+      "created_utc": 1718177711,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "I'm an international student and have graduated from a tier 3 college with 9.11 CGPA. \n\nI have coauthored a conference paper and planning to do around two research papers in this year and have done some good projects related to NLP and Deep Learning.\n\nI have one year internship experience at an AI startup and will be working full time for a year at the same as AI Engineer.\n\nWhat are my chances of getting into MSCS/ Data Science program and what would be a good GRE score that could boost my chances of getting admitted to this program? Thankyou",
+      "url": "https://www.reddit.com/r/ethz/comments/1de0xqn/seeking_advice_regarding_mscs_application_at_ethz/"
+    },
+    {
+      "id": "1ddj1ku",
+      "title": "Seeking advice regarding mscs admission",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1718125001,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "Hi, I'm an international student planning to apply for MSCS fall 25. I graduated from a tier 3 college with 9.11 cgpa and worked for a year as an intern at an AI startup and will be working full-time for a year till admission. I have did some good projects and coauthored one conference paper but no published research papers tho im looking to publish atleast in this year. I have a year to improve my profile. Also, I'm planning to mail professors that are working in my field of interest.\n\nWould like to get advices or suggestions on improving my profile and my chances of getting in.",
+      "url": "https://www.reddit.com/r/ucla/comments/1ddj1ku/seeking_advice_regarding_mscs_admission/"
+    },
+    {
+      "id": "1dcg8ib",
+      "title": "Can I get into UCLA MSCS?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GradSchool",
+      "created_utc": 1718006356,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/GradSchool/comments/1dcg8ib/can_i_get_into_ucla_mscs/"
+    },
+    {
+      "id": "1dcg80h",
+      "title": "Can I get into UCLA MSCS?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GradSchool",
+      "created_utc": 1718006294,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/GradSchool/comments/1dcg80h/can_i_get_into_ucla_mscs/"
+    },
+    {
+      "id": "1dcdswc",
+      "title": "Can I get into UCLA MSCS?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1717996285,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "I graduated from a tier 3 college with a CGPA of 9.11/10. I worked for a year as an intern at an AI startup and will be working full-time for a year till fall 2025 admission. I have did some good projects and coauthored one conference paper but no published research papers. I have a year to improve my profile. Also, I'm planning to mail professors that are working in my field of interest.\n\nWould like to get advices or suggestions on improving my profile and my chances of getting in. ",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1dcdswc/can_i_get_into_ucla_mscs/"
+    },
+    {
+      "id": "1da9km9",
+      "title": "Seeking Advice on MS in CS with AI Specialization: University Selection and Expenses",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1717763771,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hello everyone,\n\nI am an international student planning to apply for MSCS with AI specialization for fall 2025. I have shortlisted the following universities and would like to get your feedback on my selection. My concerns are the quality of education, overall expenses, and job prospects after graduation.\n\n1. University of Pennsylvania (UPenn) - Dream university\n2. University of California, Los Angeles (UCLA) - Dream university\n3. University of Illinois at Urbana-Champaign (UIUC)\n4. University of Washington, Seattle (UW)\n5. University of Texas at Austin (UT Austin)\n6. University of Michigan, Ann Arbor (UMich)\n\n# Specific Questions:\n\n1. How strong are these programs in terms of AI specialization and overall reputation?\n2. What are the estimated costs for tuition, fees, and living expenses at these universities for an international student?\n3. What are the chances of obtaining assistantships, scholarships, or other forms of financial aid at these institutions?\n4. How is the job market for international graduates from these universities? What kind of support do they offer for job placements?\n\n# My Profile:\n\n* **Academic Background**: CGPA of 9.11\n* **Experience**:\n   * Completed one-year internship at an AI startup\n   * Will be working for one more year as a full-time employee at the same AI startup\n   * 3 academic and 1hackathon projects\n   * Co-authored one conference paper\n* **GRE:** yet to write\n\nI appreciate any insights or suggestions you can provide regarding my university selection. Are there any other universities I should consider that might offer strong programs in AI, good financial aid opportunities, and strong job prospects for international students?\n\nThank you in advance!",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1da9km9/seeking_advice_on_ms_in_cs_with_ai_specialization/"
+    },
+    {
+      "id": "1da8w7f",
+      "title": "Seeking Advice on MS in CS with AI Specialization: University Selection and Expenses",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ApplyingToCollege",
+      "created_utc": 1717761633,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hello everyone,\n\nI am an international student planning to apply for MSCS with AI specialization for fall 2025. I have shortlisted the following universities and would like to get your feedback on my selection. My concerns are the quality of education, overall expenses, and job prospects after graduation.\n\n1. University of Pennsylvania (UPenn) - Dream university\n2. University of California, Los Angeles (UCLA) - Dream university\n3. University of Illinois at Urbana-Champaign (UIUC)\n4. University of Washington, Seattle (UW)\n5. University of Texas at Austin (UT Austin)\n6. University of Michigan, Ann Arbor (UMich)\n\n# Specific Questions:\n\n1. How strong are these programs in terms of AI specialization and overall reputation?\n2. What are the estimated costs for tuition, fees, and living expenses at these universities for an international student?\n3. What are the chances of obtaining assistantships, scholarships, or other forms of financial aid at these institutions?\n4. How is the job market for international graduates from these universities? What kind of support do they offer for job placements?\n\n# My Profile:\n\n* **Academic Background**: CGPA of 9.11\n* **Experience**:\n   * Completed one-year internship at an AI startup\n   * Will be working for one more year as a full-time employee at the same AI startup\n   * 3 academic and 1hackathon projects\n   * Co-authored one conference paper\n* **GRE:** yet to write\n\nI appreciate any insights or suggestions you can provide regarding my university selection. Are there any other universities I should consider that might offer strong programs in AI, good financial aid opportunities, and strong job prospects for international students?\n\nThank you in advance!",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1da8w7f/seeking_advice_on_ms_in_cs_with_ai_specialization/"
+    },
+    {
+      "id": "1da3m3n",
+      "title": "Seeking Advice on MS in CS with AI Specialization: University Selection and Expenses",
+      "author": "Glittering-Flow6875",
+      "subreddit": "MSCS",
+      "created_utc": 1717739988,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Hello everyone,\n\nI am an international student planning to apply for MSCS with AI specialization for fall 2025. I have shortlisted the following universities and would like to get your feedback on my selection. My concerns are the quality of education, overall expenses, and job prospects after graduation.\n\n1. University of Pennsylvania (UPenn) - Dream university\n2. University of California, Los Angeles (UCLA) - Dream university\n3. University of Illinois at Urbana-Champaign (UIUC)\n4. University of Washington, Seattle (UW)\n5. University of Texas at Austin (UT Austin)\n6. University of Michigan, Ann Arbor (UMich)\n\n# Specific Questions:\n\n1. How strong are these programs in terms of AI specialization and overall reputation?\n2. What are the estimated costs for tuition, fees, and living expenses at these universities for an international student?\n3. What are the chances of obtaining assistantships, scholarships, or other forms of financial aid at these institutions?\n4. How is the job market for international graduates from these universities? What kind of support do they offer for job placements?\n\n# My Profile:\n\n* **Academic Background**: CGPA of 9.11\n* **Experience**:\n   * Completed one-year internship at an AI startup\n   * Will be working for one more year as a full-time employee at the same AI startup\n   * 3 academic and 1hackathon projects \n   * Co-authored one conference paper\n* **GRE:** yet to write\n\nI appreciate any insights or suggestions you can provide regarding my university selection. Are there any other universities I should consider that might offer strong programs in AI, good financial aid opportunities, and strong job prospects for international students?\n\nThank you in advance!",
+      "url": "https://www.reddit.com/r/MSCS/comments/1da3m3n/seeking_advice_on_ms_in_cs_with_ai_specialization/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2g6h0l",
+      "body": "this really giving me an idea but i got more doubts, you mind if i dm you",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734410911,
+      "score": 1,
+      "link_id": "t3_1hfc65j",
+      "parent_id": "t1_m2fakhj"
+    },
+    {
+      "id": "m2g67t6",
+      "body": "thats valid, i just wanted to get into research which will help me to pursue masters and wanted to work under a professor to gain experience since i didnt know where to start.",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734410794,
+      "score": 1,
+      "link_id": "t3_1hfc65j",
+      "parent_id": "t1_m2dhlwe"
+    },
+    {
+      "id": "m2bc8sj",
+      "body": "Thanks. Just to clarify, the professors I’m looking to reach out to are researchers at publicly funded labs. Would this still apply in that case?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734348626,
+      "score": 0,
+      "link_id": "t3_1hfc65j",
+      "parent_id": "t1_m2ak57o"
+    },
+    {
+      "id": "m2bbw8a",
+      "body": "Can I DM you?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734348413,
+      "score": -1,
+      "link_id": "t3_1hfc65j",
+      "parent_id": "t1_m2agl0l"
+    },
+    {
+      "id": "m2ayt69",
+      "body": "Thank you, ill make sure i update it",
+      "author": "Glittering-Flow6875",
+      "subreddit": "resumes",
+      "created_utc": 1734339591,
+      "score": 1,
+      "link_id": "t3_1hfcifo",
+      "parent_id": "t1_m2aqs6y"
+    },
+    {
+      "id": "m2779eh",
+      "body": "Thanks but Im only looking for undergraduate research fellowship or research assitantship.",
+      "author": "Glittering-Flow6875",
+      "subreddit": "academia",
+      "created_utc": 1734285896,
+      "score": 1,
+      "link_id": "t3_1hdyhix",
+      "parent_id": "t1_m26zebt"
+    },
+    {
+      "id": "m1bmtlq",
+      "body": "I read that professors would be busy with the admissions and prefer their university students and most of the mails would go unnoticed. But Ill give it a try. thanks",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1733811898,
+      "score": 1,
+      "link_id": "t3_1hav5bo",
+      "parent_id": "t1_m1bl7ay"
+    },
+    {
+      "id": "lxqdz2m",
+      "body": "[https://indianexpress.com/article/india/manipur-river-meitei-family-jiribam-violence-9672037/](https://indianexpress.com/article/india/manipur-river-meitei-family-jiribam-violence-9672037/)\n\nquite the opposite",
+      "author": "Glittering-Flow6875",
+      "subreddit": "NoahGetTheBoat",
+      "created_utc": 1731922418,
+      "score": 7,
+      "link_id": "t3_1gu0bl7",
+      "parent_id": "t1_lxqcpbz"
+    },
+    {
+      "id": "lme4b5a",
+      "body": "how many words did u revise for vocab?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GRE",
+      "created_utc": 1725942507,
+      "score": 1,
+      "link_id": "t3_1fcorw0",
+      "parent_id": "t3_1fcorw0"
+    },
+    {
+      "id": "lg95uqt",
+      "body": "does this exclude tuition fees?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1722659662,
+      "score": 1,
+      "link_id": "t3_1ei0kak",
+      "parent_id": "t1_lg535g8"
+    },
+    {
+      "id": "lfzyd3z",
+      "body": "sure, thanks mate",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722529982,
+      "score": 1,
+      "link_id": "t3_1ehdrcn",
+      "parent_id": "t1_lfztem8"
+    },
+    {
+      "id": "lfzy5sc",
+      "body": "I'm looking for programs that are more inclined towards cv, nlp and neural networks than computer design, architecture and algorithm. The top 30 i mentioned is more about reputation while getting a job so that it doesnt make it so hard to get a job after graduation. I dont wanna make it sound like job prospect isnt the only factor but also the social life, cost and intern/research opportunities on-campus. Thank you.",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722529918,
+      "score": 0,
+      "link_id": "t3_1ehdrcn",
+      "parent_id": "t1_lfzsxrp"
+    },
+    {
+      "id": "lfzx2re",
+      "body": "thanks, will look into that",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722529579,
+      "score": 1,
+      "link_id": "t3_1ehdrcn",
+      "parent_id": "t1_lfzmp9e"
+    },
+    {
+      "id": "lfzmgj2",
+      "body": "Could you clarify if youre talking about my academic research or the univ shortlisting?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722526209,
+      "score": 0,
+      "link_id": "t3_1ehdrcn",
+      "parent_id": "t1_lfyryzg"
+    },
+    {
+      "id": "lfzm0m3",
+      "body": "i do, but i want to filter out with some criteria first",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722526067,
+      "score": 0,
+      "link_id": "t3_1ehdrcn",
+      "parent_id": "t1_lfzcwpp"
+    },
+    {
+      "id": "lfzllgd",
+      "body": "i did and came up with a list but i wasnt sure how exactly it is out there and thought i could get some suggestions/advices",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1722525932,
+      "score": -2,
+      "link_id": "t3_1ehdrcn",
+      "parent_id": "t1_lfyuhy8"
+    },
+    {
+      "id": "levcje1",
+      "body": "those are 2 different videos joined together",
+      "author": "Glittering-Flow6875",
+      "subreddit": "HolUp",
+      "created_utc": 1721915261,
+      "score": 10,
+      "link_id": "t3_1ebsntz",
+      "parent_id": "t1_levc8v4"
+    },
+    {
+      "id": "ld88hld",
+      "body": "good but not considering the undergrad university since im an international student with a good gpa from tier 3 college, i want to know what else matters",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1721007802,
+      "score": 0,
+      "link_id": "t3_1e34m7w",
+      "parent_id": "t1_ld6edsm"
+    },
+    {
+      "id": "lc1jpl4",
+      "body": "I got a spreadsheet from reddit and it had around 1200 words when compared to gregmat and magoosh which had around 600 words, and i read gregmat is enough to score 160+ in verbal",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GRE",
+      "created_utc": 1720361883,
+      "score": 2,
+      "link_id": "t3_1dxeuxh",
+      "parent_id": "t1_lc1951n"
+    },
+    {
+      "id": "lasft34",
+      "body": "I bought the cmf buds pro and its trash, except for the anc everything is bad. The audio is too low u have to increase the volume over 90 to make loud and has a terrible bass",
+      "author": "Glittering-Flow6875",
+      "subreddit": "GadgetsIndia",
+      "created_utc": 1719636895,
+      "score": 1,
+      "link_id": "t3_1dqrryz",
+      "parent_id": "t3_1dqrryz"
+    },
+    {
+      "id": "l9fq8jl",
+      "body": "sure, thanks for the response :)",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1718874284,
+      "score": 1,
+      "link_id": "t3_1dhyjuc",
+      "parent_id": "t1_l90djek"
+    },
+    {
+      "id": "l8oa5md",
+      "body": "Sure. idk this might sound dumb but how do you find something or derive any new results like you modify any math involved to make it better like does it go deep inside math or just adding or taking network layers present?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1718418516,
+      "score": 1,
+      "link_id": "t3_1dfkrcu",
+      "parent_id": "t1_l8le7eo"
+    },
+    {
+      "id": "l8o9p24",
+      "body": "I just started my project from my company and havent gone deep inside the topics i could say.\n\nRight now, Im confused where to start like to look into other papers or start with the project and check after getting some results. thank you",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1718418302,
+      "score": 1,
+      "link_id": "t3_1dfkrcu",
+      "parent_id": "t1_l8nihby"
+    },
+    {
+      "id": "l8jztjf",
+      "body": "Yeah,  i just completed my bachelors in ai and data science",
+      "author": "Glittering-Flow6875",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1718356503,
+      "score": 1,
+      "link_id": "t3_1dfkrcu",
+      "parent_id": "t1_l8jrdoi"
+    },
+    {
+      "id": "l8fuufb",
+      "body": "thanks man, will look into it",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ApplyingToCollege",
+      "created_utc": 1718293290,
+      "score": 1,
+      "link_id": "t3_1dezsn8",
+      "parent_id": "t1_l8feer3"
+    },
+    {
+      "id": "l8anh25",
+      "body": "Poda punda",
+      "author": "Glittering-Flow6875",
+      "subreddit": "nyu",
+      "created_utc": 1718211927,
+      "score": 1,
+      "link_id": "t3_1de4lgk",
+      "parent_id": "t3_1de4lgk"
+    },
+    {
+      "id": "l897cdz",
+      "body": "got it. Thanks for your response :)",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ethz",
+      "created_utc": 1718192359,
+      "score": 1,
+      "link_id": "t3_1de0xqn",
+      "parent_id": "t1_l88lpqc"
+    },
+    {
+      "id": "l887evr",
+      "body": "Is MEng recognized on par with MSCS?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1718168771,
+      "score": 0,
+      "link_id": "t3_1ddj1ku",
+      "parent_id": "t1_l85840g"
+    },
+    {
+      "id": "l8876hz",
+      "body": "I'm more into working in AI which I'm doing currently and I want to take that track in CS. I wont be doing PhD after masters but I thought taking a thesis based masters would be more helpful.",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ucla",
+      "created_utc": 1718168637,
+      "score": 0,
+      "link_id": "t3_1ddj1ku",
+      "parent_id": "t1_l86jiut"
+    },
+    {
+      "id": "l886ab1",
+      "body": "I'm looking to take AI track, can u suggest me some univ that are in the same tier as ucla since i dont wanna bear the loan without ending up with a good job?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1718168130,
+      "score": 1,
+      "link_id": "t3_1dcdswc",
+      "parent_id": "t1_l87gej0"
+    },
+    {
+      "id": "l87fr7p",
+      "body": "I read it as 11% in their site. Can you suggest me ways to improve my profile that could get me into ucla or other univ similar to ucla? Thank you",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1718155725,
+      "score": 1,
+      "link_id": "t3_1dcdswc",
+      "parent_id": "t1_l8757dg"
+    },
+    {
+      "id": "l7y97ch",
+      "body": "Can I pm you?",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1718021290,
+      "score": 1,
+      "link_id": "t3_1dcdswc",
+      "parent_id": "t1_l7y3lu5"
+    },
+    {
+      "id": "l7y3i3c",
+      "body": "Yeah, im planning to take thesis based.",
+      "author": "Glittering-Flow6875",
+      "subreddit": "gradadmissions",
+      "created_utc": 1718018320,
+      "score": 1,
+      "link_id": "t3_1dcdswc",
+      "parent_id": "t1_l7xnkf8"
+    },
+    {
+      "id": "l7in6v2",
+      "body": "sorry i didnt know that, is there a subreddit for grad school",
+      "author": "Glittering-Flow6875",
+      "subreddit": "ApplyingToCollege",
+      "created_utc": 1717762661,
+      "score": 1,
+      "link_id": "t3_1da8w7f",
+      "parent_id": "t1_l7ilgvc"
+    },
+    {
+      "id": "l7iljqj",
+      "body": "Yeah im planning to do that and trying to connect to the professor through student association",
+      "author": "Glittering-Flow6875",
+      "subreddit": "MSCS",
+      "created_utc": 1717761897,
+      "score": 2,
+      "link_id": "t3_1da3m3n",
+      "parent_id": "t1_l7hyz7q"
+    },
+    {
+      "id": "l7ilghc",
+      "body": "can you tell me about the job prospect since you need to payback a hefty sum for loan",
+      "author": "Glittering-Flow6875",
+      "subreddit": "MSCS",
+      "created_utc": 1717761854,
+      "score": 2,
+      "link_id": "t3_1da3m3n",
+      "parent_id": "t1_l7hqijo"
+    }
+  ]
+}

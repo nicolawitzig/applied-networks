@@ -1,0 +1,50 @@
+{
+  "username": "ubernion",
+  "posts": [
+    {
+      "id": "1era75u",
+      "title": "exams in august is criminal",
+      "author": "ubernion",
+      "subreddit": "ethz",
+      "created_utc": 1723561462,
+      "score": 73,
+      "num_comments": 19,
+      "selftext": "i heard there was a petition to put them in july like everybody else. is that still an option? ",
+      "url": "https://www.reddit.com/r/ethz/comments/1era75u/exams_in_august_is_criminal/"
+    },
+    {
+      "id": "1ayxnay",
+      "title": "What Hardware to Serve a Mixtral finetune?",
+      "author": "ubernion",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1708789720,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hello r/LocalLLaMA,\n\nCurrently i offer a service based on the openai api (mainly for function calling) but I  don't like being depending on a blackbox and not being able to control things like uptime, latency, changes of behavior, data privacy etc... \n\nSo I would like to serve a mixtral finetune to my use. I took care of the dataset aspect, and the training hardware too (i have access to A100 nodes through my school and can request a run). But now I need to find out how to actually serve the model at a decent latency and in parallel for a maximum of about 150 users simultaneously.\n\nI feel like its a good occasion to learn more about computing so i'd like to embark on the project of maybe building a small rig to serve the model myself.\n\nIm part of a program which can get me reimbursed for this type of expenses up to 10k so i'm in that range in terms of price (i don't mind going over a bit). \n\nHence, if any of you has recommendations on hardware to do so, have guides to recommend for me to learn on that topic and get started, have previously done the same etc... I would really love to hear your experience. \n\nThank you very much!!!\n\nTLDR: Have 10k, what hardware should i get to serve a mixtral finetune to 150 users at decent latency? \n\n&#x200B;",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ayxnay/what_hardware_to_serve_a_mixtral_finetune/"
+    },
+    {
+      "id": "1ayxn7g",
+      "title": "What Hardware to Serve a Mixtral finetune?",
+      "author": "ubernion",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1708789715,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hello r/LocalLLaMA,\n\nCurrently i offer a service based on the openai api (mainly for function calling) but I  don't like being depending on a blackbox and not being able to control things like uptime, latency, changes of behavior, data privacy etc... \n\nSo I would like to serve a mixtral finetune to my use. I took care of the dataset aspect, and the training hardware too (i have access to A100 nodes through my school and can request a run). But now I need to find out how to actually serve the model at a decent latency and in parallel for a maximum of about 150 users simultaneously.\n\nI feel like its a good occasion to learn more about computing so i'd like to embark on the project of maybe building a small rig to serve the model myself.\n\nIm part of a program which can get me reimbursed for this type of expenses up to 10k so i'm in that range in terms of price (i don't mind going over a bit). \n\nHence, if any of you has recommendations on hardware to do so, have guides to recommend for me to learn on that topic and get started, have previously done the same etc... I would really love to hear your experience. \n\nThank you very much!!!\n\nTLDR: Have 10k, what hardware should i get to serve a mixtral finetune to 150 users at decent latency? \n\n&#x200B;",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ayxn7g/what_hardware_to_serve_a_mixtral_finetune/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "li1uz63",
+      "body": "the youngsters will benefit from",
+      "author": "ubernion",
+      "subreddit": "ethz",
+      "created_utc": 1723630933,
+      "score": 2,
+      "link_id": "t3_1era75u",
+      "parent_id": "t1_lhxdycb"
+    }
+  ]
+}

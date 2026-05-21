@@ -1,0 +1,449 @@
+{
+  "username": "woozy_1729",
+  "posts": [
+    {
+      "id": "1gkn3rj",
+      "title": "Future review load almost halved after toggling FSRS off and on (or updating)?",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1730856748,
+      "score": 0,
+      "num_comments": 6,
+      "selftext": "I always run \"reschedule all card\" once a day after I'm done with my reps. Until a couple of days ago, my \"Future Due\" has consistently shown something in the ballpark of 230-280 reviews per day (I check out this stat regularly) and it's actually been hovering around this range for a while now.\n\nOne evening a couple of days ago, I fiddled around with the settings for a bit which involved turning FSRS off and on a few times (which causes FSRS to iterate over the cards apparently? Could this be related to my problem?). At the end, I turned on FSRS again, added my parameter vector and my usual desired retention before I ran \"reschedule all cards\". I have the vector and retention noted down in both the deck description as well as a file on my computer so there's a 0% chance of that being wrong. Nevertheless, after recalcing, the \"Future Due\" stat had plummeted to 130-170 reviews per day. Also, when you usually change the vector or the desired retention, you get overdue cards (even when the overall load decreases) which wasn't the case for me.\n\nThis was unexpected and a bit scary to me because I thought that scheduling only depended on the vector, the desired retention and the cards' review history. None of these has changed, I don't understand how I ended up with a totally different number of reviews. I know that FSRS also adds some more parameters to the individual cards in the collection but I thought these were inconsequential when running \"reschedule all cards\".\n\nI also updated my Anki and FSRS helper addon in roughly this time so that could be related too, I'm not sure.\n\nAny ideas? I fear that I'm forgetting all my cards now. My former review load yielded very expected and normal retention and if I'm now only getting half my usual reviews that means I'm bound to perform a lot worse in a few weeks' or months' time.",
+      "url": "https://www.reddit.com/r/Anki/comments/1gkn3rj/future_review_load_almost_halved_after_toggling/"
+    },
+    {
+      "id": "1epnluc",
+      "title": "FSRS and unsuspending cards after a long hiatus",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1723390381,
+      "score": 2,
+      "num_comments": 8,
+      "selftext": "From what I know about Anki, once a card has been unsuspended, there's no indication in the database anymore that that card has previously been suspended. This can be problematic when using FSRS. Consider this scenario:\n\nYou rep a card a number of times, then suspend it (either because it has turned into a leech or because you've just changed your mind and want to learn it at a later point), then go on to unsuspend it and then rate it good on the next review (for instance because you've encountered and relearned it outside of Anki in the meantime). From the point of view of FSRS, it looks as though you haven't repped the card in a long time but, despite FSRS' expectations, still knew it. Upon reoptimizing the parameters, this is (incorrectly) taken as strong evidence that FSRS underestimates your memory.\n\nThe \"cleanest\" solution is probably to exclude leeches from optimization. This has two problems though: For one, it only works for, well, leeches even though the above problem exists for cards suspended for any reason. For another, for user with high leech counts (I've heard of people who set the threshold as low as 4) this can massively reduce the amount of training data.\n\nAnother approach would be to (as a user) always reschedule (\"Place at end of new card queue\") cards upon unsuspending them after a long hiatus, i.e. making them go through the learning phase again. From my reading of FSRS' code, this should work because FSRS only incorporates reps starting from the most recent learning phase into its training data. (I could be wrong on this though and I've failed to experimentally verify this! u/LMSherlock u/ClarityInMadness) This is also not optimal because, pretty self-evidently, completely new cards and reintroduced cards differ in terms of learning difficulty on average. Maybe this could be alleviated by incorporating a boolean into the training data that describes whether the card has been repped in the past. This is not possible with FSRS in its current form.\n\nWhat is considered best practice? I've looked through the FAQ and the wiki but I didn't find anything on this topic. I think at least a brief discussion on this should be added because this is a pretty common case.",
+      "url": "https://www.reddit.com/r/Anki/comments/1epnluc/fsrs_and_unsuspending_cards_after_a_long_hiatus/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lxyep70",
+      "body": "Lots of bad advice in that video unfortunately. Capping one's daily reviews is also highly unrecommended.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1732036480,
+      "score": 1,
+      "link_id": "t3_1gurdxt",
+      "parent_id": "t1_lxwqro2"
+    },
+    {
+      "id": "lxydw8l",
+      "body": "This is one of the reasons why many people recommend using only recognition cards (TL->NL), especially when you get in a lot of input/immersion alongside Anki.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1732036239,
+      "score": 2,
+      "link_id": "t3_1guwtiv",
+      "parent_id": "t3_1guwtiv"
+    },
+    {
+      "id": "lwmx6vf",
+      "body": "I contacted Debian over this already. The SSL fix has been upstream for a month at this point, kind of embarrassing that they haven't updated their packages yet.",
+      "author": "woozy_1729",
+      "subreddit": "LinusTechTips",
+      "created_utc": 1731356633,
+      "score": 2,
+      "link_id": "t3_1gjk99w",
+      "parent_id": "t1_lvgnmhb"
+    },
+    {
+      "id": "lvmmahc",
+      "body": "Because I do part of my reviews on a device that doesn't support FSRS. I've been doing this for over a year and I've never had problems.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1730857416,
+      "score": 1,
+      "link_id": "t3_1gkn3rj",
+      "parent_id": "t1_lvmlkx4"
+    },
+    {
+      "id": "luuy66x",
+      "body": "This also fixed the `error 6 in libnvidia-glcore.so.560.35.03` segfault I kept getting on my 1070 Ti.",
+      "author": "woozy_1729",
+      "subreddit": "archlinux",
+      "created_utc": 1730470152,
+      "score": 1,
+      "link_id": "t3_1ggjaar",
+      "parent_id": "t3_1ggjaar"
+    },
+    {
+      "id": "luuxdi8",
+      "body": "When I search for \"error 6 in libnvidia-glcore.so.560.35.03\" on the Internet, I get the impression that this is a problem unique to the 1070 Ti. I have one too and I've had the same problem until today.\n\nWhat fixed it for me was updating to 565.57.01 where this issue seems to be fixed. 565.57.01 was released by Nvidia on the 29th of October (https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-565-57-01/index.html) and landed in the repos on the 30th (https://gitlab.archlinux.org/archlinux/packaging/packages/nvidia/-/commit/63eabe4289550bc73cca46f9504bc2d56eb9bf4f). You may also want to check out the \"1.2. Fixed Issues\" section in the Nvidia link.",
+      "author": "woozy_1729",
+      "subreddit": "archlinux",
+      "created_utc": 1730469885,
+      "score": 1,
+      "link_id": "t3_1g072oj",
+      "parent_id": "t3_1g072oj"
+    },
+    {
+      "id": "looy2x4",
+      "body": "I took both Computer Vision and Image Analysis and Computer Vision but I can't speak for the first one.\n\nIMO both are perfectly doable with no specialized background knowledge. Computer Vision covers more material and is a bit harder but I liked the professor's (Prof. Pollefeys) didactic skills more.",
+      "author": "woozy_1729",
+      "subreddit": "ethz",
+      "created_utc": 1727186954,
+      "score": 1,
+      "link_id": "t3_1f3ia7f",
+      "parent_id": "t3_1f3ia7f"
+    },
+    {
+      "id": "lofhm5t",
+      "body": "\"Unterschied\" (0:07) sounded like \"Unt**e**schied\" to me.\n\n\"Hautfarbe\" (0:09) sounded like \"Hau**p**tfarbe\" to me.\n\nThe o in \"Überz**eu**gung\" (0:14) sounded a bit like the o in \"oder\" when it should be like the o in \"offen\".\n\nThe e in \"H**e**rkunft\" (0:17) sounded like the e in \"Herr\" when it should be like the e in \"Heer\".\n\nApart from these and some small unnatural pauses, it's pretty much perfect.",
+      "author": "woozy_1729",
+      "subreddit": "JudgeMyAccent",
+      "created_utc": 1727040868,
+      "score": 2,
+      "link_id": "t3_1fhi5io",
+      "parent_id": "t3_1fhi5io"
+    },
+    {
+      "id": "lofa6sp",
+      "body": "There are some dialects where \"gemacht\" is pronounced like \"g'maht\", e.g. Bavaria and Vorarlberg.",
+      "author": "woozy_1729",
+      "subreddit": "translator",
+      "created_utc": 1727038448,
+      "score": 1,
+      "link_id": "t3_1fkkew7",
+      "parent_id": "t1_lnw77qv"
+    },
+    {
+      "id": "lof8b06",
+      "body": "Spellings like \"bey\" and \"zweyter\" were common in 16th~19th century German, not specific to America.\n\nWiktionary sometimes has entries for such spellings:\n\nhttps://en.wiktionary.org/wiki/bey#German\n\nhttps://en.wiktionary.org/wiki/sey#German",
+      "author": "woozy_1729",
+      "subreddit": "translator",
+      "created_utc": 1727037860,
+      "score": 1,
+      "link_id": "t3_1fm6q74",
+      "parent_id": "t1_lo9m6ob"
+    },
+    {
+      "id": "locwyfz",
+      "body": "> although there is significant, nigh-permanent damage done to listening comprehension and accent through such methods\n\nInteresting perspective. I'm not necessarily disagreeing with you but I'd be curious to hear what made you come to this conclusion.",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1727011575,
+      "score": 1,
+      "link_id": "t3_1fjqe7u",
+      "parent_id": "t1_lnq3j4l"
+    },
+    {
+      "id": "locw9gu",
+      "body": "Yes, I remember that video, it was NukeMarine.",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1727011287,
+      "score": 1,
+      "link_id": "t3_1flaoe0",
+      "parent_id": "t1_lo51780"
+    },
+    {
+      "id": "locs8fi",
+      "body": "Personally, I use both \"i\" and \"ich\", depending on whether it is stressed or not. \"I gohn go poschte\" vs. \"Ich gohn go poschte\" (\"I'm going to go shopping\" vs. \"It is me (and nobody else) who's going to go shopping\").\n\nAll my personal pronouns have this stressed/unstressed distinction I think.",
+      "author": "woozy_1729",
+      "subreddit": "SwissGerman",
+      "created_utc": 1727009566,
+      "score": 1,
+      "link_id": "t3_1f2pqo4",
+      "parent_id": "t3_1f2pqo4"
+    },
+    {
+      "id": "locrn2b",
+      "body": "I've never heard anybody use \"öppis\" in this way in my life and it sounds very wrong to me.",
+      "author": "woozy_1729",
+      "subreddit": "SwissGerman",
+      "created_utc": 1727009302,
+      "score": 1,
+      "link_id": "t3_1f157or",
+      "parent_id": "t1_ljze5gy"
+    },
+    {
+      "id": "locohdh",
+      "body": "Could perhaps be due to overgeneralization/hypercorrection: If you're made aware that you mispronounce e.g. \"what\", \"why\", etc., you may be tempted to overapply this correction to all instances where you previously used /v/. Changing the realization of a specific phoneme is comparatively easy (which is why some people can readily imitate accents) whereas refining the \"grid\" on which your lexicon is stored (i.e. the phonemes) is pretty hard to do after the fact.",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1727007826,
+      "score": 1,
+      "link_id": "t3_1flcucx",
+      "parent_id": "t1_locn98i"
+    },
+    {
+      "id": "locg3g0",
+      "body": "The sound that is represented by <w> in English (namely /w/) doesn't exist in Standard German and only exists in some Alemannic dialects. To somebody who hasn't acquired the phoneme /w/, the English words \"wine\" and \"vine\" sound pretty much the same. Perhaps you've heard that monolingual Japanese speakers can't really distinguish between /r/ and /l/; it's basically the same thing going on here but for a different phoneme pair. And if you can't hear the difference between two phonemes, you can't reliably produce them either.\n\nOn top of that, (Swiss) German <v> is sometimes pronounced the same as <w> (e.g. in \"vage\") which adds to the confusion.",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1727003332,
+      "score": 1,
+      "link_id": "t3_1flcucx",
+      "parent_id": "t3_1flcucx"
+    },
+    {
+      "id": "locdyy0",
+      "body": "They do have by far the strongest freedom of speech though, gotta give them that. Fining and sometimes even jailing people for insults is absolutely insane to me but most other Swiss people seem to be fine with it.",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1727002013,
+      "score": 1,
+      "link_id": "t3_1fm68xg",
+      "parent_id": "t1_lo86y2f"
+    },
+    {
+      "id": "lhw8pb8",
+      "body": "If a card has a history that looks like, say, LLRLLRR (L: learning, R: review), is it the case that FSRS only considers the LLRR portion when training and rescheduling? I hope the answer is yes and from my brief skimming over the code, it looks like it is indeed yes, but I haven't seen anyone actually involved with the development explicitly confirm this.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1723549411,
+      "score": 1,
+      "link_id": "t3_1epnluc",
+      "parent_id": "t1_lhlz8ef"
+    },
+    {
+      "id": "lf27tc4",
+      "body": "Thanks a lot for implementing this! It helps me greatly.\n\nAs for pattern matching, I can see how this is probably a bit hard to implement in full generality given the constraints, so I'd propose an alternative: Adding a single boolean option to skip all lines that are basically just parentheses. I paid some attention to it in my immersion since my last reply and I think this feature would have a very low false positive rate. The only exception I came across were some subs where they used `((...))` (double latin parentheses) for inner monologues.\n\nHere's also a bug report while I'm at it: Sometimes, the script doesn't speed up after skipping chapters (e.g. after pressing \"page up\" to skip the OP; my makeshift solution is to quickly toggle the script off and on).\n\nLastly, my blacklist currently looks like this (note the two types of tildes, I came across both):\n\n`blacklist = {'♬', '～♬', '♬～', '♫', '～♫', '♫～', '☎', '・～', '♪', '♪～', '～♪', '♪〜', '〜♪', '♪♪', '♪♪～', '～♪♪', '♪♪〜', '〜♪♪'}`",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1722013702,
+      "score": 1,
+      "link_id": "t3_1dn57bw",
+      "parent_id": "t1_lcb8klu"
+    },
+    {
+      "id": "law7scz",
+      "body": "Thanks for the script. I've added `, '♪', '♪～', '～♪'` because Netflix subs come with these (instead of ♬). Another idea would be to allow filtering using regex, e.g. `\\s*（[^）]*）\\s*` to catch `（銃声）` etc.\n\nOne thing that's a bit annoying at the moment is that, if I set `default_state=yes` and play something without subs, it wants to speed up the entire video. I would have found it more intuitive and practical had the script done nothing if no sub track is selected.",
+      "author": "woozy_1729",
+      "subreddit": "ajatt",
+      "created_utc": 1719698675,
+      "score": 1,
+      "link_id": "t3_1dn57bw",
+      "parent_id": "t3_1dn57bw"
+    },
+    {
+      "id": "la718rc",
+      "body": "DigitalHypno method",
+      "author": "woozy_1729",
+      "subreddit": "osubuddyretard",
+      "created_utc": 1719317631,
+      "score": 1,
+      "link_id": "t3_1dnvfuk",
+      "parent_id": "t1_la5fav7"
+    },
+    {
+      "id": "la6zwkj",
+      "body": "Bro makes up the language as he goes.",
+      "author": "woozy_1729",
+      "subreddit": "languagelearningjerk",
+      "created_utc": 1719316981,
+      "score": 1,
+      "link_id": "t3_1dnd39e",
+      "parent_id": "t1_la2mrbf"
+    },
+    {
+      "id": "la6yqeq",
+      "body": "> if he was Chinese/Korean it arguably wouldn't actually make it easier to learn Japanese\n\nIt absolutely would.",
+      "author": "woozy_1729",
+      "subreddit": "languagelearningjerk",
+      "created_utc": 1719316410,
+      "score": 14,
+      "link_id": "t3_1dny12m",
+      "parent_id": "t1_la6xjgw"
+    },
+    {
+      "id": "la6ycs6",
+      "body": "Nobody disputes that reproduction is a necessary condition for the continued existence of the species, but that doesn't make it the \"meaning of life\". You're conflating things.",
+      "author": "woozy_1729",
+      "subreddit": "europe",
+      "created_utc": 1719316222,
+      "score": 3,
+      "link_id": "t3_1do1arm",
+      "parent_id": "t1_la6y2po"
+    },
+    {
+      "id": "la6wupm",
+      "body": "Source?",
+      "author": "woozy_1729",
+      "subreddit": "europe",
+      "created_utc": 1719315467,
+      "score": -2,
+      "link_id": "t3_1do1arm",
+      "parent_id": "t1_la6wgim"
+    },
+    {
+      "id": "la6vmca",
+      "body": "> Low paying jobs (for the local economy) High rent/low access to housing High number of working hours.\n\nYou have no idea what you're talking about.",
+      "author": "woozy_1729",
+      "subreddit": "europe",
+      "created_utc": 1719314825,
+      "score": 1,
+      "link_id": "t3_1do1arm",
+      "parent_id": "t1_la6tzai"
+    },
+    {
+      "id": "la6vm1x",
+      "body": "> shit salaries/very high CoL\n\nYou have no idea what you're talking about.",
+      "author": "woozy_1729",
+      "subreddit": "europe",
+      "created_utc": 1719314821,
+      "score": 1,
+      "link_id": "t3_1do1arm",
+      "parent_id": "t1_la6qlp5"
+    },
+    {
+      "id": "la6urp5",
+      "body": "> Last time I checked, having kids is the meaning of life in the natural world.\n\nNo lol",
+      "author": "woozy_1729",
+      "subreddit": "europe",
+      "created_utc": 1719314365,
+      "score": 3,
+      "link_id": "t3_1do1arm",
+      "parent_id": "t1_la6sla4"
+    },
+    {
+      "id": "la6uocc",
+      "body": "> Younger folks can't get a decently paid job, affordable housing and one wonders why the natality rates are plummeting...\n\nThese \"woe is me\" talking points don't apply to Switzerland. It's easy (for Swiss citizens) to find a job that pays 4k CHF gross even with no tertiary education education and it's easy to find decent apartments for under 1.5k.",
+      "author": "woozy_1729",
+      "subreddit": "europe",
+      "created_utc": 1719314313,
+      "score": 3,
+      "link_id": "t3_1do1arm",
+      "parent_id": "t1_la6nko9"
+    },
+    {
+      "id": "l9we1cc",
+      "body": "The fourth channel in the Japanese section (\"https://www.youtube.com/@iroironanihongo/featured (Japan)\") is run by a non-native speaker (whose non-nativeness is very apparent).",
+      "author": "woozy_1729",
+      "subreddit": "languagelearning",
+      "created_utc": 1719148779,
+      "score": 2,
+      "link_id": "t3_1dmfyk4",
+      "parent_id": "t1_l9vt855"
+    },
+    {
+      "id": "l9wao8t",
+      "body": "As far as I know, the recursive nature of incrementally atomizing one's cards is also a cornerstone of IR. That would be a bit tedious to emulate without software support.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1719147212,
+      "score": 3,
+      "link_id": "t3_1dmeo66",
+      "parent_id": "t1_l9w37in"
+    },
+    {
+      "id": "l9w9g8w",
+      "body": "FSRS supports this though, the feature is called \"Easy Days\".",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1719146613,
+      "score": 28,
+      "link_id": "t3_1dmgb4m",
+      "parent_id": "t1_l9vqlpg"
+    },
+    {
+      "id": "l9w8wxi",
+      "body": "There's a setting to disable this in the preferences screen.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1719146343,
+      "score": 6,
+      "link_id": "t3_1dmgb4m",
+      "parent_id": "t1_l9vzmrx"
+    },
+    {
+      "id": "l9w8tq0",
+      "body": "Imagine willingly using a rip-off version that paywalls your reps.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1719146297,
+      "score": 12,
+      "link_id": "t3_1dmgb4m",
+      "parent_id": "t1_l9vxsww"
+    },
+    {
+      "id": "l987fz1",
+      "body": "While it's true that Strafbefehlsverfahren are only applicable in less severe cases and criminal records only pertain to more severe cases, there's still plenty of overlap. For the precise conditions behind criminal records, check out [AS 2022 600 §18](https://www.fedlex.admin.ch/eli/oc/2022/600/de#art_18).",
+      "author": "woozy_1729",
+      "subreddit": "Switzerland",
+      "created_utc": 1718751182,
+      "score": 1,
+      "link_id": "t3_1diuz68",
+      "parent_id": "t1_l97v8mk"
+    },
+    {
+      "id": "kqki5w7",
+      "body": "The ratio of correct reviews is about 3 percentage points lower for me in the evening, but for such small differences, I think the explanation rather lies in the fact that for evening reviews, more time has passed on expectation since the last review.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1708022035,
+      "score": 3,
+      "link_id": "t3_1arljvj",
+      "parent_id": "t3_1arljvj"
+    },
+    {
+      "id": "kpwxkoy",
+      "body": "I can see it as a possibility that gradual attenuation works better than a hard cutoff. Also, I've used `revlog_start_date` extensively and it sometimes yielded very unexpected results.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1707649663,
+      "score": 1,
+      "link_id": "t3_1anfmcw",
+      "parent_id": "t1_kpwvvns"
+    },
+    {
+      "id": "kpwvjnw",
+      "body": "On this topic, have you two had the time to look into giving more weight to more recent reviews in the optimization step? It's not that uncommon for people to change their review habits (SM-2 was forgiving towards that after all) and I suspect that this also helps model increasing overall familiarity with a subject.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1707648298,
+      "score": 1,
+      "link_id": "t3_1anfmcw",
+      "parent_id": "t1_kps860k"
+    },
+    {
+      "id": "kitw1zi",
+      "body": "Apologies, I'm not able to reproduce it myself. I've uploaded the exact same exports as yesterday but this time the average times were all roughly three times smaller than the ones I've posted above, which is realistic.\n\nI'll send you a DM next time I'll encounter this issue (provided that I can reproduce it).",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1705803148,
+      "score": 1,
+      "link_id": "t3_18jvyun",
+      "parent_id": "t1_kiq8k3w"
+    },
+    {
+      "id": "kipuznk",
+      "body": "That's what I thought but that still wouldn't explain the incorrect \"average time for recalled reviews\", would it?",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1705742142,
+      "score": 1,
+      "link_id": "t3_18jvyun",
+      "parent_id": "t1_kioqui9"
+    },
+    {
+      "id": "kilslhr",
+      "body": "I use FSRS only for a single deck (a vocab deck) and I've been working on this particular deck for 13 months now (300k+ reviews). For the first 4 months, I used a different review method that made me fail more cards than usual. Today, I ran `fsrs4anki_optimizer.ipynb` (FSRS4Anki v4.11.0 Optimizer) on my deck again, once with all reviews (A) and once with `revlog_start_date` set to the day I changed my review habits on (B). The results were confusing so I went ahead, deleted (in a separate profile) all cards that were *created* (\"first reviewed\" would be more accurate but I didn't know how to accomplish that in Anki's browser) before that day (C). The results:\n\n  | A: All reviews | B: Last 9 months (`revlog_start_date`) | C: Last 9 months (deleting cards)\n---|---|---|----\nParameters | [0.1284, 0.189, 0.3378, 1.0375, 6.214, 0.757, 0.6806, 0.0527, 0.5663, 0.1, 0.3838, 1.4255, 0.1802, 0.772, 0.655, 0.1467, 4.0] | [0.1771, 0.2267, 0.3281, 1.2701, 6.473, 1.0668, 0.9916, 0.0127, 0.7462, 0.1063, 0.424, 1.6412, 0.1854, 0.7495, 0.2953, 0.1549, 4.0] | [0.4669, 0.7543, 1.5493, 58.3511, 5.5481, 1.4582, 1.427, 0.0199, 1.3801, 0.1, 0.8318, 2.1823, 0.0351, 0.3906, 1.6535, 0.3765, 4.0]\nLoss before training | 0.6456 | 0.6493 | 0.4200\nLoss after training | 0.5316 | 0.5317 | 0.4055\nR-squared | 0.9541 | 0.9091 | 0.5960\nRMSE | 0.0236 | 0.0278 | 0.0488\nMAE | 0.0136 | 0.0139 | 0.0196\n? | [-0.05011412  1.06537337] | [-0.0842633   1.11011016] | [0.24063045 0.71997153]\nUniversal Metric of FSRS | 0.0097 | 0.0100 | 0.0342\nChange in today's reviews | slightly fewer than before (~200) | ~30% of the entire deck | almost 0 today, forecast maxing out at ~70/d in about 10 days\n\nI find these results very hard to interpret and I wanted to ask you for your interpretation, as well as the best way to continue forward. Judging by the fact that my \"True retention\" is already consistently a bit higher than my target retention (0.80) as it is, I cannot believe that doing more reviews (B) is beneficial. At the same time, absolutely decimating my review count (C) also doesn't strike me as beneficial (it is still more believable than (B) though).\n\nI suspected that `revlog_start_date` may have been implemented poorly (e.g. by simply \"cutting off\" a card's older reviews and feeding it into the optimizer as though it was brand new, when in reality it may already have been repped many times at that point and may have a better-than-new stability). Also, simply just the fact that (B) is a lot closer to (A) than (C) puzzles me.\n\nIf the optimizer had an option to give more weight/credence to more recent reviews, that could potentially be a better solution for people who change their review habits than using `revlog_start_date`.",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1705680897,
+      "score": 1,
+      "link_id": "t3_18jvyun",
+      "parent_id": "t3_18jvyun"
+    },
+    {
+      "id": "kiln7xr",
+      "body": "I've noticed that the average review times given by `fsrs4anki_optimizer.ipynb`(FSRS4Anki v4.11.0 Optimizer) seem to be wildly off:\n\n    average time for failed reviews: 57.8s\n    average time for recalled reviews: 16.0s\n    average time for `hard`, `good` and `easy` reviews: 21.5s, 16.1s, 8.0s\n    average time for learning a new card: 82.2s\n\nWhereas Anki's stat window, set to \"all history\", and under \"Reviews\", \"Time\" and \"all\", says:\n\n    Average answer time:\t⁨5.91⁩s (⁨⁨10.16⁩ cards/minute⁩)",
+      "author": "woozy_1729",
+      "subreddit": "Anki",
+      "created_utc": 1705679050,
+      "score": 1,
+      "link_id": "t3_18jvyun",
+      "parent_id": "t3_18jvyun"
+    }
+  ]
+}

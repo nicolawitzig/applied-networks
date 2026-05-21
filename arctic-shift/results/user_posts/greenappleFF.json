@@ -1,0 +1,1065 @@
+{
+  "username": "greenappleFF",
+  "posts": [
+    {
+      "id": "1herppm",
+      "title": "Renaming Astro Components in VS Code",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1734266158,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "I never found a good way to rename an Astro file, together with all its references in vs code. How are you handling this?",
+      "url": "https://www.reddit.com/r/astrojs/comments/1herppm/renaming_astro_components_in_vs_code/"
+    },
+    {
+      "id": "1h1srup",
+      "title": "Converting Astro Components to React: Best Practices and Potential Pitfalls",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1732788280,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "I recently integrated several React islands into my large Astro project. My goal is to create components that can be used seamlessly in both Astro files and React components, without relying on slots. Naturally, Astro components can't be used within React components due to their static, server-rendered nature. As a solution, I’m considering rewriting all my Astro components as React components, while keeping them non-interactive.\n\nAre there any potential pitfalls I should be aware of with this approach? ",
+      "url": "https://www.reddit.com/r/astrojs/comments/1h1srup/converting_astro_components_to_react_best/"
+    },
+    {
+      "id": "1fmb8sk",
+      "title": "QR Code Dilemma: Simplest Way to Direct Users to Play Store or App Store",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1726948069,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "I recently launched a conference app for a client using Flutter and need a simple way for visitors to download it at an upcoming event. I’m thinking of creating a QR code that directs users to either the Play Store or App Store, depending on their device.\n\nHere are the options I found so far:\n\n1. Deferred Link Services (Appsflyer, Branch.io)\n1.  Link shorteners (bit.ly, QRTiger)\n1.  Custom app landing page\n1.  Using two separate QR codes\n\n\nEach option has its issues. Deferred link services are dying for IOS, complex and come with unnecessary tracking features. A custom landing page would be a lot more workload and increase the project's scope. Link shorteners are a dime a dozen, I can't decide which one to pick. And using two QR codes is obviously not ideal.\n\nHas anyone dealt with this before? Any recommendations or better solutions I might be missing?",
+      "url": "https://www.reddit.com/r/FlutterDev/comments/1fmb8sk/qr_code_dilemma_simplest_way_to_direct_users_to/"
+    },
+    {
+      "id": "1efni1y",
+      "title": "My issues with \"Update System\" in Nobara 40",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1722325344,
+      "score": 13,
+      "num_comments": 13,
+      "selftext": "https://preview.redd.it/55lrlgd10mfd1.png?width=1062&format=png&auto=webp&s=c97951ba40bd6e5f62ce64d1caad6685d93b2423\n\nNobara 40 brings a new \"Update System\" utility, which I was really fond of in the beginning, as it can actually list the updates before installing. However, after a week of usage, I found the update progress very tedious. It usually goes like this: \n\n* 3 Update Notifications popping up (2x Yum Extender, 1x KDE Discover)\n* \"Update System\" not starting for 10 seconds\n* I have to enter my password twice\n* \"Update System\" is checking for updates\n* .............waiting for a few minutes\n* ...still waiting\n* Finally, I can press \"install updates\" button\n\n  \nIDK if I am too picky here, but this process just makes me want to install fedora, so that I can use the clean KDE Discover. What do you think?",
+      "url": "https://www.reddit.com/r/NobaraProject/comments/1efni1y/my_issues_with_update_system_in_nobara_40/"
+    },
+    {
+      "id": "1c7znn4",
+      "title": "Exciting new 3D-Printeded FUJI Instax MINI Picture Frame!",
+      "author": "greenappleFF",
+      "subreddit": "instax",
+      "created_utc": 1713540404,
+      "score": 5,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://www.thingiverse.com/thing:6585849"
+    },
+    {
+      "id": "1c7zlwt",
+      "title": "Exciting New 3D-Printed FUJI Instax MINI Picture Frame!",
+      "author": "greenappleFF",
+      "subreddit": "instax",
+      "created_utc": 1713540283,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://www.reddit.com/gallery/1c7zlwt"
+    },
+    {
+      "id": "1c7zkdr",
+      "title": "Exciting New 3D-Printed FUJI Instax MINI Picture Frame!",
+      "author": "greenappleFF",
+      "subreddit": "instax",
+      "created_utc": 1713540178,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "# I'm super excited to share my very first custom photo frame design for Instax Mini and Square pics with you all!\n\n&#x200B;\n\nhttps://preview.redd.it/zde0vl1legvc1.png?width=494&format=png&auto=webp&s=65794e6ed1c3b38d3200626f9bf2274807c6c0ca\n\nI wanted something simple and easy to print, but still stylish enough to display my favorite Instax memories. After a bit of tinkering, I finally got it just right!\n\nHere's what's cool about it:\n\n* Versions for both Mini & Square\n* Stand can be flipped for landscape or portrait pics.\n* Simple and fast to print\n* It's my first design, so it's extra special to me! 🎉\n\nCan't wait to see what you guys think!\n\nPrint from Thingiverse: [https://www.thingiverse.com/thing:6585849](https://www.thingiverse.com/thing:6585849)\n\n&#x200B;\n\n&#x200B;\n\nhttps://preview.redd.it/1ocwussnegvc1.png?width=1080&format=png&auto=webp&s=a29de4244cb27a52a0c264a969c6aab2a51590c5",
+      "url": "https://www.reddit.com/r/instax/comments/1c7zkdr/exciting_new_3dprinted_fuji_instax_mini_picture/"
+    },
+    {
+      "id": "1c7zgsa",
+      "title": "Exciting New 3D-Printed FUJI Instax MINI Picture Frame!",
+      "author": "greenappleFF",
+      "subreddit": "instax",
+      "created_utc": 1713539928,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I'm super excited to share my very first custom photo frame design for Instax Mini and Square pics with you all! \n\nI wanted something simple and easy to print, but still stylish enough to display my favorite Instax memories. After a bit of tinkering, I finally got it just right!\n\nHere's what's cool about it:\n\n* Versions for both Mini & Square\n* Stand can be flipped for landscape or portrait pics.\n* Simple and fast to print\n* It's my first design, so it's extra special to me! 🎉\n\nCan't wait to see what you guys think!  \n\n\nPrint from Thingiverse: [https://www.thingiverse.com/thing:6585849](https://www.thingiverse.com/thing:6585849)",
+      "url": "https://www.reddit.com/r/instax/comments/1c7zgsa/exciting_new_3dprinted_fuji_instax_mini_picture/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m26hy2m",
+      "body": "When I renamed my File using the shortcut F2 it definitely didn't.\n\nDoes it work for you with the shortcut? If so, this would indicate an issue on my installation specifically.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1734277446,
+      "score": 1,
+      "link_id": "t3_1herppm",
+      "parent_id": "t1_m265zhj"
+    },
+    {
+      "id": "lzvik9v",
+      "body": "You use the Image component from Astro:content and give it a fixed width. A rule of thumb for me is to set the width up to 2 times the size it actually renders in the browser on my 1444p monitor. \n\nI don't quite understand what you mean by generating every image size on a build. Could you elaborate this further?",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1733064030,
+      "score": 1,
+      "link_id": "t3_1h3oyy4",
+      "parent_id": "t1_lzvc7to"
+    },
+    {
+      "id": "lzv6j1p",
+      "body": "https://daisyui.com/ is all i ever wanted.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1733058909,
+      "score": 5,
+      "link_id": "t3_1h3ypjz",
+      "parent_id": "t3_1h3ypjz"
+    },
+    {
+      "id": "lzv65kn",
+      "body": "RemindMe! 7 days",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1733058732,
+      "score": 1,
+      "link_id": "t3_1h3ypjz",
+      "parent_id": "t3_1h3ypjz"
+    },
+    {
+      "id": "lzv4w06",
+      "body": "I feel your pain. Keep it as simple as possible. If you have your images spread across 3 different services complexity will grow. Been there and it was not good. Try to use Astro Image wherever you can. It might not be good, but it is simple and that makes it good.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1733058116,
+      "score": 1,
+      "link_id": "t3_1h3oyy4",
+      "parent_id": "t3_1h3oyy4"
+    },
+    {
+      "id": "lzv3dc3",
+      "body": "Tldr: This is not possible and I like it.\n\nTo my knowledge this is not possible. The sole purpose of the pages folder IS to build your url structure.\n\nIf you really want to group your code in deep folders, I suggest keeping your pages folder very simple, with small files that branch out to Components from another directory. In this directory you will be able to structure everything to your liking. \n\nI recommend to keep all folders very flat. You will come to a point where you create something that does belong to both /admin and to /dashboard. Then you have to create a mixed folder anyways. And this mixed folder \"components\" is actually really beautiful. The real art is to create such universal pieces of code that you can reuse anywhere and all the time.\n\nCreating folders should the most respected art on this planet. Oh boy I have seen some really good but much more bad shit.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1733057336,
+      "score": 1,
+      "link_id": "t3_1h41gdn",
+      "parent_id": "t3_1h41gdn"
+    },
+    {
+      "id": "lwlivtq",
+      "body": "Your folder src/content/blog should be called src/content/posts, since you called the collection \"posts\" in your schema",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1731341234,
+      "score": 1,
+      "link_id": "t3_1gouaso",
+      "parent_id": "t3_1gouaso"
+    },
+    {
+      "id": "lvqbpak",
+      "body": "Thank you!!! So far it worked for me.",
+      "author": "greenappleFF",
+      "subreddit": "kde",
+      "created_utc": 1730908834,
+      "score": 1,
+      "link_id": "t3_1gbqtcs",
+      "parent_id": "t1_ltpsch3"
+    },
+    {
+      "id": "ltngog2",
+      "body": "Are your \"plugins\" that big? Can't you simply put all in one app with feature flags in Firebase? Maybe you could download large media files of those plugins deferred.",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1729843759,
+      "score": 2,
+      "link_id": "t3_1gbo8oc",
+      "parent_id": "t3_1gbo8oc"
+    },
+    {
+      "id": "lsvkl1g",
+      "body": "yeah, that's a good point☝️",
+      "author": "greenappleFF",
+      "subreddit": "web_design",
+      "created_utc": 1729447376,
+      "score": 1,
+      "link_id": "t3_1g7xjm5",
+      "parent_id": "t1_lsv3h0t"
+    },
+    {
+      "id": "lsu9srq",
+      "body": "In web development, anything can be used as a \"clickable area\". You can add an on-click event listener on a div, button, and everything else. \n\nThat's why I think the most correct term for a \"clickbox\" is \"Element with an on-click Event Listener\".\n\nAnd if it's a button, then we just call it \"button\" :)",
+      "author": "greenappleFF",
+      "subreddit": "web_design",
+      "created_utc": 1729432088,
+      "score": 0,
+      "link_id": "t3_1g7xjm5",
+      "parent_id": "t3_1g7xjm5"
+    },
+    {
+      "id": "lsnku28",
+      "body": "In my project I did store user generated content, aka the dynamic content, in Supabase. At some places data references content from the CMS using the contents Id. It works out great.\n\nWith Supabase you can control who can author what. CMSs are not built with such dynamic Data in mind.",
+      "author": "greenappleFF",
+      "subreddit": "webdev",
+      "created_utc": 1729324096,
+      "score": 2,
+      "link_id": "t3_1g6ua82",
+      "parent_id": "t3_1g6ua82"
+    },
+    {
+      "id": "lreusr4",
+      "body": "As you seem to know how things have to be done, please contribute.",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1728654857,
+      "score": 2,
+      "link_id": "t3_1g15c9t",
+      "parent_id": "t1_lretm0b"
+    },
+    {
+      "id": "lrdxszn",
+      "body": "that's why we have Google and https://fluttergems.dev/",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1728638429,
+      "score": 13,
+      "link_id": "t3_1g15c9t",
+      "parent_id": "t3_1g15c9t"
+    },
+    {
+      "id": "lrdx1tn",
+      "body": "I think you should simply try your app in release mode on a real device. If it feels smooth then you don't have paint performance issues. It is that simple. I never used the performance tools.",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1728637887,
+      "score": 4,
+      "link_id": "t3_1g10eys",
+      "parent_id": "t1_lrd81d9"
+    },
+    {
+      "id": "lrdwsbu",
+      "body": "With flutter you will probably never have performance issues by just composing large and deep Widget trees.\n\nYou only start to have issues when you have a lot of Items in a List View and all of them render, even if they are off screen. E.g. rendering 1000000 Buttons at the same time in a scrollable List is not optimal. You solve this by using ListView.builder, so that only elements that are currently visible in the view are built.\n\nAs general advice **Don't care about performance**. You should only start to optimize things when you start seeing performance issues.   If your app runs super smooth in Release mode, why waste your time?",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1728637697,
+      "score": 7,
+      "link_id": "t3_1g10eys",
+      "parent_id": "t3_1g10eys"
+    },
+    {
+      "id": "lqwxp6s",
+      "body": "I am also always struggling with Flutter Integration tests. It is a horrible experience - I don't understand why it has to be. Is it a skill issue?",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1728379944,
+      "score": 1,
+      "link_id": "t3_1dtkovz",
+      "parent_id": "t3_1dtkovz"
+    },
+    {
+      "id": "lpdq52a",
+      "body": "ah okay, i just found out there are different ones for all the studies: https://www.cit.tum.de/cit/studienbeginn/vorkurse-ferienkurse-mathematik/",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1727550238,
+      "score": 1,
+      "link_id": "t3_1fpsqxo",
+      "parent_id": "t1_lpdb8r5"
+    },
+    {
+      "id": "lpb7i4x",
+      "body": "You mean the physik one?",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1727510350,
+      "score": 1,
+      "link_id": "t3_1fpsqxo",
+      "parent_id": "t3_1fpsqxo"
+    },
+    {
+      "id": "lotz6ro",
+      "body": "[https://pub.dev/packages/flutter\\_blurhash](https://pub.dev/packages/flutter_blurhash) for smooth image previewing/loading. Very easy to implement if you are using a cms like sanity",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1727259350,
+      "score": 23,
+      "link_id": "t3_1fozqdy",
+      "parent_id": "t3_1fozqdy"
+    },
+    {
+      "id": "lotz2fm",
+      "body": "[https://pub.dev/packages/any\\_link\\_preview](https://pub.dev/packages/any_link_preview) for previewing links. (It can be tweaked to look better)",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1727259274,
+      "score": 16,
+      "link_id": "t3_1fozqdy",
+      "parent_id": "t3_1fozqdy"
+    },
+    {
+      "id": "lotnpsg",
+      "body": "I borrowed a Mac from a friend, for the first testing/deployment. Then I set up a code magic pipeline - which was more straight forward than I thought - for automated future updates.\n\nHowever, you can only test those updates with an IPhone using Test Flight, before releasing. So yeah. It works, but kinda scary to go prod without testing for IPhone.",
+      "author": "greenappleFF",
+      "subreddit": "flutterhelp",
+      "created_utc": 1727251445,
+      "score": 1,
+      "link_id": "t3_11ypd9r",
+      "parent_id": "t3_11ypd9r"
+    },
+    {
+      "id": "lobjiir",
+      "body": "That seems reasonable, thanks for the input.\n\nI will have a look at some npm packages that can help me with that",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1726981770,
+      "score": 1,
+      "link_id": "t3_1fmb8sk",
+      "parent_id": "t1_lo9i7pf"
+    },
+    {
+      "id": "lobixpo",
+      "body": "That looks perfect, thank you!!",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1726981434,
+      "score": 1,
+      "link_id": "t3_1fmb8sk",
+      "parent_id": "t1_lobbuu9"
+    },
+    {
+      "id": "lnv36mx",
+      "body": "i ll try out :)",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1726730668,
+      "score": 2,
+      "link_id": "t3_1fkcdx5",
+      "parent_id": "t1_lnuvngd"
+    },
+    {
+      "id": "lnusi6k",
+      "body": "Looks soo cool. I would love to use it, but I am working on an already in production app using Material. Maybe the next time...",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1726723828,
+      "score": 3,
+      "link_id": "t3_1fkcdx5",
+      "parent_id": "t3_1fkcdx5"
+    },
+    {
+      "id": "ln3dcw1",
+      "body": "What are you using Brevo for?",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1726326641,
+      "score": 1,
+      "link_id": "t3_1fgbxl1",
+      "parent_id": "t1_ln2syka"
+    },
+    {
+      "id": "lmmtv8w",
+      "body": "Hi, what is the price for your room?",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1726075169,
+      "score": 1,
+      "link_id": "t3_1fe8koq",
+      "parent_id": "t3_1fe8koq"
+    },
+    {
+      "id": "lmafq2f",
+      "body": "I also didn't receive an email yet",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1725895680,
+      "score": 1,
+      "link_id": "t3_1fcorjn",
+      "parent_id": "t3_1fcorjn"
+    },
+    {
+      "id": "lm8pdfc",
+      "body": "Info session on 7th September? lol",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1725864513,
+      "score": 1,
+      "link_id": "t3_1fch66i",
+      "parent_id": "t3_1fch66i"
+    },
+    {
+      "id": "lm64u4z",
+      "body": "Das mit dem Fahrrad Diebstahl ist denke ich in jeder Stadt proplematisch",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1725826349,
+      "score": 1,
+      "link_id": "t3_1fc3qeg",
+      "parent_id": "t3_1fc3qeg"
+    },
+    {
+      "id": "llnnrjy",
+      "body": "Maybe the endpoint has to be typed in upper case letters? Like POST",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1725556154,
+      "score": 1,
+      "link_id": "t3_1f951i7",
+      "parent_id": "t3_1f951i7"
+    },
+    {
+      "id": "lllesq6",
+      "body": "Helped after 4 years and 4 months",
+      "author": "greenappleFF",
+      "subreddit": "androiddev",
+      "created_utc": 1725520588,
+      "score": 1,
+      "link_id": "t3_jc1ps0",
+      "parent_id": "t1_l63r87j"
+    },
+    {
+      "id": "llfiu5l",
+      "body": "Does it work for you if you edit the run command of those apps in the desktop files?",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1725433001,
+      "score": 1,
+      "link_id": "t3_1f7usng",
+      "parent_id": "t1_llfdt4m"
+    },
+    {
+      "id": "llfdo9t",
+      "body": "When you go to settings> infos, what graphics processor is listed there?",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1725429685,
+      "score": 1,
+      "link_id": "t3_1f7usng",
+      "parent_id": "t3_1f7usng"
+    },
+    {
+      "id": "llfdmf6",
+      "body": "When you go to settings> infos, what graphics processor is listed there?",
+      "author": "greenappleFF",
+      "subreddit": "webdev",
+      "created_utc": 1725429653,
+      "score": 1,
+      "link_id": "t3_1f892f1",
+      "parent_id": "t3_1f892f1"
+    },
+    {
+      "id": "llcc62a",
+      "body": "My Clients pay to my bank account",
+      "author": "greenappleFF",
+      "subreddit": "web_design",
+      "created_utc": 1725387125,
+      "score": 1,
+      "link_id": "t3_1f7o3ec",
+      "parent_id": "t1_llc2ex5"
+    },
+    {
+      "id": "llbz8xw",
+      "body": "Wow I am glad for you, when did you apply?",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1725383011,
+      "score": 1,
+      "link_id": "t3_1f7vzi1",
+      "parent_id": "t3_1f7vzi1"
+    },
+    {
+      "id": "llbeten",
+      "body": "I usually take 5 hours for a \"screen\"",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1725376423,
+      "score": 2,
+      "link_id": "t3_1f81v8y",
+      "parent_id": "t3_1f81v8y"
+    },
+    {
+      "id": "llanxbq",
+      "body": "thx for sharing",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1725366697,
+      "score": 1,
+      "link_id": "t3_1f7qkb1",
+      "parent_id": "t1_lla5baz"
+    },
+    {
+      "id": "ll9kfqy",
+      "body": "that's cool",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1725343096,
+      "score": 1,
+      "link_id": "t3_1f7qkb1",
+      "parent_id": "t1_ll9fy3k"
+    },
+    {
+      "id": "ll9dj62",
+      "body": "Are there proper plugins for flutter development. Or are you \"raw dogging\" the syntax",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1725339136,
+      "score": 3,
+      "link_id": "t3_1f7qkb1",
+      "parent_id": "t1_ll9cozo"
+    },
+    {
+      "id": "ll9bvfh",
+      "body": "I am using Google Docs, am I missing out?",
+      "author": "greenappleFF",
+      "subreddit": "web_design",
+      "created_utc": 1725338255,
+      "score": 3,
+      "link_id": "t3_1f7o3ec",
+      "parent_id": "t3_1f7o3ec"
+    },
+    {
+      "id": "lkz1qui",
+      "body": "That's alright for a room in a shared apartment, but won't be sufficient for your own mini flat.\n\nMaybe prefer a private student dorm room with your own bath? I am not sure how much those are.",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1725190094,
+      "score": 1,
+      "link_id": "t3_1f5n3d4",
+      "parent_id": "t1_lkyz4c7"
+    },
+    {
+      "id": "lkygcc2",
+      "body": "What's your budget? If it's over 1,5k you will easily find a place.\n\nOtherwise get a WG room for half the price.",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1725176121,
+      "score": 2,
+      "link_id": "t3_1f5n3d4",
+      "parent_id": "t3_1f5n3d4"
+    },
+    {
+      "id": "lhvp8f8",
+      "body": "Looks cleaner than mine...\n\nOnly two suggestions:\n\n- \"Launching Your Website Using Cloudflare Pages\" post has too much line spacing when wrapped on mobile. It also doesn't look clickable. Add something like an icon or button to indicate there is more to it.\n\n- Add Images to make it more varies. E.g. add the Logos of your educational institutions",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1723537652,
+      "score": 1,
+      "link_id": "t3_1eqwphn",
+      "parent_id": "t3_1eqwphn"
+    },
+    {
+      "id": "lh2nfwq",
+      "body": "Same thing just happened to me",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1723102523,
+      "score": 2,
+      "link_id": "t3_1emt1vg",
+      "parent_id": "t3_1emt1vg"
+    },
+    {
+      "id": "lgl3q00",
+      "body": "I am EU, but I can speak German - for sure a benefit. \n\nOne tip I can give you is to contact the properties via WhatsApp if you can. This way you immediately are on a more personal level and stand out. On WG-Gesucht you can find the phone number of the properties if you use the mobile app.",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1722853032,
+      "score": 0,
+      "link_id": "t3_1ek7okd",
+      "parent_id": "t1_lgkrevz"
+    },
+    {
+      "id": "lgknhbz",
+      "body": "I found a room on WG-Gesucht within a week. I messaged about 30+ properties, did an online visit for a non sketchy room and immediately got it.",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1722842046,
+      "score": 4,
+      "link_id": "t3_1ek7okd",
+      "parent_id": "t3_1ek7okd"
+    },
+    {
+      "id": "lgacvci",
+      "body": "Congrats for your acceptance, we will study together in October :)\n\nWhile I don't think this is an issue - nobody here knows what to do in such an unlikely scenario. Simply contact the admission office and inform them.",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1722686359,
+      "score": 3,
+      "link_id": "t3_1eiwpjr",
+      "parent_id": "t3_1eiwpjr"
+    },
+    {
+      "id": "lfzv4ri",
+      "body": "How much is the landlord asking for?\nAnd what size of room/flat?",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1722528963,
+      "score": 1,
+      "link_id": "t3_1ehi8nq",
+      "parent_id": "t1_lfzmu1f"
+    },
+    {
+      "id": "lfzuysg",
+      "body": "Yes, not optimal - but sometimes necessary if you are an international student",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1722528910,
+      "score": 2,
+      "link_id": "t3_1ehi8nq",
+      "parent_id": "t1_lfzmu1f"
+    },
+    {
+      "id": "lfzgvhp",
+      "body": "I also just rented a property. I think you should never sign a contract without visiting the property first. Did they at least offer you an online tour?\n\nPaying the deposit is a whole other story. Often you don't even have to pay it in advance. Sounds sketchy AF.",
+      "author": "greenappleFF",
+      "subreddit": "tumunich",
+      "created_utc": 1722524406,
+      "score": 8,
+      "link_id": "t3_1ehi8nq",
+      "parent_id": "t3_1ehi8nq"
+    },
+    {
+      "id": "lfmugxm",
+      "body": "That's cool, didn't know that",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1722339699,
+      "score": 0,
+      "link_id": "t3_1efni1y",
+      "parent_id": "t1_lfmdjf1"
+    },
+    {
+      "id": "lfmc5gj",
+      "body": "Fair point!",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1722328356,
+      "score": 1,
+      "link_id": "t3_1efni1y",
+      "parent_id": "t1_lfm9l9p"
+    },
+    {
+      "id": "l10vdk8",
+      "body": "That's just another aspect that makes cloudflare pages nicer than Vercel. There you can host commercial applications for free. You will also have unlimited bandwidth with its free plan:\n\nhttps://community.cloudflare.com/t/cloudflare-pages-for-commercial-use/306890",
+      "author": "greenappleFF",
+      "subreddit": "nextjs",
+      "created_utc": 1713954135,
+      "score": 1,
+      "link_id": "t3_1cbtd1k",
+      "parent_id": "t3_1cbtd1k"
+    },
+    {
+      "id": "l0vrooh",
+      "body": "I am interested as well. I tried out static-cms, a fork using react. However, I think it is not possible to render out astro components as previews. I would have had to code React Components for the previews.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1713876612,
+      "score": 1,
+      "link_id": "t3_1cb0jhz",
+      "parent_id": "t3_1cb0jhz"
+    },
+    {
+      "id": "l0uv2h4",
+      "body": "Use xeyes to check whether an app runs using xWayland",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1713856153,
+      "score": 1,
+      "link_id": "t3_1cavlit",
+      "parent_id": "t1_l0uux2e"
+    },
+    {
+      "id": "l0uux2e",
+      "body": "You can fix flickering in chrome, aka electron apps, by doing the following: [https://www.reddit.com/r/Fedora/s/xkKH6wRs1T](https://www.reddit.com/r/Fedora/s/xkKH6wRs1T)\n\nFor chrome itself you have to alter an experimental setting.\n\nThe problem is that those apps run with x11 by default. This is why they use xWayland , which is unfortunately causing flickering on NVidea cards",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1713856043,
+      "score": 3,
+      "link_id": "t3_1cavlit",
+      "parent_id": "t3_1cavlit"
+    },
+    {
+      "id": "l0b73vb",
+      "body": "I'm super excited to share my very first custom photo frame design for Instax Mini and Square pics with you all!\n\nI wanted something simple and easy to print, but still stylish enough to display my favorite Instax memories. After a bit of tinkering, I finally got it just right!\n\n\n\nHere's what's cool about it:\n\n- Versions for both Mini & Square\n\n- Stand can be flipped for landscape or portrait pics.\n\n- Simple and fast to print\n\n- It's my first design, so it's extra special to me! 🎉\n\n\n\nCan't wait to see what you guys think!\n\n\n\nPrint from Thingiverse: [https://www.thingiverse.com/thing:6585849](https://www.thingiverse.com/thing:6585849)",
+      "author": "greenappleFF",
+      "subreddit": "instax",
+      "created_utc": 1713540458,
+      "score": 2,
+      "link_id": "t3_1c7znn4",
+      "parent_id": "t3_1c7znn4"
+    },
+    {
+      "id": "l00uww5",
+      "body": "I think you can store the TOC Data as an exported variable in a module like so :\n\n```\nexport const toc = /* compute the data for toc here */\n```\n\nThe computation, fetching the filesystem, will only get executed once, when the module is imported for the first time. Please correct me if I'm wrong, can't test it out right now...",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1713378079,
+      "score": 1,
+      "link_id": "t3_1c6fzw5",
+      "parent_id": "t3_1c6fzw5"
+    },
+    {
+      "id": "kzo8ama",
+      "body": "Hi, I just received the info that I have to pass the complete exam as well. If so, I could only start in 2025. Did you contact the admissions office? Any news from your side?\n\nI was really expecting that I would get a reduced exam as I passed A-Levels.",
+      "author": "greenappleFF",
+      "subreddit": "ethz",
+      "created_utc": 1713186063,
+      "score": 1,
+      "link_id": "t3_1bp3gth",
+      "parent_id": "t1_kwxu2bo"
+    },
+    {
+      "id": "kza5fs5",
+      "body": "Can confirm this. I regularly use my FP4 at a place with very poor coverage and lose battery very quickly when browsing through the internet...",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1712951097,
+      "score": 1,
+      "link_id": "t3_1c2abyo",
+      "parent_id": "t1_kza3hlc"
+    },
+    {
+      "id": "kz76ag4",
+      "body": "Yes it will. Have you tried it out yet? I feel like you will get the hang of it if you play around with it a bit.\n\nBtw, the syntax for those features is not from Astro.js, but coming from JavaScript. It is called Destructuring: (https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/)",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1712904588,
+      "score": 1,
+      "link_id": "t3_1c1if90",
+      "parent_id": "t1_kz75wus"
+    },
+    {
+      "id": "kz74t2f",
+      "body": "Yeah it can. If you omit a parameter it will be set to undefined. Undefined will then be changed to the default value",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1712903592,
+      "score": 1,
+      "link_id": "t3_1c1if90",
+      "parent_id": "t1_kz72920"
+    },
+    {
+      "id": "kz479la",
+      "body": "Like so:\n\n```\n---\ninterface Props {\n  name: string;\n  greeting?: string;\n}\n\nconst { greeting = \"Hello\", name } = Astro.props;\n---\n<h2>{greeting}, {name}!</h2>\n```\n\nDocs: [https://docs.astro.build/en/basics/astro-components/#component-props](https://docs.astro.build/en/basics/astro-components/#component-props)",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1712860803,
+      "score": 2,
+      "link_id": "t3_1c1if90",
+      "parent_id": "t3_1c1if90"
+    },
+    {
+      "id": "kyqs6ru",
+      "body": "Yeah I also used to fidget around with the case until it broke. I am super happy with my FP4 but I feel scammed with the buds. There is an older post sub drawing lines that the headphones are actually a product of another small unknown company shipping them for a few bucks :(",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1712653280,
+      "score": 3,
+      "link_id": "t3_1bzmwvf",
+      "parent_id": "t1_kyqrogf"
+    },
+    {
+      "id": "kyqrgzd",
+      "body": "Just dropped.",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1712652723,
+      "score": 1,
+      "link_id": "t3_1bvqgyn",
+      "parent_id": "t3_1bvqgyn"
+    },
+    {
+      "id": "kyqqu7t",
+      "body": "I have the old TWS headphones and they are terrible in all ways. The case broke and both earbuds fell apart after a year. Touch gestures are horrible. The microphone is not good enough for calls. Not repairable in a single aspect. Can't believe I paid 100€. 20€ headphones from my local tech shop have better quality. \n\nI am hoping soooo much the new ones are somewhat usable.",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1712652233,
+      "score": 7,
+      "link_id": "t3_1bzmwvf",
+      "parent_id": "t3_1bzmwvf"
+    },
+    {
+      "id": "ky1tpm2",
+      "body": "Where do you deploy your Site? Maybe there is an solution offered by the hosting provider",
+      "author": "greenappleFF",
+      "subreddit": "reactjs",
+      "created_utc": 1712255188,
+      "score": 1,
+      "link_id": "t3_1bvou5h",
+      "parent_id": "t3_1bvou5h"
+    },
+    {
+      "id": "ky0wppe",
+      "body": "You are right. There is an issue about it on GitHub. The project seems to be unmaintained.",
+      "author": "greenappleFF",
+      "subreddit": "reactjs",
+      "created_utc": 1712244395,
+      "score": 1,
+      "link_id": "t3_1bukxe0",
+      "parent_id": "t1_ky0in24"
+    },
+    {
+      "id": "kxtpvkb",
+      "body": "The biggest problem for me is the huge initial load time",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1712132780,
+      "score": 2,
+      "link_id": "t3_1bugntr",
+      "parent_id": "t3_1bugntr"
+    },
+    {
+      "id": "kxtkz7p",
+      "body": "https://stackoverflow.com/questions/37021438/how-to-generate-sitemap-with-react-router[https://stackoverflow.com/questions/37021438/how-to-generate-sitemap-with-react-router](https://stackoverflow.com/questions/37021438/how-to-generate-sitemap-with-react-router)\n\n(I googled \"How to generate sitemap (and hopefully robots.txt too) at build time when using vite + react + react-router-dom?\")",
+      "author": "greenappleFF",
+      "subreddit": "reactjs",
+      "created_utc": 1712129077,
+      "score": 5,
+      "link_id": "t3_1bukxe0",
+      "parent_id": "t3_1bukxe0"
+    },
+    {
+      "id": "kwm7vfv",
+      "body": "I just found out that Vercel also supports ISR (Incremental Static Regeneration) for Astro. This means that you could configure your deployment so that it will rebuilt you Page once a day.\n\nYou can find a configuration example in the docs:\nhttps://docs.astro.build/en/guides/integrations-guide/vercel/#isr",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1711444171,
+      "score": 2,
+      "link_id": "t3_1bo29h9",
+      "parent_id": "t1_kwm6lur"
+    },
+    {
+      "id": "kwm7hgx",
+      "body": "Yes it does. You could actually argue it is built for SSR in the first place.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1711443872,
+      "score": 1,
+      "link_id": "t3_1bo29h9",
+      "parent_id": "t1_kwm6lur"
+    },
+    {
+      "id": "kwm62qa",
+      "body": "Yes you are right. You could however switch to SSR. Server Site rendering builds your Page on every request. \n\nAlternatively you could use JavaScript on the client side in order to conditionally display it on the badge based on the current date. I would recommend using something like Alpine JS for implementing such a logic. However, if you are new to web development in general, go for plain JavaScript.\n\nI recommend the SSR approach!",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1711442757,
+      "score": 5,
+      "link_id": "t3_1bo29h9",
+      "parent_id": "t1_kwm4z31"
+    },
+    {
+      "id": "kvros6n",
+      "body": "See my new comment about my bet on the reason for Elementor **loading** slowly",
+      "author": "greenappleFF",
+      "subreddit": "elementor",
+      "created_utc": 1710958586,
+      "score": 1,
+      "link_id": "t3_17u9qms",
+      "parent_id": "t1_kkc07ep"
+    },
+    {
+      "id": "kvro8o4",
+      "body": "I am still experiencing heavy loading/performance issues. I am using the newest version, 3.20.1. Is this issue still a thing for you as well?\n\nMy workaround is to enable \"disable cache\" under \"Inspect\" > \"Network\". I am pretty sure the network tab has to stay open all the time in order to actually disable network caching - correct me if I'm wrong. This resolves the issue with the editor loading foreeeeeever. \n\nI think it makes sense that there is an issue with caching, as many people report that the loading times get worse over time. Furthermore, this explains why switching the browser resolves the issue somehow.\n\nHowever, caching is certainly not the cause for poor performance, once the editor is fully loaded. Here I can recommend Chrome. Statistically (and unfortunately) it is the fastest and most compatible browser for most sites out there.\n\nI would love to see further engagement on this post, as it seems to be a very impactful and still ongoing issue of Elementor.\n\nAre there any updates on your side? Any news from far away Facebook world?",
+      "author": "greenappleFF",
+      "subreddit": "elementor",
+      "created_utc": 1710958404,
+      "score": 1,
+      "link_id": "t3_17u9qms",
+      "parent_id": "t3_17u9qms"
+    },
+    {
+      "id": "ku3uz9u",
+      "body": "Only use Display port outputs on your card for 4k/144hz",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1710009416,
+      "score": 1,
+      "link_id": "t3_1bahbo9",
+      "parent_id": "t3_1bahbo9"
+    },
+    {
+      "id": "ktfnuat",
+      "body": "In what application?",
+      "author": "greenappleFF",
+      "subreddit": "kde",
+      "created_utc": 1709636196,
+      "score": 2,
+      "link_id": "t3_1b709db",
+      "parent_id": "t1_ktfckyb"
+    },
+    {
+      "id": "ktc68ep",
+      "body": "Thank you very much! May I ask you how you found all the dependencies needed for compiling with cmake?",
+      "author": "greenappleFF",
+      "subreddit": "NobaraProject",
+      "created_utc": 1709579913,
+      "score": 1,
+      "link_id": "t3_1b5d6jw",
+      "parent_id": "t1_kt7io92"
+    },
+    {
+      "id": "krg6z1r",
+      "body": "50€ Discount - Happy to share :)\n\n[http://rwrd.io/a2df55e?c](http://rwrd.io/a2df55e?c)",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1708524113,
+      "score": 1,
+      "link_id": "t3_18jopq8",
+      "parent_id": "t3_18jopq8"
+    },
+    {
+      "id": "kr9vy7t",
+      "body": "Speaking of \"configuration-driven UI\", you are probably looking for a headless CMS",
+      "author": "greenappleFF",
+      "subreddit": "nextjs",
+      "created_utc": 1708424882,
+      "score": 1,
+      "link_id": "t3_1avdzw9",
+      "parent_id": "t3_1avdzw9"
+    },
+    {
+      "id": "kr9ftdf",
+      "body": "4 for me",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1708413362,
+      "score": 3,
+      "link_id": "t3_1auyao3",
+      "parent_id": "t1_kr9awds"
+    },
+    {
+      "id": "kr9dou2",
+      "body": "50€ Discount - Happy to share :)\n\nhttp://rwrd.io/a2df55e?c",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1708411950,
+      "score": 1,
+      "link_id": "t3_1atcs9b",
+      "parent_id": "t3_1atcs9b"
+    },
+    {
+      "id": "kr9cu3h",
+      "body": "Makes good first impression",
+      "author": "greenappleFF",
+      "subreddit": "fairphone",
+      "created_utc": 1708411391,
+      "score": 8,
+      "link_id": "t3_1auyao3",
+      "parent_id": "t3_1auyao3"
+    },
+    {
+      "id": "kqnzwh6",
+      "body": "What is your prompt for these?",
+      "author": "greenappleFF",
+      "subreddit": "Bard",
+      "created_utc": 1708077218,
+      "score": 1,
+      "link_id": "t3_1as2cjp",
+      "parent_id": "t3_1as2cjp"
+    },
+    {
+      "id": "kqjuic7",
+      "body": "Also, I had to disable and reenable the extensions after bard was renamed to gemini",
+      "author": "greenappleFF",
+      "subreddit": "Bard",
+      "created_utc": 1708014015,
+      "score": 2,
+      "link_id": "t3_1am2jwk",
+      "parent_id": "t1_kqjtr21"
+    },
+    {
+      "id": "kqjtr21",
+      "body": "Regarding \"Extensions not working anymore\", I might be able to provide a solution. The extension tab is visible when language is set to english. So go to [https://gemini.google.com/app?hl=en](https://gemini.google.com/app?hl=en) (note `?hl=en`). You might also have to switch your google account's language to english. \n\nYou can then activate extensions under settings. Good luck!",
+      "author": "greenappleFF",
+      "subreddit": "Bard",
+      "created_utc": 1708013749,
+      "score": 2,
+      "link_id": "t3_1am2jwk",
+      "parent_id": "t1_kpjp2fq"
+    },
+    {
+      "id": "kqj3mr2",
+      "body": "It doesn't work for me as well",
+      "author": "greenappleFF",
+      "subreddit": "Bard",
+      "created_utc": 1708003652,
+      "score": 1,
+      "link_id": "t3_1am2jwk",
+      "parent_id": "t1_kpjp2fq"
+    },
+    {
+      "id": "kqj0r7y",
+      "body": "In the current state of Ultra 1.0 that seems to be the average quality of responses 🥱",
+      "author": "greenappleFF",
+      "subreddit": "Bard",
+      "created_utc": 1708002300,
+      "score": 1,
+      "link_id": "t3_1areoj5",
+      "parent_id": "t3_1areoj5"
+    },
+    {
+      "id": "komgmaf",
+      "body": "You safed my day",
+      "author": "greenappleFF",
+      "subreddit": "css",
+      "created_utc": 1706899149,
+      "score": 1,
+      "link_id": "t3_muu6ke",
+      "parent_id": "t1_h0bjr64"
+    },
+    {
+      "id": "ki9gfcn",
+      "body": "You could use Alpine.js. It is good for building small interactive components like Accordeons or Dropdowns",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1705487725,
+      "score": 3,
+      "link_id": "t3_198op2m",
+      "parent_id": "t3_198op2m"
+    },
+    {
+      "id": "ki99fso",
+      "body": "Yes I did - it works good. If someone is interested I could prepare a sample.",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1705482410,
+      "score": 2,
+      "link_id": "t3_195hnuu",
+      "parent_id": "t1_khnh4j3"
+    },
+    {
+      "id": "khn022u",
+      "body": "You are probably using Astro in SSG (static site generation) mode, where it is impossible to do proper authentication out of the box. If you want to stick to SSG there are two options:\n\n1) Check if you can host your Site on a hosting provider that provides authentication as a service for SSG Pages. \n\n2) You could encrypt your pages on built time. When the client visits the page he has to decrypt the page using a Passwort. Check out this library: https://github.com/Greenheart/pagecrypt",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1705129402,
+      "score": 3,
+      "link_id": "t3_195hnuu",
+      "parent_id": "t1_khmxywj"
+    },
+    {
+      "id": "khmxugx",
+      "body": "Do you need \"accounts\" or just a single static password for entering a page?",
+      "author": "greenappleFF",
+      "subreddit": "astrojs",
+      "created_utc": 1705127914,
+      "score": 1,
+      "link_id": "t3_195hnuu",
+      "parent_id": "t3_195hnuu"
+    },
+    {
+      "id": "kg9ij0n",
+      "body": "This app looks and feels awesome. How long did it take you to build it?",
+      "author": "greenappleFF",
+      "subreddit": "FlutterDev",
+      "created_utc": 1704366568,
+      "score": 3,
+      "link_id": "t3_18yacby",
+      "parent_id": "t3_18yacby"
+    }
+  ]
+}

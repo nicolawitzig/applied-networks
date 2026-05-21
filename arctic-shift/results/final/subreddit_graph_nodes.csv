@@ -1,0 +1,122 @@
+subreddit,dominant_voice_type,voice_distribution,user_count,community,weighted_degree,eigenvector_centrality
+Ratschlag,external_individual,"{""external_individual"": 12, ""decentral_individual"": 12, ""former_individual"": 4}",28,0,417,0.035407
+GradSchool,external_individual,"{""external_individual"": 17, ""decentral_individual"": 14, ""former_individual"": 2, ""decentral"": 1}",34,1,289,0.028002
+ethz,decentral_individual,"{""external_individual"": 455, ""decentral_individual"": 563, ""former_individual"": 123, ""decentral"": 14}",1155,1,5352,0.431522
+gradadmissions,external_individual,"{""external_individual"": 42, ""decentral_individual"": 30, ""former_individual"": 6, ""decentral"": 1}",79,1,493,0.049314
+jobs,external_individual,"{""decentral_individual"": 7, ""former_individual"": 7, ""external_individual"": 10}",24,1,356,0.034113
+UZH,decentral_individual,"{""decentral_individual"": 29, ""external_individual"": 29, ""former_individual"": 4, ""decentral"": 1}",63,1,516,0.059218
+ask,external_individual,"{""decentral_individual"": 13, ""external_individual"": 32, ""former_individual"": 7, ""decentral"": 1}",53,2,1076,0.090307
+csMajors,external_individual,"{""decentral_individual"": 21, ""former_individual"": 2, ""external_individual"": 30, ""decentral"": 1}",54,1,530,0.048277
+Switzerland,external_individual,"{""decentral_individual"": 137, ""external_individual"": 146, ""former_individual"": 58, ""decentral"": 4}",345,1,3776,0.356854
+Studium,decentral_individual,"{""external_individual"": 13, ""decentral_individual"": 20, ""former_individual"": 4}",37,0,481,0.041214
+de,decentral_individual,"{""external_individual"": 14, ""decentral_individual"": 17, ""former_individual"": 5}",36,0,644,0.054261
+interestingasfuck,external_individual,"{""former_individual"": 15, ""decentral_individual"": 25, ""external_individual"": 37, ""decentral"": 2}",79,3,1692,0.13701
+basel,external_individual,"{""former_individual"": 6, ""external_individual"": 20, ""decentral_individual"": 8}",34,2,622,0.05805
+pics,external_individual,"{""former_individual"": 15, ""decentral_individual"": 21, ""external_individual"": 41, ""decentral"": 2}",79,3,1608,0.133514
+cscareerquestions,external_individual,"{""former_individual"": 5, ""external_individual"": 23, ""decentral_individual"": 8, ""decentral"": 1}",37,1,417,0.039881
+quant,external_individual,"{""former_individual"": 2, ""decentral_individual"": 14, ""external_individual"": 15}",31,1,190,0.020224
+zurich,decentral_individual,"{""former_individual"": 35, ""decentral_individual"": 107, ""external_individual"": 94, ""decentral"": 7}",243,1,2600,0.266101
+cscareerquestionsEU,external_individual,"{""former_individual"": 4, ""decentral_individual"": 19, ""external_individual"": 29}",52,1,536,0.049667
+BUENZLI,decentral_individual,"{""decentral_individual"": 30, ""external_individual"": 27, ""former_individual"": 11, ""decentral"": 1}",69,0,1219,0.111688
+wallstreetbets,external_individual,"{""external_individual"": 22, ""decentral_individual"": 14, ""decentral"": 2, ""former_individual"": 5}",43,0,693,0.062451
+askswitzerland,external_individual,"{""external_individual"": 134, ""decentral_individual"": 108, ""former_individual"": 44, ""decentral"": 2}",288,1,3479,0.327665
+SwissPersonalFinance,external_individual,"{""external_individual"": 56, ""former_individual"": 27, ""decentral_individual"": 34, ""decentral"": 1}",118,1,1661,0.166495
+MachineLearning,external_individual,"{""external_individual"": 27, ""decentral_individual"": 15, ""former_individual"": 3}",45,1,435,0.041835
+FinancialCareers,external_individual,"{""external_individual"": 25, ""decentral_individual"": 10, ""former_individual"": 3}",38,1,453,0.044295
+malelivingspace,external_individual,"{""external_individual"": 15, ""decentral_individual"": 3, ""former_individual"": 3, ""decentral"": 1}",22,3,510,0.039742
+Lausanne,external_individual,"{""external_individual"": 34, ""decentral_individual"": 6, ""former_individual"": 6}",46,1,725,0.071299
+EPFL,external_individual,"{""external_individual"": 77, ""decentral_individual"": 45, ""decentral"": 1, ""former_individual"": 10}",133,1,957,0.104498
+suisse,external_individual,"{""external_individual"": 35, ""decentral"": 2, ""decentral_individual"": 7, ""former_individual"": 3}",47,1,708,0.073521
+bern,external_individual,"{""external_individual"": 13, ""decentral_individual"": 10, ""former_individual"": 7}",30,0,457,0.044915
+geneva,external_individual,"{""external_individual"": 32, ""former_individual"": 8, ""decentral_individual"": 11, ""decentral"": 1}",52,1,941,0.088907
+cats,decentral_individual,"{""decentral_individual"": 15, ""external_individual"": 11, ""former_individual"": 4}",30,0,429,0.040564
+interesting,external_individual,"{""decentral_individual"": 8, ""external_individual"": 9, ""former_individual"": 4}",21,3,531,0.043166
+mathmemes,decentral_individual,"{""decentral_individual"": 13, ""external_individual"": 11, ""former_individual"": 5}",29,3,514,0.041792
+pcmasterrace,external_individual,"{""decentral_individual"": 13, ""external_individual"": 19, ""former_individual"": 5}",37,3,633,0.054602
+dankmemes,decentral_individual,"{""decentral_individual"": 10, ""former_individual"": 1, ""external_individual"": 8, ""decentral"": 1}",20,3,355,0.029602
+BeAmazed,external_individual,"{""decentral_individual"": 14, ""external_individual"": 19, ""former_individual"": 6, ""decentral"": 2}",41,3,950,0.074967
+Piracy,decentral_individual,"{""decentral_individual"": 13, ""former_individual"": 3, ""external_individual"": 5, ""decentral"": 1}",22,3,392,0.033627
+ProgrammerHumor,decentral_individual,"{""decentral_individual"": 16, ""external_individual"": 15, ""former_individual"": 5}",36,3,822,0.065022
+AskReddit,external_individual,"{""decentral_individual"": 51, ""external_individual"": 72, ""former_individual"": 28, ""decentral"": 2}",153,2,2272,0.201873
+meirl,external_individual,"{""decentral_individual"": 11, ""external_individual"": 20, ""former_individual"": 4}",35,3,940,0.07246
+postdoc,external_individual,"{""external_individual"": 9, ""former_individual"": 2, ""decentral"": 1, ""decentral_individual"": 8}",20,1,196,0.022675
+Universitaly,external_individual,"{""external_individual"": 15, ""decentral_individual"": 8, ""former_individual"": 1}",24,1,113,0.015217
+datascience,decentral_individual,"{""decentral_individual"": 11, ""external_individual"": 10, ""decentral"": 1, ""former_individual"": 1}",23,1,210,0.020144
+RandomThoughts,external_individual,"{""decentral_individual"": 11, ""former_individual"": 5, ""external_individual"": 21}",37,2,739,0.063701
+ich_iel,decentral_individual,"{""decentral_individual"": 13, ""external_individual"": 9, ""former_individual"": 4}",26,3,561,0.044808
+KidsAreFuckingStupid,external_individual,"{""decentral_individual"": 5, ""external_individual"": 13, ""decentral"": 2, ""former_individual"": 1}",21,3,536,0.0442
+soccer,external_individual,"{""decentral_individual"": 7, ""former_individual"": 5, ""external_individual"": 8}",20,3,282,0.026374
+geography,external_individual,"{""decentral_individual"": 11, ""external_individual"": 20, ""former_individual"": 5}",36,3,665,0.058528
+todayilearned,external_individual,"{""decentral_individual"": 8, ""former_individual"": 11, ""external_individual"": 13}",32,3,719,0.056402
+PeterExplainsTheJoke,external_individual,"{""decentral_individual"": 8, ""external_individual"": 14, ""former_individual"": 4}",26,3,624,0.049131
+Unexpected,external_individual,"{""decentral_individual"": 8, ""external_individual"": 11, ""decentral"": 1, ""former_individual"": 1}",21,3,595,0.045969
+unpopularopinion,external_individual,"{""decentral_individual"": 10, ""former_individual"": 8, ""external_individual"": 16, ""decentral"": 1}",35,3,824,0.064925
+meme,external_individual,"{""decentral_individual"": 9, ""external_individual"": 12, ""former_individual"": 4}",25,3,705,0.054533
+theydidthemath,external_individual,"{""decentral_individual"": 8, ""former_individual"": 5, ""external_individual"": 14}",27,3,593,0.048001
+Funnymemes,external_individual,"{""decentral_individual"": 8, ""former_individual"": 3, ""external_individual"": 15}",26,3,675,0.053081
+technology,decentral_individual,"{""decentral_individual"": 13, ""external_individual"": 11, ""former_individual"": 8}",32,3,708,0.058894
+nextfuckinglevel,external_individual,"{""decentral_individual"": 8, ""former_individual"": 5, ""external_individual"": 20, ""decentral"": 1}",34,3,945,0.072538
+Damnthatsinteresting,external_individual,"{""decentral_individual"": 18, ""former_individual"": 6, ""external_individual"": 34, ""decentral"": 1}",59,3,1373,0.10835
+funny,decentral_individual,"{""decentral_individual"": 8, ""external_individual"": 8, ""former_individual"": 4}",20,3,440,0.036232
+memes,external_individual,"{""decentral_individual"": 11, ""external_individual"": 18, ""former_individual"": 3}",32,3,815,0.062414
+NoStupidQuestions,external_individual,"{""decentral_individual"": 19, ""external_individual"": 37, ""former_individual"": 14, ""decentral"": 2}",72,2,1469,0.121761
+dataisbeautiful,decentral_individual,"{""decentral_individual"": 15, ""decentral"": 2, ""former_individual"": 5, ""external_individual"": 15}",37,3,771,0.063462
+ChatGPT,external_individual,"{""decentral_individual"": 19, ""external_individual"": 21, ""former_individual"": 3}",43,1,745,0.06323
+mildlyinteresting,external_individual,"{""decentral_individual"": 14, ""former_individual"": 8, ""external_individual"": 32}",54,3,1250,0.103
+TikTokCringe,external_individual,"{""decentral_individual"": 7, ""external_individual"": 16, ""former_individual"": 4, ""decentral"": 1}",28,3,659,0.052602
+MapPorn,external_individual,"{""decentral_individual"": 23, ""external_individual"": 43, ""former_individual"": 11, ""decentral"": 1}",78,3,1662,0.133738
+FluentInFinance,external_individual,"{""decentral_individual"": 3, ""external_individual"": 14, ""former_individual"": 4}",21,3,597,0.044984
+antiwork,external_individual,"{""decentral_individual"": 7, ""external_individual"": 12, ""decentral"": 1, ""former_individual"": 4}",24,3,497,0.041934
+coolguides,external_individual,"{""decentral_individual"": 7, ""external_individual"": 9, ""former_individual"": 4, ""decentral"": 1}",21,3,551,0.043705
+mildlyinfuriating,external_individual,"{""decentral_individual"": 24, ""external_individual"": 49, ""former_individual"": 15, ""decentral"": 2}",90,3,1861,0.153968
+Futurology,decentral_individual,"{""decentral_individual"": 13, ""external_individual"": 7, ""former_individual"": 5}",25,3,440,0.037142
+europe,external_individual,"{""decentral_individual"": 29, ""external_individual"": 44, ""former_individual"": 13, ""decentral"": 1}",87,3,1710,0.143607
+schwiiz,external_individual,"{""external_individual"": 30, ""decentral_individual"": 25, ""former_individual"": 15, ""decentral"": 1}",71,0,1139,0.11017
+relationship_advice,external_individual,"{""external_individual"": 22, ""decentral_individual"": 12, ""former_individual"": 3}",37,1,359,0.038611
+formula1,external_individual,"{""external_individual"": 9, ""former_individual"": 6, ""decentral_individual"": 5, ""decentral"": 1}",21,3,285,0.027881
+AskAGerman,external_individual,"{""external_individual"": 19, ""former_individual"": 5, ""decentral_individual"": 7, ""decentral"": 1}",32,0,524,0.043261
+Munich,external_individual,"{""external_individual"": 10, ""decentral_individual"": 8, ""former_individual"": 2}",20,0,230,0.021571
+StudyInTheNetherlands,external_individual,"{""decentral_individual"": 6, ""external_individual"": 13, ""former_individual"": 1}",20,1,114,0.012773
+AITAH,external_individual,"{""external_individual"": 30, ""former_individual"": 10, ""decentral_individual"": 16, ""decentral"": 2}",58,2,1131,0.094997
+Indians_StudyAbroad,external_individual,"{""external_individual"": 15, ""decentral_individual"": 6, ""former_individual"": 2}",23,1,179,0.016424
+AmItheAsshole,external_individual,"{""external_individual"": 15, ""decentral_individual"": 6, ""former_individual"": 7}",28,2,500,0.045212
+MadeMeSmile,external_individual,"{""external_individual"": 20, ""decentral_individual"": 14, ""former_individual"": 4}",38,3,938,0.074338
+worldnews,external_individual,"{""external_individual"": 13, ""decentral"": 1, ""decentral_individual"": 12, ""former_individual"": 6}",32,3,668,0.056822
+germany,external_individual,"{""external_individual"": 49, ""decentral_individual"": 25, ""decentral"": 3, ""former_individual"": 10}",87,0,1478,0.125155
+PhD,external_individual,"{""former_individual"": 6, ""external_individual"": 31, ""decentral_individual"": 23, ""decentral"": 1}",61,1,741,0.069368
+mapporncirclejerk,external_individual,"{""external_individual"": 14, ""decentral_individual"": 12, ""former_individual"": 5}",31,3,667,0.054147
+EngineeringStudents,external_individual,"{""external_individual"": 13, ""former_individual"": 2, ""decentral_individual"": 8}",23,1,301,0.025097
+college,external_individual,"{""external_individual"": 12, ""former_individual"": 4, ""decentral_individual"": 4}",20,1,264,0.023913
+math,decentral_individual,"{""external_individual"": 17, ""decentral_individual"": 18, ""former_individual"": 6}",41,1,401,0.035937
+facepalm,external_individual,"{""external_individual"": 30, ""decentral_individual"": 18, ""decentral"": 3, ""former_individual"": 8}",59,3,1373,0.108823
+Netherlands,external_individual,"{""decentral_individual"": 13, ""external_individual"": 25, ""former_individual"": 2}",40,2,606,0.05655
+recruitinghell,external_individual,"{""external_individual"": 17, ""decentral"": 2, ""former_individual"": 4, ""decentral_individual"": 3}",26,2,498,0.043665
+clevercomebacks,external_individual,"{""external_individual"": 21, ""former_individual"": 6, ""decentral_individual"": 10}",37,3,933,0.074741
+AskAcademia,external_individual,"{""external_individual"": 13, ""former_individual"": 6, ""decentral_individual"": 10, ""decentral"": 1}",30,1,275,0.027677
+rareinsults,external_individual,"{""external_individual"": 12, ""decentral_individual"": 7, ""former_individual"": 3}",22,3,595,0.046903
+youtube,decentral_individual,"{""external_individual"": 8, ""decentral_individual"": 10, ""former_individual"": 3}",21,3,453,0.037311
+AmIOverreacting,external_individual,"{""external_individual"": 14, ""decentral_individual"": 4, ""decentral"": 1, ""former_individual"": 4}",23,2,488,0.042836
+learnmachinelearning,external_individual,"{""external_individual"": 17, ""former_individual"": 3, ""decentral_individual"": 11}",31,1,268,0.025686
+German,external_individual,"{""former_individual"": 4, ""decentral_individual"": 10, ""external_individual"": 16}",30,1,422,0.039999
+singularity,external_individual,"{""former_individual"": 2, ""external_individual"": 13, ""decentral_individual"": 6, ""decentral"": 1}",22,1,362,0.032311
+travel,external_individual,"{""former_individual"": 5, ""decentral"": 2, ""external_individual"": 15, ""decentral_individual"": 7}",29,1,405,0.040394
+Finanzen,decentral_individual,"{""decentral_individual"": 13, ""external_individual"": 12, ""former_individual"": 3}",28,0,446,0.038078
+LinkedInLunatics,external_individual,"{""decentral"": 2, ""external_individual"": 14, ""decentral_individual"": 8, ""former_individual"": 3}",27,3,605,0.05047
+self,external_individual,"{""external_individual"": 25, ""former_individual"": 8, ""decentral_individual"": 5}",38,2,718,0.063262
+Austria,external_individual,"{""external_individual"": 9, ""decentral_individual"": 7, ""former_individual"": 4}",20,0,268,0.024815
+tumunich,external_individual,"{""external_individual"": 19, ""decentral_individual"": 13, ""former_individual"": 1}",33,1,201,0.020613
+careerguidance,external_individual,"{""external_individual"": 25, ""former_individual"": 6, ""decentral_individual"": 10}",41,1,649,0.058275
+mildyinteresting,external_individual,"{""decentral_individual"": 6, ""former_individual"": 6, ""external_individual"": 8}",20,3,548,0.044834
+languagelearning,external_individual,"{""decentral_individual"": 6, ""external_individual"": 15, ""former_individual"": 4, ""decentral"": 1}",26,1,339,0.033026
+2westerneurope4u,decentral_individual,"{""decentral_individual"": 11, ""external_individual"": 11, ""former_individual"": 3, ""decentral"": 1}",26,3,475,0.039707
+SwitzerlandIsFake,decentral_individual,"{""decentral_individual"": 9, ""external_individual"": 9, ""former_individual"": 3}",21,0,385,0.036449
+ApplyingToCollege,external_individual,"{""decentral_individual"": 11, ""external_individual"": 13, ""former_individual"": 3}",27,1,248,0.020686
+Advice,external_individual,"{""external_individual"": 17, ""decentral_individual"": 11, ""former_individual"": 3}",31,2,376,0.036649
+gaming,external_individual,"{""decentral_individual"": 10, ""external_individual"": 13, ""former_individual"": 3}",26,3,442,0.040007
+GenZ,external_individual,"{""external_individual"": 13, ""former_individual"": 4, ""decentral_individual"": 12, ""decentral"": 1}",30,3,733,0.057484
+AMA,external_individual,"{""external_individual"": 13, ""decentral_individual"": 6, ""former_individual"": 4}",23,2,414,0.036108
+teenagers,external_individual,"{""external_individual"": 11, ""decentral_individual"": 11, ""decentral"": 2, ""former_individual"": 2}",26,3,413,0.035683
+Adulting,external_individual,"{""decentral_individual"": 6, ""external_individual"": 12, ""former_individual"": 4}",22,2,356,0.030647
+notinteresting,decentral_individual,"{""decentral_individual"": 11, ""external_individual"": 9, ""former_individual"": 1}",21,3,439,0.036481
+UniUK,external_individual,"{""external_individual"": 11, ""former_individual"": 5, ""decentral_individual"": 4}",20,2,233,0.02157
+AskEurope,external_individual,"{""former_individual"": 2, ""external_individual"": 12, ""decentral_individual"": 10}",24,1,416,0.035503

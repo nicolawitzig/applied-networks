@@ -1,0 +1,1078 @@
+{
+  "username": "terminal__object",
+  "posts": [
+    {
+      "id": "1hjztyw",
+      "title": "Most detailed account of ownership and borrowing",
+      "author": "terminal__object",
+      "subreddit": "rust",
+      "created_utc": 1734878752,
+      "score": 0,
+      "num_comments": 9,
+      "selftext": "Hello, I am studying Rust mainly from The Book and the docs. The topics of ownership/borrowing seem to be really crucial and I have a tendency to only really get things when I understand them at the most detailed and fine-grained level possible. With this in mind, what is the most detailed and comprehensive resource that explains ownership/borrowing/lifetimes in Rust? ",
+      "url": "https://www.reddit.com/r/rust/comments/1hjztyw/most_detailed_account_of_ownership_and_borrowing/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4lpj42",
+      "body": "what can anyone here possibly say about this except to write to the admissions office?",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1735600199,
+      "score": 15,
+      "link_id": "t3_1hq0002",
+      "parent_id": "t3_1hq0002"
+    },
+    {
+      "id": "m4l00dm",
+      "body": "beh certo, ci sono i fuochi in piazza san marco",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1735592135,
+      "score": 1,
+      "link_id": "t3_1hotnl2",
+      "parent_id": "t1_m4idd52"
+    },
+    {
+      "id": "m4i2y8z",
+      "body": "There’s a nice dinner at the Danieli Hotel, probably about 500 euros pp",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1735552613,
+      "score": 1,
+      "link_id": "t3_1hotnl2",
+      "parent_id": "t3_1hotnl2"
+    },
+    {
+      "id": "m4gj5hs",
+      "body": "you were just unlucky is my guess. Plus (in my opinion) Lido is a bit depressing this time of the year so locals might not be in the best mood now :)",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1735525481,
+      "score": 4,
+      "link_id": "t3_1hp6t73",
+      "parent_id": "t3_1hp6t73"
+    },
+    {
+      "id": "m4ct5ta",
+      "body": "MIT is a bit of a pipe dream. ETHZ is realistic but of course you will need to stay focused on those subjects, especially german. Keep in mind maths is not extremely prestige oriented like, say, economics so if you’re good you will be fine - ok, maybe not in tbilisi, but getting somewhere good for your master should be enough.",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1735481683,
+      "score": 3,
+      "link_id": "t3_1hothjg",
+      "parent_id": "t3_1hothjg"
+    },
+    {
+      "id": "m3ks5y1",
+      "body": "of course you’re on time. The advice is *always* to try and be in Venice.",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1735037216,
+      "score": 3,
+      "link_id": "t3_1hl99q4",
+      "parent_id": "t3_1hl99q4"
+    },
+    {
+      "id": "m3cp7i9",
+      "body": "thanks",
+      "author": "terminal__object",
+      "subreddit": "rust",
+      "created_utc": 1734907463,
+      "score": 1,
+      "link_id": "t3_1hjztyw",
+      "parent_id": "t1_m3cli3s"
+    },
+    {
+      "id": "m3amntk",
+      "body": "by plain english I meant “not pure code”",
+      "author": "terminal__object",
+      "subreddit": "rust",
+      "created_utc": 1734882348,
+      "score": 2,
+      "link_id": "t3_1hjztyw",
+      "parent_id": "t1_m3aj531"
+    },
+    {
+      "id": "m3afngv",
+      "body": "Thank you for the reply. This would force me to read the code and make deductions. Is there no detailed account in plain English?",
+      "author": "terminal__object",
+      "subreddit": "rust",
+      "created_utc": 1734879730,
+      "score": 1,
+      "link_id": "t3_1hjztyw",
+      "parent_id": "t1_m3aeb7s"
+    },
+    {
+      "id": "m2tjio5",
+      "body": "non è male per cose vegetariane",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1734615382,
+      "score": 2,
+      "link_id": "t3_1hhpwdc",
+      "parent_id": "t1_m2tg54i"
+    },
+    {
+      "id": "m2bmk4l",
+      "body": "well it does have some brand recognition",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1734353997,
+      "score": 2,
+      "link_id": "t3_1hffs4r",
+      "parent_id": "t1_m2bj01k"
+    },
+    {
+      "id": "m2bmgml",
+      "body": "ah ok i didn’t know",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1734353953,
+      "score": 1,
+      "link_id": "t3_1hffs4r",
+      "parent_id": "t1_m2bmabi"
+    },
+    {
+      "id": "m2bgcra",
+      "body": "you can’t be paid for thesis work that gives you university credits",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1734350958,
+      "score": 3,
+      "link_id": "t3_1hffs4r",
+      "parent_id": "t1_m2b9800"
+    },
+    {
+      "id": "m2bg8kp",
+      "body": "internship not paid? IBM to toilet for real",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1734350895,
+      "score": 17,
+      "link_id": "t3_1hffs4r",
+      "parent_id": "t3_1hffs4r"
+    },
+    {
+      "id": "m10bvib",
+      "body": "Thanks, interesting book",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1733650179,
+      "score": 1,
+      "link_id": "t3_1h8pb4l",
+      "parent_id": "t3_1h8pb4l"
+    },
+    {
+      "id": "m0ozju9",
+      "body": "and it still kind of is a bargain, the lion’s share of the expenses for eth students will definitely still be living expenses.",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1733485492,
+      "score": 11,
+      "link_id": "t3_1h7yxgb",
+      "parent_id": "t1_m0oy9h0"
+    },
+    {
+      "id": "m0l6d3s",
+      "body": "it is a lot like that. Or you win against a few hundred people who’ve been leetcoding for a while.",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1733427411,
+      "score": 2,
+      "link_id": "t3_1h7ew38",
+      "parent_id": "t1_m0kytoy"
+    },
+    {
+      "id": "m0l5zrw",
+      "body": "no",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1733427295,
+      "score": 4,
+      "link_id": "t3_1h7hc5a",
+      "parent_id": "t3_1h7hc5a"
+    },
+    {
+      "id": "lyy0guc",
+      "body": "L’analogia con lo stage non regge neanche se ci appoggi sopra una scoreggia. E poi era una delle feature per cui sono stati eletti.",
+      "author": "terminal__object",
+      "subreddit": "italy",
+      "created_utc": 1732559285,
+      "score": 0,
+      "link_id": "t3_1gyudaw",
+      "parent_id": "t1_lyswqba"
+    },
+    {
+      "id": "lyvvy9u",
+      "body": "ha molto senso preoccuparsi del rischio relativo di sottopopolazioni invece, visto che è una questione di principio. E infatti il motivo per cui non lo si fa è la difficoltà di gestire la questione politicamente.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732529738,
+      "score": 0,
+      "link_id": "t3_1gyp89w",
+      "parent_id": "t1_lyvkrr8"
+    },
+    {
+      "id": "lyqk6i0",
+      "body": "sicuramente per tante incoerenze di fondo, per esempio nel modo di porsi schizofrenico nei confronti di italiani e immigrati di un certo background. Immigrati che importano culture in cui la figura del patriarca esiste, di fatto, ancora, dovrebbero essere il primo nemico in questo tipo di manifestazioni. Ma siccome non è una cosa “abbastanza de sinistra” si soprassiede, perdendo credibilità.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732455372,
+      "score": 29,
+      "link_id": "t3_1gyp89w",
+      "parent_id": "t3_1gyp89w"
+    },
+    {
+      "id": "lyqjs49",
+      "body": "Le manifestazioni non cambiano la mentalità di nessuno, sono un rigurgito delle folle. A chi non è d’accordo, i manifestanti stanno ancora più sul cazzo.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732455206,
+      "score": 5,
+      "link_id": "t3_1gyp89w",
+      "parent_id": "t1_lyq8fjk"
+    },
+    {
+      "id": "lyqdpzs",
+      "body": "I’m sorry about your experience. If you don’t want to stay in Venice, skip to the center of Treviso or Padova directly. Mestre and Marghera are mostly shitholes.",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1732452441,
+      "score": 4,
+      "link_id": "t3_1gynzzq",
+      "parent_id": "t3_1gynzzq"
+    },
+    {
+      "id": "lyq12ry",
+      "body": "so you know no multi variable calculus? You don’t know what a gradient is?",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1732445194,
+      "score": 0,
+      "link_id": "t3_1gxldc2",
+      "parent_id": "t3_1gxldc2"
+    },
+    {
+      "id": "lynnd27",
+      "body": "Almost certainly harder",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1732404699,
+      "score": 0,
+      "link_id": "t3_1gy4v9k",
+      "parent_id": "t3_1gy4v9k"
+    },
+    {
+      "id": "lyku5jt",
+      "body": "I don’t think it’s gonna work out the way you think, in the sense that Zurich is probably not at all the best place in the world for this sort of approach",
+      "author": "terminal__object",
+      "subreddit": "zurich",
+      "created_utc": 1732370426,
+      "score": 3,
+      "link_id": "t3_1gxoufs",
+      "parent_id": "t3_1gxoufs"
+    },
+    {
+      "id": "lyi8tjo",
+      "body": "Dipende dalla materia, in certe è fattibile mantenere la motivazione da autodidatta, in altre non è realistico",
+      "author": "terminal__object",
+      "subreddit": "italy",
+      "created_utc": 1732322887,
+      "score": 1,
+      "link_id": "t3_1gx1j88",
+      "parent_id": "t3_1gx1j88"
+    },
+    {
+      "id": "lyak03e",
+      "body": "Ti consiglio un percorso di psicoterapia il prima possibile",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732216991,
+      "score": 1,
+      "link_id": "t3_1gwmd1y",
+      "parent_id": "t3_1gwmd1y"
+    },
+    {
+      "id": "lyaffsv",
+      "body": "certo",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732215618,
+      "score": 1,
+      "link_id": "t3_1gwjy6x",
+      "parent_id": "t1_lyaeogp"
+    },
+    {
+      "id": "lya8iye",
+      "body": "ma… trovare qualcosa che ti piace nella vita? Hai idea di quante scelte tu abbia? È probabile che ci sia un’attività per cui hai un po’ di talento e che ti renderebbe felice svolgere. Cercarla?",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732213558,
+      "score": 2,
+      "link_id": "t3_1gwjy6x",
+      "parent_id": "t3_1gwjy6x"
+    },
+    {
+      "id": "ly9emdd",
+      "body": "certo",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732204175,
+      "score": 1,
+      "link_id": "t3_1gvuj4n",
+      "parent_id": "t1_ly980p3"
+    },
+    {
+      "id": "ly8e5kv",
+      "body": "perché cosa pensi che succeda se hai figli a 40 anni come uomo? Crolla il mondo?",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732185946,
+      "score": 4,
+      "link_id": "t3_1gwc7q5",
+      "parent_id": "t1_ly87cpa"
+    },
+    {
+      "id": "ly51r1o",
+      "body": "ma a che favole credi? I paesi bassi “il paese più felice del mondo”, ma per cortesia.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732127915,
+      "score": 36,
+      "link_id": "t3_1gvuj4n",
+      "parent_id": "t1_ly4zh43"
+    },
+    {
+      "id": "ly4z1km",
+      "body": "no, non può, è uno spreco di denaro, perché evitare i femminicidi vorrebbe dire riconoscere e agire su quella manciata di allievi abbastanza malata e vulnerabile da poter commettere un atto simile. La scuola non riuscirà mai ad avere la capacità di agire in maniera così granulare e profonda. Avrà un qualche effetto ma sicuramente di livello secondario.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732127099,
+      "score": 2,
+      "link_id": "t3_1gvv2ol",
+      "parent_id": "t3_1gvv2ol"
+    },
+    {
+      "id": "ly4yich",
+      "body": "ma per cortesia, e che futuro disastroso poi, sembri aver subito un lavaggio del cervello.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732126937,
+      "score": 1,
+      "link_id": "t3_1gvv2ol",
+      "parent_id": "t3_1gvv2ol"
+    },
+    {
+      "id": "ly4yavc",
+      "body": "non puoi permetterti neanche di non avere supporto però",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732126873,
+      "score": 2,
+      "link_id": "t3_1gvphsf",
+      "parent_id": "t1_ly4xnv3"
+    },
+    {
+      "id": "ly4xag6",
+      "body": "ti serve sostegno psicologico di qualche tipo, o prenderti una pausa dall’uni.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732126567,
+      "score": 2,
+      "link_id": "t3_1gvphsf",
+      "parent_id": "t1_ly4vejt"
+    },
+    {
+      "id": "ly4ps36",
+      "body": "la tua soluzione non è geografica. l’australia non era la parte insostituibile del tuo cambiamento",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732124303,
+      "score": 111,
+      "link_id": "t3_1gvuj4n",
+      "parent_id": "t1_ly4os6v"
+    },
+    {
+      "id": "ly4og8z",
+      "body": "come mai ti hanno cacciato?",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732123896,
+      "score": 1,
+      "link_id": "t3_1gvphsf",
+      "parent_id": "t3_1gvphsf"
+    },
+    {
+      "id": "ly3kdz7",
+      "body": "non è che le ragazze siano violente, è che ti esponi a episodi del tipo che hai descritto. Se la tua autostima non è al top o sei una persona sensibile non è il massimo, secondo me.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732110917,
+      "score": 1,
+      "link_id": "t3_1gv9b7y",
+      "parent_id": "t1_ly3bweh"
+    },
+    {
+      "id": "ly39wta",
+      "body": "la psicoterapia può essere un ottimo strumento per capire in che modo manchi o sbagli nel relazionarti con gli altri",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732106713,
+      "score": 1,
+      "link_id": "t3_1gv85fo",
+      "parent_id": "t3_1gv85fo"
+    },
+    {
+      "id": "ly2z5go",
+      "body": "Non insistere nemmeno per un secondo e pensa alla prossima. Se un giorno ti riscrive, meglio, se no amen. Le app sono posti violenti, se non ti senti al top evitale.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732101261,
+      "score": 1,
+      "link_id": "t3_1gv9b7y",
+      "parent_id": "t3_1gv9b7y"
+    },
+    {
+      "id": "lxyo9wi",
+      "body": "13 è ritardo mentale conclamato.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732039288,
+      "score": 3,
+      "link_id": "t3_1gu78z2",
+      "parent_id": "t1_lxt6mrn"
+    },
+    {
+      "id": "lxxr3f6",
+      "body": "yes you are",
+      "author": "terminal__object",
+      "subreddit": "AITAH",
+      "created_utc": 1732029305,
+      "score": -3,
+      "link_id": "t3_1guhpww",
+      "parent_id": "t3_1guhpww"
+    },
+    {
+      "id": "lxx55j8",
+      "body": "ci rimetti solo tu ad avere aspettative e vederle deluse. È una tua scelta comunque, ed esula dalla psicologia",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732021404,
+      "score": 2,
+      "link_id": "t3_1guf2q8",
+      "parent_id": "t1_lxwwwj3"
+    },
+    {
+      "id": "lxwtyke",
+      "body": "beh ok, sicuramente puoi disprezzare la sua falsità, ma ti consiglio semplicemente di non aspettarti coerenza e altruismo dalle persone. Gli esseri umani sono opportunisti e incoerenti di natura.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732016122,
+      "score": 1,
+      "link_id": "t3_1guf2q8",
+      "parent_id": "t1_lxwrl2t"
+    },
+    {
+      "id": "lxwqflw",
+      "body": "Stare col tuo ragazzo è una tua prerogativa, ma mi sembra che covi ancora rancore ovviamente, e non potendolo sfogare completamente sul tuo ragazzo vuoi sfogarti su di lei. Ma lei non ti doveva nulla, era sua amica, non tua. In questo schema lei è sostituibile con qualunque altra tizia attizzasse il tuo ragazzo, mentre il tuo ragazzo non è sostituibile.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1732014092,
+      "score": 2,
+      "link_id": "t3_1guf2q8",
+      "parent_id": "t3_1guf2q8"
+    },
+    {
+      "id": "lxwnj0w",
+      "body": "no, questa descrizione è riduttiva",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1732012280,
+      "score": 2,
+      "link_id": "t3_1gud7jw",
+      "parent_id": "t1_lxt1twu"
+    },
+    {
+      "id": "lxwei2m",
+      "body": "Io sono entrato alle 19.30 e alla gente prima di me han fatto buttate via tutto il cibo",
+      "author": "terminal__object",
+      "subreddit": "firenze",
+      "created_utc": 1732006263,
+      "score": 1,
+      "link_id": "t3_1gucctf",
+      "parent_id": "t1_lxtt1ml"
+    },
+    {
+      "id": "lxttw0j",
+      "body": "organizzato molto male. pit ENORME, tentativi di estrarre quanto più denaro possibile dai partecipanti al limite del ridicolo.",
+      "author": "terminal__object",
+      "subreddit": "firenze",
+      "created_utc": 1731967636,
+      "score": 3,
+      "link_id": "t3_1gucctf",
+      "parent_id": "t3_1gucctf"
+    },
+    {
+      "id": "lxsvpps",
+      "body": "occuperà anche il 2% del tempo ma importa più del 2%",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731957255,
+      "score": 2,
+      "link_id": "t3_1gu6mxc",
+      "parent_id": "t1_lxser77"
+    },
+    {
+      "id": "lxsn0z4",
+      "body": "sul fatto che l’affermazione di valditara fosse completamente a sproposito non ci piove, per quanto sia vera. Del resto, è un cretino. Nel caso specifico di turetta trovo che abbia avuto un effetto importante il fatto che nessuno attorno a lui si sia veramente allarmato. Se mio figlio comincia a dire che vuole farla finita e tormenta una ragazza io lo mando da uno bravo a costo di fargli un tso.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731954648,
+      "score": 0,
+      "link_id": "t3_1gu5uo4",
+      "parent_id": "t1_lxsk3sq"
+    },
+    {
+      "id": "lxsfjxh",
+      "body": "non c’entra con l’omicidio di giulia cecchettin, statisticamente non c’entra nemmeno con l’incapacità del ragazzo veneto medio di ricevere un no, inteso come problema sociale. E io risultato di un problema di personalità di un ragazzo veneto in particolare su cui può avere influito qualche idea maschilista - influenza tutta da  quantificare e dimostrare.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731952395,
+      "score": 3,
+      "link_id": "t3_1gu5uo4",
+      "parent_id": "t3_1gu5uo4"
+    },
+    {
+      "id": "lxs2mci",
+      "body": "Nessuno ha detto che la relazione debba consistere di bugie. Ma delle bugie, delle omissioni, delle rare scappatelle perfino, possono essere parte di una relazione altrimenti benefica e significativa. Non si conosce mai fino alla fine il proprio partner comunque, e nemmeno se stessi, e forse è meglio così, una conoscenza perfetta porterebbe alla noia",
+      "author": "terminal__object",
+      "subreddit": "CasualIT",
+      "created_utc": 1731948492,
+      "score": 1,
+      "link_id": "t3_1gtagv4",
+      "parent_id": "t1_lxrmrlw"
+    },
+    {
+      "id": "lxrkrqq",
+      "body": "Ma perché devi sentirti una merda? Scopati chi ti piace.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731942814,
+      "score": 13,
+      "link_id": "t3_1gu6mxc",
+      "parent_id": "t3_1gu6mxc"
+    },
+    {
+      "id": "lxrk3os",
+      "body": "per se stesso il senso lo decide lui. Le bugie possono fare parte di una relazione e infatti nel mondo reale ne fanno parte, sostanzialmente senza eccezioni.",
+      "author": "terminal__object",
+      "subreddit": "CasualIT",
+      "created_utc": 1731942585,
+      "score": 1,
+      "link_id": "t3_1gtagv4",
+      "parent_id": "t1_lxrjtbe"
+    },
+    {
+      "id": "lxr3lc9",
+      "body": "dare la colpa alla supposta difficoltà di accedere all’aborto è da manicomio",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731936442,
+      "score": 5,
+      "link_id": "t3_1gu09wy",
+      "parent_id": "t3_1gu09wy"
+    },
+    {
+      "id": "lxr3ds9",
+      "body": "È la relazione ad essere terapeutica, non la sequenza di parole che esce dalla bocca del terapeuta.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731936354,
+      "score": 1,
+      "link_id": "t3_1gtg137",
+      "parent_id": "t3_1gtg137"
+    },
+    {
+      "id": "lxr38ao",
+      "body": "non di quelli bravi, poco ma sicuro",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731936293,
+      "score": 1,
+      "link_id": "t3_1gtg137",
+      "parent_id": "t3_1gtg137"
+    },
+    {
+      "id": "lxr35xi",
+      "body": "not gonna happen, sorry",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1731936267,
+      "score": 3,
+      "link_id": "t3_1gu3v16",
+      "parent_id": "t3_1gu3v16"
+    },
+    {
+      "id": "lxr2gdz",
+      "body": "Se sei capace di tenere il segreto e non pentirti, fai quello che vuoi. Andare con questa escort non significa buttare all’aria la relazione, contrariamente a quello che ti stanno dicendo gli altri, cui peraltro non interessa nulla della tua relazione. E poi che senso avrebbe non tradire solo perché qualche estraneo ti consiglia di non tradire? Sei tu a dare un senso alla tua relazione e a stabilirne i confini e l’importanza.",
+      "author": "terminal__object",
+      "subreddit": "CasualIT",
+      "created_utc": 1731935974,
+      "score": 0,
+      "link_id": "t3_1gtagv4",
+      "parent_id": "t3_1gtagv4"
+    },
+    {
+      "id": "lxm1xl5",
+      "body": "no non serve letizia, riposati, stai tranquilla",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731861146,
+      "score": 33,
+      "link_id": "t3_1gtga3j",
+      "parent_id": "t3_1gtga3j"
+    },
+    {
+      "id": "lxkux64",
+      "body": "arguably suggesting that a brown skinned person has to be on drugs in order to behave a certain way is quite the opposite of racist.",
+      "author": "terminal__object",
+      "subreddit": "zurich",
+      "created_utc": 1731842882,
+      "score": 5,
+      "link_id": "t3_1gssb1z",
+      "parent_id": "t1_lxhodk2"
+    },
+    {
+      "id": "lxkulrl",
+      "body": "ma perché! non sono mica stati rapinati dai casamonica!",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731842679,
+      "score": 11,
+      "link_id": "t3_1gsz4x2",
+      "parent_id": "t1_lxid11a"
+    },
+    {
+      "id": "lxko672",
+      "body": "È incredibile come volino così tanti consigli di merda proprio nel subreddit di psicologia. No, non è questo che dovresti volere dalla vita ma non c’è una ricetta, il significato devi metterlo tu. Ti consiglio di avvicinarti a qualche lettura esistenzialista, per esempio Yalom, per rimanere nell’ambito della psicologia o Frankl. In questo momento stai provvedendo a sopravvivere e mantenere i tuoi familiari, il che è un’ottima cosa ma non hai una passione per nulla, non hai una curiosità verso qualcosa che ti animi, o la necessità di fare qualcosa di creativo. Molte persone vivono in una sorta di torpore tutta la vita, pensando alla sopravvivenza senza guardarsi dentro. Forse tu ti stai svegliando.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731838437,
+      "score": 2,
+      "link_id": "t3_1gt0ezp",
+      "parent_id": "t3_1gt0ezp"
+    },
+    {
+      "id": "lxj4mw2",
+      "body": "paura di cosa esattamente? non deve mica denunciare una dinastia mafiosa…",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731809553,
+      "score": 17,
+      "link_id": "t3_1gsz4x2",
+      "parent_id": "t3_1gsz4x2"
+    },
+    {
+      "id": "lxgk8xl",
+      "body": "La maggior parte delle persone - comprensibilmente - non si riprende mai dal trauma di dover fare una cosa di cui non fotte loro un cazzo per 8 ore al giorno più o meno tutta la vita, dunque quando incontrano qualcuno che non lo fa provano fastidio o invidia, in linea di massima.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731777829,
+      "score": 6,
+      "link_id": "t3_1gspouw",
+      "parent_id": "t3_1gspouw"
+    },
+    {
+      "id": "lxgk232",
+      "body": "La maggior parte delle persone - comprensibilmente - non si riprende mai dal trauma di dover fare una cosa di cui non fotte loro un cazzo per 8 ore al giorno più o meno tutta la vita, dunque quando incontrano qualcuno che non lo fa provano fastidio o invidia, in linea di massima.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731777768,
+      "score": 1,
+      "link_id": "t3_1gspouw",
+      "parent_id": "t1_lxggvh1"
+    },
+    {
+      "id": "lxgircy",
+      "body": "è chiaramente quello che hai suggerito, inutile che nascondi la mano.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731777350,
+      "score": -4,
+      "link_id": "t3_1gsk4x2",
+      "parent_id": "t1_lxghn9f"
+    },
+    {
+      "id": "lxggggi",
+      "body": "e a te cosa te ne frega? Magari sono ricchi e possono permetterselo.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731776607,
+      "score": 13,
+      "link_id": "t3_1gspouw",
+      "parent_id": "t1_lxgg7vw"
+    },
+    {
+      "id": "lxfucw7",
+      "body": "Yet another implicit bias bs article.",
+      "author": "terminal__object",
+      "subreddit": "science",
+      "created_utc": 1731769184,
+      "score": 1,
+      "link_id": "t3_1gr83nn",
+      "parent_id": "t3_1gr83nn"
+    },
+    {
+      "id": "lxftvny",
+      "body": "blaming others",
+      "author": "terminal__object",
+      "subreddit": "AskReddit",
+      "created_utc": 1731769008,
+      "score": 1,
+      "link_id": "t3_1gslkye",
+      "parent_id": "t3_1gslkye"
+    },
+    {
+      "id": "lxfo9az",
+      "body": "Allora non è un’amica è una conoscente che vuole scoparsi",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731766858,
+      "score": 2,
+      "link_id": "t3_1grrp3t",
+      "parent_id": "t1_lxfn3ie"
+    },
+    {
+      "id": "lxfkzpw",
+      "body": "embeh?",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731765550,
+      "score": 1,
+      "link_id": "t3_1gs48q8",
+      "parent_id": "t3_1gs48q8"
+    },
+    {
+      "id": "lxfkl9g",
+      "body": "non c’è scritto su nessun libro di storia che c’è un pericolo concreto di ritorno del fascismo, è solo nella tua testa",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731765388,
+      "score": -6,
+      "link_id": "t3_1gsk4x2",
+      "parent_id": "t1_lxfhcf8"
+    },
+    {
+      "id": "lxfh27p",
+      "body": "ma per cortesia…",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731763921,
+      "score": 1,
+      "link_id": "t3_1gsk4x2",
+      "parent_id": "t1_lxfffb3"
+    },
+    {
+      "id": "lxfglhh",
+      "body": "oh wow why is it closing?",
+      "author": "terminal__object",
+      "subreddit": "zurich",
+      "created_utc": 1731763725,
+      "score": 0,
+      "link_id": "t3_1gsezwp",
+      "parent_id": "t3_1gsezwp"
+    },
+    {
+      "id": "lxf3vs0",
+      "body": "Vado in controtendenza e ti dico che se non hai passato il test per due volte forse dovresti fare qualcos’altro. Non è necessariamente un fallimento.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731757456,
+      "score": 1,
+      "link_id": "t3_1gs8j8o",
+      "parent_id": "t3_1gs8j8o"
+    },
+    {
+      "id": "lxf287y",
+      "body": "Ma lei non sa cosa vuole, non ha le idee chiare, quindi non dipende da te. Ti consiglio di non comportarti in maniera ossessiva, o di pregarla costantemente. Parla col tuo psicologo e, se serve, non avere paura di prendere qualche farmaco. Non pensare di poter essere felice solo con lei, non è vero. Se continua con questa instabilità chiudi e privilegia il rapporto con tua figlia, che è più importante della tua compagna instabile.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731756501,
+      "score": 1,
+      "link_id": "t3_1gsjd6s",
+      "parent_id": "t1_lxez5js"
+    },
+    {
+      "id": "lxert5m",
+      "body": "La tua compagna ha le idee ben confuse per comportarsi così *dopo* aver fatto una bambina, ma non puoi farci nulla e non esiste una sequenza di azioni o parole che possa sistemare le cose. Mi dispiace per la tua situazione, ma più che comunicare e sperare - ammesso che tu voglia ancora recuperare la cosa - non so cosa tu possa fare. La risposta alla tua domanda è che può comportarsi così perché non le interessa abbastanza.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731750045,
+      "score": 1,
+      "link_id": "t3_1gsjd6s",
+      "parent_id": "t3_1gsjd6s"
+    },
+    {
+      "id": "lx9ynlb",
+      "body": "it’s based on the implicit association test, so it’s probably borderline trash",
+      "author": "terminal__object",
+      "subreddit": "science",
+      "created_utc": 1731684296,
+      "score": 2,
+      "link_id": "t3_1grto20",
+      "parent_id": "t3_1grto20"
+    },
+    {
+      "id": "lx9xz51",
+      "body": "questa domanda è fondata un po’ sul presupposto che il sesso o anche una potenziale attrazione sessuale travolga l’amicizia in termini di importanza, che è già una prospettiva deviata secondo me. Il sesso non è necessariamente la cosa più importante che possa succedere tra due persone, quindi non vedo come e perché dovrebbe impedire un’amicizia.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731684088,
+      "score": 2,
+      "link_id": "t3_1grrp3t",
+      "parent_id": "t3_1grrp3t"
+    },
+    {
+      "id": "lx9lalh",
+      "body": "non è così semplice",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731679981,
+      "score": -6,
+      "link_id": "t3_1grr24e",
+      "parent_id": "t1_lx9jw9h"
+    },
+    {
+      "id": "lx9gaz5",
+      "body": "se non ha voglia mandalo pure affanculo 😊",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731678221,
+      "score": 1,
+      "link_id": "t3_1griqa8",
+      "parent_id": "t1_lx9dxew"
+    },
+    {
+      "id": "lx9cmai",
+      "body": "definirlo genocidio è già una presa di posizione politica",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731676866,
+      "score": -8,
+      "link_id": "t3_1grr24e",
+      "parent_id": "t1_lx8yyga"
+    },
+    {
+      "id": "lx9cgaa",
+      "body": "ridicolo",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731676801,
+      "score": 3,
+      "link_id": "t3_1grr24e",
+      "parent_id": "t3_1grr24e"
+    },
+    {
+      "id": "lx9c3u2",
+      "body": "Se vivi in una città con mezzi di trasporto pubblici funzionali, ognuno arriva con le sue gambe. Se vivi in un paesino o comunque in una zona con trasporti pubblici rarefatti e il ragazzo ha la macchina dovrebbe offrire di venire a prenderti.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731676669,
+      "score": 1,
+      "link_id": "t3_1griqa8",
+      "parent_id": "t3_1griqa8"
+    },
+    {
+      "id": "lx9bet9",
+      "body": "nothing comes to mind in venice and I wouldn’t venture in the aesthetically challenged outskirts just for a bar. If you drop the musical requirement you can find a few relatively cheap bacari in venice. The drinking won’t be a problem.",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1731676404,
+      "score": 2,
+      "link_id": "t3_1grtxxl",
+      "parent_id": "t3_1grtxxl"
+    },
+    {
+      "id": "lx8nkhb",
+      "body": "Taking a vaporetto, especially along the grand canal, is actually amazing. But you can totally walk to most places, except the islands like burano, murano, torcello",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1731664551,
+      "score": 1,
+      "link_id": "t3_1grs0kc",
+      "parent_id": "t3_1grs0kc"
+    },
+    {
+      "id": "lx5xx5d",
+      "body": "per carità",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731624302,
+      "score": 1,
+      "link_id": "t3_1gr2g2h",
+      "parent_id": "t3_1gr2g2h"
+    },
+    {
+      "id": "lx5eki6",
+      "body": "di solito lo xanax si deglutisce, quindi no…",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731618344,
+      "score": 1,
+      "link_id": "t3_1gqdeas",
+      "parent_id": "t3_1gqdeas"
+    },
+    {
+      "id": "lx50tqb",
+      "body": "nah just write hinge support and solve the problem",
+      "author": "terminal__object",
+      "subreddit": "zurich",
+      "created_utc": 1731614111,
+      "score": 10,
+      "link_id": "t3_1grb2px",
+      "parent_id": "t1_lx4rlar"
+    },
+    {
+      "id": "lwzfkm9",
+      "body": "hard, harder as an outsider",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1731533389,
+      "score": 2,
+      "link_id": "t3_1gqirpf",
+      "parent_id": "t3_1gqirpf"
+    },
+    {
+      "id": "lwxfwr4",
+      "body": "was living there too during the lockdown. A magical year.",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1731511543,
+      "score": 21,
+      "link_id": "t3_1gqeza0",
+      "parent_id": "t3_1gqeza0"
+    },
+    {
+      "id": "lwsptl5",
+      "body": "non smettiamo mai di essere figli. Mi spiace, prenditi cura di te, parla del lutto con tua moglie e se non basta parla con uno specialista.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731440127,
+      "score": 4,
+      "link_id": "t3_1gpqj2q",
+      "parent_id": "t3_1gpqj2q"
+    },
+    {
+      "id": "lwnqx1i",
+      "body": "bellissimo e underrated, anche se difficile chiamarlo il miglior film di sempre.",
+      "author": "terminal__object",
+      "subreddit": "Italia",
+      "created_utc": 1731365911,
+      "score": 1,
+      "link_id": "t3_1goxc1b",
+      "parent_id": "t1_lwm5amw"
+    },
+    {
+      "id": "lwhcb0a",
+      "body": "te lo dico perché in linea di massima una ragazza passabile non deve fare chissà cosa, viene approcciata più o meno frequentemente.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731275714,
+      "score": 3,
+      "link_id": "t3_1go54d4",
+      "parent_id": "t1_lwh8xo5"
+    },
+    {
+      "id": "lwg2tmr",
+      "body": "il tuo successo nelle relazioni sentimentali dipende anche dal tuo aspetto ed è difficile commentare senza saperne nulla",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731262174,
+      "score": 1,
+      "link_id": "t3_1go54d4",
+      "parent_id": "t3_1go54d4"
+    },
+    {
+      "id": "lwf1rks",
+      "body": "non è necessario avere alcun tipo di problema con la moglie per riuscire ad apprezzare altre donne. alla fine della fiera l’amore è ciò in cui investi il tuo impegno e le tue risorse, una cottarella non vuol dire nulla.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731250437,
+      "score": 1,
+      "link_id": "t3_1go0awp",
+      "parent_id": "t1_lwenj6p"
+    },
+    {
+      "id": "lwbown0",
+      "body": "il primo passo sarebbe chiederti perché non ce l’hai e in che modi sbagli nel relazionarti agli altri.",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731193366,
+      "score": 1,
+      "link_id": "t3_1gnhh6m",
+      "parent_id": "t3_1gnhh6m"
+    },
+    {
+      "id": "lw885bv",
+      "body": "assolutamente.",
+      "author": "terminal__object",
+      "subreddit": "Venezia",
+      "created_utc": 1731146428,
+      "score": 2,
+      "link_id": "t3_1gn5gpx",
+      "parent_id": "t3_1gn5gpx"
+    },
+    {
+      "id": "lw4t253",
+      "body": "Cardi B thinks she’s a good product.",
+      "author": "terminal__object",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1731095404,
+      "score": 1,
+      "link_id": "t3_1gl82p3",
+      "parent_id": "t3_1gl82p3"
+    },
+    {
+      "id": "lw4o07f",
+      "body": "you could equate voting for trump with stupidity if there was a wealth of proper candidates, but with that opponent…",
+      "author": "terminal__object",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1731093890,
+      "score": -1,
+      "link_id": "t3_1gmph9k",
+      "parent_id": "t3_1gmph9k"
+    },
+    {
+      "id": "lw47bma",
+      "body": "Quale sarebbe il vantaggio di poterla definire ufficialmente tossica? Non puoi semplicemente trarre le tue conclusioni da come ti fa stare? Non ci sono patentini per relazioni “tossiche”",
+      "author": "terminal__object",
+      "subreddit": "psicologia",
+      "created_utc": 1731088969,
+      "score": 1,
+      "link_id": "t3_1gk84u9",
+      "parent_id": "t3_1gk84u9"
+    },
+    {
+      "id": "lvfvymf",
+      "body": "The details and the intelligence that led to this decision are almost certainly not known to the public in their entirety. Therefore, questioning this policy after a certain point makes little sense, in my opinion.",
+      "author": "terminal__object",
+      "subreddit": "ethz",
+      "created_utc": 1730766080,
+      "score": 24,
+      "link_id": "t3_1gjsto5",
+      "parent_id": "t3_1gjsto5"
+    },
+    {
+      "id": "lv2s424",
+      "body": "decisamente evita il dottorato visti i discorsi che fai, evidentemente non ti interessa abbastanza e in ogni caso il failure rate è altissimo, la percentuale di dottorati che arrivano ad avere una posizione tenure track è bassa. Le altre risposte ti hanno dato già diversi suggerimenti buoni",
+      "author": "terminal__object",
+      "subreddit": "Universitaly",
+      "created_utc": 1730581000,
+      "score": 1,
+      "link_id": "t3_1gheo61",
+      "parent_id": "t3_1gheo61"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "username": "zpiman",
+  "posts": [
+    {
+      "id": "1dpp7gx",
+      "title": "Diagnosis of a RAM failure",
+      "author": "zpiman",
+      "subreddit": "techsupport",
+      "created_utc": 1719488465,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi all,\n\nI am having a bizarre problem with one of our GPU servers. First some background:\n\nWe have two (almost) identical workstations used for ML experiments based on a Gigabyte Z790 AORUS ELITE DDR4 motherboard.\n\n* Intel i9-13900K\n* 128GB Corsair CMW64GX4M2E3200C16 (3200MHz) / CMW64GX4M2D3600C18 (3600MHz)\n* RTX4090\n\nThe machines run Ubuntu 22 pretty much 24/7 at around 85-90deg\n\nThe RAM is configured only at 2133MT/s for both machines, as we don't need the extra speed and want to avoid any extra heat.\n\nThe machine with the slower RAM CMW64GX4M2E3200C16 works flawlessly. However, the one with the faster RAM  CMW64GX4M2D3600C18 keeps randomly crashing every couple days.\n\nThe error is pretty much always something like this:\n\n    watchdog: BUG: soft lockup - CPU#6 stuck for 2304s!\n\nor\n\n`kernel: BUG: kernel NULL pointer dereference, address: 0000000000000000`\n\n...which from my research everyone suggests is related to bad RAM.\n\nHowever, I ran a complete memtest86 which came back without any errors.\n\nWe now decided to run the machines with 1 32GB stick at a time to determine which of the 4 is the bad one.\n\nAre there any other checks I should make? Does it matter which RAM slot I use for the 1 stick? Could it be related to the configured RAM speed? Should we try running the RAM even slower? Despite running relatively hot, 85-90deg isn't unheard of for a CPU under constant load. But could it be that this is somehow related?\n\nAny suggestions on how to proceed with the diagnosis would be appreciated. Also is Corsair really this bad and are RAM failures this common? I am aware that this is consumer-grade hardware, however I have never had such a RAM issue in my life before.\n\nWe have considered swapping the RAM from the working server. However, we want to avoid having downtime on the one \"Reliable\" server we have. Plus also,  the failure usually takes 1 or 2 days to show up and in case there is an issue with the motherboard which somehow damages the RAM, I don't want to break more sticks for the sake of an experiment.\n\nOf course, there is also the option of just buying new RAM, but before I resort to this, I need to have some solid evidence as we are now in some budget-saving mode and unnecessary hardware purchases are to be avoided.",
+      "url": "https://www.reddit.com/r/techsupport/comments/1dpp7gx/diagnosis_of_a_ram_failure/"
+    },
+    {
+      "id": "1ct6p23",
+      "title": "Using Proxmox for AI training servers",
+      "author": "zpiman",
+      "subreddit": "Proxmox",
+      "created_utc": 1715841662,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "Hi, I wanted ask for a second opinion if using Proxmox makes sense for our server setup.\n\nWe are a small AI research lab with a growing number of servers that we use for training and simulation. The machines are mainly consumer grade PC with Nvidia GPUs and running Ubuntu server.\n\nThe machines are being managed manually through SSH. We would like to move to a batching system (such as Slurm) however in order to facilitate easy scaling, we thought of adding all the servers to a Proxmox cluster.\n\nEach node would then run a VM with a PCI passthrough to the GPU and a Slurm instance. If we then scale to more nodes, it should be very easy simply cloning a VM.\n\nIn addition, we can use some of the servers to also host our other resources (db, website, etc etc)\n\nWould this be a valid approach? Is there some limitations that I am not aware of? Is Proxmox going to introduce significant overhead? (If I understand correctly, the cost of virtualization should be quite negligible) \n\nThank you.",
+      "url": "https://www.reddit.com/r/Proxmox/comments/1ct6p23/using_proxmox_for_ai_training_servers/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lvdxlzd",
+      "body": "Looking for 2 tickets with Legi :)",
+      "author": "zpiman",
+      "subreddit": "ethz",
+      "created_utc": 1730744391,
+      "score": 1,
+      "link_id": "t3_1fvlarw",
+      "parent_id": "t3_1fvlarw"
+    },
+    {
+      "id": "l3mu9ib",
+      "body": "Bubikon 2025",
+      "author": "zpiman",
+      "subreddit": "Switzerland",
+      "created_utc": 1715466347,
+      "score": 7,
+      "link_id": "t3_1cpkb1l",
+      "parent_id": "t3_1cpkb1l"
+    }
+  ]
+}

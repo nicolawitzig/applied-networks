@@ -1,0 +1,240 @@
+{
+  "username": "mintwurm",
+  "posts": [
+    {
+      "id": "1fl69v3",
+      "title": "Underwhelmed by Alfine 8 on G Line ",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726816745,
+      "score": 0,
+      "num_comments": 39,
+      "selftext": "Hey, I've always been intrigued by the design of the Brompton. A few months ago I took a test ride but didn't like the feel of it. The 16in wheels just made for a too \"nervous\" rickety driving feel. Probably also didn't help that I'm very tall, at 1m98. The bike overall felt a bit flimsy to me. \n\nThat's just regarding the feel of the ride though. The build quality is anything but flimsy. And I did love the ingenious folding mechanism. In the end I came away thinking that this beautiful bike surely has its niche, but it's not for me. \n\nWell, enter the G line. I'm pretty excited about this. \nExcept for one aspect : They went with an 8 speed alfine hub. The gear ratio of 307% is plenty for city riding, but when you get into more hilly terrain it's not enough. I've ridden an Alfine 8. It's great, but it definitely has some pretty well defined limits. If you go on an outing, with a little luggage (not much, let's say picnic not camping) and there's a medium climb, you will suffer. \n\nSeeing the alfine 8 on a bike as expensive as the Brompton G Line just feels quite disappointing. I mean, there is the Alfine 11. 409% gear range, substantially more than the Alfine 8 and definitely enough for somewhat serious touring.\n\nNow, I've seen discussions about reliability of the Alfine 8 vs 11. Maybe I'm wrong but I don't find that a convincing argument. Both of these interior gear hubs are ultimately entry level gear hubs. They offer reasonable reliability, but for both you find plenty of stories about failures and reliability issues. Without any definitive statistics I'd say this is all just anecdotal evidence. The alfine 11 just as the alfine 8 is probably going to need service at some point.\n\nWell, Brompton, if you read this, I'm waiting til you offer at shifting upgrade for the G line. As far as I can see, the outer dimensions of the Alfine 8 and 11 are actually the same. I wouldn't be surprised if a year from now there's \"great news, we now offer better shifting for truly adventurous riders\". \n\nI realize the last paragraph sounds quite negative. Overall I really like the G line. I think it's great that Brompton continues to evolve their bicycles. As for the 16in Bromptons, I'm sure there is a good niche for the G line. ",
+      "url": "https://www.reddit.com/r/Brompton/comments/1fl69v3/underwhelmed_by_alfine_8_on_g_line/"
+    },
+    {
+      "id": "1ei9kay",
+      "title": "What's up with all those bug fixes?",
+      "author": "mintwurm",
+      "subreddit": "bunjs",
+      "created_utc": 1722603911,
+      "score": 7,
+      "num_comments": 4,
+      "selftext": "Let me preface this with:\n\n - I'm enthusiastic about Zig and excited to see people use it for a project as ambitious as Bun.\n\n- While I'm not using Bun myself, I'm grateful that it's being developed, and I think it has a positive influence on the JS community.\n\n- I absolutely love to listen/watch Jarred give talks. \n\n  \nOk, with that out of the way: What is up with the immense amount of bugfixes listed on the Bun blog? This July there are 3 posts on the Bun blog, for the releases of Bun v1.1.18, v1.1.19 and v1.1.21. Across these 3 releases, the team has fixed 181!!! bugs. There is no release announcement for v1.1.20, not sure what's up with that, maybe the team was too busy fixing bugs...\n\nTo be honest, reading through these blog posts gives me two impressions:\n\nA) The team is insanely productive. It's not just bugfixes, but a constant influx of features/improvements/etc. Very inspiring to read.\n\nB) This software must be incredibly buggy. Hundreds of bugfixes every month. \n\nI mean, they've tagged 1.0. At that point, I would expect that the software is stable, with occasional bugs being fixed.    \nWhat kind of bug are we talking about here? Why are there so many of them? Is Bun stable enough to be used in production?\n\nIf Bun is actually quite stable and those bugfixes refer to edge cases in obscure APIs, then maybe the team should consider rewording the way the blog posts are written. I think from a marketing perspective this is giving people the wrong impression. If you want to emphasize the coverage of the Node API is growing constantly, maybe you could word this more positively. Instead of talking about bugs, you could talk about the number of API calls correctly covered, tested, added, etc.\n\n",
+      "url": "https://www.reddit.com/r/bunjs/comments/1ei9kay/whats_up_with_all_those_bug_fixes/"
+    },
+    {
+      "id": "1ap5xrn",
+      "title": "htmx.trigger doesn't reload target element",
+      "author": "mintwurm",
+      "subreddit": "htmx",
+      "created_utc": 1707759974,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "Hi,\n\nI'm trying to figure out how to make this HTML structure work:  \n```\n<div id=\"optionscontainer\" hx-get=\"http://localhost:8000/get_optionsview\" hx-trigger=\"load\"\n  hx-swap=\"innerHTML\" class=\"mb-5\">\n</div>\n<div id=\"logincontainer\" ...>\n</div>\n```\n\nEvery time the `#logincontainer` is updated, I'd like to also refresh the `#optionscontainer`. I think the right way would be to subscribe to events, here's the code I'm using:\n```\ndocument.body.addEventListener('htmx:afterSwap', function (event) {\n  if (event.target.id === 'logincontainer') {\n    // this log message appears as expected\n    console.log(\"should reload options now\");\n    // this query selector works as expected\n    let optionsContainer = document.querySelector(\"#optionscontainer\");\n    console.log(optionsContainer);\n\n    // this doesn't seem to do anything\n    htmx.trigger(\"#optionscontainer\", \"htmx:refresh\");\n  }\n});\n```\n\nFor some reason, the `htmx.trigger` doesn't have any effect. I've gone through various event names such as `reload`, `refresh`, etc.\n\nI'm also aware of the two other solutions that could be applicable here:\n - restructure the DOM layout, have the options be a child of the login container. But that would mess with separation of concerns on my server. I'd like to keep those routes separate. If I have the options template included in the login/logout template, then I need to fill in the options in that route.\n - OOB swap. That would allow me to keep the HTML on the client the same. But on the server I'd similarly have to deal with filling both the auth and options template in the same route.",
+      "url": "https://www.reddit.com/r/htmx/comments/1ap5xrn/htmxtrigger_doesnt_reload_target_element/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lubbj05",
+      "body": "I can speak from experience at EPFL. My workload for ~30 credits there was 5.5 full days a week, Saturday afternoon and Sunday off. \n\nThe workload is high and requires careful planning to not get overwhelmed. It's really really important to stay on top of the course material. You'll need to follow up on the lectures, go to all exercises and do the homeworks carefully. \n\nEPFL also has many group assignments. They count for a large percentage of the grade. They're also quite ambitious, often open ended.\nPlease take this seriously. If you commit to a group project but then don't find the time to work on it adequately, you'll screw over your teammates.\nIf possible, please avoid courses with group projects if you're committed to your 80% side job.\n\nAt EPFL, group projects are a way to scout for talented students. Interesting semester projects are mostly given to students that performed very well in group projects. Interesting thesis assignments are given to projects that have done a convincing semester project.\nI think this is the most important advice I can give :\nTake the all the projects extremely serious. They will have a huge influence on your career. What project you do for your bachelor's thesis will determine that master's semester project, that will determine the internship opportunities, that will determine the master's thesis, and that will lead to a job.\n\nFor every step along this chain, previous project work and ideally the recommendation from a professor is key.\nIf you commit to a project and then do a poor job, because you're too busy with a side job, it can really harm you long-term.",
+      "author": "mintwurm",
+      "subreddit": "ethz",
+      "created_utc": 1730186689,
+      "score": 1,
+      "link_id": "t3_1gedfza",
+      "parent_id": "t3_1gedfza"
+    },
+    {
+      "id": "lub9qzu",
+      "body": "I've used flutter, I quite liked it. I love reading some of the educational material produced by the flutter team. They had some very insightful blog posts. And then there's Bob Nystrom whose books are beyond genius. \nSo I'm rooting for flutter to succeed. I really want to see this ecosystem flourish. \n\nI'm not using Flutter right now, because of a variety of little issues. Back when I played with it, there were some weird problems with Firebase support. The web support was (and I think still is) very bad. I'm talking stuttering all over the place and very long page loads. \nBut overall I had the impression that the project was growing and maturing very well. \nThe Dart programming language is evolving impressively, too. \n\nI think Flutter has its niche and there are some use cases where it makes a lot of sense. However it seems that Google really wants to pitch Flutter as a general purpose framework. I remember one catch phrase, I think back when flutter web became \"stable\" which went roughly like this \"everywhere you paint pixels on a screen, flutter is the right choice\". This is an extremely ambitious statement and I think it was misleading.\nActually, misleading both for users (I still wouldn't recommend flutter web) and also misleading for the team. They end up putting so many items on their roadmap that the progress on any individual one stalls.\nI haven't checked right now, but a few months back I still saw big discussions about bad ios performance etc.\n\nSo, I'd much rather see a focused effort to make flutter really really good for some scenarios than to try and cover everything.\nThat's of course my personal opinion. I guess many developers like the idea that their favorite tool can get anything done.\n\nWell, my impression is: Flutter is trying to do everything, but struggling to deliver on its promises.\nThat is worrying.\nGoogle has a history of abandoning projects.\nAnd they are already pushing for competitors themselves. There's jetpack compose (which is the official way of making Android UIs) and jetpack compose multiplatform (which is backed by Jetbrains and used for their Fleet editor).\nJetpack compose multiplatform is basically Flutter reimagined.\n\nI know, the discussion \"Will Google abandon Flutter\" has been rehashed a hundred times.\nBut, let's say an open source fork gains a lot of popularity and some traction.\nThat may be a scenario in which Google can back out of flutter, while trying to save face:\n\"We built it and brought it to where it is today. Now we've realized that flutter is greater than any single company, greater than google. We don't think the responsibility for such an important tool should lie in the hands of a single company. Therefore we fully endorse the Flock project. We think this is the future of flutter, greater than anything google could ever have reached on its own\".\nHeart-warming statement. They'll place some Google employees on the open source project, maybe set up a donation, and fire the rest of the team. Massive downscaling, but sold as embracing the community led open source initiative.",
+      "author": "mintwurm",
+      "subreddit": "FlutterDev",
+      "created_utc": 1730185451,
+      "score": 0,
+      "link_id": "t3_1gebnd1",
+      "parent_id": "t3_1gebnd1"
+    },
+    {
+      "id": "lsc4uxm",
+      "body": "Dodo has very attractive pricing. \n\nBut what if they become extinct (couldn't resist the pun) ? I'm hesitant to sign up with a MoR that's not yet well established, since I think migrating customers would be a nightmare.\n\nActually, do you know how that would work? Let's assume the MoR sits on top of stripe, could I somehow move over the customers from one MoR to another? I think the answer is no, surely the customers would have to click yes to some terms and conditions again, after all, the MoR is the entity that sold them my software. Oh, I need to specify, I'd be all subscription based. So the vendor lock in of a MoR is scary, I worry that some problems there could wipe out my customer base.",
+      "author": "mintwurm",
+      "subreddit": "SaaS",
+      "created_utc": 1729156118,
+      "score": 1,
+      "link_id": "t3_1g51oz0",
+      "parent_id": "t1_lsbo5ns"
+    },
+    {
+      "id": "lsbmeil",
+      "body": "But don't you have to collect and declare sales tax? SaaS is definitely taxable in some states (https://www.taxjar.com/sales-tax/saas-sales-tax).\n\nIt's super helpful to hear your advice on this. I've graduated from university a few months ago and am trying to set up a small SaaS startup. So far there's nothing to show, but it's coming together quickly :)\nI always assumed that payments would just be handled via stripe. But last week I realized that for SaaS I'll have to pay VAT/sales tax in the customers country. And many countries have a zero tolerance approach, where you need to pay taxes from the first transaction.\n\nIt seems that there are three solutions :\n1) Merchant of Record (paddle, lemonsqueezy), basically a middle man that sells your software for you and handles taxes.\n2) Tax accountants / companies that handle the filing for you. There are some companies that partner with stripe.\n3) Sell only in select areas and handle taxes yourself. In the EU it seems that taxes are harmonized for SaaS and you can hand in one filing for all your EU business.\n\nAll of these solutions have serious drawbacks. \nThe merchant of record model means that your customers are not really your customers (but have a business relationship with the MoR). That sounds like crazy vendor lock-in. What happens if you need to migrate the payment provider? Maybe you have to reach out to all your customers and ask them \"please renew your subscription under this new link\". Also, this subreddit has some horror stories for lemonsqueezy and paddle.\nThe tax accountant companies aren't cheap. Typically they charge you for every jurisdiction where you want to file. I haven't gotten a quote for the US yet.\nHandling taxes yourself seems reasonable for the EU. I wouldn't want to do this in the US.\n\nSo, these findings are from last week. I really don't know what the best way is. Any advice you have would be super helpful.",
+      "author": "mintwurm",
+      "subreddit": "SaaS",
+      "created_utc": 1729143746,
+      "score": 1,
+      "link_id": "t3_1g51oz0",
+      "parent_id": "t1_ls9twrv"
+    },
+    {
+      "id": "ls9kkot",
+      "body": "oh this looks amazing, congratulations to your great success :)\n\nYou said you use stripe for payments. Do you sell the software internationally? If yes, what do you do for paying VAT / sales tax.",
+      "author": "mintwurm",
+      "subreddit": "SaaS",
+      "created_utc": 1729113589,
+      "score": 3,
+      "link_id": "t3_1g51oz0",
+      "parent_id": "t3_1g51oz0"
+    },
+    {
+      "id": "lo1g5cz",
+      "body": "So, my experience with an alfine 8 is from a holiday rental bike that I used quite a bit.\n\nOn flat ground and good asphalt I could easily max out the speed. I'm not sure how fast I was going, it wasn't crazy fast. Overall the top speed felt reasonable.\nAnd for city riding the lowest gear was also fine.\nSo, by all means, the alfine 8 is a nice hub. \n\nBut a gear ratio of 300% is not a lot. And I don't think it takes a professional cyclist to feel the limits of it. \nThe lowest gear was not at all comfortable for hilly terrain. The highest gear was ok, but not fast. \nThat's my complaint about an alfine 8: I don't think it offers the gear range suitable for a versatile bike. \n\nI have not used an alfine 8 on a Brompton, let alone the G line. Maybe, against my expectations, they've designed it to be a climber. But then it won't have very high top speed with an alfine 8. And usually I think Bromptons are geared high. So I'd expect the opposite : The G line can go reasonably fast. But if you want to go up a steepish hill, you'll struggle.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726834674,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo1ag2z"
+    },
+    {
+      "id": "lo18zwd",
+      "body": "oh that's interesting. But are they operating the gear hub at the limit of what's allowed?\n\nalso, wouldn't that mean that a certain steepness is just too much for the bike? Let's say I've switched to the lowest gear and am struggling to make it uphill. I'm standing up in the saddle and putting all my weight on the crank arms. That's a lot of torque. Now what if the lowest gear was lower? I'd maybe pedal sitting down. Higher cadence, lower torque. Maybe that would even be easier on the igh.\n\nthe tradeoffs here aren't clear to me.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726831407,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo17u4f"
+    },
+    {
+      "id": "lo17cmm",
+      "body": "Regarding my understanding of gearing.\nNo offense taken.\n\nFor the sake of argument, maybe I really am missing something?\nHere's my understanding :\nYou switch to the lowest gear. You do one turn of the pedals. The bike moves forward N meters. This number N decides how easy it is to climb.\n\nSure the bike weight and crank arm length matters. But let's ignore those for now.\n\nThis number N is important.\nIf you do one turn of the pedals in the lowest gear and get N, then after switching to the highest gear with an alfine 8 will give mean the bike now moves about 3N.\nWith the alfine 11 it would be about 4N.\n\nIn German the word is Entfaltung. Not sure how to translate it.\n\nYou want a small N for climbing and a higher N for going fast.\nThe alfine 8 and 11 determine the ratio between highest and lowest gear N.\nThe chainring, wheels, cogs at the IGH can modify the value of N, but not the ratio between highest and lowest gear.\n\nI am convinced : it would absolutely be possible for Brompton to offer an alfine 11 with a smaller chainring to have a lower N in the lowest gear when compared to alfine 8.\nThis would definitely make the bike climb easier.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726830565,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo16gsv"
+    },
+    {
+      "id": "lo15ktx",
+      "body": "Maybe we are somehow missing each other's points.\n\nSure, once you have the Brompton in front of you, it will not be easy to swap the chainring or cogs.\nBut for the manufacturer this should be trivial.\nBrompton could very well ship the G line with an alfine 11 and adjust the gear range to have similar topspeed in the highest gear while offering a much lower lowest gear, compared to the alfine 8.\n\nRegarding the alfine 8 I previously tried, it is of course true that I don't know how this relates to the G line. That's a fair point. Maybe that bike was just way overgeared.\nBut I don't think so. On smooth roads and city traffic, the alfine 8 was great. The highest gear was reasonable and the lowest gear was reasonable.\nI could max out the speed of the bike on a flat road, pedaling like crazy, without going particularly fast. So it's not like they chose the highest gear for going very fast. Nevertheless, on hilly terrain the lowest gear was way too high.\n\nMy takeaway from this is: ca 300% gear ratio is not enough to cover going up medium climbs as well as at decent speed on flat (not even downhill) roads.\n\nI don't know how Brompton has positioned the gear range and how it maps to actual speeds. Maybe they've made the G line a climber :) But then it won't be fun to ride on good tarmac and flat streets.\nSo that's why I'm saying, an alfine 8 is not enough for a versatile touring bike.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726829610,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo14ct1"
+    },
+    {
+      "id": "lo14269",
+      "body": "I think the gearing on Bromptons is meant for flat roads and smooth asphalt. They can go fairly fast, but the low gears really aren't very low.\n\nReducing the chainring for more reasonable cadence when going uphill makes sense to me. But then you sacrifice topspeed. About 300% gear range just isn't a lot.\nThe roughly 400% gear range of an alfine 11 or the 12 speed shifting system that Brompton has recently introduced are a different game. That would be going at 7km/h and 28km/h at the same cadence. Vs 7 and 21. 21 is too slow for the city I think. 28 is okish. Sure, the different cadence widens this range, but still.\n\nI did try an alfine 8 at some point. In the city it was perfect. Top speed was ok, slowest gear was ok. In the hills it wasn't adequate at all. If I had moved the gear range down, the top speed on smooth terrain would have been way too low.\nThe alfine overall was pleasant to use and felt like a nice gear hub. But it's not something that covers my use cases for touring. And this 3000€ bike seems positioned for touring.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726828751,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0yl4o"
+    },
+    {
+      "id": "lo134e3",
+      "body": "Bigger cog or smaller chainring would be trivial though, no?\n\nI understand that if you just swap out the alfine 8 for an 11, you basically get a higher topspeed at which you can still comfortably pedal.\nBut I think you can pretty much control how you want the gear range to be placed. If anything, the chainring on the G line looks fairly large to me.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726828199,
+      "score": 2,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0yqj7"
+    },
+    {
+      "id": "lo0sj5c",
+      "body": "ah I think I misunderstood you. You meant a combination of BWR and cassette for shifting. Not alfine 8 plus cassette for shifting.\n\nYea maybe something like that would make sense.\n\nI'm sure we'll see iterations of the shifting setup for the G line. The gear range of the alfine 8 just feels off. They'll certainly come up with improvements over time.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726821103,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0sbp9"
+    },
+    {
+      "id": "lo0sbp9",
+      "body": "would the complexity of a 10 to 28 cassette plus alfine 8 really be better than an alfine 11?\n\nI've only ridden the alfine 8, which was nice, but to me clearly not suited for proper touring. I've heard plenty of good things about the alfine 11. And now also plenty of bad things.\n\nOverall I think these are just entry level interior gear hubs. I absolutely expect a Brompton to outlive both an alfine 8 and 11.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726820956,
+      "score": 1,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0nw5l"
+    },
+    {
+      "id": "lo0rd4c",
+      "body": "I've read through the link you posted. That's very interesting, thank you.\n\nOverall I think my appreciation for the alfine 8 is growing. But I still think the alfine 11 is a perfectly viable option. Here, let me quote from the link:\n```\nThe Alfine 11 I did not like at first. But after servicing well over 50 of them, I have a new appreciation for them! It is quite a marvel! The Rohloff is nice but a mystery inside since we are not allowed to disassemble it! They won't sell the special tools or instructions. Luckily it is made 10x better than any other hub on the planet so you really cannot afford not to buy one! Seriously.\n\nEvery Alfine 11 hub I have serviced so far has been trouble-free. Shift problems were always related to the cable or motor unit.  There was an early recall of the cassette joint. There is a date code stamped on the arm. I know the good ones Shimano sent me are stamped JF, KJ, or IK and the only bad ones I have come across are IF.\n```\n\nI have heard before that alfine 11 has gone through some revisions and the later ones are more reliable.\n\nMaybe the alfine 8 is a better option if the gear ratio is enough for you. But I do think the gear ratio is quite slim.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726820274,
+      "score": 2,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0qclj"
+    },
+    {
+      "id": "lo0qoir",
+      "body": "The interior gear hub should only define a gear range and gear spacing, no?\nWhat speed you reach at which pedaling rate then depends on the cogwheel at the cranks and the wheels.\nIf you have a setup that offers 30km/h at the highest gear and normal pedaling speed, then the alfine 8 should offer 10km/h at the lowest gear and the alfine 11 should reach down to 7.5km/h (very rough calculations, using 300% and 400% gear ratio).",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726819793,
+      "score": 3,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0qclj"
+    },
+    {
+      "id": "lo0qagp",
+      "body": "No, I've not ridden the 11.\n\nI did try the 8 on a holiday rental bike. It was quite pleasant, until you get to the hills.\n\nInteresting that you have such a strongly negative opinion of the 11. I'll try to do a test ride. From internet reviews I got the impression that the 11 is offering a lot for its price and overall in a different league than the 8.\nApparently there's also different revisions, and the later versions became more reliable? How old is the 11 you're using.",
+      "author": "mintwurm",
+      "subreddit": "Brompton",
+      "created_utc": 1726819522,
+      "score": 2,
+      "link_id": "t3_1fl69v3",
+      "parent_id": "t1_lo0ndib"
+    },
+    {
+      "id": "kqpljrh",
+      "body": "Yes, this worked. It would be nice to also be able to refresh items from Javascript by sending events programmatically, that is still not clear to me.",
+      "author": "mintwurm",
+      "subreddit": "htmx",
+      "created_utc": 1708103345,
+      "score": 1,
+      "link_id": "t3_1ap5xrn",
+      "parent_id": "t1_kqf7vc6"
+    },
+    {
+      "id": "kk34lwo",
+      "body": "great, thank you",
+      "author": "mintwurm",
+      "subreddit": "Zig",
+      "created_utc": 1706523274,
+      "score": 1,
+      "link_id": "t3_18y08zw",
+      "parent_id": "t1_khj9wa5"
+    },
+    {
+      "id": "kh9mfv0",
+      "body": "Did you manage to make it work?  \nWould be quite curious for your configuration.",
+      "author": "mintwurm",
+      "subreddit": "Zig",
+      "created_utc": 1704921971,
+      "score": 1,
+      "link_id": "t3_18y08zw",
+      "parent_id": "t1_kg9ldz7"
+    },
+    {
+      "id": "kg94cdj",
+      "body": "I'm using vscode and codelldb.\nThis snippet explains how to attach codelldb to zig tests: https://gist.github.com/floooh/31143278a0c0bae4f38b8722a8a98463\n\nSomething I haven't configured yet : vscode makes it possible to declare tasks or launch configurations that depend on each other. I'd like to call zig build automatically before running this debug launch configuration, to be sure I'm always debugging the latest version of the code.\nI tried this before Christmas but there was something strange with the way vscode sets up tasks and I got sidetracked.",
+      "author": "mintwurm",
+      "subreddit": "Zig",
+      "created_utc": 1704356116,
+      "score": 5,
+      "link_id": "t3_18y08zw",
+      "parent_id": "t3_18y08zw"
+    }
+  ]
+}

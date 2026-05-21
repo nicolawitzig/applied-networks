@@ -1,0 +1,226 @@
+{
+  "username": "AaronKDinesh",
+  "posts": [],
+  "comments": [
+    {
+      "id": "lxso5st",
+      "body": "Would a titanium tip not wear down the screen? I thought one of the benefits of the tip in the RM was that the tip wears down and not the screen",
+      "author": "AaronKDinesh",
+      "subreddit": "RemarkableTablet",
+      "created_utc": 1731954991,
+      "score": 2,
+      "link_id": "t3_1gtuyum",
+      "parent_id": "t1_lxq22fu"
+    },
+    {
+      "id": "lvebkls",
+      "body": "Yeah I might just have to buy a watch 2 band with an adapter. I just can't justify paying 200€+ for a metal watch band from Google. The price just doesn't make sense",
+      "author": "AaronKDinesh",
+      "subreddit": "PixelWatch",
+      "created_utc": 1730748481,
+      "score": 1,
+      "link_id": "t3_1gix7qx",
+      "parent_id": "t1_lvdct2k"
+    },
+    {
+      "id": "lvd5u1d",
+      "body": "Any good metallic bands out there on Amazon? The original band that came with the watch just breaks my skin out in a rash.",
+      "author": "AaronKDinesh",
+      "subreddit": "PixelWatch",
+      "created_utc": 1730736164,
+      "score": 1,
+      "link_id": "t3_1gix7qx",
+      "parent_id": "t3_1gix7qx"
+    },
+    {
+      "id": "lmb83qf",
+      "body": "If the meeting isn't too long you probably could find an empty classroom. EPFL has an occupancy list for each classroom. The url for the MAA331 classroom is [https://occupancy.epfl.ch/maa331](https://occupancy.epfl.ch/maa331). Just replace the end bit of the URL with the classroom you want.",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1725905220,
+      "score": 1,
+      "link_id": "t3_1fcp6zi",
+      "parent_id": "t3_1fcp6zi"
+    },
+    {
+      "id": "llnuanq",
+      "body": "It depends on where you live. If you live in Zones 11 and 12 you can get a monthly Mobilis pass which is quite economical depending on how many journeys you take. \n\nPersonally I live in Echallens (I have to travel 4 zones to get to EPFL). So I bought the SBB Half Fare travel card and the GA night card (this gives you free transportation between 7pm and 5am iirc). I found this combination of travel cards to be the best imho.\n\nThere is a GA travel card which you can get that would give you free unlimited transport on all of Switzerland's transport systems, but I found it hard to justify the yearly cost when compared with the two travel cards above.",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1725558210,
+      "score": 1,
+      "link_id": "t3_1f7gpu9",
+      "parent_id": "t3_1f7gpu9"
+    },
+    {
+      "id": "lacb49x",
+      "body": "Both my applications got rejected for no reason at all. Even though I had proof that I could pay and signed up as soon as it was possible",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1719396553,
+      "score": 1,
+      "link_id": "t3_1dmgb5d",
+      "parent_id": "t3_1dmgb5d"
+    },
+    {
+      "id": "l50jxnj",
+      "body": "Hey I know this is a bit of a late reply, but in my case, a lot of the coding tutorials I was looking at were done in Linux and personally I just understood the Linux build systems better. Now I have run into my fair share of issues with coding in WSL specially with embedded systems and some networking projects but overall solving these issues weren't bad since other people had faced similar issues.\n\nAlso coding in WSL allowed me to have a nice separation between what I would consider to be \"work\" (coding projects whether it be for college, work or just for fun) and \"leisure\" (playing games, surfing youtube ect).\n\nI still think that using WSL2 is much more intuitive for certain tasks than native windows and the integration is only getting better as time goes on",
+      "author": "AaronKDinesh",
+      "subreddit": "FlutterDev",
+      "created_utc": 1716296590,
+      "score": 1,
+      "link_id": "t3_15mpkok",
+      "parent_id": "t1_jw4b5gk"
+    },
+    {
+      "id": "l1e1yae",
+      "body": "Are you not worried about permanently bricking your remarkable? The lack of an easy low level backup has been one of the reasons why I haven't tried out the majority of the hacks. The only one I've installed so far is the Lamy pen hack ...",
+      "author": "AaronKDinesh",
+      "subreddit": "RemarkableTablet",
+      "created_utc": 1714156486,
+      "score": 1,
+      "link_id": "t3_1cc1h4g",
+      "parent_id": "t1_l180pri"
+    },
+    {
+      "id": "l138rsj",
+      "body": "I might be grossly misunderstanding the development time that goes into creating an update, but it always seems that updates take a while to come out and when they do they always seem to be very minor. \n\nIt seems better to pause updates and install  3rd party hacks",
+      "author": "AaronKDinesh",
+      "subreddit": "RemarkableTablet",
+      "created_utc": 1713986493,
+      "score": 27,
+      "link_id": "t3_1cc1h4g",
+      "parent_id": "t3_1cc1h4g"
+    },
+    {
+      "id": "kyefh3d",
+      "body": "Eh if it broke I don't think I'd buy a new one. Don't get me wrong, it's a brilliant device and extremely well designed. But the software is extremely lackluster and wildly limiting. \n\nI wish there was a way to quickly create shapes inside the notebook. More than just straight lines that I bring together to make rectangles. I use it for note taking and Engineering tends to have a lot of diagrams. In order to get just ONE diagram onto my tablet I had to download rmapi, drawj2d and drawio. I had to create it in drawio, export it to an SVG, pass it through drawj2d to get a file that rmapi then pushes to the reMarkable cloud, which I then gave to sync with my tablet and then and only then, can I bring the diagram into my notebook. This took about an hour and a half of messing around with various settings in drawio and drawj2d until I could finally find a workflow that actually worked. This could all be avoided if the tablet had proper shape tools.\n\nAnd no low level backups without having to create some wild pogo pin contraption?? That just seems like a massive oversight?? Also no bulk exporting on the desktop app?? (This may have changed since the last time I used it)\n\nI think the reMarkable is a great piece of hardware that gets massively let down by its software.",
+      "author": "AaronKDinesh",
+      "subreddit": "RemarkableTablet",
+      "created_utc": 1712449551,
+      "score": 9,
+      "link_id": "t3_1bxmh63",
+      "parent_id": "t3_1bxmh63"
+    },
+    {
+      "id": "ky21osx",
+      "body": "I'd be interested in learning more. I'll send you a dm",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1712257735,
+      "score": 1,
+      "link_id": "t3_1bur8wq",
+      "parent_id": "t3_1bur8wq"
+    },
+    {
+      "id": "ky08yzx",
+      "body": "Honestly the living city wallpaper would be amazing if it actually synced to the local time instead of San Francisco",
+      "author": "AaronKDinesh",
+      "subreddit": "GooglePixel",
+      "created_utc": 1712235708,
+      "score": 36,
+      "link_id": "t3_1bvkmo4",
+      "parent_id": "t3_1bvkmo4"
+    },
+    {
+      "id": "kxm8tn1",
+      "body": "How would one go about this? Especially if they're a first time student at EPFL?",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1712012956,
+      "score": 1,
+      "link_id": "t3_1bssve0",
+      "parent_id": "t1_kxj0p52"
+    },
+    {
+      "id": "kwmaorm",
+      "body": "If you look at the D25 post you can see some responses from the academic office",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1711446257,
+      "score": 3,
+      "link_id": "t3_1bo3gmv",
+      "parent_id": "t1_kwmaf74"
+    },
+    {
+      "id": "kw7pvda",
+      "body": "Elec masters I believe",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1711211074,
+      "score": 3,
+      "link_id": "t3_1blrbpe",
+      "parent_id": "t1_kw6wlta"
+    },
+    {
+      "id": "kw7ptq3",
+      "body": "I haven't received any emails yet",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1711211057,
+      "score": 1,
+      "link_id": "t3_1blrbpe",
+      "parent_id": "t3_1blrbpe"
+    },
+    {
+      "id": "kvw7eoq",
+      "body": "None on my end either....",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1711031940,
+      "score": 2,
+      "link_id": "t3_1bji5wo",
+      "parent_id": "t1_kvw6g74"
+    },
+    {
+      "id": "kvemqw5",
+      "body": "I haven't received anything yet",
+      "author": "AaronKDinesh",
+      "subreddit": "EPFL",
+      "created_utc": 1710756208,
+      "score": 1,
+      "link_id": "t3_1bgygwy",
+      "parent_id": "t3_1bgygwy"
+    },
+    {
+      "id": "ktsennz",
+      "body": "Has anyone that applied to the Computational Science and Engineering MSc received an acceptance yet?",
+      "author": "AaronKDinesh",
+      "subreddit": "ethz",
+      "created_utc": 1709830648,
+      "score": 3,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ksom8jy",
+      "body": "I applied to the Computational Science and Engineering MSc",
+      "author": "AaronKDinesh",
+      "subreddit": "ethz",
+      "created_utc": 1709208217,
+      "score": 5,
+      "link_id": "t3_1axx12j",
+      "parent_id": "t1_ksmxp50"
+    },
+    {
+      "id": "ksl2ye0",
+      "body": "I just received my decision today",
+      "author": "AaronKDinesh",
+      "subreddit": "ethz",
+      "created_utc": 1709150570,
+      "score": 3,
+      "link_id": "t3_1axx12j",
+      "parent_id": "t3_1axx12j"
+    },
+    {
+      "id": "krz3vh0",
+      "body": "I've applied for this year and I still haven't heard anything back",
+      "author": "AaronKDinesh",
+      "subreddit": "ethz",
+      "created_utc": 1708809544,
+      "score": 2,
+      "link_id": "t3_1axx12j",
+      "parent_id": "t3_1axx12j"
+    }
+  ]
+}

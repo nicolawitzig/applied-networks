@@ -1,0 +1,164 @@
+{
+  "username": "vermee",
+  "posts": [
+    {
+      "id": "1edhl95",
+      "title": "Alignment Error Bibtex",
+      "author": "vermee",
+      "subreddit": "LaTeX",
+      "created_utc": 1722090365,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "As seen in the screenshot, my references dont align. How can I fix that?\n\nhttps://preview.redd.it/fuvyfyjum2fd1.png?width=1537&format=png&auto=webp&s=b251effa44bcc2ae2163600a2b390a2926a14756\n\n",
+      "url": "https://www.reddit.com/r/LaTeX/comments/1edhl95/alignment_error_bibtex/"
+    },
+    {
+      "id": "1edhk4u",
+      "title": "Alignment error bibtex",
+      "author": "vermee",
+      "subreddit": "LaTeX",
+      "created_utc": 1722090283,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "https://preview.redd.it/59ci0n5bm2fd1.png?width=1537&format=png&auto=webp&s=21b8fdebfdad9e17b5c8f2cbcd3d38696307d992\n\nAs seen in the screenshot, my references dont align. How do i fix this problem?",
+      "url": "https://www.reddit.com/r/LaTeX/comments/1edhk4u/alignment_error_bibtex/"
+    },
+    {
+      "id": "1cx1j9n",
+      "title": "Controlling 4 stepper motors individually using a RAMPS 1.4 Arduino shield",
+      "author": "vermee",
+      "subreddit": "arduino",
+      "created_utc": 1716274023,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi guys, I desperately tried controlling 4 stepper motor individually using a normal CNC shield. I couldn't figure out why I couldnt give the A-Axis individual command as it wouldnt respond. I checked everything possible so I bought a RAMPS 1.4 Arduino shield, that can control up to 5 stepper motors. However now none of the motors respond, I checked the connections but I'm not sure if I maybe used the wrong ports. Im not sure what I did wrong, my code looks like this:\n\n    #include <Stepper.h>\n    \n    // Define pins for RAMPS 1.4\n    #define X_STEP_PIN 0\n    #define X_DIR_PIN 1\n    #define X_ENABLE_PIN 38\n    \n    #define Y_STEP_PIN 6\n    #define Y_DIR_PIN 7\n    #define Y_ENABLE_PIN 2\n    \n    #define Z_STEP_PIN 46\n    #define Z_DIR_PIN 48\n    #define Z_ENABLE_PIN 62\n    \n    #define E0_STEP_PIN 26\n    #define E0_DIR_PIN 28\n    #define E0_ENABLE_PIN 24\n    \n    // Define parameters for stepper motors\n    #define STEPS_PER_REV 1000\n    #define STEPPER_SPEED 1000 // Adjust speed as needed\n    \n    // Initialize steppers\n    Stepper xStepper(STEPS_PER_REV, X_STEP_PIN, X_DIR_PIN);\n    Stepper yStepper(STEPS_PER_REV, Y_STEP_PIN, Y_DIR_PIN);\n    Stepper zStepper(STEPS_PER_REV, Z_STEP_PIN, Z_DIR_PIN);\n    Stepper aStepper(STEPS_PER_REV, E0_STEP_PIN, E0_DIR_PIN);\n    \n    // Define variable for movement steps\n    int movementSteps = 6400; // (-) down, () up\n    float retractionfraction = 0.9;\n    \n    void setup() {\n      // Nothing to initialize\n    }\n    \n    void loop() {\n      // Move first stepper (X-axis)\n      moveStepper(xStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract first stepper (X-axis)\n      retraction(xStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n      // Move second stepper (Y-axis)\n      moveStepper(yStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract second stepper (Y-axis)\n      retraction(yStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n      // Move third stepper (Z-axis)\n      moveStepper(zStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract third stepper (Z-axis)\n      retraction(zStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n      // Move fourth stepper (A-axis)\n      moveStepper(aStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract fourth stepper (A-axis)\n      retraction(aStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n    }\n    \n    void moveStepper(Stepper& stepper, int steps) {\n      stepper.setSpeed(STEPPER_SPEED);\n      stepper.step(steps);\n    }\n    \n    void retraction(Stepper& stepper, int steps) {\n      stepper.setSpeed(STEPPER_SPEED);\n      stepper.step(-steps); // Move in the opposite direction\n    }\n\nNote that if I insert the ENABLE pin int into the stepper function, it will result in an error as the code doesn't seem to recognize 4 int for the stepper function.\n\nhttps://preview.redd.it/d9e5xb4w7q1d1.jpg?width=3024&format=pjpg&auto=webp&s=634270a995d4a0d66929dc09cc7fdf9e4d6a358b\n\nhttps://preview.redd.it/derwsb4w7q1d1.jpg?width=4032&format=pjpg&auto=webp&s=1d1909d99745a09cf47d8618e3a41cc79a531aa0",
+      "url": "https://www.reddit.com/r/arduino/comments/1cx1j9n/controlling_4_stepper_motors_individually_using_a/"
+    },
+    {
+      "id": "1cwf85f",
+      "title": "Controlling 4 stepper motors using a RAMPS 1.4 Arduino shield",
+      "author": "vermee",
+      "subreddit": "Reprap",
+      "created_utc": 1716210670,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "Hi guys, I desperately tried controlling 4 stepper motor individually using a normal CNC shield. I couldn't figure out why I couldnt give the A-Axis individual command as it wouldnt respond. I checked everything possible so I bought a RAMPS 1.4 Arduino shield, that can control up to 5 stepper motors. However now none of the motors respond, I checked the connections but I'm not sure if i maybe used the wrong ports.\n\nThese are the ports i used:\n\n    #define X_STEP_PIN 2\n    #define X_DIR_PIN 5\n    #define Y_STEP_PIN 3\n    #define Y_DIR_PIN 6\n    #define Z_STEP_PIN 4\n    #define Z_DIR_PIN 7\n    #define A_STEP_PIN 12\n    #define A_DIR_PIN 13\n    \n    These are the ports I used for the normal CNC shield:\n    \n    #define X_STEP_PIN 54\n    #define X_DIR_PIN 55\n    #define Y_STEP_PIN 60\n    #define Y_DIR_PIN 61\n    #define Z_STEP_PIN 46\n    #define Z_DIR_PIN 48\n    #define E0_STEP_PIN 26\n    #define E0_DIR_PIN 28",
+      "url": "https://www.reddit.com/r/Reprap/comments/1cwf85f/controlling_4_stepper_motors_using_a_ramps_14/"
+    },
+    {
+      "id": "1cwf7p7",
+      "title": "Contnrolling 4 stepper motors using a RAMPS 1.4 Arduino shield",
+      "author": "vermee",
+      "subreddit": "ArduinoProjects",
+      "created_utc": 1716210632,
+      "score": 0,
+      "num_comments": 0,
+      "selftext": "Hi guys, I desperately tried controlling 4 stepper motor individually using a normal CNC shield. I couldn't figure out why I couldnt give the A-Axis individual command as it wouldnt respond. I checked everything possible so I bought a RAMPS 1.4 Arduino shield, that can control up to 5 stepper motors. However now none of the motors respond, I checked the connections but I'm not sure if i maybe used the wrong ports.\n\nThese are the ports i used:\n\n    #define X_STEP_PIN 2\n    #define X_DIR_PIN 5\n    #define Y_STEP_PIN 3\n    #define Y_DIR_PIN 6\n    #define Z_STEP_PIN 4\n    #define Z_DIR_PIN 7\n    #define A_STEP_PIN 12\n    #define A_DIR_PIN 13\n    \n    These are the ports I used for the normal CNC shield:\n    \n    #define X_STEP_PIN 54\n    #define X_DIR_PIN 55\n    #define Y_STEP_PIN 60\n    #define Y_DIR_PIN 61\n    #define Z_STEP_PIN 46\n    #define Z_DIR_PIN 48\n    #define E0_STEP_PIN 26\n    #define E0_DIR_PIN 28",
+      "url": "https://www.reddit.com/r/ArduinoProjects/comments/1cwf7p7/contnrolling_4_stepper_motors_using_a_ramps_14/"
+    },
+    {
+      "id": "1cwf6ed",
+      "title": "Controlling 4 stepper motors using a RAMPS 1.4 Arduino Shield",
+      "author": "vermee",
+      "subreddit": "arduino",
+      "created_utc": 1716210529,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/arduino/comments/1cwf6ed/controlling_4_stepper_motors_using_a_ramps_14/"
+    },
+    {
+      "id": "1clfpvi",
+      "title": "Printing Microfluidic Chips using a LCD Printer",
+      "author": "vermee",
+      "subreddit": "resinprinting",
+      "created_utc": 1714991300,
+      "score": 6,
+      "num_comments": 9,
+      "selftext": "I wanted to print objects with channels inside of them. The problem I face all the time is, that due to the translucency of the resin, the UV-light will cure everything that is below the top layer. I tried making the channel diameter bigger but even with diameters of 4mm it will cure them. Also I tried various angles but nothing helped. I dont want to print them in multiple parts as it it very hard to seal them. \n\nOn various papers and videos I saw however that people seem to be  able to print internal channels/cavities without problem, so what am I doing wrong?\n\nFor the printer I'm using the Phrozen Sonic Mini 8K and the resin im using is Nova3D's Clear resin. I used the according resin/curing settings provided by Nova3D.",
+      "url": "https://www.reddit.com/r/resinprinting/comments/1clfpvi/printing_microfluidic_chips_using_a_lcd_printer/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lf7dumb",
+      "body": "Yeah true, I put the \\\\url in fron of it, now its aligned! Thanks a lot!",
+      "author": "vermee",
+      "subreddit": "LaTeX",
+      "created_utc": 1722096018,
+      "score": 2,
+      "link_id": "t3_1edhl95",
+      "parent_id": "t1_lf762at"
+    },
+    {
+      "id": "lf7dpm5",
+      "body": "I think i fixed it, i put \\\\url in front of it now its aligned. But do you maybe know how the url can be displayed with the same font as the rest? Thanks!",
+      "author": "vermee",
+      "subreddit": "LaTeX",
+      "created_utc": 1722095969,
+      "score": 1,
+      "link_id": "t3_1edhl95",
+      "parent_id": "t1_lf74pud"
+    },
+    {
+      "id": "l4zk49w",
+      "body": "Thanks! I implemented the ENABLE pins, however I cant insert them into the stepper function as this results in error messages. It now looks like this:\n\n    #include <Stepper.h>\n    \n    // Define pins for RAMPS 1.4\n    #define X_STEP_PIN 0\n    #define X_DIR_PIN 1\n    #define X_ENABLE_PIN 38\n    \n    #define Y_STEP_PIN 6\n    #define Y_DIR_PIN 7\n    #define Y_ENABLE_PIN 2\n    \n    #define Z_STEP_PIN 46\n    #define Z_DIR_PIN 48\n    #define Z_ENABLE_PIN 62\n    \n    #define E0_STEP_PIN 26\n    #define E0_DIR_PIN 28\n    #define E0_ENABLE_PIN 24\n    \n    // Define parameters for stepper motors\n    #define STEPS_PER_REV 1000\n    #define STEPPER_SPEED 1000 // Adjust speed as needed\n    \n    // Initialize steppers\n    Stepper xStepper(STEPS_PER_REV, X_STEP_PIN, X_DIR_PIN);\n    Stepper yStepper(STEPS_PER_REV, Y_STEP_PIN, Y_DIR_PIN);\n    Stepper zStepper(STEPS_PER_REV, Z_STEP_PIN, Z_DIR_PIN);\n    Stepper aStepper(STEPS_PER_REV, E0_STEP_PIN, E0_DIR_PIN);\n    \n    // Define variable for movement steps\n    int movementSteps = 6400; // (-) down, () up\n    float retractionfraction = 0.9;\n    \n    void setup() {\n      // Nothing to initialize\n    }\n    \n    void loop() {\n      // Move first stepper (X-axis)\n      moveStepper(xStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract first stepper (X-axis)\n      retraction(xStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n      // Move second stepper (Y-axis)\n      moveStepper(yStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract second stepper (Y-axis)\n      retraction(yStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n      // Move third stepper (Z-axis)\n      moveStepper(zStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract third stepper (Z-axis)\n      retraction(zStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n      // Move fourth stepper (A-axis)\n      moveStepper(aStepper, movementSteps); // Move defined number of steps\n      delay(1000); // Delay for stability\n      // Retract fourth stepper (A-axis)\n      retraction(aStepper, movementSteps*retractionfraction); // Retract half of the steps\n      \n    }\n    \n    void moveStepper(Stepper& stepper, int steps) {\n      stepper.setSpeed(STEPPER_SPEED);\n      stepper.step(steps);\n    }\n    \n    void retraction(Stepper& stepper, int steps) {\n      stepper.setSpeed(STEPPER_SPEED);\n      stepper.step(-steps); // Move in the opposite direction\n    }",
+      "author": "vermee",
+      "subreddit": "Reprap",
+      "created_utc": 1716273757,
+      "score": 1,
+      "link_id": "t3_1cwf85f",
+      "parent_id": "t1_l4vsq6g"
+    },
+    {
+      "id": "l35tsna",
+      "body": "I've now printed using the Formlabs and it printed it perfectly! I assume that it also has to do with the higher quality resin, the formlabs part when inspected under UV light reflect way more light than the cheap china resin which lets it penetrte thru its entire body. But nevertheless thanks for your advice!",
+      "author": "vermee",
+      "subreddit": "resinprinting",
+      "created_utc": 1715190524,
+      "score": 1,
+      "link_id": "t3_1clfpvi",
+      "parent_id": "t1_l2zenjd"
+    },
+    {
+      "id": "l2zcitd",
+      "body": "The glueing via resin sounds interesting, however my parts have thread in them which doesn't allow for glueing really, also I dont have access to a milling machine unfortunately. However I'm printing it on a Formlabs 3B right now, so hopefully that will solve it.",
+      "author": "vermee",
+      "subreddit": "resinprinting",
+      "created_utc": 1715090679,
+      "score": 1,
+      "link_id": "t3_1clfpvi",
+      "parent_id": "t1_l2tlvbc"
+    },
+    {
+      "id": "l2zc81j",
+      "body": "They need to be somewhat transparent as I need to see the liquids flowing inside. I can't really print them vertically however, since the channels arent just straight pipes but have directional change. Tinkering around with the setting however is just so time-consuming and I've tried many setting :(",
+      "author": "vermee",
+      "subreddit": "resinprinting",
+      "created_utc": 1715090566,
+      "score": 1,
+      "link_id": "t3_1clfpvi",
+      "parent_id": "t1_l2tw9rh"
+    },
+    {
+      "id": "l2zbvt7",
+      "body": "Thanks! I'll have a look at it.",
+      "author": "vermee",
+      "subreddit": "resinprinting",
+      "created_utc": 1715090436,
+      "score": 1,
+      "link_id": "t3_1clfpvi",
+      "parent_id": "t1_l2vvdoq"
+    },
+    {
+      "id": "l2zbsqh",
+      "body": "Ah I see, we mainly bought it because it doesn't yellow that much during curing. But yeah as you mentioned during exposure is just cures the entire resin which also doesn't allow for supports.",
+      "author": "vermee",
+      "subreddit": "resinprinting",
+      "created_utc": 1715090405,
+      "score": 1,
+      "link_id": "t3_1clfpvi",
+      "parent_id": "t1_l2u3t61"
+    }
+  ]
+}

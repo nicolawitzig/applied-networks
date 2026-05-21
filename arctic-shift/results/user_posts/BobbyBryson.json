@@ -1,0 +1,146 @@
+{
+  "username": "BobbyBryson",
+  "posts": [],
+  "comments": [
+    {
+      "id": "lnjzm2h",
+      "body": "Yes, multiple small ones.",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1726572781,
+      "score": 1,
+      "link_id": "t3_1fgq364",
+      "parent_id": "t1_lngp8ry"
+    },
+    {
+      "id": "ln44rvc",
+      "body": "it should be fine. we had a math student in our team that also did not take IML & they did well.",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1726335329,
+      "score": 2,
+      "link_id": "t3_1fgq364",
+      "parent_id": "t3_1fgq364"
+    },
+    {
+      "id": "lfybwak",
+      "body": "Perspective from someone subletting multiple times:\nWe sublet as one roommate frequently went abroad. 350CHF room near wiedikon, so an insanely good offer.\n\nTypically goes like this:\nWe recieve over 400 emails in the first 4 hours, taking the posting offline at that point.\n\nWe started in order we recieved the mails and picked around 10-15 that looked & sounded nice (proper sentences, small introduction, nothing that gave off weird vibes, very shallow)\n\nWe reached out to the selected & offered zoom walkthroughs. The first bunch that responded got their meeting, usually most of those could be considered, typically leaving us with a handfull of good choices.\n\nAnd then we discussed & picked, here very small things can make the difference, something people said in the meeting, how open they acted, maybe they made a slightly better impression on one of us than the others.\nBut typically we had multiple people that we would like to take and the choice at this point is fairly arbitrary (so likely nothing you can influence reliably).\n\nTLDR if you were to apply for our room (might be different for others):\n- Be fast, hours after the post goes live\n- Have a reasonable & friendly, well formated small application\n- If you get a meeting try to make a good impression & if you manage to find common ground on hobbies, living situation, … you may get bonus points.",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1722507108,
+      "score": 1,
+      "link_id": "t3_1egqhtc",
+      "parent_id": "t3_1egqhtc"
+    },
+    {
+      "id": "lb3yo3f",
+      "body": "And you could likely reap the benefits of your spent tax dollars if we would let them stay.\n\nI was wondering about this when we discussed the increased cost for foreign students. why do we not instead try to keep the ones ‘we already paid for’?",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1719831778,
+      "score": 17,
+      "link_id": "t3_1dspsn0",
+      "parent_id": "t1_lb3xpl9"
+    },
+    {
+      "id": "ktqm2y3",
+      "body": "I think much more likely we will arive at the conclusion that we are not ‘sentient’ either.",
+      "author": "BobbyBryson",
+      "subreddit": "memes",
+      "created_utc": 1709798828,
+      "score": -22,
+      "link_id": "t3_1b8n2sf",
+      "parent_id": "t1_ktqdbum"
+    },
+    {
+      "id": "kt9ntar",
+      "body": "You can typically do the consecutive master’s degree, for which you don’t need to apply, just enroll.\nFor other degrees you need to apply & be chosen. I suppose here the same criteria that have been mentioned on this sub a hundred times will influence your odds.\n\nProbably as an ETH internal your grade is somewhat important (maybe specifically basis jahr), and if you have publications / quality of your thesis.",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1709537566,
+      "score": 1,
+      "link_id": "t3_1b624td",
+      "parent_id": "t3_1b624td"
+    },
+    {
+      "id": "krqkp9b",
+      "body": "Can it? Probably.\n\nWill it? Really difficult to answer.\nIn deployment cases (make a trained model available as a service) I think rust already found some adoption.\nBut for training & tinkering, I think python is still much more convenient. Not because rust & it’s ecosystem for ML is bad, but we had almost 10 years to build a ton of resources, tutorials & videos on the python side. Performance is also good with all the low level APIs in C, C++,.. for Python. So for a lot of the day to day tasks in ML research/development, there is little incentive to switch. \n\nAnecdote: I am currently doing a compression project with pytorch, and I opted to use c++ for the performance critical parts, simply because there are a lot of resources where I can get inspiration / examples for all the apis & libraries I need to use.\nAll the parts were available in rust one way or another, but it would have cost me a lot more time to find all the information to make it work.\n\nI think people are curious & if we get big crates with significant benefits that can be used easily with one another, we might see some change.\nBut a bit of speed / security does not outweight the convenience for me today.",
+      "author": "BobbyBryson",
+      "subreddit": "rust",
+      "created_utc": 1708676172,
+      "score": 1,
+      "link_id": "t3_1axuuqg",
+      "parent_id": "t3_1axuuqg"
+    },
+    {
+      "id": "krl0gxn",
+      "body": "It might be covered in your household insurance if you are lucky.",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1708592027,
+      "score": 19,
+      "link_id": "t3_1ax1rjs",
+      "parent_id": "t3_1ax1rjs"
+    },
+    {
+      "id": "krhewhk",
+      "body": "Correct me if I am wrong but you may be mixing up a few things.\n\nDiesel (or another ORM) allows you to specify how you want your database content to be setup, i.e specify tables, constraints, …\nThis part you could configure from within rust by running different migrations based on previously established config / user input.\n\nThen there is the database itself, this will be installed seperately and provide the database service to your rust code. If you want to configure things here (like lets say root password or whatever there is to configure) then this is typically done with arguments when starting the database. How to install the database will vary between flavour of db you install & os you install it on.\n\nSo what you probably want to do is figure out for which database engine & for which os you want to provide this install & then write some bash scripts to do that install for you.\n\nThen you can install your software from another bash file that will first call the db install for the specific platform & then probably wait a bit for the db to start & then runs your rust code which uses embed_migrations to setup the content of the db.\n\nI don’t think there is a way of including the whole db in your binary if that is what you are looking for.",
+      "author": "BobbyBryson",
+      "subreddit": "rust",
+      "created_utc": 1708539183,
+      "score": 1,
+      "link_id": "t3_1awb2n0",
+      "parent_id": "t3_1awb2n0"
+    },
+    {
+      "id": "krbijpv",
+      "body": "Not an expert, Pytorch uses libtorch which is a c or c++ api.\nSo I don’t think it’s much of a bottleneck. The costly stuff is executed in low level pangiages",
+      "author": "BobbyBryson",
+      "subreddit": "rust",
+      "created_utc": 1708450211,
+      "score": 50,
+      "link_id": "t3_1avn4ew",
+      "parent_id": "t3_1avn4ew"
+    },
+    {
+      "id": "kr01rsw",
+      "body": "Being 17 & wanting to study computer science is not enough (actually neither your age, nor your willingness to study CS is an admissions criteria)\n\nHere are some links where you can read up.\n[1] has country specific information, [2] is eth’s official stance which explicitly mentions they will not be able to give you your “chances of addmission” without your full application.\n\n[[1]](https://www.swissuniversities.ch/themen/zulassung/zulassung-universitaere-hochschulen/laender)\n[[2]](https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/admission-prerequisites.html)",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1708271158,
+      "score": 3,
+      "link_id": "t3_1atwe2y",
+      "parent_id": "t3_1atwe2y"
+    },
+    {
+      "id": "kpm0tw9",
+      "body": "Minecraft 1.20 | Cherry Blossom Survivial House Tutorial in 6 Minutes by Snarple.\n\n100% original, yeah sure.",
+      "author": "BobbyBryson",
+      "subreddit": "Minecraftbuilds",
+      "created_utc": 1707468282,
+      "score": 1,
+      "link_id": "t3_1alxqm8",
+      "parent_id": "t3_1alxqm8"
+    },
+    {
+      "id": "kpb98jh",
+      "body": "Depends on the type of the course & what you want from it.\n\nFor bigger courses, the first lecture is typically admin & recap. The information will (should) be available online now (from previous years) or soon after the lecture. I feel you won’t miss much if you skip it, but there is also no harm in going.\n\nFor smaller courses, seminars & courses with projects, I would attend so you won’t miss out on forming teams / meeting people. Maybe contact a TA / Prof if it is a seminar, I suspect they are dropped less than courses, as you can only sign up for one in most cases.",
+      "author": "BobbyBryson",
+      "subreddit": "ethz",
+      "created_utc": 1707300865,
+      "score": 2,
+      "link_id": "t3_1akoett",
+      "parent_id": "t3_1akoett"
+    },
+    {
+      "id": "kpb7ye7",
+      "body": "Is the gamerule mobGriefing True? Otherwise they can’t farm by themselves & will not have food (I see you dropped bread).\n\nIf they don’t pick up the bread, their inventory could be full with seeds which would mean no space for food.",
+      "author": "BobbyBryson",
+      "subreddit": "Minecraft",
+      "created_utc": 1707299894,
+      "score": 1,
+      "link_id": "t3_1akx681",
+      "parent_id": "t3_1akx681"
+    }
+  ]
+}

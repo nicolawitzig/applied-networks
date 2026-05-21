@@ -1,0 +1,226 @@
+{
+  "username": "deragent",
+  "posts": [],
+  "comments": [
+    {
+      "id": "m2twli1",
+      "body": "> Um Fahrzeug-Inserate mit einem Fahrzeugpreis von über CHF 3'000.- oder mehr als 2 Fahrzeug-Inserate gleichzeitig zu veröffentlichen, müssen unsere Nutzer:innen entweder ein [AutoPRO-Abonnement](https://www.tutti.ch/de/subscription/vehicle) abschliessen oder können seit dem 25.11.2024 neu zusätzliche Inserate [mittels Einmalzahlung pro Inserat](https://www.tutti.help/hc/de/articles/22621870923282) live schalten.",
+      "author": "deragent",
+      "subreddit": "schwiiz",
+      "created_utc": 1734620264,
+      "score": 6,
+      "link_id": "t3_1hhbgoj",
+      "parent_id": "t3_1hhbgoj"
+    },
+    {
+      "id": "m2b8vtf",
+      "body": "I could see this as a potential approach.\n\nBut I really wonder if this would actually work in reality…\n\nIn any case, I fully agree with your last sentence:\n\n\\> Either way the safest is always to flag unexpected incoming money to the bank and ask in writing how to proceed. Then you have your plausible deniability.",
+      "author": "deragent",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734346515,
+      "score": 1,
+      "link_id": "t3_1heszqe",
+      "parent_id": "t1_m2b7nm8"
+    },
+    {
+      "id": "m2b70i5",
+      "body": "Yes,  via the legal way the money could eventually be taken back.\n\nBut in my opinion this still inhibits the use of TWINT for this kind of Money return scam that one sees with other payment processing apps.\n\nI dont see any scammer going the legal way to get the money back (especially after you already returned it via a second channel).",
+      "author": "deragent",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734345276,
+      "score": 1,
+      "link_id": "t3_1heszqe",
+      "parent_id": "t1_m2b66bg"
+    },
+    {
+      "id": "m2b5uom",
+      "body": "I would say, most likely your number is very similar to the number used by a shop to accept TWINT payments!\n\nIn any case TWINT payments are final, and there is no way for the money to disappear again automatically.",
+      "author": "deragent",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734344480,
+      "score": 1,
+      "link_id": "t3_1heszqe",
+      "parent_id": "t3_1heszqe"
+    },
+    {
+      "id": "m2b5lqv",
+      "body": "That is not how TWINT works!\n\nTransactions on TWINT are final, and now way of canceling the transaction after the fact.\n\nThis makes TWINT not susceptible to these types of scams: [https://www.bcv.ch/en/home/help-and-contact/money-sent-to-the-wrong-person.html](https://www.bcv.ch/en/home/help-and-contact/money-sent-to-the-wrong-person.html)",
+      "author": "deragent",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1734344310,
+      "score": 1,
+      "link_id": "t3_1heszqe",
+      "parent_id": "t1_m27x7oz"
+    },
+    {
+      "id": "ludfm1b",
+      "body": "My money is also on this.\n\nThe link has an unique identifier, probably to track who clicked the link.\n\nThe domain is registered by [hostpoint.ch](http://hostpoint.ch) (which i doubt a real phisher would use).  \nThe IP of the domain is inside the ETH network (with a host in INFK).\n\nAnd the E-Mail headers kind of show that the E-Mail seems to originate from a server in INFK…\n\nSo….",
+      "author": "deragent",
+      "subreddit": "ethz",
+      "created_utc": 1730219795,
+      "score": 11,
+      "link_id": "t3_1gewxcs",
+      "parent_id": "t1_luda5ty"
+    },
+    {
+      "id": "ludeau8",
+      "body": "You need to check the link better!\n\nOnly the display test shows [ethz.ch](http://ethz.ch)\n\nBut the actual link goes to fake website.",
+      "author": "deragent",
+      "subreddit": "ethz",
+      "created_utc": 1730219395,
+      "score": 7,
+      "link_id": "t3_1gewxcs",
+      "parent_id": "t1_lud97n7"
+    },
+    {
+      "id": "lr578pz",
+      "body": "Also have a loom at Seat61: [https://www.seat61.com/Serbia.htm#london-to-north-macedonia-by-train](https://www.seat61.com/Serbia.htm#london-to-north-macedonia-by-train)",
+      "author": "deragent",
+      "subreddit": "SBB",
+      "created_utc": 1728504251,
+      "score": 3,
+      "link_id": "t3_1fzyghc",
+      "parent_id": "t1_lr4r6lq"
+    },
+    {
+      "id": "lq9gyvy",
+      "body": "Getting multiple bills, even for the same hospital stay is also very well possible.\n\nFor example certain tests or diagnostics might be done externally and thus also invoiced separately.",
+      "author": "deragent",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728022946,
+      "score": 2,
+      "link_id": "t3_1fvh8dl",
+      "parent_id": "t1_lq9fmei"
+    },
+    {
+      "id": "lq9f0tw",
+      "body": "It is very likely that the first bill (908CHF) was just the ambulance ride.\n\nThis fits more or less with something similar I paid (in Zürich).  \nAlso, at least in Zürich, ambulance bills always come to you and not directly to your insurance.  \nThis also fits with your additional insurance paying 50% of the ambulance ride, which was the same for me.  \nAlso the item (ambulance ride, medicine, OUT OF HOUSE CARE) fit to an ambulance ride.\n\nThis means the 380CHF is the actual hospital bill.  \nThe hospital bill went directly to your insurance. And now the insurance forwards you the bill as you probably have not yet maxed out your franchise.\n\nTLDR: 908 CHF for the ambulance, 380 CHF for the hospital/emergency room. (Just my 2 cents)",
+      "author": "deragent",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728021710,
+      "score": 2,
+      "link_id": "t3_1fvh8dl",
+      "parent_id": "t3_1fvh8dl"
+    },
+    {
+      "id": "loqzf4w",
+      "body": "yes, you need to allow for the flat to be shown.\n\nBut no, you have no obligation to be there! The law does not state that it is up to you to show the flat, but just that you need to make the flat available to be shown.\n\nThere are definitely cases, where for example the Janitor was the one showing the appartment.\n\nBut of course, many people dont like having strangers show their appartment to more strangers, so often it is indeed the old tenants doing the showing.\n\n  \nSee for example here: [http://archiv.hev-zuerich.ch.rubin.ch-meta.net/jahr-2008/ms-art-200805-12.htm](http://archiv.hev-zuerich.ch.rubin.ch-meta.net/jahr-2008/ms-art-200805-12.htm)\n\n« Der Vermieter braucht sein Besichtigungsrecht nicht persönlich auszuüben. Er kann die Besichtigung beispielsweise durch den Hauswart oder die Verwaltung ausüben lassen. Ebenso ist der Mieter nicht verpflichtet, persönlich anwesend zu sein. Auch ihm steht es zu, sich vertreten zu lassen oder die Wohnungsschlüssel der Hauswartung zu übergeben. « ",
+      "author": "deragent",
+      "subreddit": "Switzerland",
+      "created_utc": 1727209989,
+      "score": 10,
+      "link_id": "t3_1fofu2d",
+      "parent_id": "t1_lopjyuy"
+    },
+    {
+      "id": "lokwbww",
+      "body": "So in general, you can always try to find a suitable replacement tenant to get out of the contract early.\n\nIf the landlord does not want to rent it, that is the problem of the landlord. But as long as you can find somebody willing to take over the contract at the same conditions as you, you are good.\n\nNow of course, it might be difficult to find somebody, who wants to rent a flat for only two months…\n\nAlso, is your contract really a fixed term contract? Or did you just get a notice that your contract (indeterminate) will be terminated for Q1 2025?\n\nA fixed term contract is a contract which has the end date stated im the contract from the beginning (when signing the contract).",
+      "author": "deragent",
+      "subreddit": "Switzerland",
+      "created_utc": 1727122216,
+      "score": 1,
+      "link_id": "t3_1fnt7i3",
+      "parent_id": "t3_1fnt7i3"
+    },
+    {
+      "id": "locwfwj",
+      "body": "Zürich City offers such a service: [https://www.stadt-zuerich.ch/ted/de/index/entsorgung\\_recycling/entsorgen/wo-wann-entsorgen/kranfahrzeug\\_fuer\\_losen\\_pflanzlichen\\_gartenabfall.html](https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/wo-wann-entsorgen/kranfahrzeug_fuer_losen_pflanzlichen_gartenabfall.html)",
+      "author": "deragent",
+      "subreddit": "zurich",
+      "created_utc": 1727011361,
+      "score": 1,
+      "link_id": "t3_1fmsyi4",
+      "parent_id": "t3_1fmsyi4"
+    },
+    {
+      "id": "lnv18vg",
+      "body": "You do not need to have an ID when voting in Switzerland!\n\n  \nYou vote using the papers sent to you a few weeks before the voting day.",
+      "author": "deragent",
+      "subreddit": "MapPorn",
+      "created_utc": 1726729346,
+      "score": 15,
+      "link_id": "t3_1fke8ej",
+      "parent_id": "t3_1fke8ej"
+    },
+    {
+      "id": "lma1u4q",
+      "body": "See here: [https://www.sinndrin.ch/projekte/unkommerzielle-marktplaetze-und-aehnliche-gruppen/](https://www.sinndrin.ch/projekte/unkommerzielle-marktplaetze-und-aehnliche-gruppen/)\n\nFor Zürich: [https://t.me/+TFhr1DGsGxWWcDMA](https://t.me/+TFhr1DGsGxWWcDMA)",
+      "author": "deragent",
+      "subreddit": "zurich",
+      "created_utc": 1725890970,
+      "score": 3,
+      "link_id": "t3_1fcorxs",
+      "parent_id": "t3_1fcorxs"
+    },
+    {
+      "id": "lm9o9nh",
+      "body": "So I wrote to SBB customer service on Saturday and the answered today.\n\nThere is indeed a problem with the ticket purchase due to the changed time-table (replacement bus due to track work).  \nThey will fix the ticket purchase issue as soon as possible, so that you can buy tickets through the app for this connection.\n\nhttps://preview.redd.it/we87tdbf4snd1.png?width=1414&format=png&auto=webp&s=9acccc99342d86eb4490d2349b698289e0eea53d",
+      "author": "deragent",
+      "subreddit": "askswitzerland",
+      "created_utc": 1725885749,
+      "score": 2,
+      "link_id": "t3_1fb1lyo",
+      "parent_id": "t3_1fb1lyo"
+    },
+    {
+      "id": "l4nh0zj",
+      "body": "So, volunteering is kind of looked at like working, even if you do not earn any money.\n\nThat means, assuming your are not a EU/EFTA national, your « employer » (the organisation you volunteer with, needs to request a permit for you.\n\n  \nSee here (in german): [https://www.benevol.ch/fileadmin/images/global/PDF/benevol\\_Merkblatt\\_6\\_Einsaetze\\_fuer\\_auslaendische\\_Personen.pdf](https://www.benevol.ch/fileadmin/images/global/PDF/benevol_Merkblatt_6_Einsaetze_fuer_auslaendische_Personen.pdf)",
+      "author": "deragent",
+      "subreddit": "askswitzerland",
+      "created_utc": 1716066834,
+      "score": 3,
+      "link_id": "t3_1cv6mak",
+      "parent_id": "t3_1cv6mak"
+    },
+    {
+      "id": "l3assmm",
+      "body": "Micro-Chemicals supplies ULSI-Grade Acetone (99.9%): [https://www.microchemicals.com/products/solvents/acetone.html](https://www.microchemicals.com/products/solvents/acetone.html)\n\nNot sure about the hurdles of importing this as a private person…",
+      "author": "deragent",
+      "subreddit": "askswitzerland",
+      "created_utc": 1715271097,
+      "score": 1,
+      "link_id": "t3_1co0rk7",
+      "parent_id": "t3_1co0rk7"
+    },
+    {
+      "id": "l2ymufv",
+      "body": "J’imagine que ça depend fortement de canton à canton et de cas à cas.\n\nNormalement, vue qu’elle reside déjà en Suisse avec un permis valable, c‘est plus vite.\n\nMais, je pense il faut compter au moins 1-2 mois.\n\n  \nAu cas que la personne ne reside pas encore en Suisse, ça peut durer plusieurs mois à 6 mois est plus.\n\n(Source: Situation similaire à Zürich)",
+      "author": "deragent",
+      "subreddit": "Lausanne",
+      "created_utc": 1715078704,
+      "score": 1,
+      "link_id": "t3_1cm7hqp",
+      "parent_id": "t3_1cm7hqp"
+    },
+    {
+      "id": "ktbqpst",
+      "body": "Now I am currious.\n\nDoes anybody have a screenshot of the E-Mail?",
+      "author": "deragent",
+      "subreddit": "EPFL",
+      "created_utc": 1709574554,
+      "score": 3,
+      "link_id": "t3_1b6frmz",
+      "parent_id": "t3_1b6frmz"
+    },
+    {
+      "id": "kj22wlk",
+      "body": "Just to add, 1h might be a bit tight for this transfer, especially with the time it takes to get from the airplane out of the airport building.\n\nBut trains to Interlaken should also still run 30min or 1h later than the train you have planed.",
+      "author": "deragent",
+      "subreddit": "basel",
+      "created_utc": 1705940368,
+      "score": 7,
+      "link_id": "t3_19cyv1w",
+      "parent_id": "t1_kj22lr5"
+    },
+    {
+      "id": "kj22lr5",
+      "body": "You will want to take Bus No 50.\n\nIt stops just outside pf the arrivals (on level 0 / GND level).\n\nMake sure to leave the airport on the swiss side.\n\n&#x200B;\n\nThe bus takes you all the way to the trainstation (takes about 22 min).\n\nAnd the bus runs every 8-10 min in the evening.\n\n&#x200B;\n\nYou can check the connection here: [https://sbb.ch](https://sbb.ch)\n\n“ Basel EuroAirport, Ankunft” to “ Basel SBB”",
+      "author": "deragent",
+      "subreddit": "basel",
+      "created_utc": 1705940263,
+      "score": 10,
+      "link_id": "t3_19cyv1w",
+      "parent_id": "t3_19cyv1w"
+    }
+  ]
+}

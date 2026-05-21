@@ -1,0 +1,1781 @@
+{
+  "username": "Swissaliciouse",
+  "posts": [
+    {
+      "id": "1hd8lo4",
+      "title": "Journal requiring \"plagiarism of the article is less than 15%\"",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1734081997,
+      "score": 3,
+      "num_comments": 13,
+      "selftext": "Is this a new low in quality assurance for journal articles (emphasis by me)?\n\n>Dear Professor | Scientist | Scholar,\n\n>Greetings!\n\n>I hope that you are healthy and doing well.\n\n>You are invited to submit original research article (s) based on your research expertise. Article (s) can be submitted from the journal website by using the “Article Submission System” throughout the year if:\n\n>•\tT**he plagiarism of the article is less than 15%, including references.** \n\n>•\tThe article is within the scope of the journal. \n\n>•\tThe article is original and result-oriented. \n\n>For more detailed information, please visit the journal’s editorial and publishing policies.\n\n>",
+      "url": "https://www.reddit.com/r/academia/comments/1hd8lo4/journal_requiring_plagiarism_of_the_article_is/"
+    },
+    {
+      "id": "1gdgl1v",
+      "title": "How to restore a corrupted LR database?",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1730050900,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "LR-classic V14; Windows 10\n\nI had a catastrophic SSD loss. Before the drive failed it first had substantial bit-rot. To restore my system I have chosen the latest database that I could load and restore without too much data-loss. It is now working and I am productive again. However, the automatic backup doesn't work anymore. It complains that it can not write the backup to the drive - independent which drive or folder I am assigning. It also doesn't matter if I choose to check integrity or not. I assume that the database has some sort of corruption that is small enough to not hamper LR, but big enough to interfere with the automatic backup routine?\n\nAnybody had overcome successfully such an issue? Any fix you can recommend to clean the database from any errors (without major loss of data)?",
+      "url": "https://www.reddit.com/r/Lightroom/comments/1gdgl1v/how_to_restore_a_corrupted_lr_database/"
+    },
+    {
+      "id": "1g83rmb",
+      "title": "Strange behaviour after upgrade from 24.9 to 24.10.: History did not work - got resolved with a second device. ",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1729444617,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Not sure, if I am the only one with this experience - but if not, then I hope this post helps somebody else. \n\nAfter the upgrade from 24.9 to 24.10, I had a whole bunch of strange behavior. The history function did not work, but the ApexCharts was still displaying a history. So the data was still there. This did no resolve after updating all the HACS instances nor after restarting (several times). \n\nThree days of experimenting later, all the issues were resolved by accessing HA with an other device via a chrome based browser. I used my tablet and boom, everything worked flawlessly. And now suddenly everything works perfectly on my primary device as well. All the strange issues were gone. \n\nI am running HA on a RPi 3B in a docker and using the latest version of Firefox (131) on a Windows 10 box. ",
+      "url": "https://www.reddit.com/r/homeassistant/comments/1g83rmb/strange_behaviour_after_upgrade_from_249_to_2410/"
+    },
+    {
+      "id": "1g21lm9",
+      "title": "Help me to decide: Does size has an impact on overall noise?",
+      "author": "Swissaliciouse",
+      "subreddit": "sffpc",
+      "created_utc": 1728744118,
+      "score": 11,
+      "num_comments": 12,
+      "selftext": "I am planning a custom build for a PC that can handle picture editing (Lightroom). This requires a higher end CPU and a mid-tier GPU (e.g. 4070). During editing work, the load can be quite substantial on CPU and GPU and I would like to keep noise down as much as possible/reasonable. \n\nCan I go sff or is there a substantial noise reduction by going larger? Any insights you can give me - e.g. specific GPUs that are noise optimised?",
+      "url": "https://www.reddit.com/r/sffpc/comments/1g21lm9/help_me_to_decide_does_size_has_an_impact_on/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m437bhs",
+      "body": "You are way overthinking this. These requirements are not written by HR professionals, but by the team leader that has a position to fill. The term \"Muttersprache German\" generally translates into: native-level German skills. There is no reason why they should prefer a German or Austrian over a perfectly German speaking Italian. \n\nJust apply - you will not be rejected because your mum doesn't speak German.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735332307,
+      "score": 39,
+      "link_id": "t3_1hnn4n5",
+      "parent_id": "t3_1hnn4n5"
+    },
+    {
+      "id": "m3zz9jr",
+      "body": "I answered your question\n\n>How much of a problem did this present to the men who carried it in service, most of whom being conscripts?\n\nTraining in peace time has its shortcomings and many flaws are only discovered during real combat. And weight of the weapon is one of them.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735282446,
+      "score": 1,
+      "link_id": "t3_1hlfsbt",
+      "parent_id": "t1_m3xgnya"
+    },
+    {
+      "id": "m3masyt",
+      "body": "In peace time 2 kg more weight is just irrelevant. You are schlepping a little bit more - but you are not dying because of less combat readiness or having less rounds along. The biggest difference between the 57 and the 90 was not the weight, but the folding stock. That made the gun sooo much more easy to handle - especially because most of the time you are just lugging the thing around.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1735060770,
+      "score": 1,
+      "link_id": "t3_1hlfsbt",
+      "parent_id": "t3_1hlfsbt"
+    },
+    {
+      "id": "m3m8c8i",
+      "body": "Depending on what you want to use it for: Try a pool supply stores. You can get 12 % solution for not too much money.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1735059919,
+      "score": 2,
+      "link_id": "t3_1hlgq4x",
+      "parent_id": "t3_1hlgq4x"
+    },
+    {
+      "id": "m07mk0j",
+      "body": "Lozärner Rägetröpfli from \"Heini\" in Lucerne. Top notch.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1733239523,
+      "score": 1,
+      "link_id": "t3_1h5je2f",
+      "parent_id": "t3_1h5je2f"
+    },
+    {
+      "id": "m02lks0",
+      "body": "Cherish a supervisor that cares and takes the time to give feedback. This is the best way to grow and learn. You might want to check out the books \"Mindset: The New Psychology of Success\" by Carol S. Dweck and \"Peak: Secrets from the New Science of Expertise\" by  Anders Ericsson and Robert Pool. Both book focus around the notion of feedback and learning from failure.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1733163693,
+      "score": 22,
+      "link_id": "t3_1h4z5sm",
+      "parent_id": "t3_1h4z5sm"
+    },
+    {
+      "id": "lzd3fl5",
+      "body": "Depends on the wastewater you are talking about. If total N and P is in form of ammonium and phosphate then yes. If you talk about municipal wastewater, then a good part of the nutrients are organic P and N and therefore chemically bound to the COD. I would not know any way to break this up without reducing the overall COD.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1732770835,
+      "score": 4,
+      "link_id": "t3_1h1obz9",
+      "parent_id": "t3_1h1obz9"
+    },
+    {
+      "id": "lz93qy7",
+      "body": "You can create an automation to send an email: [https://www.home-assistant.io/integrations/smtp](https://www.home-assistant.io/integrations/smtp)",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1732720598,
+      "score": 5,
+      "link_id": "t3_1h16h6r",
+      "parent_id": "t3_1h16h6r"
+    },
+    {
+      "id": "lyeqeq7",
+      "body": "And if you have the means: Get a windshield cover, saves a LOT of work in the morning.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1732280730,
+      "score": 11,
+      "link_id": "t3_1gx6u7d",
+      "parent_id": "t1_lyep7k8"
+    },
+    {
+      "id": "ly2b7fc",
+      "body": "The keyword you are looking for in German in \"Mobbing\". It's the legal definition of harassment in Switzerland and all companies have an obligation to take measures to combat mobbing and sexual harassment. Important: Mobbying is defined as a sustained and systematic harassment - therefore having a diary or a list of precise events is important. \n\nOnce you have that, it depends how much you want to stick your neck out. The atomic version is to take your complaint list and go to the line manager of your supervisor or to HR. They need to act. However, if this will be in your interest is not always guaranteed. A softer approach is to talk to the \"Ombudsperson\" that should be present in any of the institutions in the ETH domain. \n\nThere is more help available. Check with [https://www.fachstelle-mobbing.ch/](https://www.fachstelle-mobbing.ch/)",
+      "author": "Swissaliciouse",
+      "subreddit": "ethz",
+      "created_utc": 1732085686,
+      "score": 2,
+      "link_id": "t3_1guseew",
+      "parent_id": "t3_1guseew"
+    },
+    {
+      "id": "lxw0kkg",
+      "body": "I used Lightroom noise reduction. Very effective for such pictures.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1731997519,
+      "score": 2,
+      "link_id": "t3_1gu8o7y",
+      "parent_id": "t1_lxubu89"
+    },
+    {
+      "id": "lxsnc7i",
+      "body": "You should be able to get some decent shots with your settings. \n\nhttps://preview.redd.it/tcfd01c2ep1e1.jpeg?width=853&format=pjpg&auto=webp&s=12f070d8132ef9216527b2ba3979c99232d9ab10\n\nThis was shot at 1/200 (dancing), f2.8, 200 mm, ISO 25600 with difficult light conditions.\n\nIf you have the option then adding some flash or more light certainly will help.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1731954742,
+      "score": 1,
+      "link_id": "t3_1gu8o7y",
+      "parent_id": "t3_1gu8o7y"
+    },
+    {
+      "id": "lxscpup",
+      "body": "[Rast.ch](http://Rast.ch) is a good roaster with a decent selection of well priced coffees. A little more pricey but worth the quality: [utopiacoffee.ch](http://utopiacoffee.ch) and kafischmitte.ch.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1731951549,
+      "score": 4,
+      "link_id": "t3_1gu8xo1",
+      "parent_id": "t3_1gu8xo1"
+    },
+    {
+      "id": "lxfopur",
+      "body": "There are two types of sales: The \"we have to throw it out tomorrow and rather sell it for 50 % off\" and the \"we want to motivate people to buy our stuff sales price\". Many regular household items are \"on sale\" every few weeks. If you are cost sensitive, then you pay attention to them and generally buy bulk on sale and pay less for your essentials (toilet paper or canned tomatoes are classics). \n\nThe \"regular\" price once was called by The Economist \"the stupid tax\".",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1731767037,
+      "score": 29,
+      "link_id": "t3_1gsnopr",
+      "parent_id": "t3_1gsnopr"
+    },
+    {
+      "id": "lxef45p",
+      "body": "Ferric works mainly by binding strongly to the sulfides and thus precipitating them out of solution. Also very effective in digesters, where you can not prevent H2S formation.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1731741594,
+      "score": 1,
+      "link_id": "t3_1grf6pj",
+      "parent_id": "t1_lx5i0e9"
+    },
+    {
+      "id": "lwjz8fe",
+      "body": "There is quite a bit of scientific research out there and I am surprised that you can not find anything online. Swiss research was predominantly done at the water research institute Eawag. You can check their publication database as a starting point: [Eawag publication database (keyword micropollutants)](https://www.dora.lib4ri.ch/eawag/islandora/search/mods_titleInfo_title_mt%3A%28micropollutant%29%5E5%20OR%20mods_abstract_ms%3A%28micropollutant%29%5E2%20OR%20dc.creator%3A%28micropollutant%29%5E2%20OR%20mods_extension_originalAuthorList_mt%3A%28micropollutant%29%5E2%20OR%20dc.contributor%3A%28micropollutant%29%5E1%20OR%20dc.type%3A%28micropollutant%29%5E1%20OR%20catch_all_MODS_mt%3A%28micropollutant%29%5E1?search_string=micropollutant&extension=false).\n\nHere an entry point for the Swiss practical and implementation side: [https://micropoll.ch/en/home/](https://micropoll.ch/en/home/)",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1731315525,
+      "score": 4,
+      "link_id": "t3_1gomm3y",
+      "parent_id": "t3_1gomm3y"
+    },
+    {
+      "id": "lw7v97b",
+      "body": "Have a look at this source: [Propagation of Error - Chemistry LibreTexts](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Quantifying_Nature/Significant_Digits/Propagation_of_Error). In your case look at equation 11 (you can ignore the third term with c). What you need are an estimation of the measurement uncertainties for your P measurement and your dilution. These are the variations you get, if you e.g. measure the same P sample 3 or 5 times (we generally use a well defined stock sample). \n\nIn formula 11 you are interested in x and its uncertainty. If you want to know, in which range 95 % of all values will fall (95 % confidence interval) then you can use x +/- 2\\*(standard deviation of x that you calculate from formula 11). And for the OCD out there: yes, strictly it would be 1.96 instead of 2. \n\nIn our lab, we have standard operating procedure (SOP) for all measurement routines. In these SOP we also determine the uncertainties under realistic conditions (usually including the sampling) - so that we know, how confident we can be in a measured value. Dilution is always a major source of uncertainty.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1731137853,
+      "score": 1,
+      "link_id": "t3_1glwpu2",
+      "parent_id": "t1_lw474qy"
+    },
+    {
+      "id": "lw2jx0y",
+      "body": "If I have to guess, then the keyword here is error propagation. By diluting by a factor 100 you are multiplying all measurement errors of the kit and your dilution by a factor 100. If you add the 95% confidence interval for the measurements (based on guessing the measurement uncertainty of the kit and your dilution skills) then I get: \n\n100 % = 15.1 +/- 1.6 mgP/L\n\n50 % = 18.0 +/- 2.1 mgP/L\n\n1% = 74.8 +/- 59.3 mgP/L\n\nYMMV",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1731070276,
+      "score": 1,
+      "link_id": "t3_1glwpu2",
+      "parent_id": "t3_1glwpu2"
+    },
+    {
+      "id": "lv5cjkz",
+      "body": "I was considering them, but the internet is not very happy with them. What made me not buy it was that they do not use a real CO2-sensor (the measurement I cared the most) and it seems that this is not producing very good results.",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1730620812,
+      "score": 14,
+      "link_id": "t3_1gihm77",
+      "parent_id": "t3_1gihm77"
+    },
+    {
+      "id": "lv0uc3r",
+      "body": "It seems that you failed to convince the immigration officer that you are indeed here to study and not just try to sneak around a proper work visa. If you appeal then find some convincing arguments that you are a serious student and not just working the system.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730558431,
+      "score": 4,
+      "link_id": "t3_1ghv4ma",
+      "parent_id": "t3_1ghv4ma"
+    },
+    {
+      "id": "lu86qg7",
+      "body": "That worked! Thanks so much. The backup worked and therefore I assume that the worst corruptions are gone. All the newer edits are still there as far as I can tell. The catalog got quite smaller (from 1.9 GB before the data loss to 1.6 GB to after this restoration. Some stuff was lost - but the most important more recent edits are there.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1730143897,
+      "score": 1,
+      "link_id": "t3_1gdgl1v",
+      "parent_id": "t1_lu7tq8x"
+    },
+    {
+      "id": "lu7wjd3",
+      "body": "Very much appreciated. Two things, I did not try so far: \"Find all missing photos\" (I did use the synchronise folder command) and exporting a collection. Will try and report back (will take some time as my computer is slow and my database large).",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1730140825,
+      "score": 1,
+      "link_id": "t3_1gdgl1v",
+      "parent_id": "t1_lu7tq8x"
+    },
+    {
+      "id": "lu5bpbd",
+      "body": "The face identification of google photos is really uncanny. I do not label them or help to train the algorithm and still the faces are still extremely well sorted. They know, who is hanging out with each other. They also recognize places (without GPS information) and can distinguish between different activities such as hiking or beach vacation.\n\nThere is a lot of information in your photos that AI can extract nowadays. Complements perfectly your other online activities. You might not have anything to hide - but google photos is certainly a place where google and advertisers can learn a lot from you and your group of friends.",
+      "author": "Swissaliciouse",
+      "subreddit": "googlephotos",
+      "created_utc": 1730105804,
+      "score": 2,
+      "link_id": "t3_1gdw893",
+      "parent_id": "t3_1gdw893"
+    },
+    {
+      "id": "lu4ywoj",
+      "body": "This is the consequent implementation of an existing law ([Goods Control Act](https://www.fedlex.admin.ch/eli/cc/1997/1697_1697_1697/en)) and a few issues with cases at Universities where such international sanctions were circumvented (e.g. in [Norway](https://apnews.com/article/technology-europe-middle-east-iran-denmark-0f44cbb1ba2f6776a85420d758995b2a)).",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1730096928,
+      "score": 10,
+      "link_id": "t3_1gdjnnb",
+      "parent_id": "t3_1gdjnnb"
+    },
+    {
+      "id": "lu2abzk",
+      "body": "The Philips Hue one last for at least two years and work really well. If you want to go cheap then the IKEA switch works with cheaper battery, but with less functions.",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1730059512,
+      "score": 3,
+      "link_id": "t3_1gdjloo",
+      "parent_id": "t3_1gdjloo"
+    },
+    {
+      "id": "ltzdcnw",
+      "body": "Not enough info. Why do you need Raid? Is uptime really important for you? And what do you want to have cloud storage for?\n\nAs a non-photoG professional here's my set-up: \n\n\\* SSD as the production drive. \n\n\\* The worked on pictures gets transferred to the main picture HDD. \n\n\\* This primary HDD gets a real backup on Crashplan (daily) and a once a month mirror on a second hard drive.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1730019016,
+      "score": 1,
+      "link_id": "t3_1gd6jvm",
+      "parent_id": "t3_1gd6jvm"
+    },
+    {
+      "id": "lt83lpi",
+      "body": "Username checks out. Not bad.",
+      "author": "Swissaliciouse",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1729626436,
+      "score": 1,
+      "link_id": "t3_1g9jdnl",
+      "parent_id": "t1_lt6u0gn"
+    },
+    {
+      "id": "lsvocm6",
+      "body": "As many other pointed out, the way how you approach that is indeed very naive. More knowledge and know-how and less kit would be much better in your case. There is no reason why you could not monitor the environment with easy means. E.g. you could easily create a kit that uses indicator organisms to identify problems - e.g. monitor the behaviour of water fleas (daphnia magna) with AI and identify unusual behaviour. Nothing you could not do with a small plastic box, a cheap camera and a Raspberry Pi with a tensor module. Alternatively, you use and know other indicator organisms to detect changes in the environment. \n\nThis all requires less stuff, is much cheaper but requires knowledge.",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1729448492,
+      "score": 4,
+      "link_id": "t3_1g81fbg",
+      "parent_id": "t3_1g81fbg"
+    },
+    {
+      "id": "lsvlbbs",
+      "body": "No, I did not do that. Not sure, why this would have helped?",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1729447595,
+      "score": 1,
+      "link_id": "t3_1g83rmb",
+      "parent_id": "t1_lsvhj74"
+    },
+    {
+      "id": "lsucrgb",
+      "body": "Assuming that your washing machine actually works as it should: The main trick for clean clothes is not to overload the machine and to use the recommended amount of detergent for the water hardness you have (you can still reduce from there if the results are good). If you have very greasy clothes with substantial BO then you might also want to pre-treat the worst spots (armpits, neck, ...).",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1729433205,
+      "score": 26,
+      "link_id": "t3_1g7zb5l",
+      "parent_id": "t3_1g7zb5l"
+    },
+    {
+      "id": "lsqrj0d",
+      "body": "Flash is the way to go - no light no photos. In any case: set your camera to shutter priority (usually Tv mode) and set it to 1/125 and let the camera do the rest.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1729371606,
+      "score": 2,
+      "link_id": "t3_1g7eu4e",
+      "parent_id": "t3_1g7eu4e"
+    },
+    {
+      "id": "lsqowuk",
+      "body": "Switzerland has upgraded their larger wastewater treatment plants to remove pharmaceuticals and other organic micro-pollutants. Mostly via ozonation or then PAC depending on the bromide concentration in the wastewater.",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1729370710,
+      "score": 7,
+      "link_id": "t3_1g7fkd4",
+      "parent_id": "t3_1g7fkd4"
+    },
+    {
+      "id": "lsotz9g",
+      "body": "Ask your parents?",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1729348106,
+      "score": 7,
+      "link_id": "t3_1g79ceg",
+      "parent_id": "t3_1g79ceg"
+    },
+    {
+      "id": "lrwomcs",
+      "body": "So you have a emitter of a strong signal on enemy territory that is potentially moving? Why is that not easy for a autonomous drone to detect, target and destroy?",
+      "author": "Swissaliciouse",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1728927460,
+      "score": 2,
+      "link_id": "t3_1g38e5c",
+      "parent_id": "t1_lrul1qz"
+    },
+    {
+      "id": "lrwm3ab",
+      "body": "You might want to ask a question or explain what you need help with? Some context would not harm as well.",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1728926674,
+      "score": 11,
+      "link_id": "t3_1g3l8ld",
+      "parent_id": "t3_1g3l8ld"
+    },
+    {
+      "id": "lru6wdw",
+      "body": "The PIP assumes that the employee has the capacity and the competence to follow the plan. It's very similar to SMART that defines clear goals that are achievable. Very useful to clarify expectations and also a step to prepare for letting a non performer go. \n\nIn your case it doesn't look like the student has the capacity to get things done. A PIP is pretty useless in this case - except if you need proof to let him go. To me it seems, that you need to find a way to fix the underlying cause (e.g. with therapy, sick leave or unpaid leave) before you can think of improving performance. If you don't have the means or capacity to do this then it probably is the best to let him go.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1728885700,
+      "score": 6,
+      "link_id": "t3_1g315hn",
+      "parent_id": "t3_1g315hn"
+    },
+    {
+      "id": "lrqnymi",
+      "body": "That is indeed new to me. Never had a newer GPU card before. Good to know. Thanks.",
+      "author": "Swissaliciouse",
+      "subreddit": "sffpc",
+      "created_utc": 1728837098,
+      "score": 1,
+      "link_id": "t3_1g21lm9",
+      "parent_id": "t1_lrqk944"
+    },
+    {
+      "id": "lrpt3fi",
+      "body": "HA as a software is really well built and reliable. But that's not really the relevant question. The main question is: Is the home automation package that you are building reliable. This is more then just HA as the software. Vendor specific (e.g. Phillips Hue) systems make sure that everything plays nice together. There is no decision about which network protocol to use or which hardware follows the standard or which computer to use to power the system. \n\nWith HA you have the full freedom to use a wide variety of hardware and well done this provides a very stable and robust home automation (as long as you don't upgrade too much). Done poorly, this can lead to quite some issues. Good example is probably the PC vs Apple world. Where with PC you can pick and choose - sometimes better and sometimes worse. While Apple is forcing to stay within their ecosystem with the great benefit that things just work - but with limited choices and more or less fixed prices.",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1728826328,
+      "score": 2,
+      "link_id": "t3_1g2n6jc",
+      "parent_id": "t3_1g2n6jc"
+    },
+    {
+      "id": "lroz2no",
+      "body": "Thanks! Much appreciated.",
+      "author": "Swissaliciouse",
+      "subreddit": "sffpc",
+      "created_utc": 1728809032,
+      "score": 2,
+      "link_id": "t3_1g21lm9",
+      "parent_id": "t1_lroxsit"
+    },
+    {
+      "id": "lrop1h3",
+      "body": "Nice. Thanks - that gives me a good starting point - I also was thinking AMD. How did you like the fractal case for the build? What motherboard did you choose?",
+      "author": "Swissaliciouse",
+      "subreddit": "sffpc",
+      "created_utc": 1728802158,
+      "score": 1,
+      "link_id": "t3_1g21lm9",
+      "parent_id": "t1_lrlyayb"
+    },
+    {
+      "id": "lr809bw",
+      "body": "I usually just write \"Falsche Adresse\" on the envelop and drop it into the next postal box. The Post sorts that out for you.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728547954,
+      "score": 12,
+      "link_id": "t3_1g0djn5",
+      "parent_id": "t3_1g0djn5"
+    },
+    {
+      "id": "lr7yppg",
+      "body": "Besides the excellent leadership input from several redditors, I also would recommend to have a look at how you are hiring people. Are you selecting for the people that fit your expectations and your leadership style? It's not just about grades and number of publications, but also about personality and fit into the team.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1728546837,
+      "score": 11,
+      "link_id": "t3_1g09g0v",
+      "parent_id": "t3_1g09g0v"
+    },
+    {
+      "id": "lqlloby",
+      "body": "The outcome will be as usual: [We are sorry....](https://youtu.be/15HTd4Um1m4?si=sTeYFEaGho6p9m-v)",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1728213034,
+      "score": 2,
+      "link_id": "t3_1fw72rl",
+      "parent_id": "t3_1fw72rl"
+    },
+    {
+      "id": "lpgrmin",
+      "body": "Your sensor is not that accurate. Precision is generally around 0.1 pH units and accuracy depends strongly on your calibration routine. 4.51 and 4.49 is not a significant difference in this respect. Having a repeatable procedure is usually more relevant as you then get comparable results.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1727599219,
+      "score": 1,
+      "link_id": "t3_1fr3c34",
+      "parent_id": "t3_1fr3c34"
+    },
+    {
+      "id": "lo43cei",
+      "body": "I am using crashplan to create a local and a cloud backup. Works in the background and has versioning. Retrieval is really easy and fast. Parallel to that I use FreeFileSync to create a mirror on an external drive. All is a little paranoid - but after I lost my production SSD - I was extremely glad that I had versioning of the corrupted files.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1726866628,
+      "score": 5,
+      "link_id": "t3_1flljrp",
+      "parent_id": "t3_1flljrp"
+    },
+    {
+      "id": "lnv39bf",
+      "body": "[NO CAPES!](https://youtu.be/YL3w73MAuIM?si=SgnpL8DXcSnsYMcS&t=22)",
+      "author": "Swissaliciouse",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1726730720,
+      "score": 2,
+      "link_id": "t3_1fkek0e",
+      "parent_id": "t1_lnv0pwg"
+    },
+    {
+      "id": "llcl4rk",
+      "body": "Here's how my service for my bike goes: I call - they tell me a date. I bring it in the morning and pick it up in the evening. Exception is, if they need to order something special for my bike (it is not run of the mill....). Prices are not cheap - but very transparent and labor time is always reasonable. They give me an approximate quote when I bring the bike (by checking the most relevant wear - e.g. disk breaks or tires) and call, if they find something that pushes this up substantially. \n\nThis is how it should be. Not in Zürich but in Stäfa: Veloteria.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1725389991,
+      "score": 2,
+      "link_id": "t3_1f84j52",
+      "parent_id": "t3_1f84j52"
+    },
+    {
+      "id": "ll98ema",
+      "body": "Nothing wrong with Rösti and Skiing :-)! \n\nBiosolids are incinerated - either together with regular solid waste or then in dedicated sludge incinerators. Zürich has one of the latter. The heat is recuperated and used as process heat (which frees up the biogas for heating homes). There are also plan (and space) to include a phosphorus recovery step in the future. \n\nIt's quite sophisticated - not last because of the stringent clean air act here in Switzerland and because of the need to keep bad air from escaping. You can find more details (in German) here: [https://www.stadt-zuerich.ch/content/dam/stzh/ted/Deutsch/erz/entwaesserung/SW\\_Klaerschlammverwertung\\_1508.pdf](https://www.stadt-zuerich.ch/content/dam/stzh/ted/Deutsch/erz/entwaesserung/SW_Klaerschlammverwertung_1508.pdf)",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1725336475,
+      "score": 2,
+      "link_id": "t3_1f5yz2s",
+      "parent_id": "t1_ll7hg3t"
+    },
+    {
+      "id": "lkz9r88",
+      "body": "* August 12: heavy thunderstorms, large destructions in Brienz, two injured and damage of more \\]than 25 million francs. \n* August 2: heavy rainfall in Klettgau (Canton of Schaffhausen), Switzerland, led to floods and flooding\n* July 7: heavy rain, flooding and mudslides in Ticino and Graubünden\n* June 29/30: Rain caused devastating damages in Valais; in Ticino  debris destroyed more than 100 buildings\n* June 25/26: Geneva airport was flooded, floods in Liestal and Morges\n* June 21/22: Floods in Valais and Graubünden with multiple land- and mudslides interrupting streets and trains. \n* June 1: Heavy flooding in ZH, TG and SG with about 700 missions by the fire brigades. \n\nThis is just this summer. Yes indeed weather is dangerous in Switzerland. Just because it is not affecting you, it doesn't mean that it is not relevant for somebody else.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1725194118,
+      "score": 1,
+      "link_id": "t3_1f6cmjw",
+      "parent_id": "t3_1f6cmjw"
+    },
+    {
+      "id": "lkz7729",
+      "body": "Arzuaga - D.O.P. Montes de Toledo. Single origin.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1725192927,
+      "score": 2,
+      "link_id": "t3_1f5ms4w",
+      "parent_id": "t3_1f5ms4w"
+    },
+    {
+      "id": "lkyww5e",
+      "body": "Switzerland made using biosolids on agricultural lands illegal almost 20 years ago. Last week the authorities just took all the meet from a certain region off the market because of high PFAS concentration. Most likely source: biosolids that was spread 20 years ago. This stuff will keep us on our toes for a while.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1725187177,
+      "score": 5,
+      "link_id": "t3_1f5yz2s",
+      "parent_id": "t3_1f5yz2s"
+    },
+    {
+      "id": "lkgjrlc",
+      "body": "Pest control will help - either with glue traps or if it is really bad with pesticides. Most importantly, to keep them away you will need to keep humidity in your apartment low. This is also the reason why they are often associated with mold - which is much more damaging for your stuff and health then then silverfish.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1724910027,
+      "score": 1,
+      "link_id": "t3_1f3mhf1",
+      "parent_id": "t3_1f3mhf1"
+    },
+    {
+      "id": "lk00hf9",
+      "body": "I am using years and events as the folder structure, tags to create automatic collections and the face detection to lable people. Use any tag that you feel relevant for your life.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1724673518,
+      "score": 2,
+      "link_id": "t3_1f1knuq",
+      "parent_id": "t3_1f1knuq"
+    },
+    {
+      "id": "lj7xmmw",
+      "body": "Going from this picture by the OP: \n\nhttps://preview.redd.it/eibqpfvo71kd1.jpeg?width=6000&format=pjpg&auto=webp&s=e5131bcb60e767e1215e80d4195af78aa7e0bde6\n\nto [this](https://www.reddit.com/r/AskPhotography/comments/1ex3fvs/comment/lj38f6g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) picture are 2.7 stops (without replacing the sky or anything). With raw you can recover much more then just a quarter stop.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1724252602,
+      "score": 1,
+      "link_id": "t3_1ex3fvs",
+      "parent_id": "t1_lj3256r"
+    },
+    {
+      "id": "lj3mvlg",
+      "body": "Just a fast job in Lightroom: mostly auto, with the AI denoise, clarity and dehaze applied. In the second photo, I used the sky replacement function in Photoshop to replace the fully blown sky.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1724186109,
+      "score": 3,
+      "link_id": "t3_1ex3fvs",
+      "parent_id": "t1_lj3g3we"
+    },
+    {
+      "id": "lj3atxb",
+      "body": "Welcome to the club of making stupid mistakes with your camera. Everybody has similar stories to tell. However, not everything is lost. With a little bit of patience and sometimes trickery, you should be able to save at least some of your pictures for your memory book. \n\nhttps://preview.redd.it/khtk74pdfvjd1.jpeg?width=6000&format=pjpg&auto=webp&s=4c6952438f385c116d14b9f91b0fcd22ef710452",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1724182363,
+      "score": 6,
+      "link_id": "t3_1ex3fvs",
+      "parent_id": "t1_lj399l2"
+    },
+    {
+      "id": "lj38f6g",
+      "body": "I just had a look at your raw files and all of the pictures had ISO 25000. Most of them are way overexposed with substantial blown out areas. This was the only one of the four that had enough information to be recovered. \n\nhttps://preview.redd.it/s9sn7nlpcvjd1.jpeg?width=6000&format=pjpg&auto=webp&s=39a36e4f9e1db352b9cf8c7cd19bd639b03a91c6",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1724181604,
+      "score": 8,
+      "link_id": "t3_1ex3fvs",
+      "parent_id": "t1_lj370m3"
+    },
+    {
+      "id": "lj36ioa",
+      "body": "Your camera is set to the ISO 25600. This explains why the pictures are so grainy and overexposed. Next time to put ISO on auto and let the camera deal with the other two legs of the exposure triangle. There is nothing wrong with aperture priority mode.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1724181002,
+      "score": 10,
+      "link_id": "t3_1ex3fvs",
+      "parent_id": "t1_lj35bq8"
+    },
+    {
+      "id": "lj3446d",
+      "body": "Aperture priority mode is an (semi-)automatic mode and with F-stops between 7.1 and 11 your camera should have produced decent pictures. There is something else going on. If you shot in raw then you should be able to recover the mountains on your picture. The sky is probably completely blown and only Photoshop can fix that (replace sky).",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1724180252,
+      "score": 18,
+      "link_id": "t3_1ex3fvs",
+      "parent_id": "t3_1ex3fvs"
+    },
+    {
+      "id": "lixkale",
+      "body": "Depends on where you live and buy stuff in this world - but most relevant: How many rooms and total area do you need to take care of. There is a large amount of HEPA filter and even for the Philips you have different models. The internet is your best friend here.",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1724099719,
+      "score": 1,
+      "link_id": "t3_1evgqfa",
+      "parent_id": "t1_liwhc3o"
+    },
+    {
+      "id": "liribb8",
+      "body": "Not sure where you live or what air pollution you are concerned about. But for particles (PM2.5) you can get HEPA filters that work well. We have Philips and they also connect to HA.",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1724010082,
+      "score": 3,
+      "link_id": "t3_1evgqfa",
+      "parent_id": "t3_1evgqfa"
+    },
+    {
+      "id": "lijuudy",
+      "body": "Not to swim after a large rain is a good rule as much muck is flushed into the water. Especially near cities you have a good chance that wastewater was flushed into the water (keyword combined sewer overflow). \n\nHowever, lake Zürich is clean and especially close to the public swimming places you are safe. Don't forget to take a good shower afterwards and towel off well (mainly because of \"duck flees\").",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1723895053,
+      "score": 14,
+      "link_id": "t3_1euek8n",
+      "parent_id": "t3_1euek8n"
+    },
+    {
+      "id": "liao995",
+      "body": "My take on using a RasPi: \n\nI am running HA with about 70 devices on a RasPi 3B+ without any problems (no cameras though). The computational demand is generally very low and a cheap solution is absolutely adequate. The RasPi also has the benefit of very low electricity consumption (less then 3 W in my case). \n\nAs for costs: You also need to think what kind of wireless network you intend to use - e.g. for zigbee you would need additionally a dongle. And if you want carefree operations for the next few years, you might want to replace the micro-SD card (the main failure point for RasPi) with an SSD. \n\nYou also want to consider if you want to deal to a certain extend with linux or rather have a familiar Windows/Mac box.",
+      "author": "Swissaliciouse",
+      "subreddit": "homeassistant",
+      "created_utc": 1723753143,
+      "score": 3,
+      "link_id": "t3_1et4dpx",
+      "parent_id": "t3_1et4dpx"
+    },
+    {
+      "id": "lhw1dv5",
+      "body": "This is one of the reasons, why we mostly bought our larger items second hand. They already off-gased, cheaper and despite what everybody says, it is absolutely doable without destroying the furniture.",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1723545579,
+      "score": 1,
+      "link_id": "t3_1eq49rm",
+      "parent_id": "t1_lhvskbg"
+    },
+    {
+      "id": "lhr6adg",
+      "body": "Most likely. You are probably talking about particle boards in the flatpacks and they use formaldehyde based glues. See e.g. [https://en.wikipedia.org/wiki/Particle\\_board](https://en.wikipedia.org/wiki/Particle_board)",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1723474896,
+      "score": 2,
+      "link_id": "t3_1eq49rm",
+      "parent_id": "t3_1eq49rm"
+    },
+    {
+      "id": "lh5s5ll",
+      "body": "Here's a link to the original (or at least as close as possible): [https://philippschmitt.com/archive/2018/work/roads-to-rome.html](https://philippschmitt.com/archive/2018/work/roads-to-rome.html)\n\n>During my internship at [moovel Lab](http://lab.moovel.com), [Benedikt Groß](http://benedikt-gross.de) and I set out to explore if all roads really lead to Rome. We developed the tools necessary, calculated and designed several maps on the subject. Geographer [Raphael Reimann](https://lab.moovel.com/people/raphael-reimann) put it all into context. [See full credits](https://philippschmitt.com/archive/2018/work/roads-to-rome.html#credits)",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1723146241,
+      "score": 10,
+      "link_id": "t3_1ene314",
+      "parent_id": "t3_1ene314"
+    },
+    {
+      "id": "lfrpu2u",
+      "body": "I second komoot. Way better then google.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1722402884,
+      "score": 1,
+      "link_id": "t3_1efnm1u",
+      "parent_id": "t1_lfmjcnc"
+    },
+    {
+      "id": "lfbjb7y",
+      "body": "Quite right! Especially for a systematic review.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1722164168,
+      "score": 9,
+      "link_id": "t3_1ee4cx6",
+      "parent_id": "t1_lfbh52r"
+    },
+    {
+      "id": "lfbfckw",
+      "body": "You can play around with a DOF calculator to get a feel for things: https://www.dofmaster.com/dofjs.html. Bottom line is, that both matters, sensor size (circle of confusion) and lens settings.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1722161529,
+      "score": 1,
+      "link_id": "t3_1ee3ziq",
+      "parent_id": "t3_1ee3ziq"
+    },
+    {
+      "id": "lfb10zx",
+      "body": "As others said: Ignore the results of AI detectors. Declare clearly on your manuscript how you used generative AI and have a version history of your writing. \n\nAI detectors are a possible indication that AI was used to generate the text - however, it is by no means a conclusive proof.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1722151505,
+      "score": 4,
+      "link_id": "t3_1edza6u",
+      "parent_id": "t3_1edza6u"
+    },
+    {
+      "id": "lf5zysa",
+      "body": "For the equilibrium concentrations there are (if the pH is around 6 - 8) two equations relevant:\n\n1. The deprotonation of H2S = HS- and H+ (pKa = 7.0)\n\n2. The Henry coefficient that describes the partition between aqueous H2S and air (601 atm/mole e.g. from https://www.tandfonline.com/doi/pdf/10.1080/10934528909375476)\n\nWith these, you can calculate easily how much H2S you have max in the atmosphere above. The real concentration depends on the air exchange and if the mixture actually is well mixed to enable a gas transfer.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1722072850,
+      "score": 1,
+      "link_id": "t3_1ecqjz2",
+      "parent_id": "t3_1ecqjz2"
+    },
+    {
+      "id": "lei847u",
+      "body": "If you have to ask that, then probably the P (program) mode is best for you to start.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1721716101,
+      "score": 1,
+      "link_id": "t3_1e9z9ny",
+      "parent_id": "t3_1e9z9ny"
+    },
+    {
+      "id": "lei7m7n",
+      "body": "Here you find a list a laws and regulation that regulate bullying (in CH called mobbing): [https://www.seco.admin.ch/seco/de/home/Arbeit/Arbeitsbedingungen/gesundheitsschutz-am-arbeitsplatz/Psychosoziale-Risiken-am-Arbeitsplatz/Mobbing.html](https://www.seco.admin.ch/seco/de/home/Arbeit/Arbeitsbedingungen/gesundheitsschutz-am-arbeitsplatz/Psychosoziale-Risiken-am-Arbeitsplatz/Mobbing.html)\n\nYou can get help here (Zürich): [Bullying, sexual harassment & discrimination at the workplace (fachstelle-mobbing.ch)](https://www.fachstelle-mobbing.ch/en/home-en) or find other help closer to your place.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1721715794,
+      "score": 3,
+      "link_id": "t3_1e9plu2",
+      "parent_id": "t3_1e9plu2"
+    },
+    {
+      "id": "leeiag8",
+      "body": "Sludge dewatering in geotextile bags are quite common here in remote areas. Either they use large 1000 L bags that will sit in a dewatering pit and will be filled over time. Alternatively, they use 30 L bags that are filled once and then stacked until much of the water drained.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1721665805,
+      "score": 3,
+      "link_id": "t3_1e9b2r6",
+      "parent_id": "t3_1e9b2r6"
+    },
+    {
+      "id": "le3jpkf",
+      "body": "Check out nice tours on komoot.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1721491588,
+      "score": 1,
+      "link_id": "t3_1e7wd8v",
+      "parent_id": "t3_1e7wd8v"
+    },
+    {
+      "id": "ldbab9j",
+      "body": "Check it out here: https://sfdora.org/signers/. What I know is that the Swiss National Science Foundation has signed and is implementing this for all their funding schemes.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1721061542,
+      "score": 1,
+      "link_id": "t3_1e3rjxe",
+      "parent_id": "t1_ldad4zu"
+    },
+    {
+      "id": "ldab6n9",
+      "body": ":-) I am a little bit more optimistic. In my country the major research funder changed their CV requirements according the DORA declaration - and is quite strict about it. As a consequence, many major Universities start to request this also in their search for new academic staff. This is all quite new and I still would not declare complete failure. Let time tell.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1721049310,
+      "score": 0,
+      "link_id": "t3_1e3rjxe",
+      "parent_id": "t1_lda0w18"
+    },
+    {
+      "id": "ld9tiz6",
+      "body": "If it is a public space then go ahead. Did this several times and as long as you are respectful and e.g. share the BBQ place, don't make a racket and clean up your mess then people don't care.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1721040599,
+      "score": 2,
+      "link_id": "t3_1e3pvho",
+      "parent_id": "t3_1e3pvho"
+    },
+    {
+      "id": "ld9t61q",
+      "body": "There is a slow change in the community. Check out the \"[San Francisco Declaration on Research Assessment](https://sfdora.org/read/)\" (DORA) that was signed by a wide range of funding organisations. This has an impact on how CVs are written and where the emphasis is for the evaluation. Not claiming a revolution - more kind of a glacial change into the right direction.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1721040382,
+      "score": 6,
+      "link_id": "t3_1e3rjxe",
+      "parent_id": "t3_1e3rjxe"
+    },
+    {
+      "id": "lcye0k7",
+      "body": "There is a 'Bollywood' restaurant on top of the Jungfraujoch. That's how much we like Indians.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1720851477,
+      "score": 2,
+      "link_id": "t3_1e226rd",
+      "parent_id": "t3_1e226rd"
+    },
+    {
+      "id": "lcb1v8g",
+      "body": "Tap water in Zürich is not considered hard but more on the soft side (14°-19°fH or 7°-10°dH). Also, it is one of the safest water to drink directly from the tap. The chemical and biological requirements for safe tap water is very high (higher then bottled water) in Switzerland and is tested frequently. Using filters at home don't improve the water quality from the Zürich tap, but has a large potential to make it worse.  \n\nIf you want to know details, you can find all the parameters for Zürich here: [https://www.stadt-zuerich.ch/dib/de/index/wasserversorgung/Qualitaetsueberwachung/qualitaetswerte.html](https://www.stadt-zuerich.ch/dib/de/index/wasserversorgung/Qualitaetsueberwachung/qualitaetswerte.html)\n\nP.S. If you want to have RO water directly from the tap then move to Biel/Bienne.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1720500619,
+      "score": 12,
+      "link_id": "t3_1dykvwa",
+      "parent_id": "t3_1dykvwa"
+    },
+    {
+      "id": "lbv1dfy",
+      "body": "Theoretically: Yes absolutely. You find enough cheap energy, install a city wide cooling infrastructure and find a huge sink to dump the heat (e.g. the sea). There is no inherent physical or engineering problem to do this. \n\nPractically: Probably not. There are cheaper and easier way to mitigate the effects of urban heat island.",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1720249207,
+      "score": 1,
+      "link_id": "t3_1dvfzum",
+      "parent_id": "t3_1dvfzum"
+    },
+    {
+      "id": "lbetx1z",
+      "body": "It is operational since 2018. Switzerland has a law that requires large wastewater treatment plant to eliminate micropollutants from wastewater. \n\nAnd yes, the oxygen is produced via molecular sieves - adapting a process that was developed to produce nitrogen gas. Now it is used in waste and drinking water treatment plants to produce oxygen for the ozonation process. More efficient then using air and more reliable then having to truck liquid oxygen to the plant.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1719992946,
+      "score": 2,
+      "link_id": "t3_1dt9e67",
+      "parent_id": "t1_lba36ui"
+    },
+    {
+      "id": "lb01p18",
+      "body": "At ETH you can be a signed up as a doctoral student and have a job as a doctoral student. These are two different things. If you have a job position as a doctoral student, you are not allowed to work more then 100 %. If you are simply signed up as a doctoral student, then your job situation can be different and you also could work in industry. \n\nYou still need to find a supervisor that will take you on and approve the situation - what ever combination there is.",
+      "author": "Swissaliciouse",
+      "subreddit": "ethz",
+      "created_utc": 1719766697,
+      "score": 5,
+      "link_id": "t3_1ds4rj5",
+      "parent_id": "t3_1ds4rj5"
+    },
+    {
+      "id": "lasu2mb",
+      "body": "Servicing the heating system and the boiler is part of the running cost for heating (Nebenkostenabrechnung) and is payed by the tenants.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1719645905,
+      "score": 2,
+      "link_id": "t3_1dr5go1",
+      "parent_id": "t3_1dr5go1"
+    },
+    {
+      "id": "laevrjv",
+      "body": "At room temperature and atmospheric pressure, chlorine is a gas. If you want to have liquid chlorine, the you either have to cool it down (about -30) or then put it under high pressure. Both not very useful for adding chlorine to drinking water. Alternatively you can dissolve it first in water and then use this to dose that for disinfection - or alternatively use bleach. But both have a fairly low active chlorine concentration and you are hauling around a lot of water (typically 85 % water). \n\nIn application where you don't need a lot of chlorine, quite often bleach is used - as it is much easier and safer to handle. However, if you need large amounts then compressed chlorine gas is just logistically easier.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1719431511,
+      "score": 31,
+      "link_id": "t3_1dp77po",
+      "parent_id": "t3_1dp77po"
+    },
+    {
+      "id": "la7uyxk",
+      "body": "You are asking a very specific local question in an international forum. Don't expect any useful answers. You might first want to check on the legal status of your BSc thesis with the University. E.g. here the copyrights generally lies with the BSc student with the ability to determine what happens with the thesis. However, this might not be the case everywhere.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1719329090,
+      "score": 2,
+      "link_id": "t3_1do7d6d",
+      "parent_id": "t3_1do7d6d"
+    },
+    {
+      "id": "l9gxaen",
+      "body": "In our little corner of the world the main retailer publishes a statistics about the returns due to defects: It's 0.8 % for Amazon, 1.4 % for Kobo and 1.6 % for Onyx. However, I don't know what their total sales numbers are.",
+      "author": "Swissaliciouse",
+      "subreddit": "Onyx_Boox",
+      "created_utc": 1718895117,
+      "score": 22,
+      "link_id": "t3_1dkbpbe",
+      "parent_id": "t3_1dkbpbe"
+    },
+    {
+      "id": "l9f623v",
+      "body": "Try [openalex.org](http://openalex.org) Not as comprehensive as google scholar, but a good start. And yes, covidence or eppi-reviewers are possible software to manage all this.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1718860649,
+      "score": 1,
+      "link_id": "t3_1dk25xo",
+      "parent_id": "t3_1dk25xo"
+    },
+    {
+      "id": "l7rwirx",
+      "body": "Look for yourself: \n\n[https://en.climate-data.org/europe/switzerland/bern/bern-55/](https://en.climate-data.org/europe/switzerland/bern/bern-55/)\n\n[https://en.climate-data.org/europe/switzerland/zurich-1174/](https://en.climate-data.org/europe/switzerland/zurich-1174/)\n\nchatgpt is not very good with facts.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1717908863,
+      "score": 10,
+      "link_id": "t3_1dbkpmd",
+      "parent_id": "t3_1dbkpmd"
+    },
+    {
+      "id": "l6wflcz",
+      "body": "You realise that your question does not have a general correct answer? In some places it's perfectly normal to ask for 80 %. It might even help, if the funds are tight. In some places, this is an absolute no-go - for personal boss reasons or because they urgently need 100 % capacity. \n\nThe only safe way for you to go is to find an informal way to discuss this or then to get the position first and then negotiate later.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1717417115,
+      "score": 8,
+      "link_id": "t3_1d714s3",
+      "parent_id": "t3_1d714s3"
+    },
+    {
+      "id": "l6loj2x",
+      "body": "Experience! Wish for a great experience that you can enjoy together with your loved one(s). All research shows that this is how money can make you happy, by spending it on experience. A weekend in a mountain hut? White water rafting? What ever might float your boat.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1717234401,
+      "score": 3,
+      "link_id": "t3_1d5gtz8",
+      "parent_id": "t3_1d5gtz8"
+    },
+    {
+      "id": "l5zanue",
+      "body": "You are talking about Switzerland. At ETH in Zurich the PhD starting salaries are between 50 and 72 kFr. (see: https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html). This is enough to have a decent life.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1716869076,
+      "score": 3,
+      "link_id": "t3_1d1yfq3",
+      "parent_id": "t3_1d1yfq3"
+    },
+    {
+      "id": "l5rkr5s",
+      "body": "Swiss customs can check you up to 30 km (\"grenznaher Raum\") within Switzerland and not just at the border.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1716742212,
+      "score": 11,
+      "link_id": "t3_1d14yk7",
+      "parent_id": "t3_1d14yk7"
+    },
+    {
+      "id": "l3jk5st",
+      "body": "Your camera has a limited dynamic range. This means the difference between the darkest part of the picture and the lightest part of the picture should not be too large for your camera to take a well lit picture. This is clearly not the case in the sample above. You have several choices to overcome this: Decide on what's important and adjust exposure for that. In your case probably the car. This makes the background darker, but that's probably not a problem for this picture. You also can take a series of differently exposed pictures and use HDR in lighroom to put them together to get an evenly lit picture. Or you also can use a fill flash that puts some light into the shadows to decrease the dynamic range.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1715409248,
+      "score": 6,
+      "link_id": "t3_1cpafah",
+      "parent_id": "t3_1cpafah"
+    },
+    {
+      "id": "l2sftc1",
+      "body": "I got a third party battery (Patona) that can be charged directly via USB. This allows me to charge directly in the field with a power bank. You still need an additional battery - but at least this one is more versatile.",
+      "author": "Swissaliciouse",
+      "subreddit": "canon",
+      "created_utc": 1714971487,
+      "score": 1,
+      "link_id": "t3_1cla62t",
+      "parent_id": "t3_1cla62t"
+    },
+    {
+      "id": "l2okz87",
+      "body": "Go and get the key (free from the city of Zürich) and see for yourself: [https://www.stadt-zuerich.ch/hbd/de/index/staedtebau/archaeo\\_denkmal/archaeo/geschichte/a\\_fenster/ehgraben.html](https://www.stadt-zuerich.ch/hbd/de/index/staedtebau/archaeo_denkmal/archaeo/geschichte/a_fenster/ehgraben.html)",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1714914471,
+      "score": 96,
+      "link_id": "t3_1ckqcum",
+      "parent_id": "t3_1ckqcum"
+    },
+    {
+      "id": "l27au5z",
+      "body": "There is also 'piktures' (yes, with a k). Also has an encrypted safe mode.",
+      "author": "Swissaliciouse",
+      "subreddit": "degoogle",
+      "created_utc": 1714625475,
+      "score": 3,
+      "link_id": "t3_1chwp1s",
+      "parent_id": "t3_1chwp1s"
+    },
+    {
+      "id": "l1j7vkn",
+      "body": "Standard vapour compression. The steam gets compressed and then used to heat the slurry. In this way you can recover quite a bit of the evaporation energy. This is mainly used to concentrate toxic liquids - the concentrate then gets incinerated.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1714242197,
+      "score": 2,
+      "link_id": "t3_1ce30ed",
+      "parent_id": "t1_l1ieogt"
+    },
+    {
+      "id": "l1gwbro",
+      "body": "There is an extensive literature out there dealing with urine or slurry - which often have high (but not quite as high) chloride levels. Mostly biological treatment though. For smaller batch' of recalcitrant or toxic stuff you also might consider distillation. There are industrial solutions out there that can recover 95 % of the distillation energy. \n\nHowever, for 60000 gallons a day, you might want to consider a biological process? An adapted biomass is certainly capable of managing the salinity - however, not sure about the other compounds you have to deal with. Good luck in any case.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1714200472,
+      "score": 1,
+      "link_id": "t3_1ce30ed",
+      "parent_id": "t3_1ce30ed"
+    },
+    {
+      "id": "l0qc427",
+      "body": "How much data are you talking about? There are plenty of better resources to store a few gigabytes of photos for free. If you talk terabytes, then there is no practical way around an (external) HDD solution. To make this fail safe, you might want to look up the \"3-2-1 backup method\". One single HDD is indeed not a very good solution.",
+      "author": "Swissaliciouse",
+      "subreddit": "Notion",
+      "created_utc": 1713788260,
+      "score": 1,
+      "link_id": "t3_1ca7xjk",
+      "parent_id": "t3_1ca7xjk"
+    },
+    {
+      "id": "l0kvptw",
+      "body": "Good idea. How's about perplexity.ai: \n\n>Your 8-day Switzerland itinerary covers some of the most beautiful and iconic destinations in the country, providing a well-rounded experience of Swiss cities, lakes, mountains, and scenic landscapes. Here's my assessment: Pros:\n\n>You've included major highlights like Lucerne, Zermatt (for the Matterhorn), Grindelwald (for the Jungfrau region), and Geneva, allowing you to experience different regions of Switzerland.\n\n>The itinerary has a good balance of city sightseeing, mountain excursions (Mount Titlis, Gornergrat, First Peak), and outdoor activities like hiking and boating.\n\n>The pacing seems reasonable, with 2-3 nights in each location, allowing you to explore without feeling too rushed.\n\n>You've included iconic experiences like the Cliff Walk at Mount Titlis, the Gornergrat Railway, and the First Cliff Walk.\n\n>Traveling by train is an excellent way to experience the scenic Swiss landscapes.\n\n>Potential Improvements:\n\n>Consider adding a day in Zermatt to fully appreciate the Matterhorn and the surrounding hiking trails[1](https://www.theinvisibletourist.com/7-days-in-switzerland-itinerary/).\n\n>The journey from Zermatt to Grindelwald on Day 5 is quite long (around 4 hours). You may want to break it up with a stop in Interlaken or Spiez[2](https://theplanetd.com/switzerland-itinerary/).\n\n>Geneva is a bit far from your other destinations. If time permits, you could spend those days in the Bernese Oberland region instead, exploring more of the Jungfrau area or visiting Lauterbrunnen[3](https://www.traverse-blog.com/1-week-switzerland-itinerary/).\n\n>Overall, your itinerary covers many of Switzerland's highlights and provides a diverse experience of the country's natural beauty and cultural attractions. With a few minor adjustments, it can be an excellent way to make the most of your 8 days in Switzerland",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1713697089,
+      "score": 2,
+      "link_id": "t3_1c98zpz",
+      "parent_id": "t1_l0kgvlk"
+    },
+    {
+      "id": "l0kakdz",
+      "body": ">**ChatGPT:**  \nYour itinerary looks well-planned and offers a good balance of sightseeing, outdoor activities, and relaxation. Here are some thoughts and suggestions:\n\n>Lucerne: Exploring Lucerne on the first day and taking a boat trip on Lake Lucerne sounds like a wonderful start to your trip. Mount Titlis excursion on the second day adds a thrilling mountain experience.\n\n>Zermatt: Visiting the Matterhorn Museum and hiking in the Gornergrat area are great choices for exploring Zermatt. A Swiss dinner in the evening is a nice touch to experience local cuisine.\n\n>Grindelwald: Exploring Grindelwald and taking the First gondola for panoramic views seem like fantastic activities. Hiking to Bachalpsee and enjoying kayaking there sounds like a peaceful and scenic experience.\n\n>Geneva: Exploring Geneva's landmarks like Jet d'Eau, St. Pierre Cathedral, and the Old Town is a great way to conclude your trip in Switzerland. A leisurely stroll along Lake Geneva offers a relaxing way to soak in the beauty of the city.\n\n>Overall, your itinerary covers some of the most iconic destinations in Switzerland and offers a good mix of cultural exploration, outdoor adventures, and scenic beauty. Just ensure you have enough time allocated for each activity and consider any seasonal variations in weather and availability of certain attractions. Enjoy your trip!",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1713681781,
+      "score": 2,
+      "link_id": "t3_1c98zpz",
+      "parent_id": "t3_1c98zpz"
+    },
+    {
+      "id": "l05s8g9",
+      "body": "  \nFrom the ETH Guidelines on Grading Written Examinations: \n\n>**The grading scale is determined in such a way that a student’s grade is not dependent on the achievements of other students.** \n\nSource: [https://ethz.ch/content/dam/ethz/main/eth-zurich/organisation/let/files\\_EN/guidelines\\_grading.pdf](https://ethz.ch/content/dam/ethz/main/eth-zurich/organisation/let/files_EN/guidelines_grading.pdf)",
+      "author": "Swissaliciouse",
+      "subreddit": "ethz",
+      "created_utc": 1713455814,
+      "score": 39,
+      "link_id": "t3_1c75f3p",
+      "parent_id": "t3_1c75f3p"
+    },
+    {
+      "id": "kzdf8q9",
+      "body": "If you can then reduce aeration in the first zone to very low levels - anoxic would be perfect. Another option is to dose alum for a while until the system recovers.",
+      "author": "Swissaliciouse",
+      "subreddit": "Wastewater",
+      "created_utc": 1713010045,
+      "score": 6,
+      "link_id": "t3_1c305q5",
+      "parent_id": "t3_1c305q5"
+    },
+    {
+      "id": "kzcjo86",
+      "body": "[https://www.lohnrechner.ch/](https://www.lohnrechner.ch/) oder [https://www.lohncomputer.ch](https://www.lohncomputer.ch)",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1712988123,
+      "score": 0,
+      "link_id": "t3_1c2ura8",
+      "parent_id": "t3_1c2ura8"
+    },
+    {
+      "id": "ky0i6xq",
+      "body": "If denoise is critical to your work, you might want to give Topaz Denoise a go. Much faster and less ressource intense then LR and with very comparable results.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1712239284,
+      "score": 3,
+      "link_id": "t3_1bvnn3u",
+      "parent_id": "t3_1bvnn3u"
+    },
+    {
+      "id": "kxzrpzh",
+      "body": "Unfortunately not. Some years ago I tried excire, and was not impressed. However, this might have changed. Google photos sets quite a benchmark in terms of what is possible. There, face recognition is incredible accurate with a low percentage of mislabeling - even without training. However, that is not a solution for your amount of pictures.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1712227261,
+      "score": 1,
+      "link_id": "t3_1bvfwg8",
+      "parent_id": "t1_kxzeddx"
+    },
+    {
+      "id": "kxz7oqo",
+      "body": "Yes, you can do that. The catalogue does not care on which drive the photos are located (I have mine distributed over 3 drives). However, I don't consider LR face recognition very strong. There is still a considerable amount of labeling needed to sort all faces.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1712213032,
+      "score": 2,
+      "link_id": "t3_1bvfwg8",
+      "parent_id": "t3_1bvfwg8"
+    },
+    {
+      "id": "kx36y7b",
+      "body": "or just move to the right for no reason (or being distracted by the phone)...",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1711706321,
+      "score": 1,
+      "link_id": "t3_1bprauq",
+      "parent_id": "t1_kx2t86p"
+    },
+    {
+      "id": "kwy48hf",
+      "body": "Lot's of good comments already. Here's my little addition to this list (I am commuting around 4500 km a year with the bike): 1) You have the same rights as cars! If it gets tight or dangerous (e.g. roundabout), then ride in the middle of the lane. a) Never pass moving cars on the right. Wait until they (almost) stand.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1711630391,
+      "score": 7,
+      "link_id": "t3_1bprauq",
+      "parent_id": "t3_1bprauq"
+    },
+    {
+      "id": "kwcq51s",
+      "body": "Here's a guide that worked for me: [https://nerdschalk.com/remove-drm-kindle-books-de-drm/](https://nerdschalk.com/remove-drm-kindle-books-de-drm/)",
+      "author": "Swissaliciouse",
+      "subreddit": "Calibre",
+      "created_utc": 1711295700,
+      "score": 1,
+      "link_id": "t3_1bm4m9x",
+      "parent_id": "t3_1bm4m9x"
+    },
+    {
+      "id": "kw1f2wa",
+      "body": "In German this type of systematic bullying is called Mobbing and is illegal. See details here: https://www.seco.admin.ch/seco/de/home/Arbeit/Arbeitsbedingungen/gesundheitsschutz-am-arbeitsplatz/Psychosoziale-Risiken-am-Arbeitsplatz/Mobbing.html. The employer is required to take measures to stop this type of behavior. \n\nIf you want independent advice then there is also: [https://www.fachstelle-mobbing.ch/](https://www.fachstelle-mobbing.ch/)",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1711112381,
+      "score": 17,
+      "link_id": "t3_1bkxgm5",
+      "parent_id": "t1_kw187zz"
+    },
+    {
+      "id": "kv9c1uc",
+      "body": "Is it possible? YES: 36 % of all foreigners in Switzerland are non-EU or third country. Is it likely? There is just no relevant information what so ever.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1710667562,
+      "score": 1,
+      "link_id": "t3_1bgrdl7",
+      "parent_id": "t1_kv95pqq"
+    },
+    {
+      "id": "kv90gp1",
+      "body": "Yes of course it is possible. 31 % of residents are born outside Switzerland and 26 % are non Swiss. If it is possible for you specifically is another question.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1710658682,
+      "score": -6,
+      "link_id": "t3_1bgrdl7",
+      "parent_id": "t3_1bgrdl7"
+    },
+    {
+      "id": "kuqoqmd",
+      "body": "70 % of the water in Opfikon is from Zürich and 30 % from local sources. Most likely you have a very similar water as in your previous place.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1710365781,
+      "score": 5,
+      "link_id": "t3_1be174c",
+      "parent_id": "t3_1be174c"
+    },
+    {
+      "id": "kuc4nas",
+      "body": "RO and distilled water are free of minerals and can be used interchangeable for the use you describe.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1710141042,
+      "score": 3,
+      "link_id": "t3_1bbw8u6",
+      "parent_id": "t3_1bbw8u6"
+    },
+    {
+      "id": "ku1ixed",
+      "body": "You can max suck about 7 - 8 m depending on the pump. This is given by the air pressure and the inefficiencies you have. And even then you might run into cavitation that cuts the lifespan of your pump. Reasonably, anything above 5 m should be 'pushed'.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1709970308,
+      "score": 7,
+      "link_id": "t3_1babfas",
+      "parent_id": "t3_1babfas"
+    },
+    {
+      "id": "ktt3w72",
+      "body": "I upgraded from the 6Di to the r6ii and the difference is huge. Pretty much in any aspect - except battery. A typical battery lasts around 1.5 to 2 hours of intense use. I had no need for a second battery for the 6D - which was very handy on long hikes. But for the r6 I have now 2 spare batteries.",
+      "author": "Swissaliciouse",
+      "subreddit": "canon",
+      "created_utc": 1709839707,
+      "score": 3,
+      "link_id": "t3_1b91wvf",
+      "parent_id": "t3_1b91wvf"
+    },
+    {
+      "id": "ktgz3r9",
+      "body": "unsplash is a good source.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1709656278,
+      "score": 3,
+      "link_id": "t3_1b784af",
+      "parent_id": "t3_1b784af"
+    },
+    {
+      "id": "ktfhmlx",
+      "body": "Number of international projects (e.g. Horizon2020).",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1709631638,
+      "score": 2,
+      "link_id": "t3_1b6yznd",
+      "parent_id": "t3_1b6yznd"
+    },
+    {
+      "id": "ktagcf6",
+      "body": "As others said, \"coated\" means composite paper that are composed of different layers - typically plastic and or aluminum. The printing on the outside is not an issue.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1709556742,
+      "score": 1,
+      "link_id": "t3_1b69cyv",
+      "parent_id": "t3_1b69cyv"
+    },
+    {
+      "id": "kszkrc9",
+      "body": "No - just read the OP again. It **was** originally 9.3, the OP **lowered it** to 6.0 and then it creeped **up to** 7.5 .\n\n>After 3-4 days of daily adjustment it stays stable.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1709378337,
+      "score": 1,
+      "link_id": "t3_1b1w8xw",
+      "parent_id": "t1_ksupsdx"
+    },
+    {
+      "id": "ksuielo",
+      "body": "Over the water surface is where gas exchange can happen. This does not have to be large. The larger the surface the faster the gas exchange will be.  The slow increase in pH is a sure sign that OP has an open and not closed system. And the slowness is a good sign that it only happens over a limited surface.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1709299146,
+      "score": 1,
+      "link_id": "t3_1b1w8xw",
+      "parent_id": "t1_ksu0bkz"
+    },
+    {
+      "id": "kstzv8u",
+      "body": "Exactly. And stripping CO2 increases the pH - because of the reverse reaction you are mentioning. \n\nNot sure, if you ever worked in a lab. But decreasing the pH from 9.3 to 6 shifts the equilibrium towards carbonic acid that then goes towards equilibrium with the CO2 in the atmosphere. Here gas exchange matters and can be sped up by increasing gas exchange.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1709288520,
+      "score": 1,
+      "link_id": "t3_1b1w8xw",
+      "parent_id": "t1_kstk2c6"
+    },
+    {
+      "id": "kst6zqt",
+      "body": ">I use tap water for my reservoir and **adjust** the pH to 6.0, **it tends to go up to 7.5 the next day**. After 3-4 days of daily adjustment it stays stable.\n\nI was not claiming that CO2 lowers the pH - I was explaining why the pH goes back UP slowly.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1709269414,
+      "score": 1,
+      "link_id": "t3_1b1w8xw",
+      "parent_id": "t1_ksib1j3"
+    },
+    {
+      "id": "kshvkie",
+      "body": "If you want to speed up the adjustment period then you can aerate (or mix vigorously, but strong aeration is usually easier). This strips the CO2 faster and you get a stable situation faster. You probably have tap water with a high alkalinity - adding acids is the cheapest way to get rid of alkalinity.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1709098530,
+      "score": 1,
+      "link_id": "t3_1b1w8xw",
+      "parent_id": "t3_1b1w8xw"
+    },
+    {
+      "id": "krpzbro",
+      "body": "Here's a nice British example, how to put pressure on communities to improve their sewers by pulling together publicly available data: https://top-of-the-poops.org/",
+      "author": "Swissaliciouse",
+      "subreddit": "environmental_science",
+      "created_utc": 1708663648,
+      "score": 1,
+      "link_id": "t3_1ax5h1w",
+      "parent_id": "t1_krlwq52"
+    },
+    {
+      "id": "kr45ljc",
+      "body": "I think the Notion tutorials are really a good and fast entry point: [https://www.notion.so/help](https://www.notion.so/help)\n\nThen later Thomas Frank has a few very good in-depth tutorials that are also helpful for beginners: [https://www.youtube.com/@ThomasFrankExplains](https://www.youtube.com/@ThomasFrankExplains)",
+      "author": "Swissaliciouse",
+      "subreddit": "Notion",
+      "created_utc": 1708333863,
+      "score": 5,
+      "link_id": "t3_1auixon",
+      "parent_id": "t3_1auixon"
+    },
+    {
+      "id": "kqyn86e",
+      "body": "No - boiling does remove some of the hardness of very hard water (solubility of calcium carbonate goes down at higher temperature) but not anywhere enough to change it into soft water. You either have to use a ion exchange or RO system or then just simply buy soft water (E.g. buy RO water and mix it with your tap water to achieve the desired softness).",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1708241388,
+      "score": 2,
+      "link_id": "t3_1atize1",
+      "parent_id": "t3_1atize1"
+    },
+    {
+      "id": "kqnqdps",
+      "body": "You don't quote quotes and assign these to the secondary author - just lazy and wrong. Exception is if the body of quotes in the secondary literature are expressing something new.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1708070150,
+      "score": 1,
+      "link_id": "t3_1ar9b58",
+      "parent_id": "t3_1ar9b58"
+    },
+    {
+      "id": "kq8bzch",
+      "body": "Not sure if a serious answer is allowed here, but looking at the extra tracks my guess is that they will replace the tracks soon and in the bags you find the hardware to mount the tracks (lug nuts, etc).",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1707831853,
+      "score": 122,
+      "link_id": "t3_1aps0ag",
+      "parent_id": "t3_1aps0ag"
+    },
+    {
+      "id": "kpwbe6y",
+      "body": "Not sure what you trying to achieve? If you are unhappy with your supervision, then this is probably the worst argument to pick a fight. It's not your problem how the PI is justifying towards the funder how the money was spent. \n\nYou have a research plan, that is much more relevant as a base for you to discuss changes. Make sure that changes are documented and if you feel that they are not justified then you have several possibilities to escalate the issue.",
+      "author": "Swissaliciouse",
+      "subreddit": "ethz",
+      "created_utc": 1707636256,
+      "score": 2,
+      "link_id": "t3_1anog0h",
+      "parent_id": "t3_1anog0h"
+    },
+    {
+      "id": "kpp53i4",
+      "body": "Instead of a pressurised basket, I would rather recommend do get a decent (hand-)grinder that can go espresso fine. By adjusting grindsize you can adjust the resistance of your cake to the point where the pump stalls. Should be quite safe (just don't let it run for ages when no liquid comes through). In any case, a grinder will give you the most improvement in terms of coffee quality.",
+      "author": "Swissaliciouse",
+      "subreddit": "JamesHoffmann",
+      "created_utc": 1707516040,
+      "score": 6,
+      "link_id": "t3_1amyb5e",
+      "parent_id": "t3_1amyb5e"
+    },
+    {
+      "id": "kpnys2i",
+      "body": "Funny.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1707501327,
+      "score": -2,
+      "link_id": "t3_1amrbne",
+      "parent_id": "t3_1amrbne"
+    },
+    {
+      "id": "kpmp61x",
+      "body": "Not the best example you provide. In your example the marriage 'penalty' is that the 200'000 is taxed at the same rate as the 1 million - instead of the lower rate for 200'000 as a individual. The marriage tax is worse for lower incomes, where the tax progression is still increasing substantially.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1707484277,
+      "score": 3,
+      "link_id": "t3_1amnbiv",
+      "parent_id": "t3_1amnbiv"
+    },
+    {
+      "id": "kpg8buw",
+      "body": "[Here’s What $30M Of Funko Pops Going To The Landfill Actually Looks Like](https://kotaku.com/funko-pop-harry-potter-disney-mandalorian-landfill-1850278083)",
+      "author": "Swissaliciouse",
+      "subreddit": "Anticonsumption",
+      "created_utc": 1707373108,
+      "score": 2,
+      "link_id": "t3_1almi0f",
+      "parent_id": "t3_1almi0f"
+    },
+    {
+      "id": "kpbfswf",
+      "body": "Sorry, was not clear in my question: algea blooms are created based on an excess of the growth limiting nutrient. E.g. here in Switzerland it is predominantly phosphorus - additional nitrogen flux into lakes does not really change things dramatically.",
+      "author": "Swissaliciouse",
+      "subreddit": "science",
+      "created_utc": 1707305562,
+      "score": 9,
+      "link_id": "t3_1akz22k",
+      "parent_id": "t1_kpbdj82"
+    },
+    {
+      "id": "kpbcf00",
+      "body": "Isn't this study assuming that nitrogen is the growth limiting factor everywhere? And not e.g. phosphorus or iron. Can anybody confirm that this indeed makes sense? \n\n(1 mg/L dissolved nitrogen is quite a high number though).",
+      "author": "Swissaliciouse",
+      "subreddit": "science",
+      "created_utc": 1707303237,
+      "score": 9,
+      "link_id": "t3_1akz22k",
+      "parent_id": "t3_1akz22k"
+    },
+    {
+      "id": "kp2c5zb",
+      "body": "Small correction on your otherwise correct statements: Conductivity \\*can\\* be measured cheap and easily. Reliable conductivity measurement is still quite tricky to get right and not something you get for 20 bucks.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1707160059,
+      "score": 1,
+      "link_id": "t3_1ahwktl",
+      "parent_id": "t1_korm1qp"
+    },
+    {
+      "id": "kp2bk7u",
+      "body": "Let me understand this: Your PhD supervisor is offering you a 3yr post-doc after your (1 yr?) post-doc in Germany. Only snag is, that you are signing now because he does not want to loose the position?\n\nWe have many people with double affiliations (not Germany though). As long as you are not actively promise to work for both, then this is not out of the norm. Highly recommend to play with open cards and let everybody know, what your plan is. The only risk I see is, that your home university figures out the game your supervisor is playing and is taking away the position. However, as long as you have it documented that you are doing this with the knowledge of your supervisor then this is not your problem to worry.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1707159856,
+      "score": 3,
+      "link_id": "t3_1aji53b",
+      "parent_id": "t3_1aji53b"
+    },
+    {
+      "id": "kp288fo",
+      "body": "Masking can be automated to a limited extend in the latest LR Classic version. You can use AI to mask people automatically, make the adjustments and then propagate automatically to other pictures. However, this only works well if the picture composition is not too different. \n\nIn any case: The AI masking is much much faster, then any hand masking you can do and if you are going to edit potentially hundreds of pictures then this is absolutely worth it.",
+      "author": "Swissaliciouse",
+      "subreddit": "Lightroom",
+      "created_utc": 1707158740,
+      "score": 1,
+      "link_id": "t3_1ajas78",
+      "parent_id": "t3_1ajas78"
+    },
+    {
+      "id": "kozhgzq",
+      "body": "Did you try to identify the source? Is it coming from the water supplier or do you have some old pipes / solder in your house? In the latter case it might be easier just to get rid of the problematic material.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1707109121,
+      "score": 2,
+      "link_id": "t3_1aj1vgf",
+      "parent_id": "t3_1aj1vgf"
+    },
+    {
+      "id": "koqdwxl",
+      "body": "Don't feed that bot troll building reputation.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1706966224,
+      "score": 1,
+      "link_id": "t3_1ahsvqt",
+      "parent_id": "t3_1ahsvqt"
+    },
+    {
+      "id": "koem9nb",
+      "body": "There are basically two types of bottled water: 'Natural' water - which is basically ordinary drinking water, coming from a spring or ground water. This is the way mankind was drinking water for several million years - and trust me, it keeps you alive. Evian as an example that is shipped from the French Alps to all over the world.\n\nThen there is reverse osmosis water where everything is stripped out from the water and replaced with microplastic and usually minerals to make it decently drinkable. Dasani is an example of these. This enables Coca Cola to produce a unified product all over the world without having to ship water across continents. \n\nI do highly doubt that the minerals added is a cause for your 'thirst for more'. But you do you.",
+      "author": "Swissaliciouse",
+      "subreddit": "water",
+      "created_utc": 1706772057,
+      "score": 2,
+      "link_id": "t3_1ag42eh",
+      "parent_id": "t3_1ag42eh"
+    },
+    {
+      "id": "kkbbjh0",
+      "body": "This makes sense. Please be aware that you don't just need a 'cloud' - but also a decent backup solution. Do not just sync, but do a real backup. Backblaze and Crashplan - both have good a decently priced backup solutions. If you go with Amazon S3 Glaciers, then you need fuss with your own backup software. Not impossible, and lots of tips on the internet - but it is an initial effort (plus it is not that cheap compared to the first two names). \n\nI personally use Crashplan - because for historic reason and because the backup solution is really robust and never let me down so far. I use it on my laptop and so far no fuss - whatever network I am working in. All my pictures are on external HDD that get regularly backed up when I am at home.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1706648147,
+      "score": 1,
+      "link_id": "t3_1ae8psa",
+      "parent_id": "t1_kkaebbx"
+    },
+    {
+      "id": "kk84jhx",
+      "body": "Not quite sure if why you want cloud storage? If it is just about safely archiving your moms life work then just get two large HDs and put all the files on it. Leave one with your mom and take the other one home (or anywhere external). Get new drives every 4 - 5 years. \n\nThe cloud has lots of benefits, but also quite some drawbacks. E.g it takes a loooong time to copy 5 TB via the internet. Also: if you loose your access passwords or forget to pay for a longer time, the data is gone.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1706596219,
+      "score": 1,
+      "link_id": "t3_1ae8psa",
+      "parent_id": "t3_1ae8psa"
+    },
+    {
+      "id": "kjcku20",
+      "body": "I think that this is a fair question. A 4 K Videocamera gives you a decent picture resolution but a much higher temporal resolution. In terms of AI analysis this is probably better as you have less fringe and picture stability issues.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1706104365,
+      "score": 1,
+      "link_id": "t3_19eh1qb",
+      "parent_id": "t1_kjci8nv"
+    },
+    {
+      "id": "kj6v08z",
+      "body": "This doesn't look like \"on the street\" and more like on private property. In this case it is the land-owner, who is responsible for taking care of garbage.",
+      "author": "Swissaliciouse",
+      "subreddit": "zurich",
+      "created_utc": 1706015946,
+      "score": 1,
+      "link_id": "t3_19dkf0b",
+      "parent_id": "t3_19dkf0b"
+    },
+    {
+      "id": "kiw0lrb",
+      "body": "Read up on HDR to help you squeeze a larger dynamic range into your pictures.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1705846087,
+      "score": 1,
+      "link_id": "t3_19c2ti7",
+      "parent_id": "t3_19c2ti7"
+    },
+    {
+      "id": "kiw0g64",
+      "body": "For product photography: Look up lightbox on the web. That gives you an idea about the requirements you have. In any case: Indoor requires light and you will need a flashes and soft boxes or nice white walls. I also would recommend a tripod (nothing fancy). As for lens, anything between 50 and 100 mm should be good enough. For outdoor action shots: 70 - 200 mm (e.g. f4 is good enough)",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1705846014,
+      "score": 2,
+      "link_id": "t3_19c3612",
+      "parent_id": "t3_19c3612"
+    },
+    {
+      "id": "kikib9d",
+      "body": "Love anybody who spend their money in a Rolex. They support with their money a charity foundation that does good (Rolex is owned by the Hans Wilsdorf foundation).",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1705659103,
+      "score": 1,
+      "link_id": "t3_19aewpt",
+      "parent_id": "t3_19aewpt"
+    },
+    {
+      "id": "kik0r52",
+      "body": "Not sure, if the paper is published or not. In general, this is something to be discussed with your co-authors at the very begin. If you can not make it open access then there is always the pre-print route (check the policy of the journal you are submitting).",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1705646541,
+      "score": 2,
+      "link_id": "t3_19abs9b",
+      "parent_id": "t3_19abs9b"
+    },
+    {
+      "id": "ki6pjyg",
+      "body": "There are some cheaper brand alternatives. E.g. I am using Patona (a German brand) that work really well.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1705441119,
+      "score": 1,
+      "link_id": "t3_198c876",
+      "parent_id": "t1_ki6mgpz"
+    },
+    {
+      "id": "ki6gl62",
+      "body": "And while you are at it: Also get a few replacement batteries. If you are coming from the 6D then the battery consumption on the R is quite shocking.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1705438186,
+      "score": 1,
+      "link_id": "t3_198c876",
+      "parent_id": "t1_ki6aehr"
+    },
+    {
+      "id": "kh8n0nb",
+      "body": "Don't just rely on medication - reach also for help to find strategies to manage your ADHD better. Behavioral therapy might be quite helpful to manage your strengths and weaknesses better.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1704910314,
+      "score": 4,
+      "link_id": "t3_193dr3w",
+      "parent_id": "t1_kh8lopi"
+    },
+    {
+      "id": "kh8l5ug",
+      "body": "You might want to consider to check for ADHD and if positive then get help. It might just be that you need to find different strategies to manage your focus.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1704909700,
+      "score": 7,
+      "link_id": "t3_193dr3w",
+      "parent_id": "t3_193dr3w"
+    },
+    {
+      "id": "kh2so1o",
+      "body": "The BBC?\n\nJust kidding: SRG is quite good. In terms of news'papers' there are the big two: NZZ and Tagesanzeiger. Different political affinities - but quality wise still quite good. Watson is an interesting alternative for in-depth journalism.",
+      "author": "Swissaliciouse",
+      "subreddit": "Switzerland",
+      "created_utc": 1704821009,
+      "score": 9,
+      "link_id": "t3_192jnve",
+      "parent_id": "t3_192jnve"
+    },
+    {
+      "id": "kh0m443",
+      "body": "I use LRC exclusively and don't see the point to use DPP4. Lens corrections are done really well and the raw converter is good enough as a start for my edits. Also: you are throwing away all the edit information with deleting the tiffs. \n\nI would just suggest that you try yourself and see if you are getting what you expect by just using LR.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1704780295,
+      "score": 1,
+      "link_id": "t3_1927cnd",
+      "parent_id": "t3_1927cnd"
+    },
+    {
+      "id": "kgxp1xa",
+      "body": "No - you talk with your PI about this PhD application - before you apply.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1704741034,
+      "score": 3,
+      "link_id": "t3_191sedz",
+      "parent_id": "t1_kgxodsp"
+    },
+    {
+      "id": "kgxmmrb",
+      "body": "Only you can judge in what kind of environment you work. In a perfect world, you would talk with your current PI and tell him that you really want to apply, but don't want to abandon the current work. There is nothing wrong for somebody in your situation to look out for their career. In a perfect world you would have a PI that understands that and is looking out for you.",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1704740236,
+      "score": 4,
+      "link_id": "t3_191sedz",
+      "parent_id": "t3_191sedz"
+    },
+    {
+      "id": "kgwcjoq",
+      "body": "First: check other posts for lots of arguments. Secondly, it's not just about the money, but also about the stress of the logistics to manage your own support system compared with a much more organised one that you can find in Skandinavia.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704724057,
+      "score": 9,
+      "link_id": "t3_191i9gc",
+      "parent_id": "t1_kgw7nss"
+    },
+    {
+      "id": "kgvvwxd",
+      "body": "Of course it is possible - but it is much harder then in Sweden. Parental leave is short, child care and daycare extremely expensive, day schools hardly available.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704716756,
+      "score": 25,
+      "link_id": "t3_191i9gc",
+      "parent_id": "t1_kgvuyk9"
+    },
+    {
+      "id": "kgvo5ts",
+      "body": "Switzerland is dominantly organised the lines of woman stays at home and takes care of the kids. If this is your thing then it boils down to personal preference. If you as a woman want to keep independence and a career then move to Sweden - not even close of a comparison.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704711942,
+      "score": 65,
+      "link_id": "t3_191i9gc",
+      "parent_id": "t3_191i9gc"
+    },
+    {
+      "id": "kgvlwb6",
+      "body": "> “Students are not born with the project management, time management,  conflict resolution, and communication skills required for high  performance teamwork” (Oakley et al., 2004). \n\nGroup work needs to be learned and organised. See here for a start and definitely check out Oakley et al. 2004: [https://teaching.uwo.ca/teaching/engaging/setting-up-teamwork.html](https://teaching.uwo.ca/teaching/engaging/setting-up-teamwork.html)",
+      "author": "Swissaliciouse",
+      "subreddit": "academia",
+      "created_utc": 1704710496,
+      "score": 12,
+      "link_id": "t3_191hym5",
+      "parent_id": "t3_191hym5"
+    },
+    {
+      "id": "kgs0a8f",
+      "body": "Either much closer crop or then much much more background. Right now this is a strange middle ground that lacks something.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1704658008,
+      "score": 1,
+      "link_id": "t3_190vuny",
+      "parent_id": "t3_190vuny"
+    },
+    {
+      "id": "kgq86tc",
+      "body": "Under >Settings< -> >Settings< you can export the content of your notion workspace.",
+      "author": "Swissaliciouse",
+      "subreddit": "Notion",
+      "created_utc": 1704634537,
+      "score": 15,
+      "link_id": "t3_190s4pb",
+      "parent_id": "t3_190s4pb"
+    },
+    {
+      "id": "kgpdjfj",
+      "body": "Depending on what you are looking at. If you mainly need cloud storage space and a good way to find photos again, then Photos is really good and due to the superior AI way better then Lightroom. However, if you are interested in 'developing' - aka editing - your photos then Lightroom is way better. \n\nAlso: storing valuable photos and memories exclusively in the cloud has its risks. You still should have a option to manage your photos locally - and there Lightroom is superior to google.",
+      "author": "Swissaliciouse",
+      "subreddit": "AskPhotography",
+      "created_utc": 1704613622,
+      "score": 2,
+      "link_id": "t3_190ji60",
+      "parent_id": "t3_190ji60"
+    },
+    {
+      "id": "kgftvm6",
+      "body": "See here for inspiration: [https://www.notion.so/templates/search?query=sleep+tracker](https://www.notion.so/templates/search?query=sleep+tracker)",
+      "author": "Swissaliciouse",
+      "subreddit": "Notion",
+      "created_utc": 1704466831,
+      "score": 1,
+      "link_id": "t3_18z8knd",
+      "parent_id": "t3_18z8knd"
+    },
+    {
+      "id": "kg9d2q8",
+      "body": "Sync is \\*not\\* a backup.\n\nOnly a real backup (e.g. along the 3-2-1 rule) with versioning will save your from a ransomware attack.",
+      "author": "Swissaliciouse",
+      "subreddit": "ObsidianMD",
+      "created_utc": 1704362675,
+      "score": 1,
+      "link_id": "t3_18y7ix1",
+      "parent_id": "t3_18y7ix1"
+    },
+    {
+      "id": "kfzkmbp",
+      "body": "Yes and no. In Europe there is a quite stringent process for food additives to be approved, while in the USA basically everything goes until proven unsafe. This means there are more then 10000 food additives used in the USA while in Europe 'only' around 2000 are approved. If you consider them healthy is kind of a personal decision for you to make - but at least for the European market the additives do not show clear proven negative health effects.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704210120,
+      "score": 3,
+      "link_id": "t3_18wqoik",
+      "parent_id": "t3_18wqoik"
+    },
+    {
+      "id": "kfy8vrg",
+      "body": "Yes, the ultrasonic ones are a mess if you don't use either demineralised water or then a ion-exchange unit that you change regularly. Any evaporative humidifier (boiling or rotating elements) are better in this respect.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704181369,
+      "score": 2,
+      "link_id": "t3_18wggln",
+      "parent_id": "t3_18wggln"
+    },
+    {
+      "id": "kft6csn",
+      "body": "Here are the statistics about the Aare in Bern: [https://www.hydrodaten.admin.ch/en/seen-und-fluesse/stations/2135](https://www.hydrodaten.admin.ch/en/seen-und-fluesse/stations/2135)\n\nFor April: Typically low flow and extremely cold (8 °C). Not impossible - but you better know what you are doing. Cold water swimming can be deadly if you don't have the experience.",
+      "author": "Swissaliciouse",
+      "subreddit": "askswitzerland",
+      "created_utc": 1704096150,
+      "score": 7,
+      "link_id": "t3_18vm5gv",
+      "parent_id": "t3_18vm5gv"
+    }
+  ]
+}

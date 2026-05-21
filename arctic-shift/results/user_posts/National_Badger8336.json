@@ -1,0 +1,578 @@
+{
+  "username": "National_Badger8336",
+  "posts": [
+    {
+      "id": "1bqoybf",
+      "title": "IIS for someone with CS background?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711717925,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "I'm currently contemplating if I should take IIS in the winter. I have a CS bachelor degree and already had an Information Security lecture there. Currently I'm taking GIOS and learning a lot from it even though I had an OS class in my undergraduate studies and that is why I'm wondering now if it also makes sense to take IIS. Will it be mostly repetition for me or will I have a similar experience as in GIOS and learn a lot from taking IIS. The alternatives would be to take NetSec or SCS.\n\nCan anybody with a CS background/bachelor degree vouch for IIS?",
+      "url": "https://www.reddit.com/r/OMSCS/comments/1bqoybf/iis_for_someone_with_cs_background/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2h9fbp",
+      "body": "I agree with all the others that just finished taking AOS. You did an amazing job as a TA and now seeing the workload you were dealing it is really admirable what you did",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1734434694,
+      "score": 5,
+      "link_id": "t3_1hg5h27",
+      "parent_id": "t3_1hg5h27"
+    },
+    {
+      "id": "luf1p6i",
+      "body": "Yeah, that was it. Did a factory reset and set up the Express this time correctly. Had to do an update on the UDM Unifi OS as well in order to adopt the Express but then after that it worked like a charm.\n\nThanks for the pointer!",
+      "author": "National_Badger8336",
+      "subreddit": "UNIFI",
+      "created_utc": 1730237148,
+      "score": 1,
+      "link_id": "t3_1fimryd",
+      "parent_id": "t1_lu9n0od"
+    },
+    {
+      "id": "lubatcy",
+      "body": "Yeah that could be. I‘ll try to reset it later on",
+      "author": "National_Badger8336",
+      "subreddit": "UNIFI",
+      "created_utc": 1730186193,
+      "score": 1,
+      "link_id": "t3_1fimryd",
+      "parent_id": "t1_lu9n0od"
+    },
+    {
+      "id": "lu7kwds",
+      "body": "So, I just figured that WiFi connection works and all the devices are correctly in the same network which is what I initially wanted, but the display of the UniFi Express says it doesn't have connection, nor does the web interface connect to the Express. It also doesn't show up in the topology of the UDM Pro, the clients seem to be connected to the UDM Pro directly. This is weird because I didn't set up any WiFi on the UDM Pro but I did on the Express.\n\n  \nI guess for now I'll take it because all I wanted is for the clients to be in the same network but not sure if this setup is correct. Any inputs regarding improving my setup are welcome.",
+      "author": "National_Badger8336",
+      "subreddit": "UNIFI",
+      "created_utc": 1730137365,
+      "score": 1,
+      "link_id": "t3_1fimryd",
+      "parent_id": "t1_lu7h9x4"
+    },
+    {
+      "id": "lu7h9x4",
+      "body": "Yes, this is direct connection between the LAN ports of the Express and the UDM.\n\nUDM (LAN) -> (LAN) Express\n\nAnd yes, that's what I meant with \"UI\". You're also right about your assumption about my setup.\n\n  \nThe exact error message that I get when I click on the Express in the web interface is \"Console Offline\". Furthermore, I expected that I would see in the \"UnFi Devices\" tab of the UDM that I can adopt the Express but the Express doesn't show up there. It only shows up as a separate UniFi Device (which is fine I guess).",
+      "author": "National_Badger8336",
+      "subreddit": "UNIFI",
+      "created_utc": 1730136289,
+      "score": 1,
+      "link_id": "t3_1fimryd",
+      "parent_id": "t1_lu7ed8q"
+    },
+    {
+      "id": "lu7dj94",
+      "body": "I'm trying to make a similar setup work where the UDM Pro would serve as the gateway router and the Express would function as an AP. I'm facing the same problem that you were but when I tried to plug in the cable into the LAN port of the express, then the UI always complained that Express has no connection and I can't adopt it or anything...",
+      "author": "National_Badger8336",
+      "subreddit": "UNIFI",
+      "created_utc": 1730135176,
+      "score": 1,
+      "link_id": "t3_1fimryd",
+      "parent_id": "t3_1fimryd"
+    },
+    {
+      "id": "lttii3f",
+      "body": "I think only the premium versions are „luxurious“. The Model 3 and Y are pretty cheap but practical",
+      "author": "National_Badger8336",
+      "subreddit": "MachE",
+      "created_utc": 1729929776,
+      "score": 2,
+      "link_id": "t3_1gc6crq",
+      "parent_id": "t1_ltrh3l4"
+    },
+    {
+      "id": "lp12fxi",
+      "body": "Great, thanks! Will try it out first things first on my next ride",
+      "author": "National_Badger8336",
+      "subreddit": "MachE",
+      "created_utc": 1727362764,
+      "score": 1,
+      "link_id": "t3_1foy37n",
+      "parent_id": "t1_lp123gj"
+    },
+    {
+      "id": "lp11waf",
+      "body": "Thanks! I will check later. I think on mine it said 2023.75 so it should be 2023.",
+      "author": "National_Badger8336",
+      "subreddit": "MachE",
+      "created_utc": 1727362592,
+      "score": 1,
+      "link_id": "t3_1foy37n",
+      "parent_id": "t1_lp113ei"
+    },
+    {
+      "id": "lp0xynd",
+      "body": "Thanks. Gotta check how to turn on cruise control",
+      "author": "National_Badger8336",
+      "subreddit": "MachE",
+      "created_utc": 1727361338,
+      "score": 1,
+      "link_id": "t3_1foy37n",
+      "parent_id": "t1_lp0wrl2"
+    },
+    {
+      "id": "lp0upnf",
+      "body": "How do I turn bluecruise on? I‘m a new MME GT owner",
+      "author": "National_Badger8336",
+      "subreddit": "MachE",
+      "created_utc": 1727360277,
+      "score": 1,
+      "link_id": "t3_1foy37n",
+      "parent_id": "t3_1foy37n"
+    },
+    {
+      "id": "lofdha1",
+      "body": "I drove a Tesla Model 3 Performance for two years before switching to a Mach E GT which I‘m driving now for two months. The Model 3 is very similar to the Model Y, just that it‘s smaller.\nSoftware wise nothing tops Tesla no matter what others tell you. Tesla is a software company, they make their living off of it. This also means the build quality of their cars won‘t match that of others (at least the non premium versions). Also sitting in a Tesla it didn‘t really feel like I was driving a car, st least for me.\nThe Mach E‘s software isn‘t as great and the app doesn‘t come close but it‘s build quality is way better. Driving the Mach E, it does really feel like I‘m driving a car and quite frankly it‘s so much more fun to drive the Mach E than the Tesla.\nI was very happy with the Tesla but the Mach E just does it for me. It‘s not only super fun to drive, it also looks more appealing to me and I just also like the feeling of driving a car which I didn‘t really have in the Tesla.\nHope this helps a bit! Both are great cars nonetheless and you can‘t go wrong with either.",
+      "author": "National_Badger8336",
+      "subreddit": "MachE",
+      "created_utc": 1727039502,
+      "score": 2,
+      "link_id": "t3_1fmlft6",
+      "parent_id": "t3_1fmlft6"
+    },
+    {
+      "id": "leukyb8",
+      "body": "Lol weird but yeah wouldn‘t complain about a CTO gig either. Nice!",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1721902707,
+      "score": 2,
+      "link_id": "t3_1easgku",
+      "parent_id": "t1_leujcs9"
+    },
+    {
+      "id": "leu54e8",
+      "body": "Nice, did you pass it?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1721892117,
+      "score": 1,
+      "link_id": "t3_1easgku",
+      "parent_id": "t1_lese1fe"
+    },
+    {
+      "id": "leqz27p",
+      "body": "Oh which two projects? I assume the distributed file system and the IPC projects?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1721846006,
+      "score": 7,
+      "link_id": "t3_1easgku",
+      "parent_id": "t1_leoslh0"
+    },
+    {
+      "id": "l90x015",
+      "body": "They may don‘t have any open positions but sometimes it just helps to talk to the people. Tell them you‘re interested in what they‘re doing and ig there are opportunities where you could help a bit",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1718643632,
+      "score": 2,
+      "link_id": "t3_1dhbz7v",
+      "parent_id": "t1_l8w0rgt"
+    },
+    {
+      "id": "l90wl55",
+      "body": "I understand people saying you should do the on-campus degree and they have valid points. Frankly, I‘m from Switzerland and here the university tuitions are cheap compared to the US so for me it‘s hard to justify paying 50k to go to university if I can get an even better degree just for 6.5k",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1718643496,
+      "score": 1,
+      "link_id": "t3_1dfifd9",
+      "parent_id": "t3_1dfifd9"
+    },
+    {
+      "id": "l3wx7r1",
+      "body": "If that is the case, make sure to take GIOS, CN and possibly HPCA before AOS",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1715637217,
+      "score": 1,
+      "link_id": "t3_1cozles",
+      "parent_id": "t1_l3mawsy"
+    },
+    {
+      "id": "l3ejtie",
+      "body": "If you don‘t have a CS background then I think CN is worth taking. I think it would come handy into the distributed systems heavy classes like AOS and SDCC. Otherwise, the list looks pretty good. From experience I can say that GIOS is a great first class to take. It‘s challenging but great community which helps each other out",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1715329181,
+      "score": 1,
+      "link_id": "t3_1cmgklu",
+      "parent_id": "t3_1cmgklu"
+    },
+    {
+      "id": "l17rjcz",
+      "body": "GIOS is a great first class. I guess HPC and HPCA are tough classes for summer since the semester is shorter then. But still time to see if that‘s what you indeed wanna do",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1714059639,
+      "score": 2,
+      "link_id": "t3_1cckdfc",
+      "parent_id": "t3_1cckdfc"
+    },
+    {
+      "id": "l11sfar",
+      "body": "RAIT and AI4R are the same, right? I can‘t find AI4R anymore",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1713968989,
+      "score": 3,
+      "link_id": "t3_1cb8rk0",
+      "parent_id": "t1_l0zfe9b"
+    },
+    {
+      "id": "kx93001",
+      "body": "Thanks, that‘s some very useful input",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711806228,
+      "score": 1,
+      "link_id": "t3_1bqoybf",
+      "parent_id": "t1_kx8ubp2"
+    },
+    {
+      "id": "kx4nv7j",
+      "body": "Can‘t really answer this question for you. Ask yourself what you want. If you want to be a SWE then take the Web Dev job if you get the offer. Otherwise, could also take the security compliance job and ask if you could add some programming responsibilities to it",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711729622,
+      "score": 2,
+      "link_id": "t3_1bq66su",
+      "parent_id": "t3_1bq66su"
+    },
+    {
+      "id": "kx4neuv",
+      "body": "I work with Java at work and am comfortable with python. On top of the IS lecture I also took software security as an elective where we went over the common software vulnerabilities and exploited them during the labs.\n\nSounds like there is some overlap with what I had but there‘s also stuff that I didn‘t cover based on the IIS projects",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711729466,
+      "score": 1,
+      "link_id": "t3_1bqoybf",
+      "parent_id": "t1_kx400kk"
+    },
+    {
+      "id": "kx4mu48",
+      "body": "My previous IS lecture also had labs and I also took software security which went over the common software vulnerabilities out there. We also exploited them during the labs.\nBut good input, I will check the websites",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711729268,
+      "score": 1,
+      "link_id": "t3_1bqoybf",
+      "parent_id": "t1_kx4i24x"
+    },
+    {
+      "id": "kw6qjph",
+      "body": "Which book did you use?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711196528,
+      "score": 1,
+      "link_id": "t3_1bkbio8",
+      "parent_id": "t1_kw5d1w0"
+    },
+    {
+      "id": "kw4tis5",
+      "body": "How much time did it take for you to prestudy for GA? And what textbook are you referring to?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1711155278,
+      "score": 1,
+      "link_id": "t3_1bkbio8",
+      "parent_id": "t3_1bkbio8"
+    },
+    {
+      "id": "kv684gc",
+      "body": "IMO GIOS is also a great first course in OMSCS. But I think GIOS will be mostly easy for you. Maybe there is one or the other thing that you‘ll learn additionally. But the lectures are easy to follow and the projects are great",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1710614055,
+      "score": 2,
+      "link_id": "t3_1bg930l",
+      "parent_id": "t3_1bg930l"
+    },
+    {
+      "id": "ku5722k",
+      "body": "Why do you assume that your second design is not efficient?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1710026363,
+      "score": 1,
+      "link_id": "t3_1b844kh",
+      "parent_id": "t3_1b844kh"
+    },
+    {
+      "id": "ku09wex",
+      "body": "I don‘t see how you having research experience would bring you more job offers. Studying at GaTech (OMSCS included) or graduating from it is enough I think to be getting more job offers",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1709948253,
+      "score": 5,
+      "link_id": "t3_1b8zzsr",
+      "parent_id": "t3_1b8zzsr"
+    },
+    {
+      "id": "ktwbdxw",
+      "body": "There‘s no need to. Acceptance rate is high. You‘ll only need it if you don‘t come from a CS background to explain why you think you would succeed in the program etc. Basically answering the questions on the application will be enough",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1709891707,
+      "score": 6,
+      "link_id": "t3_1b98tsk",
+      "parent_id": "t1_ktw9ovi"
+    },
+    {
+      "id": "ksznpz9",
+      "body": "Do you need the knowledge to follow the courses in the computing system track or do you mean in general?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1709380377,
+      "score": 1,
+      "link_id": "t3_1b10taq",
+      "parent_id": "t1_ksdqa08"
+    },
+    {
+      "id": "ksiwbor",
+      "body": "I guess only from professors or colleagues. How can your friend vouch for knowledge in computer science?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1709122618,
+      "score": 2,
+      "link_id": "t3_1b2098j",
+      "parent_id": "t3_1b2098j"
+    },
+    {
+      "id": "ks23rv7",
+      "body": "Imo your application sounds good enough already. So no need to worry",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1708863887,
+      "score": 1,
+      "link_id": "t3_1azilpu",
+      "parent_id": "t3_1azilpu"
+    },
+    {
+      "id": "krzve9w",
+      "body": "I think they‘re all great options. In the current class I‘m taking there are a lot of people that are doing a career switch. So OMSCS is definitely a good path",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1708820062,
+      "score": 5,
+      "link_id": "t3_1az8vk7",
+      "parent_id": "t1_krzv66r"
+    },
+    {
+      "id": "krzuu7b",
+      "body": "Don‘t know about the others but good luck trying to get into Carnegie Mellon. If he‘s got the grades then he absolutely should go for it",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1708819838,
+      "score": 2,
+      "link_id": "t3_1az50cf",
+      "parent_id": "t1_krzbofa"
+    },
+    {
+      "id": "krzukos",
+      "body": "Don‘t think there are masters specifically for beginners. With that said I see a lot of people like you at OMSCS. People that studied something different and are doing a career switch now. If you‘ve done some of the intro courses listed at the OMSCS page then you should be fine to apply. I know UT Austin has also an online masters.\nRegardless where you apply it won‘t be easy but I guess there are also some intro courses at the masters level, specifically for people that don‘t come from a CS background",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1708819733,
+      "score": 7,
+      "link_id": "t3_1az8vk7",
+      "parent_id": "t3_1az8vk7"
+    },
+    {
+      "id": "krc18h6",
+      "body": "There‘s so much more to software engineering than coding. Coding is only a small part. AI may replace coding but it won‘t replace software engineers. If anything the responsibilities of a software engineer may change",
+      "author": "National_Badger8336",
+      "subreddit": "ethz",
+      "created_utc": 1708456383,
+      "score": 1,
+      "link_id": "t3_1auc03f",
+      "parent_id": "t1_kr4anfe"
+    },
+    {
+      "id": "kray46l",
+      "body": "I wouldn‘t worry too much. DS is a good field but takes a lot of knowledge and experience. I think a good start would be to work in a company that works in a cloud environment if you want something in that area. Doubt you‘ll be able to find work as DS engineer that quickly. So concentrate on your masters and if you can find a job that works with cloud technologies/Kubernetes/Docker then you‘re already good for the future.",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1708443255,
+      "score": 2,
+      "link_id": "t3_1av6orf",
+      "parent_id": "t3_1av6orf"
+    },
+    {
+      "id": "kra7h1v",
+      "body": "I‘m currently taking GIOS as well and I agree that the lecture covers the content of the papers. But for me reading the papers allowed me to understand the content better. So if you have trouble understanding the content or feel like you have a knowledge gap there, then reading the paper could be beneficial for you. Otherwise, you‘re fine as well not reading them",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1708432138,
+      "score": 3,
+      "link_id": "t3_1av0x0t",
+      "parent_id": "t3_1av0x0t"
+    },
+    {
+      "id": "kp8qa3m",
+      "body": "Yeah that for sure. Can you recommend IIS?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1707257045,
+      "score": 1,
+      "link_id": "t3_1ak1mar",
+      "parent_id": "t1_kp8lslw"
+    },
+    {
+      "id": "kp74zj5",
+      "body": "Just my five cents: I highly believe no course will be an easy cakewalk. Yes there are easier courses but it‘s still grad school. Then again I‘ve only taken GIOS so far so take it with a pinch of salt.\nBottom line is you will learn a lot in every course if you do the work",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1707237859,
+      "score": 1,
+      "link_id": "t3_1ak1mar",
+      "parent_id": "t3_1ak1mar"
+    },
+    {
+      "id": "kom8irk",
+      "body": "So he could do just that, right?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706896329,
+      "score": 1,
+      "link_id": "t3_1agrg7a",
+      "parent_id": "t1_kom8d5b"
+    },
+    {
+      "id": "kokgqpe",
+      "body": "GIOS is very well run. Currently taking it. But can‘t you just graduate after the 10th and still take classes afterwards? I thought it shouldn‘t affect your GPA",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706867938,
+      "score": 4,
+      "link_id": "t3_1agrg7a",
+      "parent_id": "t3_1agrg7a"
+    },
+    {
+      "id": "koig56n",
+      "body": "I guess not because from what I‘ve heard the summer semesters are shorter",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706830985,
+      "score": 1,
+      "link_id": "t3_1aegiss",
+      "parent_id": "t1_kofo9ee"
+    },
+    {
+      "id": "kob3ldq",
+      "body": "If you want to take then prepare it well. The lectures are not that hard and you will easily follow. It‘s the projects that are kicking ass",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706722313,
+      "score": 4,
+      "link_id": "t3_1afkdx9",
+      "parent_id": "t1_koaoj7o"
+    },
+    {
+      "id": "kk9y2s5",
+      "body": "Oh didn‘t know that",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706631867,
+      "score": 2,
+      "link_id": "t3_1aenuiq",
+      "parent_id": "t1_kk9xk9p"
+    },
+    {
+      "id": "kk9uzic",
+      "body": "I thought you‘d need to have a minimum of 3.0 GPA",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706630797,
+      "score": 2,
+      "link_id": "t3_1aenuiq",
+      "parent_id": "t1_kk9bw7y"
+    },
+    {
+      "id": "kk8z9g4",
+      "body": "And to think that AOS is harder than that",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706617618,
+      "score": 1,
+      "link_id": "t3_1ae8ykw",
+      "parent_id": "t1_kk6opaw"
+    },
+    {
+      "id": "kk8z57a",
+      "body": "Omg, any tips on how to synchronize in order to avoid this?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1706617552,
+      "score": 1,
+      "link_id": "t3_1ae8ykw",
+      "parent_id": "t1_kk7jir2"
+    },
+    {
+      "id": "khckwcv",
+      "body": "I guess it would be a walk in the park for you since it‘s your bread and butter. But then again, never took that class and don‘t know what exactly you do at your work",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1704973077,
+      "score": 1,
+      "link_id": "t3_193v7gd",
+      "parent_id": "t3_193v7gd"
+    },
+    {
+      "id": "kh6sikq",
+      "body": "How do y‘all manage to work full time while doing this program without going insane? Is it like really tight planning or what‘s the secret?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSA",
+      "created_utc": 1704881585,
+      "score": 1,
+      "link_id": "t3_18hx6hj",
+      "parent_id": "t1_kh6rbb6"
+    },
+    {
+      "id": "kgvuolr",
+      "body": "Any chance to know what city in Germany? Depending on the city I might consider it because I‘m from a neighboring country",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1704716053,
+      "score": 1,
+      "link_id": "t3_190wwdh",
+      "parent_id": "t3_190wwdh"
+    },
+    {
+      "id": "kgsdc6s",
+      "body": "Full time as in 100% working?",
+      "author": "National_Badger8336",
+      "subreddit": "OMSA",
+      "created_utc": 1704662238,
+      "score": 1,
+      "link_id": "t3_18hx6hj",
+      "parent_id": "t1_kd9uwko"
+    },
+    {
+      "id": "kgsapyh",
+      "body": "That‘d be a great course to take. How is SAD in reality? Didn‘t hear good stuff about it but any concrete examples of what I could expect there if I were to take it",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1704661376,
+      "score": 1,
+      "link_id": "t3_18x0042",
+      "parent_id": "t1_kg3ve1q"
+    },
+    {
+      "id": "kgq3eo0",
+      "body": "I‘d say I agree with your family but I‘m not from the US and health insurance is a lot cheaper from where I‘m from. \nWould it be possible to get a full time job at the current company after you‘ve done the internship? Maybe you could aim for that if you‘re willing to do one year without health insurance",
+      "author": "National_Badger8336",
+      "subreddit": "OMSCS",
+      "created_utc": 1704631905,
+      "score": 1,
+      "link_id": "t3_18xnbgm",
+      "parent_id": "t3_18xnbgm"
+    }
+  ]
+}

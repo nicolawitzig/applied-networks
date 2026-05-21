@@ -1,0 +1,71 @@
+{
+  "username": "gary_cooper_01",
+  "posts": [
+    {
+      "id": "1f87fkr",
+      "title": "How important is the course \"Introduction to Machine Learning\" as a prerequisite?",
+      "author": "gary_cooper_01",
+      "subreddit": "ethz",
+      "created_utc": 1725388245,
+      "score": 11,
+      "num_comments": 5,
+      "selftext": "I'll be starting my Mathematics Master's next semester and I was planning on taking some Machine Learning courses. However, both \"Probabilistic Artificial Intelligence\" and \"Advanced Machine Learning\" list the course \"Introduction to Machine Learning\" as a prerequisite, which I have not taken nor can I take it during my Master's. While I have taken a few statistics and probability theory courses during my Math Bachelor's, I have no experience in programming machine learning algorithms which worries me a bit.\n\nHow important is the course \"Introduction to Machine Learning\" for both \"Probabilistic Artificial Intelligence\" and \"Advanced Machine Learning\"? Also, are there any other courses that can serve as a good introduction to Machine Learning other than \"Introduction to Machine Learning\" that are offered in the Mathematics Master's? Any personal experience or advice would be greatly appreciated! :)",
+      "url": "https://www.reddit.com/r/ethz/comments/1f87fkr/how_important_is_the_course_introduction_to/"
+    },
+    {
+      "id": "1eo7tec",
+      "title": "Questions regarding the compulsory elective courses in the math bachelor’s program",
+      "author": "gary_cooper_01",
+      "subreddit": "ethz",
+      "created_utc": 1723229696,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "From what I can tell, all the compulsory elective courses in the math bachelor’s program are only offered in the spring semester. However, in the course catalogue for the 2024 spring semester, it says that the examination for the course Geometry is offered every session. Does this mean that one can take the exam in fall even though one cannot register for the course? If yes, then can one take the exam without having ever attended the course or is this option only available to students that are repeating the course? \n\nThanks in advance for the clarification :)",
+      "url": "https://www.reddit.com/r/ethz/comments/1eo7tec/questions_regarding_the_compulsory_elective/"
+    },
+    {
+      "id": "1d9misy",
+      "title": "Plotting multiple functions in one ggplot",
+      "author": "gary_cooper_01",
+      "subreddit": "Rlanguage",
+      "created_utc": 1717691650,
+      "score": 4,
+      "num_comments": 3,
+      "selftext": "I'm trying to learn how to plot multiple functions in one ggplot. For example, if I want to plot the following function \n\n    func <- function(x, i){\r\n      x**i\r\n    }\n\nover the interval \\[0,1\\] for i = 1 and i = 2, I can write the following\n\n    \r\rplot <- ggplot() + xlim(c(0,1))\n    name1 <- paste(\"to the power of\", 1)\n    name2 <- paste(\"to the power of\", 2)\n    \rplot <- plot + geom_function(fun = func, n = 1000, args = list(i = 1), aes(color = name1))\n    \rplot <- plot + geom_function(fun = func, n = 1000, args = list(i = 2), aes(color = name2))\n\nand I get a plot where the two functions have different colors and the legend is labeled correctly.  I then tried to do the same thing for all i values between 1 and 10 and wrote\n\n    \r\rplot <- ggplot() + xlim(c(0,1))\n    for(j in 1:10){\r\n      name <- paste(\"to the power of\", j)\r  \n      plot <- plot + geom_function(fun = func, n = 1000, args = list(i = j), aes(color = name))\r\n    }\n\nHowever, all the plotted functions have the same color and the legend only shows \"to the power of 10\". What am I doing incorrectly? Any help is much appreciated :)",
+      "url": "https://www.reddit.com/r/Rlanguage/comments/1d9misy/plotting_multiple_functions_in_one_ggplot/"
+    },
+    {
+      "id": "1d8za47",
+      "title": "RStudio keeps crashing when I try to add code chunks into sweave file",
+      "author": "gary_cooper_01",
+      "subreddit": "RStudio",
+      "created_utc": 1717617529,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "I'm currently learning how to write latex documents in RStudio and I've recently encountered a problem while writing in a sweave file. Whenever I try to write \n\n`<<>>=`\n\nin my sweave file, I get an error saying \"Error Autosaving File**;** RStudio was unable to autosave this file. You may need to restart RStudio\". After closing the warning, random parts of the sweave file start to disappear, and saving the changes made to the document isn't possible. To find out if it was an error in my document that was causing the crash, I created a completely new sweave file which looks like this\n\n\\`\\`\\`\n\n\\\\documentclass{article}\n\n\\\\begin{document}\n\n\\\\SweaveOpts{concordance=TRUE}\n\n\\\\end{document}\n\n\\`\\`\\`\n\nHowever, I still got the same error. I can avoid getting the error warning by first writing\n\n\\`\\`\\`\n\n<<>>=\n\n\\`\\`\\`\n\nand only now adding \"=\" to the end of \"<<>>\".  However, if I now try to write a function, for example\n\n\\`\\`\\`\n\n<<>>=\n\ntest <- function(x){\n\n@\n\n\\`\\`\\`\n\nas soon as I write \"{\" the entire code line disappears and I'm unable to save the changes made to the file.  Also, random parts of the file start to disappear if I try to save by using the shortcut command. I tried to find other people who have experienced similar problems, but I haven't found anyone. Does anyone know what is causing the errors or how I could solve these problems?\n\nAny help would be much appreciated :)",
+      "url": "https://www.reddit.com/r/RStudio/comments/1d8za47/rstudio_keeps_crashing_when_i_try_to_add_code/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "llg59dr",
+      "body": "I must have missed that comment, thanks for pointing it out! But I’m a bit confused. What does it mean to take a course that isn’t offered in one’s program? Does it simply mean that I will be waitlisted? Also, could the credits from the course count toward my Master’s?",
+      "author": "gary_cooper_01",
+      "subreddit": "ethz",
+      "created_utc": 1725447859,
+      "score": 1,
+      "link_id": "t3_1f87fkr",
+      "parent_id": "t1_llffhrm"
+    },
+    {
+      "id": "lldd0oz",
+      "body": "I assumed it wasn’t offered in the Mathematics Master’s program since it dosen’t show up when I search for it in the [Vorlesungsverzeichnis](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/sucheLehrangebotPre.view?lang=en) under “Programme Mathematics Master”.\n\nAlso, on the [page](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lang=en&semkez=2024S&ansicht=STUDPLANINFO&lerneinheitId=177270&) where all the programs offering \"Introduction to Machine Learning\" are listed, the Mathematics Master’s program isn’t included.",
+      "author": "gary_cooper_01",
+      "subreddit": "ethz",
+      "created_utc": 1725398899,
+      "score": 1,
+      "link_id": "t3_1f87fkr",
+      "parent_id": "t1_lld17yt"
+    }
+  ]
+}

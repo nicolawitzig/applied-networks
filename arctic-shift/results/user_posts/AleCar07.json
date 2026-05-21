@@ -1,0 +1,594 @@
+{
+  "username": "AleCar07",
+  "posts": [
+    {
+      "id": "1hj28tq",
+      "title": "Why doesnt the rotation of my gameobject doesnt syncronize between client and host?",
+      "author": "AleCar07",
+      "subreddit": "Unity2D",
+      "created_utc": 1734755574,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "I needed my bow to rotate towards my mouse, however even though i have attached a Client Network Transform to it and alllowed it to syncronize the z-axis rotation it only works on the host(If I rotate on the host is appears on the client but not the other way around).\n\nThis is the code for my Player Character:\n\n    using System.Collections.Generic;\n    using UnityEngine;\n    using Unity.Netcode;\n    using Collider2D = UnityEngine.Collider2D;\n    public class Player : NetworkBehaviour\n    {\n        public static Player LocalInstance {get; private set;}\n        [SerializeField] private float speed;\n        private Collider2D[] playerColliders;\n    \n        private void Awake()\n        {\n            playerColliders = GetComponents<Collider2D>();\n        }\n    \n        private void Start()\n        {\n            GameInput.Instance.OnInteractAction += HandleInteraction;\n        }\n    \n        public override void OnNetworkSpawn()\n        {\n            if (IsOwner) LocalInstance = this;\n        }\n    \n        private void Update()\n        {\n            HandleMovement();\n        }\n    \n        private void HandleInteraction(object sender, System.EventArgs e)\n        {\n            List<Collider2D> contactColliders = new List<Collider2D>();\n            bool hasInteracted = false;\n                    foreach (Collider2D playerCollider in playerColliders)\n            {\n                Physics2D.OverlapCollider(playerCollider, contactColliders);\n                foreach (Collider2D contactCollider in contactColliders)\n                {\n                    if (!contactCollider.gameObject.TryGetComponent<IInteractable>(out IInteractable interactable)) continue;\n                                        interactable.Interact(this);\n                    hasInteracted = true;\n                    break;\n                }\n                if (hasInteracted) break;\n            }\n        }\n    \n        private void HandleMovement()\n        {\n            Vector2 direction = GameInput.Instance.GetDirectionVector();\n                    transform.position += (Vector3)(direction * (speed * Time.deltaTime));\n        }\n    \n        public NetworkObject GetNetworkObject()\n        {\n            return NetworkObject;\n        }\n    }\n\nThis is the code for my bow object:\n\n    using Unity.Netcode;\n    using UnityEngine;\n    public class Weapon : \n    NetworkBehaviour\n    , \n    IInteractable\n    {\n        [SerializeField] private GameObject attachedPlayerGameObject;\n        [\n    SerializeField\n    ] private \n    Player \n    attachedPlayer;\n        [\n    SerializeField\n    ] private bool isOnPossession = false;\n    \n        private void LateUpdate()\n        {\n            if (!isOnPossession) return;\n            \n    HandlePlayerPossessionBehaviour\n    ();\n        }\n    \n        public void \n    Interact\n    (\n    Player interactedPlayer\n    )\n        {\n            \n    InteractServerRpc\n    (\n    interactedPlayer\n    .\n    GetNetworkObject\n    ());\n        }\n    \n        [\n    ServerRpc\n    (RequireOwnership = false)]\n        private void \n    InteractServerRpc\n    (\n    NetworkObjectReference interactedPlayerNetworkObjectReference\n    )\n        {   \n                    \n    InteractClientRpc\n    (\n    interactedPlayerNetworkObjectReference\n    );\n        }\n    \n        [\n    ClientRpc\n    ]\n        private void \n    InteractClientRpc\n    (\n    NetworkObjectReference interactedPlayerNetworkObjectReference\n    )\n        {\n            \n    interactedPlayerNetworkObjectReference\n    .\n    TryGet\n    (out \n    NetworkObject \n    interactedPlayerNetworkObject);\n            \n    Player \n    interactedPlayer = interactedPlayerNetworkObject.\n    GetComponent\n    <\n    Player\n    >();\n    \n            attachedPlayer = interactedPlayer;\n            attachedPlayerGameObject = interactedPlayer.gameObject;\n            isOnPossession = true;\n        }\n    \n        private void \n    HandlePlayerPossessionBehaviour\n    ()\n        {\n            if (attachedPlayerGameObject \n    == \n    null) return;\n    \n            transform.position = attachedPlayerGameObject.transform.position;\n    \n            if (attachedPlayer.IsLocalPlayer)\n            {\n                \n    FollowPlayerMousePointer\n    ();\n            }\n        }\n    \n        private void \n    FollowPlayerMousePointer\n    ()\n        {\n            \n    Vector2 \n    mousePos = \n    Camera\n    .main.\n    ScreenToWorldPoint\n    (\n    Input\n    .mousePosition);\n    \n            \n    Vector2 \n    lookDir = mousePos \n    - \n    new \n    Vector2\n    (transform.position.x, transform.position.y);\n            float angle = \n    Mathf\n    .\n    Atan2\n    (lookDir.y, lookDir.x) * \n    Mathf\n    .Rad2Deg;\n    \n            transform.eulerAngles = new \n    Vector3\n    (0f, 0f, angle);\n        }\n    }\n    ",
+      "url": "https://www.reddit.com/r/Unity2D/comments/1hj28tq/why_doesnt_the_rotation_of_my_gameobject_doesnt/"
+    },
+    {
+      "id": "1hd1h2j",
+      "title": "Tell me a character which if you see in your match you immediately think the player has no skill",
+      "author": "AleCar07",
+      "subreddit": "marvelrivals",
+      "created_utc": 1734054807,
+      "score": 0,
+      "num_comments": 13,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/marvelrivals/comments/1hd1h2j/tell_me_a_character_which_if_you_see_in_your/"
+    },
+    {
+      "id": "1gm0bm7",
+      "title": "Did map to globe disappear? I am not able to access through the link https://beta.maptoglobe.com/",
+      "author": "AleCar07",
+      "subreddit": "worldbuilding",
+      "created_utc": 1731011511,
+      "score": 3,
+      "num_comments": 7,
+      "selftext": "I am using the website map to globe for some time but now I cant access. Can anyone give me another recomendation of software for me to do this or send a link for this site if it changed?",
+      "url": "https://www.reddit.com/r/worldbuilding/comments/1gm0bm7/did_map_to_globe_disappear_i_am_not_able_to/"
+    },
+    {
+      "id": "1g34r3u",
+      "title": "Why you might benefit from not studying kanji directly",
+      "author": "AleCar07",
+      "subreddit": "LearnJapanese",
+      "created_utc": 1728868468,
+      "score": 0,
+      "num_comments": 10,
+      "selftext": "Disclaimer: I am not a long time japanese learner(only learning for a few months) but this approach to learning has been really effective to me. This approach is not new but is something which I feel is not as known as other learning methods(maybe im wrong though). This approach also is not that good for people who specifically want to learn how to write(not type) kanji in a shorter ammount of time.\n\nIn the beginning of my japanese learning journey i used to study kanji like many people do, creating anki flashcards and memorising their readings and meaning. However while i was studying vocabulary together with kanji i realised that or I would have to learn the words in kana and only later when I learned the individual meaning of each kanji I could learn read it in general text on the internet.\n\nActual Study Method: To fix this problem I completely ditched my kanji flashcards and only started using vocabulary flashcards but i removed the kana kanji writingfrom them and left only the kanji writing. I only left the kana in the backside of the flashcards so could fix any pronounciation mistakes.\n\nThis method has been really effect for me and now I can see the word written somewhere and understand it instead of being limited by only knowing the word's kana but not kanji.\n\nHowever I understand that dispite this method being really effective for me you might think that it slows down the rate at which you learn new words(it didnt for me) so do some self analysis, for me it was effective.\n\nEdit: The way I see it is like there is no other way to write a word except by using the kanji(if there is one) almost like a chinese word",
+      "url": "https://www.reddit.com/r/LearnJapanese/comments/1g34r3u/why_you_might_benefit_from_not_studying_kanji/"
+    },
+    {
+      "id": "1g26mji",
+      "title": "I was reading Apology(Plato) and saw a passage which i didn't understanding",
+      "author": "AleCar07",
+      "subreddit": "askphilosophy",
+      "created_utc": 1728758021,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "I am new to philosophy this is my first time reading it(although I am a bit familiar with the ideas of Socrates due to my phylosophy lessons). While reading the Apology I saw a reasoning which I didnt really understand.\n\nThat is in 25e\n\nI have reached such a pitch of ignorance that I do not realize this, namely that if I make one of my associates wicked I run the risk of being harmed by him so that I do such a great evil deliberately, as you say? I do not believe you, Meletus, and I do not think anyone else will.\n\nIs there any significant evidence or reasoning to suggest that Socrates has reached this \"pit of ignorance\". For me it seems just as reasonable to believe that he could have known he did evil and is just chosing to lie in this moment. Is Socrates just \"hoping\" that the jury will disagree with Meletus and that Socrates didnt to evil deliberately or that he didnt do it at all?  \n",
+      "url": "https://www.reddit.com/r/askphilosophy/comments/1g26mji/i_was_reading_apologyplato_and_saw_a_passage/"
+    },
+    {
+      "id": "1fk19rj",
+      "title": "Janai vs negative form of the verb",
+      "author": "AleCar07",
+      "subreddit": "japanese",
+      "created_utc": 1726687547,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Is there a difference in situation or grammar between using the verb in the negative form and substituing desu by じやない.\n\nFor example is there any difference between saying 話さない and 話す-じやない",
+      "url": "https://www.reddit.com/r/japanese/comments/1fk19rj/janai_vs_negative_form_of_the_verb/"
+    },
+    {
+      "id": "1eg5utn",
+      "title": "Can anyone identify this switch for me?",
+      "author": "AleCar07",
+      "subreddit": "MechanicalKeyboards",
+      "created_utc": 1722376271,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://i.redd.it/0cuthw2y8qfd1.jpeg"
+    },
+    {
+      "id": "1d4aap4",
+      "title": "My test date was changed because my testing center closed, can change my testing center to do it june 1st still?",
+      "author": "AleCar07",
+      "subreddit": "Sat",
+      "created_utc": 1717092353,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/Sat/comments/1d4aap4/my_test_date_was_changed_because_my_testing/"
+    },
+    {
+      "id": "1d2rhv7",
+      "title": "If i do a BSc in course 8 and 6-2, can i later especialize in mechatronics engineering",
+      "author": "AleCar07",
+      "subreddit": "mit",
+      "created_utc": 1716923119,
+      "score": 0,
+      "num_comments": 1,
+      "selftext": "I am only a prospective student and I know first I have to pass to MIT, but I do is the path on the question prompt alright? Or do I have to do course 2",
+      "url": "https://www.reddit.com/r/mit/comments/1d2rhv7/if_i_do_a_bsc_in_course_8_and_62_can_i_later/"
+    },
+    {
+      "id": "1d1d9ks",
+      "title": "Is there any way to get credit for classes with other exams after high school?",
+      "author": "AleCar07",
+      "subreddit": "stanford",
+      "created_utc": 1716763509,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "I just wanted to know if there is something similar to MIT's ASEs in Stanford. Which are exams which you can take in order to skip a certain class you already have knowledge of.",
+      "url": "https://www.reddit.com/r/stanford/comments/1d1d9ks/is_there_any_way_to_get_credit_for_classes_with/"
+    },
+    {
+      "id": "1csxs6u",
+      "title": "Just did my first practice SAT, never studied before, doing the SAT in 15 days. Comment what you think will be my score",
+      "author": "AleCar07",
+      "subreddit": "Sat",
+      "created_utc": 1715812340,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "This was my first practice SAT, i know its high but i swear i never studied for this:\n\nhttps://preview.redd.it/ww6cvz0z2o0d1.png?width=371&format=png&auto=webp&s=acaecfe596a154e1d01bd8691ff0cc418077196b\n\nComment what you think i can get in 15 days",
+      "url": "https://www.reddit.com/r/Sat/comments/1csxs6u/just_did_my_first_practice_sat_never_studied/"
+    },
+    {
+      "id": "1crz8o7",
+      "title": "If I get a 7 on IB can I just skip math 18.01 and do one less GIR",
+      "author": "AleCar07",
+      "subreddit": "mit",
+      "created_utc": 1715711060,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "I was looking into the international examinations page of mit and I saw this:\n\nhttps://preview.redd.it/y979eo6qpf0d1.png?width=1058&format=png&auto=webp&s=af62f34e92c2a16b22641056697d59d313923956\n\nDoes that mean that if i get 7s in physics and maths I can just skip these subject and do 2 less GIRs?",
+      "url": "https://www.reddit.com/r/mit/comments/1crz8o7/if_i_get_a_7_on_ib_can_i_just_skip_math_1801_and/"
+    },
+    {
+      "id": "1cmou03",
+      "title": "Is there any criteria to know when the ch will sound like in welche or in sprachen for example?",
+      "author": "AleCar07",
+      "subreddit": "German",
+      "created_utc": 1715121232,
+      "score": 5,
+      "num_comments": 11,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/German/comments/1cmou03/is_there_any_criteria_to_know_when_the_ch_will/"
+    },
+    {
+      "id": "1cmkv6q",
+      "title": "Can I do a MSc in mechanical engineering after a BSc in physics in ETHZ",
+      "author": "AleCar07",
+      "subreddit": "ethz",
+      "created_utc": 1715111468,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I am a prospective student and was looking at the requirements for a MSc in mechanival engineering and for me its not clear if I can go from physics to ME. Because although they only list ME as a qualifying discipline, they have this section(2.15)\n",
+      "url": "https://i.redd.it/rh427lly62zc1.jpeg"
+    },
+    {
+      "id": "1cmjiqg",
+      "title": "Can I do a double masters of physics and mechanical engineering in EPFL?",
+      "author": "AleCar07",
+      "subreddit": "EPFL",
+      "created_utc": 1715108075,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/EPFL/comments/1cmjiqg/can_i_do_a_double_masters_of_physics_and/"
+    },
+    {
+      "id": "1cku67h",
+      "title": "Can I do a double bachelors of physics and mechanical engineering at TUM?",
+      "author": "AleCar07",
+      "subreddit": "tumunich",
+      "created_utc": 1714923892,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/tumunich/comments/1cku67h/can_i_do_a_double_bachelors_of_physics_and/"
+    },
+    {
+      "id": "1cku5s4",
+      "title": "Can I do a double bachelors of physics and mechanical engineering at TU Delft?",
+      "author": "AleCar07",
+      "subreddit": "TUDelft",
+      "created_utc": 1714923859,
+      "score": 0,
+      "num_comments": 16,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/TUDelft/comments/1cku5s4/can_i_do_a_double_bachelors_of_physics_and/"
+    },
+    {
+      "id": "1bskvn4",
+      "title": "Anyone knows how to get this chest in GoW 2018 in Alfheim",
+      "author": "AleCar07",
+      "subreddit": "GodofWar",
+      "created_utc": 1711919041,
+      "score": 18,
+      "num_comments": 6,
+      "selftext": "Couldnt find any video, with this specific chest",
+      "url": "https://www.reddit.com/gallery/1bskvn4"
+    },
+    {
+      "id": "1bqvd9v",
+      "title": "Uhhhhh, please game i need that block",
+      "author": "AleCar07",
+      "subreddit": "HogwartsLegacyGaming",
+      "created_utc": 1711734306,
+      "score": 21,
+      "num_comments": 18,
+      "selftext": "",
+      "url": "https://v.redd.it/8ck9008v8brc1"
+    },
+    {
+      "id": "1bowgh4",
+      "title": "Finally I can say what celeste is all about",
+      "author": "AleCar07",
+      "subreddit": "celestegame",
+      "created_utc": 1711526238,
+      "score": 43,
+      "num_comments": 16,
+      "selftext": "&#x200B;\n\nhttps://preview.redd.it/42xybjtp1uqc1.png?width=1920&format=png&auto=webp&s=02e5698406c14f9c1ed3a50182d92d7ac4f5968c\n\nFINALLY I GOT ALL ACHIEVEMENTS. IM WAS HERE ALL NIGHT BECAUSE OF THIS FUCKING CHAPTER. but it was worth it.",
+      "url": "https://www.reddit.com/r/celestegame/comments/1bowgh4/finally_i_can_say_what_celeste_is_all_about/"
+    },
+    {
+      "id": "1bm3d2m",
+      "title": "Can you do a double undergrad at Imperial? If so, do you pay extra?",
+      "author": "AleCar07",
+      "subreddit": "Imperial",
+      "created_utc": 1711229019,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/Imperial/comments/1bm3d2m/can_you_do_a_double_undergrad_at_imperial_if_so/"
+    },
+    {
+      "id": "1blht3f",
+      "title": "Am I just dumb or is this SAT practice question wrong?",
+      "author": "AleCar07",
+      "subreddit": "math",
+      "created_utc": 1711162222,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/math/comments/1blht3f/am_i_just_dumb_or_is_this_sat_practice_question/"
+    },
+    {
+      "id": "1bklmls",
+      "title": "Doubts about studying physics at Cambridge University",
+      "author": "AleCar07",
+      "subreddit": "cambridge",
+      "created_utc": 1711065678,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": " Hi, Im an international students who wanted to study physics, in special quantum physics. Due to that I was checking in the physics course for physics and they dont elaborate much in the course outline of natural sciences normally, only saying physics. Can anyone tell me when they studied some topics like relativity, astrophysics and quantum physics. ",
+      "url": "https://www.reddit.com/r/cambridge/comments/1bklmls/doubts_about_studying_physics_at_cambridge/"
+    },
+    {
+      "id": "1bklk4d",
+      "title": "Doubts about studying physics in Cambridge University",
+      "author": "AleCar07",
+      "subreddit": "cambridge_uni",
+      "created_utc": 1711065506,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Hi, Im an international students who wanted to study physics, in special quantum physics. Due to that I was checking in the physics course for physics and they dont elaborate much in the course outline of natural sciences normally, only saying physics. Can anyone tell me when they studied some topics like relativity, astrophysics and quantum physics.",
+      "url": "https://www.reddit.com/r/cambridge_uni/comments/1bklk4d/doubts_about_studying_physics_in_cambridge/"
+    },
+    {
+      "id": "1arxtc9",
+      "title": "Alguém sabe oque é \"O Segredo na Terra da Rainha\"?",
+      "author": "AleCar07",
+      "subreddit": "OrdemParanormalRPG",
+      "created_utc": 1708051348,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "Eu estava na wiki do Ordem até que me deparei como uma série de campanhas que nunca tinha visto como esse \"O Segredo na Terra da Rainha\". Eu não consegui achar nada sobre a não ser citações da própria wiki que não diz muito. Eu achei estranho pois ela cita episódios que não existem aparentemente.\n",
+      "url": "https://www.reddit.com/r/OrdemParanormalRPG/comments/1arxtc9/alguém_sabe_oque_é_o_segredo_na_terra_da_rainha/"
+    },
+    {
+      "id": "199nulc",
+      "title": "Why does this error keep happening?",
+      "author": "AleCar07",
+      "subreddit": "Unity2D",
+      "created_utc": 1705576574,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "NullReferenceException: Object reference not set to an instance of an objectOrganDetector.OnTriggerEnter2D (UnityEngine.Collider2D collision) (at Assets/SurgeryGame/Scripts/OrganDetector.cs:69)\n\nI also debugged with the unity debugger discovered that some colliders just doesnt have a gameobject inside which seems really weird. So I just cant use collision.gameObject for some game object:\n\n&#x200B;\n\nMy code:\n\n    using System.Collections;\n    using System.Collections.Generic;\n    using Unity.VisualScripting;\n    using UnityEngine;\n    \n    public class OrganDetector : MonoBehaviour\n    {\n        [SerializeField] private int organType;\n    \n        private GameObject cut;\n        [SerializeField] private List<GameObject> objectsInTouch;\n        private List<int> bionicOrgansInTouchIDs;\n        private bool hasNeedlePrepared;\n        private bool hasNecessaryBionicOrgan;\n        private bool hasScalpelOnTop;\n        private int needleIsDroppedIn;\n    \n    \n        private void Start()\n        {\n            cut = GameObject.FindGameObjectWithTag(\"Cut\");\n        }\n    \n        private void Update()\n        {\n            if(hasScalpelOnTop)\n            {\n    \n            }else if(hasNeedlePrepared)\n            {\n                if(objectsInTouch.Count == 0)\n                {\n                    Debug.Log(\"You need to replace the organ\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n                if(!hasNecessaryBionicOrgan && bionicOrgansInTouchIDs.Count == 1)\n                {\n                    Debug.Log(\"That is not the right bionic organ to replace with\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n                if (bionicOrgansInTouchIDs.Count > 1)\n                {\n                    Debug.Log(\"You need to place ONLY the right bionic organ\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n                if(objectsInTouch.Count > bionicOrgansInTouchIDs.Count) \n                {\n                    Debug.Log(\"You need to remove the old unhealthy organ\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n    \n                for (int i = 0; i < objectsInTouch.Count; i++)\n                {\n                    Destroy(objectsInTouch[i]);\n                }\n                Destroy(cut);\n                SurgeryGameManager.instance.spawnNewCut();\n                Destroy(this.transform.parent.gameObject.transform.parent.gameObject);\n                SurgeryGameManager.instance.respawnBionicOrgan(organType);\n            } \n            \n        }\n    \n        private void OnTriggerEnter2D(Collider2D collision)\n        {\n            if (collision.gameObject.tag == \"Bionic Organ\")\n            {\n                bionicOrgansInTouchIDs.Add(collision.gameObject.GetComponent<Organ>().organType);\n                if (collision.gameObject.GetComponent<Organ>().organType == organType)\n                {\n                    hasNecessaryBionicOrgan = true;\n                }\n                objectsInTouch.Add(collision.gameObject);\n            }\n            else if (collision.gameObject.tag != \"Player\")\n            {\n                if (collision.gameObject.tag == \"Needle\")\n                {\n                    if (!collision.gameObject.GetComponent<Item>().itemIsHeld)\n                    {\n                        needleIsDroppedIn += 1;\n                    }\n                }\n                else\n                {\n                    if (collision.gameObject.tag == \"Scalpel\")\n                    {\n                        hasScalpelOnTop = true;\n                    }\n                    objectsInTouch.Add(collision.gameObject);\n                }\n            }\n        }\n    \n        private void OnTriggerExit2D(Collider2D collision)\n        {\n            if (collision.gameObject.tag == \"Bionic Organ\")\n            {\n                bionicOrgansInTouchIDs.Add(collision.gameObject.GetComponent<Organ>().organType);\n                if (collision.gameObject.GetComponent<Organ>().organType == organType)\n                {\n                    hasNecessaryBionicOrgan = false;\n                }\n                objectsInTouch.Remove(collision.gameObject);\n            }\n            else if (collision.gameObject.tag != \"Player\")\n            {\n                if (collision.gameObject.tag == \"Needle\")\n                {\n                    if (collision.gameObject.GetComponent<Item>().itemIsHeld && needleIsDroppedIn == 1)\n                    {\n                        needleIsDroppedIn -= 1;\n                    }\n                    hasNeedlePrepared = false;\n                }\n                else\n                {\n                    if (collision.gameObject.tag == \"Scalpel\")\n                    {\n                        hasScalpelOnTop = false;\n                    }\n                    objectsInTouch.Remove(collision.gameObject);\n                }\n            }\n        }\n    \n        private void OnTriggerStay2D(Collider2D collision)\n        {\n            if(collision.gameObject.tag == \"Needle\")\n            {\n                if (collision.gameObject.GetComponent<Item>().itemIsHeld)\n                {\n                    hasNeedlePrepared = true;\n                }\n            }\n        }\n    }\n\nGame Object:\n\n&#x200B;\n\nhttps://preview.redd.it/6e5upfitm6dc1.png?width=1919&format=png&auto=webp&s=e77ed95d69ea187b28f190eb89015ac130331435\n\nhttps://preview.redd.it/zrfzxalsm6dc1.png?width=1916&format=png&auto=webp&s=22705e063c6654550003328a7edd503a1d162fd9",
+      "url": "https://www.reddit.com/r/Unity2D/comments/199nulc/why_does_this_error_keep_happening/"
+    },
+    {
+      "id": "199nu50",
+      "title": "Why does this error keep happenning?",
+      "author": "AleCar07",
+      "subreddit": "unity",
+      "created_utc": 1705576519,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "NullReferenceException: Object reference not set to an instance of an objectOrganDetector.OnTriggerEnter2D (UnityEngine.Collider2D collision) (at Assets/SurgeryGame/Scripts/OrganDetector.cs:69)\n\nI also debugged with the unity debugger discovered that some colliders just doesnt have a gameobject inside which seems really weird. So I just cant use collision.gameObject for some game object:\n\n&#x200B;\n\nMy code:\n\n    using System.Collections;\n    using System.Collections.Generic;\n    using Unity.VisualScripting;\n    using UnityEngine;\n    \n    public class OrganDetector : MonoBehaviour\n    {\n        [SerializeField] private int organType;\n    \n        private GameObject cut;\n        [SerializeField] private List<GameObject> objectsInTouch;\n        private List<int> bionicOrgansInTouchIDs;\n        private bool hasNeedlePrepared;\n        private bool hasNecessaryBionicOrgan;\n        private bool hasScalpelOnTop;\n        private int needleIsDroppedIn;\n    \n    \n        private void Start()\n        {\n            cut = GameObject.FindGameObjectWithTag(\"Cut\");\n        }\n    \n        private void Update()\n        {\n            if(hasScalpelOnTop)\n            {\n    \n            }else if(hasNeedlePrepared)\n            {\n                if(objectsInTouch.Count == 0)\n                {\n                    Debug.Log(\"You need to replace the organ\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n                if(!hasNecessaryBionicOrgan && bionicOrgansInTouchIDs.Count == 1)\n                {\n                    Debug.Log(\"That is not the right bionic organ to replace with\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n                if (bionicOrgansInTouchIDs.Count > 1)\n                {\n                    Debug.Log(\"You need to place ONLY the right bionic organ\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n                if(objectsInTouch.Count > bionicOrgansInTouchIDs.Count) \n                {\n                    Debug.Log(\"You need to remove the old unhealthy organ\");\n                    LevelManager.instance.updateHealth(-1);\n                }\n    \n                for (int i = 0; i < objectsInTouch.Count; i++)\n                {\n                    Destroy(objectsInTouch[i]);\n                }\n                Destroy(cut);\n                SurgeryGameManager.instance.spawnNewCut();\n                Destroy(this.transform.parent.gameObject.transform.parent.gameObject);\n                SurgeryGameManager.instance.respawnBionicOrgan(organType);\n            } \n            \n        }\n    \n        private void OnTriggerEnter2D(Collider2D collision)\n        {\n            if (collision.gameObject.tag == \"Bionic Organ\")\n            {\n                bionicOrgansInTouchIDs.Add(collision.gameObject.GetComponent<Organ>().organType);\n                if (collision.gameObject.GetComponent<Organ>().organType == organType)\n                {\n                    hasNecessaryBionicOrgan = true;\n                }\n                objectsInTouch.Add(collision.gameObject);\n            }\n            else if (collision.gameObject.tag != \"Player\")\n            {\n                if (collision.gameObject.tag == \"Needle\")\n                {\n                    if (!collision.gameObject.GetComponent<Item>().itemIsHeld)\n                    {\n                        needleIsDroppedIn += 1;\n                    }\n                }\n                else\n                {\n                    if (collision.gameObject.tag == \"Scalpel\")\n                    {\n                        hasScalpelOnTop = true;\n                    }\n                    objectsInTouch.Add(collision.gameObject);\n                }\n            }\n        }\n    \n        private void OnTriggerExit2D(Collider2D collision)\n        {\n            if (collision.gameObject.tag == \"Bionic Organ\")\n            {\n                bionicOrgansInTouchIDs.Add(collision.gameObject.GetComponent<Organ>().organType);\n                if (collision.gameObject.GetComponent<Organ>().organType == organType)\n                {\n                    hasNecessaryBionicOrgan = false;\n                }\n                objectsInTouch.Remove(collision.gameObject);\n            }\n            else if (collision.gameObject.tag != \"Player\")\n            {\n                if (collision.gameObject.tag == \"Needle\")\n                {\n                    if (collision.gameObject.GetComponent<Item>().itemIsHeld && needleIsDroppedIn == 1)\n                    {\n                        needleIsDroppedIn -= 1;\n                    }\n                    hasNeedlePrepared = false;\n                }\n                else\n                {\n                    if (collision.gameObject.tag == \"Scalpel\")\n                    {\n                        hasScalpelOnTop = false;\n                    }\n                    objectsInTouch.Remove(collision.gameObject);\n                }\n            }\n        }\n    \n        private void OnTriggerStay2D(Collider2D collision)\n        {\n            if(collision.gameObject.tag == \"Needle\")\n            {\n                if (collision.gameObject.GetComponent<Item>().itemIsHeld)\n                {\n                    hasNeedlePrepared = true;\n                }\n            }\n        }\n    }\n\nGame Object:\n\n&#x200B;\n\nhttps://preview.redd.it/b3r3fmwhm6dc1.png?width=1919&format=png&auto=webp&s=5d22d3b526850f16242006975dae5a44b40d42b9\n\n&#x200B;\n\nhttps://preview.redd.it/fuo6v6tmm6dc1.png?width=1916&format=png&auto=webp&s=f3a02dee583956d3cdd004abb812a171186cdc77",
+      "url": "https://www.reddit.com/r/unity/comments/199nu50/why_does_this_error_keep_happenning/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m34nr00",
+      "body": "Thank you very much, this solution worked! But can you explain me why, is it because the client network transform only sync changes with the host if the changes are made on the client which owns it?",
+      "author": "AleCar07",
+      "subreddit": "Unity2D",
+      "created_utc": 1734785225,
+      "score": 1,
+      "link_id": "t3_1hj28tq",
+      "parent_id": "t1_m33hdll"
+    },
+    {
+      "id": "m34m4yb",
+      "body": "It is already spawned on the scene",
+      "author": "AleCar07",
+      "subreddit": "Unity2D",
+      "created_utc": 1734784377,
+      "score": 1,
+      "link_id": "t3_1hj28tq",
+      "parent_id": "t1_m33gelf"
+    },
+    {
+      "id": "m1sjmrt",
+      "body": "for me its is hawkeye, for some reason every time i see him the guy has no aim",
+      "author": "AleCar07",
+      "subreddit": "marvelrivals",
+      "created_utc": 1734054841,
+      "score": 1,
+      "link_id": "t3_1hd1h2j",
+      "parent_id": "t3_1hd1h2j"
+    },
+    {
+      "id": "m0qccjq",
+      "body": "Tu errou mano ta escrito \"caralho\" olha direito",
+      "author": "AleCar07",
+      "subreddit": "OrdemParanormalRPG",
+      "created_utc": 1733503955,
+      "score": 1,
+      "link_id": "t3_1h6fpmr",
+      "parent_id": "t3_1h6fpmr"
+    },
+    {
+      "id": "lrvbd30",
+      "body": "That is fair like I said before your firat point I had already realised on my on, i think i will probably start training writing kanji after i get fluent, but the second one i didnt really give much attention I will thanks for giving me some awareness",
+      "author": "AleCar07",
+      "subreddit": "LearnJapanese",
+      "created_utc": 1728910900,
+      "score": 1,
+      "link_id": "t3_1g34r3u",
+      "parent_id": "t1_lrtxqp9"
+    },
+    {
+      "id": "lrt8rpv",
+      "body": "I created post which i think might be useful to people but i do not ave enough sub reddit karm just here to ask for the mods if they approve of the post: \n\nthis is the link:\n\n[https://www.reddit.com/r/LearnJapanese/comments/1g34r3u/why\\_you\\_might\\_benefit\\_from\\_not\\_studying\\_kanji/](https://www.reddit.com/r/LearnJapanese/comments/1g34r3u/why_you_might_benefit_from_not_studying_kanji/)",
+      "author": "AleCar07",
+      "subreddit": "LearnJapanese",
+      "created_utc": 1728869047,
+      "score": 1,
+      "link_id": "t3_1g33dhk",
+      "parent_id": "t3_1g33dhk"
+    },
+    {
+      "id": "lrnjsbn",
+      "body": "Thank you! This comment answers my question",
+      "author": "AleCar07",
+      "subreddit": "askphilosophy",
+      "created_utc": 1728781995,
+      "score": 2,
+      "link_id": "t3_1g26mji",
+      "parent_id": "t1_lrnjbt0"
+    },
+    {
+      "id": "lp275by",
+      "body": "Bro, to be honest that is shit bro really bro if you cant memorise 15000 words in a day your crap bro fr broi learned 20000 words by doing immersion in sleep anki is crap bro. Bro like just what feinmann lectures in japanese you nerds can even learn language tgat a baby can bro cmon",
+      "author": "AleCar07",
+      "subreddit": "LearnJapanese",
+      "created_utc": 1727375400,
+      "score": -9,
+      "link_id": "t3_1fpthuv",
+      "parent_id": "t3_1fpthuv"
+    },
+    {
+      "id": "lfutu29",
+      "body": "thanks!",
+      "author": "AleCar07",
+      "subreddit": "MechanicalKeyboards",
+      "created_utc": 1722451861,
+      "score": 1,
+      "link_id": "t3_1efmw26",
+      "parent_id": "t1_lfrkxfs"
+    },
+    {
+      "id": "lfpz9xx",
+      "body": "https://preview.redd.it/70ikb3yfcqfd1.jpeg?width=4624&format=pjpg&auto=webp&s=514650b6b27b68e0557eb6429c7710b7792a620c\n\nAnyone know the name of this switch? Its a liner btw",
+      "author": "AleCar07",
+      "subreddit": "MechanicalKeyboards",
+      "created_utc": 1722377448,
+      "score": 1,
+      "link_id": "t3_1efmw26",
+      "parent_id": "t3_1efmw26"
+    },
+    {
+      "id": "laq4u08",
+      "body": "Bro, im sorry but reality is not that one that you are in where the only people who do AI SL are dyslexic, and its not like im bad, Im currently with a 7 in physics HL, chem HL, and AA HL, in my school around a 1/4 of the year group does AI SL",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1719602850,
+      "score": 1,
+      "link_id": "t3_1dqqglk",
+      "parent_id": "t1_laq3r6p"
+    },
+    {
+      "id": "laq3bgl",
+      "body": "I meant AI SL in my post, maybe that changes your reply i dont know, HL is fine",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1719602322,
+      "score": 1,
+      "link_id": "t3_1dqqglk",
+      "parent_id": "t1_laq2uvj"
+    },
+    {
+      "id": "laq27q5",
+      "body": "You probably should do Math AI HL, AI is too easy, many universities doesnt recognize it and you should do chem HL and bio HL, I advise you to take Bio instead of Physics",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1719601937,
+      "score": 1,
+      "link_id": "t3_1dqqglk",
+      "parent_id": "t3_1dqqglk"
+    },
+    {
+      "id": "l8mc21a",
+      "body": "Cant you take ecom, bm and one science? The IB allows that you can you your group 6 to repeat one humanities",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1718390796,
+      "score": 1,
+      "link_id": "t3_1dfpz6q",
+      "parent_id": "t1_l8m0inc"
+    },
+    {
+      "id": "l6doq4c",
+      "body": "Honestly, just did a practice and realised that I was worse than i thought i was, so the extra time might be helpful",
+      "author": "AleCar07",
+      "subreddit": "Sat",
+      "created_utc": 1717102842,
+      "score": 1,
+      "link_id": "t3_1d4aap4",
+      "parent_id": "t1_l6dnf6j"
+    },
+    {
+      "id": "l42pug1",
+      "body": "I know, ita fucking impossoble mate",
+      "author": "AleCar07",
+      "subreddit": "mit",
+      "created_utc": 1715727528,
+      "score": 2,
+      "link_id": "t3_1crz8o7",
+      "parent_id": "t1_l421pm7"
+    },
+    {
+      "id": "l2qngzr",
+      "body": "Thank you for the large honest response😄",
+      "author": "AleCar07",
+      "subreddit": "TUDelft",
+      "created_utc": 1714942859,
+      "score": 2,
+      "link_id": "t3_1cku5s4",
+      "parent_id": "t1_l2q9j1w"
+    },
+    {
+      "id": "kzjlurs",
+      "body": "I know, im just saying if you were doing well before like he/she seems to it probably wont change much in the IB",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1713108745,
+      "score": 1,
+      "link_id": "t3_1c3fc8s",
+      "parent_id": "t1_kzhy1o7"
+    },
+    {
+      "id": "kzgtk41",
+      "body": "I would change AI to AA if possible as I believe most top schools, at least in the uk require it for finance",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1713055415,
+      "score": 1,
+      "link_id": "t3_1c3a4u8",
+      "parent_id": "t3_1c3a4u8"
+    },
+    {
+      "id": "kzgt3wp",
+      "body": "Im doing most of the \"hard\" subjects and if you are good you will probably do well",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1713055226,
+      "score": 3,
+      "link_id": "t3_1c3fc8s",
+      "parent_id": "t3_1c3fc8s"
+    },
+    {
+      "id": "kyjeehn",
+      "body": "Yeah, I believe it is fine l, maths AA HL and PHysics HL are def more important although  arts is recommended, I would look at the requirements  of your top choices",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1712530559,
+      "score": 1,
+      "link_id": "t3_1bya3bd",
+      "parent_id": "t3_1bya3bd"
+    },
+    {
+      "id": "ky1dkgx",
+      "body": "Bardur are cooking",
+      "author": "AleCar07",
+      "subreddit": "Polytopia",
+      "created_utc": 1712249936,
+      "score": 11,
+      "link_id": "t3_1bvr2jj",
+      "parent_id": "t3_1bvr2jj"
+    },
+    {
+      "id": "kxhfex0",
+      "body": "No it doesnt, as this is not a legendary chests, thanks for trying though",
+      "author": "AleCar07",
+      "subreddit": "GodofWar",
+      "created_utc": 1711935328,
+      "score": 1,
+      "link_id": "t3_1bskvn4",
+      "parent_id": "t1_kxguad0"
+    },
+    {
+      "id": "kx5do06",
+      "body": "I did that, but with the incendium block",
+      "author": "AleCar07",
+      "subreddit": "HogwartsLegacyGaming",
+      "created_utc": 1711738781,
+      "score": 1,
+      "link_id": "t3_1bqvd9v",
+      "parent_id": "t1_kx53dyn"
+    },
+    {
+      "id": "kwsj2pu",
+      "body": "Didnt even know about these. I might get them soon",
+      "author": "AleCar07",
+      "subreddit": "celestegame",
+      "created_utc": 1711544773,
+      "score": 2,
+      "link_id": "t3_1bowgh4",
+      "parent_id": "t1_kwryjwu"
+    },
+    {
+      "id": "kvyebj5",
+      "body": "Its only what they think you'll get, its nice to have a basis",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1711058089,
+      "score": 1,
+      "link_id": "t3_1bkhfwa",
+      "parent_id": "t1_kvye1kh"
+    },
+    {
+      "id": "kvye1kh",
+      "body": "If you are november class its quite important as you will apply with your predicted. If you are may not a lot, what truly matters is your actual grade",
+      "author": "AleCar07",
+      "subreddit": "IBO",
+      "created_utc": 1711057992,
+      "score": 1,
+      "link_id": "t3_1bkhfwa",
+      "parent_id": "t3_1bkhfwa"
+    },
+    {
+      "id": "kiww861",
+      "body": "A guy answered in the r/unity2D, it was because i didnt initialise the lists in case anyone is having the same problem",
+      "author": "AleCar07",
+      "subreddit": "unity",
+      "created_utc": 1705858258,
+      "score": 1,
+      "link_id": "t3_199nu50",
+      "parent_id": "t3_199nu50"
+    },
+    {
+      "id": "kif756a",
+      "body": "Thank you very much men I was stuck at that for so long",
+      "author": "AleCar07",
+      "subreddit": "Unity2D",
+      "created_utc": 1705577711,
+      "score": 3,
+      "link_id": "t3_199nulc",
+      "parent_id": "t1_kif6a4n"
+    }
+  ]
+}

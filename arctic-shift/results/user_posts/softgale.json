@@ -1,0 +1,2188 @@
+{
+  "username": "softgale",
+  "posts": [
+    {
+      "id": "1at8m0j",
+      "title": "ich🍕1️⃣iel",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1708194453,
+      "score": 9,
+      "num_comments": 13,
+      "selftext": "",
+      "url": "https://i.redd.it/c3mg8ii4v6jc1.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4lfvtx",
+      "body": "Ohh, thank you for that reply! That's what I was asking about in my other comment and somehow I forgot that basic fact haha",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735597028,
+      "score": 3,
+      "link_id": "t3_1hpx1pm",
+      "parent_id": "t1_m4lfc9n"
+    },
+    {
+      "id": "m4lcz4j",
+      "body": "I know about the TSP in the following way: Given a finite simple graph with a weight function on the edges, find a cycle with min. weight (sum of weights over the used edges). Is this not the usual phrasing? Just checking wikipedia, it's stated similarly there.\n\nIndeed, Wikipedia lists the Euclidian problem as a \"special case\", and it says \"Like the general TSP, the exact Euclidean TSP is NP-hard\". So what's actually going on is that OP only aims to solve the Euclidian TSP and, if I understand you correctly, you assume if someone says \"the TSP\" they mean \"the Euclidian TSP\"?\n\nI personally don't have proof for the NP-completeness of the general TSP, but this was only about NP-hardness anyway? I think I'm not sure what your comment is getting at, please clarify if possible :)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735596099,
+      "score": 11,
+      "link_id": "t3_1hpx1pm",
+      "parent_id": "t1_m4l9efj"
+    },
+    {
+      "id": "m4l7mp6",
+      "body": "I cannot find your proof about the n\\^7 runtime. Where is it? \n\n  \nAnd regarding 2. and 3. ... are you really solving the TSP then? If I give you the graph of four nodes, each having a distance of one to each other node, can you even model this with your program? Of course, the solution is trivial in my example, it's just about the distances that cannot be modeled properly in R\\^2. Or is there a proof that cases like this can be transformed into equivalent problems in Euclidian R\\^2?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735594463,
+      "score": 7,
+      "link_id": "t3_1hpx1pm",
+      "parent_id": "t1_m4l3dzj"
+    },
+    {
+      "id": "m4l2lg3",
+      "body": "questions from someone who doesn't know a lot about this: Why is your algorithm in P? If I understood your code correctly, it only works for \"realistic\" euclidian distances? What if there are points where the distances to other points cannot be visualised in a plane?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735592913,
+      "score": 19,
+      "link_id": "t3_1hpx1pm",
+      "parent_id": "t3_1hpx1pm"
+    },
+    {
+      "id": "m4jy5wt",
+      "body": "Unfassbar",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1735580570,
+      "score": 65,
+      "link_id": "t3_1hprgdv",
+      "parent_id": "t3_1hprgdv"
+    },
+    {
+      "id": "m4e9hzt",
+      "body": "In the beginning of the document, it should be explained that they're only interested in \\*contact\\* hours which do not count self-study time but that's no problem. The contact hours don't need to add up to anything related to the ECTS-points.",
+      "author": "softgale",
+      "subreddit": "ethz",
+      "created_utc": 1735498964,
+      "score": 2,
+      "link_id": "t3_1hp0w5v",
+      "parent_id": "t3_1hp0w5v"
+    },
+    {
+      "id": "m4dcbhs",
+      "body": "Vermutlich wurden in der dazugehörigen Vorlesung einige Beweise vorgeführt. Untersuche, warum welche Gründe für welche Folgerungen angeführt werden. Was ist das allgemeine Ziel? Welche Schritte braucht man, um es zu erreichen? Wie kann man die Schritte gehen? Häufig hilft es, \"rückwärts\" an die Sache heranzugehen. Das kann man dann für eigene Aufgaben übernehmen. Was ist zu zeigen? Welche Voraussetzungen darf man annehmen? Welche Struktur wird durch die Voraussetzungen vorgegeben (dafür sollte man die Definitionen und Resultate aus der Vorlesung beherrschen)? Wie kann man die Struktur einsetzen, um sich dem Beweisziel zu nähern? Wenn man nicht weiterkommt, kann man sich auch mal von hinten schauend etwas wünschen und dann schauen, wie man beweisen kann, dass der Wunsch sogar wahr ist.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1735488685,
+      "score": 2,
+      "link_id": "t3_1hnkr6l",
+      "parent_id": "t3_1hnkr6l"
+    },
+    {
+      "id": "m4d8m5v",
+      "body": "\"Die meisten\" aus welcher Grundmenge?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1735487448,
+      "score": 1,
+      "link_id": "t3_1ho473m",
+      "parent_id": "t1_m46oerx"
+    },
+    {
+      "id": "m3v9bh9",
+      "body": "Imagine tilting one of the two circles in the image more and more, then the distance between the circles will approach zero. At some point, the two circles will intersect.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735217200,
+      "score": 3,
+      "link_id": "t3_1hm3cxo",
+      "parent_id": "t1_m3ugn3i"
+    },
+    {
+      "id": "m3v1ngl",
+      "body": "And now one last comment. It seems that for your first question, you just kinda put your approach out there and then immediately switch to the next question. That's quite unsatisfactory. I would be surprised if this was arxiv-worthy and I also don't think it would get accepted by a journal. But to be honest, don't try to aim so high if you're in 10th grade :) just learn more maths as the prof advised you to. ",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735212497,
+      "score": 4,
+      "link_id": "t3_1hm3exf",
+      "parent_id": "t1_m3v0pjs"
+    },
+    {
+      "id": "m3v0pjs",
+      "body": "And actually looking at the maths: maybe I'm understanding your definition wrong, but right now definition one and two don't really do what I think you want them to do. You say k is fixed and you also fix it as an index, but in the actual definition of the set, it's any rational number \"at the same time\". To fix this, you'd need to pull out the \"where k in Q\" out of the set into the text. Or maybe write \"For rational k, we define D_k as ..\" or something. This notational error right at the beginning can lead to quick dismissal.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735211870,
+      "score": 3,
+      "link_id": "t3_1hm3exf",
+      "parent_id": "t1_m3v07s0"
+    },
+    {
+      "id": "m3v07s0",
+      "body": "There are quite a lot of comma mistakes and irregular use of English I'd say. These aren't a mathematical deal breaker but they're quite noticable",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735211530,
+      "score": 1,
+      "link_id": "t3_1hm3exf",
+      "parent_id": "t3_1hm3exf"
+    },
+    {
+      "id": "m3rcao2",
+      "body": "Ohh wonderful :D",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735148441,
+      "score": 3,
+      "link_id": "t3_1hm3cxo",
+      "parent_id": "t1_m3r7tmv"
+    },
+    {
+      "id": "m3r7pp5",
+      "body": "Isn't it a cursive pi, in latex varpi, and not \"omega pi\"?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735146670,
+      "score": 48,
+      "link_id": "t3_1hm3cxo",
+      "parent_id": "t1_m3r3ubo"
+    },
+    {
+      "id": "m3njn0z",
+      "body": "Heuristics?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1735076842,
+      "score": 1,
+      "link_id": "t3_1hln3yn",
+      "parent_id": "t3_1hln3yn"
+    },
+    {
+      "id": "m39v77p",
+      "body": "I think it just means some center point, not the middle axis. But maybe it just means going through some point which is inside the cone (so not counting planes that don't intersect the cone at all)? I'm not sure haha",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1734869818,
+      "score": 1,
+      "link_id": "t3_1hjsbp9",
+      "parent_id": "t1_m390guh"
+    },
+    {
+      "id": "m37mogw",
+      "body": "Ich lese es so, dass das in den genannten Bundesländern möglich sein sollte. Häufig steht zu den genauen Voraussetzungen genaueres auf den Uniwebseiten. Nur dem Text nach sollte es gehen :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734825242,
+      "score": 9,
+      "link_id": "t3_1hjm71n",
+      "parent_id": "t1_m37m6am"
+    },
+    {
+      "id": "m37lwu3",
+      "body": "Dem Text nach hast du mit der Ausbildung zusammen die Fachhochschulreife (vorletzter Satz) und für \"entsprechende Studiengänge\" in einigen Bundesländern die Hochschulreife. Die Bezeichnung \"fachgebundene Hochschulreife\" kam mir noch nicht unter, aber vielleicht meint das ja genau das letztere? Wofür genau fragst du denn?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734824930,
+      "score": 40,
+      "link_id": "t3_1hjm71n",
+      "parent_id": "t3_1hjm71n"
+    },
+    {
+      "id": "m34rcqh",
+      "body": "yay, that's great to hear :D",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1734787001,
+      "score": 2,
+      "link_id": "t3_1hdgqhp",
+      "parent_id": "t1_m25ikfg"
+    },
+    {
+      "id": "m303x8p",
+      "body": "Blinzelst du am Rechner oft genug? Durch den Blick in eine Richtung passiert es mir schnell, dass ich seltener blinzle, dann werden die Augen schneller müde. ",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734712647,
+      "score": 2,
+      "link_id": "t3_1hinhto",
+      "parent_id": "t3_1hinhto"
+    },
+    {
+      "id": "m3035xq",
+      "body": "Mir gefällt der Humor",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734712396,
+      "score": 16,
+      "link_id": "t3_1himyh3",
+      "parent_id": "t1_m301kuw"
+    },
+    {
+      "id": "m2mf4p0",
+      "body": "Ich habe in den allgemeinen bildungswissenschaftlichen VLs gelernt, wie man allgemein Unterricht planen kann, welche allgemeinen Ziele man dabei verfolgen sollte und welche Prinzipien und Vorstellungen man im Schulalltag braucht. Grundlagen wie \"mit welchem Zweck bewertet man Leistungen\" oder welche Lerntheorien es gibt, die ja schließlich die Unterrichtsplanung beeinflussen.   \n  \nIn den fachdidaktischen Kursen haben wir uns mit den Lehrplänen auseinandergesetzt, welche Inhalte in welchen Klassenstufen unterrichtet werden und warum die Lehrpläne so aufgebaut sind wie sie sind. Wir haben typische Fehler besprochen, wie man sie erkennen kann, aus welchen Fehlerquellen sie kommen können, wie man gegen sie vorgehen kann.   \n  \nIn verschiedenen Übungen haben wir Unterricht geplant, teilweise auch kleine Probestundene miteinander gehalten. Wir haben Unterrichtspläne von Lehrpersonen darauf untersucht, welche Schwierigkeiten entstehen könnten. Wir haben Kurse dazu, wie man mit Klassen umgehen kann, in denen viele Kinder sind, die Deutsch nicht als Erstsprache gelernt haben. Wir lernen Methoden und Modelle zur Differenzierung kennen.   \n  \nNatürlich kann man das aus dem Hörsaal heraus nicht direkt erleben. Aber diese Vorbereitung hilft schon sehr dabei, dass man bei der Unterrichtsplanung und auch im Unterricht selbst mehr Struktur findet. Ich habe das auch in meinem Praktikum bemerkt, zu dem Zeitpunkt hatte ich in einem Fach schon fachdidaktische Kurse und im anderen noch nicht. Für das erste Fach konnte ich die Stunden mit Sicherheit planen, gut aufbauen, gut halten. Im anderen hat die Vorbereitung für eine Schulstunde 12 Stunden (ahhh) gedauert, weil ich mich in so viel reinlesen musste/wollte, um mein Handeln im Unterricht auch begründen zu können. Wenn man seine Entscheidungen für den Unterricht nicht erklären kann, deutet das oft darauf hin, dass man die Ziele nicht genau kennt, nicht weiß, wie das Thema im Kontext vergangener Schuljahre steht, dass man die Kinder/Jugendlichen schnell verwirrt durch schlechten Aufbau... Da war ich sehr froh darüber, einiges theoretisches Wissen bereits zu haben und den Rest habe ich mir dann mühevoll in der Bib draufgeschafft (das war aber eben nur daher nötig, weil ich in dem Fach noch keine Kurse dazu hatte. Zwei Semester später hatte ich dann auch in einer VL das, was ich mir selbst angelesen hatte).\n\nTL;DR: Man lernt die theoretischen Grundlagen zur Unterrichtsplanung und kann sein unterrichtliches Handeln halbwegs wissenschaftlich fundiert begründen, sodass man besser strukturiert planen kann und auch weiß, worauf man im Unterricht überhaupt hinarbeitet.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734503563,
+      "score": 1,
+      "link_id": "t3_1hg7nbj",
+      "parent_id": "t1_m2mdagh"
+    },
+    {
+      "id": "m2md4gf",
+      "body": "Mir fällt auf, dass Aussagen dieser Art in meinem Umfeld besonders von Leuten getroffen werden, die die Didaktikvorlesungen nicht sehr interessiert verfolgen. Wenn man aufpasst, kann man aus dem Studium schon viel mitnehmen. Klar, es ist viel theoretisches Wissen, aber das macht die praktische Arbeit wesentlich einfacher.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734502420,
+      "score": 2,
+      "link_id": "t3_1hg7nbj",
+      "parent_id": "t1_m2idc7i"
+    },
+    {
+      "id": "m23itrr",
+      "body": "I learnt how to compute p-adic expansions of zeros of polynomials using Hensel's lemma :D",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1734223039,
+      "score": 2,
+      "link_id": "t3_1hdgqhp",
+      "parent_id": "t3_1hdgqhp"
+    },
+    {
+      "id": "m1s9yrg",
+      "body": "haha wow, that is indeed a low. The problem becomes much harder if you add redundant requirements!",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1734051302,
+      "score": 5,
+      "link_id": "t3_1hcc2cs",
+      "parent_id": "t1_m1ox0a1"
+    },
+    {
+      "id": "m1prffi",
+      "body": "Ist der Artikel nicht hier   \n[https://www.researchgate.net/publication/227627898\\_The\\_Course\\_and\\_Nature\\_of\\_Stalking\\_A\\_Victim\\_Perspective](https://www.researchgate.net/publication/227627898_The_Course_and_Nature_of_Stalking_A_Victim_Perspective)   \nvollständig und ohne Beschränkungen zugänglich?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1734022000,
+      "score": 1,
+      "link_id": "t3_1hco1cp",
+      "parent_id": "t3_1hco1cp"
+    },
+    {
+      "id": "m16hdoo",
+      "body": "Zustimmung, aber für mich war das ein schnelles Wegscrollen wert",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1733744355,
+      "score": 3,
+      "link_id": "t3_1ha79ai",
+      "parent_id": "t1_m16fxap"
+    },
+    {
+      "id": "m16fvc8",
+      "body": "Das ist NSFW",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1733743437,
+      "score": 13,
+      "link_id": "t3_1ha79ai",
+      "parent_id": "t3_1ha79ai"
+    },
+    {
+      "id": "m13a4mx",
+      "body": "Wrong sub. Maybe ask in r/learnmath",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1733692030,
+      "score": 1,
+      "link_id": "t3_1h9sg9x",
+      "parent_id": "t3_1h9sg9x"
+    },
+    {
+      "id": "m0r6ose",
+      "body": "thanks for the link, it led me down an interesting rabbithole \\^\\^",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1733513475,
+      "score": 1,
+      "link_id": "t3_1h822sd",
+      "parent_id": "t1_m0pxt73"
+    },
+    {
+      "id": "m0fh86t",
+      "body": "Viele Masterprogramme in Cambridge gehen \"nur\" 9 Monate / zwei Semester. Ist dort normal, weil es sich an das dortige vierjährige \"Grundstudium\" anschließt und nicht an sich negativ. Also muss niemand gemein sein und irgendetwas sagen ;) Hoch angesehen ist das nämlich trotzdem.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1733345518,
+      "score": 8,
+      "link_id": "t3_1h6ndlv",
+      "parent_id": "t1_m0fbbij"
+    },
+    {
+      "id": "m0co262",
+      "body": "Gefällt mir, gerne weiter prokrastin",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1733310552,
+      "score": 50,
+      "link_id": "t3_1h6diy1",
+      "parent_id": "t3_1h6diy1"
+    },
+    {
+      "id": "m091m6u",
+      "body": "Oh, i took that quote to mean that it's unpleasant that not more people are exposed to the topic",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1733255461,
+      "score": 4,
+      "link_id": "t3_1h5nzgm",
+      "parent_id": "t1_m07rxuh"
+    },
+    {
+      "id": "m08rqoo",
+      "body": "Ein Versuch schadet nicht, aber mittlerweile ist ja schon die Hälfte des Semester vorüber. Wie planst du das alles aufzuholen?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1733252418,
+      "score": 2,
+      "link_id": "t3_1h5uwj8",
+      "parent_id": "t3_1h5uwj8"
+    },
+    {
+      "id": "lzjy7uj",
+      "body": "FDP-Papier",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1732885432,
+      "score": 2,
+      "link_id": "t3_1h2hli5",
+      "parent_id": "t1_lzjwoic"
+    },
+    {
+      "id": "lzj3uvy",
+      "body": "Such mal nach FDP-D-Day-Papier",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1732866236,
+      "score": 1,
+      "link_id": "t3_1h2g5ks",
+      "parent_id": "t1_lzj35rv"
+    },
+    {
+      "id": "lzaixj7",
+      "body": "When counting, you usually count \\*something\\*. Seeing one thing correlates to calling it the first, seeing another corresponds to seeing a second thing. Usually, you do not count zero of something.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1732736549,
+      "score": 3,
+      "link_id": "t3_1h191z0",
+      "parent_id": "t1_lzaad5x"
+    },
+    {
+      "id": "lzaihrz",
+      "body": "What do you mean by changing \"the length of a line\"? If you make your end points movable, any line that's constructed by connecting those end points should move and change with them",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1732736412,
+      "score": 2,
+      "link_id": "t3_1h191z0",
+      "parent_id": "t1_lzagz6s"
+    },
+    {
+      "id": "lz5ffsz",
+      "body": "Im Master kann man (vlt mit etwas Nachstudieren) fachlich in Englisch oder Geschichte weitermachen",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732660359,
+      "score": 4,
+      "link_id": "t3_1h0od0p",
+      "parent_id": "t3_1h0od0p"
+    },
+    {
+      "id": "lz5fa7l",
+      "body": "Nein, es gibt den Abschluss Bachelor of Education. Das hängt unter anderem davon ab, wie die Uni das Lehramt einordnet. Manche behandeln Lehramt wie ein weiteres Studienfach neben den zwei Bachelorfächern, die die Unterrichtsfächer werden sollen, andere behandeln Lehramt wie das große Oberfach, worunter dann die zwei Unterrichtsfächer angesiedelt sind",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732660306,
+      "score": 5,
+      "link_id": "t3_1h0od0p",
+      "parent_id": "t1_lz5dxhw"
+    },
+    {
+      "id": "lz281x1",
+      "body": "Ich habe es bisher kein einziges Mal verwendet und bin da recht glücklich drüber.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732621959,
+      "score": 10,
+      "link_id": "t3_1h09ya9",
+      "parent_id": "t3_1h09ya9"
+    },
+    {
+      "id": "lywb3ct",
+      "body": "Im Allgemeinen ist das ein möglicher Einwand, aber mindestens hier im konkreten Fall nicht.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732538314,
+      "score": 3,
+      "link_id": "t3_1gz6ipt",
+      "parent_id": "t1_lyw1oha"
+    },
+    {
+      "id": "lyvd6wi",
+      "body": "Ja, da fehlt dann für die nur dort Studierenden schon einfach was :/",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732517554,
+      "score": 9,
+      "link_id": "t3_1gz6ipt",
+      "parent_id": "t1_lyvcvnp"
+    },
+    {
+      "id": "lyvbu7b",
+      "body": "Eine Kommilitonin hat in ihrem Auslandssemester, als sie im Bachelor war, Kurse aus dem dortigen Master gehört, damit sie hier anerkennbar sind. Und sie fand selbst die eigentlich \"höheren\" Kurse (im Sinne des erwarteten Semesters) im Vergleich mit ihren Kursen hier einfacher",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732516781,
+      "score": 65,
+      "link_id": "t3_1gz6ipt",
+      "parent_id": "t3_1gz6ipt"
+    },
+    {
+      "id": "lysilq6",
+      "body": "Nicht jedes Studienfach hat so viel Präsenzzeit \\^\\^",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732478571,
+      "score": 1,
+      "link_id": "t3_1gy4wmo",
+      "parent_id": "t1_lypj245"
+    },
+    {
+      "id": "lymzay6",
+      "body": "Ja, viele Leute machen mehr als 25h/Woche für die Uni",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732396255,
+      "score": 2,
+      "link_id": "t3_1gy4wmo",
+      "parent_id": "t1_lym481k"
+    },
+    {
+      "id": "lybo4ra",
+      "body": "Aiaiai D: Wenn tatsächlich die Luft schlecht ist, wäre das ein Fall für eine Arbeitsschutz-Überprüfung. Bei uns hat jeder Raum entweder eine automatische Lüftung oder Fenster und anders würde ich auch wirklich meckern",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732229477,
+      "score": 4,
+      "link_id": "t3_1gwot8g",
+      "parent_id": "t1_lybby10"
+    },
+    {
+      "id": "lyayim3",
+      "body": "Sind eure Hörsäle/Seminarräume gut gelüftet? Wenn regelmäßig das Fenster geöffnet wird (in den Räumen ohne Lüftungssysteme) merke ich schon, dass ich mich wesentlich besser konzentrieren kann, als wenn das vergessen wird.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732221405,
+      "score": 8,
+      "link_id": "t3_1gwot8g",
+      "parent_id": "t3_1gwot8g"
+    },
+    {
+      "id": "lya328q",
+      "body": "Die erste Frage ist fehlerhaft",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732211929,
+      "score": 6,
+      "link_id": "t3_1gwkowo",
+      "parent_id": "t3_1gwkowo"
+    },
+    {
+      "id": "ly7z01j",
+      "body": "Du schreibst zwar, dass du ventest, aber bevor man Floskeln wie \"wohlstandsverwöhnte Miesepetergesellschaft\" schreibt, kann man ja vielleicht trotzdem nochmal innehalten. Deine vielen Übertreibungen reihen sich direkt ein in die Menge der Schwarzmalereien, die du kritisierst :)\n\nIch mag mein Mathematikstudium. Man muss offensichtlich nicht \"autistisch\" sein, weder im Internet-Übertreibungssinne noch im tatsächlichen.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732175943,
+      "score": 15,
+      "link_id": "t3_1gwb1jm",
+      "parent_id": "t3_1gwb1jm"
+    },
+    {
+      "id": "ly5204j",
+      "body": "I'm not sure how the title relates to your examples since your proposals for \"more formal\" definitions are just the usual definitions?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1732127991,
+      "score": 24,
+      "link_id": "t3_1gvwk5y",
+      "parent_id": "t3_1gvwk5y"
+    },
+    {
+      "id": "lxzp7ae",
+      "body": "Ist ein Trollpost (siehe viele weitere Posts heute)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732050356,
+      "score": 9,
+      "link_id": "t3_1gv7o81",
+      "parent_id": "t1_lxznpav"
+    },
+    {
+      "id": "lxxsezl",
+      "body": "Original: https://www.reddit.com/r/Studium/comments/1guu8y8/falsche\\_note\\_bekommen/\n\n\n\nReaktionen: \n\nhttps://www.reddit.com/r/Studium/comments/1guvxns/wurde\\_die\\_note\\_vertauscht/\n\n\n\nhttps://www.reddit.com/r/Studium/comments/1guyn4i/habe\\_beim\\_korrigieren\\_meinem\\_kumpel\\_die\\_bessere/\n\n\n\nhttps://www.reddit.com/r/Studium/comments/1guyxzn/soll\\_ich\\_das\\_ansprechen/",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732029727,
+      "score": 10,
+      "link_id": "t3_1guyn4i",
+      "parent_id": "t3_1guyn4i"
+    },
+    {
+      "id": "lxxsal3",
+      "body": "Wer verwirrt ist: Original: https://www.reddit.com/r/Studium/comments/1guu8y8/falsche\\_note\\_bekommen/\n\n\n\nReaktionen: \n\nhttps://www.reddit.com/r/Studium/comments/1guvxns/wurde\\_die\\_note\\_vertauscht/\n\n\n\nhttps://www.reddit.com/r/Studium/comments/1guyn4i/habe\\_beim\\_korrigieren\\_meinem\\_kumpel\\_die\\_bessere/\n\n\n\nhttps://www.reddit.com/r/Studium/comments/1guyxzn/soll\\_ich\\_das\\_ansprechen/",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732029687,
+      "score": 7,
+      "link_id": "t3_1guyxzn",
+      "parent_id": "t3_1guyxzn"
+    },
+    {
+      "id": "lxxrhnr",
+      "body": "Das ist ein Crossover-Post mit Bezug auf andere Beiträge in diesem Sub",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732029431,
+      "score": 6,
+      "link_id": "t3_1guyxzn",
+      "parent_id": "t1_lxxqgiu"
+    },
+    {
+      "id": "lxwc3g1",
+      "body": "An einigen Unis ist es möglich, für den Master fehlende Leistungen während des Masters nachzuholen. Das kannst du mal nachfragen/nachlesen :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1732004616,
+      "score": 8,
+      "link_id": "t3_1guse7u",
+      "parent_id": "t3_1guse7u"
+    },
+    {
+      "id": "lxl28ja",
+      "body": "Wolltest du das vielleicht auf semideb812 antworten? :D Ich stimm dir da zu",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1731847149,
+      "score": 8,
+      "link_id": "t3_1gtae93",
+      "parent_id": "t1_lxl1l1q"
+    },
+    {
+      "id": "lxkuf4l",
+      "body": "Nein, das ist nicht Sinn der Sache \"Universität\".",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1731842559,
+      "score": 24,
+      "link_id": "t3_1gtae93",
+      "parent_id": "t1_lxktnll"
+    },
+    {
+      "id": "lxfr336",
+      "body": "Bei uns gibt es pro Kurs eine unbenotete Leistung, wo man z. B. genügend Hausaufgabenpunkte sammeln oder eine Probeklausur bestehen muss, und dann die tatsächliche benotete Prüfung. Für beides muss man sich anmelden. Vielleicht ist es bei dir ähnlich?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1731767958,
+      "score": 3,
+      "link_id": "t3_1gsnffm",
+      "parent_id": "t3_1gsnffm"
+    },
+    {
+      "id": "lwbnwvb",
+      "body": "Nein, das macht nicht jede\\*r so",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1731193014,
+      "score": 0,
+      "link_id": "t3_1gnlqkc",
+      "parent_id": "t1_lwbm9u3"
+    },
+    {
+      "id": "lwatu6w",
+      "body": "maybe your posts are deleted for a reason",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1731182988,
+      "score": 4,
+      "link_id": "t3_1gnhgxc",
+      "parent_id": "t1_lwaqr31"
+    },
+    {
+      "id": "lvzog1o",
+      "body": "Thanks! You're right, that drawing (page 9) represents Spec Z with the Zariski topology. I have seen a similar drawing just two weeks ago, so I am certainly not a master myself, but I can tell you what I was told when this drawing was drawn for me. The 0 is drawn \"thick\" because the zero ideal is dense in Spec Z: its closure (w.r.t. Zariski) is Spec Z. My professor called it a \"thick point\". All other ideals, however, are rather isolated. You can figure out their closures yourself? :) \n\n\n\nIt was also mentioned that the ordering of the non-zero prime ideals within the drawing is rather arbitrary. They are commonly ordered by size because that's convenient to write and to look at, but there's no topological reason behind it. Topology-wise, (2) and (3) are not closer to each other than (3) and (5) or (3) and (17). In my professor's (although translated) words, all the ideals generated by prime numbers are twisted and swirled around the zero ideal. That, to me, tells me that he visualizes Spec Z differently than the linear drawing by Reid, but their ideas behind it are probably similar. \n\n\n\nI have not been able to make complete sense of these words myself, but maybe they can help you or someone else comes to our rescue.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1731023743,
+      "score": 9,
+      "link_id": "t3_1gm4163",
+      "parent_id": "t1_lvzjm2z"
+    },
+    {
+      "id": "lvziapt",
+      "body": "Can you tell me what page you're referring to?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1731021701,
+      "score": 6,
+      "link_id": "t3_1gm4163",
+      "parent_id": "t3_1gm4163"
+    },
+    {
+      "id": "lvhkbqm",
+      "body": "Häufig sind einige Punkte freier wählbar, sodass man zB sein Hauptfach kleiner oder das Nebenfach/2.Fach größer machen kann. Oder es gibt noch Studium Generale, also Kurse, die keinem der beiden größeren Fächer entsprechen. Um die Frage genau zu beantworten, steht die Antwort ausführlich in der Prüfungsordnung. Die sollte über die Website zu finden sein. Prüfungsordnungen sind nicht ganz einfach zu lesen, sie sind etwas ähnlich wie Gesetze geschrieben, aber wenn du da nach Aufbau / Inhalten des Studiums suchst, steht bestimmt, wie genau sich die Punkte zusammensetzen :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1730790691,
+      "score": 3,
+      "link_id": "t3_1gk11lr",
+      "parent_id": "t3_1gk11lr"
+    },
+    {
+      "id": "lv2qd0x",
+      "body": "Es gab in den vorlesungsfreien Zeiten zB die Pflicht, bei der Ernte oder anders zivil mitzuwirken. Die Unterbringung war geschlechtergetrennt und es wurde von oben nicht gern gesehen, wenn die Studentinnen zu häufig auf Parties mit Männern waren. So wurde es mir zumindest erzählt :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1730580420,
+      "score": 67,
+      "link_id": "t3_1gi5sh2",
+      "parent_id": "t3_1gi5sh2"
+    },
+    {
+      "id": "lv2g77h",
+      "body": "Die Punkte kalkulieren bereits viel Zeit außerhalb der eigentlichen Vorlesung ein",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1730577099,
+      "score": 2,
+      "link_id": "t3_1gi40t6",
+      "parent_id": "t1_lv2ecdp"
+    },
+    {
+      "id": "lv2fci9",
+      "body": "Vlt meinte die Person nur, dass Mathe dann nicht verpflichtend war",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1730576819,
+      "score": 4,
+      "link_id": "t3_1gi4hx0",
+      "parent_id": "t1_lv2f35i"
+    },
+    {
+      "id": "lv1507j",
+      "body": "If you read the comment, you'd know why. It's explaining why a new math competition can't start with a good reputation immediately",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1730562035,
+      "score": 36,
+      "link_id": "t3_1ghuc3s",
+      "parent_id": "t1_lv0vbj7"
+    },
+    {
+      "id": "luzyhcx",
+      "body": "Thanks!",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1730544078,
+      "score": 7,
+      "link_id": "t3_1ghnk7h",
+      "parent_id": "t1_luzpogc"
+    },
+    {
+      "id": "luzybpq",
+      "body": "yes",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1730543979,
+      "score": 6,
+      "link_id": "t3_1ghnk7h",
+      "parent_id": "t1_luzug3f"
+    },
+    {
+      "id": "luwizxk",
+      "body": "Im Vergleich mit d) ist in b) vermutlich ein Kopierfehler durch Duplikation von a) passiert. Meine Vermutung ist, die zweite Summe in b) sollte als Startindex k=1 haben. Frag da am besten Mal nach. \n\nAnsonsten erkläre ich mal c), die anderen kannst du dir dann herleiten. Wir sehen da zwei Produkte und noch einen Faktor, die wir gerne einfacher darstellen wollen. Bestenfalls so, dass alles mit nur einem großen Produkt darstellbar ist. Wir haben im ersten großen Produkt die a_i mit i aus 1 bis 8. Links haben wir das a_9. Und im rechten Produkt sind alle a_i mit i von 10 bis 20. Also haben wir insgesamt alle a_i mit i aus 1 bis 20. \n\nDie können wir durch ein Produkt darstellen: nämlich das mit Index von k=1 bis 20 über a_k. \n\nSchau also immer, welche Indizes vorkommen und mit welcher Summe/welchem Produkt mit welchen Indizes man das einfacher darstellen kann :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1730488072,
+      "score": 1,
+      "link_id": "t3_1ghcrmu",
+      "parent_id": "t3_1ghcrmu"
+    },
+    {
+      "id": "lush4uf",
+      "body": "Hmm, yeah, so the context usually helps distinguish them. In a \"big union\" (bigcup in latex) over an index set, the union must come left to the Us and it will have something written under it. When uniting two sets, I use a small union symbol (cup in latex) which is way smaller than the Us. The Us usually have indices (whichever point they're a neighborhood of or a number), the union symbol does not. And I just noticed the even bigger sign: I don't write my Us like they appear in the reddit font. Mine have an additional stroke down at the end, so they have a little tail unlike the union. If all that doesn't help (imo their relative position alone is enough to distinguish them oftentimes), my unions are wider than my Us, width meaning the horizontal spread here. I hope that gives you a few ideas 😂",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1730424005,
+      "score": 13,
+      "link_id": "t3_1ggtvi4",
+      "parent_id": "t1_lusfn13"
+    },
+    {
+      "id": "lusfmi7",
+      "body": "Danke für die Verwendung von \"Fresszettel\" :D Auch wenn das Internet das meiner Recherche nach anders definiert, stelle ich mir hier die Zettel mit Abreiß-Schnipseln mit Kontaktinformationen o. ä. vor und die Kombination aus Wort und Vorstellung macht mich sehr glücklich! \n\nInhaltlich volle Zustimmung zu deinem Kommentar ^^",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1730423446,
+      "score": 2,
+      "link_id": "t3_1ggldrd",
+      "parent_id": "t1_lurjak9"
+    },
+    {
+      "id": "lusen2p",
+      "body": "I've never used the two together in a situation where it wasn't immediately clear which one I mean. Can you give an example? ",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1730423085,
+      "score": 15,
+      "link_id": "t3_1ggtvi4",
+      "parent_id": "t3_1ggtvi4"
+    },
+    {
+      "id": "luibln8",
+      "body": "You didn't miss anything, the falsity is proven",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1730290182,
+      "score": 37,
+      "link_id": "t3_1gfj2qp",
+      "parent_id": "t1_luib4sn"
+    },
+    {
+      "id": "ltx6fqd",
+      "body": "you should usually get an email before that happens",
+      "author": "softgale",
+      "subreddit": "LifeProTips",
+      "created_utc": 1729981627,
+      "score": 12,
+      "link_id": "t3_1gcuxvf",
+      "parent_id": "t1_ltx68b8"
+    },
+    {
+      "id": "ltx108k",
+      "body": "Why would an email account not work?",
+      "author": "softgale",
+      "subreddit": "LifeProTips",
+      "created_utc": 1729979653,
+      "score": 33,
+      "link_id": "t3_1gcuxvf",
+      "parent_id": "t1_ltx0ln4"
+    },
+    {
+      "id": "lryg8ua",
+      "body": "Wie kommst du denn auf solche Ideen? Die meisten Leute, die ich kenne und die häufiger mehr Punkte als geplant sammeln, sind einfach sehr gut in ihrem Fach, brennen dafür und investieren viel Zeit da rein. Schade, dass du das so verallgemeinerst :/",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1728948286,
+      "score": 64,
+      "link_id": "t3_1g3qe87",
+      "parent_id": "t1_lry91rw"
+    },
+    {
+      "id": "lrghtug",
+      "body": "Thirty-three miniatures by Matoušek, and Galois' dream by Kuga come to mind. The latter, I read almost like a novel (because I knew most of the content beforehand), whereas the former takes quite a lot of time to get through fully. But it's just so very beautiful and filled with wonderful language that i couldn't not mention it :)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1728674352,
+      "score": 1,
+      "link_id": "t3_1g1cxke",
+      "parent_id": "t3_1g1cxke"
+    },
+    {
+      "id": "lqwvm3m",
+      "body": "Wenn man im Kontakt mit den neuesten Erkenntnissen bleiben will, empfiehlt sich Paper lesen schon. Das ist aber erst zu Ende des Studiums nötig. Während des Studiums liest man Lehrbücher, wenn man will, muss man aber nicht. Es gibt keine Lesepflichten wie in einigen Geisteswissenschaften, aber ganz ohne Lesen wird's vermutlich in den meisten Studiengängen schwierig.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1728378442,
+      "score": 8,
+      "link_id": "t3_1fyuftj",
+      "parent_id": "t1_lqws9uq"
+    },
+    {
+      "id": "lqwvi4a",
+      "body": "Erst einmal eine Liste mit Wörtern führen, deren Definition ich noch nicht kenne :')",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1728378361,
+      "score": 14,
+      "link_id": "t3_1fyuftj",
+      "parent_id": "t1_lqwrcxi"
+    },
+    {
+      "id": "lqwq3go",
+      "body": "Das hängt sehr stark vom Inhalt ab, eine Seite Mathelehrbuch dauert gerne eine halbe Stunde, eine A5-Roman-Seite eher eine Minute",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1728374448,
+      "score": 44,
+      "link_id": "t3_1fyuftj",
+      "parent_id": "t3_1fyuftj"
+    },
+    {
+      "id": "lqn4ir5",
+      "body": "In meiner PO steht explizit, dass man nach dem erstmaligen unumkehrbaren Anmelden zu einer Prüfung kein Recht auf Anerkennung einer Leistung für den passenden Kurs mehr hat.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1728234199,
+      "score": 2,
+      "link_id": "t3_1fxgok6",
+      "parent_id": "t3_1fxgok6"
+    },
+    {
+      "id": "lqlvta2",
+      "body": "Fragdenstaat hat relativ viele :)",
+      "author": "softgale",
+      "subreddit": "abitur",
+      "created_utc": 1728218403,
+      "score": 1,
+      "link_id": "t3_1fv5kie",
+      "parent_id": "t3_1fv5kie"
+    },
+    {
+      "id": "lqlfqcw",
+      "body": "no, that can't be it. The paper clearly is bulked up in the middle here, as that's less transparent. You can see the different layers. Yours has the bulk on the outside part of the star",
+      "author": "softgale",
+      "subreddit": "origami",
+      "created_utc": 1728209128,
+      "score": 1,
+      "link_id": "t3_1fx02no",
+      "parent_id": "t1_lqjfggb"
+    },
+    {
+      "id": "lqin6fc",
+      "body": "That's a different thing. The star in the video has paper bulk on the outside, whereas this is bulky in the star itself (judging by the transparency levels)",
+      "author": "softgale",
+      "subreddit": "origami",
+      "created_utc": 1728162506,
+      "score": 1,
+      "link_id": "t3_1fx02no",
+      "parent_id": "t1_lqime18"
+    },
+    {
+      "id": "lqhrueq",
+      "body": "Kein Logistikstudium, aber hast du vielleicht schon einmal über Verwaltungsinformatik o.ä. nachgedacht? Oder Informatik an einer (Fach)Hochschule? Da wird man für Mathematik (und auch sonst) besser an die Hand genommen, arbeitet in eher kleineren Gruppen",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1728152380,
+      "score": 1,
+      "link_id": "t3_1fwwe4a",
+      "parent_id": "t3_1fwwe4a"
+    },
+    {
+      "id": "lqg1d28",
+      "body": "In a university I know, they have a little show box with one inside. I'm not sure how their technique could have been used historically, but they wrote code that takes the movement of the spirograph and calculates the area of the shape followed by it. So you take a printout of a graph, and if you want to calculate int_a^b f(x) dx, start at the point (a,0), go straight to (a,f(a)), follow the graph to (b,f(b)), go back to (b,0), close the curve by following the x-axis to (a,0). I don't know how their code works and especially not how that would work without coding, but that's what I saw :)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1728130821,
+      "score": 1,
+      "link_id": "t3_1fwnkvv",
+      "parent_id": "t3_1fwnkvv"
+    },
+    {
+      "id": "lq6aofr",
+      "body": "Wow! Would you create instructions for it? :D",
+      "author": "softgale",
+      "subreddit": "origami",
+      "created_utc": 1727979084,
+      "score": 16,
+      "link_id": "t3_1fvbmgs",
+      "parent_id": "t3_1fvbmgs"
+    },
+    {
+      "id": "lq4m46f",
+      "body": "Es kann gut sein, dass es für dich persönlich tatsächlich nicht relevant ist :) Die Fachsemesterzahl ist zum Beispiel auch für Stipendien wichtig oder für gewisse Verpflichtungen, x viele Punkte bis zum y-ten Fachsemester zu sammeln. Manchmal gibt es auch Regeln für Prüfungswiederholungen, die in kleinen Fachsemesterzahlen anders als bei großen sind. Das ist studiengangs-, uni- und manchmal (wie bei Stipendien) personenabhängig. Manchmal gibt es auch kleine Preise o.ä., für die man nur berechtigt ist, wenn man in Regelstudienzeit bleibt, und auch Unis bekommen etwas andere Finanzierung, wenn mehr Leute in Regelstudienzeit studieren.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727959286,
+      "score": 1,
+      "link_id": "t3_1fv6e6i",
+      "parent_id": "t3_1fv6e6i"
+    },
+    {
+      "id": "lq1n0v7",
+      "body": "Update zum Update: Seite heute geht es (2.10.). Allerdings muss man dafür sehr merkwürdigen Nutzungsbedingungen in einer privaten (!!) App zustimmen. Uff uff.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727905902,
+      "score": 1,
+      "link_id": "t3_1fspkvm",
+      "parent_id": "t1_lps5l13"
+    },
+    {
+      "id": "lptlo0f",
+      "body": "Semesterticketdownload hat funktioniert, der echte Studierendenausweis existiert allerdings noch nicht. Es gibt immerhin ein Ersatzdokument zum selbst Ausdrucken, aber der eigentliche Ausweis fehlt (wie erwartet haha)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727795104,
+      "score": 2,
+      "link_id": "t3_1fspkvm",
+      "parent_id": "t1_lps5l13"
+    },
+    {
+      "id": "lpmw034",
+      "body": "Das Semesterticket kann man sich nun erst mit Beginn des Semesters holen, vermutlich wird daher diese Woche auch vermehrt kontrolliert :) Die letzten Semester konnte man sich das Ticket meist ca. einen Monat vor Beginn organisieren, das war wesentlich entspannter. Dann also morgen um acht...\n\n  \nAußerdem fehlt uns auch noch ein Studierendenausweis, der wird jetzt #digital und gaaaanz sicher bis zum 1.10. freigeschaltet. Das werden wir dann morgen sehen.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727696550,
+      "score": 25,
+      "link_id": "t3_1fspkvm",
+      "parent_id": "t3_1fspkvm"
+    },
+    {
+      "id": "lpk7wun",
+      "body": "Wenn OP das selbst programmiert und trainiert und dann lokal laufen lässt, sollte es im privaten Gebrauch in Ordnung sein ;) Aber dieses Ereignis hat wohl eine vernachlässigbar geringe Wahrscheinlichkeit hah",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727647611,
+      "score": 1,
+      "link_id": "t3_1fs9skn",
+      "parent_id": "t1_lpjqh62"
+    },
+    {
+      "id": "lpjkrtg",
+      "body": "Bedenke zusätzlich, dass Klausuren häufig in den \"Semesterferien\" (in der vorlesungsfreien Zeit) geschrieben werden und du meistens kein Mitspracherecht hast, wann die Prüfung ist.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727640021,
+      "score": 5,
+      "link_id": "t3_1fsbhwi",
+      "parent_id": "t3_1fsbhwi"
+    },
+    {
+      "id": "lpjfugp",
+      "body": "Ich glaube mit \"zukünftige Semester\" meinte OP nur inhaltlich im Plan, nicht tatsächlich für Kurse in einem halben Jahr",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727638525,
+      "score": 6,
+      "link_id": "t3_1fs8gg2",
+      "parent_id": "t1_lpiiszb"
+    },
+    {
+      "id": "lpj4t2n",
+      "body": "Das könnte urheberrechtlich problematisch sein, aber dein Moralsystem ist ja eh schon etwas angegriffen",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727635073,
+      "score": 2,
+      "link_id": "t3_1fs9skn",
+      "parent_id": "t3_1fs9skn"
+    },
+    {
+      "id": "lp7t8tk",
+      "body": "Vorlesungen fangen je nach Bundesland auch schon früher an, zB 7.10. in NRW, und es gibt tatsächlich Unis, deren Einschreibungsfrist nach dem 1.10 ist. Also ist es nicht \"natürlich\", auch wenn man sich am besten vorher die Fristen merken und eintragen sollte.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727458656,
+      "score": 1,
+      "link_id": "t3_1fqc1fa",
+      "parent_id": "t1_lp5grow"
+    },
+    {
+      "id": "lp2cbox",
+      "body": "Auf der Bescheinigung steht zumindest an meiner Uni auch die Version drauf (ein kleines \"v2\" zB). Gibt's das bei dir vielleicht auch? Wenn du magst, kannst du mir die Studienordnung einmal per PN schicken. Häufig gibt's da ja so eine Paragrafenschnitzeljagd. ",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727377023,
+      "score": 1,
+      "link_id": "t3_1fq3alq",
+      "parent_id": "t1_lp2a44y"
+    },
+    {
+      "id": "lp28aay",
+      "body": "Auf deiner Immatrikulationsurkunde o.ä. sollte irgendwo stehen, in welcher Prüfungsordnung genau du studierst. Das könnte dir schon einmal die Frage beantworten, in welcher du momentan studierst",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727375758,
+      "score": 1,
+      "link_id": "t3_1fq3alq",
+      "parent_id": "t3_1fq3alq"
+    },
+    {
+      "id": "lp1jnr5",
+      "body": "oh, ich bitte um Entschuldigung. Ich hatte die Nutzernamen nicht wirklich angeschaut und dachte, du wärst Nikidaa. Aber auch zu dir: ich finde solche allgemeinen \"nie wieder\" Aussagen unpassend. Ja, Leute können meinetwegen gerne länger studieren, aber daraus folgt doch nicht, dass es für jeden besser wäre, wie Nikidaa impliziert hat, und auch nicht, dass man \"nie wieder\" so viel Zeit für Interessen hat wie im Studium. Lebenspläne sind doch so vielfältig.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727368129,
+      "score": 1,
+      "link_id": "t3_1fpolt0",
+      "parent_id": "t1_lp1f4ff"
+    },
+    {
+      "id": "lp0xwv5",
+      "body": "Vorlesungen anderer Fächer habe ich besucht, Sprachkurse gemacht, mich außerhalb meines Studiums engagiert. Auslandssemester möchte ich nicht. Ich bin schneller als der Regelstudienplan. Deine anfängliche Aussage war, wer in Regelstudienzeit studiert, studiert \"nicht richtig\". Aber das Studium kann so verschieden sein für verschiedene Leute, die einen langsamer, die anderen schneller, die einen komplett auf ein Gebiet spezialisiert, die anderen breit gefächert, die einen mit großen Feiern und Reisen, die anderen ausschließlich in einer verschlafenen Kleinstadt. Alles davon sind gute Wege, zu studieren, wenn man es mag. Ich finde es traurig, wenn dann gewisse Studienentscheidungen so pauschal abgestempelt werden.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727361322,
+      "score": 0,
+      "link_id": "t3_1fpolt0",
+      "parent_id": "t1_lp0vx5z"
+    },
+    {
+      "id": "lozt5w4",
+      "body": "Die pauschale Aussage finde ich schade. Ich fühle anders als du. Nicht für jeden bedeutet der Regelstudienplan psychischen Druck und Lebenseinschränkung...",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727343124,
+      "score": 1,
+      "link_id": "t3_1fpolt0",
+      "parent_id": "t1_lozm5yn"
+    },
+    {
+      "id": "lowigmv",
+      "body": "Nicht ganz, aber [einer](https://de.wikipedia.org/wiki/Peter_Scholze) war sehr flink",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1727291874,
+      "score": 1,
+      "link_id": "t3_1fp1mw0",
+      "parent_id": "t1_lov5rwo"
+    },
+    {
+      "id": "loi8dzy",
+      "body": "There is a game of four-dimensional golf, I'm not sure whether that's close enough to what you're thinking of. Tibees made a video on it",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1727088838,
+      "score": 4,
+      "link_id": "t3_1fng7wg",
+      "parent_id": "t3_1fng7wg"
+    },
+    {
+      "id": "log30e3",
+      "body": "Und ich dachte kurz, es geht um einen menschlichen Assistenten :D",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1727048349,
+      "score": 36,
+      "link_id": "t3_1fn02pm",
+      "parent_id": "t3_1fn02pm"
+    },
+    {
+      "id": "lo6snnh",
+      "body": "Dieser Post ist ein Witz mit Bezug darauf... Wondraks Notizbuch ist größtenteils leer (um eigene Notizen reinzuschreiben)",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1726915019,
+      "score": 19,
+      "link_id": "t3_1fllisx",
+      "parent_id": "t1_lo6qrnn"
+    },
+    {
+      "id": "lnkbn55",
+      "body": "Häufig geht das nicht, wenn die Summe der Punkte aus Bachelor + Master aus verschiedenen Veranstaltungen unter 300 fällt. Also bei 180 P Bachelor (und keine Zusatzleistungen gemacht) + 120 P Master darf jede Veranstaltung nur einmal reinzählen, hast du aber 9P Zusatzleistungen gemacht, also 189 P Bachelor, kann man die eher in den Master reinzählen lassen. So etwas kann sich aber von PO zu PO unterscheiden, daher ist deren Lektüre oder eine Mail an Studiengangsverantwortliche o.ä. empfehlenswert.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1726578052,
+      "score": 1,
+      "link_id": "t3_1fisg5t",
+      "parent_id": "t1_lnjvvfa"
+    },
+    {
+      "id": "lnkazph",
+      "body": "Meist regelt die PO oder etwas Vergleichbares, ob man automatisch neu angemeldet wird. An meiner Uni muss man sich fast überall selbst erneut anmelden außer bei einem Studiengang. Häufig genug gibt es hier im Subreddit aber Geschichten, dass Leute unvorhergesehen automatisch erneut angemeldet wurden. Daher gibt es hier keine pauschale Antwort.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1726577797,
+      "score": 0,
+      "link_id": "t3_1fisg5t",
+      "parent_id": "t1_lnjv7q0"
+    },
+    {
+      "id": "lnkao5b",
+      "body": "Eine Faustregel ist, je schneller und besser du dein Studium beenden möchtest, desto häufiger. Ausnahmen sind gegeben durch besonders schlecht gehaltene Vorlesungen. Welche das sind, erfährst du aber auch erst durch Hingehen und Anhören für zwei Wochen.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1726577669,
+      "score": 1,
+      "link_id": "t3_1fisg5t",
+      "parent_id": "t1_lnk1e1x"
+    },
+    {
+      "id": "lnk9mh0",
+      "body": "Auf einer 80er Straße muss man nicht damit rechnen, die Spur für 130km/h fahrende Fahrzeuge freizuhalten (welche bei so einer Geschwindigkeitsdifferenz und der möglichen Spurenverläufe von 80km/h-Straßen sehr wohl gefühlt plötzlich auftauchen können). Die Polizei wurde nicht gefährdet.",
+      "author": "softgale",
+      "subreddit": "blaulicht",
+      "created_utc": 1726577252,
+      "score": 2,
+      "link_id": "t3_1fhmkmy",
+      "parent_id": "t1_lnk3j1p"
+    },
+    {
+      "id": "lnglefp",
+      "body": "Zur Erklärung der Downvotes: der nachfolgende Verkehr wurde hier nicht gefährdet.",
+      "author": "softgale",
+      "subreddit": "blaulicht",
+      "created_utc": 1726516607,
+      "score": 5,
+      "link_id": "t3_1fhmkmy",
+      "parent_id": "t1_lnf90ii"
+    },
+    {
+      "id": "lnbrq9a",
+      "body": "X = (X\\_1, ..., X\\_n)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1726441473,
+      "score": 1,
+      "link_id": "t3_1fhnxes",
+      "parent_id": "t3_1fhnxes"
+    },
+    {
+      "id": "lna488s",
+      "body": "Ich denke nicht, dass es ein Nachteil wäre",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1726422324,
+      "score": 3,
+      "link_id": "t3_1fhgjp7",
+      "parent_id": "t3_1fhgjp7"
+    },
+    {
+      "id": "ln4ygl6",
+      "body": "den Hebel direkt über dem Bild so rotieren wie auf dem Bild gezeigt wird vermutlich den Türriegel öffnen",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1726344560,
+      "score": 12,
+      "link_id": "t3_1fgtybw",
+      "parent_id": "t1_ln4v4al"
+    },
+    {
+      "id": "lmhgqb5",
+      "body": "An einer Stelle steht \"Schulde\" statt \"Schule\"",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1725995815,
+      "score": 2,
+      "link_id": "t3_1fdht9s",
+      "parent_id": "t3_1fdht9s"
+    },
+    {
+      "id": "lmh28kn",
+      "body": "Really such a wonderful space!",
+      "author": "softgale",
+      "subreddit": "femalelivingspace",
+      "created_utc": 1725991219,
+      "score": 6,
+      "link_id": "t3_1fdo5jo",
+      "parent_id": "t3_1fdo5jo"
+    },
+    {
+      "id": "lmd75le",
+      "body": "Hä?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1725928932,
+      "score": 1,
+      "link_id": "t3_1fcp3dd",
+      "parent_id": "t3_1fcp3dd"
+    },
+    {
+      "id": "llhrgu1",
+      "body": "Es sind eben verschiedene Grenzen für verschiedene Lebenslagen",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1725469078,
+      "score": 6,
+      "link_id": "t3_1f8t4wx",
+      "parent_id": "t1_llhk6hx"
+    },
+    {
+      "id": "ll7z2vv",
+      "body": "There's no way to give general advice for your personal situation. Also please post it in a relevant community",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1725318294,
+      "score": 0,
+      "link_id": "t3_1f7fshx",
+      "parent_id": "t1_ll7qo1e"
+    },
+    {
+      "id": "ll7qc94",
+      "body": "First of all, wrong sub, second of all, this is too little info",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1725315025,
+      "score": 2,
+      "link_id": "t3_1f7fshx",
+      "parent_id": "t3_1f7fshx"
+    },
+    {
+      "id": "lkxb4te",
+      "body": "Ich habe 1,5 Monate vor Wunscheinzugstermin mit dem gezielten Suchen online angefangen, war dann für ein Wochenende für Besichtigung vor Ort (ca. 1 Monat vor Ziel). Zusage kam weniger als eine Woche später, dann war also alles schon im Voraus geplant und ich konnte entspannt einziehen bevor alles losging.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1725155089,
+      "score": 1,
+      "link_id": "t3_1f5phr7",
+      "parent_id": "t3_1f5phr7"
+    },
+    {
+      "id": "lkt8ebv",
+      "body": "Als ich Unis verglich, hatte ich dieses Gefühl nicht. Sobald man sich wirklich auf Unis beschränkt, und dabei also technische Universitäten und Fachhochschulen ausschließt, ist der Mathebachelor sehr häufig auf reine Mathematik fokussiert, zumindest meiner Erfahrung nach. ",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1725099544,
+      "score": 1,
+      "link_id": "t3_1f5j7vj",
+      "parent_id": "t3_1f5j7vj"
+    },
+    {
+      "id": "lk05l8n",
+      "body": "All good :)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1724675794,
+      "score": 3,
+      "link_id": "t3_1f1m21e",
+      "parent_id": "t1_lk05h2l"
+    },
+    {
+      "id": "lk04rom",
+      "body": ">in base ten you also get two ways to write each number\n\nOnly for numbers that terminate in one representation. There's only one way to write down pi in base ten, for instance.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1724675434,
+      "score": 4,
+      "link_id": "t3_1f1m21e",
+      "parent_id": "t1_lk03xfz"
+    },
+    {
+      "id": "lisui95",
+      "body": "Manchmal sind bei Blättern, besonders wenn es viele Aufgaben eines Typs sind, ein paar Fehler dabei. Wenn die Ersteller draufstehen mit E-Mail-Adresse, freuen die sich häufig über freundliche Anmerkungen dazu :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1724027492,
+      "score": 1,
+      "link_id": "t3_1evngb1",
+      "parent_id": "t1_listiuq"
+    },
+    {
+      "id": "listiuq",
+      "body": "Steht in den Erklärungen, dass \"einige x sind y\" bedeutet, dass ganz sicher ein solches x existiert, \"alle x sind y\" hingegen aber nicht bedeutet, dass es ein x gibt? Meistens ist das bei diesen Rätseln so, ich frage nur zur Sicherheit nach. Wenn dem so ist, ist die Lösung falsch. Denn aus einige DR sind DZ können wir dann folgern, dass es ein Objekt A gibt, dass DR und DZ ist. Wäre A nun auch noch D, so wäre das mit dem ersten Satz ein Widerspruch. A kann also nicht D sein, also ist die Antwortoption D) wahr. \n\nDie einzige Erklärung hier wäre, dass aus \"einige...\" nicht die Existenz gefiltert werden dürfte, das wäre aber sehr ungewöhnlich",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1724027113,
+      "score": 0,
+      "link_id": "t3_1evngb1",
+      "parent_id": "t3_1evngb1"
+    },
+    {
+      "id": "lip7kwf",
+      "body": "Ich war Mal bei einer Immatrikulationsfeier in Leipzig, da gab es Blumen für alle Erstis einzeln auf einer Bühne überreicht, Gäste und Erstis waren schön angezogen, man bräuchte Karten im Voraus... Also vorstellbar ist es schon :) ",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1723979161,
+      "score": 28,
+      "link_id": "t3_1ev5b93",
+      "parent_id": "t1_lip5ldl"
+    },
+    {
+      "id": "linjrgm",
+      "body": "Falsche Etiketten kann man melden :D ",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1723945417,
+      "score": 2,
+      "link_id": "t3_1euu34h",
+      "parent_id": "t3_1euu34h"
+    },
+    {
+      "id": "lijmusw",
+      "body": "Sagst du Stundent? Warnung, das ist dieselbe Partizipform! Oh nein!",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1723890323,
+      "score": -6,
+      "link_id": "t3_1eudfub",
+      "parent_id": "t1_lijmlc8"
+    },
+    {
+      "id": "libj39o",
+      "body": "Ich kann jetzt hier nur mutmaßen, aber dass in der Analysis \n\n     Axiomatik der reellen Zahlen\n    ˆ Folgen\n    ˆ Reihen\n    ˆ Grenzwerte\n    ˆ Stetigkeit\n    ˆ Differential- und Integralrechnung\n\nin unter 6 Punkten behandelt werden, deutet für mich darauf hin, dass ihr durch die Themen \"durchgerast\" seid, während die neue Uni sich wünscht, dass man das genauer behandelt hat. Ich kenne einige Studiengänge in der Nähe der Informatik, die nur die von mir zitierten Themen ein Semester lang mit einem Aufwand um die 9 ECTS-Punkte behandeln. \n\nUnd zu Vektorräumen und co. hattet ihr zumindest der Liste nach nichts, auch da wünschen sich eben viele Unis für Informatik-nahe Studiengänge, dass man die mal gesehen hat. \n\nIch kann dir empfehlen, mal nachzufragen, ob es möglich ist, die Kurse während des Studiums nachzuholen. Bei einigen Unis ist das möglich, eben gleichzeitig zum Studium die noch fehlenden Voraussetzungen zu erfüllen. Vielleicht ist das bei deinem internationalen Programm schwieriger? Aber nachfragen (oder in der Prüfungsordnung nachlesen) könnte sich lohnen.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1723763401,
+      "score": 2,
+      "link_id": "t3_1et6v8q",
+      "parent_id": "t1_libglsc"
+    },
+    {
+      "id": "libe4m8",
+      "body": "\"in dem bachelor Curriculum kaum enthalten, da von Abitur Kenntnissen ausgegangen wird\" Jedes Mathematikstudium geht auch von Abiturkenntnissen aus, dennoch hört man im ersten Semester Lineare Algebra und Analysis, da diese Themen nun einmal mehr umfassen als die kleine Menge, die für das Abitur unterrichtet wird.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1723761642,
+      "score": 10,
+      "link_id": "t3_1et6v8q",
+      "parent_id": "t3_1et6v8q"
+    },
+    {
+      "id": "lib1vms",
+      "body": "Wrong sub",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1723757461,
+      "score": 2,
+      "link_id": "t3_1et67eh",
+      "parent_id": "t3_1et67eh"
+    },
+    {
+      "id": "lhzgzce",
+      "body": "Bei uns darf man in der Mensa Flyer auslegen, da gucken viele beim Essen drauf",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1723589508,
+      "score": 2,
+      "link_id": "t3_1er46br",
+      "parent_id": "t3_1er46br"
+    },
+    {
+      "id": "lgkgqku",
+      "body": "Reddit lässt neue Posts äußerlich für eine Weile bei 0, um \"hivemind voten\" zu verhindern",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1722837793,
+      "score": 8,
+      "link_id": "t3_1ejxjpn",
+      "parent_id": "t1_lgkcd8q"
+    },
+    {
+      "id": "lg08dld",
+      "body": "Yes, one can make that additional restriction to the rationals. This is exactly because the rationals are dense in the reals. A few explicit constructions of such a rational number can be found here https://math.stackexchange.com/questions/421580/is-there-a-rational-number-between-any-two-irrationals",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1722533104,
+      "score": 1,
+      "link_id": "t3_1ehi2p5",
+      "parent_id": "t1_lg04vwn"
+    },
+    {
+      "id": "lg04nx0",
+      "body": "(a+b)/2 isn't necessarily rational when a and b are real",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1722531947,
+      "score": 1,
+      "link_id": "t3_1ehi2p5",
+      "parent_id": "t1_lfzjyh8"
+    },
+    {
+      "id": "lf64m8e",
+      "body": "Anki regt doch active recall an?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1722076148,
+      "score": 0,
+      "link_id": "t3_1eczytp",
+      "parent_id": "t1_lf5i3ea"
+    },
+    {
+      "id": "lf0ir0m",
+      "body": "Soll vermutlich nur ein Mathewitz sein",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1721990830,
+      "score": 11,
+      "link_id": "t3_1ecem81",
+      "parent_id": "t1_lf0db76"
+    },
+    {
+      "id": "lep4ny8",
+      "body": "Mit dem a ist das auch richtig und gewöhnlich, aber OPs Schreibung weicht ab :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1721823992,
+      "score": 2,
+      "link_id": "t3_1eax3va",
+      "parent_id": "t1_lep3tgv"
+    },
+    {
+      "id": "lep3kaj",
+      "body": "Es geht vermutlich um die bärensüße Schreibung",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1721823517,
+      "score": 5,
+      "link_id": "t3_1eax3va",
+      "parent_id": "t1_lep0xj7"
+    },
+    {
+      "id": "lcffynu",
+      "body": "\"grundsätzlich\" meistens nicht, da es momentan zumindest einen kleinen Kanon an linearer Algebra und Analysis gibt, der in den Grundzügen meist in solchen Kursen vermittelt wird. Aber welche von fünf äquivalenten Definitionen und welche von drei ähnlichen Versionen eines Satzes genau vorkommt, kann sich unterscheiden. Die Grundlagen sind aber häufig ähnlich und selbst wenn du etwas lernst, das nicht genauso an deiner späteren Uni vorkommt, lohnt es sich trotzdem zu lernen, da dann das Lernen anderer ähnlicher Konzepte leichter fällt.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1720566910,
+      "score": 3,
+      "link_id": "t3_1dyw0dc",
+      "parent_id": "t1_lcct5eg"
+    },
+    {
+      "id": "lb659o3",
+      "body": "Huh? A theorem not being provable does not depend on any human limit",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1719860849,
+      "score": 5,
+      "link_id": "t3_1dsxfim",
+      "parent_id": "t1_lb5z8vt"
+    },
+    {
+      "id": "laqgaaz",
+      "body": "Might be because of makeup, wig and contact lenses :)",
+      "author": "softgale",
+      "subreddit": "dune",
+      "created_utc": 1719606840,
+      "score": 1,
+      "link_id": "t3_1d9iqoq",
+      "parent_id": "t1_l7gfye5"
+    },
+    {
+      "id": "lai4ya8",
+      "body": "10 mathematik, 7 philosophie. \n\nInhaltlich ist Philosophie sehr toll, aber wie das Fach momentan in der akademischen Kultur besteht, ist schrecklich. Lauter arrogante Menschen, die weder ihre eigenen Theorien logisch untermauern, noch die der anderen logisch widerlegen können. \n\nMathematik ist einfach herrlich, die meisten Matheleute sind menschlich lieb (bis auf wenige Ausnahmen), die Beweise wasserdicht und die Theorien spannend.\n\nAnders als in der Philosophie, wo einem zumindest an meiner Uni die guten Noten hinterhergeworfen werden, gibt's in Mathe noch einen wirklichen Anspruch an das Können und Wissen der Studierenden und man lernt große, abstrakte Konzepte.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1719485530,
+      "score": 1,
+      "link_id": "t3_1dpa0yu",
+      "parent_id": "t3_1dpa0yu"
+    },
+    {
+      "id": "lacmniw",
+      "body": "Do you mean squares of consecutive whole numbers? Because 16-4 is even",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1719402969,
+      "score": 2,
+      "link_id": "t3_1dobx6y",
+      "parent_id": "t1_la94stb"
+    },
+    {
+      "id": "lacf86r",
+      "body": "möglicherweise meint Cangar die Veröffentlichung des Namens, der steht im Artikel",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1719399092,
+      "score": 5,
+      "link_id": "t3_1doqou1",
+      "parent_id": "t1_lacexbn"
+    },
+    {
+      "id": "la6pm8b",
+      "body": "Wie wäre es als erster Schritt, eigene Karteikarten anzulegen zum Lernen? Damit lernt man auch schon, aber es fühlt sich an als wäre es nur Vorbereitung zum Lernen.\nOder mal das Skript ausdrucken und per Hand kommentieren, mit Fragen, Erklärungen, Zusammenfassungen",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1719311311,
+      "score": 4,
+      "link_id": "t3_1dnzt7z",
+      "parent_id": "t1_la6hd2p"
+    },
+    {
+      "id": "l9vpicr",
+      "body": "Isn't strobing quite bad for people with epilepsy? Why do the lights do that in case of an accident :o",
+      "author": "softgale",
+      "subreddit": "Professors",
+      "created_utc": 1719133798,
+      "score": 1,
+      "link_id": "t3_1dl4ydt",
+      "parent_id": "t1_l9r4qmf"
+    },
+    {
+      "id": "l8wimui",
+      "body": "Da wo ich 4 Vorlesungen die Woche habe, musste ich meist mehr lernen als da, wo ich nur eine hatte 🤔",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1718567378,
+      "score": 1,
+      "link_id": "t3_1dhca25",
+      "parent_id": "t1_l8wg72b"
+    },
+    {
+      "id": "l8wfuxq",
+      "body": "Dann sind Credits aber nicht mehr in ECTS-Punkte umzurechnen, wenn da nicht ähnlicher vermuteter Aufwand hintersteckt",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1718566335,
+      "score": 0,
+      "link_id": "t3_1dhca25",
+      "parent_id": "t1_l8wac5n"
+    },
+    {
+      "id": "l8rm21t",
+      "body": "Dein Kopf",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1718482218,
+      "score": 1,
+      "link_id": "t3_1dgirki",
+      "parent_id": "t3_1dgirki"
+    },
+    {
+      "id": "l7st0sy",
+      "body": "Es geht nicht ums von der Vergangenheit handeln, sondern darum, dass der von dir gepostete Artikel alt war",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1717931384,
+      "score": 1,
+      "link_id": "t3_1dbl1yl",
+      "parent_id": "t1_l7ss8u4"
+    },
+    {
+      "id": "l7cpbut",
+      "body": "Das ist unispezifisch geregelt, vielleicht findet sich dazu etwas auf der Website der betreffenden Fakultät",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1717669980,
+      "score": 1,
+      "link_id": "t3_1d8ntoe",
+      "parent_id": "t3_1d8ntoe"
+    },
+    {
+      "id": "l3l0dfi",
+      "body": "Mathemodule sind häufig mehr als 90 Minuten pro Woche an der Uni. Im ersten Semester Lineare Algebra 1 heißt häufig: 2 Blöcke Vorlesung, 1 Block Zentralübung, 1 Block Präsenzübung. Das sind dann 6 Stunden, und zumindest bei mir war das auf 3 Tage verteilt",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1715440196,
+      "score": 1,
+      "link_id": "t3_1cp1nsk",
+      "parent_id": "t1_l3jzfp5"
+    },
+    {
+      "id": "l2rkudr",
+      "body": "This is how it's taught in Germany, pretty much throughout the country. It's called pq-formula, p and q coming from x^2+px+q.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1714956587,
+      "score": 2,
+      "link_id": "t3_1cl2xfz",
+      "parent_id": "t1_l2r1trd"
+    },
+    {
+      "id": "kzsc3wm",
+      "body": "Better science macht das echt gut",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1713242474,
+      "score": 1,
+      "link_id": "t3_1c4fu5o",
+      "parent_id": "t1_kzoks7w"
+    },
+    {
+      "id": "kz9gi7p",
+      "body": "Do you make the design yourself? Depending on the shape, something with non-euclidian geometry might be fun",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1712942620,
+      "score": 1,
+      "link_id": "t3_1c25jc6",
+      "parent_id": "t3_1c25jc6"
+    },
+    {
+      "id": "kyzewp0",
+      "body": "Rechts und links vertauscht?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1712784588,
+      "score": 3,
+      "link_id": "t3_1c0okm1",
+      "parent_id": "t3_1c0okm1"
+    },
+    {
+      "id": "kyra37n",
+      "body": "Why would it be perpendicular and not tangential?",
+      "author": "softgale",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1712664374,
+      "score": 19,
+      "link_id": "t3_1bzm66h",
+      "parent_id": "t1_kyqlzp3"
+    },
+    {
+      "id": "kyduqh6",
+      "body": "No, he proved that any \"sufficiently complex\" system (one you can do arithmetic in) is either not consistent or not complete. Consisteny means no contradictions.",
+      "author": "softgale",
+      "subreddit": "explainlikeimfive",
+      "created_utc": 1712441393,
+      "score": 6,
+      "link_id": "t3_1bxa43d",
+      "parent_id": "t1_kydh29q"
+    },
+    {
+      "id": "kxxwjvk",
+      "body": "The author of that article is also the one doing the podcast :D",
+      "author": "softgale",
+      "subreddit": "Professors",
+      "created_utc": 1712190722,
+      "score": 11,
+      "link_id": "t3_1bv2tkx",
+      "parent_id": "t1_kxxve7w"
+    },
+    {
+      "id": "kxxvwna",
+      "body": "Can't answer for the Funktor, but we usually used a cursive B for some fixed basis",
+      "author": "softgale",
+      "subreddit": "Professors",
+      "created_utc": 1712190481,
+      "score": 1,
+      "link_id": "t3_1buyk7i",
+      "parent_id": "t1_kxxn4pj"
+    },
+    {
+      "id": "kxsb4xw",
+      "body": "\"fully funded PhD\"? What? Lol. What even is this post",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1712106097,
+      "score": 11,
+      "link_id": "t3_1buef8j",
+      "parent_id": "t3_1buef8j"
+    },
+    {
+      "id": "kx8iql2",
+      "body": "To work out even simple examples in algebra, a good basis of multiplying and manipulating numbers in other ways is needed. You need to see in action how division and multiplication work together, how to work out problems backwards and such. Only then, there's meaning in doing algebra",
+      "author": "softgale",
+      "subreddit": "Professors",
+      "created_utc": 1711794963,
+      "score": 14,
+      "link_id": "t3_1bqpf1y",
+      "parent_id": "t1_kx5jray"
+    },
+    {
+      "id": "kx8gebg",
+      "body": "Happy cake day!",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1711793234,
+      "score": 4,
+      "link_id": "t3_1bqxkzr",
+      "parent_id": "t3_1bqxkzr"
+    },
+    {
+      "id": "kvn4bm3",
+      "body": "Hui, spannend!",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1710884448,
+      "score": 3,
+      "link_id": "t3_1bis3o2",
+      "parent_id": "t3_1bis3o2"
+    },
+    {
+      "id": "kvl7f1b",
+      "body": "but they didn't really do their service. The \"results\" were addresses that OP gave them in the beginning!",
+      "author": "softgale",
+      "subreddit": "NoStupidQuestions",
+      "created_utc": 1710861260,
+      "score": 18,
+      "link_id": "t3_1biikvr",
+      "parent_id": "t1_kvl1bsq"
+    },
+    {
+      "id": "kv06bfk",
+      "body": "Skript lesen für Inspiration und passende Sätze, Schreibunterlage ändern (Tafel statt Papier), Pause machen, beim Denken durch die Wohnung gehen, untersuchen, woran genau es hakt",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1710516936,
+      "score": 3,
+      "link_id": "t3_1bf6rmx",
+      "parent_id": "t3_1bf6rmx"
+    },
+    {
+      "id": "kv03c6r",
+      "body": "Procedure -> a function -> it all happens at the same time, I'm done after applying the function. It's completed then",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1710515910,
+      "score": 16,
+      "link_id": "t3_1bfg5qf",
+      "parent_id": "t3_1bfg5qf"
+    },
+    {
+      "id": "kuykgi3",
+      "body": "\"2,5 Wochen nach der Veröffentlichung der Noten im Online-System\"",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1710487554,
+      "score": 1,
+      "link_id": "t3_1bep170",
+      "parent_id": "t1_kuwk5pv"
+    },
+    {
+      "id": "kuimm61",
+      "body": "Eine E-Mail zu schreiben kann nicht schaden :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1710249675,
+      "score": 1,
+      "link_id": "t3_1bcrtja",
+      "parent_id": "t1_kuijo6o"
+    },
+    {
+      "id": "ksg50hx",
+      "body": "Which two symbols would you use where to fix all the problems mentioned? I'd change the demands on p simply to \"p is a limit point of S\" and \"...for all x in (a,b): 0<|x-p|...\" Should be changed to \"... For all x in S: 0<|x-p|\". That would be shorter, and more importantly consistent with the bottom definition",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709073784,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksg1f1n"
+    },
+    {
+      "id": "ksfz50g",
+      "body": "I wasn't asking anything, I was explaining something",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709071800,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfxma5"
+    },
+    {
+      "id": "ksftpos",
+      "body": "Then I agree :) thank you as well :) i think this specification of \"interval\" in the wiki article is the worst bit haha",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709070022,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksft5x3"
+    },
+    {
+      "id": "ksft9wq",
+      "body": "The post is not about continuity and I'm not looking at a function defined on R (I'm assuming that's where you're defining yours) but instead on any S, subset of R, in my case above Q, like the post did",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709069881,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfs6b9"
+    },
+    {
+      "id": "ksfrd06",
+      "body": "How do you define interval?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709069270,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfpi3l"
+    },
+    {
+      "id": "ksfjron",
+      "body": "Yeah.. Thus the limit still does not exist",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709066840,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfjiue"
+    },
+    {
+      "id": "ksfhbhp",
+      "body": "If anyone's interested, i once had a small homework task to figure out when exactly a function f:S->R, with S defined as I just did, is continuous :) half the solution can be found in my comment already",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709066059,
+      "score": 1,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfgawm"
+    },
+    {
+      "id": "ksfgw0h",
+      "body": "Why do we need an entire open ball and not just that p is a limit point?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709065920,
+      "score": 4,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfet9b"
+    },
+    {
+      "id": "ksfgawm",
+      "body": "However, in my eyes, this definition has a flaw. If I let S = {1/n in R | n in N} cup {0}, which is a subset of R, it indeed makes sense to talk about the limit of a function in 0. However, we can not find any open interval as described in the upper definition :/ but we can use the bottom one, because 0 is a limit point. \n\nI prefer the bottom definition.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709065733,
+      "score": 2,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksffroh"
+    },
+    {
+      "id": "ksffroh",
+      "body": "So, the first Wikipedia Definition is this way because the points we want to consider when taking the limit are close to p, but not p itself. So p shall be in (a,b), but we only need those around p and not p itself to be in S. In the one line definition, this is reflected in the 0<|x-p| part (for x=p, we'd have =0).\n\nWe don't use a closed interval, cause then for all p, [p,p]={p} contains p and most definitely [p,p) cup (p,p]={} is a subset of S. Then, applying the definition, we would get that a limit as described always exists, because you would argue about the empty set (for all x in [p,p]: 0<|x-p| would be false, and thus the full statement always true)\n\n :( that would be useless, so the open set ensures we actually look around p and consider the points close to it",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709065562,
+      "score": 3,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t3_1b1lga7"
+    },
+    {
+      "id": "ksferqe",
+      "body": "It would only be f(p) if f is continuous in p",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709065243,
+      "score": 2,
+      "link_id": "t3_1b1lga7",
+      "parent_id": "t1_ksfeeqw"
+    },
+    {
+      "id": "ksf4qij",
+      "body": "Beautiful",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709061991,
+      "score": 3,
+      "link_id": "t3_1b1jubc",
+      "parent_id": "t1_ksf4bcr"
+    },
+    {
+      "id": "ksf1en4",
+      "body": "What is the set of fractions you're talking about?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1709060900,
+      "score": 2,
+      "link_id": "t3_1b1jubc",
+      "parent_id": "t3_1b1jubc"
+    },
+    {
+      "id": "ks4d5eb",
+      "body": "Manchmal wird es in Berichten über die gesamte Universität auch nach Studiengang aufgeschlüsselt",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1708894687,
+      "score": 2,
+      "link_id": "t3_1azjktn",
+      "parent_id": "t3_1azjktn"
+    },
+    {
+      "id": "krlcdci",
+      "body": "Have you seen it somewhere else that a \"countably infinite set\" gets compactified to a circle? It being countable even implies that there isn't much of a line, in my opinion. It doesn't sound advantageous to me, because you cannot give any other number a place on a circle. Where is 1 on it? Where is 400 on it? I don't know, do you? \n\nThe usual circle compactification I've seen is done on \\]-∞, ∞\\[, using the stereographic projection, where we must add the point \"± ∞\". Then, I can tell you exactly where which point is located.\n\nSo what I'm having trouble with is \n\n1) how a countable set (like N?) can be represented as a line (for your other descriptions, I'm rather thinking of connected subsets of R for it to work in my imagination), and \n\n2) locating where exactly on your D circle I would even find the 4 and how apart it is from the 8, could you help with that?",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1708600553,
+      "score": 1,
+      "link_id": "t3_1aus93u",
+      "parent_id": "t1_krhusmm"
+    },
+    {
+      "id": "kr5aja5",
+      "body": "Dann addieren sich die Prozentzahlen nicht zu 100% :(",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1708356234,
+      "score": 1,
+      "link_id": "t3_1aukfzp",
+      "parent_id": "t1_kr55ssv"
+    },
+    {
+      "id": "kr53wnt",
+      "body": "Wie geht das mit 4 / 0.5? Ich würde eher sagen, dass Teilen durch eine Zahl Multiplikation mit dem Inversen dieser Zahl ist, dieses liegt aber nicht unbedingt in dem Intervall",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1708353704,
+      "score": 5,
+      "link_id": "t3_1aulvmn",
+      "parent_id": "t1_kr4scev"
+    },
+    {
+      "id": "kr52rh3",
+      "body": "Wie sind die Prozentzahlen hier zu verstehen? Ist der Graue Balken eigentlich Teil des dunkelroten?",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1708353246,
+      "score": 1,
+      "link_id": "t3_1aukfzp",
+      "parent_id": "t3_1aukfzp"
+    },
+    {
+      "id": "kqwgdlv",
+      "body": "Well, why *should* it be the negative as well? P is neither even nor uneven, so just because 1 is a root, we cannot conclude that -1 is one as well.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1708206367,
+      "score": 1,
+      "link_id": "t3_1atcshl",
+      "parent_id": "t3_1atcshl"
+    },
+    {
+      "id": "kqw9z6n",
+      "body": "Danke :) ich hatte gehofft, die 1️⃣ oben hilft, aber es ist echt nicht klar haha",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1708204199,
+      "score": 7,
+      "link_id": "t3_1at8m0j",
+      "parent_id": "t1_kqw8tmv"
+    },
+    {
+      "id": "kqw1z8r",
+      "body": "Sollte man sich dafür interessieren, wo die 1 hinführt, wird man nicht schlauer :(",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1708201515,
+      "score": 15,
+      "link_id": "t3_1at8m0j",
+      "parent_id": "t1_kqw0om6"
+    },
+    {
+      "id": "kqw1ss6",
+      "body": "Ich meine die Fußnote, die nur auf den gleichen Inhalt wieder verweist",
+      "author": "softgale",
+      "subreddit": "ich_iel",
+      "created_utc": 1708201454,
+      "score": 9,
+      "link_id": "t3_1at8m0j",
+      "parent_id": "t1_kqw1kyf"
+    },
+    {
+      "id": "kqvx35e",
+      "body": "Und noch dazu, wie die Arbeit dann aussieht: meist beginnt die Arbeit mit einer Einführung in das jeweilige Spezialgebiet/Thema, auf dem Niveau, wo ein 5.semester einsteigen könnte. Man erklärt vorkommende Begriffe, und für die Richtung der Frage zentrale bekannte Resultate. Dann motiviert man, warum die Fragestellung von Bedeutung ist, und dann gibt man sein bestes, die Fragestellung zu beantworten. \n\nHäufig wird diese Frage eben schon in dem \"Hauptpaper\" beantwortet, aber jetzt ist es die Aufgabe, den Beweis zu verschönern oder Lücken zu füllen (das ist in meinem Umfeld meist die Hauptarbeit gewesen). Oder man findet tatsächlich ein eigenes Resultat, aber das ist keine Pflicht. Oder es läuft so wie oben kurz erwähnt, dass das zentrale Paper eigentlich falsch ist und die Bachelor-Arbeit zeigt dann, warum, und wie man die Resultate vielleicht mit wenigen Modifikationen doch erreichen kann. Oder man findet einen Weg, gewisse Objekte zu konstruieren, von denen bisher nur die Existenz bekannt war. Und und und. Da gibt's viele Richtungen, die man eben gemeinsam bespricht :)",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1708199879,
+      "score": 3,
+      "link_id": "t3_1ata3uo",
+      "parent_id": "t1_kqvvvqs"
+    },
+    {
+      "id": "kqvvvqs",
+      "body": "In meinem Umfeld wurde man entweder von Profs angesprochen, ob man die Bachelor-Arbeit bei ihnen schreiben will, oder hat per Mail / nach einer Vorlesung gefragt, ob in der Arbeitsgruppe Platz dafür ist. Dann trifft man sich zu einem Gespräch und bespricht mögliche Themen, und schaut, ob das Verhältnis so passt. Dann liest man sich in die Themen ein. Dann trifft man sich wieder, einigt sich auf eine Fragestellung. \n\nZumindest an meiner Uni wird dann die Bearbeitung begonnen, die Arbeit aber nicht angemeldet (so ist es eigentlich nicht geregelt, aber dann ist die Arbeit entspannter. Angemeldet wird dann, wenn klar ist, bis wann man abgegeben haben will).\nBei Fragen oder Hürden meldet man sich bei der Ansprechperson, das ist entweder der*die Professor*in selbst oder ein*e WiMi. Die helfen dann. \n\nInhaltlich läuft es hier so ab, dass es ein zentrales Paper passend zur Fragestellung gibt, was dann genau ausgearbeitet werden muss. Oder man probiert, einen Beweis zu verallgemeinern. Oder man findet Gegenbeispiele zu Papern im Bereich... Das hängt dann ganz vom Ziel und der Fragestellung ab. Zusätzlich zum Hauptpaper sammelt man weitere Quellen nur, wenn sie eben relevant sind. Eine Mathe-BA mit wenig Literatur ist nicht sofort schlecht.\n\nWenn man es noch nicht kann, lernt man LaTeX-Syntax, und schreibt dann die Arbeit nach und nach nieder. Auch hier kann man Tipps von der Betreuung holen. Das gilt eh ganz im Allgemeinen, wenn man sich eine liebe Arbeitsgruppe sucht, kann man gut miteinander reden. \n\nAuch alle deine Fragen können eigentlich am besten von der Person beantwortet werden, bei der du dann die Arbeit schreibst. Da werden auch der Aufbau und die Erwartungen abgeklärt.\nWenn man mathematisch feststeckt, kann man auch hier nach Hilfe fragen, aber Ziel ist natürlich, dass man eben das möglichst alleine schafft.\n\nGrundlegende Informationen findest du auf den Internetseiten deiner Mathefakultät, oder in deiner Prüfungsordnung, oder vielleicht auf der Seite der Fachschaft, oder auf der Seite vom Prüfungsausschuss. \n\nIch würde sagen, Schritt 1 ist die Person ansprechen, bei der du dir vorstellst, die Arbeit schreiben zu können. Alles weitere kann von da gemeinsam geklärt werden.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1708199482,
+      "score": 6,
+      "link_id": "t3_1ata3uo",
+      "parent_id": "t3_1ata3uo"
+    },
+    {
+      "id": "kqvpwxr",
+      "body": "Forecast for the year 2023",
+      "author": "softgale",
+      "subreddit": "Infographics",
+      "created_utc": 1708197556,
+      "score": 1,
+      "link_id": "t3_1at3n8f",
+      "parent_id": "t1_kqvd1dr"
+    },
+    {
+      "id": "kqvcpqi",
+      "body": "With IE, they mean the normal abbreviation i.e., kinda \"in other words\"",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1708193201,
+      "score": 2,
+      "link_id": "t3_1at3bnz",
+      "parent_id": "t1_kquipgr"
+    },
+    {
+      "id": "kqhg19s",
+      "body": "Fachwechsel entzieht einem nicht das BAföG-Geld",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1707967168,
+      "score": 1,
+      "link_id": "t3_1aqx9aw",
+      "parent_id": "t1_kqgk3or"
+    },
+    {
+      "id": "kqf6zvj",
+      "body": "Das ist ja ein Antrag aus der Zukunft!",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1707936526,
+      "score": 1,
+      "link_id": "t3_1aqqnwn",
+      "parent_id": "t3_1aqqnwn"
+    },
+    {
+      "id": "kppq4jr",
+      "body": "Make up your own riddles or find some online :) or pick out a nice maths book, print them out and read them in school",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1707524125,
+      "score": 1,
+      "link_id": "t3_1an2gz0",
+      "parent_id": "t3_1an2gz0"
+    },
+    {
+      "id": "kpppo35",
+      "body": "Für ein Lehrbuch ohne dazugehörige Veranstaltung: Je nach Inhalt und abhängig davon, wie tief man verstehen will, 2-30 Minuten für eine Seite. Wenn es wirklich hapert auch mal ne Stunde, bis man nen Beweis gefüllt hat.\nEin Vorlesungsskript, das man dann zB klausurvorbereitend liest, geht's schneller.",
+      "author": "softgale",
+      "subreddit": "Studium",
+      "created_utc": 1707523942,
+      "score": 1,
+      "link_id": "t3_1ams7m3",
+      "parent_id": "t3_1ams7m3"
+    },
+    {
+      "id": "kp95oz5",
+      "body": "The point of college maths is to understand why things work. To understand how to solve problems creatively and efficiently. \n\nIt's not about punching numbers into a calculator and writing down the solution, it's figuring out which numbers are even needed and why a certain calculation even works. \n\nAnd also, most college maths problems cannot even be solved with just a calculator :)",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1707262564,
+      "score": 5,
+      "link_id": "t3_1aknl22",
+      "parent_id": "t3_1aknl22"
+    },
+    {
+      "id": "kp0252t",
+      "body": "Can you also use coordinates instead of rotation?",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1707122309,
+      "score": 1,
+      "link_id": "t3_1aj11wt",
+      "parent_id": "t3_1aj11wt"
+    },
+    {
+      "id": "koyj81s",
+      "body": "Moving it up (in this case), so all coordinates change by the amount.\nTranslating in general means moving every point by a vector (if you know those), as if you pushed the cube in a direction without rotating or scaling it",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1707094435,
+      "score": 1,
+      "link_id": "t3_1aj11wt",
+      "parent_id": "t1_koyexiz"
+    },
+    {
+      "id": "koqiqiz",
+      "body": "the \"set of all tuples\" doesn't exist (it's \"too big\" to be a set, it would be a class), however a \"set of some tuples\" would exist. However, one could not define all functions using just that small set :( so it wouldn't really be a good definition",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1706968626,
+      "score": 4,
+      "link_id": "t3_1ahuqd1",
+      "parent_id": "t1_koqgwh7"
+    },
+    {
+      "id": "khyfquv",
+      "body": "i is not positive unfortunately",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1705320630,
+      "score": 3,
+      "link_id": "t3_196os0d",
+      "parent_id": "t1_khxvwsu"
+    },
+    {
+      "id": "khyfp91",
+      "body": "That's not sufficient to define i uniquely",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1705320603,
+      "score": 5,
+      "link_id": "t3_196os0d",
+      "parent_id": "t1_khya00s"
+    },
+    {
+      "id": "khxtm82",
+      "body": "Wortgenau ist's nur \"Hut\"",
+      "author": "softgale",
+      "subreddit": "de",
+      "created_utc": 1705304710,
+      "score": 4,
+      "link_id": "t3_196kg68",
+      "parent_id": "t1_khxt64w"
+    },
+    {
+      "id": "kgxjxxp",
+      "body": "Nah, the thing in parentheses is a full proof as given by another commenter, and the path via the derivative is a second path. No relation between them except they both prove the same thing. Also, even though it isn't want it meant, what you wrote down isn't circular. It's just redundant",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1704739356,
+      "score": 1,
+      "link_id": "t3_1914hnd",
+      "parent_id": "t1_kgxb93q"
+    },
+    {
+      "id": "kgxjj13",
+      "body": "To give an alternative, as is indicated by the \"or\" :)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1704739219,
+      "score": 1,
+      "link_id": "t3_1914hnd",
+      "parent_id": "t1_kgx747w"
+    },
+    {
+      "id": "kgx4qnl",
+      "body": "I did not use the inequality to prove the inequality.",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1704734292,
+      "score": 1,
+      "link_id": "t3_1914hnd",
+      "parent_id": "t1_kgx3k09"
+    },
+    {
+      "id": "kgwxprr",
+      "body": "where exactly? I genuinely don't see it so I would be happy about a quote :)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1704731893,
+      "score": 1,
+      "link_id": "t3_1914hnd",
+      "parent_id": "t1_kgwlrig"
+    },
+    {
+      "id": "kgwkqb9",
+      "body": "No one was using the inequality itself as far as I'm aware. And I wouldn't call learning about \"this works for any increasing function and we can prove functions are increasing by looking at their derivative\" silly. It's a more general argument \\^\\^",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1704727225,
+      "score": 1,
+      "link_id": "t3_1914hnd",
+      "parent_id": "t1_kgwivtq"
+    },
+    {
+      "id": "kgv5j7r",
+      "body": "For instance by using the derivative or what Erdumas suggested (assuming a<b: aa<ab and ab<bb, so aa<bb)",
+      "author": "softgale",
+      "subreddit": "math",
+      "created_utc": 1704699628,
+      "score": 5,
+      "link_id": "t3_1914hnd",
+      "parent_id": "t1_kgth8ah"
+    },
+    {
+      "id": "kfwu1tb",
+      "body": "Thanks to you too :)",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1704157178,
+      "score": 1,
+      "link_id": "t3_18w8aue",
+      "parent_id": "t1_kfwrglh"
+    },
+    {
+      "id": "kfwr1ev",
+      "body": "\"A only if B\" is \"A => B\"",
+      "author": "softgale",
+      "subreddit": "askmath",
+      "created_utc": 1704156041,
+      "score": 1,
+      "link_id": "t3_18w8aue",
+      "parent_id": "t1_kfwejsj"
+    }
+  ]
+}

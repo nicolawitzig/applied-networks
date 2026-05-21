@@ -1,0 +1,118 @@
+{
+  "username": "twm2718",
+  "posts": [
+    {
+      "id": "1gyr1my",
+      "title": "M4 Pro Mac mini",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732455191,
+      "score": 269,
+      "num_comments": 27,
+      "selftext": "14 Core CPU, 48GB RAM, 512 GB HD. Runs quietly, except when pushed to its limits for more than 1 minute. Then the fan turns on, but noise is perfectly fine. I use it for scientific visualization and shockingly it is almost twice as fast than my M1 Pro MacBook Pro with 32GB RAM. Very pleased with the purchase.",
+      "url": "https://i.redd.it/arq0xq5rqu2e1.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lyvndyl",
+      "body": "I’m a scientist, I use the stream deck for online teaching.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732523967,
+      "score": 1,
+      "link_id": "t3_1gyr1my",
+      "parent_id": "t1_lyvf1ng"
+    },
+    {
+      "id": "lyvnaic",
+      "body": "I don’t use it for trading. I’m a scientist and use it for online teaching.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732523902,
+      "score": 1,
+      "link_id": "t3_1gyr1my",
+      "parent_id": "t3_1gyr1my"
+    },
+    {
+      "id": "lyvn3e6",
+      "body": "The models you can run locally on an off the shelf desktop are usually “quantized” which means that each parameter (weight) is stored with reduced accuracy. The validity of your rule depends on how strongly you quantize. 48 GB is certainly sufficient for running Google gemma2 with 27B parameters as installed by ollama. This I verified.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732523769,
+      "score": 3,
+      "link_id": "t3_1gyr1my",
+      "parent_id": "t1_lyvk9us"
+    },
+    {
+      "id": "lyvdsn9",
+      "body": "It gets warm if I really push it, but heat was never an issue so far. I don’t see how you could get it to overheat, unless you push it to its limit for a long time, but even then, I’m not particularly worried.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732517905,
+      "score": 1,
+      "link_id": "t3_1gyr1my",
+      "parent_id": "t1_lytt9a5"
+    },
+    {
+      "id": "lysl8l4",
+      "body": "Not enough RAM for running Llama with 70B parameters locally, everything else I threw at it, the mini handled flawlessly.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732479382,
+      "score": 2,
+      "link_id": "t3_1gyr1my",
+      "parent_id": "t1_lysf1ju"
+    },
+    {
+      "id": "lyskm84",
+      "body": "Everything is attached to the Studio display.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732479189,
+      "score": 2,
+      "link_id": "t3_1gyr1my",
+      "parent_id": "t1_lysgz28"
+    },
+    {
+      "id": "lyqig5k",
+      "body": "I’m skeptical the Mac Studio will get a redesign and a Mac Studio almost looks comically large in comparison to a Mac mini. Some people care about the form factor.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1732454631,
+      "score": 1,
+      "link_id": "t3_1gyanb9",
+      "parent_id": "t1_lynbc2a"
+    },
+    {
+      "id": "lwvxj29",
+      "body": "I have the M4 Pro macmini. If you push the CPU hard (100% or close), the fan will kick in after 20 to 30 seconds. The fan noise is louder than on my M1 pro MacBook Pro, but in normal usage the fan is inaudible. Unless you have a workflow which pushes the mini to its limit a lot, I would recommend the mini.",
+      "author": "twm2718",
+      "subreddit": "macmini",
+      "created_utc": 1731484751,
+      "score": 2,
+      "link_id": "t3_1go8ehy",
+      "parent_id": "t1_lwgykxp"
+    },
+    {
+      "id": "lrb1r9e",
+      "body": "200k+ University professor. A lot of hard work and a good amount of luck.",
+      "author": "twm2718",
+      "subreddit": "AskReddit",
+      "created_utc": 1728591610,
+      "score": 1,
+      "link_id": "t3_1g0g6sm",
+      "parent_id": "t3_1g0g6sm"
+    },
+    {
+      "id": "ll1gf3j",
+      "body": "Outside of academia people usually don’t care much about your grades, especially with a degree from a top university. For an academic career grades are also less important than you might think. Being a good student and being a good researcher are not quite the same thing. I studied physics at ETH and finished with average grades. Went on to do a PhD and postdocs at very good institutions and am now a tenured professor at a good university.",
+      "author": "twm2718",
+      "subreddit": "ethz",
+      "created_utc": 1725221178,
+      "score": 1,
+      "link_id": "t3_1f6hefs",
+      "parent_id": "t3_1f6hefs"
+    }
+  ]
+}

@@ -1,0 +1,2312 @@
+{
+  "username": "Deet98",
+  "posts": [
+    {
+      "id": "1hd6svp",
+      "title": "Profiling Multi Modal Models",
+      "author": "Deet98",
+      "subreddit": "LLMDevs",
+      "created_utc": 1734073461,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hey devs!\n\nI am working on profiling some multi modal models and I am currently using PyTorch profiler to do so. I am not sure I’m getting the right results when it comes to memory allocation of the model’s operations. Some of them output negative numbers which I assume they are deallocating tensors from previous operators that are not needed anymore. Instead, I would like to get the peak memory consumptions of those operations. Is there a way using PyTorch to do so? In the worst case scenario I was thinking about profiling the operations individually using random inputs and then infer the memory consumption of those models based on the inputs’ tensor shapes. I’m open to discuss since I haven’t found any useful resources online. \nThank you in advance for the help :)",
+      "url": "https://www.reddit.com/r/LLMDevs/comments/1hd6svp/profiling_multi_modal_models/"
+    },
+    {
+      "id": "1gv77cg",
+      "title": "Living Science room ",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1732048463,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hey! I am looking for a subtenant in a double room apartment at Living Science. The room is provided with a mattress and is not furnished with anything else than the standard items provided by Living Science.\n\nYou are eligible if:\n\n- You are an ETH student \n\nAND\n\n   -   You need a cozy place to stay for the remaining days of November OR you are on the top of the Living Science waiting list and you want to take over the contract starting from December. \n\n\nIn the first case (short stay) DM me.\nIn the second case please contact first the agent from MiBag to verify if you are eligible to take over the contract. I can give you the number in private if you are sure you are on the waiting list. \n",
+      "url": "https://www.reddit.com/r/ethz/comments/1gv77cg/living_science_room/"
+    },
+    {
+      "id": "1f4tne3",
+      "title": "ENTER THE HEAT VA",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1725019802,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Dear Gabbers,\n\nMe and other artists released a VA on Heatcore Sonic, a new german label that I discussed in a previous post.   \nEvery track has its unique style and I’m hoping everyone of you will find whatever interests you the most.   \nWould be nice to listen to some of the tracks, leave a feedback on SC and share! \nThanks in advance for listening :)\n\n",
+      "url": "https://on.soundcloud.com/wesi6xULJss5ELA68"
+    },
+    {
+      "id": "1elcrex",
+      "title": "Alternative Gabber scene",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722934129,
+      "score": 27,
+      "num_comments": 16,
+      "selftext": "Hey Gabbers,\n\nI’d like to know your take on the alternative gabber scene that’s currently growing in Germany and Switzerland. I’m talking about labels like Gabber Industries Berlin, Vacance, Heatcore Sonic and the now inactive Hardcode.  You can find these names on SoundCloud mostly and throughout the years they gave space to many talented artists from Germany, Italy, France or Switzerland (but not only).  \nI’m an artist that released on those labels and I don’t want to advertise myself, so I won’t mention my artist name. I’m just asking out of curiosity :)",
+      "url": "https://www.reddit.com/r/gabber/comments/1elcrex/alternative_gabber_scene/"
+    },
+    {
+      "id": "1caym89",
+      "title": "Tweakers in Milchbuck",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713857530,
+      "score": 13,
+      "num_comments": 30,
+      "selftext": "What’s up with this crazy amount of tweakers at the milchbuck stop? Every morning, I see at least two together that are completely in another world, but during night it’s even worse. Are they consuming in the irchel park?  \nThe change is pretty recent, because 1 year ago there were only a few. Usually, where they hang out is also where someone is selling.\n",
+      "url": "https://www.reddit.com/r/zurich/comments/1caym89/tweakers_in_milchbuck/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2mr5zp",
+      "body": "The dumpsters of the canteen",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1734511221,
+      "score": 0,
+      "link_id": "t3_1hgrsv5",
+      "parent_id": "t3_1hgrsv5"
+    },
+    {
+      "id": "m28g857",
+      "body": "I had a great time! I agree, the venue was better last year because there was no space to relax properly. Outside was too cold to chill, inside around shops instead was too crowded and loud. What I enjoyed the most is the fact that all the genres got represented equally. I listened to lots of industrial, old school, french core and a bit of uptempo and mainstream in the last sets of Saturday which was expected.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1734300134,
+      "score": 5,
+      "link_id": "t3_1hf03yp",
+      "parent_id": "t3_1hf03yp"
+    },
+    {
+      "id": "m200u12",
+      "body": "look up for parallel computing models. There exists many, but the PRAM and BSP come to mind.",
+      "author": "Deet98",
+      "subreddit": "compsci",
+      "created_utc": 1734173734,
+      "score": 1,
+      "link_id": "t3_1he0bm6",
+      "parent_id": "t3_1he0bm6"
+    },
+    {
+      "id": "m1w89y0",
+      "body": "That’s a huge mistake from them, what do you mean they didn’t know she needed a permit? Maybe police will stop the investigation since the company proactively was trying to fix the situation.   \nEven then it’s police’s responsibility to make sure that there wasn’t something more sketchy going on, so nothing to be scared about.   \nAnyway, how did they manage to pay her and file a contract for a non swiss and even non eu person without informing the immigration office? The company will probably have to pay a fine and then (maybe) your friend can keep working for them.\nShe probably won’t lose her visa, but I can’t assure that she won’t need a lawyer to articulate why she was working without a permit. Especially the part where she realized on her own the problem and informed the authorities. So if I had to bet, I’d say that only the company will get in trouble.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1734113768,
+      "score": 15,
+      "link_id": "t3_1hdi7kc",
+      "parent_id": "t3_1hdi7kc"
+    },
+    {
+      "id": "m1vh0ur",
+      "body": "Big techs, anywhere in the world, have automatic screening and having a degree from ETH will open the first door for those companies. In my experience I applied to companies in Netherlands, UK, Germany, France, Italy and most of the times they invited me for interviews. I don’t have experience with US unis but some friends got research assistant positions at Stanford, MIT, Harvard etc. through te academic collaborations between professors but still…  \nThe local market is different though, they hardly called me back, probably because my background was too theoretical and I was applying to the wrong jobs.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1734105106,
+      "score": 6,
+      "link_id": "t3_1hde0ab",
+      "parent_id": "t1_m1v9j1u"
+    },
+    {
+      "id": "m1v8l33",
+      "body": "People know Cambridge, Oxford and Harvard mainly because english/american tv series and movies portray them as the only places where geniuses and rich people study. If tomorrow Netflix decides to make a show about Einstein, I’m sure that people would start thinking the same things for ETH. In academia, instead, I can safely say ETH is known by almost everyone.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1734102308,
+      "score": 98,
+      "link_id": "t3_1hde0ab",
+      "parent_id": "t3_1hde0ab"
+    },
+    {
+      "id": "m04642z",
+      "body": "Formally proved you mean by contradiction or by induction?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1733181795,
+      "score": 2,
+      "link_id": "t3_1h4sx8k",
+      "parent_id": "t3_1h4sx8k"
+    },
+    {
+      "id": "lz2a1rr",
+      "body": "Yes I agree, there’s plenty of industrial compared to 3-4 years ago. It will never die even if the main festivals don’t support it like they used to.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1732622988,
+      "score": 3,
+      "link_id": "t3_1gzvnos",
+      "parent_id": "t1_lz27hs9"
+    },
+    {
+      "id": "lyox2an",
+      "body": "You can basically graduate with almost all the same courses, so a part from the name of the degree I don’t see much difference.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1732422444,
+      "score": 5,
+      "link_id": "t3_1gy4v9k",
+      "parent_id": "t3_1gy4v9k"
+    },
+    {
+      "id": "lui6vuv",
+      "body": "First of all you didn’t specify that switch means just subletting. It could also mean exchanging rooms in the true sense. Second of all you didn’t specify that you would find the subtenant yourself. You can’t expect that people read your mind on intricate plans\nto literally live in the other building with the same living conditions.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1730288061,
+      "score": -1,
+      "link_id": "t3_1gf5f01",
+      "parent_id": "t1_lui5iur"
+    },
+    {
+      "id": "lui2x79",
+      "body": "What if he/she wants to keep the room when the internship is done?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1730286079,
+      "score": 0,
+      "link_id": "t3_1gf5f01",
+      "parent_id": "t1_lui2nkx"
+    },
+    {
+      "id": "luhm51i",
+      "body": "Yeah and he/she would need to pay the rent of your apartment while interning. That sounds a great exchange 😂",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1730275425,
+      "score": 1,
+      "link_id": "t3_1gf5f01",
+      "parent_id": "t1_lufjdjy"
+    },
+    {
+      "id": "lu0qivm",
+      "body": "Oh yeah liking the music makes me wrong suddenly 😂",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1730042666,
+      "score": 3,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltzxiij"
+    },
+    {
+      "id": "ltxa5i8",
+      "body": "Ok but still, I have fun without the downsides so what?",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1729983020,
+      "score": 4,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltx8mz8"
+    },
+    {
+      "id": "ltwyeu0",
+      "body": "Right, doesn’t work for YOU.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1729978749,
+      "score": 2,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltwtqt8"
+    },
+    {
+      "id": "ltw9gfx",
+      "body": "Did you know that you can go clubbing without getting wasted?",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1729970564,
+      "score": -29,
+      "link_id": "t3_1gcog39",
+      "parent_id": "t1_ltvol5c"
+    },
+    {
+      "id": "ltky8x1",
+      "body": "English or Spanish?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1729805162,
+      "score": 4,
+      "link_id": "t3_1gbcn80",
+      "parent_id": "t3_1gbcn80"
+    },
+    {
+      "id": "lsfi8zs",
+      "body": "All’ospedale per intossicazione alimentare",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1729201035,
+      "score": 67,
+      "link_id": "t3_1g5yy98",
+      "parent_id": "t1_lsfg3qt"
+    },
+    {
+      "id": "lrw8gb6",
+      "body": "Scarica il file dei sottotitoli in inglese, fatti tradurre da chatgpt il tutto e usa il file tradotto. In italiano doppiato probabilmente non uscirà mai.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1728922365,
+      "score": 1,
+      "link_id": "t3_1g3c2gd",
+      "parent_id": "t3_1g3c2gd"
+    },
+    {
+      "id": "lprxclc",
+      "body": "Congrats for your achievement despite the challenges!",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1727764374,
+      "score": 1,
+      "link_id": "t3_1fse35f",
+      "parent_id": "t1_lppmnlq"
+    },
+    {
+      "id": "lpjmp6p",
+      "body": "Did you like it?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1727640609,
+      "score": 1,
+      "link_id": "t3_1fql812",
+      "parent_id": "t3_1fql812"
+    },
+    {
+      "id": "lp7xgfc",
+      "body": "Increase diversity in the company",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1727460001,
+      "score": 22,
+      "link_id": "t3_1fqss7z",
+      "parent_id": "t3_1fqss7z"
+    },
+    {
+      "id": "lp1alx7",
+      "body": "Since 3.11 it uses Powersort",
+      "author": "Deet98",
+      "subreddit": "computerscience",
+      "created_utc": 1727365335,
+      "score": 3,
+      "link_id": "t3_1fpdxlq",
+      "parent_id": "t1_lozt3ie"
+    },
+    {
+      "id": "lnxq0a8",
+      "body": "Either you were under psychedelic or the website magically works differently for you. If you search music and filter for ETH the query returns 0 masters…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1726770581,
+      "score": 1,
+      "link_id": "t3_1fkjnh3",
+      "parent_id": "t1_lnxh9et"
+    },
+    {
+      "id": "lnleas3",
+      "body": "Yes, logic usually precedes a theoretical CS course in european universities.",
+      "author": "Deet98",
+      "subreddit": "computerscience",
+      "created_utc": 1726591046,
+      "score": 1,
+      "link_id": "t3_1fj1qaf",
+      "parent_id": "t3_1fj1qaf"
+    },
+    {
+      "id": "lnesjxb",
+      "body": "Do we have stats for this?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1726495499,
+      "score": 1,
+      "link_id": "t3_1fhnhaf",
+      "parent_id": "t1_lndd27b"
+    },
+    {
+      "id": "lmyy60y",
+      "body": "310 at 92% but I feel like I run out of battery more frequently in the last months compared to the beginning… I’m switching to 16 pro next week and can’t wait to have a 45W battery finally.",
+      "author": "Deet98",
+      "subreddit": "iphone",
+      "created_utc": 1726253276,
+      "score": 1,
+      "link_id": "t3_1fg0w8p",
+      "parent_id": "t1_lmyq6qe"
+    },
+    {
+      "id": "lmyxoek",
+      "body": "Grain delay is pure magic sometimes, I use it on percussions too when I like the groove but not the tone.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1726253115,
+      "score": 2,
+      "link_id": "t3_1ffwj4k",
+      "parent_id": "t1_lmxyvbk"
+    },
+    {
+      "id": "lmyxanj",
+      "body": "I graduated from computer engineering in Italy without any internship. Then Masters in Switzerland and again no mandatory internship.",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726252991,
+      "score": 1,
+      "link_id": "t3_1ffyew4",
+      "parent_id": "t1_lmyffuf"
+    },
+    {
+      "id": "lmwqatc",
+      "body": "5 semesters or even 6 are expected. If you take specific courses that are worth 10 credits then yeah it becomes easier…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1726224687,
+      "score": -2,
+      "link_id": "t3_1ffr57h",
+      "parent_id": "t3_1ffr57h"
+    },
+    {
+      "id": "lmsoqv2",
+      "body": "I have a friend working there in the ML team, I don’t know exactly what’s he’s doing but yeah. Just wait until they open some positions…",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1726162107,
+      "score": 2,
+      "link_id": "t3_1ff1sjn",
+      "parent_id": "t3_1ff1sjn"
+    },
+    {
+      "id": "llth3en",
+      "body": "100%",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725640589,
+      "score": 1,
+      "link_id": "t3_1fah9ly",
+      "parent_id": "t1_llt8jic"
+    },
+    {
+      "id": "llt4pd9",
+      "body": "Most seminars require attending, I’d be shocked if yours don’t’. Problem of the week is basically a 2 hours slot where you train yourself to solve problems in little time, but it can easily be replicated at home if you have some self discipline.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725636645,
+      "score": 5,
+      "link_id": "t3_1fah9ly",
+      "parent_id": "t3_1fah9ly"
+    },
+    {
+      "id": "lloud6r",
+      "body": "And if you are a smoker or a musician, as soon as you talk about that you are cooked. So keep it for yourself and be considerate when you eventually get the room.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725569545,
+      "score": 2,
+      "link_id": "t3_1f9r8za",
+      "parent_id": "t1_llnu90q"
+    },
+    {
+      "id": "llhdugh",
+      "body": "I don’t fully agree, in CS you have many topics that you don’t have time to touch if you study Math. I’m talking about Architectures and operating systems, parallel programming, digital logic design, functional programming, OOP, databases and many more. Sure, if you already know you want to become a ML engineer or applied engineer then you can, but you can’t consider yourself a CS expert. Otherwise, if you want to be as flexible as possible as a software engineer and you go for math, you’ll lack lots of skills that will take time to pick up fully. While a CS doesn’t need that level of math and most of the math used in ML is well taught in the CS bachelor.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725464714,
+      "score": 0,
+      "link_id": "t3_1f8t07s",
+      "parent_id": "t1_llh33fa"
+    },
+    {
+      "id": "llhdpln",
+      "body": "I don’t fully agree, in CS you have many topics that you don’t have time to touch if you study Math. I’m talking about Architectures and operating systems, parallel programming, digital logic design, functional programming, OOP, databases and many more. Sure, if you already know you want to become a ML engineer or applied engineer then you can, but you can’t consider yourself a CS expert. Otherwise, if you want to be as flexible as possible as a software engineer, as a mathematician you’ll lack lots of skills that will take time to pick up fully.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725464670,
+      "score": 1,
+      "link_id": "t3_1f8t07s",
+      "parent_id": "t1_llh33fa"
+    },
+    {
+      "id": "ll1zyh0",
+      "body": "sidechain with a multi band compressor, you can tame all the other elements or just the drums when the vocal is playing. This works for every genre where vocals are important. So my chain is eq + compression + sidechain and send this to another chain for reverb or/and echo, there you also use eq, saturation, eq again for example.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1725227897,
+      "score": 2,
+      "link_id": "t3_1f6mjuq",
+      "parent_id": "t3_1f6mjuq"
+    },
+    {
+      "id": "lkzdha2",
+      "body": "I received my monitor after almost two months just to save 50 chf. If you need the laptop asap, I don’t recommend buying there.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725195690,
+      "score": 10,
+      "link_id": "t3_1f6dpsl",
+      "parent_id": "t3_1f6dpsl"
+    },
+    {
+      "id": "lkz32jy",
+      "body": "They were probably on holidays, from tomorrow they should catch up with the emails.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1725190823,
+      "score": 8,
+      "link_id": "t3_1f6b7f9",
+      "parent_id": "t3_1f6b7f9"
+    },
+    {
+      "id": "lktwank",
+      "body": "Avevo letto Raffaella Fico inizialmente 🫠",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1725111346,
+      "score": 7,
+      "link_id": "t3_1f5jbax",
+      "parent_id": "t3_1f5jbax"
+    },
+    {
+      "id": "lkntpbx",
+      "body": "Yeah it’s a good meal with Fentanyl on the side.",
+      "author": "Deet98",
+      "subreddit": "europe",
+      "created_utc": 1725020830,
+      "score": 0,
+      "link_id": "t3_1f4s7my",
+      "parent_id": "t1_lkni834"
+    },
+    {
+      "id": "lkeggdm",
+      "body": "Meritare è un concetto arbitrario, non esiste una quantificazione dell’impegno che determina cosa meriti. Impegnarsi su qualcosa in cui si crede, si ha passione e anche talento porta a risultati. Poi dipende dall’ambiente, ovvio che anche chi ti sta intorno conta. Ho mille esempi in cui chi si è impegnato è stato ripagato, ma non devo convincere voi visto che avete avuto esperienze diverse.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724880466,
+      "score": 0,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lke75fl"
+    },
+    {
+      "id": "lkdw9z6",
+      "body": "Dite tutti non è vero ma poi non argomentate. Magari non raggiungete il sogno x + 10 ma comunque essendovi impegnati avete raggiunto x + 3 che è meglio di x + 0 o peggio x - 3. Ragionare diversamente è il preludio del fallimento.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724871127,
+      "score": -1,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lkdu4t8"
+    },
+    {
+      "id": "lkcmn89",
+      "body": "Cool idea! screeches and vocals clash too much, consider doing two separate drops where each element plays alone or with call and response. Also free up some space for the vocals because they are hard to understand otherwise…",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1724857093,
+      "score": 3,
+      "link_id": "t3_1f38yp3",
+      "parent_id": "t3_1f38yp3"
+    },
+    {
+      "id": "lkbroli",
+      "body": "Coming from Politecnico di Milano where I did my bachelor.   \nFirst of all, in my previous uni there was way more collaboration between students. It wasn’t uncommon to organize huge groups to tackle the next exam. I loved those times. Part of my success was due to that chill environment where things were serious, but a chat during breaks with colleagues could make me way more relaxed.  \nAt ETH, instead, maybe just because a Master is more individual self studying by nature and also because everyone has a different study plan, things were way different and stressful.   \nAnother key thing that I noticed: here people only study/hang out with colleagues, while in Milan I had many friends study different things which made conversations way more interesting. Now if I go out for a beer and someone starts talking about ML I just want to go home. Don’t get me wrong, if you want to share sth new and interesting about CS I’m all hears, but talking about it for hours just kills my vibe completely.   \nAnyway, I think it’s more of a cultural thing. Italy is known to be chill and it’s very common to start hanging out with new people out of the blue. A good balance of social life and studies was sth that I completely missed here at ETH. I know there are many different student organizations, but my study agenda was so full that I completely missed on those. I don’t exclude I could have done things differently, but when I started during pandemic time there wasn’t much choice.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724846059,
+      "score": 20,
+      "link_id": "t3_1f37s3k",
+      "parent_id": "t3_1f37s3k"
+    },
+    {
+      "id": "lkbej7i",
+      "body": "How is it possible that it’s seen as a skill? It’s not like we design garbage collection ourselves, it’s a feature that we implicitly use by using languages like Java. It would be better to write memory management or sth like that if you know those concepts in C/C++.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724839193,
+      "score": 5,
+      "link_id": "t3_1f33kpw",
+      "parent_id": "t1_lkb5r5w"
+    },
+    {
+      "id": "lk6p7wk",
+      "body": "La differenza è che 3.5-4 per una pizza al sud ti mangi comunque qualcosa che al nord verrebbe tranquillamente venduto a 6-7. Mentre 3.5-4 a Milano te lo offrono tipicamente i kebab in zone non centrali. Quindi nessuna allucinazione, per la gente normale mangiare fuori è più accessibile al sud che al nord. I ristoranti di classe e con una certa clientela sono leggermente più economici, ma comunque trascurabile per chi non ha problemi di soldi.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724771370,
+      "score": 3,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lk5jobm"
+    },
+    {
+      "id": "lk6isan",
+      "body": "Milano peggio di Londra ho dei seri dubbi. I quartieri malfamati di Londra fanno paura per davvero, rischi di essere accoltellato o peggio sparato. Mentre Milano sicuramente ha zone da non frequentare, ma non è paragonabile. In più la qualità del cibo e degli ospedali è 10 spanne sopra a Londra.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724769275,
+      "score": 2,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lk5ikke"
+    },
+    {
+      "id": "lk6ho0u",
+      "body": "Non ho capito la prima parte, se uno si impegna i risultati arrivano. Poi ovvio possono capitare sfortune come malattie e problemi economici che non dipendono da te, ma non provarci significa vivere una vita mediocre e da perdenti. Conosco molte persone provenienti da famiglie povere che hanno studiato, sicuramente con più sforzi di chi non aveva difficoltà esterne, ma alla fine ce l’ha fatta.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724768903,
+      "score": -1,
+      "link_id": "t3_1f2cc7q",
+      "parent_id": "t1_lk5gzq0"
+    },
+    {
+      "id": "lk5zox1",
+      "body": "Yeah right, they also serve free coffee with pastries and a relocation bonus.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724762351,
+      "score": 7,
+      "link_id": "t3_1f2cc9a",
+      "parent_id": "t1_lk5n471"
+    },
+    {
+      "id": "lk18659",
+      "body": "No real benefits, just that you have a full scholarship + the guarantee of starting a PhD.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724689304,
+      "score": 7,
+      "link_id": "t3_1f1rsdb",
+      "parent_id": "t1_lk17p1r"
+    },
+    {
+      "id": "lk12z7d",
+      "body": "Yes, last graduation ceremony the average was 5.35 with 0.2 as standard deviation.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724687634,
+      "score": 7,
+      "link_id": "t3_1f1qbow",
+      "parent_id": "t1_lk0yl3h"
+    },
+    {
+      "id": "lju8o9s",
+      "body": "It should be regulated by laws… if they can find workforce for free there’s nothing you can do about it. In EU we have a minimum salary for interns, is the screenshot taken from a US based job advertisement?",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724583122,
+      "score": 1,
+      "link_id": "t3_1f0sy9m",
+      "parent_id": "t1_lju7vvo"
+    },
+    {
+      "id": "lju78kj",
+      "body": "If you sign a contract that states that you don’t get a salary, how can you suddenly ask for the salary? Honestly I don’t think it’s a clever advice, it’s a waste of time for both parties.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724582207,
+      "score": 116,
+      "link_id": "t3_1f0sy9m",
+      "parent_id": "t1_lju4wbp"
+    },
+    {
+      "id": "ljdboxc",
+      "body": "So, you want to pursue a PhD and googling basic stuff is not among your skills? Good start 💪🏼",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724330710,
+      "score": 16,
+      "link_id": "t3_1eyh40v",
+      "parent_id": "t3_1eyh40v"
+    },
+    {
+      "id": "ljczn6v",
+      "body": "Building a startup without any experience at all is a huge risk a lot of people are not going to take. Personally, I’d prefer to work my ass up in a big tech corporation, save enough and then found my own startup. This is the safest strategy if you don’t have a family that can pay you the bill after colleges.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1724325415,
+      "score": 5,
+      "link_id": "t3_1eygeq0",
+      "parent_id": "t3_1eygeq0"
+    },
+    {
+      "id": "ljcxwb4",
+      "body": "Il link tra early trauma e grandiose narcissism è ancora in discussione: https://www.sciencedirect.com/science/article/abs/pii/S0145213422000643\n\nDal tuo commento sembra invece che ci sia sempre una diretta correlazione.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724324538,
+      "score": 25,
+      "link_id": "t3_1ey5bco",
+      "parent_id": "t1_ljcwqwt"
+    },
+    {
+      "id": "ljcpvwn",
+      "body": "La parola discoteca non è nel tuo vocabolario a quanto pare…",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1724319827,
+      "score": 1,
+      "link_id": "t3_1eye9fb",
+      "parent_id": "t1_ljcmxkk"
+    },
+    {
+      "id": "lj7q50z",
+      "body": "A 6 in a practical ML thesis is quite common, while a 6 in theoretical CS/ML is an outstanding achievement. I don’t know about the other labs, probably CybSec is another field were 6 is more difficult.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724250230,
+      "score": 11,
+      "link_id": "t3_1exo36h",
+      "parent_id": "t3_1exo36h"
+    },
+    {
+      "id": "lj6opk0",
+      "body": "Poor baby 😢, imagine how exhausted you will be when you have to write a Master thesis 🤷🏼‍♂️",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724234159,
+      "score": -1,
+      "link_id": "t3_1eximp8",
+      "parent_id": "t3_1eximp8"
+    },
+    {
+      "id": "liweusj",
+      "body": "If you want to become a Machine Learning engineer why don’t you apply to a CS master? A specialization in ML in a master called “Electrical engineering” won’t make you as skilled as someone who knows how to use good software engineering practices, algorithms, data structures, databases and study complexities. The list goes on, but those concepts are already plenty of courses where a master is probably not enough. I’m so sick of people switching to ML just because of the trend and they don’t realize that there’s much more  than some courses in ML to become a ML engineer. Reality is, you will be an electrical engineer that understands how ML works, but you won’t be able to build an entire ML pipeline like a CS graduate can do.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1724086660,
+      "score": -6,
+      "link_id": "t3_1evz8og",
+      "parent_id": "t3_1evz8og"
+    },
+    {
+      "id": "likl240",
+      "body": "In un’epoca dove qualsiasi persona è sui social 2/3 ore al giorno, vedo solo come positivo il fatto che un TG nazionale utilizzi fonti prese dai social. In questo modo le persone lo vedono come qualcosa di familiare e svecchiato…\nPoi come dicevano in altri commenti, ti aspetti che per una notizia simile paghino qualcuno per andare sul posto?\nRispondo anche al tuo commento “ma dovrebbero mettere foto ufficiali delle autorità croate”, secondo te un paese che campa con il turismo mette a disposizione delle foto dove il mare è tutto tranne che invitante?",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723906161,
+      "score": 2,
+      "link_id": "t3_1euhcr6",
+      "parent_id": "t3_1euhcr6"
+    },
+    {
+      "id": "likk4wc",
+      "body": "Poi giocando troppo sei diventato brutto?",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723905831,
+      "score": 2,
+      "link_id": "t3_1eufoso",
+      "parent_id": "t1_lijwh72"
+    },
+    {
+      "id": "lia8y4i",
+      "body": "get a real job",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1723748227,
+      "score": -1,
+      "link_id": "t3_1et36ky",
+      "parent_id": "t3_1et36ky"
+    },
+    {
+      "id": "li7rjhi",
+      "body": "MacBook Pro M1 16”",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723715740,
+      "score": 2,
+      "link_id": "t3_1esr3m0",
+      "parent_id": "t1_li7r04x"
+    },
+    {
+      "id": "li7qwsk",
+      "body": "Had the 16” and 0 problems, but laptops are quite useless during lectures (not labs). I had an iPad to take notes.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723715347,
+      "score": 6,
+      "link_id": "t3_1esr3m0",
+      "parent_id": "t3_1esr3m0"
+    },
+    {
+      "id": "li7ko4a",
+      "body": "I’m applying to jobs in Berlin and I’m having hard time… is it because of the lack of german knowledge on my side or because the market there is just over saturated?",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723711227,
+      "score": 1,
+      "link_id": "t3_1esfaw6",
+      "parent_id": "t1_li7jh8p"
+    },
+    {
+      "id": "li4b4bb",
+      "body": "then iOS, iphone 15 pro is bugged 🤷🏼‍♂️",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723662341,
+      "score": 1,
+      "link_id": "t3_1es5kii",
+      "parent_id": "t1_li43qqh"
+    },
+    {
+      "id": "li43bs4",
+      "body": "iOS or android?",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723659904,
+      "score": 1,
+      "link_id": "t3_1es5kii",
+      "parent_id": "t1_li40qjc"
+    },
+    {
+      "id": "li40op0",
+      "body": "is it only my phone or the game has for real no sound? who thought that having no music in a game that represents a genre was a good idea?",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723659078,
+      "score": 1,
+      "link_id": "t3_1es5kii",
+      "parent_id": "t3_1es5kii"
+    },
+    {
+      "id": "li3v8do",
+      "body": "Hairdressers",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1723657381,
+      "score": 2,
+      "link_id": "t3_1es6rri",
+      "parent_id": "t3_1es6rri"
+    },
+    {
+      "id": "lhvwl97",
+      "body": "Just english",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1723542610,
+      "score": 1,
+      "link_id": "t3_1eqd8ar",
+      "parent_id": "t1_lhvvy78"
+    },
+    {
+      "id": "lhvvj0g",
+      "body": "Indiscreta sì, maleducata ho i miei dubbi.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723541914,
+      "score": 4,
+      "link_id": "t3_1er10wx",
+      "parent_id": "t1_lhvvdw5"
+    },
+    {
+      "id": "lhvuvx5",
+      "body": "La mia tattica è sempre esagerare. “Hai la ragazza?”, rispondo “le ragazze semmai” e il 99% delle volte finisce in caciara e non devo rivelare nulla di personale…",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723541481,
+      "score": 202,
+      "link_id": "t3_1er10wx",
+      "parent_id": "t3_1er10wx"
+    },
+    {
+      "id": "lhvuos3",
+      "body": "Rispondere in modo educato “è una questione privata” oppure far finta di aver sentito è così difficile?\nTra l’altro a ogni risposta che hai dato sono sicuro che qualcuno continuerebbe comunque la discussione e saresti punto e da capo…",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723541349,
+      "score": 11,
+      "link_id": "t3_1er10wx",
+      "parent_id": "t1_lhvsyoa"
+    },
+    {
+      "id": "lhszsl1",
+      "body": "Yuh bank deez 🥜",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723495410,
+      "score": 2,
+      "link_id": "t3_1eqoh03",
+      "parent_id": "t3_1eqoh03"
+    },
+    {
+      "id": "lhs1y4u",
+      "body": "You described correctly, I lived it differently since I could meet other artists that I know but I danced from 1/2 to 10 and had fun…",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723484903,
+      "score": 2,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t1_lhs10li"
+    },
+    {
+      "id": "lhrw8gt",
+      "body": "Thanks man! I’m planning to relocate to Poland and work from there remotely for the future.",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1723483144,
+      "score": 1,
+      "link_id": "t3_1eqd8ar",
+      "parent_id": "t1_lhrhszp"
+    },
+    {
+      "id": "lhrw1h8",
+      "body": "I have nothing against tourists, but the day after I went to Tresor and there were lots of people that clearly didn’t fit the vibe and/or never been to a club with that type of music. If you are passionate enough and you act respectfully you are more than welcomed.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723483084,
+      "score": 1,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t1_lhru8ht"
+    },
+    {
+      "id": "lhrf2dd",
+      "body": "I 100% agree, I got a Masters in CS ETH and I am still struggling to even get the first interview…",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1723477739,
+      "score": 3,
+      "link_id": "t3_1eqd8ar",
+      "parent_id": "t1_lhqorft"
+    },
+    {
+      "id": "lhrcr78",
+      "body": "I miei sono arrivati a Milano ormai quasi 40 anni fa, si sono integrati talmente tanto che hanno perso l’accento dei loro dialetti. Io non ho mai avuto nessun problema a integrarmi e mi sono sempre sentito milanese, ma ora lavoro all’estero e torno al massimo una volta al mese a casa.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723477004,
+      "score": 3,
+      "link_id": "t3_1eqdh6p",
+      "parent_id": "t3_1eqdh6p"
+    },
+    {
+      "id": "lhq5y2h",
+      "body": "Hard techno for real? Maybe mad dog went a bit hard techno but Anime, Ophidian and the artists that played later didn’t play any hard techno. I haven’t been to the second room but yeah I get the sound system there wasn’t the best, even though it was meant to give a spot to emerging djs. Also, I haven’t seen many tourists, most people chilling outside were speaking german. Anyway, there’s always room to do better, thanks for the feedback!",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723460127,
+      "score": 5,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t1_lhq5ih4"
+    },
+    {
+      "id": "lhq516o",
+      "body": "Can you elaborate on why it was awful?",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723459611,
+      "score": 4,
+      "link_id": "t3_1eqabz5",
+      "parent_id": "t3_1eqabz5"
+    },
+    {
+      "id": "lhkozcd",
+      "body": "Ho studiato molto l’argomento perché temevo di avere tratti narcisistici. Il punto è che per come la vedo io peccare un minimo in arroganza è meglio di avere 0 confidence nelle proprie capacità. Le persone che ti stanno attorno annusano subito in quale estremo stai. Inoltre, l’invidia è un’emozione naturale che tutti gli umani hanno, ma c’è chi la sfrutta per migliorarsi e chi invece cerca di sabotare gli altri a causa di essa.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1723375901,
+      "score": 2,
+      "link_id": "t3_1epf0pa",
+      "parent_id": "t3_1epf0pa"
+    },
+    {
+      "id": "lhko82u",
+      "body": "I can’t stand the idea that you can self learn machine learning with you tube videos. The math behind it is taught in a graduate level program. Either you put the effort to enroll in a university and pass or at the very least use the same books and resources…",
+      "author": "Deet98",
+      "subreddit": "MachineLearning",
+      "created_utc": 1723375469,
+      "score": 3,
+      "link_id": "t3_1eph0z7",
+      "parent_id": "t3_1eph0z7"
+    },
+    {
+      "id": "lhhj7fq",
+      "body": "Noisekick - Ik Haat Trance",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723320792,
+      "score": 2,
+      "link_id": "t3_1eoy338",
+      "parent_id": "t1_lhh1z9w"
+    },
+    {
+      "id": "lha01ks",
+      "body": "Ok but if the kick is already stereo it makes the mixing even more difficult. I only use this technique on Kick FXs if I feel like the little break needs some additional filling. Thanks for explaining though :)",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723212401,
+      "score": 1,
+      "link_id": "t3_1enx0z2",
+      "parent_id": "t1_lh9zpbb"
+    },
+    {
+      "id": "lh9rvyv",
+      "body": "I can understand the share language, but shared culture and understanding is not something I would consider. There are german speakers that are lazy and unproductive as well…",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1723209522,
+      "score": 28,
+      "link_id": "t3_1enykox",
+      "parent_id": "t1_lh9qrfw"
+    },
+    {
+      "id": "lh9jjly",
+      "body": "In my opinion the kick is missing the real low end, it sounds boomy in the low mids and also stereo in that area. I’d remove the unnecessary stereo and fix the low end. Also some parts of the vocals are not on beat which is barely unnoticeable but when you apply sidechain you can tell.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723206248,
+      "score": 2,
+      "link_id": "t3_1enx0z2",
+      "parent_id": "t3_1enx0z2"
+    },
+    {
+      "id": "lh9j6u4",
+      "body": "Could you expand on the white noise sidechain effect, never heard of it before…",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1723206098,
+      "score": 2,
+      "link_id": "t3_1enx0z2",
+      "parent_id": "t1_lh9h8b2"
+    },
+    {
+      "id": "lh67dwm",
+      "body": "Ok, I guess…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723150788,
+      "score": 11,
+      "link_id": "t3_1engjp2",
+      "parent_id": "t3_1engjp2"
+    },
+    {
+      "id": "lh317lh",
+      "body": "Maybe professors will make more reasonable exams and people that studied during the semester will be finally awarded for their consistency. Students will finally be able to start 3 months internship which are really important once you get your diploma.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723111518,
+      "score": 25,
+      "link_id": "t3_1en1azm",
+      "parent_id": "t3_1en1azm"
+    },
+    {
+      "id": "lh30v76",
+      "body": "No I said “two times” because in italian I say it when someone says bullshit. It’s hard to translate. Anyway what he said it’s not true at all, 110L is still a great achievement even if you can retake exams as many as times as you want. Trust me if I say that no one wants to take the same exam 10 times just to get perfect scores…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723111301,
+      "score": 1,
+      "link_id": "t3_1emab3o",
+      "parent_id": "t1_lh2xst0"
+    },
+    {
+      "id": "lgzlqbi",
+      "body": "Two times bro",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723058799,
+      "score": 1,
+      "link_id": "t3_1emab3o",
+      "parent_id": "t1_lgz03yy"
+    },
+    {
+      "id": "lgxjuzu",
+      "body": "Do you fulfill the requirements in terms of courses?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1723035341,
+      "score": 3,
+      "link_id": "t3_1emab3o",
+      "parent_id": "t3_1emab3o"
+    },
+    {
+      "id": "lgukeew",
+      "body": "Thanks to people like you that support us 🫶🏻\nI’ll be there, it will be a great night :)",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722983922,
+      "score": 1,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgu8ack"
+    },
+    {
+      "id": "lgu3fzr",
+      "body": "Yes, I fully agree. Hopefully we can attract more people and organize more parties with this sound.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722978291,
+      "score": 1,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgs7jcx"
+    },
+    {
+      "id": "lgu34xs",
+      "body": "it’s underground though… we have small parties with this sound where almost everyone knows each other in Switzerland. Same in Berlin, it’s a bigger community but still underground in a way.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722978195,
+      "score": 2,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgu20mu"
+    },
+    {
+      "id": "lgropdy",
+      "body": "Sure! do you have specific questions? I’ve been following since the birth all the mentioned labels (there are more but less famous) and I released on them, which means that I know their owners personally.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722951027,
+      "score": 1,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgrkr1c"
+    },
+    {
+      "id": "lgrj2yq",
+      "body": "No",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1722948946,
+      "score": 1,
+      "link_id": "t3_1el7o5y",
+      "parent_id": "t1_lgrhq9h"
+    },
+    {
+      "id": "lgr7sfs",
+      "body": "Especially in Europe, candidates that know the local language are prioritized. I didn’t have work experience 6 months ago and no one was interviewing me outside of Switzerland and Italy. I found an internship in robotics where I had the chance to apply some data science and now I have several startups in germany and switzerland interested in getting to know me. As others said take what you get, you will find the job you love while you learn unrelated stuff.",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1722944001,
+      "score": 3,
+      "link_id": "t3_1el7o5y",
+      "parent_id": "t3_1el7o5y"
+    },
+    {
+      "id": "lgqrze8",
+      "body": "The fact that most of these productions cannot be categorized into the historical subgenres. It’s always a blend of industrial, frenchcore, uptempo and old school. Moreover, these tracks are not designed to be played at festivals and they rely more on melodies and synths that are not used in the mainstream wave. I agree alternative isn’t the best word to describe it but you get the idea :)",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722934573,
+      "score": 5,
+      "link_id": "t3_1elcrex",
+      "parent_id": "t1_lgqrqju"
+    },
+    {
+      "id": "lgmd4tp",
+      "body": "I agree, I also would add that either you render the result and shape the rumble yourself (this is what I do now for hardcore kicks) or you use shaperbox to design the side chaining. It’s way better than trying to do it with the compressor, since it’s difficult to set and there is no proper visualization…",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1722871761,
+      "score": 1,
+      "link_id": "t3_1ekh9nk",
+      "parent_id": "t1_lglu26a"
+    },
+    {
+      "id": "lgle128",
+      "body": "This will get you not that far. You need at least two layers, one for the low end and one for high end where you play with distortion, fxs or percussions. I also would use a clipper to get a really dirty sound rather than compressor, but this is what I did when I was producing industrial hard techno. A rumble for other types of techno requires less processing since it’s not necessarily the main element of the track.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1722858626,
+      "score": 0,
+      "link_id": "t3_1ekh9nk",
+      "parent_id": "t1_lgl9pcn"
+    },
+    {
+      "id": "lg7lz4e",
+      "body": "As a software engineer and producer, while reading this post I lost the ability to be both.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1722636557,
+      "score": 14,
+      "link_id": "t3_1eif5v7",
+      "parent_id": "t3_1eif5v7"
+    },
+    {
+      "id": "lg0pf88",
+      "body": "You have to push with your music regardless of other people’s approval. Making music is about feeling the natural instinct of expressing themselves creatively. Don’t get me wrong, it’s a good feeling when your work is appreciated, but when it doesn’t, it’s just how the game works and it doesn’t mean you should stop.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722538387,
+      "score": 11,
+      "link_id": "t3_1ehnnoo",
+      "parent_id": "t3_1ehnnoo"
+    },
+    {
+      "id": "lfgtcak",
+      "body": "Quite simplistic idea of deep learning. Understanding how the ELBO works in Variational Autoencoders requires also a bit of knowledge of Information Theory for example. If we even go into Geometric Deep Learning then you need to know groups and graphs to name only few topics.",
+      "author": "Deet98",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1722248318,
+      "score": -2,
+      "link_id": "t3_1eendj5",
+      "parent_id": "t1_lffjh1e"
+    },
+    {
+      "id": "lfgsu21",
+      "body": "As many terror and industrial artists as possible. Detest, Ophidian, Drokz, Tripped and Akira to name few.",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1722247987,
+      "score": 1,
+      "link_id": "t3_1eeduym",
+      "parent_id": "t3_1eeduym"
+    },
+    {
+      "id": "lf0820k",
+      "body": "Sure, pretty trivial… delusional statement or you are among the lucky ones",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1721983988,
+      "score": 0,
+      "link_id": "t3_1ebxggc",
+      "parent_id": "t1_lex5592"
+    },
+    {
+      "id": "leixjoi",
+      "body": "Vabbè continua con le tue convinzioni che non rispecchiano minimamente come funziona la società. Linki delle pagine cretine in cui uomini fanno cose stupide e da qui deduci che le donne ragionino in maniera più logica.   \nRiconosco che il mio discorso è poco strutturato e confuso, dato anche dal fatto che non voglio perdere tempo a quotare ogni frase presa fuori contesto e a buttarci dentro fonti targettate.  \n\nUltima cosa, i canoni estetici sono gli stessi da secoli perché una donna con una bella pelle, seno grande e curve indica all’uomo prosperità. Idem l’uomo muscoloso è l’altro canone che esiste dai tempi degli antichi greci. Se vuoi confutare anche questo continua pure non ti darò più corda.   \nNon volevo indirizzare il discorso sul sesso, ma farti capire che una donna o un uomo attraente hanno vita più facile anche nella vita lavorativa.  \nDa qui mi ricollego al fatto che ciò non implica che non ci siano donne di non bellissimo aspetto che hanno carriere invidiabili. Cosa su cui tu insistevi visto che due meme sui peli di una parlamentare ti hanno fatto scattare.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721732582,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_legufwh"
+    },
+    {
+      "id": "lefstfe",
+      "body": "Vabbè stai cambiando argomentazione ogni 3x2. Prima parlavamo dei canoni estetici nei due sessi e di come influiscono sulle relazioni o su come vengono trattati nella società. Ora dici che non è più l’argomento del discorso. La verità è che come molti altri vuoi rendere uguali uomini e donne, ed è per me sbagliato. Da qui deriva la mia considerazione che i due sessi hanno problemi diversi e nessuno qui sta sminuendo una delle due parti.  \n\nIn più sulla depressione intendevo dire che se ho un amico o un’amica che iniziano ad avere tali problemi, molto probabilmente me ne accorgerei vedendo in loro un cambiamento. Tra l’altro su quell’argomento mi hai dato ragione sul fatto che l’uomo tende a non prendere sul serio problemi alla sua psiche in quanto verrebbe visto come debole.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721680518,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_lefqpqd"
+    },
+    {
+      "id": "lef0zpq",
+      "body": "There’s no tutorial out there that can really help you. You just need to try many times until you get the sound you want. I used to follow tutorials and never had good results, now that I made my own way everyone says that my kicks are unique.   \nIf your aim is to release, the second option is the best.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1721671706,
+      "score": 2,
+      "link_id": "t3_1e9eglx",
+      "parent_id": "t3_1e9eglx"
+    },
+    {
+      "id": "leerk1p",
+      "body": "Ma che cristo di sito mi hai linkato per la roba dei single ahaha quando nel primo link ho trovato research gate ci avevo quasi creduto che sapessi un minimo informarti.\nComunque continua pure a darmi dell’incel o tutte le minchiate che ti vengono in mente. Non ho mai avuto problemi con l’altro sesso proprio perché conosco le differenze e agisco di conseguenza.\nL’unico che qui sta continuando a insultare e a ignorare che le coppie vengono formate (nella maggior parte dei casi) da persone che sono fisicamente e mentalmente simili sei tu. \nIn ogni caso la convinzione che le ragazze che hanno peli, non hanno tette e altre cavolate che hai scritto forse esiste in qualche ambiente retrogrado, ma non è la normalità. Ho vissuto in diversi stati europei e ho incontrato manager donne che del loro aspetto se ne fregavano molto più della commessa del supermercato.  \nComunque per oggi mi sono stufato del solito discorso vittimista, in base al sesso hai un set di problemi che l’altro sesso non vorrebbe avere.  \nSminuire un sesso in base a questo è da persone con poca onestà intellettuale.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721668742,
+      "score": 0,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_leeizrq"
+    },
+    {
+      "id": "ledspm8",
+      "body": "Ridicolo che stai facendo tutto sto casino per i peli sulle gambe e per il trucco. \nIo sono un laureato STEM e guardo i dati, non ascolto Giuseppa e Totò in strada o guardo i meme per informarmi. \nStatistiche dicono che, in qualsiasi parte del mondo, la maggior parte dei single è di sesso maschile.   \nRagazzi con problemi di obesità, depressione e altri mille problemi sono fantasmi per la società. Mentre una ragazza con gli stessi problemi viene incoraggiata e supportata.  \nSei davvero sicuro che una ragazza trasandata non riesca a trovare un partner? Lo trova eccome, ma si deve accontentare di qualcuno del suo livello.  \nI canoni di bellezza sono sempre gli stessi da secoli, se a te o ad altri non vanno bene chi se ne frega… attirerai qualcuno che la pensa come te. Agli uomini non piacciono le ragazze che hanno le caratteristiche che hai detto, quindi cosa facciamo? Li obblighiamo a cambiare idea?",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721657297,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_ledqi4a"
+    },
+    {
+      "id": "ledn6l0",
+      "body": "Ignorare completamente come funzionano le dinamiche uomo donna nella società attuale ti rende completamente delusional. \nSe uno/una non si cura verrà trattato/a nel modo in cui descrivi. Non c’entra nulla il sesso in quel contesto.\nQuello che intendo dire è che uomini che non ricevono molte attenzioni in quanto non hanno molto da offrire andrebbero con qualsiasi tipa. Mentre per una ragazza, truccarsi e sapersi comportare la rende già attraente agli occhi della maggior parte degli uomini. Un esempio sono le influencers che non hanno nulla da dire ma hanno comunque una schiera di uomini che sbava per loro. Il contrario è molto più raro.\nPossiamo continuare a parlarne per ore, ma se abbiamo due visioni diverse di come funziona il mondo non serve a nulla questa discussione.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721655250,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_ledkpun"
+    },
+    {
+      "id": "ledid1y",
+      "body": "I haven’t taken the course, but I couldn’t ignore the amazing topics and how well they presented them in the lecture notes. If you the other courses u have are easier, it’s worth a try imho.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1721653335,
+      "score": 2,
+      "link_id": "t3_1e9caaq",
+      "parent_id": "t3_1e9caaq"
+    },
+    {
+      "id": "ledh9ai",
+      "body": "Non possono permettersi? c’è qualche legge che impedisce di andare in giro struccate?\nSe una donna ambisce all’uomo con risorse e che è desiderato da molte altre donne, allora è ovvio che curi il proprio aspetto. \nLegge domanda offerta, ci sono tanti uomini che andrebbero con la prima che capita, mentre il contrario non avviene perché è la biologia che detta queste regole.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721652880,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_ledg5q4"
+    },
+    {
+      "id": "lede092",
+      "body": "Risposte davvero poco pensate. \nLe automobili e scarpe sono necessità per entrambi i sessi, mentre non mi risulta che la maggior parte degli uomini curi il proprio aspetto tanto quanto le donne.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1721651479,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_led4hvu"
+    },
+    {
+      "id": "le6xk5b",
+      "body": "Cringe",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1721543345,
+      "score": 1,
+      "link_id": "t3_1e7txst",
+      "parent_id": "t1_le38nyf"
+    },
+    {
+      "id": "le1of42",
+      "body": "Thanks ChatGPT",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1721455798,
+      "score": 2,
+      "link_id": "t3_1e6z0fe",
+      "parent_id": "t1_ldwou0w"
+    },
+    {
+      "id": "ldreyqi",
+      "body": "What’s difficult about using grammar, punctuation and spelling rules we were taught in schools?   \nIt took me 2 times to figure out what OP was asking, and reddit or not, people writing like that look uneducated and lazy. \nYou can be all against this belief, but I’m 100% confident that having good texting habits will make you look more competent in any situation.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721305326,
+      "score": 0,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldr7kt6"
+    },
+    {
+      "id": "ldqf7fa",
+      "body": "Being informal is different than unstructured text. We value our time and we are not gonna help someone who doesn’t even put the effort. Anyway, nice that you are aware.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721283517,
+      "score": -2,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldqem9s"
+    },
+    {
+      "id": "ldqcxb2",
+      "body": "I see, but clear communication is the first thing the hirer notices.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721282126,
+      "score": 0,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldqc5rl"
+    },
+    {
+      "id": "ldqc0r0",
+      "body": "Especially when you are not able to use punctuation.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1721281594,
+      "score": 1,
+      "link_id": "t3_1e62sch",
+      "parent_id": "t1_ldq4xcl"
+    },
+    {
+      "id": "ldnquhr",
+      "body": "Italy 🇮🇹",
+      "author": "Deet98",
+      "subreddit": "gabber",
+      "created_utc": 1721244937,
+      "score": 2,
+      "link_id": "t3_1e5ljp6",
+      "parent_id": "t3_1e5ljp6"
+    },
+    {
+      "id": "ld9oakt",
+      "body": "Text baddies",
+      "author": "Deet98",
+      "subreddit": "iphone",
+      "created_utc": 1721037135,
+      "score": 1,
+      "link_id": "t3_1e30rdm",
+      "parent_id": "t3_1e30rdm"
+    },
+    {
+      "id": "lctmqp1",
+      "body": "Yes, true and I can give you numbers based on my experience. So, I am 60kg, not the average gym bro I know, but I still need to eat double that amount of proteins to build muscle and gain weight. I usually eat jasmin rice, veggies and chicken at lunch that according to migros prices costs 3chf/ 5 =0.6 chf(since I eat 200g out of 1kg), one zucchetti 2.60chf/2 = 1.30 chf and 7.70chf of chicken since it’s 230g for a gain of 60g of proteins. In total just for lunch I spend 10chf if we count spices and other stuff to make this sad lunch a bit more tasty. Now If I do the same or sth similar for dinner, I spend again 10chf. Now my 20 chf per day were an underestimate…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720785823,
+      "score": 1,
+      "link_id": "t3_1e01w5y",
+      "parent_id": "t1_lcon0wm"
+    },
+    {
+      "id": "lct2iia",
+      "body": "Even for EU students the job market is not the best. All the local companies prefer having german speaking people, and the competition among EU grads is fierce because they don’t only come from ETH but from all over the good unis in europe.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720773796,
+      "score": 3,
+      "link_id": "t3_1e1alfj",
+      "parent_id": "t3_1e1alfj"
+    },
+    {
+      "id": "lcku49f",
+      "body": "Good for you, with the current inflation I think it’s a bit more difficult though.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720647464,
+      "score": 1,
+      "link_id": "t3_1e01w5y",
+      "parent_id": "t1_lckmx56"
+    },
+    {
+      "id": "lcktyac",
+      "body": "If you are doing sports or gym, it’s not an exaggeration. Surviving is different than having a well balanced diet, so 500 would be more realistic if you plan on saving with discounts.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720647410,
+      "score": 2,
+      "link_id": "t3_1e01w5y",
+      "parent_id": "t1_lcksc72"
+    },
+    {
+      "id": "lckgcs0",
+      "body": "If you find a job you can easily live comfortable as a student, but it will take time and energies from your main focus. I imagine there are many examples of students doing the same, it’s just that I personally haven’t met them.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720643149,
+      "score": 4,
+      "link_id": "t3_1e01w5y",
+      "parent_id": "t1_lckcrir"
+    },
+    {
+      "id": "lckg6er",
+      "body": "Imagine having to worry about exams AND saving money for basic needs. This is not what I would call an enjoyable experience, but I see your point.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720643094,
+      "score": 4,
+      "link_id": "t3_1e01w5y",
+      "parent_id": "t1_lcke8jk"
+    },
+    {
+      "id": "lcjuf2z",
+      "body": "2k is actually pretty good considering that you would need at least 20 chf per day to eat which means 600 chf a month.   \nThe rent is usually around 700-1000, let’s say 800. We are already at 1400 chf.   \nThe cheapest health insurance is another 200 chf, so 1600 chf.   \nPublic transport and mobile cost together at least 100 chf a month and we end at 1700 chf.   \n\nThis is like the basic ETH student lifestyle. If you do not close yourself at home and want to eat sth outside in the weekend or drink a beer with friends, you easily cross the 2k line without realizing it.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720636394,
+      "score": 5,
+      "link_id": "t3_1e01w5y",
+      "parent_id": "t3_1e01w5y"
+    },
+    {
+      "id": "lbx5yn2",
+      "body": "Sure :)",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720287193,
+      "score": 1,
+      "link_id": "t3_1dwowb0",
+      "parent_id": "t1_lbwyvr5"
+    },
+    {
+      "id": "lbwnhak",
+      "body": "I know many italian students coming from less recognized universities. It’s worth a try trust me.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720280613,
+      "score": 2,
+      "link_id": "t3_1dwowb0",
+      "parent_id": "t1_lbwjyjr"
+    },
+    {
+      "id": "lbwi0uo",
+      "body": "My motivational letter was probably shorter that this post. Anyway, you have a really high GPA, close to mine when I applied from PoliMi. I think it would be necessary to take Analysis, not only for the admission, but also to catch up on important concepts that will useful in basically every ML exam. Good luck!",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1720278609,
+      "score": 5,
+      "link_id": "t3_1dwowb0",
+      "parent_id": "t3_1dwowb0"
+    },
+    {
+      "id": "lbkwgh2",
+      "body": "If I could go back I’d go into Math or a heavy math CS degree. Engineering is cool but you learn some stuff that you probably will never use.",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1720090640,
+      "score": 1,
+      "link_id": "t3_1dusrlv",
+      "parent_id": "t1_lbkoxye"
+    },
+    {
+      "id": "lbkncul",
+      "body": "That’s exactly what I did",
+      "author": "Deet98",
+      "subreddit": "csMajors",
+      "created_utc": 1720084515,
+      "score": 1,
+      "link_id": "t3_1dusrlv",
+      "parent_id": "t3_1dusrlv"
+    },
+    {
+      "id": "layidh3",
+      "body": "I’ve been in discussion with professors from these 3 institutions => you talked to three professors.\nLater you talk about only two profs.\nWhere’s the third one?  \n\nAnyway choosing a PhD is not like choosing which t-shirt brand to wear, if you know that one of the profs has lots of experience you already have material to consider (more connections, ex PhDs and publications). In any case, I’d apply to all of them and only decide between the ones they offer you a position.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1719741924,
+      "score": 5,
+      "link_id": "t3_1drqdn8",
+      "parent_id": "t3_1drqdn8"
+    },
+    {
+      "id": "la9jsg0",
+      "body": "Too much el tony mate",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1719349024,
+      "score": 1,
+      "link_id": "t3_1doe22x",
+      "parent_id": "t1_la91xqe"
+    },
+    {
+      "id": "la1m32d",
+      "body": "Totally, if you learn the theoretical underpinnings of complexity theory, graph theory, dynamic programming, data structures, etc. you can pick up any new algorithm in a matter of minutes. Moreover, you will be able to modify know algorithms for your use cases. While learning by heart how to solve LeetCode problems will help you only short term.",
+      "author": "Deet98",
+      "subreddit": "compsci",
+      "created_utc": 1719234728,
+      "score": 11,
+      "link_id": "t3_1dnca3x",
+      "parent_id": "t3_1dnca3x"
+    },
+    {
+      "id": "l9igm6o",
+      "body": "or maybe these old men were eth students that went insane",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1718913324,
+      "score": 11,
+      "link_id": "t3_1dk8noj",
+      "parent_id": "t1_l9g5irq"
+    },
+    {
+      "id": "l9aco9b",
+      "body": "Tu devi proprio essere quello più simpatico alle feste",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1718791568,
+      "score": 38,
+      "link_id": "t3_1dje0p6",
+      "parent_id": "t3_1dje0p6"
+    },
+    {
+      "id": "l7ttk0a",
+      "body": "The advice I gave worked on me. I never get labeled as weird because I give genuine compliments. I hanged out with a good amount girls, some of them I met by complimenting sth. U are saying since the first comment that I’m single, that I have 0 game with girls and that I’m a creep. Who insulted who? That’s why I said I can tell what kind of person u are based on the language. Now you are even insulting my english skills. I don’t care about having perfect english when I talk to a stranger on reddit and I have to do other things in my life meanwhile.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717947790,
+      "score": 1,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7tsdyh"
+    },
+    {
+      "id": "l7toq3r",
+      "body": "U are literally judging my worth based on how many women I touched in my life and I’m the weird stereotype. I laugh because I feel like I’m getting trolled, I can’t have a serious discussion with u anyways.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717946032,
+      "score": 1,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7tnszh"
+    },
+    {
+      "id": "l7tm9xw",
+      "body": "Ok thanks for ur well put opinion! I understand, it’s totally fine that a percentage might perceive it differently, but it’s such a neutral thing that, at the end of the da, calling it harassment is really next level idiotic. I met several people in my life from such simple gestures…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717945111,
+      "score": 2,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7tlphk"
+    },
+    {
+      "id": "l7tl1l6",
+      "body": "I’m from one of the countries u mentioned and in my life, I have complimented people in clubs, unis, bars, markets and I’ve never got weird looks. It depends how u do it. Anyway, googling this on internet shows that most people would appreciate. I don’t understand why I got downvoted bad but yeah, if the reason why u give away compliment is for sex I agree, that’s weird. U have to naturally get good at it without expecting anything in return.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717944644,
+      "score": 3,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7tk455"
+    },
+    {
+      "id": "l7tj8nd",
+      "body": "I don’t know what kind of compliments u think would be seen as creepy, let’s imagine this situation. You see someone wearing a t shirt of one of ur favorite music band. U go there and say “hey u have nice taste in music”. Maybe even add “I was at their concert one week ago”. The other person might reply “Oh actually me too” and a conversation started.\nIf you and the other people think this is weird and creepy it’s because u got brainwashed by the woke mentality that everyone who smiles and talk to strangers is hungry for sex.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717943955,
+      "score": 3,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7teu0o"
+    },
+    {
+      "id": "l7tife4",
+      "body": "Ahahahaha the sign board around eth 😂😂😂😂😂😂😂 u are hilarious. Live a bit better outside the university bubble. Yes I’m a walking stereotype, thank you for the compliment. Oh, u have just harassed me.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717943645,
+      "score": 1,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7tadhk"
+    },
+    {
+      "id": "l7t63q6",
+      "body": "Genuine compliments are not “weird shit”. Some people will never hear compliments in their entire life and when they do, they react positively. Your language says a lot about ur character btw.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717938414,
+      "score": 2,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7t5pml"
+    },
+    {
+      "id": "l7t359s",
+      "body": "and you are definitely delusional. Working on urself also includes improving social skills. How can u improve them if u don’t try to talk to strangers?",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717936990,
+      "score": 4,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7sljnt"
+    },
+    {
+      "id": "l7pdcc4",
+      "body": "really stupid idea to replace a normal trait with bad one (alcoholism)",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717869174,
+      "score": 13,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t1_l7p9xt7"
+    },
+    {
+      "id": "l7ot2mz",
+      "body": "If you are shy you hardly will fit in ASVZ or any setting where there are multiple strangers. I suggest working on your personality first. For example “, try to compliment random people (all genders) on their clothes or anything not related to their attractiveness, but don’t expect them to engage in a conversation. If they do, build from there. Repeat until you find someone you click with.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1717861552,
+      "score": -12,
+      "link_id": "t3_1db2yp3",
+      "parent_id": "t3_1db2yp3"
+    },
+    {
+      "id": "l6su90k",
+      "body": "La ricerca della felicità",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1717353260,
+      "score": 1,
+      "link_id": "t3_1d6f0uj",
+      "parent_id": "t3_1d6f0uj"
+    },
+    {
+      "id": "l4h8puq",
+      "body": "La parola che hai citato viene abusata dai movimenti senza capire il significato dietro. Strutturale significherebbe che a livello politico e sociale la donna avrebbe meno diritti dell’uomo, ma non mi sembra che una donna nel nostro periodo storico non possa: comprare una casa, iniziare un business, ricevere la giusta pena in caso reato (anzi, oserei dire che nei fatti gli uomini sono quelli che la pagano più cara), diritto di voto e mille altri diritti che potrei elencare fino a domani mattina.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1715964469,
+      "score": 1,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_l4fiwgy"
+    },
+    {
+      "id": "l4gl62r",
+      "body": "now it’s terrible and unaffordable",
+      "author": "Deet98",
+      "subreddit": "europe",
+      "created_utc": 1715956264,
+      "score": 28,
+      "link_id": "t3_1cu0q4l",
+      "parent_id": "t1_l4g43cp"
+    },
+    {
+      "id": "l4gga7b",
+      "body": "Il femminismo viene supportato dalle compagnie e della politica perché generalmente è il sesso più influenzabile. Nel senso che la donna tende a seguire i trends molto più degli uomini, basti guardare quanti ricavi hanno le aziende di cosmetici e profumi. Combattere il genere maschile per poi sottostare a un capo (donna o uomo che sia) è tutt’altro che essere indipendenti. Il movimento dovrebbe capire che al giorno d’oggi, sia uomini che donne, sono vittime del sistema allo stesso modo. Avere avuto una esperienza negativa con l’altro sesso non può portarti a generalizzare e dipende anche molto dal tipo di persone che frequenti.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1715954479,
+      "score": 2,
+      "link_id": "t3_1cte7xt",
+      "parent_id": "t1_l4c8icx"
+    },
+    {
+      "id": "l4f34pj",
+      "body": "Most interesting exam ever but not for the weak 😅",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1715925937,
+      "score": 1,
+      "link_id": "t3_1ctdm9r",
+      "parent_id": "t1_l4c34ma"
+    },
+    {
+      "id": "l49qzsl",
+      "body": "Serum + eq (fab filter pro q3) and distortion (decapitator, trash 2, saturn 2) will give you all the best tools to make kicks. Maybe a transient shaper can be handy as well.",
+      "author": "Deet98",
+      "subreddit": "TechnoProduction",
+      "created_utc": 1715839677,
+      "score": 1,
+      "link_id": "t3_1cssuls",
+      "parent_id": "t3_1cssuls"
+    },
+    {
+      "id": "l44uxg7",
+      "body": "Name me 10 books!",
+      "author": "Deet98",
+      "subreddit": "computerscience",
+      "created_utc": 1715767411,
+      "score": 1,
+      "link_id": "t3_1cruw9u",
+      "parent_id": "t3_1cruw9u"
+    },
+    {
+      "id": "l412t0u",
+      "body": "or what they are not wearing in some cases",
+      "author": "Deet98",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1715707079,
+      "score": 2,
+      "link_id": "t3_1cr9wwz",
+      "parent_id": "t1_l3xuk2b"
+    },
+    {
+      "id": "l3yzmm6",
+      "body": "Did my masters listening to heavy stuff at >160 bpms. I personally needed energy when I tackled ETH assignments, chilling and ETH are two different things ahah",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1715672573,
+      "score": 3,
+      "link_id": "t3_1crba15",
+      "parent_id": "t3_1crba15"
+    },
+    {
+      "id": "l3w7ynl",
+      "body": "For some labs it’s a strict requirement, for some you just need to do a thesis with them and succeed. In those latter cases, succes is defined in terms of the professor expectation; it might also be a publication in a good conference.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1715628448,
+      "score": 2,
+      "link_id": "t3_1cqm3mj",
+      "parent_id": "t3_1cqm3mj"
+    },
+    {
+      "id": "l3l3ohn",
+      "body": "Oh man I bought H8s 2 weeks ago on Ricardo and I had a positive experience. I’d have totally helped u there :/",
+      "author": "Deet98",
+      "subreddit": "Switzerland",
+      "created_utc": 1715441532,
+      "score": 1,
+      "link_id": "t3_1coomf8",
+      "parent_id": "t3_1coomf8"
+    },
+    {
+      "id": "l2kt2lo",
+      "body": "Looking at the current trend, u have better chances in finding a job in your homeland. Google is moving most of the teams in India or Poland. That will be the future for most jobs that don’t require to have physical presence.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1714846602,
+      "score": 1,
+      "link_id": "t3_1cjv6fe",
+      "parent_id": "t3_1cjv6fe"
+    },
+    {
+      "id": "l21icsi",
+      "body": "I feel like most of PhDs have 0 creativity if u talk about the artistic type of creativity. They have the amazing skill of being organized, but they are live schematically. There are exceptions of course, by the PhDs I know are not artistically inclined.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1714532980,
+      "score": 0,
+      "link_id": "t3_1cgsuc5",
+      "parent_id": "t1_l1xza5j"
+    },
+    {
+      "id": "l21i0p7",
+      "body": "With a flight ticket probably",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1714532827,
+      "score": 8,
+      "link_id": "t3_1cgsuc5",
+      "parent_id": "t1_l200ofs"
+    },
+    {
+      "id": "l1913e1",
+      "body": "It’s a field called delusional ML. Really trend at the moment, especially in small companies where they don’t know what they are doing",
+      "author": "Deet98",
+      "subreddit": "MachineLearning",
+      "created_utc": 1714077246,
+      "score": 133,
+      "link_id": "t3_1ccz2cq",
+      "parent_id": "t1_l18lleq"
+    },
+    {
+      "id": "l11piol",
+      "body": "Graduating from what? Maybe you lacked some foundations.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1713967953,
+      "score": 1,
+      "link_id": "t3_1cbtjj8",
+      "parent_id": "t3_1cbtjj8"
+    },
+    {
+      "id": "l0x21au",
+      "body": "Ok I accept ur opinion, but I was wondering what happens specifically in that place.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713893113,
+      "score": 0,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0wuyqw"
+    },
+    {
+      "id": "l0wp4pm",
+      "body": "It’s my assumption, since they are on trains. Chill man",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713888813,
+      "score": -3,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0wkg60"
+    },
+    {
+      "id": "l0wozyt",
+      "body": "That’s not a tweaker, today I saw one who was shaking, clear effects of some substance that’s not alcohol.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713888769,
+      "score": 1,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0we7hg"
+    },
+    {
+      "id": "l0w20j5",
+      "body": "Makes sense, the addicts from europe discovered that here it’s the best place where they can keep up with the addiction. Good social assistance and drugs sold at the same price as other poor countries. I hope the federation will do sth about this like it did in the past.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713880715,
+      "score": 2,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0vzxi4"
+    },
+    {
+      "id": "l0vim9k",
+      "body": "It’s not new, it’s just worse.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713872497,
+      "score": 2,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0vhcl3"
+    },
+    {
+      "id": "l0ve5tz",
+      "body": "Yes, never show them ur wallet if they ask u money because they are unpredictable and if no one is around they would do anything to buy the next dose…",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713870075,
+      "score": 2,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0v30zi"
+    },
+    {
+      "id": "l0vdhee",
+      "body": "Yeah they also take the 72 usually because they go to langstrasse. It’s insane, I come from a bigger city that it’s used to those issues but I’d never have expected to see it here on a small scale.",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1713869672,
+      "score": 10,
+      "link_id": "t3_1caym89",
+      "parent_id": "t1_l0v99dk"
+    },
+    {
+      "id": "kzyep93",
+      "body": "It’s not about the city itself, but the culture of minding your own business that combined with socials is destroying relationships. Every city has this problem, but Zurich has it a bit more in my opinion.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1713339490,
+      "score": 1,
+      "link_id": "t3_1c5l3ul",
+      "parent_id": "t1_kzw1k8e"
+    },
+    {
+      "id": "kzaaixv",
+      "body": "La ricerca si fa ovunque nelle università e in alcune big tech che possono permetterselo. Europa inclusa, vedi casi come Londra, Parigi, Zurigo o Monaco. Pieno di ricercatori che portano avanti l’innovazione nel mondo AI.",
+      "author": "Deet98",
+      "subreddit": "ItalyInformatica",
+      "created_utc": 1712952846,
+      "score": 1,
+      "link_id": "t3_1c26gll",
+      "parent_id": "t1_kz9meca"
+    },
+    {
+      "id": "kz9okdm",
+      "body": "Citing republik.ch\n“…referred to women as weaklings who should spend less time on their make-up and more on their research, and micromanaged everything under the sun while demanding superhuman commitment.”\n\nIf this accusation is true, she’s the one with a patriarchal mentality 😅",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1712945332,
+      "score": 19,
+      "link_id": "t3_1c2alax",
+      "parent_id": "t1_kz9gxwj"
+    },
+    {
+      "id": "kxto87a",
+      "body": "why do u report ur ethnicity 👀\nregarding ur question, it’s really competitive since the admission to the master is already pretty competitive, imagine an offer where u are paid to study and u have a granted admission to a phd position😅",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1712131539,
+      "score": 2,
+      "link_id": "t3_1bu3r2m",
+      "parent_id": "t3_1bu3r2m"
+    },
+    {
+      "id": "kxthvdn",
+      "body": "What a valuable comment, love this sub 😂",
+      "author": "Deet98",
+      "subreddit": "Techno",
+      "created_utc": 1712126843,
+      "score": 1,
+      "link_id": "t3_1btx5a9",
+      "parent_id": "t1_kxqlnbg"
+    },
+    {
+      "id": "kxth2nr",
+      "body": "It’s not worshipping, it’s called human decency which is sth that lacks in this sub. I don’t comment posts where I dislike the music, I just mind my own business and if I have to say sth valuable I respectfully comment. Here everyone dislikes anything that is labeled as hard so I kinda expected dislikes and comments like urs.",
+      "author": "Deet98",
+      "subreddit": "Techno",
+      "created_utc": 1712126279,
+      "score": 1,
+      "link_id": "t3_1btx5a9",
+      "parent_id": "t1_kxq4tar"
+    },
+    {
+      "id": "kxpzmvd",
+      "body": "this is not what you wrote, ur comment was disrespectful in the first place and probably made to receive a bunch of likes. I stop the argument because I see that u are only trying to turn tables.",
+      "author": "Deet98",
+      "subreddit": "Techno",
+      "created_utc": 1712076749,
+      "score": 0,
+      "link_id": "t3_1btx5a9",
+      "parent_id": "t1_kxpyqs1"
+    },
+    {
+      "id": "kxpxvfo",
+      "body": "Hard techno kick sound design is a bit simpler compared to the hardcore one, but since u understand u should respect the artists that made the above tracks.",
+      "author": "Deet98",
+      "subreddit": "Techno",
+      "created_utc": 1712076171,
+      "score": 1,
+      "link_id": "t3_1btx5a9",
+      "parent_id": "t1_kxpwqoa"
+    },
+    {
+      "id": "kxpvwav",
+      "body": "Yeah laugh to what led to a genre that will never die and has a huge fan base, the sound design behind these tracks is insane but u probably are not fully aware how that music is made so I understand, don’t worry 🫶🏻",
+      "author": "Deet98",
+      "subreddit": "Techno",
+      "created_utc": 1712075516,
+      "score": -4,
+      "link_id": "t3_1btx5a9",
+      "parent_id": "t1_kxp3ytu"
+    },
+    {
+      "id": "kwm63f8",
+      "body": "Organization is much more important than how much you study, if that routines works for you why are you questioning it? try sth different if u prefer more time off and u’ll see if it pays off.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1711442771,
+      "score": 2,
+      "link_id": "t3_1bneefa",
+      "parent_id": "t3_1bneefa"
+    },
+    {
+      "id": "kvvgaz2",
+      "body": "Alternatives are topological data analysis algorithms.",
+      "author": "Deet98",
+      "subreddit": "MachineLearning",
+      "created_utc": 1711020551,
+      "score": 1,
+      "link_id": "t3_1bk2lu2",
+      "parent_id": "t1_kvv7p5l"
+    },
+    {
+      "id": "kvvezaf",
+      "body": "Yeah I don’t know what’s their metric because there are courses which are way worse. For people that haven’t studied a bit of theoretical CS it might be tricky though.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1711019819,
+      "score": 2,
+      "link_id": "t3_1bjmdjt",
+      "parent_id": "t1_kvv64cb"
+    },
+    {
+      "id": "kvuz2zm",
+      "body": "I agree, NLP is a really nice course that also teaches some CS fundamentals if you have never encountered those topics (e.g. Dijkstra and DP, but in a general way with the notion of semirings). The assignments teach you how to write mathematical/algorithmic proofs. Overall you learn a lot of stuff but don’t expect to spend an entire semester talking about transformers and LLMs. As Ryan says at the beginning of the course he will teach his students the core algorithms of the field (like CKY for example).",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1711008792,
+      "score": 1,
+      "link_id": "t3_1bjmdjt",
+      "parent_id": "t1_kvsvrb7"
+    },
+    {
+      "id": "kv74lss",
+      "body": "Everything but theoretical CS and machine intelligence. I have seen people struggling in courses that are from those majors, but not with the other ones (a part from some exceptions of course, especially some courses in the security major).  \nRegarding your questions depends, I struggled in studying Big Data because there were so many concepts to learn by heart, while some ML courses where mostly understanding the math behind it and I was better with that.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1710626488,
+      "score": 3,
+      "link_id": "t3_1bgf2a8",
+      "parent_id": "t3_1bgf2a8"
+    },
+    {
+      "id": "kuyuhnt",
+      "body": "scusami ma guardando il piano di studi è tutto tranne che una laurea in informatica. Non è elegante attribuirsi titoli che non si possiedono…",
+      "author": "Deet98",
+      "subreddit": "ItalyInformatica",
+      "created_utc": 1710495128,
+      "score": 1,
+      "link_id": "t3_1bf8b6k",
+      "parent_id": "t1_kuystpq"
+    },
+    {
+      "id": "kug80dw",
+      "body": "Go for one year and start working, imho there’s no point in switching if you are already attending one of the most previous school in the world.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1710202817,
+      "score": 12,
+      "link_id": "t3_1bcg763",
+      "parent_id": "t3_1bcg763"
+    },
+    {
+      "id": "ku39vsq",
+      "body": "Really sorry to hear this. I went through sth similar at my previous university where me and other people created a community on Telegram. Some people couldn’t stand the rules and they created a war out of nowhere. Unfortunately these people are the ones who should get treatment, if their life wasn’t miserable they wouldn’t spend all day hating online. \nI would recommend focusing on you career, you have done enough and most people will be thankful for the rest of your life. The other people will hardly change and they will face bad consequences when they are out of that uni bubble that protects them.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1710002384,
+      "score": 11,
+      "link_id": "t3_1balk4c",
+      "parent_id": "t3_1balk4c"
+    },
+    {
+      "id": "ktr5pxx",
+      "body": "I don’t get the question. It depends on how much you are willing to spend. If u have a budget of 2k per month u can easily find sth 5 mins by walk. If the budget is below 1k like most of the other students, then u will have to commute at least 20 mins by public transport…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1709812466,
+      "score": 1,
+      "link_id": "t3_1b8scxl",
+      "parent_id": "t3_1b8scxl"
+    },
+    {
+      "id": "ktqrsiy",
+      "body": "Everyone saying Switzerland is the best career-wise, but they actually mean Zurich which, in the end, it is too small and the job hunting here is really competitive nowadays. I did my masters, met 0 swiss friends there, but nightlife is decent and through my passion for music I met a bunch of swiss friends.  \nI would probably move out once I have enough experience but the salaries are too competitive compared to other countries. What I feel like from the other commenters is that most people here expect other people to initiate contact, but in reality if there are 0 interests in common, it becomes almost impossible to find friends/partners. Instead of ranting I would try to pick up new activities that are not necessarily tech related…",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1709803003,
+      "score": 7,
+      "link_id": "t3_1b800wk",
+      "parent_id": "t3_1b800wk"
+    },
+    {
+      "id": "ktqqmya",
+      "body": "Facts, while reading the other comments I understand that most of the other opinions come from a 10 min video on youtube.",
+      "author": "Deet98",
+      "subreddit": "cscareerquestionsEU",
+      "created_utc": 1709802146,
+      "score": 1,
+      "link_id": "t3_1b800wk",
+      "parent_id": "t1_ktnaxiv"
+    },
+    {
+      "id": "ktllgg5",
+      "body": "There is no hard cap because the average GPA of new graduates varies, which means that one year the threshold could be 5.3 and another year it could be 5.1.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1709728223,
+      "score": 1,
+      "link_id": "t3_1b624td",
+      "parent_id": "t1_ktll689"
+    },
+    {
+      "id": "kt9opb1",
+      "body": "Yes exactly, but u still have more chances coming from an ETH bachelor.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1709538185,
+      "score": 1,
+      "link_id": "t3_1b624td",
+      "parent_id": "t1_kt9ojha"
+    },
+    {
+      "id": "kt9og0w",
+      "body": "Of course, some masters just require u to have a bachelor from ETH. Other programs require to have a minimum GPA.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1709538005,
+      "score": 7,
+      "link_id": "t3_1b624td",
+      "parent_id": "t3_1b624td"
+    },
+    {
+      "id": "kt59m2o",
+      "body": "Always down to join hard techno and hardcore events. I’m 25 years old, I recently started working after graduating in CS and I produce hardcore. Maybe we share other similar interests!",
+      "author": "Deet98",
+      "subreddit": "zurich",
+      "created_utc": 1709473262,
+      "score": 1,
+      "link_id": "t3_1b4zmhx",
+      "parent_id": "t3_1b4zmhx"
+    },
+    {
+      "id": "krkt1sz",
+      "body": "I wouldn’t work on a project with someone who is not even able to forward an email to a colleague in the right way.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1708586758,
+      "score": 20,
+      "link_id": "t3_1awr0do",
+      "parent_id": "t3_1awr0do"
+    },
+    {
+      "id": "krggibe",
+      "body": "No free lunch theorem",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1708527758,
+      "score": 1,
+      "link_id": "t3_1aveklb",
+      "parent_id": "t1_krgcsyl"
+    },
+    {
+      "id": "kra5k8r",
+      "body": "You have free mensa on the same days where you paid in the previous semester",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1708431100,
+      "score": 1,
+      "link_id": "t3_1aveklb",
+      "parent_id": "t3_1aveklb"
+    },
+    {
+      "id": "kq9qrc5",
+      "body": "Getting a degree in a field u don’t like just for the money is like being in a relationship with an attractive person, but u actually like the opposite sex.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1707850003,
+      "score": 1,
+      "link_id": "t3_1aoz530",
+      "parent_id": "t3_1aoz530"
+    },
+    {
+      "id": "kq9n35o",
+      "body": "The main problem is that you are confusing computer science with software engineering. Is the first one useful for a career in the latter? no doubt, is it necessary? no…  \nI would suggest you to go to ZHAW if you find development more appealing, being excellent there is better than struggling and being depressed over sth you are not passionate about.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1707848776,
+      "score": 5,
+      "link_id": "t3_1apozp7",
+      "parent_id": "t3_1apozp7"
+    },
+    {
+      "id": "kpx9jch",
+      "body": "That’s true 🥲, but people usually take other exams to fix grades, the thesis is 30 ECTS and getting a 5.75/6 there is pretty easy. so it can fix for a bunch of bad exams. In other masters, especially the 90 ECTS one, you have a graded semester project, internship and thesis. The averages there are crazy, usually around 5.5.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1707656805,
+      "score": 1,
+      "link_id": "t3_1anypuv",
+      "parent_id": "t1_kpx8vi1"
+    },
+    {
+      "id": "kpx4fx2",
+      "body": "It’s really hard if you apply with just a good GPA. Publications are much more important, since they show that you are already capable of doing research and your interests. Moreover, GPAs of master students are generally pretty high since the exams are more self contained, the professors are not forced by the institution to write hard exams, people taking a specific exam are interested in the topic and they usually perform well.  \nFor reference the average GPA of this semester of the graduates in CS at ETH was 5.38 which is pretty high considering that a 5.5 is a 30 on the italian grading scale.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1707654058,
+      "score": 6,
+      "link_id": "t3_1anypuv",
+      "parent_id": "t3_1anypuv"
+    },
+    {
+      "id": "kpx3t5k",
+      "body": "I don’t think a good GPA is enough nowadays to get admitted for a PhD. There are plenty of people with at least a publication in a top conference.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1707653683,
+      "score": 3,
+      "link_id": "t3_1anypuv",
+      "parent_id": "t1_kpwl13h"
+    },
+    {
+      "id": "kpv5yv8",
+      "body": "Dopo i fischi molti hanno fatto apposta a votarlo, semplice.",
+      "author": "Deet98",
+      "subreddit": "italy",
+      "created_utc": 1707616108,
+      "score": 2,
+      "link_id": "t3_1ano82f",
+      "parent_id": "t1_kpv3vnv"
+    },
+    {
+      "id": "kpqx52a",
+      "body": "Le allucinazioni sono un bene in alcuni casi, perché aumentano la creatività del modello nel caso in cui si volesse generare un testo di una canzone per esempio. Ancora c’è molta ricerca in quell’ambito, ma sicuramente nei prossimi anni verrano perfezionati e magari verrà scoperto qualcosa di tanto importante quanto i transformers.",
+      "author": "Deet98",
+      "subreddit": "ItalyInformatica",
+      "created_utc": 1707543781,
+      "score": 1,
+      "link_id": "t3_1amsf77",
+      "parent_id": "t1_kpnxwh2"
+    },
+    {
+      "id": "kpqs7pa",
+      "body": "Se fossi informato un minimo, sapresti che l’AI esiste dagli anni 50 e la maggior parte dei modelli come regression o classifiers vengono usati in tantissimi ambiti (e funzionano decisamente bene, mai sentito parlare di Recommender Systems?). Facile giudicare sulla base dei nuovi modelli, come gli LLM, che ovviamente sono ancora in fase di perfezionamento. Solo quello che si è potuto fare dopo la rivoluzione delle GAN, VAE e Flow models dovrebbe stupirti abbastanza.",
+      "author": "Deet98",
+      "subreddit": "ItalyInformatica",
+      "created_utc": 1707541059,
+      "score": 2,
+      "link_id": "t3_1amsf77",
+      "parent_id": "t1_kpoj8n4"
+    },
+    {
+      "id": "kojfey8",
+      "body": "Hear the same things in the last 3 years for every peer that took the exam. Then I met them in March and they say they got 5 or even more. Just don’t think about it until you get the grade and even if you don’t pass you can always avoid it if you don’t feel like to retake the exam…",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1706845048,
+      "score": 2,
+      "link_id": "t3_1aga5r3",
+      "parent_id": "t3_1aga5r3"
+    },
+    {
+      "id": "kk381zi",
+      "body": "You make it sound like there can’t be a balance while I know people who can manage to have fun from time to time. Being relaxed and happy gives you better chances than studying relentlessly, since that strategy makes you too dependent on the outcome and if sth bad happens you just feel miserable.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1706525834,
+      "score": 3,
+      "link_id": "t3_1adfyqo",
+      "parent_id": "t1_kk35unh"
+    },
+    {
+      "id": "kk37i3e",
+      "body": "The city itself is not made for students. In my bachelor in Italy, me and other students used to grab a drink/coffee after the lectures since the prices were acceptable. We had places full of students where you basically could meet someone new every day. Here, instead, the only affordable bar close to uni is BQM which is always full of people and still prohibitive without a salary.  \nAnyway, ETH is also more difficult than most (if not all) unis and it’s better if we “sacrifice” some years of our lives to afford a better lifestyle afterwards, but I personally prefer to have a lower GPA and being satisfied in all aspects of my life.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1706525436,
+      "score": 22,
+      "link_id": "t3_1adfyqo",
+      "parent_id": "t1_kk2xq8s"
+    },
+    {
+      "id": "kk36ln4",
+      "body": "I guarantee you that there are ETH students partying, having full of hobbies and still being top of their class. However, the majority is the type of person you described and I believe it’s sad, but we are all different and that’s the beauty of life. Anyway, find you circle outside of ETH (as I did).  \nI prefer to grab a beer with someone studying or working on sth else rather than hearing the same things even when I just want to chill.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1706524772,
+      "score": 10,
+      "link_id": "t3_1adfyqo",
+      "parent_id": "t3_1adfyqo"
+    },
+    {
+      "id": "kgwhiqx",
+      "body": "There might be a polynomial time solution, as for now there isn’t.",
+      "author": "Deet98",
+      "subreddit": "computerscience",
+      "created_utc": 1704726021,
+      "score": 4,
+      "link_id": "t3_190yjnf",
+      "parent_id": "t1_kgvzd3d"
+    },
+    {
+      "id": "kfykr7u",
+      "body": "No I don’t know 🤷🏼‍♂️",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704190595,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfybpc7"
+    },
+    {
+      "id": "kfw842d",
+      "body": "Some colleagues from Comp Eng Polimi, they had sth close to 28 and they got rejected. I’m talking about 3 years ago, now it’s even worse due to the increasing competitiveness.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704148746,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfvqedd"
+    },
+    {
+      "id": "kfvpxxw",
+      "body": "Yeah, I’m just saying that I know people from Polimi with 27 who got rejected. Apply and good luck!",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704142169,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfvp3vl"
+    },
+    {
+      "id": "kfvlezf",
+      "body": "I was talking more about the GPA rather than other requirements. I don’t know much about the subject requirements for statistics.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704140580,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfvittw"
+    },
+    {
+      "id": "kfvh9mk",
+      "body": "Statistics is more theoretical for sure. It’s a direct branch of math and it may be a good option if you prefer academia. I know people from DS and most of them are now doing their PhD in ML but it’s not impossible to do the same coming from statistics. Choose based on courses, but as I said those two masters require excellent grades and your GPA and background are incompatible. I prefer to say the truth rather than giving you false hopes. Anyway, you should apply and see what happens if you believe it’s the best option for your career.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704139096,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfvfzhl"
+    },
+    {
+      "id": "kfvf7sn",
+      "body": "Data Scientist and ML engineer are quite different. The first one is an umbrella term that could even mean using Excel. The second is just a software engineer specialized in implementing ML pipelines.\nMost of the graduates end up doing some sort of data science/ data analysis/ business analyst, while ML engineer are a few and they are highly skilled software engineers. I really don’t know what’s best for you, but if your end goal is to work at google you should invest your time in other projects outside of uni.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704138362,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfve717"
+    },
+    {
+      "id": "kfvd7dq",
+      "body": "Because mech eng at ETH is quite different. I have a close friend who did his bachelor in mech eng at ETH and he did way more CS courses than someone who did the same bachelor at Polimi.  \nAs I said before, to be accepted coming from another background you have to be really excellent. In fact, he had a GPA > 5.25 but in the e end he chose statistics.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704137640,
+      "score": 2,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfv8nax"
+    },
+    {
+      "id": "kfv7rs7",
+      "body": "They are not relevant if you lack some foundations like you mentioned. EPFL might be different but I would bet the requirements are similar.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704135703,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfv77ps"
+    },
+    {
+      "id": "kfv5s3w",
+      "body": "I did my bachelor at Polimi and I know people who got rejected with a higher GPA than you.  \nAnyway, the real issue is that you are applying to Data Science which is very competitive even for Computer Engineering students.",
+      "author": "Deet98",
+      "subreddit": "ethz",
+      "created_utc": 1704134992,
+      "score": 1,
+      "link_id": "t3_18vum3h",
+      "parent_id": "t1_kfuxz2t"
+    }
+  ]
+}

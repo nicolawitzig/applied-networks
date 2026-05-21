@@ -1,0 +1,158 @@
+{
+  "username": "PJannis",
+  "posts": [
+    {
+      "id": "1dud9b1",
+      "title": "A UV-finite Formulation of QFT?",
+      "author": "PJannis",
+      "subreddit": "u_PJannis",
+      "created_utc": 1720010111,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://jannisn.github.io/QuantumFields/pdfs/qft_reformulation.pdf"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3en1yw",
+      "body": "Ich war in der gleichen Situation und musste auch die vollständige machen. Ist auf jeden Fall machbar mit guter Vorbereitung, aber die Erfolgsrate ist nicht gerade hoch(50 von 125 haben damals bestanden). Dabei haben ca. 20 die vollständige gemacht, die anderen ~100 die reduzierte(dies waren in der tat fast alle deutsche).",
+      "author": "PJannis",
+      "subreddit": "ethz",
+      "created_utc": 1734938516,
+      "score": 4,
+      "link_id": "t3_1hk7jpl",
+      "parent_id": "t1_m3emi8g"
+    },
+    {
+      "id": "m3eiofz",
+      "body": "Nein, du musst die vollständige Aufnahmeprüfung machen, egal ob Berufsmatur oder nicht.",
+      "author": "PJannis",
+      "subreddit": "ethz",
+      "created_utc": 1734935722,
+      "score": 3,
+      "link_id": "t3_1hk7jpl",
+      "parent_id": "t3_1hk7jpl"
+    },
+    {
+      "id": "m36496d",
+      "body": "You don't need that third reference frame. It's actually really simple: The frame of the twin on earth is inertial, the frame of the traveling twin is not, because their frame is accelerated when the spaceship is accelerating. To analyse the situation from the traveling frame you would have to do a continuous Lorentz transformation during the acceleration part.\n\n\nThe question may then be what determines what frame is accelerating and what frame is not. This depends on the spacetime metric which is determined by general relativity. In fact, an inertial reference frame only exists if spacetime is flat.",
+      "author": "PJannis",
+      "subreddit": "AskPhysics",
+      "created_utc": 1734805336,
+      "score": 1,
+      "link_id": "t3_1hjdr41",
+      "parent_id": "t1_m35rrj4"
+    },
+    {
+      "id": "lgf4al5",
+      "body": "If you need a tablet just for note taking and reading I would recommend an e-ink display tablet, the one I use is an Onyx air 3c. It's much better for writing than an ordinary tablet, the battery lasts way longer, and reading is much more comfortable than it is on an LED screen, especially at daylight and in the dark.",
+      "author": "PJannis",
+      "subreddit": "ethz",
+      "created_utc": 1722755291,
+      "score": 1,
+      "link_id": "t3_1eizvig",
+      "parent_id": "t3_1eizvig"
+    },
+    {
+      "id": "lfb9cmm",
+      "body": "You have to be very careful with applying formulas for Minkowski spacetime to this case. Lorentz transforms are just coordinate transformations, and in this case the spacetime is topologically non-trivial. So if you try to apply a usual Lorentz transform you turn a circle(a path that wraps around space once) into a spiral(wraps around space infinitely often, as a function of the previous time coordinate).",
+      "author": "PJannis",
+      "subreddit": "AskPhysics",
+      "created_utc": 1722157232,
+      "score": 1,
+      "link_id": "t3_1edl0rf",
+      "parent_id": "t1_lf95sbm"
+    },
+    {
+      "id": "lanjzq9",
+      "body": "They do spin, take a look at the Dirac equation. However, they don't spin like a vector but as a spinor. Spinor space can be somewhat thought of as the square root of the familiar vector space.",
+      "author": "PJannis",
+      "subreddit": "AskPhysics",
+      "created_utc": 1719565409,
+      "score": 2,
+      "link_id": "t3_1dpsgad",
+      "parent_id": "t3_1dpsgad"
+    },
+    {
+      "id": "lajydk3",
+      "body": "Free gluons dont actually exist to my knowledge, so it doesn't make much sense to talk about its mass. But at least they have no mass term in the Lagrangian, so from this perspective they have no mass.\n\n\nHowever, bound gluons do contribute to the mass of other particles, e.g. to protons or glueballs(this one consists of gluons only)",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1719510130,
+      "score": 1,
+      "link_id": "t3_1dpvrn4",
+      "parent_id": "t3_1dpvrn4"
+    },
+    {
+      "id": "l8rergc",
+      "body": "Not according to your post history",
+      "author": "PJannis",
+      "subreddit": "HypotheticalPhysics",
+      "created_utc": 1718479374,
+      "score": 2,
+      "link_id": "t3_1dg402b",
+      "parent_id": "t1_l8pz75y"
+    },
+    {
+      "id": "l5gef89",
+      "body": "I'm glad that I could help :)",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1716549376,
+      "score": 1,
+      "link_id": "t3_1czgdds",
+      "parent_id": "t1_l5ge9l9"
+    },
+    {
+      "id": "l5ge0d4",
+      "body": "Because of the difference of air pressure at different heights(that's also what's making the vapor rise in the first place).\n\n\nBasically the energy required for the expansion(the first part, turning water into vapor) is the same as the energy you would get back from the compression(letting the vapor condensate) IF both processes happen at the same height/air pressure. At the ground the air pressure is higher, so the expansion takes more energy than what you would get back 100m higher up through compression. You can think of this like breathing under water through some tube, where breathing in is much more exhausting due to the weight of the water.",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1716549148,
+      "score": 1,
+      "link_id": "t3_1czgdds",
+      "parent_id": "t1_l5gbcod"
+    },
+    {
+      "id": "l5gb1uk",
+      "body": "The vapor condencing is the compression. It does happen on its own of course, and you can get the energy back during this process(minus the potential energy from the 100 meters of course).",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1716547407,
+      "score": 2,
+      "link_id": "t3_1czgdds",
+      "parent_id": "t1_l5g8hzt"
+    },
+    {
+      "id": "l5g5ihi",
+      "body": "You won't get the 100kj back up there. Ignoring temperature, the energy gain from compressing the vapor into a liquid again is less than what you put into it in the first place. This is because the pressure higher up is lower, which compensates the 100 meters excactly.",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1716543660,
+      "score": 3,
+      "link_id": "t3_1czgdds",
+      "parent_id": "t3_1czgdds"
+    },
+    {
+      "id": "kqej8lb",
+      "body": "You are correct, this is what the Schrödinger equation predicts if it's applied to macroscopic systems as a whole(also to the entire universe).",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1707928269,
+      "score": 4,
+      "link_id": "t3_1aqqe9z",
+      "parent_id": "t3_1aqqe9z"
+    },
+    {
+      "id": "kh7cc6e",
+      "body": "Gravitons appear when we describe gravity perturbatively, which effectively means that we describe gravity as just another force instead of using a non-perturbative(e.g. loop quantum gravity)",
+      "author": "PJannis",
+      "subreddit": "Physics",
+      "created_utc": 1704893432,
+      "score": 13,
+      "link_id": "t3_1937j5n",
+      "parent_id": "t1_kh7b05i"
+    }
+  ]
+}

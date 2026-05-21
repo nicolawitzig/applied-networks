@@ -1,0 +1,1090 @@
+{
+  "username": "Hungry-Finding2360",
+  "posts": [
+    {
+      "id": "1gvooz3",
+      "title": "In what order should I apply the following?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Skincare_Addiction",
+      "created_utc": 1732106821,
+      "score": 6,
+      "num_comments": 8,
+      "selftext": "I usually do either the CeraVe retinol or the essence serum, not both. The essence serum on the right contains AHA and PHA.\n\nThanks in advance!",
+      "url": "https://i.redd.it/46pth4xuy12e1.jpeg"
+    },
+    {
+      "id": "1gf1na7",
+      "title": "[R] Bayesian Nonparametrics - Master Thesis Proposal",
+      "author": "Hungry-Finding2360",
+      "subreddit": "MachineLearning",
+      "created_utc": 1730226347,
+      "score": 5,
+      "num_comments": 8,
+      "selftext": "Hi everyone,\n\nI’m starting planning my Master’s thesis in my Data Science and ML program and could really use some advice on narrowing down my topic. My undergrad thesis was on Bayesian nonparametrics, covering concepts like Dirichlet processes, hierarchical Dirichlet processes, dependent Dirichlet processes, HDP topic models, and Gaussian process regression. Out of everything, I really enjoyed implementing (albeit straightforward) applications of HDP topic modeling—getting hands on was a highlight for me.\n\nFor my Master’s, I’m hoping to build on this Bayesian foundation but apply it to something new, ideally in time series analysis or NLP. I want the topic to feel relevant to the field right now and would love suggestions on where Bayesian nonparametrics might add unique value, especially in practical-relevant applications.\n\nOne important thing to note is that I’ll be doing most of this work independently, as my department and supervisor aren't particularly relevant to my chosen areas of interest.\n\nIf anyone has thoughts on specific areas in NLP or time series that could benefit from a Bayesian approach, or if there are other areas where the Bayesian framework could be effectively utilized, I’d be incredibly grateful for your insights. Thanks so much for any guidance or ideas!\n\n",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1gf1na7/r_bayesian_nonparametrics_master_thesis_proposal/"
+    },
+    {
+      "id": "1fdnrhk",
+      "title": "Καθηγητές ιδιαιτέρων (θετικά μαθήματα) του r/greece, βοήθεια.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1725989717,
+      "score": 3,
+      "num_comments": 9,
+      "selftext": "Θα κάνω για πρώτη φορά ιδιαίτερα θετικών μαθημάτων (άλγεβρα-γεωμετρία, χημεία, φυσική) σε παιδί α' λυκείου. Από την εμπειρία σας, ποια είναι η βέλτιστη κατανομή ωρών σε κάθε μάθημα; Πρόκειται για παιδί όχι και πολύ δυνατό στα μαθήματα αυτά (ίσα ίσα να περάσει την τάξη, δηλαδή). Σκέφτομαι να προμηθευτώ ένα βοήθημα σε κάθε μάθημα και να το έχω σαν μπούσουλα, για να μην βομβαρδίσω το παιδί με σκόρπιο υλικό που μπορεί να βρω από εδώ και από εκεί (σε αυτήν την περίπτωση, πρέπει να βγάζω φωτοτυπίες και να του τις δίνω, σωστά;)\n\nΤέλος, ποια είναι μια standard τιμή/ώρα (Αθήνα); Είμαι πτυχιούχος όμως δεν έχω πρότερη εμπειρία σε ιδιαίτερα.\n\nΕυχαριστώ εκ των προτέρων!",
+      "url": "https://www.reddit.com/r/greece/comments/1fdnrhk/καθηγητές_ιδιαιτέρων_θετικά_μαθήματα_του_rgreece/"
+    },
+    {
+      "id": "1f98qis",
+      "title": "[S] [Q] \"dirichletprocess\" Package in R",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1725494835,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Hi everyone,\n\nI've been working with the `dirichletprocess` package in R, specifically trying to recreate the example shown in the  where they cluster the eruptions in the Old Faithful dataset. However, I've run into a few issues, and I'm curious if anyone else has experienced the same concerns.\n\nThe number of clusters in this package is defined as the number of clusters in the last iteration of the MCMC routine. In my experience, this feels a bit counterproductive. I've noticed that the traceplot of the number of clusters oscillates a lot, and because of this, the last value could be anywhere between 2 and 5 clusters. This variability makes the final result somewhat arbitrary. \n\nIn the vignette, they conveniently avoid showing any traceplots, only the final clustering result with 2 (correct) clusters. But if you run the same code, you can sometimes end up with 3 clusters, where one of them has just one or two points, which is expected due to the random nature in the sampling process. However, it raises the question: how reliable is the last iteration as an indicator of the true number of clusters? Why would the author make this choice?\n\nIn my case, I am using a Gamma(1,1) prior for the concentration parameter α. The traceplots I get show the number of clusters oscillating quite a bit, with an average of around 2.31 clusters. Even using the default prior configuration gives similar results, which seems unstable. I would expect the model to more consistently detect 2 clusters, but that doesn't seem to be happening, even when using 2000 iterations.\n\nHas anyone dealt with a similar issue or found a way to make the results more stable? \n\nThanks in advance.",
+      "url": "https://www.reddit.com/r/statistics/comments/1f98qis/s_q_dirichletprocess_package_in_r/"
+    },
+    {
+      "id": "1em9q21",
+      "title": "Ερώτηση για πιστωτικές κάρτες",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1723031376,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/greece/comments/1em9q21/ερώτηση_για_πιστωτικές_κάρτες/"
+    },
+    {
+      "id": "1eknshi",
+      "title": "\"Pheromone\" testers - knockoffs?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722864524,
+      "score": 2,
+      "num_comments": 4,
+      "selftext": "I'm browsing Vinted's (in case you're not familiar, it's a second hand shopping app like depop) perfume section and I'm coming across various \"pheromone\" testers (45ml) that look like knockoffs, mostly from Romanian vendors. Does anyone know anything about them? Would it be worth the 5 euros? I'm mostly interested in resemblance to the original perfume and not longevity!",
+      "url": "https://i.redd.it/2ymghaxrkugd1.jpeg"
+    },
+    {
+      "id": "1eib5oe",
+      "title": "My collection - Recommendations for more \"mature\" scents?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722608148,
+      "score": 9,
+      "num_comments": 17,
+      "selftext": "Here are some of my current (and all-time) favorite perfumes. Libre Intense is my top pick, but I'm looking to step out of my sweet-vanilla comfort zone and explore more \"mature\" scents. I think of something like Narciso Rodriguez for Her (the black bottle) as fitting this category. Any recommendations would be helpful! Preferably not too niche, as my budget is limited and some of the perfumes in my collection are dupes. Also, if it is helpful I am in my early 20s. Finally, I'll be visiting ZARA soon to pick up an online order, so any Zara recommendations from the current collection would be great! \n\nMy collection includes the following:\n\nYSL-Libre Intense\n\nBurberry - Goddess\n\nZadig and Voltaire - This is Her\n\nZARA - Fields at Nightfall\n\nMontblanc - Signature\n\nTom Ford - Lost Cherry\n\nMaison Francis Kurkdijan - Baccarat Rouge 540\n\nNarciso Rodriguez - Narciso Rodriguez for her\n\nThanks in advance!",
+      "url": "https://www.reddit.com/r/FemFragLab/comments/1eib5oe/my_collection_recommendations_for_more_mature/"
+    },
+    {
+      "id": "1ehz6nm",
+      "title": "Διαρρήξεις",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722566658,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "Τις τελευταίες μέρες έχω αρχίσει να νιώθω μια παράνοια ότι θα μπει κάποιος στο σπίτι ενώ είμαι μέσα εγώ ή η οικογένειά μου. Δεν υπάρχει κάποιος συγκεκριμένο λόγος να το σκέφτομαι αυτό, αλλά έτυχε να μείνω μόνη για μερικές μέρες (κάτι που σπάνια συμβαίνει) και τότε άρχισαν να μου μπαίνουν αυτές οι σκέψεις. Ακόμα και τώρα που το γράφω φοβάμαι μην το κάνω manifest με κάποιο τρόπο.  \n  \nΣτο υποθετικό σενάριο που κάποιος προσπαθεί να παραβιάσει την πόρτα ή την μπαλκονόπορτα και τον καταλάβουμε, τι κάνουμε; Ή ακόμα χειρότερα, αν π.χ. είναι στην κουζίνα και ξαφνικά πάω στο δωμάτιό μου και δω κάποιον εκεί, πώς αντιδρώ; Έχω ακούσει ότι οι διαρρήκτες συνήθως τρέπονται σε φυγή αν καταλάβουν ότι κάποιος είναι μέσα στο σπίτι. Ισχύει αυτό;  \n  \nΓενικά, το σπίτι δεν μένει σχεδόν ποτέ εντελώς άδειο ή κλειστό και δεν έχουμε και τίποτα πολύτιμο για να κλέψουν. Έχω ακούσει επίσης ότι οι επίδοξοι διαρρηκτες συνήθως παρακολουθούν το σπίτι πριν επιχειρήσουν να το ληστέψουν, ή και το μαρκάρουν με κάποιο τρόπο.  \n  \nΑν έχει κάποια σημασία, μένω σε (ψηλό) πρώτο όροφο στον οποίο δε βλέπω λογικό να μπορεί να σκαρφαλώσει κάποιος από την μπροστινή όψη, και η πίσω όψη βλέπει σε ακάλυπτο που έχει όμως δύσκολη πρόσβαση. Όμως οι πόρτες δυστυχώς δεν είναι ασφαλείας και τα παντζούρια είναι παλιά  :(",
+      "url": "https://www.reddit.com/r/greece/comments/1ehz6nm/διαρρήξεις/"
+    },
+    {
+      "id": "1ehy5v1",
+      "title": "Διαρρήξεις ",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722563553,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/greece/comments/1ehy5v1/διαρρήξεις/"
+    },
+    {
+      "id": "1efqobp",
+      "title": "My collection - any recommendations?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Perfumes",
+      "created_utc": 1722338024,
+      "score": 4,
+      "num_comments": 6,
+      "selftext": "https://preview.redd.it/vl96b0u63nfd1.png?width=1857&format=png&auto=webp&s=d7707cacdf3a97bcc612af2d59af9088e2739f99\n\nHere are some of my current (and all-time) favorite perfumes. Libre Intense is my top pick, but I'm looking to step out of my sweet-vanilla comfort zone and explore more \"mature\" scents. I think of something like Narciso Rodriguez for Her (the black bottle) as fitting this category. Any recommendations would be helpful! Preferably not too niche, as my budget is limited and some of the perfumes in my collection are dupes. Thanks in advance!",
+      "url": "https://www.reddit.com/r/Perfumes/comments/1efqobp/my_collection_any_recommendations/"
+    },
+    {
+      "id": "1eb24xu",
+      "title": "[S] [R] Dependent Dirichlet Process (DDP)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1721829450,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Hey everyone,\n\nI've been reading into Dependent Dirichlet Processes (DDPs) as introduced by MacEachern (1999), as a part of my undergraduate thesis and I've hit a bit of a roadblock. I understand the theoretical difference between single-p and single-atom DDPs, but I'm struggling to grasp where their applications differ and how I can visually showcase this difference.\n\nFrom what I gather:\n\n* **Single-P DDP**: Uses a common base measure that varies over time or space, but maintains some shared structure.\n* **Single-Atom DDP**: Uses a common set of atoms (or clusters) across time or space, with weights that vary.\n\nWhile I get the definitions and construction, I'm having a hard time understanding how this translates into practical applications. Are there specific scenarios where one is more advantageous than the other? Also, and most importantly, if I wanted to plot draws from each to highlight their differences visually, what would be the best approach?  \n\n\nAny insights or examples would be greatly appreciated! Thanks in advance for your help!",
+      "url": "https://www.reddit.com/r/statistics/comments/1eb24xu/s_r_dependent_dirichlet_process_ddp/"
+    },
+    {
+      "id": "1dyo4tf",
+      "title": "[Q] [R] Dirichlet Prior hyperparameters for DPMM",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1720482903,
+      "score": 4,
+      "num_comments": 0,
+      "selftext": "Hi everyone! I am trying to apply a DPMM approach to a topic modelling problem (group newspaper articles by topic). My modelling approach is the following: \nπ ∼ GEM (α)\nzi ∼ π\nθk ∼ Dir(β)\nxi ∼ M ultinomial(θ_{z_i} )\n \nwhere \n\nπ (Mixing Proportions): Determines the likelihood of each cluster being selected.\n\nz_i  (Cluster Assignments): Assigns each document to a cluster based on \n\n​\nθ_k  (Cluster Parameters): Models the word distributions for each cluster using a Dirichlet prior\n\nx_i  (Data Generation): Represents the generation of words in each document according to the multinomial distribution defined by the assigned cluster's parameters.\n\nI am  bit confused as to what the appropriate selection for the Dirichlet prior's hyperparameter is. Would Dir(1,1,...,1) work as a non-informative prior? In a MATLAB project I found online, the author chose Dir(dd/aa,.../dd/aa) as the prior, where aa is the total number of words and dd was chosen as 5000 (without an explcit reasoning). Any advice would be helpful!",
+      "url": "https://www.reddit.com/r/statistics/comments/1dyo4tf/q_r_dirichlet_prior_hyperparameters_for_dpmm/"
+    },
+    {
+      "id": "1dyo3xp",
+      "title": "Hyperparameters for Dirichlet Prior in a DPMM",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1720482839,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/statistics/comments/1dyo3xp/hyperparameters_for_dirichlet_prior_in_a_dpmm/"
+    },
+    {
+      "id": "1dyh4jw",
+      "title": "Was I scammed? Canon EOS 4000d",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720465546,
+      "score": 1,
+      "num_comments": 15,
+      "selftext": "Hi everyone! I just received a used Canon EOS 4000d that I bought online to start my journey in amateur photography. Unfortunately, I am having some issues and I am not sure if I am doing something wrong.  \n  \nFirstly, the screen seems to freeze when in live view mode, when trying to select the AF points. Even when turning the device off, it's still stuck there and won't unfreeze unless I remove the battery.  \n  \nSecond, the viewfinder seems very dark and the camera can't seem to focus. As a result, I have only managed to get only one extremely under exposed photo, since pressing the shutter photo doesn't actually result in the picture being taken.  \n  \nAlso, as far as I can see, the aperture seems very narrow and won't widen more (see attached)  \n  \nExcuse any mistakes in terminology as I am still a newbie. I would like to know if there's something I might be doing wrong or if I should try to return the camera and get a refund.  \n  \nThanks in advance.",
+      "url": "https://www.reddit.com/r/canon/comments/1dyh4jw/was_i_scammed_canon_eos_4000d/"
+    },
+    {
+      "id": "1dyh2z0",
+      "title": "Was I scammed? Canon EOS 4000",
+      "author": "Hungry-Finding2360",
+      "subreddit": "photography",
+      "created_utc": 1720465442,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/photography/comments/1dyh2z0/was_i_scammed_canon_eos_4000/"
+    },
+    {
+      "id": "1djwte0",
+      "title": "[Q] [R] Bayesian Nonparametrics Resources",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1718838355,
+      "score": 6,
+      "num_comments": 2,
+      "selftext": "Hey everyone,  \n  \nI'm currently working on my graduate thesis about Bayesian Nonparametrics and I'm in need of resources that balance both theory and practical applications, particularly in machine learning. I'm still getting a grip on the theoretical aspects, so I’m looking for something that’s accessible but thorough.  \n  \nI have already finished the first introductory chapter as well as a second chapter on the theory of DPMMs, but would like to include an application as well. I am still figuring out the structure of the thesis so I'm not sure what chapter should naturally be the next.  \n  \nIf anyone has self-studied Bayesian Nonparametrics or used it in projects, I’d love to hear your recommendations for:  \n  \n1. Books or papers that provide a good mix of theory and practical examples.  \n2. Case studies or examples of Bayesian Nonparametrics applied in machine learning.  \n3. Tutorials that include hands-on coding.  \n4. Any personal experiences or insights you might have that could help, especially if you have worked with such methods?  \n  \nThanks in advance.",
+      "url": "https://www.reddit.com/r/statistics/comments/1djwte0/q_r_bayesian_nonparametrics_resources/"
+    },
+    {
+      "id": "1djwql7",
+      "title": "Resources on Bayesian Nonparametrics ",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1718838145,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/statistics/comments/1djwql7/resources_on_bayesian_nonparametrics/"
+    },
+    {
+      "id": "1d396gv",
+      "title": "Μαμαδό-vloggers",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716979477,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Τι γίνεται ρε παιδιά-καινούριο είναι αυτό με όλες τις \"μανούλες\" που εκθέτουν τα ανήλικα παιδιά τους στο youtube για λίγο clout; Παλαιότερα ήταν 2-3 στην ελλάδα αλλά πια κάθε κοπέλα της διπλανής πόρτας ανοίγει κανάλι και μοστράρει τα μούλικα της. ",
+      "url": "https://www.reddit.com/r/greece/comments/1d396gv/μαμαδόvloggers/"
+    },
+    {
+      "id": "1cyfuut",
+      "title": "Υποτροφίες για μεταπτυχιακό από ιδρύματα - Συνέντευξη",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716424275,
+      "score": 4,
+      "num_comments": 3,
+      "selftext": "Έχει κάποιος εμπειρία από συνεντέυξεις για υποτροφία μεταπτυχιακού από ελληνικά ιδρύματα; Αναφέρομαι π.χ στο Μποδοσάκη/Λάτση κλπ και όχι στο ΙΚΥ. Ψάχνουν να ακούσουν κάτι συγκεκριμένο, ή είναι απλά για να σε \"κόψουν\"; ",
+      "url": "https://www.reddit.com/r/greece/comments/1cyfuut/υποτροφίες_για_μεταπτυχιακό_από_ιδρύματα/"
+    },
+    {
+      "id": "1cxx8pw",
+      "title": "Υποτροφίες Ιδρυμάτων για μεταπτυχιακά - Συνεντεύξεις",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716374772,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/greece/comments/1cxx8pw/υποτροφίες_ιδρυμάτων_για_μεταπτυχιακά_συνεντεύξεις/"
+    },
+    {
+      "id": "1b91zcc",
+      "title": "Estimating mixture model group proportions by minimization of KL divergence",
+      "author": "Hungry-Finding2360",
+      "subreddit": "AskStatistics",
+      "created_utc": 1709836497,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": " Hi everyone,\n\nI'm working on a project where I need to minimize the relative entropy (Kullback-Leibler divergence) between an empirical distribution derived from synthetic data and a theoretical distribution determined by a set of parameters (group proportions in a mixture model). The goal is to estimate the group proportions that best match the observed data. This is a constrained optimization problem, as the proportions sum to 1 and each proportion must be within \\[0, 1\\]. The number of groups in my specific set up is 12, but could be larger as well.\n\nI've been using Python for this task, specifically the minimize function from scipy.optimize with the SLSQP method. However, I'm facing issues with properly handling the constraints and ensuring that the solution respects the probabilistic nature of the proportions. Some optimization runs result in one or more proportions being pushed to the boundary values (0 or 1), which is suboptimal and potentially indicative of not exploring the solution space effectively. By the way, I have already implemented EM and have got satisfactory results with that (as expected), but the nature of my project requires me to explore more methods.\n\nI'm looking for advice on alternative optimization methods or techniques that could be more suitable for this kind of problem, especially those that can handle the simplex constraint (proportions summing to 1) more naturally or provide a more robust exploration of the solution space. Any suggestions or insights into handling this type of optimization problem would be greatly appreciated!\n\nThank you!",
+      "url": "https://www.reddit.com/r/AskStatistics/comments/1b91zcc/estimating_mixture_model_group_proportions_by/"
+    },
+    {
+      "id": "1b91xs9",
+      "title": "[Q] [S] Estimating mixture model group proportions by minimization of KL divergence",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1709836393,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/statistics/comments/1b91xs9/q_s_estimating_mixture_model_group_proportions_by/"
+    },
+    {
+      "id": "1b44dic",
+      "title": "ETH Zurich - Data Science / Statistics MSc",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709324406,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "Has anyone heard back from ETHZ, specifically DS or Statistics? I was hoping for an email today (had a strange feeling...) but I guess we have to wait until Monday now.",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1b44dic/eth_zurich_data_science_statistics_msc/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lyb3n7p",
+      "body": "Αν σπουδάζεις στο ΕΜΠ, υπάρχει ένας νέος θεσμός (συνήγορος του φοιτητή) στον οποίο μπορείς να κάνεις καταγγελία. Είναι άκρως ανάρμοστη και αντιπαιδαγωγική η συμπεριφορά της καθηγήτριας σου . Ενδεχομένως να υπάρχει αντίστοιχος θεσμός και σε άλλα πανεπιστήμια, ψαξτο!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1732222974,
+      "score": 5,
+      "link_id": "t3_1gwma84",
+      "parent_id": "t3_1gwma84"
+    },
+    {
+      "id": "ly3du6s",
+      "body": "Got it, thanks !",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Skincare_Addiction",
+      "created_utc": 1732108372,
+      "score": 2,
+      "link_id": "t3_1gvooz3",
+      "parent_id": "t1_ly3cx5y"
+    },
+    {
+      "id": "ly3dt1e",
+      "body": "Thank you so much!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Skincare_Addiction",
+      "created_utc": 1732108359,
+      "score": 1,
+      "link_id": "t3_1gvooz3",
+      "parent_id": "t1_ly3csxe"
+    },
+    {
+      "id": "lxs3nol",
+      "body": "R\\^2 is only a valid metric IF the assumptions of the linear model are met. So first check if there are any violations of assumptions like linearity, independence, homoscedasticity, or normality. Maybe the linear model is not appropriate for your data or a transformation might be required.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "AskStatistics",
+      "created_utc": 1731948806,
+      "score": 8,
+      "link_id": "t3_1gu8pgz",
+      "parent_id": "t3_1gu8pgz"
+    },
+    {
+      "id": "lxeldy1",
+      "body": "According to the 2020 census:  \n  \nThe total population in 2020 was 331,449,281.\n\nThe population of \"White alone\" individuals was 204,277,273.\n\nSo the percentage of \"white alone\" is 204,277,27/331,449,281=61.6%\n\nThe percentage of females in the \"White alone\" group was 50.7%, so males constituted 49.3% of this group.\n\nSo, the percentage of the U.S. population that is white males is  61.6\\*49.3=30.3%\n\nSexual orientation or gender identity doesn't seem to be addressed in the given data (https://www.census.gov/library/visualizations/interactive/how-has-our-nations-population-changed.html)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "AskStatistics",
+      "created_utc": 1731745646,
+      "score": 2,
+      "link_id": "t3_1gsipyt",
+      "parent_id": "t3_1gsipyt"
+    },
+    {
+      "id": "lwwehl2",
+      "body": "Top brainrot: mum/family vloggers που ξεπουλάνε την ιδιωτικότητα των (μικρών) παιδιών τους για 5-10-20 χιλιάδες προβολές και ο,τι χρηματικό όφελος μπορεί να επιφέρουν αυτές",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1731496048,
+      "score": 107,
+      "link_id": "t3_1gq6znr",
+      "parent_id": "t3_1gq6znr"
+    },
+    {
+      "id": "luhynbp",
+      "body": "I have a background in applied math/stats rather than CS, so I’m comfortable with math-focused projects, though I always aim to incorporate practical applications, not just theory. My supervisor specializes in Bayesian statistics, and I’d prefer to continue working with them instead of starting a new collaboration with an ML professor from my program. Given this, would a thesis topic in Bayesian speech recognition or processing be a good fit—and is it still a relevant research area?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "MachineLearning",
+      "created_utc": 1730283739,
+      "score": 1,
+      "link_id": "t3_1gf1na7",
+      "parent_id": "t1_luh3mw3"
+    },
+    {
+      "id": "lq1jzms",
+      "body": "Με τα άτομα που έκανα \"παρέα\" τις πρώτες μέρες του πρώτου έτους, παίζει να μην ξαναμιλήσαμε ποτέ τα επόμενα χρόνια... Τους καλούς μου φίλους στην σχολή τους γνώρισα στο τρίτο έτος προσωπικά.  Γενικα είναι πολύ ρευστές οι πρώιμες παρέες αυτές και όλοι απλα προσκολλώνται όπου βρουν για να μην κυκλοφορούν μόνοι τους. Θα βρείς πιο φυσικά φίλους σε εργαστήρια/φροντιστήρια όπου τα άτομα είναι λιγότερα και μπορείτε να γνωριστείτε μέσω της συνεργασίας! Επίσης, μη φοβάσαι να μιλήσεις σε άτομα επειδή νομίζεις ότι ήδη έχουν γίνει παρέα μεταξύ τους, δύο μέρες γνωρίζονται και αυτοί!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1727904885,
+      "score": 2,
+      "link_id": "t3_1ftvqqn",
+      "parent_id": "t3_1ftvqqn"
+    },
+    {
+      "id": "lpgqtn7",
+      "body": "Tom Ford Noir pour femme !",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1727598643,
+      "score": 2,
+      "link_id": "t3_1froxk8",
+      "parent_id": "t3_1froxk8"
+    },
+    {
+      "id": "lpcmqpv",
+      "body": "Because of the age gap and the power dynamic... Oh wait!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727536784,
+      "score": 28,
+      "link_id": "t3_1fred5s",
+      "parent_id": "t1_lpcjc0t"
+    },
+    {
+      "id": "lpcd5r4",
+      "body": "You probably wouldn’t be as curious if you were dating a 19- or 20-year-old.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727533394,
+      "score": 5,
+      "link_id": "t3_1fred5s",
+      "parent_id": "t1_lpccupr"
+    },
+    {
+      "id": "lpccfmg",
+      "body": "Then why do you feel the need to validate your relationship by asking strangers online? Maybe it's worth considering if your gut is trying to tell you something?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727533130,
+      "score": 14,
+      "link_id": "t3_1fred5s",
+      "parent_id": "t1_lpcbn1c"
+    },
+    {
+      "id": "lpcbp1s",
+      "body": "and do you know why they failed?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727532851,
+      "score": 23,
+      "link_id": "t3_1fred5s",
+      "parent_id": "t1_lpcb3n4"
+    },
+    {
+      "id": "lpcahq4",
+      "body": "she also said she was 29 and now shes 35 lol",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727532398,
+      "score": 4,
+      "link_id": "t3_1frekwi",
+      "parent_id": "t1_lpcafc9"
+    },
+    {
+      "id": "lpc92tm",
+      "body": "She asked for opinions, not just if it’s legal. There’s a big difference between what’s allowed and what’s healthy",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727531845,
+      "score": 14,
+      "link_id": "t3_1fred5s",
+      "parent_id": "t1_lpc6k9o"
+    },
+    {
+      "id": "lpc6m5m",
+      "body": "Girl run",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1727530860,
+      "score": 92,
+      "link_id": "t3_1fred5s",
+      "parent_id": "t3_1fred5s"
+    },
+    {
+      "id": "lmla8vf",
+      "body": "Αυτός είναι ο λόγος που με προσλαμβάνει ο γονιός. Αυτό δεν σημαίνει ότι εγώ δεν θα κάνω με τον βέλτιστο τρόπο την δουλειά μου (όπως κρίνω εγώ). Οι καθηγητές contrary to popular belief δεν είναι κάποιου είδους θαυματοποια όντα που μετατρέπουν αυτόματα έναν κακό μαθητή σε ξεφτέρι. Κάποιες φορές, ανάλογα και με το επίπεδο του μαθητή, μόνο το να περάσει την τάξη είναι ένας άθλος από μόνος του. Επαναλαμβάνω, αυτό δεν σημαίνει ότι δεν θα πάρω σοβαρά την δουλειά μου ή ότι δεν θα επιχειρήσω να κινήσω το ενδιαφέρον του μαθητή.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1726055793,
+      "score": 2,
+      "link_id": "t3_1fdnrhk",
+      "parent_id": "t1_lml9fr8"
+    },
+    {
+      "id": "lml8lv6",
+      "body": "Ευχαριστώ για τις συμβουλές επαγγελματικού προσανατολισμού, όμως δεν ζήτησα κάτι τέτοιο.\n\n\nΠροφανώς όταν οι γονείς με \"προειδοποιούν\" λέγοντας το ότι το παιδί δεν είναι καλός μαθητής και ότι δεν έχουν υψηλές προσδοκίες, προετοιμάζομαι και εγώ αναλόγως καθώς αυτό έχει άμεση επίπτωση και στις ώρες που θα κάνουμε, και στις μεθόδους που θα ακολουθήσω. Δεν ξέρω από πού έβγαλες το συμπέρασμα ότι δεν έχω σκοπό να του κινήσω το ενδιαφέρον, ότι δεν έχω κριτική σκέψη ή ότι θα κάνω χειρότερα την δουλειά μου επειδή δεν είναι άριστος. Ρώτησα απλώς εμπειρίες και συμβουλές από άλλους καθηγητές μιας και όπως όλοι, και εγώ από κάπου ξεκινάω. Μάλλον κάνεις project τις δικές σου εμπειρίες και λυπάμαι που δεν είχες τους κατάλληλους καθηγητές για να σε προετοιμάσουν.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1726055020,
+      "score": 2,
+      "link_id": "t3_1fdnrhk",
+      "parent_id": "t1_lml5vpn"
+    },
+    {
+      "id": "lmkoqkz",
+      "body": "Καλό bait",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1726042351,
+      "score": 3,
+      "link_id": "t3_1fdnrhk",
+      "parent_id": "t1_lmko2bb"
+    },
+    {
+      "id": "lllibnm",
+      "body": "Thanks for your reply. Honestly, I was under the impression that DPMMs are actually used to automatically Infer the number of clusters. This is how they are introduced in much of the literature I've come across.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "statistics",
+      "created_utc": 1725523066,
+      "score": 1,
+      "link_id": "t3_1f98qis",
+      "parent_id": "t1_llkeyrn"
+    },
+    {
+      "id": "lkhvoms",
+      "body": "Μήπως υπάρχει καποιο δημοτικό ωδείο ή χορωδία σε κάποια κοντινή περιοχή;",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1724936561,
+      "score": 1,
+      "link_id": "t3_1f413t4",
+      "parent_id": "t1_lkhuqe5"
+    },
+    {
+      "id": "lkht4xl",
+      "body": "Οι παρέες δεν είναι πάντα \"κλειστές\" και υπάρχει συχνά ο \"χώρος\" να ενταχτεί ένα νέο μέλος! Δες αν μπορείς να κανεις reach out στο άτομο που ξέρεις ότι έχει παρέα και να του πεις αν θέλει καμιά φορά να βρεθείτε όλοι μαζί να γνωρίσεις τους δικούς τους φίλους. Σε αυτή την ηλικία όλοι θέλουν να γνωρίζουν καινούρια άτομα και δεν θα έχει κανένας πρόβλημα.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1724935616,
+      "score": 3,
+      "link_id": "t3_1f413t4",
+      "parent_id": "t1_lkhr219"
+    },
+    {
+      "id": "lgq21eo",
+      "body": "It sounds like you're in a tough spot, but here's the deal: her actions aren't matching her words. She says she wants to be with you, but she’s not making any real effort to make it happen. Blocking you on Snapchat and having a \"guy friend\" she's not being upfront about are red flags.\n\nYou’ve done a lot of growing, and you deserve someone who’s as committed to you as you are to them. If she can't give you that, it's time to let go and focus on someone who will. Don’t put your life on hold for someone who's not meeting you halfway. You deserve better.\n\nTake care of yourself.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1722918516,
+      "score": 1,
+      "link_id": "t3_1el8f7j",
+      "parent_id": "t3_1el8f7j"
+    },
+    {
+      "id": "lgq1odt",
+      "body": "First off, I totally get why you’re feeling upset. His comments, even if they were meant as jokes, hit a nerve, and that’s completely valid. Relationships should be about lifting each other up, not making you second-guess yourself.\n\nWhen you talk to him, find a chill moment. Maybe say something like, “Hey, I wanted to chat about something that’s been on my mind. When you made those comments about my nails and hair, it really bummed me out.” Keep it casual, but honest.\n\nExplain why it bugged you. Like, “Those comments made me feel self-conscious, and I want to feel like I can be myself around you.” This way, he gets that it’s not just about the nails or hair, but about feeling good and secure when you're around him.\n\nIf he’s a decent guy, he’ll get it and hopefully chill with the comments. If he brushes you off, then maybe it's time to rethink things. You deserve to feel confident and happy, not worried about what color your nails are or how long your hair is.\n\nRemember, your feelings are legit. It’s all part of building a healthy relationship. Good luck!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "relationship_advice",
+      "created_utc": 1722918332,
+      "score": 1,
+      "link_id": "t3_1el8jwk",
+      "parent_id": "t3_1el8jwk"
+    },
+    {
+      "id": "lgg7jnv",
+      "body": "Δες αν υπάρχει κάποια ομάδα στο φβ της γειτονιάς σου / του δήμου σου και κάνε μια δημοσίευση εκεί ότι τα χαρίζεις.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722778555,
+      "score": 3,
+      "link_id": "t3_1ej1242",
+      "parent_id": "t3_1ej1242"
+    },
+    {
+      "id": "lg79gf9",
+      "body": "Thank you! :)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722632237,
+      "score": 1,
+      "link_id": "t3_1eib5oe",
+      "parent_id": "t1_lg58kn7"
+    },
+    {
+      "id": "lg79fit",
+      "body": "Thank you, it has a good price point which is great. Would you consider more on the masculine side?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722632228,
+      "score": 1,
+      "link_id": "t3_1eib5oe",
+      "parent_id": "t1_lg5btg0"
+    },
+    {
+      "id": "lg793in",
+      "body": "I feel like I've never smelt Light Blue - although it seems very popular. I will give it a try, thanks a lot!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722632117,
+      "score": 2,
+      "link_id": "t3_1eib5oe",
+      "parent_id": "t1_lg5f5bw"
+    },
+    {
+      "id": "lg78y8l",
+      "body": "Thanks a lot :)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722632068,
+      "score": 2,
+      "link_id": "t3_1eib5oe",
+      "parent_id": "t1_lg5qvvs"
+    },
+    {
+      "id": "lg78wyr",
+      "body": "Thank you so much! I'll look in to them!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722632056,
+      "score": 2,
+      "link_id": "t3_1eib5oe",
+      "parent_id": "t1_lg6yzog"
+    },
+    {
+      "id": "lg78vgm",
+      "body": "You are right, maybe we should just accept our love for gourmands and move on haha. It's just a bit discouraging hearing people complain about getting a headache from smelling sweet warm perfumes on other people - I definitely don't want to induce a headache on anyone lol",
+      "author": "Hungry-Finding2360",
+      "subreddit": "FemFragLab",
+      "created_utc": 1722632042,
+      "score": 2,
+      "link_id": "t3_1eib5oe",
+      "parent_id": "t1_lg5zqno"
+    },
+    {
+      "id": "lg2qnxw",
+      "body": "Έχοντας συνηθίσει να πίνω φραπέ bonora (ετικέτα Σκλαβενίτη) για χρόνια, κάθε φορά που κάνω το λάθος να πάρω nescafe όταν είναι σε έκπτωση η γεύση του μου φαίνεται απαίσια-σα να είναι καμμενος (?) ή χαλασμένος. Δεν ξέρω αν είναι θέμα συνήθειας αλλά για εμένα bonora>>>nes",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722563834,
+      "score": 4,
+      "link_id": "t3_1ehxz48",
+      "parent_id": "t3_1ehxz48"
+    },
+    {
+      "id": "lfwpz1z",
+      "body": "For me the quick share suggestions that pop up when you hold the share button are random people!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Instagram",
+      "created_utc": 1722475457,
+      "score": 1,
+      "link_id": "t3_1eh41il",
+      "parent_id": "t3_1eh41il"
+    },
+    {
+      "id": "lfu8nij",
+      "body": "Θερμιδικό έλλειμμα (δηλαδή, από όσες θερμίδες χρειάζεσαι καθημερινά για να συντηρήσεις τα κιλά σου, ξεκινά να τρως 200-300-500 λιγότερες ανάλογα με τον ρυθμό που θέλεις να χάνεις βάρος) και από γυμναστική, το πιο εύκολο και αποτελεσματικό κατά την γνώμη μου είναι το περπάτημα (10k+ βήματα τη μέρα). \n\nΠολύ σημαντικό: όσο πιο ακραία είναι η μέθοδος που ακολουθήσεις, τόσο λιγότερο χρονικό διάστημα θα μπορείς να το κρατήσεις. Για αυτό μη καταφύγεις σε λύσεις των άκρων (κομμένη μαχαίρι ζάχαρη-εξουθενωτική άσκηση κλπ). αλλά κάνε κάτι πιο ήπιο το οποίο όμως να μπορείς να το συντηρήσεις για μεγάλο χρονικό διάστημα. Το μυστικό είναι η συνέπεια σε αυτό που κανείς και όχι η ένταση του!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722445264,
+      "score": 1,
+      "link_id": "t3_1ef88o2",
+      "parent_id": "t3_1ef88o2"
+    },
+    {
+      "id": "lfpfdxz",
+      "body": "https://youtu.be/WzAT8cfA8-8?si=vkfCj_I22aq6M5tR",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722370965,
+      "score": 1,
+      "link_id": "t3_1eg2slw",
+      "parent_id": "t1_lfpekj9"
+    },
+    {
+      "id": "lfpdemx",
+      "body": "Αν θυμάσαι περίπου τον ρυθμό, το YouTube έχει ένα feature που μπορείς να το τραγουδήσεις και ίσως στο βρει\n\nhttps://preview.redd.it/z4fjb14crpfd1.jpeg?width=1080&format=pjpg&auto=webp&s=6d48130c6adbef6a25a9d4aa40c2b3d2c433fc2d",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1722370347,
+      "score": 8,
+      "link_id": "t3_1eg2slw",
+      "parent_id": "t3_1eg2slw"
+    },
+    {
+      "id": "lfn7ar3",
+      "body": "Oh, I will list the names in the post. Thanks !",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Perfumes",
+      "created_utc": 1722345279,
+      "score": 2,
+      "link_id": "t3_1efqobp",
+      "parent_id": "t1_lfn77xc"
+    },
+    {
+      "id": "lfn6wt7",
+      "body": "https://preview.redd.it/5et9mxiconfd1.jpeg?width=4096&format=pjpg&auto=webp&s=0e3d5e6d923eee55cc39f2961284862aa6e58ec1\n\nSure. I don't have Lost Cherry on hand right now and as you can see some are dupes from local perfumeries!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Perfumes",
+      "created_utc": 1722345130,
+      "score": 1,
+      "link_id": "t3_1efqobp",
+      "parent_id": "t1_lfn67ip"
+    },
+    {
+      "id": "lepnh8b",
+      "body": "Perhaps give a try at Zadig and Voltaire's \"This is her\". It is one of my all time favorites. Zara also carries a dupe, called Fields at Nightfall (I bought it recently at my local Zara in Southern Europe so I believe they still carry it).",
+      "author": "Hungry-Finding2360",
+      "subreddit": "Perfumes",
+      "created_utc": 1721831033,
+      "score": 1,
+      "link_id": "t3_1eayg4o",
+      "parent_id": "t3_1eayg4o"
+    },
+    {
+      "id": "lc9wghi",
+      "body": "Just a final question for confirmation, the aperture should be at the widest opening possible when turning on the camera and before pressing the shutter button, correct?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720483080,
+      "score": 2,
+      "link_id": "t3_1dyh4jw",
+      "parent_id": "t1_lc9w09s"
+    },
+    {
+      "id": "lc9w58x",
+      "body": "Thank you so much for the advice! I will return it.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720482958,
+      "score": 2,
+      "link_id": "t3_1dyh4jw",
+      "parent_id": "t1_lc9w09s"
+    },
+    {
+      "id": "lc9vf1b",
+      "body": "When hitting the DoF preview at f3.5, the live preview freezes, and the aperture blades don't move (they're stuck in the narrowest position). At f22, I do get an error message (error 1 - problem with camera-lens communication)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720482676,
+      "score": 2,
+      "link_id": "t3_1dyh4jw",
+      "parent_id": "t1_lc9t5a9"
+    },
+    {
+      "id": "lc9lzkk",
+      "body": "[Here](https://i.imgur.com/QFC3ZKW.mp4)is a video of the aperture when trying to take a picture in AV mode, f3.5. From what I gather, the aperture opening should be wide open when the picture is taken, right? But it remains narrow.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720479135,
+      "score": 1,
+      "link_id": "t3_1dyh4jw",
+      "parent_id": "t1_lc9gyh5"
+    },
+    {
+      "id": "lc8twue",
+      "body": "Hi thanks a lot for the advice! I cleaned the contacts although I don't believe it's a cleanliness issue! I am in AV mode as you suggested and changing the Fstop value doesn't widen the aperture. It's stuck like in picture attached. So I suppose requesting a refund is my only option now .",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720469551,
+      "score": 1,
+      "link_id": "t3_1dyh4jw",
+      "parent_id": "t1_lc8peta"
+    },
+    {
+      "id": "lc8ol26",
+      "body": "I am pretty new, I have only borrowed a friend's Canon for a vacation a few months ago. Would you mind sharing some resources on troubleshooting?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "canon",
+      "created_utc": 1720467830,
+      "score": 1,
+      "link_id": "t3_1dyh4jw",
+      "parent_id": "t1_lc8oced"
+    },
+    {
+      "id": "l5br6h9",
+      "body": "Να σε \"κόψουν\", εννοούσα να δούνε φάτσα/ομιλία κλπ ότι δεν είσαι κανένας τρελός! Δηλαδή αν είναι λίγο πολύ προκαθορισμένο πριν την συνέντευξη και είναι πιο πολύ για το τυπικό.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "greece",
+      "created_utc": 1716473916,
+      "score": 1,
+      "link_id": "t3_1cyfuut",
+      "parent_id": "t1_l5bnz2y"
+    },
+    {
+      "id": "kw7t4ph",
+      "body": "Don't forget that anyone can submit anything on gradcafe, so take what you see there with a grain of salt. Besides, EPFL usually releases all results at once (unlike ETH for example).",
+      "author": "Hungry-Finding2360",
+      "subreddit": "EPFL",
+      "created_utc": 1711212275,
+      "score": 7,
+      "link_id": "t3_1blrbpe",
+      "parent_id": "t3_1blrbpe"
+    },
+    {
+      "id": "kvrfb8p",
+      "body": "Thanks for the reply, I understand! I study in Greece and we are also allowed to retake an exam (only once, in the September of the year we first passed it) but at NTUA (similar to polimi in Greek national ranking), almost no one has grades like 29/30=9.6/10 in our scale. This is why I am always surprised to see so many Italians reporting having a 29+ average! I would never think that having 28.6 instead of 29 makes such a huge difference, honestly.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "EPFL",
+      "created_utc": 1710955473,
+      "score": 3,
+      "link_id": "t3_1bjfrit",
+      "parent_id": "t1_kvregy3"
+    },
+    {
+      "id": "kvra3kv",
+      "body": "If I may ask, what's up with the grading system in Italy? How could a 0.4/30=1% difference be such a big deal? Are Italian universities notorious for inflating students' grades?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "EPFL",
+      "created_utc": 1710953786,
+      "score": 1,
+      "link_id": "t3_1bjfrit",
+      "parent_id": "t1_kvr1shl"
+    },
+    {
+      "id": "kuoi6i7",
+      "body": "no, nothing yet",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710339823,
+      "score": 1,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kuog8a6"
+    },
+    {
+      "id": "kunvtai",
+      "body": "They sure did lol it's full of rejections on gradcafe",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710330445,
+      "score": 3,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kunvqmz"
+    },
+    {
+      "id": "kunqrb4",
+      "body": "Just received my rejection from DS. Good luck to everyone waiting! :)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710327607,
+      "score": 5,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "kuj1qve",
+      "body": "Ooof I'm sorry to hear that :( I hope Stats go better for you! Did you just get it now?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710255378,
+      "score": 4,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kuj1myo"
+    },
+    {
+      "id": "kuiteji",
+      "body": "Same lol it's the worst",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710252349,
+      "score": 6,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kuitbv9"
+    },
+    {
+      "id": "kuisn3n",
+      "body": "I feel like everyone is getting their decisions and the wait is killing me !! (Stats+DS) I don't even know if I should be glad I haven't be rejected yet or if it's just around the corner..",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710252058,
+      "score": 12,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ku9f91b",
+      "body": "I don't think so, I think they just all come in batches (rejections and acceptances)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1710099021,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ku96gz6"
+    },
+    {
+      "id": "ktxjlr1",
+      "body": "I am also wondering if they come automatically at random times or if it's only during working times. Like, should I expect an email after 5-6pm or can I chill?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709913606,
+      "score": 4,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktxetp2"
+    },
+    {
+      "id": "ktwmwyj",
+      "body": "Has anyone received a decision for Data Science or Statistics?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709900486,
+      "score": 9,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ktqwkha",
+      "body": "Congrats!! Did you just get the mail? The wait is killing me lol",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709806506,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktqwg6c"
+    },
+    {
+      "id": "ktqtbji",
+      "body": "Wow, I feel like I've never heard of a waiting list at ETH. Did they email you or did you reach out?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709804123,
+      "score": 1,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktqt60u"
+    },
+    {
+      "id": "ktqs54w",
+      "body": "Where? Do you have a link?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709803260,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktqs41g"
+    },
+    {
+      "id": "ktqry5e",
+      "body": "I don't see any on gradcafe :/",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709803118,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktqrty5"
+    },
+    {
+      "id": "ktqr4pk",
+      "body": "Any news on Statistics? I feel like they usually sent decisions earlier the past years",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709802511,
+      "score": 4,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ktlx7ke",
+      "body": "Maybe try using a different device/browser. If the issue continues, I'd email the Admissions Office. Good luck! May I ask which program you applied to and when you got the email?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709733497,
+      "score": 3,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktlw9ji"
+    },
+    {
+      "id": "ktl80ku",
+      "body": "Where did you see that?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709719810,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktjqprl"
+    },
+    {
+      "id": "ktgiiis",
+      "body": "Wow, congrats! Did you just get the emails now? Also, did they direct you to the portal?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709651100,
+      "score": 3,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktghwjb"
+    },
+    {
+      "id": "ktgg9gs",
+      "body": "Can you post a screenshot? Also, maybe try logging in from another device/browser.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709650253,
+      "score": 1,
+      "link_id": "t3_1b74dqp",
+      "parent_id": "t1_ktgg586"
+    },
+    {
+      "id": "ktgcqjj",
+      "body": "Hi, I am sorry to hear that. May I ask which program you applied to and when you got the decision email?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709648870,
+      "score": 3,
+      "link_id": "t3_1b74dqp",
+      "parent_id": "t1_ktgbuj4"
+    },
+    {
+      "id": "ktgcoc0",
+      "body": "One other person had the same issue, but it had an option to accept or reject the study offer. If that's the case for you too, you are probably accepted. If you don't have this option and still cant view your result, email the admissions' office.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709648846,
+      "score": 2,
+      "link_id": "t3_1b74dqp",
+      "parent_id": "t3_1b74dqp"
+    },
+    {
+      "id": "ktfgkiw",
+      "body": "That probably means they offered you a position, which means you are accepted! Congrats!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709630842,
+      "score": 4,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktfgi60"
+    },
+    {
+      "id": "ktfercv",
+      "body": "If it's been hours, I'd email the admissions office in case there's a glitch",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709629452,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktfephn"
+    },
+    {
+      "id": "ktfem64",
+      "body": "Hi, maybe wait a few more minutes and if you still can't open it, email the admissions office. Good luck! Btw, what program did you apply to and what time did the email come?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709629341,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktfeia1"
+    },
+    {
+      "id": "ktb95du",
+      "body": "Just saw a post on grad cafe about a DS rejection.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709568327,
+      "score": 7,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "kt8aq5n",
+      "body": "Yes. Are you applying too ?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709513863,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kt8ahbj"
+    },
+    {
+      "id": "kt7df2k",
+      "body": "I believe it might be program-specific, as I have also seen acceptance decisions that were directing to the portal instead! (Hi fellow greek!)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709501189,
+      "score": 3,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kt7cg0h"
+    },
+    {
+      "id": "kt73ub2",
+      "body": "Also, silly question: to anyone that has been previously accepted or rejected to the DS or Stats MSc, what did the decision email look like? Did it clearly state the decision in the email, or did it redirect you to the application portal? (I am aware of how not important this question is, I am just wondering)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709497847,
+      "score": 4,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "kt62n4b",
+      "body": "Any updates/admissions to the Data Science or Statistics MSc?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709484781,
+      "score": 8,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "kt1ar5y",
+      "body": "Good luck! Maybe Monday is our lucky day :)",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709404735,
+      "score": 2,
+      "link_id": "t3_1b44dic",
+      "parent_id": "t1_kt0df0v"
+    },
+    {
+      "id": "kszilzp",
+      "body": "I applied to the Statistics MSc too! No news yet. However, it's Saturday so I doubt that any decisions will be sent out today.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1709376759,
+      "score": 1,
+      "link_id": "t3_1b4ktha",
+      "parent_id": "t3_1b4ktha"
+    },
+    {
+      "id": "kswij36",
+      "body": "Also waiting for DS and Stats. Good luck!",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709324575,
+      "score": 2,
+      "link_id": "t3_1b43pdc",
+      "parent_id": "t3_1b43pdc"
+    },
+    {
+      "id": "kswicvk",
+      "body": "Deadline for application was 15/12. As per ETHZ's email, decisions should be out by April at the latest, but the past years some decisions came out late Feb-early March.",
+      "author": "Hungry-Finding2360",
+      "subreddit": "gradadmissions",
+      "created_utc": 1709324514,
+      "score": 1,
+      "link_id": "t3_1b44dic",
+      "parent_id": "t1_kswi54p"
+    },
+    {
+      "id": "krr2klx",
+      "body": "Hi, we have to wait it out. Be sure to wait until the last day possible to accept the offer from Imperial, in case ETH offers you a place by then. By the way, may I ask which Msc. you applied to and what's your profile?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1708688536,
+      "score": 1,
+      "link_id": "t3_1axx12j",
+      "parent_id": "t3_1axx12j"
+    },
+    {
+      "id": "krp0evm",
+      "body": "Hi, can I dm you?",
+      "author": "Hungry-Finding2360",
+      "subreddit": "ethz",
+      "created_utc": 1708649561,
+      "score": 1,
+      "link_id": "t3_1aunxgd",
+      "parent_id": "t1_krorak6"
+    }
+  ]
+}

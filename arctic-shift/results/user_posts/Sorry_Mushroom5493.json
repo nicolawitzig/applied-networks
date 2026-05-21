@@ -1,0 +1,1479 @@
+{
+  "username": "Sorry_Mushroom5493",
+  "posts": [
+    {
+      "id": "1g2pre4",
+      "title": "Where can you get used SIG550?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "SwitzerlandGuns",
+      "created_utc": 1728826451,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "I am a C-foreigner (born and lived here my whole life) but as austrian national i did my army service there. \n\nAustrians are deeply mistrusting their citizens, so very restrictive gun control and you cant buy off your rifle after military service, the famous Steyr AUG A1. But mostly in a bad condition, unpersonal weapon. \n\nAs a teenager I did the jungschützen Kurs and even here the VBS lends you a rifle while austrians dont trust you to take it to the shooting range. \n\nWhere can you source used Army SIG550?\nI heard most swiss servicemen are able to buy it for peanuts, but where do they sell? Or do they all keep it?\nMy google searches seem to show only new stuff, 3-4k. \n\nWould like to buy one to do some occasional practice. \nObviously id obtain a WES, by the book. \n\nThanks for your insight :)",
+      "url": "https://www.reddit.com/r/SwitzerlandGuns/comments/1g2pre4/where_can_you_get_used_sig550/"
+    },
+    {
+      "id": "1aimn9u",
+      "title": "Invoke-Webrequest sending POST sends as GET (Powershell 5.1 and 7.4.1 LTS)",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "PowerShell",
+      "created_utc": 1707049048,
+      "score": 13,
+      "num_comments": 4,
+      "selftext": "Hi guys,\n\nIm writing a script to send some diagnostics data to my REST service, but I notice that POST requests are impossible.\n\nOn my local machine (XAMPP) i set up a test script to see the behaviour\n\n**test.php**\n\n    <?php\n    echo \"GET:\".var_dump($_GET);\n    echo \"POST:\".var_dump($_POST);\n    ?>\n\nWhich obviously show me which fields are being sent over GET and POST. \n\n**My testpost.ps1**\n\n    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12\n    \n    $TestPost = Invoke-WebRequest -Uri 'http://loocalhost/test.php' -Method Post -Body @{\"foo\"=\"bar\"}\n    \n    echo $TestPost.Content\n\nUnexpectedly, Powershell sends over GET.\n\n**My Output:**\n\n    array(0) {\n    }\n    GET:array(1) {\n      [\"foo\"]=>\n      string(3) \"bar\"\n    }\n    POST:array(0) {\n    }\n    GET\n\nI tried Version 5.1, upgraded to 7.4.1, used dozens of example scripts, used -Form, Encoding into a JSON, but its Powershell which sends always over GET.\n\nI even copied the example from the matching [Powershell-Documentation v7.4.1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.4) but it still sends over GET.\n\nAm I missing something fundamental?\n\nCheers!\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/PowerShell/comments/1aimn9u/invokewebrequest_sending_post_sends_as_get/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lv7r8as",
+      "body": "Amico, sänf hesch vergässe um d sanktione z perfektioniere😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1730657395,
+      "score": 1,
+      "link_id": "t3_1gis5gr",
+      "parent_id": "t3_1gis5gr"
+    },
+    {
+      "id": "lv6cevf",
+      "body": "Its crazy how the US actively seeds mistrust in electronic voting systems or mail votes, to prefer waiting in lines for hours. \n\nPeople, this is not a modern democracy",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "pics",
+      "created_utc": 1730641247,
+      "score": 1,
+      "link_id": "t3_1gids5z",
+      "parent_id": "t3_1gids5z"
+    },
+    {
+      "id": "lubwlvc",
+      "body": "I did have tinder and met my wife there. \n\nAfter 90d of inactivity you get a notice of imminent removal. \n\nThis means the guy is active🤷🏻‍♂️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Tinder",
+      "created_utc": 1730200254,
+      "score": 1,
+      "link_id": "t3_1ge70tv",
+      "parent_id": "t3_1ge70tv"
+    },
+    {
+      "id": "lrpm2xz",
+      "body": "Hm, the Defense Department now allows AR-15 for the official excersises, Interest will arise",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "SwitzerlandGuns",
+      "created_utc": 1728823260,
+      "score": 2,
+      "link_id": "t3_1g21y91",
+      "parent_id": "t1_lrkq5n3"
+    },
+    {
+      "id": "lrpkpz7",
+      "body": "Do you do IPC?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "SwitzerlandGuns",
+      "created_utc": 1728822609,
+      "score": 2,
+      "link_id": "t3_1g21y91",
+      "parent_id": "t3_1g21y91"
+    },
+    {
+      "id": "lrpkm9t",
+      "body": "Looks suspiciously a lot like Oeschinensee",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "SwitzerlandIsFake",
+      "created_utc": 1728822559,
+      "score": 1,
+      "link_id": "t3_1g22mrh",
+      "parent_id": "t3_1g22mrh"
+    },
+    {
+      "id": "lrpkdgy",
+      "body": " Yeah sure. \nBe careful with transporting and at home\nJust keep it safely out of reach of any other and safe from fire. \n\n\nIve been as firefighter to an appartment fire were the guy had weapons and its a very dire thing…",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1728822439,
+      "score": 1,
+      "link_id": "t3_1g2o77w",
+      "parent_id": "t3_1g2o77w"
+    },
+    {
+      "id": "lp8ejnt",
+      "body": "Hüt hani au es päckli becho vo Swisscom. 2-3 löcher drin  \n\nDie pajasse sötteds ächt ufgeh, bilanz hinterlegge und liquidiere. De markt sött regle und nid d Softwarefirma Post bhalte",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1727465596,
+      "score": 2,
+      "link_id": "t3_1fqk9z2",
+      "parent_id": "t3_1fqk9z2"
+    },
+    {
+      "id": "lp8dfjc",
+      "body": "Currenrly there is a construction site. If you were in that zone it would get costly. \n\nAt what time did this happen?\n\nI once missed a 30 sign, drove 59 in a 30 zone and a police car was following me incognito. \nWhen i saw the 30-finished sign i immediately slowed down to 30. \n\n2 minutes lates they stopped me. \n\nAs it was 5:10 on a sunday, i argued the signing was bad and i corrected my mistake and i did not endanger anyone. \nThey let me go with a verbal warning. \n\nIf it was at quiet hours, it may be worth it to object, to do full proceedings, demand radar calibration sheets by METAS…",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "bern",
+      "created_utc": 1727465228,
+      "score": 1,
+      "link_id": "t3_1fqi9kw",
+      "parent_id": "t3_1fqi9kw"
+    },
+    {
+      "id": "locmwwq",
+      "body": "how many Simultaneous Channels do you operate?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "3CX",
+      "created_utc": 1727007059,
+      "score": 1,
+      "link_id": "t3_1fmanm7",
+      "parent_id": "t1_lo96nzh"
+    },
+    {
+      "id": "lo8z2fr",
+      "body": "Garantiefall reklamieren.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1726944591,
+      "score": 14,
+      "link_id": "t3_1fm6jif",
+      "parent_id": "t3_1fm6jif"
+    },
+    {
+      "id": "lo3dktc",
+      "body": "the noice matts actually help?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "homelab",
+      "created_utc": 1726858150,
+      "score": 1,
+      "link_id": "t3_1fl37i2",
+      "parent_id": "t3_1fl37i2"
+    },
+    {
+      "id": "lo3dfp2",
+      "body": "its funny and frightening when undeducated idiots get entitled🤣",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1726858103,
+      "score": 2,
+      "link_id": "t3_1fkntry",
+      "parent_id": "t3_1fkntry"
+    },
+    {
+      "id": "lo3d63c",
+      "body": "can someone provide a good still frame from the face? gonna run it through some face recognition..",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1726858017,
+      "score": 50,
+      "link_id": "t3_1flj3wi",
+      "parent_id": "t3_1flj3wi"
+    },
+    {
+      "id": "lo3bohu",
+      "body": "haha you definitely should put some boxing machines at talahok hotspots for profit😁👍🏻",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "bern",
+      "created_utc": 1726857534,
+      "score": 1,
+      "link_id": "t3_1fiiv2w",
+      "parent_id": "t3_1fiiv2w"
+    },
+    {
+      "id": "lo1d91u",
+      "body": "the dialing code is disabled by default but you can set it up on 3CX > Admin > System > Dial codes Paging",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "3CX",
+      "created_utc": 1726833394,
+      "score": 1,
+      "link_id": "t3_1f78foc",
+      "parent_id": "t1_ll9cnta"
+    },
+    {
+      "id": "lo1cupm",
+      "body": "hey, i just finalised a 3CX setup. \n\nfor emergency numbers you can define emergency numbers in \n3CX > Admin > Emergencies \nand in Notfications you can alert a ring group. \n\ni uploaded a voice recording:\nsomeone has dialed an emergency numbers. please react accordingly. \n\nthis will be played to anyone in a single extension or ring group where you can add everyone.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "3CX",
+      "created_utc": 1726833215,
+      "score": 1,
+      "link_id": "t3_1f78foc",
+      "parent_id": "t3_1f78foc"
+    },
+    {
+      "id": "lmxz83b",
+      "body": "Looks awesome, gonna try self hosting this ☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "selfhosted",
+      "created_utc": 1726241955,
+      "score": 2,
+      "link_id": "t3_1ffa6wu",
+      "parent_id": "t3_1ffa6wu"
+    },
+    {
+      "id": "lmks92v",
+      "body": "Real healthy men are simple and attracted to any size and shapes of breasts. \n\nThere are also lots of outfits which are flattery and loose and super sexy for any size and shapes. \n\nLove yourself! ☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1726044930,
+      "score": 1,
+      "link_id": "t3_1fdvrjz",
+      "parent_id": "t3_1fdvrjz"
+    },
+    {
+      "id": "llzrl9y",
+      "body": "Is this the bootscreen of the hypervisor or a VM?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "vmware",
+      "created_utc": 1725734222,
+      "score": 2,
+      "link_id": "t3_1fbbtii",
+      "parent_id": "t3_1fbbtii"
+    },
+    {
+      "id": "llzqq7c",
+      "body": "Indeed. Looking absolutely great. I appreciate also the nice heels ☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "tall",
+      "created_utc": 1725733933,
+      "score": 1,
+      "link_id": "t3_1epgu6s",
+      "parent_id": "t3_1epgu6s"
+    },
+    {
+      "id": "llzldns",
+      "body": "Wär witzig wenn das dein Mailserver wäre und da ist deine Mailablage drin😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "de_EDV",
+      "created_utc": 1725732119,
+      "score": 1,
+      "link_id": "t3_1fabwwh",
+      "parent_id": "t3_1fabwwh"
+    },
+    {
+      "id": "llzkvu9",
+      "body": "Die botschaft wird dich hassen lol",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Austria",
+      "created_utc": 1725731956,
+      "score": 3,
+      "link_id": "t3_1fb3di8",
+      "parent_id": "t3_1fb3di8"
+    },
+    {
+      "id": "llzkje5",
+      "body": "Captain, whats CNC?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1725731838,
+      "score": 2,
+      "link_id": "t3_1fatufb",
+      "parent_id": "t3_1fatufb"
+    },
+    {
+      "id": "llzkbtd",
+      "body": "Shes posting from an all gender phone, so wild😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1725731768,
+      "score": 1,
+      "link_id": "t3_1fb51xk",
+      "parent_id": "t3_1fb51xk"
+    },
+    {
+      "id": "llzjbbx",
+      "body": "Could be. \nMasses of people, and thr police usually steers the masses. \n\nThe same also with football games. \nIdk how big energy air is but i think also several thousand.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "bern",
+      "created_utc": 1725731430,
+      "score": 2,
+      "link_id": "t3_1fb1d6k",
+      "parent_id": "t1_llxa00k"
+    },
+    {
+      "id": "llg60kr",
+      "body": "My wife 26F moved here 2 years ago, works remotely, also had this issue. \n\nShe joined an expats group and went out with 2 girls, 1 doc and 1 baby sitter around her age to just hang out, have pizza",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "bern",
+      "created_utc": 1725448253,
+      "score": 1,
+      "link_id": "t3_1f5nzbt",
+      "parent_id": "t3_1f5nzbt"
+    },
+    {
+      "id": "ll1njd6",
+      "body": "Soons gonna be Logitech General assembly in Lausanne. At least as a shareholder i can ask her on stage in what reality she woke up in. Just to be sure if shes sane.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1725223578,
+      "score": 1,
+      "link_id": "t3_1f5psuh",
+      "parent_id": "t3_1f5psuh"
+    },
+    {
+      "id": "lea51az",
+      "body": "Und was davon begründet einen Anspruch auf Einreise in die EU? Schlechte Wirtschaft im Heimatland? Denn das ist für die meisten der Grund für die Reise. \n\nUnd ja, ich hab n halbes Jahr in einer Erstaufnahmeeinrichtung gearbeitet, damals 2014, 13h pro Tag und viele Menschen gesprochen. Ich weiss von was ich spreche!\n\nMit Ideologen ist daher besonders schwierig zu diskutieren, weil realitätsfern und stellen ihre Ideologie über alles and alle andere.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Austria",
+      "created_utc": 1721594714,
+      "score": 10,
+      "link_id": "t3_1e87yhs",
+      "parent_id": "t1_le88n1p"
+    },
+    {
+      "id": "le7mxj1",
+      "body": "Wieso kann die Seenotrettung denn nicht die Überlebenden an ihren Auslaufhafen bringen?\n\nGehts denen echt um Menschenrettung oder darum, möglichst viele nach Europa zu bringen und illegale Migration möglichst straffrei durchzuführen?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Austria",
+      "created_utc": 1721560764,
+      "score": 34,
+      "link_id": "t3_1e87yhs",
+      "parent_id": "t1_le7ct1t"
+    },
+    {
+      "id": "le3wax6",
+      "body": "Frech isch schono, dass eine mit Mathelevel 1000 vo 20min chan zügs publiziere😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1721496201,
+      "score": 4,
+      "link_id": "t3_1e7z9k8",
+      "parent_id": "t3_1e7z9k8"
+    },
+    {
+      "id": "le37t4u",
+      "body": "Its unlucky that he developed feeling when you didnt. \n\nBut its wrong to assume that you owe him some interest back. Altough his feeling, he should have learned to settle back with unanswered feelings. \n\nShowing up at your private address and hugging you is completely inappropiate and yes necessary to part ways. \n\nI hope he finds a place where he fits better. \n\nBut dont get a bad concience for ruining his life. \nHe did at least ruin his professional life",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1721487249,
+      "score": 5,
+      "link_id": "t3_1e7j5jy",
+      "parent_id": "t3_1e7j5jy"
+    },
+    {
+      "id": "le22h6r",
+      "body": "Das ist die Weihnachtsstimmung von Manfred an einem 27. Dezember😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "aeiou",
+      "created_utc": 1721465297,
+      "score": 2,
+      "link_id": "t3_1e79gxz",
+      "parent_id": "t3_1e79gxz"
+    },
+    {
+      "id": "le22das",
+      "body": "But that Nancy Pelosi deals shares like a gangster into her own pocket by using her position as supposed law maker is fine though?😂😅\n\nAnd intentional travel to taiwan to provoke china?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1721465220,
+      "score": 1,
+      "link_id": "t3_1e74su5",
+      "parent_id": "t3_1e74su5"
+    },
+    {
+      "id": "ldwg1vi",
+      "body": "I guess Laura Loomer also never flushes after taking a dump. \n\nThe concept of cleaning up must be strange to her.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1721378181,
+      "score": 1,
+      "link_id": "t3_1e69xzf",
+      "parent_id": "t3_1e69xzf"
+    },
+    {
+      "id": "l9qv52w",
+      "body": "Lol these idiots shaming him should tell me very practically what he should do else. \n\nImagine two kids go into exactly the opposite direction. \nWhich one do you chase after?\n\nIm a twin and my mom also used to use harness up to a certain age",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1719052714,
+      "score": 1,
+      "link_id": "t3_1dlp1z7",
+      "parent_id": "t3_1dlp1z7"
+    },
+    {
+      "id": "l8pnu6e",
+      "body": " Lol de Glarner wiene schoolboy😂😅\nMin flex: i han au scho e kranz gschosse, e medaille und s papierli beko und ich bin gfeatured im Wikipedia. \n\nUnd ich bin Usländer😂😜",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718451259,
+      "score": 12,
+      "link_id": "t3_1dgd8c8",
+      "parent_id": "t3_1dgd8c8"
+    },
+    {
+      "id": "l8pargn",
+      "body": "Stichfest bis vor bundesgricht🤣",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1718441704,
+      "score": 1,
+      "link_id": "t3_1df1abi",
+      "parent_id": "t3_1df1abi"
+    },
+    {
+      "id": "l8eevfa",
+      "body": "Shrinkflation",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1718269943,
+      "score": 1,
+      "link_id": "t3_1den29u",
+      "parent_id": "t3_1den29u"
+    },
+    {
+      "id": "l8eenld",
+      "body": "Actually: if you get to a lazy passport officer you might just tell them any height and if hes so lazy he wont measure you and just types in that. \n\nI made myself taller from 1.73 to 1.80m 😁 5‘8 to 5‘10",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "pics",
+      "created_utc": 1718269784,
+      "score": 1,
+      "link_id": "t3_1demd3d",
+      "parent_id": "t3_1demd3d"
+    },
+    {
+      "id": "l8edvzw",
+      "body": "Thats actually upsetting that Ukraine just some years prior supplied phosphor bombs to the karabakh conflict for civilians to also die horribly. \n\nLike Israel they just jingle around the rules and make fun",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "eurovision",
+      "created_utc": 1718269216,
+      "score": -27,
+      "link_id": "t3_1dean0m",
+      "parent_id": "t1_l8cbm96"
+    },
+    {
+      "id": "l8edhpx",
+      "body": "And truth is always true. \nWhat is your point with this statement?\n\nWhat does the non membership of Switzerland have to do with Google Features?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "google",
+      "created_utc": 1718268926,
+      "score": 1,
+      "link_id": "t3_1bb2fsa",
+      "parent_id": "t1_l8e926b"
+    },
+    {
+      "id": "l7tjqfp",
+      "body": "Haha sind die wo Volkswille schreiet aber nur wenns ihne passt",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1717944144,
+      "score": 11,
+      "link_id": "t3_1dbrurz",
+      "parent_id": "t3_1dbrurz"
+    },
+    {
+      "id": "l6wubcx",
+      "body": "NDA, \nWer einen Gast so traktiert muss selbst sehr wenig Gabewillen erwarten. \n\nHabs selbst auch erlebt, last minute als erster weggestrichen.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BinIchDasArschloch",
+      "created_utc": 1717423342,
+      "score": 1,
+      "link_id": "t3_1d708fz",
+      "parent_id": "t3_1d708fz"
+    },
+    {
+      "id": "l6tinfb",
+      "body": "No they dont burn a city down like in Europe, they just storm the national parliament violently😅",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1717362336,
+      "score": 1,
+      "link_id": "t3_1d5zvul",
+      "parent_id": "t3_1d5zvul"
+    },
+    {
+      "id": "l6ml8gc",
+      "body": "My guilty pleasure is to watch Live Camera, see nosey people, honk and see their reaction. \n\nIts petty and its funny. \n\nThen repeat😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "TeslaModel3",
+      "created_utc": 1717250985,
+      "score": 1,
+      "link_id": "t3_1bgh9z1",
+      "parent_id": "t3_1bgh9z1"
+    },
+    {
+      "id": "l6mkyeh",
+      "body": "Isnt a pedophile anyway a subset of felons?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1717250872,
+      "score": 1,
+      "link_id": "t3_1d4w275",
+      "parent_id": "t3_1d4w275"
+    },
+    {
+      "id": "l6hmmfu",
+      "body": "Which version is this?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "TeslaModel3",
+      "created_utc": 1717169403,
+      "score": 1,
+      "link_id": "t3_1d4i9fx",
+      "parent_id": "t3_1d4i9fx"
+    },
+    {
+      "id": "l6hmk0j",
+      "body": "Das git 5* in GTA Sankt Galle😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1717169379,
+      "score": 2,
+      "link_id": "t3_1d4ct29",
+      "parent_id": "t3_1d4ct29"
+    },
+    {
+      "id": "l6hm8cx",
+      "body": "Why again are churches tax exempt although most of them are a profit oriented businesses?\n\nI mean there are pastors flying with *multiple* private jets",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1717169266,
+      "score": 1,
+      "link_id": "t3_1d4re0z",
+      "parent_id": "t3_1d4re0z"
+    },
+    {
+      "id": "l6hlxbg",
+      "body": "Hey man, physical beauty vanishes sooner or later. But horrible people stay horrible. \n\nIts you who dodged a bullet with this one. \n\nYou‘ll see, the right people value kind people for kindness ☺️👍🏻",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1717169159,
+      "score": 1,
+      "link_id": "t3_1d47cst",
+      "parent_id": "t3_1d47cst"
+    },
+    {
+      "id": "l66vnyi",
+      "body": "In this case she consented to have drugs, not all the rest",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1716998340,
+      "score": 5,
+      "link_id": "t3_1d2l72p",
+      "parent_id": "t1_l619vsj"
+    },
+    {
+      "id": "l5qclcz",
+      "body": "GTA Spiez, de Beat gseht viu vom Läbe😅",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1716722973,
+      "score": 2,
+      "link_id": "t3_1czvt27",
+      "parent_id": "t3_1czvt27"
+    },
+    {
+      "id": "l5moyr8",
+      "body": "Naja, je Wapplerverein kommts vor. \n\n(Ich war in verschiedenen Bundesländer stationiert im Bundesheer). \n\nMeine eigene Grenze war da, sobald i irgendjemandem im Gesicht sehe dass er/sie damit beleidigt wird, irgendwie diskret Video machen und den Wappler anzeigen.\n\nGibt ja auch das Recht dass du in Ruhe/Sicherheit deine Arbeit verrichten kannst",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Austria",
+      "created_utc": 1716654519,
+      "score": 1,
+      "link_id": "t3_1d08gzs",
+      "parent_id": "t3_1d08gzs"
+    },
+    {
+      "id": "l5mo6fr",
+      "body": "Thats a horrible thing to happen. \n\nI think it has to do partially with the lowest level of training provided to police officers. They seem to be very emotionally driven, develop a false sense of righteousness and are given god-like rights. They also seem to bear no consequences, the torture victim is paid by taxes and the criminals are untouched. \n\nIn developed countries, candidates for Policeschool are undertaken a character assesment and recieve several years (*not weeks) of training. They focus also heavily on de escalation. \nThey actually learn the law and the legal system, so not making stuff up. \n\nAnd mainly: Police in developed countries have real oversight. Whoever has a gun and power, needs to be under oversight so that they actually serve well",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1716654212,
+      "score": 2,
+      "link_id": "t3_1d09ftd",
+      "parent_id": "t3_1d09ftd"
+    },
+    {
+      "id": "l5idaz5",
+      "body": "Haha wow es super bispil für Staatssumpf. Du chasch ächt riich wärde wenn de weisch wo achlopfe und Beziehuge hesch",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1716576675,
+      "score": 1,
+      "link_id": "t3_1cy8z1a",
+      "parent_id": "t3_1cy8z1a"
+    },
+    {
+      "id": "l4q6v0h",
+      "body": "Moving backward is a maneuver and apparently neither of both are paying enough attention. \n\nIt seems to me that both just blindly drive backwards and not using any mirrors nor properly using the integrated huge camera screens of the Tesla. \n\nIn some countries, both drivers would have been fined.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "TeslaModel3",
+      "created_utc": 1716121987,
+      "score": 1,
+      "link_id": "t3_1cv9a4a",
+      "parent_id": "t3_1cv9a4a"
+    },
+    {
+      "id": "l4q55ht",
+      "body": "Und denn chöme alli ukrainischi Nationalische mit standwithukraine Hastag und verdächtige de Putin und sini Lüt dass si s Model hei abgmurkst🤪",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "20hirnzelle",
+      "created_utc": 1716121055,
+      "score": 1,
+      "link_id": "t3_1buzfol",
+      "parent_id": "t3_1buzfol"
+    },
+    {
+      "id": "l4q4aad",
+      "body": "The cabotage ban aims at operators, not individual passengers. \n\nJust buy a ticket from a station before Geneva to Berne and you change your mind.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "askswitzerland",
+      "created_utc": 1716120566,
+      "score": 1,
+      "link_id": "t3_1cuwdep",
+      "parent_id": "t3_1cuwdep"
+    },
+    {
+      "id": "l4q45d9",
+      "body": "NTA. \nThis is a good lesson for your niece and your sister endorsing bad behaviour. \n\nIf they cant be good roommates or people they have to go",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "AmItheAsshole",
+      "created_utc": 1716120488,
+      "score": 1,
+      "link_id": "t3_1cv4m1h",
+      "parent_id": "t3_1cv4m1h"
+    },
+    {
+      "id": "l4q38al",
+      "body": "Holi sheesh, thats awesome!",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Damnthatsinteresting",
+      "created_utc": 1716119960,
+      "score": 1,
+      "link_id": "t3_1cv3um5",
+      "parent_id": "t3_1cv3um5"
+    },
+    {
+      "id": "l3xbyrd",
+      "body": "Worse. Mir zahle alli serafe, das goht ans srg/srf und die drücke enormi Summe a de Verastalter EBU. \nUnd trotzdäm muesch 20.- zahle zum abstimme.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "schwiiz",
+      "created_utc": 1715642936,
+      "score": 1,
+      "link_id": "t3_1cq305h",
+      "parent_id": "t1_l3opv6b"
+    },
+    {
+      "id": "l3oosvu",
+      "body": "A 14yo boy is working?? Its ridiculous how mondern slavery, child labour and illiteracy is rising..",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1715502047,
+      "score": 2,
+      "link_id": "t3_1cpx8uo",
+      "parent_id": "t3_1cpx8uo"
+    },
+    {
+      "id": "l0l6dnp",
+      "body": "Well, this money doesnt go to ukraine rather into US weapons manufacturing. \n\nThose gangsters are happy because they just second ago bought the shares if the companies involved and they know thats gonna be a second christmas.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "pics",
+      "created_utc": 1713703254,
+      "score": 2,
+      "link_id": "t3_1c95f2h",
+      "parent_id": "t3_1c95f2h"
+    },
+    {
+      "id": "l0g72t2",
+      "body": "Haha, its always nice to see how people get things running even though it looks unrunnable. \n\nAwesome!",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "homelab",
+      "created_utc": 1713621028,
+      "score": 1,
+      "link_id": "t3_1c8jsz1",
+      "parent_id": "t3_1c8jsz1"
+    },
+    {
+      "id": "l0f7du3",
+      "body": "Thats why nobody gives free US-money and weapons to Switzerland. \nAmericans won‘t find Switzerland on the map🤣",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1713602096,
+      "score": 1,
+      "link_id": "t3_1c8i3ka",
+      "parent_id": "t3_1c8i3ka"
+    },
+    {
+      "id": "l06944o",
+      "body": "We paid the extra 140€ with the champagne and everthing. \nStill got the last row. \n\nAnd to our unluck, Britains two tallest girls were places just in front of us. \nQuite a disappointment",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "ParisTravelGuide",
+      "created_utc": 1713461512,
+      "score": 1,
+      "link_id": "t3_1c2j5jg",
+      "parent_id": "t3_1c2j5jg"
+    },
+    {
+      "id": "kzjczwz",
+      "body": "Me 29M i always get sad when people on public squares skip on me to ask to take a picture. \nDo i look so criminal?🥲🥲",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "oddlyspecific",
+      "created_utc": 1713105486,
+      "score": 1,
+      "link_id": "t3_1c3pj6x",
+      "parent_id": "t3_1c3pj6x"
+    },
+    {
+      "id": "kzjcu9o",
+      "body": "are dogs your spirit animals?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "mildlyinteresting",
+      "created_utc": 1713105427,
+      "score": 1,
+      "link_id": "t3_1c3o7et",
+      "parent_id": "t3_1c3o7et"
+    },
+    {
+      "id": "kzjb4ya",
+      "body": "Ganz so daneben liegt der bre nicht. \nDas Abwehramt könnte sich genausogut eine russische Website zulegen. Der Sumpf besteht anscheinend seit den 90er. \n\nAber auch Spanien ist politisch da sehr stark mit Russland verbandelt.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "aeiou",
+      "created_utc": 1713104781,
+      "score": 5,
+      "link_id": "t3_1c3r6eo",
+      "parent_id": "t3_1c3r6eo"
+    },
+    {
+      "id": "kxk2hs9",
+      "body": "Sometimes youre lucky and they still works. I washed them twice and they still work😊😇",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Wellthatsucks",
+      "created_utc": 1711986084,
+      "score": 1,
+      "link_id": "t3_1bstbpz",
+      "parent_id": "t3_1bstbpz"
+    },
+    {
+      "id": "kxk17h7",
+      "body": "Seeing this post just after another one of racist americans makes me feel happy to see that there is still joy and pureness out there😊",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "wholesomememes",
+      "created_utc": 1711985640,
+      "score": 1,
+      "link_id": "t3_1bszin0",
+      "parent_id": "t3_1bszin0"
+    },
+    {
+      "id": "kxk0hiz",
+      "body": "And not even by a sexy looking dominatrix😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1711985387,
+      "score": 1,
+      "link_id": "t3_1bse9wv",
+      "parent_id": "t1_kxf7vsw"
+    },
+    {
+      "id": "kxipnvt",
+      "body": "Und denn sägets Asylante sind schlimm😂😅",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1711962612,
+      "score": 2,
+      "link_id": "t3_1bsfx21",
+      "parent_id": "t3_1bsfx21"
+    },
+    {
+      "id": "kxipkgp",
+      "body": "Congratulation thats the jackpot most people are looking for their entire life 😊",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1711962539,
+      "score": 1,
+      "link_id": "t3_1bsilum",
+      "parent_id": "t3_1bsilum"
+    },
+    {
+      "id": "kxeqp0j",
+      "body": "Great thing, its inspiring me since i also have Kallax. \nHow do you do noise reduction?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Ubiquiti",
+      "created_utc": 1711899346,
+      "score": 2,
+      "link_id": "t3_1bofszs",
+      "parent_id": "t3_1bofszs"
+    },
+    {
+      "id": "kxbkgwn",
+      "body": "No, it is a basic requirement for *any* Bachelor studies at EPFL. Masters are generally in english. \n\nNo, the website is misleading a bit. The website is indeed in english, but the studies are officially in french. Some classes are in english. But you first need to pass generall admission and this includes a level of at least B2 in french. There are free french classes to improve it though. \n\nI tried to enroll my brother in law, who speaks english only but the student administration told me beforehand that enrolling without french will not be possible for Bachelors.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "EPFL",
+      "created_utc": 1711839786,
+      "score": 2,
+      "link_id": "t3_1brufud",
+      "parent_id": "t3_1brufud"
+    },
+    {
+      "id": "kxbivjr",
+      "body": "Have fun finding out the „strength“ in jail with inmates furious about a guy having killed a child",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1711839169,
+      "score": 3,
+      "link_id": "t3_1bri7z5",
+      "parent_id": "t3_1bri7z5"
+    },
+    {
+      "id": "kxbhtzv",
+      "body": "Buy aromat.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1711838768,
+      "score": 1,
+      "link_id": "t3_1bqmgn9",
+      "parent_id": "t3_1bqmgn9"
+    },
+    {
+      "id": "kxbhkqo",
+      "body": "It did find the way outside too. \nMy wife (russian) she heard of a screening in Berne, Switzerland. \n\nI sadly didnt understand by language but its visually mindblowing. Some bits of german of August Diehl gives you context.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "RussianLiterature",
+      "created_utc": 1711838669,
+      "score": 1,
+      "link_id": "t3_190sye8",
+      "parent_id": "t1_kjt34ry"
+    },
+    {
+      "id": "kwy8i20",
+      "body": "Well technically biologically youre right, the anus is not part of the sexual reproductive organs. \n\nYet, sexual arousal happens with lots of nerves and also lots of preferences, so practices like oral sex is also „not designed“ for that yet its common. \n\nIn terms of hygiene dont worry, the anus and after are only dirty when just before and after defecating. Naturally cleans itself. You can manualy help by doing a water cleansing. \n\nThe anus is on the other side much more sensitive, during penetrative sex it easier gets hurt. \n\nBut foremost: you dont like that practice and he should respect that and its not okay to guilt you with a bugger argument. Consent and trust is of uttermost importance\n\nI smile at the suggestions made to suggest him to recieve anal sex passively. Lets see how enthusiastic he is.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1711632143,
+      "score": 2,
+      "link_id": "t3_1bpttx4",
+      "parent_id": "t3_1bpttx4"
+    },
+    {
+      "id": "kwbw2x2",
+      "body": "100m is the maximum for ethernet cabling segments. \nBeing already at 90.6m means you will have a lot of noise. \n\nConsider running fiber which you can still do with Ubiquiti Modules",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Ubiquiti",
+      "created_utc": 1711282995,
+      "score": 1,
+      "link_id": "t3_1bm73sn",
+      "parent_id": "t3_1bm73sn"
+    },
+    {
+      "id": "kvvntaf",
+      "body": "Try passthrough directly and not shared or else. \n\nI have some Tesla M10 (vSphere though) and i made the experience if you share them between VMs you have to license it, if you connect the cores directly to a VM it seems to work without having dedicated vGPU licenses for RTX Workstations or vApps",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "homelab",
+      "created_utc": 1711024271,
+      "score": 2,
+      "link_id": "t3_1bjbyih",
+      "parent_id": "t3_1bjbyih"
+    },
+    {
+      "id": "kuf910v",
+      "body": "Sicher het eine sini Beiz in Belgie „Schweizerische Eidgenossenschaft“ gnennt im Handelsregister und d Schwurbler verliered de Verstand😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1710190387,
+      "score": 28,
+      "link_id": "t3_1bc8g0v",
+      "parent_id": "t1_kueey1y"
+    },
+    {
+      "id": "kuf8w5f",
+      "body": "Sölchi Spinner wärde immer mehr und mehr und öfters gwalttätig. Vorallem im Oste..",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1710190342,
+      "score": 5,
+      "link_id": "t3_1bc8g0v",
+      "parent_id": "t3_1bc8g0v"
+    },
+    {
+      "id": "kuf8ayu",
+      "body": "Digitalization. \nSingular cops measuring people and then fine them individually is outdated. \n\nNow for specific use cases (Speeding, Parking overstay, lack of toll sticker, excessive noise) there are automated camera systems.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "zurich",
+      "created_utc": 1710190152,
+      "score": 1,
+      "link_id": "t3_1bc31l4",
+      "parent_id": "t1_kuddmwg"
+    },
+    {
+      "id": "ku8uwr1",
+      "body": "NDA - ehemaliger Rettungssanitäter hier\n\nNotfälle sind etwas recht subjektives und wohl erst am Tiefpunkt wars für dich ein Notfall. \nDanach bei Besserung ist es kein Notfall mehr sondern sicher mal eine Dringlichkeit. \n\nIm Krankenhaus hast du schon viele Faktoren, die helfen:\n- Sicherheit dass dir unmittelbar geholfen werden kann\n- Saubere, ruhige Umgebung, komplett steril und komplett anders als bei dir Zuhause\n- keine Leute, die auch nur aufgeregt betroffen sind, weil sie nicht helfen können\n\nDie Ärztin hat sicher unsorgfältig gearbeitet. \nRecht ambitionslos bei bestem Licht, Ruhe und warme Kantine in der Nähe lässt sich einfach abmotzen. \n\nSie kann anscheinend Patienten nicht immer ernstnehmen, auch recht integral. \n\nMediziner die auf Sani-Reports scheissen sind schon eine niedrigere Klasse Bürokraten, die eigentlich nur Leute abarbeiten gegen den Feierabend. Ob man dabei wichtiges übersieht ist ein Restrisiko. \n\nFalls die Notfallärztin auch um 4h morgens nur mit Vowürfe an die Patientin arbeiten kann, dann hat sie sich mit der Jobwahl vertan. \nEvtl Ernährungsberatung oder Dermatologie bei Tages-Büroarbeitszeiten oder im REWE Auffüllen ist sicher menschlich weniger anspruchsvoll. \n\nEs kann dir leidtun dass du oops nicht deine Symptome genau dann hattest dass sie dabei war um Diagnose und Anamnese zu betreiben, sondern erst Stunden später. Ich hätte sarkastisch gesagt: zeitlich nicht opportun für Sie, tut mir so leid. \n\nAuch eine Panikattacke wäre wohl wegen obengenannten Faktoren wohl bis zur Arztvisite vergangen. \nMuss die doch froh sein, dass niemand gestorben ist, Schaden genommen hat oder medizinisch unlösbar ist. \n\nUnd einen Arztbrief mit dem allgemein nichts sagendem „reduzierter Allgemeinzustand“ ist in wenigen Momenten abgetippt. Oder für die ganz Faulen: Copy&Paste\n\nJa Taxi wäre bei Dringlichkeiten die bessere Wahl gewesen, aber eine kotzend, weinende aufgeregte Passagierin hätte wohl niemand mitgenommen. Und falls es doch lebensbedrohlich gewesen wäre, wäre Taxi ein grosser Nachteil. \n\nSchlussendlich: die ineffizienten Zeitrauber, die wörtlich sonntagnachts ins Notfall für Hustensaft kommen, sind andere Personen. Solche Egoisten, im Gegensatz zu dir, würden sich gar keine Gedanken machen.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BinIchDasArschloch",
+      "created_utc": 1710091945,
+      "score": 1,
+      "link_id": "t3_1bagwrp",
+      "parent_id": "t3_1bagwrp"
+    },
+    {
+      "id": "ku8pbq3",
+      "body": "Where are you from?\n\nI would have been shocked to lose all these features. \nBut I do have in Switzerland:\n- Currency Conversion\n- Unit conversion\n- Weather\n\nAnd everything else.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "google",
+      "created_utc": 1710090009,
+      "score": 2,
+      "link_id": "t3_1bb2fsa",
+      "parent_id": "t3_1bb2fsa"
+    },
+    {
+      "id": "ku8ma74",
+      "body": "Ja das ist schon blöd. \nAber andererseits kenn ich auch Arbeitskollegen, die von mehreren Kekspackungen einfach ein einzelner Keks auf die Seite legen und 1 oder mehrere Packungen einsacken. \n\nUnd der Rest hat nichts davon. \n\nMeine Frau hat die Theorie dass je niedriger der Ausbildungsstand ist, man öfters solche Pappnasen hat. \nIch denke es gibt einfach überall egoistische Idioten.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "de",
+      "created_utc": 1710088949,
+      "score": 1,
+      "link_id": "t3_1bbbff7",
+      "parent_id": "t3_1bbbff7"
+    },
+    {
+      "id": "ku7puxc",
+      "body": "Nope, Digital Republic is only for persons with residence in Switzerland.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1710075677,
+      "score": 2,
+      "link_id": "t3_1bb6svf",
+      "parent_id": "t1_ku7j9cj"
+    },
+    {
+      "id": "ku7n9el",
+      "body": "Im so sorry, i sadly experienced something like this. \n\nIt seems that some women want just to live some period without responsibility and with the naive idea that the rejected prince will want them years later afterwards. \n\nYour pain is momentary but Im sure you will find a better suited woman, emotionally mature, to share life happiness with.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1710074269,
+      "score": 1,
+      "link_id": "t3_1bb4pyd",
+      "parent_id": "t3_1bb4pyd"
+    },
+    {
+      "id": "ku7min3",
+      "body": "Lol so much so candid😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Kanye",
+      "created_utc": 1710073844,
+      "score": -4,
+      "link_id": "t3_1bb7x0d",
+      "parent_id": "t3_1bb7x0d"
+    },
+    {
+      "id": "ktlmq4e",
+      "body": "Hey Ralph happy birthday!☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1709728858,
+      "score": 2,
+      "link_id": "t3_1b6ew6o",
+      "parent_id": "t3_1b6ew6o"
+    },
+    {
+      "id": "kt61jw5",
+      "body": "Yep, also in Switzerland i see this. \n\nPastor of a church rants about members moving in together just weeks before marriage. \nBut self is indiscreet, neglected his own marriage, got divorced and then chose the richest widow to live together with her while quitting job. \n\nLike always: people getting entitled dictating how others need to live while themselves are hyprocrites.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1709484404,
+      "score": 3,
+      "link_id": "t3_1b5ksk5",
+      "parent_id": "t3_1b5ksk5"
+    },
+    {
+      "id": "kt5yk3x",
+      "body": "Im European and bigger switches, part for Enterprise installations, are out of stocks for over a year\n\nI guess youre talking of the US supply? Or which supply market are you talking of?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Ubiquiti",
+      "created_utc": 1709483345,
+      "score": 1,
+      "link_id": "t3_1b4wen6",
+      "parent_id": "t1_kt5mzup"
+    },
+    {
+      "id": "kt58p9i",
+      "body": "Mais des pays veulent voir une autorisation écrit que tu est autorisé de rouler avec cette voiture (prevenir le vol) - Serbie, Grèce, Maroc, eux il voulaient voir une chez moi\n\nSi qqun de ton entreprise peut écrire une petit lettee avec logo tu évite des soucis comme ça au douane étranger.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "suisse",
+      "created_utc": 1709472826,
+      "score": 1,
+      "link_id": "t3_1b40hmz",
+      "parent_id": "t1_ksxgyed"
+    },
+    {
+      "id": "kt4tsam",
+      "body": "150.- is a lot for a private individual. I see lots for 50-80.- for a private tax declaration",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "basel",
+      "created_utc": 1709463897,
+      "score": 2,
+      "link_id": "t3_1b4w0jk",
+      "parent_id": "t1_kt2kuiw"
+    },
+    {
+      "id": "kt4tqf8",
+      "body": "I would also recommend you GGG\n\nIm austrian/swiss with latina mother and GGG helped us alot getting along with this. By the Age of 11 then i learned enough to do the taxes of my family",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "basel",
+      "created_utc": 1709463861,
+      "score": 2,
+      "link_id": "t3_1b4w0jk",
+      "parent_id": "t1_kt28wd1"
+    },
+    {
+      "id": "kt4tgk7",
+      "body": "Again a new Ubiquiti product while their base line is mostly out of stock🤦🏻‍♂️🤦🏻‍♂️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Ubiquiti",
+      "created_utc": 1709463666,
+      "score": 1,
+      "link_id": "t3_1b4wen6",
+      "parent_id": "t3_1b4wen6"
+    },
+    {
+      "id": "kt4skuq",
+      "body": "Essentially hes looking for a slave to be formed on his fanstasy. \nBtw, what does he offer?\nIm sure he cant keep up himself to the standard hes demanding",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1709463031,
+      "score": 2,
+      "link_id": "t3_1b54zpm",
+      "parent_id": "t3_1b54zpm"
+    },
+    {
+      "id": "kt4sc6n",
+      "body": "Is it okay to expose proxmox to the internet?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "homelab",
+      "created_utc": 1709462857,
+      "score": 1,
+      "link_id": "t3_1b56nku",
+      "parent_id": "t3_1b56nku"
+    },
+    {
+      "id": "ksf32cl",
+      "body": "Restaurant Post",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1709061446,
+      "score": 1,
+      "link_id": "t3_1b0q5bd",
+      "parent_id": "t3_1b0q5bd"
+    },
+    {
+      "id": "krww161",
+      "body": "Die Deppe hend kei Ahnig, e Kommunistischi Partei hets scho läng gäh, när zur Partei der Arbeit fusioniert. \nHützutags 0 Relevanz irgendwo. \n\nI glaube die Lackschnüffler sind no extremer",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "BUENZLI",
+      "created_utc": 1708779394,
+      "score": 1,
+      "link_id": "t3_1ay9vvx",
+      "parent_id": "t3_1ay9vvx"
+    },
+    {
+      "id": "krwvjzu",
+      "body": "Gary, be ready to take over shifts. Come on, be a teamplayer! Dont you want to help the company to succeed?!!!!",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1708779145,
+      "score": 5,
+      "link_id": "t3_1aysrmw",
+      "parent_id": "t3_1aysrmw"
+    },
+    {
+      "id": "krrxrf0",
+      "body": "I feel you, did the same before. So then i repurposed the DL20 and bought a DL360. \n\nCan take awfully lots of memory and even 2 GPU",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "servers",
+      "created_utc": 1708701811,
+      "score": 1,
+      "link_id": "t3_1atp7tp",
+      "parent_id": "t1_krr8sg8"
+    },
+    {
+      "id": "krc1uv6",
+      "body": "Wow die Lederhose ist extrem geil. Würde grad sofort tanga rüberziehen und alle Löcher lecken😋",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "DeutscheNSFW",
+      "created_utc": 1708456587,
+      "score": 1,
+      "link_id": "t3_1avn6gg",
+      "parent_id": "t3_1avn6gg"
+    },
+    {
+      "id": "kr7c0fo",
+      "body": "To use as a thinclient, theyre weak. Really weak\n\nIt was such a disappointment from Dell. \nThey even „upgraded“ to a much heavier ThinOS which effectively made them garbage. \nBuilding in 2(!) DP Connectors suggests that it should handle graphics for 2 screens which definitely cannot. \n\nBut if you want to run linux bare metal for small stuff thats totally fine.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "homelab",
+      "created_utc": 1708380699,
+      "score": 10,
+      "link_id": "t3_1auyxp9",
+      "parent_id": "t3_1auyxp9"
+    },
+    {
+      "id": "kr6ll14",
+      "body": "I (29M) think this is a severe break of trust. Even worse that he just by the end even try to put it off and nor even asking where you are with this. \n\nGirl, there are much better potential partners out there and much better sexual partners. Good sexual partners put great deal of effort that you enjoy at least as much as he himself does and make sure you feel safe, hot and understood - a real level of consent. They make room for you to address any incomfort or doubt. \n\nJust break up by text and say as low effort he puts into a relationship as bad he fucks. \n\nYou deserve better and please dont go below!\n\n(My wife read this and she agrees on my opinion😇)",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "offmychest",
+      "created_utc": 1708372005,
+      "score": 3,
+      "link_id": "t3_1autatn",
+      "parent_id": "t3_1autatn"
+    },
+    {
+      "id": "kr0wpjs",
+      "body": "Im curious hearing about your project, good luck! ☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "servers",
+      "created_utc": 1708281840,
+      "score": 1,
+      "link_id": "t3_1asbwlv",
+      "parent_id": "t3_1asbwlv"
+    },
+    {
+      "id": "kqzdikq",
+      "body": "Well, its unlawful but there is no direct criminal article penalizing you for working too much. \n\nBut you might face consequences by your employer since the will be held accountable why they didnt protect you form overworking. \nThis might end in employment termination, as its illoyal to engage outside your contract to a point where its unlawful and puts the employer at risk. \n\nIf youre not working for competitors most dont even care. If you do then they might actually catch that\n\n\nI did also during corona work around 80h a week by experimenting to take a polyphasic schedule. I avoided driving and always took care of my health and rest. \nSome weeks later it was noticed by both employers and I was asked to abstain from this. \n\nI realized as well that even if you do polyphasic sleep and you can individually can manage and be healthy, your surounding cannot and you need more free time to connect with them.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1708260046,
+      "score": 1,
+      "link_id": "t3_1atqukw",
+      "parent_id": "t3_1atqukw"
+    },
+    {
+      "id": "kqyzx99",
+      "body": "How not? Look up GPUs small enough to physisically meet the space limitation and power demand and make sure the PCIe Version matches. \nThen its up to the operating system for drivers",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "servers",
+      "created_utc": 1708250552,
+      "score": 2,
+      "link_id": "t3_1atp7tp",
+      "parent_id": "t3_1atp7tp"
+    },
+    {
+      "id": "kqvpi5d",
+      "body": "Wie allgemein hat der Staat keine Konkurrenz. \nEs ist denen einfach völlig egal obs gut ist oder nicht. Es gibt die App, irgendjemand erklärt offiziell dass es in Betrieb ist - fertig. \nJahresziel erreicht, der Beamte kriegt eine Lohnerhöhung und fertig. \n\nDer Bafög Antrag ging anfangs wegen der Loginanbindung an eine Bundes ID nicht und das ging unter. \nSolange es keine zweite Bundesrepubliksverwaltung gibt die deswegen Steuern erkonkurrenzieren könnte wird es immer so unbekannt gut/schlecht bleiben. \n\nPrivate Unternehmen saufen ab wenn ihre Apps nicht qualitativ so gut sind wie ihre Produkte oder Dienstleistungen.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "de_EDV",
+      "created_utc": 1708197423,
+      "score": 1,
+      "link_id": "t3_1ap7yjo",
+      "parent_id": "t3_1ap7yjo"
+    },
+    {
+      "id": "kqv5kso",
+      "body": "Its so cute when a guy goes to russia and is amazed of the little things😅😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1708190903,
+      "score": 1,
+      "link_id": "t3_1asq9ep",
+      "parent_id": "t3_1asq9ep"
+    },
+    {
+      "id": "kqtugnk",
+      "body": "Where is there a server? I see only switching snd networking 😇\n\nBut looks decent, well cabled and well chosen to be scalable, you can add some more ports and not replace the whole thing right away",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "servers",
+      "created_utc": 1708172962,
+      "score": 2,
+      "link_id": "t3_1aq7fix",
+      "parent_id": "t3_1aq7fix"
+    },
+    {
+      "id": "kq7b6kc",
+      "body": "Wie steigt man direkt als Hptm ein?\n\nIst ja so als kreuzt du in ner Uni auf direkt als Professor😅",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "de_IAmA",
+      "created_utc": 1707807826,
+      "score": 11,
+      "link_id": "t3_1apcy9s",
+      "parent_id": "t3_1apcy9s"
+    },
+    {
+      "id": "kq7b1hx",
+      "body": "Although a crucified jesus on your lawn might be worse than a buddha. But what do I know?🤷🏻‍♂️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1707807730,
+      "score": 1,
+      "link_id": "t3_1aozedf",
+      "parent_id": "t1_kq2r9ni"
+    },
+    {
+      "id": "kq2sqdw",
+      "body": "New owners tend to leverage the profitability. \n\nBut this all is so stupid, i think some Broadcom McKinsey Economics Consultant like a moron just said „more profit or you get crucified“",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "vmware",
+      "created_utc": 1707743557,
+      "score": 1,
+      "link_id": "t3_1alh5el",
+      "parent_id": "t3_1alh5el"
+    },
+    {
+      "id": "kpwhdie",
+      "body": "Lern d Amtssproch französisch du unterschüeler😂",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Lausanne",
+      "created_utc": 1707639771,
+      "score": 1,
+      "link_id": "t3_1anane0",
+      "parent_id": "t1_kprus0j"
+    },
+    {
+      "id": "kpwh9gl",
+      "body": "But then if you demand more pictures to see the condition people react annoyed🙄",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Depop",
+      "created_utc": 1707639707,
+      "score": 1,
+      "link_id": "t3_1amg5mk",
+      "parent_id": "t3_1amg5mk"
+    },
+    {
+      "id": "kpwgyp4",
+      "body": "Did I understand it right you connect your VPN endpoints over ToR to your homelab?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "homelab",
+      "created_utc": 1707639529,
+      "score": 1,
+      "link_id": "t3_1ak7urs",
+      "parent_id": "t1_kp5zway"
+    },
+    {
+      "id": "kprkph3",
+      "body": "Im in IT, managing Company IT, until 28 i was making 7000 a month, entered there wirh 3y experienced and stayed for 11years. Region Bern. \nProfession is generalistic economics informatics. \n\nNow with an own company i could do potentionally more, but i rather not want to pay more income tax and invest someplace else",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1707560634,
+      "score": 1,
+      "link_id": "t3_1amwufg",
+      "parent_id": "t3_1amwufg"
+    },
+    {
+      "id": "kpo7r93",
+      "body": "Yesterday evening a refugee took hostage a train and only close by luck the special intervention squad managed to kill him and spare everyone else. \nSo i get more and more critical\n\nAsylum is a human right, Migration is not and is something else. \nBasic necessities must be taken care of, but neither include cash presents.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1707504403,
+      "score": 1,
+      "link_id": "t3_1amh14f",
+      "parent_id": "t3_1amh14f"
+    },
+    {
+      "id": "kpb5d2n",
+      "body": "Yep, see south america. \n\nOn the other side the immunity is worth to be revoked to prevent abuse of it",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1707297915,
+      "score": 1,
+      "link_id": "t3_1akeapy",
+      "parent_id": "t3_1akeapy"
+    },
+    {
+      "id": "kow4ff1",
+      "body": "Sign means: stopping and parking forbidden\n<-> from here to the left and right until interrupted or a sign shows ->| or a marking show so. So to the last of these pylon heads\n\nAdditional details: this ban is active\n30.01.2024 06h-18h and also\n1.2.24 06-18h",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1707062662,
+      "score": 1,
+      "link_id": "t3_1afo8mr",
+      "parent_id": "t3_1afo8mr"
+    },
+    {
+      "id": "kovuqua",
+      "body": "indeed, this one does parse it as POST. I guess XAMPP does some sort of rewriting or use proxying, like using nginx",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "PowerShell",
+      "created_utc": 1707058959,
+      "score": 2,
+      "link_id": "t3_1aimn9u",
+      "parent_id": "t1_kovg9zl"
+    },
+    {
+      "id": "kovulzw",
+      "body": "Hi Oleksiy, thanks for looking into that.\n\nGood ideas, I actually had the TLS setting because my endpoint is https, which I dont use locally. Also the MaximumRedirection I tried.   \n\n\nI now tried cschneegans's Idea to try another Eco service and yes indeed, it parses POST. Both my web-Server and my local xampp seem to do some rewriting.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "PowerShell",
+      "created_utc": 1707058903,
+      "score": 2,
+      "link_id": "t3_1aimn9u",
+      "parent_id": "t1_kovgyzw"
+    },
+    {
+      "id": "kov9f1l",
+      "body": "Hey, did the Hackerspace move? \nIts actually close to me, so thatd be great to see it sometime ☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "bern",
+      "created_utc": 1707047943,
+      "score": 1,
+      "link_id": "t3_19c5b0e",
+      "parent_id": "t1_kjwmk0h"
+    },
+    {
+      "id": "kjum769",
+      "body": "Yep, one year ago, still love her and her heels collection☺️😇",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "HighHeels",
+      "created_utc": 1706385964,
+      "score": 1,
+      "link_id": "t3_sz7g69",
+      "parent_id": "t3_sz7g69"
+    },
+    {
+      "id": "kjtwpef",
+      "body": "Die Ukrainer lieben deutsches Bier dass sie das dort haben?😅😅",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "de_IAmA",
+      "created_utc": 1706376707,
+      "score": 1,
+      "link_id": "t3_1abode6",
+      "parent_id": "t1_kjpce8s"
+    },
+    {
+      "id": "kjtwedo",
+      "body": "Its horrible, how with the woke craziness people get so far as to label anything as offensive while level of education and science plummets…",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1706376595,
+      "score": 1,
+      "link_id": "t3_1acbvo2",
+      "parent_id": "t3_1acbvo2"
+    },
+    {
+      "id": "kjozs8c",
+      "body": "Yeah duct tape the parts but otherwise if no lights, windows, steering, braking are damaged its not illegal as „driving unsafe vehicle“ \nIts just optically bad",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1706294363,
+      "score": 1,
+      "link_id": "t3_1abl6v0",
+      "parent_id": "t3_1abl6v0"
+    },
+    {
+      "id": "kjjdik0",
+      "body": "Its illegal since recentl as Identity theft. \nYou may report such numbers to Bakom Biel, which has oversight of phone numbers. \n\nProviders like Swisscom startet Call Filters to protect you against phone calls which spoof their headers and do not match the routing.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1706206948,
+      "score": 1,
+      "link_id": "t3_19f3kch",
+      "parent_id": "t3_19f3kch"
+    },
+    {
+      "id": "kixmt1e",
+      "body": "Im actually always wondering where are good spots to go programming in Bern?\nBut yeah, id be open to programm smh interesting☺️☺️",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "bern",
+      "created_utc": 1705867450,
+      "score": 1,
+      "link_id": "t3_19c5b0e",
+      "parent_id": "t3_19c5b0e"
+    },
+    {
+      "id": "kih12yl",
+      "body": "Its anyway gonna go through. The politicians in power are old and the average voting population as well. \n\nOld people will just take advantage and the SP since „money of everyone“ sounds good at first sight",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1705603757,
+      "score": 1,
+      "link_id": "t3_198sxkv",
+      "parent_id": "t3_198sxkv"
+    },
+    {
+      "id": "khp1zb5",
+      "body": "I myself used to go to a dentist in Liestal at the trainstation to do „Invisalign“, quoted 3000.- and checks every 2-6 weeks. \nHe quickly surpassed 3000.- and timed the checks not 6 but the shortest possible, 2 weeks racking up the price. \n\nAlso he couldnt distinguish my twin brother and me, was constantly mixing up our things. \nI then eventually left and never finished this scam treatment. \n\nBut my wife went to bestsmile, first consultation is for free and you get a fixed price quote. The checks are includes so you really avoid the potential of getting scammed. \nTheyre also a chain and have great orthodontists also lots of them speak english. \nThere is also an option to pay it off as you go, my wife got for 350.-/months over 13months. \nTry that one",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1705168629,
+      "score": 1,
+      "link_id": "t3_195s2wm",
+      "parent_id": "t3_195s2wm"
+    },
+    {
+      "id": "khp0afi",
+      "body": "I hope Child Protection can provide the kids with a better mom. Its suffering to know that there are such lunatics entrusted with custody",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "facepalm",
+      "created_utc": 1705168038,
+      "score": 1,
+      "link_id": "t3_195ovpx",
+      "parent_id": "t3_195ovpx"
+    },
+    {
+      "id": "khozwz5",
+      "body": "No, its generally not allowed to enroll in several universities nor even programmes at the same time. Thats actually mentioned during the enrollment process. \n\nBut whats your point? „Safe scoring“?\nOr actually combine classes of two study programmes?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "ethz",
+      "created_utc": 1705167906,
+      "score": 1,
+      "link_id": "t3_195m9zy",
+      "parent_id": "t3_195m9zy"
+    },
+    {
+      "id": "khoc3k4",
+      "body": "Soll der Gastronom doch nicht so gierig sein und das doch rechnerisch querfinanzieren.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1705159081,
+      "score": 1,
+      "link_id": "t3_195ne7c",
+      "parent_id": "t1_khnvk7s"
+    },
+    {
+      "id": "khobzhp",
+      "body": "Welches Restaurant war das?",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1705159036,
+      "score": 1,
+      "link_id": "t3_195ne7c",
+      "parent_id": "t3_195ne7c"
+    },
+    {
+      "id": "khcmquu",
+      "body": "Auch andere Provider wie Swisscom oder Quickline lassen das zu. \nAber natürlich ist das Mehraufwand den der Kunde selbst betreibt oder bezahlt.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "schweiz",
+      "created_utc": 1704974212,
+      "score": 1,
+      "link_id": "t3_192qods",
+      "parent_id": "t1_kh6vfy2"
+    },
+    {
+      "id": "khcmo44",
+      "body": "Na dann viel Spass bei der Konfiguration. \n\nNur schon für PPPoE sind die meisten zu blöd, nur ein Usernamen und Passwort in den Router einzugeben. \n\nDie Provider machen nicht primär Überwachung, sie machen Auto-Konfiguration",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "schweiz",
+      "created_utc": 1704974167,
+      "score": 1,
+      "link_id": "t3_192qods",
+      "parent_id": "t1_kh5hg51"
+    },
+    {
+      "id": "khcmjyp",
+      "body": "Wieso muss die Politik nochmals eingreifen? Jeder Mensch im Land weiss dass man Elektrogeräte überall zum Recycling abgebwn kann, wo man Elektrogeräte verkauft. Es gibt ne vRG Steuer dieses finanziert das Recycling. \nDie Politik hat\n\nLeute die zu faul und dumm sind machens so wie auf dem Bild. Anbieter wie Swisscom arbeiten mit dem Vendor Also und legen gar eine Rücksendeetikette bei.",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "schweiz",
+      "created_utc": 1704974098,
+      "score": 1,
+      "link_id": "t3_192qods",
+      "parent_id": "t3_192qods"
+    },
+    {
+      "id": "kgb15kn",
+      "body": "Mi au. Wieso chönds nid e eigeni tinyurl unter eigner domain mache? „Swiss.com“ isch sogar chürzer als „tinyurl.com“",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "schwiiz",
+      "created_utc": 1704390087,
+      "score": 1,
+      "link_id": "t3_18xnwqs",
+      "parent_id": "t1_kgatach"
+    },
+    {
+      "id": "kgahxou",
+      "body": "Lol Swiss nutzt tinyurl. Jokes on them, denn tinyurl isch scho lang offline 😂😅🤦🏻‍♂️\n\nhttps://preview.redd.it/e6o2y8ux2gac1.jpeg?width=1290&format=pjpg&auto=webp&s=3daa9debfd44f7ac27b17071030017f33c07a76c\n\nAlso es git scho dienstleister mit tinyurls😅",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "schwiiz",
+      "created_utc": 1704383425,
+      "score": 1,
+      "link_id": "t3_18xnwqs",
+      "parent_id": "t1_kg5clp8"
+    },
+    {
+      "id": "kfzan7p",
+      "body": "I strongly advise you to adhere to your own interest. \nThen potentially, your employer will not",
+      "author": "Sorry_Mushroom5493",
+      "subreddit": "Switzerland",
+      "created_utc": 1704205994,
+      "score": 1,
+      "link_id": "t3_18u9pfy",
+      "parent_id": "t3_18u9pfy"
+    }
+  ]
+}

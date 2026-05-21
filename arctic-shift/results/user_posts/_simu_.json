@@ -1,0 +1,46 @@
+{
+  "username": "_simu_",
+  "posts": [],
+  "comments": [
+    {
+      "id": "m3aqsbh",
+      "body": "I was going to suggest going to ETHZ's Print and Publish (which I used for my thesis) but from what I can find, the internal print&publish closed recently.\n\nI'd probably look at the official ETHZ printing partners listed in https://ethz.ch/staffnet/en/service/office-supplies-printing-and-mailing/print-publish/futureprint-eth.html if I had to print my thesis now.",
+      "author": "_simu_",
+      "subreddit": "ethz",
+      "created_utc": 1734883811,
+      "score": 4,
+      "link_id": "t3_1hk13tn",
+      "parent_id": "t3_1hk13tn"
+    },
+    {
+      "id": "l7clqcz",
+      "body": "I see an issue in your code if the only number in the string is right at the start (e.g. `4foo` or `threebar`).\n\nHint: >!Your `for j in range(1,len(i))` loop will never find the correct \"last\" digit if a line only has a digit right at the start.!<\n\nFix: >!If you change the `for j in range(1,len(i))` loop to `for j in range(1,len(i)+1)` you'll correctly parse such lines.!<",
+      "author": "_simu_",
+      "subreddit": "adventofcode",
+      "created_utc": 1717667616,
+      "score": 3,
+      "link_id": "t3_1d9dtoa",
+      "parent_id": "t3_1d9dtoa"
+    },
+    {
+      "id": "kwhcado",
+      "body": "1) https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#hide-the-tree-style-tab-header-at-the-top-of-the-sidebar\n\n2) https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#hide-horizontal-tabs-at-the-top-of-the-window-1349-1672-2147\n\nYou may need to enable some stuff in `about:config` in order for the userChrome.css configs to work (cf. https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#on-firefox-69-and-later)",
+      "author": "_simu_",
+      "subreddit": "firefox",
+      "created_utc": 1711372518,
+      "score": 1,
+      "link_id": "t3_1bn7prs",
+      "parent_id": "t3_1bn7prs"
+    },
+    {
+      "id": "kh82mtd",
+      "body": "What happens if a line only has a single digit right at the start (something like \"1foobar\")?\n\nHint 1: >!The problem statement explicitly wants a **two-digit** number for each line of the input!<\n\nHint 2: >!For the single line input \"1foobar\" the result should be *11*!<\n\nThe actual bug in your code: >!For finding the last digit in each line, you don't check the first character of the line because your for-loop has exit condition x > 0. This should be x >= 0 to correctly find a two-digit number for lines where the only digit in the line is the first character!<",
+      "author": "_simu_",
+      "subreddit": "adventofcode",
+      "created_utc": 1704903534,
+      "score": 13,
+      "link_id": "t3_193bosh",
+      "parent_id": "t3_193bosh"
+    }
+  ]
+}

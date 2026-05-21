@@ -1,0 +1,228 @@
+{
+  "username": "KPAHK",
+  "posts": [
+    {
+      "id": "1clpvga",
+      "title": "L2 results release discussion thread",
+      "author": "KPAHK",
+      "subreddit": "CAIA",
+      "created_utc": 1715019100,
+      "score": 14,
+      "num_comments": 15,
+      "selftext": "Dear fellow L2 candidates!\n300hours estimates L2 results to be released on 8th of May. Taking in account SEE statistics it is safe to say we've already in the confidence interval of release dates range. \nIf you got your results either by mail or by constantly refreshing your account page, please drop a short comment here.\nGood luck everyone! \nP.s. hope not to see you in September)\n\n",
+      "url": "https://www.reddit.com/r/CAIA/comments/1clpvga/l2_results_release_discussion_thread/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m3cqn7u",
+      "body": "Sorry friend, I have no idea, tbh. Just referring this thread https://forum.level1techs.com/t/gigabyte-ga-wrx80-su8-ipmi-not-posting/189427 . \nHope it helps and you will spin it up!",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734907986,
+      "score": 1,
+      "link_id": "t3_1hk1v3x",
+      "parent_id": "t1_m3bw0qb"
+    },
+    {
+      "id": "m3bwgrj",
+      "body": "Nice coincidence: pyro is next in my to-try-and-explore list. I did want to use smt probabilistic on top of BTrees. Happy to hear someone uses it!\n\n\nAs for \"never enough memory\" - definitely you are 100% right. But for me even not-so-big 4x increase from 128 to 512GB reduced headache and need in excessive partitioning. I can focus more on business logic than on data flow restrictions.\n\n\n\nI've now dedicated a separate nvme drive for a swap file to help to deal with larger-than-memory tasks. Its not as fast as I would like it to be, so Im thinking about using a raid-0 4x nvme card for this purposes. ",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734897699,
+      "score": 1,
+      "link_id": "t3_1hjqilo",
+      "parent_id": "t1_m3b2lm7"
+    },
+    {
+      "id": "m3bul6a",
+      "body": "If you are using only 4 ram modules you can try experimenting with its positioning.\nI've seen mentioning using 2 slots closest to CPU and 2 slots further from cpu on Level1 tech forum. Couldnt find anything related in the manual though.",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734897064,
+      "score": 1,
+      "link_id": "t3_1hk1v3x",
+      "parent_id": "t1_m3bioou"
+    },
+    {
+      "id": "m3bgvee",
+      "body": "Make sure you've connected all numerous power supplies for the motherboard as per manual. As far as I remember wrx80 has like 4 pci-e power cable ins in addition to usual mobo connector",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734892605,
+      "score": 1,
+      "link_id": "t3_1hk1v3x",
+      "parent_id": "t1_m3bdbko"
+    },
+    {
+      "id": "m3av7u3",
+      "body": "You would want to have 8 ram sticks from the QVL list to avoid performance hits with octo-channel CPU",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734885366,
+      "score": 3,
+      "link_id": "t3_1hk1v3x",
+      "parent_id": "t3_1hk1v3x"
+    },
+    {
+      "id": "m39o28m",
+      "body": "I was considering similar roads some time ago for my dev project. My workload is data preparation (4-5 TB, partitioned in various dimensions: polars, duckdb+spatial) + tabular ML (not DL/RL, therefore your mileage may vary) + inference & analytics.\n\n\nI've noticed that due to memory limitations (had 128gb before upgrade) I spent much more time partitioning partitioned assets to fit somehow into ram and thus decided to pull the trigger for the new build.\n\n\nSpoiler: I went with older TR 3995wx Pro thanks to huge discounts (final price was ~$1k for the CPU)\n\n+ 8x64GB \n\n\n\nMy findings/Things to consider:\n\n\n1. Ram availability and prices. Even with ddr4 I could not afford 8x128 gb (~2x price per gb). Ddr5 for me was not an option\n\n\n2. For me Single core performance doesn't matter: either the solution work with all cores/threads available or doesn't suit me at all. This approach to development helps to keep the project upgradeable in terms of hardware avoiding single core bottlenecks\n\n\n\n3. Models Training time: surprisingly account only for single digit % of total pipeline time. Therefore is not something to be improved with high priority.\n\n\n\n4. I had 2x 2080ti for testing GPU-based solutions but quickly found out that GPUs are not in general suitable for my workloads: for my algorithms (spatial models, GBTrees and ensambles) the GPU support is limited and the speedup (if available) offseted by stability issues/memory limitations. Multiple GPU support is much bigger problem (and PITA). So even if I would be willing to afford 4x 4090 it wouldn't make sense for my workload and some models still would not fit into memory. Polars gpu support (although announced) is still work in early progress. i've spent much more time trying to make GPUs work than model training itself.\n\n\n\n5. DL/LLM pipelines has better Multi-GPU support out of the box but multi-gpu systems most likely will require watercooling. I was ready to do that, but for some people it is a big no-go.\n\n\n\n\n\nConclusion: a) please pay greater attention to the software you are going/willing to use in terms of supported hardware and b) try to find real bottlenecks of your pipeline. For me these considerations led to conclusion to make couple of steps back from edge technologies (not going ddr5, latest GPUs) but allowed to solve my problems and push my project development progress forward.\n\n\nKnowing all this my next upgrade would be double-epyc with even more memory. I cant emphasize enough the pleasure/efficiency of just pushing code to execution without battling OOMs/software limitations",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734864950,
+      "score": 3,
+      "link_id": "t3_1hjqilo",
+      "parent_id": "t3_1hjqilo"
+    },
+    {
+      "id": "m2duy4z",
+      "body": "I agree. But in terms of heat dissipation 280 watts are still almost twice than 150. Thats why I've suggested that the most probable source of problems are not fans and radiator but heat transfer from the CPU itself into the subsequent elements of cooling system",
+      "author": "KPAHK",
+      "subreddit": "watercooling",
+      "created_utc": 1734381022,
+      "score": 1,
+      "link_id": "t3_1hfixa6",
+      "parent_id": "t1_m2dpj8u"
+    },
+    {
+      "id": "m2c3md8",
+      "body": "Does the temp rise quickly when benchmarked or is it rising steadily till thermal limit?",
+      "author": "KPAHK",
+      "subreddit": "watercooling",
+      "created_utc": 1734360850,
+      "score": 1,
+      "link_id": "t3_1hfixa6",
+      "parent_id": "t3_1hfixa6"
+    },
+    {
+      "id": "m2by56q",
+      "body": "What thermal interface do you use?\nI'm using 420 AIO (alphacool) with 3x 14\" Noctua on 500-800 RPM for 280 TDP threadripper with thermal grizzly cryonaut extreme with max 65C under long fully load.\nSo my bet that problems come not from the radiator+fans, but rather thermal paste/alignment/install pressure",
+      "author": "KPAHK",
+      "subreddit": "watercooling",
+      "created_utc": 1734358816,
+      "score": 2,
+      "link_id": "t3_1hfixa6",
+      "parent_id": "t3_1hfixa6"
+    },
+    {
+      "id": "m1qzof1",
+      "body": "I've just looked the inspiration link you've shared and and it seems the mb fits perfectly fine. Probably I'm wrong assuming identical sizes of wrx80 and trx50 mobos.\nP.s. I'm also the fractal fan. Had 3 builds in different sizes with define. But as alredy many mentioned, fans should be swapped immediately for PWMs",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734035707,
+      "score": 1,
+      "link_id": "t3_1hcq1yb",
+      "parent_id": "t1_m1qy7mh"
+    },
+    {
+      "id": "m1qx96o",
+      "body": "Also, \n1.it looks like cpu is using 4 memory channels, therefore your performance will be penalised significantly using just 2 planks or RAM\n2. Your Selected memory afaik is not in QVL, therefore imho it is a huge risk, taking in account how picky are threadrippers on ram",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734034942,
+      "score": 1,
+      "link_id": "t3_1hcq1yb",
+      "parent_id": "t3_1hcq1yb"
+    },
+    {
+      "id": "m1qw3s9",
+      "body": "I would suggest looking for other case. I've recently done a WRX80 build for TR 3995wx with Fractal 7XL and although the case does _technically_ support large motherboards, the MB *will* cover rubberised passthroughs in the middle of the case. What makes this problem worse is the enormous amount of power cabels required to power the MB+CPU. ",
+      "author": "KPAHK",
+      "subreddit": "threadripper",
+      "created_utc": 1734034580,
+      "score": 1,
+      "link_id": "t3_1hcq1yb",
+      "parent_id": "t3_1hcq1yb"
+    },
+    {
+      "id": "lo8nux1",
+      "body": "Could you please share the planned specs?\nI'd bet for smt like Threadripper Pro + sage wrx80 II, but would appreciate if you can share your plan and (hopefully successfull) results.",
+      "author": "KPAHK",
+      "subreddit": "watercooling",
+      "created_utc": 1726940840,
+      "score": 1,
+      "link_id": "t3_1flnksm",
+      "parent_id": "t3_1flnksm"
+    },
+    {
+      "id": "l35fhbb",
+      "body": "I know that feel bro! But let's keep cool and push forward.\nFrom all my past unsuccessful attempts for CFA&FRM I can state that the more you fail, the better you grasp the material :)",
+      "author": "KPAHK",
+      "subreddit": "CAIA",
+      "created_utc": 1715185647,
+      "score": 1,
+      "link_id": "t3_1clpvga",
+      "parent_id": "t1_l35bukl"
+    },
+    {
+      "id": "l2v5r1q",
+      "body": "Ha ha! My way of thinking: I'm already halfway there and took at least one very expensive mock exam. If I fail, I will never be better prepared to battle level 2 than this summer :)",
+      "author": "KPAHK",
+      "subreddit": "CAIA",
+      "created_utc": 1715019939,
+      "score": 2,
+      "link_id": "t3_1clpvga",
+      "parent_id": "t1_l2v4exr"
+    },
+    {
+      "id": "l2v4ye1",
+      "body": "Exactly! This adds an additional layer of nervosity.",
+      "author": "KPAHK",
+      "subreddit": "CAIA",
+      "created_utc": 1715019664,
+      "score": 2,
+      "link_id": "t3_1clpvga",
+      "parent_id": "t1_l2v4kgs"
+    },
+    {
+      "id": "l0merjv",
+      "body": "Could you please advice on the customs clearance process? Did you pay any duties/taxes etc? I've found nice staff for my homelab on ebay with delivery from China, but not sure how does the delivery process work",
+      "author": "KPAHK",
+      "subreddit": "homelab",
+      "created_utc": 1713720449,
+      "score": 1,
+      "link_id": "t3_1203ypc",
+      "parent_id": "t1_jdgfl9u"
+    },
+    {
+      "id": "kuemzs7",
+      "body": "Did anyone receive his/her admission results for the MS in Quantitative Finance application?",
+      "author": "KPAHK",
+      "subreddit": "ethz",
+      "created_utc": 1710183175,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "kjo31qc",
+      "body": "Upd on multiple Work Experience resubmissions. The process really becomes frustrating:\n\n1. 4th Jan - First WE submission\n2. 5th Jan - GARP requests to elaborate on financial risk management \n3. 5th Jan - Second WE submission\n4. 26th Jan - GARP requests to fill in only non-overlapping experience, stating that \"non-overlapping experience qualifies\".   \nOf my 10+ years of risk related experience 2 years are indeed overlapping as I had similar positions in the acquirer and the acquired company during post M&A integrations but have no clue why that would matter.",
+      "author": "KPAHK",
+      "subreddit": "FRM",
+      "created_utc": 1706283213,
+      "score": 3,
+      "link_id": "t3_19drjjj",
+      "parent_id": "t3_19drjjj"
+    },
+    {
+      "id": "khctvmx",
+      "body": "Submitted experience on Jan 5th immediately after the step became available. Next day received email with requirement to resubmit it emphasizing risk related aspects (it was my bad: i tried to hurry up everything and submitted data from the CV I've prepared previously with less risk focus in mind). No news/updates since then. I believe I've seen somewhere during submission that work experience is processed on FIFO basis. Meaning that those who didn't submit correctly in first few minutes after results release will be waiting for a while.",
+      "author": "KPAHK",
+      "subreddit": "FRM",
+      "created_utc": 1704978005,
+      "score": 2,
+      "link_id": "t3_193hdji",
+      "parent_id": "t3_193hdji"
+    },
+    {
+      "id": "khcszk5",
+      "body": "If you are to start FRM I bet you are going to learn quite something about quartiles! \n\nAs for quartiles frequently mentioned here: the exam performance of candidate is reported as quartile (1 to 4) among other exam takers population.",
+      "author": "KPAHK",
+      "subreddit": "FRM",
+      "created_utc": 1704977568,
+      "score": 4,
+      "link_id": "t3_193vnzw",
+      "parent_id": "t3_193vnzw"
+    }
+  ]
+}

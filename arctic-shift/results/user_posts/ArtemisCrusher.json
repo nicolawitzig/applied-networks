@@ -1,0 +1,99 @@
+{
+  "username": "ArtemisCrusher",
+  "posts": [
+    {
+      "id": "1bbnscd",
+      "title": "Small File Issue",
+      "author": "ArtemisCrusher",
+      "subreddit": "filen_io",
+      "created_utc": 1710111474,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "Hello, I am now trying different cloud storages. I found Filen is really nice, especially for its privacy that others usually do not offer or not transparent. However, only one disadvantage for me was that it was quite slow when there are too many small files. Of course, I excluded something like \\`node\\_modules\\`, but still, I have a lot of photos that I want to back up or ML projects with small files that literally take a day to syncing.\n\nI assume this is the common issue for all cloud storages, but I found DropBox is way faster for managing those, but I want to avoid using it for my privacy.\n\nIs there going to be any trick to make it faster? or is there any plan to deal with that issue?\n\nThanks in advance.\n\n&#x200B;",
+      "url": "https://www.reddit.com/r/filen_io/comments/1bbnscd/small_file_issue/"
+    },
+    {
+      "id": "1auyq33",
+      "title": "VirtualBox Keyboard inhibit",
+      "author": "ArtemisCrusher",
+      "subreddit": "swaywm",
+      "created_utc": 1708376887,
+      "score": 2,
+      "num_comments": 2,
+      "selftext": "Hello, I am new to Sway and this might be already an exisitng question, but I could not find a solution for this, so please let me know if there is any good one.\n\nI want to use VirtualBox on Sway, however, shortcuts, such as Alt+Tab, are caputured by Sway and not handled by VirtualBox. This is quite annoying when I have to use Windows for some specific apps.\n\nI found there is the command of `shortcuts_inhibitor`, and set it like below.  \n```  \nfor_window [class=\"VirtualBox Machine\"] shortcuts_inhibitor enable\n```\nbut this does not work, I assume because VirtualBox is running under XWayland.\n\nI appreciate any help for this!",
+      "url": "https://www.reddit.com/r/swaywm/comments/1auyq33/virtualbox_keyboard_inhibit/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lvjvolp",
+      "body": "I am one of the first graduates of BIE and currently studying at M.Sc. Informatics. Let me answer this question.\n\nThey say BIE is a part of TUM but at a different campus. This makes a great difference to those programs. The campus in Heilbronn is still quite small (200\\~300 students at school of CIT), and in short, there are not many opportunities. For example, students initiatives almost do not exist there although you can technically join one from Munich. The city is also quite small, which means quite limited opportunities to get jobs outside of the university. There should be 10-ish professorships in Heilbronn eventually too, but there are not many permanent professors as of now, and the lecture quality is also not consistent as they often change professors. And, I did not like that there were not many electives I could take. In general, the difficulty is said to be easier in Heilbronn although I would not think it is greatly different as it also depends on each lecture, but the first semester would be easier in Heilbronn as PGdP/FoP is a lot easier in Heilbronn. (Discrete Structures? I don't know)\n\nHowever,  the small size of the campus also becomes a great advantage. You gain a lot more close support in Heilbronn, and it is way easier to find friends there. There is even an event hosted by the university called \"Fireside Chat\" bi-weekly, which you can drink and eat for free at the hotel. It is way easier to contact professors or tutors and ask them what you do not understand. You may get jobs at the university easily. As the class is taken by 100 students at most, and the number usually decreases as semesters go on, you will know everybody in the class by the end. In general, if you are new to computer science and do not know what you are doing, the chances are higher to survive in Heilbronn. This is not something I said but one of the professors commuting from Garching said.\n\nIn short, BIE feels like an extension of your highschool both in a good and bad way. If you are just new to computer science and do not know anything, Heilbronn might be better at educating you, but if you know what you are doing, I recommend you to study in Garching because you can learn way more deep things there.  \n  \nAt last, you can switch to Garching from Masters' if you take one course that is not offered in Heilbronn but in Garching: \"Functional Programming and Verification\".  Also, the tuition fee does not cost in Heilbronn if you are from out of Germany.\n\nHope this helps.",
+      "author": "ArtemisCrusher",
+      "subreddit": "tumunich",
+      "created_utc": 1730826930,
+      "score": 2,
+      "link_id": "t3_1gjeh3c",
+      "parent_id": "t3_1gjeh3c"
+    },
+    {
+      "id": "l96d55v",
+      "body": "very easy bro just come",
+      "author": "ArtemisCrusher",
+      "subreddit": "tumunich",
+      "created_utc": 1718728638,
+      "score": 1,
+      "link_id": "t3_13w4drc",
+      "parent_id": "t3_13w4drc"
+    },
+    {
+      "id": "kth6aut",
+      "body": "My love was rejected…",
+      "author": "ArtemisCrusher",
+      "subreddit": "ethz",
+      "created_utc": 1709658466,
+      "score": 9,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktfl9mq"
+    },
+    {
+      "id": "ktfl9mq",
+      "body": "It is not a useful post, but I kinda feel like applying for ETH and waiting for the result feels like sending a love letter and waiting for the reply",
+      "author": "ArtemisCrusher",
+      "subreddit": "ethz",
+      "created_utc": 1709634340,
+      "score": 28,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t3_1b5ipan"
+    },
+    {
+      "id": "ktam6qs",
+      "body": "I am really sorry to hear that. It might be something not needed to say, but I guess what you do in Masters is more important than which university you will get in. I wish you every success in your future.",
+      "author": "ArtemisCrusher",
+      "subreddit": "ethz",
+      "created_utc": 1709559499,
+      "score": 6,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_ktalbj9"
+    },
+    {
+      "id": "kt9ymft",
+      "body": "Have you gotten any?",
+      "author": "ArtemisCrusher",
+      "subreddit": "ethz",
+      "created_utc": 1709545452,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kt9y8q2"
+    },
+    {
+      "id": "kt9yl1a",
+      "body": "Not yet for me, but I saw one post got rejected for MSc CS on the gradcafe. That can be a rejection for direct doctorate, but I feel like we are going to get the results soon.\nI guess I am not rejected yet 🙃",
+      "author": "ArtemisCrusher",
+      "subreddit": "ethz",
+      "created_utc": 1709545423,
+      "score": 2,
+      "link_id": "t3_1b5ipan",
+      "parent_id": "t1_kt9y8q2"
+    }
+  ]
+}

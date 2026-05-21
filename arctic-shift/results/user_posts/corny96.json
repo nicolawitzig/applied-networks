@@ -1,0 +1,1297 @@
+{
+  "username": "corny96",
+  "posts": [
+    {
+      "id": "1h2uct0",
+      "title": "BMW G01, do the programmable trigger CAN frames?",
+      "author": "corny96",
+      "subreddit": "CarHacking",
+      "created_utc": 1732910277,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "Hi everyone, I'm new to the world of car hacking. I'm good with electronics and have programmed industrial CAN devices before, but never in a car. My question is: do the programmable memory hotkey buttons in my BMW trigger CAN messages which I could sniff? \nMy idea would be to have a microcontroller permanently attached to my OBD2 port and perform certain actions once one of the hotkeys is pressed. The most obvious one would be to send the open signal to my garage via RF (unfortunately my BMW does not have the integrated garage door opener).",
+      "url": "https://www.reddit.com/r/CarHacking/comments/1h2uct0/bmw_g01_do_the_programmable_trigger_can_frames/"
+    },
+    {
+      "id": "1gtvtm7",
+      "title": "I know which ones are the ethernet cables, but what Are the rest?",
+      "author": "corny96",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1731901331,
+      "score": 0,
+      "num_comments": 3,
+      "selftext": "I'm in the process of tidying up this media closet (https://imgur.com/a/T5agyxx) at a friend's place. The wiring, as it is, was left behind by a service electrician, now I'm trying to finish the job. I can identify all the ethernet cables, crimp them, no problem. but what are the other cables? there's an unconnected black coax, in yellow the fiber optics, and some shady mains wiring, but what are the white and orange cables? I thought for a moment maybe a whole home audio system, but I can't find any speakers or connectors in any of the rooms. The second idea was window sensors for an alarm system, but couldn't find anything like that either. Do you have any idea? If context helps, this is in India. Thanks",
+      "url": "https://www.reddit.com/r/HomeNetworking/comments/1gtvtm7/i_know_which_ones_are_the_ethernet_cables_but/"
+    },
+    {
+      "id": "1duixtx",
+      "title": "Woodworking beginner sharing my first project, and asking for advice on how to continue",
+      "author": "corny96",
+      "subreddit": "woodworking",
+      "created_utc": 1720024896,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi everyone, \n\nI wanted to share my first project with you all and ask for any feedback you have and specifically on how I can structurally improve this table. Before I share the link to the images, maybe some quick words: \n\nThis was the first time I was working with old furniture, I was trying to salvage what could be rescued from this table. Except for some simple shelves or other things, I also don't have any real experience with woodworking, am a beginner. I think painting the table was the right choice, but I'm not 100% sure if the color was the right choice, I had gotten the one can of paint for free from a neighbor's kitchen renovation. \n\nNow, here is the album: https://imgur.com/a/NCeiRdC \n\nAs I wrote in the image descriptions, the table was very beaten up by misuse and wood worms. This now relates to my question on how to continue this project: \n\nSince setting up the table in my apartment, the stretcher has started to crumble to dust. I have the feeling it consists more of wood filler than of wood and each time someone accidentally touches it with their feet, pieces break off and it crumbles. Basically: I need to remove the stretcher. Cutting it out of the table shouldn't be an issue, but I'm worried about the table's structure. Will the legs get wobbly? In general I would prefer if the table had no stretcher, could I reinforce it otherwise? \n\nMy though was to add some more structural wood behind the aprons, and to also have it screw into the table legs, basically trying to take some load off of the old aprons and stiffening up the legs. Does this sound reasonable and worth a try? I would reinforce each of the aprons and add diagonal corner pieces that screw into the legs (sorry, I don't know the precise English words). \n\nThanks for any feedback, looking forward to what you have to say about my first project.",
+      "url": "https://www.reddit.com/r/woodworking/comments/1duixtx/woodworking_beginner_sharing_my_first_project_and/"
+    },
+    {
+      "id": "1dtkt2z",
+      "title": "Good tools to store large amounts of images",
+      "author": "corny96",
+      "subreddit": "DataHoarder",
+      "created_utc": 1719923885,
+      "score": 18,
+      "num_comments": 10,
+      "selftext": "Hi everyone\n\nI have a large database of photos (over 50 years of old family photos scanned from analog film) and I'm looking for good storage solutions. I would like to keep the highest quality original scan files, but this already results in >6TB of images. In addition, I would like to store a compressed version of each image (currently, these are shared via PhotoView with the family), and various edited versions (removing dust and scratches from the scans, color correction, etc). This basically means I'm searching for a system which can store tens of thousands of images, various versions of each image at different resolutions and compressions, meta-data and album structures. \n\nThis does not need to be a hosted, always available solution. I'm happy if I can create an export or similar, e.g. of all compressed images, which can then be loaded into PhotoView, Immich, PhotoPrism, Piwigo, what ever. I don't need all the raw high quality scans to be directly available. \n\nWhat I'm saying basically is: I'm looking more for something like an organization or archiving tool, than a photo library. Do you guys have any recommendations? Thanks!",
+      "url": "https://www.reddit.com/r/DataHoarder/comments/1dtkt2z/good_tools_to_store_large_amounts_of_images/"
+    },
+    {
+      "id": "1df3ne5",
+      "title": "Button with pull-up resistor suffers from noise, how to solve it?",
+      "author": "corny96",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718297344,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "Hi everyone,\nI'm working with the GPIO pins of a jetson nano (similar to those of a raspberry pi). I need some physical button inputs, simple enough. I got myself a breadboard, put down a bunch of buttons, connected them to GND and the respective GPIO pins, and also connected those GPIO pins to 3.3V via a 1k pull-up resistor. Wrote some code to monitor the GPIO states, works beautifully. \n\nNow my problem: The buttons shouldn't stay in the breadboard, but instead be mounted on a dashboard, so I added about 1m of cable to each button, and suddenly the output is super noisy. On the jetson forums other people reported the same problem, something along the lines of the long cable acting as an antenna. If the button is pushed, it reliably reads GND, but in the open state the GPIO pin is basically floating instead of being pulled up.\n\nAs a workaround, I added an Arduino close to the buttons and connected it via USB to the jetson, this solved the noise problem, but added a bunch of other problems downstream in my project, so I would prefer to connect the buttons to the jetson GPIOs, not via USB. \n\nHow could I solve this easily and reliably? Would an Optocoupler solve this? Connecting the button and optocoupler-input in series to VCC, and the optocoupler output again via a pull-up resistor to the GPIO? \n\nThank you for your help!",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1df3ne5/button_with_pullup_resistor_suffers_from_noise/"
+    },
+    {
+      "id": "1cth262",
+      "title": "PySerial, reconnect to serial port after program exit",
+      "author": "corny96",
+      "subreddit": "learnpython",
+      "created_utc": 1715877008,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Hi everyone,\n\nI have a simple pythons script which connects to a serial port and receives some data. Simple, works without an issue. When I now quit this program and launch it again it doesn't receive any data from the serial port. I guess because the port has not properly been released? I am doing ser.close() while shutting down the program, but this doesn't seem to fully release the port?\n\nIs there anything else I have to do or is there any way in which I could force a reset of the serial port when I launch my script?\n\nSimply unplugging the device and plugging it back in easily fixes this, how ever as I'm building an embedded device I would prefer to not do this. I'm running Ubuntu on an Nvidia Jetson for context.",
+      "url": "https://www.reddit.com/r/learnpython/comments/1cth262/pyserial_reconnect_to_serial_port_after_program/"
+    },
+    {
+      "id": "1ctgli6",
+      "title": "PySerial, reconnect to serial port after program exit",
+      "author": "corny96",
+      "subreddit": "Python",
+      "created_utc": 1715875824,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Python/comments/1ctgli6/pyserial_reconnect_to_serial_port_after_program/"
+    },
+    {
+      "id": "1codhbc",
+      "title": "ESPHome Sprinkler system with multiple inputs",
+      "author": "corny96",
+      "subreddit": "Esphome",
+      "created_utc": 1715303761,
+      "score": 3,
+      "num_comments": 3,
+      "selftext": "Hi everyone\n\nIn the past I've built a couple of projects with ESPHome, and it has been great. Easy to develop, easy to maintin, love the project. \nI'm currently planning to build a custom sprinkler controller. In general, easy enough to do with ESPHome, define an upstream valve, easy enough. \n\nHowever, I have kind of a special setup, and I wanted to know if there is some easy way to set this up with the ESPHome sprinkler controller. I have a rainwater collection tank which I typically use for irrigation with a pump, I could now connect this to a relay and the sprinkler controller and the simple setup would be done. However every coupe of weeks the tank will run low and I need to switch the system over to the water line, and I would like to automate this. Basically I have two inputs for my irrigation system: on one side the rain water tank with a pump and a solenoid valve and on the other side the main water line connected through a solenoid valve. I can define multiple pumps in the sprinkler controller, but I can not assign multiple pumps to a single valve. \n\nWhat I would like to have basically is a switch to select rain water or main line, and depending on that switch the controller should use one pump or the other. How could I realize something like this in ESPHome? Is it even possible?",
+      "url": "https://www.reddit.com/r/Esphome/comments/1codhbc/esphome_sprinkler_system_with_multiple_inputs/"
+    },
+    {
+      "id": "1ahxrvl",
+      "title": "What is wrong with my lemon tree?",
+      "author": "corny96",
+      "subreddit": "gardening",
+      "created_utc": 1706971823,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi everyone, \nI have a small lemon tree. Normally it lives outside on my terrace, but during the winter I bring it inside, keep it near the windows and also give it extra sunlight using a grow lamp. It has been continuing to grow and the upper leaves look super healthy, but the older lower ones look quite sick and I don't know what I'm doing wrong. \nHere are some pictures: https://imgur.com/a/rRElpeL \n\nCurrently I water the tree once a day, the pot has drainage holes so it doesn't get too wet. I have a dry citrus fruit fertilizer which I add to the pot about every 3 weeks. Recently I moved it to a bigger pot with more soil. \nAm I doing something wrong? What is it missing?",
+      "url": "https://www.reddit.com/r/gardening/comments/1ahxrvl/what_is_wrong_with_my_lemon_tree/"
+    },
+    {
+      "id": "1903zjb",
+      "title": "RAID management option missing?",
+      "author": "corny96",
+      "subreddit": "OpenMediaVault",
+      "created_utc": 1704559329,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "Hi everyone, I'm putting together a custom NAS. In a Fractal case I have an Intel N95 CPU, 6HDDs and 3SSDs. I installed OMV using the ISO from a usb flash drive onto the one NVMW SSD, everything installed fine, OMV booted and all my drives show up under Storage -> Disks. \nNext step, I now wanted to setup some of the HDDs as a mirrored software RAID. But there is not even an option for RAID management, as in all the tutorials. What is wrong here? did I install something wrongly? does this only work with a Hardware RAID controller? Here is a link to my sidebar, where I would normaly expect the RAID management option under storage, it is just missing... \n\nhttps://imgur.com/a/TaR1Ssz\n\nThank you for any help!",
+      "url": "https://www.reddit.com/r/OpenMediaVault/comments/1903zjb/raid_management_option_missing/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4f0r82",
+      "body": "I agree with /u/grooves12, use it to run power for a sensor and transmit the data wirelessly. \nIf you really want power and data through that cable, there are 2-wire PoE Adapters, but that's expensive and the speed is limited",
+      "author": "corny96",
+      "subreddit": "homeautomation",
+      "created_utc": 1735507277,
+      "score": 6,
+      "link_id": "t3_1hp2g1h",
+      "parent_id": "t3_1hp2g1h"
+    },
+    {
+      "id": "m49md7g",
+      "body": "no, I spent days on this and couldn't get it to work reliably. As i was on a jetson I ended up using the internal GPIO instead of an Arduino, this came with a whole other list of problems, but solved this one at least.",
+      "author": "corny96",
+      "subreddit": "learnpython",
+      "created_utc": 1735427405,
+      "score": 1,
+      "link_id": "t3_1cth262",
+      "parent_id": "t1_m3o160y"
+    },
+    {
+      "id": "m0cvnw7",
+      "body": "Sounds like a nice project. I saw something similar [here](https://github.com/SmartHome-yourself/barcode-scanner-for-esphome?tab=readme-ov-file).",
+      "author": "corny96",
+      "subreddit": "Esphome",
+      "created_utc": 1733314737,
+      "score": 1,
+      "link_id": "t3_1h65zby",
+      "parent_id": "t3_1h65zby"
+    },
+    {
+      "id": "m0a1x2y",
+      "body": "Die OmniFocus Projekt Management Software. Ist sicher ein Niche Produkt, aber wenn man viele Projekte mit vielen einzelnen ToDos hat, ist sie echt gut. Gibt es für $10/m oder $75-150 als Einmalkauf.",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1733266847,
+      "score": 1,
+      "link_id": "t3_1h5ydqi",
+      "parent_id": "t3_1h5ydqi"
+    },
+    {
+      "id": "m012llk",
+      "body": "ok, looks like I need to learn a lot more about the electronics of my car. How would I (hardware wise) access the internal CAN network? Is there somewhere hidden an exposed port for this? Thanks for your help!",
+      "author": "corny96",
+      "subreddit": "CarHacking",
+      "created_utc": 1733144660,
+      "score": 1,
+      "link_id": "t3_1h2uct0",
+      "parent_id": "t1_lzlzn98"
+    },
+    {
+      "id": "m012fh1",
+      "body": "Sorry, I don't mean the key fob, I mean the programmable memory buttons part of the iDrive system in every BMW, see [here](https://www.youtube.com/watch?v=ZFkAz5VegtE). \nInterfacing with the garage door is a whole seperate topic, mine is ancient from the 90s, but I've already integrated a new microcontroller into that, so controlling the garage door is not the issue. \nI'm just trying to find a nice way to use an unused button inside my car as a trigger.",
+      "author": "corny96",
+      "subreddit": "CarHacking",
+      "created_utc": 1733144582,
+      "score": 1,
+      "link_id": "t3_1h2uct0",
+      "parent_id": "t1_m00hfz1"
+    },
+    {
+      "id": "lzl44a1",
+      "body": "I used a couple of these before I decided to invest into a 15€ crimping and testing set. They work, but are a bit delicate and still quite expensive. \nMy recommendation if you are doing this for the first time: use keystones, not connectors. No crimping tool required, easier to wire, not as cheap as a crimpable connector but same price or cheaper than the tool less ones. \nyou'll end up with a female connector at the end of your cable, not a male one, but in my opinion, they are much easier to deal with for a beginner.",
+      "author": "corny96",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1732901406,
+      "score": 1,
+      "link_id": "t3_1h2oypz",
+      "parent_id": "t3_1h2oypz"
+    },
+    {
+      "id": "lzh6hao",
+      "body": "A nice tie travel case. There are only few options available, one I've liked is from [ralph lauren](https://www.ralphlauren.ch/de/krawatten-etui-garrett-3616536210447.html?&utm_subchannel=shopping&utm_source=google&utm_medium=paidshopping&utm_campaign=zero_converting&utm_term=pmax&utm_content=crid_campaign21736654287_adgroup_tid_pid3616536210447&gad_source=1&gbraid=0AAAAADnESOxlytQvUPajcQevRozqjFnH_&gclid=CjwKCAiAxqC6BhBcEiwAlXp455K2qZ9oMOEusKOL2pSQaT7LrRnbkJp84Yqms6-7tw76mgkrBd3fmRoCpxsQAvD_BwE&gclsrc=aw.ds).",
+      "author": "corny96",
+      "subreddit": "startups",
+      "created_utc": 1732833826,
+      "score": 2,
+      "link_id": "t3_1h1xodd",
+      "parent_id": "t3_1h1xodd"
+    },
+    {
+      "id": "lxpurr1",
+      "body": "sure, I can leave them alone, but I'm curious and want to know what they are. Maybe time to invest in a wire tracer... \nPatch Panel would be nice, but space is tight in this box...",
+      "author": "corny96",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1731910187,
+      "score": 1,
+      "link_id": "t3_1gtvtm7",
+      "parent_id": "t1_lxpet0z"
+    },
+    {
+      "id": "lt5ibd2",
+      "body": "iPhone 13 mini, seit 2 Jahren jetzt. Akku ist bei 86%, könnte besser sein. Ansonsten funktioniert das Telefon noch super.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1729594337,
+      "score": 1,
+      "link_id": "t3_1g9co5f",
+      "parent_id": "t3_1g9co5f"
+    },
+    {
+      "id": "lrxc5we",
+      "body": "The recordings from the year before seem to be public: https://video.ethz.ch/lectures/d-mavt/2022/spring/151-0566-00L.html",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1728934839,
+      "score": 1,
+      "link_id": "t3_1g091k2",
+      "parent_id": "t3_1g091k2"
+    },
+    {
+      "id": "lrxalpu",
+      "body": "Send them a mail and ask them. It will depend on your highschool degree. You can also apply and they will tell you which exam you need to take. \nYes, in the reduced entrance exam, you will have to also take biology and chemistry.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1728934347,
+      "score": 2,
+      "link_id": "t3_1g3nzop",
+      "parent_id": "t3_1g3nzop"
+    },
+    {
+      "id": "lrunqvd",
+      "body": "Ich war schon in diversen neu gebauten Edeka, Metro und Co Blechhütten in denen kein Handyempfang ist, da war ich schon dankbar für das öffentliche WLAN.",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1728898139,
+      "score": 8,
+      "link_id": "t3_1g32ne2",
+      "parent_id": "t3_1g32ne2"
+    },
+    {
+      "id": "lqwuzek",
+      "body": "I was in high school 10 years ago, we still had ISDN 😅 welcome to the German countryside",
+      "author": "corny96",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1728377983,
+      "score": 2,
+      "link_id": "t3_1fy9w08",
+      "parent_id": "t1_lqv34qg"
+    },
+    {
+      "id": "lp98q5p",
+      "body": "No exceptions, hard rules.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1727476082,
+      "score": 4,
+      "link_id": "t3_1fqtjr2",
+      "parent_id": "t3_1fqtjr2"
+    },
+    {
+      "id": "lo7irei",
+      "body": "meiner fährt seit 10 Jahren ohne ein Problem. Außer als der Kollege neben mir nicht einparken konnte... die Reperatur war teuer.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1726927266,
+      "score": 2,
+      "link_id": "t3_1flyyfe",
+      "parent_id": "t1_lo70esk"
+    },
+    {
+      "id": "lo7ifap",
+      "body": "Hab mir vor ein paar Tagen einen BambuLab A1 bestellt, warte schon gespannt drauf. Hab früher mit einem Anet A8Plus angefangen, dann Creality Ender 3 v1, jetzt hab ich genug vom selbst herumschrauben und möchte einfach ein Gerät, das druckt.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1726927145,
+      "score": 3,
+      "link_id": "t3_1flyyfe",
+      "parent_id": "t1_lo77ey2"
+    },
+    {
+      "id": "lnvc6de",
+      "body": "In my case it was the country that I was in, that was blocking VPN connections. For the next time I've set up Tailscale and bare Wireguard, in the hope that one of those work.",
+      "author": "corny96",
+      "subreddit": "fritzbox",
+      "created_utc": 1726737125,
+      "score": 1,
+      "link_id": "t3_yqpq8q",
+      "parent_id": "t1_lnus33b"
+    },
+    {
+      "id": "lmh8gnz",
+      "body": "Lachs mit Ofengemüse, Bolognese oder Hühnchen-Gemüse-Reis-Pfanne",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1725993195,
+      "score": 1,
+      "link_id": "t3_1fdo6yo",
+      "parent_id": "t3_1fdo6yo"
+    },
+    {
+      "id": "lm0lhq1",
+      "body": "I recommend Yokita at Goldbrunnenplatz",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1725744521,
+      "score": 8,
+      "link_id": "t3_1fba9pt",
+      "parent_id": "t3_1fba9pt"
+    },
+    {
+      "id": "lj0f3mb",
+      "body": "The only bank where an american friend of mine managed to get an account at was Migros Bank.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1724142971,
+      "score": 2,
+      "link_id": "t3_1ewo49x",
+      "parent_id": "t3_1ewo49x"
+    },
+    {
+      "id": "li1pu7e",
+      "body": "Georgien, Kirgistan, Japan, Schottland",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1723627679,
+      "score": 1,
+      "link_id": "t3_1erubhj",
+      "parent_id": "t3_1erubhj"
+    },
+    {
+      "id": "lhn7seg",
+      "body": "Bachelor: 18-21\n\nMaster: 22-24\n\nDoktor: 24-28",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1723409277,
+      "score": 2,
+      "link_id": "t3_1epppej",
+      "parent_id": "t3_1epppej"
+    },
+    {
+      "id": "lhlh0r7",
+      "body": "One server running Proxmox with HAOS VM and a bunch of containers. And one Server running TrueNAS for large scale storage.",
+      "author": "corny96",
+      "subreddit": "HomeServer",
+      "created_utc": 1723388014,
+      "score": 2,
+      "link_id": "t3_1epdnpf",
+      "parent_id": "t3_1epdnpf"
+    },
+    {
+      "id": "lhidrb0",
+      "body": "Found the swiss guy",
+      "author": "corny96",
+      "subreddit": "lifehacks",
+      "created_utc": 1723331993,
+      "score": 5,
+      "link_id": "t3_1eowoh5",
+      "parent_id": "t3_1eowoh5"
+    },
+    {
+      "id": "lh9juoh",
+      "body": "Eine wilde Kombi aus Safari am Laptop (macbook), Safari aufm Telefon, Firefox am Desktop (unter Linux) und auf allen Systemen Chrome, aber nur wenn es um Arbeits-Angelegenheiten geht und weil ich dafür zu 90% nur in gSuite Produkten bin (leider).",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1723206376,
+      "score": 1,
+      "link_id": "t3_1enuzf1",
+      "parent_id": "t3_1enuzf1"
+    },
+    {
+      "id": "lh3fe6x",
+      "body": "There are a bunch of courses where you need some knowledge of mechanics (e.g. Robot Dynamics), but in general, you are free to pick your courses, and you can avoid those if you want to. \n\nRegarding holidays: there are lecture dates and lecture free periods in-between the semester. Most exams are at the end of the lecture-free periods, thus not many holidays.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1723118858,
+      "score": 2,
+      "link_id": "t3_1en1v3y",
+      "parent_id": "t3_1en1v3y"
+    },
+    {
+      "id": "lgqvw4u",
+      "body": "Im Saarland war ich noch nie, und durch Rheinland Pfalz nur auf der Autobahn gefahren. In allen anderen mindestens ein Sightseeing Wochenende oder mehr.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1722937222,
+      "score": 1,
+      "link_id": "t3_1elbvrr",
+      "parent_id": "t3_1elbvrr"
+    },
+    {
+      "id": "lg6m3ud",
+      "body": "Hatte lange OMV, war damit immer recht unzufrieden. Ich benutze nun TrueNAS Scale für eine NAS und Proxmox für einen Server für alle weiteren Dienste.",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1722624633,
+      "score": 1,
+      "link_id": "t3_1ei94a6",
+      "parent_id": "t3_1ei94a6"
+    },
+    {
+      "id": "lfyvwy0",
+      "body": "I don't know what spring you are talking about? inside the Fridans push/pull handle? I removed that thing completely. I took the tube with the fabric on it, the two Fridans wall mounts, the 3d printed adapters to fit the zemismart motor inside the tube and one 3d printed adapter to fit the zemismart motor to the Fridans Wall Mount",
+      "author": "corny96",
+      "subreddit": "homeassistant",
+      "created_utc": 1722516942,
+      "score": 1,
+      "link_id": "t3_1dmmjdn",
+      "parent_id": "t1_lfyjo04"
+    },
+    {
+      "id": "ley2jim",
+      "body": "I know people from D-MAVT from various groups receiving anything from level 3 to 5.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1721946949,
+      "score": 1,
+      "link_id": "t3_1ebz7il",
+      "parent_id": "t3_1ebz7il"
+    },
+    {
+      "id": "levuxyy",
+      "body": "Zed X Mini. Since making that statement I would revise it a bit, the depth output matches the one of the realsense, or maybe even a bit worse, especially on flat feature-less surfaces you notice the advantage of the Realsense IR projector that the Zed doesn't have. \nThe Zed is however still way more reliable. the CSI interface in contrast to the terrible USB support of the realsense is day and night. The RGB cameras of the ZED are way better than the one RGB on the realsense. \nThe resource consumption is a bit annoying, but worth it for the reliability in my opinion.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1721921328,
+      "score": 2,
+      "link_id": "t3_1ct8w67",
+      "parent_id": "t1_lesd4ye"
+    },
+    {
+      "id": "leim7pc",
+      "body": "yes, I got a bunch of new batteries and tried them all. With some everything worked, with others not. Even though all batteries were brand new. I guess the key is a bit picky",
+      "author": "corny96",
+      "subreddit": "BmwTech",
+      "created_utc": 1721725463,
+      "score": 1,
+      "link_id": "t3_z2v5ke",
+      "parent_id": "t1_lehbl80"
+    },
+    {
+      "id": "ldijpmv",
+      "body": "I liked a lot Technology and Policy of Electrical Energy Storage and Wirtschaftsrecht (I believe it's now called Startups und Recht)",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1721165663,
+      "score": 2,
+      "link_id": "t3_1e4uydr",
+      "parent_id": "t3_1e4uydr"
+    },
+    {
+      "id": "lctjwtr",
+      "body": "I agree, with the caveat of you working inside. Outside, with strong sunlight, it becomes quite bad",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1720784472,
+      "score": 1,
+      "link_id": "t3_1ct8w67",
+      "parent_id": "t1_l4drdpe"
+    },
+    {
+      "id": "lcd6li1",
+      "body": "Jeden Morgen, oft auch kalt, um den Zombie-Modus zu beenden. Und dann je nach Tag abends auch noch kurz.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1720539819,
+      "score": 1,
+      "link_id": "t3_1dywzwb",
+      "parent_id": "t3_1dywzwb"
+    },
+    {
+      "id": "lc248li",
+      "body": "Anki - Zum Lernen\n\nDue - Super reminder App, speziell für sich wiederholende reminder\n\nKurzbefehle - iOs Automatisierungen \n\nOvercast - beste Podcast App aufm iPhone\n\nTailscale - privater VPN zu meinem Rechner zu Hause\n\nOmniFocus - ToDo App auf Steroiden \n\nplay:Sub - self-hosted Spotify\n\nPolycam - 3d Scanning Tool \n\nVivino - Wein kaufen ohne Ahnung von Wein zu haben",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1720369291,
+      "score": 6,
+      "link_id": "t3_1dxe4au",
+      "parent_id": "t3_1dxe4au"
+    },
+    {
+      "id": "lc1je3s",
+      "body": "Depends a lot on the different labs. If you need it urgently, write your supervisors and tell them that you need it urgently. Otherwise, from what I've heard, it can take up to 2 months after the mystudies deadline until the department demands a grade. That should however be the maximum and not the norm.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1720361757,
+      "score": 2,
+      "link_id": "t3_1dx3g4a",
+      "parent_id": "t3_1dx3g4a"
+    },
+    {
+      "id": "lblhifb",
+      "body": "I'm in the process of scanning 50years worth of old family photos from analog film. At a high quality with raw data from the scanner for later post processing, dust removal, etc. this resulted in nearly 10Tb of images.",
+      "author": "corny96",
+      "subreddit": "HomeServer",
+      "created_utc": 1720100873,
+      "score": 2,
+      "link_id": "t3_1dv41c4",
+      "parent_id": "t3_1dv41c4"
+    },
+    {
+      "id": "lbgz9ic",
+      "body": "No, no, nothing like that. I keep a close eye on it, but nothing in that direction showed up. But from many years of woodworm, the stretcher just doesn't hold anymore.",
+      "author": "corny96",
+      "subreddit": "woodworking",
+      "created_utc": 1720027227,
+      "score": 1,
+      "link_id": "t3_1duixtx",
+      "parent_id": "t1_lbgx1pe"
+    },
+    {
+      "id": "lbaygvx",
+      "body": "In general there's the SPH and the entrepreneur club, that have already been mentioned. There's also ETH juniors that spin off startups through their jFund. Otherwise the majority I would say is spin-offs out of research projects from inidividual labs. Companies like Anybotics, Sevensense, Synhelion, etc. A lot of focus projects from the mechanical engineering bachelor also continue as startups later on.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1719937170,
+      "score": 3,
+      "link_id": "t3_1dtgqr4",
+      "parent_id": "t3_1dtgqr4"
+    },
+    {
+      "id": "lba9wf8",
+      "body": "Yes, this is basically what I'm doing right now. I've started writing bash scripts for automatically creating the compressed images or for creating an \"export\" (a copy of e.g. the low res images on a seperate drive). \nI was mostly wondering if there is a better/smarter way to do this.",
+      "author": "corny96",
+      "subreddit": "DataHoarder",
+      "created_utc": 1719928847,
+      "score": 2,
+      "link_id": "t3_1dtkt2z",
+      "parent_id": "t1_lba8gcy"
+    },
+    {
+      "id": "l9ydr51",
+      "body": "I have one of those battery powered zemismart ones. I retrofitted it into a Ikea Fridans blind. I needed to 3d print some adapter pieces, but works perfectly now and was much cheaper than the ikea ones. However I do need to recharge it every couple of weeks, as it is battery powered. I have a 2m USB cable for that.",
+      "author": "corny96",
+      "subreddit": "homeassistant",
+      "created_utc": 1719175430,
+      "score": 1,
+      "link_id": "t3_1dmmjdn",
+      "parent_id": "t3_1dmmjdn"
+    },
+    {
+      "id": "l9scsta",
+      "body": "Ich liebe das Ding auch. Hoffentlich kommt in den nächsten Jahren mal wieder eins, am besten ein Pro Mini, aber ob so viele Kameras und das LiDAR auf das kleine Telefon passen... noch ist es Wunschdenken.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1719076657,
+      "score": 3,
+      "link_id": "t3_1dly800",
+      "parent_id": "t1_l9s2rix"
+    },
+    {
+      "id": "l8kiv4g",
+      "body": "Thanks for your response. the Pull-up resistor is close to the jetson. \nThanks for the hint, I'll give that a try.",
+      "author": "corny96",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718367548,
+      "score": 1,
+      "link_id": "t3_1df3ne5",
+      "parent_id": "t1_l8i1vmv"
+    },
+    {
+      "id": "l8kih2n",
+      "body": "Thanks, I'll give the capacitor a try and report back. \nI already have some debounce logic, and it works to some extent, but not a satisfying solution for my project.",
+      "author": "corny96",
+      "subreddit": "AskElectronics",
+      "created_utc": 1718367366,
+      "score": 1,
+      "link_id": "t3_1df3ne5",
+      "parent_id": "t1_l8ga9z8"
+    },
+    {
+      "id": "l80945n",
+      "body": "google it",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1718047114,
+      "score": 3,
+      "link_id": "t3_1dcrm2k",
+      "parent_id": "t3_1dcrm2k"
+    },
+    {
+      "id": "l6xlzi1",
+      "body": "Ebenfalls. Bin seit 10 Jahren glücklicher Kunde",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1717432977,
+      "score": 1,
+      "link_id": "t3_1d77m9g",
+      "parent_id": "t1_l6xf95y"
+    },
+    {
+      "id": "l6xiyky",
+      "body": "mostly a properly working PowerPoint. Though it doesn't have to be the 365 subscription, could also be a one time license. haven't looked into what makes more sense. Most alternatives just either lack in functionality or reliability for my work.",
+      "author": "corny96",
+      "subreddit": "selfhosted",
+      "created_utc": 1717431962,
+      "score": 1,
+      "link_id": "t3_1d6yufp",
+      "parent_id": "t1_l6xdsnh"
+    },
+    {
+      "id": "l6wtev2",
+      "body": "Currently i'm paying for: \n\n* iCloud (just for phone backups)\n* Spotify (will be gone soon, replaced with self-hosted subsonic solution)\n* Youtube Premium (through VPN)\n* Netflix (through VPN, will be gone soon) \n* VPN \n* Prime (just for Clarkson's Farm, will be gone again soon)\n* TLD (through netcup)\n* Hetzner Storage Box for offsite backup \n* Overcast Premium for Podcasts\n* Parcel Premium \n* GBit Internet Provider\n* might need to start paying for Office 365 soon, am just unhappy with any of the alternatives.",
+      "author": "corny96",
+      "subreddit": "selfhosted",
+      "created_utc": 1717422997,
+      "score": 1,
+      "link_id": "t3_1d6yufp",
+      "parent_id": "t3_1d6yufp"
+    },
+    {
+      "id": "l53ltmu",
+      "body": "The [Saturn V](https://www.thingiverse.com/thing:911891) should use a decent amount of that filament",
+      "author": "corny96",
+      "subreddit": "3Dprinting",
+      "created_utc": 1716336993,
+      "score": 1,
+      "link_id": "t3_1cxmrza",
+      "parent_id": "t3_1cxmrza"
+    },
+    {
+      "id": "l4gfhge",
+      "body": "Gegebenenfalls ein Abschlusswiderstand für irgendwelche Kommunikationsleitungen, e.g. CAN oder Modbus? \nSoweit ich weiß basiert KNX auf Modbus, also vielleicht Teil eines Smart Home Systems?",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1715954182,
+      "score": 2,
+      "link_id": "t3_1ctzops",
+      "parent_id": "t3_1ctzops"
+    },
+    {
+      "id": "l4dd7y7",
+      "body": "am in academia, so a bunch of different mobile robotics platforms",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715897272,
+      "score": 1,
+      "link_id": "t3_1ct8w67",
+      "parent_id": "t1_l4coqsy"
+    },
+    {
+      "id": "l4c0p9l",
+      "body": "The device itself is very simple. An arduino zero, it opens a serial port, and then continuously publishes the state of some sensors via the serial port. \nI still believe that it's an issue with releasing the port, as for example cat -v \\dev\\ttyACM0 also doesn't return anything if launched after quitting the python script.",
+      "author": "corny96",
+      "subreddit": "learnpython",
+      "created_utc": 1715879966,
+      "score": 1,
+      "link_id": "t3_1cth262",
+      "parent_id": "t1_l4bw6oq"
+    },
+    {
+      "id": "l4bugwn",
+      "body": "I second this, we just switchted from D435 and D455 to various ZED cameras. I would say the output of the depth image itself is not that much better than the Realsense, but the ZED devices are way more robust and reliable.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715877841,
+      "score": 2,
+      "link_id": "t3_1ct8w67",
+      "parent_id": "t1_l4aphas"
+    },
+    {
+      "id": "l47vb0a",
+      "body": "I sort mine by type (mostly: display, audio, power, network, micro usb, usb-c, misc usb) in zip lock bags, bags are labelled and all bags go into one box on my shelf. I tried to balance between too granular and to detailed categorization, making it quick to find something and easy to see if I have too many duplicates of some specific type.",
+      "author": "corny96",
+      "subreddit": "declutter",
+      "created_utc": 1715808847,
+      "score": 8,
+      "link_id": "t3_1cspkza",
+      "parent_id": "t3_1cspkza"
+    },
+    {
+      "id": "l40y7mx",
+      "body": "If possible, go wired. KNX, ethernet or anything like that, it will beat everything else. \nOtherwise, I'm a big fan of the Sonoff Minis. Can be flashed with my own firmware and sit behind the original lightswitch. Cheap, stealth, either with Wifi or Zigbee, and just work great for me.",
+      "author": "corny96",
+      "subreddit": "homeautomation",
+      "created_utc": 1715705544,
+      "score": 1,
+      "link_id": "t3_1crtxqd",
+      "parent_id": "t3_1crtxqd"
+    },
+    {
+      "id": "l3xnw60",
+      "body": "they've demonstrated a prototype for quite some time already. Saw it at IROS last year. \nBut there are many companies building impressive humanoids at the moment. I think the really impressive thing about this one is the price.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715647678,
+      "score": 9,
+      "link_id": "t3_1cr0ojp",
+      "parent_id": "t1_l3vcohk"
+    },
+    {
+      "id": "l3f3qe1",
+      "body": "Thanks, the template switch should be able to do what I was thinking of. \n\nRainwater collection and use for irrigation is allowed and encouraged where I live, but you are right, connecting the two systems is probably a bad idea. I'll probably do something like you suggested, means I have to lay another new pipe from the main line to the tank and I will need to run the pump more, as I can't use the pressure from the main line, but better be safe that way. Thanks for your help! :)",
+      "author": "corny96",
+      "subreddit": "Esphome",
+      "created_utc": 1715342170,
+      "score": 2,
+      "link_id": "t3_1codhbc",
+      "parent_id": "t1_l3dhe2r"
+    },
+    {
+      "id": "l3cxvnl",
+      "body": "I think doing a MSc at ETH is the best prerequisite for doing a PhD at ETH, gives you the chance to get to know the labs, the Professors and the other PhDs in the lab. Even before the master thesis go to a lab to do some other project (if your degree includes something like that, e.g. a semester project), get to know some of the PhD students there, find out if they offer research assistant positions or something like that, if possible get a job there already during your master, then go on to do your thesis with them, and you will have a great chance to get a PhD position. \n\nOf course this depends heavily on the individual fields, master programs, labs, professors, etc. etc. etc.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1715298586,
+      "score": 14,
+      "link_id": "t3_1co8owf",
+      "parent_id": "t3_1co8owf"
+    },
+    {
+      "id": "l39j9du",
+      "body": "Yes, entrance exam if you don't to HL. there are also a bunch of other rules regarding IB. it's all on the website",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1715252440,
+      "score": 7,
+      "link_id": "t3_1cnu920",
+      "parent_id": "t3_1cnu920"
+    },
+    {
+      "id": "l2ufrs6",
+      "body": "I can't tell from the image which voltage it has, but if it fits, has the right polarity, is below 12V and you don't have a short in your breadboard, should work.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010801,
+      "score": 5,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2uffo8"
+    },
+    {
+      "id": "l2uewip",
+      "body": "Here's the datasheet: https://www.mouser.ch/datasheet/2/55/BBP_32701-1947460.pdf",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010497,
+      "score": 1,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2ueevz"
+    },
+    {
+      "id": "l2uen1u",
+      "body": "you need some external PSU that fits into the barrel jack. Don't know what voltage it takes as input, probably 5V.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010404,
+      "score": 1,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2ueevz"
+    },
+    {
+      "id": "l2ueirl",
+      "body": "you place it on the end of the breadboard. so you can for example have the power lines on one side be 5V and on the other side 3.3V.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010361,
+      "score": 1,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t1_l2uebht"
+    },
+    {
+      "id": "l2uebht",
+      "body": "it fits onto your breadboard to give power to the the red and blue line from the barrel jack. you can also power a usb device from it. with the header pins you can select the voltage of the breadboard lines.",
+      "author": "corny96",
+      "subreddit": "robotics",
+      "created_utc": 1715010290,
+      "score": 3,
+      "link_id": "t3_1cllymn",
+      "parent_id": "t3_1cllymn"
+    },
+    {
+      "id": "l25jf6s",
+      "body": "Any change it's within Zigbee range? \nSomeone here also mentioned PowerLAN, might also be a solution. \nOtherwise a LoRa controlled relais, you can buy the board ready made, but you'll have to flash your own software.",
+      "author": "corny96",
+      "subreddit": "homeautomation",
+      "created_utc": 1714598912,
+      "score": 2,
+      "link_id": "t3_1chtbt2",
+      "parent_id": "t3_1chtbt2"
+    },
+    {
+      "id": "l1ei61j",
+      "body": "Transport Tycoon Deluxe. Damals noch auf MS-DOS. Erinnere mich noch wie mein Bruder mir damals zeigen musste wie man den Windows 98 in DOS booten kann um dort das Spiel zu spielen. Ich spiel es heute noch gerne. \nDas zweite Spiel (eine Weile später) war dann Need for Speed Underground 2, ebenfalls noch einer meiner Favoriten heute.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1714162096,
+      "score": 1,
+      "link_id": "t3_1cdp7zn",
+      "parent_id": "t3_1cdp7zn"
+    },
+    {
+      "id": "l0vg3ki",
+      "body": "ChatGPT und Github Copilot für einige basic code generation Sachen. Spart einfach etwas Zeit, wenn man sich irgendwelche Visualisierungs oder Data-Loading Funktionen so schreiben lassen kann, aber bei komplexeren Sachen scheitert das Ganze noch recht häufig bei mir. \nDie GPT-4 Vision API benutze ich ganz gerne, primär als glorifiziertes OCR Tool, und Whisper für Audio Transcription.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1713871170,
+      "score": 2,
+      "link_id": "t3_1caxfz8",
+      "parent_id": "t3_1caxfz8"
+    },
+    {
+      "id": "l0qhg8s",
+      "body": "It's typically a document which describes the content of your existing degree. Instead of listing your grades (as in a transcript of records), it lists the skills and the knowledge the degree conveyed to you. \nThe purpose of this paper is to be able to compare degrees from different universities. A math lecture from university A won't be the same as from university B, they may for example cover different topics. \nAs far as I know you get it with your diploma at most european universities. also sometimes called a HEAR (Higher Education Achievement Report) report.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1713790697,
+      "score": 1,
+      "link_id": "t3_1ca51e3",
+      "parent_id": "t3_1ca51e3"
+    },
+    {
+      "id": "l0fqv0i",
+      "body": "it did for me",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1713613897,
+      "score": 2,
+      "link_id": "t3_1c7w6bm",
+      "parent_id": "t1_l0f2ict"
+    },
+    {
+      "id": "l0bq6g6",
+      "body": "Maybe expanding a bit on the comment: \n> I keep hearing ppl saying mac is no good for engineering, but they never quite elaborate on why is that exactly.\n\nI did the robotics master and for some projects we needed software (specifically ROS1), which runs only on Linux. but even this works great in a VM.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1713546924,
+      "score": 1,
+      "link_id": "t3_1c7w6bm",
+      "parent_id": "t1_l0as149"
+    },
+    {
+      "id": "l0bp9u6",
+      "body": "Parallels. it costs a bit of money (there are student discounts), but in my experience it works much better than qemu/utm. tried those for some time, not bad, but parallels works better. Only issue I had was USB passthrough. it works, but the speed is crap.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1713546614,
+      "score": 1,
+      "link_id": "t3_1c7w6bm",
+      "parent_id": "t1_l0bn4nx"
+    },
+    {
+      "id": "l0avpeu",
+      "body": "There is a shop called \"[vom Fass](https://www.vomfass.ch/spirituosen/whiskys)\" (from the barrel) near the train station. They have all their goods in barrels, and when you purchase something, they fill up a bottle for you to take home. \nthe description of the bottle would match what you said, about half a liter with a silver cap. \nAs far as I know, they offer engravings of the bottles, at least it's mentioned [here](https://www.vomfass.ch/zuerich/aktuelles) on their website.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1713536479,
+      "score": 5,
+      "link_id": "t3_1c7vzhs",
+      "parent_id": "t3_1c7vzhs"
+    },
+    {
+      "id": "l0as149",
+      "body": "Mac user here as well, have been using it for all my studies, and rarely had any issues, i.e. cases where I had to install something in a VM. and on the M-processor macbooks, Linux VMs run incredibly well, had no issues there at all. Can only recommend.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1713535128,
+      "score": 6,
+      "link_id": "t3_1c7w6bm",
+      "parent_id": "t3_1c7w6bm"
+    },
+    {
+      "id": "kzz0hbq",
+      "body": "Gefühlt ist selbst der Perso oft optional. Bin letzte Woche Zürich/Hannover hin und zurück geflogen, da hat niemand nach irgendwas anderem als dem Boarding Pass gefragt.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1713354115,
+      "score": 15,
+      "link_id": "t3_1c648on",
+      "parent_id": "t1_kzyox4j"
+    },
+    {
+      "id": "kz24xcg",
+      "body": "Zürich hier, an den touristischen Stellen am See: chf4.50 für eine Kugel Mövenpick aus der Packung. \nAn anderen Orten in Zürich 2-2.50 für eine gute Kugel Eis.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1712833730,
+      "score": 1,
+      "link_id": "t3_1c1962b",
+      "parent_id": "t3_1c1962b"
+    },
+    {
+      "id": "ky8h3sl",
+      "body": "What I meant back then was, that for Biology and Chemistry, gcse level in my opinion sufficed to pass the entrance exam. For math and physic it's definitely not gcse level, i did HL in both and there were still some topics on the entrance exam that I hadn't seen before. \nbut this was many many years ago, I'm sure both the IB and the entrance exams have changed since then.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1712353387,
+      "score": 1,
+      "link_id": "t3_1476v6a",
+      "parent_id": "t1_ky82lel"
+    },
+    {
+      "id": "kx8ocov",
+      "body": "BMW 1er F20, soweit 150000 und er fährt und fährt und fährt",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1711798764,
+      "score": 1,
+      "link_id": "t3_1brcp2x",
+      "parent_id": "t3_1brcp2x"
+    },
+    {
+      "id": "kwt19u8",
+      "body": "There are some repair cafés and there is [Revamp-It](https://www.revamp-it.ch/index.php/de/). I don't have any experience with the prior, but I tried revamp-it once, they fixed my old VHS player, which is great, but it took a long time and the place is a bit chaotic, had to call many times until someone could even tell me if they had even looked at my device.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1711551428,
+      "score": 2,
+      "link_id": "t3_1bp371j",
+      "parent_id": "t3_1bp371j"
+    },
+    {
+      "id": "kw7jx35",
+      "body": "[Some Migros branches](https://corporate.migros.ch/de/story/plastik-sammeln-statt-wegwerfen#merkblatt-plastiksammelsack) offer plastic recycling, separate to the standard bottle recycling. You can buy special trash bags from migros, fill them up and return them. But I'm not sure if they allow PLA prints. And it costs about the same as just putting them in the taxed garbage bags.",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1711208860,
+      "score": 3,
+      "link_id": "t3_1blpor5",
+      "parent_id": "t3_1blpor5"
+    },
+    {
+      "id": "kvepx66",
+      "body": "I've used meineinkauf.ch in the past for forwarding into Switzerland. Worked great, very quick, but is def not the cheapest option.",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1710758395,
+      "score": 1,
+      "link_id": "t3_1bfp170",
+      "parent_id": "t3_1bfp170"
+    },
+    {
+      "id": "kvenv6h",
+      "body": "I think the working permit is not the issue here, you need a full working permit for your PhD. I think the main issue is that the HR department at your university needs to be fine with it. You have to inform them and they have to be ok with it. And I think there is a legal limit on how many hours",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1710756998,
+      "score": 9,
+      "link_id": "t3_1bhjm1d",
+      "parent_id": "t3_1bhjm1d"
+    },
+    {
+      "id": "kv59jl1",
+      "body": "best time is beforehand, if that doesn't work you will most likely have to take a vacation semester at some point in between. most people do it right before the master thesis. if you are in a specialized mech engineering master you can also do it after the master thesis, which i think is better, but as far as I know it's not allowed in the standard mech engineering master.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1710601143,
+      "score": 1,
+      "link_id": "t3_1bg2way",
+      "parent_id": "t3_1bg2way"
+    },
+    {
+      "id": "kuifc5y",
+      "body": "Otherwise, if you need help and a van, I would recommend \"De blaui Blitz\", you can find them on facebook. Great moving company, affordable and very helpful",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1710246443,
+      "score": 2,
+      "link_id": "t3_1bcvfn1",
+      "parent_id": "t1_kuif4le"
+    },
+    {
+      "id": "kuif4le",
+      "body": "The last time I moved I got one from Sixt, it was 60chf for a whole day (pick up in the morning, return the next morning), it was super spacious and everything went smooth. the only annoying part was the pick up location somewhere outside of Zurich.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1710246340,
+      "score": 3,
+      "link_id": "t3_1bcvfn1",
+      "parent_id": "t3_1bcvfn1"
+    },
+    {
+      "id": "ktl4st4",
+      "body": "I don't know what the rules are today, but back then: yes. only group 6 is not allowed to be another language.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1709717392,
+      "score": 1,
+      "link_id": "t3_fs8lca",
+      "parent_id": "t1_ktl1q2r"
+    },
+    {
+      "id": "kthsmmp",
+      "body": "don't know if it's still the rule today, but back then you were not allowed to have another language as a group 6 subject. I think it was a bit of a ridiculous rule... anything else, art, business administration, history, what ever would have been fine, but not French...",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1709665811,
+      "score": 1,
+      "link_id": "t3_fs8lca",
+      "parent_id": "t1_ktgxxyk"
+    },
+    {
+      "id": "ktfrblz",
+      "body": "Is that a big red dot on Liechtenstein? I would skip it, not very interesting, nice art museum and a decent castle, but both of which you can find much better ones elsewhere. If you are travelling by car, for the fun of it, drive through Liechtenstein once, but otherwise it's a surprisingly boring country to visit.",
+      "author": "corny96",
+      "subreddit": "germany",
+      "created_utc": 1709638540,
+      "score": 1,
+      "link_id": "t3_1b6wvzk",
+      "parent_id": "t3_1b6wvzk"
+    },
+    {
+      "id": "kta6jg8",
+      "body": "Thanks! very interesting",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1709551151,
+      "score": 1,
+      "link_id": "t3_1b5hbdv",
+      "parent_id": "t1_kt5nbg9"
+    },
+    {
+      "id": "kt5kxrd",
+      "body": "Thank you for the great explanation. Do you know how the switch detects what line the tram belongs to? Is there something like a balise in the ground?",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1709478249,
+      "score": 4,
+      "link_id": "t3_1b5hbdv",
+      "parent_id": "t1_kt5gk7e"
+    },
+    {
+      "id": "ksxjyku",
+      "body": "ebenfalls ein 13 mini User hier. ich hab 5G immer aktiviert, aber benutzte relativ wenig Mobilfunk, hab meistens Wlan. komme eigentlich auch problemlos durch den Tag, nur wenn ich Abends unterwegs bin hänge ich es davor noch mal 20min an den Strom damit es nicht plötzlich um 10 doch noch Schlapp macht. \nFinde den Formfaktor ziemlich perfekt, dazu gute Kamera und sonst auch alles was ich brauche. Wenn Apple noch mal ein mini raus bringt würde ich es definitiv kaufen.",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1709338096,
+      "score": 3,
+      "link_id": "t3_1b3rl4c",
+      "parent_id": "t1_ksux3v1"
+    },
+    {
+      "id": "ksl1wnp",
+      "body": "I don't know if they destroy them for sure, I only know they have to be stored for at least 2 years. No idea how they would destroy them, probably shredding and recycling?",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1709150226,
+      "score": 1,
+      "link_id": "t3_1b28vwu",
+      "parent_id": "t1_kskp8aa"
+    },
+    {
+      "id": "ksjzv4t",
+      "body": "As far as I know you have a right to the exam insight for up to 6months after receiving your grade, where you can also take notes, but you have no right to take your exam or a copy thereof home.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1709137936,
+      "score": 10,
+      "link_id": "t3_1b28vwu",
+      "parent_id": "t3_1b28vwu"
+    },
+    {
+      "id": "kryc183",
+      "body": "Wird per Kamera kontrolliert. Quelle: bin da aus Versehen schon mal reingefahren und hab die Rechnung bekommen.",
+      "author": "corny96",
+      "subreddit": "zurich",
+      "created_utc": 1708799601,
+      "score": 21,
+      "link_id": "t3_1aywa7d",
+      "parent_id": "t3_1aywa7d"
+    },
+    {
+      "id": "kphtrn3",
+      "body": "10years at ETH were enough for a lifetime",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707406177,
+      "score": 1,
+      "link_id": "t3_1al5bl1",
+      "parent_id": "t1_kphthyk"
+    },
+    {
+      "id": "kphli69",
+      "body": "hopefully graduating from my PhD soon",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707403084,
+      "score": 1,
+      "link_id": "t3_1al5bl1",
+      "parent_id": "t1_kphjopy"
+    },
+    {
+      "id": "kph7g7n",
+      "body": "I'm a big fan of The Lemon Grass, opposite of the CHN building.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707397024,
+      "score": 3,
+      "link_id": "t3_1alsxeb",
+      "parent_id": "t3_1alsxeb"
+    },
+    {
+      "id": "kph0za2",
+      "body": "I think it's absolutely possible. I've also done it for most of my Master. It's just not easy to find a job that gives you enough flexibility to max out those 15h, be flexible enough to be compatible with studying, pays a decent salary, etc.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707393553,
+      "score": 1,
+      "link_id": "t3_1al5bl1",
+      "parent_id": "t1_kpg425o"
+    },
+    {
+      "id": "kpd37zv",
+      "body": "As terminal_object said, you are limited to 15hours per week. but this is during the semester. during the lecture free time you are allowed to work more. Assuming you work 15h per week as a Teaching Assistant for 28chf/h at ETH, that's a little bit over 400chf per week. If you don't have to pay for health insurance and live in a shared flat it should be possible live off of this.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707329420,
+      "score": 1,
+      "link_id": "t3_1al5bl1",
+      "parent_id": "t3_1al5bl1"
+    },
+    {
+      "id": "kp6qkl8",
+      "body": "MTEC",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707232759,
+      "score": 1,
+      "link_id": "t3_1ak6j3s",
+      "parent_id": "t1_kp6jao6"
+    },
+    {
+      "id": "kp6ivcz",
+      "body": "A friend of mine from China didn't manage to get a job after graduating. Went to Germany, as it was much easier there, and then kept applying for positions in Switzerland and managed to move back here after about a year.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1707229787,
+      "score": 14,
+      "link_id": "t3_1ak6j3s",
+      "parent_id": "t3_1ak6j3s"
+    },
+    {
+      "id": "kp195d0",
+      "body": "I bought the same one about 1.5 years ago. It's amazing, I love wearing it every day, you made a great choice",
+      "author": "corny96",
+      "subreddit": "Watches",
+      "created_utc": 1707146520,
+      "score": 3,
+      "link_id": "t3_1ajfffq",
+      "parent_id": "t3_1ajfffq"
+    },
+    {
+      "id": "kor0a0n",
+      "body": "that is true, that I agree with",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1706975997,
+      "score": 3,
+      "link_id": "t3_1ahw73y",
+      "parent_id": "t1_koqw1t7"
+    },
+    {
+      "id": "koqvmon",
+      "body": "well, there's a x.99 price in the image above",
+      "author": "corny96",
+      "subreddit": "Switzerland",
+      "created_utc": 1706974188,
+      "score": 15,
+      "link_id": "t3_1ahw73y",
+      "parent_id": "t1_koqto40"
+    },
+    {
+      "id": "kkae6ni",
+      "body": "From what I know, it's now often forbidden to have batteries in the checked luggage, so also no laptop or tablet. also checked luggage is not treated particularly well, things break easily.",
+      "author": "corny96",
+      "subreddit": "howto",
+      "created_utc": 1706637217,
+      "score": 5,
+      "link_id": "t3_1aeqf7r",
+      "parent_id": "t1_kka9p84"
+    },
+    {
+      "id": "kk8ydoe",
+      "body": "French Press, wenn es mal eine große Tasse oder mehrere sein soll. Ansonsten für Espresso hab ich eine Siebträgermaschine (die Gaggia Classic), die auch Milch schäumen kann. Dazu eine elektrische Mühle von Sage, für unterschiedliche Mahlgrade je nach Zubereitung. Den Espresso gibt es 1-2 mal am Tag, die French Press dann eher am Wochenende zum entspannten Frühstück.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1706617135,
+      "score": 2,
+      "link_id": "t3_1aeilrw",
+      "parent_id": "t3_1aeilrw"
+    },
+    {
+      "id": "kk6py50",
+      "body": "jo, Schweiz hier. zahle 39 für 200/200. Angeboten an meiner Adresse wird aber auch 49 für 1000/1000 oder 69 für 10000/10000. Zum selben Preis gibt's auch noch die 25000/25000 Leitung, da kommen dann aber ein paar 100Chf Setupgebühr dazu... für 20chf/Monat extra kriegt man auch noch die fixe IPv4 Adresse, für die die's brauchen...",
+      "author": "corny96",
+      "subreddit": "de_EDV",
+      "created_utc": 1706573933,
+      "score": 8,
+      "link_id": "t3_1ae7z99",
+      "parent_id": "t1_kk6ebrm"
+    },
+    {
+      "id": "kj2ox6j",
+      "body": "The PhD students in MAVT and ITET that I know all got a budget from their lab to purchase a computer suitable to their needs during the Phd. Workstation, notebook, dedicated graphics, no graphics, etc. Depending on their individual projects and foreseeable computing needs, they got different budgets though, not everyone the same. No one I know got a computer assigned from ETH IT.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1705947639,
+      "score": 7,
+      "link_id": "t3_19d0kn4",
+      "parent_id": "t3_19d0kn4"
+    },
+    {
+      "id": "kiyx6js",
+      "body": "normally that's not allowed before passing the Basisprüfung. But I'm sure that they would accept it anyways if it's for a medical reason. They are always nice and helpful",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1705883700,
+      "score": 9,
+      "link_id": "t3_19cacdz",
+      "parent_id": "t1_kixb1fc"
+    },
+    {
+      "id": "kiyu1d9",
+      "body": "Ich esse sehr gerne Frühstück, ich esse nur nicht gerne früh morgens. \nEntsprechend gibt es bei mir unter der Woche einen Kaffee, sonst nichts. Am Wochenende gibt's dafür ein spätes Frühstück mit schönem Brot und Eiern, vielleicht Pancakes oder anderen guten Sachen. Dafür gibt's am Wochenende dann kein Mittagessen.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1705882550,
+      "score": 3,
+      "link_id": "t3_19c7y4d",
+      "parent_id": "t3_19c7y4d"
+    },
+    {
+      "id": "kivofxv",
+      "body": "Unter der Woche: Kaffee und Wasser. \nAm Wochenende: Kaffee, Wasser und einen frisch gepressten Orangensaft.",
+      "author": "corny96",
+      "subreddit": "FragReddit",
+      "created_utc": 1705839418,
+      "score": 2,
+      "link_id": "t3_19c0amj",
+      "parent_id": "t3_19c0amj"
+    },
+    {
+      "id": "khzq16f",
+      "body": "for individual exams (not block exams) you don't need a medical certificate if you deregister via phone or email until 1h before the exam.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1705339686,
+      "score": 2,
+      "link_id": "t3_197a73i",
+      "parent_id": "t1_khzh1yh"
+    },
+    {
+      "id": "khzptnj",
+      "body": "the set date is for deregistering online through mystudies. For single exams (those not part of a block, such as the Basisprüfung), you can deregister without any reason until 1h before the exam via phone or email at the exams office. See 4.2 here [exam rules](https://ethz.ch/content/dam/ethz/common/docs/weisungssammlung/files-de/pruefungsplan.pdf). \nThis info is however not very well known/not obvious from what's written in myStudies in my opinion.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1705339617,
+      "score": 6,
+      "link_id": "t3_197a73i",
+      "parent_id": "t1_khzl6f6"
+    },
+    {
+      "id": "khr6od2",
+      "body": "I'm paying $40 for 100/100 here in Switzerland. maybe I'll chip out the $10 extra for 1000/1000 some time soon.",
+      "author": "corny96",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1705196840,
+      "score": 1,
+      "link_id": "t3_1960vb6",
+      "parent_id": "t1_khqmmne"
+    },
+    {
+      "id": "kglzwjo",
+      "body": "no, I didn't, is that recommended? I just found out that I can install the md plugin, and now the RAID option appeared. Is that something new in OMV 7.0 that I first have to install a plugin for RAID?",
+      "author": "corny96",
+      "subreddit": "OpenMediaVault",
+      "created_utc": 1704563605,
+      "score": 1,
+      "link_id": "t3_1903zjb",
+      "parent_id": "t1_kgltwox"
+    },
+    {
+      "id": "kggunsk",
+      "body": "depends on the projects, can also be less, during the lecture free time I think it can also be more.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1704479552,
+      "score": 1,
+      "link_id": "t3_18z91ko",
+      "parent_id": "t1_kgge3c5"
+    },
+    {
+      "id": "kgg8nr7",
+      "body": "I did some projects with them a couple of years ago, always worked out great. The best way to get assigned to a project is by getting to know the people there, if possible by doing a project with them. I know that sounds like a chicken and egg problem, but they will assign the projects if possible to people who have already done a project with them and with whom they had good experiences. So you need to get your foot into the door. Sometimes they send out mails with job offerings, but there are actually many more projects happening than they send out by mail. If you want to get a job there, just send them a mail, with your CV, describing your skills, your motivation, etc. keep the mail short, but highlight what you can do.\n\nThe duration of a project can vary a lot. I saw everything from a month to a year. The pay is good, better than TA positions at ETH, but depends a lot on your skills and the kind of project. The work was always great in my opinion. Very self-managed, sometimes meeting customers, sometimes the juniors people, but mostly working on my own towards the project goal.",
+      "author": "corny96",
+      "subreddit": "ethz",
+      "created_utc": 1704472133,
+      "score": 1,
+      "link_id": "t3_18z91ko",
+      "parent_id": "t3_18z91ko"
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "username": "xLexip",
+  "posts": [
+    {
+      "id": "1hcxa12",
+      "title": "Spotify transition bug",
+      "author": "xLexip",
+      "subreddit": "android_beta",
+      "created_utc": 1734042550,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Does anyone else experience this? If yes, please upvote my bug report.\n\nhttps://community.spotify.com/t5/Android/Playback-volume-briefly-lowers-when-transitioning-between-songs/m-p/6581082#M216257\n",
+      "url": "https://www.reddit.com/r/android_beta/comments/1hcxa12/spotify_transition_bug/"
+    },
+    {
+      "id": "1hcx8az",
+      "title": "Playback volume briefly lowers when transitioning ... - T…",
+      "author": "xLexip",
+      "subreddit": "spotify",
+      "created_utc": 1734042415,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Does anyone else on Android experience this? If yes, upvote my report please. It drives my crazy.",
+      "url": "https://community.spotify.com/t5/Android/Playback-volume-briefly-lowers-when-transitioning-between-songs/m-p/6581082#M216257"
+    },
+    {
+      "id": "1gv5ekb",
+      "title": "Android 16 Release Schedule ",
+      "author": "xLexip",
+      "subreddit": "Android",
+      "created_utc": 1732043903,
+      "score": 4,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Android/comments/1gv5ekb/android_16_release_schedule/"
+    },
+    {
+      "id": "1gv5cbb",
+      "title": "Android 16 Release Timeline ",
+      "author": "xLexip",
+      "subreddit": "Android",
+      "created_utc": 1732043748,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://developer.android.com/static/about/versions/16/images/timeline-desktop-nov-en.png"
+    },
+    {
+      "id": "1gv5av7",
+      "title": "Android 16 Release Timeline",
+      "author": "xLexip",
+      "subreddit": "Android",
+      "created_utc": 1732043649,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://i.redd.it/hr2lwa31rw1e1.png"
+    },
+    {
+      "id": "1gv5a2y",
+      "title": "Android 16 Timeline",
+      "author": "xLexip",
+      "subreddit": "Android",
+      "created_utc": 1732043597,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://i.redd.it/9drijagvqw1e1.png"
+    },
+    {
+      "id": "1g2pokx",
+      "title": "Using Pixel Buds with Mac OS ",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728826195,
+      "score": 13,
+      "num_comments": 2,
+      "selftext": "Apple disables the AAC codec by default in MacOS. This leads to audio delay when watching videos on Mac devices and makes the overall audio quality worse.\n\nTo enable AAC you can run this command in your terminal:\n\nsudo defaults write bluetoothaudiod \"Enable AAC codec\" -bool true",
+      "url": "https://www.reddit.com/r/GooglePixel/comments/1g2pokx/using_pixel_buds_with_mac_os/"
+    },
+    {
+      "id": "1g2pl6a",
+      "title": "Pixel Buds Pro 2: Disabling spatial audio improves audio quality ",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728825884,
+      "score": 5,
+      "num_comments": 5,
+      "selftext": "I just noticed that disabling spatial audio on my Pixel Buds Pro 2 significantly improves the audio quality for me.\n\nHas anyone else noticed this?",
+      "url": "https://www.reddit.com/r/GooglePixel/comments/1g2pl6a/pixel_buds_pro_2_disabling_spatial_audio_improves/"
+    },
+    {
+      "id": "1fq4z7h",
+      "title": "Pixel Buds Pro 2: Muffled sound!",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727379658,
+      "score": 3,
+      "num_comments": 18,
+      "selftext": "I just got my Pixel Buds Pro 2. Coming from the Airpods Pro, the sound is very muffled/distorted. The difference is pretty huge and I don't think that these should sound like this.\n\nDoes anyone else experience this?",
+      "url": "https://www.reddit.com/r/GooglePixel/comments/1fq4z7h/pixel_buds_pro_2_muffled_sound/"
+    },
+    {
+      "id": "1ffpmvp",
+      "title": "Pixel 9 Pro (non-XL) still cannot be enrolled ",
+      "author": "xLexip",
+      "subreddit": "android_beta",
+      "created_utc": 1726215655,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/android_beta/comments/1ffpmvp/pixel_9_pro_nonxl_still_cannot_be_enrolled/"
+    },
+    {
+      "id": "1efse1e",
+      "title": "Pixel 9 will have 16GB RAM, why?",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1722343479,
+      "score": 0,
+      "num_comments": 8,
+      "selftext": "I use a Pixel 8 Pro with 12GB and I would call myself an average user.\n\nI have an average memory usage of 7.2GB (60%) of my 12GB so what's the point of equipping 16GB LPDDR5 to the Pixel 9 series?\n\nIn my opinion, it would be smarter to use less but faster LPDDR5x modules than 16GB LPDDR5 as they are not only faster but also more efficient. What do you think?\n\n(I do not close any apps manually. I just use the device.)\n\nUsage screenshot: https://ibb.co/129SYWP",
+      "url": "https://www.reddit.com/r/GooglePixel/comments/1efse1e/pixel_9_will_have_16gb_ram_why/"
+    },
+    {
+      "id": "1dy4yep",
+      "title": "ich🤝iel",
+      "author": "xLexip",
+      "subreddit": "ich_iel",
+      "created_utc": 1720432221,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "",
+      "url": "https://i.redd.it/xr6vwlfao9bd1.png"
+    },
+    {
+      "id": "1ceep2a",
+      "title": "[30000] 🏆 Chicken Soup 🏆 #2GUJGPGVV",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1714224944,
+      "score": 2,
+      "num_comments": 10,
+      "selftext": "Feeling underrated? We're the cluckin' good solution: Soup up your brawl stars with a spicy Chicken Soup! 🍲\n\nInternational, english speaking club based in Europe. Challenge activity required. Minimum trophies to join: 30.000\n\nhttps://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=kbyba7s7\n",
+      "url": "https://www.reddit.com/r/BrawlRecruit/comments/1ceep2a/30000_chicken_soup_2gujgpgvv/"
+    },
+    {
+      "id": "1cahlk4",
+      "title": "[30000] 📈 Chicken Soup #2GUJGPGVV",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1713808997,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "Feeling underrated? We're the cluckin' good solution: Soup up your brawl stars with a spicy Chicken Soup! 🍲\n\nInternational, english speaking club based in Europe. Challenge activity required. \nMinimum trophies to join: 30k.\n\nhttps://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=etw9n7ae\n\nIf the club is full and you have 30k+, **please comment** here and wait for us to kick a lower player.\n\n",
+      "url": "https://www.reddit.com/r/BrawlRecruit/comments/1cahlk4/30000_chicken_soup_2gujgpgvv/"
+    },
+    {
+      "id": "1c9dd5l",
+      "title": "[30000] Chicken Soup #2GUJGPGVV",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1713689885,
+      "score": 2,
+      "num_comments": 3,
+      "selftext": "Feeling underrated? We're the cluckin' good solution: Soup up your brawl stars with a spicy Chicken Soup! 🍲\n\nIf the club is full and you have 30k+, please comment here and wait for us to kick a lower player.\n\nhttps://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=etw9n7ae",
+      "url": "https://www.reddit.com/r/BrawlRecruit/comments/1c9dd5l/30000_chicken_soup_2gujgpgvv/"
+    },
+    {
+      "id": "1c8sqg3",
+      "title": "Club Invitation",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1713627049,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "Feeling underrated? We're the cluckin' good solution: Soup up your brawl stars with a spicy Chicken Soup! 🍲\nAs an active club will be relevant in the upcoming seasons, we're opening our gates and would like to welcome you in our club.\nWe will be focusing on club challenges like mega pig and the upcoming dino event.\n\nhttps://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=99czetfj",
+      "url": "https://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=99czetfj"
+    },
+    {
+      "id": "1c8seqf",
+      "title": "Club Invitation ",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1713626212,
+      "score": 2,
+      "num_comments": 8,
+      "selftext": "",
+      "url": "https://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=99czetfj"
+    },
+    {
+      "id": "1c8sdki",
+      "title": "📬 Club Invite 📬",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1713626127,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://link.brawlstars.com/invite/band/en?tag=2GUJGPGVV&token=99czetfj"
+    },
+    {
+      "id": "1al4j9f",
+      "title": "All of Da Tweekaz, Tweekacore & The Elite",
+      "author": "xLexip",
+      "subreddit": "DaTweekaz",
+      "created_utc": 1707317107,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://open.spotify.com/playlist/6VLNxk9druT1C95hQVn3Za?si=U1FcWp4tTDijv2uBy8asQA"
+    },
+    {
+      "id": "1al4aqp",
+      "title": "All of Da Tweekaz, Tweekacore & The Elite",
+      "author": "xLexip",
+      "subreddit": "EDM",
+      "created_utc": 1707316464,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://open.spotify.com/playlist/6VLNxk9druT1C95hQVn3Za?si=CE8T6CIWT4KGwmkKxUyYOQ"
+    },
+    {
+      "id": "1al49nm",
+      "title": "All of Da Tweekaz, Tweekacore & The Elite",
+      "author": "xLexip",
+      "subreddit": "hardstyle",
+      "created_utc": 1707316375,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://open.spotify.com/playlist/6VLNxk9druT1C95hQVn3Za?si=CE8T6CIWT4KGwmkKxUyYOQ"
+    },
+    {
+      "id": "19dwiy0",
+      "title": "SuperC(ool)? 🧊",
+      "author": "xLexip",
+      "subreddit": "aachen",
+      "created_utc": 1706037816,
+      "score": 106,
+      "num_comments": 6,
+      "selftext": "",
+      "url": "https://i.redd.it/46wz7ktbq8ec1.jpeg"
+    },
+    {
+      "id": "193iwnb",
+      "title": "🚀 Pixel Watch Speedup (Animations)",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1704920127,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I just tried the option to reduce the animations on my pixel watch (2). It feels faster now and I can recommend giving it a try. \n\nSettings > Accessibility > Reduce animations",
+      "url": "https://www.reddit.com/r/GooglePixel/comments/193iwnb/pixel_watch_speedup_animations/"
+    },
+    {
+      "id": "193iv6c",
+      "title": "Small setting, big impact",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1704920029,
+      "score": 110,
+      "num_comments": 35,
+      "selftext": "I just tried the option to reduce the animations on my pixel watch. It feels faster now and I can recommend giving it a try. \n\nSettings > Accessibility > Reduce animations",
+      "url": "https://i.redd.it/m2oysxrkeobc1.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4kxjhp",
+      "body": "That's the microphone. But it should be protected from such mistakes.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1735591386,
+      "score": 1,
+      "link_id": "t3_1hpwqs6",
+      "parent_id": "t3_1hpwqs6"
+    },
+    {
+      "id": "m18lxxz",
+      "body": "Go to Settings > Security > System & updates. There you will find the Security Patch published on a day 05. of a month and the Google Play system update, published in a day 01 of a month.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1733771871,
+      "score": 1,
+      "link_id": "t3_1h9tdm0",
+      "parent_id": "t1_m18l91r"
+    },
+    {
+      "id": "m15raub",
+      "body": "This is not the security patch. Your security update should be from 05.11. or 05.12.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1733726932,
+      "score": 1,
+      "link_id": "t3_1h9tdm0",
+      "parent_id": "t1_m15r5fc"
+    },
+    {
+      "id": "m15r30c",
+      "body": "The Google Play system update isn't released every month. The latest version is from October.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1733726805,
+      "score": 1,
+      "link_id": "t3_1h9tdm0",
+      "parent_id": "t3_1h9tdm0"
+    },
+    {
+      "id": "m0x107p",
+      "body": "Post this to r/GooglePixel 😂",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1733600556,
+      "score": 3,
+      "link_id": "t3_1h8yyqs",
+      "parent_id": "t3_1h8yyqs"
+    },
+    {
+      "id": "lyzke2j",
+      "body": "That's a total screen on time of 7 hours with a full  charge, that's decent.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1732576882,
+      "score": 1,
+      "link_id": "t3_1gyirog",
+      "parent_id": "t1_lyspyes"
+    },
+    {
+      "id": "lypladc",
+      "body": "How are the long term stats below? Since when have you been using it?",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1732435197,
+      "score": 1,
+      "link_id": "t3_1gyirog",
+      "parent_id": "t3_1gyirog"
+    },
+    {
+      "id": "lthxbal",
+      "body": "Same here. WTF Apple.",
+      "author": "xLexip",
+      "subreddit": "airpods",
+      "created_utc": 1729770565,
+      "score": 1,
+      "link_id": "t3_qy55co",
+      "parent_id": "t3_qy55co"
+    },
+    {
+      "id": "ls62y2c",
+      "body": "Same here.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1729064572,
+      "score": 1,
+      "link_id": "t3_1g4sv4o",
+      "parent_id": "t3_1g4sv4o"
+    },
+    {
+      "id": "lrws9pv",
+      "body": "WIFI BE, so WIFI 7.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1728928582,
+      "score": 1,
+      "link_id": "t3_1g3l745",
+      "parent_id": "t3_1g3l745"
+    },
+    {
+      "id": "lrpwq9u",
+      "body": "With Spotify.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728827777,
+      "score": 1,
+      "link_id": "t3_1g2pl6a",
+      "parent_id": "t1_lrpv7fj"
+    },
+    {
+      "id": "lrpwhfr",
+      "body": "Yes, it improved a lot. It used to be about half a second and now it is barely noticeable or not noticeable at all.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728827684,
+      "score": 3,
+      "link_id": "t3_1g2pokx",
+      "parent_id": "t1_lrpvxg7"
+    },
+    {
+      "id": "lrpcpqd",
+      "body": "Did you make it to ETH?",
+      "author": "xLexip",
+      "subreddit": "ethz",
+      "created_utc": 1728818318,
+      "score": 1,
+      "link_id": "t3_1799nwe",
+      "parent_id": "t3_1799nwe"
+    },
+    {
+      "id": "lrpbl3d",
+      "body": "Ich mache gerade meinen Informatik Bachelor an der RWTH. Hast du Erfahrungen zu den Klausuren an der ETH im Vergleich zur RWTH? :]",
+      "author": "xLexip",
+      "subreddit": "ethz",
+      "created_utc": 1728817628,
+      "score": 1,
+      "link_id": "t3_19fha5n",
+      "parent_id": "t1_kjkeiih"
+    },
+    {
+      "id": "lrmjsy6",
+      "body": "I had a hell of a delay with Mac. Because the have ACC disabled by default, cause they are apple and want to sell you Airpods. But enabling ACC with a command fixed it and also improved the quality. You should also enable it when using third party ones with mac.\n\nsudo defaults write bluetoothaudiod \"Enable AAC codec\" -bool true",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728768073,
+      "score": 2,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lrmj216"
+    },
+    {
+      "id": "lrmirwh",
+      "body": "I was already using it. But I felt like the sound was way better with my Macbook. Probably because it doesn't support spatial audio with the Pixel Buds. Now, after disabling spatial audio and playing around with an equalizer, the sound is not far away from the airpods. Maybe also subjective now because I got used to the PBP2...",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728767693,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lrmhxx7"
+    },
+    {
+      "id": "lrmhiz2",
+      "body": "Did you return them? I kept mine because of the great integration and proper multi point support. I think I got used to the sound a bit. \nI just figured out that disabling spatial audio improves the sound a lot.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1728767249,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2n63j"
+    },
+    {
+      "id": "lqwfuid",
+      "body": "This is the only known information afaik: https://support.google.com/pixelphone/answer/7106961?visit_id=638639641550647644-1019530185&p=adaptive_charging&rd=1#adaptive_charging",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1728367506,
+      "score": 1,
+      "link_id": "t3_1fypvv1",
+      "parent_id": "t3_1fypvv1"
+    },
+    {
+      "id": "lp2rhsy",
+      "body": "I don't think we mean the same thing. Mine make noise for like a minute straight. I cannot take them to exams anymore cause they randomly start making noise lol.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727381797,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2qzlt"
+    },
+    {
+      "id": "lp2qt58",
+      "body": "I know what you mean and I really try to like them, but this can't be right. When watching videos, even the sound from my phone's speaker sounds clearer. I'm gonna chat with the support tomorrow.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727381578,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2qil6"
+    },
+    {
+      "id": "lp2q6u9",
+      "body": "But I hate the Airpods Case for making this find-my sound when not using an iPhone with it...",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727381382,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t3_1fq4z7h"
+    },
+    {
+      "id": "lp2q0o6",
+      "body": "Same here. I just compared them to my APP2 directly and my conclusion is: WTF.\nMaybe I will chat with support tomorrow, this can't be right. For 250€.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727381328,
+      "score": 2,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2pgr8"
+    },
+    {
+      "id": "lp2oiun",
+      "body": "I have no clue how the existing reviews can be so good...",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727380849,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2nvg7"
+    },
+    {
+      "id": "lp2o9fe",
+      "body": "Yeah. It gets better without ANC. And it sounds hollow or like a tiny echo everywhere. I had the first gen Pixel Buds Pro two years ago, I feel like even they sounded better...",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727380765,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2nvg7"
+    },
+    {
+      "id": "lp2nnz6",
+      "body": "Same here, it feels like an issue but I've no clue. Installing the software update didn't help. Are you on the Android 15 Beta? I thought that may be my problem...",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1727380578,
+      "score": 1,
+      "link_id": "t3_1fq4z7h",
+      "parent_id": "t1_lp2n63j"
+    },
+    {
+      "id": "loqrui1",
+      "body": "I've set all three to off in the dev settings and they haven't reset yet.",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1727207625,
+      "score": 1,
+      "link_id": "t3_193iv6c",
+      "parent_id": "t1_loqpjz6"
+    },
+    {
+      "id": "lohm6am",
+      "body": "Already in the works. Only for tablets for now but Google is also working on external display connections with Android 15 QPR1.\nhttps://youtu.be/0CPHcRSFa3M?si=QCzoY8Cwc9mkAJ_v",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1727073590,
+      "score": 1,
+      "link_id": "t3_1fn83vp",
+      "parent_id": "t3_1fn83vp"
+    },
+    {
+      "id": "lnrq8h7",
+      "body": "You can only leave quarterly when the feature drops happen. Otherwise your phone will be reset when leaving. Just google it.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1726682646,
+      "score": 1,
+      "link_id": "t3_1fjrzak",
+      "parent_id": "t1_lnroy4k"
+    },
+    {
+      "id": "lnrop8j",
+      "body": "Works totally fine here.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1726682168,
+      "score": 1,
+      "link_id": "t3_1fhdinz",
+      "parent_id": "t3_1fhdinz"
+    },
+    {
+      "id": "lnrojnu",
+      "body": "You could join the beta but it's not that easy to get out of there later on.",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1726682119,
+      "score": 1,
+      "link_id": "t3_1fjrzak",
+      "parent_id": "t3_1fjrzak"
+    },
+    {
+      "id": "lmwe47j",
+      "body": "Still no enrollment available for the small Pixel 9 Pro, even though there is a build for it.",
+      "author": "xLexip",
+      "subreddit": "android_beta",
+      "created_utc": 1726216655,
+      "score": 1,
+      "link_id": "t3_1es8aji",
+      "parent_id": "t3_1es8aji"
+    },
+    {
+      "id": "lmwe2qq",
+      "body": "Still no enrollment available for the small Pixel 9 Pro, even though there is a build for it.",
+      "author": "xLexip",
+      "subreddit": "android_beta",
+      "created_utc": 1726216625,
+      "score": 1,
+      "link_id": "t3_1f9kw52",
+      "parent_id": "t3_1f9kw52"
+    },
+    {
+      "id": "lmqew9d",
+      "body": "Settings > System > Gestures",
+      "author": "xLexip",
+      "subreddit": "Pixel9",
+      "created_utc": 1726126905,
+      "score": 2,
+      "link_id": "t3_1fesp6k",
+      "parent_id": "t3_1fesp6k"
+    },
+    {
+      "id": "llzqu7o",
+      "body": "Interesting. We'll see, thanks.",
+      "author": "xLexip",
+      "subreddit": "LinkinPark",
+      "created_utc": 1725733971,
+      "score": 1,
+      "link_id": "t3_1fa329j",
+      "parent_id": "t1_llzohv2"
+    },
+    {
+      "id": "llzkq0k",
+      "body": "Hm, okay. They sell for 80-500$ in NYC though...",
+      "author": "xLexip",
+      "subreddit": "LinkinPark",
+      "created_utc": 1725731901,
+      "score": 1,
+      "link_id": "t3_1fa329j",
+      "parent_id": "t1_llzfwtf"
+    },
+    {
+      "id": "lly4bx7",
+      "body": "How do you know?",
+      "author": "xLexip",
+      "subreddit": "LinkinPark",
+      "created_utc": 1725713144,
+      "score": 2,
+      "link_id": "t3_1fa329j",
+      "parent_id": "t1_llxybd5"
+    },
+    {
+      "id": "lly495i",
+      "body": "Can you tell the price now?",
+      "author": "xLexip",
+      "subreddit": "LinkinPark",
+      "created_utc": 1725713108,
+      "score": 1,
+      "link_id": "t3_1fa329j",
+      "parent_id": "t1_llrdgaj"
+    },
+    {
+      "id": "lj243c0",
+      "body": "Last year it was one week after the event. So maybe today...",
+      "author": "xLexip",
+      "subreddit": "pixel_phones",
+      "created_utc": 1724169111,
+      "score": 1,
+      "link_id": "t3_1eu9rza",
+      "parent_id": "t3_1eu9rza"
+    },
+    {
+      "id": "lioh55e",
+      "body": "No.",
+      "author": "xLexip",
+      "subreddit": "Oneplus5T",
+      "created_utc": 1723961728,
+      "score": 2,
+      "link_id": "t3_1euzhp6",
+      "parent_id": "t3_1euzhp6"
+    },
+    {
+      "id": "lijo4bc",
+      "body": "Still not fixed...",
+      "author": "xLexip",
+      "subreddit": "mac",
+      "created_utc": 1723891152,
+      "score": 1,
+      "link_id": "t3_slr3dj",
+      "parent_id": "t1_jcmpvtk"
+    },
+    {
+      "id": "li1a8yy",
+      "body": "It is now confirmed that the entire Pixel 9 lineup uses UFS 3.1. Very unfortunate when looking at the price tags.  [https://www.androidpolice.com/google-pixel-9-missing-features/](https://www.androidpolice.com/google-pixel-9-missing-features/)",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1723617622,
+      "score": 1,
+      "link_id": "t3_1dqcdj9",
+      "parent_id": "t3_1dqcdj9"
+    },
+    {
+      "id": "lfn58pn",
+      "body": "Alright, we'll speak in a few months again. I don't believe that it would go over 10 on average. It's not like the 8 series doesn't use any AI. We'll see.",
+      "author": "xLexip",
+      "subreddit": "GooglePixel",
+      "created_utc": 1722344473,
+      "score": -7,
+      "link_id": "t3_1efse1e",
+      "parent_id": "t1_lfn4l8d"
+    },
+    {
+      "id": "lb9iunn",
+      "body": "Maybe upvote and comment here everyone:\nhttps://community.spotify.com/t5/Ongoing-Issues/Downtime-27th-June-App-crashing-on-Android/idi-p/6159636/page/4#comments",
+      "author": "xLexip",
+      "subreddit": "spotify",
+      "created_utc": 1719916134,
+      "score": 1,
+      "link_id": "t3_1dt6bat",
+      "parent_id": "t3_1dt6bat"
+    },
+    {
+      "id": "layi9hm",
+      "body": "Same here.",
+      "author": "xLexip",
+      "subreddit": "Xiaomi",
+      "created_utc": 1719741844,
+      "score": 1,
+      "link_id": "t3_we7xk1",
+      "parent_id": "t3_we7xk1"
+    },
+    {
+      "id": "l3yw2jm",
+      "body": "Hi Lexip,\n\nMy name's Marina and I'll be glad to assist you.  Thanks for playing and reaching out to us! I do apologize for keeping you waiting, we are receiving a lot of inquiries now.\n\nWe greatly appreciate you taking the time to report this. Furthermore, we apologize for the inconvenience caused. If you keep playing, eventually tutorials go away after some time, however, unfortunately, we can't tell you when exactly these messages will disappear.\n\nMeanwhile: depending on your device, remember to check Apple's App Store (iOS), Google Play Store or Amazon Appstore (Android). This way you can make sure you’ve installed any recent important updates.\n\nHave a great day!",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1715669913,
+      "score": 1,
+      "link_id": "t3_1bx3kfu",
+      "parent_id": "t1_l3yw20y"
+    },
+    {
+      "id": "l3yw20y",
+      "body": "Same here. The support won't help and refuses to investigate.",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1715669903,
+      "score": 1,
+      "link_id": "t3_1bx3kfu",
+      "parent_id": "t3_1bx3kfu"
+    },
+    {
+      "id": "l1y0j9g",
+      "body": "Recruiting again.",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1714487370,
+      "score": 1,
+      "link_id": "t3_1ceep2a",
+      "parent_id": "t1_l1ic18r"
+    },
+    {
+      "id": "l1ie3bf",
+      "body": "We are full and won't kick anyone atm. We'll see who is actively playing during the event and will probably start recurring again afterwards.",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1714231084,
+      "score": 1,
+      "link_id": "t3_1ceep2a",
+      "parent_id": "t1_l1ic18r"
+    },
+    {
+      "id": "l1ie2nc",
+      "body": "We are full and won't kick anyone atm. We'll see who is actively playing during the event and will probably start recurring again afterwards.",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1714231077,
+      "score": 1,
+      "link_id": "t3_1ceep2a",
+      "parent_id": "t1_l1iaodq"
+    },
+    {
+      "id": "l0m5yv1",
+      "body": "I made space, go ahead.",
+      "author": "xLexip",
+      "subreddit": "BrawlRecruit",
+      "created_utc": 1713717383,
+      "score": 1,
+      "link_id": "t3_1c9dd5l",
+      "parent_id": "t1_l0m3edp"
+    },
+    {
+      "id": "l0gp4a7",
+      "body": "Sure",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1713627772,
+      "score": 1,
+      "link_id": "t3_1c8seqf",
+      "parent_id": "t1_l0gne5h"
+    },
+    {
+      "id": "l0gmeii",
+      "body": "Sure, and we're focusing on club challenges like mega pig and the upcoming dino thing.",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1713626787,
+      "score": 1,
+      "link_id": "t3_1c8seqf",
+      "parent_id": "t1_l0gl6do"
+    },
+    {
+      "id": "l0gl54q",
+      "body": "We are filling our club as active clubs have an advantage in the upcoming seasons. 📬",
+      "author": "xLexip",
+      "subreddit": "Brawlstars",
+      "created_utc": 1713626325,
+      "score": 1,
+      "link_id": "t3_1c8seqf",
+      "parent_id": "t3_1c8seqf"
+    },
+    {
+      "id": "kji4zkx",
+      "body": "Sometimes it's time to move on... 🫡",
+      "author": "xLexip",
+      "subreddit": "Oneplus5T",
+      "created_utc": 1706191390,
+      "score": 2,
+      "link_id": "t3_19f84d4",
+      "parent_id": "t3_19f84d4"
+    },
+    {
+      "id": "kj8mgfq",
+      "body": "Jetzt, wo du's sagst... 😵‍💫",
+      "author": "xLexip",
+      "subreddit": "aachen",
+      "created_utc": 1706038576,
+      "score": 7,
+      "link_id": "t3_19dwiy0",
+      "parent_id": "t1_kj8lptr"
+    },
+    {
+      "id": "khhklcy",
+      "body": "Both, as they use almost the same software.",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1705044447,
+      "score": 1,
+      "link_id": "t3_193iv6c",
+      "parent_id": "t1_khh3qg9"
+    },
+    {
+      "id": "khcjvy6",
+      "body": "I'd still go without, yeah.",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1704972431,
+      "score": 2,
+      "link_id": "t3_193iv6c",
+      "parent_id": "t1_khcic3x"
+    },
+    {
+      "id": "khcg3ff",
+      "body": "There are some tiny scratches, but you only see them when you look for them with a flashlight. 😅",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1704969808,
+      "score": 1,
+      "link_id": "t3_193iv6c",
+      "parent_id": "t1_khcfgfj"
+    },
+    {
+      "id": "khcf94j",
+      "body": "I noticed the difference especially when navigating between apps or tiles.",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1704969192,
+      "score": 3,
+      "link_id": "t3_193iv6c",
+      "parent_id": "t1_khaaqvv"
+    },
+    {
+      "id": "kh9j0in",
+      "body": "then I have achieved my goal",
+      "author": "xLexip",
+      "subreddit": "PixelWatch",
+      "created_utc": 1704920844,
+      "score": 17,
+      "link_id": "t3_193iv6c",
+      "parent_id": "t1_kh9i79i"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "username": "agil7717",
+  "posts": [
+    {
+      "id": "1cvk3mq",
+      "title": "Weirdly behaving shadow",
+      "author": "agil7717",
+      "subreddit": "unrealengine",
+      "created_utc": 1716109595,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I am getting into the Global Illumination chapter of Unreal Sensei's tutorial video, but I ended up with a shadow acting this way, as I turned on the lumen option. I tried to bake the light without using lumen and it looks even weirder, what could I do to fix it? I'll gladly share more information on the settings I am using.\n\nWith Lumen: [https://imgur.com/8iu10Oc](https://imgur.com/8iu10Oc)  \nBaked Light without Lumen: [https://imgur.com/nRQXXMx](https://imgur.com/nRQXXMx)",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1cvk3mq/weirdly_behaving_shadow/"
+    },
+    {
+      "id": "1cudbv6",
+      "title": "Reflections not working properly",
+      "author": "agil7717",
+      "subreddit": "unrealengine",
+      "created_utc": 1715972505,
+      "score": 1,
+      "num_comments": 3,
+      "selftext": "I'm following Unreal Sensei's tutorial, but the reflections are not working like it is shown in the video. Why is it that the side that is receiving the light not showing any reflections, when the one that is in the shadow shows the reflections of the sky?  \nThe object: https://imgur.com/8wXLHrl  \nThe material setting: https://imgur.com/paqhbs8",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1cudbv6/reflections_not_working_properly/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lm3f3ke",
+      "body": "Count me in, if there will be one!",
+      "author": "agil7717",
+      "subreddit": "ethz",
+      "created_utc": 1725793193,
+      "score": 2,
+      "link_id": "t3_1fbe24d",
+      "parent_id": "t1_lm364i3"
+    },
+    {
+      "id": "ljkt8wt",
+      "body": "What does it mean to meet the deadline for the Basisprüfung?",
+      "author": "agil7717",
+      "subreddit": "ethz",
+      "created_utc": 1724434285,
+      "score": 1,
+      "link_id": "t3_1eymlik",
+      "parent_id": "t1_ljfilt4"
+    },
+    {
+      "id": "l4pgnx8",
+      "body": "Thank you for the extensive and informative response!",
+      "author": "agil7717",
+      "subreddit": "unrealengine",
+      "created_utc": 1716103421,
+      "score": 1,
+      "link_id": "t3_1cudbv6",
+      "parent_id": "t1_l4n92nr"
+    },
+    {
+      "id": "l4mljc2",
+      "body": "Hey there! Thank you for the explanation and the warm welcome! :) If you don't mind me asking about the material, is it dielectric due to it not being metallic? Causing it to be less reflective due to the light being diffused by the surface of the object? Or what exactly does dielectric meaning in this context? And the additive light is due to the ...sun?",
+      "author": "agil7717",
+      "subreddit": "unrealengine",
+      "created_utc": 1716054175,
+      "score": 1,
+      "link_id": "t3_1cudbv6",
+      "parent_id": "t1_l4if09l"
+    },
+    {
+      "id": "l3t661s",
+      "body": "Let's hope they go to SGKB Halle",
+      "author": "agil7717",
+      "subreddit": "Switzerland",
+      "created_utc": 1715576124,
+      "score": 2,
+      "link_id": "t3_1cpxzch",
+      "parent_id": "t3_1cpxzch"
+    }
+  ]
+}

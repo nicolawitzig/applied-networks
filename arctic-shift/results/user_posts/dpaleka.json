@@ -1,0 +1,98 @@
+{
+  "username": "dpaleka",
+  "posts": [
+    {
+      "id": "1bcwpah",
+      "title": "[R] Stealing Part of a Production Language Model",
+      "author": "dpaleka",
+      "subreddit": "MachineLearning",
+      "created_utc": 1710248497,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://arxiv.org/abs/2403.06634"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m0lwa81",
+      "body": "What is the rationale for not having the full dataset metadata, e.g. the number of samples, in the paper?",
+      "author": "dpaleka",
+      "subreddit": "math",
+      "created_utc": 1733435502,
+      "score": 2,
+      "link_id": "t3_1h6rwls",
+      "parent_id": "t3_1h6rwls"
+    },
+    {
+      "id": "lsqvnz1",
+      "body": "Some European university labs do have similar cultures; I don't think doing good work requires some magic sauce only available in the US. \nYou can just do good research. The connections to the top labs and other roles outside academia are much better in the US though.",
+      "author": "dpaleka",
+      "subreddit": "MachineLearning",
+      "created_utc": 1729373051,
+      "score": 1,
+      "link_id": "t3_1g7dzkp",
+      "parent_id": "t3_1g7dzkp"
+    },
+    {
+      "id": "lf8smve",
+      "body": "I am friends with multiple people in the lab. They generally have high conscientiousness, and are hardworking and intelligent. I think they like their jobs.\n\nAs a general note about research, given other comments: in some fast-moving subfields of computer science, to have enough of a chance to contribute, you kind of have to spend time immersing yourself in the research, thinking a lot about the problem you want to solve, and doing lots of coding. As the saying goes, it is hard to do a really good job on anything you don't think about in the shower. These are the constraints of contributing to research effectively, not of any particular research group.\n\nBut: basically everyone that succeeds at this does not do it by forcing themselves to work hard; but by actually liking what they do day-to-day. Based on my experience, this is the most important thing about doing well on a research project as a Master student or early PhD student.\n\n(The second most important thing about research is to pick projects that you feel confident delivering from a technical standpoint. Not everyone has the same strengths, fast feedback loops matter, and being slowed down by technical issues makes research less fun.)\n\n\nIf you like the research methods, but with a different angle on the problems, you might also consider my advisor's group https://spylab.ai/. We're new, but I'd say we've been doing quite well recently.",
+      "author": "dpaleka",
+      "subreddit": "ethz",
+      "created_utc": 1722114466,
+      "score": 1,
+      "link_id": "t3_1eckd6k",
+      "parent_id": "t3_1eckd6k"
+    },
+    {
+      "id": "l6lp9h6",
+      "body": "For control and not just erasure:\n\n[Representation Engineering: A Top-Down Approach to AI Transparency](https://arxiv.org/abs/2310.01405)\n\nis kind of a standard reference for this sort of modification. \n\n [Activation Addition: Steering Language Models Without Optimization](https://arxiv.org/abs/2308.10248) also warrants a mention.",
+      "author": "dpaleka",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1717234926,
+      "score": 2,
+      "link_id": "t3_1d47qor",
+      "parent_id": "t1_l6d7i20"
+    },
+    {
+      "id": "l5rwgvg",
+      "body": "I think we agree, my original comment might not have been clear.\nTo clarify, I do believe that (a) the refusal token logits get lower average logprob; (b) this is not enough to explain the full effect of the intervention: just doing a logit processor intervention with the marginalized bias on refusal words does not achieve the same \"surgical\" jailbreak. Maybe it's an experiment we should include in the appendix? Idk. It would be surprising if this wasn't the case.\n\nIf you explore this research, especially from the \"understanding\" side; feel free to mail me if you want feedback or for advice who to reach for feedback.\n\nAbout experiments not mentioned in the post: methods to pick directions and evals, but also some actual interp results on how the direction interacts with certain inputs, etc.",
+      "author": "dpaleka",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1716746624,
+      "score": 1,
+      "link_id": "t3_1d0nnz9",
+      "parent_id": "t1_l5qsen5"
+    },
+    {
+      "id": "l5qpnwr",
+      "body": "Hi, thank you for your involvement! Just a couple of quick notes: \n\n- \"the model effectively represent refusal words less\" does not seem to be exactly what's happening. We had a small experiment where you ask a model to answer in refusal words, and it had no issue doing this. Although, this might vary by model or exact choice of direction. I think the question of what exactly changes in the model is quite difficult to answer, and may again vary from model to model.\n\n- The paper is not linked in the OP. The paper in fact is not yet online (but should be soon); but there was an [expository blog post](https://www.alignmentforum.org/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction) with the demo of the method and parts of the experiments done in the paper.",
+      "author": "dpaleka",
+      "subreddit": "LocalLLaMA",
+      "created_utc": 1716729926,
+      "score": 2,
+      "link_id": "t3_1d0nnz9",
+      "parent_id": "t1_l5qhjfp"
+    },
+    {
+      "id": "l257dzt",
+      "body": "I'm team ice-meal.",
+      "author": "dpaleka",
+      "subreddit": "MachineLearning",
+      "created_utc": 1714594744,
+      "score": 2,
+      "link_id": "t3_1chfqca",
+      "parent_id": "t1_l2282ou"
+    },
+    {
+      "id": "kwjdhya",
+      "body": "https://rom1504.github.io/clip-retrieval used to work, and I think the codebase may still work if you build https://github.com/rom1504/clip-retrieval with another dataset. This should get you samples of text and/or images which embed close to your target vector; you can do whatever you want with these, including just dumping the search results into GPT-4V.",
+      "author": "dpaleka",
+      "subreddit": "MachineLearning",
+      "created_utc": 1711397424,
+      "score": 2,
+      "link_id": "t3_1bn2b08",
+      "parent_id": "t3_1bn2b08"
+    }
+  ]
+}

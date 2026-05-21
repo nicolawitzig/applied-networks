@@ -1,0 +1,1343 @@
+{
+  "username": "lotformulas",
+  "posts": [
+    {
+      "id": "1h94rp7",
+      "title": "Help with homelab architecture",
+      "author": "lotformulas",
+      "subreddit": "zfs",
+      "created_utc": 1733612759,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "",
+      "url": "/r/homelab/comments/1h94n81/help_with_homelab_architecture/"
+    },
+    {
+      "id": "1h94n81",
+      "title": "Help with homelab architecture",
+      "author": "lotformulas",
+      "subreddit": "homelab",
+      "created_utc": 1733612400,
+      "score": 5,
+      "num_comments": 5,
+      "selftext": "Hi all,\n\nI am building my new homelab where I will mostly be using for NAS and VMs. I am trying to decide the overall architecture of it and I thought it's a good idea to employ the help of the lovely people on this subreddit.\n\nPoints that I've already decided and I would like to not change:\n- Host OS will be plain debian (no truenas or proxmox)\n- Cockpit web UI though probably I will do most stuff from the command line\n\nI am trying to decide between the following:\n1) Manage a ZFS pool on the host and run an SMB server on the host. When creating a VM, if needed I can create a zvol on the host and pass it to the VM via SCSI\n2) Manage a ZFS pool on the host. The SMB server will run in a VM and just like other VMs, it will have access to a zvol from the host, attached via SCSI.\n3) Passthrough all disks to one VM. The VM will manage the zpool and will also run the SMB server.\n\nCan you guys help me decide? Which one do you prefer, why, and what are the advantages or disadvantages?\n\nThank you!",
+      "url": "https://www.reddit.com/r/homelab/comments/1h94n81/help_with_homelab_architecture/"
+    },
+    {
+      "id": "1gvnttz",
+      "title": "Jonsbo C6 aircooling vs AIO",
+      "author": "lotformulas",
+      "subreddit": "mffpc",
+      "created_utc": 1732103915,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "/r/sffpc/comments/1gvmpf3/jonsbo_c6_aircooling_vs_aio/"
+    },
+    {
+      "id": "1gvmpf3",
+      "title": "Jonsbo C6 aircooling vs AIO",
+      "author": "lotformulas",
+      "subreddit": "sffpc",
+      "created_utc": 1732099487,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all,\n\nSo I am currently building a small server using Jonsbo C6. I will have a Ryzen 5 7600 as a CPU which includes an iGPU so I am not planning to buy a dedicated GPU at the moment (perhaps in the future if I decide I also want to use it for gaming). Right now, I will use it to run some VMs, and run Jellyfin for movies so I will be doing some transcoding. It is important to me that this build is as quiet as possible since I will have it in the living room.\n\nCan you guys help me decide between having air cooling such as Noctua NH-L12S vs an AIO like Corsair H60x Elite? Which runs more quiet? I am leaning towards AIO since I also like the aesthetics but I am especially concerned about the pump noise levels as I can't find any information on them.\n\nAny help would be appreciated",
+      "url": "https://www.reddit.com/r/sffpc/comments/1gvmpf3/jonsbo_c6_aircooling_vs_aio/"
+    },
+    {
+      "id": "1grz50j",
+      "title": "Akita CEX listing",
+      "author": "lotformulas",
+      "subreddit": "AkitaInuASA",
+      "created_utc": 1731685241,
+      "score": 34,
+      "num_comments": 6,
+      "selftext": "With the bull market back, is it time to initiate the process for a CEX listing? It is a good opportunity and timing to generate some hype for both algorand and Akita ",
+      "url": "https://www.reddit.com/r/AkitaInuASA/comments/1grz50j/akita_cex_listing/"
+    },
+    {
+      "id": "1g2n2m1",
+      "title": "Geberit turn handle ",
+      "author": "lotformulas",
+      "subreddit": "Plumbing",
+      "created_utc": 1728816935,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "Any ideas how to remove this? It's the thing that you turn to block the water in the bathtub. I want to clean under it",
+      "url": "https://i.redd.it/yk1h2onc8iud1.jpeg"
+    },
+    {
+      "id": "1g2mv73",
+      "title": "Geberit turn handle ",
+      "author": "lotformulas",
+      "subreddit": "fixit",
+      "created_utc": 1728816027,
+      "score": 2,
+      "num_comments": 1,
+      "selftext": "Any ideas how to remove this so i can clean under it?",
+      "url": "https://i.redd.it/gqppz9gn5iud1.jpeg"
+    },
+    {
+      "id": "1f38fp1",
+      "title": "Would SYBASoil work for VFT?",
+      "author": "lotformulas",
+      "subreddit": "VenusFlyTraps",
+      "created_utc": 1724846652,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "",
+      "url": "/r/SavageGarden/comments/1f2ea77/would_sybasoil_work_for_vft/"
+    },
+    {
+      "id": "1f38ewy",
+      "title": "Would SYBASoil work for VFT?",
+      "author": "lotformulas",
+      "subreddit": "carnivorousplants",
+      "created_utc": 1724846585,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "/r/SavageGarden/comments/1f2ea77/would_sybasoil_work_for_vft/"
+    },
+    {
+      "id": "1f2ea77",
+      "title": "Would SYBASoil work for VFT?",
+      "author": "lotformulas",
+      "subreddit": "SavageGarden",
+      "created_utc": 1724756783,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all, I am new to this and I am trying to do my best to take care of my VFT. I have this soil:\n\nhttps://www.sybotanica.com/products/premium-carnivorous-soil-mix-5-liter\n\nWould it work? On the box it says it is for carnivorous plants and it contains: Coco coir, activated carbon, vermiculite, horticultural sand, and sphagnum moss.\n\nIt also says under minor ingredients:\nNitrogen: 130mg/l (CaCl2)\nPhosphate(P205): 0mg/l (CAL)\nPotassium oxide (K20): 50mg/l (CAL)\nMagnesium (MG): 5mg/l (CaCl2)",
+      "url": "https://www.reddit.com/r/SavageGarden/comments/1f2ea77/would_sybasoil_work_for_vft/"
+    },
+    {
+      "id": "1e4p9m3",
+      "title": "Πλάκα ισογείου",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721138105,
+      "score": 6,
+      "num_comments": 15,
+      "selftext": "Χαιρετίζω!\n\nΈχω αγοράσει πρόσφατα διαμέρισμα και στο συμβόλαιο υπάρχει ενα πρόγραμμα πληρωμής που σύμφωνα με το οποίο πρέπει να πληρώσω ένα ποσό με την 'εναρξη πλάκας ισογείου' και μετα κάποιο ποσό με την 'έναρξη πλάκας 1ου οροφου' κτλπ. Ξέρει καποιος τι ακριβώς εννοούμε με 'εναρξη πλακας Χ ορόφου'; Πχ αν πούμε ξεκινούμε τωρα την πλάκα ισογείου, συμπεριλαμβάνει αυτο και τις κολόνες; Ή σημαίνει πως οι κολόνες εχουν χτιστεί ηδη;\n\nΕυχαριστώ πολυ",
+      "url": "https://www.reddit.com/r/cyprus/comments/1e4p9m3/πλάκα_ισογείου/"
+    },
+    {
+      "id": "1ako45z",
+      "title": "Affiliate program with 15% commission - sell prescription swimming goggles and make a profit from home",
+      "author": "lotformulas",
+      "subreddit": "onlinejobsforall",
+      "created_utc": 1707262017,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all, thought you might be interested in this affiliate program right here:\n\n[https://agily.ch/pages/agily-affiliate-program](https://agily.ch/pages/agily-affiliate-program)\n\nIt's a Swiss brand selling swimming goggles with myopia/nearsightedness vision correction. They give 15% commission. Signing up is free, you simply get paid after each sale. Very straightforward. Detailed benefits are in the page. The program also provides images, etc that you can use for advertising.",
+      "url": "https://www.reddit.com/r/onlinejobsforall/comments/1ako45z/affiliate_program_with_15_commission_sell/"
+    },
+    {
+      "id": "1ako2sp",
+      "title": "Affiliate program with 15% commission - selling prescription swimming goggles",
+      "author": "lotformulas",
+      "subreddit": "affiliatedeals",
+      "created_utc": 1707261918,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all, thought you might be interested in this affiliate program right here:\n\n[https://agily.ch/pages/agily-affiliate-program](https://agily.ch/pages/agily-affiliate-program)\n\nIt's a Swiss brand selling swimming goggles with myopia/nearsightedness vision correction. They give 15% commission. Signing up is free, you simply get paid after each sale. Very straightforward. Detailed benefits are in the page. The program also provides images, etc that you can use for advertising.",
+      "url": "https://www.reddit.com/r/affiliatedeals/comments/1ako2sp/affiliate_program_with_15_commission_selling/"
+    },
+    {
+      "id": "1aknv12",
+      "title": "Affiliate program with 15% commission - selling prescription swimming goggles",
+      "author": "lotformulas",
+      "subreddit": "AffiliateMarket",
+      "created_utc": 1707261370,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi all, thought you might be interested in this affiliate program right here:\n\n[https://agily.ch/pages/agily-affiliate-program](https://agily.ch/pages/agily-affiliate-program)\n\nIt's a Swiss brand selling swimming goggles with myopia/nearsightedness vision correction. They give 15% commission. Signing up is free, you simply get paid after each sale. Very straightforward. Detailed benefits are in the page. The program also provides images, etc that you can use for advertising.",
+      "url": "https://www.reddit.com/r/AffiliateMarket/comments/1aknv12/affiliate_program_with_15_commission_selling/"
+    },
+    {
+      "id": "1agp9vd",
+      "title": "Where can I get minced meat with 20% fat?",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1706830777,
+      "score": 1,
+      "num_comments": 10,
+      "selftext": "So basically what the title says. I need minced meat for burgers. The only butcher shop I know is Carmelo's and though I have not asked, I can see they have their minced meat already pre-minced and they just take from there when you need. So I don't think they can measure fat content.\n\nAny places that sells minced meat with 20% fat content?",
+      "url": "https://www.reddit.com/r/zurich/comments/1agp9vd/where_can_i_get_minced_meat_with_20_fat/"
+    },
+    {
+      "id": "19ebxf6",
+      "title": "When you buy an apartment in Switzerland, who owns the land? Do you own a fraction of it?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1706082763,
+      "score": 10,
+      "num_comments": 16,
+      "selftext": "Basically what the title says 😀",
+      "url": "https://www.reddit.com/r/SwissPersonalFinance/comments/19ebxf6/when_you_buy_an_apartment_in_switzerland_who_owns/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2dbpkr",
+      "body": "Well it's probably gonna be 15w if you move it outside Poland as well",
+      "author": "lotformulas",
+      "subreddit": "homelab",
+      "created_utc": 1734375060,
+      "score": 4,
+      "link_id": "t3_1hfh59c",
+      "parent_id": "t1_m2bs74h"
+    },
+    {
+      "id": "m161tqc",
+      "body": "Well, more people will be able to compete for the same apartments -> increase in demand -> increase in price",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1733733814,
+      "score": 1,
+      "link_id": "t3_1h9tu69",
+      "parent_id": "t1_m15y0x5"
+    },
+    {
+      "id": "m1614r7",
+      "body": "Thanks, but I also want to learn how to use KVM etc so I prefer to stick to debian. It's a homelab after all. I've already spent way too much time getting debian to work with ZFS on root as well so that I can take snapshots before updates etc so I don't want to change now",
+      "author": "lotformulas",
+      "subreddit": "zfs",
+      "created_utc": 1733733324,
+      "score": 1,
+      "link_id": "t3_1h94rp7",
+      "parent_id": "t1_m15xkz3"
+    },
+    {
+      "id": "m0y4gtr",
+      "body": "I am not so much against using proxmox as the host OS. Still the same question holds though. Even if I were running proxmox as the host OS, do I pass through individual disks to a VM and have the VM manage the pool? Do I have the host directly manage the pool and run the SMB server in a VM with an attached zvol? Do I run SMB directly on the host? Same questions\n\nI am against using TrueNAS because I don't see the added benefit. I just need an SMB server. I don't think TrueNAS adds much. It is also much more educational for me to learn the relevant commands than do everything from a UI.",
+      "author": "lotformulas",
+      "subreddit": "homelab",
+      "created_utc": 1733613684,
+      "score": 1,
+      "link_id": "t3_1h94n81",
+      "parent_id": "t1_m0y2ltg"
+    },
+    {
+      "id": "lyzylsm",
+      "body": "All ASAs are built on smart contracts. Most shitcoins have tax when selling",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1732581920,
+      "score": -2,
+      "link_id": "t3_1gzt33w",
+      "parent_id": "t1_lyyx9k4"
+    },
+    {
+      "id": "lyq1qsd",
+      "body": "So similar to everybody else :)",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1732445597,
+      "score": 0,
+      "link_id": "t3_1gyiftn",
+      "parent_id": "t3_1gyiftn"
+    },
+    {
+      "id": "lyi7mi0",
+      "body": "Come on, you can't seriously believe it's the staking rewards. Literally everything is pumping. ADA is pumping too. It's pumping even more actually. Did they also just released staking rewards?",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1732322433,
+      "score": 35,
+      "link_id": "t3_1gxmytg",
+      "parent_id": "t3_1gxmytg"
+    },
+    {
+      "id": "lxwwfvz",
+      "body": "For voting on quarterly decisions, you 'commit' your algos. You don't stake them. Any amount will work for that.\n\nStaking is more for verifying transactions are properly signed etc and ensuring security of the network. Thats needs 30k yes",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1732017425,
+      "score": 1,
+      "link_id": "t3_1guqvpd",
+      "parent_id": "t1_lxwu770"
+    },
+    {
+      "id": "lxwj26y",
+      "body": "You are confusing governance with staking",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1732009359,
+      "score": 3,
+      "link_id": "t3_1guqvpd",
+      "parent_id": "t1_lxwg69v"
+    },
+    {
+      "id": "lxgojk6",
+      "body": "Doubt it. The akita team will have to pay a the big price tag for listing",
+      "author": "lotformulas",
+      "subreddit": "AkitaInuASA",
+      "created_utc": 1731779196,
+      "score": 1,
+      "link_id": "t3_1grz50j",
+      "parent_id": "t1_lxfwhex"
+    },
+    {
+      "id": "lxc1fwh",
+      "body": "You will receive them on an EVM address",
+      "author": "lotformulas",
+      "subreddit": "AlgorandOfficial",
+      "created_utc": 1731706783,
+      "score": 1,
+      "link_id": "t3_1gs30jy",
+      "parent_id": "t1_lxbkt9q"
+    },
+    {
+      "id": "lx9k4v0",
+      "body": "Probably nobody cares to buy or sell the coin anymore. It's pretty much a stablecoin!\n\nIf you ask me, it's more for some algo tokens to get listed on CEX to drive some hype. Hype is not bad",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1731679578,
+      "score": -8,
+      "link_id": "t3_1grww7w",
+      "parent_id": "t3_1grww7w"
+    },
+    {
+      "id": "lx2sxm9",
+      "body": "High rates are because no one uses the chain lol",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1731587777,
+      "score": 1,
+      "link_id": "t3_1gqsi9l",
+      "parent_id": "t3_1gqsi9l"
+    },
+    {
+      "id": "lwyc1kx",
+      "body": "https://github.com/ag14774/poetry-monoranger-plugin this plugin adds workspaces, shared lockfiles, shared venv etc",
+      "author": "lotformulas",
+      "subreddit": "Python",
+      "created_utc": 1731521410,
+      "score": 5,
+      "link_id": "t3_1gqh4te",
+      "parent_id": "t1_lwxwsl3"
+    },
+    {
+      "id": "lwybk23",
+      "body": "Fair enough but because xUSD is not UDSC or USDT, how can one swap between these? I wouldn't be able to use xUSD on another chain and I wouldn't be able to send it to a CEX. You can of course have USDC/xUSD pairs to facilitate swapping but it seems there are extra steps which sort of hinder interoperability with other chains",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1731521263,
+      "score": 2,
+      "link_id": "t3_1gqguoj",
+      "parent_id": "t1_lwy4dcc"
+    },
+    {
+      "id": "lwxxng6",
+      "body": "Noob question here. This looks like a lending platform where you deposit your crypto and get liquidity with your crypto acting as collateral. What are the benefits of having xUSD? For example in other chains you can deposit your crypto and you can borrow any crypto against it e.g USDC or even borrow BTC",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1731517053,
+      "score": 3,
+      "link_id": "t3_1gqguoj",
+      "parent_id": "t3_1gqguoj"
+    },
+    {
+      "id": "lwxkton",
+      "body": "I think algo will reach 100 bajilion dollars",
+      "author": "lotformulas",
+      "subreddit": "algorand",
+      "created_utc": 1731513103,
+      "score": 1,
+      "link_id": "t3_1gpnjv2",
+      "parent_id": "t1_lwri906"
+    },
+    {
+      "id": "lwkntoi",
+      "body": "Well now I feel I need to be more active",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1731330068,
+      "score": 8,
+      "link_id": "t3_1goqy4y",
+      "parent_id": "t3_1goqy4y"
+    },
+    {
+      "id": "lve9dbp",
+      "body": "Is this similar to the functional API of pytorch?",
+      "author": "lotformulas",
+      "subreddit": "Python",
+      "created_utc": 1730747830,
+      "score": 1,
+      "link_id": "t3_1gjdq6y",
+      "parent_id": "t3_1gjdq6y"
+    },
+    {
+      "id": "lus8a5f",
+      "body": "Fair enough. Just based on my experience living in europe, I see a lot of streets have 2 lanes on each direction (4 lanes) plus 2 lanes for trams. At the minimum, I see 2 lanes for cars and 2 lanes for trams. I don't see how that would fit in Cyprus",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1730420672,
+      "score": 1,
+      "link_id": "t3_1gfntva",
+      "parent_id": "t1_luqnobk"
+    },
+    {
+      "id": "lup3u1n",
+      "body": "But streets are pretty narrow, where would they even put the tram",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1730383245,
+      "score": 1,
+      "link_id": "t3_1gfntva",
+      "parent_id": "t1_lumnpsu"
+    },
+    {
+      "id": "lultbw2",
+      "body": "Does it even make sense to have trams instead of a subway? Isn't it easier not to have to get around existing buildings and streets?",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1730329176,
+      "score": 3,
+      "link_id": "t3_1gfntva",
+      "parent_id": "t3_1gfntva"
+    },
+    {
+      "id": "luf5noq",
+      "body": "Thanks! Ok cause I see everyone in this sub buying so far OTM I thought I am doing smth wrong",
+      "author": "lotformulas",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1730238380,
+      "score": 1,
+      "link_id": "t3_1gf45gj",
+      "parent_id": "t1_lueyv0b"
+    },
+    {
+      "id": "luev24k",
+      "body": "How do you guys decide the strike price. I bought one call at 82 strike this morning. Is it better to buy so far out the money?",
+      "author": "lotformulas",
+      "subreddit": "wallstreetbets",
+      "created_utc": 1730235134,
+      "score": 6,
+      "link_id": "t3_1gf45gj",
+      "parent_id": "t1_luenh2z"
+    },
+    {
+      "id": "lucr5gp",
+      "body": "Yes I hope you are better. I was mostly joking because you got approved and yet you are here :D",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730212186,
+      "score": 1,
+      "link_id": "t3_1geikee",
+      "parent_id": "t1_lubhhj7"
+    },
+    {
+      "id": "lubd5ln",
+      "body": "Wow are you in heaven right now? How is it there?",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1730187828,
+      "score": 1,
+      "link_id": "t3_1geikee",
+      "parent_id": "t1_lub05td"
+    },
+    {
+      "id": "ltw3j8u",
+      "body": "Inefficiency",
+      "author": "lotformulas",
+      "subreddit": "AskReddit",
+      "created_utc": 1729968594,
+      "score": 1,
+      "link_id": "t3_1gcn18e",
+      "parent_id": "t3_1gcn18e"
+    },
+    {
+      "id": "ltegv1m",
+      "body": "Can't you just reduce it to once a day? You don't have to stop completely. Also try holding your penis less tightly when masturbating",
+      "author": "lotformulas",
+      "subreddit": "AskDocs",
+      "created_utc": 1729715504,
+      "score": 1,
+      "link_id": "t3_1gaj6zv",
+      "parent_id": "t1_lte589i"
+    },
+    {
+      "id": "ltbfi89",
+      "body": "Ok but props to the guy for studying them. Nothing wrong with using his name no? Why does it matter that he is male",
+      "author": "lotformulas",
+      "subreddit": "biology",
+      "created_utc": 1729677311,
+      "score": 27,
+      "link_id": "t3_1ga4xwo",
+      "parent_id": "t1_ltbejzf"
+    },
+    {
+      "id": "lsz3ww2",
+      "body": "Donate to this guy 🙏",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1729497825,
+      "score": 1,
+      "link_id": "t3_1g7xflh",
+      "parent_id": "t1_lstzxfg"
+    },
+    {
+      "id": "lswor52",
+      "body": "Oh yes because we all know that cypriot companies pay more than foreign",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1729459587,
+      "score": 1,
+      "link_id": "t3_1g85us5",
+      "parent_id": "t1_lswg3tv"
+    },
+    {
+      "id": "lspwn4e",
+      "body": "Who am i doubt the doctor of dong",
+      "author": "lotformulas",
+      "subreddit": "AskDocs",
+      "created_utc": 1729361157,
+      "score": 28,
+      "link_id": "t3_1g7bsq7",
+      "parent_id": "t1_lspsr7c"
+    },
+    {
+      "id": "ls0cwyi",
+      "body": "Dotted bicycle lane with no traffic lights -> block the bicycle lane before turning\nNo marked bicycle lane -> block the imaginary lane when turning\nDotted bicycle lane with traffic lights -> do not block the lane\n\nThat's how I learnt it",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1728981032,
+      "score": 1,
+      "link_id": "t3_1g3oi0z",
+      "parent_id": "t3_1g3oi0z"
+    },
+    {
+      "id": "lrpoy4z",
+      "body": "Hmm no hole. I couldn't wiggle it off but I am also scared I will break it if I put too much pressure",
+      "author": "lotformulas",
+      "subreddit": "Plumbing",
+      "created_utc": 1728824555,
+      "score": 1,
+      "link_id": "t3_1g2n2m1",
+      "parent_id": "t1_lrpbhpj"
+    },
+    {
+      "id": "lqxndac",
+      "body": "So whats the solution",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728393187,
+      "score": 1,
+      "link_id": "t3_1fyy63b",
+      "parent_id": "t1_lqxhyda"
+    },
+    {
+      "id": "ln26mdn",
+      "body": "I think the butt sniffing approach is more efficient and breaks the ice much quicker",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1726306061,
+      "score": 17,
+      "link_id": "t3_1fg6ido",
+      "parent_id": "t1_ln00vfl"
+    },
+    {
+      "id": "lmxjadk",
+      "body": "It's a brishitty as far as I'm concerned",
+      "author": "lotformulas",
+      "subreddit": "clevercomebacks",
+      "created_utc": 1726236749,
+      "score": 1,
+      "link_id": "t3_1fft4xl",
+      "parent_id": "t1_lmx23f3"
+    },
+    {
+      "id": "lm9a32t",
+      "body": "You know that animals get cancer right?",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725878852,
+      "score": 6,
+      "link_id": "t3_1fcm1yc",
+      "parent_id": "t1_lm99w6q"
+    },
+    {
+      "id": "lm9a1bu",
+      "body": "You think healthy lifestyle is the solution to all diseases?",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725878824,
+      "score": 2,
+      "link_id": "t3_1fcm1yc",
+      "parent_id": "t1_lm99lff"
+    },
+    {
+      "id": "lm99sxz",
+      "body": "Don't know the answer to your question as I am not living in Cyprus anymore but sorry you are dealing with idiots in this post :)",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725878688,
+      "score": 5,
+      "link_id": "t3_1fcm1yc",
+      "parent_id": "t3_1fcm1yc"
+    },
+    {
+      "id": "lm99p50",
+      "body": "Yes because healthy lifestyle is all that is needed for someone (human or pet) to be healthy. One apple a day keeps the cancer away! /s",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725878627,
+      "score": 6,
+      "link_id": "t3_1fcm1yc",
+      "parent_id": "t1_lm98a7z"
+    },
+    {
+      "id": "lm99iuq",
+      "body": "What is your argument even? I don't even see what you are trying to say. There was no comparison of humans vs pets but rather a comparison of insurances",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725878524,
+      "score": 5,
+      "link_id": "t3_1fcm1yc",
+      "parent_id": "t1_lm98xau"
+    },
+    {
+      "id": "llu1rkf",
+      "body": "So what happened in the end?",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1725647197,
+      "score": 1,
+      "link_id": "t3_1f4skix",
+      "parent_id": "t3_1f4skix"
+    },
+    {
+      "id": "llu1g8x",
+      "body": "Can confirm. His wife's salad is awesome",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1725647095,
+      "score": 13,
+      "link_id": "t3_1fajjx9",
+      "parent_id": "t1_lltv9nc"
+    },
+    {
+      "id": "llu14o6",
+      "body": "Ok I like your last point about opportunities for smaller businesses. I did not think about that",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725646993,
+      "score": 1,
+      "link_id": "t3_1fa7e10",
+      "parent_id": "t1_lltlaro"
+    },
+    {
+      "id": "lltk5nv",
+      "body": "Surely though if you do that, some employees would be fired? You don't need as many employees if you don't need the night shifts",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725641572,
+      "score": 1,
+      "link_id": "t3_1fa7e10",
+      "parent_id": "t1_llsd8c7"
+    },
+    {
+      "id": "lllr9fo",
+      "body": "I believe it does include audiobooks. Someone read the study and said they included audiobooks",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1725529344,
+      "score": 2,
+      "link_id": "t3_1f9h1x5",
+      "parent_id": "t1_llll9b3"
+    },
+    {
+      "id": "llj4c4g",
+      "body": "I would not repot it at this phase honestly. It's too weak and it won't survive the repotting IMO. Let it get better first. Also make sure to water with distilled water. This is important",
+      "author": "lotformulas",
+      "subreddit": "VenusFlyTraps",
+      "created_utc": 1725485110,
+      "score": 4,
+      "link_id": "t3_1f946x9",
+      "parent_id": "t1_llj3z5l"
+    },
+    {
+      "id": "llj3ghk",
+      "body": "Water and a bit of sun a day. 1h of direct sun every day for 3-4 days. Then increase to 3h a day for a few days. Slowly increase until you get to full day outside. When it's not outside, keep it near a window where sunshine can go in.\n\nAlso make sure he has the right soil",
+      "author": "lotformulas",
+      "subreddit": "VenusFlyTraps",
+      "created_utc": 1725484743,
+      "score": 2,
+      "link_id": "t3_1f946x9",
+      "parent_id": "t3_1f946x9"
+    },
+    {
+      "id": "llhkr34",
+      "body": "How much you make bro?",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1725466940,
+      "score": 3,
+      "link_id": "t3_1f8p3s7",
+      "parent_id": "t1_llh0htl"
+    },
+    {
+      "id": "llh3gp0",
+      "body": "Please elaborate. How do you do that?",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1725461353,
+      "score": 1,
+      "link_id": "t3_1f8p3s7",
+      "parent_id": "t1_llgyzt2"
+    },
+    {
+      "id": "ll1mdlr",
+      "body": "unless you are a drug dealer or smth",
+      "author": "lotformulas",
+      "subreddit": "geneva",
+      "created_utc": 1725223189,
+      "score": 1,
+      "link_id": "t3_1f5ul0i",
+      "parent_id": "t1_ll1m91l"
+    },
+    {
+      "id": "ll1m91l",
+      "body": "Thank you. Workers outside don't get enough appreciation",
+      "author": "lotformulas",
+      "subreddit": "geneva",
+      "created_utc": 1725223147,
+      "score": 2,
+      "link_id": "t3_1f5ul0i",
+      "parent_id": "t1_ll0mh5j"
+    },
+    {
+      "id": "lko0ewm",
+      "body": "Keep us posted please. All the best",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1725023383,
+      "score": 1,
+      "link_id": "t3_1f4skix",
+      "parent_id": "t3_1f4skix"
+    },
+    {
+      "id": "lkk2yfm",
+      "body": "Lol the guy actually speaks german and he just doesn't understand swiss german. Another example of how people jump to conclusions so easily",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724961269,
+      "score": 2,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t1_lkj07na"
+    },
+    {
+      "id": "lkii0fg",
+      "body": "The rude tone is probably the bad part. Clearly machines malfunction like in this case. Therefore: be polite.",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724943875,
+      "score": 6,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t1_lkigkkx"
+    },
+    {
+      "id": "lkigs9c",
+      "body": "Sure, pay the admin fee OP. Thanks for the correction",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724943496,
+      "score": 4,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t1_lkifb5n"
+    },
+    {
+      "id": "lkigk35",
+      "body": "We don't know OP's personal situation. Possible they just moved here. Possible they are temporarily here and not worth the effort to learn it. Maybe they are just bad at learning languages. Maybe maybe maybe\n\nMaybe locals can be a bit more patient. Locals in other countries are not as easily 'fed up' as here",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724943428,
+      "score": 4,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t1_lkif0pu"
+    },
+    {
+      "id": "lkiesp3",
+      "body": "Also I would pay the fine and then send an email to Lidl corporate and explain what happened and apologise",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724942886,
+      "score": 4,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t1_lkie8xa"
+    },
+    {
+      "id": "lkie8xa",
+      "body": "Everyone is being so harsh in here. OP made a mistake ffs. It's a MISTAKE. It can happen to anyone. Gosh swiss people act as if they are perfect. It wouldn't hurt to be more understanding. And as a general rule: if you wouldn't say something in a person's face, don't say it behind your little keyboards\n\nSorry this happened to you OP",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724942718,
+      "score": 9,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t3_1f43o8y"
+    },
+    {
+      "id": "lkicyvw",
+      "body": "I mean they banned them so clearly they don't care abt the lost customer",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1724942324,
+      "score": 2,
+      "link_id": "t3_1f43o8y",
+      "parent_id": "t1_lkibqa9"
+    },
+    {
+      "id": "lkd1p8n",
+      "body": "Thanks! I just can't seem to find peat moss (maybe it's banned). I do find sphagnum moss and perlite but I read I would need to repot more frequently with just sphagnum and perlite. Ideally, I only want to repot once a year",
+      "author": "lotformulas",
+      "subreddit": "VenusFlyTraps",
+      "created_utc": 1724861692,
+      "score": 1,
+      "link_id": "t3_1f38fp1",
+      "parent_id": "t1_lkcki1d"
+    },
+    {
+      "id": "lkbr0qm",
+      "body": "No one knows? :(",
+      "author": "lotformulas",
+      "subreddit": "SavageGarden",
+      "created_utc": 1724845769,
+      "score": 1,
+      "link_id": "t3_1f2ea77",
+      "parent_id": "t3_1f2ea77"
+    },
+    {
+      "id": "lkbc5ea",
+      "body": "Ευχαριστω φιλε μου",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1724837650,
+      "score": 1,
+      "link_id": "t3_1f2g40f",
+      "parent_id": "t1_lkba3i4"
+    },
+    {
+      "id": "lkb89da",
+      "body": "So have we committed any crimes or not? I'd generally be interested in learning your perspective",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1724834985,
+      "score": 2,
+      "link_id": "t3_1f2g40f",
+      "parent_id": "t1_lk8y4ki"
+    },
+    {
+      "id": "lk74tso",
+      "body": "It is awesome. Best place in Switzerland. Lemme know if you need a good weed dealer, I know a guy",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1724776351,
+      "score": 1,
+      "link_id": "t3_1f2hbsp",
+      "parent_id": "t3_1f2hbsp"
+    },
+    {
+      "id": "lk643q9",
+      "body": "I just asked a question don't downvote me!",
+      "author": "lotformulas",
+      "subreddit": "AskDocs",
+      "created_utc": 1724764084,
+      "score": 5,
+      "link_id": "t3_1f26vcu",
+      "parent_id": "t1_lk5bgdy"
+    },
+    {
+      "id": "lk5bgdy",
+      "body": "So this is not a micropenis?",
+      "author": "lotformulas",
+      "subreddit": "AskDocs",
+      "created_utc": 1724749494,
+      "score": -55,
+      "link_id": "t3_1f26vcu",
+      "parent_id": "t1_lk55i3k"
+    },
+    {
+      "id": "lk084h5",
+      "body": "I mean that's only assuming the difficulty of surpassing 1k in the countries mentioned (correcting for living expenses) is equal to Cyprus. So I think that plays a role. Difficulty surpassing 1k is probably not independent of country",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1724676856,
+      "score": 15,
+      "link_id": "t3_1f1n36h",
+      "parent_id": "t1_lk078eb"
+    },
+    {
+      "id": "liw8cmo",
+      "body": "Thats actually the very well-known swimming long-cat",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1724084586,
+      "score": 4,
+      "link_id": "t3_1evz19n",
+      "parent_id": "t1_liuvgkg"
+    },
+    {
+      "id": "li8c0br",
+      "body": "Nothing todo with critical thinking. You think searching a law is critical thinking? Search engines often show reddit posts when we search for something. Just because it might already exist on the internet it doesn't mean we should not rewrite it. Rewriting it just improves the overall experience for the next person who is going to search for it and increases confidence that what they have found is right. It's good to see the same thing written differently since different people parse information differently. Of course there is a limit but it's not like the person asked 'how to print() something in Python?' Or how to save a word file. He asked something more specific and if someone makes the legal language easier to read for the next person, it won't hurt",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723725788,
+      "score": 0,
+      "link_id": "t3_1erzfwp",
+      "parent_id": "t1_li87jad"
+    },
+    {
+      "id": "li552e4",
+      "body": "Thank you for your service ser. I'm glad we have people like you giving hints instead of providing genuine help. God forbid we help someone",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723671967,
+      "score": 0,
+      "link_id": "t3_1erzfwp",
+      "parent_id": "t1_li389dr"
+    },
+    {
+      "id": "li2f9ii",
+      "body": "I see you also asked some questions before on taxes on real estate in Italy. Have you considered googling it as well?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723640394,
+      "score": 4,
+      "link_id": "t3_1erzfwp",
+      "parent_id": "t1_li2ehfy"
+    },
+    {
+      "id": "li2ezys",
+      "body": "Aha, you could have answered to the OP to 'google it' though right? Why give any info at all?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723640294,
+      "score": 3,
+      "link_id": "t3_1erzfwp",
+      "parent_id": "t1_li2ehfy"
+    },
+    {
+      "id": "li2dew2",
+      "body": "So what does the swiss law say",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1723639682,
+      "score": 2,
+      "link_id": "t3_1erzfwp",
+      "parent_id": "t1_li2d4ve"
+    },
+    {
+      "id": "leigmv8",
+      "body": "If no left road was present, so only straight and right was possible, going straight would require you to signal left, and going right would not require any signaling",
+      "author": "lotformulas",
+      "subreddit": "germany",
+      "created_utc": 1721721663,
+      "score": 1,
+      "link_id": "t3_1e99qi6",
+      "parent_id": "t3_1e99qi6"
+    },
+    {
+      "id": "ldrsycq",
+      "body": "Thank you file mou. Happy Cake day",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721310924,
+      "score": 1,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldqoyn9"
+    },
+    {
+      "id": "ldn4m5q",
+      "body": "Efxaristw file mou. Akoma mia erwtisi an mporeis..sti mikri pithanotita pou o developer den mporei na teleiwsei to ktirio logo xreokopias, ti ginete?",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721237844,
+      "score": 1,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldgmgk5"
+    },
+    {
+      "id": "ldn46y3",
+      "body": "Ευχαριστώ φιλε μου",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721237708,
+      "score": 1,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldlnufv"
+    },
+    {
+      "id": "ldlmvwn",
+      "body": "Ναι έχουν γίνει",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721219480,
+      "score": 1,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldll8tv"
+    },
+    {
+      "id": "ldgydeq",
+      "body": "Nai an itan etsi omws emporousa na eplerwna olokliro to diamerisma apeuthias apo tin arxi. Sinithws ginete stadiaka gia na miwthei to risko gia na kserw oti ta lefta mou pienoun ekei pou eplerwsa",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721147030,
+      "score": 2,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldgtvxt"
+    },
+    {
+      "id": "ldgkyax",
+      "body": "File mou euxaristw se polla! Ara gia na katalavw, an exw simvoleo pou leei plirwnw me tin enarksi tis plakas isogiou, kai mou leei o developer ksekinw twra tin plaka isogiou ara plerwse, alla kolones den eshei jame sto isogio, simenei oti mporw na tou pw oxi akoma en eksekinise i plaka? I nomizeis en mporw na kamw kati tethkio?",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721142653,
+      "score": 2,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldgii8f"
+    },
+    {
+      "id": "ldgc19e",
+      "body": "Αν εχω καταλάβει σωστά ομως 'πλακα ισογείου' ειναι η οροφή του ισογείου. Αρα λογικα πρωτα γίνονται οι κολώνες ισογείου και μετα η πλάκα ισογείου.\n\nΗ απορία μου ομως είναι αν καποιος ξερει αν σε αυτα τα συμβόλαια 'έναρξη' συμπεριλαμβάνει οτι οι κολώνες θα γίνουν σε αυτο το στάδιο ή αν θεωρείται οτι με την 'εναρξη' της πλάκας, οι κολώνες έχουν ήδη τελειώσει",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1721139604,
+      "score": 1,
+      "link_id": "t3_1e4p9m3",
+      "parent_id": "t1_ldgaprs"
+    },
+    {
+      "id": "ld0pha9",
+      "body": "I posted this after the mole had already died. It's a joke. I guess you are Swiss",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1720892827,
+      "score": -1,
+      "link_id": "t3_1e1pbcd",
+      "parent_id": "t1_ld021p3"
+    },
+    {
+      "id": "lcznxlc",
+      "body": "Google selling minced meat now? Damn, the tech industry is really failing",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1720878965,
+      "score": -1,
+      "link_id": "t3_1e1pbcd",
+      "parent_id": "t1_lcwe1v1"
+    },
+    {
+      "id": "la9c55x",
+      "body": "Someone sane finally",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1719346571,
+      "score": 0,
+      "link_id": "t3_1dof7dr",
+      "parent_id": "t1_la9bl6u"
+    },
+    {
+      "id": "la6neek",
+      "body": "Same issue. I just created an account and I am getting constant redirections",
+      "author": "lotformulas",
+      "subreddit": "Revolut",
+      "created_utc": 1719309842,
+      "score": 1,
+      "link_id": "t3_1comc27",
+      "parent_id": "t3_1comc27"
+    },
+    {
+      "id": "l9l2n5d",
+      "body": "I believe the battle you are referring to is the Larnaca airport battle which was not against Turks",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1718955561,
+      "score": 1,
+      "link_id": "t3_1djnrpb",
+      "parent_id": "t1_l9fv3rs"
+    },
+    {
+      "id": "l9l2cbp",
+      "body": "Uhmm, wasn't the war in 1974?",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1718955341,
+      "score": 1,
+      "link_id": "t3_1djnrpb",
+      "parent_id": "t1_l9fv3rs"
+    },
+    {
+      "id": "l97rffz",
+      "body": "Can you DM me what you wrote?",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1718745238,
+      "score": 5,
+      "link_id": "t3_1diuz68",
+      "parent_id": "t1_l96pap3"
+    },
+    {
+      "id": "l3llxb8",
+      "body": "Thank you for sharing. Your videos are awesome!",
+      "author": "lotformulas",
+      "subreddit": "cyprus",
+      "created_utc": 1715448725,
+      "score": 2,
+      "link_id": "t3_1cpcgzg",
+      "parent_id": "t3_1cpcgzg"
+    },
+    {
+      "id": "l1swi55",
+      "body": "Try an argentinian bank. I think they give smth like 80% for your pesos",
+      "author": "lotformulas",
+      "subreddit": "SwissFIRE",
+      "created_utc": 1714406273,
+      "score": 1,
+      "link_id": "t3_1cfm1mw",
+      "parent_id": "t3_1cfm1mw"
+    },
+    {
+      "id": "l1nw8ku",
+      "body": "I use Agily goggles. It's a swiss brand that exclusively sells [swimming goggles for myopia](https://agily.ch/products/av1-prescription-swimming-goggles). I feel they are more specialized than Speedo and others so I prefer them. I've been happy with them so far :p",
+      "author": "lotformulas",
+      "subreddit": "Swimming",
+      "created_utc": 1714323482,
+      "score": 1,
+      "link_id": "t3_1b4cwua",
+      "parent_id": "t3_1b4cwua"
+    },
+    {
+      "id": "l1mtv8t",
+      "body": "Does your country not offer disability insurance or support for people who are unable to work due to disabilities? Most countries in europe offer this",
+      "author": "lotformulas",
+      "subreddit": "solana",
+      "created_utc": 1714308369,
+      "score": 1,
+      "link_id": "t3_1cf4mhn",
+      "parent_id": "t1_l1mq6x2"
+    },
+    {
+      "id": "l1mtqhm",
+      "body": "I live in Europe yes. There is disability insurance almost everywhere",
+      "author": "lotformulas",
+      "subreddit": "solana",
+      "created_utc": 1714308305,
+      "score": 1,
+      "link_id": "t3_1cf4mhn",
+      "parent_id": "t1_l1mq5zw"
+    },
+    {
+      "id": "l1mpkb1",
+      "body": "I find it hard to believe european governments would leave you homeless. Where in europe are you?",
+      "author": "lotformulas",
+      "subreddit": "solana",
+      "created_utc": 1714306131,
+      "score": 2,
+      "link_id": "t3_1cf4mhn",
+      "parent_id": "t3_1cf4mhn"
+    },
+    {
+      "id": "l1hithm",
+      "body": "Shh he's an american tourist, don't tell him that. Let him tip",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1714216834,
+      "score": 1,
+      "link_id": "t3_1cdgsr4",
+      "parent_id": "t1_l1bwayl"
+    },
+    {
+      "id": "l1f764v",
+      "body": "I bought mine online from Agily. It's a swiss brand that sells only [swimming goggles for myopia](https://agily.ch/products/av1-prescription-swimming-goggles)",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1714171399,
+      "score": 1,
+      "link_id": "t3_1cdyuo1",
+      "parent_id": "t3_1cdyuo1"
+    },
+    {
+      "id": "kzf9fh7",
+      "body": "This guy laws",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1713035127,
+      "score": 1,
+      "link_id": "t3_1c313xc",
+      "parent_id": "t1_kzdyvkt"
+    },
+    {
+      "id": "kyn8shy",
+      "body": "Unrelated q but why is she breaking up?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1712596834,
+      "score": 1,
+      "link_id": "t3_1bydx4w",
+      "parent_id": "t3_1bydx4w"
+    },
+    {
+      "id": "ksnyedl",
+      "body": "Did you pass the second time?",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1709191597,
+      "score": 1,
+      "link_id": "t3_1aqtvmz",
+      "parent_id": "t3_1aqtvmz"
+    },
+    {
+      "id": "kpjvcd9",
+      "body": "Except that Vision Pro comes with Disney+ preinstalled not Paramount+. This sub is full of people that are dreaming",
+      "author": "lotformulas",
+      "subreddit": "paramountglobal",
+      "created_utc": 1707431130,
+      "score": 3,
+      "link_id": "t3_1alxo3n",
+      "parent_id": "t3_1alxo3n"
+    },
+    {
+      "id": "kpec9s3",
+      "body": "25$",
+      "author": "lotformulas",
+      "subreddit": "Affiliatemarketing",
+      "created_utc": 1707344435,
+      "score": 2,
+      "link_id": "t3_1al411u",
+      "parent_id": "t3_1al411u"
+    },
+    {
+      "id": "kp94td2",
+      "body": "**Affiliate program with 15% commission - selling prescription swimming goggles**\n\nHi all, thought you might be interested in this affiliate program right here:\n\n[https://agily.ch/pages/agily-affiliate-program](https://agily.ch/pages/agily-affiliate-program)\n\nIt's a Swiss brand selling swimming goggles with myopia/nearsightedness vision correction. They give 15% commission. Signing up is free, you simply get paid after each sale. Very straightforward. Detailed benefits are in the page. **The program also provides images, etc that you can use for advertising.**",
+      "author": "lotformulas",
+      "subreddit": "Affiliatemarketing",
+      "created_utc": 1707262233,
+      "score": 1,
+      "link_id": "t3_17wkhxn",
+      "parent_id": "t3_17wkhxn"
+    },
+    {
+      "id": "kopn150",
+      "body": "If you have stocks in public companies you can withdraw money on margin out of the account. I did this previously on IBKR. Simply use the stocks as a line of credit",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1706947399,
+      "score": 1,
+      "link_id": "t3_1ah8fkt",
+      "parent_id": "t1_kopl92x"
+    },
+    {
+      "id": "kon1ps6",
+      "body": "At least we are not broke like germans",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706906116,
+      "score": 2,
+      "link_id": "t3_1ahb13c",
+      "parent_id": "t3_1ahb13c"
+    },
+    {
+      "id": "komofdd",
+      "body": "😅 true but yeah I want the attention to detail",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1706901750,
+      "score": 1,
+      "link_id": "t3_1agp9vd",
+      "parent_id": "t1_kokwgg9"
+    },
+    {
+      "id": "kokq0yy",
+      "body": "Don't know rob sorry",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1706874423,
+      "score": 1,
+      "link_id": "t3_1agp9vd",
+      "parent_id": "t1_kokj8e6"
+    },
+    {
+      "id": "kok3rtb",
+      "body": "How is this in german?",
+      "author": "lotformulas",
+      "subreddit": "zurich",
+      "created_utc": 1706858370,
+      "score": 2,
+      "link_id": "t3_1agp9vd",
+      "parent_id": "t1_kojbej2"
+    },
+    {
+      "id": "kk1079i",
+      "body": "Some of us actually enjoy it though, with/without exams",
+      "author": "lotformulas",
+      "subreddit": "ethz",
+      "created_utc": 1706485742,
+      "score": 6,
+      "link_id": "t3_1adfyqo",
+      "parent_id": "t3_1adfyqo"
+    },
+    {
+      "id": "kjkx70x",
+      "body": "It's germany not afghanistan",
+      "author": "lotformulas",
+      "subreddit": "askswitzerland",
+      "created_utc": 1706226186,
+      "score": 3,
+      "link_id": "t3_19fhf11",
+      "parent_id": "t1_kjkf54t"
+    },
+    {
+      "id": "kjfc527",
+      "body": "Then who owns it?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1706140239,
+      "score": 1,
+      "link_id": "t3_19ebxf6",
+      "parent_id": "t1_kjen66f"
+    },
+    {
+      "id": "kjem7ft",
+      "body": "Sorry but I don't get it. You say that as a landlord you can't charge enough rent to cover your expenses. Which means this is not a good investment therefore landlord would not buy apartments for investments. Then who is buying apartments to drive up the price? Could you clarify the thought process?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1706131291,
+      "score": 3,
+      "link_id": "t3_19edqfx",
+      "parent_id": "t1_kjcnqxz"
+    },
+    {
+      "id": "kjeib25",
+      "body": "I see..but then who owns the balconies?",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1706130020,
+      "score": 1,
+      "link_id": "t3_19ebxf6",
+      "parent_id": "t1_kjbx90o"
+    },
+    {
+      "id": "kiq4vef",
+      "body": "You don't pay income tax and no you cannot deduct your profits from the taxes you pay. You will pay tax when you retire and withdraw the money from the 3a",
+      "author": "lotformulas",
+      "subreddit": "SwissPersonalFinance",
+      "created_utc": 1705749601,
+      "score": 1,
+      "link_id": "t3_19b9hbn",
+      "parent_id": "t3_19b9hbn"
+    },
+    {
+      "id": "kipjzkp",
+      "body": "You sure this doesn't lead to a sex thing later on and you are not disguising it to avoid the creeps?",
+      "author": "lotformulas",
+      "subreddit": "Switzerland",
+      "created_utc": 1705734163,
+      "score": 2,
+      "link_id": "t3_19aodfa",
+      "parent_id": "t3_19aodfa"
+    }
+  ]
+}

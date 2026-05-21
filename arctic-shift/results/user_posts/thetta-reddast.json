@@ -1,0 +1,386 @@
+{
+  "username": "thetta-reddast",
+  "posts": [],
+  "comments": [
+    {
+      "id": "lzjym7o",
+      "body": "Only way you can get issues is if there are problems with an update. But in NixOS is super easy to just reboot, select the configuration before the update, and that’s it. The moment you have one stable configuration you can always revert to it in case of problems (however unlikely they will be)",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1732885623,
+      "score": 1,
+      "link_id": "t3_1h2jren",
+      "parent_id": "t1_lzjoiry"
+    },
+    {
+      "id": "ly02q9y",
+      "body": "Just to mention it for the people that won’t look at the Readme: it also has a configuration for evil bindings",
+      "author": "thetta-reddast",
+      "subreddit": "emacs",
+      "created_utc": 1732054467,
+      "score": 6,
+      "link_id": "t3_1guzbv7",
+      "parent_id": "t3_1guzbv7"
+    },
+    {
+      "id": "lx5tufz",
+      "body": "No, just needs the op CLI",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1731623029,
+      "score": 2,
+      "link_id": "t3_1gozxkg",
+      "parent_id": "t1_lwp1vy3"
+    },
+    {
+      "id": "lx5tr37",
+      "body": "Possibly quite easy, I extended this to google secret manager and it took a couple hours at most",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1731623000,
+      "score": 2,
+      "link_id": "t3_1gozxkg",
+      "parent_id": "t1_lwpjxxy"
+    },
+    {
+      "id": "lfpezdk",
+      "body": "Poi c’è la Svezia dove acqua e caffe sono gratis e illimitati…",
+      "author": "thetta-reddast",
+      "subreddit": "Italia",
+      "created_utc": 1722370839,
+      "score": 4,
+      "link_id": "t3_1efolo8",
+      "parent_id": "t1_lfn2vqk"
+    },
+    {
+      "id": "lf34rwj",
+      "body": "How did you solve it in the end? I guess chroot is also an option then",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1722024422,
+      "score": 1,
+      "link_id": "t3_1ecqiq7",
+      "parent_id": "t1_lf2h7di"
+    },
+    {
+      "id": "lexq6hy",
+      "body": "I’ve been using kanata for a while, I can post my config in a bit",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1721942606,
+      "score": 3,
+      "link_id": "t3_1ec2onr",
+      "parent_id": "t3_1ec2onr"
+    },
+    {
+      "id": "lcjl9ch",
+      "body": "Is there a iOS alternative, besides using the browser?",
+      "author": "thetta-reddast",
+      "subreddit": "Piracy",
+      "created_utc": 1720633505,
+      "score": 5,
+      "link_id": "t3_1e00whd",
+      "parent_id": "t1_lcjg5yy"
+    },
+    {
+      "id": "lc8hdwp",
+      "body": "You won’t have a great time but yeah should be doable. You can do group work on zoom, classes don’t require your attendance. You just need to be there for the exams",
+      "author": "thetta-reddast",
+      "subreddit": "ethz",
+      "created_utc": 1720465481,
+      "score": 24,
+      "link_id": "t3_1dygdy2",
+      "parent_id": "t3_1dygdy2"
+    },
+    {
+      "id": "l7zeqdf",
+      "body": "I downvotes sono di Salvini",
+      "author": "thetta-reddast",
+      "subreddit": "Italia",
+      "created_utc": 1718037012,
+      "score": 3,
+      "link_id": "t3_1dc1zk8",
+      "parent_id": "t1_l7vij6x"
+    },
+    {
+      "id": "l7z4ahg",
+      "body": "> Castratori di gazzelle\nTieniti sto upvote",
+      "author": "thetta-reddast",
+      "subreddit": "Italia",
+      "created_utc": 1718033485,
+      "score": 5,
+      "link_id": "t3_1dclyaj",
+      "parent_id": "t1_l7z2z4p"
+    },
+    {
+      "id": "l7ug2kr",
+      "body": "The pgp key is used by you (the user) to encrypt and decrypt the secrets when you need to modify them or add new ones. The machine on the other hand needs to decrypt the secrets when it switches to a new configuration, or when booting. The machine uses its own ssh key (which it has in most cases anyway) or an age key that you specify in the sops config. I’m not sure you can get it to work only using the gpg key from the yubikey. In that case you would also have problems if e.g. the machine reboots while your yubikey is unplugged.\n\nA benefit that using ssh keys gives you is that if you have many machines you can give access to different secrets to different machines. If you used only your pgp key, then every machine would have all decrypted secrets under /run/secrets",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1717955753,
+      "score": 2,
+      "link_id": "t3_1dbsx17",
+      "parent_id": "t1_l7ucsta"
+    },
+    {
+      "id": "l7tl7ij",
+      "body": "Misterio77 has this setup, I took his config and adapted it to my needs, works with sops and yubikey\n\nhttps://github.com/Misterio77/nix-config",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1717944706,
+      "score": 3,
+      "link_id": "t3_1dbsx17",
+      "parent_id": "t3_1dbsx17"
+    },
+    {
+      "id": "l7jwqrd",
+      "body": "Funny that they still haven’t figured this out",
+      "author": "thetta-reddast",
+      "subreddit": "Switzerland",
+      "created_utc": 1717779101,
+      "score": 3,
+      "link_id": "t3_1da90cs",
+      "parent_id": "t1_l7j05gk"
+    },
+    {
+      "id": "l7jpq8m",
+      "body": "Ho letto trattore erotico e effettivamente ci sta anche",
+      "author": "thetta-reddast",
+      "subreddit": "Italia",
+      "created_utc": 1717776739,
+      "score": 8,
+      "link_id": "t3_1da5mnc",
+      "parent_id": "t1_l7iicgj"
+    },
+    {
+      "id": "l7hs935",
+      "body": "Eh scommetto che lui non ha il certificato per usare il pacchetto office…",
+      "author": "thetta-reddast",
+      "subreddit": "Italia",
+      "created_utc": 1717743142,
+      "score": 1,
+      "link_id": "t3_1d9kvuk",
+      "parent_id": "t1_l7e0j93"
+    },
+    {
+      "id": "l7euen6",
+      "body": "I didn’t know this was actually a proposed thing. Would be amazing",
+      "author": "thetta-reddast",
+      "subreddit": "zurich",
+      "created_utc": 1717699145,
+      "score": 2,
+      "link_id": "t3_1d9blsx",
+      "parent_id": "t1_l7cvinh"
+    },
+    {
+      "id": "l66wjg8",
+      "body": "But it’s mostly proprietary apps, right? Is it easier for open source stuff?",
+      "author": "thetta-reddast",
+      "subreddit": "thinkpad",
+      "created_utc": 1716998641,
+      "score": 1,
+      "link_id": "t3_1cxcdao",
+      "parent_id": "t1_l5410b6"
+    },
+    {
+      "id": "l63c79p",
+      "body": "Yes, thanks for adding this, this has been my experience as well. I wasn’t very clear in my reply",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1716935992,
+      "score": 11,
+      "link_id": "t3_1d2s6r1",
+      "parent_id": "t1_l6352ft"
+    },
+    {
+      "id": "l63bhmm",
+      "body": "> Interesting, was that to simply experiment ?  \nWell, yes and no? I was a student with full autonomy on how to spend my time and had no problem using Guix as my daily driver. It meant that for some course I had to figure out how to package some weird python library etc, but it was worth the learning experience to me  \n> In which dimensions is Hurd a different type of architecture than the Linux kernel ?\n\nThis is long to explain, and I'm not the most qualified to reply. If you have 6 minutes to spare, go watch this: [https://www.youtube.com/watch?v=yVcd7RbulLU](https://www.youtube.com/watch?v=yVcd7RbulLU)  \nLinux is a monolitic kernel, which means that everything is run in \"kernel space\". Kernel space is a privileged execution space, compared with \"user space\" where your programs like your browser run.   \nHurd implements a microkernel, which is a more modular approach. To go more in depth on this you would need to take a Operating Systems course.  \n> Does that make it GNU/Linux incompatible ?  \nHere also, long story. The GNU project started to write an operating system that was fully free. They wrote more or less everything, but they didn't have a kernel. Linux (which is not a GNU project) was started more or less when Hurd was started, but it got much more traction. That is why we say GNU + Linux, Linux is the Kernel, GNU is all the utilities on top (e.g. bash, ls, nano, emacs, etc...). I another universe where Hurd was the kernel to get more traction, our systems would just be called GNU, since they would be a collection of GNU programs + a GNU kernel.\n\n> Is it its only purpose, maybe ?  \nNo, not at all. Hurd has afaik 1 full time developer right now. There is no way you can make a kernel and support wildly different hardware without a huge amount of manpower. Heck, even with Linux and a new laptop, the support can be hit and miss. Remember that the kernel is the part of your system that is talking directly to the hardware, someone has to do the dirty work of writing the drivers to support the hardware. No one is doing that work on Hurd right now.  \n> If so, is a virtual machine the way you used Guix when you experienced it personally ?  \nNo, I was Guix on bare metal on a Thinkpad t580 (which was \\~5 years old in 2023 -> it had 5 years of time in which Linux support got very good for it). But, I was running Guix + Linux (the way that essentially everyone runs Guix). Again, Guix + Hurd is more of an experiment and that needs to be run in a VM.   \n> I actually did not know there were that much of hard dependencies between programs and init systems  \nMaybe I wouldn't say much software depends on it but if you really need that one piece of software that has a dependency on it then it's not an easy problem to solve\n\n> Have you experienced that yourself, or is that a rumor about GNU ?  \nDid not experience it myself (but also I wasn't super active in the community). But from the few interactions I had and reading the mailing list, I would say that most people there are super nice and helpful. The thing about non-free software is just a rule. It's not a rumor, it's in their documentation:\n\n>In addition, the GNU distribution follow the [free software distribution guidelines](https://www.gnu.org/distros/free-system-distribution-guidelines.html). Among other things, these guidelines reject non-free firmware, recommendations of non-free software, and discuss ways to deal with trademarks and patents.\n\nNo one is going to ban you or anything, but if you talk about non-free software they will just point you to nonguix and that's it, they are not going to start supporting non-free software officially just because x number of people asks about it. I also think that while I decide to use non-free software, I appreciate that there are some people that refuse to do it and push for software freedom. Free software wouldn't be where it is now without people like them.\n\n> Something Nix and NixOS should be inspired by\n\nI hope Nix will incorporate some ideas from Guix over time.  \nIt's also the cool thing about having 2 \"competing\" projects. The biggest plus of Guix is using a real programming language for configuration, it's insanely powerful. Who knows, maybe Nix-lang will get there someday",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1716935715,
+      "score": 6,
+      "link_id": "t3_1d2s6r1",
+      "parent_id": "t1_l62ubk4"
+    },
+    {
+      "id": "l62op0j",
+      "body": "I’ve used guix for around 6 months in 2023 before going back to nix (where I’m now):\n\nYou are mixing up some concepts:\n- GNU Hurd is a kernel, but it is a different type of architecture from the Linux kernel. Anyway, historically Linux “won” and Hurd doesn’t get much development. AFAIK you can run Hurd only in VMs, it doesn't support hardware that you might have lying around\n- Guix uses shepherd instead of systemd as its init system. the cool thing is that shepherd is written in Guile. The not so cool thing is that systemd is a standard nowadays and some programs have a hard dependency on systemd\n- You can run unfree software on Guix, but it's not officially supported, you cannot even talk about unfree software on official channels. Which to me is also a bit extreme since many people cannot run Guix with the Linux libre kernel. you can look into Unguix to get unfree packages\n\nGuix feels a lot more polished than Nix, the language is better, the documentation is miles better. But the problem is that Guix doesn't have a big community and it seems people gravitated towards Nix (prob because it was first and because Guix can be hostile to people that need to run unfree software). I dropped Guix after I couldn't get any GUI to work on top of my Intel i7-14700k (in May 2023) because the mesa drivers were not updated. The community there does amazing work but ultimately there is not enough manpower to package everything. Part of this is also because Guix has a more elegant approach and tried to compile every package from source, whereas nix sometimes just downloads a binary and calls it a day.",
+      "author": "thetta-reddast",
+      "subreddit": "NixOS",
+      "created_utc": 1716927498,
+      "score": 47,
+      "link_id": "t3_1d2s6r1",
+      "parent_id": "t3_1d2s6r1"
+    },
+    {
+      "id": "l5gncxf",
+      "body": "Ah well, sorry. My experience was in Zurich",
+      "author": "thetta-reddast",
+      "subreddit": "Switzerland",
+      "created_utc": 1716553856,
+      "score": 2,
+      "link_id": "t3_1czi3wq",
+      "parent_id": "t1_l5gk5q9"
+    },
+    {
+      "id": "l5gjakf",
+      "body": "In this case you need to send an email to the cantonal authority that your reason of stay in Switzerland changed from education to employment and attach a copy of your contract. Couple weeks later you’ll receive your new residence permit by post. \nRemember that now you will have to get a Swiss health insurance if you are exempted",
+      "author": "thetta-reddast",
+      "subreddit": "Switzerland",
+      "created_utc": 1716551912,
+      "score": 1,
+      "link_id": "t3_1czi3wq",
+      "parent_id": "t1_l5gg6fu"
+    },
+    {
+      "id": "l5fs4a5",
+      "body": "You can check supported models here https://valetudo.cloud/pages/general/supported-robots.html#dreame\n\nFor many dreame models you don’t need to break any warranty seals",
+      "author": "thetta-reddast",
+      "subreddit": "Dreame_Tech",
+      "created_utc": 1716533671,
+      "score": 1,
+      "link_id": "t3_1cyw7np",
+      "parent_id": "t1_l5dy9n6"
+    },
+    {
+      "id": "l5bjqt7",
+      "body": "Bringing the notion of bloated to a whole new level…",
+      "author": "thetta-reddast",
+      "subreddit": "macapps",
+      "created_utc": 1716471099,
+      "score": 3,
+      "link_id": "t3_1cyo2f9",
+      "parent_id": "t1_l5b7uk1"
+    },
+    {
+      "id": "l52geox",
+      "body": "Ah all good. Yeah as far as I remember they only have 3 restaurants like that, 2 in Turin and one in Saluzzo. Hope you had a good time in Italy!",
+      "author": "thetta-reddast",
+      "subreddit": "Pizza",
+      "created_utc": 1716321052,
+      "score": 1,
+      "link_id": "t3_1cx93w9",
+      "parent_id": "t1_l52fvon"
+    },
+    {
+      "id": "l52fdoj",
+      "body": "Is it Sesto Gusto in Turin? I used to work there. Definitely not common (at least in Piedmont), that’s the chef’s own recipe and particular to that pizzeria only",
+      "author": "thetta-reddast",
+      "subreddit": "Pizza",
+      "created_utc": 1716320698,
+      "score": 2,
+      "link_id": "t3_1cx93w9",
+      "parent_id": "t3_1cx93w9"
+    },
+    {
+      "id": "l33971o",
+      "body": "I had a T580 and it was mostly fine",
+      "author": "thetta-reddast",
+      "subreddit": "GUIX",
+      "created_utc": 1715144557,
+      "score": 1,
+      "link_id": "t3_1cmp5st",
+      "parent_id": "t3_1cmp5st"
+    },
+    {
+      "id": "l2l3mcn",
+      "body": "Yea you will still receive but afaik can’t send big attachments anymore. Anyway, just write to IT, they will increase the size of your mailbox",
+      "author": "thetta-reddast",
+      "subreddit": "ethz",
+      "created_utc": 1714850298,
+      "score": 9,
+      "link_id": "t3_1ck7lwv",
+      "parent_id": "t3_1ck7lwv"
+    },
+    {
+      "id": "l25exqo",
+      "body": "Heh, that’s the real estate situation in Zurich. Plus in the German speaking world WGs are the norm, it’s not that common for young people to have their own studio",
+      "author": "thetta-reddast",
+      "subreddit": "ethz",
+      "created_utc": 1714597329,
+      "score": 24,
+      "link_id": "t3_1chvtk5",
+      "parent_id": "t1_l25d9m7"
+    },
+    {
+      "id": "l1yun33",
+      "body": "I agree it’s not great but I don’t know any operator who doesn’t do it, Swisscom salt and sunrise all have this cap",
+      "author": "thetta-reddast",
+      "subreddit": "Switzerland",
+      "created_utc": 1714497787,
+      "score": 0,
+      "link_id": "t3_1cg2fal",
+      "parent_id": "t1_l1yiw62"
+    },
+    {
+      "id": "l1yhrwb",
+      "body": "Doesn’t every operator slow it down to 200 or 128 kbps? Which is essentially like blocking it, yeah",
+      "author": "thetta-reddast",
+      "subreddit": "Switzerland",
+      "created_utc": 1714493299,
+      "score": 0,
+      "link_id": "t3_1cg2fal",
+      "parent_id": "t1_l1x3j7o"
+    },
+    {
+      "id": "kz9s7ld",
+      "body": "WiFi is soldered on t14 amd thinkpads:(",
+      "author": "thetta-reddast",
+      "subreddit": "linuxhardware",
+      "created_utc": 1712946571,
+      "score": 1,
+      "link_id": "t3_1c16su8",
+      "parent_id": "t1_kz6ydz0"
+    },
+    {
+      "id": "kz45ufi",
+      "body": "So, idk about new machines, but I got to use two different T14 gen 4 amd (with 7840U)\nI’m on kernel 6.8.1 at the moment, nixos with Gnome\n- sleep is hit and miss, sometimes the laptop goes to sleep just fine, sometimes it will use all battery and die in my backpack. This is super annoying and happens around 2/3 times per month\n- I’m having constant issues with WiFi, often it would just straight up not connect, or connection drops for no reason, or it won’t work at all after resuming from sleep. Turning flight mode one and off “solves” this\n\nThe constant sleep and WiFi issues are super frustrating, I would opt for an intel machine if I were looking for a new laptop right now",
+      "author": "thetta-reddast",
+      "subreddit": "linuxhardware",
+      "created_utc": 1712860338,
+      "score": 2,
+      "link_id": "t3_1c16su8",
+      "parent_id": "t1_kz3e4g0"
+    },
+    {
+      "id": "kvsekya",
+      "body": "Manca la RAL",
+      "author": "thetta-reddast",
+      "subreddit": "ItaliaPersonalFinance",
+      "created_utc": 1710967087,
+      "score": 10,
+      "link_id": "t3_1bjls2j",
+      "parent_id": "t1_kvs6d5y"
+    },
+    {
+      "id": "kuzimq6",
+      "body": "It Is objectively true, I saw a while back a study saying that every x years the average car size increases by something kike 5cm",
+      "author": "thetta-reddast",
+      "subreddit": "Switzerland",
+      "created_utc": 1710508417,
+      "score": 13,
+      "link_id": "t3_1bf9l8w",
+      "parent_id": "t1_kuz4yae"
+    },
+    {
+      "id": "kunhkr1",
+      "body": "If you downloaded the ones with the same signature, yes",
+      "author": "thetta-reddast",
+      "subreddit": "emacs",
+      "created_utc": 1710321439,
+      "score": 1,
+      "link_id": "t3_111ki1e",
+      "parent_id": "t1_kbxaylb"
+    },
+    {
+      "id": "kunhhnm",
+      "body": "WhatsApp tells you they are using end to end but you have to trust Facebook that they implemented it correctly,  cybersecurity researchers cannot analyse it for vulnerabilities\n\nOn the other hand the Signal protocol is open and every security researcher can evaluate it, and they do because finding a vulnerability in it carries a lot of weight in the research community",
+      "author": "thetta-reddast",
+      "subreddit": "ios",
+      "created_utc": 1710321376,
+      "score": 1,
+      "link_id": "t3_153rz0r",
+      "parent_id": "t1_k7onz8l"
+    }
+  ]
+}

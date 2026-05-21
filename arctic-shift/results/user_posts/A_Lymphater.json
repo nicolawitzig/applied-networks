@@ -1,0 +1,849 @@
+{
+  "username": "A_Lymphater",
+  "posts": [
+    {
+      "id": "1fk3vhr",
+      "title": "AR924 - Rugged Pager",
+      "author": "A_Lymphater",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1726694115,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "Has anybody got hands on that exploding device AR924 to tear it down and wants to share his findings?",
+      "url": "https://www.reddit.com/r/ElectricalEngineering/comments/1fk3vhr/ar924_rugged_pager/"
+    },
+    {
+      "id": "1f4csfl",
+      "title": "TSE implementation with Rx-clk loopback on RGMII",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1724963707,
+      "score": 3,
+      "num_comments": 2,
+      "selftext": "Is there a trick to improove timing when implementing a TSE-MAC with RGMII and Rx- to Tx-clk loopback? Tx-clk and Tx-Data are both driven from ddrio registers close to the pins.",
+      "url": "https://www.reddit.com/r/FPGA/comments/1f4csfl/tse_implementation_with_rxclk_loopback_on_rgmii/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m2mejqk",
+      "body": "Thank you, that is a great example.",
+      "author": "A_Lymphater",
+      "subreddit": "Badass",
+      "created_utc": 1734503230,
+      "score": 1,
+      "link_id": "t3_1hfz3c8",
+      "parent_id": "t3_1hfz3c8"
+    },
+    {
+      "id": "m1tydno",
+      "body": "Insert dew de dew dew de dew….",
+      "author": "A_Lymphater",
+      "subreddit": "funnyvideos",
+      "created_utc": 1734078734,
+      "score": 1,
+      "link_id": "t3_1hd56pu",
+      "parent_id": "t3_1hd56pu"
+    },
+    {
+      "id": "lymtao0",
+      "body": "Could be a hall sensor",
+      "author": "A_Lymphater",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1732394254,
+      "score": 3,
+      "link_id": "t3_1gy7x49",
+      "parent_id": "t3_1gy7x49"
+    },
+    {
+      "id": "lxzelq7",
+      "body": "I don‘t get it, what is your usp?\nLots of ceap chinese batteries are save today, even got CE. A battery management system is normal nowadays. Lots of 3rd parties do repair any battery by replaicing bad cells. Why should i buy your product? Why should it be more sustainable than any other battery since you hardly don‘t fabric the cell yourself, no?",
+      "author": "A_Lymphater",
+      "subreddit": "ebikes",
+      "created_utc": 1732047177,
+      "score": 1,
+      "link_id": "t3_1guttw2",
+      "parent_id": "t3_1guttw2"
+    },
+    {
+      "id": "lwsyx7b",
+      "body": "Is floatfixlib only for alera?",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1731442915,
+      "score": 1,
+      "link_id": "t3_1gp7t7s",
+      "parent_id": "t3_1gp7t7s"
+    },
+    {
+      "id": "lwmoni3",
+      "body": "I like the case of your device, it looks handy.\nCrazy that certification costs 15k, although it is not powered by mains nor has radio I guess.\n\nBut yeah regulation will make it hard for solo projects in the eu/usa.",
+      "author": "A_Lymphater",
+      "subreddit": "embedded",
+      "created_utc": 1731354024,
+      "score": 1,
+      "link_id": "t3_1goicvy",
+      "parent_id": "t1_lwmnnv0"
+    },
+    {
+      "id": "lwmn5o7",
+      "body": "Is it more than a shitty ccd-sensor or a photodiode with some kind of filter on it? 😅",
+      "author": "A_Lymphater",
+      "subreddit": "embedded",
+      "created_utc": 1731353567,
+      "score": 1,
+      "link_id": "t3_1goicvy",
+      "parent_id": "t1_lwkt90z"
+    },
+    {
+      "id": "lwmlsle",
+      "body": "I like how you think.",
+      "author": "A_Lymphater",
+      "subreddit": "embedded",
+      "created_utc": 1731353152,
+      "score": 1,
+      "link_id": "t3_1goicvy",
+      "parent_id": "t1_lwjz497"
+    },
+    {
+      "id": "lwmijhx",
+      "body": "Kids with guns..",
+      "author": "A_Lymphater",
+      "subreddit": "UnbelievableStuff",
+      "created_utc": 1731352162,
+      "score": 1,
+      "link_id": "t3_1go9lpm",
+      "parent_id": "t3_1go9lpm"
+    },
+    {
+      "id": "lvqgrps",
+      "body": "Teros HDL Extention is the way to go.",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1730910191,
+      "score": 3,
+      "link_id": "t3_1gl1wsy",
+      "parent_id": "t1_lvqdsh6"
+    },
+    {
+      "id": "lvdgalj",
+      "body": "Hi there!\n\nCheck out varstrom.com, I ordered a kit from them. I use the controller they delivered with the kit.\nLevers and frontlight included.\n\nRegarding the battery, I never fully dischaged it but was low on 46V after 70km @ 38-40km/h. Maybe up to 10 km more to go but hard to say.\n\nI would be interested in your final build!\nGreetings",
+      "author": "A_Lymphater",
+      "subreddit": "ebikes",
+      "created_utc": 1730739352,
+      "score": 1,
+      "link_id": "t3_19ccgds",
+      "parent_id": "t1_lv5o22o"
+    },
+    {
+      "id": "ltw2sh5",
+      "body": "*Insert Randy from South Park in „White People renovating Houses“*",
+      "author": "A_Lymphater",
+      "subreddit": "malelivingspace",
+      "created_utc": 1729968347,
+      "score": 1,
+      "link_id": "t3_1gaipui",
+      "parent_id": "t3_1gaipui"
+    },
+    {
+      "id": "ltr0nc6",
+      "body": "1min quick search: https://windmeile.com/shop/e-bike-teile/displays/apt-500c-lcd-farbdisplay-22-fuer-bafang-bbs01-02-hd",
+      "author": "A_Lymphater",
+      "subreddit": "ebikes",
+      "created_utc": 1729891252,
+      "score": 1,
+      "link_id": "t3_19ccgds",
+      "parent_id": "t1_ltqw0yx"
+    },
+    {
+      "id": "lth7h5v",
+      "body": "Hi there! Just did another 35km way to work with that bike. I just use a regular city bike with 1.25“ ?rims? (Pneut in french).\n\nhttps://preview.redd.it/mjk850zeonwd1.jpeg?width=4032&format=pjpg&auto=webp&s=fa47ca0f95ce968a6cbfb306ef9678ea523e4e08\n\nI am using this tiny controller C500 if I remember its name correctly. Works great. 48V Battery with close to 1kWH \\~ 22Ah @ 48V\n\nI do 70km to work and back with this setup. Allways around 38km/h, (I dont max it out for comfort). I overcome several hills on my way.\n\nGet yourself a front chainblade with at least 50 Teeth to not look like a someone with issues on full-speed!\n\nLove it!",
+      "author": "A_Lymphater",
+      "subreddit": "ebikes",
+      "created_utc": 1729755056,
+      "score": 1,
+      "link_id": "t3_19ccgds",
+      "parent_id": "t1_ltfc5sd"
+    },
+    {
+      "id": "ltguq6x",
+      "body": "Well, not in that case…",
+      "author": "A_Lymphater",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1729747259,
+      "score": 1,
+      "link_id": "t3_1gaj3o0",
+      "parent_id": "t3_1gaj3o0"
+    },
+    {
+      "id": "ltd1w86",
+      "body": "Not again…",
+      "author": "A_Lymphater",
+      "subreddit": "mildlyinfuriating",
+      "created_utc": 1729699996,
+      "score": 1,
+      "link_id": "t3_1ga921b",
+      "parent_id": "t3_1ga921b"
+    },
+    {
+      "id": "lt23i7r",
+      "body": "The leafs look like cherry but the fruit butts look like the one apples have. Wild cherry maybe..",
+      "author": "A_Lymphater",
+      "subreddit": "plants",
+      "created_utc": 1729540125,
+      "score": 2,
+      "link_id": "t3_1g8w6kd",
+      "parent_id": "t3_1g8w6kd"
+    },
+    {
+      "id": "lt225zy",
+      "body": "Maybe esd damage",
+      "author": "A_Lymphater",
+      "subreddit": "ECE",
+      "created_utc": 1729539721,
+      "score": 3,
+      "link_id": "t3_1g8xtxn",
+      "parent_id": "t3_1g8xtxn"
+    },
+    {
+      "id": "ls8tbjk",
+      "body": "No, you have to pay it from your income, but it is a real insurance where you can see the doctor as mouch as you need. About 400chf/month",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1729104923,
+      "score": 2,
+      "link_id": "t3_1g56gae",
+      "parent_id": "t1_ls8rw97"
+    },
+    {
+      "id": "ls8ss6l",
+      "body": "Yeah, maybe depends on the industry but you can easily afford to be the only working person in your household and still live in a decent home in that area.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1729104757,
+      "score": 3,
+      "link_id": "t3_1g56gae",
+      "parent_id": "t1_ls8rima"
+    },
+    {
+      "id": "ls8qijr",
+      "body": "150k outside of zürich/geneva is massive 👍",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1729104048,
+      "score": 5,
+      "link_id": "t3_1g56gae",
+      "parent_id": "t3_1g56gae"
+    },
+    {
+      "id": "ls3j043",
+      "body": "M m morty, slrrrp, we have to go.",
+      "author": "A_Lymphater",
+      "subreddit": "interesting",
+      "created_utc": 1729024894,
+      "score": 0,
+      "link_id": "t3_1g4e3ee",
+      "parent_id": "t3_1g4e3ee"
+    },
+    {
+      "id": "lrambyx",
+      "body": "One pro of hdl coder I imagin could be to easily overcome any hurdels of model based verification. \n\nDoes the workflow change drastically with hdl coder?",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1728586677,
+      "score": 1,
+      "link_id": "t3_1g0jir2",
+      "parent_id": "t1_lralfte"
+    },
+    {
+      "id": "lram8nr",
+      "body": "One pro of hdl coder I imagin could be to easily overcome any hurdels of model based verification. \n\nDoes the workflow change drastically with hdl coder?",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1728586646,
+      "score": 1,
+      "link_id": "t3_1g0jir2",
+      "parent_id": "t1_lralfte"
+    },
+    {
+      "id": "lralfte",
+      "body": "We evaluated hdl coder at work and came to the solution to not use it and write our own, generic libraries with tcl generators instead. Reason for this was that we did not get the ressourse/performance ratio we expected and the reusability seemd to be bad.\n\nAny other experiences out there?",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1728586389,
+      "score": 2,
+      "link_id": "t3_1g0jir2",
+      "parent_id": "t3_1g0jir2"
+    },
+    {
+      "id": "lr9gr5x",
+      "body": "First I thought: great that kid saves the on thing in the room that is not directli exposed to leaking water, but then, woah!",
+      "author": "A_Lymphater",
+      "subreddit": "maybemaybemaybe",
+      "created_utc": 1728573199,
+      "score": 1,
+      "link_id": "t3_1g05vlk",
+      "parent_id": "t3_1g05vlk"
+    },
+    {
+      "id": "lqzfmt8",
+      "body": "Deutschland ist kaputt.",
+      "author": "A_Lymphater",
+      "subreddit": "europe",
+      "created_utc": 1728414741,
+      "score": 8,
+      "link_id": "t3_1fz0jin",
+      "parent_id": "t3_1fz0jin"
+    },
+    {
+      "id": "lqlz628",
+      "body": "Jura?",
+      "author": "A_Lymphater",
+      "subreddit": "SwitzerlandIsFake",
+      "created_utc": 1728219901,
+      "score": 0,
+      "link_id": "t3_1fxex90",
+      "parent_id": "t3_1fxex90"
+    },
+    {
+      "id": "lqlywe0",
+      "body": "Rust",
+      "author": "A_Lymphater",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1728219784,
+      "score": 1,
+      "link_id": "t3_1fxeaff",
+      "parent_id": "t3_1fxeaff"
+    },
+    {
+      "id": "lqdcyre",
+      "body": "I like it!",
+      "author": "A_Lymphater",
+      "subreddit": "interestingasfuck",
+      "created_utc": 1728079946,
+      "score": 2,
+      "link_id": "t3_1fw1l7z",
+      "parent_id": "t3_1fw1l7z"
+    },
+    {
+      "id": "lqc2fht",
+      "body": "Don‘t litter!",
+      "author": "A_Lymphater",
+      "subreddit": "askswitzerland",
+      "created_utc": 1728064378,
+      "score": 4,
+      "link_id": "t3_1fvzgig",
+      "parent_id": "t3_1fvzgig"
+    },
+    {
+      "id": "lpshl2e",
+      "body": "Rigi",
+      "author": "A_Lymphater",
+      "subreddit": "schwiiz",
+      "created_utc": 1727778342,
+      "score": 2,
+      "link_id": "t3_1ftjbg2",
+      "parent_id": "t3_1ftjbg2"
+    },
+    {
+      "id": "lpbyv6z",
+      "body": "Wänn ich mich richtig erinnere hät de ehemaligi chef vo de NASA d lehr als mech i de Schwiiz gmacht und sich dänn kontinuierlich ufebüezt.\n\nWichtig isch nöd mit was du afangsch, sondern ebe dass du afangsch. Es wird immer istiger jobs geh, wie z.b Gmeindsarbeiter. Die sind teils sträng aber det lehrsch mal was es heisst sich es läbe z verdiene. Das chan sich übrigens au ganz guet afühle. Mit dere Erfahrig wirsch dich denn hoffentlich wider motiviere chöne.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1727527543,
+      "score": 2,
+      "link_id": "t3_1frbw22",
+      "parent_id": "t3_1frbw22"
+    },
+    {
+      "id": "lp3cabd",
+      "body": "Bei meiner Frau das Selbe, gestern. Falls dies System hat, kann man sich organisieren und klagen?",
+      "author": "A_Lymphater",
+      "subreddit": "schwiiz",
+      "created_utc": 1727388626,
+      "score": 7,
+      "link_id": "t3_1fq2hu5",
+      "parent_id": "t1_lp2fglm"
+    },
+    {
+      "id": "lp3blp4",
+      "body": "Meine Frau hat gestern den selben Brief bekommen. Ich wollte telefonischen Kontakt, wurde abgelehnt. Mein Verdacht: entweder gehackte Firmendatenbank, oder da will sich ein Buchhalter einen zweiten Porsche verdienen. Die Sache stinkt. Ich habe dir eine DM geschrieben.",
+      "author": "A_Lymphater",
+      "subreddit": "schwiiz",
+      "created_utc": 1727388386,
+      "score": 2,
+      "link_id": "t3_1fq2hu5",
+      "parent_id": "t3_1fq2hu5"
+    },
+    {
+      "id": "lookn35",
+      "body": "Pretty sure this was filmed without a drone",
+      "author": "A_Lymphater",
+      "subreddit": "BeAmazed",
+      "created_utc": 1727182027,
+      "score": 2,
+      "link_id": "t3_1foaz82",
+      "parent_id": "t1_look93p"
+    },
+    {
+      "id": "lojjm8b",
+      "body": "CR n/ convention fucks up every time",
+      "author": "A_Lymphater",
+      "subreddit": "embedded",
+      "created_utc": 1727107017,
+      "score": 1,
+      "link_id": "t3_1fnjowy",
+      "parent_id": "t3_1fnjowy"
+    },
+    {
+      "id": "lof6d9u",
+      "body": "5 terre?",
+      "author": "A_Lymphater",
+      "subreddit": "BeAmazed",
+      "created_utc": 1727037256,
+      "score": 1,
+      "link_id": "t3_1fn24mk",
+      "parent_id": "t3_1fn24mk"
+    },
+    {
+      "id": "lny60s1",
+      "body": "Wait, what?",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1726779243,
+      "score": 1,
+      "link_id": "t3_1fkppsr",
+      "parent_id": "t1_lny51hy"
+    },
+    {
+      "id": "lnj9v3u",
+      "body": "Well that sucks. \nIs she left or right aligned, and more important are you big or little endian?",
+      "author": "A_Lymphater",
+      "subreddit": "electronic_circuits",
+      "created_utc": 1726555742,
+      "score": 1,
+      "link_id": "t3_1fifx6u",
+      "parent_id": "t3_1fifx6u"
+    },
+    {
+      "id": "lnai4vi",
+      "body": "Noice rock",
+      "author": "A_Lymphater",
+      "subreddit": "climbing",
+      "created_utc": 1726426540,
+      "score": 3,
+      "link_id": "t3_1fhd3g8",
+      "parent_id": "t3_1fhd3g8"
+    },
+    {
+      "id": "ln7ucut",
+      "body": "Enjoy!",
+      "author": "A_Lymphater",
+      "subreddit": "electronics",
+      "created_utc": 1726388791,
+      "score": 1,
+      "link_id": "t3_1fgcsfh",
+      "parent_id": "t3_1fgcsfh"
+    },
+    {
+      "id": "lmq0290",
+      "body": "House prices in Switzerland: 900k to 1500k in rural area. Double it for urban area. An experienced EE who is working in development will hardly ever reach that salery of 140k $.",
+      "author": "A_Lymphater",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1726117448,
+      "score": -2,
+      "link_id": "t3_1feqfkc",
+      "parent_id": "t1_lmpkc5h"
+    },
+    {
+      "id": "lmq01di",
+      "body": "House prices in Switzerland: 900k to 1500k in rural area. Double it for urban area. An experienced EE who is working in development will hardly ever reach that salery of 140k $.",
+      "author": "A_Lymphater",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1726117434,
+      "score": 1,
+      "link_id": "t3_1feqfkc",
+      "parent_id": "t1_lmpkc5h"
+    },
+    {
+      "id": "ll6vw6l",
+      "body": "Hey, thank you for that information. Working on Intel Cyclone V and currently trying to resolve timing issues. Is there a document or a best practice that helps to decide which pins to use for a specific interface? I assume that for an interface with some parallel bits, all should be connected to the same bank.",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1725304617,
+      "score": 3,
+      "link_id": "t3_1f79xgc",
+      "parent_id": "t1_ll6213w"
+    },
+    {
+      "id": "lkjiyn1",
+      "body": "I heard that some would pay 2200 Euro for a floating licence. Might just be a rumor.. or not.\n\nAnyway, I really dislike that bazzar game they play.",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1724955037,
+      "score": 2,
+      "link_id": "t3_1f428rt",
+      "parent_id": "t1_lki4uow"
+    },
+    {
+      "id": "lki2zhb",
+      "body": "Yes. We did a 2 weeks tryal and worked on modelsim before. I encounterd issues when trying to visualize bigger process in schematic view. Has somebody had the same issue?",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1724939101,
+      "score": 3,
+      "link_id": "t3_1f428rt",
+      "parent_id": "t3_1f428rt"
+    },
+    {
+      "id": "liwqxg6",
+      "body": "Those are valid points. Still, I think the sticker provokes on a level close to the „old white man“.",
+      "author": "A_Lymphater",
+      "subreddit": "zurich",
+      "created_utc": 1724090545,
+      "score": 2,
+      "link_id": "t3_1evxn9o",
+      "parent_id": "t1_liv575g"
+    },
+    {
+      "id": "liuwbfo",
+      "body": "I think the intention of this sticker in front of the statue of Alfred Escher, who was a driving force for switzerlands infrastructure, is to show a more conservative angle to the young-left driven discussion on how priviliged white men are pictured today.\n\nNow, in my oppinion this sticker is well designed since it‘s message works the same way as the frameing of the „old white man“ in present discussion works.\n\nI could imagin that the owner of this sticker did not intend to provoke non-white people primary but to trigger individuals of the younger „woke“ generatin. He might see some value in the work of Alfred Escher and other great visioneers that had real skills to push great projets on which our society now relays on. Skills that he might not see in „woke“ generatin.",
+      "author": "A_Lymphater",
+      "subreddit": "zurich",
+      "created_utc": 1724066956,
+      "score": 0,
+      "link_id": "t3_1evxn9o",
+      "parent_id": "t3_1evxn9o"
+    },
+    {
+      "id": "lig9yaw",
+      "body": "Coul de chien!?",
+      "author": "A_Lymphater",
+      "subreddit": "climbing",
+      "created_utc": 1723835218,
+      "score": 2,
+      "link_id": "t3_1etphp0",
+      "parent_id": "t3_1etphp0"
+    },
+    {
+      "id": "liaxbwd",
+      "body": "Wow, I am currently watchig this amazing tutorial and truly your explanation to the polyrithmic seems to be THE key to bring more joy to the set. Great work, thank you!",
+      "author": "A_Lymphater",
+      "subreddit": "modular",
+      "created_utc": 1723755979,
+      "score": 1,
+      "link_id": "t3_1estn0q",
+      "parent_id": "t3_1estn0q"
+    },
+    {
+      "id": "liakg1u",
+      "body": "Geil, werde mir wohl doch noch einen zweiten DFAM kaufen gehen.",
+      "author": "A_Lymphater",
+      "subreddit": "modular",
+      "created_utc": 1723751918,
+      "score": 3,
+      "link_id": "t3_1estn0q",
+      "parent_id": "t3_1estn0q"
+    },
+    {
+      "id": "lhxgkbr",
+      "body": "STM32L476 Sigma-Delta demodulator combined with master/slave timer and direct triggered dma transfere <3",
+      "author": "A_Lymphater",
+      "subreddit": "embedded",
+      "created_utc": 1723565148,
+      "score": 1,
+      "link_id": "t3_1eqq0mf",
+      "parent_id": "t1_lhte7y3"
+    },
+    {
+      "id": "lgu02b6",
+      "body": "DM me.",
+      "author": "A_Lymphater",
+      "subreddit": "FPGA",
+      "created_utc": 1722977248,
+      "score": 2,
+      "link_id": "t3_1ej0rlo",
+      "parent_id": "t1_lgalysg"
+    },
+    {
+      "id": "lau9dy1",
+      "body": "Beer >> Wine",
+      "author": "A_Lymphater",
+      "subreddit": "MapPorn",
+      "created_utc": 1719673018,
+      "score": 1,
+      "link_id": "t3_1dnj5rd",
+      "parent_id": "t3_1dnj5rd"
+    },
+    {
+      "id": "laf95d9",
+      "body": "Are you working in a dentists room? 😅",
+      "author": "A_Lymphater",
+      "subreddit": "electronics",
+      "created_utc": 1719435816,
+      "score": 2,
+      "link_id": "t3_1dp7c5g",
+      "parent_id": "t3_1dp7c5g"
+    },
+    {
+      "id": "l7q55nx",
+      "body": "So lang ei monotoni sach mache bis dir bewusst wird was du willsch. Kei ablänkig.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1717879981,
+      "score": 2,
+      "link_id": "t3_1dba0hy",
+      "parent_id": "t3_1dba0hy"
+    },
+    {
+      "id": "l7q4wcv",
+      "body": "☝️",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1717879878,
+      "score": 4,
+      "link_id": "t3_1dba0hy",
+      "parent_id": "t1_l7q40nn"
+    },
+    {
+      "id": "l7e119u",
+      "body": "He was low on budget.",
+      "author": "A_Lymphater",
+      "subreddit": "maybemaybemaybe",
+      "created_utc": 1717689497,
+      "score": 1,
+      "link_id": "t3_1d9hus9",
+      "parent_id": "t3_1d9hus9"
+    },
+    {
+      "id": "l62kgmn",
+      "body": "Google the formula for wiener-filter and try to understand it.",
+      "author": "A_Lymphater",
+      "subreddit": "compsci",
+      "created_utc": 1716926003,
+      "score": -1,
+      "link_id": "t3_1d2m20r",
+      "parent_id": "t3_1d2m20r"
+    },
+    {
+      "id": "l5hiepc",
+      "body": "Looks like you are into modular.",
+      "author": "A_Lymphater",
+      "subreddit": "electronics",
+      "created_utc": 1716565728,
+      "score": 1,
+      "link_id": "t3_1cy4pco",
+      "parent_id": "t3_1cy4pco"
+    },
+    {
+      "id": "l52qldf",
+      "body": "Hi, I just bought the H640 and it feels very powerfull. I do not exeed the 42kmh line often with it since i would need bigger chainteeths. But since i live in mountain terrain, i can still cycle up with 35kmh which seems good to me. \n\nHow did it went with your second build?",
+      "author": "A_Lymphater",
+      "subreddit": "ebikes",
+      "created_utc": 1716324658,
+      "score": 1,
+      "link_id": "t3_19ccgds",
+      "parent_id": "t3_19ccgds"
+    },
+    {
+      "id": "l52j8q8",
+      "body": "Bafang motor controller, you can buy it on ali express or from varstrom.com",
+      "author": "A_Lymphater",
+      "subreddit": "EbikeUpgrade",
+      "created_utc": 1716322041,
+      "score": 1,
+      "link_id": "t3_1bhyjcw",
+      "parent_id": "t3_1bhyjcw"
+    },
+    {
+      "id": "l4irlgl",
+      "body": "Where are you from and how long have your teacher to work until they get retired?",
+      "author": "A_Lymphater",
+      "subreddit": "BeAmazed",
+      "created_utc": 1715984494,
+      "score": 1,
+      "link_id": "t3_1cuahrs",
+      "parent_id": "t3_1cuahrs"
+    },
+    {
+      "id": "kysll61",
+      "body": "Have you considered to choose a FH of applied science yet? I think if you feel a bit unsafe in math, this might be your way to go. Still a lot of math but more on the applied side. We had some students that came from ethz because of that. EE is a rally good basic for all kind of engineering.",
+      "author": "A_Lymphater",
+      "subreddit": "ethz",
+      "created_utc": 1712682240,
+      "score": 4,
+      "link_id": "t3_1bzuoj5",
+      "parent_id": "t3_1bzuoj5"
+    },
+    {
+      "id": "kwjizau",
+      "body": "Coup Dänemark",
+      "author": "A_Lymphater",
+      "subreddit": "geography",
+      "created_utc": 1711399236,
+      "score": 1,
+      "link_id": "t3_1bm15a5",
+      "parent_id": "t3_1bm15a5"
+    },
+    {
+      "id": "kupf25g",
+      "body": "Nah bro trust me, you are better off investing all your money into crypto and etfs, living in a basement and eat trash and die rich.",
+      "author": "A_Lymphater",
+      "subreddit": "askswitzerland",
+      "created_utc": 1710350832,
+      "score": 18,
+      "link_id": "t3_1bdww7b",
+      "parent_id": "t3_1bdww7b"
+    },
+    {
+      "id": "krh8z30",
+      "body": "You should all go to the therapist, if you have spotted the difference between the two pictures in less than 30s.",
+      "author": "A_Lymphater",
+      "subreddit": "malelivingspace",
+      "created_utc": 1708537263,
+      "score": 1,
+      "link_id": "t3_1aw2vrq",
+      "parent_id": "t3_1aw2vrq"
+    },
+    {
+      "id": "kqwb696",
+      "body": "If you let divide us into generations than the capita wins again by not getting questioned.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1708204607,
+      "score": 1,
+      "link_id": "t3_1at2hon",
+      "parent_id": "t3_1at2hon"
+    },
+    {
+      "id": "kqw9rnt",
+      "body": "Second and third pillar should not exist. Those are the reason why we pay high rent and high immo prices. Working class pays double into those institutions when rentig a flat from them.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1708204129,
+      "score": 1,
+      "link_id": "t3_1at2hon",
+      "parent_id": "t1_kqw8yys"
+    },
+    {
+      "id": "kqw8yys",
+      "body": "To all those who wonder why we should vote for a system that benefits not only the poor but the rich as well? Because that‘s all we can get for now. Systems that help only the poorest have a hard stand right now. It is the most social improvement we can dream for now and I think we should go for it. Once the balance is off we have to dicuss about new solutions, like eat the rich.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1708203861,
+      "score": 1,
+      "link_id": "t3_1at2hon",
+      "parent_id": "t3_1at2hon"
+    },
+    {
+      "id": "kq29pdb",
+      "body": "Please don’t bring that to europe 🤞",
+      "author": "A_Lymphater",
+      "subreddit": "Anticonsumption",
+      "created_utc": 1707730980,
+      "score": 48,
+      "link_id": "t3_1aos92a",
+      "parent_id": "t3_1aos92a"
+    },
+    {
+      "id": "kpp2agk",
+      "body": "Just dont be a fool and pay 2.90 for that. They sell it for 70 cents in Germany. No, I don‘t want to say you should go there. I just want to say that they rip you off with overprizes in switzerland.",
+      "author": "A_Lymphater",
+      "subreddit": "geneva",
+      "created_utc": 1707515043,
+      "score": -5,
+      "link_id": "t3_1amx0ak",
+      "parent_id": "t3_1amx0ak"
+    },
+    {
+      "id": "kpasgka",
+      "body": "Again, what a twat.",
+      "author": "A_Lymphater",
+      "subreddit": "SwissFIRE",
+      "created_utc": 1707288514,
+      "score": 3,
+      "link_id": "t3_1aknyvw",
+      "parent_id": "t1_kparbka"
+    },
+    {
+      "id": "kp8njm9",
+      "body": "On this picture are not more than 500 bottles. Easely enjoyable in less than 5 years.",
+      "author": "A_Lymphater",
+      "subreddit": "Anticonsumption",
+      "created_utc": 1707256138,
+      "score": 1,
+      "link_id": "t3_1aiw35s",
+      "parent_id": "t3_1aiw35s"
+    },
+    {
+      "id": "kohyu4s",
+      "body": "Stöcklijass",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1706824844,
+      "score": 1,
+      "link_id": "t3_1afckzr",
+      "parent_id": "t3_1afckzr"
+    },
+    {
+      "id": "kohxz3f",
+      "body": "You dont like sunlight, dont you.",
+      "author": "A_Lymphater",
+      "subreddit": "malelivingspace",
+      "created_utc": 1706824556,
+      "score": 1,
+      "link_id": "t3_1ag21lo",
+      "parent_id": "t3_1ag21lo"
+    },
+    {
+      "id": "kk5utas",
+      "body": "Beer works better than wine.",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1706562772,
+      "score": 6,
+      "link_id": "t3_1ae2ij9",
+      "parent_id": "t3_1ae2ij9"
+    },
+    {
+      "id": "kk0xb8h",
+      "body": "De scheiss Rucola",
+      "author": "A_Lymphater",
+      "subreddit": "Switzerland",
+      "created_utc": 1706484708,
+      "score": 1,
+      "link_id": "t3_1abopj8",
+      "parent_id": "t3_1abopj8"
+    },
+    {
+      "id": "kirwucb",
+      "body": "German forests run on shitty game engine",
+      "author": "A_Lymphater",
+      "subreddit": "germany",
+      "created_utc": 1705776662,
+      "score": 3,
+      "link_id": "t3_19bhi5b",
+      "parent_id": "t3_19bhi5b"
+    },
+    {
+      "id": "kgbsaz1",
+      "body": "What kind of AI are we training here in this sub?",
+      "author": "A_Lymphater",
+      "subreddit": "Unexpected",
+      "created_utc": 1704399251,
+      "score": 1,
+      "link_id": "t3_18y27bf",
+      "parent_id": "t3_18y27bf"
+    },
+    {
+      "id": "kg5wmew",
+      "body": "Schaffhausen CH got pretty wealthy by transporting goods by horse to bypass the Rheinfall. They sent lots of goods from mountain regions down to the lower lands with boats like this. https://de.wikipedia.org/wiki/Weidling_(Bootstyp) They are still very common around here.",
+      "author": "A_Lymphater",
+      "subreddit": "geography",
+      "created_utc": 1704308351,
+      "score": 3,
+      "link_id": "t3_18xqd3q",
+      "parent_id": "t3_18xqd3q"
+    }
+  ]
+}

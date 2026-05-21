@@ -1,0 +1,1704 @@
+{
+  "username": "boredDODO",
+  "posts": [
+    {
+      "id": "1hpetkn",
+      "title": "Which universities would I get into for masters in robotics",
+      "author": "boredDODO",
+      "subreddit": "Indians_StudyAbroad",
+      "created_utc": 1735532332,
+      "score": 4,
+      "num_comments": 2,
+      "selftext": "My_qualifications: Electrical engineering student 8.7 CGPA and 3.79/4.0 GPA on scholaro. I’m an active member and have taken lead roles in multiple robotics projects in my campus robotics club including battlebots and currently working on a rover for the University Rover Challenge. I’ve worked with PCB design for motor drivers, power electronics. I’ve also learn ROS2 and Nav2 to implement SLAM using a 2D lidar. Now working with stereo vision to learn visual odometer and 3D mapping. I’ve also come to love control system engineering. \n\nConsidering this where do you think I can get into and if anyone who has gotten into a robotics course I wanted some advice or guidance as to how to go about it. My goal is ETH, UMich or CMU but I want to know more options and whether I actually have a chance. ",
+      "url": "https://www.reddit.com/r/Indians_StudyAbroad/comments/1hpetkn/which_universities_would_i_get_into_for_masters/"
+    },
+    {
+      "id": "1hpejr9",
+      "title": "Masters in ROB",
+      "author": "boredDODO",
+      "subreddit": "uofm",
+      "created_utc": 1735531440,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "I’m junior studying electrical engineering from a pretty well known college in India with a 3.8/4.0 GPA by the end of 2nd year. I started tinkering in robotics from the first semester and an active member of the robotics club on campus. Because of this I have some projects that I have worked on and currently working on a rover for the URC. This pushed me to learn PCB design, CAD, microcontroller programming, ROS2 and autonomous navigation. I’ve grown to love this branch of engineering and wanted to pursue a masters. I want to know if there are any other Indians who are mastering in robotics at UofM for any sort of advice or guidance. Thanks in advance",
+      "url": "https://www.reddit.com/r/uofm/comments/1hpejr9/masters_in_rob/"
+    },
+    {
+      "id": "1hpdud8",
+      "title": "Communication system",
+      "author": "boredDODO",
+      "subreddit": "robotics",
+      "created_utc": 1735529149,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "So I have a mars rover prototype I’m working on for a college project and I decided to use two CPE210 to communicate between the rover and base station, but whatever I do they don’t seem to stay communicating for more than 1 min and that’s only with direct LoS <10m. Is there a way to attach an external antenna to the CPE210 to increase range?",
+      "url": "https://www.reddit.com/r/robotics/comments/1hpdud8/communication_system/"
+    },
+    {
+      "id": "1hpdt26",
+      "title": "CPE 210",
+      "author": "boredDODO",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1735529026,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "So I have a mars rover prototype I’m working on for a college project and I decided to use two CPE210 to communicate between the rover and base station, but whatever I do they don’t seem to stay communicating for more than 1 min and that’s only with direct LoS <10m. Is there a way to attach an external antenna to the CPE210 to increase range?",
+      "url": "https://www.reddit.com/r/HomeNetworking/comments/1hpdt26/cpe_210/"
+    },
+    {
+      "id": "1haw23y",
+      "title": "Pipelining RISCV",
+      "author": "boredDODO",
+      "subreddit": "RISCV",
+      "created_utc": 1733813915,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I converted a riscv single cycle cpu into a pipelined cpu and the rv32 instruction set is being checked with the PCW but the input to the controller according to image in books is from instrD which is pipelined instrF through PCF.\n\nSo there's a 3 cycle delay in the input and the checked output.How can this be solved in order to synchronise the input and output.",
+      "url": "https://www.reddit.com/r/RISCV/comments/1haw23y/pipelining_riscv/"
+    },
+    {
+      "id": "1h4wxqd",
+      "title": "Help with RTAB",
+      "author": "boredDODO",
+      "subreddit": "ROS",
+      "created_utc": 1733151794,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "Hi so I’m part of a robotics team and we’ve built a small 2 wheeled bot that uses differential drive. We also used an IMU, wheel encoders and a 2D LiDAR to map. Now we procured a ZED2 stereo camera and wanted to switch to RTAB mapping and getting waypoint navigation working. Where and how do we start?",
+      "url": "https://www.reddit.com/r/ROS/comments/1h4wxqd/help_with_rtab/"
+    },
+    {
+      "id": "1fxjjs3",
+      "title": "The dark reallity of negligence at VIT",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1728229758,
+      "score": 20,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://i.redd.it/gghidetsg5td1.jpeg"
+    },
+    {
+      "id": "1ftitv4",
+      "title": "Designing a power distribution board.",
+      "author": "boredDODO",
+      "subreddit": "AskElectronics",
+      "created_utc": 1727769701,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "I am a sophomore studying electrical engineering, I need to design a BMS, and a power distribution board to power Nvidia jetson and Rpi and couple motors, How to start and where do I learn\n\n",
+      "url": "https://www.reddit.com/r/AskElectronics/comments/1ftitv4/designing_a_power_distribution_board/"
+    },
+    {
+      "id": "1ftipz8",
+      "title": "Need to design power distribution board as well as BMS from scratch",
+      "author": "boredDODO",
+      "subreddit": "electronics",
+      "created_utc": 1727769226,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/electronics/comments/1ftipz8/need_to_design_power_distribution_board_as_well/"
+    },
+    {
+      "id": "1fthu85",
+      "title": "Need to design a BMS from scratch",
+      "author": "boredDODO",
+      "subreddit": "AskElectricians",
+      "created_utc": 1727765261,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "So i'm a sophomore studying electrical engineering and part of the college robotics team. This time we decided to try and build a rover for the University rover challenge and so I have to design a BMS that can supply power to a power distribution board, which I also have to design, to power a nvidia jetson, STM32, and rPi. How should I start\n\n",
+      "url": "https://www.reddit.com/r/AskElectricians/comments/1fthu85/need_to_design_a_bms_from_scratch/"
+    },
+    {
+      "id": "1fthm9r",
+      "title": "Need Help Designing a BMS",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1727764276,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "So i'm part of my college robotics team and this time we are planning on building a rover for the University Rover challenge either 2025 or 2026, for that I need to design a BMS from scratch and a power distribution board, some components that need to be powered are an Nvidia Jetson Orin nano, STM32 discovery boards, rPi. I just finished my sophomore year in electrical engineering, How and where should I start",
+      "url": "https://www.reddit.com/r/ElectricalEngineering/comments/1fthm9r/need_help_designing_a_bms/"
+    },
+    {
+      "id": "1ftgcgg",
+      "title": "At least 2 groups in every first year batch tries to do this",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727759199,
+      "score": 23,
+      "num_comments": 5,
+      "selftext": "",
+      "url": "https://i.redd.it/0ccg8qi5v2sd1.jpeg"
+    },
+    {
+      "id": "1ez3jl3",
+      "title": "Roast my resume",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1724386048,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://i.redd.it/k1x1x8l09ckd1.jpeg"
+    },
+    {
+      "id": "1ez3idd",
+      "title": "Roast my resume (also things I need to improve)",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1724385943,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/ElectricalEngineering/comments/1ez3idd/roast_my_resume_also_things_i_need_to_improve/"
+    },
+    {
+      "id": "1efuaqa",
+      "title": "PES vs RVCE thoughts",
+      "author": "boredDODO",
+      "subreddit": "PESU",
+      "created_utc": 1722348534,
+      "score": 12,
+      "num_comments": 6,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/PESU/comments/1efuaqa/pes_vs_rvce_thoughts/"
+    },
+    {
+      "id": "1dwnk54",
+      "title": "Need advice",
+      "author": "boredDODO",
+      "subreddit": "ethz",
+      "created_utc": 1720265643,
+      "score": 0,
+      "num_comments": 8,
+      "selftext": "I’m from RVCE -tier 2 college studying electrical engineering. Every year about 2-3 students get admission into ETH from here. I’m a top 10% of my grade with an 8.8 after 3 semesters. I’m working on an autonomous rover for university rover challenge at my college robotics club. As well as a consultation project with analog devices. What are my chances of getting into ETH for their MSc in robotics and control ",
+      "url": "https://www.reddit.com/r/ethz/comments/1dwnk54/need_advice/"
+    },
+    {
+      "id": "1d32xyn",
+      "title": "Restarting Japanese ",
+      "author": "boredDODO",
+      "subreddit": "Japaneselanguage",
+      "created_utc": 1716954206,
+      "score": 2,
+      "num_comments": 8,
+      "selftext": "So I lived in Japan up to the 7th grade, but I studied at an American school and we weren’t so pushed to learn Japanese. I feel like I should have actually learned it during that time because now I really want to learn Japanese and start writing the JLPT exams. I know hiragana, katakana and probably N5 level kanji. Where should I start and what should I do. Any resources?",
+      "url": "https://www.reddit.com/r/Japaneselanguage/comments/1d32xyn/restarting_japanese/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4j89cg",
+      "body": "Yea bro ur fucked",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1735572390,
+      "score": 5,
+      "link_id": "t3_1hpp0zx",
+      "parent_id": "t3_1hpp0zx"
+    },
+    {
+      "id": "m4iiqdi",
+      "body": "59 cents for unlimited 4G and 5G. For a day in India",
+      "author": "boredDODO",
+      "subreddit": "HomeNetworking",
+      "created_utc": 1735562055,
+      "score": 1,
+      "link_id": "t3_1hpak1k",
+      "parent_id": "t3_1hpak1k"
+    },
+    {
+      "id": "m4iid1w",
+      "body": "Even if I keep them next to each other they’ll connect for a while and that’s about it",
+      "author": "boredDODO",
+      "subreddit": "robotics",
+      "created_utc": 1735561863,
+      "score": 1,
+      "link_id": "t3_1hpdud8",
+      "parent_id": "t1_m4i4bb4"
+    },
+    {
+      "id": "m4gzrr7",
+      "body": "It’s just a normal travel router uses power over Ethernet. I wanted to know if there’s a way to connect an external antenna on it to increase range\n\nhttps://preview.redd.it/yrbi9mqsuw9e1.jpeg?width=143&format=pjpg&auto=webp&s=19ede72a5bebc70992e47a67cd555ef420e3a086",
+      "author": "boredDODO",
+      "subreddit": "robotics",
+      "created_utc": 1735531707,
+      "score": 1,
+      "link_id": "t3_1hpdud8",
+      "parent_id": "t1_m4gv7ue"
+    },
+    {
+      "id": "m4dg1yn",
+      "body": "Did it work",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1735489902,
+      "score": 1,
+      "link_id": "t3_1hmlmgu",
+      "parent_id": "t1_m4dan7f"
+    },
+    {
+      "id": "m4dfxo5",
+      "body": "You can think of it this way scoring 45+ in your CIEs will contribute a lot to you getting a 10 GPA in that subject but 25+ and you can still get a 9 in the subject give you do well in Quiz lab EL SEE. Anything less than that then you’ll get an 8 or below",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1735489864,
+      "score": 4,
+      "link_id": "t3_1how9h5",
+      "parent_id": "t1_m4da6hj"
+    },
+    {
+      "id": "m4awqbv",
+      "body": "It’s a very interesting subject, I really enjoyed it but yea it was the hardest class I took, mostly cuz of how vast the syllabus was and I’m the type of person who crams last minute. EMF would have been my answer but I’ve just always been good with physics so wasn’t hard to grasp",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1735444230,
+      "score": 2,
+      "link_id": "t3_1hoc32y",
+      "parent_id": "t1_m48unpp"
+    },
+    {
+      "id": "m4aw4ru",
+      "body": "Srs udupi goated, just know it’s 100% residential tho. Class of 2020 here 3 years of my life. ICSE too many sports opportunities and the hostel food is goated chicken twice a week at night. Egg once a night and egg everyday for breakfast available.",
+      "author": "boredDODO",
+      "subreddit": "manipal",
+      "created_utc": 1735443990,
+      "score": 4,
+      "link_id": "t3_1ho2738",
+      "parent_id": "t3_1ho2738"
+    },
+    {
+      "id": "m48d6rf",
+      "body": "Just press the camera a lil inside and it",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1735412331,
+      "score": 1,
+      "link_id": "t3_1fgt8oc",
+      "parent_id": "t3_1fgt8oc"
+    },
+    {
+      "id": "m48d3rd",
+      "body": "I had this problem for months, just press the camera a lil inside and it started working again, some wiring is loose there",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1735412305,
+      "score": 1,
+      "link_id": "t3_1hmlmgu",
+      "parent_id": "t3_1hmlmgu"
+    },
+    {
+      "id": "m48ctg4",
+      "body": "Power electronics",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1735412212,
+      "score": 5,
+      "link_id": "t3_1hoc32y",
+      "parent_id": "t3_1hoc32y"
+    },
+    {
+      "id": "m45ldi5",
+      "body": "omg this worked for me, ive been struggling for months",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1735365281,
+      "score": 2,
+      "link_id": "t3_1hn9c0i",
+      "parent_id": "t3_1hn9c0i"
+    },
+    {
+      "id": "m3p666j",
+      "body": "Chill, some times they might take skill lab attendance into account for CIE -2 and shit. Skill lab attend atleast 50-60% lab attend everything rest all really doesn’t matter",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1735104164,
+      "score": 1,
+      "link_id": "t3_1hlsz5c",
+      "parent_id": "t3_1hlsz5c"
+    },
+    {
+      "id": "m1ekoyi",
+      "body": "Can you share your projects and extra curriculars that helped you get into these schools?",
+      "author": "boredDODO",
+      "subreddit": "gradadmissions",
+      "created_utc": 1733858473,
+      "score": 1,
+      "link_id": "t3_b49jxp",
+      "parent_id": "t3_b49jxp"
+    },
+    {
+      "id": "m1ejdtq",
+      "body": "Hahaha",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1733858066,
+      "score": 1,
+      "link_id": "t3_1hb75jw",
+      "parent_id": "t3_1hb75jw"
+    },
+    {
+      "id": "m15bc2v",
+      "body": "There’s barely any mech in this course, it’s mostly systems, optimization, management and supply chain. Placement is good tho if that’s what you want to get into",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1733718733,
+      "score": 4,
+      "link_id": "t3_1h9zspd",
+      "parent_id": "t3_1h9zspd"
+    },
+    {
+      "id": "m0rprpj",
+      "body": "Yea, but left hostel",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1733519636,
+      "score": 2,
+      "link_id": "t3_1gu5k07",
+      "parent_id": "t1_m0qemzn"
+    },
+    {
+      "id": "m0qrlag",
+      "body": "This year ecell is probably dead. Last year and the year before they had a good team",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1733508700,
+      "score": 2,
+      "link_id": "t3_1h769iv",
+      "parent_id": "t3_1h769iv"
+    },
+    {
+      "id": "m0bvrgf",
+      "body": "W lesgooo",
+      "author": "boredDODO",
+      "subreddit": "mit",
+      "created_utc": 1733292489,
+      "score": 1,
+      "link_id": "t3_1h693br",
+      "parent_id": "t1_m0bvo9p"
+    },
+    {
+      "id": "m0611je",
+      "body": "Quadrangle today 2pm",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1733209685,
+      "score": 1,
+      "link_id": "t3_1h504ml",
+      "parent_id": "t3_1h504ml"
+    },
+    {
+      "id": "m060ud7",
+      "body": "I think ECE would be a better option, but beware it’s insanely competitive and the profs are out to destroy the students",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1733209563,
+      "score": 7,
+      "link_id": "t3_1h5gtep",
+      "parent_id": "t3_1h5gtep"
+    },
+    {
+      "id": "lznknes",
+      "body": "3rd year here, \n1. No classes on Saturday according to timetable but some profs like taking extra. 2/4 saturdays a month\n\n2. There are no mid sems. For CIEs ie internal exams there are no holidays. 2 subjects on one day. 3 times a semester.\n\n3.no but suggested for the first year atleast\n\n4. Yes it’s hectic because of the workload not just classes, sem projects from 1st sem, 3 internals without break, random quizzes worth 10% of your grade, lab work. But manageable",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1732933783,
+      "score": 4,
+      "link_id": "t3_1h2vyaq",
+      "parent_id": "t1_lzmo3ry"
+    },
+    {
+      "id": "lz69cnr",
+      "body": "It used to be a rule till about 5-7 years ago. EEE building still had mobile lockers till 2 years ago. They used to threaten us by saying they’ll make us use it again",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1732671257,
+      "score": 3,
+      "link_id": "t3_1h0e4q5",
+      "parent_id": "t3_1h0e4q5"
+    },
+    {
+      "id": "lyoxln3",
+      "body": "Bro your still months away from the exam, 2 months of solid consistency is enough to crack KCET. Just sit and solve, even if it takes forever to understand. The more you do this soon you’ll go from solving 5 problems a day to 10 to 30 to 50 to 100. It’s okay everyone is on their own timeline stop comparing yourself to others",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1732422679,
+      "score": 1,
+      "link_id": "t3_1gy0gpv",
+      "parent_id": "t3_1gy0gpv"
+    },
+    {
+      "id": "lyj5qlz",
+      "body": "That’s a DC machine, generator or motor",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1732336465,
+      "score": 0,
+      "link_id": "t3_1gxgehf",
+      "parent_id": "t3_1gxgehf"
+    },
+    {
+      "id": "lyj51z3",
+      "body": "It’s been 3 months some of my keys aren’t working and the camera doesn’t work and sometimes I get a weird glitch on my display where everything becomes blurry. I have the 13450HX 1TB ssd 16gb ram and rtx4050",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1732336147,
+      "score": 2,
+      "link_id": "t3_1gxhlod",
+      "parent_id": "t3_1gxhlod"
+    },
+    {
+      "id": "ly94ej0",
+      "body": "Just come to technical clubs, we’re real, work hard and most importantly we help you in placements more than cultural will",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1732198058,
+      "score": 4,
+      "link_id": "t3_1gwfyoz",
+      "parent_id": "t3_1gwfyoz"
+    },
+    {
+      "id": "lxriym5",
+      "body": "Buy whey, soya chunks and soak them in room, buy eggs and boil them in your room or best get an induction and buy chicken breast, grill it on a pan with salt and pepper. This much used to be good for my protein intake in hostel",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1731942195,
+      "score": 10,
+      "link_id": "t3_1gu5k07",
+      "parent_id": "t3_1gu5k07"
+    },
+    {
+      "id": "luno6id",
+      "body": "same issue bro. weirdly works when i hold the keyboard at an angle, also capital letters work",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1730355690,
+      "score": 1,
+      "link_id": "t3_17x9vdn",
+      "parent_id": "t1_lju743h"
+    },
+    {
+      "id": "lsvo51c",
+      "body": "I got V=456v and R4 = 819ohm since I(R4) is 46.4mA",
+      "author": "boredDODO",
+      "subreddit": "ECE",
+      "created_utc": 1729448433,
+      "score": 7,
+      "link_id": "t3_1g84cdh",
+      "parent_id": "t3_1g84cdh"
+    },
+    {
+      "id": "lsvhyq2",
+      "body": "Why does R4 have voltage is it ohm?",
+      "author": "boredDODO",
+      "subreddit": "ECE",
+      "created_utc": 1729446595,
+      "score": 8,
+      "link_id": "t3_1g84cdh",
+      "parent_id": "t3_1g84cdh"
+    },
+    {
+      "id": "lstl21o",
+      "body": "Yes I did through KCET 3000",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1729419444,
+      "score": 1,
+      "link_id": "t3_1g4vs39",
+      "parent_id": "t1_lstkhxt"
+    },
+    {
+      "id": "lsor09z",
+      "body": "Can’t really predict that bro some paper are more calculus some are more algebra, but most of the time it’s 42-50 questions from 2nd pu and 10-18 questions 1st pu",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1729347012,
+      "score": 1,
+      "link_id": "t3_1g4vs39",
+      "parent_id": "t1_lsoekau"
+    },
+    {
+      "id": "lso6xu5",
+      "body": "Practice more Lol, even I wasn’t strong in math, idk how I got a 100, the month after boards I did math most of the time to get faster. Concentrate more on 2nd PU for all the subjects",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1729338252,
+      "score": 1,
+      "link_id": "t3_1g4vs39",
+      "parent_id": "t1_lsn73m5"
+    },
+    {
+      "id": "lso6rdt",
+      "body": "For physics lab the lab el is expEYEs experiments and for chem lab usually your teachers arrange certain extra experiments from which you choose anything and do",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1729338157,
+      "score": 1,
+      "link_id": "t3_1g6myui",
+      "parent_id": "t3_1g6myui"
+    },
+    {
+      "id": "lsdksnv",
+      "body": "If I were you I’d worry less on marks and more on upskilling, if you are capable of delivering what they expect from you how does your 12th marks even matter",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1729178933,
+      "score": 3,
+      "link_id": "t3_1g5mjce",
+      "parent_id": "t1_lscb9mh"
+    },
+    {
+      "id": "lsdkjhh",
+      "body": "Microsoft and google are mass recruiters, they don’t have a 12th grade marks cutoff",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1729178852,
+      "score": 2,
+      "link_id": "t3_1g5mjce",
+      "parent_id": "t1_lscbupj"
+    },
+    {
+      "id": "lsc5uda",
+      "body": "Very very very few cases where they want 80+ maybe 2/500 companies",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1729156817,
+      "score": 5,
+      "link_id": "t3_1g5mjce",
+      "parent_id": "t3_1g5mjce"
+    },
+    {
+      "id": "lsbb2wi",
+      "body": "NCERT textbook + exemplar, KCET pyq and max east level JEE mains questions, for math try to learn shortcuts as much as possible and memorize answers of very long NCERT questions",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1729137661,
+      "score": 1,
+      "link_id": "t3_1g4vs39",
+      "parent_id": "t3_1g4vs39"
+    },
+    {
+      "id": "ls2kisv",
+      "body": "Go to Dean academics",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1729014085,
+      "score": 1,
+      "link_id": "t3_1g3n6bl",
+      "parent_id": "t3_1g3n6bl"
+    },
+    {
+      "id": "ls28uz6",
+      "body": "Simon was done dirty",
+      "author": "boredDODO",
+      "subreddit": "Sidemen",
+      "created_utc": 1729010426,
+      "score": 28,
+      "link_id": "t3_1g4ah11",
+      "parent_id": "t3_1g4ah11"
+    },
+    {
+      "id": "lrxmbfa",
+      "body": "CS in RVU has a minor in robotics CS2112 I think the course code, so the university contact RVCE ECE faculty to teach. And the faculty reached out to the college robotics team Astra robotics which I am a part of to take class. So me and 2-3 others were told to take that class on Thursdays. We are in second year and the students were in third",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728937994,
+      "score": 1,
+      "link_id": "t3_1f5rqd9",
+      "parent_id": "t1_lrwyhg1"
+    },
+    {
+      "id": "lrxl9jw",
+      "body": "It’s true RVCE will be affiliated to RVU soon, and RVU opening new campus in Mysore too",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728937666,
+      "score": 1,
+      "link_id": "t3_1fev9vz",
+      "parent_id": "t1_lmqism6"
+    },
+    {
+      "id": "lrumfwp",
+      "body": "I think comedk is removed from this year",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728897203,
+      "score": 5,
+      "link_id": "t3_1g3asyw",
+      "parent_id": "t3_1g3asyw"
+    },
+    {
+      "id": "lrr2q6k",
+      "body": "about a month after 1st day of actual class",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728841832,
+      "score": 2,
+      "link_id": "t3_1g2sfel",
+      "parent_id": "t3_1g2sfel"
+    },
+    {
+      "id": "lrokftg",
+      "body": "That’s 20 times my yearly tuition",
+      "author": "boredDODO",
+      "subreddit": "ksi",
+      "created_utc": 1728799205,
+      "score": 1,
+      "link_id": "t3_1euo35n",
+      "parent_id": "t3_1euo35n"
+    },
+    {
+      "id": "lra0lf7",
+      "body": "The long hair, man’s prepared",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1728579685,
+      "score": 2,
+      "link_id": "t3_1g0e9bt",
+      "parent_id": "t3_1g0e9bt"
+    },
+    {
+      "id": "lr33rcf",
+      "body": "Coding club, astra",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728479372,
+      "score": 1,
+      "link_id": "t3_1fvcli1",
+      "parent_id": "t1_lr1yrqu"
+    },
+    {
+      "id": "lqocd2g",
+      "body": "Nah starting from our batch (2026) it full electrical since formula Bharat is switching to electrical. Our batch car will finish in 2025. So from that year every car is electrical. And that’s just formula student. Ashwa also has a hyper loop team. That’s mainly electrical",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728247921,
+      "score": 1,
+      "link_id": "t3_1fvcli1",
+      "parent_id": "t1_lqnh1on"
+    },
+    {
+      "id": "lqn2hy8",
+      "body": "I mean I get that you probably just finished first year, but this CV is basic. You have to show recruiters about your passion. Most of the times it takes one good interesting project. For now you can explore microcontrollers if you like electronics and think about going in to Bare-metal projects by the end of second year.",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1728233570,
+      "score": 1,
+      "link_id": "t3_1fxjehb",
+      "parent_id": "t3_1fxjehb"
+    },
+    {
+      "id": "lqkzyzl",
+      "body": "Electrical engineering with a minor in robotics",
+      "author": "boredDODO",
+      "subreddit": "ECE",
+      "created_utc": 1728198271,
+      "score": 1,
+      "link_id": "t3_1fx93jr",
+      "parent_id": "t3_1fx93jr"
+    },
+    {
+      "id": "lqkq15o",
+      "body": "Pretty sure it’s a first year who just learnt binary 😂",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1728192257,
+      "score": -1,
+      "link_id": "t3_1fx86fx",
+      "parent_id": "t3_1fx86fx"
+    },
+    {
+      "id": "lqgpltc",
+      "body": "I’d suggest Ashwa you’ll improve a lot in analog, Astra for more embedded system, chimera and anthariksh are also very good",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728140123,
+      "score": 2,
+      "link_id": "t3_1fvcli1",
+      "parent_id": "t1_lqfkm91"
+    },
+    {
+      "id": "lqga65k",
+      "body": "Just borrow from someone",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728134535,
+      "score": 3,
+      "link_id": "t3_1fwlqoe",
+      "parent_id": "t3_1fwlqoe"
+    },
+    {
+      "id": "lqar1oj",
+      "body": "Idk if you’ll get for 3.4k, even if you do it’s a very difficult course and it’s more towards electrical than electronics, so you’ll have to put a little more effort if you want anything in the VLSI Silicon engineering domain",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728048926,
+      "score": 1,
+      "link_id": "t3_1fvs7yl",
+      "parent_id": "t1_lq9xwk0"
+    },
+    {
+      "id": "lqaquzl",
+      "body": "MSRIT electronics branch has reputed faculty too compared to even RVCE imo",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728048858,
+      "score": 2,
+      "link_id": "t3_1fvs7yl",
+      "parent_id": "t1_lq9rp4a"
+    },
+    {
+      "id": "lq9fsth",
+      "body": "MSRIT ECE",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728022198,
+      "score": 3,
+      "link_id": "t3_1fvs7yl",
+      "parent_id": "t3_1fvs7yl"
+    },
+    {
+      "id": "lq9caub",
+      "body": "KVL KCL ohms law. That’s probably enough for 10th grade",
+      "author": "boredDODO",
+      "subreddit": "AskElectricians",
+      "created_utc": 1728020053,
+      "score": 1,
+      "link_id": "t3_1fvqe3x",
+      "parent_id": "t3_1fvqe3x"
+    },
+    {
+      "id": "lq932xy",
+      "body": "There’s only few courses same, and even those, ETE has shitty teachers and paper would be made by ECE so the students struggle a lot.",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728015035,
+      "score": 1,
+      "link_id": "t3_1fueg2c",
+      "parent_id": "t1_lq4udg7"
+    },
+    {
+      "id": "lq92q8x",
+      "body": "Which branch are you in?",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1728014860,
+      "score": 1,
+      "link_id": "t3_1fvcli1",
+      "parent_id": "t3_1fvcli1"
+    },
+    {
+      "id": "lq8t4mm",
+      "body": "Next time al dente the broccolis before cooking them.",
+      "author": "boredDODO",
+      "subreddit": "tonightsdinner",
+      "created_utc": 1728010651,
+      "score": 1,
+      "link_id": "t3_1fvjhv6",
+      "parent_id": "t1_lq7hnip"
+    },
+    {
+      "id": "lq3ookx",
+      "body": "Because think about it like you said A and D are at the same potential, and Just like that B and C are at the same potential, this means the potential difference between on the resistors is the same and hence all the paths offer the same resistance and hence all three are parallel",
+      "author": "boredDODO",
+      "subreddit": "AskElectronics",
+      "created_utc": 1727939007,
+      "score": 0,
+      "link_id": "t3_1fv1fjc",
+      "parent_id": "t3_1fv1fjc"
+    },
+    {
+      "id": "lpyve1d",
+      "body": "No",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727873400,
+      "score": 3,
+      "link_id": "t3_1fueg2c",
+      "parent_id": "t3_1fueg2c"
+    },
+    {
+      "id": "lpxl1wv",
+      "body": "lol avdhani",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727845619,
+      "score": 1,
+      "link_id": "t3_1fu78h0",
+      "parent_id": "t3_1fu78h0"
+    },
+    {
+      "id": "lprwl3f",
+      "body": "I guess the products are good, some problems faced is Mingos just says no thank you, I guess they did agree a couple years back but the students just weren’t that comfortable no demand no user retention",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727763872,
+      "score": 3,
+      "link_id": "t3_1ftgcgg",
+      "parent_id": "t1_lprsjdh"
+    },
+    {
+      "id": "lprhcv1",
+      "body": "Math Big L moment with Satish, Kannada hell but physics you’ve struck gold",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727755298,
+      "score": 1,
+      "link_id": "t3_1fszhw0",
+      "parent_id": "t3_1fszhw0"
+    },
+    {
+      "id": "lppd8rr",
+      "body": "Which subject?",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1727727340,
+      "score": 1,
+      "link_id": "t3_1fski7d",
+      "parent_id": "t3_1fski7d"
+    },
+    {
+      "id": "lpgdtew",
+      "body": "Around 15k for rent grocery utility bills etc, 2nd year electrical engineering in Bangalore",
+      "author": "boredDODO",
+      "subreddit": "Btechtards",
+      "created_utc": 1727590016,
+      "score": 5,
+      "link_id": "t3_1frwzue",
+      "parent_id": "t3_1frwzue"
+    },
+    {
+      "id": "lpg8724",
+      "body": "The thing is first year topics are easy as shit so as long as your thorough with the notes your fine. But don’t expect any free marks",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727586656,
+      "score": 2,
+      "link_id": "t3_1frbdis",
+      "parent_id": "t1_lpg7j2o"
+    },
+    {
+      "id": "lpg81io",
+      "body": "I think if you can do source transformation repeatedly you can apply millmans theorem and solve it easily",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1727586567,
+      "score": 1,
+      "link_id": "t3_1frpu2c",
+      "parent_id": "t3_1frpu2c"
+    },
+    {
+      "id": "lpg7uxz",
+      "body": "Let’s goo",
+      "author": "boredDODO",
+      "subreddit": "LenovoLOQ",
+      "created_utc": 1727586463,
+      "score": 2,
+      "link_id": "t3_1frvxjk",
+      "parent_id": "t3_1frvxjk"
+    },
+    {
+      "id": "lpfwt9k",
+      "body": "Super cooked math is shit, physics is shit, electrical good teacher doesn’t give marks, kannada is shit but no issue",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727580796,
+      "score": 1,
+      "link_id": "t3_1frbdis",
+      "parent_id": "t3_1frbdis"
+    },
+    {
+      "id": "lp8ng9o",
+      "body": "Yea RVCE also two ESCs I think MSR has 2 PLCs instead of",
+      "author": "boredDODO",
+      "subreddit": "BMSCE",
+      "created_utc": 1727468540,
+      "score": 1,
+      "link_id": "t3_1fqnumh",
+      "parent_id": "t1_lp6s5i7"
+    },
+    {
+      "id": "lp8a2gk",
+      "body": "Mark points that have same potential. You’ll realize all three resistors lie between the same potential, hence all three are parallel and therefore 1/3 ohms is the equivalent resistance",
+      "author": "boredDODO",
+      "subreddit": "ECE",
+      "created_utc": 1727464119,
+      "score": 1,
+      "link_id": "t3_1dv0khf",
+      "parent_id": "t3_1dv0khf"
+    },
+    {
+      "id": "lp89fov",
+      "body": "Babu sir, RIP",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727463910,
+      "score": 2,
+      "link_id": "t3_1fqtvb2",
+      "parent_id": "t3_1fqtvb2"
+    },
+    {
+      "id": "lp89auo",
+      "body": "Which branch are you in?",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727463866,
+      "score": 1,
+      "link_id": "t3_1fqtvb2",
+      "parent_id": "t3_1fqtvb2"
+    },
+    {
+      "id": "lowoafz",
+      "body": "Brother chill",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727293663,
+      "score": 1,
+      "link_id": "t3_1fp49ae",
+      "parent_id": "t3_1fp49ae"
+    },
+    {
+      "id": "lotrypb",
+      "body": "I use the air m1",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727254466,
+      "score": 1,
+      "link_id": "t3_1fovhnc",
+      "parent_id": "t3_1fovhnc"
+    },
+    {
+      "id": "loq1um9",
+      "body": "sports is not suspended, if you get selected in the team they rent outside courts for practice",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1727199537,
+      "score": 3,
+      "link_id": "t3_1foffov",
+      "parent_id": "t1_lopsdzr"
+    },
+    {
+      "id": "locbmrv",
+      "body": "I was inside but only 1 seat was available, and the moment I clicked it that went",
+      "author": "boredDODO",
+      "subreddit": "Coldplay",
+      "created_utc": 1727000459,
+      "score": 1,
+      "link_id": "t3_1fmo4bx",
+      "parent_id": "t3_1fmo4bx"
+    },
+    {
+      "id": "lo2p2yy",
+      "body": "Dude there are people who haven’t even enrolled yet like KCET 2nd extended round. They’ll miss everything right",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1726850251,
+      "score": 1,
+      "link_id": "t3_1fi0sco",
+      "parent_id": "t1_lnjcirq"
+    },
+    {
+      "id": "lo2ovqj",
+      "body": "Lmaoo no way, what about the students who haven’t enrolled yet",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1726850187,
+      "score": 1,
+      "link_id": "t3_1fi0sco",
+      "parent_id": "t1_lnkglw5"
+    },
+    {
+      "id": "lnwo21i",
+      "body": "I’m doing RV eee I’d suggest it. Granted some of the teachers will make you want to throw up but there are other teachers that you’ll be very thankful for. Also the department itself is not as cut throat as people think they are more considerate than other branches like ECE ETE and EIE. Couple of things to keep in mind yes the subjects are very tough and scoring well is pretty hard. You’re going to have to dedicate a lot of time to solve extra assignments and stuff. I probably work much harder than all my roommates who are in different electronics branches just to end up with a slightly higher CGPA. The teachers that teach well, don’t give marks easily, while the teachers that are less experienced give marks very easily. Also past few semesters we’ve had the best schedule compared to other branches. 3rd semester and 4th semester I never had class after lunch except global elective and one lab. Another thing is there will be some companies that won’t let you sit for placement, but that’s usually for CS roles so I don’t think it matters for you",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1726758521,
+      "score": 4,
+      "link_id": "t3_1fkigh0",
+      "parent_id": "t3_1fkigh0"
+    },
+    {
+      "id": "lnjc3eo",
+      "body": "They say it’s compulsory. But it’s not",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1726557258,
+      "score": 2,
+      "link_id": "t3_1fi0sco",
+      "parent_id": "t3_1fi0sco"
+    },
+    {
+      "id": "ln9i6r0",
+      "body": "It shows negative because you’ve taken that direction in your frame of reference. You can say the current is moving with 2A magnitude in a direction opposite to the one you’ve assumed",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1726415420,
+      "score": 1,
+      "link_id": "t3_1fhf993",
+      "parent_id": "t3_1fhf993"
+    },
+    {
+      "id": "ln9hp8n",
+      "body": "Rotaract",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1726415273,
+      "score": 1,
+      "link_id": "t3_1fhbue4",
+      "parent_id": "t3_1fhbue4"
+    },
+    {
+      "id": "ln24a6f",
+      "body": "Lol",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1726304327,
+      "score": 2,
+      "link_id": "t3_1fgfsqj",
+      "parent_id": "t3_1fgfsqj"
+    },
+    {
+      "id": "lm4rogc",
+      "body": "Nope",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1725811116,
+      "score": 0,
+      "link_id": "t3_1fbvl1h",
+      "parent_id": "t1_lm3k8b6"
+    },
+    {
+      "id": "llf310j",
+      "body": "I went to college wearing pajamas when I was a hostelite",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1725423711,
+      "score": 2,
+      "link_id": "t3_1f7v1oz",
+      "parent_id": "t3_1f7v1oz"
+    },
+    {
+      "id": "ll59pv4",
+      "body": "It means ur gonna get so fed up of the administration especially ECE with their professors who have holier than thou attitudes. But the crowd is amazing. You’ll be surrounded by some of the most brilliant brains in the country",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1725285130,
+      "score": 2,
+      "link_id": "t3_1epqcpj",
+      "parent_id": "t1_lhn4kqd"
+    },
+    {
+      "id": "lkxsrrh",
+      "body": "In what aspect. I’m a 2nd year student at RVCE and I take class for 3rd years minor in RVU",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1725162613,
+      "score": 2,
+      "link_id": "t3_1f5rqd9",
+      "parent_id": "t1_lkv2xvm"
+    },
+    {
+      "id": "li8fmtf",
+      "body": "The technical difference is BE is said to be more deeper, more theory a bit more complex than Btech. But Btech is more practical, more lab intensive more prepared for placement. But I don’t really see the difference when comparing different colleges",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1723727199,
+      "score": 1,
+      "link_id": "t3_1eryfkc",
+      "parent_id": "t3_1eryfkc"
+    },
+    {
+      "id": "li8e01g",
+      "body": "Same 😂",
+      "author": "boredDODO",
+      "subreddit": "Japaneselanguage",
+      "created_utc": 1723726574,
+      "score": 2,
+      "link_id": "t3_1erp213",
+      "parent_id": "t1_li0i1if"
+    },
+    {
+      "id": "li8dmpz",
+      "body": "About 5-6 without counting class or lab hours\nTo give context I am a sophomore in college studying electrical engineering in one of the most competitive colleges in India and finals and semester project due dates are approaching in a month",
+      "author": "boredDODO",
+      "subreddit": "NLUs",
+      "created_utc": 1723726430,
+      "score": 0,
+      "link_id": "t3_1esov0g",
+      "parent_id": "t3_1esov0g"
+    },
+    {
+      "id": "lhuqo3w",
+      "body": "Forever it will be like that, but the difference is placements in rvce start in 4th sem, while RVU It’s final year",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1723518118,
+      "score": 1,
+      "link_id": "t3_1ehefvy",
+      "parent_id": "t1_lg5eass"
+    },
+    {
+      "id": "lhmdvxn",
+      "body": "Chill bro, try finding friends who are joining ECE with you and start exploring. When you come inside anyways this college is going to destroy your soul. Enjoy your time now",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1723399170,
+      "score": 3,
+      "link_id": "t3_1epqcpj",
+      "parent_id": "t3_1epqcpj"
+    },
+    {
+      "id": "lgt6lpo",
+      "body": "But still NITC better imo",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1722968151,
+      "score": 1,
+      "link_id": "t3_1el78o8",
+      "parent_id": "t1_lgt6k1b"
+    },
+    {
+      "id": "lgt6k1b",
+      "body": "They offer the same in RVCE",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1722968137,
+      "score": 1,
+      "link_id": "t3_1el78o8",
+      "parent_id": "t1_lgqn65l"
+    },
+    {
+      "id": "lgmunue",
+      "body": "Lol RVCE 1.5",
+      "author": "boredDODO",
+      "subreddit": "JEENEETards",
+      "created_utc": 1722877369,
+      "score": 0,
+      "link_id": "t3_1ekos4i",
+      "parent_id": "t3_1ekos4i"
+    },
+    {
+      "id": "lg47fbh",
+      "body": "Your choices are pretty broad so I would think electronics engineering might be your cup of tea.",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1722592609,
+      "score": 3,
+      "link_id": "t3_1ei61fs",
+      "parent_id": "t3_1ei61fs"
+    },
+    {
+      "id": "lg0l2e2",
+      "body": "RVU will be sitting with RVCE for placements it’s confirmed",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1722537029,
+      "score": 2,
+      "link_id": "t3_1ehefvy",
+      "parent_id": "t3_1ehefvy"
+    },
+    {
+      "id": "lffjue7",
+      "body": "Obviously it will go up. Have you not seen Nvidia stocks breaking the roof. Semiconductor industry is one of the fastest growing markets in the world",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1722220879,
+      "score": 2,
+      "link_id": "t3_1ee6jhr",
+      "parent_id": "t1_lfcwv47"
+    },
+    {
+      "id": "lffjh4d",
+      "body": "For 88k u can get 4050 on Lenovo loq",
+      "author": "boredDODO",
+      "subreddit": "GadgetsIndia",
+      "created_utc": 1722220717,
+      "score": 1,
+      "link_id": "t3_1ee2anx",
+      "parent_id": "t3_1ee2anx"
+    },
+    {
+      "id": "lffjcph",
+      "body": "For 88k u can get 4050 on Lenovo loq",
+      "author": "boredDODO",
+      "subreddit": "GadgetsIndia",
+      "created_utc": 1722220663,
+      "score": 1,
+      "link_id": "t3_1ee2anx",
+      "parent_id": "t3_1ee2anx"
+    },
+    {
+      "id": "lffhti7",
+      "body": "Also BMS cse has increased cse core intake to 900 so competition will increase where as in rv even if u include all the CSE and aligned branches it will still be 600",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1722219980,
+      "score": 1,
+      "link_id": "t3_1edh9ye",
+      "parent_id": "t1_lf6x9we"
+    },
+    {
+      "id": "lfbxkcc",
+      "body": "Nothing bro please enjoy this time. Once you join college you won’t get this valuable time again. Travel with ur friends go on a trip party",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1722171877,
+      "score": 7,
+      "link_id": "t3_1ee6jhr",
+      "parent_id": "t3_1ee6jhr"
+    },
+    {
+      "id": "leuakj8",
+      "body": "Let’s say there is 3 seats left in your option A and there are 3 people with better ranks than you. Then obviously you won’t get a seat in that option. If u haven’t gotten a seat by round 2 anywhere then just see how many seats are available. See their cutoff in round 2. In round 3 the cutoffs drop by 300-500 (cs) 1-2k(circuits) 3-5k(non circuits) so just see that.",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1721895773,
+      "score": 2,
+      "link_id": "t3_1ebp5wc",
+      "parent_id": "t3_1ebp5wc"
+    },
+    {
+      "id": "lde94nz",
+      "body": "BMS got 900 seats in CSE this year. Otherwise it had the same number of seats as MSRIT.",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1721098926,
+      "score": 2,
+      "link_id": "t3_1e3ln6f",
+      "parent_id": "t3_1e3ln6f"
+    },
+    {
+      "id": "ld3bt36",
+      "body": "Both are good you decide whether you want electronics of computer science. And no taking ECE doesn’t mean you can learn CSE on the side. It’s hell of a burden so choose wisely",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720930152,
+      "score": 2,
+      "link_id": "t3_1e27rs0",
+      "parent_id": "t3_1e27rs0"
+    },
+    {
+      "id": "lckak2k",
+      "body": "BITS Goa what are you getting",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720641339,
+      "score": 1,
+      "link_id": "t3_1dznciu",
+      "parent_id": "t3_1dznciu"
+    },
+    {
+      "id": "lcjp7vd",
+      "body": "4th sem",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720634755,
+      "score": 1,
+      "link_id": "t3_1dwpo5c",
+      "parent_id": "t1_lc66w5v"
+    },
+    {
+      "id": "lc501q4",
+      "body": "If there were zero people in my position who got in. Then I would have less hope. If there were more people that means ETH looks at non IIT, IVY, NITs too",
+      "author": "boredDODO",
+      "subreddit": "ethz",
+      "created_utc": 1720408116,
+      "score": 1,
+      "link_id": "t3_1dwnk54",
+      "parent_id": "t1_lc0zomq"
+    },
+    {
+      "id": "lc0s6l1",
+      "body": "I don’t think so but I thought students who are in ETH who were in same or similar situations might answer",
+      "author": "boredDODO",
+      "subreddit": "ethz",
+      "created_utc": 1720347394,
+      "score": 0,
+      "link_id": "t3_1dwnk54",
+      "parent_id": "t1_lby8wom"
+    },
+    {
+      "id": "lc0m1pp",
+      "body": "Rvce",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720342893,
+      "score": 1,
+      "link_id": "t3_1dwpo5c",
+      "parent_id": "t1_lc00ujg"
+    },
+    {
+      "id": "lc0lymg",
+      "body": "It’s the number 1 engineering institute in Bangalore",
+      "author": "boredDODO",
+      "subreddit": "ethz",
+      "created_utc": 1720342829,
+      "score": 1,
+      "link_id": "t3_1dwnk54",
+      "parent_id": "t1_lbwra8p"
+    },
+    {
+      "id": "lbzk5hn",
+      "body": "If you won’t pure software for for ISE. If you want to know a little more depth about computer and hardware take CSE. ISE had the higher package of 92 LPA while averaging at 17 and CSE had highest of 67 while averaging at 20 lpa",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720320450,
+      "score": 1,
+      "link_id": "t3_1dwk5eq",
+      "parent_id": "t3_1dwk5eq"
+    },
+    {
+      "id": "lbzjxlr",
+      "body": "PES rushed their syllabus Ik my friends who were KCET toppers struggling to keep ahead and their cgpas are dropping rvce didn’t want to rush they didn’t mind the extra lateness they want to catch up in their own time. Most colleges speed up so that they’re on time for placement drive in 3rd and 4th year but that was never a concern for RVCE . 😂",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720320351,
+      "score": 0,
+      "link_id": "t3_1dwpo5c",
+      "parent_id": "t1_lbw7wum"
+    },
+    {
+      "id": "lbzjoh4",
+      "body": "Long*",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720320238,
+      "score": 1,
+      "link_id": "t3_1dwpo5c",
+      "parent_id": "t1_lbzjnek"
+    },
+    {
+      "id": "lbzjnek",
+      "body": "Right now because VTU is behind other university timelines they’re cutting down on holidays. I got a month after sem 1 and sem2 each but after sem 3 I got 2 days. If they start the academic year for y’all in September you can expect 1 month after sem 1,2,3 and 1.5 months after sem 4. 1 month after sem 5 and 2 months after sem 6. They push you to have an internship after every even semester that’s why even sem holidays are ling",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720320225,
+      "score": 2,
+      "link_id": "t3_1dwpo5c",
+      "parent_id": "t3_1dwpo5c"
+    },
+    {
+      "id": "lbzj5el",
+      "body": "Industry opportunities, the student body, the number of student clubs, Bangalore’s best entrepreneurship cell. The amount of research opportunities that start from 1st year. The emphasis of experiential learning projects starting from semester 1.",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720320001,
+      "score": 1,
+      "link_id": "t3_1dwr5jj",
+      "parent_id": "t1_lbx6nm1"
+    },
+    {
+      "id": "lbvooy5",
+      "body": "If you think you can take ECE and study SDE at the same time your wrong. But if you’re interested in electronics obviously ECE. Rvce EEE is another level altogether would not suggest it if you have no interest in it. Extremely tough branch with tough strict teachers",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720265442,
+      "score": 1,
+      "link_id": "t3_1dwkmiv",
+      "parent_id": "t3_1dwkmiv"
+    },
+    {
+      "id": "lbna9on",
+      "body": "I agree with this but just know that CSE means Computer engineering so you’ll have IOT and embedded systems so some hardware. ISE is pure software engineering. So if ur into pure software prefer ISE",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720124064,
+      "score": 3,
+      "link_id": "t3_1dva5ca",
+      "parent_id": "t3_1dva5ca"
+    },
+    {
+      "id": "lbkn7bg",
+      "body": "I’m a student in RVCE",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1720084406,
+      "score": 1,
+      "link_id": "t3_1dqcx1l",
+      "parent_id": "t1_laz3uli"
+    },
+    {
+      "id": "lbkn373",
+      "body": "It means you’ll have more competition for placement",
+      "author": "boredDODO",
+      "subreddit": "MSRITians",
+      "created_utc": 1720084323,
+      "score": 1,
+      "link_id": "t3_1czp630",
+      "parent_id": "t1_lbd3ass"
+    },
+    {
+      "id": "lbctrea",
+      "body": "Placement BMS higher studies MSRIT",
+      "author": "boredDODO",
+      "subreddit": "MSRITians",
+      "created_utc": 1719959227,
+      "score": 2,
+      "link_id": "t3_1czp630",
+      "parent_id": "t1_lbbwzer"
+    },
+    {
+      "id": "laseevb",
+      "body": "Rvce EIE does not exist anymore",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719636102,
+      "score": 1,
+      "link_id": "t3_1dqcx1l",
+      "parent_id": "t3_1dqcx1l"
+    },
+    {
+      "id": "lan2kps",
+      "body": "Delete everything and install linux",
+      "author": "boredDODO",
+      "subreddit": "GamingLaptops",
+      "created_utc": 1719553950,
+      "score": 1,
+      "link_id": "t3_1dq36qi",
+      "parent_id": "t3_1dq36qi"
+    },
+    {
+      "id": "lan2cbx",
+      "body": "Totally depends on you. If you use the opportunities wisely they will come in your Favor. If you just do some nonsense crap to get marks then that’s all you’ll get",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719553817,
+      "score": 1,
+      "link_id": "t3_1dqa1j5",
+      "parent_id": "t3_1dqa1j5"
+    },
+    {
+      "id": "lahwa52",
+      "body": "CSE>ISE>AIML>DS>CY",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719479882,
+      "score": 0,
+      "link_id": "t3_1dpl2vk",
+      "parent_id": "t3_1dpl2vk"
+    },
+    {
+      "id": "la94wl2",
+      "body": "Yea. But this was when I was taking admission 2 years ago now they might have hiked up the price",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719344221,
+      "score": 1,
+      "link_id": "t3_1dn7s2v",
+      "parent_id": "t1_la426a8"
+    },
+    {
+      "id": "la94nb5",
+      "body": "Sure",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719344137,
+      "score": 1,
+      "link_id": "t3_1dkxoon",
+      "parent_id": "t1_l9q5w91"
+    },
+    {
+      "id": "la7b034",
+      "body": "Bits bro if you come rvce I’ll find you and slap you",
+      "author": "boredDODO",
+      "subreddit": "kcet",
+      "created_utc": 1719321895,
+      "score": 1,
+      "link_id": "t3_1dinpp8",
+      "parent_id": "t3_1dinpp8"
+    },
+    {
+      "id": "la7asg1",
+      "body": "I’m a student in rvce studying EEE and the same time I have my closest friend studying EEE in manipal. So you might want to listen to me. In no way am I forcing you. \n\nRVCE is for the most sought after college in “KCET” not Karnataka overall, just KCET and COMEDK. I chose EEE in RVCE even though I had ECE in manipal through SAGES and MET, I also had ECE in RVCE through COMEDK. The reason simply being “quality of students” RVCE has the creamiest layer of toppers in Karnataka. I have met some of the most craziest kids in RVCE and it has for sure opened a lot of doors for me. The main plus side of being in rvce is that it’s small, has a very good legacy and the students are just fucking smart and not just in CSE. One of the smartest guys Ik are in biotech, mech and instrumentation engineering. Ik some people compare rvce to NIT. But no I don’t think we have the same opportunities that a NIT student has nevertheless I can say academics might be comparable. \n\nComing to academics. RVCEs syllabus is NOT the same as VTUs. Especially the grading criteria. On top of that Electrical dept is known as the hardest branch of engineering at RVCE. When you come to eee you are expected to put in long hours and a lot of work. You will be learning a lot of core related fundamental subjects. Even though we have electronics in the name you will be learning 75% electrical related subjects starting from 4th semester. Manipal is a little bit more lenient with the correction and testing standards most of my friends study a day or two before and end up with a 8.5+ in manipal eee. In eee rvce if u study a day before exam you can expect 7+ and that is if you atleast attended classes. We have 3 internal exams per semester for 50 marks each. 2 lab internals per subject for 50 marks each. 3 surprise quizzes for 10 marks each per subject that get directly added to your GPA. We also have a 40 mark sem project per subject called “experiential learning” in this your expected to apply everything you e learnt from all your subjects and make a prototype and present in front of a jury. This starts from semester 1. And our semester end exams are out of 100. This level of grading is not there even in NITs so yes academics in RVCE is hard. I myself have an 8.8 CGP at the end of 3rd sem and I’m 2nd in my class. \n\nNow college life. If u come rvce you’ll barely have a life. Manipal has one of the best college life’s I’ve ever seen. My friends are always having fun and the town of manipal is very student friendly so everything’s pretty cheap (compared to blore). On the other hand since it’s student friendly drugs and alcohol are more easily available there, not saying rvce is completely clean either. No college is free of this and that’s the truth. \n\nExtra curricular wise manipal is currently crushing the scene. Their formula team and mars rover team is destroying everyone internationally too. And this is because their administration is pretty good compared to other colleges. RVCEs administration is not at all good. Idk how many times I have regretted coming here. But there are equal number of times I’ve been thankfull for being here. \n\nAnother very good thing I like about being in eee at rvce is the class size. Since we’re a small college and my branch has 59 students this opens a LOT of doors for projects and research with less competition. \n\nAll in all it really depends on you. If ur willing to put a lot of work and really just want placement come to rvce. If u want to enjoy ur college year and do everything a bit chill you can go to manipal. Placement generally are same in both colleges maybe rvce has a 1-2lakh advantage. But that’s it. Just don’t think that oh I’ll go rvce and study DSA by myself lol you will not have time.",
+      "author": "boredDODO",
+      "subreddit": "Manipal_Academics",
+      "created_utc": 1719321810,
+      "score": 1,
+      "link_id": "t3_1dfj1ye",
+      "parent_id": "t3_1dfj1ye"
+    },
+    {
+      "id": "la0s4b5",
+      "body": "Tuition in KCET is around 97k comedk is 2.67 lakhs management depends on the branch and hostel is 1.23 including mess",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719216875,
+      "score": 2,
+      "link_id": "t3_1dn7s2v",
+      "parent_id": "t3_1dn7s2v"
+    },
+    {
+      "id": "l9pmjlu",
+      "body": "take IEM at rvce you’ll have plenty of time and this course teaches management",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1719024413,
+      "score": 2,
+      "link_id": "t3_1dkxoon",
+      "parent_id": "t3_1dkxoon"
+    },
+    {
+      "id": "l96tpsk",
+      "body": "I’d go for PES . If you are ready for the hectic schedule and pressure. It has a better coding culture and really into CSE. U’ll get placed well. RVCE CSE is a different breed. They have more of the engineering side too, u’ll deal with electronics embedded system and hardware architecture. The coding culture is a bit shite in RVCE but research in CSE and ISE is much better here than PES. Extra curriculars of course RVCE, and average placement in CSE here is 19 lpa for 2024 highest being 62 lpa. The highest on campus was in ISE with 92 LPA since they are more into core software.",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1718734084,
+      "score": 1,
+      "link_id": "t3_1dirgc6",
+      "parent_id": "t1_l96aycg"
+    },
+    {
+      "id": "l8schgb",
+      "body": "Put RVCE CS AIML right after ISE. This year onwards AIML is coming under CSE instead of having its own. Cybersecurity is good keep it. All these CS branches are 70% same only 3rd year ull have some specific courses while CSE core can choose between. AIML might have some alternate math courses from second year onwards",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1718492957,
+      "score": 7,
+      "link_id": "t3_1dgdi3k",
+      "parent_id": "t3_1dgdi3k"
+    },
+    {
+      "id": "l82ilw9",
+      "body": "Honestly other than a few hand picked companies most of them allow all branches to sit together for placement",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1718079144,
+      "score": 1,
+      "link_id": "t3_1d51eef",
+      "parent_id": "t1_l6ll66s"
+    },
+    {
+      "id": "l82ijbg",
+      "body": "BMS has more number of fests and it’s way older so their alumni network is large. On the other hand MSRIT has better academics less assignments the teachers are more chill and it’s a good place to go if you want to study abroad for your masters",
+      "author": "boredDODO",
+      "subreddit": "MSRITians",
+      "created_utc": 1718079106,
+      "score": 2,
+      "link_id": "t3_1czp630",
+      "parent_id": "t1_l77iegb"
+    },
+    {
+      "id": "l6lb8t6",
+      "body": "In RVCE CSE CY CD have 70% same syllabus in 3rd year there will be electives for cse and for cy and cd it will be less number of electives more number of specialization related subjects. AI and ISE for now have 50% different syllabus to CSE ISE has more software no hardware circuits or embedded systems while AIML has more math related courses in 2nd year",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1717225186,
+      "score": 1,
+      "link_id": "t3_1d51eef",
+      "parent_id": "t3_1d51eef"
+    },
+    {
+      "id": "l6a1ptu",
+      "body": "I’d say it might have been easier while I was there. But it’s never too late or impossible",
+      "author": "boredDODO",
+      "subreddit": "Japaneselanguage",
+      "created_utc": 1717041613,
+      "score": 1,
+      "link_id": "t3_1d32xyn",
+      "parent_id": "t1_l659qfz"
+    },
+    {
+      "id": "l6a1o1n",
+      "body": "Thank you so much",
+      "author": "boredDODO",
+      "subreddit": "Japaneselanguage",
+      "created_utc": 1717041588,
+      "score": 1,
+      "link_id": "t3_1d32xyn",
+      "parent_id": "t1_l64n859"
+    },
+    {
+      "id": "l604rrp",
+      "body": "It’s jayjay",
+      "author": "boredDODO",
+      "subreddit": "ksi",
+      "created_utc": 1716889966,
+      "score": 1,
+      "link_id": "t3_1bujane",
+      "parent_id": "t3_1bujane"
+    },
+    {
+      "id": "l5ub0kv",
+      "body": "Run some game at high graphics and overheat your laptop. Ants will come out. Happened to me once",
+      "author": "boredDODO",
+      "subreddit": "IndiaTech",
+      "created_utc": 1716784206,
+      "score": 3,
+      "link_id": "t3_1d1iigi",
+      "parent_id": "t3_1d1iigi"
+    },
+    {
+      "id": "l5prbss",
+      "body": "The only plus point for RVCE is the student body is insanely talented. Placements are insane with CSE bagging 19lakh avg this year and highest package being 92 lakhs. And the academics being extremely rigorous. But you won’t have a proper “college life”. It’ll just be assignments day and night.",
+      "author": "boredDODO",
+      "subreddit": "MSRITians",
+      "created_utc": 1716707010,
+      "score": 1,
+      "link_id": "t3_1czp630",
+      "parent_id": "t1_l5pr26m"
+    },
+    {
+      "id": "l5pr26m",
+      "body": "Blindly go to MIT Manipal. The extra curricular are funded well and they are destroying every other college in all inter collegiate competitions whether in robotics or formula student. I myself am from RVCE. RV is heavily academic. The syllabus might be comparable to other private colleges in Karnataka but the grading is extremely difficult and crossing 9 CGPA is a great ordeal. Our finals are out of 100 and we have 3 internals out of 50. We also have 3 surprise quizzes worth 10% of our final grade. On top of all of that there’s a semester project worth 20% of your grade using a component from each course you have starting from semester 1.",
+      "author": "boredDODO",
+      "subreddit": "MSRITians",
+      "created_utc": 1716706814,
+      "score": 1,
+      "link_id": "t3_1czp630",
+      "parent_id": "t3_1czp630"
+    },
+    {
+      "id": "l5li45k",
+      "body": "Take a drop",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1716634460,
+      "score": 1,
+      "link_id": "t3_1d05nat",
+      "parent_id": "t3_1d05nat"
+    },
+    {
+      "id": "l54tqeb",
+      "body": "Yea. Cover ncert textbooks exemplar pyqs mock test and also jee mains 2020-2022 pyq",
+      "author": "boredDODO",
+      "subreddit": "rvce",
+      "created_utc": 1716357985,
+      "score": 1,
+      "link_id": "t3_1cx2att",
+      "parent_id": "t3_1cx2att"
+    },
+    {
+      "id": "krqql14",
+      "body": "\"Don't do it. You're only 16. School doesn't matter that much, and you'll understand this when you grow up. Learn to do things you love, make friends, go out, and meet people who share your interests. You can even chat with me, and we'll get through this together. I was in your exact same place a couple of years ago, and now I'm living my best life, even though I'm not the smartest kid in my major, or the most athletic. I just like to live.\"",
+      "author": "boredDODO",
+      "subreddit": "Advice",
+      "created_utc": 1708680403,
+      "score": 3,
+      "link_id": "t3_1axw25z",
+      "parent_id": "t3_1axw25z"
+    },
+    {
+      "id": "krqm88k",
+      "body": "so 0.47uF is mfs?",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1708677246,
+      "score": 1,
+      "link_id": "t3_1axqxxk",
+      "parent_id": "t1_krqe0h1"
+    },
+    {
+      "id": "krqm4rh",
+      "body": "47nF just seems more right",
+      "author": "boredDODO",
+      "subreddit": "ElectricalEngineering",
+      "created_utc": 1708677179,
+      "score": 1,
+      "link_id": "t3_1axqxxk",
+      "parent_id": "t3_1axqxxk"
+    }
+  ]
+}

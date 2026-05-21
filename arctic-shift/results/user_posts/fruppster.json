@@ -1,0 +1,241 @@
+{
+  "username": "fruppster",
+  "posts": [
+    {
+      "id": "1d7wy59",
+      "title": "Which 4070 TI SUPER should I buy?",
+      "author": "fruppster",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1717507120,
+      "score": 0,
+      "num_comments": 5,
+      "selftext": "I'm returning my gigabyte 4070 ti super windforce oc because it has horrible coil whine.\n\nI decided I still want to get the same GPU but I don't know which manufacturer.\n\nI'm looking for low noise and good cooling, so **fan quality** is important. But I also am looking for a brand that is least likely to have **coil whine**. I know it's a lottery but some brands have more coil whine than others.\n\nWhich brands should I consider? Please share your experience if you have any of the models listed below.\n\nHere's a few examples on my radar:\n\nASUS TUF Gaming GeForce RTX 4070 Ti SUPER (not OC)\n\nGigabyte GeForce RTX 4070 Ti SUPER GAMING OC\n\nPNY GeForce RTX 4070 Ti SUPER VERTO OC\n\nPalit RTX 4070 Ti Super JetStream\n\nKFA2 GeForce RTX 4070 Ti Super EX GAMER",
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1d7wy59/which_4070_ti_super_should_i_buy/"
+    },
+    {
+      "id": "1d7wwtx",
+      "title": "Which 4070 TI SUPER should I buy?",
+      "author": "fruppster",
+      "subreddit": "nvidia",
+      "created_utc": 1717507016,
+      "score": 0,
+      "num_comments": 18,
+      "selftext": "I'm returning my gigabyte 4070 ti super windforce oc because it has horrible coil whine.\n\nI decided I still want to get the same GPU but I don't know which manufacturer.\n\nI'm looking for low noise and good cooling, so **fan quality** is important. But I also am looking for a brand that is least likely to have **coil whine**. I know it's a lottery but some brands have more coil whine than others. \n\nWhich brands should I consider? Please share your experience if you have any of the models listed below.\n\n\n\nHere's a few examples on my radar:\n\nASUS TUF Gaming GeForce RTX 4070 Ti SUPER (not OC)\n\nGigabyte GeForce RTX 4070 Ti SUPER GAMING OC\n\nPNY GeForce RTX 4070 Ti SUPER VERTO OC\n\nPalit RTX 4070 Ti Super JetStream\n\nKFA2 GeForce RTX 4070 Ti Super EX GAMER",
+      "url": "https://www.reddit.com/r/nvidia/comments/1d7wwtx/which_4070_ti_super_should_i_buy/"
+    },
+    {
+      "id": "1bxjqtf",
+      "title": "I dockerized my Nextcloud!",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712431221,
+      "score": 136,
+      "num_comments": 47,
+      "selftext": "For years I've been running my Nextcloud on bare metal. Now I finally decided to switch it to docker. I looked into Nextcloud All-In-One and it seems easy to deploy but it lacks configuration options like multiple domain names and putting it behind a traefik reverse proxy is kind of a pain to set up.\n\nYou can check out my solution on [GitHub](https://github.com/flor0/nextcloud-docker). I decided on a docker compose setup with nginx, php-fpm and redis in separate containers. Obviously it's for experts but it's a lot more configurable. than AIO. It's also just as easy to migrate to as with any bare metal setup and just as configurable.Yes it's still a pain to set up, but better than the bare metal version lol\n\nWhat do you guys think about putting the different components (webserver, php, redis, etc.) in separate containers like this? Feedback is greatly appreciated!",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1bxjqtf/i_dockerized_my_nextcloud/"
+    },
+    {
+      "id": "1bxjl6f",
+      "title": "I dockerized my Nextcloud!",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712430824,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "For years I've been running my Nextcloud on bare metal. Now I finally decided to switch it to docker. I looked into [Nextcloud All-In-One](https://github.com/nextcloud/all-in-one) and it seems easy to deploy but it lacks configuration options like multiple domain names and putting it behind a traefik reverse proxy is kind of a pain to set up.\n\nYou can check out my solution [on GitHub](https://github.com/flor0/nextcloud-docker). I decided on a docker compose setup with nginx, php-fpm and redis in separate containers. Obviously it's for experts but it's a lot more configurable. than AIO. It's also just as easy to migrate to as with any bare metal setup and just as configurable.Yes it's still a pain to set up, but better than the bare metal version lol\n\nWhat do you guys think about putting the different components (webserver, php, redis, etc.) in separate containers like this? Feedback is greatly appreciated!",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1bxjl6f/i_dockerized_my_nextcloud/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "m4knnt7",
+      "body": "Das ist genau meine Erfahrung an der ETH. Ich kenne viele, die unglaublich talentierte Informatiker sind, aber im ersten Jahr scheinbar durch Zufall rausgeschmissen wurden. Das liegt an den Prüfungen, die arbiträr schwer gemacht werden, um genau 60% rauszuschmeissen. Dazu wird jeweils die Notenskala nach der Prüfung angepasst.\n\nDie Qualität des Unterrichts finde isch auch extrem schlecht an der ETH. Sogar im Vergleich zu \"normalen\" Fachhochschulen in der Schweiz.",
+      "author": "fruppster",
+      "subreddit": "ethz",
+      "created_utc": 1735588366,
+      "score": 1,
+      "link_id": "t3_1hofxrz",
+      "parent_id": "t1_m49a91y"
+    },
+    {
+      "id": "m4kmnkf",
+      "body": "Kennst du Leute, die es \"einfach\" hatten und wenig lernen mussten?\n\nJeder Kollege, der es \"einfach\" hatte, hat in Wirklichkeit 12h am Tag gelernt und es einfach nicht gesagt oder untertrieben. Frage die Freundin oder Familie und es ist immer die gleiche Story. \n\nIch denke, wenn 60% (Informatik) im ersten Jahr durchfallen, ist das nicht ein individuelles Problem der Studenten sondern ein systemisches Problem der ETH. \n\nDie meisten, die Informatik wählen haben im Gymnasium auch Informatik/Mathe Schwerpunkte belegt. Es sind keine \"Künstler\" die hier durchfallen. Es sind Leute, die schon seit sie 12 sind programmieren, und anstatt eine Lehre zu machen sich zur ETH hochgearbeitet haben.\n\nIch stimme dir aber am Ende zu. Es hat zu viele Studierende *für die ETH* und deshalb wird hart gefiltert. Ich denke aber nicht, dass das der richtige Weg ist, wenn die Bevölkerung so wächst wie sie es tut.",
+      "author": "fruppster",
+      "subreddit": "ethz",
+      "created_utc": 1735588056,
+      "score": 1,
+      "link_id": "t3_1hofxrz",
+      "parent_id": "t1_m4jnd9l"
+    },
+    {
+      "id": "m4kl0sa",
+      "body": "Ich kenne einen, der hat seine Bachelorarbeit geschrieben und flog nachher wegen einem Grundlagenfach raus. Ouch! Aber ja was du sagst ist grundsätzlich korrekt.",
+      "author": "fruppster",
+      "subreddit": "ethz",
+      "created_utc": 1735587555,
+      "score": 1,
+      "link_id": "t3_1hofxrz",
+      "parent_id": "t1_m49sdv3"
+    },
+    {
+      "id": "lturjeq",
+      "body": "Well-made documentary. Entire wikipedia article confirming everything they said. Even from a human rights organization. You call that \"trust me bro\"? At this point nothing will ever change your mind",
+      "author": "fruppster",
+      "subreddit": "ethz",
+      "created_utc": 1729952646,
+      "score": 2,
+      "link_id": "t3_1gc2y1n",
+      "parent_id": "t1_ltu8473"
+    },
+    {
+      "id": "llmmekp",
+      "body": "It doesn't say that and if you would read more than just the first paragraph of my comment I even acknowledge that there's no *causation*",
+      "author": "fruppster",
+      "subreddit": "PoliticalCompassMemes",
+      "created_utc": 1725543802,
+      "score": -1,
+      "link_id": "t3_1f93jug",
+      "parent_id": "t1_lljx628"
+    },
+    {
+      "id": "l730rrd",
+      "body": "I checked in afterburner and I was able to change the power limit. Here's the GPU-Z screenshot for comparing gpu bios versions. Shame I got coil whine. The temps are also really good for me!\n\nhttps://i.redd.it/2stzydzdyk4d1.gif",
+      "author": "fruppster",
+      "subreddit": "nvidia",
+      "created_utc": 1717517967,
+      "score": 1,
+      "link_id": "t3_1d7wwtx",
+      "parent_id": "t1_l72ujve"
+    },
+    {
+      "id": "l72kj24",
+      "body": "Asus being the worst with coil whine is also what I heard. But this [techpowerup review](https://www.techpowerup.com/review/asus-geforce-rtx-4070-ti-super-tuf/39.html) shows it has the best thermals so I'm torn on this one. Not sure if the risk is worth it",
+      "author": "fruppster",
+      "subreddit": "pcmasterrace",
+      "created_utc": 1717512491,
+      "score": 1,
+      "link_id": "t3_1d7wy59",
+      "parent_id": "t1_l72f15e"
+    },
+    {
+      "id": "kyqqpj5",
+      "body": "This. And I like to configure my php-fpm myself. Which you can‘t do with the nextcloud image as far as I know.",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712652131,
+      "score": 1,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyh7p6f"
+    },
+    {
+      "id": "kyqqjjv",
+      "body": "The performance is butter smooth once I enabled memory caching in the nextcloud config.php file. Without that it‘s unusable",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712652003,
+      "score": 1,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyhxx9v"
+    },
+    {
+      "id": "kyqqfhm",
+      "body": "True. Thats the next thing I want to add when I have time. Right now I just use a cronjob on the host",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712651913,
+      "score": 1,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kylo325"
+    },
+    {
+      "id": "kyg7wad",
+      "body": "Thanks for sharing! Especially your optimizations I will look further into to improve my setup :)",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712484725,
+      "score": 3,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyg7duz"
+    },
+    {
+      "id": "kyg7pax",
+      "body": "I use [borgmatic](https://torsion.org/borgmatic/) which uses borg backup",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712484587,
+      "score": 1,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyg5tfh"
+    },
+    {
+      "id": "kyg49zi",
+      "body": "Yes, please! I‘d love some contributions :)",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712482112,
+      "score": 3,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kydx4dp"
+    },
+    {
+      "id": "kydd9ma",
+      "body": "Straight from [wikipedia](https://en.wikipedia.org/wiki/Redis): \n\n>In 2024 Redis switched to a different proprietary software license, styled as the Redis Source Available License v2, and the Server Side Public License v1, also for its core repository. As a consequence, the Linux Foundation created a fork under the name of Valkey, allowing community maintainers, contributors, and users to continue working on an open source version of the Redis database.\n\nBasically Redis went proprietary for those $$$",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712434803,
+      "score": 17,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kydc4bz"
+    },
+    {
+      "id": "kydatwn",
+      "body": "Literally had to just change one line for the docker image. The best drop-in replacement I could wish for. Thanks for the tip!",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712433894,
+      "score": 12,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyd9ork"
+    },
+    {
+      "id": "kyd9e84",
+      "body": "KeyDB advertises to be a redis drop-in replacement. Is this true in your experience? Might give this a shot!",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712433358,
+      "score": 13,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyd8u21"
+    },
+    {
+      "id": "kyd94ep",
+      "body": "Might be worth trying a redis fork. I will definitely replace it once Nextcloud officially supports something else.",
+      "author": "fruppster",
+      "subreddit": "selfhosted",
+      "created_utc": 1712433255,
+      "score": 4,
+      "link_id": "t3_1bxjqtf",
+      "parent_id": "t1_kyd85ib"
+    },
+    {
+      "id": "kvjwrpl",
+      "body": "Does anyone here have a samsung galaxy watch with calyxos? I‘m wondering if the app for that runs properly",
+      "author": "fruppster",
+      "subreddit": "CalyxOS",
+      "created_utc": 1710838021,
+      "score": 1,
+      "link_id": "t3_1bhj3tw",
+      "parent_id": "t3_1bhj3tw"
+    },
+    {
+      "id": "kh4ocnt",
+      "body": "Do you know if I graduate character A and create a new character B and I tag them, will character B become a season character like it used to with fugars timepiece?",
+      "author": "fruppster",
+      "subreddit": "blackdesertonline",
+      "created_utc": 1704843560,
+      "score": 1,
+      "link_id": "t3_18irs39",
+      "parent_id": "t1_kdpsv6i"
+    }
+  ]
+}
