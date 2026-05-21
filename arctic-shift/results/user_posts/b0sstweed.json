@@ -1,0 +1,86 @@
+{
+  "username": "b0sstweed",
+  "posts": [],
+  "comments": [
+    {
+      "id": "lonyj2y",
+      "body": "Might need to make sure that the default battery optimization (killing background processes) isn't running for your widgets. If the calendar is fine/updates normally when you open the app up manually, then this is probably your issue.",
+      "author": "b0sstweed",
+      "subreddit": "Honor",
+      "created_utc": 1727170652,
+      "score": 1,
+      "link_id": "t3_1fo8bte",
+      "parent_id": "t3_1fo8bte"
+    },
+    {
+      "id": "llltt3h",
+      "body": "I could connect, but there were sometimes issues if I let the computer sleep or hibernate for a time.  From reading the error logs, I think there may be an issue where the dock w/ PD is trying to negotiate the supplied power, and each time it does the laptop is switching power states/waking (this was the sleep error i was getting, just like a dozen usb 4 calls a minute during \"sleep\") and disconnecting the dock and reconnecting. And at some point it would just bug out.\n\n   \nRecently, I had to wipe and redo the windows installation (unrelated), and encountered the same display issues as before. This time I somewhat conceded defeat on the whole power + display + peripheral single cable and just went for separating the power (so using the asus charger + separate dock)  \nThis has more or less worked without bugs (though i did set all the usb4 devices to stay awake). Now the dock rarely has issues, and if it does, a quick replug fixes it instantly.\n\nWish i had a better solution for ya but this has been the lowest frustration method i've found so far.\n\nOh, updating to the most recent amd gpu driver on the asus website did clear up the occasional display errors i would get with docks. Though oddly it had to be fresh installed. Upgrading would break the display in worse ways somehow.....",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1725530975,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t1_lklss1t"
+    },
+    {
+      "id": "l401clo",
+      "body": "Ya these ones specifically: \n\nParade retimer\nhttps://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/Driver/USB/35968/Parade_Retimer_ROG_Parade_B_V1.0.012.00_35968_1.exe?model=ROG%20Zephyrus%20G14%20(2024)%20GA403\n\nAMD chipset:\nhttps://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/Driver/Chipset/36624/AMD_Chipset_DriverOnly_ROG_AMD_B_V1.2.0.124Sub2_36624_1.exe?model=ROG%20Zephyrus%20G14%20(2024)%20GA403\n\nMine is a thunderbolt 3 doc specifically. I will say, it kinda goes janky if I hibernate now?? But just regular sleep it never seems to have any problems anymore.\n\nI'll update if there are any more voodoo fixes..",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1715694167,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t1_l3ed4i9"
+    },
+    {
+      "id": "l39d9wj",
+      "body": "Reviving this after a minute, but after having some (I think) unrelated issues with my video card driver, I went back and DDU'd the amd drivers then fresh installed the amd graphics drivers, amd chipset drivers, and \"parade retimer\" usb drivers. \n\nSomewhere in that mess my TB3 issues cleared up. I can now use two displays and connected peripherals with the dock. This might be specific to my itec dock, but I thought I'd drop a note just in case!",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1715248518,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t1_l2oe375"
+    },
+    {
+      "id": "l0gluqj",
+      "body": "It is supposed to work. To quote intel's thunderbolt architecture docs: \"USB4 Specification Compliant\n\nBoth Thunderbolt™ 4 and Thunderbolt™ 3 technologies are compatible with the USB4 specification, allowing users to use Thunderbolt™ 4 and Thunderbolt™ 3 products with USB4 ports.\"\n\nhttps://www.intel.com/content/www/us/en/architecture-and-technology/thunderbolt/thunderbolt-3-vs-4.html\n\nHowever it's a bit finicky from what I've found, specifically with displays. I use an itec thunderbolt 3 dock w/ my 2024 g14, and I get the same error pop up but the dock itself more or less works. From time to time I need to reboot w/ the dock plugged in for it to work correctly. I also had less errors after I updated the amd chipset drivers from Asus' site. They did not auto install w/ windows update like i expected.\n\nI have the same laptop and it's been a little finicky for me. I can get the thunderbolt 3 dock I have (iTec?",
+      "author": "b0sstweed",
+      "subreddit": "ZephyrusG14",
+      "created_utc": 1713626587,
+      "score": 1,
+      "link_id": "t3_1c8nklf",
+      "parent_id": "t3_1c8nklf"
+    },
+    {
+      "id": "kz7k1jp",
+      "body": "Oh yeah, feel free to message me if you have other questions.",
+      "author": "b0sstweed",
+      "subreddit": "ethz",
+      "created_utc": 1712914602,
+      "score": 4,
+      "link_id": "t3_1c23mxf",
+      "parent_id": "t1_kz7jtq8"
+    },
+    {
+      "id": "kz7jtq8",
+      "body": "Well this was a good day to browse this subreddit. I'm maybe unusually able to help here. I did my undergrad at UCLA then later moved to ETH as a postdoc to work on bci. For your pros, I think you should mostly think about the lifestyle differences rather than the pure research differences. Both regions have good startup culture + a lot of bci research (both eth, epfl have good professors working on it). Plus, regionally, switzerland, germany and especially spain are originating a lot of new bci companies based on a lot of different technologies (graphene implants, tms, ultrasound, magnetic nanoparticles, etc.). EU actually recently announced a big push to work on some out there neuromodulation technologies (meta-brain as part of horizon europe). \n\n\n\nSimilarly, UC system obviously has plenty of research in this regard both based on electrode arrays and wireless neuromodulation tech. Both UCLA and UCI had some interesting stuff get published recently. \n\n\n\nNo matter what, I think you'll get a great education + prospects for joining a lab/company. I wouldn't worry about that so much as just working hard. I can't speak about the masters program specifically, but I know my lab has a dozen or so masters students working on different projects. As such, I'd honestly think harder about whether or not you want to move somewhere closer to home or try out a different country. For me personally, the reason I took the offer here over the ones back in the US was a lot about wanting to learn what it was like to live in europe. \n\n\n\nTo answer some of your other questions:\n\nReturning to america will not be difficult as an american. However trying to get a job in europe as an american if you don't go to school here is a bit more complicated. They have to show that your skills are unique/hard to find in europe generally. \n\nIIRC there's a period after you get your degree (6mo?) at eth where you essentially count as a local for job application purposes here. That's your best window to try and get a job here if you want one. fwiw, bad economy or w.e. aside, every bci company I interact with is hiring so I don't think they're particularly affected rn. \n\nResearch positions are kinda the same everywhere? It always depends on funding. Getting something as a masters student is pretty straight forward, but you're esssentially going to be asked to solve one specific problem (not around long enough to necessarily develop your own research). If you're thinking about higher education (which btw I would recommend if you're serious about trying to join a bci company), it's just a funding question. Both universities are famously good at getting funding so I don't really think of that as an issue. \n\nYou don't need swiss german for classes, but I'd recommend learning at least some passing german. As americans we really gotta beat the allegations about us sucking at languages ;-;\n\nEh if you're used to berkeley all the top education difficulty was kinda the same to me.",
+      "author": "b0sstweed",
+      "subreddit": "ethz",
+      "created_utc": 1712914444,
+      "score": 10,
+      "link_id": "t3_1c23mxf",
+      "parent_id": "t3_1c23mxf"
+    },
+    {
+      "id": "ktu8wa4",
+      "body": "Yep! This is what I do.",
+      "author": "b0sstweed",
+      "subreddit": "ROGAlly",
+      "created_utc": 1709854367,
+      "score": 1,
+      "link_id": "t3_1b8c2tj",
+      "parent_id": "t1_ktoxyiu"
+    }
+  ]
+}

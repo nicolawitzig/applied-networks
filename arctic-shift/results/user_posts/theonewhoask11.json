@@ -1,0 +1,2745 @@
+{
+  "username": "theonewhoask11",
+  "posts": [
+    {
+      "id": "1czv65b",
+      "title": "Advice for a fresher that can't find work related to CV?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1716584341,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "I live in a country where CV work is almost non existent, and if it exists, it will be mostly for people with masters and higher. How can someone who is just about to graduate find a job? How can I compete if an internship gets people with masters applying? It is even worse because remote work is very hard to find in this field.\n\n  \nI hope I'm not bad either, I studied Image Processing, ML, and DL. I can write networks from scratch using PyTorch, I make projects in 3D, I followed courses that made me write Image Processing algorithms in C/C++, understand and explain papers. Now, what can I do in my position? leave the field and switch to another? wait until I finish a masters and then hope for the best? what would you do in my position?",
+      "url": "https://www.reddit.com/r/computervision/comments/1czv65b/advice_for_a_fresher_that_cant_find_work_related/"
+    },
+    {
+      "id": "1cspbyf",
+      "title": "Any resources on how to calibrate 3 cameras to get their intrinsic and extrinsic parameters?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715791221,
+      "score": 2,
+      "num_comments": 19,
+      "selftext": "\nSo, basically, I have 3 cameras and I need to calibrate all 3 to start extracting the distance of some points.\n\nI'm even fine with the mathematical aspects of things which I can then take and try to turn it into code.\n\nThere is a catch though, I have 2 cameras of the same kind, and 1 laptop camera, can it still work or must I have 3 cameras of the same kind? ",
+      "url": "https://www.reddit.com/r/computervision/comments/1cspbyf/any_resources_on_how_to_calibrate_3_cameras_to/"
+    },
+    {
+      "id": "1csiy9m",
+      "title": "Inconsistent calibration ",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715774064,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "In my project, I'm trying to find the distance of moving 17 points, and when I calibrate my cameras they either become really accurate or not at all, so what could be the reason for that?",
+      "url": "https://www.reddit.com/r/computervision/comments/1csiy9m/inconsistent_calibration/"
+    },
+    {
+      "id": "1c61npu",
+      "title": "How to train a transformer in a different language using Hugging Face?",
+      "author": "theonewhoask11",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1713330746,
+      "score": 3,
+      "num_comments": 1,
+      "selftext": "I have a model that base's English, I need to train it using an Arabic dataset, how can I start? Do I train a tokenizer in Arabic and then train the transformer with it? or can I just fine-tune it after? \n\nI'm a bit lost, and it would be great if someone linked me a tutorial.",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1c61npu/how_to_train_a_transformer_in_a_different/"
+    },
+    {
+      "id": "1c3gz96",
+      "title": "When I try to use my fine-tuned Causal LM model to inference a prompt, I get nothing but the last word repeated multiple times.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1713055613,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "As the title suggest, every time I fine-tune my model, I get no  actual result, I just get the last word repeated multiple times. The  model I'm fine-tuning is [RoFormer](https://huggingface.co/docs/transformers/en/model_doc/roformer), and here is an example of what is happening:\n\n    >> prompt = \"Somatic hypermutation allows the immune system to\" \n    >> generator(prompt) \n    [{'generated_text': 'Somatic hypermutation allows the immune system to to to to'}]\n\nHere is a bit of details:-\n\n* I tried multiple datasets.  \n* I tried following the official documentation for training a Casual LM.   \n* The training, and validation losses are also really small.\n* The base language is Chinese.\n\nWhat am I missing?   ",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1c3gz96/when_i_try_to_use_my_finetuned_causal_lm_model_to/"
+    },
+    {
+      "id": "1c3glt1",
+      "title": "Is there a way to real-time 3D visualize without using a 3rd party program?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1713054493,
+      "score": 4,
+      "num_comments": 15,
+      "selftext": "I'm working on a real-time 3D project, but I need to find a way to visualized. I was thinking about sending it to Unity and then visualize it, but there has to be a better way.",
+      "url": "https://www.reddit.com/r/computervision/comments/1c3glt1/is_there_a_way_to_realtime_3d_visualize_without/"
+    },
+    {
+      "id": "1c3cbs3",
+      "title": "When I try to use my fine-tuned Causal LM model to inference a prompt, I get nothing but the last word repeated multiple times.",
+      "author": "theonewhoask11",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1713042763,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "As the title suggest, every time I fine-tune my model, I get no actual result, I just get the last word repeated multiple times. The model I'm fine-tuning is [RoFormer](https://huggingface.co/docs/transformers/en/model_doc/roformer), and here is an example of what is happening. \n\n    >> prompt = \"Somatic hypermutation allows the immune system to\"\n    >> generator(prompt)\n    [{'generated_text': 'Somatic hypermutation allows the immune system to to to to'}]\n\nHere is a bit of details: -\n\n* I tried multiple datasets.\n*  and I tried following the official documentation for training a Casual LM. \n* The training, and validation losses are also really small.\n* The base language is Chinese.\n\nWhat am I missing? ",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1c3cbs3/when_i_try_to_use_my_finetuned_causal_lm_model_to/"
+    },
+    {
+      "id": "1bxvuve",
+      "title": "I want to get into CUDA, can you recommend a book knowing that I have experience with C++?",
+      "author": "theonewhoask11",
+      "subreddit": "CUDA",
+      "created_utc": 1712465114,
+      "score": 11,
+      "num_comments": 4,
+      "selftext": "I have been studying AI and Computer Vision for a while now, but I noticed that knowing CUDA programming is really in demand for almost all the CV jobs, so I'm trying to learn it.\n\nI have some experience with programming in C/C++, so I'm not a entirely new, which means that the book not starting with C/C++ isn't a deal breaker. So, can you please recommend me some books to get started?",
+      "url": "https://www.reddit.com/r/CUDA/comments/1bxvuve/i_want_to_get_into_cuda_can_you_recommend_a_book/"
+    },
+    {
+      "id": "1bxuoht",
+      "title": "Can a transformer be fine-tuned for Open Domain QA?",
+      "author": "theonewhoask11",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1712461252,
+      "score": 2,
+      "num_comments": 0,
+      "selftext": "Using Huggingface, I have a transformer that I want to finetune on QA using my own dataset. The thing is, the dataset isn't in the SQuAD format, it is in this format:\n\n    \n[     \n    {         \n        \"question_id\": \"\",\n         \"answer_id\": \"\",\n         \"question\": \"\",\n         \"answer\": \"\"     \n    } \n]\n\n\nThis is exactly how I need it, a question and an answer, but how exactly can I train it with no context? Will I still use the QA pretrained transformer? or should I use something else?  \nAnyone dealt with something like this before?  \n",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1bxuoht/can_a_transformer_be_finetuned_for_open_domain_qa/"
+    },
+    {
+      "id": "1bxniy7",
+      "title": "Last 10 Matches For All Premier League Teams: Total Shots Allowed vs. xG Allowed Per Shot.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712440863,
+      "score": 39,
+      "num_comments": 32,
+      "selftext": "",
+      "url": "https://i.redd.it/9ai7qpnsbxsc1.png"
+    },
+    {
+      "id": "1bv0oo5",
+      "title": "How to finetune a transformer on an Open-Domain QA Dataset?",
+      "author": "theonewhoask11",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1712170123,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Using Huggingface, I have a transformer that I want to finetune on QA using my own dataset. The thing is, the dataset isn't in the SQuAD format, it is in this format: \n\n    [     \n        {         \n            \"question_id\": \"\",\n             \"answer_id\": \"\",\n             \"question\": \"\",\n             \"answer\": \"\"     \n        } \n    ]\n\nThis is exactly how I need it, a question and an answer, but how exactly can I train it with no context? Will I still use the QA pretrained transformer? or should I use something else? \n\nAnyone dealt with something like this before?",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1bv0oo5/how_to_finetune_a_transformer_on_an_opendomain_qa/"
+    },
+    {
+      "id": "1bgl4nv",
+      "title": "I need to make an Open-domain Dialogue chatbot, which models are currently the best?",
+      "author": "theonewhoask11",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1710637293,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1bgl4nv/i_need_to_make_an_opendomain_dialogue_chatbot/"
+    },
+    {
+      "id": "1bgl2i1",
+      "title": "I need to make an Open-domain Dialogue chatbot, which models are currently the best?",
+      "author": "theonewhoask11",
+      "subreddit": "LanguageTechnology",
+      "created_utc": 1710637120,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1bgl2i1/i_need_to_make_an_opendomain_dialogue_chatbot/"
+    },
+    {
+      "id": "1bfve5j",
+      "title": "Do you think CV is one of the hardest branches of CS?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710555572,
+      "score": 59,
+      "num_comments": 52,
+      "selftext": "When I started, I was told that CV is mostly AI, and getting into it isn't that hard, but when I actually got into it, I found out how difficult this field is. You basically need knowledge in linear algebra, calculus, geometry, AI, Image Processing, Signal Processing, knowledge of how cameras operate, camera calibration, 3D domain, etc.\n\nDon't get me wrong, I love the field, and I'm just wondering if it is just me who feels like this.",
+      "url": "https://www.reddit.com/r/computervision/comments/1bfve5j/do_you_think_cv_is_one_of_the_hardest_branches_of/"
+    },
+    {
+      "id": "1bfihqf",
+      "title": "How important are the concepts of physics and advanced statistics for ML/AI research?",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1710521348,
+      "score": 1,
+      "num_comments": 5,
+      "selftext": "As the title suggests, how important is understanding the concepts of physics and advanced statistics for high level ML/AI research? I'm asking because the more I read about advancements in the field, the more I realize that it is just borrowed concepts from physics and statistics, not all of course but a wide variety, is this a correct observation? Or am I mistaken?\n\nSorry if it seems like a dumb question, but I was just wondering, and I don't know where to ask.\n",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1bfihqf/how_important_are_the_concepts_of_physics_and/"
+    },
+    {
+      "id": "1bfifv6",
+      "title": "[D] How important are the concepts of physics and advanced statistics for ML/AI research?",
+      "author": "theonewhoask11",
+      "subreddit": "MachineLearning",
+      "created_utc": 1710521212,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1bfifv6/d_how_important_are_the_concepts_of_physics_and/"
+    },
+    {
+      "id": "1bfhpjj",
+      "title": "[D] How important are the concepts of physics and advanced statistics for ML/AI research?",
+      "author": "theonewhoask11",
+      "subreddit": "MachineLearning",
+      "created_utc": 1710519310,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1bfhpjj/d_how_important_are_the_concepts_of_physics_and/"
+    },
+    {
+      "id": "1bfhomf",
+      "title": "How important are the concepts of physics and advanced statistics for ML/AI research?",
+      "author": "theonewhoask11",
+      "subreddit": "MachineLearning",
+      "created_utc": 1710519247,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1bfhomf/how_important_are_the_concepts_of_physics_and/"
+    },
+    {
+      "id": "1bfhknl",
+      "title": "[D] How important is the concepts of physics for ML/AI research?",
+      "author": "theonewhoask11",
+      "subreddit": "MachineLearning",
+      "created_utc": 1710518965,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1bfhknl/d_how_important_is_the_concepts_of_physics_for/"
+    },
+    {
+      "id": "1bfhhq5",
+      "title": "How important is the concepts of physics for ML/AI research?",
+      "author": "theonewhoask11",
+      "subreddit": "MachineLearning",
+      "created_utc": 1710518752,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1bfhhq5/how_important_is_the_concepts_of_physics_for_mlai/"
+    },
+    {
+      "id": "1bc3evx",
+      "title": "What does \"noisy signals are sampled at a fixed frequencies\" mean?",
+      "author": "theonewhoask11",
+      "subreddit": "Physics",
+      "created_utc": 1710164360,
+      "score": 1,
+      "num_comments": 4,
+      "selftext": "It was a line that I found while reading a research paper, I have little experience with Physics, so a little help would be greatly appreciated ",
+      "url": "https://www.reddit.com/r/Physics/comments/1bc3evx/what_does_noisy_signals_are_sampled_at_a_fixed/"
+    },
+    {
+      "id": "1b4q8ln",
+      "title": "Will I have no chance of admission for masters studies, if I'm in the top 11%?",
+      "author": "theonewhoask11",
+      "subreddit": "ethz",
+      "created_utc": 1709391750,
+      "score": 1,
+      "num_comments": 9,
+      "selftext": "It is really tight on top in my University, we are only like 35+, but me and another 3 are very close to each other, and then there is a big dropoff for the next best. Anyway, will I have no chance to get accepted if I'm in top 11% (top 10.8% to be accurate)",
+      "url": "https://www.reddit.com/r/ethz/comments/1b4q8ln/will_i_have_no_chance_of_admission_for_masters/"
+    },
+    {
+      "id": "1b4q63m",
+      "title": "Will I have no chance of admission for a masters if I'm in top 11% of my University?",
+      "author": "theonewhoask11",
+      "subreddit": "ethz",
+      "created_utc": 1709391583,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "It is really tight on top in my University, we are only like 35+, but me and another 3 are very close to each other, and then there is a big dropoff for the next best. Anyway, will I have no chance to get accepted if I'm in top 11% (top 10.8% to be accurate)",
+      "url": "https://www.reddit.com/r/ethz/comments/1b4q63m/will_i_have_no_chance_of_admission_for_a_masters/"
+    },
+    {
+      "id": "1awdnh2",
+      "title": "Can Kalman Filter be used with a real time YOLO pose estimator (Getting a live feed) to decrease jittering?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1708526480,
+      "score": 14,
+      "num_comments": 19,
+      "selftext": "As the title suggest, I'm working with pose estimators, and I need them to be as accurate as possible. No pose estimator was good enough especially because of how resource heavy the bigger ones get.\n\nThat is why I'm thinking about working with a lighter pose estimator, and trying to fix its problems by introducing Kalman Filtering, does anyone know if this can work? and if it can't, what are my options?  ",
+      "url": "https://www.reddit.com/r/computervision/comments/1awdnh2/can_kalman_filter_be_used_with_a_real_time_yolo/"
+    },
+    {
+      "id": "1asibv5",
+      "title": "How to get MMPose to work on windows?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1708114407,
+      "score": 1,
+      "num_comments": 2,
+      "selftext": "I have been trying to get MMPose to work, but it seems like I can't install the necessary libraries on windows.  \n\n\nIt requires these 3 libraries:-   \n`>pip install -U openmim` \n\n`>mim install mmengine` \n\n`>mim install \"mmcv>=2.0.1\"` \n\n&#x200B;\n\nThe first one works fine, but CMD can't recognize mim no matter what I do, is there a fix?  \n\n\nAnd if there is none, what would be good alternatives to Yolov8 pose estimator beyond MediaPipe (Trying to test multiple before deciding)?  \n",
+      "url": "https://www.reddit.com/r/computervision/comments/1asibv5/how_to_get_mmpose_to_work_on_windows/"
+    },
+    {
+      "id": "19cuaht",
+      "title": "Possible major spoiler for the story mode discovered from Steam Achievements",
+      "author": "theonewhoask11",
+      "subreddit": "Tekken",
+      "created_utc": 1705925627,
+      "score": 18,
+      "num_comments": 19,
+      "selftext": "I don't know if this has been talked about before, but there are 2 achievements about a single chapter in the story\n\n**Hope**\n\n* How To Unlock: Finished Chapter 15 of The Dark Awakens with Jin Kazama victorious.\n\n**Despair**\n\n* How To Unlock: Finished Chapter 15 of The Dark Awakens with Kazuya Mishima victorious.\n\nLooks like we are heading to 2 paths in this game, like Mortal Kombat 11. Interested to see what are they planing for the future.",
+      "url": "https://www.reddit.com/r/Tekken/comments/19cuaht/possible_major_spoiler_for_the_story_mode/"
+    },
+    {
+      "id": "18xkv3q",
+      "title": "Projects to enhance the quality of my portfolio",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1704292660,
+      "score": 1,
+      "num_comments": 7,
+      "selftext": "So,  what projects would help me make my portfolio better? What kind of  projects would make me a better candidate in this job market?\n\nI'm,  hopefully, comfortable with Image Processing, Computer Vision (AI), and  I'm starting to get around CV in 3D space, so I'm open for complex/hard  projects.",
+      "url": "https://www.reddit.com/r/computervision/comments/18xkv3q/projects_to_enhance_the_quality_of_my_portfolio/"
+    },
+    {
+      "id": "18x2aqj",
+      "title": "Projects to enhance the quality of my portfolio",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1704234188,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "So, what projects would help me make my portfolio better? What kind of projects would make me a better candidate in this job market? \n\nI'm, hopefully, comfortable with Image Processing, Computer Vision (AI), and I'm starting to get around CV in 3D space, so I'm open for complex/hard projects.",
+      "url": "https://www.reddit.com/r/computervision/comments/18x2aqj/projects_to_enhance_the_quality_of_my_portfolio/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "l5jfz46",
+      "body": "I will try to do my best, then. And, I'm not that big when it comes to photogrammetry, right now all I made was a 3D motion detection using stereo. I really think I should go for SLAM/3D Reconstruction next, what do you think about that?  \n  \nAlso, can you recommend any websites where I can find remote jobs?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1716591654,
+      "score": 1,
+      "link_id": "t3_1czv65b",
+      "parent_id": "t1_l5jcwci"
+    },
+    {
+      "id": "l4t7mgb",
+      "body": "Assuming that Pep does leave after next season, and Arteta stays (I really don't see him leaving anytime soon). Who would be most likely to challenge Arsenal? City with whoever comes next? it would be the most likely imo, but the most boring answer.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716165715,
+      "score": 5,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t3_1cvghlw"
+    },
+    {
+      "id": "l4rgh2v",
+      "body": "Respect the dedication to being a hater.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716140473,
+      "score": 3,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4re6xl"
+    },
+    {
+      "id": "l4rf9fs",
+      "body": "Please, stop being so pessimistic. We came even closer this year compared to the last, we are definitely in this.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716140019,
+      "score": -1,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4re8ny"
+    },
+    {
+      "id": "l4reyty",
+      "body": "Last I checked, it was 13. Hope you come back from the championship quick 🙏",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139909,
+      "score": 2,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4rel0h"
+    },
+    {
+      "id": "l4remc2",
+      "body": "And that resulted in a grand total of......0 points.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139779,
+      "score": 2,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4re866"
+    },
+    {
+      "id": "l4reibh",
+      "body": "Enjoy your cabbage cup, it will be your last for a long while.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139737,
+      "score": -1,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4rdvjb"
+    },
+    {
+      "id": "l4refts",
+      "body": "2 whole points, peak.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139710,
+      "score": 0,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4rdq2r"
+    },
+    {
+      "id": "l4reemj",
+      "body": "How many points did you lot get?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139697,
+      "score": 0,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4re1vq"
+    },
+    {
+      "id": "l4rdp39",
+      "body": "Arsenal isn't shitting anything when they went 16-1-1 in the last 18, and hopefully they will be stronger next season.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139433,
+      "score": 11,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4rcv8v"
+    },
+    {
+      "id": "l4rdcf1",
+      "body": "It is funny af seeing the fans of the other 18 banter Arsenal when all they did was getting hammered by City, let alone challenge them.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716139301,
+      "score": -5,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t3_1cvghlw"
+    },
+    {
+      "id": "l4ranpp",
+      "body": "Where the fuck is anyone saying this? Spurs fans are trying so hard to be big, it is starting to be pathetic, you are forever a small club and your fans confirmed it this season.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716138318,
+      "score": -3,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t1_l4r8w2g"
+    },
+    {
+      "id": "l4qxd6m",
+      "body": "Arsenal players are playing like they are dead inside, and I can't blame them. I myself find watching anything other than Arsenal games a chore these days, hard to like football in its current state.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1716133373,
+      "score": 7,
+      "link_id": "t3_1cvghlw",
+      "parent_id": "t3_1cvghlw"
+    },
+    {
+      "id": "l4bs3tc",
+      "body": "The league has been done since the Villa game, I'm just enjoying my time shitting on the rest of the league.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715877022,
+      "score": -2,
+      "link_id": "t3_1ct7r7u",
+      "parent_id": "t1_l4bqiau"
+    },
+    {
+      "id": "l4bpgju",
+      "body": "West Ham are going to show the world that they aren't a joke of a club that is trying to act big when they will forever be small like Spurs, they are instead going to show the world that they are massive for a reason.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715876103,
+      "score": -20,
+      "link_id": "t3_1ct7r7u",
+      "parent_id": "t3_1ct7r7u"
+    },
+    {
+      "id": "l4aoqcz",
+      "body": "Haha, man, can't believe I'm seeing you again. Remember a year ago when someone talked to you about trying to make a 3d motion capture and you helped and even linked your own project? That is me, and I'm actually doing things I never thought I'd do, thanks to you for real.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715862141,
+      "score": 2,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l4aoerf"
+    },
+    {
+      "id": "l47lqm0",
+      "body": "That is correct, I basically estimate each point every frame, it is inefficient, I know, but from my experience it resulted with the best accuracy and it makes life easier when I know for a fact a point will be the same across. \n\n\n\nThanks for the help with the camera question, appreciate it. I will start testing by putting 2 cameras at an angle and 1 front facing one, hopefully this will yield better results.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715805440,
+      "score": 2,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l47kf4e"
+    },
+    {
+      "id": "l47jkh8",
+      "body": "As I said to someone else, do you mean this by saying coupling 2 by 2?\n\n> So, basically:  \n> 1) Calibrate camera1  \n> 2) Calibrate camera2  \n> 3) Calibrate camera3  \n> 4) StereoCalibrate camera1 and camera 2 as stereo1  \n> 5) StereoCalibrate camera2 and camera 3 as stereo2  \n> 6) StereoCalibrate stereo1 and stereo2\n\nI thought about using the one euro filter, but I failed to see how that would help with the distance, and I also thought about using Kalman as a tracker, but what would be there to track if the estimations are messed up from the get go? and from my understanding of Kalman, it won't really help if the estimations are all over the place.\n\n  \nI'm just trying to achieve consistence and higher accuracy, I did get the program to work as I intended before, but it is very unreliable, and I don't like that.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715804682,
+      "score": 2,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l47hqti"
+    },
+    {
+      "id": "l47iqdf",
+      "body": "So, basically:  \n1) Calibrate camera1  \n2) Calibrate camera2  \n3) Calibrate camera3  \n4) StereoCalibrate camera1 and camera 2 as stereo1  \n5) StereoCalibrate camera2 and camera 3 as stereo2  \n6) StereoCalibrate stereo1 and stereo2",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715804392,
+      "score": 1,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l47fuzv"
+    },
+    {
+      "id": "l47fhk3",
+      "body": "Could be, but I am trying to see what could be the cause of the problem. I basically have 2 front facing cameras that I stereo calibrate, I use them to calculate the distance of 17 moving points from the camera. The problem comes from here, the further the points get, the worse the accuracy and it gets bad fast, and when I started to test and toying with how I calibrate the accuracy sometimes become really good, but most times, it is really bad. So, I asked here, and someone reinforced my idea of trying out different methods and maybe having a 3rd cam might increase the precision. That is why I was looking to add a 3rd camera, and possibly use Charuco calibration instead of the normal checkerboard.\n\n  \nAny help would be greatly apperciated.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715803268,
+      "score": 2,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l47dh80"
+    },
+    {
+      "id": "l47cr8h",
+      "body": "To increase my precision, I was working with 2, but they really weren't doing the job as much as I wanted.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715802333,
+      "score": 2,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l4755w4"
+    },
+    {
+      "id": "l46txix",
+      "body": "I get that each camera has it's intrinsic parameters, and the extrinsic parameters are just there to calculate the rotation and translation of the camera at its current position and it changes if the camera changes. I'm just asking to make sure that I'm fine, I really hate starting something without being 100% sure it would work, you know?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715795845,
+      "score": 0,
+      "link_id": "t3_1cspbyf",
+      "parent_id": "t1_l46seku"
+    },
+    {
+      "id": "l4643dq",
+      "body": "I will start by using Charuco method instead of the classical one, and I will use 3 cameras instead of 2. Now, that being said, as I said before, I have 2 cameras of the same model, and to introduce a new one I will maybe start with my laptop's camera because I can't buy a new one for now, will that be fine? I don't think it would make a difference, but I just want to be sure.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715787080,
+      "score": 1,
+      "link_id": "t3_1csiy9m",
+      "parent_id": "t1_l45nrr5"
+    },
+    {
+      "id": "l45zt77",
+      "body": "The only thing that I'm scared of is the mentality of our team getting destroyed as a result of getting so close 2 years in a row just to not win it. I hope this team comes out of this even stronger.",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1715785608,
+      "score": 7,
+      "link_id": "t3_1csfgff",
+      "parent_id": "t3_1csfgff"
+    },
+    {
+      "id": "l45mfdx",
+      "body": "I think it is a combination of those 2 things, I do classical stereo with 2 front facing cameras and it does get less accurate the more I move away, what would be the solution for that? What other types of Stereo can I use? I'm thinking of introducing a 3rd camera, but it would be different than the 2 that I'm currently working with, would that be fine/helpful?\n\nI'm actively working on this by actually getting a big enough board to make the checkerboard as obvious as possible, I somewhat followed the points and found out that sometimes the points get tangled and it doesn't calibrate the same point from the 2 images that I take, so this might be fixed.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715780838,
+      "score": 2,
+      "link_id": "t3_1csiy9m",
+      "parent_id": "t1_l45ljrv"
+    },
+    {
+      "id": "l45kb83",
+      "body": "I meant calculating the distance of 17 moving points, apologies.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1715780028,
+      "score": 2,
+      "link_id": "t3_1csiy9m",
+      "parent_id": "t1_l45a12d"
+    },
+    {
+      "id": "l42pzxm",
+      "body": "They always fall for it, which I find somewhat funny tbh.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715727589,
+      "score": 1,
+      "link_id": "t3_1croef1",
+      "parent_id": "t1_l42dyko"
+    },
+    {
+      "id": "l425roa",
+      "body": "Really not the time for your baits, man.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715720269,
+      "score": 1,
+      "link_id": "t3_1croef1",
+      "parent_id": "t1_l425hj6"
+    },
+    {
+      "id": "l4259ib",
+      "body": "Back to back to back painful ends to our seasons. This is painful.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715720098,
+      "score": -1,
+      "link_id": "t3_1croef1",
+      "parent_id": "t1_l424lce"
+    },
+    {
+      "id": "l424q0e",
+      "body": "City being shit match after match and they still win them all by a couple of goals at least, this league is genuinely finished, dogshit teams.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715719920,
+      "score": 3,
+      "link_id": "t3_1croef1",
+      "parent_id": "t3_1croef1"
+    },
+    {
+      "id": "l423be4",
+      "body": "Washed af, joke of a player these days.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715719462,
+      "score": -18,
+      "link_id": "t3_1cs2not",
+      "parent_id": "t3_1cs2not"
+    },
+    {
+      "id": "l41t2io",
+      "body": "Didn't score and was offside, phew.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715716028,
+      "score": 3,
+      "link_id": "t3_1crzs3g",
+      "parent_id": "t3_1crzs3g"
+    },
+    {
+      "id": "l41p4hm",
+      "body": "Beyond all jokes, this is their job, we don't intentionally do shit in our jobs when we feel like it unless we want to get punished. It is very understandable for the players/manager. Such a bizarre match.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715714688,
+      "score": 1,
+      "link_id": "t3_1crzs3g",
+      "parent_id": "t1_l41oo5m"
+    },
+    {
+      "id": "l3uouey",
+      "body": "To dare is to do, coys!\n\nI really hate this timeline, but what can I do.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715609240,
+      "score": 5,
+      "link_id": "t3_1cqwhh9",
+      "parent_id": "t3_1cqwhh9"
+    },
+    {
+      "id": "l3qlbp5",
+      "body": "Of course, and I'm actually Spurs biggest fan on Tuesday. I simply bleed white fr fr.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715536174,
+      "score": 13,
+      "link_id": "t3_1cq69g3",
+      "parent_id": "t1_l3ql4hf"
+    },
+    {
+      "id": "l3qkyof",
+      "body": "r/coys is peak right now. It is really funny seeing them wishing for their team to lose this hard, lmao.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715536039,
+      "score": 7,
+      "link_id": "t3_1cq69g3",
+      "parent_id": "t3_1cq69g3"
+    },
+    {
+      "id": "l3p8p0x",
+      "body": "Chelsea has a real chance of finishing 6th, and maybe even 5th if Tottenham shit the bed hard enough. This league is a joke.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715516022,
+      "score": 7,
+      "link_id": "t3_1cq69g3",
+      "parent_id": "t3_1cq69g3"
+    },
+    {
+      "id": "l3knko1",
+      "body": "I seriously expected nothing, and somehow I got an even worse result. They are going to match, and maybe even surpass our GD, lmao.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715434808,
+      "score": 8,
+      "link_id": "t3_1cphji3",
+      "parent_id": "t3_1cphji3"
+    },
+    {
+      "id": "l3kid5p",
+      "body": "Best lawyers on the plant, you will never sing that 🗣️🔥🔥",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715432381,
+      "score": 1,
+      "link_id": "t3_1cpfa25",
+      "parent_id": "t1_l3ki0u1"
+    },
+    {
+      "id": "l3khtb3",
+      "body": "This has to be bait",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715432112,
+      "score": 0,
+      "link_id": "t3_1cpfa25",
+      "parent_id": "t1_l3khqgg"
+    },
+    {
+      "id": "l3khntj",
+      "body": "Did you just start supporting City?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715432037,
+      "score": 0,
+      "link_id": "t3_1cpfa25",
+      "parent_id": "t1_l3khieh"
+    },
+    {
+      "id": "l3khgka",
+      "body": "No, everyone hates you because you are a bunch of cheating fucks who are proud of it.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715431938,
+      "score": -4,
+      "link_id": "t3_1cpfa25",
+      "parent_id": "t1_l3kh9f8"
+    },
+    {
+      "id": "l3khcjy",
+      "body": "Seriously hope Fulham gets relegated, such a shit team.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715431884,
+      "score": -4,
+      "link_id": "t3_1cpfa25",
+      "parent_id": "t3_1cpfa25"
+    },
+    {
+      "id": "l3kg8ll",
+      "body": "0 shots on goal\n0 shots\n0 xG\n\nWe watching peak today 🔥🔥",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715431327,
+      "score": 5,
+      "link_id": "t3_1cpfa25",
+      "parent_id": "t3_1cpfa25"
+    },
+    {
+      "id": "l3c6ig4",
+      "body": "Genuinely knew it was going to happen",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715288240,
+      "score": 1,
+      "link_id": "t3_1co7s22",
+      "parent_id": "t3_1co7s22"
+    },
+    {
+      "id": "l38ana0",
+      "body": "I'm wondering, do plastic or glory hunter still work for someone who starts to support teams during their worst eras? Like, let's say someone started supporting Arsenal during their horrid 8th seasons, what exactly was that person being plastic over? Or even better, someone starts supporting Spurs pre Poch, what glory hunting was that lad doing?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1715223479,
+      "score": -1,
+      "link_id": "t3_1cn854n",
+      "parent_id": "t3_1cn854n"
+    },
+    {
+      "id": "l2q98d7",
+      "body": "I'm trying, bro. I'm trying",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714937548,
+      "score": 1,
+      "link_id": "t3_1ckyki5",
+      "parent_id": "t1_l2q8hty"
+    },
+    {
+      "id": "l2q96wj",
+      "body": "These 3 are City's final games, which means I'm an Arsenal fan.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714937533,
+      "score": 14,
+      "link_id": "t3_1ckyki5",
+      "parent_id": "t1_l2q8zcs"
+    },
+    {
+      "id": "l2q832p",
+      "body": "I can see it after reading my comment again, especially with me having no flair, lmao.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714937119,
+      "score": 16,
+      "link_id": "t3_1ckyki5",
+      "parent_id": "t1_l2q7lhk"
+    },
+    {
+      "id": "l2q736t",
+      "body": "I officially give up, Fulham, Spurs, and West Ham and in a dogshit form, man. Nevertheless, I'm super proud of this season, and I'm even more hopeful for the next.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714936758,
+      "score": 56,
+      "link_id": "t3_1ckyki5",
+      "parent_id": "t3_1ckyki5"
+    },
+    {
+      "id": "l2p15s7",
+      "body": "Bellingham has 31 G/A in 37 games in all competitions for Real Madrid. I knew he was having a good season, but I didn't know it was that good.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714921276,
+      "score": 4,
+      "link_id": "t3_1ck91zc",
+      "parent_id": "t3_1ck91zc"
+    },
+    {
+      "id": "l2jfy42",
+      "body": "I rate Havertz very highly these days, I'm actually more than willing to see a full season of him as a striker seeing how much he improved.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714828736,
+      "score": 8,
+      "link_id": "t3_1cjiztq",
+      "parent_id": "t3_1cjiztq"
+    },
+    {
+      "id": "l2jff5j",
+      "body": "Um, the red card challenges that weren't even carded?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714828517,
+      "score": 3,
+      "link_id": "t3_1cjiztq",
+      "parent_id": "t1_l2jf1sp"
+    },
+    {
+      "id": "l2j3sto",
+      "body": "Same player doing a red card worthy challenge against 2 different players in 5 minutes and he doesn't even get carded lol",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714823257,
+      "score": 4,
+      "link_id": "t3_1cjy646",
+      "parent_id": "t3_1cjy646"
+    },
+    {
+      "id": "l2fjwfl",
+      "body": "Alright, gotcha. It just seemed really sarcastic to me, lol.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714759618,
+      "score": 1,
+      "link_id": "t3_1cis4e9",
+      "parent_id": "t1_l2fjquc"
+    },
+    {
+      "id": "l2fjjp3",
+      "body": "Was he that bad?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714759494,
+      "score": 0,
+      "link_id": "t3_1cis4e9",
+      "parent_id": "t1_l2fdfhe"
+    },
+    {
+      "id": "l2fjdkd",
+      "body": "I'm afraid to say it, but ever since Kroenke got the sole ownership of Arsenal, the club has been ran relatively well.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714759434,
+      "score": 3,
+      "link_id": "t3_1cis4e9",
+      "parent_id": "t3_1cis4e9"
+    },
+    {
+      "id": "l23etu4",
+      "body": "Courtois, who is one of the best keepers in the world, gets injured and his season ends very early on, and somehow Madrid finds a keeper that is almost as good sitting on their bench during the most important part of the season? Nah, man, this club is simply unfair.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714572512,
+      "score": 2,
+      "link_id": "t3_1ch7whf",
+      "parent_id": "t3_1ch7whf"
+    },
+    {
+      "id": "l1zw2k6",
+      "body": "We getting another pen with this one ⚽🦵🔥🔥🔥",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714510573,
+      "score": 55,
+      "link_id": "t3_1ch3h39",
+      "parent_id": "t3_1ch3h39"
+    },
+    {
+      "id": "l1nt40c",
+      "body": "Aren't you the biggest possible Arteta hater out there? I really don't know how you think he is bad after what he did with us.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714322331,
+      "score": 12,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t1_l1nsyoi"
+    },
+    {
+      "id": "l1nssxv",
+      "body": "Imagine if City's plan for Arteta went through? If you don't know, they wanted Arteta to be the manager after Pep. The league would have genuinely died if that happened, I don't even think someone would be able to compete especially with Liverpool falling off like that.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714322218,
+      "score": 1,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t3_1cew9ow"
+    },
+    {
+      "id": "l1neusa",
+      "body": "Seeing this thread, it looks like I'm really going to enjoy r/coys today",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714317003,
+      "score": 7,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t3_1cew9ow"
+    },
+    {
+      "id": "l1nenau",
+      "body": "I'm enjoying football so much these days, man.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714316925,
+      "score": 6,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t1_l1neibx"
+    },
+    {
+      "id": "l1nedxm",
+      "body": "I feel for you totally, now show us how good you really are against City.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714316827,
+      "score": 8,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t1_l1ndq4n"
+    },
+    {
+      "id": "l1ne9sw",
+      "body": "I swear my heart was racing, and I was sweating balls. I hate the NLD with passion.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714316783,
+      "score": 4,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t1_l1ndu6d"
+    },
+    {
+      "id": "l1ndy26",
+      "body": "Back to back away NLD wins, we flying.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714316662,
+      "score": 19,
+      "link_id": "t3_1cew9ow",
+      "parent_id": "t3_1cew9ow"
+    },
+    {
+      "id": "l1n0ygb",
+      "body": "Spuds getting fucked",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714311529,
+      "score": 1,
+      "link_id": "t3_1cf5q59",
+      "parent_id": "t3_1cf5q59"
+    },
+    {
+      "id": "l1mzrma",
+      "body": "[Kai Havertz, my beloved.](https://streamable.com/8cdb12)",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714311071,
+      "score": 0,
+      "link_id": "t3_1cf6dzk",
+      "parent_id": "t3_1cf6dzk"
+    },
+    {
+      "id": "l1mzrwq",
+      "body": "[Kai Havertz, my beloved.](https://streamable.com/8cdb12)",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714311071,
+      "score": 0,
+      "link_id": "t3_1cf6dzk",
+      "parent_id": "t3_1cf6dzk"
+    },
+    {
+      "id": "l1mz60d",
+      "body": "Why are shadowboxing rn?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714310812,
+      "score": 1,
+      "link_id": "t3_1cf5q59",
+      "parent_id": "t1_l1mz1qj"
+    },
+    {
+      "id": "l1mz1oa",
+      "body": "5 hours for checking this, lmao",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714310761,
+      "score": 5,
+      "link_id": "t3_1cf5q59",
+      "parent_id": "t3_1cf5q59"
+    },
+    {
+      "id": "l1c1fok",
+      "body": "Understanding Deep Learning is nice and it is relatively up to date.",
+      "author": "theonewhoask11",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1714129452,
+      "score": 2,
+      "link_id": "t3_1ccrab4",
+      "parent_id": "t1_l1addz8"
+    },
+    {
+      "id": "l18n5vg",
+      "body": "I'm going to go one further and say even the specialization courses are completely dwarfed by any good book.",
+      "author": "theonewhoask11",
+      "subreddit": "learnmachinelearning",
+      "created_utc": 1714072687,
+      "score": 5,
+      "link_id": "t3_1ccrab4",
+      "parent_id": "t3_1ccrab4"
+    },
+    {
+      "id": "l16pgnt",
+      "body": "As much as I like to banter Liverpool fans, I don't get why are people actually saying that the Klopp era wasn't that good because they only won 1 PL, 1CL, 1 FA, and 2 League Cups. They very much were one of the best sides in the world for quite a lot, and it isn't their fault that some cheats managed to win the league despite them achieving 92 and 97 points in 2 different seasons. I know in the future people will look back and say they didn't achieve much, but leave that to the people who weren't actively watching them like us. Do people actually watch football here or is it just stats?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1714045079,
+      "score": 8,
+      "link_id": "t3_1cckk3o",
+      "parent_id": "t3_1cckk3o"
+    },
+    {
+      "id": "l12xaj1",
+      "body": "Danny Welbeck of course. Nothing is going to defeat it, especially with the Wengz reactions.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713982675,
+      "score": 2,
+      "link_id": "t3_1cbrulc",
+      "parent_id": "t1_l12vha6"
+    },
+    {
+      "id": "l10ogdr",
+      "body": "Mine is the same, but with Arteta and Amorim switching places.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713949146,
+      "score": 4,
+      "link_id": "t3_1cbrulc",
+      "parent_id": "t1_l10o5ky"
+    },
+    {
+      "id": "l10nybz",
+      "body": "From this new generation of managers, how will you rank Arteta, Xavi, Amorim, Nagelsmann, Xabi, and Slot?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713948770,
+      "score": 3,
+      "link_id": "t3_1cbrulc",
+      "parent_id": "t3_1cbrulc"
+    },
+    {
+      "id": "l0y8d8h",
+      "body": "Just trying to be positive and enjoy how far this team've come 🙏",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713907209,
+      "score": 9,
+      "link_id": "t3_1caz0gv",
+      "parent_id": "t1_l0y7y6b"
+    },
+    {
+      "id": "l0y78q3",
+      "body": "Even if we end up winning nothing, mad proud of this team, and I'll be waiting eagerly for next season. What a team, man, loving life rn.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713906823,
+      "score": 8,
+      "link_id": "t3_1caz0gv",
+      "parent_id": "t3_1caz0gv"
+    },
+    {
+      "id": "l0y5iqn",
+      "body": "This is actually starting to make me sad, what are Chelsea fans these days 😭",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713906231,
+      "score": -2,
+      "link_id": "t3_1caz0gv",
+      "parent_id": "t1_l0y58iu"
+    },
+    {
+      "id": "l0y4zhc",
+      "body": "Whatever helps you sleep at night, bro",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713906052,
+      "score": -1,
+      "link_id": "t3_1caz0gv",
+      "parent_id": "t1_l0y4rtt"
+    },
+    {
+      "id": "l0y42qn",
+      "body": "I finally saw our revenge for the 6-0 and without a red card like these bums, get fucked Chelshit 🙏",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713905750,
+      "score": 7,
+      "link_id": "t3_1caz0gv",
+      "parent_id": "t3_1caz0gv"
+    },
+    {
+      "id": "l0mbaf2",
+      "body": "This is so surreal, how are Coventry outclassing United ??",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713719264,
+      "score": 1,
+      "link_id": "t3_1c9iy8z",
+      "parent_id": "t3_1c9iy8z"
+    },
+    {
+      "id": "l0hvhmd",
+      "body": "Bro, he literally kick his chin 😭",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713642664,
+      "score": 4,
+      "link_id": "t3_1c8wtqh",
+      "parent_id": "t1_l0hvb8n"
+    },
+    {
+      "id": "l0holwu",
+      "body": "We ride or die with our boss 🫡",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713640214,
+      "score": 8,
+      "link_id": "t3_1c8wtqh",
+      "parent_id": "t1_l0ho9qf"
+    },
+    {
+      "id": "l0gmzv4",
+      "body": "Liverpool and especially Arsenal ran out of gas 100%.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713627006,
+      "score": 4,
+      "link_id": "t3_1c8n8ff",
+      "parent_id": "t1_l0gmrl8"
+    },
+    {
+      "id": "l0gmfj3",
+      "body": "This PL title race ended up fucking all 3 teams' Europeans runs, it is going to extra sting for the 2 teams that won't win it ( pretending that City isn't going to win it, lol).",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713626798,
+      "score": 6,
+      "link_id": "t3_1c8n8ff",
+      "parent_id": "t3_1c8n8ff"
+    },
+    {
+      "id": "l0a3774",
+      "body": "Not going to lie, no matter how I try to forget or ignore, losing the CL and possibly also the PL in the span of 4 days is really making my head twist and turn. 2 seasons in a row is a bit much.\n\nIn other news, my respect to Liverpool fans has increased massively.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713523882,
+      "score": 4,
+      "link_id": "t3_1c72q7k",
+      "parent_id": "t3_1c72q7k"
+    },
+    {
+      "id": "l06icaq",
+      "body": "Vazquez going from a meme to a club cult hero at worst is something very admirable.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713464538,
+      "score": 5,
+      "link_id": "t3_1c72q7k",
+      "parent_id": "t3_1c72q7k"
+    },
+    {
+      "id": "l01tb6d",
+      "body": "Yeah, man. I started supporting during peak banter era, we aren't giving up on the team, we are just gutted :(",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1713389237,
+      "score": 1,
+      "link_id": "t3_1c6l220",
+      "parent_id": "t3_1c6l220"
+    },
+    {
+      "id": "l01rbd3",
+      "body": "If City wins back to back trebles, I'm giving up on anything football related.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713388583,
+      "score": 1,
+      "link_id": "t3_1c6am9d",
+      "parent_id": "t3_1c6am9d"
+    },
+    {
+      "id": "l01oawk",
+      "body": "Saka gets on fraud watch every time there is a hint of pressure in our season, a genuine heartbreak yet again. After supporting the team for so long, I thought I would get used to it......",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1713387611,
+      "score": 2,
+      "link_id": "t3_1c6ky12",
+      "parent_id": "t3_1c6ky12"
+    },
+    {
+      "id": "l01j56x",
+      "body": "He is so bad every time there is pressure",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1713385993,
+      "score": 1,
+      "link_id": "t3_1c6i6hi",
+      "parent_id": "t1_l01ix3o"
+    },
+    {
+      "id": "l01inrs",
+      "body": "Will we ever win a big match where we aren't favorites?",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1713385838,
+      "score": 4,
+      "link_id": "t3_1c6i6hi",
+      "parent_id": "t3_1c6i6hi"
+    },
+    {
+      "id": "l01aas0",
+      "body": "Germans try not to twerk for Bayern challenge (impossible)",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713383162,
+      "score": 3,
+      "link_id": "t3_1c6hpkn",
+      "parent_id": "t1_l01a58g"
+    },
+    {
+      "id": "l0188mx",
+      "body": "Not us missing every dangerous chance again, I'm tired, Robbie.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713382496,
+      "score": 5,
+      "link_id": "t3_1c6hpkn",
+      "parent_id": "t3_1c6hpkn"
+    },
+    {
+      "id": "kzslne9",
+      "body": "Technically, more than 1.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1713248423,
+      "score": 19,
+      "link_id": "t3_1c537kd",
+      "parent_id": "t1_kzsflya"
+    },
+    {
+      "id": "kzjuru9",
+      "body": "Anyone who actually studies the AI blackbox (aka the actual algorithms that are used) knows that the media and corporations are extremely hyping AI up. You can't even call it AI, imo, it is just fancy statistics and probability. The things we hear that are happening soon are bs that is just being spat out to eat up all of the investors money.",
+      "author": "theonewhoask11",
+      "subreddit": "csMajors",
+      "created_utc": 1713111978,
+      "score": 8,
+      "link_id": "t3_1c3jqxa",
+      "parent_id": "t1_kzhrjwj"
+    },
+    {
+      "id": "kzjhasw",
+      "body": "Please, please, please, Arsenal, don't lose the title. Don't let those cheating fucks win it again, please.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713107082,
+      "score": -5,
+      "link_id": "t3_1c37wuh",
+      "parent_id": "t3_1c37wuh"
+    },
+    {
+      "id": "kzh6m2y",
+      "body": "That seems interesting, and I will check it out for sure, even if I end up using OpenGL.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1713061044,
+      "score": 1,
+      "link_id": "t3_1c3glt1",
+      "parent_id": "t1_kzh31yc"
+    },
+    {
+      "id": "kzh6j8w",
+      "body": "Yea, I know about OpenGL. I used it multiple times before, but nothing advanced. It is just painful to work with, you know?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1713061010,
+      "score": 1,
+      "link_id": "t3_1c3glt1",
+      "parent_id": "t1_kzh682f"
+    },
+    {
+      "id": "kzgvpxb",
+      "body": "Oh, man. I have to use OpenGL, :(",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1713056321,
+      "score": 1,
+      "link_id": "t3_1c3glt1",
+      "parent_id": "t1_kzgvbds"
+    },
+    {
+      "id": "kzguet5",
+      "body": "Just points, I'm calculating the distance and I'm trying to visualize them.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1713055766,
+      "score": 1,
+      "link_id": "t3_1c3glt1",
+      "parent_id": "t1_kzgtkee"
+    },
+    {
+      "id": "kzfqj0j",
+      "body": "Really hope Xavi doesn't go to Chelsea, because I actually really rate him, man. Not only is Barca having a good league season (Real is just having a monstrous one), but they are also doing good in the UCL, and he is doing that after facing a really bad injury crisis. But, that isn't even the thing that makes me not want him at Chelsea, it is how good he is with incorporating the youth into the team, which is exactly what Chelsea needs these days.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1713041018,
+      "score": 12,
+      "link_id": "t3_1c37wuh",
+      "parent_id": "t3_1c37wuh"
+    },
+    {
+      "id": "kzav2ga",
+      "body": "AI is just fancy statistics, you pretty much fell victim to a hype",
+      "author": "theonewhoask11",
+      "subreddit": "MLQuestions",
+      "created_utc": 1712960273,
+      "score": 1,
+      "link_id": "t3_1c2kc54",
+      "parent_id": "t3_1c2kc54"
+    },
+    {
+      "id": "kz8s2oq",
+      "body": "I'd argue that edge detection alone could work since there is such a big difference between the 2 colors, but I agree on using a threshold being the best possible solution, and just to add to that, we can use erosion to make sure we don't get any unwanted white letters (like the ones in the background).",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1712934466,
+      "score": 1,
+      "link_id": "t3_1c2b3gu",
+      "parent_id": "t1_kz8r2o1"
+    },
+    {
+      "id": "kz4went",
+      "body": "After weeks of Liverpool fans saying how the UCL will mess with Arsenal and City because of their hard ties, they end up as the ones crashing and burning in Anfield in the Europa League. This is so funny, man.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712868982,
+      "score": 17,
+      "link_id": "t3_1c1omgj",
+      "parent_id": "t3_1c1omgj"
+    },
+    {
+      "id": "kz4azi4",
+      "body": "This has to be bait, the things you are mentioning are almost nothing when it comes to the actual job or requirements. Just off the top of my head, many job requirements demand:\n\nKnowledge of Image Processing \nKnowledge of cameras and 3D Domain\nKnowledge of CUDA\nKnowledge of mathematics and statistics \nKnowledge of C++ and Python\nKnowledge of Robotics\n\nThis might feel insane, but I kid you not, that is what this field demands. I'll give you a challenge right now to get my point across, it will be relatively simple, but it will give you an overall idea of what you can actually do. You have an object detection model that has been fine tuned to detect a specific object, and you are tasked with using only the nano/tiny version because that is what your hardware is going to handle, now use that model to find the distance of said object, you have to deal with the jitter without increasing the computation massively (aka no bigger models), and you will be using C++. I'd like to see how can you copy and paste this, and keep in mind, this is really simple for anyone who is actually studying the field beyond AI.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1712862016,
+      "score": 10,
+      "link_id": "t3_1c1m922",
+      "parent_id": "t3_1c1m922"
+    },
+    {
+      "id": "kz21lzr",
+      "body": "Teams, especially young ones, go through a rough patch. I get that it sucked, but a manager having to go because of a few bad matches (especially after winning the entire league the season before, mind you) is so bizarre to me.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712831784,
+      "score": 0,
+      "link_id": "t3_1c0wg4t",
+      "parent_id": "t1_kz219f2"
+    },
+    {
+      "id": "kz20zau",
+      "body": "I still don't know how or why Barca fans wanted Xavi out, a rough patch and all hell breaks loose.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712831387,
+      "score": 1,
+      "link_id": "t3_1c0wg4t",
+      "parent_id": "t3_1c0wg4t"
+    },
+    {
+      "id": "kyyrq9a",
+      "body": "Not going to lie, I'm actually a bit relaxed about next week. Bayern really have no idea what to do with the ball, and they will have it all next week. Almost all of their chances came from counter attacking football, and it is our turn to have some of that.\n\nWhatever happens, I'm proud of this team, and what they are doing.",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1712776910,
+      "score": 10,
+      "link_id": "t3_1c0g8kq",
+      "parent_id": "t3_1c0g8kq"
+    },
+    {
+      "id": "kytrjdp",
+      "body": "Genuinely, mad day, hate gifting this shit Bayern 2 goals but we ball.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712696368,
+      "score": 5,
+      "link_id": "t3_1bzccaa",
+      "parent_id": "t3_1bzccaa"
+    },
+    {
+      "id": "kytqmm3",
+      "body": "OK, I'm genuinely baffled this time, Neuer intentionally extended his leg. Why isn't it a pen?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712696074,
+      "score": 1,
+      "link_id": "t3_1c02x6i",
+      "parent_id": "t3_1c02x6i"
+    },
+    {
+      "id": "kyt9ziy",
+      "body": "Always feeling weird seeing other Bundesliga fans happy for Bayern.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712690503,
+      "score": 51,
+      "link_id": "t3_1c00mb4",
+      "parent_id": "t1_kyt9jdf"
+    },
+    {
+      "id": "kysf7qw",
+      "body": "22/23 for me, seeing us compete like that after years of being shit was something else.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712680064,
+      "score": 6,
+      "link_id": "t3_1bzccaa",
+      "parent_id": "t1_kyse35a"
+    },
+    {
+      "id": "kysf37c",
+      "body": "You knew magic was happening when he got the ball.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712680021,
+      "score": 4,
+      "link_id": "t3_1bzccaa",
+      "parent_id": "t1_kyse4i1"
+    },
+    {
+      "id": "kyscplx",
+      "body": "How come I still see you in my dreams, first half of the 22/23 season Arsenal?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712679208,
+      "score": 7,
+      "link_id": "t3_1bzccaa",
+      "parent_id": "t3_1bzccaa"
+    },
+    {
+      "id": "kyidzaa",
+      "body": "In a lot of CV jobs, you not only need to know research, PyTorch and TensorFlow, Image processing, Math, but also CUDA. It is something that I saw as a requirement for quite a lot of jobs. \n\nAlso, I found that understanding how Deep Learning works is literally the best way to learn PyTorch and TensorFlow, since they are just a way to easily formulate what you should already know.",
+      "author": "theonewhoask11",
+      "subreddit": "CUDA",
+      "created_utc": 1712517209,
+      "score": 3,
+      "link_id": "t3_1bxvuve",
+      "parent_id": "t1_kyfo95i"
+    },
+    {
+      "id": "kyidk3g",
+      "body": "Yea, that one seems like what I need, thanks.",
+      "author": "theonewhoask11",
+      "subreddit": "CUDA",
+      "created_utc": 1712517058,
+      "score": 1,
+      "link_id": "t3_1bxvuve",
+      "parent_id": "t1_kyfwiub"
+    },
+    {
+      "id": "kyhq6wl",
+      "body": "Arsenal winning PL and UCL in the same season, and absolutely burying Klopp's legacy. We will be there.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712508906,
+      "score": 12,
+      "link_id": "t3_1bxrhvl",
+      "parent_id": "t3_1bxrhvl"
+    },
+    {
+      "id": "kyhoh17",
+      "body": "It just hit me that the 3rd place in PL could possibly have 91 points since the top 3 aren't playing each other again. Insane.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712508305,
+      "score": 7,
+      "link_id": "t3_1bxrhvl",
+      "parent_id": "t3_1bxrhvl"
+    },
+    {
+      "id": "kyhm7qa",
+      "body": "Fulham (A), Spurs (A), and Brighton (A) can all cause trouble on their day. Nothing is set in stone in this race.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712507520,
+      "score": 1,
+      "link_id": "t3_1bxrhvl",
+      "parent_id": "t1_kyhlj3g"
+    },
+    {
+      "id": "kyhl1r2",
+      "body": "What a pass to Kelleher, Antony.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712507124,
+      "score": 6,
+      "link_id": "t3_1by5hrt",
+      "parent_id": "t3_1by5hrt"
+    },
+    {
+      "id": "kyhg333",
+      "body": "Always rated you, Mainoo. No cap",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712505386,
+      "score": 1,
+      "link_id": "t3_1by7ses",
+      "parent_id": "t3_1by7ses"
+    },
+    {
+      "id": "kydbuzp",
+      "body": "Post this on r/Gunners. We need this",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712434280,
+      "score": 8,
+      "link_id": "t3_1bwztp1",
+      "parent_id": "t1_kyd92z1"
+    },
+    {
+      "id": "kyd0vzo",
+      "body": "Can you not bring Liverpool up just for once?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712430198,
+      "score": -8,
+      "link_id": "t3_1bwztp1",
+      "parent_id": "t1_kyd0mj0"
+    },
+    {
+      "id": "kycx0v7",
+      "body": "I'm sorry Edu and Arteta, I'm never doubting your transfers ever again. I can't believe how much I like Jorginho and Havertz after how pissed I was when I saw us being linked to them.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712428791,
+      "score": 7,
+      "link_id": "t3_1bwztp1",
+      "parent_id": "t3_1bwztp1"
+    },
+    {
+      "id": "kycw4pj",
+      "body": "Nah, our first half of the season wasn't good by any means. It wouldn't be mad, but it would still sting massively.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712428465,
+      "score": 6,
+      "link_id": "t3_1bxil8u",
+      "parent_id": "t1_kycvrwb"
+    },
+    {
+      "id": "ky2r8ii",
+      "body": "Football officially dies if a player like Mac Allister wins any one of those prestigious individual awards",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712265813,
+      "score": 1,
+      "link_id": "t3_1bvdqvb",
+      "parent_id": "t1_ky2lrky"
+    },
+    {
+      "id": "kxw9tmq",
+      "body": "He has been injured for so long this season.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712170747,
+      "score": 16,
+      "link_id": "t3_1bv0tme",
+      "parent_id": "t1_kxw9ncl"
+    },
+    {
+      "id": "kxsbiha",
+      "body": "That is true, but that proves that we might be nearing the limits of what we can do right now, and that goes with us being in a bubble.\n\nSo, yea, the only limitation isn't hardware, we can only go so far without new breakthroughs.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1712106245,
+      "score": 1,
+      "link_id": "t3_1bu6cvp",
+      "parent_id": "t1_kxs0y9i"
+    },
+    {
+      "id": "kxr47oy",
+      "body": "Going against where this thread is going, I'll actually say that yea, AI is a bubble. Right now, everyone wants to implement AI in whatever they are building, some even going as far as having a ChatGPT API and calling it a unique AI.\n\nIn the near future, AI will collapse for a while, once the public actually realize what is possible and what isn't possible with it. At the end of the day, what we are really doing, if you look deep enough, is approximating functions and we can only go so far with that. Also, don't get me started on how we are polluting data right now, we are going to reach a point where clean data will be like gold.\n\nHowever, we have been using AI for a lot of things even before the recent boom, and this form of AI won't be going anywhere, it will mostly just be relegated to being a tool that can be used. Something that I'm already seeing in CV.\n\n\nSo the answer is yes and no, it is a bubble in its current form, people are being told that AI is like magic and some investors are being sold dreams, but after that when people actually realize its use cases it will really grow again.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1712090213,
+      "score": 6,
+      "link_id": "t3_1bu6cvp",
+      "parent_id": "t3_1bu6cvp"
+    },
+    {
+      "id": "kxr38ol",
+      "body": "The only limitation is hardware? How did you come to this conclusion?",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1712089704,
+      "score": 1,
+      "link_id": "t3_1bu6cvp",
+      "parent_id": "t1_kxqrvjt"
+    },
+    {
+      "id": "kxlsg9r",
+      "body": "His beef with the manager is what cemented him in my brain forever. Really funny shit.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712006878,
+      "score": 5,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t1_kxls45y"
+    },
+    {
+      "id": "kxls68k",
+      "body": "And we love him for it",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712006783,
+      "score": 3,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t1_kxlruiw"
+    },
+    {
+      "id": "kxlrra4",
+      "body": "Since it is his birthday, you a real one if you know Amr Zaki.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712006639,
+      "score": 6,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t3_1bswzgy"
+    },
+    {
+      "id": "kxllf36",
+      "body": "I was somewhat in between, I was obviously pissed and sometimes I felt like there was no future for the club but that is a given being a fan, however I always had that feeling that it might not be because of him, he clearly wanted something from the players and they just shat the bed every single time. I saw a system he desperately wanted to accomplish, I saw that he really was trying to build something that just wasn't happening when you have players like Kolasinac starting for you. So, I was 50/50 on Arteta leaving or staying after the 2nd 8th finish, I rated him but at the same time the results were just a bit too demoralizing. Funnily though, I was done after the abysmal start for the 21/22 season, when we finished the 3rd week with 0 points and dead last, because I felt like I had been patient more than enough, unbeknownst to me, it was the season where we really started to shine.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1712004462,
+      "score": 2,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t1_kxl3fxg"
+    },
+    {
+      "id": "kxjpo09",
+      "body": "I get what you mean, and I agree that mentality and aura are huge factors and Arsenal is lacking in those departments after years of no CL football, even then, Arsenal can completely kill matches off when they want to, which is big in 2 tie games. We will have to wait and see.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711981553,
+      "score": 3,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t1_kxjos9v"
+    },
+    {
+      "id": "kxjo2x1",
+      "body": "With the defense of Arsenal, is it controversial to say we are well suited to win the CL? And that I fancy our chances of winning it way more than the PL? Too many variables in the league compared to the CL.\n\nHope we win either (or both) of course, but I'm just wondering do you guys think?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711980974,
+      "score": 3,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t3_1bswzgy"
+    },
+    {
+      "id": "kxjkpd4",
+      "body": "I guess that is fair. A lot of people are talking about that game, so why wouldn't you?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711979692,
+      "score": 2,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t1_kxjjawg"
+    },
+    {
+      "id": "kxjj5z1",
+      "body": "Can we move on already?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711979082,
+      "score": 9,
+      "link_id": "t3_1bswzgy",
+      "parent_id": "t1_kxjiin4"
+    },
+    {
+      "id": "kxg4xqf",
+      "body": "This title race is going to kill me",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711917419,
+      "score": 2,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t1_kxg4jea"
+    },
+    {
+      "id": "kxg1kmy",
+      "body": "After seeing the 3 teams' run in, I agree. Liverpool's is actually comparable to Arsenal, while City's is the easiest by far.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711916212,
+      "score": 1,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t1_kxfhw1b"
+    },
+    {
+      "id": "kxg0wwj",
+      "body": "I decided to see the run-in, and how exactly is Liverpool the easiest? They are comparable to Arsenal imo, City has the easiest by far.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711915970,
+      "score": 2,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t3_1bs54xk"
+    },
+    {
+      "id": "kxfexdw",
+      "body": "Everytime I see people hyping up something for being the title decider, it ends up being an absolute nothing burger. I feel it in my bones.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711907995,
+      "score": 1,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t1_kxfenic"
+    },
+    {
+      "id": "kxfekq3",
+      "body": "All 3 matches will be a draw, it is known.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711907871,
+      "score": 2,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t1_kxfeg6p"
+    },
+    {
+      "id": "kxfdvwz",
+      "body": "Am I wrong for expecting that the title is now between Arsenal and Liverpool? City now needs both to drop points to get back in. I know that the gap is 3 points with 9 games remaining which is super small, but I just feel that City won't be able to do it this year after today.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711907627,
+      "score": 1,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t3_1bs54xk"
+    },
+    {
+      "id": "kxfc5kw",
+      "body": "Dawg, you and Villa ain't winning shit next year.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711907012,
+      "score": 9,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t1_kxfauw9"
+    },
+    {
+      "id": "kxfac17",
+      "body": "Arsenal and City are pure tactical matches these days. Neither side is willing to take any risks or taking any of the baits. They are pure snoozefest matches, but it is to be expected from 2 such teams, you know?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711906377,
+      "score": 4,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t1_kxf95k6"
+    },
+    {
+      "id": "kxf9scq",
+      "body": "What a shit match, don't remember the last time I saw 2 teams unwilling to take any risks to attack like this before. Literally a chess match, lmao.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711906188,
+      "score": 6,
+      "link_id": "t3_1bs54xk",
+      "parent_id": "t3_1bs54xk"
+    },
+    {
+      "id": "kxawbv0",
+      "body": "Arsenal fans endured 😎",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711830806,
+      "score": 3,
+      "link_id": "t3_1brdemr",
+      "parent_id": "t1_kxanoke"
+    },
+    {
+      "id": "kxabp8s",
+      "body": "The Chelsea subreddit getting less and less activity the longer they are shit is absolutely hilarious",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711823140,
+      "score": 19,
+      "link_id": "t3_1brdemr",
+      "parent_id": "t3_1brdemr"
+    },
+    {
+      "id": "kxaap6l",
+      "body": "It is between him, Kane and Mbappe for being the best in the world right now. Imo, it is him right now, but I know some will disagree.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711822774,
+      "score": -14,
+      "link_id": "t3_1brmz5h",
+      "parent_id": "t1_kxa2x51"
+    },
+    {
+      "id": "kx0p78g",
+      "body": "About the \"In about a year\" line, wasn't there supposed to be no gap between the episodes at first? Doesn't that mean we get Season 3 later this year?",
+      "author": "theonewhoask11",
+      "subreddit": "Invincible",
+      "created_utc": 1711662158,
+      "score": 1,
+      "link_id": "t3_1bpp8wa",
+      "parent_id": "t3_1bpp8wa"
+    },
+    {
+      "id": "kwim5i6",
+      "body": "I really respect you, a professional hater and an excellent baiter. The amount of Arsenal fans who fell for your baits makes me disappointed.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711388393,
+      "score": 11,
+      "link_id": "t3_1bnedl1",
+      "parent_id": "t1_kwijqcv"
+    },
+    {
+      "id": "kweq27z",
+      "body": "Now that Havertz played well for Germany, I wonder what new excuse we will have if that continues because \"He isn't improving, he just plays for a better team\" might become unusable then.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711321694,
+      "score": -12,
+      "link_id": "t3_1bmmr2g",
+      "parent_id": "t3_1bmmr2g"
+    },
+    {
+      "id": "kw11q3c",
+      "body": "He is German, we already know that they don't really care.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711105952,
+      "score": -8,
+      "link_id": "t3_1bkcwx0",
+      "parent_id": "t1_kw110qw"
+    },
+    {
+      "id": "kvwch3c",
+      "body": "Arsenal",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711033719,
+      "score": 5,
+      "link_id": "t3_1bjlbdp",
+      "parent_id": "t1_kvwbknb"
+    },
+    {
+      "id": "kvwb56w",
+      "body": "Then, so far so good, he seems like he might be good if he ended up joining. Great to hear.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711033252,
+      "score": 2,
+      "link_id": "t3_1bjlbdp",
+      "parent_id": "t1_kvw88vt"
+    },
+    {
+      "id": "kvwaxyf",
+      "body": "Yeah, I'm sold so far. Looks like he would be the kind of striker that we need, even if the price is a bit iffy.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711033183,
+      "score": 5,
+      "link_id": "t3_1bjlbdp",
+      "parent_id": "t1_kvw93zm"
+    },
+    {
+      "id": "kvw7pve",
+      "body": "That is good to hear, but his reported fee is around 100m, do you reckon he is worth that match or would it be an overpayment?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711032050,
+      "score": 1,
+      "link_id": "t3_1bjlbdp",
+      "parent_id": "t1_kvw6sga"
+    },
+    {
+      "id": "kvw5dda",
+      "body": "So how good is Gyokeres for real? I don't watch much of Liga Portugal, so I can't form a genuine opinion on him and I'm seeing smoke about him being linked to Arsenal already. So, Portuguese fans, how good is he overall? Do you think his form is sustainable or is it a lighting in a bottle kind of form?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1711031215,
+      "score": 2,
+      "link_id": "t3_1bjlbdp",
+      "parent_id": "t3_1bjlbdp"
+    },
+    {
+      "id": "kvq865n",
+      "body": "Wait, I don't get this. He got convicted, how is he going to be bailed? Does this mean he gets to get out of jail? Can anyone from Spain explain?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710940725,
+      "score": 5,
+      "link_id": "t3_1bjcoqe",
+      "parent_id": "t3_1bjcoqe"
+    },
+    {
+      "id": "kvf39ns",
+      "body": "I know that it is very unlikely, but I very much hope Arteta and Pep will have some sort of a rivalry. I'm so done with the shit Pep and Klopp gave us, and I'm glad that this \"rivalry\" is coming to an end.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710765852,
+      "score": 4,
+      "link_id": "t3_1bh9zoj",
+      "parent_id": "t3_1bh9zoj"
+    },
+    {
+      "id": "kvanctn",
+      "body": "Just found out that Pulisic is on 20 G/A on his first season with Milan. Thag is actually impressive, ngl.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710691243,
+      "score": 9,
+      "link_id": "t3_1bgilk0",
+      "parent_id": "t3_1bgilk0"
+    },
+    {
+      "id": "kv5jupq",
+      "body": "I talked to a lot of people who are studying too, and I have to admit, the number of people who don't realize how big the field actually is will surprise you.\n\nI also saw a senior here say that there is a big shortage in actual junior CV engineers these days, beyond those who only study AI, I don't know how true that statement is though.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710605064,
+      "score": 1,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv5bj8z"
+    },
+    {
+      "id": "kv5fyye",
+      "body": "Fully agree on it being interesting and fun, that is why I stuck around at the end of the day.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710603607,
+      "score": 2,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv5fqwh"
+    },
+    {
+      "id": "kv5fk9k",
+      "body": "I know it isn't the hardest, it can't be when thinks like cryptography and quantum computing are literally there. I specifically said it is *one of* the hardest, which I think is true.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710603451,
+      "score": 2,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv4pdvx"
+    },
+    {
+      "id": "kv5fcf2",
+      "body": "All of your points are valid, especially the 2nd.\n\nAnd I guess, it is more rewarding, I still love ot after all. I didn't make this post as a way to complain about the difficulty, I just wanted to see what everyone else thinks.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710603371,
+      "score": 2,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv42etf"
+    },
+    {
+      "id": "kv5f1ee",
+      "body": "I know it isn't the hardest, that is why I said it is *one of* the hardest, which I and almost everyone in this thread thinks it is the case.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710603260,
+      "score": 2,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv3qzmt"
+    },
+    {
+      "id": "kv5eup2",
+      "body": "Beyond being more resource friendly, rust won't help at all.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710603190,
+      "score": 4,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv562ym"
+    },
+    {
+      "id": "kv5em18",
+      "body": "That is why we are the top dogs",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710603097,
+      "score": 1,
+      "link_id": "t3_1bfsheq",
+      "parent_id": "t1_kv4mio5"
+    },
+    {
+      "id": "kv5eg8w",
+      "body": "We ^and ^Madrid simply are massive",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710603035,
+      "score": 2,
+      "link_id": "t3_1bfsheq",
+      "parent_id": "t1_kv4kund"
+    },
+    {
+      "id": "kv5e8fh",
+      "body": "I'm an Arsenal fan myself, man. I just thought it was a funny joke to say.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710602953,
+      "score": 1,
+      "link_id": "t3_1bfsheq",
+      "parent_id": "t1_kv4xwja"
+    },
+    {
+      "id": "kv4tg6p",
+      "body": "Working on something similar, real-time, multi-threading, and manipulating the same data across multiple threads and I can confirm how hard it is, especially when it comes to crashing and being resource heavy.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710594220,
+      "score": 9,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv3wk7j"
+    },
+    {
+      "id": "kv4ilz5",
+      "body": "Arsenal and Madrid: 14 CL titles\n\nThe rest of the quarter finalists: A meager total of 13 CL titles\n\nSimply levels.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710588127,
+      "score": 55,
+      "link_id": "t3_1bfsheq",
+      "parent_id": "t3_1bfsheq"
+    },
+    {
+      "id": "kv371lq",
+      "body": "I certainly hope so, as much as I love the field it is mentally draining that everytime I learn something new, a thousand new thing spawn in front of me.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710556777,
+      "score": 12,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv34y9g"
+    },
+    {
+      "id": "kv36we2",
+      "body": "That is another thing, it is genuinely mad how resource heavy everything is.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1710556711,
+      "score": 6,
+      "link_id": "t3_1bfve5j",
+      "parent_id": "t1_kv3544r"
+    },
+    {
+      "id": "kv34xlv",
+      "body": "Truth be told, I don't really know, I have a lot of ideas that I want to do, but so many things and so little time.\n\nI'm mostly doing side-projects and learning how all of this works for now, I want to do masters but in a respectable place, that is why I'm trying to see what I actually need to learn, no matter how hard, to get there.\n\nBasically, I don't know, I'm just trying my best.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1710555846,
+      "score": 1,
+      "link_id": "t3_1bfihqf",
+      "parent_id": "t1_kv332rj"
+    },
+    {
+      "id": "kv1zqef",
+      "body": "That is what I felt like. ML at high level is mostly those two being combined, glad I now know I won't be wasting time when I learn physics and advanced statistics.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1710539389,
+      "score": 1,
+      "link_id": "t3_1bfihqf",
+      "parent_id": "t1_kv1w0sg"
+    },
+    {
+      "id": "kv1zfx4",
+      "body": "Well, I'm glad my assumption was correct, kinda. I'll start looking for Physics and Mathematics on top of studying Deep Learning this summer then. Just hope I graduate in peace.",
+      "author": "theonewhoask11",
+      "subreddit": "deeplearning",
+      "created_utc": 1710539283,
+      "score": 1,
+      "link_id": "t3_1bfihqf",
+      "parent_id": "t1_kv10dix"
+    },
+    {
+      "id": "kuz5acg",
+      "body": "The 4 strongest teams are on the same side, again, who could have predicted this 😲",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710502057,
+      "score": 8,
+      "link_id": "t3_1bf1gw0",
+      "parent_id": "t3_1bf1gw0"
+    },
+    {
+      "id": "kurdjy8",
+      "body": "Which I'm fine with, I'm just saying what is on my mind too.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710374533,
+      "score": 3,
+      "link_id": "t3_1bdguyu",
+      "parent_id": "t1_kurcby1"
+    },
+    {
+      "id": "kurbkay",
+      "body": "I certainly hope Arsenal plays BVB too, mate",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710373803,
+      "score": 15,
+      "link_id": "t3_1bdguyu",
+      "parent_id": "t1_kurayt1"
+    },
+    {
+      "id": "kur1dyc",
+      "body": "It is stacked because we are there. It is known.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710370136,
+      "score": 229,
+      "link_id": "t3_1be5b5o",
+      "parent_id": "t1_kur11i8"
+    },
+    {
+      "id": "kur18go",
+      "body": "All of the possible draws, and you somehow made it boring",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710370083,
+      "score": 6,
+      "link_id": "t3_1be5b5o",
+      "parent_id": "t1_kur0vm6"
+    },
+    {
+      "id": "kuoa1cx",
+      "body": "Our transfers have been on point for a couple of years now, I used to pray for times like this.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710336800,
+      "score": 1,
+      "link_id": "t3_1bdguyu",
+      "parent_id": "t1_kuo7e79"
+    },
+    {
+      "id": "kuo9xkr",
+      "body": "A crime worthy of the Hague, imo.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710336758,
+      "score": 1,
+      "link_id": "t3_1bdguyu",
+      "parent_id": "t1_kuo6moz"
+    },
+    {
+      "id": "kuo5vxv",
+      "body": "Reminder that Odegaard only costed Arsenal €35m. An absolute steal these days.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710335122,
+      "score": 15,
+      "link_id": "t3_1bdguyu",
+      "parent_id": "t3_1bdguyu"
+    },
+    {
+      "id": "kuo4nbn",
+      "body": "Al Ahly (of Egypt) won a quadruple without losing a single game in 2005 iirc.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710334594,
+      "score": 7,
+      "link_id": "t3_1bdguyu",
+      "parent_id": "t1_kuo0wfz"
+    },
+    {
+      "id": "kulw3u8",
+      "body": "iirc, the club took COVID as a chance to fix the dead atmosphere we had, we will literally called the library lol. They offered to let season ticket holders to take a year off without losing their season tickets if they fear catching COVID, and they gave the spots to new, younger supports. After noticing a major increase in atmosphere they decided to reward those temporary season ticket holders by giving them season tickets and lowering the number of normal tickets. They also lowered prices, let Ashburton Army bring drums and produce Tifos, lowered the prices of drinks, etc. \n\nThey went hard trying to fix our dead atmosphere and it worked, getting younger people in and giving less normal tickets has been a pleasing for us.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710290706,
+      "score": 13,
+      "link_id": "t3_1bcnx8q",
+      "parent_id": "t1_kulpr4v"
+    },
+    {
+      "id": "kulnamf",
+      "body": "My manager.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710287363,
+      "score": 35,
+      "link_id": "t3_1bdccn3",
+      "parent_id": "t3_1bdccn3"
+    },
+    {
+      "id": "kulhk37",
+      "body": "You are now just arguing for the sake of arguing, and I'm in no mood for that.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710285285,
+      "score": -2,
+      "link_id": "t3_1bcnx8q",
+      "parent_id": "t1_kulgrod"
+    },
+    {
+      "id": "kulfyvt",
+      "body": "Still doesn't make my statement false, does it? The penalties were absolute dogshit.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710284720,
+      "score": -10,
+      "link_id": "t3_1bcnx8q",
+      "parent_id": "t1_kulfqxn"
+    },
+    {
+      "id": "kulfcw0",
+      "body": "Shambolic penalties from Porto after playing for penalties since the goal, lmao.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710284506,
+      "score": 6,
+      "link_id": "t3_1bcnx8q",
+      "parent_id": "t3_1bcnx8q"
+    },
+    {
+      "id": "kuldroc",
+      "body": "That is a massive relief after having to play this shit, fuck yeah.",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1710283951,
+      "score": 2,
+      "link_id": "t3_1bcrt1h",
+      "parent_id": "t1_kuldm9z"
+    },
+    {
+      "id": "kuldjr4",
+      "body": "So fucking relived, man, but I have to ask before enjoying my day even more, we don't have a game until the 31st right?",
+      "author": "theonewhoask11",
+      "subreddit": "Gunners",
+      "created_utc": 1710283876,
+      "score": 3,
+      "link_id": "t3_1bcrt1h",
+      "parent_id": "t3_1bcrt1h"
+    },
+    {
+      "id": "kujm49f",
+      "body": "Just realized Ispwich has a real chance of coming to the PL. I really hope they do because I have heard about them for so long without ever seeing them play.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710262285,
+      "score": 4,
+      "link_id": "t3_1bcnx8q",
+      "parent_id": "t3_1bcnx8q"
+    },
+    {
+      "id": "kud94is",
+      "body": "Sent, I don't know what I can and can't do here and if I can send links so I sent it as a DM.",
+      "author": "theonewhoask11",
+      "subreddit": "Physics",
+      "created_utc": 1710165786,
+      "score": 1,
+      "link_id": "t3_1bc3evx",
+      "parent_id": "t1_kud8p90"
+    },
+    {
+      "id": "kuckx6k",
+      "body": "Should have said passport instead, pretty sure they need to have that.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710153379,
+      "score": 1,
+      "link_id": "t3_1bbvau3",
+      "parent_id": "t1_kuckod6"
+    },
+    {
+      "id": "kuckl7r",
+      "body": "Well, what I feel is happening is that Morocco and Spain give citizenships like candy to any good footballer from the other's county when they find any kind of connection to them.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710153150,
+      "score": -2,
+      "link_id": "t3_1bbvau3",
+      "parent_id": "t1_kuck5va"
+    },
+    {
+      "id": "kuck2t4",
+      "body": "He is better than Haaland for sure.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710152793,
+      "score": 1,
+      "link_id": "t3_1bbvau3",
+      "parent_id": "t1_kuci3f1"
+    },
+    {
+      "id": "kucjj42",
+      "body": "Why is almost every new Spanish player allowed to play for Morocco and vice versa?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710152402,
+      "score": -4,
+      "link_id": "t3_1bbvau3",
+      "parent_id": "t3_1bbvau3"
+    },
+    {
+      "id": "ku9ft43",
+      "body": "I'll always be thankful that City got Haaland instead of Kane. Kane will always be the better player, no doubt.\n\nMan, imagine if both Kane and Rice went to City. The sport would have been pretty much over, lmao",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710099222,
+      "score": 16,
+      "link_id": "t3_1bb349w",
+      "parent_id": "t3_1bb349w"
+    },
+    {
+      "id": "ku7rvgv",
+      "body": "The police.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710076692,
+      "score": 9,
+      "link_id": "t3_1bb349w",
+      "parent_id": "t1_ku7rcw6"
+    },
+    {
+      "id": "ku7q5wi",
+      "body": "I guess you are right. Especially with the Man United example. A competent DoF and a competent manager are a must these days.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710075834,
+      "score": 1,
+      "link_id": "t3_1bb349w",
+      "parent_id": "t1_ku7p0nv"
+    },
+    {
+      "id": "ku7ms87",
+      "body": "How important is the Director of Football role really is? It seems like Arsenal really started to get their signings right after Edu joined, but are they actually this important or is it all about the manager?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710073997,
+      "score": 5,
+      "link_id": "t3_1bb349w",
+      "parent_id": "t3_1bb349w"
+    },
+    {
+      "id": "ku4hlv5",
+      "body": "Let me throw shade at City in peace.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710017082,
+      "score": -4,
+      "link_id": "t3_1babq9n",
+      "parent_id": "t1_ku4hi20"
+    },
+    {
+      "id": "ku4hacb",
+      "body": "Man, having 2 clubs with actual fanbases battle it out for the title is so much more fun than the dross that was Liverpool-City and Arsenal-City. As much I loathe you now, Liverpool fans, I'm actually enjoying this title race 10x than last season's.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710016971,
+      "score": 11,
+      "link_id": "t3_1babq9n",
+      "parent_id": "t3_1babq9n"
+    },
+    {
+      "id": "ku4gtq6",
+      "body": "This is true, despite being the OP and saying what I said, I myself am guilty of saying Liverpool is shit and will definitely fall off.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710016815,
+      "score": 1,
+      "link_id": "t3_1babq9n",
+      "parent_id": "t1_ku4b8q0"
+    },
+    {
+      "id": "ku493o6",
+      "body": "What is up with the Liverpool fans' salt? I thought they didn't care or worry about Arsenal",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710014143,
+      "score": 10,
+      "link_id": "t3_1babq9n",
+      "parent_id": "t3_1babq9n"
+    },
+    {
+      "id": "ku4586b",
+      "body": "Havertz is the true goat, ong.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1710012828,
+      "score": 20,
+      "link_id": "t3_1bapydc",
+      "parent_id": "t3_1bapydc"
+    },
+    {
+      "id": "ktyxnqk",
+      "body": "And you will blame him too right?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709930243,
+      "score": 27,
+      "link_id": "t3_1b9xgks",
+      "parent_id": "t1_ktyx2mo"
+    },
+    {
+      "id": "ktywi5l",
+      "body": "Nice try at spinning my question to try to avoid giving a proper answer. But, would you look at that, our hypothetical person who insulted the hypothetical pro-Palestine mob is found alive! Now tell me, is he stupid and is he the reason he got himself beat and stabbed like the not-hypothetical person who insulted the not-hypothetical pro-Israeli mob?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709929851,
+      "score": 30,
+      "link_id": "t3_1b9xgks",
+      "parent_id": "t1_ktyvp2f"
+    },
+    {
+      "id": "ktyv5ep",
+      "body": "Don't try to dodge my question, and in case you didn't notice it somehow, I will repeat it to you again, would you also have the same stand if a pro-Palestine mob killed a person who insulted them?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709929397,
+      "score": 32,
+      "link_id": "t3_1b9xgks",
+      "parent_id": "t1_ktyulyc"
+    },
+    {
+      "id": "ktyue3u",
+      "body": "I wanted to give you the benefit of the doubt at first, but it is very clear to me now that you are a Hasbara at this point. Can you explain to me in detail why something as small as waving a flag or saying an insult (I thought we all were for free speech?) makes it OK for us to victim blame a person who was beaten and stabbed to death?\n\nAnd would you also have the same stand if a pro-Palestine mob killed a person who insulted them?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709929143,
+      "score": 47,
+      "link_id": "t3_1b9xgks",
+      "parent_id": "t1_ktyt0cu"
+    },
+    {
+      "id": "ktys0t9",
+      "body": "Does it matter? He was attacked for [supporting Palestine](https://twitter.com/SuppressedNws/status/1765817960340374011). That is literally all we need to know.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709928347,
+      "score": 179,
+      "link_id": "t3_1b9xgks",
+      "parent_id": "t1_ktyqibn"
+    },
+    {
+      "id": "ktn0f18",
+      "body": "No way are some Spanish fans actually believing that Arteta would leave this Arsenal for this Barca 😭. These days are long gone.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709747211,
+      "score": 1,
+      "link_id": "t3_1b7w19v",
+      "parent_id": "t3_1b7w19v"
+    },
+    {
+      "id": "kt6mm10",
+      "body": "That Watford game lives rent free in my head",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709491760,
+      "score": 6,
+      "link_id": "t3_1b5nayw",
+      "parent_id": "t1_kt6gdxe"
+    },
+    {
+      "id": "kt29uw6",
+      "body": "I mean.....Valencia stopped playing.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1709417363,
+      "score": 11,
+      "link_id": "t3_1b505ox",
+      "parent_id": "t3_1b505ox"
+    },
+    {
+      "id": "kt0k1l6",
+      "body": "That is actually normal, there are 637 accredited institutions in the US, it is basically a thing that almost all good universities have, so it is a no advantage.\n\nAnd, let's be real, man. You are American, we try to find things that are accepted by your Universities, why would you do the same if you are a local?",
+      "author": "theonewhoask11",
+      "subreddit": "ethz",
+      "created_utc": 1709395277,
+      "score": 1,
+      "link_id": "t3_1b4q8ln",
+      "parent_id": "t1_kt0j0vj"
+    },
+    {
+      "id": "kt0fau7",
+      "body": "It is an accreditation that basically states that your program is recognized globally, especially in the US.",
+      "author": "theonewhoask11",
+      "subreddit": "ethz",
+      "created_utc": 1709393545,
+      "score": 1,
+      "link_id": "t3_1b4q8ln",
+      "parent_id": "t1_kt0dqe4"
+    },
+    {
+      "id": "kt0c3td",
+      "body": "It is ABET accredited and GPA of 3.88",
+      "author": "theonewhoask11",
+      "subreddit": "ethz",
+      "created_utc": 1709392330,
+      "score": 2,
+      "link_id": "t3_1b4q8ln",
+      "parent_id": "t1_kt0bvn6"
+    },
+    {
+      "id": "ksp70bx",
+      "body": "No job as a remote entry developer there, and almost no Computer Vision jobs in my country. What can man do, lmao.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1709217450,
+      "score": 5,
+      "link_id": "t3_1b2zsky",
+      "parent_id": "t3_1b2zsky"
+    },
+    {
+      "id": "ks936om",
+      "body": "    Aaron Ramsey",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708971462,
+      "score": 2,
+      "link_id": "t3_1azxa2i",
+      "parent_id": "t1_ks906at"
+    },
+    {
+      "id": "ks4lmsy",
+      "body": "Never thought I'd see Chelsea turn into a \"pure profit\" firesale club. Dreams do come true.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708897647,
+      "score": 22,
+      "link_id": "t3_1azxa2i",
+      "parent_id": "t1_ks4lcev"
+    },
+    {
+      "id": "ks4k6j1",
+      "body": "I just remembered that Chelsea is stuck with these awful players for years because of the contracts, and the fact that the new financial rules might harm them even more. Genuinely, how can Chelsea get out of this state anytime soon?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708897139,
+      "score": 47,
+      "link_id": "t3_1azxa2i",
+      "parent_id": "t3_1azxa2i"
+    },
+    {
+      "id": "krz7916",
+      "body": "I'm going to admit it, I'm actually starting to rate Havertz.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708810750,
+      "score": 26,
+      "link_id": "t3_1az585f",
+      "parent_id": "t3_1az585f"
+    },
+    {
+      "id": "krz5wai",
+      "body": "I'm going to admit it, I'm actually starting to rate Havertz",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708810264,
+      "score": 1,
+      "link_id": "t3_1ayd1yl",
+      "parent_id": "t3_1ayd1yl"
+    },
+    {
+      "id": "krys952",
+      "body": "Karius jumpscare",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708805362,
+      "score": 1,
+      "link_id": "t3_1az3eoa",
+      "parent_id": "t3_1az3eoa"
+    },
+    {
+      "id": "krlf20i",
+      "body": "I'll probably go for one euro filter, actually. It seems so much faster, easier, and precise. Thanks a lot.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1708602248,
+      "score": 2,
+      "link_id": "t3_1awdnh2",
+      "parent_id": "t1_kri4jcv"
+    },
+    {
+      "id": "krgzy6k",
+      "body": "Yea, I guess I'll go with it and try my luck out, but do you have any good quality resources about it? The internet sometimes feels barren when it comes to advanced Image Processing techniques?",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1708534337,
+      "score": 1,
+      "link_id": "t3_1awdnh2",
+      "parent_id": "t1_krgz4l0"
+    },
+    {
+      "id": "krgxzv4",
+      "body": "I'm just asking before I go head first into implementing and studying it, because I can't afford to waste anytime. So, that is why I was asking first.  \n\n\nThat being said, thanks for conforming.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1708533695,
+      "score": 1,
+      "link_id": "t3_1awdnh2",
+      "parent_id": "t1_krgxfi0"
+    },
+    {
+      "id": "kqytzjl",
+      "body": "Just checked the table, I didn't expect to see title challenger Tottenham having only a 3 points lead over United, who everyone agreed on them being in a crisis this season, if they win the their game today.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1708246154,
+      "score": -7,
+      "link_id": "t3_1atl105",
+      "parent_id": "t3_1atl105"
+    },
+    {
+      "id": "kp3ae4x",
+      "body": "How  many people here know about Hassan Shehata, and what is the general opinion of him outside of Egypt, and Africa? Just curious to see what people outside of the continent think of one of best African managers, if not the best, of all time?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1707171540,
+      "score": 2,
+      "link_id": "t3_1ajlcz5",
+      "parent_id": "t3_1ajlcz5"
+    },
+    {
+      "id": "kj424xs",
+      "body": "Another Odegaard, you say?",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1705964096,
+      "score": 441,
+      "link_id": "t3_19d8mra",
+      "parent_id": "t1_kj40q74"
+    },
+    {
+      "id": "kj3t7u7",
+      "body": "I'm not directing this at you, I'm talking about Salah, he can stay in Liverpool.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1705960986,
+      "score": -6,
+      "link_id": "t3_19d7ktk",
+      "parent_id": "t1_kj3swgk"
+    },
+    {
+      "id": "kj3skl9",
+      "body": "You can take him, we don't give a shit.",
+      "author": "theonewhoask11",
+      "subreddit": "soccer",
+      "created_utc": 1705960771,
+      "score": -20,
+      "link_id": "t3_19d7ktk",
+      "parent_id": "t1_kj3s38c"
+    },
+    {
+      "id": "kj2oj7s",
+      "body": "He didn't carry anything, ngl. The reason they are angry isn't because they are \"ungrateful\", they are angry because Egyptian football culture is all about skill, passion, and resilience. For us it is simply disrespectful to not give your 110% for the  national team, and to leave just before an extremely important match is even more disrespectful. The general opinion right now is that last few seasons' Salah simply can't hold a candle to any player in our golden generation, he is that hated right now.",
+      "author": "theonewhoask11",
+      "subreddit": "LiverpoolFC",
+      "created_utc": 1705947514,
+      "score": -10,
+      "link_id": "t3_19cou5o",
+      "parent_id": "t1_kj2jzzj"
+    },
+    {
+      "id": "kg5gazo",
+      "body": "I guess despite how much I refuse to believe, I think I really did reach a point where I have to create and make things on my own. Thanks to you, and him, I will start creating the projects that have been on my mind for a while.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1704302805,
+      "score": 2,
+      "link_id": "t3_18xkv3q",
+      "parent_id": "t1_kg5e7l6"
+    },
+    {
+      "id": "kg5ee1z",
+      "body": "If it is about passion projects, then I'm working on a motion capture program using stereo, AI, and Unity (or any 3rd party 3D program). It is going wonderfully, but would that suffice to prove I'm doing good work?  \n\n\nI'd be happy to DM you, and I appreciate your offer.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1704302138,
+      "score": 1,
+      "link_id": "t3_18xkv3q",
+      "parent_id": "t1_kg5bq0z"
+    },
+    {
+      "id": "kg57422",
+      "body": "I think I'm way past that, thankfully. For an example, I would use Yolo with calibrated cameras to find the distance of something. I just don't know what to do next to show my knowledge, do I make a 3D reconstruction program as the next step? or maybe do Kaggle competitions to show my AI and Image processing skills? or would me coding a NN in C++ be better to show that I'm good with C++? or perhaps a typical CV program but in  C++ would be a better thing to do? I just don't know  where to go next. I studied ML, Deep Learning, Image Processing, and I'm studying Photogrammetry right now. So, I'm trying to show that yea, I do know these things to any future employer.\n\n&#x200B;\n\nI'm just trying to get my portfolio to look good as a genuine CV Engineer before I graduate, because I don't want to be seen as a (-> get data -> train data -> finish project) graduate (Not saying it as a dig, it is just a thing that is very associated with beginners, and I really was like that as a beginner) .",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1704299411,
+      "score": 3,
+      "link_id": "t3_18xkv3q",
+      "parent_id": "t1_kg50fue"
+    },
+    {
+      "id": "kg4phcx",
+      "body": "This is the 2nd time I post this, I thought maybe I posted it during a bad time. If this isn't allowed, I'll delete immediately.",
+      "author": "theonewhoask11",
+      "subreddit": "computervision",
+      "created_utc": 1704292720,
+      "score": 1,
+      "link_id": "t3_18xkv3q",
+      "parent_id": "t3_18xkv3q"
+    }
+  ]
+}

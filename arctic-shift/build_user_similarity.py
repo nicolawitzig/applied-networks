@@ -377,7 +377,7 @@ def save_pyvis_html(
 
     net.set_options("""{
       "physics": { "enabled": false },
-      "edges": { "smooth": false, "color": { "opacity": 0.3 } },
+      "edges": { "smooth": true, "color": { "opacity": 0.3 } },
       "interaction": { "hover": true, "tooltipDelay": 100 }
     }""")
 

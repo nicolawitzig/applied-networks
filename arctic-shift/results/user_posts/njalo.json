@@ -1,0 +1,38 @@
+{
+  "username": "njalo",
+  "posts": [
+    {
+      "id": "1b31b3b",
+      "title": "I made a Linux Script to automatically connect to the ETHZ VPN upon command",
+      "author": "njalo",
+      "subreddit": "ethz",
+      "created_utc": 1709216114,
+      "score": 27,
+      "num_comments": 1,
+      "selftext": "basically so you can use `ethz-vpn connect` and `ethz-vpn disconnect`  to easily manage your VPN connection without having to install any proprietary software, or type all the VPN info all the time.\n\nYou can find it here:\n\n[https://github.com/njalooo/ethz-vpn-connect](https://github.com/njalooo/ethz-vpn-connect)\n\nHave fun",
+      "url": "https://www.reddit.com/r/ethz/comments/1b31b3b/i_made_a_linux_script_to_automatically_connect_to/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "ktop31t",
+      "body": "The best argument for draid for small setups that i've seen so far, is that it's scaleable. You can't really increase the diskamount of a raidz array, and it's simply impossible to change from raidzn to raidzn+1 redundancy. With draid you can scale your pool, and use the additional disk for data, redundancy or hot spare at your discretion.",
+      "author": "njalo",
+      "subreddit": "zfs",
+      "created_utc": 1709767341,
+      "score": 1,
+      "link_id": "t3_16xspc4",
+      "parent_id": "t3_16xspc4"
+    },
+    {
+      "id": "ksp2u2t",
+      "body": "I made a small script to automate it for Linux: [https://github.com/njalooo/ethz-vpn-connect](https://github.com/njalooo/ethz-vpn-connect)",
+      "author": "njalo",
+      "subreddit": "ethz",
+      "created_utc": 1709215826,
+      "score": 1,
+      "link_id": "t3_i2lbyu",
+      "parent_id": "t3_i2lbyu"
+    }
+  ]
+}

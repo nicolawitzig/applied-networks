@@ -1,0 +1,470 @@
+{
+  "username": "thoangzr",
+  "posts": [
+    {
+      "id": "1gmfrhd",
+      "title": "[D] iPINNs vs. SBI for Parameter Estimation: Which is Better?",
+      "author": "thoangzr",
+      "subreddit": "MachineLearning",
+      "created_utc": 1731062799,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "I’m comparing inverse Physics-Informed Neural Nets (iPINNs) and Simulation-Based Inference (SBI) for estimating parameters and want to hear others' thoughts. \n\nWith SBI, we get amortized inference and posterior distributions, which helps with uncertainty. However, SBI is trained on simulated data, which can be different from real-world data, which might lead to lower accuracy. \n\niPINNs, on the other hand, are trained on real data and use physical laws, so they often give more accurate estimates. However, they don’t provide full posterior distributions like SBI. \n\nI wanted to use SBI and convince others that SBI was way better than iPINN, but actually, I feel it was not.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1gmfrhd/d_ipinns_vs_sbi_for_parameter_estimation_which_is/"
+    },
+    {
+      "id": "1gbo9ea",
+      "title": "BSc Admission Requirement for International Baccalaureate ",
+      "author": "thoangzr",
+      "subreddit": "ethz",
+      "created_utc": 1729839422,
+      "score": 0,
+      "num_comments": 2,
+      "selftext": "Hi everyone. From the website, I can see the requirement for IB as following:\n\nAdmission without entrance examination if the following requirements are\nfulfilled:\n- 38 out of 42 points (without bonus points);\n- At Higher Level (HL): a) Mathematics: applications and interpretation or\nMathematics: analysis and approaches, b) physics or chemistry or\nbiology, c) 1 language A;\n- At Standard Level (SL): three additional subjects of the following:\nphysics, chemistry, biology, geography, history, economics or business\nmanagement, 1 further language only, computer science.\n\nThe requirement looks clear but I’m wondering if anyone knows if there are any additional conditions or details I should be aware of. If there’s any, thank you so much for letting me know",
+      "url": "https://www.reddit.com/r/ethz/comments/1gbo9ea/bsc_admission_requirement_for_international/"
+    },
+    {
+      "id": "1fag8ru",
+      "title": "Requirements for Math teachers in Switzerland",
+      "author": "thoangzr",
+      "subreddit": "askswitzerland",
+      "created_utc": 1725632094,
+      "score": 0,
+      "num_comments": 4,
+      "selftext": "What are the requirements for non-EU citizens to teach math in Switzerland? My girlfriend is non-EU, holds a bachelor’s degree, and has a few years of experience teaching math. How likely is it for her to secure a position?\n\nAny insights would be appreciated!",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1fag8ru/requirements_for_math_teachers_in_switzerland/"
+    },
+    {
+      "id": "1fag7lx",
+      "title": "Requirements for Math teachers in Switzerland",
+      "author": "thoangzr",
+      "subreddit": "Switzerland",
+      "created_utc": 1725632006,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1fag7lx/requirements_for_math_teachers_in_switzerland/"
+    },
+    {
+      "id": "1b2ozh7",
+      "title": "[D] Chance to improve my profile for PhD after a terrible Ms thesis",
+      "author": "thoangzr",
+      "subreddit": "MachineLearning",
+      "created_utc": 1709173463,
+      "score": 19,
+      "num_comments": 6,
+      "selftext": "I’m finishing my Master thesis in 2 weeks and I feel it super bad. Since I failed in the last Phd application cycle, I wanted to try it again, after my graduation. However, then people will care more about my thesis. I know bad thesis might be a big red flag for phd, but is there any chance to save my profile, like getting an RA position and publishing papers?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1b2ozh7/d_chance_to_improve_my_profile_for_phd_after_a/"
+    },
+    {
+      "id": "1b2oxov",
+      "title": "Improve my profile for PhD",
+      "author": "thoangzr",
+      "subreddit": "MachineLearning",
+      "created_utc": 1709173318,
+      "score": 1,
+      "num_comments": 1,
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1b2oxov/improve_my_profile_for_phd/"
+    },
+    {
+      "id": "1au8wti",
+      "title": "Egg throwing to my window",
+      "author": "thoangzr",
+      "subreddit": "askswitzerland",
+      "created_utc": 1708300344,
+      "score": 2,
+      "num_comments": 6,
+      "selftext": "Someone just threw eggs to my window at mid night. It might happen only once and I shouldn’t be worry too much (maybe I should, idk). I’m just curious if I report the case to police, will they really care about it and do something? Is it necessary to report to the the administrator since I’m living in student village?",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1au8wti/egg_throwing_to_my_window/"
+    },
+    {
+      "id": "1asmfzw",
+      "title": "Language Requirement for Jobs",
+      "author": "thoangzr",
+      "subreddit": "askswitzerland",
+      "created_utc": 1708124647,
+      "score": 1,
+      "num_comments": 6,
+      "selftext": "I’m an international Ms student looking for a job in Switzerland. While many job descriptions are in English, many are also in French or German. Should I skip those ones if I only know English? (Could be not a hard requirement but non-French/German speakers are not welcomed?)",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1asmfzw/language_requirement_for_jobs/"
+    },
+    {
+      "id": "1aj0apm",
+      "title": "RA opportunity for graduated Ms student",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1707085144,
+      "score": 3,
+      "num_comments": 0,
+      "selftext": "Hi everyone. I’m gonna finish my Master in CS this April. I want to find an RA position at EPFL later on. I will ask the professors about it but still want to ask you guys here if you know there’s any successful case. I lookes at the websites and only found opportunities for semester project or thesis.",
+      "url": "https://www.reddit.com/r/EPFL/comments/1aj0apm/ra_opportunity_for_graduated_ms_student/"
+    },
+    {
+      "id": "19fjqtq",
+      "title": "My first rejection in my first cycle",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706216456,
+      "score": 3,
+      "num_comments": 5,
+      "selftext": "I just want to write something before I move on. \n\nToday I got rejected by EPFL. I expected it the most since I'm currently doing my Master there. It was so sad at the beginning but now I don't feel sad as I thought. Simply because I know the people getting in are better than me. They deserve it. I know it was my bad that I did not optimize my time at EPFL by working with more professors (The professor I know is gonna be retired soon) and I know my papers in DB are useless when I apply to ML. \n\nWaiting for the result while working on my thesis is my worst experience. Now, it ends. Great! At least, I know good grades, the irrelevant papers won't get me a spot for PhD in ML and I have to try more in the future. 2 months more for my thesis and I have to focus on that. Otherwise, I will be fucked up in the next cycle. I wish you guys all the best. If it's not now, it will be in the future as long as you still want to do it. \n\nNow, I want to find some NLP labs that accept graduated masters, besides some places like Allen AI (I did apply but no response :( ). I can work for free, just need opportunities to improve myself. Let me know if you have some recommendations. Thanks!!!",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/19fjqtq/my_first_rejection_in_my_first_cycle/"
+    },
+    {
+      "id": "199bgdi",
+      "title": "GRA stipend vs Blacksburg cost of living",
+      "author": "thoangzr",
+      "subreddit": "VirginiaTech",
+      "created_utc": 1705534798,
+      "score": 1,
+      "num_comments": 10,
+      "selftext": "Hi guys, do you think GRA stipend (~2500$) is really enough to live in Blacksburg as an international student?",
+      "url": "https://www.reddit.com/r/VirginiaTech/comments/199bgdi/gra_stipend_vs_blacksburg_cost_of_living/"
+    },
+    {
+      "id": "1973rjl",
+      "title": "ETH AI Center Phd shortlist",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1705306729,
+      "score": 6,
+      "num_comments": 4,
+      "selftext": "Hi everyone! Has anyone received notification from ETH AI Center? They said the shortlist candidates will be contacted by mid Jan. I assume today is the last chance to be notified.",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1973rjl/eth_ai_center_phd_shortlist/"
+    },
+    {
+      "id": "1973oyq",
+      "title": "ETH AI Center PhD shortlist",
+      "author": "thoangzr",
+      "subreddit": "ethz",
+      "created_utc": 1705306443,
+      "score": 1,
+      "num_comments": 0,
+      "selftext": "Hi everyone! Has anyone received notification from ETH AI Center for phd application? They said the shortlist candidates will be notified by mid Jan.",
+      "url": "https://www.reddit.com/r/ethz/comments/1973oyq/eth_ai_center_phd_shortlist/"
+    }
+  ],
+  "comments": [
+    {
+      "id": "lw24vu0",
+      "body": "Thank you, man. I overlooked the German requirement. C-level is hard",
+      "author": "thoangzr",
+      "subreddit": "ethz",
+      "created_utc": 1731062902,
+      "score": 1,
+      "link_id": "t3_1gbo9ea",
+      "parent_id": "t1_ltu2bd7"
+    },
+    {
+      "id": "kx0ih26",
+      "body": "It’s just the matter of timing. Epfl starts limiting the number of students, bad work market, etc. I knew many great guys. One did exchange here and took Master’s courses then got decent grades (mean he was better than many of current Ms students), but still got rejected. Everything is tough now.",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1711659876,
+      "score": 2,
+      "link_id": "t3_1boyf8d",
+      "parent_id": "t3_1boyf8d"
+    },
+    {
+      "id": "ksn8bwj",
+      "body": "That sounds sad bro. I’ve been doing internship in industry for a while and I don’t enjoy it.",
+      "author": "thoangzr",
+      "subreddit": "MachineLearning",
+      "created_utc": 1709177884,
+      "score": -4,
+      "link_id": "t3_1b2ozh7",
+      "parent_id": "t1_ksn6bqk"
+    },
+    {
+      "id": "ksjmixy",
+      "body": "Go for it, man. I was in that situation and I wish I could change",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1709133487,
+      "score": 1,
+      "link_id": "t3_1b22cqf",
+      "parent_id": "t3_1b22cqf"
+    },
+    {
+      "id": "kr9nij3",
+      "body": "Bro, after getting rejected from phd, I realize the grade is not very important. Just keep it not too low. Trying to do thesis with the professor you want is way more important, which I didn’t do",
+      "author": "thoangzr",
+      "subreddit": "ethz",
+      "created_utc": 1708418732,
+      "score": 1,
+      "link_id": "t3_1auvcrj",
+      "parent_id": "t3_1auvcrj"
+    },
+    {
+      "id": "kr2f9d9",
+      "body": "Haha. I also expected that. Hope people can access more to education and food is treated better 😂",
+      "author": "thoangzr",
+      "subreddit": "askswitzerland",
+      "created_utc": 1708301919,
+      "score": 4,
+      "link_id": "t3_1au8wti",
+      "parent_id": "t1_kr2egjr"
+    },
+    {
+      "id": "kqea8ns",
+      "body": "Normally you get around 1500chf as someone mentioned above. It very depends on how lucky you are to find cheap accommodation. For me I got fmel with the price of 510 so it’s super chill for me",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1707925077,
+      "score": 2,
+      "link_id": "t3_1aqiyor",
+      "parent_id": "t3_1aqiyor"
+    },
+    {
+      "id": "kolfneh",
+      "body": "I wish we could but no",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706886245,
+      "score": 1,
+      "link_id": "t3_1aess1k",
+      "parent_id": "t1_ko8eouu"
+    },
+    {
+      "id": "koanylx",
+      "body": "I stayed with my friends. I lived in the living room. It was fine but ofc not comfortable at all",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706716909,
+      "score": 1,
+      "link_id": "t3_1aelk0k",
+      "parent_id": "t1_ko8xgdk"
+    },
+    {
+      "id": "kk9fjch",
+      "body": "The most critical and annoying one is to find accommodation. You can only find it once you get the admission result. Like I joined the queue of fmel too late and I had to wait until the 2nd semester to get one.",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706625068,
+      "score": 1,
+      "link_id": "t3_1aelk0k",
+      "parent_id": "t1_kk9dzhg"
+    },
+    {
+      "id": "kk8slvi",
+      "body": "Both yes. Because of getting the result late (around Jun, July, afair), I got my visa late and arrived after mid-Sep.",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706613627,
+      "score": 1,
+      "link_id": "t3_1aelk0k",
+      "parent_id": "t3_1aelk0k"
+    },
+    {
+      "id": "kjs134g",
+      "body": "I hope your situation will be better for other applications",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706339577,
+      "score": 1,
+      "link_id": "t3_19fjqtq",
+      "parent_id": "t1_kjmr3ye"
+    },
+    {
+      "id": "kjs0xae",
+      "body": "Good luck 🍀",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706339465,
+      "score": 2,
+      "link_id": "t3_19fjqtq",
+      "parent_id": "t1_kjn6iq0"
+    },
+    {
+      "id": "kjkrh3v",
+      "body": "Thanks so much for your comment. The master thesis one is good to know. I will apply to other uni in Europe. Just out of curiosity, what are you doing now after those rejections?",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706224063,
+      "score": 1,
+      "link_id": "t3_19fjqtq",
+      "parent_id": "t1_kjkct5c"
+    },
+    {
+      "id": "kjj8ewc",
+      "body": "From what I heard, no.\nThere’s one guy getting rejection email. I think it’s coming out",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706205263,
+      "score": 1,
+      "link_id": "t3_19dne5b",
+      "parent_id": "t1_kjj6t14"
+    },
+    {
+      "id": "kjj5qmo",
+      "body": "Very likely",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706204402,
+      "score": 1,
+      "link_id": "t3_19dne5b",
+      "parent_id": "t1_kjj5bg5"
+    },
+    {
+      "id": "kjcxgbj",
+      "body": "Feel like not today :( I will go running to stop waiting. Good luck, guys",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1706109271,
+      "score": 3,
+      "link_id": "t3_19dne5b",
+      "parent_id": "t1_kjcofrb"
+    },
+    {
+      "id": "kjbfg4l",
+      "body": "First thing you can try is to use different templates. Then you can minimize the courses and technical skills parts. Personally, I don’t think just saying you took courses A,B,C is really important",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1706078316,
+      "score": 1,
+      "link_id": "t3_19ea3dw",
+      "parent_id": "t3_19ea3dw"
+    },
+    {
+      "id": "kjbeo1z",
+      "body": "Don’t you just mean you haven’t received the results?",
+      "author": "thoangzr",
+      "subreddit": "ethz",
+      "created_utc": 1706077833,
+      "score": 1,
+      "link_id": "t3_197bjcy",
+      "parent_id": "t1_kjb91p7"
+    },
+    {
+      "id": "kj661lc",
+      "body": "You already listed down what I wanted to say. Good luck!",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1705999672,
+      "score": 2,
+      "link_id": "t3_19dgjf0",
+      "parent_id": "t3_19dgjf0"
+    },
+    {
+      "id": "kii619l",
+      "body": "How to calculate the grade is always mysterious, except for some professors showing the formulas. I would say 60-65% of the final is great. Ofc, it might vary each year, but still, that’s more than average",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1705617577,
+      "score": 4,
+      "link_id": "t3_199zjhw",
+      "parent_id": "t1_kii3ea8"
+    },
+    {
+      "id": "kifht1b",
+      "body": "Me too. They probably prioritized accepted candidates and finished the process by mid Jan. Not being ETH student is also a factor making me have less hope.",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1705583538,
+      "score": 1,
+      "link_id": "t3_1973rjl",
+      "parent_id": "t1_kif1878"
+    },
+    {
+      "id": "kifhh36",
+      "body": "Thank you all for the information",
+      "author": "thoangzr",
+      "subreddit": "VirginiaTech",
+      "created_utc": 1705583377,
+      "score": 1,
+      "link_id": "t3_199bgdi",
+      "parent_id": "t3_199bgdi"
+    },
+    {
+      "id": "ki9r969",
+      "body": "I have the feeling that epfl applicants don’t use reddit",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1705494690,
+      "score": 2,
+      "link_id": "t3_193816y",
+      "parent_id": "t3_193816y"
+    },
+    {
+      "id": "ki96ye1",
+      "body": "So the potential advisors ( the ones mentioned in the application or sth like that) decide whether we are accepted? I still thought if you get fellowship, it’s the decision of the committee 🤯",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1705480540,
+      "score": 1,
+      "link_id": "t3_18z1pfe",
+      "parent_id": "t1_khleocf"
+    },
+    {
+      "id": "ki96dwz",
+      "body": "It could not be a quarter. I joined the info sessions, it was still around 1k last year.",
+      "author": "thoangzr",
+      "subreddit": "ethz",
+      "created_utc": 1705480112,
+      "score": 2,
+      "link_id": "t3_197bjcy",
+      "parent_id": "t1_ki5v7yr"
+    },
+    {
+      "id": "ki3vzvi",
+      "body": "Can you let me know which university? If you get the invitation from the one I know, congratulations, but bad news for me",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1705402140,
+      "score": 1,
+      "link_id": "t3_196doo9",
+      "parent_id": "t3_196doo9"
+    },
+    {
+      "id": "khyfh8j",
+      "body": " Thanks for replying me to let me not feel alone. as I’ve seen from previous year, they did send the notification even to the rejected candidates. Not sure about now.",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1705320465,
+      "score": 2,
+      "link_id": "t3_1973rjl",
+      "parent_id": "t1_khybk5u"
+    },
+    {
+      "id": "kh9kznm",
+      "body": "I feel the same like I came to EU for my Master to have better preparation for phd here. But actually things don’t work like my expectation. I recently keep asking myself wtf I have done in my last 2 years. I’m applying phd but I don’t think I can make it. I’m ready to go home and take a step back by applying for some pre-doctoral programs in my country. Hopefully it’s never too late. Stay strong, man!",
+      "author": "thoangzr",
+      "subreddit": "gradadmissions",
+      "created_utc": 1704921497,
+      "score": 1,
+      "link_id": "t3_193dfzm",
+      "parent_id": "t3_193dfzm"
+    },
+    {
+      "id": "kh9jrpw",
+      "body": "From what I saw in thegradcafe, the answer for the first one is yes.",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1704921091,
+      "score": 1,
+      "link_id": "t3_193hu94",
+      "parent_id": "t3_193hu94"
+    },
+    {
+      "id": "kh3rahg",
+      "body": "That’s good to know. Thank you for the information.",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1704832330,
+      "score": 1,
+      "link_id": "t3_18z1pfe",
+      "parent_id": "t1_kh1i3go"
+    },
+    {
+      "id": "kgyktvb",
+      "body": "Is it really expected for epfl ms students? Or just your case?",
+      "author": "thoangzr",
+      "subreddit": "EPFL",
+      "created_utc": 1704751534,
+      "score": 1,
+      "link_id": "t3_18z1pfe",
+      "parent_id": "t1_kgf22x9"
+    }
+  ]
+}
