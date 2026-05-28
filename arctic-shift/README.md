@@ -4,33 +4,14 @@ Reproduces and extends the Volk et al. (2024) university voice typology methodol
 
 ---
 
-## Pipeline Overview
-
-```
-scrape_user_subreddits_crossref.py
-            ↓  subreddit_scrapes/*.csv
-scrape_user_posts.py
-            ↓  results/user_posts/*.json
-classify_content.py
-            ↓  results/final/user_voice_classifications.csv
-build_interaction_graph.py          build_subreddit_graph.py
-            ↓                                   ↓
-  results/final/                      results/final/
-  interaction_graph.html              subreddit_graph.html
-  interaction_graph_nodes.csv         subreddit_graph_nodes.csv
-  voice_interaction_correlation.csv
-```
-
-`analyze_crossref.py` and `analyze_communities.py` are standalone analyses that can be run after step 1 and step 4 respectively.
-
----
-
 ## Step 1 — User Discovery & Cross-Subreddit Scraping
 
 **Script:** `scrape_user_subreddits_crossref.py`  
 **Output:** `subreddit_scrapes/<subreddit>_users_crossref.csv`
 
 Exhaustively paginates through all posts and comments in a target subreddit (e.g. `r/ethz`) within a given date range. For every unique author found, it then queries the API for all of that user's activity across Reddit — not just in the target subreddit — and records which subreddits they posted or commented in and how many times. The result is one CSV row per user with a packed `subreddit:count` field summarising their Reddit footprint.
+
+For example in our case we wanted to get the data for the year 2024 for the subreddit r/ethz :
 
 ```bash
 python scrape_user_subreddits_crossref.py --subreddit ethz --after 2024-01-01 --before 2025-01-01
@@ -43,7 +24,7 @@ python scrape_user_subreddits_crossref.py --subreddit ethz --after 2024-01-01 --
 **Script:** `scrape_user_posts.py`  
 **Output:** `results/user_posts/<username>.json`
 
-Reads the crossref CSVs from step 1 and fetches the full text (titles, selftext, comment bodies) for every user. Each user gets a single JSON file containing their posts and comments. Runs with up to 100 concurrent threads and is safe to resume — existing files are merged rather than overwritten, so you can add new date ranges without re-fetching.
+Reads the crossref CSVs from step 1 and fetches all the comments and posts that the user made during the specified year. Each user gets a single JSON file containing their posts and comments. Runs with up to 100 concurrent threads and is safe to resume — existing files are merged rather than overwritten, so you can add new date ranges without re-fetching. One has to be mindful of API limits and might want to limit the number of threads to something less.
 
 ```bash
 python scrape_user_posts.py --input-dir subreddit_scrapes --year 2024
@@ -104,14 +85,6 @@ python build_subreddit_graph.py \
   --posts-dir results/user_posts \
   --output-dir results/final
 ```
-
----
-
-## Supplementary Analyses
-
-**`analyze_crossref.py`** — builds a subreddit co-occurrence network directly from the step 1 crossref CSVs (no classification needed). Useful for exploring the broader Reddit ecosystem around a subreddit before running the full pipeline.
-
-**`analyze_communities.py`** — prints community statistics (modularity, intra/inter-community weight ratios, community sizes) for the interaction graph produced in step 4a.
 
 ---
 
