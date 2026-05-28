@@ -1,66 +1,102 @@
-# applied-networks
+# Reddit Voice Typology Pipeline
 
-Reproduction of Volk, Vogler, Fürst & Schäfer (2025), *The plurivocal university: Typologizing the diverse voices of a research university on social media*, **Public Understanding of Science** 34(3): 270–290. [DOI](https://doi.org/10.1177/09636625241268700)
+Reproduces and extends the Volk et al. (2024) university voice typology methodology using Reddit data from the [Arctic Shift](https://arctic-shift.photon-reddit.com) archive API. The pipeline identifies who speaks about ETH Zurich on Reddit, classifies their institutional role, and maps how they interact.
 
-## What this is
+---
 
-The paper analyses 619 Twitter accounts tied to the University of Zurich (2021). It bio-filters followers of UZH's two official accounts, hand-codes each into one of 8 "voice" types (Table 1), then runs content + social-network analysis on their 2021 tweets. We try to re-run that pipeline end-to-end.
+## Step 1 — User Discovery & Cross-Subreddit Scraping
 
-## What is and isn't reproducible today
+**Script:** `scrape_user_subreddits_crossref.py`  
+**Output:** `subreddit_scrapes/<subreddit>_users_crossref.csv`
 
-- **Scraping.** The paper used the Twitter v1.1 API pre-Musk. That tier is gone; v2 is paywalled. We use [`twscrape`](https://github.com/vladkens/twscrape) as a drop-in that scrapes the web UI via logged-in X accounts. You provide the accounts.
-- **Time window.** The paper covers 2021. Twitter's timeline endpoint returns newest-first and the public API caps per-user history at ~3,200 tweets, so historical 2021 coverage may be partial unless you already have archives.
-- **Manual coding.** Voice-type, topic, and tonality codes in the paper were done by trained coders. We ship rule-based baselines (`src/scrapers/coding.py`, `src/analysis/content.py`) so the pipeline runs end-to-end; replace with your manual codes in `data/coded/` when you have them.
+Exhaustively paginates through all posts and comments in a target subreddit (e.g. `r/ethz`) within a given date range. For every unique author found, it then queries the API for all of that user's activity across Reddit — not just in the target subreddit — and records which subreddits they posted or commented in and how many times. The result is one CSV row per user with a packed `subreddit:count` field summarising their Reddit footprint.
 
-## Layout
-
-```
-├── environment.yml           # conda env
-├── config/config.yaml        # target accounts, time window, paths
-├── src/
-│   ├── scrapers/
-│   │   ├── base.py           # AccountRecord / TweetRecord dataclasses
-│   │   ├── twscrape_client.py  # thin async wrapper
-│   │   ├── bio_filter.py     # keep accounts whose bio mentions UZH
-│   │   └── coding.py         # heuristic voice-type pre-coder
-│   ├── analysis/
-│   │   ├── stats.py          # Table 2 / Table 3 equivalents
-│   │   ├── network.py        # mention graph + Louvain
-│   │   └── content.py        # topic + tonality baselines
-│   └── utils/io.py           # config + JSONL/CSV helpers
-├── scripts/                  # 01..05 pipeline entry points
-├── data/{raw,processed,coded}/  # empty, .gitignored
-└── notebooks/                # for exploration
-```
-
-## Setup
+For example in our case we wanted to get the data for the year 2024 for the subreddit r/ethz :
 
 ```bash
-conda env create -f environment.yml
-conda activate applied-networks
-
-# one-time: configure twscrape's account pool
-twscrape add_accounts accounts.txt username:password:email:email_password
-twscrape login_accounts
+python scrape_user_subreddits_crossref.py --subreddit ethz --after 2024-01-01 --before 2025-01-01
 ```
 
-`accounts.txt` is a list of X accounts you own (throwaway test accounts are fine but must be warmed up before scraping at volume). See the [twscrape docs](https://github.com/vladkens/twscrape) for the exact format.
+---
 
-## Pipeline
+## Step 2 — Post & Comment Text Scraping
+
+**Script:** `scrape_user_posts.py`  
+**Output:** `results/user_posts/<username>.json`
+
+Reads the crossref CSVs from step 1 and fetches all the comments and posts that the user made during the specified year. Each user gets a single JSON file containing their posts and comments. Runs with up to 100 concurrent threads and is safe to resume — existing files are merged rather than overwritten, so you can add new date ranges without re-fetching. One has to be mindful of API limits and might want to limit the number of threads to something less.
 
 ```bash
-python scripts/01_scrape_followers.py    # data/raw/followers_<handle>.jsonl
-python scripts/02_filter_accounts.py     # data/processed/accounts.csv
-python scripts/03_scrape_tweets.py       # data/raw/tweets.jsonl (resumable)
-python scripts/04_build_network.py       # mention_network.graphml + community_summary.csv
-python scripts/05_content_analysis.py    # table2/3/4 CSVs
+python scrape_user_posts.py --input-dir subreddit_scrapes --year 2024
 ```
 
-`config/config.yaml` controls the official handles, time window, and scrape limits. Start with `followers_limit: 500` for a smoke test before committing to a full run.
+---
 
-## Known gaps to fill
+## Step 3 — Voice Type Classification
 
-- **Official handles in `config.yaml` need verification.** UZH's current English account is `@UZH_en`; the paper used an English + a "national language" (German) account — confirm the German handle before a real run.
-- **Coding baselines are weak.** Replace the regex classifier in `coding.py` and the lexicons in `content.py` with manual codes or a supervised model trained on the paper's codebook (SM2).
-- **Viz.** No ForceAtlas2 / Gephi-style visualisation yet; the GraphML output opens in Gephi directly.
-- **Intercoder reliability** (Krippendorff's α) not computed — add once you have ≥2 coded samples.
+**Script:** `classify_content.py`  
+**Output:** `results/final/user_voice_classifications.csv`, `user_voice_distribution.csv`
+
+Classifies each user into the Volk et al. (2024) voice typology using a local LLM via [Ollama](https://ollama.com). Uses a two-stage pipeline:
+
+1. **Extraction** — a constrained-output prompt extracts verbatim first-person affiliation statements from the user's text (e.g. *"I'm doing my PhD here"*, *"I study at EPFL"*). Non-qualifying content (advice to others, hypotheticals, third-party references) is filtered out.
+2. **Classification** — the extracted statements are passed to a second prompt that applies a decision tree to assign a `voice_type` and `subtype`. ETH Zurich is the home institution; current or upcoming affiliation supersedes past ones.
+
+Voice types follow the Volk et al. typology: `decentral_individual` (student, phd, postdoc, researcher, professor, applicant), `central_institutional`, `decentral_institutional`, `former_individual`, `former_institutional`, `external_individual`, and `unknown`. Confidence scores penalise weak signals and missing evidence. Supports `--resume` to checkpoint mid-run.
+
+```bash
+python classify_content.py --model qwen3:14b --resume
+```
+
+---
+
+## Step 4a — User Interaction Graph
+
+**Script:** `build_interaction_graph.py`  
+**Output:** `results/final/interaction_graph.html`, `interaction_graph_nodes.csv`, `voice_interaction_correlation.csv`
+
+Builds a directed weighted graph where nodes are classified users and edges represent interactions. Three interaction types are extracted from the scraped posts:
+
+- **Direct replies** — a comment whose `parent_id` resolves to a post or comment authored by another user.
+- **Mentions** — `u/username` references in comment bodies.
+- **Co-participation** — two users who both commented on the same post (weighted at 0.5, undirected signal).
+
+Community detection runs Louvain on the undirected projection of the graph. The output HTML visualisation (via [Pyvis](https://pyvis.readthedocs.io)) colours nodes by voice type, sizes them by in-degree, and draws community hulls. A `voice_interaction_correlation.csv` summarises intra- vs. inter-voice interaction fractions.
+
+```bash
+python build_interaction_graph.py \
+  --classifications results/final/user_voice_classifications.csv \
+  --posts-dir results/user_posts \
+  --output-dir results/final
+```
+
+---
+
+## Step 4b — Subreddit Co-participation Graph
+
+**Script:** `build_subreddit_graph.py`  
+**Output:** `results/final/subreddit_graph.html`, `subreddit_graph_nodes.csv`
+
+Builds an undirected weighted graph where nodes are subreddits and edge weights equal the number of classified users active in both subreddits. Only non-unknown users contribute. Nodes are sized by user count and coloured by the dominant voice type of their user base. Louvain community detection groups subreddits by shared audience.
+
+```bash
+python build_subreddit_graph.py \
+  --classifications results/final/user_voice_classifications.csv \
+  --posts-dir results/user_posts \
+  --output-dir results/final
+```
+
+---
+
+## Dependencies
+
+```
+requests, pandas, networkx, python-louvain, pyvis, ollama, tqdm
+```
+
+Install with:
+```bash
+pip install -r requirements.txt
+```
+
+An Ollama server with a supported model (e.g. `qwen3:14b`) must be running locally for step 3.
