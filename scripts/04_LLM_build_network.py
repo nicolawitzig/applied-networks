@@ -27,6 +27,7 @@ def main() -> None:
     accounts = read_csv(categorized / "accounts_llm.csv")
     tweets = pd.DataFrame(read_jsonl(raw / "tweets.jsonl"))
 
+    accounts = accounts[~accounts["voice_type"].isin(["non_uzh"])]
     kept_handles = set(accounts["handle"].str.lower())
 
     g = build_mention_graph(
@@ -40,12 +41,12 @@ def main() -> None:
     for node, cid in partition.items():
         g.nodes[node]["community"] = cid
 
-    graphml_path = categorized / "mention_network_llm.graphml"
+    graphml_path = categorized / "mention_network_llm2.graphml"
     nx.write_graphml(g, graphml_path)
     print(f"[04-LLM] wrote {graphml_path}")
 
     summary = community_summary(g, partition, accounts)
-    write_csv(summary, categorized / "community_summary_llm.csv")
+    write_csv(summary, categorized / "community_summary_llm2.csv")
     print(f"[04-LLM] communities: {len(summary)}")
     print(summary)
 

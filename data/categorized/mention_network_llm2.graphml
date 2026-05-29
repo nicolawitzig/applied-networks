@@ -1,0 +1,5368 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d0" for="node" attr.name="community" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="uzh_ch">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_digrel">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_h2r">
+      <data key="d0">0</data>
+    </node>
+    <node id="itinerare_uzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_science">
+      <data key="d0">1</data>
+    </node>
+    <node id="azinkernagellab">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzhalumni">
+      <data key="d0">0</data>
+    </node>
+    <node id="krauthammerlab">
+      <data key="d0">2</data>
+    </node>
+    <node id="dqbm_uzh">
+      <data key="d0">2</data>
+    </node>
+    <node id="uzh_glk">
+      <data key="d0">0</data>
+    </node>
+    <node id="evmed_ch">
+      <data key="d0">1</data>
+    </node>
+    <node id="econ_uzh">
+      <data key="d0">3</data>
+    </node>
+    <node id="ipz_ch">
+      <data key="d0">4</data>
+    </node>
+    <node id="uzh_geo">
+      <data key="d0">1</data>
+    </node>
+    <node id="bodenmillerlab">
+      <data key="d0">2</data>
+    </node>
+    <node id="uzh_vetsuisse">
+      <data key="d0">5</data>
+    </node>
+    <node id="katja_rost">
+      <data key="d0">0</data>
+    </node>
+    <node id="sociology_uzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_virology">
+      <data key="d0">1</data>
+    </node>
+    <node id="guglielmomazzo3">
+      <data key="d0">0</data>
+    </node>
+    <node id="eclim_">
+      <data key="d0">1</data>
+    </node>
+    <node id="eiz_zurich">
+      <data key="d0">0</data>
+    </node>
+    <node id="dompetko">
+      <data key="d0">0</data>
+    </node>
+    <node id="ricosennrich">
+      <data key="d0">12</data>
+    </node>
+    <node id="uzh_ebpi">
+      <data key="d0">7</data>
+    </node>
+    <node id="foeguzh">
+      <data key="d0">8</data>
+    </node>
+    <node id="uzh_ikmz">
+      <data key="d0">8</data>
+    </node>
+    <node id="eddahumprecht">
+      <data key="d0">8</data>
+    </node>
+    <node id="mark_eisenegger">
+      <data key="d0">8</data>
+    </node>
+    <node id="graduatecampus">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzhspacehub">
+      <data key="d0">1</data>
+    </node>
+    <node id="uzh_blockchain">
+      <data key="d0">9</data>
+    </node>
+    <node id="thorstenhens">
+      <data key="d0">9</data>
+    </node>
+    <node id="hollandlab_">
+      <data key="d0">10</data>
+    </node>
+    <node id="dinapomeranz">
+      <data key="d0">3</data>
+    </node>
+    <node id="uzh_chemistry">
+      <data key="d0">10</data>
+    </node>
+    <node id="harinilaksh">
+      <data key="d0">0</data>
+    </node>
+    <node id="lifesciencezh">
+      <data key="d0">1</data>
+    </node>
+    <node id="siljahausermann">
+      <data key="d0">4</data>
+    </node>
+    <node id="ikmzmediachange">
+      <data key="d0">8</data>
+    </node>
+    <node id="uzh_gcb">
+      <data key="d0">11</data>
+    </node>
+    <node id="uzh_res_funding">
+      <data key="d0">0</data>
+    </node>
+    <node id="jacobscenteruzh">
+      <data key="d0">3</data>
+    </node>
+    <node id="moritzdaum">
+      <data key="d0">3</data>
+    </node>
+    <node id="uzh_evolution">
+      <data key="d0">1</data>
+    </node>
+    <node id="etue_">
+      <data key="d0">0</data>
+    </node>
+    <node id="schwanklab">
+      <data key="d0">2</data>
+    </node>
+    <node id="giva_uzh">
+      <data key="d0">1</data>
+    </node>
+    <node id="uzh_de">
+      <data key="d0">5</data>
+    </node>
+    <node id="vandeheijdenlab">
+      <data key="d0">1</data>
+    </node>
+    <node id="winexped">
+      <data key="d0">1</data>
+    </node>
+    <node id="lorenzhilty">
+      <data key="d0">0</data>
+    </node>
+    <node id="tpatriarchi">
+      <data key="d0">2</data>
+    </node>
+    <node id="k_weltentdecker">
+      <data key="d0">3</data>
+    </node>
+    <node id="vsuzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="meyer_uzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="atrkola">
+      <data key="d0">1</data>
+    </node>
+    <node id="giacomo_melani">
+      <data key="d0">10</data>
+    </node>
+    <node id="davsca1">
+      <data key="d0">1</data>
+    </node>
+    <node id="altermatt_lab">
+      <data key="d0">11</data>
+    </node>
+    <node id="cliniczoo">
+      <data key="d0">5</data>
+    </node>
+    <node id="uzh_news">
+      <data key="d0">5</data>
+    </node>
+    <node id="menze_group">
+      <data key="d0">2</data>
+    </node>
+    <node id="lbaudis">
+      <data key="d0">1</data>
+    </node>
+    <node id="johannafurrer5">
+      <data key="d0">2</data>
+    </node>
+    <node id="uzh_president">
+      <data key="d0">1</data>
+    </node>
+    <node id="simonwtownsend">
+      <data key="d0">12</data>
+    </node>
+    <node id="geoalumniuzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="lubergroup">
+      <data key="d0">10</data>
+    </node>
+    <node id="ipmb_postdocs">
+      <data key="d0">1</data>
+    </node>
+    <node id="karlgademann">
+      <data key="d0">10</data>
+    </node>
+    <node id="tobiaszuest">
+      <data key="d0">1</data>
+    </node>
+    <node id="mjsantos_uzh">
+      <data key="d0">11</data>
+    </node>
+    <node id="vasilis_nittas">
+      <data key="d0">7</data>
+    </node>
+    <node id="vauz_uzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="benhalephd">
+      <data key="d0">1</data>
+    </node>
+    <node id="krutzenmichael">
+      <data key="d0">1</data>
+    </node>
+    <node id="gino06004284">
+      <data key="d0">1</data>
+    </node>
+    <node id="reinhardfurrer">
+      <data key="d0">11</data>
+    </node>
+    <node id="uzhmat">
+      <data key="d0">1</data>
+    </node>
+    <node id="annasenoner">
+      <data key="d0">1</data>
+    </node>
+    <node id="michal_juricek">
+      <data key="d0">10</data>
+    </node>
+    <node id="yongyang1207">
+      <data key="d0">10</data>
+    </node>
+    <node id="juriceklab">
+      <data key="d0">10</data>
+    </node>
+    <node id="tompastierik">
+      <data key="d0">10</data>
+    </node>
+    <node id="yujiawang8">
+      <data key="d0">10</data>
+    </node>
+    <node id="patriciacmelova">
+      <data key="d0">10</data>
+    </node>
+    <node id="bertoncesare">
+      <data key="d0">10</data>
+    </node>
+    <node id="lab_adl">
+      <data key="d0">10</data>
+    </node>
+    <node id="rene_wick">
+      <data key="d0">10</data>
+    </node>
+    <node id="cuestagalisteo">
+      <data key="d0">10</data>
+    </node>
+    <node id="manasimuglikar">
+      <data key="d0">1</data>
+    </node>
+    <node id="wysszurich">
+      <data key="d0">0</data>
+    </node>
+    <node id="artscience_uzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="motiontriggered">
+      <data key="d0">0</data>
+    </node>
+    <node id="adrianahotz2">
+      <data key="d0">0</data>
+    </node>
+    <node id="crsuzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="grantsaccess">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_ibme">
+      <data key="d0">0</data>
+    </node>
+    <node id="annebrenoe">
+      <data key="d0">3</data>
+    </node>
+    <node id="niconeureiter">
+      <data key="d0">12</data>
+    </node>
+    <node id="uzh_cmh">
+      <data key="d0">0</data>
+    </node>
+    <node id="stefwalter__">
+      <data key="d0">4</data>
+    </node>
+    <node id="_tabeameier">
+      <data key="d0">0</data>
+    </node>
+    <node id="dat_italian_boo">
+      <data key="d0">3</data>
+    </node>
+    <node id="wenzl_florian">
+      <data key="d0">1</data>
+    </node>
+    <node id="cmc_uzh">
+      <data key="d0">1</data>
+    </node>
+    <node id="kralersimon">
+      <data key="d0">1</data>
+    </node>
+    <node id="r_camaraleret">
+      <data key="d0">1</data>
+    </node>
+    <node id="ingridolivaresa">
+      <data key="d0">1</data>
+    </node>
+    <node id="silke_fuerst">
+      <data key="d0">8</data>
+    </node>
+    <node id="uzh_chess">
+      <data key="d0">0</data>
+    </node>
+    <node id="sabrinakessler">
+      <data key="d0">8</data>
+    </node>
+    <node id="dnvglr">
+      <data key="d0">8</data>
+    </node>
+    <node id="julianelischka">
+      <data key="d0">8</data>
+    </node>
+    <node id="iurisconsensus">
+      <data key="d0">0</data>
+    </node>
+    <node id="chelveticum">
+      <data key="d0">1</data>
+    </node>
+    <node id="rebeccaoester">
+      <data key="d0">11</data>
+    </node>
+    <node id="rosiecblackman">
+      <data key="d0">11</data>
+    </node>
+    <node id="juditmm_">
+      <data key="d0">0</data>
+    </node>
+    <node id="j_vamvas">
+      <data key="d0">12</data>
+    </node>
+    <node id="bricksdont">
+      <data key="d0">12</data>
+    </node>
+    <node id="arios272">
+      <data key="d0">12</data>
+    </node>
+    <node id="noeminaepli">
+      <data key="d0">12</data>
+    </node>
+    <node id="pdimanova">
+      <data key="d0">3</data>
+    </node>
+    <node id="c_balbi90">
+      <data key="d0">1</data>
+    </node>
+    <node id="axonsalex">
+      <data key="d0">1</data>
+    </node>
+    <node id="philipphoman">
+      <data key="d0">13</data>
+    </node>
+    <node id="stehoman">
+      <data key="d0">13</data>
+    </node>
+    <node id="sennjulien">
+      <data key="d0">3</data>
+    </node>
+    <node id="alterelim">
+      <data key="d0">3</data>
+    </node>
+    <node id="anacostaramon">
+      <data key="d0">3</data>
+    </node>
+    <node id="lillyshanahan1">
+      <data key="d0">3</data>
+    </node>
+    <node id="d_burgherr">
+      <data key="d0">3</data>
+    </node>
+    <node id="michaelaslotwi1">
+      <data key="d0">3</data>
+    </node>
+    <node id="lbernhard21">
+      <data key="d0">4</data>
+    </node>
+    <node id="l_hugentobler">
+      <data key="d0">8</data>
+    </node>
+    <node id="mariehelenesp">
+      <data key="d0">14</data>
+    </node>
+    <node id="feministischius">
+      <data key="d0">14</data>
+    </node>
+    <node id="alicemargaria">
+      <data key="d0">14</data>
+    </node>
+    <node id="danijaradent">
+      <data key="d0">8</data>
+    </node>
+    <node id="eszter">
+      <data key="d0">8</data>
+    </node>
+    <node id="ulrich__kaiser">
+      <data key="d0">0</data>
+    </node>
+    <node id="nicopmat">
+      <data key="d0">2</data>
+    </node>
+    <node id="jingganglan">
+      <data key="d0">10</data>
+    </node>
+    <node id="vladimir_rybkin">
+      <data key="d0">10</data>
+    </node>
+    <node id="oburogluleal">
+      <data key="d0">15</data>
+    </node>
+    <node id="canals_lab">
+      <data key="d0">15</data>
+    </node>
+    <node id="belengonzalez_s">
+      <data key="d0">4</data>
+    </node>
+    <node id="enzonussio">
+      <data key="d0">4</data>
+    </node>
+    <node id="mthallmair">
+      <data key="d0">11</data>
+    </node>
+    <node id="shyamolinag">
+      <data key="d0">11</data>
+    </node>
+    <node id="heblingvieira">
+      <data key="d0">0</data>
+    </node>
+    <node id="langer_nicolas">
+      <data key="d0">0</data>
+    </node>
+    <node id="worldbioforum">
+      <data key="d0">11</data>
+    </node>
+    <node id="dominikmenges">
+      <data key="d0">7</data>
+    </node>
+    <node id="lnaschmann">
+      <data key="d0">7</data>
+    </node>
+    <node id="agneulyte">
+      <data key="d0">7</data>
+    </node>
+    <node id="julian_schaerer">
+      <data key="d0">3</data>
+    </node>
+    <node id="econgsw">
+      <data key="d0">3</data>
+    </node>
+    <node id="maalsina">
+      <data key="d0">3</data>
+    </node>
+    <node id="marlonazinovic">
+      <data key="d0">3</data>
+    </node>
+    <node id="appliedmicrobi2">
+      <data key="d0">1</data>
+    </node>
+    <node id="danlifei">
+      <data key="d0">1</data>
+    </node>
+    <node id="granosimona">
+      <data key="d0">0</data>
+    </node>
+    <node id="baslerlab">
+      <data key="d0">16</data>
+    </node>
+    <node id="tewarysandipan">
+      <data key="d0">16</data>
+    </node>
+    <node id="bahardgrmenci">
+      <data key="d0">16</data>
+    </node>
+    <node id="raufdermauer">
+      <data key="d0">0</data>
+    </node>
+    <node id="fdimitrioumd">
+      <data key="d0">2</data>
+    </node>
+    <node id="cccz_usz">
+      <data key="d0">2</data>
+    </node>
+    <node id="tocschlag">
+      <data key="d0">0</data>
+    </node>
+    <node id="jaellefuchs">
+      <data key="d0">8</data>
+    </node>
+    <node id="dsi_democracy">
+      <data key="d0">4</data>
+    </node>
+    <node id="karstendonnay">
+      <data key="d0">4</data>
+    </node>
+    <node id="rogerstupf">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_zrf">
+      <data key="d0">0</data>
+    </node>
+    <node id="biomiguellc">
+      <data key="d0">1</data>
+    </node>
+    <node id="slienkamp">
+      <data key="d0">17</data>
+    </node>
+    <node id="paulina_ogar">
+      <data key="d0">17</data>
+    </node>
+    <node id="nccrkidneych">
+      <data key="d0">17</data>
+    </node>
+    <node id="uzh_microscopy">
+      <data key="d0">17</data>
+    </node>
+    <node id="karin_prummel">
+      <data key="d0">17</data>
+    </node>
+    <node id="itsl_uzh">
+      <data key="d0">8</data>
+    </node>
+    <node id="rasitavinay">
+      <data key="d0">0</data>
+    </node>
+    <node id="svenseuken">
+      <data key="d0">3</data>
+    </node>
+    <node id="sciencelabuzh">
+      <data key="d0">1</data>
+    </node>
+    <node id="hengzhangzh">
+      <data key="d0">11</data>
+    </node>
+    <node id="pdaniore">
+      <data key="d0">7</data>
+    </node>
+    <node id="naefrahel">
+      <data key="d0">0</data>
+    </node>
+    <node id="ifis_uzh">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_rlc">
+      <data key="d0">0</data>
+    </node>
+    <node id="gesinekruger">
+      <data key="d0">0</data>
+    </node>
+    <node id="joh_wambui">
+      <data key="d0">5</data>
+    </node>
+    <node id="muc_francis">
+      <data key="d0">5</data>
+    </node>
+    <node id="hartrampf_lab">
+      <data key="d0">10</data>
+    </node>
+    <node id="julia_mueller97">
+      <data key="d0">8</data>
+    </node>
+    <node id="maraknuesel">
+      <data key="d0">11</data>
+    </node>
+    <node id="kimberleylemmen">
+      <data key="d0">11</data>
+    </node>
+    <node id="adr_stefan">
+      <data key="d0">11</data>
+    </node>
+    <node id="pennekampster">
+      <data key="d0">11</data>
+    </node>
+    <node id="kroll_saraliane">
+      <data key="d0">0</data>
+    </node>
+    <node id="djuscor">
+      <data key="d0">2</data>
+    </node>
+    <node id="uschibackes">
+      <data key="d0">1</data>
+    </node>
+    <node id="brotibiswas">
+      <data key="d0">1</data>
+    </node>
+    <node id="stefanlupold">
+      <data key="d0">1</data>
+    </node>
+    <node id="andenardo">
+      <data key="d0">1</data>
+    </node>
+    <node id="lhcbzurich1">
+      <data key="d0">1</data>
+    </node>
+    <node id="mt_schultes">
+      <data key="d0">0</data>
+    </node>
+    <node id="hypnos8320">
+      <data key="d0">5</data>
+    </node>
+    <node id="sj_schreiner">
+      <data key="d0">5</data>
+    </node>
+    <node id="uzh_shz">
+      <data key="d0">5</data>
+    </node>
+    <node id="uzh_ipt">
+      <data key="d0">5</data>
+    </node>
+    <node id="anto_pede">
+      <data key="d0">1</data>
+    </node>
+    <node id="1uc4r0">
+      <data key="d0">12</data>
+    </node>
+    <node id="csarasuagar">
+      <data key="d0">12</data>
+    </node>
+    <node id="fbeuschlein">
+      <data key="d0">0</data>
+    </node>
+    <node id="c_miletta">
+      <data key="d0">0</data>
+    </node>
+    <node id="ashaitar">
+      <data key="d0">12</data>
+    </node>
+    <node id="ximgutierrez">
+      <data key="d0">12</data>
+    </node>
+    <node id="uzh_spur">
+      <data key="d0">12</data>
+    </node>
+    <node id="sophia_c_volk">
+      <data key="d0">8</data>
+    </node>
+    <node id="suxin3">
+      <data key="d0">0</data>
+    </node>
+    <node id="isabel__hagen">
+      <data key="d0">1</data>
+    </node>
+    <node id="randymunoz31">
+      <data key="d0">1</data>
+    </node>
+    <node id="hannahilbrandt">
+      <data key="d0">1</data>
+    </node>
+    <node id="kunqi_wang">
+      <data key="d0">1</data>
+    </node>
+    <node id="life_seminar">
+      <data key="d0">16</data>
+    </node>
+    <node id="vittoriostumpo_">
+      <data key="d0">0</data>
+    </node>
+    <node id="elenabarle">
+      <data key="d0">18</data>
+    </node>
+    <node id="siaf_uzh">
+      <data key="d0">18</data>
+    </node>
+    <node id="omniaabdo_ph">
+      <data key="d0">12</data>
+    </node>
+    <node id="_leahkaye">
+      <data key="d0">12</data>
+    </node>
+    <node id="pkschweizer">
+      <data key="d0">4</data>
+    </node>
+    <node id="mikadolab">
+      <data key="d0">0</data>
+    </node>
+    <node id="natiperezca">
+      <data key="d0">11</data>
+    </node>
+    <node id="lorenacasasola5">
+      <data key="d0">10</data>
+    </node>
+    <node id="intlaw_uzh">
+      <data key="d0">14</data>
+    </node>
+    <node id="johannes_reich">
+      <data key="d0">14</data>
+    </node>
+    <node id="meierjulia2">
+      <data key="d0">14</data>
+    </node>
+    <node id="nikhilphaniraj">
+      <data key="d0">12</data>
+    </node>
+    <node id="evocoggroup">
+      <data key="d0">12</data>
+    </node>
+    <node id="venturinimiri">
+      <data key="d0">3</data>
+    </node>
+    <node id="obukhovanatalia">
+      <data key="d0">8</data>
+    </node>
+    <node id="antonfedosov">
+      <data key="d0">8</data>
+    </node>
+    <node id="uzh_ifi">
+      <data key="d0">8</data>
+    </node>
+    <node id="babettewinter10">
+      <data key="d0">7</data>
+    </node>
+    <node id="vivmantovani">
+      <data key="d0">1</data>
+    </node>
+    <node id="kathelijnekoops">
+      <data key="d0">1</data>
+    </node>
+    <node id="lmoncadas">
+      <data key="d0">11</data>
+    </node>
+    <node id="dylan_bastiaans">
+      <data key="d0">1</data>
+    </node>
+    <node id="andrejafigurek">
+      <data key="d0">17</data>
+    </node>
+    <node id="the_half_ling">
+      <data key="d0">12</data>
+    </node>
+    <node id="babblingbirds">
+      <data key="d0">12</data>
+    </node>
+    <node id="captcoma">
+      <data key="d0">0</data>
+    </node>
+    <node id="samsrappaz">
+      <data key="d0">12</data>
+    </node>
+    <node id="m_n_inderbinen">
+      <data key="d0">5</data>
+    </node>
+    <node id="simrantinani">
+      <data key="d0">1</data>
+    </node>
+    <node id="_elifaskin">
+      <data key="d0">14</data>
+    </node>
+    <node id="weijia_zhong">
+      <data key="d0">2</data>
+    </node>
+    <node id="bioentrepreneu3">
+      <data key="d0">0</data>
+    </node>
+    <node id="bzamanlooy">
+      <data key="d0">3</data>
+    </node>
+    <node id="ermannom42">
+      <data key="d0">19</data>
+    </node>
+    <node id="paul_tdl">
+      <data key="d0">19</data>
+    </node>
+    <node id="isik__tuncay">
+      <data key="d0">10</data>
+    </node>
+    <node id="dh_grundig">
+      <data key="d0">0</data>
+    </node>
+    <node id="fkraeutli">
+      <data key="d0">20</data>
+    </node>
+    <node id="tristanweddigen">
+      <data key="d0">20</data>
+    </node>
+    <node id="transitlives">
+      <data key="d0">0</data>
+    </node>
+    <node id="kynan_eng">
+      <data key="d0">1</data>
+    </node>
+    <node id="aiman_saab">
+      <data key="d0">0</data>
+    </node>
+    <node id="michaelblanga">
+      <data key="d0">3</data>
+    </node>
+    <node id="jamie1little">
+      <data key="d0">16</data>
+    </node>
+    <node id="fabienne_br">
+      <data key="d0">16</data>
+    </node>
+    <node id="thenudeape">
+      <data key="d0">5</data>
+    </node>
+    <node id="fonse_seb">
+      <data key="d0">0</data>
+    </node>
+    <node id="yitangl1">
+      <data key="d0">0</data>
+    </node>
+    <node id="mogino37">
+      <data key="d0">21</data>
+    </node>
+    <node id="evogom">
+      <data key="d0">21</data>
+    </node>
+    <node id="leainaschneider">
+      <data key="d0">0</data>
+    </node>
+    <node id="nadinestrauss">
+      <data key="d0">8</data>
+    </node>
+    <node id="annisch">
+      <data key="d0">8</data>
+    </node>
+    <node id="thomashaensli">
+      <data key="d0">20</data>
+    </node>
+    <node id="chloepasin">
+      <data key="d0">1</data>
+    </node>
+    <node id="irene_abela">
+      <data key="d0">1</data>
+    </node>
+    <node id="vgarcianavas">
+      <data key="d0">1</data>
+    </node>
+    <node id="lrieble">
+      <data key="d0">0</data>
+    </node>
+    <node id="abhi_evo">
+      <data key="d0">1</data>
+    </node>
+    <node id="uzh_crsa">
+      <data key="d0">3</data>
+    </node>
+    <node id="neguerueladario">
+      <data key="d0">20</data>
+    </node>
+    <node id="fatimabenitezr">
+      <data key="d0">16</data>
+    </node>
+    <node id="gianlucasaetta">
+      <data key="d0">5</data>
+    </node>
+    <node id="kirankappeler">
+      <data key="d0">8</data>
+    </node>
+    <node id="joel_luethi">
+      <data key="d0">0</data>
+    </node>
+    <node id="lab_arnold">
+      <data key="d0">19</data>
+    </node>
+    <node id="dr_immunoman_d">
+      <data key="d0">19</data>
+    </node>
+    <node id="uzh_democracy">
+      <data key="d0">4</data>
+    </node>
+    <node id="astaender">
+      <data key="d0">8</data>
+    </node>
+    <node id="raffaellagallo_">
+      <data key="d0">0</data>
+    </node>
+    <node id="antoniavelicu">
+      <data key="d0">22</data>
+    </node>
+    <node id="surveyacademics">
+      <data key="d0">22</data>
+    </node>
+    <node id="juliajerke">
+      <data key="d0">22</data>
+    </node>
+    <node id="madhusudhannaik">
+      <data key="d0">10</data>
+    </node>
+    <node id="mmarciniaq">
+      <data key="d0">0</data>
+    </node>
+    <node id="apopescu99">
+      <data key="d0">3</data>
+    </node>
+    <node id="a_schorn">
+      <data key="d0">8</data>
+    </node>
+    <node id="svenjamarfurt">
+      <data key="d0">1</data>
+    </node>
+    <node id="maitedeambrosi">
+      <data key="d0">3</data>
+    </node>
+    <node id="herren_anna">
+      <data key="d0">0</data>
+    </node>
+    <node id="uzh_cytometry">
+      <data key="d0">17</data>
+    </node>
+    <node id="mervisyigit">
+      <data key="d0">23</data>
+    </node>
+    <node id="fabivf90">
+      <data key="d0">23</data>
+    </node>
+    <node id="silviadecadri">
+      <data key="d0">4</data>
+    </node>
+    <node id="simonahuwiler">
+      <data key="d0">1</data>
+    </node>
+    <node id="seegerlab">
+      <data key="d0">1</data>
+    </node>
+    <node id="uzh_news_en">
+      <data key="d0">5</data>
+    </node>
+    <node id="flaviamller10">
+      <data key="d0">0</data>
+    </node>
+    <node id="pimientoc">
+      <data key="d0">1</data>
+    </node>
+    <node id="stefangroth">
+      <data key="d0">0</data>
+    </node>
+    <node id="minh_hao">
+      <data key="d0">8</data>
+    </node>
+    <node id="johschka">
+      <data key="d0">12</data>
+    </node>
+    <node id="nehmemelissa">
+      <data key="d0">10</data>
+    </node>
+    <node id="verena_kufner">
+      <data key="d0">1</data>
+    </node>
+    <node id="imrg_uzh">
+      <data key="d0">9</data>
+    </node>
+    <node id="wiesenbergg">
+      <data key="d0">1</data>
+    </node>
+    <node id="bovetalexandre">
+      <data key="d0">9</data>
+    </node>
+    <node id="sarahmundt5">
+      <data key="d0">19</data>
+    </node>
+    <node id="violaasri">
+      <data key="d0">3</data>
+    </node>
+    <node id="amaothman">
+      <data key="d0">24</data>
+    </node>
+    <node id="chr_messner">
+      <data key="d0">24</data>
+    </node>
+    <node id="fede_breimaier">
+      <data key="d0">12</data>
+    </node>
+    <node id="gene_hop">
+      <data key="d0">1</data>
+    </node>
+    <node id="altmeyerlab">
+      <data key="d0">2</data>
+    </node>
+    <node id="caflischgroup">
+      <data key="d0">1</data>
+    </node>
+    <node id="yousefinarcis">
+      <data key="d0">25</data>
+    </node>
+    <node id="jackpotente">
+      <data key="d0">25</data>
+    </node>
+    <node id="apanagopoulos_">
+      <data key="d0">2</data>
+    </node>
+    <node id="juerg11">
+      <data key="d0">0</data>
+    </node>
+    <node id="priskafeichter">
+      <data key="d0">0</data>
+    </node>
+    <node id="roeckechristina">
+      <data key="d0">1</data>
+    </node>
+    <node id="ek_geog">
+      <data key="d0">1</data>
+    </node>
+    <node id="verdeguerlab">
+      <data key="d0">1</data>
+    </node>
+    <node id="jrsure">
+      <data key="d0">3</data>
+    </node>
+    <node id="vickyloras">
+      <data key="d0">12</data>
+    </node>
+    <node id="sback_">
+      <data key="d0">3</data>
+    </node>
+    <node id="sealuzh">
+      <data key="d0">3</data>
+    </node>
+    <node id="beaehmann">
+      <data key="d0">1</data>
+    </node>
+    <node id="amhaugg">
+      <data key="d0">0</data>
+    </node>
+    <node id="cauawest">
+      <data key="d0">0</data>
+    </node>
+    <node id="zyz_geo">
+      <data key="d0">1</data>
+    </node>
+    <node id="sindu_krishn">
+      <data key="d0">19</data>
+    </node>
+    <node id="chschneider_phd">
+      <data key="d0">19</data>
+    </node>
+    <node id="gilleskratzer">
+      <data key="d0">7</data>
+    </node>
+    <node id="uzh_df">
+      <data key="d0">6</data>
+    </node>
+    <node id="leippoldmarkus">
+      <data key="d0">6</data>
+    </node>
+    <node id="stefbattiston">
+      <data key="d0">6</data>
+    </node>
+    <node id="marcchesney">
+      <data key="d0">6</data>
+    </node>
+    <node id="alexfwagner">
+      <data key="d0">6</data>
+    </node>
+    <node id="andreafarnham">
+      <data key="d0">7</data>
+    </node>
+    <node id="esibla85">
+      <data key="d0">10</data>
+    </node>
+    <node id="deviprasadas1">
+      <data key="d0">10</data>
+    </node>
+    <node id="ccwd_uzh">
+      <data key="d0">3</data>
+    </node>
+    <node id="d_dagoz">
+      <data key="d0">0</data>
+    </node>
+    <node id="diana13machado">
+      <data key="d0">0</data>
+    </node>
+    <node id="phillipstroebel">
+      <data key="d0">0</data>
+    </node>
+    <node id="compbiozurich">
+      <data key="d0">1</data>
+    </node>
+    <node id="casaout">
+      <data key="d0">3</data>
+    </node>
+    <node id="patuzh">
+      <data key="d0">8</data>
+    </node>
+    <node id="child_trauma">
+      <data key="d0">3</data>
+    </node>
+    <node id="sutterbalgrist">
+      <data key="d0">0</data>
+    </node>
+    <node id="davoser">
+      <data key="d0">0</data>
+    </node>
+    <edge source="uzh_ch" target="uzh_digrel">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_h2r">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="uzh_ch" target="itinerare_uzh">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_science">
+      <data key="d1">62</data>
+    </edge>
+    <edge source="uzh_ch" target="azinkernagellab">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ch" target="uzhalumni">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="uzh_ch" target="krauthammerlab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="dqbm_uzh">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_glk">
+      <data key="d1">24</data>
+    </edge>
+    <edge source="uzh_ch" target="evmed_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="econ_uzh">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="uzh_ch" target="ipz_ch">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_geo">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="uzh_ch" target="bodenmillerlab">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_vetsuisse">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_ch" target="katja_rost">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="sociology_uzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_virology">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="uzh_ch" target="guglielmomazzo3">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="eclim_">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ch" target="eiz_zurich">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ch" target="dompetko">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="ricosennrich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_ebpi">
+      <data key="d1">17</data>
+    </edge>
+    <edge source="uzh_ch" target="foeguzh">
+      <data key="d1">30</data>
+    </edge>
+    <edge source="uzh_ch" target="uzhspacehub">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_ch" target="hollandlab_">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ch" target="graduatecampus">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_ch" target="dinapomeranz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_chemistry">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="uzh_ch" target="harinilaksh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ch" target="lifesciencezh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ch" target="siljahausermann">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_ch" target="ikmzmediachange">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_ikmz">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_gcb">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_res_funding">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ch" target="jacobscenteruzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_ch" target="moritzdaum">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_evolution">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="etue_">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="eddahumprecht">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="schwanklab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="giva_uzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="uzh_de">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="vandeheijdenlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="winexped">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="lorenzhilty">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="tpatriarchi">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="k_weltentdecker">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="vsuzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="meyer_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="atrkola">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ch" target="giacomo_melani">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ch" target="davsca1">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ch" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="tocschlag">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_digrel" target="uzh_ch">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_digrel" target="katja_rost">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_digrel" target="jaellefuchs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="uzh_glk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="uzh_ikmz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="dsi_democracy">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="rogerstupf">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="mark_eisenegger">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_digrel" target="foeguzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_digrel" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="uzh_zrf">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_digrel" target="sociology_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_h2r" target="mariehelenesp">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="uzh_h2r" target="alicemargaria">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_h2r" target="feministischius">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_h2r" target="uzh_news">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_h2r" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_h2r" target="sociology_uzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_h2r" target="uzh_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_h2r" target="krauthammerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_h2r" target="schwanklab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_h2r" target="uzh_glk">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="itinerare_uzh" target="uzh_ch">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="itinerare_uzh" target="uzh_ipt">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="itinerare_uzh" target="graduatecampus">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_ch">
+      <data key="d1">62</data>
+    </edge>
+    <edge source="uzh_science" target="uzhspacehub">
+      <data key="d1">104</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_geo">
+      <data key="d1">37</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_chemistry">
+      <data key="d1">47</data>
+    </edge>
+    <edge source="uzh_science" target="cliniczoo">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_news">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="menze_group">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="dqbm_uzh">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_science" target="hollandlab_">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="uzh_science" target="davsca1">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="uzh_science" target="lbaudis">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_glk">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_evolution">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_science" target="johannafurrer5">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_president">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="simonwtownsend">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="geoalumniuzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="altermatt_lab">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_science" target="lubergroup">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="ipmb_postdocs">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_science" target="giva_uzh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_science" target="karlgademann">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_science" target="tobiaszuest">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="krauthammerlab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="schwanklab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="mjsantos_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="evmed_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="vasilis_nittas">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="uzhalumni">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_virology">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_science" target="benhalephd">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_science" target="winexped">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="uzh_science" target="krutzenmichael">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="lifesciencezh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_science" target="gino06004284">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_vetsuisse">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="reinhardfurrer">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="uzhmat">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_res_funding">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="annasenoner">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_science" target="graduatecampus">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_science" target="uzh_ipt">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="azinkernagellab" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="azinkernagellab" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_ch">
+      <data key="d1">215</data>
+    </edge>
+    <edge source="uzhalumni" target="graduatecampus">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="uzhalumni" target="moritzdaum">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzhalumni" target="tocschlag">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_glk">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzhalumni" target="stefanlupold">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzhalumni" target="simonahuwiler">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_ikmz">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzhalumni" target="geoalumniuzh">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="uzhalumni" target="davsca1">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="eiz_zurich">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzhalumni" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_geo">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzhalumni" target="mark_eisenegger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="econ_uzh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzhalumni" target="foeguzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_blockchain">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_science">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzhalumni" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="atrkola">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="jacobscenteruzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_zrf">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzhalumni" target="cliniczoo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_cmh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzhalumni" target="ccwd_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="uzh_ibme">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="sociology_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="johannes_reich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzhalumni" target="azinkernagellab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="krauthammerlab" target="djuscor">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="krauthammerlab" target="dqbm_uzh">
+      <data key="d1">26</data>
+    </edge>
+    <edge source="krauthammerlab" target="schwanklab">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="krauthammerlab" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="krauthammerlab" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="krauthammerlab" target="uzh_ibme">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dqbm_uzh" target="johannafurrer5">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_science">
+      <data key="d1">45</data>
+    </edge>
+    <edge source="dqbm_uzh" target="krauthammerlab">
+      <data key="d1">63</data>
+    </edge>
+    <edge source="dqbm_uzh" target="schwanklab">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="dqbm_uzh" target="bodenmillerlab">
+      <data key="d1">56</data>
+    </edge>
+    <edge source="dqbm_uzh" target="menze_group">
+      <data key="d1">17</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzhalumni">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="dqbm_uzh" target="djuscor">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_news">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dqbm_uzh" target="cccz_usz">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_evolution">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_virology">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="dqbm_uzh" target="simonahuwiler">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_chemistry">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dqbm_uzh" target="grantsaccess">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dqbm_uzh" target="lifesciencezh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dqbm_uzh" target="karlgademann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dqbm_uzh" target="uzh_ibme">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="dqbm_uzh" target="evmed_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_glk" target="uzh_ch">
+      <data key="d1">24</data>
+    </edge>
+    <edge source="uzh_glk" target="grantsaccess">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_glk" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_glk" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_glk" target="uzh_science">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_glk" target="graduatecampus">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_glk" target="sociology_uzh">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="uzh_glk" target="katja_rost">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_glk" target="uzh_h2r">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_glk" target="mariehelenesp">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_glk" target="feministischius">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_glk" target="uzh_news">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_glk" target="vsuzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_glk" target="meierjulia2">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_glk" target="uzhalumni">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="evmed_ch" target="uzh_evolution">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="evmed_ch" target="uzh_science">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="evmed_ch" target="uzh_zrf">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="evmed_ch" target="uzh_ch">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="evmed_ch" target="uzh_ebpi">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="evmed_ch" target="alexfwagner">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="evmed_ch" target="anto_pede">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="evmed_ch" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="evmed_ch" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="evmed_ch" target="giva_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="dinapomeranz">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="econ_uzh" target="maalsina">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="econ_uzh" target="jacobscenteruzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="uzh_ch">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="econ_uzh" target="annebrenoe">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="econ_uzh" target="ccwd_uzh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="econ_uzh" target="michaelblanga">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="uzh_news">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="alterelim">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="econ_uzh" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="venturinimiri">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econ_uzh" target="econgsw">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ipz_ch" target="uzh_ch">
+      <data key="d1">76</data>
+    </edge>
+    <edge source="ipz_ch" target="siljahausermann">
+      <data key="d1">83</data>
+    </edge>
+    <edge source="ipz_ch" target="stefwalter__">
+      <data key="d1">207</data>
+    </edge>
+    <edge source="ipz_ch" target="karstendonnay">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="ipz_ch" target="dsi_democracy">
+      <data key="d1">22</data>
+    </edge>
+    <edge source="ipz_ch" target="uzh_democracy">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="ipz_ch" target="uzh_res_funding">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="ipz_ch" target="uzh_ikmz">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="ipz_ch" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ipz_ch" target="vsuzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ipz_ch" target="eszter">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ipz_ch" target="nadinestrauss">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ipz_ch" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ipz_ch" target="uzh_glk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_geo" target="uzh_de">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_geo" target="uzh_science">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="uzh_geo" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_geo" target="mjsantos_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_geo" target="graduatecampus">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_geo" target="giva_uzh">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_geo" target="uzhalumni">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_geo" target="annasenoner">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_geo" target="niconeureiter">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_geo" target="isabel__hagen">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_geo" target="eclim_">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_geo" target="hannahilbrandt">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_geo" target="randymunoz31">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="bodenmillerlab" target="cccz_usz">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="bodenmillerlab" target="dqbm_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="bodenmillerlab" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_vetsuisse" target="uzh_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_vetsuisse" target="muc_francis">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_vetsuisse" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_vetsuisse" target="uzh_de">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_vetsuisse" target="cliniczoo">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_chess">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_ch">
+      <data key="d1">24</data>
+    </edge>
+    <edge source="katja_rost" target="sociology_uzh">
+      <data key="d1">27</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_digrel">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_h2r">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="katja_rost" target="stefwalter__">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="katja_rost" target="ipz_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="katja_rost" target="tocschlag">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_ikmz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="katja_rost" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_news">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="katja_rost" target="foeguzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="katja_rost" target="uzh_glk">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sociology_uzh" target="katja_rost">
+      <data key="d1">38</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_h2r">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_ch">
+      <data key="d1">21</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_chess">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="sociology_uzh" target="juliajerke">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="sociology_uzh" target="antoniavelicu">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="sociology_uzh" target="surveyacademics">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_glk">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_digrel">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_res_funding">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="sociology_uzh" target="jacobscenteruzh">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="sociology_uzh" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_ikmz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="sociology_uzh" target="vauz_uzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="sociology_uzh" target="graduatecampus">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="sociology_uzh" target="siljahausermann">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sociology_uzh" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="annebrenoe">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="grantsaccess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="dnvglr">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="silke_fuerst">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzhalumni">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="sociology_uzh" target="tocschlag">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="uzh_zrf">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="_tabeameier">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sociology_uzh" target="moritzdaum">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_virology" target="benhalephd">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="uzh_virology" target="uzh_science">
+      <data key="d1">28</data>
+    </edge>
+    <edge source="uzh_virology" target="lifesciencezh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_virology" target="atrkola">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="uzh_virology" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_virology" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_virology" target="caflischgroup">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_virology" target="irene_abela">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="guglielmomazzo3" target="uzhmat">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eclim_" target="uzh_geo">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="eclim_" target="randymunoz31">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="eclim_" target="isabel__hagen">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="eclim_" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eclim_" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eiz_zurich" target="uzh_ch">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="dompetko" target="uzh_ch">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="ricosennrich" target="j_vamvas">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="ricosennrich" target="bricksdont">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="ricosennrich" target="arios272">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="ricosennrich" target="noeminaepli">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ebpi" target="uzh_ch">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="uzh_ebpi" target="vasilis_nittas">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_ebpi" target="agneulyte">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ebpi" target="dominikmenges">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ebpi" target="lnaschmann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="foeguzh" target="eddahumprecht">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="foeguzh" target="mark_eisenegger">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="foeguzh" target="uzh_ikmz">
+      <data key="d1">35</data>
+    </edge>
+    <edge source="foeguzh" target="uzh_ch">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="foeguzh" target="dnvglr">
+      <data key="d1">26</data>
+    </edge>
+    <edge source="foeguzh" target="silke_fuerst">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="foeguzh" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="foeguzh" target="ikmzmediachange">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="foeguzh" target="eszter">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="foeguzh" target="itsl_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="foeguzh" target="uzh_digrel">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="foeguzh" target="tocschlag">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ikmz" target="eddahumprecht">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="uzh_ikmz" target="mark_eisenegger">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="uzh_ikmz" target="foeguzh">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="uzh_ikmz" target="uzh_ch">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="uzh_ikmz" target="sabrinakessler">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="uzh_ikmz" target="nadinestrauss">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="uzh_ikmz" target="eszter">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="uzh_ikmz" target="ikmzmediachange">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_ikmz" target="astaender">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ikmz" target="dnvglr">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_ikmz" target="silke_fuerst">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_ikmz" target="annisch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ikmz" target="minh_hao">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ikmz" target="sophia_c_volk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ikmz" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ikmz" target="jaellefuchs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eddahumprecht" target="sabrinakessler">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="eddahumprecht" target="siljahausermann">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eddahumprecht" target="uzh_ch">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="eddahumprecht" target="stefwalter__">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="eddahumprecht" target="ipz_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="eddahumprecht" target="uzh_ikmz">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="eddahumprecht" target="mark_eisenegger">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="eddahumprecht" target="foeguzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="eddahumprecht" target="astaender">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="eddahumprecht" target="dsi_democracy">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eddahumprecht" target="silke_fuerst">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="eddahumprecht" target="jaellefuchs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eddahumprecht" target="nadinestrauss">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eddahumprecht" target="annisch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="foeguzh">
+      <data key="d1">43</data>
+    </edge>
+    <edge source="mark_eisenegger" target="uzh_ch">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="mark_eisenegger" target="silke_fuerst">
+      <data key="d1">93</data>
+    </edge>
+    <edge source="mark_eisenegger" target="sophia_c_volk">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="mark_eisenegger" target="uzh_ikmz">
+      <data key="d1">26</data>
+    </edge>
+    <edge source="mark_eisenegger" target="eszter">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="mark_eisenegger" target="minh_hao">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="dnvglr">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="mark_eisenegger" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="eddahumprecht">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="mark_eisenegger" target="sociology_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="katja_rost">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="nadinestrauss">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mark_eisenegger" target="ikmzmediachange">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="mark_eisenegger" target="uzh_digrel">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="mark_eisenegger" target="itsl_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="jaellefuchs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="astaender">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mark_eisenegger" target="tocschlag">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_ch">
+      <data key="d1">38</data>
+    </edge>
+    <edge source="graduatecampus" target="motiontriggered">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="adrianahotz2">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_res_funding">
+      <data key="d1">27</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_science">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="graduatecampus" target="uzhalumni">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="graduatecampus" target="crsuzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_vetsuisse">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_glk">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="graduatecampus" target="wysszurich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="grantsaccess">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_ibme">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="vauz_uzh">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="graduatecampus" target="siljahausermann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="lifesciencezh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="graduatecampus" target="annebrenoe">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzhspacehub">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_geo">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="graduatecampus" target="eddahumprecht">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_cmh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_de">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="graduatecampus" target="winexped">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="stefwalter__">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="uzh_news">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="graduatecampus" target="_tabeameier">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzhspacehub" target="uzh_science">
+      <data key="d1">173</data>
+    </edge>
+    <edge source="uzhspacehub" target="uzh_ch">
+      <data key="d1">33</data>
+    </edge>
+    <edge source="uzhspacehub" target="uzh_geo">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="uzhspacehub" target="davsca1">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="uzh_blockchain" target="thorstenhens">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_blockchain" target="imrg_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hollandlab_" target="uzh_chemistry">
+      <data key="d1">40</data>
+    </edge>
+    <edge source="hollandlab_" target="uzh_science">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="hollandlab_" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hollandlab_" target="karlgademann">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hollandlab_" target="uzh_news">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dinapomeranz" target="econ_uzh">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="dinapomeranz" target="annebrenoe">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dinapomeranz" target="anacostaramon">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dinapomeranz" target="alterelim">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dinapomeranz" target="siljahausermann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dinapomeranz" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_chemistry" target="lubergroup">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_chemistry" target="hollandlab_">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="uzh_chemistry" target="karlgademann">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_chemistry" target="michal_juricek">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="harinilaksh" target="life_seminar">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="harinilaksh" target="lifesciencezh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="harinilaksh" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lifesciencezh" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="lifesciencezh" target="uzh_science">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="lifesciencezh" target="harinilaksh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lifesciencezh" target="uzh_chemistry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lifesciencezh" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="siljahausermann" target="ipz_ch">
+      <data key="d1">75</data>
+    </edge>
+    <edge source="siljahausermann" target="uzh_ch">
+      <data key="d1">34</data>
+    </edge>
+    <edge source="siljahausermann" target="stefwalter__">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="siljahausermann" target="uzh_democracy">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="siljahausermann" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ikmzmediachange" target="uzh_ikmz">
+      <data key="d1">22</data>
+    </edge>
+    <edge source="ikmzmediachange" target="foeguzh">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="ikmzmediachange" target="uzh_ch">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="ikmzmediachange" target="itsl_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ikmzmediachange" target="ipz_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ikmzmediachange" target="eszter">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ikmzmediachange" target="kirankappeler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ikmzmediachange" target="mark_eisenegger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_gcb" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_res_funding" target="graduatecampus">
+      <data key="d1">67</data>
+    </edge>
+    <edge source="uzh_res_funding" target="vauz_uzh">
+      <data key="d1">31</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_geo">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_glk">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_res_funding" target="grantsaccess">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_science">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_vetsuisse">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_res_funding" target="ipz_ch">
+      <data key="d1">22</data>
+    </edge>
+    <edge source="uzh_res_funding" target="econ_uzh">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="uzh_res_funding" target="sociology_uzh">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="uzh_res_funding" target="lbaudis">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="dinapomeranz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_ch">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_res_funding" target="karlgademann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_chess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_ipt">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="crsuzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzhalumni">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="guglielmomazzo3">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_res_funding" target="venturinimiri">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_digrel">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="uzh_h2r">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_res_funding" target="itinerare_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="pdimanova">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="anacostaramon">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="uzh_science">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="econ_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="moritzdaum">
+      <data key="d1">35</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="uzh_res_funding">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="sociology_uzh">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="meyer_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="k_weltentdecker">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="lillyshanahan1">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="annebrenoe">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jacobscenteruzh" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="moritzdaum" target="uzh_news">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="moritzdaum" target="uzh_ch">
+      <data key="d1">41</data>
+    </edge>
+    <edge source="moritzdaum" target="k_weltentdecker">
+      <data key="d1">91</data>
+    </edge>
+    <edge source="moritzdaum" target="jacobscenteruzh">
+      <data key="d1">89</data>
+    </edge>
+    <edge source="moritzdaum" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="moritzdaum" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="moritzdaum" target="uzhalumni">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="moritzdaum" target="dat_italian_boo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_evolution" target="uzh_ch">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_evolution" target="uzh_science">
+      <data key="d1">22</data>
+    </edge>
+    <edge source="uzh_evolution" target="evmed_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="uzh_evolution" target="tobiaszuest">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_evolution" target="stefanlupold">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_evolution" target="abhi_evo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="gene_hop">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="dqbm_uzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_evolution" target="krutzenmichael">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="uzh_spur">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="krauthammerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="vauz_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_evolution" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="etue_" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="etue_" target="uzh_zrf">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="etue_" target="siljahausermann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="giva_uzh" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="giva_uzh" target="uzh_geo">
+      <data key="d1">30</data>
+    </edge>
+    <edge source="giva_uzh" target="uzh_science">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="giva_uzh" target="wiesenbergg">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="giva_uzh" target="mjsantos_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="giva_uzh" target="evmed_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="giva_uzh" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="giva_uzh" target="azinkernagellab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vandeheijdenlab" target="worldbioforum">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vandeheijdenlab" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vandeheijdenlab" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vandeheijdenlab" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="winexped" target="uzh_geo">
+      <data key="d1">45</data>
+    </edge>
+    <edge source="winexped" target="uzh_science">
+      <data key="d1">42</data>
+    </edge>
+    <edge source="winexped" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tpatriarchi" target="schwanklab">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="k_weltentdecker" target="uzh_ch">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="k_weltentdecker" target="moritzdaum">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="k_weltentdecker" target="jacobscenteruzh">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="meyer_uzh" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="atrkola" target="uzh_virology">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="atrkola" target="uzh_science">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="giacomo_melani" target="vladimir_rybkin">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="giacomo_melani" target="uzh_chemistry">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="giacomo_melani" target="lbaudis">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="giacomo_melani" target="evmed_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="giacomo_melani" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="davsca1" target="uzh_science">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="davsca1" target="uzhspacehub">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="davsca1" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="davsca1" target="manasimuglikar">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="davsca1" target="wysszurich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="davsca1" target="uzh_president">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="altermatt_lab" target="rosiecblackman">
+      <data key="d1">37</data>
+    </edge>
+    <edge source="altermatt_lab" target="hengzhangzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="altermatt_lab" target="uzh_science">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="altermatt_lab" target="uzh_ch">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="altermatt_lab" target="uzh_evolution">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="altermatt_lab" target="worldbioforum">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="altermatt_lab" target="uzh_gcb">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="altermatt_lab" target="reinhardfurrer">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="altermatt_lab" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="altermatt_lab" target="mjsantos_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="altermatt_lab" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="altermatt_lab" target="bodenmillerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="altermatt_lab" target="stefanlupold">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="altermatt_lab" target="pennekampster">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="altermatt_lab" target="rebeccaoester">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="altermatt_lab" target="dinapomeranz">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_science">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_vetsuisse">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_ch">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_news">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_news_en">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_ikmz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="cliniczoo" target="mark_eisenegger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cliniczoo" target="thenudeape">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cliniczoo" target="uzhalumni">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="cliniczoo" target="uzh_chess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cliniczoo" target="mthallmair">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cliniczoo" target="reinhardfurrer">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="menze_group" target="dqbm_uzh">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="menze_group" target="bodenmillerlab">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="lbaudis" target="uzh_science">
+      <data key="d1">28</data>
+    </edge>
+    <edge source="lbaudis" target="gino06004284">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="lbaudis" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="lbaudis" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lbaudis" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lbaudis" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonwtownsend" target="evocoggroup">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="simonwtownsend" target="the_half_ling">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="simonwtownsend" target="babblingbirds">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="simonwtownsend" target="johschka">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="geoalumniuzh" target="uzh_geo">
+      <data key="d1">24</data>
+    </edge>
+    <edge source="geoalumniuzh" target="uzhalumni">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="geoalumniuzh" target="uzh_ch">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="lubergroup" target="uzh_chemistry">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="lubergroup" target="michal_juricek">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ipmb_postdocs" target="uzh_science">
+      <data key="d1">24</data>
+    </edge>
+    <edge source="ipmb_postdocs" target="vandeheijdenlab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ipmb_postdocs" target="uzh_evolution">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="ipmb_postdocs" target="biomiguellc">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ipmb_postdocs" target="uzhspacehub">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="karlgademann" target="tobiaszuest">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="karlgademann" target="uzh_science">
+      <data key="d1">30</data>
+    </edge>
+    <edge source="karlgademann" target="uzh_chemistry">
+      <data key="d1">45</data>
+    </edge>
+    <edge source="karlgademann" target="michal_juricek">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="karlgademann" target="hollandlab_">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="karlgademann" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="karlgademann" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="karlgademann" target="juriceklab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="tobiaszuest" target="uzh_evolution">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="tobiaszuest" target="kunqi_wang">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="giva_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="worldbioforum">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="altermatt_lab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="rebeccaoester">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="uzh_gcb">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="graduatecampus">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="uzh_geo">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mjsantos_uzh" target="uzhspacehub">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vasilis_nittas" target="pdaniore">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="vasilis_nittas" target="uzh_ebpi">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="vasilis_nittas" target="lnaschmann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="vauz_uzh" target="graduatecampus">
+      <data key="d1">45</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_res_funding">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="vauz_uzh" target="lifesciencezh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_geo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_ibme">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_glk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzhalumni">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_zrf">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="joel_luethi">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_h2r">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="nadinestrauss">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzh_ikmz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="giva_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="uzhspacehub">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="vauz_uzh" target="annasenoner">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vauz_uzh" target="vsuzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="benhalephd" target="uzh_virology">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="krutzenmichael" target="uzh_science">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="krutzenmichael" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="krutzenmichael" target="svenjamarfurt">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="gino06004284" target="uzh_science">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="gino06004284" target="lbaudis">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="gino06004284" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="reinhardfurrer" target="uzh_science">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="reinhardfurrer" target="mthallmair">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="reinhardfurrer" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="reinhardfurrer" target="crsuzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="reinhardfurrer" target="grantsaccess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="reinhardfurrer" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="reinhardfurrer" target="altermatt_lab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="reinhardfurrer" target="uzh_geo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzhmat" target="uzh_science">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="annasenoner" target="uzh_geo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="annasenoner" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michal_juricek" target="uzh_chemistry">
+      <data key="d1">139</data>
+    </edge>
+    <edge source="michal_juricek" target="karlgademann">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="michal_juricek" target="yongyang1207">
+      <data key="d1">42</data>
+    </edge>
+    <edge source="michal_juricek" target="juriceklab">
+      <data key="d1">64</data>
+    </edge>
+    <edge source="michal_juricek" target="hollandlab_">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="michal_juricek" target="tompastierik">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="michal_juricek" target="yujiawang8">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michal_juricek" target="lubergroup">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michal_juricek" target="uzh_science">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="michal_juricek" target="patriciacmelova">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="michal_juricek" target="bertoncesare">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michal_juricek" target="lab_adl">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="michal_juricek" target="uzh_ch">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="michal_juricek" target="rene_wick">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="michal_juricek" target="cuestagalisteo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="yongyang1207" target="michal_juricek">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="yongyang1207" target="juriceklab">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="yongyang1207" target="uzh_chemistry">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="juriceklab" target="michal_juricek">
+      <data key="d1">33</data>
+    </edge>
+    <edge source="juriceklab" target="yongyang1207">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="juriceklab" target="uzh_science">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="juriceklab" target="uzh_chemistry">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="tompastierik" target="juriceklab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="tompastierik" target="michal_juricek">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="patriciacmelova" target="michal_juricek">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lab_adl" target="uzh_chemistry">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="rene_wick" target="michal_juricek">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="manasimuglikar" target="davsca1">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="wysszurich" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="wysszurich" target="grantsaccess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="artscience_uzh" target="graduatecampus">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="crsuzh" target="graduatecampus">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="crsuzh" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="crsuzh" target="uzh_glk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="crsuzh" target="reinhardfurrer">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="crsuzh" target="langer_nicolas">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="grantsaccess" target="intlaw_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="grantsaccess" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="grantsaccess" target="wysszurich">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="grantsaccess" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="grantsaccess" target="eiz_zurich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="grantsaccess" target="uzh_vetsuisse">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="grantsaccess" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="grantsaccess" target="stefwalter__">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="grantsaccess" target="uzh_res_funding">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="grantsaccess" target="graduatecampus">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ibme" target="rasitavinay">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ibme" target="uzh_cmh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ibme" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="uzh_ibme" target="uzh_h2r">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ibme" target="uzhalumni">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ibme" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_ibme" target="vauz_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ibme" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_ibme" target="krauthammerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="annebrenoe" target="econ_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="annebrenoe" target="dinapomeranz">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="niconeureiter" target="uzh_spur">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="niconeureiter" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_cmh" target="uzhalumni">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_cmh" target="graduatecampus">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_cmh" target="uzh_ch">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="uzh_cmh" target="uzh_ibme">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="uzh_cmh" target="uzh_science">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_cmh" target="uzh_h2r">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="stefwalter__" target="ipz_ch">
+      <data key="d1">72</data>
+    </edge>
+    <edge source="stefwalter__" target="karstendonnay">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="stefwalter__" target="uzh_ch">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="stefwalter__" target="dinapomeranz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="stefwalter__" target="siljahausermann">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="stefwalter__" target="eszter">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dat_italian_boo" target="moritzdaum">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="wenzl_florian" target="cmc_uzh">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="wenzl_florian" target="kralersimon">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="wenzl_florian" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cmc_uzh" target="wenzl_florian">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="cmc_uzh" target="kralersimon">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="cmc_uzh" target="uzh_science">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="kralersimon" target="cmc_uzh">
+      <data key="d1">24</data>
+    </edge>
+    <edge source="kralersimon" target="uzh_science">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="kralersimon" target="wenzl_florian">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="r_camaraleret" target="uzh_science">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="r_camaraleret" target="ingridolivaresa">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ingridolivaresa" target="r_camaraleret">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="ingridolivaresa" target="pimientoc">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ingridolivaresa" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="silke_fuerst" target="uzh_chess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="silke_fuerst" target="sabrinakessler">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="silke_fuerst" target="foeguzh">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="silke_fuerst" target="uzh_ikmz">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="silke_fuerst" target="eddahumprecht">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="silke_fuerst" target="mark_eisenegger">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="silke_fuerst" target="dnvglr">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="silke_fuerst" target="katja_rost">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="silke_fuerst" target="julianelischka">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="silke_fuerst" target="uzh_glk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="silke_fuerst" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_chess" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="uzh_chess" target="dompetko">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_chess" target="sophia_c_volk">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_chess" target="uzh_ikmz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_chess" target="katja_rost">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_chess" target="silke_fuerst">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_chess" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_chess" target="sociology_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sabrinakessler" target="eddahumprecht">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="sabrinakessler" target="uzh_ikmz">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="sabrinakessler" target="surveyacademics">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sabrinakessler" target="silke_fuerst">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="sabrinakessler" target="foeguzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sabrinakessler" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sabrinakessler" target="bovetalexandre">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sabrinakessler" target="meierjulia2">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sabrinakessler" target="eszter">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sabrinakessler" target="jaellefuchs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sabrinakessler" target="julianelischka">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dnvglr" target="foeguzh">
+      <data key="d1">52</data>
+    </edge>
+    <edge source="dnvglr" target="uzh_ikmz">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="dnvglr" target="itsl_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dnvglr" target="mark_eisenegger">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="dnvglr" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="dnvglr" target="eddahumprecht">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="dnvglr" target="sabrinakessler">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dnvglr" target="silke_fuerst">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="dnvglr" target="astaender">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dnvglr" target="nadinestrauss">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="dnvglr" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julianelischka" target="astaender">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julianelischka" target="eddahumprecht">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="julianelischka" target="silke_fuerst">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julianelischka" target="annisch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julianelischka" target="uzh_ikmz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="julianelischka" target="nadinestrauss">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julianelischka" target="stefwalter__">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julianelischka" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="iurisconsensus" target="chelveticum">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="iurisconsensus" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="chelveticum" target="uzh_science">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="chelveticum" target="uschibackes">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="chelveticum" target="uzh_h2r">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="chelveticum" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="rebeccaoester" target="altermatt_lab">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="rebeccaoester" target="rosiecblackman">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="rosiecblackman" target="rebeccaoester">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="rosiecblackman" target="altermatt_lab">
+      <data key="d1">31</data>
+    </edge>
+    <edge source="rosiecblackman" target="uzh_gcb">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="juditmm_" target="dompetko">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="juditmm_" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="j_vamvas" target="ricosennrich">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="j_vamvas" target="1uc4r0">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="j_vamvas" target="itsl_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="j_vamvas" target="bricksdont">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bricksdont" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bricksdont" target="ricosennrich">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="bricksdont" target="ximgutierrez">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="arios272" target="ricosennrich">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="arios272" target="bricksdont">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="noeminaepli" target="ricosennrich">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="c_balbi90" target="cmc_uzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="axonsalex" target="uzh_science">
+      <data key="d1">34</data>
+    </edge>
+    <edge source="philipphoman" target="stehoman">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="stehoman" target="philipphoman">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="stehoman" target="mmarciniaq">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sennjulien" target="dinapomeranz">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="sennjulien" target="econ_uzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="sennjulien" target="alterelim">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="alterelim" target="michaelblanga">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="anacostaramon" target="jacobscenteruzh">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="anacostaramon" target="econ_uzh">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="anacostaramon" target="annebrenoe">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="anacostaramon" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="anacostaramon" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="d_burgherr" target="michaelaslotwi1">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="d_burgherr" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michaelaslotwi1" target="anacostaramon">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michaelaslotwi1" target="annebrenoe">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lbernhard21" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="l_hugentobler" target="eddahumprecht">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mariehelenesp" target="feministischius">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="mariehelenesp" target="alicemargaria">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="mariehelenesp" target="uzh_h2r">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="feministischius" target="mariehelenesp">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="feministischius" target="alicemargaria">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="feministischius" target="meierjulia2">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="feministischius" target="uzh_ch">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="feministischius" target="uzh_h2r">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="feministischius" target="uzh_glk">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="feministischius" target="vsuzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="alicemargaria" target="feministischius">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="alicemargaria" target="mariehelenesp">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="alicemargaria" target="uzh_h2r">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="danijaradent" target="eszter">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="danijaradent" target="julianelischka">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="danijaradent" target="jaellefuchs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="eszter" target="danijaradent">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eszter" target="uzh_ikmz">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="eszter" target="mark_eisenegger">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="eszter" target="antonfedosov">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eszter" target="minh_hao">
+      <data key="d1">25</data>
+    </edge>
+    <edge source="eszter" target="jaellefuchs">
+      <data key="d1">33</data>
+    </edge>
+    <edge source="eszter" target="stefwalter__">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eszter" target="karstendonnay">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="eszter" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="eszter" target="ipz_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eszter" target="dsi_democracy">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="eszter" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ulrich__kaiser" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="ulrich__kaiser" target="stefwalter__">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ulrich__kaiser" target="rogerstupf">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="nicopmat" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="nicopmat" target="schwanklab">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="jingganglan" target="vladimir_rybkin">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="vladimir_rybkin" target="giacomo_melani">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="vladimir_rybkin" target="jingganglan">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="vladimir_rybkin" target="uzh_chemistry">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="oburogluleal" target="canals_lab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="canals_lab" target="oburogluleal">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="belengonzalez_s" target="enzonussio">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="enzonussio" target="stefwalter__">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="enzonussio" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mthallmair" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="mthallmair" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mthallmair" target="reinhardfurrer">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="shyamolinag" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="heblingvieira" target="langer_nicolas">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="langer_nicolas" target="heblingvieira">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="worldbioforum" target="uzh_gcb">
+      <data key="d1">13</data>
+    </edge>
+    <edge source="worldbioforum" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dominikmenges" target="uzh_ebpi">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="dominikmenges" target="lnaschmann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dominikmenges" target="agneulyte">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="dominikmenges" target="vasilis_nittas">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lnaschmann" target="dominikmenges">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lnaschmann" target="vasilis_nittas">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lnaschmann" target="agneulyte">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lnaschmann" target="uzh_ebpi">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="agneulyte" target="uzh_ebpi">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="agneulyte" target="lnaschmann">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="agneulyte" target="graduatecampus">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="agneulyte" target="dominikmenges">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julian_schaerer" target="econ_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="julian_schaerer" target="econgsw">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="julian_schaerer" target="maalsina">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="julian_schaerer" target="marlonazinovic">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="econgsw" target="marlonazinovic">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="econgsw" target="econ_uzh">
+      <data key="d1">19</data>
+    </edge>
+    <edge source="econgsw" target="julian_schaerer">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="econgsw" target="venturinimiri">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="econgsw" target="maalsina">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="maalsina" target="econgsw">
+      <data key="d1">25</data>
+    </edge>
+    <edge source="maalsina" target="econ_uzh">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="maalsina" target="venturinimiri">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="maalsina" target="marlonazinovic">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="maalsina" target="julian_schaerer">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="marlonazinovic" target="econ_uzh">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="marlonazinovic" target="maalsina">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="marlonazinovic" target="econgsw">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="marlonazinovic" target="dinapomeranz">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="marlonazinovic" target="julian_schaerer">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="appliedmicrobi2" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="danlifei" target="ipmb_postdocs">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="danlifei" target="vandeheijdenlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="granosimona" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="baslerlab" target="tewarysandipan">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="baslerlab" target="bahardgrmenci">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="baslerlab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="tewarysandipan" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="life_seminar">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="bahardgrmenci">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="jamie1little">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="tewarysandipan" target="axonsalex">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tewarysandipan" target="fabienne_br">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="bahardgrmenci" target="baslerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bahardgrmenci" target="jamie1little">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="raufdermauer" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="fdimitrioumd" target="cccz_usz">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="cccz_usz" target="dqbm_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="cccz_usz" target="bodenmillerlab">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="cccz_usz" target="uzh_ch">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="tocschlag" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jaellefuchs" target="eszter">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="jaellefuchs" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jaellefuchs" target="uzh_ikmz">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="jaellefuchs" target="uzh_ch">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="jaellefuchs" target="foeguzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="jaellefuchs" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jaellefuchs" target="dnvglr">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jaellefuchs" target="minh_hao">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="jaellefuchs" target="sociology_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jaellefuchs" target="eddahumprecht">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="jaellefuchs" target="astaender">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="jaellefuchs" target="mark_eisenegger">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dsi_democracy" target="karstendonnay">
+      <data key="d1">26</data>
+    </edge>
+    <edge source="dsi_democracy" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="dsi_democracy" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dsi_democracy" target="eszter">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dsi_democracy" target="ipz_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dsi_democracy" target="itsl_uzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="karstendonnay" target="stefwalter__">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="karstendonnay" target="ipz_ch">
+      <data key="d1">22</data>
+    </edge>
+    <edge source="karstendonnay" target="uzh_ch">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="karstendonnay" target="dsi_democracy">
+      <data key="d1">32</data>
+    </edge>
+    <edge source="karstendonnay" target="eszter">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="rogerstupf" target="priskafeichter">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="rogerstupf" target="uzh_ch">
+      <data key="d1">32</data>
+    </edge>
+    <edge source="rogerstupf" target="juerg11">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="rogerstupf" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="rogerstupf" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="rogerstupf" target="davoser">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="uzh_ch">
+      <data key="d1">60</data>
+    </edge>
+    <edge source="uzh_zrf" target="uzhalumni">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="uzh_zrf" target="uzh_digrel">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_zrf" target="vauz_uzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_zrf" target="uzh_chess">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_zrf" target="graduatecampus">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="uzh_zrf" target="uzh_president">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="vsuzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="tocschlag">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="evmed_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="feministischius">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_zrf" target="intlaw_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_zrf" target="meierjulia2">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="slienkamp" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="slienkamp" target="paulina_ogar">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="slienkamp" target="nccrkidneych">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="slienkamp" target="uzh_microscopy">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="slienkamp" target="karin_prummel">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="paulina_ogar" target="slienkamp">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="nccrkidneych" target="slienkamp">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="nccrkidneych" target="itinerare_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nccrkidneych" target="andrejafigurek">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_microscopy" target="slienkamp">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_microscopy" target="uzh_cytometry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="karin_prummel" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="karin_prummel" target="uzh_chemistry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="itsl_uzh" target="uzh_ch">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="itsl_uzh" target="foeguzh">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="itsl_uzh" target="mark_eisenegger">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="itsl_uzh" target="dnvglr">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="itsl_uzh" target="ikmzmediachange">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="itsl_uzh" target="uzh_ikmz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="itsl_uzh" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="itsl_uzh" target="dsi_democracy">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="rasitavinay" target="uzh_ibme">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="svenseuken" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sciencelabuzh" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hengzhangzh" target="worldbioforum">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="naefrahel" target="ifis_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="naefrahel" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_rlc" target="lorenzhilty">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_rlc" target="gesinekruger">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="gesinekruger" target="uzh_rlc">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="gesinekruger" target="lorenzhilty">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="gesinekruger" target="uzh_ch">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="gesinekruger" target="etue_">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="gesinekruger" target="tristanweddigen">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="gesinekruger" target="siljahausermann">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="gesinekruger" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="joh_wambui" target="muc_francis">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hartrampf_lab" target="karlgademann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hartrampf_lab" target="uzh_chemistry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="julia_mueller97" target="uzh_ikmz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="maraknuesel" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kimberleylemmen" target="altermatt_lab">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="kimberleylemmen" target="adr_stefan">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kimberleylemmen" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="kimberleylemmen" target="pennekampster">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="adr_stefan" target="lmoncadas">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="adr_stefan" target="ipmb_postdocs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pennekampster" target="kimberleylemmen">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="pennekampster" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="pennekampster" target="stefanlupold">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pennekampster" target="altermatt_lab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pennekampster" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pennekampster" target="uzh_gcb">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="pennekampster" target="adr_stefan">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kroll_saraliane" target="uzh_ch">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="djuscor" target="krauthammerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="djuscor" target="dqbm_uzh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uschibackes" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="brotibiswas" target="uzh_evolution">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="brotibiswas" target="tobiaszuest">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="brotibiswas" target="stefanlupold">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="brotibiswas" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="brotibiswas" target="andenardo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="stefanlupold" target="uzh_science">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="stefanlupold" target="andenardo">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="stefanlupold" target="abhi_evo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="stefanlupold" target="dqbm_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="stefanlupold" target="uzh_evolution">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="stefanlupold" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="andenardo" target="stefanlupold">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lhcbzurich1" target="gino06004284">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mt_schultes" target="ifis_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mt_schultes" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hypnos8320" target="sj_schreiner">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="hypnos8320" target="uzh_shz">
+      <data key="d1">44</data>
+    </edge>
+    <edge source="hypnos8320" target="uzh_ch">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="hypnos8320" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="hypnos8320" target="uzh_ipt">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sj_schreiner" target="uzh_shz">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="uzh_shz" target="hypnos8320">
+      <data key="d1">21</data>
+    </edge>
+    <edge source="uzh_shz" target="uzh_ipt">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="uzh_shz" target="uzh_de">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_shz" target="sj_schreiner">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_shz" target="uzh_news">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="uzh_ipt" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="anto_pede" target="evmed_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="anto_pede" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="anto_pede" target="grantsaccess">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="anto_pede" target="uzh_evolution">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="anto_pede" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="1uc4r0" target="csarasuagar">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="1uc4r0" target="j_vamvas">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="csarasuagar" target="dsi_democracy">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fbeuschlein" target="uzh_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="fbeuschlein" target="cccz_usz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="fbeuschlein" target="itinerare_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="fbeuschlein" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fbeuschlein" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fbeuschlein" target="c_miletta">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="fbeuschlein" target="nccrkidneych">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fbeuschlein" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="c_miletta" target="fbeuschlein">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="c_miletta" target="grantsaccess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ashaitar" target="j_vamvas">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ashaitar" target="ricosennrich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ximgutierrez" target="ashaitar">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="ximgutierrez" target="uzh_spur">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="ximgutierrez" target="bricksdont">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ximgutierrez" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_spur" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_spur" target="ximgutierrez">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_spur" target="ashaitar">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_spur" target="winexped">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sophia_c_volk" target="uzh_chess">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sophia_c_volk" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sophia_c_volk" target="uzh_ikmz">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="sophia_c_volk" target="mark_eisenegger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="suxin3" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="suxin3" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="isabel__hagen" target="eclim_">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="isabel__hagen" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="isabel__hagen" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="isabel__hagen" target="randymunoz31">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="randymunoz31" target="uzh_geo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="randymunoz31" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="randymunoz31" target="eclim_">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="hannahilbrandt" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kunqi_wang" target="tobiaszuest">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="kunqi_wang" target="uzh_evolution">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="life_seminar" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vittoriostumpo_" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="elenabarle" target="siaf_uzh">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="omniaabdo_ph" target="_leahkaye">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="omniaabdo_ph" target="uzh_spur">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="omniaabdo_ph" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="omniaabdo_ph" target="evocoggroup">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="omniaabdo_ph" target="vickyloras">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="_leahkaye" target="omniaabdo_ph">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="pkschweizer" target="siljahausermann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mikadolab" target="itinerare_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="natiperezca" target="mjsantos_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lorenacasasola5" target="uzh_chemistry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="intlaw_uzh" target="johannes_reich">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="intlaw_uzh" target="meierjulia2">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="intlaw_uzh" target="eiz_zurich">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="intlaw_uzh" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="intlaw_uzh" target="grantsaccess">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="johannes_reich" target="uzh_ch">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="johannes_reich" target="intlaw_uzh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="johannes_reich" target="karlgademann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="johannes_reich" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="johannes_reich" target="meierjulia2">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="johannes_reich" target="uzhalumni">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="meierjulia2" target="feministischius">
+      <data key="d1">41</data>
+    </edge>
+    <edge source="meierjulia2" target="uzh_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="meierjulia2" target="johannes_reich">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="meierjulia2" target="intlaw_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="meierjulia2" target="dinapomeranz">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="nikhilphaniraj" target="evocoggroup">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="evocoggroup" target="nikhilphaniraj">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="evocoggroup" target="simonwtownsend">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="evocoggroup" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="obukhovanatalia" target="antonfedosov">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="obukhovanatalia" target="uzh_ifi">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="antonfedosov" target="obukhovanatalia">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="antonfedosov" target="uzh_ifi">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="antonfedosov" target="eszter">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="antonfedosov" target="uzh_blockchain">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="babettewinter10" target="kroll_saraliane">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="babettewinter10" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vivmantovani" target="kathelijnekoops">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vivmantovani" target="evmed_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kathelijnekoops" target="uzh_science">
+      <data key="d1">27</data>
+    </edge>
+    <edge source="kathelijnekoops" target="evocoggroup">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="kathelijnekoops" target="thenudeape">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lmoncadas" target="ipmb_postdocs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="lmoncadas" target="adr_stefan">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lmoncadas" target="uzhspacehub">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dylan_bastiaans" target="uzh_science">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="andrejafigurek" target="nccrkidneych">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="the_half_ling" target="simonwtownsend">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="babblingbirds" target="simonwtownsend">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="captcoma" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="samsrappaz" target="bricksdont">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="appliedmicrobi2">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="uzh_vetsuisse">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="cliniczoo">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="hollandlab_">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="uzh_chemistry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="m_n_inderbinen" target="muc_francis">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="simrantinani" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="_elifaskin" target="intlaw_uzh">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="_elifaskin" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="_elifaskin" target="meierjulia2">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="weijia_zhong" target="djuscor">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="weijia_zhong" target="bioentrepreneu3">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="weijia_zhong" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="weijia_zhong" target="bodenmillerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bioentrepreneu3" target="wysszurich">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="bioentrepreneu3" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bzamanlooy" target="svenseuken">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="bzamanlooy" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ermannom42" target="paul_tdl">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="paul_tdl" target="bodenmillerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="paul_tdl" target="lab_arnold">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="isik__tuncay" target="uzh_chemistry">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="dh_grundig" target="uzh_ch">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="dh_grundig" target="fkraeutli">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="dh_grundig" target="tristanweddigen">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="dh_grundig" target="transitlives">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fkraeutli" target="tristanweddigen">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="fkraeutli" target="thomashaensli">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="tristanweddigen" target="fkraeutli">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="tristanweddigen" target="thomashaensli">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="tristanweddigen" target="dh_grundig">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="tristanweddigen" target="neguerueladario">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="tristanweddigen" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kynan_eng" target="davsca1">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="aiman_saab" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michaelblanga" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="michaelblanga" target="alterelim">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jamie1little" target="tewarysandipan">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="jamie1little" target="baslerlab">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="jamie1little" target="fabienne_br">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="fabienne_br" target="baslerlab">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="fonse_seb" target="uzh_ibme">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="fonse_seb" target="gesinekruger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fonse_seb" target="yitangl1">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mogino37" target="evogom">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="leainaschneider" target="intlaw_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="leainaschneider" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="nadinestrauss" target="annisch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="nadinestrauss" target="uzh_ikmz">
+      <data key="d1">56</data>
+    </edge>
+    <edge source="nadinestrauss" target="eszter">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="nadinestrauss" target="eddahumprecht">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nadinestrauss" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nadinestrauss" target="sophia_c_volk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nadinestrauss" target="mark_eisenegger">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="annisch" target="nadinestrauss">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="annisch" target="uzh_ikmz">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="annisch" target="dsi_democracy">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="annisch" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="annisch" target="eddahumprecht">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="thomashaensli" target="fkraeutli">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="thomashaensli" target="tristanweddigen">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="chloepasin" target="atrkola">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="chloepasin" target="uzh_virology">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="chloepasin" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="chloepasin" target="irene_abela">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="irene_abela" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="irene_abela" target="atrkola">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="irene_abela" target="uzh_virology">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="irene_abela" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="irene_abela" target="chloepasin">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vgarcianavas" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="lrieble" target="vauz_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="abhi_evo" target="uzh_evolution">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="abhi_evo" target="stefanlupold">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="abhi_evo" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="abhi_evo" target="andenardo">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="abhi_evo" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="abhi_evo" target="uzh_science">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_crsa" target="econ_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="neguerueladario" target="tristanweddigen">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="fatimabenitezr" target="tewarysandipan">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="gianlucasaetta" target="hypnos8320">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kirankappeler" target="ikmzmediachange">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="kirankappeler" target="uzh_ikmz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="kirankappeler" target="mark_eisenegger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="joel_luethi" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="joel_luethi" target="graduatecampus">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="joel_luethi" target="dinapomeranz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="joel_luethi" target="vauz_uzh">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="joel_luethi" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="joel_luethi" target="uzhalumni">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="joel_luethi" target="lifesciencezh">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="dr_immunoman_d" target="paul_tdl">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="dr_immunoman_d" target="sarahmundt5">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_democracy" target="ipz_ch">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="uzh_democracy" target="dsi_democracy">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="astaender" target="annisch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="astaender" target="eddahumprecht">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="astaender" target="foeguzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="astaender" target="ikmzmediachange">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="astaender" target="uzh_ikmz">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="astaender" target="dnvglr">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="astaender" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="astaender" target="nadinestrauss">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="raffaellagallo_" target="joel_luethi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="antoniavelicu" target="surveyacademics">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="antoniavelicu" target="juliajerke">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="antoniavelicu" target="sociology_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="antoniavelicu" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="antoniavelicu" target="_tabeameier">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="surveyacademics" target="juliajerke">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="surveyacademics" target="antoniavelicu">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="surveyacademics" target="sociology_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="surveyacademics" target="sabrinakessler">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="juliajerke" target="antoniavelicu">
+      <data key="d1">20</data>
+    </edge>
+    <edge source="juliajerke" target="surveyacademics">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="juliajerke" target="sociology_uzh">
+      <data key="d1">9</data>
+    </edge>
+    <edge source="juliajerke" target="uzh_glk">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="juliajerke" target="julianelischka">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="madhusudhannaik" target="uzh_chemistry">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="mmarciniaq" target="crsuzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="mmarciniaq" target="moritzdaum">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="apopescu99" target="dinapomeranz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="a_schorn" target="uzh_ikmz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="a_schorn" target="nadinestrauss">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="svenjamarfurt" target="krutzenmichael">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="maitedeambrosi" target="venturinimiri">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="herren_anna" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="mervisyigit" target="fabivf90">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="silviadecadri" target="stefwalter__">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzhalumni">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzh_ch">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="simonahuwiler" target="appliedmicrobi2">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzh_science">
+      <data key="d1">17</data>
+    </edge>
+    <edge source="simonahuwiler" target="dqbm_uzh">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzh_res_funding">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="seegerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="krauthammerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="bodenmillerlab">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="graduatecampus">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzh_evolution">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="altermatt_lab">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="ipmb_postdocs">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="simonahuwiler" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="simonahuwiler" target="lifesciencezh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="flaviamller10" target="meyer_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pimientoc" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pimientoc" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="pimientoc" target="ingridolivaresa">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="stefangroth" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="minh_hao" target="eszter">
+      <data key="d1">23</data>
+    </edge>
+    <edge source="minh_hao" target="jaellefuchs">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="minh_hao" target="uzh_ikmz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="minh_hao" target="nadinestrauss">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="minh_hao" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="minh_hao" target="mark_eisenegger">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nehmemelissa" target="hollandlab_">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nehmemelissa" target="uzh_chemistry">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="nehmemelissa" target="karlgademann">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="nehmemelissa" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nehmemelissa" target="michal_juricek">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="nehmemelissa" target="lorenacasasola5">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="nehmemelissa" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="verena_kufner" target="uzh_virology">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="verena_kufner" target="atrkola">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="imrg_uzh" target="uzh_blockchain">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="wiesenbergg" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="wiesenbergg" target="uzh_geo">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="wiesenbergg" target="giva_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="bovetalexandre" target="uzh_blockchain">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="violaasri" target="annebrenoe">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="violaasri" target="dinapomeranz">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="violaasri" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="violaasri" target="siljahausermann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="violaasri" target="ipz_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="amaothman" target="chr_messner">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="fede_breimaier" target="uzh_spur">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="gene_hop" target="uzh_evolution">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="gene_hop" target="ipmb_postdocs">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="altmeyerlab" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="caflischgroup" target="uzh_virology">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="yousefinarcis" target="jackpotente">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jackpotente" target="yousefinarcis">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="apanagopoulos_" target="altmeyerlab">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="apanagopoulos_" target="dqbm_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="juerg11" target="uzh_ch">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="priskafeichter" target="rogerstupf">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="priskafeichter" target="uzh_ch">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="priskafeichter" target="juerg11">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="priskafeichter" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="roeckechristina" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="roeckechristina" target="ek_geog">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="ek_geog" target="uzh_geo">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ek_geog" target="giva_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="ek_geog" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ek_geog" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ek_geog" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="verdeguerlab" target="cmc_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jrsure" target="dinapomeranz">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="jrsure" target="econ_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="vickyloras" target="omniaabdo_ph">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sback_" target="sealuzh">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="sback_" target="svenseuken">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sback_" target="eszter">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="beaehmann" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="amhaugg" target="langer_nicolas">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="amhaugg" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="amhaugg" target="mmarciniaq">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="cauawest" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="zyz_geo" target="giva_uzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="sindu_krishn" target="lab_arnold">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sindu_krishn" target="sarahmundt5">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="sindu_krishn" target="chschneider_phd">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="gilleskratzer" target="uzh_ebpi">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="gilleskratzer" target="dominikmenges">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_df" target="leippoldmarkus">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_df" target="stefbattiston">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="uzh_df" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="uzh_df" target="marcchesney">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="uzh_df" target="alexfwagner">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="andreafarnham" target="uzh_ebpi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="esibla85" target="lubergroup">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="esibla85" target="uzh_chemistry">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="esibla85" target="hollandlab_">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="esibla85" target="deviprasadas1">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="d_dagoz" target="diana13machado">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="d_dagoz" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="d_dagoz" target="graduatecampus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="d_dagoz" target="lifesciencezh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="d_dagoz" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="phillipstroebel" target="ashaitar">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="phillipstroebel" target="uzh_ch">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="phillipstroebel" target="dh_grundig">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="phillipstroebel" target="noeminaepli">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="phillipstroebel" target="uzh_science">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="compbiozurich" target="uzh_science">
+      <data key="d1">3</data>
+    </edge>
+    <edge source="casaout" target="svenseuken">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="casaout" target="sealuzh">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="patuzh" target="uzh_ikmz">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="child_trauma" target="moritzdaum">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="child_trauma" target="k_weltentdecker">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="child_trauma" target="jacobscenteruzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="child_trauma" target="uzh_ch">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="child_trauma" target="itinerare_uzh">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="sutterbalgrist" target="uzh_ch">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="davoser" target="rogerstupf">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="davoser" target="uzh_ch">
+      <data key="d1">2</data>
+    </edge>
+  </graph>
+</graphml>
