@@ -1,3 +1,22 @@
+# Introduction
+
+This is the README.md file of [this](https://github.com/nicolawitzig/applied-networks) GitHub Repository.
+
+This project reproduces and extends the empirical methodology from **Volk et. al. (2024), "The Plurivocal Society: Typologizing the diverse voices of a research university on social media"**, which maps the landscape of voices that speak publicly about a university. The paper introduces a voice typology — ranging from official institutional accounts to individual researchers, students, alumni, and external actors — and applies it to university communication on X/Twitter through manual content coding.
+
+Our work pursues three goals:
+
+1. **Reproduction on X/Twitter** — We re-implement the full pipeline for the University of Zurich (UZH), scraping follower accounts and tweets via [twscrape](https://github.com/vladkens/twscrape) and reproducing the paper's Tables 2–4 (voice distribution, interaction with official accounts, topic and tonality analysis) and the @mention network.
+
+2. **Extension via LLM classification** — Manual coding does not scale to tens of thousands of accounts. We replace it with a locally running large language model (`qwen3:14b` via [Ollama](https://ollama.com)) that reads each account's bio and tweets and assigns a voice type according to the same typology. This allows us to classify the full follower population (~26 000 accounts) instead of a manual sample, while keeping the process reproducible and auditable.
+
+3. **Extension to Reddit** — We additionally apply the voice typology to Reddit, using the [Arctic Shift](https://arctic-shift.photon-reddit.com) archive API to scrape ETH Zurich–related activity. This cross-platform comparison tests whether the voice landscape observed on X/Twitter is specific to that platform or reflects a broader pattern of university discourse online.
+
+The two pipelines are independent and documented separately below.
+
+---
+
+
 # X/Twitter Voice Typology Pipeline
 
 Reproduces and extends the Volk et al. (2024) university voice typology methodology ("The Plurivocal Society") using X/Twitter data scraped via [twscrape](https://github.com/vladkens/twscrape). The pipeline identifies who speaks about the University of Zurich (UZH) on X/Twitter, classifies their institutional role, and maps how they interact. An optional LLM-based categorisation path replaces rule-based heuristics with a locally running language model for improved accuracy on ambiguous accounts.
@@ -134,7 +153,9 @@ conda activate applied-networks
 
 # Reddit Voice Typology Pipeline
 
-Reproduces and extends the Volk et al. (2024) university voice typology methodology using Reddit data from the [Arctic Shift](https://arctic-shift.photon-reddit.com) archive API. The pipeline identifies who speaks about ETH Zurich on Reddit, classifies their institutional role, and maps how they interact.
+Reproduces and extends the Volk et al. (2024) university voice typology methodology using Reddit data from the [Arctic Shift](https://arctic-shift.photon-reddit.com) archive API. The pipeline identifies who speaks about ETH Zurich on Reddit, classifies their institutional role, and maps how they interact. 
+
+The corresponding code to this part can be found under the branch 'daniel'.
 
 ---
 
